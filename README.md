@@ -62,13 +62,29 @@ The output images are saved in a new directory. If the output directory doesn't 
 
 **Usage**: python scale_down_images.py [input_dir] [output_dir] [new_size]
 
-*input_dir*: The directory where the original images are located.
-*output_dir*: The directory where the output images will be saved.
+*input_dir*: The directory where the original images are located.  
+*output_dir*: The directory where the output images will be saved.  
 *new_size*: The desired size of the scaled down images, in the format "widthxheight".
 
 **Example**: python scale_down_images.py images/ scaled_down_images/ 128x128
 
 **Returns**: None
+
+### Parse '.wbs' file and convert to '.json' (utils/parse_wbs.py)
+
+This script reads a winbliss file and converts each line into a json structure,
+collecting all of these into an array. The json is printed to `stdout`
+
+**Usage**: python parse_wbs.py file_path [> output_file]
+
+*file_path*: Path to the `.wbs` file, which can be a relative path.  
+*output_file*: Optional redirect path to the `.json` file.  If not given, the
+JSON is printed to `stdout`.
+
+**Example**: python parse_wbs.py ./data/wbs/some_wbs_file.wb > output.json
+
+**Returns**: Status equal to zero if successful; equal to one if the command
+failed.
 
 ## Notebooks
 
