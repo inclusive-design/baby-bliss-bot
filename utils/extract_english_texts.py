@@ -1,9 +1,9 @@
 '''
 Firstly install tesseract-ocr: `sudo apt-get install tesseract-ocr` on Linux and `brew install tesseract` on Mac
 
-This script extract English texts from images. It loops through all images in the given directory, extract
-English texts for each image. The extracted texts for each image are saved in a txt file in the same filename
-and the same directory as the image.
+This script uses OCR to extract English texts from images. It loops through all images in the given directory, extract
+English texts from each image. The extracted texts are saved in a txt file in the same filename and the same
+directory as its corresponding image.
 
 Before extraction, the brightness of images are enhanced by the given enhance factor to increase the extraction
 accurance. If the factor is not provided, its default is 1.5. The experiment shows enhancing contrast and sharpness
