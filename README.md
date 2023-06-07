@@ -60,6 +60,25 @@ All utility functions are in `utils` directory.
 This script scales down JPG and PNG images in a directory to a specified size while maintaining their aspect ratios. 
 The output images are saved in a new directory. If the output directory doesn't exist, it will be created.
 
+**Prerequisite**: Firstly install [`tesseract-ocr`](https://github.com/tesseract-ocr/tesseract)
+* On Unix, run: `sudo apt-get install tesseract-ocr`
+* On Mac, run: `brew install tesseract` 
+
+**Usage**: python extrat_english_texts.py [source_image_dir] [lang_code] [enhance_factor]
+
+*source_image_path*: The path where images are
+*lang*: The language code of the language to be extracted. English is "eng"
+*enhance_factor*: The factor value to enhance image's brightness. If not provided, the defualt value is 1.5
+
+**Example**: python extrat_english_texts.py ~/Downloads/images eng 2
+
+**Returns**: None
+
+### Scale down images (utils/scale_down_images.py)
+
+This script scales down JPG and PNG images in a directory to a specified size while maintaining their aspect ratios. 
+The output images are saved in a new directory. If the output directory doesn't exist, it will be created.
+
 **Usage**: python scale_down_images.py [input_dir] [output_dir] [new_size]
 
 *input_dir*: The directory where the original images are located.
