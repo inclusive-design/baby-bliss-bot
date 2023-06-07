@@ -55,6 +55,30 @@ Run the following command to lint all python scripts:
 
 All utility functions are in `utils` directory.
 
+### Extract English Texts from Images (utils/extrat_english_texts.py)
+
+This script uses OCR to extract English texts from images. It loops through all images in the given directory, extract
+English texts from each image. The extracted texts are saved in a txt file in the same filename and the same
+directory as its corresponding image.
+
+Before extraction, the brightness of images are enhanced by the given enhance factor to increase the extraction
+accurance. If the factor is not provided, its default is 1.5. The experiment shows enhancing contrast and sharpness
+doesn't help.
+
+**Prerequisite**: Firstly install [`tesseract-ocr`](https://github.com/tesseract-ocr/tesseract)
+* On Unix, run: `sudo apt-get install tesseract-ocr`
+* On Mac, run: `brew install tesseract` 
+
+**Usage**: python extrat_english_texts.py [source_image_dir] [lang_code] [enhance_factor]
+
+*source_image_path*: The path where images are
+*lang*: The language code of the language to be extracted. English is "eng"
+*enhance_factor*: The factor value to enhance image's brightness. If not provided, the defualt value is 1.5
+
+**Example**: python extrat_english_texts.py ~/Downloads/images eng 2
+
+**Returns**: None
+
 ### Scale down images (utils/scale_down_images.py)
 
 This script scales down JPG and PNG images in a directory to a specified size while maintaining their aspect ratios. 
