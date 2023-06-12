@@ -55,6 +55,40 @@ Run the following command to lint all python scripts:
 
 All utility functions are in `utils` directory.
 
+### Search and Download PDFs and JP2 zip files from the Blissymbolics archive (utils/internet_archive_scrape.py)
+
+This script searches and downloads files from the [Blissymbolics collection](https://archive.org/details/blissymbolics)
+in the Internet Archive.  The [Archive Data Extraction Feasibility](https://docs.google.com/document/d/1i9W_IXHtaaoWJD9IMA4S0d9bbYdMaCWNJRSQtFbxEhI/edit#heading=h.jszt9hbxhtuf)
+document provides a five point rating scale of the archive's data in terms of how 
+useful it will be for training.  The script searches and downloads archive data with ratings of 2/5 and higher based on what is noted in the feasibility document.
+
+The script contains partial titles taken from the [Archive Data Extraction Feasibility](https://docs.google.com/document/d/1i9W_IXHtaaoWJD9IMA4S0d9bbYdMaCWNJRSQtFbxEhI/edit#heading=h.jszt9hbxhtuf) document. Each item in the Blissymbolics collection
+that matches a title is used to download any PDF and any zip file of JP2 images associated with that item.
+
+The PDF and zip files are downloaded to a subdirectory within the current directory.
+Each item's identifier is used to create a subdirectory whose name is the same as the identifier.  The item's PDF and JP2 zip file are downloaded to that subdirectory.
+
+Note that the downloader is smart enough not to download a file that was downloaded
+on a previous run.  It checks if the file has matching dates and sizes and, if so,
+does not download it again.  It instead reports that it is skipping that file.
+
+**Prerequisite**: This script depends on the Internet Archive's `internetarchive`
+python library.  It is recommended to first create and activate a virtual
+environment and then install the library, for example:
+
+```
+$ python -m venv IA_ENV
+$ source IA_ENV/bin/activate
+$ pip install internetarchive
+```
+Complete documentation for the library is available at [The Internet
+Archive Python Library](https://archive.org/developers/internetarchive/index.html) documentation site.
+
+**Usage**: python internet_archive_scrape.py
+
+**Returns**: None.  However, folders with names like `OTUED_8-2-1-9-1` are created,
+containing `OTUED_8-2-1-9-1.pdf` and `OTUED_8-2-1-9-1_jp2.zip` files.
+
 ### Scale down images (utils/scale_down_images.py)
 
 This script scales down JPG and PNG images in a directory to a specified size while maintaining their aspect ratios. 
