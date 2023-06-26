@@ -15,14 +15,14 @@ We are exploring the generation of new Bliss vocabulary using emerging AI techni
 
 ### Prerequisites
 
-* [Python 3](https://www.python.org/downloads/)
-  * Version 3.9+. On Mac, Homebrew is the easiest way to install.
+- [Python 3](https://www.python.org/downloads/)
+  - Version 3.9+. On Mac, Homebrew is the easiest way to install.
 
 ### Clone the Repository
 
-* Clone the project from GitHub. [Create a fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
-with your GitHub account, then run the following in your command line (make sure to replace `your-username` with
-your username):
+- Clone the project from GitHub. [Create a fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+  with your GitHub account, then run the following in your command line (make sure to replace `your-username` with
+  your username):
 
 ```bash
 git clone https://github.com/your-username/baby-bliss-bot
@@ -30,26 +30,29 @@ cd baby-bliss-bot
 ```
 
 ### Create/Activitate Virtual Environment
+
 Always activate and use the python virtual environment to maintain an isolated environment for project's dependencies.
 
-* [Create the virtual environment](https://docs.python.org/3/library/venv.html)
-  (one time setup): 
-  - `python -m venv .venv` 
+- [Create the virtual environment](https://docs.python.org/3/library/venv.html)
+  (one time setup):
 
-* Activate (every command-line session):
+  - `python -m venv .venv`
+
+- Activate (every command-line session):
   - Windows: `.\.venv\Scripts\activate`
   - Mac/Linux: `source .venv/bin/activate`
 
 ### Install Python Dependencies
 
 Run in the baby-bliss-bot directory:
-* `pip install -r requirements.txt`
+
+- `pip install -r requirements.txt`
 
 ## Linting
 
 Run the following command to lint all python scripts:
 
-* `flake8`
+- `flake8`
 
 ## Model Experiments
 
@@ -65,9 +68,13 @@ on how to train this model, training results and the conclusion about how useful
 
 ### Texture Inversion
 
-Concolusion: not useful 
+Concolusion: not useful
 
 See the [Texture Inversion documentation](./notebooks/README.md) for details.
+
+### CLIP Training
+
+See the [Clip Taining documentation](./docs/CLIP-Training.md) for details.
 
 ## Notebooks
 
@@ -76,10 +83,11 @@ Each notebook usually comes with a accompanying `dockerfile.yml` to elaborate th
 running in.
 
 ## Jobs
+
 [`/jobs`](./jobs/) directory contains all jobs used for training or fine-tuning various models.
 
 ## Utility Scripts
 
-All utility functions are in the [`utils`](./utils) directory. 
+All utility functions are in the [`utils`](./utils) directory.
 
 See [README.md](./utils/README.md) in the [`utils`](./utils) directory for details.
