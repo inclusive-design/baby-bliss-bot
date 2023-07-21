@@ -1,3 +1,8 @@
-Pillow
 flake8
+
+# An OCR module that extracts texts from images
+# It connects with the pre-installed app `tesseract-ocr`
 pytesseract
+
+# Used by all image processing scripts
+Pillow

@@ -51,51 +51,42 @@ Run the following command to lint all python scripts:
 
 * `flake8`
 
-## Utility Functions
+## Model Experiments
 
-All utility functions are in `utils` directory.
+We performed experiments with a number of existing models listed below to understand how useful they are in helping
+with generating new Bliss symbols etc.
 
-### Extract English Texts from Images (utils/extrat_english_texts.py)
+### StyleGAN3
 
-This script uses OCR to extract English texts from images. It loops through all images in the given directory, extract
-English texts from each image. The extracted texts are saved in a txt file in the same filename and the same
-directory as its corresponding image.
+Conclusion: not useful
 
-Before extraction, the brightness of images are enhanced by the given enhance factor to increase the extraction
-accurance. If the factor is not provided, its default is 1.5. The experiment shows enhancing contrast and sharpness
-doesn't help.
+See the [TrainStyleGAN3Model.md](./docs/TrainStyleGAN3Model.md) in the [documentation](./docs) folder for details
+on how to train this model, training results and the conclusion about how useful it is.
 
-**Prerequisite**: Firstly install [`tesseract-ocr`](https://github.com/tesseract-ocr/tesseract)
-* On Unix, run: `sudo apt-get install tesseract-ocr`
-* On Mac, run: `brew install tesseract` 
+### StyleGAN2-ADA
 
-**Usage**: python extrat_english_texts.py [source_image_dir] [lang_code] [enhance_factor]
+Conclusion: shows promise
 
-*source_image_path*: The path where images are
-*lang*: The language code of the language to be extracted. English is "eng"
-*enhance_factor*: The factor value to enhance image's brightness. If not provided, the defualt value is 1.5
+See the [StyleGAN2-ADATraining.md](./docs/StyleGAN2-ADATraining.md) in the [documentation](./docs) folder for details
+on how to train this model and training results.
 
-**Example**: python extrat_english_texts.py ~/Downloads/images eng 2
+### Texture Inversion
 
-**Returns**: None
+Conclusion: not useful 
 
-### Scale down images (utils/scale_down_images.py)
-
-This script scales down JPG and PNG images in a directory to a specified size while maintaining their aspect ratios. 
-The output images are saved in a new directory. If the output directory doesn't exist, it will be created.
-
-**Usage**: python scale_down_images.py [input_dir] [output_dir] [new_size]
-
-*input_dir*: The directory where the original images are located.
-*output_dir*: The directory where the output images will be saved.
-*new_size*: The desired size of the scaled down images, in the format "widthxheight".
-
-**Example**: python scale_down_images.py images/ scaled_down_images/ 128x128
-
-**Returns**: None
+See the [Texture Inversion documentation](./notebooks/README.md) for details.
 
 ## Notebooks
 
-[`/notebooks`](./notebooks/) directory contains all notebooks that are used to train or fine-tune various models.
+[`/notebooks`](./notebooks/) directory contains all notebooks used for training or fine-tuning various models.
 Each notebook usually comes with a accompanying `dockerfile.yml` to elaborate the environment that the notebook was
 running in.
+
+## Jobs
+[`/jobs`](./jobs/) directory contains all jobs used for training or fine-tuning various models.
+
+## Utility Scripts
+
+All utility functions are in the [`utils`](./utils) directory. 
+
+See [README.md](./utils/README.md) in the [`utils`](./utils) directory for details.

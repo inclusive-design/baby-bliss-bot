@@ -1,6 +1,6 @@
 # Notebooks
 
-This directory contains all notebooks that are used to train or fine-tune various models. Each notebook
+This directory contains all notebooks used for training or fine-tuning various models. Each notebook
 usually comes with a accompanying `dockerfile.yml` to elaborate the environment that the notebook was running in.
 
 ## Texture Inversion
@@ -15,3 +15,5 @@ section 1 needs to be filled in before running. If using other platforms, this s
 credential verification for that platform.
 
 `texture_inversion_dockerfile.yml`: the docker environment used for running this training.
+
+**Conclusion**: Texture inversion model is not useful in generating new Bliss symbols for brainstorming.
