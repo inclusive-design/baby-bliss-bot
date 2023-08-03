@@ -9,14 +9,14 @@ Before extraction, the brightness of images are enhanced by the given enhance fa
 accurance. If the factor is not provided, its default is 1.5. The experiment shows enhancing contrast and sharpness
 doesn't help.
 
-Usage: python extrat_english_texts.py source_image_path lang enhance_factor
+Usage: python extract_english_texts.py source_image_path lang enhance_factor
 Parameters:
   source_image_path: The path where images are
   lang: The language code of the language to be extracted. English is "eng"
   enhance_factor: The factor value to enhance image's brightness. If not provided, the defualt value is 1.5
 Return: None
 
-Example: python extrat_english_texts.py ~/Downloads/images eng 2
+Example: python extract_english_texts.py ~/Downloads/images eng 2
 '''
 
 import sys

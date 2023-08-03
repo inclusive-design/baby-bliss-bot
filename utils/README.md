@@ -89,7 +89,21 @@ Finally, all output images are saved in the specified output directory.
 
 **Return**: None
 
-## Extract English Texts from Images (utils/extrat_english_texts.py)
+## Convert a PDF File to Individual Images (utils/convert_pdf_pages_to_images.py)
+
+This script converts every single page in the given pdf file into individual images
+
+**Usage**: python convert_pdf_pages_to_images.py source_pdf_file output_image_folder
+Parameters:
+  source_pdf_file: The path to the pdf file is
+  output_image_folder: The directory that the converted images will be written into
+Return: None
+
+**Example**: python convert_pdf_pages_to_images.py ~/Downloads/icons.pdf ~/Downloads/bmw_images/
+
+**Returns**: None
+
+## Extract English Texts from Images (utils/extract_english_texts.py)
 
 This script uses OCR to extract English texts from images. It loops through all images in the given directory, extract
 English texts from each image. The extracted texts are saved in a txt file in the same filename and the same
@@ -103,12 +117,80 @@ doesn't help.
 * On Unix, run: `sudo apt-get install tesseract-ocr`
 * On Mac, run: `brew install tesseract` 
 
-**Usage**: python extrat_english_texts.py [source_image_dir] [lang_code] [enhance_factor]
+**Usage**: python extract_english_texts.py [source_image_dir] [lang_code] [enhance_factor]
 
 *source_image_path*: The path where images are
 *lang*: The language code of the language to be extracted. English is "eng"
 *enhance_factor*: The factor value to enhance image's brightness. If not provided, the defualt value is 1.5
 
-**Example**: python extrat_english_texts.py ~/Downloads/images eng 2
+**Example**: python extract_english_texts.py ~/Downloads/images eng 2
 
 **Returns**: None
+
+## Convert BMW encoding list into JSON (utils/convert_bmw_to_json.py)
+
+This script reads txt files that contain BMW encoding list from a directory and convert them into JSON.
+The script will report error when BCI-AV-ID for a text is not found or the target message is not found.
+At the end of execution, a set of texts that don't have the matching BCI-AV-ID will be summarized and
+reported.
+
+Errors will be written into the given error file. The converted JSON will be written into the given JSON file.
+
+These errors are reported:
+1. The length of icons in an encoding is less than 2 or longer than 4.
+2. The message conveyed by the encoding is not found. This is because the message should be in lower case
+   in the scanned document. When all texts are in upper case, this error is reported.
+
+**Usage**: python convert_bmw_to_json.py source_txt_path bliss_translation_json_location output_json_location output_error_location
+
+*source_txt_path*: The path where text files are
+*bliss_translation_json_location*: The location of the JSON file that contains the translation between Bliss
+BCI-AV-ID and its language translation
+*output_json_location*: The location of the output JSON file. If it doesn't exist, the script will create it
+*output_error_location*: The location of the error file that rows in input files not processed due to any error are written into
+
+**Example**: python convert_bmw_to_json.py ~/Downloads/bmw-text ../data/bliss_symbol_explanations.json bmw.json error.txt
+
+**Return**: None
+
+**File formats**
+
+1. The content of any .txt file in the `source_txt_path` directory
+```
+SAY THINK VERB+S talks
+SAY TO+VERB to say
+SAY VERB say
+```
+Using the first line `SAY THINK VERB+S talks` as an example, "SAY", "THINK" and "VERB+S" are three keys pressed on the
+keyboard. It delivers a message "talks".
+
+2. The generated JSON structure for BMW encoding is:
+```
+[
+    "encodings": {
+        "talked": {
+            "encoding": [
+                "SAY",
+                "THINK",
+                "VERB+ED"
+            ],
+            "bci-av-id": 123
+        }
+    ...
+    },
+     "word_to_id_map": {
+        "VERB": 12335,
+        "VERB+S": [12335, "/", 8499],
+        ...
+    }
+]
+```
+
+**Note** 
+
+Regarding values for BCI-AV-ID information, such as `encodings.talked.bci-av-id` and `word_to_id_map.VERB`
+can be an array if this Bliss symbol is composed by multiple symbols. The use of "/" or ";" means:
+* In the format of [12335, "/", 8499], the Bliss character 12335 and the Bliss character of 8499 are
+displayed side by side;
+* In the format of [12335, ";", 8499], the Bliss character 12335 and the indicator 8499 are displayed
+in the way that the indicator 8499 is on top of the the charactor 12355;
