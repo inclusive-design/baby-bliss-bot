@@ -1,13 +1,15 @@
 # Convert BMW Encoding to JSON Structure
 
-This document describes steps for converting digitalized BMW encoding documents to a JSON file
+This document describes steps for converting digitized BMW encoding documents to a JSON file
 that will serve as the foundation for implementing the BMW input method.
 
-BMW encoding documents are in PDF format. These PDFs are composed by digitalized images of orginal
-books. The coversio method is:
+BMW encoding documents are in PDF format. These PDFs are composed by digitized images of orginal
+books. The coversion method is:
 
-1. Split every single page in a PDF into .jpg files
-2. Use OCR library to extract texts from .jpg files
+1. Split each page in the PDF into its own .jpg file
+2. Use OCR library to extract texts from .jpg files. The OCR library extracts text from images
+into .txt files. See the documentation of [Extract English Texts from Images](/utils/README.md#extract-english-texts-from-images-utilsextract_english_textspy)
+for details
 3. Verify text files to correct missing or wrong texts
 4. Convert BMW encoding in text files into one single JSON file
 
@@ -19,13 +21,13 @@ All steps should be run in the `/utils` folder.
 cd utils
 ```
 
-1. Split every page of the PDF into an individual .jpg image.
+1. Split each page in the PDF into its own .jpg file
 
 ```
 python convert_pdf_pages_to_images.py ~/Downloads/icons.pdf ~/Downloads/bmw_images/
 ```
 
-2. Extract English texts from .jpg files and write into .txt files.
+2. Extract English texts from .jpg files and write into .txt files
 
 ```
 python extract_english_texts.py ~/Downloads/bmw_images/ eng

@@ -155,7 +155,7 @@ BCI-AV-ID and its language translation
 
 **File formats**
 
-1. The content of any .txt file in the `source_txt_path` directory
+1. Sample content of a .txt file in the `source_txt_path` directory
 ```
 SAY THINK VERB+S talks
 SAY TO+VERB to say
@@ -164,7 +164,7 @@ SAY VERB say
 Using the first line `SAY THINK VERB+S talks` as an example, "SAY", "THINK" and "VERB+S" are three keys pressed on the
 keyboard. It delivers a message "talks".
 
-2. The generated JSON structure for BMW encoding is:
+2. The generated JSON structure for the BMW encoding is:
 ```
 [
     "encodings": {
