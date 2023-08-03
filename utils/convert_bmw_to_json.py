@@ -74,12 +74,12 @@ import json
 # Running process_multiple_words_icon(["a", "ABS", "TIME", "b", "c"], 1, 2, ["ABS TIME"])
 # outputs ["a", "ABS TIME", "b", "c"]
 def process_multiple_words_icon(in_array, start_pos, end_pos, multiple_words_icons):
-    out_array = []
     joined_text = " ".join(in_array[start_pos:end_pos+1])
     if joined_text in multiple_words_icons:
         return in_array[0:start_pos] + [joined_text] + in_array[end_pos+1:]
     else:
         return in_array
+
 
 # The first a few columns have texts in upper case. The next
 # one or more columns have texts in lower case. These lower
@@ -97,7 +97,7 @@ def process_raw_encoding(line, multiple_words_icons):
         else:
             columns_out.append(' '.join(columns_in[index:]))
             break
-    
+
     # process icons composed by multiple words
     columns_out = process_multiple_words_icon(columns_out, 0, 1, multiple_words_icons)
     columns_out = process_multiple_words_icon(columns_out, 1, 2, multiple_words_icons)
@@ -133,7 +133,7 @@ def get_bliss_id(text, word_to_bci_av_id_map, explanation_json_data):
             return item["id"]
 
     return None
-                        
+
 
 # Provide the directory path as a parameter when running the script
 source_txt_path = sys.argv[1]
