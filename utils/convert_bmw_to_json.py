@@ -105,18 +105,6 @@ def process_raw_encoding(line, multiple_words_icons):
     return columns_out
 
 
-# # Search through bliss description JSON file to find the Bliss id for the input string
-# def find_id_in_explanation_json(input_string, json_data):
-#     input_string = input_string.lower()
-
-#     for item in json_data:
-#         descriptions = item["description"].lower().split(',')
-#         if input_string in descriptions:
-#             return item["id"]
-
-#     return None  # Return None if the string is not found in any "description" field
-
-
 # Find the Bliss id for the given text:
 # 1. Search through the given map first. If found, return id. Otherwise, continue the next step;
 # 2. Search through the explanation JSON file. If found, return id. Otherwise, return None.
@@ -274,5 +262,6 @@ if len(error_rows) > 0:
 else:
     print("No error detected.")
 
+# Report icons whose corresponding Bliss IDs are not found
 if len(missing_bliss_id_texts) > 0:
     print(f"Missing Bliss IDs for these texts: {missing_bliss_id_texts}")
