@@ -6,12 +6,23 @@ that will serve as the foundation for implementing the BMW input method.
 BMW encoding documents are in PDF format. These PDFs are composed by digitized images of orginal
 books. The coversion method is:
 
-1. Split each page in the PDF into its own .jpg file
+1. Split each page in the 
+[03 - ICON SORT.pdf](https://drive.google.com/file/d/1pxaTjymmVRcD0kJ15sZyuc9HEVHCK31F/view?usp=drive_link)
+into individual .jpg file
 2. Use OCR library to extract texts from .jpg files. The OCR library extracts text from images
 into .txt files. See the documentation of [Extract English Texts from Images](/utils/README.md#extract-english-texts-from-images-utilsextract_english_textspy)
-for details
-3. Verify text files to correct missing or wrong texts
-4. Convert BMW encoding in text files into one single JSON file
+for details. Verify text files to correct missing or wrong texts. These corrected text files are
+saved in the directory 
+[data/intermediate_BMW_conversion_data/bmw_texts](../data/intermediate_BMW_conversion_data/bmw_texts).
+Note: as the script extract the meaning part by looking for the first letter with lower case.
+Some meaning parts in the pdf start with upper case such as "TV", "I'm hungry". During the correction
+process, the first letter or all letters of this kind are changed to lower case in order to satisfying
+the script requirement. Since these changes should be reverted in the final JSON file, they are
+tracked in the file
+[data/intermediate_BMW_conversion_data/special_handling.txt](../data/intermediate_BMW_conversion_data/special_handling.txt).
+3. Convert BMW encoding in text files into one single JSON file
+4. Modify the JSON file to revert changes tracked in 
+[data/intermediate_BMW_conversion_data/special_handling.txt](../data/intermediate_BMW_conversion_data/special_handling.txt).
 
 ## Steps
 
@@ -21,7 +32,7 @@ All steps should be run in the `/utils` folder.
 cd utils
 ```
 
-1. Split each page in the PDF into its own .jpg file
+1. Split each page in the "03 - ICON SORT.pdf" into individual .jpg file
 
 ```
 python convert_pdf_pages_to_images.py ~/Downloads/icons.pdf ~/Downloads/bmw_images/
