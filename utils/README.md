@@ -141,10 +141,10 @@ These errors are reported:
 2. The message conveyed by the encoding is not found. This is because the message should be in lower case
    in the scanned document. When all texts are in upper case, this error is reported.
 
-**Usage**: python convert_bmw_to_json.py source_txt_path bliss_translation_json_location output_json_location output_error_location
+**Usage**: python convert_bmw_to_json.py source_txt_path bliss_explanation_json_location output_json_location output_error_location
 
 *source_txt_path*: The path where text files are
-*bliss_translation_json_location*: The location of the JSON file that contains the translation between Bliss
+*bliss_explanation_json_location*: The location of the JSON file that contains the translation between Bliss
 BCI-AV-ID and its language translation
 *output_json_location*: The location of the output JSON file. If it doesn't exist, the script will create it
 *output_error_location*: The location of the error file that rows in input files not processed due to any error are written into
@@ -194,3 +194,50 @@ can be an array if this Bliss symbol is composed by multiple symbols. The use of
 displayed side by side;
 * In the format of [12335, ";", 8499], the Bliss character 12335 and the indicator 8499 are displayed
 in the way that the indicator 8499 is on top of the the charactor 12355;
+
+
+## Fill in null BCI-AV-ID values for messages using SpaCy (utils/fill_in_null_bliss_id_with_spacy.py)
+
+This script reads bmw.json, find all messages that have null BCI-AV-ID values, use Spacy to parse and transform
+these messages to conceptual Bliss, then find their BCI-AV-IDs. This script handles messages in these formats:
+1. Verb in different form.
+For example: "begin", "to begin", "beginning", "began", "begun", "begins"  all share the same Bliss symbol of
+its infinitive form "begin".
+
+2. Plural nouns. 
+For example: "books" -> [book, ";", 9011].
+
+3. Subject + Pronoun. 
+For example: "I am" -> [I, be]
+"I were" -> [past_tense, I, be]
+"I will" -> [future_tense, I]
+"he isn't" -> [he, not, be]
+"isn't he" -> [question_mark, he, not, be]
+"should he" -> [question_mark, past_tense, he]
+"shouldn't he" -> [question_mark, past_tense, he, not]
+When the BCI-AV-ID for a word in the tranformed sentence cannot be found, an error will be reported.
+
+Note: The code for each case above should be uncommented and ran one by one. The result from each run should be
+checked carefully to ensure its correctness.
+
+**Usage**: python fill_in_null_bliss_id_with_spacy.py source_bmw_path bliss_explanation_json_location output_bmw_path
+
+*source_bmw_path*: The path where bmw.json is
+*bliss_explanation_json_location*: The location of the JSON file that contains the translation between Bliss
+BCI-AV-ID and its language translation
+*output_bmw_path*: The path of the output BMW file
+
+**Example**: python fill_in_null_bliss_id_with_spacy.py ../data/bmw.json ../data/bliss_symbol_explanations.json ../data/bmw-new.json
+
+**Return**: None
+
+## Find messages with null BCI-AV-ID values (utils/find_null_ids.py)
+
+Loops through bmw.json and reports all messages whose BCI-AV-ID is null.
+
+**Usage**: python find_null_ids.py source_bmw_path
+*source_bmw_path*: The path where bmw.json is
+
+**Example**: python find_null_ids.py ../data/bmw.json
+
+**Return**: None

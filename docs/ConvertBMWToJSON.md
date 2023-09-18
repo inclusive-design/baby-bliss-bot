@@ -21,8 +21,11 @@ the script requirement. Since these changes should be reverted in the final JSON
 tracked in the file
 [data/intermediate_BMW_conversion_data/special_handling.txt](../data/intermediate_BMW_conversion_data/special_handling.txt).
 3. Convert BMW encoding in text files into one single JSON file
-4. Modify the JSON file to revert changes tracked in 
+4. Mannually modify the JSON file to revert changes tracked in 
 [data/intermediate_BMW_conversion_data/special_handling.txt](../data/intermediate_BMW_conversion_data/special_handling.txt).
+5. Run a script to loop through the JSON file, find messages with null BCI-AV-IDs, parse and transform
+every message to conceptual Bliss, then compose BCI-AV-ID based on the transformed message.
+6. Manually fill in the rest messages that have null BCI-AV-IDs.
 
 ## Steps
 
@@ -54,5 +57,20 @@ python convert_bmw_to_json.py ~/Downloads/bmw_texts/ ../data/bliss_symbol_explan
 
 The converted JSON file is at `../data/bmw.json`. Errors are written into `../data/error.json`. Based on the
 information in the error file, correct errors and re-run the script until there isn't any error.
+
+4. Mannually modify the JSON file to revert changes tracked in 
+[data/intermediate_BMW_conversion_data/special_handling.txt](../data/intermediate_BMW_conversion_data/special_handling.txt).
+
+5. Fill in BCI-AV-IDs for messages that have null BCI-AV-IDs
+
+```
+python fill_in_null_bliss_id_with_spacy.py ../data/bmw.json ../data/bliss_symbol_explanations.json ../data/bmw-new.json
+```
+
+At step 5, run this command for finding messages that still have null BCI-AV-IDs:
+
+```
+python find_null_ids.py ../data/bmw.json
+```
 
 See [`utils/README.md`](../utils/README.md) for details about scripts used above.

@@ -11,10 +11,10 @@ These errors are reported:
 2. The message conveyed by the encoding is not found. This is because the message should be in lower case
    in the scanned document. When all texts are in upper case, this error is reported.
 
-Usage: python convert_bmw_to_json.py source_txt_path bliss_translation_json_location output_json_location output_error_location
+Usage: python convert_bmw_to_json.py source_txt_path bliss_explanation_json_location output_json_location output_error_location
 Parameters:
   source_txt_path: The path where text files are
-  bliss_translation_json_location: The location of the JSON file that contains the translation between Bliss
+  bliss_explanation_json_location: The location of the JSON file that contains the translation between Bliss
   BCI-AV-ID and its language translation
   output_json_location: The location of the output JSON file. If it doesn't exist, the script will create it
   output_error_location: The location of the error file that rows in input files not processed due to any error are written into
@@ -125,7 +125,7 @@ def get_bliss_id(text, word_to_bci_av_id_map, explanation_json_data):
 
 # Provide the directory path as a parameter when running the script
 source_txt_path = sys.argv[1]
-bliss_translation_json_location = sys.argv[2]
+bliss_explanation_json_location = sys.argv[2]
 output_json_location = sys.argv[3]
 output_error_location = sys.argv[4]
 
@@ -136,8 +136,8 @@ final_json = {
 error_rows = []
 
 # load bliss translation json file
-with open(bliss_translation_json_location, 'r') as file:
-    bliss_translation_json = json.load(file)
+with open(bliss_explanation_json_location, 'r') as file:
+    bliss_explanation_json = json.load(file)
 
 missing_bliss_id_texts = set()
 
@@ -220,7 +220,7 @@ for filename in os.listdir(source_txt_path):
                     if text.isupper():
                         # the encoding of bliss symbol texts should be in upper case
                         encoding_ids.append(text)
-                        bliss_id = get_bliss_id(text, final_json["word_to_id_map"], bliss_translation_json)
+                        bliss_id = get_bliss_id(text, final_json["word_to_id_map"], bliss_explanation_json)
                         if bliss_id is None:
                             # report the error when a BCI-AV-ID is not found
                             print(f"Error: line {line_number} in {filename} with content '{line}' - The Bliss id for '{text}' is not found.")
@@ -245,7 +245,7 @@ for filename in os.listdir(source_txt_path):
                     if message not in final_json["encodings"]:
                         final_json["encodings"][message] = {}
                     final_json["encodings"][message]["encoding"] = encoding_ids
-                    bliss_id = get_bliss_id(message, final_json["word_to_id_map"], bliss_translation_json)
+                    bliss_id = get_bliss_id(message, final_json["word_to_id_map"], bliss_explanation_json)
                     final_json["encodings"][message]["bci-av-id"] = int(bliss_id) if isinstance(bliss_id, str) else bliss_id
 
 # Write the JSON into a file
