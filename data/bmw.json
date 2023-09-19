@@ -135,7 +135,29 @@
                 "HELP",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8486
+            ]
         },
         "persons": {
             "encoding": [
@@ -232,7 +254,11 @@
                 "HELP",
                 "WHAT"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              12321,
+              "/",
+              18245
+            ]
         },
         "building": {
             "encoding": [
@@ -337,7 +363,15 @@
                 "HOUSE",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8499,
+              ";",
+              8998,
+              "/",
+              8496,
+              "/",
+              8486
+            ]
         },
         "inside": {
             "encoding": [
@@ -421,7 +455,7 @@
             ],
             "bci-av-id": [
                 12577,
-                "/",
+                ";",
                 9011
             ]
         },
@@ -1003,7 +1037,17 @@
                 "FURNITUR",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8486
+            ]
         },
         "chair": {
             "encoding": [
@@ -1120,7 +1164,11 @@
                 "FOOD",
                 "ABS TIME"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              25217,
+              "/",
+              17705
+            ]
         },
         "will he": {
             "encoding": [
@@ -1285,7 +1333,7 @@
                 "PUT",
                 "ABS TIME"
             ],
-            "bci-av-id": null
+            "bci-av-id": 15715
         },
         "will she": {
             "encoding": [
@@ -2858,7 +2906,15 @@
                 "JOURNEY",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              ";",
+              8998,
+              "/",
+              8503,
+              "/",
+              8486
+            ]
         },
         "to move": {
             "encoding": [
@@ -3094,7 +3150,15 @@
                 "IF",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8504,
+              "/",
+              8486
+            ]
         },
         "at": {
             "encoding": [
@@ -3735,7 +3799,15 @@
                 "LOVE",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              ";",
+              8998,
+              "/",
+              8505,
+              "/",
+              8486
+            ]
         },
         "comfortable": {
             "encoding": [
@@ -3958,7 +4030,15 @@
                 "NEAR",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8503,
+              ";",
+              8998,
+              "/",
+              8496,
+              "/",
+              8486
+            ]
         },
         "no": {
             "encoding": [
@@ -4003,28 +4083,74 @@
                 "NUMBER",
                 "AM/BE"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              "/",
+              8497
+            ]
         },
         "sixty": {
             "encoding": [
                 "NUMBER",
                 "BUT"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8502,
+              "/",
+              8496
+            ]
         },
         "forty": {
             "encoding": [
                 "NUMBER",
                 "CAN"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8500,
+              "/",
+              8496
+            ]
         },
         "trillion": {
             "encoding": [
                 "NUMBER",
                 "COMMUN."
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496
+            ]
         },
         "those": {
             "encoding": [
@@ -4045,14 +4171,22 @@
                 "NUMBER",
                 "DRESS"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8499,
+              "/",
+              8497
+            ]
         },
         "thirteen": {
             "encoding": [
                 "NUMBER",
                 "ELECTRIC"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              "/",
+              8499
+            ]
         },
         "three": {
             "encoding": [
@@ -4073,49 +4207,115 @@
                 "NUMBER",
                 "FORGIVE"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              "/",
+              8500
+            ]
         },
         "one hundred": {
             "encoding": [
                 "NUMBER",
                 "FURNITUR"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              "/",
+              8496,
+              "/",
+              8496
+            ]
         },
         "billion": {
             "encoding": [
                 "NUMBER",
                 "GIVE"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496
+            ]
         },
         "twenty-five": {
             "encoding": [
                 "NUMBER",
                 "GO"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              "/",
+              8501
+            ]
         },
         "twenty-six": {
             "encoding": [
                 "NUMBER",
                 "HAVE"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              "/",
+              8502
+            ]
         },
         "million": {
             "encoding": [
                 "NUMBER",
                 "HELP"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496
+            ]
         },
         "thirty": {
             "encoding": [
                 "NUMBER",
                 "HOUSE"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8499,
+              "/",
+              8496
+            ]
         },
         "go": {
             "encoding": [
@@ -4362,7 +4562,15 @@
                 "HAVE",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              ";",
+              8998,
+              "/",
+              8502,
+              "/",
+              8486
+            ]
         },
         "to own": {
             "encoding": [
@@ -4957,49 +5165,76 @@
                 "NUMBER",
                 "IF"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              8504
+            ]
         },
         "twenty-seven": {
             "encoding": [
                 "NUMBER",
                 "JOURNEY"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              "/",
+              8503
+            ]
         },
         "twenty-eight": {
             "encoding": [
                 "NUMBER",
                 "KING"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              "/",
+              8504
+            ]
         },
         "twenty-nine": {
             "encoding": [
                 "NUMBER",
                 "LOVE"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              "/",
+              8505
+            ]
         },
         "eighty": {
             "encoding": [
                 "NUMBER",
                 "MAYBE"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8504,
+              "/",
+              8496
+            ]
         },
-        "ninety:": {
+        "ninety": {
             "encoding": [
                 "NUMBER",
                 "MONEY"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8505,
+              "/",
+              8496
+            ]
         },
         "seventy": {
             "encoding": [
                 "NUMBER",
                 "NEAR"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8503,
+              "/",
+              8496
+            ]
         },
         "number": {
             "encoding": [
@@ -5024,7 +5259,11 @@
                 "NUMBER",
                 "OUTWORL"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              "/",
+              8505
+            ]
         },
         "third": {
             "encoding": [
@@ -5039,7 +5278,15 @@
                 "PART",
                 "NOUN"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              13382,
+              "/",
+              15742,
+              "/",
+              15972,
+              "/",
+              13382
+            ]
         },
         "fractions": {
             "encoding": [
@@ -5047,14 +5294,30 @@
                 "PART",
                 "NOUN PL."
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              13382,
+              "/",
+              15742,
+              ";",
+              9011,
+              "/",
+              15972,
+              "/",
+              13382
+            ]
         },
         "fifth": {
             "encoding": [
                 "WATER",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8501,
+              ";",
+              8998,
+              "/",
+              8486
+            ]
         },
         "half": {
             "encoding": [
@@ -5069,7 +5332,11 @@
                 "NUMBER",
                 "PAST"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              "/",
+              8496
+            ]
         },
         "seven": {
             "encoding": [
@@ -5083,7 +5350,11 @@
                 "NUMBER",
                 "QUIET"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              "/",
+              8497
+            ]
         },
         "one": {
             "encoding": [
@@ -5097,7 +5368,11 @@
                 "NUMBER",
                 "RELIGION"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              "/",
+              8500
+            ]
         },
         "four": {
             "encoding": [
@@ -5111,42 +5386,72 @@
                 "NUMBER",
                 "SAY"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496
+            ]
         },
         "twenty-two": {
             "encoding": [
                 "NUMBER",
                 "STOP"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              "/",
+              8498
+            ]
         },
         "fifteen": {
             "encoding": [
                 "NUMBER",
                 "THINK"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              "/",
+              8501
+            ]
         },
         "seventeen": {
             "encoding": [
                 "NUMBER",
                 "UMBRELLA"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              "/",
+              8503
+            ]
         },
         "fifty": {
             "encoding": [
                 "NUMBER",
                 "VALUE"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8501,
+              "/",
+              8496
+            ]
         },
         "twelve": {
             "encoding": [
                 "NUMBER",
                 "WANT"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              "/",
+              8498
+            ]
         },
         "five": {
             "encoding": [
@@ -5181,7 +5486,11 @@
                 "NUMBER",
                 "YOUNG"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              "/",
+              8502
+            ]
         },
         "zero": {
             "encoding": [
@@ -5500,7 +5809,15 @@
                 "GO",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              ";",
+              8998,
+              "/",
+              8501,
+              "/",
+              8486
+            ]
         },
         "from": {
             "encoding": [
@@ -5738,7 +6055,13 @@
                 "WATER",
                 "NOUN"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8486,
+              "/",
+              8496,
+              "/",
+              8501
+            ]
         },
         "nickles": {
             "encoding": [
@@ -5746,7 +6069,15 @@
                 "WATER",
                 "NOUN PL."
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8486,
+              "/",
+              8496,
+              ";",
+              9011,
+              "/",
+              8501
+            ]
         },
         "month": {
             "encoding": [
@@ -6086,7 +6417,15 @@
                 "WRITE",
                 "ADVERB"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              13382,
+              "/",
+              15673,
+              "/",
+              8498,
+              "/",
+              13382
+            ]
         },
         "possible": {
             "encoding": [
@@ -6175,7 +6514,15 @@
                 "MAYBE",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8504,
+              ";",
+              8998,
+              "/",
+              8496,
+              "/",
+              8486
+            ]
         },
         "perhaps": {
             "encoding": [
@@ -6257,7 +6604,13 @@
                 "ALSO",
                 "NOUN"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8486,
+              "/",
+              8497,
+              "/",
+              8496
+            ]
         },
         "dimes": {
             "encoding": [
@@ -6265,7 +6618,15 @@
                 "ALSO",
                 "NOUN PL."
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8486,
+              "/",
+              8497,
+              ";",
+              9011,
+              "/",
+              8496
+            ]
         },
         "to cost": {
             "encoding": [
@@ -6341,7 +6702,15 @@
                 "MONEY",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8505,
+              ";",
+              8998,
+              "/",
+              8496,
+              "/",
+              8486
+            ]
         },
         "penny": {
             "encoding": [
@@ -6349,7 +6718,13 @@
                 "PAST",
                 "NOUN"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8486,
+              "/",
+              8496,
+              "/",
+              8497
+            ]
         },
         "pennies": {
             "encoding": [
@@ -6357,7 +6732,15 @@
                 "PAST",
                 "NOUN PL."
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8486,
+              "/",
+              8496,
+              ";",
+              8998,
+              "/",
+              8497
+            ]
         },
         "glad": {
             "encoding": [
@@ -6472,7 +6855,37 @@
                 "GIVE",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8486
+            ]
         },
         "up": {
             "encoding": [
@@ -6777,7 +7190,15 @@
                 "AM/BE",
                 "TO+VERB"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              13382,
+              "/",
+              13152,
+              "/",
+              8521,
+              "/",
+              13382
+            ]
         },
         "adjust": {
             "encoding": [
@@ -6785,7 +7206,15 @@
                 "AM/BE",
                 "VERB"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              13382,
+              "/",
+              13152,
+              "/",
+              8521,
+              "/",
+              13382
+            ]
         },
         "adjusted": {
             "encoding": [
@@ -6793,7 +7222,15 @@
                 "AM/BE",
                 "VERB+ED"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              13382,
+              "/",
+              13152,
+              "/",
+              8521,
+              "/",
+              13382
+            ]
         },
         "adjusting": {
             "encoding": [
@@ -6801,7 +7238,15 @@
                 "AM/BE",
                 "VERB+ING"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              13382,
+              "/",
+              13152,
+              "/",
+              8521,
+              "/",
+              13382
+            ]
         },
         "adjusts": {
             "encoding": [
@@ -6809,7 +7254,17 @@
                 "AM/BE",
                 "VERB+S"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              13382,
+              "/",
+              13152,
+              ";",
+              9011,
+              "/",
+              8521,
+              "/",
+              13382
+            ]
         },
         "to bend": {
             "encoding": [
@@ -7141,7 +7596,21 @@
                 "PUT",
                 "INTERJ."
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              13382,
+              "/",
+              15653,
+              "/",
+              8487,
+              "/",
+              15918,
+              "/",
+              8487,
+              "/",
+              14947,
+              "/",
+              13382
+            ]
         },
         "Saturdays": {
             "encoding": [
@@ -7197,7 +7666,13 @@
                 "PUT",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8503,
+              ";",
+              8998,
+              "/",
+              8486
+            ]
         },
         "evening": {
             "encoding": [
@@ -7401,7 +7876,15 @@
                 "QUIET",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8497,
+              "/",
+              8486
+            ]
         },
         "musicians": {
             "encoding": [
@@ -7939,7 +8422,21 @@
                 "SAY",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8487,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8496,
+              "/",
+              8486
+            ]
         },
         "telephone": {
             "encoding": [
@@ -8683,7 +9180,15 @@
                 "ALSO",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8496,
+              "/",
+              8486
+            ]
         },
         "with": {
             "encoding": [
@@ -8772,7 +9277,15 @@
                 "RELIGION",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8500,
+              "/",
+              8486
+            ]
         },
         "belief": {
             "encoding": [
@@ -9023,7 +9536,13 @@
                 "REPEAT",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8500,
+              ";",
+              8998,
+              "/",
+              8486
+            ]
         },
         "between": {
             "encoding": [
@@ -9398,7 +9917,7 @@
                 "PUT",
                 "ABS TIME"
             ],
-            "bci-av-id": null
+            "bci-av-id": 17721
         },
         "are": {
             "encoding": [
@@ -9901,7 +10420,15 @@
                 "BUT",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8502,
+              ";",
+              8998,
+              "/",
+              8496,
+              "/",
+              8486
+            ]
         },
         "except": {
             "encoding": [
@@ -10188,7 +10715,15 @@
                 "CAN",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8500,
+              ";",
+              8998,
+              "/",
+              8496,
+              "/",
+              8486
+            ]
         },
         "before": {
             "encoding": [
@@ -10306,7 +10841,11 @@
                 "WRITE",
                 "SEXUAL"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              12321,
+              "/",
+              14906
+            ]
         },
         "to write": {
             "encoding": [
@@ -11063,7 +11602,15 @@
                 "OUTWORLD",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8505,
+              "/",
+              8486
+            ]
         },
         "over": {
             "encoding": [
@@ -14194,7 +14741,11 @@
                 "FOOD",
                 "ABS TIME"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              25217,
+              "/",
+              12352
+            ]
         },
         "was he": {
             "encoding": [
@@ -14397,7 +14948,15 @@
                 "PAST",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              ";",
+              8998,
+              "/",
+              8496,
+              "/",
+              8486
+            ]
         },
         "last week": {
             "encoding": [
@@ -14405,7 +14964,7 @@
                 "PUT",
                 "ABS TIME"
             ],
-            "bci-av-id": null
+            "bci-av-id": 15175
         },
         "was she": {
             "encoding": [
@@ -15207,7 +15766,13 @@
                 "WEIGHT",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8502,
+              ";",
+              8998,
+              "/",
+              8486
+            ]
         },
         "unfair": {
             "encoding": [
@@ -15591,7 +16156,13 @@
                 "WITHOUT",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8505,
+              ";",
+              8998,
+              "/",
+              8486
+            ]
         },
         "without": {
             "encoding": [
@@ -16045,7 +16616,15 @@
                 "YOUNG",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8502,
+              "/",
+              8486
+            ]
         },
         "babies": {
             "encoding": [
@@ -17060,7 +17639,15 @@
                 "THINK",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8501,
+              "/",
+              8486
+            ]
         },
         "crazy": {
             "encoding": [
@@ -19235,7 +19822,15 @@
                 "UMBRELLA",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8503,
+              "/",
+              8486
+            ]
         },
         "shoe": {
             "encoding": [
@@ -20006,7 +20601,15 @@
                 "WANT",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8498,
+              "/",
+              8486
+            ]
         },
         "sorry": {
             "encoding": [
@@ -20291,7 +20894,15 @@
                 "VALUE",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8501,
+              ";",
+              8998,
+              "/",
+              8496,
+              "/",
+              8486
+            ]
         },
         "noon": {
             "encoding": [
@@ -20628,7 +21239,15 @@
                 "ELECTRIC",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8497,
+              ";",
+              8998,
+              "/",
+              8499,
+              "/",
+              8486
+            ]
         },
         "same": {
             "encoding": [
@@ -22712,7 +23331,15 @@
                 "FORGIVE",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              ";",
+              8998,
+              "/",
+              8500,
+              "/",
+              8486
+            ]
         },
         "to permit": {
             "encoding": [
@@ -23321,7 +23948,15 @@
                 "KING",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8498,
+              ";",
+              8998,
+              "/",
+              8504,
+              "/",
+              8486
+            ]
         },
         "royal": {
             "encoding": [
@@ -23480,7 +24115,15 @@
                 "FINISH",
                 "NOUN"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              13382,
+              "/",
+              15172,
+              "/",
+              12360,
+              "/",
+              13382
+            ]
         },
         "watch": {
             "encoding": [
@@ -24173,7 +24816,7 @@
             ],
             "bci-av-id": [
                 14405,
-                "/",
+                ";",
                 9011
             ]
         },
@@ -24192,7 +24835,7 @@
             ],
             "bci-av-id": [
                 25217,
-                "/",
+                ";",
                 9011
             ]
         },
@@ -24219,7 +24862,13 @@
                 "FOOD",
                 "NUMBER"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              8504,
+              ";",
+              8998,
+              "/",
+              8486
+            ]
         },
         "this weekend": {
             "encoding": [
@@ -24239,7 +24888,17 @@
                 "FINISH",
                 "NOUN PL."
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              13382,
+              "/",
+              15172,
+              ";",
+              9011,
+              "/",
+              12360,
+              "/",
+              13382
+            ]
         },
         "interjection": {
             "encoding": [
@@ -24420,42 +25079,64 @@
                 "LANG.",
                 "TO+VERB"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              13382,
+              "/",
+              27152,
+              "/",
+              24120,
+              "/",
+              13382
+            ]
         },
         "verb": {
             "encoding": [
                 "LANG.",
                 "VERB"
             ],
-            "bci-av-id": 12335
+            "bci-av-id": 27152
         },
         "verb past tense": {
             "encoding": [
                 "LANG.",
                 "VERB+ED"
             ],
-            "bci-av-id": null
+            "bci-av-id": 27105
         },
         "past and descriptive": {
             "encoding": [
                 "LANG.",
                 "VERB+ED"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              27105,
+              "/",
+              12374,
+              "/",
+              13949
+            ]
         },
         "verbing": {
             "encoding": [
                 "LANG.",
                 "VERB+ING"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              27152,
+              "/",
+              24881
+            ]
         },
         "verb third person": {
             "encoding": [
                 "LANG.",
                 "VERB+S"
             ],
-            "bci-av-id": null
+            "bci-av-id": [
+              27152,
+              "/",
+              8499
+            ]
         },
         "symbol": {
             "encoding": [
