@@ -67,10 +67,20 @@ information in the error file, correct errors and re-run the script until there 
 python fill_in_null_bliss_id_with_spacy.py ../data/bmw.json ../data/bliss_symbol_explanations.json ../data/bmw-new.json
 ```
 
-At step 5, run this command for finding messages that still have null BCI-AV-IDs:
+At step 5, run utility script `find_null_ids.py` to find messages that still have null BCI-AV-IDs:
+
+See [`utils/README.md`](../utils/README.md) for details about scripts used above.
+
+## Utility Scripts ##
+
+### Find messages that BCI-AV-ID is null (./find_null_ids.py)
 
 ```
 python find_null_ids.py ../data/bmw.json
 ```
 
-See [`utils/README.md`](../utils/README.md) for details about scripts used above.
+### Populate "encoding_symbols" section in bmw.json
+
+```
+python populate_encoding_symbols.py ../data/bmw.json ../data/bliss_symbol_explanations.json ../data/bmw-new.json
+```
