@@ -14512,14 +14512,6 @@
                 18035
             ]
         },
-        "mind": {
-            "encoding": [
-                "UMBRELLA",
-                "MAYBE",
-                "VERB"
-            ],
-            "bci-av-id": 15471
-        },
         "correct": {
             "encoding": [
                 "THINK",
@@ -17746,6 +17738,25 @@
                 17718,
                 "//",
                 17705
+            ]
+        },
+        "mind (noun)": {
+            "encoding": [
+                "THINK",
+                "ABS TIME"
+            ],
+            "bci-av-id": 15471
+        },
+        "mind": {
+            "encoding": [
+                "UMBRELLA",
+                "MAYBE",
+                "VERB"
+            ],
+            "bci-av-id": [
+                15471,
+                ";",
+                8993
             ]
         },
         "minds": {
