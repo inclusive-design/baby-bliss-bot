@@ -34,13 +34,20 @@
             ],
             "bci-av-id": 13097
         },
+        "back (adv.)": {
+            "encoding": [
+                "RETURN",
+                "ADVERB"
+            ],
+            "bci-av-id": 12613
+        },
         "back": {
             "encoding": [
                 "RETURN",
                 "BUT",
                 "VERB"
             ],
-            "bci-av-id": 12613
+            "bci-av-id": 12609
         },
         "backs": {
             "encoding": [
@@ -49,7 +56,7 @@
                 "VERB+S"
             ],
             "bci-av-id": [
-                12613,
+                12609,
                 ";",
                 9011
             ]
@@ -613,13 +620,21 @@
             ],
             "bci-av-id": 18031
         },
+        "hand (give)": {
+            "encoding": [
+                "GIVE",
+                "TOOL",
+                "VERB"
+            ],
+            "bci-av-id": [14667, ";", 8993]
+        },
         "hand": {
             "encoding": [
                 "TOOL",
                 "TOOL",
                 "VERB"
             ],
-            "bci-av-id": 14667
+            "bci-av-id": [14667, ";", 8993]
         },
         "hands": {
             "encoding": [
@@ -627,11 +642,7 @@
                 "TOOL",
                 "VERB+S"
             ],
-            "bci-av-id": [
-                14667,
-                ";",
-                9011
-            ]
+            "bci-av-id": [14667, ";", 8993]
         },
         "to touch": {
             "encoding": [
@@ -2342,12 +2353,19 @@
                 16704
             ]
         },
-        "love": {
+        "love (noun)": {
             "encoding": [
                 "LOVE",
                 "NOUN"
             ],
             "bci-av-id": 15399
+        },
+        "love": {
+            "encoding": [
+                "LOVE",
+                "VERB"
+            ],
+            "bci-av-id": 15400
         },
         "loved": {
             "encoding": [
@@ -3010,7 +3028,8 @@
         },
         "would I": {
             "encoding": [
-                "IF"
+                "IF",
+                "I+"
             ],
             "bci-av-id": [
                 8485,
@@ -3717,7 +3736,7 @@
             "bci-av-id": [
                 18223,
                 ";",
-                8933
+                8993
             ]
         },
         "welcomed": {
@@ -3729,7 +3748,7 @@
             "bci-av-id": [
                 18223,
                 ";",
-                8933
+                8993
             ]
         },
         "welcoming": {
@@ -3741,7 +3760,7 @@
             "bci-av-id": [
                 18223,
                 ";",
-                8933
+                8993
             ]
         },
         "welcomes": {
@@ -3753,7 +3772,7 @@
             "bci-av-id": [
                 18223,
                 ";",
-                8933
+                8993
             ]
         },
         "fine": {
@@ -5303,6 +5322,14 @@
                 8505
             ]
         },
+        "third (part)": {
+            "encoding": [
+                "NUMBER",
+                "PART",
+                "EYE"
+            ],
+            "bci-av-id": 29093
+        },
         "third": {
             "encoding": [
                 "EYE",
@@ -5342,6 +5369,20 @@
                 15972,
                 "/",
                 13382
+            ]
+        },
+        "fifth (part)": {
+            "encoding": [
+                "NUMBER",
+                "PART",
+                "WATER"
+            ],
+            "bci-av-id": [
+                8501,
+                ";",
+                8998,
+                "/",
+                8486
             ]
         },
         "fifth": {
@@ -6715,6 +6756,14 @@
             ],
             "bci-av-id": 24842
         },
+        "quarter (part)": {
+            "encoding": [
+                "NUMBER",
+                "PART",
+                "REPEAT"
+            ],
+            "bci-av-id": 24932
+        },
         "quarter": {
             "encoding": [
                 "MONEY",
@@ -7097,7 +7146,7 @@
             "bci-av-id": [
                 13924,
                 ";",
-                8933
+                8993
             ]
         },
         "lift": {
@@ -7109,7 +7158,7 @@
             "bci-av-id": [
                 13924,
                 ";",
-                8933
+                8993
             ]
         },
         "lifted": {
@@ -7121,7 +7170,7 @@
             "bci-av-id": [
                 13924,
                 ";",
-                8933
+                8993
             ]
         },
         "lifting": {
@@ -7133,7 +7182,7 @@
             "bci-av-id": [
                 13924,
                 ";",
-                8933
+                8993
             ]
         },
         "lifts": {
@@ -7145,7 +7194,7 @@
             "bci-av-id": [
                 13924,
                 ";",
-                8933
+                8993
             ]
         },
         "away": {
@@ -7808,6 +7857,13 @@
                 "VERB+S"
             ],
             "bci-av-id": 16419
+        },
+        "put (verb)": {
+            "encoding": [
+                "PUT",
+                "VERB"
+            ],
+            "bci-av-id": 16440
         },
         "put": {
             "encoding": [
@@ -8988,6 +9044,12 @@
             ],
             "bci-av-id": 15661
         },
+        "there (adv.)": {
+            "encoding": [
+                "ADVERB"
+            ],
+            "bci-av-id": 17707
+        },
         "there": {
             "encoding": [
                 "CAN",
@@ -9977,13 +10039,20 @@
             ],
             "bci-av-id": 17720
         },
+        "present (noun)": {
+            "encoding": [
+                "PRESENT",
+                "NOUN"
+            ],
+            "bci-av-id": 14437
+        },
         "present": {
             "encoding": [
                 "TOOL",
                 "PAST",
                 "NOUN"
             ],
-            "bci-av-id": 14437
+            "bci-av-id": 16246
         },
         "this week": {
             "encoding": [
@@ -10266,7 +10335,8 @@
         },
         "returning": {
             "encoding": [
-                "RETURN"
+                "RETURN",
+                "VERB+ING"
             ],
             "bci-av-id": 16500
         },
@@ -11094,6 +11164,14 @@
                 ";",
                 9011
             ]
+        },
+        "falls (noun)": {
+            "encoding": [
+                "YEAR",
+                "EYE",
+                "MANY"
+            ],
+            "bci-av-id": [24894, ";", 9011]
         },
         "fall": {
             "encoding": [
@@ -11972,6 +12050,14 @@
                 "SEXUAL",
                 "PUT",
                 "VERB+ED"
+            ],
+            "bci-av-id": 12847
+        },
+        "bit (noun)": {
+            "encoding": [
+                "PART",
+                "BUT",
+                "NOUN"
             ],
             "bci-av-id": 15972
         },
@@ -13567,6 +13653,13 @@
                 "//",
                 13114
             ]
+        },
+        "so (adv.)": {
+            "encoding": [
+                "CAUSE",
+                "ADVERB"
+            ],
+            "bci-av-id": 17708
         },
         "so": {
             "encoding": [
@@ -15993,7 +16086,8 @@
         "unfair": {
             "encoding": [
                 "WEIGHT",
-                "WITHOUT"
+                "WITHOUT",
+                "ADJ."
             ],
             "bci-av-id": null
         },
@@ -17048,13 +17142,21 @@
             ],
             "bci-av-id": 17193
         },
+        "drink (noun)": {
+            "encoding": [
+                "WATER",
+                "FOOD",
+                "NOUN"
+            ],
+            "bci-av-id": 13881
+        },
         "drink": {
             "encoding": [
                 "WATER",
                 "FOOD",
                 "VERB"
             ],
-            "bci-av-id": 13881
+            "bci-av-id": 13882
         },
         "drinks": {
             "encoding": [
@@ -17062,11 +17164,7 @@
                 "FOOD",
                 "VERB+S"
             ],
-            "bci-av-id": [
-                13881,
-                ";",
-                9011
-            ]
+            "bci-av-id": 13882
         },
         "to drink": {
             "encoding": [
@@ -17916,13 +18014,21 @@
             ],
             "bci-av-id": null
         },
+        "type (noun)": {
+            "encoding": [
+                "THINK",
+                "PART",
+                "NOUN"
+            ],
+            "bci-av-id": 17961
+        },
         "type": {
             "encoding": [
                 "DAY",
                 "WRITE",
                 "VERB"
             ],
-            "bci-av-id": 17961
+            "bci-av-id": 23698
         },
         "idea": {
             "encoding": [
@@ -19972,7 +20078,9 @@
         },
         "caring": {
             "encoding": [
-                "UMBRELLA"
+                "UMBRELLA",
+                "CAN",
+                "VERB+ING"
             ],
             "bci-av-id": 23059
         },
@@ -21202,7 +21310,9 @@
         },
         "burn": {
             "encoding": [
-                "WANT"
+                "WANT",
+                "BUT",
+                "VERB"
             ],
             "bci-av-id": 12922
         },
@@ -21258,13 +21368,21 @@
                 9011
             ]
         },
+        "hurt (present verb)": {
+            "encoding": [
+                "WANT",
+                "CAUSE",
+                "VERB"
+            ],
+            "bci-av-id": 14913
+        },
         "to hurt": {
             "encoding": [
                 "WANT",
                 "CAUSE",
                 "TO+VERB"
             ],
-            "bci-av-id": 14942
+            "bci-av-id": 14913
         },
         "hurt": {
             "encoding": [
@@ -21639,7 +21757,9 @@
         },
         "coming": {
             "encoding": [
-                "OPPOSITE"
+                "OPPOSITE",
+                "GO",
+                "VERB+ING"
             ],
             "bci-av-id": 12648
         },
@@ -21750,7 +21870,8 @@
         "far": {
             "encoding": [
                 "OPPOSITE",
-                "NEAR"
+                "NEAR",
+                "ADJ."
             ],
             "bci-av-id": 26002
         },
@@ -21932,7 +22053,7 @@
         "yourself": {
             "encoding": [
                 "OBJECT",
-                "You+"
+                "YOU+"
             ],
             "bci-av-id": 18465
         },
@@ -21972,12 +22093,19 @@
                 9011
             ]
         },
+        "opening (noun)": {
+            "encoding": [
+                "OPEN",
+                "NOUN"
+            ],
+            "bci-av-id": 15923
+        },
         "opening": {
             "encoding": [
                 "OPEN",
                 "VERB+ING"
             ],
-            "bci-av-id": 15923
+            "bci-av-id": [15923, ";", 8993]
         },
         "openings": {
             "encoding": [
@@ -22132,7 +22260,8 @@
         "asking": {
             "encoding": [
                 "OPEN",
-                "WHAT"
+                "WHAT",
+                "VERB+ING"
             ],
             "bci-av-id": 12588
         },
@@ -23021,6 +23150,14 @@
             ],
             "bci-av-id": 12864
         },
+        "read (present verb)": {
+            "encoding": [
+                "EYE",
+                "POEM",
+                "VERB"
+            ],
+            "bci-av-id": 16465
+        },
         "reading": {
             "encoding": [
                 "EYE",
@@ -23029,13 +23166,21 @@
             ],
             "bci-av-id": 16465
         },
+        "reading (noun)": {
+            "encoding": [
+                "EYE",
+                "POEM",
+                "NOUN"
+            ],
+            "bci-av-id": 24933
+        },
         "readings": {
             "encoding": [
                 "EYE",
                 "POEM",
                 "NOUN PL."
             ],
-            "bci-av-id": 16465
+            "bci-av-id": [24933, ";", 9011]
         },
         "to read": {
             "encoding": [
@@ -23480,6 +23625,14 @@
                 "FORGIVE",
                 "LOVE",
                 "TO+VERB"
+            ],
+            "bci-av-id": 15196
+        },
+        "let (present verb)": {
+            "encoding": [
+                "FORGIVE",
+                "LOVE",
+                "VERB"
             ],
             "bci-av-id": 15196
         },
@@ -24445,7 +24598,8 @@
         "watching": {
             "encoding": [
                 "EYE",
-                "WANT"
+                "WANT",
+                "VERB+ING"
             ],
             "bci-av-id": 16747
         },
@@ -24961,6 +25115,14 @@
             ],
             "bci-av-id": 12360
         },
+        "work (noun)": {
+            "encoding": [
+                "FINISH",
+                "WANT",
+                "NOUN"
+            ],
+            "bci-av-id": 18273
+        },
         "work": {
             "encoding": [
                 "FINISH",
@@ -25015,6 +25177,14 @@
                 "//",
                 13860
             ]
+        },
+        "answer (noun)": {
+            "encoding": [
+                "FINISH",
+                "WHAT",
+                "NOUN"
+            ],
+            "bci-av-id": 12393
         },
         "answer": {
             "encoding": [
