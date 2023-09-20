@@ -17,6 +17,7 @@ Example: python populate_encoding_symbols.py ../data/bmw.json ../data/bliss_symb
 import json
 import sys
 
+
 # Find the Bliss id for the given text:
 # 1. Search through the given map first. If found, return id. Otherwise, continue the next step;
 # 2. Search through the explanation JSON file. If found, return id. Otherwise, return None.
