@@ -84,3 +84,9 @@ python find_null_ids.py ../data/bmw.json
 ```
 python populate_encoding_symbols.py ../data/bmw.json ../data/bliss_symbol_explanations.json ../data/bmw-new.json
 ```
+
+### Find missing encodings from BMW text file directory
+
+```
+python find_missing_encodings.py ../data/bmw.json ../data/intermediate_BMW_conversion_data/bmw_texts/ ../data/bliss_symbol_explanations.json missing_encodings.json error.txt
+```
