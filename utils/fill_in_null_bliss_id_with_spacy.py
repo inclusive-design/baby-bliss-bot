@@ -1,6 +1,6 @@
 '''
 This script reads bmw.json, find all messages that have null BCI-AV-ID values, use Spacy to parse and transform
-these messages to conceptual Bliss, then find their BCI-AV-IDs. This script handles messages in these formats:
+these messages to accommodating Bliss, then find their BCI-AV-IDs. This script handles messages in these formats:
 1. Verb in different form.
 For example: "begin", "to begin", "beginning", "began", "begun", "begins"  all share the same Bliss symbol of
 its infinitive form "begin".
@@ -8,7 +8,8 @@ its infinitive form "begin".
 2. Plural nouns.
 For example: "books" -> [book, ";", 9011].
 
-3. Subject + Pronoun.
+3. Subject + Pronoun. The script supports two transformations:
+3.1. Transform to Conceptual Bliss
 For example: "I am" -> [I, be]
 "I were" -> [past_tense, I, be]
 "I will" -> [future_tense, I]
@@ -16,6 +17,13 @@ For example: "I am" -> [I, be]
 "isn't he" -> [question_mark, he, not, be]
 "should he" -> [question_mark, past_tense, he]
 "shouldn't he" -> [question_mark, past_tense, he, not]
+
+3.2. Transform to Accommadating Bliss in English
+For example: "I am" -> [I, am]
+"I were" -> [I, were]
+"he isn't" -> [he, is, not]
+"isn't he" -> [is, not, he]
+
 When the BCI-AV-ID for a word in the tranformed sentence cannot be found, an error will be reported.
 
 Note: The code for each case above should be uncommented and ran one by one. The result from each run should be
@@ -114,7 +122,49 @@ def find_bliss_id_in_general(text, bliss_explanation_json):
     return None
 
 
-def get_sequence_for_msg_with_subject(text):
+def find_bliss_id_in_list(text):
+    map = {
+        "is": 12639,
+        "are": 12639,
+        "am": 12639,
+        "be": 12639,
+        "was": [24443, ";", 9004],
+        "were": [24443, ";", 9004],
+        "been": [24443, ";", 9004],
+        "has": [24912, ";", 24807],
+        "have": [24912, ";", 24807],
+        "had": [24912, ";", 9004],
+        "do": 13860,
+        "does": 13860,
+        "did": [12335, ";", 9004],
+        "done": [12335, ";", 9004],
+        "can": 13114,
+        "could": [25520, ";", 8995],
+        "not": 15733,
+        "it": 14960,
+        "they": 17713,
+        "you": 18465,
+        "we": 18212,
+        "i": 14916,
+        "he": 14687,
+        "she": 16494,
+        "believe": 12661,
+        "may": 16226,
+        "might": 16226,
+        "shall": 24261,
+        "will": 24261,
+        "should": 24264,
+        "would": 24264,
+        "want": 18035,
+        "wants": 18035,
+    }
+    if text.lower() in map.keys():
+        return map[text.lower()]
+    else:
+        return None
+
+
+def get_conceptual_bliss_sequence_for_msg_with_subject(text):
     doc = nlp(text)
     sequence = []
     is_past_tense = False
@@ -174,53 +224,119 @@ def get_sequence_for_msg_with_subject(text):
     return sequence if len(sequence) > 1 and has_subject else None
 
 
+def get_accommodating_bliss_sequence_for_msg_with_subject(text):
+    doc = nlp(text)
+    has_subject = False
+    sequence = []
+
+    for token in doc:
+        text = token.text.strip()
+        if token.dep_ == "subj" or token.dep_ == "nsubj":
+            has_subject = True
+        if (text == "n't"):
+            sequence.append("not")
+        elif (text == "ca"):
+            sequence.append("can")
+        elif (text == "'m"):
+            sequence.append("am")
+        elif (text == "wo"):
+            sequence.append("will")
+        else:
+            sequence.append(text)
+
+    return sequence if len(sequence) > 1 and has_subject else None
+
+
 source_json_file = sys.argv[1]
 bliss_explanation_json_location = sys.argv[2]
 output_json_location = sys.argv[3]
+
+words_missing_id = set()
 
 with open(source_json_file, 'r') as file:
     data = json.load(file)
     # Load the spaCy English language model
     nlp = spacy.load("en_core_web_sm")
 
-    # load bliss translation json file
-    with open(bliss_explanation_json_location, 'r') as file:
-        bliss_explanation_json = json.load(file)
+    # # load bliss translation json file
+    # with open(bliss_explanation_json_location, 'r') as file:
+    #     bliss_explanation_json = json.load(file)
 
     for message, value in data["encodings"].items():
-        if value["bci-av-id"] is None:
-            # 1. handle single words
-            if message.startswith("to ") or len(message.split()) == 1:
-                # 1.1. Handle verb in various forms
-                # For example, "begin", "to begin", "beginning", "began", "begun", "begins"
-                # should all use the Bliss symbol for "begin"
-                infinitive_form_for_verb = find_infinitive_form_for_verb(message)
-                if infinitive_form_for_verb is not None:
-                    value["bci-av-id"] = find_bliss_id_for_verb(infinitive_form_for_verb, bliss_explanation_json)
+        # if value["bci-av-id"] is None:
+        #     # 1. handle single words
+        #     if message.startswith("to ") or len(message.split()) == 1:
+        #         # 1.1. Handle verb in various forms
+        #         # For example, "begin", "to begin", "beginning", "began", "begun", "begins"
+        #         # should all use the Bliss symbol for "begin"
+        #         infinitive_form_for_verb = find_infinitive_form_for_verb(message)
+        #         if infinitive_form_for_verb is not None:
+        #             value["bci-av-id"] = find_bliss_id_for_verb(infinitive_form_for_verb, bliss_explanation_json)
 
-                # 1.2. Handle noun in plural form
-                # For example, the BCI-AV-ID for "books" should be [{id_for_book}, ";", 9011]
-                infinitive_form_for_noun = find_infinitive_form_for_plural_noun(message)
-                if infinitive_form_for_noun is not None:
-                    bliss_id_for_noun = find_bliss_id_in_general(infinitive_form_for_noun, bliss_explanation_json)
-                    if bliss_id_for_noun is not None:
-                        value["bci-av-id"] = [bliss_id_for_noun, ";", 9011]
+        #         # 1.2. Handle noun in plural form
+        #         # For example, the BCI-AV-ID for "books" should be [{id_for_book}, ";", 9011]
+        #         infinitive_form_for_noun = find_infinitive_form_for_plural_noun(message)
+        #         if infinitive_form_for_noun is not None:
+        #             bliss_id_for_noun = find_bliss_id_in_general(infinitive_form_for_noun, bliss_explanation_json)
+        #             if bliss_id_for_noun is not None:
+        #                 value["bci-av-id"] = [bliss_id_for_noun, ";", 9011]
 
-            # 2. Handle multiple words messages with a subject such as "I should", "I shouldn't", "should I", "shouldn't I"
-            bliss_sequence = get_sequence_for_msg_with_subject(message)
+        #     # 2. Transform multiple words messages with a subject such as "I should", "I shouldn't", "should I", "shouldn't I"
+        #     # to conceptual Bliss grammar
+        #     bliss_sequence = get_conceptual_bliss_sequence_for_msg_with_subject(message)
+        #     if bliss_sequence is not None:
+        #         encoding = []
+        #         position = 0
+        #         for text in bliss_sequence:
+        #             bliss_id = find_bliss_id_in_general(text, bliss_explanation_json)
+        #             if bliss_id is not None:
+        #                 encoding.append(bliss_id)
+        #                 if (position < len(bliss_sequence) - 1):
+        #                     encoding.append("//")
+        #             else:
+        #                 print("Error: ", message, ": cannot find bliss id for \"", text, "\"")
+        #             position = position + 1
+        #         value["bci-av-id"] = encoding
+
+        # 3. Transform multiple words messages with a subject such as "I should", "I shouldn't", "should I", "shouldn't I"
+        # to accommodating Bliss grammar
+        to_skip = [
+            "it is good to be here today",
+            "people plural",
+            "I think so",
+            "I guess so",
+            "I used to",
+            "it used to",
+            "he used to",
+            "she used to",
+            "they used to",
+            "we used to",
+            "you used to",
+        ]
+        if message not in to_skip:
+            bliss_sequence = get_accommodating_bliss_sequence_for_msg_with_subject(message)
             if bliss_sequence is not None:
                 encoding = []
                 position = 0
                 for text in bliss_sequence:
-                    bliss_id = find_bliss_id_in_general(text, bliss_explanation_json)
+                    bliss_id = find_bliss_id_in_list(text)
                     if bliss_id is not None:
-                        encoding.append(bliss_id)
+                        if type(bliss_id) is list:
+                            encoding.extend(bliss_id)
+                        else:
+                            encoding.append(bliss_id)
                         if (position < len(bliss_sequence) - 1):
                             encoding.append("//")
                     else:
-                        print("Error: ", message, ": cannot find bliss id for \"", text, "\"")
+                        print(f"=== {message}, {bliss_sequence}")
+                        print(f"Error: {message}: cannot find bliss id for \"{text}\"")
+                        words_missing_id.add(text)
                     position = position + 1
+                print(f"{bliss_sequence}: {encoding}")
                 value["bci-av-id"] = encoding
+
+if len(words_missing_id) > 0:
+    print(f"Words with missing IDs: {words_missing_id}")
 
 # Write the JSON into a file
 with open(output_json_location, "w") as json_file:

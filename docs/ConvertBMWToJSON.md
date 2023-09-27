@@ -24,7 +24,7 @@ tracked in the file
 4. Mannually modify the JSON file to revert changes tracked in 
 [data/intermediate_BMW_conversion_data/special_handling.txt](../data/intermediate_BMW_conversion_data/special_handling.txt).
 5. Run a script to loop through the JSON file, find messages with null BCI-AV-IDs, parse and transform
-every message to conceptual Bliss, then compose BCI-AV-ID based on the transformed message.
+every message to accommodating Bliss, then compose BCI-AV-ID based on the transformed message.
 6. Manually fill in the rest messages that have null BCI-AV-IDs.
 
 ## Steps

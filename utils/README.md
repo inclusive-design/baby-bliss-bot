@@ -199,7 +199,7 @@ in the way that the indicator 8499 is on top of the the charactor 12355;
 ## Fill in null BCI-AV-ID values for messages using SpaCy (utils/fill_in_null_bliss_id_with_spacy.py)
 
 This script reads bmw.json, find all messages that have null BCI-AV-ID values, use Spacy to parse and transform
-these messages to conceptual Bliss, then find their BCI-AV-IDs. This script handles messages in these formats:
+these messages to accommodating Bliss, then find their BCI-AV-IDs. This script handles messages in these formats:
 1. Verb in different form.
 For example: "begin", "to begin", "beginning", "began", "begun", "begins"  all share the same Bliss symbol of
 its infinitive form "begin".
@@ -207,7 +207,8 @@ its infinitive form "begin".
 2. Plural nouns. 
 For example: "books" -> [book, ";", 9011].
 
-3. Subject + Pronoun. 
+3. Subject + Pronoun. The script supports two transformations:
+3.1. Transform to Conceptual Bliss
 For example: "I am" -> [I, be]
 "I were" -> [past_tense, I, be]
 "I will" -> [future_tense, I]
@@ -215,6 +216,13 @@ For example: "I am" -> [I, be]
 "isn't he" -> [question_mark, he, not, be]
 "should he" -> [question_mark, past_tense, he]
 "shouldn't he" -> [question_mark, past_tense, he, not]
+
+3.2. Transform to Accommadating Bliss in English
+For example: "I am" -> [I, am]
+"I were" -> [I, were]
+"he isn't" -> [he, is, not]
+"isn't he" -> [is, not, he]
+
 When the BCI-AV-ID for a word in the tranformed sentence cannot be found, an error will be reported.
 
 Note: The code for each case above should be uncommented and ran one by one. The result from each run should be
