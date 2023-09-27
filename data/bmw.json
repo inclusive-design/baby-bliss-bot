@@ -47,13 +47,21 @@
                 "BUT",
                 "VERB"
             ],
-            "bci-av-id": 12609
+            "bci-av-id": 12612
         },
         "backs": {
             "encoding": [
                 "RETURN",
                 "BUT",
                 "VERB+S"
+            ],
+            "bci-av-id": 12612
+        },
+        "backs (noun)": {
+            "encoding": [
+                "RETURN",
+                "BUT",
+                "NOUN PL."
             ],
             "bci-av-id": [
                 12609,
@@ -7924,6 +7932,14 @@
                 "LOVE",
                 "VERB+S"
             ],
+            "bci-av-id": 15223
+        },
+        "lives (noun)": {
+            "encoding": [
+                "AM/BE",
+                "LOVE",
+                "NOUN PL."
+            ],
             "bci-av-id": [
                 15206,
                 ";",
@@ -12532,7 +12548,7 @@
                 "AM/BE",
                 "TO+VERB"
             ],
-            "bci-av-id": 13383
+            "bci-av-id": [12407, ";", 8993]
         },
         "approach": {
             "encoding": [
@@ -12540,7 +12556,7 @@
                 "AM/BE",
                 "VERB"
             ],
-            "bci-av-id": 12407
+            "bci-av-id": [12407, ";", 8993]
         },
         "approached": {
             "encoding": [
@@ -12572,11 +12588,7 @@
                 "AM/BE",
                 "VERB+S"
             ],
-            "bci-av-id": [
-                12407,
-                ";",
-                9011
-            ]
+            "bci-av-id": [12407, ";", 8993]
         },
         "hello": {
             "encoding": [
@@ -13658,7 +13670,7 @@
                 "PUT",
                 "VERB"
             ],
-            "bci-av-id": 27011
+            "bci-av-id": 12847
         },
         "bitten": {
             "encoding": [
@@ -13690,11 +13702,7 @@
                 "PUT",
                 "VERB+S"
             ],
-            "bci-av-id": [
-                27011,
-                ";",
-                9011
-            ]
+            "bci-av-id": 12847
         },
         "tooth": {
             "encoding": [
@@ -18809,7 +18817,7 @@
                 "RECEIVE",
                 "VERB"
             ],
-            "bci-av-id": 16455
+            "bci-av-id": 16456
         },
         "rained": {
             "encoding": [
@@ -18841,11 +18849,7 @@
                 "RECEIVE",
                 "VERB+S"
             ],
-            "bci-av-id": [
-                16455,
-                ";",
-                9011
-            ]
+            "bci-av-id": 16456
         },
         "we are": {
             "encoding": [
@@ -19851,7 +19855,7 @@
                 "RELATION",
                 "VERB"
             ],
-            "bci-av-id": 14696
+            "bci-av-id": 14697
         },
         "heated": {
             "encoding": [
@@ -19883,11 +19887,7 @@
                 "RELATION",
                 "VERB+S"
             ],
-            "bci-av-id": [
-                14696,
-                ";",
-                9011
-            ]
+            "bci-av-id": 14697
         },
         "trouble": {
             "encoding": [
@@ -20754,7 +20754,7 @@
                 "WITHOUT",
                 "VERB"
             ],
-            "bci-av-id": 12414
+            "bci-av-id": 12413
         },
         "quarrelled": {
             "encoding": [
@@ -20786,11 +20786,7 @@
                 "WITHOUT",
                 "VERB+S"
             ],
-            "bci-av-id": [
-                12414,
-                ";",
-                9011
-            ]
+            "bci-av-id": 12413
         },
         "and": {
             "encoding": [
