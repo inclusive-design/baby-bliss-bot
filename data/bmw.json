@@ -119,7 +119,7 @@
                 "NEAR",
                 "VERB+ED"
             ],
-            "bci-av-id": 15702
+            "bci-av-id": [15701, ";", 9004]
         },
         "needing": {
             "encoding": [
@@ -127,7 +127,7 @@
                 "NEAR",
                 "VERB+ING"
             ],
-            "bci-av-id": 15702
+            "bci-av-id": [15701, ";", 24807]
         },
         "needs": {
             "encoding": [
@@ -240,14 +240,14 @@
                 "HELP",
                 "VERB+ED"
             ],
-            "bci-av-id": 14705
+            "bci-av-id": [14704, ";", 9004]
         },
         "helping": {
             "encoding": [
                 "HELP",
                 "VERB+ING"
             ],
-            "bci-av-id": 14705
+            "bci-av-id": [14704, ";", 24807]
         },
         "helps": {
             "encoding": [
@@ -409,7 +409,7 @@
                 "DIRECTN",
                 "VERB+ED"
             ],
-            "bci-av-id": 16699
+            "bci-av-id": [15189, ";", 9004, "/", 24819]
         },
         "running": {
             "encoding": [
@@ -417,7 +417,7 @@
                 "DIRECTN",
                 "VERB+ING"
             ],
-            "bci-av-id": 16699
+            "bci-av-id": [15189, ";", 24807, "/", 24819]
         },
         "runs": {
             "encoding": [
@@ -575,7 +575,7 @@
                 "QUIET",
                 "VERB+ED"
             ],
-            "bci-av-id": 14692
+            "bci-av-id": [13894, ";", 9004]
         },
         "hearing": {
             "encoding": [
@@ -583,7 +583,7 @@
                 "QUIET",
                 "VERB+ING"
             ],
-            "bci-av-id": 14692
+            "bci-av-id": [13894, ";", 24807]
         },
         "hears": {
             "encoding": [
@@ -678,7 +678,7 @@
                 "TOOL",
                 "VERB+ED"
             ],
-            "bci-av-id": 17761
+            "bci-av-id": [14667, ";", 9004]
         },
         "touching": {
             "encoding": [
@@ -686,7 +686,7 @@
                 "TOOL",
                 "VERB+ING"
             ],
-            "bci-av-id": 17761
+            "bci-av-id": [14667, ";", 24807]
         },
         "touches": {
             "encoding": [
@@ -708,14 +708,14 @@
                 "LEGSFEET",
                 "VERB+ED"
             ],
-            "bci-av-id": 18031
+            "bci-av-id": [15189, ";", 9004]
         },
         "walking": {
             "encoding": [
                 "LEGSFEET",
                 "VERB+ING"
             ],
-            "bci-av-id": 18031
+            "bci-av-id": [15189, ";", 24807]
         },
         "walks": {
             "encoding": [
@@ -803,21 +803,21 @@
                 "FORGIVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 14388
+            "bci-av-id": [21293, ";", 9004]
         },
         "forgiven": {
             "encoding": [
                 "FORGIVE",
                 "VERB+EN"
             ],
-            "bci-av-id": 14388
+            "bci-av-id": [21293, ";", 9004]
         },
         "forgiving": {
             "encoding": [
                 "FORGIVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 14388
+            "bci-av-id": [21293, ";", 24807]
         },
         "forgives": {
             "encoding": [
@@ -876,7 +876,7 @@
                 "WATER",
                 "VERB+ED"
             ],
-            "bci-av-id": 17482
+            "bci-av-id": [24947, ";", 9004]
         },
         "swimming": {
             "encoding": [
@@ -884,7 +884,7 @@
                 "WATER",
                 "VERB+ING"
             ],
-            "bci-av-id": 17482
+            "bci-av-id": [24947, ";", 24807]
         },
         "swims": {
             "encoding": [
@@ -946,7 +946,7 @@
                 "DIRECTN",
                 "VERB+ED"
             ],
-            "bci-av-id": 16509
+            "bci-av-id": [25603, ";", 9004]
         },
         "ridden": {
             "encoding": [
@@ -954,7 +954,7 @@
                 "DIRECTN",
                 "VERB+EN"
             ],
-            "bci-av-id": 16509
+            "bci-av-id": [25603, ";", 9004]
         },
         "riding": {
             "encoding": [
@@ -962,7 +962,7 @@
                 "DIRECTN",
                 "VERB+ING"
             ],
-            "bci-av-id": 16509
+            "bci-av-id": [25603, ";", 24807]
         },
         "rides": {
             "encoding": [
@@ -1106,7 +1106,7 @@
                 "WATER",
                 "VERB+ED"
             ],
-            "bci-av-id": 16995
+            "bci-av-id": [16165, ";", 9004]
         },
         "sitting": {
             "encoding": [
@@ -1114,7 +1114,7 @@
                 "WATER",
                 "VERB+ING"
             ],
-            "bci-av-id": 16995
+            "bci-av-id": [16165, ";", 24807]
         },
         "sits": {
             "encoding": [
@@ -1423,7 +1423,7 @@
                 "DIRECTN",
                 "VERB+ED"
             ],
-            "bci-av-id": 17497
+            "bci-av-id": [24714, ";", 9004]
         },
         "taken": {
             "encoding": [
@@ -1431,7 +1431,7 @@
                 "DIRECTN",
                 "VERB+EN"
             ],
-            "bci-av-id": 17497
+            "bci-av-id": [24714, ";", 9004]
         },
         "taking": {
             "encoding": [
@@ -1439,7 +1439,7 @@
                 "DIRECTN",
                 "VERB+ING"
             ],
-            "bci-av-id": 17497
+            "bci-av-id": [24714, ";", 24807]
         },
         "takes": {
             "encoding": [
@@ -1471,7 +1471,7 @@
                 "FUTURE",
                 "VERB+ED"
             ],
-            "bci-av-id": 14893
+            "bci-av-id": [23534, ";", 9004]
         },
         "hoping": {
             "encoding": [
@@ -1479,7 +1479,7 @@
                 "FUTURE",
                 "VERB+ING"
             ],
-            "bci-av-id": 14893
+            "bci-av-id": [23534, ";", 24807]
         },
         "hopes": {
             "encoding": [
@@ -1827,7 +1827,7 @@
                 "LOVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 15400
+            "bci-av-id": [15399, ";", 24807]
         },
         "lucky": {
             "encoding": [
@@ -2711,7 +2711,7 @@
                 "SEXUAL",
                 "VERB+ED"
             ],
-            "bci-av-id": 13163
+            "bci-av-id": [14647, "/", 17517, ";", 9004]
         },
         "chewing": {
             "encoding": [
@@ -2719,7 +2719,7 @@
                 "SEXUAL",
                 "VERB+ING"
             ],
-            "bci-av-id": 13163
+            "bci-av-id": [14647, "/", 17517, ";", 24807]
         },
         "chews": {
             "encoding": [
@@ -2907,7 +2907,7 @@
                 "DIRECTN",
                 "VERB+ED"
             ],
-            "bci-av-id": 13883
+            "bci-av-id": [13121, ";", 9004]
         },
         "driven": {
             "encoding": [
@@ -2915,7 +2915,7 @@
                 "DIRECTN",
                 "VERB+EN"
             ],
-            "bci-av-id": 13883
+            "bci-av-id": [13121, ";", 9004]
         },
         "driving": {
             "encoding": [
@@ -2923,7 +2923,7 @@
                 "DIRECTN",
                 "VERB+ING"
             ],
-            "bci-av-id": 13883
+            "bci-av-id": [13121, ";", 24807]
         },
         "drives": {
             "encoding": [
@@ -2955,7 +2955,7 @@
                 "GO",
                 "VERB+ED"
             ],
-            "bci-av-id": 16759
+            "bci-av-id": [25625, ";", 9004, "/", 13658]
         },
         "sending": {
             "encoding": [
@@ -2963,7 +2963,7 @@
                 "GO",
                 "VERB+ING"
             ],
-            "bci-av-id": 16759
+            "bci-av-id": [25625, ";", 24807, "/", 13658]
         },
         "sends": {
             "encoding": [
@@ -3048,7 +3048,7 @@
                 "PUT",
                 "VERB+ED"
             ],
-            "bci-av-id": 13125
+            "bci-av-id": [25625, ";", 9004]
         },
         "moving": {
             "encoding": [
@@ -3056,7 +3056,7 @@
                 "PUT",
                 "VERB+ING"
             ],
-            "bci-av-id": 13125
+            "bci-av-id": [25625, ";", 24807]
         },
         "moves": {
             "encoding": [
@@ -3108,7 +3108,7 @@
                 "THINK",
                 "VERB+ED"
             ],
-            "bci-av-id": 17772
+            "bci-av-id": [17779, ";", 9004]
         },
         "traveling": {
             "encoding": [
@@ -3116,7 +3116,7 @@
                 "THINK",
                 "VERB+ING"
             ],
-            "bci-av-id": 17772
+            "bci-av-id": [17779, ";", 24807]
         },
         "would I": {
             "encoding": [
@@ -3643,7 +3643,7 @@
                 "EXCLAIM",
                 "VERB+ED"
             ],
-            "bci-av-id": 23962
+            "bci-av-id": [13134, ";", 9004, "/", 23960]
         },
         "surprising": {
             "encoding": [
@@ -3651,7 +3651,7 @@
                 "EXCLAIM",
                 "VERB+ING"
             ],
-            "bci-av-id": 23961
+            "bci-av-id": [13134, ";", 24807, "/", 23960]
         },
         "surprises": {
             "encoding": [
@@ -3745,7 +3745,7 @@
                 "GIVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 13938
+            "bci-av-id": [14675, ";", 9004]
         },
         "enjoying": {
             "encoding": [
@@ -3753,7 +3753,7 @@
                 "GIVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 13938
+            "bci-av-id": [14675, ";", 24807]
         },
         "enjoys": {
             "encoding": [
@@ -3828,7 +3828,7 @@
             "bci-av-id": [
                 18223,
                 ";",
-                8993
+                9004
             ]
         },
         "welcoming": {
@@ -3840,7 +3840,7 @@
             "bci-av-id": [
                 18223,
                 ";",
-                8993
+                24807
             ]
         },
         "welcomes": {
@@ -3965,7 +3965,11 @@
                 "SAY",
                 "VERB+ED"
             ],
-            "bci-av-id": 15178
+            "bci-av-id": [
+                24824,
+                ";",
+                9004
+            ]
         },
         "laughing": {
             "encoding": [
@@ -3973,7 +3977,11 @@
                 "SAY",
                 "VERB+ING"
             ],
-            "bci-av-id": 15178
+            "bci-av-id": [
+                24824,
+                ";",
+                24807
+            ]
         },
         "laughs": {
             "encoding": [
@@ -4469,21 +4477,33 @@
                 "GO",
                 "VERB+ED"
             ],
-            "bci-av-id": 12343
+            "bci-av-id": [
+                14390,
+                ";",
+                9004
+            ]
         },
         "gone": {
             "encoding": [
                 "GO",
                 "VERB+EN"
             ],
-            "bci-av-id": 12343
+            "bci-av-id": [
+                14390,
+                ";",
+                9004
+            ]
         },
         "going": {
             "encoding": [
                 "GO",
                 "VERB+ING"
             ],
-            "bci-av-id": 12343
+            "bci-av-id": [
+                14390,
+                ";",
+                24807
+            ]
         },
         "goes": {
             "encoding": [
@@ -4540,7 +4560,7 @@
                 "BUT",
                 "VERB+ED"
             ],
-            "bci-av-id": 12663
+            "bci-av-id": [12663, ";", 9004]
         },
         "belonging": {
             "encoding": [
@@ -4548,7 +4568,11 @@
                 "BUT",
                 "VERB+ING"
             ],
-            "bci-av-id": 12663
+            "bci-av-id": [
+                12663,
+                ";",
+                24807
+            ]
         },
         "belongs": {
             "encoding": [
@@ -4785,7 +4809,7 @@
                 "REPEAT",
                 "VERB+ED"
             ],
-            "bci-av-id": 16941
+            "bci-av-id": [24912, ";", 24807, "/", 9004]
         },
         "sharing": {
             "encoding": [
@@ -4793,7 +4817,7 @@
                 "REPEAT",
                 "VERB+ING"
             ],
-            "bci-av-id": 16941
+            "bci-av-id": [24912, ";", 24807, "/", 23409]
         },
         "shares": {
             "encoding": [
@@ -4870,7 +4894,7 @@
                 "TOOL",
                 "VERB+ED"
             ],
-            "bci-av-id": 13629
+            "bci-av-id": [15159, ";", 9004]
         },
         "cutting": {
             "encoding": [
@@ -4878,7 +4902,7 @@
                 "TOOL",
                 "VERB+ING"
             ],
-            "bci-av-id": 13629
+            "bci-av-id": [15159, ";", 24807]
         },
         "cuts": {
             "encoding": [
@@ -4900,14 +4924,14 @@
                 "PREVERB",
                 "GO"
             ],
-            "bci-av-id": 14685
+            "bci-av-id": [24912, ";", 9004]
         },
         "having": {
             "encoding": [
                 "HAVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 14685
+            "bci-av-id": [24912, ";", 24807]
         },
         "has": {
             "encoding": [
@@ -5742,7 +5766,7 @@
                 "BUT",
                 "VERB+ED"
             ],
-            "bci-av-id": 12657
+            "bci-av-id": [12658, ";", 9004]
         },
         "begun": {
             "encoding": [
@@ -5750,7 +5774,7 @@
                 "BUT",
                 "VERB+EN"
             ],
-            "bci-av-id": 12657
+            "bci-av-id": [12658, ";", 9004]
         },
         "beginning": {
             "encoding": [
@@ -5758,7 +5782,7 @@
                 "BUT",
                 "VERB+ING"
             ],
-            "bci-av-id": 12657
+            "bci-av-id": [12658, ";", 24807]
         },
         "begins": {
             "encoding": [
@@ -5803,7 +5827,7 @@
                 "HOUSE",
                 "VERB+ED"
             ],
-            "bci-av-id": 18017
+            "bci-av-id": [24859, ";", 9004]
         },
         "visiting": {
             "encoding": [
@@ -5811,7 +5835,7 @@
                 "HOUSE",
                 "VERB+ING"
             ],
-            "bci-av-id": 18017
+            "bci-av-id": [24859, ";", 24807]
         },
         "visits": {
             "encoding": [
@@ -5872,11 +5896,11 @@
         },
         "left": {
             "encoding": [
-                "WITHOUT",
-                "ZEBRA",
-                "ADJ."
+                "GO",
+                "LOVE",
+                "VERB+ED"
             ],
-            "bci-av-id": 14449
+            "bci-av-id": [13658, ";", 9004]
         },
         "leaving": {
             "encoding": [
@@ -5884,7 +5908,7 @@
                 "LOVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 14449
+            "bci-av-id": [13658, ";", 24807]
         },
         "leaves": {
             "encoding": [
@@ -6063,7 +6087,7 @@
                 "STOP",
                 "VERB+ED"
             ],
-            "bci-av-id": 12657
+            "bci-av-id": [12658, ";", 9004]
         },
         "starting": {
             "encoding": [
@@ -6071,7 +6095,7 @@
                 "STOP",
                 "VERB+ING"
             ],
-            "bci-av-id": 12657
+            "bci-av-id": [12658, ";", 24807]
         },
         "starts": {
             "encoding": [
@@ -6116,7 +6140,7 @@
                 "THINK",
                 "VERB+ED"
             ],
-            "bci-av-id": 17973
+            "bci-av-id": [25629, ";", 9004]
         },
         "understanding": {
             "encoding": [
@@ -6124,7 +6148,7 @@
                 "THINK",
                 "VERB+ING"
             ],
-            "bci-av-id": 25629
+            "bci-av-id": [25629, ";", 24807]
         },
         "understands": {
             "encoding": [
@@ -6190,7 +6214,7 @@
             "bci-av-id": [
                 23223,
                 ";",
-                8993
+                9004
             ]
         },
         "shopping": {
@@ -6202,7 +6226,7 @@
             "bci-av-id": [
                 23223,
                 ";",
-                8993
+                24807
             ]
         },
         "shops": {
@@ -6239,7 +6263,7 @@
                 "TOOL",
                 "VERB+ED"
             ],
-            "bci-av-id": 13099
+            "bci-av-id": [15484, ";", 9004, "/", 17717]
         },
         "buying": {
             "encoding": [
@@ -6247,7 +6271,7 @@
                 "TOOL",
                 "VERB+ING"
             ],
-            "bci-av-id": 13099
+            "bci-av-id": [15484, ";", 24807, "/", 17717]
         },
         "buys": {
             "encoding": [
@@ -6571,14 +6595,14 @@
                 "MANY",
                 "VERB+ED"
             ],
-            "bci-av-id": 15674
+            "bci-av-id": [15673, ";", 9004]
         },
         "multiplying": {
             "encoding": [
                 "MANY",
                 "VERB+ING"
             ],
-            "bci-av-id": 15674
+            "bci-av-id": [15673, ";", 24807]
         },
         "multiplies": {
             "encoding": [
@@ -7034,7 +7058,7 @@
                 "MONEY",
                 "VERB+ED"
             ],
-            "bci-av-id": 15979
+            "bci-av-id": [24903, ";", 9004, "/", 15484]
         },
         "paying": {
             "encoding": [
@@ -7042,7 +7066,7 @@
                 "MONEY",
                 "VERB+ING"
             ],
-            "bci-av-id": 15979
+            "bci-av-id": [24903, ";", 24807, "/", 15484]
         },
         "pays": {
             "encoding": [
@@ -7138,7 +7162,7 @@
                 "THINK",
                 "VERB+ED"
             ],
-            "bci-av-id": 17512
+            "bci-av-id": [14945, ";", 9004]
         },
         "teaching": {
             "encoding": [
@@ -7184,7 +7208,7 @@
             "bci-av-id": [
                 14667,
                 ";",
-                8993
+                9004
             ]
         },
         "handing": {
@@ -7196,7 +7220,7 @@
             "bci-av-id": [
                 14667,
                 ";",
-                8993
+                24807
             ]
         },
         "give": {
@@ -7211,21 +7235,21 @@
                 "GIVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 14440
+            "bci-av-id": [24903, ";", 9004]
         },
         "given": {
             "encoding": [
                 "GIVE",
                 "VERB+EN"
             ],
-            "bci-av-id": 14440
+            "bci-av-id": [24903, ";", 9004]
         },
         "giving": {
             "encoding": [
                 "GIVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 14440
+            "bci-av-id": [24903, ";", 24807]
         },
         "gives": {
             "encoding": [
@@ -7267,7 +7291,7 @@
             "bci-av-id": [
                 13924,
                 ";",
-                8993
+                9004
             ]
         },
         "lifting": {
@@ -7279,7 +7303,7 @@
             "bci-av-id": [
                 13924,
                 ";",
-                8993
+                24807
             ]
         },
         "lifts": {
@@ -7322,14 +7346,14 @@
                 "ALSO",
                 "VERB+ED"
             ],
-            "bci-av-id": 12338
+            "bci-av-id": [12339, ";", 9004]
         },
         "adding": {
             "encoding": [
                 "ALSO",
                 "VERB+ING"
             ],
-            "bci-av-id": 12338
+            "bci-av-id": [12339, ";", 24807]
         },
         "adds": {
             "encoding": [
@@ -7368,7 +7392,7 @@
                 "AIR",
                 "VERB+ED"
             ],
-            "bci-av-id": 25691
+            "bci-av-id": [25691, ";", 9004]
         },
         "dying": {
             "encoding": [
@@ -7376,7 +7400,7 @@
                 "AIR",
                 "VERB+ING"
             ],
-            "bci-av-id": 25691
+            "bci-av-id": [25691, ";", 24807]
         },
         "dies": {
             "encoding": [
@@ -7427,7 +7451,9 @@
             "bci-av-id": [
                 13382,
                 "/",
-                13152,
+                13151,
+                ";",
+                9004,
                 "/",
                 8521,
                 "/",
@@ -7443,7 +7469,9 @@
             "bci-av-id": [
                 13382,
                 "/",
-                13152,
+                13151,
+                ";",
+                24807,
                 "/",
                 8521,
                 "/",
@@ -7488,7 +7516,7 @@
                 "BUT",
                 "VERB+ED"
             ],
-            "bci-av-id": 24412
+            "bci-av-id": [13627, ";", 9004]
         },
         "bending": {
             "encoding": [
@@ -7496,7 +7524,7 @@
                 "BUT",
                 "VERB+ING"
             ],
-            "bci-av-id": 24412
+            "bci-av-id": [13627, ";", 24807]
         },
         "bends": {
             "encoding": [
@@ -7588,7 +7616,7 @@
                 "LOVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 15223
+            "bci-av-id": [14905, ";", 9004]
         },
         "living": {
             "encoding": [
@@ -7596,7 +7624,7 @@
                 "LOVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 15223
+            "bci-av-id": [14905, ";", 24807]
         },
         "isn't he": {
             "encoding": [
@@ -7917,7 +7945,7 @@
                 "UMBRELLA",
                 "VERB+ED"
             ],
-            "bci-av-id": 25856
+            "bci-av-id": [16420, ";", 9004]
         },
         "covering": {
             "encoding": [
@@ -7947,14 +7975,14 @@
                 "PUT",
                 "VERB+ED"
             ],
-            "bci-av-id": 16440
+            "bci-av-id": [16193, ";", 9004]
         },
         "putting": {
             "encoding": [
                 "PUT",
                 "VERB+ING"
             ],
-            "bci-av-id": 16440
+            "bci-av-id": [16193, ";", 24807]
         },
         "puts": {
             "encoding": [
@@ -8058,7 +8086,7 @@
                 "LOVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 14692
+            "bci-av-id": [13894, ";", 9004]
         },
         "listening": {
             "encoding": [
@@ -8066,7 +8094,7 @@
                 "LOVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 14692
+            "bci-av-id": [13894, ";", 24807]
         },
         "listens": {
             "encoding": [
@@ -8117,7 +8145,7 @@
                 "THINK",
                 "VERB+ED"
             ],
-            "bci-av-id": 16728
+            "bci-av-id": [15666, ";", 9004]
         },
         "talking": {
             "encoding": [
@@ -8125,7 +8153,7 @@
                 "THINK",
                 "VERB+ING"
             ],
-            "bci-av-id": 16728
+            "bci-av-id": [15666, ";", 24807]
         },
         "talks": {
             "encoding": [
@@ -8154,14 +8182,14 @@
                 "SAY",
                 "VERB+ED"
             ],
-            "bci-av-id": 16728
+            "bci-av-id": [15666, ";", 9004]
         },
         "saying": {
             "encoding": [
                 "SAY",
                 "VERB+ING"
             ],
-            "bci-av-id": 16728
+            "bci-av-id": [15666, ";", 24807]
         },
         "says": {
             "encoding": [
@@ -8192,7 +8220,7 @@
                 "WANT",
                 "VERB+ED"
             ],
-            "bci-av-id": 12404
+            "bci-av-id": [15666, ";", 9004, "/", 8487, "/", 17214]
         },
         "apologizing": {
             "encoding": [
@@ -8200,7 +8228,7 @@
                 "WANT",
                 "VERB+ING"
             ],
-            "bci-av-id": 12404
+            "bci-av-id": [15666, ";", 24807, "/", 8487, "/", 17214]
         },
         "apologizes": {
             "encoding": [
@@ -8251,7 +8279,9 @@
             "bci-av-id": [
                 13382,
                 "/",
-                16728,
+                15666,
+                ";",
+                9004,
                 "/",
                 15733,
                 "/",
@@ -8267,7 +8297,9 @@
             "bci-av-id": [
                 13382,
                 "/",
-                16728,
+                15666,
+                ";",
+                24807,
                 "/",
                 15733,
                 "/",
@@ -8312,7 +8344,7 @@
                 "YOUNG",
                 "VERB+ED"
             ],
-            "bci-av-id": 18290
+            "bci-av-id": [15666, ";", 9004, "/", 14947, "/", 14947, "/", 14947]
         },
         "yelling": {
             "encoding": [
@@ -8320,7 +8352,7 @@
                 "YOUNG",
                 "VERB+ING"
             ],
-            "bci-av-id": 18290
+            "bci-av-id": [15666, ";", 24807, "/", 14947, "/", 14947, "/", 14947]
         },
         "yells": {
             "encoding": [
@@ -8409,7 +8441,7 @@
                 "FUTURE",
                 "VERB+ED"
             ],
-            "bci-av-id": 16466
+            "bci-av-id": [24929, ";", 9004]
         },
         "to prepare": {
             "encoding": [
@@ -8433,7 +8465,7 @@
                 "FUTURE",
                 "VERB+ING"
             ],
-            "bci-av-id": 16244
+            "bci-av-id": [24929, ";", 24807]
         },
         "prepares": {
             "encoding": [
@@ -8498,7 +8530,11 @@
                 "LOVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 16200
+            "bci-av-id": [
+                16199,
+                ";",
+                9004
+            ]
         },
         "express": {
             "encoding": [
@@ -8514,7 +8550,7 @@
                 "ELECTRIC",
                 "VERB+ED"
             ],
-            "bci-av-id": 16728
+            "bci-av-id": [15666, ";", 9004]
         },
         "expressing": {
             "encoding": [
@@ -8522,7 +8558,7 @@
                 "ELECTRIC",
                 "VERB+ING"
             ],
-            "bci-av-id": 16728
+            "bci-av-id": [15666, ";", 24807]
         },
         "expresses": {
             "encoding": [
@@ -8554,7 +8590,7 @@
                 "HELP",
                 "VERB+ED"
             ],
-            "bci-av-id": 16728
+            "bci-av-id": [15666, ";", 9004]
         },
         "telling": {
             "encoding": [
@@ -8562,7 +8598,7 @@
                 "HELP",
                 "VERB+ING"
             ],
-            "bci-av-id": 16728
+            "bci-av-id": [15666, ";", 24807]
         },
         "tells": {
             "encoding": [
@@ -8594,7 +8630,7 @@
                 "LOVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 27078
+            "bci-av-id": [12335, ";", 9004, "/", 8487, "/", 14164, "/", 17983, "/", 15666]
         },
         "joking": {
             "encoding": [
@@ -8602,7 +8638,7 @@
                 "LOVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 27078
+            "bci-av-id": [12335, ";", 24807, "/", 8487, "/", 14164, "/", 17983, "/", 15666]
         },
         "jokes": {
             "encoding": [
@@ -8673,7 +8709,9 @@
             "bci-av-id": [
                 13382,
                 "/",
-                16728,
+                15666,
+                ";",
+                9004,
                 "/",
                 15722,
                 "/",
@@ -8689,7 +8727,9 @@
             "bci-av-id": [
                 13382,
                 "/",
-                16728,
+                15666,
+                ";",
+                24807,
                 "/",
                 15722,
                 "/",
@@ -8793,7 +8833,7 @@
                 "REPEAT",
                 "VERB+ED"
             ],
-            "bci-av-id": 15153
+            "bci-av-id": [15152, ";", 9004]
         },
         "kissing": {
             "encoding": [
@@ -8801,7 +8841,7 @@
                 "REPEAT",
                 "VERB+ING"
             ],
-            "bci-av-id": 15153
+            "bci-av-id": [15152, ";", 24807]
         },
         "kisses": {
             "encoding": [
@@ -8841,7 +8881,7 @@
                 "STOP",
                 "VERB+ED"
             ],
-            "bci-av-id": 16728
+            "bci-av-id": [15666, ";", 9004]
         },
         "spoken": {
             "encoding": [
@@ -8849,7 +8889,7 @@
                 "STOP",
                 "VERB+EN"
             ],
-            "bci-av-id": 16728
+            "bci-av-id": [15666, ";", 9004]
         },
         "speaking": {
             "encoding": [
@@ -8857,7 +8897,7 @@
                 "STOP",
                 "VERB+ING"
             ],
-            "bci-av-id": 16728
+            "bci-av-id": [15666, ";", 24807]
         },
         "speaks": {
             "encoding": [
@@ -9296,7 +9336,7 @@
                 "SAY",
                 "VERB+ED"
             ],
-            "bci-av-id": 12901
+            "bci-av-id": [12900, ";", 9004]
         },
         "breathing": {
             "encoding": [
@@ -9304,7 +9344,7 @@
                 "SAY",
                 "VERB+ING"
             ],
-            "bci-av-id": 12900
+            "bci-av-id": [12900, ";", 24807]
         },
         "breathes": {
             "encoding": [
@@ -9399,7 +9439,7 @@
                 "EXCLAIM",
                 "VERB+ED"
             ],
-            "bci-av-id": 15210
+            "bci-av-id": [14456, ";", 9004]
         },
         "liking": {
             "encoding": [
@@ -9407,7 +9447,7 @@
                 "EXCLAIM",
                 "VERB+ING"
             ],
-            "bci-av-id": 15210
+            "bci-av-id": [14456, ";", 24807]
         },
         "likes": {
             "encoding": [
@@ -9493,7 +9533,7 @@
                 "JOURNEY",
                 "VERB+ED"
             ],
-            "bci-av-id": 14154
+            "bci-av-id": [23409, ";", 9004]
         },
         "joining": {
             "encoding": [
@@ -9501,7 +9541,7 @@
                 "JOURNEY",
                 "VERB+ING"
             ],
-            "bci-av-id": 14154
+            "bci-av-id": [23409, ";", 24807]
         },
         "joins": {
             "encoding": [
@@ -9683,7 +9723,7 @@
                 "WHAT",
                 "VERB+ED"
             ],
-            "bci-av-id": 12661
+            "bci-av-id": [12660, ";", 9004]
         },
         "believing": {
             "encoding": [
@@ -9691,7 +9731,7 @@
                 "WHAT",
                 "VERB+ING"
             ],
-            "bci-av-id": 12661
+            "bci-av-id": [12660, ";", 24807]
         },
         "believes": {
             "encoding": [
@@ -9737,7 +9777,7 @@
                 "ALSO",
                 "VERB+ED"
             ],
-            "bci-av-id": 14154
+            "bci-av-id": [23409, ";", 9004]
         },
         "fastening": {
             "encoding": [
@@ -9745,7 +9785,7 @@
                 "ALSO",
                 "VERB+ING"
             ],
-            "bci-av-id": 14154
+            "bci-av-id": [23409, ";", 24807]
         },
         "fastens": {
             "encoding": [
@@ -9777,7 +9817,7 @@
                 "CAN",
                 "VERB+ED"
             ],
-            "bci-av-id": 16487
+            "bci-av-id": [24934, ";", 9004]
         },
         "copying": {
             "encoding": [
@@ -9785,7 +9825,7 @@
                 "CAN",
                 "VERB+ING"
             ],
-            "bci-av-id": 16487
+            "bci-av-id": [24934, ";", 24807]
         },
         "copies": {
             "encoding": [
@@ -10510,14 +10550,14 @@
                 "REPEAT",
                 "VERB+ED"
             ],
-            "bci-av-id": 16487
+            "bci-av-id": [24934, ";", 9004]
         },
         "repeating": {
             "encoding": [
                 "REPEAT",
                 "VERB+ING"
             ],
-            "bci-av-id": 16487
+            "bci-av-id": [24934, ";", 24807]
         },
         "repeats": {
             "encoding": [
@@ -10540,7 +10580,7 @@
                 "BUT",
                 "VERB+ED"
             ],
-            "bci-av-id": 12612
+            "bci-av-id": [12613, ";", 9004]
         },
         "backing": {
             "encoding": [
@@ -10548,7 +10588,7 @@
                 "BUT",
                 "VERB+ING"
             ],
-            "bci-av-id": 12612
+            "bci-av-id": [12613, ";", 24807]
         },
         "to return": {
             "encoding": [
@@ -10569,14 +10609,14 @@
                 "RETURN",
                 "VERB+ED"
             ],
-            "bci-av-id": 16500
+            "bci-av-id": [16499, ";", 9004]
         },
         "returning": {
             "encoding": [
                 "RETURN",
                 "VERB+ING"
             ],
-            "bci-av-id": 16500
+            "bci-av-id": [16499, ";", 24807]
         },
         "returns": {
             "encoding": [
@@ -10615,7 +10655,7 @@
                 "AIR",
                 "VERB+ED"
             ],
-            "bci-av-id": 17507
+            "bci-av-id": [17506, ";", 9004]
         },
         "tasting": {
             "encoding": [
@@ -10623,7 +10663,7 @@
                 "AIR",
                 "VERB+ING"
             ],
-            "bci-av-id": 17507
+            "bci-av-id": [17506, ";", 24807]
         },
         "tastes": {
             "encoding": [
@@ -10655,7 +10695,7 @@
                 "AM/BE",
                 "VERB+ED"
             ],
-            "bci-av-id": 13661
+            "bci-av-id": [15666, ";", 9004, "/", 25379]
         },
         "describing": {
             "encoding": [
@@ -10663,7 +10703,7 @@
                 "AM/BE",
                 "VERB+ING"
             ],
-            "bci-av-id": 13661
+            "bci-av-id": [15666, ";", 24807, "/", 25379]
         },
         "describes": {
             "encoding": [
@@ -10703,7 +10743,7 @@
                 "CAN",
                 "VERB+ED"
             ],
-            "bci-av-id": 22904
+            "bci-av-id": [17518, ";", 9004]
         },
         "calling": {
             "encoding": [
@@ -10711,7 +10751,7 @@
                 "CAN",
                 "VERB+ING"
             ],
-            "bci-av-id": 22904
+            "bci-av-id": [17518, ";", 24807]
         },
         "calls": {
             "encoding": [
@@ -10751,7 +10791,7 @@
                 "DIRECTN",
                 "VERB+ED"
             ],
-            "bci-av-id": 14130
+            "bci-av-id": [25709, ";", 9004]
         },
         "explaining": {
             "encoding": [
@@ -10759,7 +10799,7 @@
                 "DIRECTN",
                 "VERB+ING"
             ],
-            "bci-av-id": 14130
+            "bci-av-id": [25709, ";", 24807]
         },
         "explains": {
             "encoding": [
@@ -11244,7 +11284,7 @@
                 "SAY",
                 "VERB+ED"
             ],
-            "bci-av-id": 24874
+            "bci-av-id": [15691, ";", 9004]
         },
         "naming": {
             "encoding": [
@@ -11252,7 +11292,7 @@
                 "SAY",
                 "VERB+ING"
             ],
-            "bci-av-id": 24874
+            "bci-av-id": [15691, ";", 24807]
         },
         "names": {
             "encoding": [
@@ -11480,14 +11520,14 @@
                 "YEAR",
                 "VERB+ED"
             ],
-            "bci-av-id": 17957
+            "bci-av-id": [25627, ";", 9004]
         },
         "turning": {
             "encoding": [
                 "YEAR",
                 "VERB+ING"
             ],
-            "bci-av-id": 25627
+            "bci-av-id": [25627, ";", 24807]
         },
         "turns": {
             "encoding": [
@@ -11900,7 +11940,7 @@
                 "AM/BE",
                 "VERB+ED"
             ],
-            "bci-av-id": 13383
+            "bci-av-id": [12407, ";", 9004]
         },
         "approaching": {
             "encoding": [
@@ -11908,7 +11948,7 @@
                 "AM/BE",
                 "VERB+ING"
             ],
-            "bci-av-id": 13383
+            "bci-av-id": [12407, ";", 24807]
         },
         "approaches": {
             "encoding": [
@@ -11951,7 +11991,7 @@
                 "LIMITIME",
                 "VERB+ED"
             ],
-            "bci-av-id": 18030
+            "bci-av-id": [24832, ";", 9004]
         },
         "waiting": {
             "encoding": [
@@ -12018,7 +12058,7 @@
             "bci-av-id": [
                 24895,
                 ";",
-                8993
+                24807
             ]
         },
         "imagines": {
@@ -12133,9 +12173,12 @@
             "bci-av-id": [
                 13382,
                 "/",
-                16247,
+                24895,
+                ";",
+                9004,
                 "/",
                 8539,
+                "/",
                 13382
             ]
         },
@@ -12148,9 +12191,12 @@
             "bci-av-id": [
                 13382,
                 "/",
-                16247,
+                24895,
+                ";",
+                24807,
                 "/",
                 8539,
+                "/",
                 13382
             ]
         },
@@ -12261,14 +12307,22 @@
                 "OUTWORLD",
                 "VERB+ED"
             ],
-            "bci-av-id": 16247
+            "bci-av-id": [
+                24895,
+                ";",
+                9004
+            ]
         },
         "pretending": {
             "encoding": [
                 "OUTWORLD",
                 "VERB+ING"
             ],
-            "bci-av-id": 16247
+            "bci-av-id": [
+                24895,
+                ";",
+                24807
+            ]
         },
         "pretends": {
             "encoding": [
@@ -12403,7 +12457,11 @@
                 "EYE",
                 "VERB+EN"
             ],
-            "bci-av-id": 13178
+            "bci-av-id": [
+                13175,
+                ";",
+                9004
+            ]
         },
         "choosing": {
             "encoding": [
@@ -12411,7 +12469,11 @@
                 "EYE",
                 "VERB+ING"
             ],
-            "bci-av-id": 13178
+            "bci-av-id": [
+                13175,
+                ";",
+                24807
+            ]
         },
         "chooses": {
             "encoding": [
@@ -12494,7 +12556,11 @@
                 "RELIGION",
                 "VERB+ED"
             ],
-            "bci-av-id": 23895
+            "bci-av-id": [
+                23894,
+                ";",
+                9004
+            ]
         },
         "lying": {
             "encoding": [
@@ -12502,7 +12568,11 @@
                 "RELIGION",
                 "VERB+ING"
             ],
-            "bci-av-id": 23895
+            "bci-av-id": [
+                23894,
+                ";",
+                24807
+            ]
         },
         "easy": {
             "encoding": [
@@ -12550,7 +12620,7 @@
                 "THINK",
                 "TO+VERB"
             ],
-            "bci-av-id": 16485
+            "bci-av-id": 23634
         },
         "remember": {
             "encoding": [
@@ -12566,7 +12636,11 @@
                 "THINK",
                 "VERB+ED"
             ],
-            "bci-av-id": 16485
+            "bci-av-id": [
+                23589,
+                ";",
+                9004
+            ]
         },
         "remembering": {
             "encoding": [
@@ -12574,7 +12648,11 @@
                 "THINK",
                 "VERB+ING"
             ],
-            "bci-av-id": 16485
+            "bci-av-id": [
+                23589,
+                ";",
+                24807
+            ]
         },
         "remembers": {
             "encoding": [
@@ -12826,7 +12904,11 @@
                 "LOVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 16200
+            "bci-av-id": [
+                16199,
+                ";",
+                24807
+            ]
         },
         "plays": {
             "encoding": [
@@ -12964,7 +13046,11 @@
                 "PUT",
                 "VERB+EN"
             ],
-            "bci-av-id": 12847
+            "bci-av-id": [
+                17517,
+                ";",
+                9004
+            ]
         },
         "biting": {
             "encoding": [
@@ -12972,7 +13058,11 @@
                 "PUT",
                 "VERB+ING"
             ],
-            "bci-av-id": 12847
+            "bci-av-id": [
+                17517,
+                ";",
+                24807
+            ]
         },
         "bites": {
             "encoding": [
@@ -13066,14 +13156,22 @@
                 "SEXUAL",
                 "VERB+EN"
             ],
-            "bci-av-id": 23630
+            "bci-av-id": [
+                12335,
+                ";",
+                9004
+            ]
         },
         "doing": {
             "encoding": [
                 "SEXUAL",
                 "VERB+ING"
             ],
-            "bci-av-id": 23630
+            "bci-av-id": [
+                12335,
+                ";",
+                24807
+            ]
         },
         "do we": {
             "encoding": [
@@ -13206,7 +13304,11 @@
                 "RELATION",
                 "VERB+ING"
             ],
-            "bci-av-id": 25454
+            "bci-av-id": [
+                24852,
+                ";",
+                24807
+            ]
         },
         "breaks": {
             "encoding": [
@@ -13238,7 +13340,13 @@
                 "RELIGION",
                 "VERB+ED"
             ],
-            "bci-av-id": 17498
+            "bci-av-id": [
+                14667,
+                ";",
+                9004,
+                "/",
+                17449
+            ]
         },
         "removing": {
             "encoding": [
@@ -13246,7 +13354,13 @@
                 "RELIGION",
                 "VERB+ING"
             ],
-            "bci-av-id": 17498
+            "bci-av-id": [
+                14667,
+                ";",
+                24807,
+                "/",
+                17449
+            ]
         },
         "removes": {
             "encoding": [
@@ -13278,7 +13392,11 @@
                 "REPEAT",
                 "VERB+ED"
             ],
-            "bci-av-id": 23471
+            "bci-av-id": [
+                25548,
+                ";",
+                9004
+            ]
         },
         "unfastening": {
             "encoding": [
@@ -13286,7 +13404,11 @@
                 "REPEAT",
                 "VERB+ING"
             ],
-            "bci-av-id": 23471
+            "bci-av-id": [
+                25548,
+                ";",
+                24807
+            ]
         },
         "unfastens": {
             "encoding": [
@@ -13322,14 +13444,22 @@
                 "WITHOUT",
                 "VERB+ED"
             ],
-            "bci-av-id": 17448
+            "bci-av-id": [
+                17449,
+                ";",
+                9004
+            ]
         },
         "subtracting": {
             "encoding": [
                 "WITHOUT",
                 "VERB+ING"
             ],
-            "bci-av-id": 17448
+            "bci-av-id": [
+                17449,
+                ";",
+                24807
+            ]
         },
         "subtracts": {
             "encoding": [
@@ -13423,7 +13553,9 @@
             "bci-av-id": [
                 13382,
                 "/",
-                18285,
+                15991,
+                ";",
+                9004,
                 "/",
                 21341,
                 "/",
@@ -13439,7 +13571,9 @@
             "bci-av-id": [
                 13382,
                 "/",
-                18285,
+                15991,
+                ";",
+                24807,
                 "/",
                 21341,
                 "/",
@@ -13598,7 +13732,11 @@
                 "PUT",
                 "VERB+ED"
             ],
-            "bci-av-id": 14674
+            "bci-av-id": [
+                14114,
+                ";",
+                9004
+            ]
         },
         "happening": {
             "encoding": [
@@ -13606,7 +13744,11 @@
                 "PUT",
                 "VERB+ING"
             ],
-            "bci-av-id": 14674
+            "bci-av-id": [
+                14114,
+                ";",
+                24807
+            ]
         },
         "happens": {
             "encoding": [
@@ -13665,14 +13807,22 @@
                 "AM/BE",
                 "VERB+ED"
             ],
-            "bci-av-id": 12639
+            "bci-av-id": [
+                24443,
+                ";",
+                9004
+            ]
         },
         "being": {
             "encoding": [
                 "AM/BE",
                 "VERB+ING"
             ],
-            "bci-av-id": 12639
+            "bci-av-id": [
+                24443,
+                ";",
+                24807
+            ]
         },
         "to change": {
             "encoding": [
@@ -13696,7 +13846,11 @@
                 "WATER",
                 "VERB+ED"
             ],
-            "bci-av-id": 13152
+            "bci-av-id": [
+                13151,
+                ";",
+                9004
+            ]
         },
         "changing": {
             "encoding": [
@@ -13704,7 +13858,11 @@
                 "WATER",
                 "VERB+ING"
             ],
-            "bci-av-id": 13152
+            "bci-av-id": [
+                13151,
+                ";",
+                24807
+            ]
         },
         "changes": {
             "encoding": [
@@ -13998,7 +14156,11 @@
                 "ELECTRIC",
                 "VERB+ED"
             ],
-            "bci-av-id": 23004
+            "bci-av-id": [
+                23002,
+                ";",
+                9004
+            ]
         },
         "charging": {
             "encoding": [
@@ -14006,7 +14168,11 @@
                 "ELECTRIC",
                 "VERB+ING"
             ],
-            "bci-av-id": 23004
+            "bci-av-id": [
+                23002,
+                ";",
+                24807
+            ]
         },
         "charges": {
             "encoding": [
@@ -14038,7 +14204,13 @@
                 "EYE",
                 "VERB+ED"
             ],
-            "bci-av-id": 16967
+            "bci-av-id": [
+                13134,
+                ";",
+                9004,
+                "/",
+                24846
+            ]
         },
         "shown": {
             "encoding": [
@@ -14046,7 +14218,13 @@
                 "EYE",
                 "VERB+EN"
             ],
-            "bci-av-id": 16967
+            "bci-av-id": [
+                13134,
+                ";",
+                9004,
+                "/",
+                24846
+            ]
         },
         "showing": {
             "encoding": [
@@ -14054,7 +14232,13 @@
                 "EYE",
                 "VERB+ING"
             ],
-            "bci-av-id": 16967
+            "bci-av-id": [
+                13134,
+                ";",
+                24807,
+                "/",
+                24846
+            ]
         },
         "shows": {
             "encoding": [
@@ -14086,7 +14270,11 @@
                 "FINISH",
                 "VERB+ED"
             ],
-            "bci-av-id": 14192
+            "bci-av-id": [
+                24898,
+                ";",
+                9004
+            ]
         },
         "fixing": {
             "encoding": [
@@ -14094,7 +14282,11 @@
                 "FINISH",
                 "VERB+ING"
             ],
-            "bci-av-id": 24898
+            "bci-av-id": [
+                24898,
+                ";",
+                24807
+            ]
         },
         "fixes": {
             "encoding": [
@@ -14126,7 +14318,11 @@
                 "MAYBE",
                 "VERB+ED"
             ],
-            "bci-av-id": 15410
+            "bci-av-id": [
+                23583,
+                ";",
+                9004
+            ]
         },
         "making": {
             "encoding": [
@@ -14134,7 +14330,11 @@
                 "MAYBE",
                 "VERB+ING"
             ],
-            "bci-av-id": 15410
+            "bci-av-id": [
+                23583,
+                ";",
+                24807
+            ]
         },
         "makes": {
             "encoding": [
@@ -14193,7 +14393,13 @@
                 "RECEIVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 24686
+            "bci-av-id": [
+                14667,
+                ";",
+                9004,
+                "/",
+                24894
+            ]
         },
         "dropping": {
             "encoding": [
@@ -14201,7 +14407,13 @@
                 "RECEIVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 24686
+            "bci-av-id": [
+                14667,
+                ";",
+                24807,
+                "/",
+                24894
+            ]
         },
         "drops": {
             "encoding": [
@@ -14357,7 +14569,13 @@
                 "PAST",
                 "VERB+ED"
             ],
-            "bci-av-id": 24709
+            "bci-av-id": [
+                14180,
+                ";",
+                9004,
+                "/",
+                24727
+            ]
         },
         "picking": {
             "encoding": [
@@ -14365,7 +14583,13 @@
                 "PAST",
                 "VERB+ING"
             ],
-            "bci-av-id": 24709
+            "bci-av-id": [
+                14180,
+                ";",
+                24807,
+                "/",
+                24727
+            ]
         },
         "picks": {
             "encoding": [
@@ -14426,7 +14650,11 @@
                 "STOP",
                 "VERB+ED"
             ],
-            "bci-av-id": 13178
+            "bci-av-id": [
+                13175,
+                ";",
+                9004
+            ]
         },
         "selecting": {
             "encoding": [
@@ -14434,7 +14662,11 @@
                 "STOP",
                 "VERB+ING"
             ],
-            "bci-av-id": 13178
+            "bci-av-id": [
+                13175,
+                ";",
+                24807
+            ]
         },
         "selects": {
             "encoding": [
@@ -14470,14 +14702,22 @@
                 "PART",
                 "VERB+ED"
             ],
-            "bci-av-id": 13694
+            "bci-av-id": [
+                13857,
+                ";",
+                9004
+            ]
         },
         "dividing": {
             "encoding": [
                 "PART",
                 "VERB+ING"
             ],
-            "bci-av-id": 13694
+            "bci-av-id": [
+                13857,
+                ";",
+                24807
+            ]
         },
         "divides": {
             "encoding": [
@@ -14499,7 +14739,11 @@
                 "WRITE",
                 "VERB+ING"
             ],
-            "bci-av-id": 23665
+            "bci-av-id": [
+                23507,
+                ";",
+                24807
+            ]
         },
         "spelling (noun)": {
             "encoding": [
@@ -14545,7 +14789,11 @@
                 "WRITE",
                 "VERB+ED"
             ],
-            "bci-av-id": 23665
+            "bci-av-id": [
+                23507,
+                ";",
+                9004
+            ]
         },
         "spells": {
             "encoding": [
@@ -14588,14 +14836,22 @@
                 "STOP",
                 "VERB+ED"
             ],
-            "bci-av-id": 17268
+            "bci-av-id": [
+                13935,
+                ";",
+                9004
+            ]
         },
         "stopping": {
             "encoding": [
                 "STOP",
                 "VERB+ING"
             ],
-            "bci-av-id": 17268
+            "bci-av-id": [
+                13935,
+                ";",
+                24807
+            ]
         },
         "stops": {
             "encoding": [
@@ -15029,7 +15285,7 @@
             "bci-av-id": [
                 25538,
                 ";",
-                8993
+                9004
             ]
         },
         "correcting": {
@@ -15041,7 +15297,7 @@
             "bci-av-id": [
                 25538,
                 ";",
-                8993
+                24807
             ]
         },
         "corrects": {
@@ -15137,7 +15393,11 @@
                 "CAUSE",
                 "VERB+ED"
             ],
-            "bci-av-id": 16195
+            "bci-av-id": [
+                16194,
+                ";",
+                9004
+            ]
         },
         "planning": {
             "encoding": [
@@ -15145,7 +15405,11 @@
                 "CAUSE",
                 "VERB+ING"
             ],
-            "bci-av-id": 16195
+            "bci-av-id": [
+                16194,
+                ";",
+                24807
+            ]
         },
         "plans": {
             "encoding": [
@@ -15193,7 +15457,7 @@
                 "DIRECTN",
                 "TO+VERB"
             ],
-            "bci-av-id": 21334
+            "bci-av-id": 15181
         },
         "lead": {
             "encoding": [
@@ -15209,7 +15473,11 @@
                 "DIRECTN",
                 "VERB+ED"
             ],
-            "bci-av-id": 21334
+            "bci-av-id": [
+                22913,
+                ";",
+                9004
+            ]
         },
         "leading": {
             "encoding": [
@@ -15217,7 +15485,11 @@
                 "DIRECTN",
                 "VERB+ING"
             ],
-            "bci-av-id": 21334
+            "bci-av-id": [
+                22913,
+                ";",
+                24807
+            ]
         },
         "leads": {
             "encoding": [
@@ -15225,7 +15497,7 @@
                 "DIRECTN",
                 "VERB+S"
             ],
-            "bci-av-id": 21334
+            "bci-av-id": 15181
         },
         "interesting": {
             "encoding": [
@@ -15261,7 +15533,7 @@
                 "EXCLAIM",
                 "VERB+ED"
             ],
-            "bci-av-id": 14948
+            "bci-av-id": [24916, ";", 9004]
         },
         "interests": {
             "encoding": [
@@ -15297,7 +15569,7 @@
                 "EYE",
                 "VERB+ED"
             ],
-            "bci-av-id": 15908
+            "bci-av-id": [24846, ";", 9004]
         },
         "observing": {
             "encoding": [
@@ -15305,7 +15577,7 @@
                 "EYE",
                 "VERB+ING"
             ],
-            "bci-av-id": 15908
+            "bci-av-id": [24846, ";", 24807]
         },
         "observes": {
             "encoding": [
@@ -15337,7 +15609,7 @@
                 "FINISH",
                 "VERB+ED"
             ],
-            "bci-av-id": 24294
+            "bci-av-id": [12335, ";", 9004, "/", 24727, "/", 15162]
         },
         "studying": {
             "encoding": [
@@ -15345,7 +15617,7 @@
                 "FINISH",
                 "VERB+ING"
             ],
-            "bci-av-id": 24294
+            "bci-av-id": [12335, ";", 24807, "/", 24727, "/", 15162]
         },
         "studies": {
             "encoding": [
@@ -15803,7 +16075,7 @@
                 "GIVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 17532
+            "bci-av-id": [17533, ";", 9004]
         },
         "thanking": {
             "encoding": [
@@ -15811,7 +16083,7 @@
                 "GIVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 17532
+            "bci-av-id": [17533, ";", 24807]
         },
         "thanks": {
             "encoding": [
@@ -15929,7 +16201,7 @@
                 "WITHOUT",
                 "VERB+ED"
             ],
-            "bci-av-id": 25077
+            "bci-av-id": [25079, ";", 9004]
         },
         "hidden": {
             "encoding": [
@@ -15937,7 +16209,7 @@
                 "WITHOUT",
                 "VERB+EN"
             ],
-            "bci-av-id": 25077
+            "bci-av-id": [25079, ";", 9004]
         },
         "hiding": {
             "encoding": [
@@ -15945,7 +16217,7 @@
                 "WITHOUT",
                 "VERB+ING"
             ],
-            "bci-av-id": 25077
+            "bci-av-id": [25079, ";", 24807]
         },
         "hides": {
             "encoding": [
@@ -16012,7 +16284,7 @@
                 "DIRECTN",
                 "VERB+ED"
             ],
-            "bci-av-id": 12413
+            "bci-av-id": [12414, ";", 9004]
         },
         "disputing": {
             "encoding": [
@@ -16020,7 +16292,7 @@
                 "DIRECTN",
                 "VERB+ING"
             ],
-            "bci-av-id": 12413
+            "bci-av-id": [12414, ";", 24807]
         },
         "disputes": {
             "encoding": [
@@ -16052,7 +16324,7 @@
                 "EXCLAIM",
                 "VERB+ED"
             ],
-            "bci-av-id": 12413
+            "bci-av-id": [12414, ";", 9004]
         },
         "arguing": {
             "encoding": [
@@ -16060,7 +16332,7 @@
                 "EXCLAIM",
                 "VERB+ING"
             ],
-            "bci-av-id": 12413
+            "bci-av-id": [12414, ";", 24807]
         },
         "argues": {
             "encoding": [
@@ -16092,7 +16364,7 @@
                 "MAYBE",
                 "VERB+ING"
             ],
-            "bci-av-id": 15441
+            "bci-av-id": [15441, ";", 24807]
         },
         "meanings": {
             "encoding": [
@@ -16128,7 +16400,7 @@
                 "MAYBE",
                 "VERB+ED"
             ],
-            "bci-av-id": 15440
+            "bci-av-id": [15441, ";", 9004]
         },
         "means": {
             "encoding": [
@@ -16817,7 +17089,7 @@
                 "GO",
                 "VERB+ED"
             ],
-            "bci-av-id": 17254
+            "bci-av-id": [15474, "/", 14390, ";", 9004]
         },
         "staying": {
             "encoding": [
@@ -16825,7 +17097,7 @@
                 "GO",
                 "VERB+ING"
             ],
-            "bci-av-id": 17254
+            "bci-av-id": [15474, "/", 14390, ";", 24807]
         },
         "stays": {
             "encoding": [
@@ -16890,7 +17162,7 @@
                 "LOVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 26294
+            "bci-av-id": [26295, ";", 9004]
         },
         "disappointing": {
             "encoding": [
@@ -17005,7 +17277,11 @@
                 "RECEIVE",
                 "VERB+EN"
             ],
-            "bci-av-id": 12907
+            "bci-av-id": [
+                24852,
+                ";",
+                9004
+            ]
         },
         "nor": {
             "encoding": [
@@ -17037,7 +17313,11 @@
                 "RECEIVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 25454
+            "bci-av-id": [
+                24852,
+                ";",
+                9004
+            ]
         },
         "typed": {
             "encoding": [
@@ -17101,7 +17381,7 @@
                 "ALSO",
                 "VERB+ED"
             ],
-            "bci-av-id": 18254
+            "bci-av-id": [16451, ";", 9004, "/", 12339]
         },
         "winning": {
             "encoding": [
@@ -17109,7 +17389,7 @@
                 "ALSO",
                 "VERB+ING"
             ],
-            "bci-av-id": 18254
+            "bci-av-id": [16451, ";", 24807, "/", 12339]
         },
         "wins": {
             "encoding": [
@@ -17141,7 +17421,7 @@
                 "AM/BE",
                 "VERB+ED"
             ],
-            "bci-av-id": 12648
+            "bci-av-id": [14390, ";", 9004, "/", 24443]
         },
         "becoming": {
             "encoding": [
@@ -17149,7 +17429,7 @@
                 "AM/BE",
                 "VERB+ING"
             ],
-            "bci-av-id": 12648
+            "bci-av-id": [14390, ";", 24807, "/", 24443]
         },
         "becomes": {
             "encoding": [
@@ -17181,7 +17461,7 @@
                 "CAN",
                 "VERB+ED"
             ],
-            "bci-av-id": 12354
+            "bci-av-id": [12354, ";", 9004]
         },
         "consenting": {
             "encoding": [
@@ -17189,7 +17469,7 @@
                 "CAN",
                 "VERB+ING"
             ],
-            "bci-av-id": 12354
+            "bci-av-id": [12354, ";", 24807]
         },
         "consents": {
             "encoding": [
@@ -17253,7 +17533,7 @@
                 "EXCLAIM",
                 "VERB+ED"
             ],
-            "bci-av-id": 24167
+            "bci-av-id": [24166, ";", 9004]
         },
         "rushing": {
             "encoding": [
@@ -17261,7 +17541,7 @@
                 "EXCLAIM",
                 "VERB+ING"
             ],
-            "bci-av-id": 24167
+            "bci-av-id": [24166, ";", 24807]
         },
         "rushes": {
             "encoding": [
@@ -17277,7 +17557,7 @@
                 "FORGIVE",
                 "TO+VERB"
             ],
-            "bci-av-id": 14376
+            "bci-av-id": 21053
         },
         "follow": {
             "encoding": [
@@ -17285,7 +17565,7 @@
                 "FORGIVE",
                 "VERB"
             ],
-            "bci-av-id": 14376
+            "bci-av-id": 21053
         },
         "followed": {
             "encoding": [
@@ -17293,7 +17573,7 @@
                 "FORGIVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 14376
+            "bci-av-id": [14390, ";", 9004, "/", 22913]
         },
         "following": {
             "encoding": [
@@ -17301,7 +17581,7 @@
                 "FORGIVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 14376
+            "bci-av-id": [14390, ";", 24807, "/", 22913]
         },
         "follows": {
             "encoding": [
@@ -17309,7 +17589,7 @@
                 "FORGIVE",
                 "VERB+S"
             ],
-            "bci-av-id": 14376
+            "bci-av-id": 21053
         },
         "game": {
             "encoding": [
@@ -17599,7 +17879,7 @@
                 "AM/BE",
                 "VERB+ED"
             ],
-            "bci-av-id": 12855
+            "bci-av-id": [12861, ";", 9004]
         },
         "bleeding": {
             "encoding": [
@@ -17607,7 +17887,7 @@
                 "AM/BE",
                 "VERB+ING"
             ],
-            "bci-av-id": 12855
+            "bci-av-id": [12861, ";", 24807]
         },
         "bleeds": {
             "encoding": [
@@ -17671,7 +17951,7 @@
                 "FOOD",
                 "VERB+ED"
             ],
-            "bci-av-id": 13882
+            "bci-av-id": [13881, ";", 9004]
         },
         "drunk": {
             "encoding": [
@@ -17679,7 +17959,7 @@
                 "FOOD",
                 "VERB+EN"
             ],
-            "bci-av-id": 13882
+            "bci-av-id": [13881, ";", 9004]
         },
         "drinking": {
             "encoding": [
@@ -17687,7 +17967,7 @@
                 "FOOD",
                 "VERB+ING"
             ],
-            "bci-av-id": 13882
+            "bci-av-id": [13881, ";", 24807]
         },
         "go jump in the lake": {
             "encoding": [
@@ -17741,7 +18021,7 @@
                 "RECEIVE",
                 "TO+VERB"
             ],
-            "bci-av-id": 13872
+            "bci-av-id": 16456
         },
         "rain": {
             "encoding": [
@@ -17757,7 +18037,7 @@
                 "RECEIVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 13872
+            "bci-av-id": [16455, ";", 9004]
         },
         "raining": {
             "encoding": [
@@ -17765,7 +18045,7 @@
                 "RECEIVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 13872
+            "bci-av-id": [16455, ";", 24807]
         },
         "rains": {
             "encoding": [
@@ -17982,7 +18262,7 @@
                 "TOOL",
                 "VERB+ED"
             ],
-            "bci-av-id": 13135
+            "bci-av-id": [24847, ";", 9004]
         },
         "to use": {
             "encoding": [
@@ -17990,7 +18270,7 @@
                 "TOOL",
                 "TO+VERB"
             ],
-            "bci-av-id": 13135
+            "bci-av-id": 17991
         },
         "use": {
             "encoding": [
@@ -17998,7 +18278,7 @@
                 "TOOL",
                 "VERB"
             ],
-            "bci-av-id": 24847
+            "bci-av-id": 17991
         },
         "using": {
             "encoding": [
@@ -18006,7 +18286,7 @@
                 "TOOL",
                 "VERB+ING"
             ],
-            "bci-av-id": 13135
+            "bci-av-id": [24847, ";", 24807]
         },
         "uses": {
             "encoding": [
@@ -18014,7 +18294,7 @@
                 "TOOL",
                 "VERB+S"
             ],
-            "bci-av-id": 13135
+            "bci-av-id": 17991
         },
         "TV": {
             "encoding": [
@@ -18055,7 +18335,7 @@
                 "VERB",
                 "VERB+ED"
             ],
-            "bci-av-id": 17718
+            "bci-av-id": [15471, ";", 9004]
         },
         "thought (noun)": {
             "encoding": [
@@ -18070,7 +18350,7 @@
                 "THINK",
                 "VERB+ING"
             ],
-            "bci-av-id": 15456
+            "bci-av-id": [15471, ";", 24807]
         },
         "thinks": {
             "encoding": [
@@ -18101,7 +18381,7 @@
                 "WANT",
                 "VERB+ED"
             ],
-            "bci-av-id": 18266
+            "bci-av-id": [24833, ";", 9004]
         },
         "wishing": {
             "encoding": [
@@ -18109,7 +18389,7 @@
                 "WANT",
                 "VERB+ING"
             ],
-            "bci-av-id": 18266
+            "bci-av-id": [24833, ";", 24807]
         },
         "wishes": {
             "encoding": [
@@ -18193,7 +18473,7 @@
                 "WHAT",
                 "VERB+ED"
             ],
-            "bci-av-id": 14651
+            "bci-av-id": [26004, ";", 9004]
         },
         "guessing": {
             "encoding": [
@@ -18201,7 +18481,7 @@
                 "WHAT",
                 "VERB+ING"
             ],
-            "bci-av-id": 14651
+            "bci-av-id": [26004, ";", 24807]
         },
         "guesses": {
             "encoding": [
@@ -18261,7 +18541,7 @@
                 "CAUSE",
                 "VERB+ED"
             ],
-            "bci-av-id": 16213
+            "bci-av-id": [23619, ";", 9004]
         },
         "pointing": {
             "encoding": [
@@ -18269,7 +18549,7 @@
                 "CAUSE",
                 "VERB+ING"
             ],
-            "bci-av-id": 16213
+            "bci-av-id": [23619, ";", 24807]
         },
         "points": {
             "encoding": [
@@ -18301,7 +18581,15 @@
                 "COMMUN.",
                 "VERB+ED"
             ],
-            "bci-av-id": 16695
+            "bci-av-id": [
+                14667,
+                ";",
+                9004,
+                "/",
+                12610,
+                "/",
+                14947
+            ]
         },
         "forget": {
             "encoding": [
@@ -18325,7 +18613,7 @@
                 "GO",
                 "VERB+EN"
             ],
-            "bci-av-id": 14387
+            "bci-av-id": [24899, ";", 9004]
         },
         "forgetting": {
             "encoding": [
@@ -18333,7 +18621,7 @@
                 "GO",
                 "VERB+ING"
             ],
-            "bci-av-id": 24899
+            "bci-av-id": [24899, ";", 24807]
         },
         "forgets": {
             "encoding": [
@@ -18373,7 +18661,7 @@
                 "HOUSE",
                 "VERB+EN"
             ],
-            "bci-av-id": 15161
+            "bci-av-id": [15162, ";", 9004]
         },
         "knowing": {
             "encoding": [
@@ -18381,7 +18669,7 @@
                 "HOUSE",
                 "VERB+ING"
             ],
-            "bci-av-id": 15161
+            "bci-av-id": [15162, ";", 24807]
         },
         "knows": {
             "encoding": [
@@ -18466,7 +18754,7 @@
                 "MAYBE",
                 "VERB+ED"
             ],
-            "bci-av-id": 26337
+            "bci-av-id": [25039, ";", 9004]
         },
         "wondering": {
             "encoding": [
@@ -18474,7 +18762,7 @@
                 "MAYBE",
                 "VERB+ING"
             ],
-            "bci-av-id": 26337
+            "bci-av-id": [25039, ";", 24807]
         },
         "wonders": {
             "encoding": [
@@ -18679,7 +18967,7 @@
                 "STOP",
                 "VERB+ED"
             ],
-            "bci-av-id": 13648
+            "bci-av-id": [13649, ";", 9004]
         },
         "deciding": {
             "encoding": [
@@ -18687,7 +18975,7 @@
                 "STOP",
                 "VERB+ING"
             ],
-            "bci-av-id": 13648
+            "bci-av-id": [13649, ";", 24807]
         },
         "decides": {
             "encoding": [
@@ -18711,7 +18999,7 @@
                 "RELATION",
                 "VERB+ED"
             ],
-            "bci-av-id": 14697
+            "bci-av-id": [14696, ";", 9004]
         },
         "heating": {
             "encoding": [
@@ -18719,7 +19007,7 @@
                 "RELATION",
                 "VERB+ING"
             ],
-            "bci-av-id": 14697
+            "bci-av-id": [14696, ";", 24807]
         },
         "heats": {
             "encoding": [
@@ -18775,7 +19063,7 @@
             "bci-av-id": [
                 14410,
                 ";",
-                8993
+                9004
             ]
         },
         "to frustrate": {
@@ -18808,7 +19096,11 @@
                 "STOP",
                 "VERB+ING"
             ],
-            "bci-av-id": 14409
+            "bci-av-id": [
+                14410,
+                ";",
+                24807
+            ]
         },
         "frustrates": {
             "encoding": [
@@ -18879,14 +19171,22 @@
                 "WANT",
                 "VERB+ED"
             ],
-            "bci-av-id": 18035
+            "bci-av-id": [
+                24834,
+                ";",
+                9004
+            ]
         },
         "wanting": {
             "encoding": [
                 "WANT",
                 "VERB+ING"
             ],
-            "bci-av-id": 18035
+            "bci-av-id": [
+                24834,
+                ";",
+                24807
+            ]
         },
         "do we want": {
             "encoding": [
@@ -18955,7 +19255,11 @@
                 "WITHOUT",
                 "VERB+ED"
             ],
-            "bci-av-id": 25159
+            "bci-av-id": [
+                15396,
+                ";",
+                9004
+            ]
         },
         "missing": {
             "encoding": [
@@ -18963,7 +19267,11 @@
                 "WITHOUT",
                 "VERB+ING"
             ],
-            "bci-av-id": 25159
+            "bci-av-id": [
+                15396,
+                ";",
+                24807
+            ]
         },
         "misses": {
             "encoding": [
@@ -18971,11 +19279,7 @@
                 "WITHOUT",
                 "VERB+S"
             ],
-            "bci-av-id": [
-                15478,
-                ";",
-                9011
-            ]
+            "bci-av-id": 15478
         },
         "do you want": {
             "encoding": [
@@ -19544,14 +19848,22 @@
                 "COMMUN.",
                 "VERB+ED"
             ],
-            "bci-av-id": 13389
+            "bci-av-id": [
+                13390,
+                ";",
+                9004
+            ]
         },
         "communicating": {
             "encoding": [
                 "COMMUN.",
                 "VERB+ING"
             ],
-            "bci-av-id": 13389
+            "bci-av-id": [
+                13390,
+                ";",
+                24807
+            ]
         },
         "communicates": {
             "encoding": [
@@ -19582,7 +19894,11 @@
                 "WITHOUT",
                 "VERB+ED"
             ],
-            "bci-av-id": 12413
+            "bci-av-id": [
+                12414,
+                ";",
+                9004
+            ]
         },
         "quarrelling": {
             "encoding": [
@@ -19590,7 +19906,11 @@
                 "WITHOUT",
                 "VERB+ING"
             ],
-            "bci-av-id": 12413
+            "bci-av-id": [
+                12414,
+                ";",
+                24807
+            ]
         },
         "quarrels": {
             "encoding": [
@@ -20022,7 +20342,13 @@
                 "ALSO",
                 "VERB+ED"
             ],
-            "bci-av-id": 26280
+            "bci-av-id": [
+                24727,
+                ";",
+                9004,
+                "/",
+                15471
+            ]
         },
         "accepting": {
             "encoding": [
@@ -20030,7 +20356,13 @@
                 "ALSO",
                 "VERB+ING"
             ],
-            "bci-av-id": 26280
+            "bci-av-id": [
+                24727,
+                ";",
+                24807,
+                "/",
+                15471
+            ]
         },
         "accepts": {
             "encoding": [
@@ -20062,7 +20394,11 @@
                 "COMMUN.",
                 "VERB+ED"
             ],
-            "bci-av-id": 17486
+            "bci-av-id": [
+                25406,
+                ";",
+                9004
+            ]
         },
         "swinging": {
             "encoding": [
@@ -20070,7 +20406,11 @@
                 "COMMUN.",
                 "VERB+ING"
             ],
-            "bci-av-id": 17486
+            "bci-av-id": [
+                25406,
+                ";",
+                24807
+            ]
         },
         "swings": {
             "encoding": [
@@ -20102,7 +20442,13 @@
                 "DIRECTN",
                 "VERB+ED"
             ],
-            "bci-av-id": 12904
+            "bci-av-id": [
+                25625,
+                ";",
+                9004,
+                "/",
+                12407
+            ]
         },
         "bringing": {
             "encoding": [
@@ -20110,7 +20456,13 @@
                 "DIRECTN",
                 "VERB+ING"
             ],
-            "bci-av-id": 12904
+            "bci-av-id": [
+                25625,
+                ";",
+                24807,
+                "/",
+                12407
+            ]
         },
         "brings": {
             "encoding": [
@@ -20134,7 +20486,11 @@
                 "EXCLAIM",
                 "VERB+ED"
             ],
-            "bci-av-id": 14142
+            "bci-av-id": [
+                24894,
+                ";",
+                9004
+            ]
         },
         "fallen": {
             "encoding": [
@@ -20142,7 +20498,11 @@
                 "EXCLAIM",
                 "VERB+EN"
             ],
-            "bci-av-id": 14142
+            "bci-av-id": [
+                24894,
+                ";",
+                9004
+            ]
         },
         "failing": {
             "encoding": [
@@ -20150,7 +20510,11 @@
                 "EXCLAIM",
                 "VERB+ING"
             ],
-            "bci-av-id": 14142
+            "bci-av-id": [
+                24894,
+                ";",
+                24807
+            ]
         },
         "each": {
             "encoding": [
@@ -20182,7 +20546,13 @@
                 "FUTURE",
                 "VERB+ED"
             ],
-            "bci-av-id": 15143
+            "bci-av-id": [
+                13403,
+                ";",
+                9004,
+                "/",
+                14417
+            ]
         },
         "keeping": {
             "encoding": [
@@ -20190,7 +20560,13 @@
                 "FUTURE",
                 "VERB+ING"
             ],
-            "bci-av-id": 15143
+            "bci-av-id": [
+                13403,
+                ";",
+                24807,
+                "/",
+                14417
+            ]
         },
         "keeps": {
             "encoding": [
@@ -20239,7 +20615,15 @@
                 "COMMUN.",
                 "VERB+ING"
             ],
-            "bci-av-id": 16695
+            "bci-av-id": [
+                14667,
+                ";",
+                24807,
+                "/",
+                12610,
+                "/",
+                14947
+            ]
         },
         "rubs": {
             "encoding": [
@@ -20291,7 +20675,11 @@
                 "DIRECTN",
                 "VERB+ED"
             ],
-            "bci-av-id": 16431
+            "bci-av-id": [
+                25599,
+                ";",
+                9004
+            ]
         },
         "pulling": {
             "encoding": [
@@ -20299,7 +20687,11 @@
                 "DIRECTN",
                 "VERB+ING"
             ],
-            "bci-av-id": 16431
+            "bci-av-id": [
+                25599,
+                ";",
+                24807
+            ]
         },
         "pulls": {
             "encoding": [
@@ -20371,7 +20763,11 @@
                 "JOURNEY",
                 "VERB+ED"
             ],
-            "bci-av-id": 13125
+            "bci-av-id": [
+                25625,
+                ";",
+                9004
+            ]
         },
         "carrying": {
             "encoding": [
@@ -20379,7 +20775,11 @@
                 "JOURNEY",
                 "VERB+ING"
             ],
-            "bci-av-id": 13125
+            "bci-av-id": [
+                25625,
+                ";",
+                24807
+            ]
         },
         "carries": {
             "encoding": [
@@ -20411,7 +20811,13 @@
                 "MONEY",
                 "VERB+ED"
             ],
-            "bci-av-id": 16756
+            "bci-av-id": [
+                17717,
+                ";",
+                9004,
+                "/",
+                15484
+            ]
         },
         "selling": {
             "encoding": [
@@ -20419,7 +20825,13 @@
                 "MONEY",
                 "VERB+ING"
             ],
-            "bci-av-id": 16756
+            "bci-av-id": [
+                17717,
+                ";",
+                24807,
+                "/",
+                15484
+            ]
         },
         "sells": {
             "encoding": [
@@ -20585,7 +20997,11 @@
                 "STOP",
                 "VERB+ED"
             ],
-            "bci-av-id": 24507
+            "bci-av-id": [
+                24506,
+                ";",
+                9004
+            ]
         },
         "scratching": {
             "encoding": [
@@ -20593,7 +21009,11 @@
                 "STOP",
                 "VERB+ING"
             ],
-            "bci-av-id": 24507
+            "bci-av-id": [
+                24506,
+                ";",
+                24807
+            ]
         },
         "scratches": {
             "encoding": [
@@ -20677,7 +21097,11 @@
                 "CAN",
                 "VERB+ED"
             ],
-            "bci-av-id": 23059
+            "bci-av-id": [
+                23056,
+                ";",
+                9004
+            ]
         },
         "caring": {
             "encoding": [
@@ -20685,7 +21109,11 @@
                 "CAN",
                 "VERB+ING"
             ],
-            "bci-av-id": 23059
+            "bci-av-id": [
+                23056,
+                ";",
+                24807
+            ]
         },
         "cares": {
             "encoding": [
@@ -20760,7 +21188,9 @@
             "bci-av-id": [
                 13382,
                 "/",
-                16419,
+                16420,
+                ";",
+                24807,
                 "/",
                 8533,
                 "/",
@@ -20776,7 +21206,9 @@
             "bci-av-id": [
                 13382,
                 "/",
-                16419,
+                16420,
+                ";",
+                24807,
                 "/",
                 8533,
                 "/",
@@ -20949,7 +21381,7 @@
                 "RELIGION",
                 "VERB+ED"
             ],
-            "bci-av-id": 14435
+            "bci-av-id": [24727, ";", 9004]
         },
         "receiving": {
             "encoding": [
@@ -20957,7 +21389,7 @@
                 "RELIGION",
                 "VERB+ING"
             ],
-            "bci-av-id": 14435
+            "bci-av-id": [24727, ";", 24807]
         },
         "receives": {
             "encoding": [
@@ -20989,7 +21421,7 @@
                 "STOP",
                 "VERB+ED"
             ],
-            "bci-av-id": 15143
+            "bci-av-id": [13403, ";", 9004, "/", 14417]
         },
         "saving": {
             "encoding": [
@@ -20997,7 +21429,7 @@
                 "STOP",
                 "VERB+ING"
             ],
-            "bci-av-id": 15143
+            "bci-av-id": [13403, ";", 24807, "/", 14417]
         },
         "saves": {
             "encoding": [
@@ -21049,7 +21481,7 @@
                 "THINK",
                 "VERB+ED"
             ],
-            "bci-av-id": 15184
+            "bci-av-id": [24727, ";", 9004, "/", 15162]
         },
         "learning": {
             "encoding": [
@@ -21057,7 +21489,7 @@
                 "THINK",
                 "VERB+ING"
             ],
-            "bci-av-id": 15184
+            "bci-av-id": [24727, ";", 24807, "/", 15162]
         },
         "learns": {
             "encoding": [
@@ -21086,21 +21518,21 @@
                 "RECEIVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 14435
+            "bci-av-id": [24727, ";", 9004]
         },
         "gotten": {
             "encoding": [
                 "RECEIVE",
                 "VERB+EN"
             ],
-            "bci-av-id": 14435
+            "bci-av-id": [24727, ";", 9004]
         },
         "getting": {
             "encoding": [
                 "RECEIVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 14435
+            "bci-av-id": [24727, ";", 24807]
         },
         "gets": {
             "encoding": [
@@ -21131,7 +21563,7 @@
                 "WATER",
                 "VERB+ED"
             ],
-            "bci-av-id": 18038
+            "bci-av-id": [16992, ";", 9004]
         },
         "washing": {
             "encoding": [
@@ -21139,7 +21571,7 @@
                 "WATER",
                 "VERB+ING"
             ],
-            "bci-av-id": 18038
+            "bci-av-id": [16992, ";", 24807]
         },
         "washes": {
             "encoding": [
@@ -21223,7 +21655,7 @@
                 "WRITE",
                 "VERB+ED"
             ],
-            "bci-av-id": 23532
+            "bci-av-id": [14667, ";", 9004, "/", 14457]
         },
         "holding": {
             "encoding": [
@@ -21231,7 +21663,7 @@
                 "WRITE",
                 "VERB+ING"
             ],
-            "bci-av-id": 23532
+            "bci-av-id": [14667, ";", 24807, "/", 14457]
         },
         "holds": {
             "encoding": [
@@ -21254,7 +21686,7 @@
                 "CAUSE",
                 "VERB+ING"
             ],
-            "bci-av-id": 14942
+            "bci-av-id": [13134, ";", 24807, "/", 15954]
         },
         "hurts": {
             "encoding": [
@@ -21286,7 +21718,7 @@
                 "FOOD",
                 "VERB+ED"
             ],
-            "bci-av-id": 12619
+            "bci-av-id": [22908, ";", 9004, "/", 13934]
         },
         "cooking": {
             "encoding": [
@@ -21294,7 +21726,7 @@
                 "FOOD",
                 "VERB+ING"
             ],
-            "bci-av-id": 12619
+            "bci-av-id": [22908, ";", 24807, "/", 13934]
         },
         "cooks": {
             "encoding": [
@@ -21711,7 +22143,7 @@
                 "SAY",
                 "VERB+ED"
             ],
-            "bci-av-id": 15426
+            "bci-av-id": [15425, ";", 9004]
         },
         "marrying": {
             "encoding": [
@@ -21719,7 +22151,7 @@
                 "SAY",
                 "VERB+ING"
             ],
-            "bci-av-id": 15426
+            "bci-av-id": [15425, ";", 24807]
         },
         "marries": {
             "encoding": [
@@ -21768,14 +22200,14 @@
                 "UMBRELLA",
                 "VERB+ED"
             ],
-            "bci-av-id": 23059
+            "bci-av-id": [23056, ";", 9004]
         },
         "protecting": {
             "encoding": [
                 "UMBRELLA",
                 "VERB+ING"
             ],
-            "bci-av-id": 23059
+            "bci-av-id": [23056, ";", 24807]
         },
         "protects": {
             "encoding": [
@@ -21846,7 +22278,7 @@
                 "YEAR",
                 "VERB+ED"
             ],
-            "bci-av-id": 25398
+            "bci-av-id": [25616, ";", 9004]
         },
         "wrapping": {
             "encoding": [
@@ -21854,7 +22286,7 @@
                 "YEAR",
                 "VERB+ING"
             ],
-            "bci-av-id": 25398
+            "bci-av-id": [25616, ";", 24807]
         },
         "wraps": {
             "encoding": [
@@ -21927,7 +22359,7 @@
                 "BUT",
                 "VERB+ED"
             ],
-            "bci-av-id": 12922
+            "bci-av-id": [14183, ";", 9004]
         },
         "burning": {
             "encoding": [
@@ -21935,7 +22367,7 @@
                 "BUT",
                 "VERB+ING"
             ],
-            "bci-av-id": 12922
+            "bci-av-id": [14183, ";", 24807]
         },
         "burns": {
             "encoding": [
@@ -21995,7 +22427,7 @@
                 "CAUSE",
                 "VERB+ED"
             ],
-            "bci-av-id": 14913
+            "bci-av-id": [13134, ";", 24807, "/", 9004]
         },
         "socks": {
             "encoding": [
@@ -22130,14 +22562,14 @@
                 "DRESS",
                 "VERB+ED"
             ],
-            "bci-av-id": 13877
+            "bci-av-id": [13366, ";", 9004]
         },
         "dressing": {
             "encoding": [
                 "DRESS",
                 "VERB+ING"
             ],
-            "bci-av-id": 13877
+            "bci-av-id": [13366, ";", 24807]
         },
         "dresses": {
             "encoding": [
@@ -22168,7 +22600,7 @@
                 "WANT",
                 "VERB+ED"
             ],
-            "bci-av-id": 13877
+            "bci-av-id": [13366, ";", 9004]
         },
         "worn": {
             "encoding": [
@@ -22176,7 +22608,7 @@
                 "WANT",
                 "VERB+EN"
             ],
-            "bci-av-id": 13877
+            "bci-av-id": [13366, ";", 9004]
         },
         "wearing": {
             "encoding": [
@@ -22184,7 +22616,7 @@
                 "WANT",
                 "VERB+ING"
             ],
-            "bci-av-id": 13877
+            "bci-av-id": [13366, ";", 24807]
         },
         "wears": {
             "encoding": [
@@ -22394,7 +22826,7 @@
                 "GO",
                 "VERB+ED"
             ],
-            "bci-av-id": 12648
+            "bci-av-id": [14390, ";", 9004, "/", 24443]
         },
         "coming": {
             "encoding": [
@@ -22402,7 +22834,7 @@
                 "GO",
                 "VERB+ING"
             ],
-            "bci-av-id": 12648
+            "bci-av-id": [14390, ";", 24807, "/", 24443]
         },
         "comes": {
             "encoding": [
@@ -22450,7 +22882,7 @@
                 "LOVE",
                 "TO+VERB"
             ],
-            "bci-av-id": 14683
+            "bci-av-id": 23883
         },
         "hate": {
             "encoding": [
@@ -22458,7 +22890,7 @@
                 "LOVE",
                 "VERB"
             ],
-            "bci-av-id": 24908
+            "bci-av-id": 23883
         },
         "hated": {
             "encoding": [
@@ -22466,7 +22898,7 @@
                 "LOVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 14683
+            "bci-av-id": [24908, ";", 9004]
         },
         "hating": {
             "encoding": [
@@ -22474,7 +22906,7 @@
                 "LOVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 14683
+            "bci-av-id": [24908, ";", 24807]
         },
         "hates": {
             "encoding": [
@@ -22482,7 +22914,7 @@
                 "LOVE",
                 "VERB+S"
             ],
-            "bci-av-id": 14683
+            "bci-av-id": 23883
         },
         "few": {
             "encoding": [
@@ -22570,7 +23002,7 @@
                 "OPEN",
                 "VERB+ED"
             ],
-            "bci-av-id": 13364
+            "bci-av-id": [13934, ";", 9004]
         },
         "closing": {
             "encoding": [
@@ -22578,7 +23010,7 @@
                 "OPEN",
                 "VERB+ING"
             ],
-            "bci-av-id": 13364
+            "bci-av-id": [13934, ";", 24807]
         },
         "closes": {
             "encoding": [
@@ -22682,7 +23114,7 @@
                 "QUIET",
                 "VERB+ED"
             ],
-            "bci-av-id": 17217
+            "bci-av-id": [17216, ";", 9004]
         },
         "sounding": {
             "encoding": [
@@ -22690,7 +23122,7 @@
                 "QUIET",
                 "VERB+ING"
             ],
-            "bci-av-id": 17217
+            "bci-av-id": [17216, ";", 24807]
         },
         "sounds": {
             "encoding": [
@@ -22765,7 +23197,7 @@
             "bci-av-id": [
                 15923,
                 ";",
-                8993
+                24807
             ]
         },
         "openings": {
@@ -22916,7 +23348,7 @@
                 "WHAT",
                 "VERB+ED"
             ],
-            "bci-av-id": 12588
+            "bci-av-id": [16445, ";", 9004]
         },
         "asking": {
             "encoding": [
@@ -22924,7 +23356,7 @@
                 "WHAT",
                 "VERB+ING"
             ],
-            "bci-av-id": 12588
+            "bci-av-id": [16445, ";", 24807]
         },
         "asks": {
             "encoding": [
@@ -23057,7 +23489,7 @@
                 "DIRECTN",
                 "VERB+ED"
             ],
-            "bci-av-id": 25863
+            "bci-av-id": [25864, ";", 9004]
         },
         "disagreeing": {
             "encoding": [
@@ -23065,7 +23497,7 @@
                 "DIRECTN",
                 "VERB+ING"
             ],
-            "bci-av-id": 25863
+            "bci-av-id": [25864, ";", 24807]
         },
         "twenty-third": {
             "encoding": [
@@ -23120,7 +23552,7 @@
                 "REPEAT",
                 "VERB+ED"
             ],
-            "bci-av-id": 24808
+            "bci-av-id": [14680, ";", 9004]
         },
         "agreeing": {
             "encoding": [
@@ -23128,7 +23560,7 @@
                 "REPEAT",
                 "VERB+ING"
             ],
-            "bci-av-id": 12353
+            "bci-av-id": [14680, ";", 24807]
         },
         "agrees": {
             "encoding": [
@@ -23160,7 +23592,7 @@
                 "RETURN",
                 "VERB+ED"
             ],
-            "bci-av-id": 15449
+            "bci-av-id": [25583, ";", 9004]
         },
         "meeting": {
             "encoding": [
@@ -23168,7 +23600,7 @@
                 "RETURN",
                 "VERB+ING"
             ],
-            "bci-av-id": 15449
+            "bci-av-id": [25583, ";", 24807]
         },
         "meets": {
             "encoding": [
@@ -23200,7 +23632,7 @@
                 "STOP",
                 "VERB+ED"
             ],
-            "bci-av-id": 17787
+            "bci-av-id": [26126, ";", 9004]
         },
         "trying": {
             "encoding": [
@@ -23208,7 +23640,7 @@
                 "STOP",
                 "VERB+ING"
             ],
-            "bci-av-id": 17787
+            "bci-av-id": [26126, ";", 24807]
         },
         "tries": {
             "encoding": [
@@ -23240,7 +23672,7 @@
                 "TOOL",
                 "VERB+ED"
             ],
-            "bci-av-id": 16439
+            "bci-av-id": [24825, ";", 9004]
         },
         "pushing": {
             "encoding": [
@@ -23248,7 +23680,7 @@
                 "TOOL",
                 "VERB+ING"
             ],
-            "bci-av-id": 16439
+            "bci-av-id": [24825, ";", 24807]
         },
         "pushes": {
             "encoding": [
@@ -23553,7 +23985,7 @@
                 "/",
                 14164,
                 ";",
-                8993,
+                9004,
                 "/",
                 24859,
                 "/",
@@ -23573,7 +24005,7 @@
                 "/",
                 14164,
                 ";",
-                8993,
+                24807,
                 "/",
                 24859,
                 "/",
@@ -23728,7 +24160,7 @@
                 "EXCLAIM",
                 "VERB+ED"
             ],
-            "bci-av-id": 16747
+            "bci-av-id": [14133, ";", 9004]
         },
         "looking": {
             "encoding": [
@@ -23736,7 +24168,7 @@
                 "EXCLAIM",
                 "VERB+ING"
             ],
-            "bci-av-id": 16747
+            "bci-av-id": [14133, ";", 24807]
         },
         "looks": {
             "encoding": [
@@ -23917,7 +24349,7 @@
                 "POEM",
                 "VERB+ING"
             ],
-            "bci-av-id": 16465
+            "bci-av-id": [24933, ";", 24807]
         },
         "reading (noun)": {
             "encoding": [
@@ -23953,7 +24385,7 @@
                 "POEM",
                 "VERB+ED"
             ],
-            "bci-av-id": 16465
+            "bci-av-id": [24933, ";", 9004]
         },
         "reads": {
             "encoding": [
@@ -24005,7 +24437,7 @@
                 "RECEIVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 13618
+            "bci-av-id": [14133, ";", 9004, "/", 16455]
         },
         "crying": {
             "encoding": [
@@ -24013,7 +24445,7 @@
                 "RECEIVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 13618
+            "bci-av-id": [14133, ";", 24807, "/", 16455]
         },
         "cries": {
             "encoding": [
@@ -24064,7 +24496,7 @@
                 "TOOL",
                 "VERB+ED"
             ],
-            "bci-av-id": 14179
+            "bci-av-id": [14133, ";", 9004, "/", 25570]
         },
         "to find": {
             "encoding": [
@@ -24088,7 +24520,7 @@
                 "TOOL",
                 "VERB+ING"
             ],
-            "bci-av-id": 14179
+            "bci-av-id": [14133, ";", 24807, "/", 25570]
         },
         "finds": {
             "encoding": [
@@ -24118,21 +24550,21 @@
                 "EYE",
                 "VERB+ED"
             ],
-            "bci-av-id": 16747
+            "bci-av-id": [14133, ";", 9004]
         },
         "seen": {
             "encoding": [
                 "EYE",
                 "VERB+EN"
             ],
-            "bci-av-id": 16747
+            "bci-av-id": [14133, ";", 9004]
         },
         "seeing": {
             "encoding": [
                 "EYE",
                 "VERB+ING"
             ],
-            "bci-av-id": 16747
+            "bci-av-id": [14133, ";", 24807]
         },
         "sees": {
             "encoding": [
@@ -24218,7 +24650,7 @@
                 "AM/BE",
                 "VERB+ED"
             ],
-            "bci-av-id": 15196
+            "bci-av-id": [24926, ";", 9004]
         },
         "allowing": {
             "encoding": [
@@ -24226,7 +24658,7 @@
                 "AM/BE",
                 "VERB+ING"
             ],
-            "bci-av-id": 15196
+            "bci-av-id": [24926, ";", 24807]
         },
         "allows": {
             "encoding": [
@@ -24266,7 +24698,7 @@
                 "CAN",
                 "VERB+ED"
             ],
-            "bci-av-id": 13404
+            "bci-av-id": [24881, ";", 9004]
         },
         "continuing": {
             "encoding": [
@@ -24274,7 +24706,7 @@
                 "CAN",
                 "VERB+ING"
             ],
-            "bci-av-id": 13404
+            "bci-av-id": [24881, ";", 24807]
         },
         "continues": {
             "encoding": [
@@ -24401,7 +24833,7 @@
                 "LOVE",
                 "VERB+ED"
             ],
-            "bci-av-id": 15196
+            "bci-av-id": [24926, ";", 9004]
         },
         "letting": {
             "encoding": [
@@ -24409,7 +24841,7 @@
                 "LOVE",
                 "VERB+ING"
             ],
-            "bci-av-id": 15196
+            "bci-av-id": [24926, ";", 24807]
         },
         "lets": {
             "encoding": [
@@ -24554,7 +24986,7 @@
                 "PAST",
                 "VERB+ED"
             ],
-            "bci-av-id": 28003
+            "bci-av-id": [24926, ";", 9004]
         },
         "permitting": {
             "encoding": [
@@ -24562,7 +24994,7 @@
                 "PAST",
                 "VERB+ING"
             ],
-            "bci-av-id": 15196
+            "bci-av-id": [24926, ";", 24807]
         },
         "permits": {
             "encoding": [
@@ -24627,21 +25059,21 @@
                 "FOOD",
                 "VERB+ED"
             ],
-            "bci-av-id": 13906
+            "bci-av-id": [14377, ";", 9004]
         },
         "eaten": {
             "encoding": [
                 "FOOD",
                 "VERB+EN"
             ],
-            "bci-av-id": 13906
+            "bci-av-id": [14377, ";", 9004]
         },
         "eating": {
             "encoding": [
                 "FOOD",
                 "VERB+ING"
             ],
-            "bci-av-id": 13906
+            "bci-av-id": [14377, ";", 24807]
         },
         "eats": {
             "encoding": [
@@ -24750,7 +25182,7 @@
             "bci-av-id": [
                 12327,
                 ";",
-                8993
+                9004
             ]
         },
         "to abuse": {
@@ -24786,7 +25218,7 @@
             "bci-av-id": [
                 12327,
                 ";",
-                8993
+                24807
             ]
         },
         "abuses": {
@@ -24866,7 +25298,7 @@
             "bci-av-id": [
                 16462,
                 ";",
-                8993
+                9004
             ]
         },
         "raping": {
@@ -24878,7 +25310,7 @@
             "bci-av-id": [
                 16462,
                 ";",
-                8993
+                24807
             ]
         },
         "rapes": {
@@ -25010,7 +25442,7 @@
             "bci-av-id": [
                 17779,
                 ";",
-                8993
+                9004
             ]
         },
         "journeying": {
@@ -25021,7 +25453,7 @@
             "bci-av-id": [
                 17779,
                 ";",
-                8993
+                24807
             ]
         },
         "journeys": {
@@ -25364,7 +25796,7 @@
                 "WANT",
                 "VERB+ED"
             ],
-            "bci-av-id": 16747
+            "bci-av-id": [14133, ";", 9004]
         },
         "watching": {
             "encoding": [
@@ -25372,7 +25804,7 @@
                 "WANT",
                 "VERB+ING"
             ],
-            "bci-av-id": 16747
+            "bci-av-id": [14133, ";", 24807]
         },
         "watches": {
             "encoding": [
@@ -25527,7 +25959,7 @@
                 "EYE",
                 "VERB+ED"
             ],
-            "bci-av-id": 17009
+            "bci-av-id": [17008, ";", 9004]
         },
         "sleeping": {
             "encoding": [
@@ -25535,7 +25967,7 @@
                 "EYE",
                 "VERB+ING"
             ],
-            "bci-av-id": 17009
+            "bci-av-id": [17008, ";", 24807]
         },
         "sleeps": {
             "encoding": [
@@ -25766,7 +26198,7 @@
                 "REPEAT",
                 "VERB+ED"
             ],
-            "bci-av-id": 16235
+            "bci-av-id": [18273, ";", 9004, "/", 24934]
         },
         "practicing": {
             "encoding": [
@@ -25774,7 +26206,7 @@
                 "REPEAT",
                 "VERB+ING"
             ],
-            "bci-av-id": 16235
+            "bci-av-id": [18273, ";", 24807, "/", 24934]
         },
         "practices": {
             "encoding": [
@@ -25856,14 +26288,14 @@
                 "FINISH",
                 "VERB+ED"
             ],
-            "bci-av-id": 14181
+            "bci-av-id": [12335, ";", 9004, "/", 12360]
         },
         "finishing": {
             "encoding": [
                 "FINISH",
                 "VERB+ING"
             ],
-            "bci-av-id": 14181
+            "bci-av-id": [12335, ";", 24807, "/", 12360]
         },
         "finishes": {
             "encoding": [
@@ -25918,7 +26350,7 @@
                 "WANT",
                 "VERB+ED"
             ],
-            "bci-av-id": 18274
+            "bci-av-id": [18273, ";", 9004]
         },
         "working": {
             "encoding": [
@@ -25926,7 +26358,7 @@
                 "WANT",
                 "VERB+ING"
             ],
-            "bci-av-id": 18274
+            "bci-av-id": [18273, ";", 24807]
         },
         "did we": {
             "encoding": [
@@ -25979,7 +26411,7 @@
                 "WHAT",
                 "VERB+ED"
             ],
-            "bci-av-id": 12394
+            "bci-av-id": [12393, ";", 9004]
         },
         "answering": {
             "encoding": [
@@ -25987,7 +26419,7 @@
                 "WHAT",
                 "VERB+ING"
             ],
-            "bci-av-id": 12394
+            "bci-av-id": [12393, ";", 24807]
         },
         "letter": {
             "encoding": [
@@ -26462,7 +26894,7 @@
                 "AIR",
                 "VERB+ED"
             ],
-            "bci-av-id": 17018
+            "bci-av-id": [15732, ";", 9004]
         },
         "smelling": {
             "encoding": [
@@ -26470,7 +26902,7 @@
                 "AIR",
                 "VERB+ING"
             ],
-            "bci-av-id": 17018
+            "bci-av-id": [15732, ";", 24807]
         },
         "smells": {
             "encoding": [
