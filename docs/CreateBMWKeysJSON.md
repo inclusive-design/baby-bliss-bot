@@ -3,6 +3,12 @@
 This document describes steps for creating a JSON file that is used to render all keys on the BMW
 Palette.
 
+Note: All steps should run in the `/utils` folder.
+
+```
+cd utils
+```
+
 1. Make sure the "encoding_symbols" section in bmw.json is comprehensive and correct.
 
 ```

@@ -13,7 +13,7 @@ from slugify import slugify
 def incrementPosition(should_start_new_column, current_row, current_column, start_row, max_row):
     return (
         current_row + 1 if current_row < max_row + start_row - 1 else start_row,
-        current_column + 1 if should_start_new_column or current_row == max_row else current_column
+        current_column + 1 if should_start_new_column or current_row == max_row + start_row - 1 else current_column
     )
 
 
@@ -50,7 +50,7 @@ pos_in_order = [
 ]
 
 # 2. Starting row & column. The first key on the palette starts at the position (start_row, start_column)
-start_row = 1
+start_row = 3
 start_column = 1
 
 # 3. Max number of rows in one column
