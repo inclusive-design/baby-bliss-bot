@@ -12,7 +12,7 @@ from slugify import slugify
 
 def incrementPosition(should_start_new_column, current_row, current_column, start_row, max_row):
     return (
-        current_row + 1 if current_row < max_row + start_row - 1 else start_row,
+        current_row + 1 if not should_start_new_column and current_row < max_row + start_row - 1 else start_row,
         current_column + 1 if should_start_new_column or current_row == max_row + start_row - 1 else current_column
     )
 
