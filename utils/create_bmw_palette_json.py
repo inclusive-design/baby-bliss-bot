@@ -1,7 +1,7 @@
 '''
 Create the JSON file for rendering keys on the BMW Palette.
 
-Example: python create_keys_json.py ../data/intermediate_BMW_conversion_data/symbols_in_pos.json ../data/bmw_keys.json
+Example: python create_bmw_palette_json.py ../data/intermediate_BMW_conversion_data/symbols_in_pos.json ../data/bmw_palette.json
 '''
 
 import json
@@ -24,12 +24,14 @@ def write_to_json(final_json, one_symbol, type, current_row, current_column):
     print("key: ", key)
     final_json["cells"][key] = {
         "type": type,
-        "label": label,
-        "BCI-AV-ID": bci_av_id,
-        "rowStart": current_row,
-        "rowSpan": 1,
-        "columnStart": current_column,
-        "columnSpan": 1
+        "options": {
+            "label": label,
+            "BCI-AV-ID": bci_av_id,
+            "rowStart": current_row,
+            "rowSpan": 1,
+            "columnStart": current_column,
+            "columnSpan": 1
+        }
     }
     print(f"{label}: {current_row}, {current_column}")
     return final_json

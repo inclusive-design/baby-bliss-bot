@@ -30,8 +30,8 @@ python sort_by_pos.py ../data/bmw.json ../data/intermediate_BMW_conversion_data/
 5. Create the BMW keys JSON file based on ../data/intermediate_BMW_conversion_data/symbols_in_pos.json
 
 ```
-python create_keys_json.py ../data/intermediate_BMW_conversion_data/symbols_in_pos.json ../data/bmw_keys.json
+python create_bmw_palette_json.py ../data/intermediate_BMW_conversion_data/symbols_in_pos.json ../data/bmw_keys.json
 ```
 
-The order of POS groups to display in a palette is defined in `pos_in_order` variable in `create_keys_json.py`.
+The order of POS groups to display in a palette is defined in `pos_in_order` variable in `create_bmw_palette_json.py`.
 The arrangement of keys is to in the order of column by column.
