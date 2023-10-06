@@ -1,8 +1,8 @@
 '''
 Loops through bmw.json, find all encoding icons, find their BCI-AV-IDs, then populate
-"encoding_symbols" section in the bmw.json
+"encoding_codes" section in the bmw.json
 
-Usage: python populate_encoding_symbols.py source_bmw_path bliss_explanation_json_location output_bmw_location
+Usage: python populate_encoding_codes.py source_bmw_path bliss_explanation_json_location output_bmw_location
 Parameters:
   source_bmw_path: The path where bmw.json is
   bliss_explanation_json_location: The location of the JSON file that contains the translation between Bliss
@@ -11,7 +11,7 @@ Parameters:
   script will create it
 Return: None
 
-Example: python populate_encoding_symbols.py ../data/bmw.json ../data/bliss_symbol_explanations.json ../data/bmw-new.json
+Example: python populate_encoding_codes.py ../data/bmw.json ../data/bliss_symbol_explanations.json ../data/bmw-new.json
 '''
 
 import json
@@ -21,10 +21,10 @@ import sys
 # Find the Bliss id for the given text:
 # 1. Search through the given map first. If found, return id. Otherwise, continue the next step;
 # 2. Search through the explanation JSON file. If found, return id. Otherwise, return None.
-def get_bliss_id(text, default_encoding_symbol, explanation_json_data):
+def get_bliss_id(text, default_encoding_code, explanation_json_data):
     text = text.lower()
 
-    for key, value in default_encoding_symbol.items():
+    for key, value in default_encoding_code.items():
         if text == key.lower():
             return value
 
@@ -47,7 +47,7 @@ source_json_file = sys.argv[1]
 bliss_explanation_json_location = sys.argv[2]
 output_bmw_location = sys.argv[3]
 
-default_encoding_symbol = {
+default_encoding_code = {
     "ABS TIME": ["HC8N:0,8;S4:2,10", "/", 17732],
     "ADJ.": 25554,
     "ADJ.+ER": 24879,
@@ -98,28 +98,28 @@ default_encoding_symbol = {
 with open(bliss_explanation_json_location, 'r') as file:
     bliss_explanation_json = json.load(file)
 
-final_encoding_symbols = {}
+final_encoding_codes = {}
 
 with open(source_json_file, 'r') as file:
     data = json.load(file)
 
-    unique_encoding_symbols = set()
+    unique_encoding_codes = set()
 
     for message, value in data["encodings"].items():
         for item in value["encoding"]:
-            unique_encoding_symbols.add(item)
+            unique_encoding_codes.add(item)
 
     count = 0
-    for item in unique_encoding_symbols:
+    for item in unique_encoding_codes:
         count = count + 1
-        bliss_id = get_bliss_id(item, default_encoding_symbol, bliss_explanation_json)
+        bliss_id = get_bliss_id(item, default_encoding_code, bliss_explanation_json)
         if bliss_id is None:
             print("Error: cannot find bliss id for '{item}'")
         else:
             print(f"{item}: {bliss_id}")
-            final_encoding_symbols[item] = bliss_id
+            final_encoding_codes[item] = bliss_id
 
-    data["encoding_symbols"] = final_encoding_symbols
+    data["encoding_codes"] = final_encoding_codes
 
 # Write the JSON into a file
 with open(output_bmw_location, "w") as json_file:

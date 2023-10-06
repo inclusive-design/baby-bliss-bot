@@ -1,5 +1,5 @@
 '''
-Create the JSON file for rendering keys on the BMW Palette.
+Create the JSON file for rendering BMW code keys on the BMW Palette.
 
 Example: python create_bmw_palette_json.py ../data/intermediate_BMW_conversion_data/symbols_in_pos.json ../data/bmw_palette.json
 '''
@@ -41,8 +41,8 @@ source_json_file = sys.argv[1]
 output_json_file = sys.argv[2]
 
 # Configurable options
-# 1. Keys are displayed based on their POS values. Each element in `pos_in_order` array
-# means keys in this/these POS catgor(ies) start in a new column.
+# 1. BMW code Keys are displayed based on their POS values. Each element in `pos_in_order` array
+# means code keys in this/these POS catgor(ies) start in a new column.
 pos_in_order = [
     "PROPN",
     "PRON",
@@ -59,7 +59,7 @@ start_column = 1
 max_row = 8
 
 # 4. The key type
-type = "ActionBmwKey"
+type = "ActionBmwCodeKey"
 # End of configurable options
 
 final_json = {

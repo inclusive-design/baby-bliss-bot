@@ -29,7 +29,7 @@ SAY THINK VERB+S talks
 SAY TO+VERB to say
 SAY VERB say
 ```
-Using `SAY THINK VERB+S talks` as an example, "SAY", "THINK" and "VERB+S" are three keys pressed on the keyboard. It
+Using `SAY THINK VERB+S talks` as an example, "SAY", "THINK" and "VERB+S" are three code keys pressed on the keyboard. It
 delivers a message of "talks".
 
 2. The generated JSON structure for BMW encoding is:

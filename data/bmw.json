@@ -1299,7 +1299,7 @@
         "will I": {
             "encoding": [
                 "FUTURE",
-                "I"
+                "I+"
             ],
             "bci-av-id": [
                 24261,
@@ -8515,7 +8515,7 @@
             "encoding": [
                 "QUIET",
                 "POEM",
-                "PERSON"
+                "N PERSON"
             ],
             "bci-av-id": 15683
         },
@@ -28201,8 +28201,7 @@
             ]
         }
     },
-    "encoding_symbols": {
-        "I": 14916,
+    "encoding_codes": {
         "VERB+EN": [
             12335,
             "/",
@@ -28260,7 +28259,6 @@
         "NUMBER": 15742,
         "HAVE": 14685,
         "LANG.": 15172,
-        "PERSON": 16161,
         "ZEBRA": 18474,
         "FUTURE": 14417,
         "COUNTRY": 13423,

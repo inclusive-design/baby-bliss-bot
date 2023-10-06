@@ -63,10 +63,10 @@ Run utility script `find_null_ids.py` to find messages that still have null BCI-
 python find_null_ids.py ../data/bmw.json
 ```
 
-### Populate "encoding_symbols" section in bmw.json
+### Populate "encoding_codes" section in bmw.json
 
 ```
-python populate_encoding_symbols.py ../data/bmw.json ../data/bliss_symbol_explanations.json ../data/bmw-new.json
+python populate_encoding_codes.py ../data/bmw.json ../data/bliss_symbol_explanations.json ../data/bmw-new.json
 ```
 
 ### Find missing encodings from BMW text file directory

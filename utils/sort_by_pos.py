@@ -1,5 +1,5 @@
 '''
-Read the "encoding_symbols" section from bmw.json, loop through every symbol to print the POS
+Read the "encoding_codes" section from bmw.json, loop through every symbol to print the POS
 of every word in every symbol.
 
 The output JSON structure:
@@ -30,7 +30,7 @@ with open(source_json_file, 'r') as file:
     # Load the spaCy English language model
     nlp = spacy.load("en_core_web_sm")
 
-    for symbol, bci_av_id in data["encoding_symbols"].items():
+    for symbol, bci_av_id in data["encoding_codes"].items():
         if remove_special_chars:
             pattern = r'[^a-zA-Z0-9\s]'  # This pattern will keep letters, digits, and spaces
             cleaned_symbol = re.sub(pattern, '', symbol)
@@ -52,7 +52,7 @@ for pos, itemArray in final_json.items():
 for pos, itemArray in final_json.items():
     array_with_bci_av_id = []
     for item in itemArray:
-        array_with_bci_av_id.append({item: data["encoding_symbols"][item]})
+        array_with_bci_av_id.append({item: data["encoding_codes"][item]})
     final_json[pos] = array_with_bci_av_id
 
 final_json["all_pos"] = list(final_json.keys())
