@@ -249,3 +249,40 @@ Loops through bmw.json and reports all messages whose BCI-AV-ID is null.
 **Example**: python find_null_ids.py ../data/bmw.json
 
 **Return**: None
+
+## Create BMW Palette JSON file in a Pre-defined Layout (utils/create_predefined_bmw_palette_json.py)
+
+Create the JSON file for rendering BMW code keys on the BMW Palette in a pre-defined layout.
+
+**Usage**: python create_predefined_bmw_palette_json.py source_bmw_path output_bmw_palette_json_path
+*source_bmw_path*: The path where bmw.json is
+*output_bmw_palette_json_path*: The path where the output json file is
+
+**Example**: python create_predefined_bmw_palette_json.py ../data/bmw.json ../data/bmw_palette.json
+
+**Return**: None
+
+## Create BMW Palette JSON file bases on POS value of Cell Lable (utils/sort_by_pos.py & utils/create_bmw_palette_json_by_pos.py)
+
+Create the JSON file for rendering BMW code keys on the BMW Palette based on POS values of the English
+labels of BMW codes.
+
+Step 1: Generate a JSON file that contains the sorted result of POS values of the English labels of BMW codes.
+
+**Usage**: python sort_by_pos.py ../data/bmw.json ../data/intermediate_BMW_conversion_data/symbols_in_pos.json
+*source_bmw_path*: The path where bmw.json is
+*output_sorted_pos_json_path*: The path where the output json file is
+
+**Example**: python sort_by_pos.py ../data/bmw.json ../data/intermediate_BMW_conversion_data/symbols_in_pos.json
+
+**Return**: None
+
+Step 2: Generate BMW palette JSON file
+
+**Usage**: python create_bmw_palette_json_by_pos.py source_sorted_pos_json_path output_bmw_palette_json_path
+*source_sorted_pos_json_path*: The path to a file that has the sorted result of POS values of the English labeld for BMW codes.
+*output_bmw_palette_json_path*: The path where the output json file is
+
+**Example**: python create_bmw_palette_json_by_pos.py ../data/intermediate_BMW_conversion_data/symbols_in_pos.json ../data/bmw_palette.json
+
+**Return**: None

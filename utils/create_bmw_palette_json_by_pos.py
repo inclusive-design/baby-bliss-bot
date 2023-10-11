@@ -1,7 +1,7 @@
 '''
-Create the JSON file for rendering BMW code keys on the BMW Palette.
+Create the JSON file for rendering BMW code keys on the BMW Palette by POS value of the English label of every BMW code.
 
-Example: python create_bmw_palette_json.py ../data/intermediate_BMW_conversion_data/symbols_in_pos.json ../data/bmw_palette.json
+Example: python create_bmw_palette_json_by_pos.py ../data/intermediate_BMW_conversion_data/symbols_in_pos.json ../data/bmw_palette.json
 '''
 
 import json

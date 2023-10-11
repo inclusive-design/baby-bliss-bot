@@ -1,11 +1,11 @@
 {
     "name": "BMW Palette",
     "cells": {
-        "dem-3ea0facd-1e7b-4a16-8f40-ec49a85dabb7": {
+        "dem-bcdd2b73-c12f-4ace-8569-36903c34373c": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "DEM.",
-                "BCI-AV-ID": [
+                "bciAvId": [
                     17720,
                     "/",
                     17697
@@ -16,33 +16,33 @@
                 "columnSpan": 1
             }
         },
-        "conj-8df8c06f-70da-4da3-90f4-4d847da0909a": {
+        "conj-cf674a22-08d9-455c-9bbf-36ff760ef67c": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "CONJ.",
-                "BCI-AV-ID": 23409,
+                "bciAvId": 23409,
                 "rowStart": 3,
                 "rowSpan": 1,
                 "columnStart": 4,
                 "columnSpan": 1
             }
         },
-        "adverb-a73e3309-ab6f-475a-863a-aae1f5509e69": {
+        "adverb-b4c91425-9142-49f8-ac28-6e3ef8733955": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "ADVERB",
-                "BCI-AV-ID": 27003,
+                "bciAvId": 27003,
                 "rowStart": 3,
                 "rowSpan": 1,
                 "columnStart": 5,
                 "columnSpan": 1
             }
         },
-        "prep-3db1d203-7fa6-4475-a8e8-f65ee7243874": {
+        "prep-2e90ab29-9302-4072-b2e8-2b60d80b9def": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "PREP.",
-                "BCI-AV-ID": [
+                "bciAvId": [
                     12324,
                     "/",
                     17717
@@ -53,55 +53,55 @@
                 "columnSpan": 1
             }
         },
-        "adj-49c4f53b-b45c-4617-8403-47085e55e31e": {
+        "adj-0803371e-d2b6-4624-9731-e50b1955fb82": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "ADJ.",
-                "BCI-AV-ID": 25554,
+                "bciAvId": 25554,
                 "rowStart": 3,
                 "rowSpan": 1,
                 "columnStart": 7,
                 "columnSpan": 1
             }
         },
-        "adj-er-ccb9bc35-0075-4659-9817-b27870242ce0": {
+        "adj-er-657bb759-8153-4496-9afc-01c9fbc137dc": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "ADJ.+ER",
-                "BCI-AV-ID": 24879,
+                "bciAvId": 24879,
                 "rowStart": 3,
                 "rowSpan": 1,
                 "columnStart": 8,
                 "columnSpan": 1
             }
         },
-        "adj-est-8fc09183-0fdb-468c-921c-c1853d1977e3": {
+        "adj-est-1d4e1924-0500-48fa-8bb2-514b83170e1d": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "ADJ.+EST",
-                "BCI-AV-ID": 24944,
+                "bciAvId": 24944,
                 "rowStart": 3,
                 "rowSpan": 1,
                 "columnStart": 9,
                 "columnSpan": 1
             }
         },
-        "noun-8dd9fe12-dee6-4e05-b8ed-c900bdc04c98": {
+        "noun-2a795f21-332f-4467-9346-5b3bff01888e": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "NOUN",
-                "BCI-AV-ID": 27096,
+                "bciAvId": 27096,
                 "rowStart": 3,
                 "rowSpan": 1,
                 "columnStart": 10,
                 "columnSpan": 1
             }
         },
-        "noun-pl-11caa689-14e7-442b-bdcf-ab793e8c1a8d": {
+        "noun-pl-6a272c72-5fa8-423e-ac47-82450c4bfdbb": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "NOUN PL.",
-                "BCI-AV-ID": [
+                "bciAvId": [
                     17717,
                     ";",
                     9011
@@ -112,22 +112,22 @@
                 "columnSpan": 1
             }
         },
-        "n-person-0248e7b5-42d4-4c1b-9c57-201d108ae63c": {
+        "n-person-d0ac4b02-0d2a-4e94-ac8b-23c8b021125a": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "N PERSON",
-                "BCI-AV-ID": 16161,
+                "bciAvId": 16161,
                 "rowStart": 3,
                 "rowSpan": 1,
                 "columnStart": 12,
                 "columnSpan": 1
             }
         },
-        "n-per-pl-e5f9094f-0907-435b-b05d-a762423c3845": {
+        "n-per-pl-6479d51f-8a8f-4b0b-aa8c-3b9fce127062": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "N.PER PL",
-                "BCI-AV-ID": [
+                "bciAvId": [
                     16161,
                     ";",
                     9011
@@ -138,11 +138,11 @@
                 "columnSpan": 1
             }
         },
-        "abs-time-82b1d3a3-ef83-4ff2-b884-663fc55dc470": {
+        "abs-time-7def0b1f-6fe8-460c-a6d8-6be0c8eb56ef": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "ABS TIME",
-                "BCI-AV-ID": [
+                "bciAvId": [
                     "HC8N:0,8;S4:2,10",
                     "/",
                     17732
@@ -153,44 +153,44 @@
                 "columnSpan": 1
             }
         },
-        "object-6b1765ce-7ddf-4d74-a348-c9721dd64198": {
+        "object-5ec24e46-d428-4af0-942a-c5f591d71f6f": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "OBJECT",
-                "BCI-AV-ID": 16421,
+                "bciAvId": 16421,
                 "rowStart": 4,
                 "rowSpan": 1,
                 "columnStart": 1,
                 "columnSpan": 1
             }
         },
-        "poss-2f02e5df-a7de-4af9-8d0e-2f8a9bf5441f": {
+        "poss-0f002835-318f-4d1b-9081-da46efc263b7": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "POSS.",
-                "BCI-AV-ID": 24925,
+                "bciAvId": 24925,
                 "rowStart": 4,
                 "rowSpan": 1,
                 "columnStart": 2,
                 "columnSpan": 1
             }
         },
-        "verb-3b5f505d-f2b9-484c-839a-85f0c536aa77": {
+        "verb-945fe13a-0b01-4608-9e79-09e710aa12a4": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "VERB",
-                "BCI-AV-ID": 12335,
+                "bciAvId": 12335,
                 "rowStart": 4,
                 "rowSpan": 1,
                 "columnStart": 3,
                 "columnSpan": 1
             }
         },
-        "verb-s-f2647215-a4f1-4ca2-9bcb-4a6de9772d60": {
+        "verb-s-b5470a45-1742-49f7-b890-0819da0217cc": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "VERB+S",
-                "BCI-AV-ID": [
+                "bciAvId": [
                     12335,
                     "/",
                     8499
@@ -201,11 +201,11 @@
                 "columnSpan": 1
             }
         },
-        "verb-ing-9c084ca3-4132-4306-9ee6-83c1f28b9310": {
+        "verb-ing-834ab1d1-d5e4-4770-882e-52fb052c3367": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "VERB+ING",
-                "BCI-AV-ID": [
+                "bciAvId": [
                     12335,
                     "/",
                     14390
@@ -216,11 +216,11 @@
                 "columnSpan": 1
             }
         },
-        "verb-ed-7fd9a358-19eb-4254-a5e2-1344fe4395ee": {
+        "verb-ed-d3da10f4-112e-4939-828d-0ae6106d2adf": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "VERB+ED",
-                "BCI-AV-ID": [
+                "bciAvId": [
                     12335,
                     "/",
                     15975
@@ -231,11 +231,11 @@
                 "columnSpan": 1
             }
         },
-        "verb-en-ebd8c484-01c0-4235-b0d2-118e3226b019": {
+        "verb-en-0674fb46-69e1-4f92-81ed-953e292a932a": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "VERB+EN",
-                "BCI-AV-ID": [
+                "bciAvId": [
                     12335,
                     "/",
                     13949
@@ -246,33 +246,33 @@
                 "columnSpan": 1
             }
         },
-        "to-verb-f0c7c3d1-cbf7-4d62-a519-a0564e040fb4": {
+        "to-verb-4d0fc453-f580-4458-bd1f-848056480296": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "TO+VERB",
-                "BCI-AV-ID": 13860,
+                "bciAvId": 13860,
                 "rowStart": 4,
                 "rowSpan": 1,
                 "columnStart": 8,
                 "columnSpan": 1
             }
         },
-        "what-32585a6e-500a-442c-8eef-bd4792a51f7b": {
+        "what-fb96b75a-7bfe-4cda-9b33-55858c459488": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "WHAT",
-                "BCI-AV-ID": 18228,
+                "bciAvId": 18228,
                 "rowStart": 4,
                 "rowSpan": 1,
                 "columnStart": 9,
                 "columnSpan": 1
             }
         },
-        "interj-563a52c2-0126-4ff7-af11-3481e04432b5": {
+        "interj-3574698c-cef9-4ed1-8ecd-c191fafbbfce": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "INTERJ.",
-                "BCI-AV-ID": [
+                "bciAvId": [
                     24961,
                     "/",
                     15947
@@ -283,11 +283,11 @@
                 "columnSpan": 1
             }
         },
-        "minspeak-8868305c-6321-47bf-9684-00951d69b149": {
+        "minspeak-f9c06124-1070-4c4f-8f60-693bbf5b755f": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "MINSPEAK",
-                "BCI-AV-ID": [
+                "bciAvId": [
                     14647,
                     "/",
                     15972,
@@ -300,363 +300,363 @@
                 "columnSpan": 1
             }
         },
-        "force-162cd93d-72c0-43fe-a38f-d41921e61030": {
+        "force-32117bf3-6d02-4017-94a1-af3c6d6a6217": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "FORCE",
-                "BCI-AV-ID": 22914,
+                "bciAvId": 22914,
                 "rowStart": 4,
                 "rowSpan": 1,
                 "columnStart": 12,
                 "columnSpan": 1
             }
         },
-        "number-935ac4c2-15c3-48ee-96fc-c0b6eed458a9": {
+        "number-a90fd924-ba7d-49ec-b776-46fda6ca48e4": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "NUMBER",
-                "BCI-AV-ID": 15742,
+                "bciAvId": 15742,
                 "rowStart": 4,
                 "rowSpan": 1,
                 "columnStart": 13,
                 "columnSpan": 1
             }
         },
-        "poem-6e3001c9-b74e-4994-9e30-a6e1807a0460": {
+        "poem-ee49daad-6e60-4b22-abd0-1302a4d80bf5": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "POEM",
-                "BCI-AV-ID": 16210,
+                "bciAvId": 16210,
                 "rowStart": 4,
                 "rowSpan": 1,
                 "columnStart": 14,
                 "columnSpan": 1
             }
         },
-        "i-eeafdab2-a9d4-4f92-bc2d-c8cb943577b5": {
+        "i-42e15552-579e-4f21-9fed-365879f7a982": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "I+",
-                "BCI-AV-ID": 14916,
+                "bciAvId": 14916,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 1,
                 "columnSpan": 1
             }
         },
-        "we-022f6564-aae3-4535-95da-98bcb3f327a4": {
+        "we-a1a9a0a7-68a4-4eaa-9b87-45de3ce03eef": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "WE+",
-                "BCI-AV-ID": 18212,
+                "bciAvId": 18212,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 2,
                 "columnSpan": 1
             }
         },
-        "help-1366cd58-0bce-43d6-b6a2-c657317f9924": {
+        "help-7f64fb1b-c289-448f-bd76-346b3cbdc72c": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "HELP",
-                "BCI-AV-ID": 14704,
+                "bciAvId": 14704,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 3,
                 "columnSpan": 1
             }
         },
-        "give-6bbe45fc-1943-4d8d-8d43-540ad0cbfad2": {
+        "give-ab887e11-cb80-4165-9654-9e0dbce4d40f": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "GIVE",
-                "BCI-AV-ID": 14440,
+                "bciAvId": 14440,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 4,
                 "columnSpan": 1
             }
         },
-        "commun-972cc8be-980c-4c08-8d8f-b9b9dd73f734": {
+        "commun-910856e4-9fdd-4098-963e-65eb060bdb41": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "COMMUN.",
-                "BCI-AV-ID": 13390,
+                "bciAvId": 13390,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 5,
                 "columnSpan": 1
             }
         },
-        "tool-9e6b07ff-6c62-4587-a37e-561685861ede": {
+        "tool-0cc11263-f2f9-417a-a758-811bf8f54a04": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "TOOL",
-                "BCI-AV-ID": 17755,
+                "bciAvId": 17755,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 6,
                 "columnSpan": 1
             }
         },
-        "country-c5b590fb-16bd-47aa-8ea3-b49968b7f476": {
+        "country-544cde16-5c11-4fa4-b287-16cccbce763c": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "COUNTRY",
-                "BCI-AV-ID": 13423,
+                "bciAvId": 13423,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 7,
                 "columnSpan": 1
             }
         },
-        "limitime-065e8703-c121-4304-be79-e2b9c26b04da": {
+        "limitime-fb95f0fa-b580-4d2a-9642-def1597cf283": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "LIMITIME",
-                "BCI-AV-ID": 15212,
+                "bciAvId": 15212,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 8,
                 "columnSpan": 1
             }
         },
-        "year-79457a45-c3f8-4bf6-a11b-6238aeeaa798": {
+        "year-d9679e0f-abbe-446e-ba55-1bc021bb5a69": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "YEAR",
-                "BCI-AV-ID": 18289,
+                "bciAvId": 18289,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 9,
                 "columnSpan": 1
             }
         },
-        "month-278bf039-c445-4dc3-a448-b66dd142dcd0": {
+        "month-3e93855d-0c5b-4430-aac2-d1bdb83785fe": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "MONTH",
-                "BCI-AV-ID": 15649,
+                "bciAvId": 15649,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 10,
                 "columnSpan": 1
             }
         },
-        "day-1b38f74d-31b3-438e-aee9-2e0e51080edc": {
+        "day-7cba67eb-b2bf-4b57-aca8-c9ccdfc95f7b": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "DAY",
-                "BCI-AV-ID": 13639,
+                "bciAvId": 13639,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 11,
                 "columnSpan": 1
             }
         },
-        "many-e528528f-b859-4312-801a-a74cae7f8f49": {
+        "many-3d841c81-7ce1-4c89-97a9-7135b0008a33": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "MANY",
-                "BCI-AV-ID": 15671,
+                "bciAvId": 15671,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 12,
                 "columnSpan": 1
             }
         },
-        "part-109617eb-ebbb-46b1-990d-b71994bd6f7e": {
+        "part-27a8ddc8-b0b2-49d7-9aac-c8b1468104b4": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "PART",
-                "BCI-AV-ID": 15972,
+                "bciAvId": 15972,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 13,
                 "columnSpan": 1
             }
         },
-        "relation-a2d0ee0f-239f-4795-b865-1a3142f3f341": {
+        "relation-f60a0ac7-4b08-44a6-b066-4650dff176d4": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "RELATION",
-                "BCI-AV-ID": 16481,
+                "bciAvId": 16481,
                 "rowStart": 5,
                 "rowSpan": 1,
                 "columnStart": 14,
                 "columnSpan": 1
             }
         },
-        "you-831ab19a-ab64-4b43-8938-070a57f37ca9": {
+        "you-f75fb795-ba4c-42ff-bc5a-dffc9f651eba": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "YOU+",
-                "BCI-AV-ID": 18465,
+                "bciAvId": 18465,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 1,
                 "columnSpan": 1
             }
         },
-        "they-57a5b0f2-9f8a-405e-b7bc-cfd882decfd0": {
+        "they-895f2780-1a37-4b0d-be10-60bd44c5e04d": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "THEY+",
-                "BCI-AV-ID": 17714,
+                "bciAvId": 17714,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 2,
                 "columnSpan": 1
             }
         },
-        "receive-3563f6bb-3a43-4fc9-a203-c6effd242b51": {
+        "receive-81e9a29d-8c09-43b2-82a2-c2c23f32273d": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "RECEIVE",
-                "BCI-AV-ID": 14435,
+                "bciAvId": 14435,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 3,
                 "columnSpan": 1
             }
         },
-        "write-8f9aa8dd-83ba-401b-a3ad-de55b0f904e7": {
+        "write-0b0ab802-a982-4866-920d-bd8ce74601a5": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "WRITE",
-                "BCI-AV-ID": 18285,
+                "bciAvId": 18285,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 4,
                 "columnSpan": 1
             }
         },
-        "eye-1010b337-e995-47c2-951d-e1bb96d8e997": {
+        "eye-eb46d74f-71ef-42c3-9a9c-d6cf588ade73": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "EYE",
-                "BCI-AV-ID": 14133,
+                "bciAvId": 14133,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 5,
                 "columnSpan": 1
             }
         },
-        "repeat-81015af8-2c5b-4001-895e-0843f0efba05": {
+        "repeat-d1f3889d-d4a9-4341-84c2-b3a070e68587": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "REPEAT",
-                "BCI-AV-ID": 16487,
+                "bciAvId": 16487,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 6,
                 "columnSpan": 1
             }
         },
-        "water-1e777d4d-f793-498e-8e40-d8991fa912e3": {
+        "water-a3318c07-d747-4021-a0a3-8e5739d5e564": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "WATER",
-                "BCI-AV-ID": 17990,
+                "bciAvId": 17990,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 7,
                 "columnSpan": 1
             }
         },
-        "weight-4ea2dbc9-fb5c-492d-92dc-c2db719fa4f6": {
+        "weight-fea23519-0c7d-4f17-80ad-4a8c25a68106": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "WEIGHT",
-                "BCI-AV-ID": 18221,
+                "bciAvId": 18221,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 8,
                 "columnSpan": 1
             }
         },
-        "put-a0f396a2-034b-454e-8cb5-f5b1e70bcce7": {
+        "put-ef258f51-c3cd-40ca-b50b-302b66d4bdaf": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "PUT",
-                "BCI-AV-ID": 16440,
+                "bciAvId": 16440,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 9,
                 "columnSpan": 1
             }
         },
-        "food-6207a4c5-363e-42a5-84c8-e9f00ed21ab3": {
+        "food-90a7dde9-9390-43ae-8f9e-46dcec9d8cc9": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "FOOD",
-                "BCI-AV-ID": 14377,
+                "bciAvId": 14377,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 10,
                 "columnSpan": 1
             }
         },
-        "without-25e79900-7914-43aa-badd-6a37706cefa5": {
+        "without-068deda3-7731-43d0-b9fa-14ee787f3369": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "WITHOUT",
-                "BCI-AV-ID": 15474,
+                "bciAvId": 15474,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 11,
                 "columnSpan": 1
             }
         },
-        "also-90e590c0-e426-45dd-ab22-ea01092d5cc6": {
+        "also-1bcc0d41-3fed-4185-835e-0f075fbe997e": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "ALSO",
-                "BCI-AV-ID": 12374,
+                "bciAvId": 12374,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 12,
                 "columnSpan": 1
             }
         },
-        "equal-a90d69ff-e6ef-4e0b-9cad-a4782344f10a": {
+        "equal-ca86452a-6c0b-46d2-ac1a-72e4ef365369": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "EQUAL",
-                "BCI-AV-ID": 16713,
+                "bciAvId": 16713,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 13,
                 "columnSpan": 1
             }
         },
-        "opposite-fef22f0d-3c93-4729-96a6-88a5f9ac1270": {
+        "opposite-e22507e1-995b-45ec-aef4-93f897256512": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "OPPOSITE",
-                "BCI-AV-ID": 15927,
+                "bciAvId": 15927,
                 "rowStart": 6,
                 "rowSpan": 1,
                 "columnStart": 14,
                 "columnSpan": 1
             }
         },
-        "he-938bf086-0343-4815-9bf4-a1828cc104d4": {
+        "he-64e98acd-e969-4c0f-b45d-18d10879bca0": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "HE+",
-                "BCI-AV-ID": 14687,
+                "bciAvId": 14687,
                 "rowStart": 7,
                 "rowSpan": 1,
                 "columnStart": 1,
                 "columnSpan": 1
             }
         },
-        "preverb-a16cd379-a9b8-4771-84c1-ed18fd42a737": {
+        "preverb-11a47e32-563c-44a3-9c81-d9ad3ed9677f": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "PREVERB",
-                "BCI-AV-ID": [
+                "bciAvId": [
                     13867,
                     "/",
                     12335
@@ -667,154 +667,154 @@
                 "columnSpan": 1
             }
         },
-        "quiet-ffbc9f0d-eae0-489e-8c34-0215644f5de6": {
+        "quiet-02ac134a-44b2-4a0f-a3a3-87cc18af9ba1": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "QUIET",
-                "BCI-AV-ID": 16447,
+                "bciAvId": 16447,
                 "rowStart": 7,
                 "rowSpan": 1,
                 "columnStart": 3,
                 "columnSpan": 1
             }
         },
-        "want-f0dc7978-fde3-4535-ac9f-5b796e42d862": {
+        "want-fa7c3087-97b5-4106-a91e-f4170d97cac5": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "WANT",
-                "BCI-AV-ID": 18035,
+                "bciAvId": 18035,
                 "rowStart": 7,
                 "rowSpan": 1,
                 "columnStart": 4,
                 "columnSpan": 1
             }
         },
-        "electric-821230bf-0c06-44b2-90cf-60c2d5c9a2f1": {
+        "electric-69b1c571-07ce-48a7-b847-6d045f0c02e3": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "ELECTRIC",
-                "BCI-AV-ID": 13917,
+                "bciAvId": 13917,
                 "rowStart": 7,
                 "rowSpan": 1,
                 "columnStart": 5,
                 "columnSpan": 1
             }
         },
-        "religion-527ef378-c785-497b-a846-26c37ff0d91d": {
+        "religion-8b58deb0-861b-40f1-92b1-a69cd4788813": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "RELIGION",
-                "BCI-AV-ID": 16483,
+                "bciAvId": 16483,
                 "rowStart": 7,
                 "rowSpan": 1,
                 "columnStart": 6,
                 "columnSpan": 1
             }
         },
-        "think-f28c2956-0d0b-42e0-807d-d2e438c26e19": {
+        "think-fb96f0c8-c705-4d89-8e41-bb4a38ede72d": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "THINK",
-                "BCI-AV-ID": 17718,
+                "bciAvId": 17718,
                 "rowStart": 7,
                 "rowSpan": 1,
                 "columnStart": 7,
                 "columnSpan": 1
             }
         },
-        "young-8d8b4e9d-a33a-4b05-a236-4c7a2cf84b2a": {
+        "young-9c637bf7-868a-4473-8936-9275a22be7f1": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "YOUNG",
-                "BCI-AV-ID": 18467,
+                "bciAvId": 18467,
                 "rowStart": 7,
                 "rowSpan": 1,
                 "columnStart": 8,
                 "columnSpan": 1
             }
         },
-        "umbrella-63be2707-40c3-4b32-8bf2-c90ab9422f8f": {
+        "umbrella-6e3e7d40-c2ba-4b33-b777-658fcb04e749": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "UMBRELLA",
-                "BCI-AV-ID": 17966,
+                "bciAvId": 17966,
                 "rowStart": 7,
                 "rowSpan": 1,
                 "columnStart": 9,
                 "columnSpan": 1
             }
         },
-        "if-23b7759a-f71c-457f-bd69-b95fc3bb6212": {
+        "if-9afe0cd9-3900-4d12-abd1-d6cc379649e2": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "IF",
-                "BCI-AV-ID": 14927,
+                "bciAvId": 14927,
                 "rowStart": 7,
                 "rowSpan": 1,
                 "columnStart": 10,
                 "columnSpan": 1
             }
         },
-        "outworld-123a144d-d7d3-4bab-9344-98bf7e812cca": {
+        "outworld-0f0c12e5-a87d-44e0-941f-acf7c79c1a9e": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "OUTWORLD",
-                "BCI-AV-ID": 15411,
+                "bciAvId": 15411,
                 "rowStart": 7,
                 "rowSpan": 1,
                 "columnStart": 11,
                 "columnSpan": 1
             }
         },
-        "past-332e4747-8c98-4074-9682-b96cf8005e6e": {
+        "past-24db85c0-6e17-483d-ad4f-896350527a82": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "PAST",
-                "BCI-AV-ID": 15975,
+                "bciAvId": 15975,
                 "rowStart": 7,
                 "rowSpan": 1,
                 "columnStart": 12,
                 "columnSpan": 1
             }
         },
-        "present-f9644a60-9330-4d1e-9446-8aa5b27ea942": {
+        "present-11853426-4f87-426a-8e7d-1143b9c6c56e": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "PRESENT",
-                "BCI-AV-ID": 14437,
+                "bciAvId": 14437,
                 "rowStart": 7,
                 "rowSpan": 1,
                 "columnStart": 13,
                 "columnSpan": 1
             }
         },
-        "future-ed29bcdc-06bd-4a25-9945-d63eb68f330e": {
+        "future-b8cba31a-bd29-4c72-99aa-add19daa22d2": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "FUTURE",
-                "BCI-AV-ID": 14417,
+                "bciAvId": 14417,
                 "rowStart": 7,
                 "rowSpan": 1,
                 "columnStart": 14,
                 "columnSpan": 1
             }
         },
-        "she-54425174-b6c5-478c-b043-2d12fd2c15c6": {
+        "she-2c2e14e7-cbda-4ecd-a8b5-4a6d5d32cec5": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "SHE+",
-                "BCI-AV-ID": 14688,
+                "bciAvId": 14688,
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 1,
                 "columnSpan": 1
             }
         },
-        "prevrb-s-659ba917-d33d-443c-97ff-1b7d3116dacd": {
+        "prevrb-s-323240a9-5019-4758-8611-bea9def88388": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "PREVRB+S",
-                "BCI-AV-ID": [
+                "bciAvId": [
                     13867,
                     "/",
                     12335
@@ -825,374 +825,374 @@
                 "columnSpan": 1
             }
         },
-        "am-be-014f967d-083d-4da4-872f-a63b1ae39494": {
+        "am-be-4c881faf-677f-4e28-96c4-99f19e3ff500": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "AM/BE",
-                "BCI-AV-ID": 12639,
+                "bciAvId": 12639,
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 3,
                 "columnSpan": 1
             }
         },
-        "stop-9222c51f-0e39-40f3-aef5-9cc31a7a9dee": {
+        "stop-715d0364-cb06-4c60-be18-7fb71910e1bd": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "STOP",
-                "BCI-AV-ID": 13935,
+                "bciAvId": 13935,
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 4,
                 "columnSpan": 1
             }
         },
-        "directn-bfc3fbd7-4ffa-49ed-88e0-3573b8a09768": {
+        "directn-81d5b318-8eb0-4ad7-a74c-3241e95ae4ec": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "DIRECTN",
-                "BCI-AV-ID": 13682,
+                "bciAvId": 13682,
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 5,
                 "columnSpan": 1
             }
         },
-        "forgive-1ba409e0-b777-4818-9dee-673b5db3ff0b": {
+        "forgive-506e0e26-1996-4274-94cb-5e460152f28c": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "FORGIVE",
-                "BCI-AV-ID": 14388,
+                "bciAvId": 14388,
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 6,
                 "columnSpan": 1
             }
         },
-        "go-ad3a9f78-8d5c-439f-b138-56360287aad2": {
+        "go-9eede9d7-d9c8-4650-a712-ca8482090fe8": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "GO",
-                "BCI-AV-ID": 14449,
+                "bciAvId": 14449,
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 7,
                 "columnSpan": 1
             }
         },
-        "have-01b87e9d-1b06-424e-8006-8f00ecb0cd6b": {
+        "have-7c46f330-63b2-4523-8561-866f808d618d": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "HAVE",
-                "BCI-AV-ID": 14685,
+                "bciAvId": 14685,
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 8,
                 "columnSpan": 1
             }
         },
-        "journey-1724c9a0-8d68-4e6d-afd9-960160fea29c": {
+        "journey-caf434fa-b314-4e14-ae51-1ce009d95cb8": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "JOURNEY",
-                "BCI-AV-ID": 17779,
+                "bciAvId": 17779,
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 9,
                 "columnSpan": 1
             }
         },
-        "king-d2db6509-e9a0-4a0c-b3fd-0c3d98e50b43": {
+        "king-ea5d2de6-f996-4ba3-8b81-6c25f34d1a46": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "KING",
-                "BCI-AV-ID": 23559,
+                "bciAvId": 23559,
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 10,
                 "columnSpan": 1
             }
         },
-        "love-5199ea6b-43a6-423e-885b-17286d0cf4d1": {
+        "love-d625c20e-0f57-48e8-9888-eb072c061891": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "LOVE",
-                "BCI-AV-ID": 15399,
+                "bciAvId": 15399,
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 11,
                 "columnSpan": 1
             }
         },
-        "house-2699148a-fc62-405f-a637-113efe26266c": {
+        "house-72526b98-aed1-45c8-a9a9-a01166b86d9a": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "HOUSE",
-                "BCI-AV-ID": 14905,
+                "bciAvId": 14905,
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 12,
                 "columnSpan": 1
             }
         },
-        "return-ea36c221-be1f-4d85-9fb0-f56dbdeea17d": {
+        "return-2a833658-1873-4025-a7c0-c8f814efba74": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "RETURN",
-                "BCI-AV-ID": 16499,
+                "bciAvId": 16499,
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 13,
                 "columnSpan": 1
             }
         },
-        "legsfeet-4e5603d5-3998-445c-b860-0374e9445522": {
+        "legsfeet-6557b8c7-df20-4ecd-9ba8-3d3dcbd8323b": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "LEGSFEET",
-                "BCI-AV-ID": 15189,
+                "bciAvId": 15189,
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 14,
                 "columnSpan": 1
             }
         },
-        "it-c2d7c92e-c5c1-4ed1-bb5d-b0e69f5aceaf": {
+        "it-ae21e5d0-9d6c-4149-8d12-88595ad1ebbe": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "IT+",
-                "BCI-AV-ID": 14960,
+                "bciAvId": 14960,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 1,
                 "columnSpan": 1
             }
         },
-        "no-90417df3-dbd7-444e-a08c-023431d1b4f2": {
+        "no-8e4b1140-3f11-4333-ab8a-f2f03db05986": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "NO",
-                "BCI-AV-ID": 15474,
+                "bciAvId": 15474,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 2,
                 "columnSpan": 1
             }
         },
-        "dress-1e33220e-6e37-40b2-abee-43f0af6cd991": {
+        "dress-1d74bfbf-c296-4d80-a812-d31df4fe4159": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "DRESS",
-                "BCI-AV-ID": 13876,
+                "bciAvId": 13876,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 3,
                 "columnSpan": 1
             }
         },
-        "zebra-8bcfe248-9b5f-40b6-ae0e-2845f8bf39ab": {
+        "zebra-ea8260f4-3433-4595-b755-668ffe9c0ad2": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "ZEBRA",
-                "BCI-AV-ID": 18474,
+                "bciAvId": 18474,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 4,
                 "columnSpan": 1
             }
         },
-        "exclaim-cfa65499-561d-4347-9a57-54fc15bbb848": {
+        "exclaim-158a775c-364e-40cf-b57d-4cb07f5b4c17": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "EXCLAIM",
-                "BCI-AV-ID": 14947,
+                "bciAvId": 14947,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 5,
                 "columnSpan": 1
             }
         },
-        "can-efa30f81-2204-421f-a2f5-1b03ce0dd888": {
+        "can-86375b3b-34c8-4540-ae86-19d459ce2632": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "CAN",
-                "BCI-AV-ID": 13114,
+                "bciAvId": 13114,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 6,
                 "columnSpan": 1
             }
         },
-        "value-bb3b1afa-e753-471f-86fc-c00834c83f88": {
+        "value-1a4590bb-9a58-4c63-9db0-1ba84603e703": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "VALUE",
-                "BCI-AV-ID": 13948,
+                "bciAvId": 13948,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 7,
                 "columnSpan": 1
             }
         },
-        "but-e838d989-f1ab-440f-85ee-aafbf10631df": {
+        "but-8fc363b0-d79a-40ee-adb0-2f6258747da5": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "BUT",
-                "BCI-AV-ID": 13094,
+                "bciAvId": 13094,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 8,
                 "columnSpan": 1
             }
         },
-        "near-d880ed51-82c1-41bf-9b97-0bdd8e9ea144": {
+        "near-3e924cb4-2434-43d9-9622-f3237bfef10f": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "NEAR",
-                "BCI-AV-ID": 15697,
+                "bciAvId": 15697,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 9,
                 "columnSpan": 1
             }
         },
-        "maybe-2ca2c5a7-11c1-4696-876f-149386c6be34": {
+        "maybe-7e4c36cf-2731-4b6e-a58a-13e6e7475d54": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "MAYBE",
-                "BCI-AV-ID": 16226,
+                "bciAvId": 16226,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 10,
                 "columnSpan": 1
             }
         },
-        "money-4aa6f192-3dd1-4583-8d8b-c09c4fa9673d": {
+        "money-a9a21e73-e766-4dda-851d-de98f00de6f3": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "MONEY",
-                "BCI-AV-ID": 15484,
+                "bciAvId": 15484,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 11,
                 "columnSpan": 1
             }
         },
-        "furnitur-6373b20f-f6a4-4097-8fa2-cef2b11f35ab": {
+        "furnitur-3fded620-36cf-4f7f-a5d0-4affbdc38539": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "FURNITUR",
-                "BCI-AV-ID": 14416,
+                "bciAvId": 14416,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 12,
                 "columnSpan": 1
             }
         },
-        "yes-6b0f9ae7-d7db-4386-ac9a-06ee484d6d6b": {
+        "yes-3a797561-4cea-45a9-aae7-013f16c58608": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "YES",
-                "BCI-AV-ID": 18294,
+                "bciAvId": 18294,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 13,
                 "columnSpan": 1
             }
         },
-        "say-4720c53e-14f9-4e70-9116-9bd1f43f3655": {
+        "say-e9d5552a-1f58-4894-95cf-fb1a55c21911": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "SAY",
-                "BCI-AV-ID": 16728,
+                "bciAvId": 16728,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 14,
                 "columnSpan": 1
             }
         },
-        "air-0c0f077e-0a1a-47fc-b874-852fedbeb3be": {
+        "air-95c6ded9-0a03-449d-b22a-39b6654939e4": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "AIR",
-                "BCI-AV-ID": 12356,
+                "bciAvId": 12356,
                 "rowStart": 10,
                 "rowSpan": 1,
                 "columnStart": 1,
                 "columnSpan": 1
             }
         },
-        "open-03bdc77b-5067-40df-91f0-448ec7f0ae6d": {
+        "open-6cfc2b49-ce3c-40e7-884b-dff09f0a200c": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "OPEN",
-                "BCI-AV-ID": 15921,
+                "bciAvId": 15921,
                 "rowStart": 10,
                 "rowSpan": 1,
                 "columnStart": 2,
                 "columnSpan": 1
             }
         },
-        "not-520b7b5d-39d4-47eb-a40a-91d75a02fb5e": {
+        "not-d90b1afd-40ce-44ee-8177-ed9133161591": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "NOT",
-                "BCI-AV-ID": 15733,
+                "bciAvId": 15733,
                 "rowStart": 10,
                 "rowSpan": 1,
                 "columnStart": 3,
                 "columnSpan": 1
             }
         },
-        "finish-2cd223d7-af6f-479c-9932-fe4a7eca6625": {
+        "finish-eb42e18b-f375-451b-9efe-c8fffc631992": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "FINISH",
-                "BCI-AV-ID": 14181,
+                "bciAvId": 14181,
                 "rowStart": 10,
                 "rowSpan": 1,
                 "columnStart": 4,
                 "columnSpan": 1
             }
         },
-        "cause-7b34b5a5-eefd-4b9e-bcff-f2e766079b26": {
+        "cause-f72fe553-7b33-4b34-b2b1-a4f09d589ca0": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "CAUSE",
-                "BCI-AV-ID": 13134,
+                "bciAvId": 13134,
                 "rowStart": 10,
                 "rowSpan": 1,
                 "columnStart": 5,
                 "columnSpan": 1
             }
         },
-        "birth-5ea063e7-327a-4a91-9a83-db1213375aa0": {
+        "birth-e5e3f470-d60c-4f5a-a5c9-88c2b3e8b18d": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "BIRTH",
-                "BCI-AV-ID": 12842,
+                "bciAvId": 12842,
                 "rowStart": 10,
                 "rowSpan": 1,
                 "columnStart": 6,
                 "columnSpan": 1
             }
         },
-        "sexual-93efec98-098b-4afa-bb84-61f26532874e": {
+        "sexual-71ec617c-df0c-400f-b1ca-2c462dc78970": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "SEXUAL",
-                "BCI-AV-ID": 16933,
+                "bciAvId": 16933,
                 "rowStart": 10,
                 "rowSpan": 1,
                 "columnStart": 7,
                 "columnSpan": 1
             }
         },
-        "lang-1a05b081-7707-4094-a317-97d0249bb032": {
+        "lang-8f139fb7-271b-471b-bb0c-6138342d1df8": {
             "type": "ActionBmwCodeKey",
             "options": {
                 "label": "LANG.",
-                "BCI-AV-ID": 15172,
+                "bciAvId": 15172,
                 "rowStart": 10,
                 "rowSpan": 1,
                 "columnStart": 8,

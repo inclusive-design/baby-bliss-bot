@@ -1,7 +1,7 @@
 '''
-Create the JSON file for rendering BMW code keys on the BMW Palette.
+Create the JSON file for rendering BMW code keys on the BMW Palette in a pre-defined layout.
 
-Example: python create_bmw_palette_json.py ../data/bmw.json ../data/bmw_palette.json
+Example: python create_predefined_bmw_palette_json.py ../data/bmw.json ../data/bmw_palette.json
 '''
 
 import json
@@ -17,7 +17,7 @@ def add_to_json(final_json, one_code_label, type, bci_av_id, current_row, curren
         "type": type,
         "options": {
             "label": one_code_label,
-            "BCI-AV-ID": bci_av_id,
+            "bciAvId": bci_av_id,
             "rowStart": current_row,
             "rowSpan": 1,
             "columnStart": current_column,
