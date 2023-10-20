@@ -50,7 +50,7 @@ start_row = 3
 start_column = 1
 
 # 4. The key type
-type = "ActionBmwCodeKey"
+type = "ActionBmwCodeCell"
 # End of configurable options
 
 final_json = {

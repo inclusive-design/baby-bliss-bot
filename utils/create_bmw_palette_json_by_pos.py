@@ -59,7 +59,7 @@ start_column = 1
 max_row = 8
 
 # 4. The key type
-type = "ActionBmwCodeKey"
+type = "ActionBmwCodeCell"
 # End of configurable options
 
 final_json = {
