@@ -31,7 +31,11 @@
             "type": "ActionBmwCodeCell",
             "options": {
                 "label": "ADVERB",
-                "bciAvId": 27003,
+                "bciAvId": [
+                    27003,
+                    "/",
+                    12334
+                ],
                 "rowStart": 3,
                 "rowSpan": 1,
                 "columnStart": 5,
