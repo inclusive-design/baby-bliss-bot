@@ -914,7 +914,27 @@
             "type": "ActionBmwCodeCell",
             "options": {
                 "label": "KING",
-                "bciAvId": 23559,
+                "bciAvId": [
+                    15416,
+                    "/",
+                    16420,
+                    ";",
+                    16420,
+                    ":",
+                    "8,0",
+                    ";",
+                    14960,
+                    ";",
+                    14960,
+                    ":",
+                    "16,0",
+                    ";",
+                    13901,
+                    ";",
+                    13901,
+                    ":",
+                    "8,0"
+                ],
                 "rowStart": 8,
                 "rowSpan": 1,
                 "columnStart": 10,
@@ -1068,7 +1088,7 @@
             "type": "ActionBmwCodeCell",
             "options": {
                 "label": "MAYBE",
-                "bciAvId": 16226,
+                "bciAvId": 15436,
                 "rowStart": 9,
                 "rowSpan": 1,
                 "columnStart": 10,
@@ -1178,7 +1198,7 @@
             "type": "ActionBmwCodeCell",
             "options": {
                 "label": "BIRTH",
-                "bciAvId": 12842,
+                "bciAvId": 12843,
                 "rowStart": 10,
                 "rowSpan": 1,
                 "columnStart": 6,
@@ -1200,7 +1220,11 @@
             "type": "ActionBmwCodeCell",
             "options": {
                 "label": "LANG.",
-                "bciAvId": 15172,
+                "bciAvId": [
+                    15172,
+                    "/",
+                    14883
+                ],
                 "rowStart": 10,
                 "rowSpan": 1,
                 "columnStart": 8,
