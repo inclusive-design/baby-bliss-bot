@@ -161,7 +161,11 @@
             "type": "ActionBmwCodeCell",
             "options": {
                 "label": "OBJECT",
-                "bciAvId": 16421,
+                "bciAvId": [
+                    24727,
+                    "/",
+                    12335
+                ],
                 "rowStart": 4,
                 "rowSpan": 1,
                 "columnStart": 1,
