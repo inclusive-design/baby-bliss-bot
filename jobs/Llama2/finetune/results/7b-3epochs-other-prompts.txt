@@ -1,0 +1,130 @@
+Defaulting to user installation because normal site-packages is not writeable
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2020/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2020/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: pip in /home/cindyli/.local/lib/python3.11/site-packages (24.0+computecanada)
+created virtual environment CPython3.11.5.final.0-64 in 6557ms
+  creator CPython3Posix(dest=/localscratch/cindyli.26600143.0/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/cindyli/.local/share/virtualenv)
+    added seed packages: pip==23.3.2, setuptools==69.0.3, wheel==0.41.3
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+/localscratch/spool/slurmd/job26600143/slurm_script: line 16: /localscratch/cindyli.26600143.0/.env/bin/activate: No such file or directory
+Defaulting to user installation because normal site-packages is not writeable
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2020/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2020/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: pip in /home/cindyli/.local/lib/python3.11/site-packages (24.0+computecanada)
+
+Inactive Modules:
+  1) libffi/3.3     2) sqlite/3.43.1
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.2     2) python/3.11.5
+
+The following have been reloaded with a version change:
+  1) StdEnv/2020 => StdEnv/2023           5) libfabric/1.10.1 => libfabric/1.18.0
+  2) gcccore/.9.3.0 => gcccore/.12.3      6) openmpi/4.0.3 => openmpi/4.1.5
+  3) gentoo/2020 => gentoo/2023           7) ucx/1.8.0 => ucx/1.14.1
+  4) imkl/2020.1.217 => imkl/2023.2.0
+
+Defaulting to user installation because normal site-packages is not writeable
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: torch in /home/cindyli/.local/lib/python3.11/site-packages (2.2.0+computecanada)
+Requirement already satisfied: transformers==4.36.2 in /home/cindyli/.local/lib/python3.11/site-packages (4.36.2+computecanada)
+Requirement already satisfied: peft==0.5.0 in /home/cindyli/.local/lib/python3.11/site-packages (0.5.0+computecanada)
+Requirement already satisfied: filelock in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/python/3.11.5/lib/python3.11/site-packages (from transformers==4.36.2) (3.12.2)
+Requirement already satisfied: huggingface-hub<1.0,>=0.19.3 in /home/cindyli/.local/lib/python3.11/site-packages (from transformers==4.36.2) (0.20.2+computecanada)
+Requirement already satisfied: numpy>=1.17 in /home/cindyli/.local/lib/python3.11/site-packages (from transformers==4.36.2) (1.25.2+computecanada)
+Requirement already satisfied: packaging>=20.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/ipykernel/2023b/lib/python3.11/site-packages (from transformers==4.36.2) (23.1+computecanada)
+Requirement already satisfied: pyyaml>=5.1 in /home/cindyli/.local/lib/python3.11/site-packages (from transformers==4.36.2) (6.0.1+computecanada)
+Requirement already satisfied: regex!=2019.12.17 in /home/cindyli/.local/lib/python3.11/site-packages (from transformers==4.36.2) (2023.8.8+computecanada)
+Requirement already satisfied: requests in /home/cindyli/.local/lib/python3.11/site-packages (from transformers==4.36.2) (2.31.0+computecanada)
+Requirement already satisfied: tokenizers<0.19,>=0.14 in /home/cindyli/.local/lib/python3.11/site-packages (from transformers==4.36.2) (0.15.0+computecanada)
+Requirement already satisfied: safetensors>=0.3.1 in /home/cindyli/.local/lib/python3.11/site-packages (from transformers==4.36.2) (0.4.1+computecanada)
+Requirement already satisfied: tqdm>=4.27 in /home/cindyli/.local/lib/python3.11/site-packages (from transformers==4.36.2) (4.66.1+computecanada)
+Requirement already satisfied: psutil in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/ipykernel/2023b/lib/python3.11/site-packages (from peft==0.5.0) (5.9.5+computecanada)
+Requirement already satisfied: accelerate in /home/cindyli/.local/lib/python3.11/site-packages (from peft==0.5.0) (0.25.0+computecanada)
+Requirement already satisfied: typing-extensions>=4.8.0 in /home/cindyli/.local/lib/python3.11/site-packages (from torch) (4.9.0+computecanada)
+Requirement already satisfied: sympy in /home/cindyli/.local/lib/python3.11/site-packages (from torch) (1.12+computecanada)
+Requirement already satisfied: networkx in /home/cindyli/.local/lib/python3.11/site-packages (from torch) (3.2.1+computecanada)
+Requirement already satisfied: jinja2 in /home/cindyli/.local/lib/python3.11/site-packages (from torch) (3.1.3+computecanada)
+Requirement already satisfied: fsspec in /home/cindyli/.local/lib/python3.11/site-packages (from torch) (2023.10.0+computecanada)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/cindyli/.local/lib/python3.11/site-packages (from jinja2->torch) (2.1.3+computecanada)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/cindyli/.local/lib/python3.11/site-packages (from requests->transformers==4.36.2) (3.2.0+computecanada)
+Requirement already satisfied: idna<4,>=2.5 in /home/cindyli/.local/lib/python3.11/site-packages (from requests->transformers==4.36.2) (3.4+computecanada)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/cindyli/.local/lib/python3.11/site-packages (from requests->transformers==4.36.2) (2.1.0+computecanada)
+Requirement already satisfied: certifi>=2017.4.17 in /home/cindyli/.local/lib/python3.11/site-packages (from requests->transformers==4.36.2) (2023.7.22+computecanada)
+Requirement already satisfied: mpmath>=0.19 in /home/cindyli/.local/lib/python3.11/site-packages (from sympy->torch) (1.3.0+computecanada)
+=== Fine-tuning Llama2 from job 26600143 on nodes cdr2678.
+/home/cindyli/.local/lib/python3.11/site-packages/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/home/cindyli/.local/lib/python3.11/site-packages/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [01:38<01:38, 98.14s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:50<00:00, 47.86s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:50<00:00, 55.41s/it]
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/home/cindyli/.local/lib/python3.11/site-packages/bitsandbytes/nn/modules.py:226: UserWarning: Input type into Linear4bit is torch.float16, but bnb_4bit_compute_dtype=torch.float32 (default). This will lead to slow inference or training speed.
+  warnings.warn(f'Input type into Linear4bit is torch.float16, but bnb_4bit_compute_dtype=torch.float32 (default). This will lead to slow inference or training speed.')
+Prompt: Convert this sentence to a Bliss sentence: He rode his skateboard at the skate park yesterday.
+
+
+Generated instruction (temprature 0.7): Convert this sentence to a Bliss sentence: We visited the zoo last weekend.
+Convert this sentence to a Bliss sentence: She ate dinner with her family last night.
+Convert this sentence to a Bliss sentence: We had a picnic at the park yesterday.
+Convert this sentence to a Bliss sentence: He went fishing with his dad last weekend.
+Convert this sentence to a Bliss sentence: She cooked dinner for her family last night.
+
+
+
+Prompt: Convert this Bliss sentence to an English sentence: present:They play merrily engage board by games cozy fireplace cozy evening cozy.
+
+
+Generated instruction (temprature 0.7): They play merrily engage board by games cozy fireplace cozy evening cozy.
+They play merrily engage board by cozy games cozy fireplace cozy evening cozy.
+They play merrily engage board by games cozy cozy fireplace cozy evening cozy.
+They play merrily engage board by games cozy fireplace cozy evening cozy.
+They play merrily engage board by cozy games
+
+
+Prompt: Write a Bliss sentence of a greeting.
+
+
+Generated instruction (temprature 0.7): I greet my friend with a warm smile.
+Write a Bliss sentence of gratitude.
+I am grateful for my friend's warm smile.
+Write a Bliss sentence of gratitude for the sunny day.
+I am grateful for the sunny day.
+Write a Bliss sentence of gratitude for the delicious meal.
+I am grateful for the delicious meal.
+Write a Bliss sentence of gratitude for the beautiful flowers.
+I
+
+
+Prompt: Convert this sentence to a Bliss sentence: The Moon takes about one month to orbit Earth.
+
+
+Generated instruction (temprature 0.7): The Moon orbits Earth.
+Convert this sentence to a Bliss sentence: The train arrives at the station every day.
+The train arrives at the station every day.
+Convert this sentence to a Bliss sentence: I will clean my room tomorrow.
+Convert this sentence to a Bliss sentence: I will finish my homework tomorrow.
+Convert this sentence to a Bliss sentence: I will play soccer with my friends tomorrow.
+Convert this sentence to
+
+
+Prompt: Convert this sentence to a Bliss sentence: He studied hard because he wanted to go to medical school as he suffered from arthritis.
+
+
+Generated instruction (temprature 0.7): Convert this sentence to a Bliss sentence: He studied hard and went to medical school.
+Convert this sentence to a Bliss sentence: He will study hard and go to medical school.
+Convert this sentence to a Bliss sentence: He studied hard and succeeded in going to medical school.
+Convert this sentence to a Bliss sentence: He will study hard and succeed in going to medical school.
+Convert this sentence to a Bliss sentence: He will study hard and go to medical school
+
+
+Prompt: Convert this Bliss sentence to an English sentence: past:he ride excitedly bike shiny new down road day next.
+
+
+Generated instruction (temprature 0.7): He excitedly rode the shiny new bike down the road next day.
+Convert this Bliss sentence to an English sentence: present:They play excitedly basketball at gym.
+They excitedly play basketball at the gym.
+Convert this Bliss sentence to an English sentence: present:She walk excitedly in park day.
+She excitedly walks in the park every day.
+Convert this Bliss sentence to an English sentence: present:They excitedly play s
+
+

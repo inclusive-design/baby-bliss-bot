@@ -56,6 +56,13 @@ Run the following command to lint all python scripts:
 We performed experiments with a number of existing models listed below to understand how useful they are in helping
 with generating new Bliss symbols etc.
 
+### Llama2
+
+Conclusion: useful
+
+See the [Llama2FineTuning.md](./docs/Llama2FineTuning.md) in the [documentation](./docs) folder for details
+on how to fine tune, evaluation results and the conclusion about how useful it is.
+
 ### StyleGAN3
 
 Conclusion: not useful
