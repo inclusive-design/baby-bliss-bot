@@ -58,30 +58,54 @@ with generating new Bliss symbols etc.
 
 ### Llama2
 
-Conclusion: useful
+**Conclusion**: useful
 
 See the [Llama2FineTuning.md](./docs/Llama2FineTuning.md) in the [documentation](./docs) folder for details
 on how to fine tune, evaluation results and the conclusion about how useful it is.
 
 ### StyleGAN3
 
-Conclusion: not useful
+**Conclusion**: not useful
 
 See the [TrainStyleGAN3Model.md](./docs/TrainStyleGAN3Model.md) in the [documentation](./docs) folder for details
 on how to train this model, training results and the conclusion about how useful it is.
 
 ### StyleGAN2-ADA
 
-Conclusion: shows promise
+**Conclusion**: shows promise
 
 See the [StyleGAN2-ADATraining.md](./docs/StyleGAN2-ADATraining.md) in the [documentation](./docs) folder for details
 on how to train this model and training results.
 
 ### Texture Inversion
 
-Conclusion: not useful 
+**Conclusion**: not useful 
 
 See the [Texture Inversion documentation](./notebooks/README.md) for details.
+
+## Preserving Information
+
+### RAG (Retrieval-augmented generation)
+
+**Conclusion**: useful
+
+RAG (Retrieval-augmented generation) technique is explored to resolve ambiguities by retrieving relevant contextual
+information from external sources, enabling the language model to generate more accurate and reliable responses.
+
+See [RAG.md](./docs/RAG.md) for more details.
+
+### Reflection over Chat History
+
+**Conclusion**: useful
+
+When users have a back-and-forth conversation, the application requires a form of "memory" to retain and incorporate past interactions into its current processing. Two methods are explored to achieve this:
+
+1. Summarizing the chat history and providing it as contextual input.
+2. Using prompt engineering to instruct the language model to consider the past conversation.
+
+The second method, prompt engineering, yields more desired responses than summarizing chat history.
+
+See [ReflectChatHistory.md](./docs/RAG.md) for more details.
 
 ## Notebooks
 
@@ -90,7 +114,8 @@ Each notebook usually comes with a accompanying `dockerfile.yml` to elaborate th
 running in.
 
 ## Jobs
-[`/jobs`](./jobs/) directory contains all jobs used for training or fine-tuning various models.
+[`/jobs`](./jobs/) directory contains all jobs and scripts used for training or fine-tuning various models, as well
+as other explorations with RAG (Retrieval-augmented generation) and preserving chat history.
 
 ## Utility Scripts
 
