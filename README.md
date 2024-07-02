@@ -45,6 +45,9 @@ Always activate and use the python virtual environment to maintain an isolated e
 Run in the baby-bliss-bot directory:
 * `pip install -r requirements.txt`
 
+Run in the same directory to install the spacy english package. Spacy is only used for generating `data/bmw.json`. Skip this step if not needed.
+* `python -m spacy download en`
+
 ## Linting
 
 Run the following command to lint all python scripts:
