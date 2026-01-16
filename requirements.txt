@@ -1,4 +1,14 @@
 flake8
 
+# An OCR module that extracts texts from images
+# It connects with the pre-installed app `tesseract-ocr`
+pytesseract
+
 # Used by all image processing scripts
 Pillow
+
+# Used by a script that converts every single page in a pdf to images
+pdf2image
+
+# Used to analyse sentences and words
+spacy
