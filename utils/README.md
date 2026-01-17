@@ -88,3 +88,201 @@ Finally, all output images are saved in the specified output directory.
 **Example**: python image_size_sync.py images/ output/
 
 **Return**: None
+
+## Convert a PDF File to Individual Images (utils/convert_pdf_pages_to_images.py)
+
+This script converts every single page in the given pdf file into individual images
+
+**Usage**: python convert_pdf_pages_to_images.py source_pdf_file output_image_folder
+Parameters:
+  source_pdf_file: The path to the pdf file is
+  output_image_folder: The directory that the converted images will be written into
+Return: None
+
+**Example**: python convert_pdf_pages_to_images.py ~/Downloads/icons.pdf ~/Downloads/bmw_images/
+
+**Returns**: None
+
+## Extract English Texts from Images (utils/extract_english_texts.py)
+
+This script uses OCR to extract English texts from images. It loops through all images in the given directory, extract
+English texts from each image. The extracted texts are saved in a txt file in the same filename and the same
+directory as its corresponding image.
+
+Before extraction, the brightness of images are enhanced by the given enhance factor to increase the extraction
+accurance. If the factor is not provided, its default is 1.5. The experiment shows enhancing contrast and sharpness
+doesn't help.
+
+**Prerequisite**: Firstly install [`tesseract-ocr`](https://github.com/tesseract-ocr/tesseract)
+* On Unix, run: `sudo apt-get install tesseract-ocr`
+* On Mac, run: `brew install tesseract` 
+
+**Usage**: python extract_english_texts.py [source_image_dir] [lang_code] [enhance_factor]
+
+*source_image_path*: The path where images are
+*lang*: The language code of the language to be extracted. English is "eng"
+*enhance_factor*: The factor value to enhance image's brightness. If not provided, the defualt value is 1.5
+
+**Example**: python extract_english_texts.py ~/Downloads/images eng 2
+
+**Returns**: None
+
+## Convert BMW encoding list into JSON (utils/convert_bmw_to_json.py)
+
+This script reads txt files that contain BMW encoding list from a directory and convert them into JSON.
+The script will report error when BCI-AV-ID for a text is not found or the target message is not found.
+At the end of execution, a set of texts that don't have the matching BCI-AV-ID will be summarized and
+reported.
+
+Errors will be written into the given error file. The converted JSON will be written into the given JSON file.
+
+These errors are reported:
+1. The length of icons in an encoding is less than 2 or longer than 4.
+2. The message conveyed by the encoding is not found. This is because the message should be in lower case
+   in the scanned document. When all texts are in upper case, this error is reported.
+
+**Usage**: python convert_bmw_to_json.py source_txt_path bliss_explanation_json_location output_json_location output_error_location
+
+*source_txt_path*: The path where text files are
+*bliss_explanation_json_location*: The location of the JSON file that contains the translation between Bliss
+BCI-AV-ID and its language translation
+*output_json_location*: The location of the output JSON file. If it doesn't exist, the script will create it
+*output_error_location*: The location of the error file that rows in input files not processed due to any error are written into
+
+**Example**: python convert_bmw_to_json.py ~/Downloads/bmw-text ../data/bliss_symbol_explanations.json bmw.json error.txt
+
+**Return**: None
+
+**File formats**
+
+1. Sample content of a .txt file in the `source_txt_path` directory
+```
+SAY THINK VERB+S talks
+SAY TO+VERB to say
+SAY VERB say
+```
+Using the first line `SAY THINK VERB+S talks` as an example, "SAY", "THINK" and "VERB+S" are three keys pressed on the
+keyboard. It delivers a message "talks".
+
+2. The generated JSON structure for the BMW encoding is:
+```
+[
+    "encodings": {
+        "talked": {
+            "encoding": [
+                "SAY",
+                "THINK",
+                "VERB+ED"
+            ],
+            "bci-av-id": 123
+        }
+    ...
+    },
+     "word_to_id_map": {
+        "VERB": 12335,
+        "VERB+S": [12335, "/", 8499],
+        ...
+    }
+]
+```
+
+**Note** 
+
+Regarding values for BCI-AV-ID information, such as `encodings.talked.bci-av-id` and `word_to_id_map.VERB`
+can be an array if this Bliss symbol is composed by multiple symbols. The use of "/" or ";" means:
+* In the format of [12335, "/", 8499], the Bliss character 12335 and the Bliss character of 8499 are
+displayed side by side;
+* In the format of [12335, ";", 8499], the Bliss character 12335 and the indicator 8499 are displayed
+in the way that the indicator 8499 is on top of the the charactor 12355;
+
+
+## Fill in null BCI-AV-ID values for messages using SpaCy (utils/fill_in_null_bliss_id_with_spacy.py)
+
+This script reads bmw.json, find all messages that have null BCI-AV-ID values, use Spacy to parse and transform
+these messages to accommodating Bliss, then find their BCI-AV-IDs. This script handles messages in these formats:
+1. Verb in different form.
+For example: "begin", "to begin", "beginning", "began", "begun", "begins"  all share the same Bliss symbol of
+its infinitive form "begin".
+
+2. Plural nouns. 
+For example: "books" -> [book, ";", 9011].
+
+3. Subject + Pronoun. The script supports two transformations:
+3.1. Transform to Conceptual Bliss
+For example: "I am" -> [I, be]
+"I were" -> [past_tense, I, be]
+"I will" -> [future_tense, I]
+"he isn't" -> [he, not, be]
+"isn't he" -> [question_mark, he, not, be]
+"should he" -> [question_mark, past_tense, he]
+"shouldn't he" -> [question_mark, past_tense, he, not]
+
+3.2. Transform to Accommadating Bliss in English
+For example: "I am" -> [I, am]
+"I were" -> [I, were]
+"he isn't" -> [he, is, not]
+"isn't he" -> [is, not, he]
+
+When the BCI-AV-ID for a word in the tranformed sentence cannot be found, an error will be reported.
+
+Note: The code for each case above should be uncommented and ran one by one. The result from each run should be
+checked carefully to ensure its correctness.
+
+**Usage**: python fill_in_null_bliss_id_with_spacy.py source_bmw_path bliss_explanation_json_location output_bmw_path
+
+*source_bmw_path*: The path where bmw.json is
+*bliss_explanation_json_location*: The location of the JSON file that contains the translation between Bliss
+BCI-AV-ID and its language translation
+*output_bmw_path*: The path of the output BMW file
+
+**Example**: python fill_in_null_bliss_id_with_spacy.py ../data/bmw.json ../data/bliss_symbol_explanations.json ../data/bmw-new.json
+
+**Return**: None
+
+## Find messages with null BCI-AV-ID values (utils/find_null_ids.py)
+
+Loops through bmw.json and reports all messages whose BCI-AV-ID is null.
+
+**Usage**: python find_null_ids.py source_bmw_path
+*source_bmw_path*: The path where bmw.json is
+
+**Example**: python find_null_ids.py ../data/bmw.json
+
+**Return**: None
+
+## Create BMW Palette JSON file in a Pre-defined Layout (utils/create_predefined_bmw_palette_json.py)
+
+Create the JSON file for rendering BMW code keys on the BMW Palette in a pre-defined layout.
+
+**Usage**: python create_predefined_bmw_palette_json.py source_bmw_path output_bmw_palette_json_path
+*source_bmw_path*: The path where bmw.json is
+*output_bmw_palette_json_path*: The path where the output json file is
+
+**Example**: python create_predefined_bmw_palette_json.py ../data/bmw.json ../data/bmw_palette.json
+
+**Return**: None
+
+## Create BMW Palette JSON file bases on POS value of Cell Lable (utils/sort_by_pos.py & utils/create_bmw_palette_json_by_pos.py)
+
+Create the JSON file for rendering BMW code keys on the BMW Palette based on POS values of the English
+labels of BMW codes.
+
+Step 1: Generate a JSON file that contains the sorted result of POS values of the English labels of BMW codes.
+
+**Usage**: python sort_by_pos.py ../data/bmw.json ../data/intermediate_BMW_conversion_data/symbols_in_pos.json
+*source_bmw_path*: The path where bmw.json is
+*output_sorted_pos_json_path*: The path where the output json file is
+
+**Example**: python sort_by_pos.py ../data/bmw.json ../data/intermediate_BMW_conversion_data/symbols_in_pos.json
+
+**Return**: None
+
+Step 2: Generate BMW palette JSON file
+
+**Usage**: python create_bmw_palette_json_by_pos.py source_sorted_pos_json_path output_bmw_palette_json_path
+*source_sorted_pos_json_path*: The path to a file that has the sorted result of POS values of the English labeld for BMW codes.
+*output_bmw_palette_json_path*: The path where the output json file is
+
+**Example**: python create_bmw_palette_json_by_pos.py ../data/intermediate_BMW_conversion_data/symbols_in_pos.json ../data/bmw_palette.json
+
+**Return**: None
