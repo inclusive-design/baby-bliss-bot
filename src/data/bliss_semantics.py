@@ -132,23 +132,26 @@ present‑action and adverb indicators are more typical in full‑form usage.
 # Blissymbolics Indicators
 INDICATOR_SEMANTICS = {
     # action indicators
-    # infinitive verb or present tense verb; similar to ID: 24807 (includes tense as present), here is doesn't include tense
-    "8993": {
+    # infinitive verb or present tense verb; similar to ID: 928 (includes tense as present), here is doesn't include tense
+    # BCI-AV ID: 8993
+    "81": {
         "POS": "verb",
         "category": "grammatical",
         "features": {
             "form": "infinitive"
         },
-        "priority": ["8993", "24807"]
+        "priority": ["81", "928"]
     },
     # active verb
-    "8994": {
+    # BCI-AV ID: 8994
+    "82": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"tense": "present", "voice": "active", "mood": "declarative", "form": "finite"}
     },
     # the equivalent of the English present conditional form
-    "8995": {
+    # BCI-AV ID: 8995
+    "83": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"tense": "present", "voice": "active", "mood": "conditional", "form": "finite"}
@@ -156,87 +159,101 @@ INDICATOR_SEMANTICS = {
 
     # description indicators
     # the equivalent of the English -ed or -en ending
-    "8996": {
+    # BCI-AV ID: 8996
+    "84": {
         "POS": ["adjective", "adverb"],
         "category": "semantic",
         "features": {"modality": "completed"}
     },
     # equivalent to English words ending in -able
-    "8997": {
+    # BCI-AV ID: 8997
+    "85": {
         "POS": ["adjective", "adverb"],
         "category": "semantic",
         "features": {"modality": "potential"}
     },
     # the equivalent of English adjectives/adverbs
-    "8998": {
+    # BCI-AV ID: 8998
+    "86": {
         "POS": ["adjective", "adverb"],
         "category": "semantic",
-        "priority": ["8998", "24665"]
+        "priority": ["86", "902"]
     },
     # back to action indicators
     # the equivalent of the English future tense
-    "8999": {
+    # BCI-AV ID: 8999
+    "87": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"tense": "future", "voice": "active", "mood": "declarative", "form": "finite"}
     },
     # the equivalent of the English future conditional form
-    "9000": {
+    # BCI-AV ID: 9000
+    "88": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"tense": "future", "voice": "active", "mood": "conditional", "form": "finite"}
     },
     # the equivalent of the English future passive form
-    "9001": {
+    # BCI-AV ID: 9001
+    "89": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"tense": "future", "voice": "passive", "mood": "declarative", "form": "finite"}
     },
     # the equivalent of the English future passive conditional form
-    "9002": {
+    # BCI-AV ID: 9002
+    "90": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"tense": "future", "voice": "passive", "mood": "conditional", "form": "finite"}
     },
     # something is being acted upon
-    "9003": {
+    # BCI-AV ID: 9003
+    "91": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"tense": "present", "voice": "passive", "mood": "declarative", "form": "finite"}
     },
     # the equivalent of the English past tense
-    "9004": {
+    # BCI-AV ID: 9004
+    "92": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"tense": "past", "voice": "active", "mood": "declarative", "form": "finite"}
     },
     # the equivalent of the English past conditional form
-    "9005": {
+    # BCI-AV ID: 9005
+    "93": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"tense": "past", "voice": "active", "mood": "conditional", "form": "finite"}
     },
     # the equivalent of the English past passive conditional form
-    "9006": {
+    # BCI-AV ID: 9006
+    "94": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"tense": "past", "voice": "passive", "mood": "conditional", "form": "finite"}
     },
     # the equivalent of the English past passive form
-    "9007": {
+    # BCI-AV ID: 9007
+    "95": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"tense": "past", "voice": "passive", "mood": "declarative", "form": "finite"}
     },
     # the equivalent of the English present passive conditional form
-    "9008": {
+    # BCI-AV ID: 9008
+    "96": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"tense": "present", "voice": "passive", "mood": "conditional", "form": "finite"}
     },
 
     # represent a concrete object
-    "9009": {
+    # BCI-AV ID: 9009
+    "97": {
         "and": [{
             "POS": "noun",
             "category": "grammatical"
@@ -247,7 +264,8 @@ INDICATOR_SEMANTICS = {
     },
 
     # represent multiple concrete objects
-    "9010": {
+    # BCI-AV ID: 9010
+    "98": {
         "and": [{
             "POS": "noun",
             "category": "grammatical",
@@ -257,41 +275,48 @@ INDICATOR_SEMANTICS = {
             "category": "semantic"
         }]
     },
-    "9011": {
+    # BCI-AV ID: 9011
+    "99": {
         "category": "grammatical",
         "features": {"number": "plural"}
     },
-    "24667": {
+    # BCI-AV ID: 24667
+    "904": {
         "category": "grammatical",
         "features": {"definiteness": "definite", "number": "singular"},
         "notes": "for teaching purposes"
     },
-    # the female modifier (ID: 14166) is used more. Indicator is not used in communication
-    "24668": {
+    # the female modifier (ID: 314) is used more. Indicator is not used in communication
+    # BCI-AV ID: 24668
+    "905": {
         "category": "grammatical",
         "features": {"gender": "feminine", "number": "singular"},
         "notes": "for teaching purposes",
-        "equivalent_modifier": "14166",
-        "priority": ["14166", "24668"]
+        "equivalent_modifier": "314",
+        "priority": ["314", "905"]
     },
-    "12335": {
+    # BCI-AV ID: 12335
+    "106": {
         "category": "grammatical",
         "features": {"gender": "masculine", "number": "singular"}
     },
     # person indicators are only used for grammar teaching - not used in communication; modifiers (actually specifiers) are used for communication
-    "24669": {
+    # BCI-AV ID: 24669
+    "906": {
         "category": "grammatical",
         "features": {"person": "first-person", "number": "singular"},
         "notes": "for teaching purposes",
-        "equivalent_modifier": "8497",
-        "priority": ["8497", "24669"]
+        "equivalent_modifier": "10",
+        "priority": ["10", "906"]
     },
     # the past participle form
-    "28044": {
+    # BCI-AV ID: 28044
+    "5996": {
         "category": "grammatical",
         "features": {"number": "plural", "definiteness": "definite"}
     },
-    "28045": {
+    # BCI-AV ID: 28045
+    "5997": {
         "and": [{
             "category": "grammatical",
             "features": {"definiteness": "definite", "number": "singular"}
@@ -300,7 +325,8 @@ INDICATOR_SEMANTICS = {
             "category": "semantic"
         }]
     },
-    "28046": {
+    # BCI-AV ID: 28046
+    "5998": {
         "and": [{
             "POS": "noun",
             "category": "grammatical",
@@ -312,81 +338,93 @@ INDICATOR_SEMANTICS = {
     },
 
     # indicator (adverb)
-    "24665": {
+    # BCI-AV ID: 24665
+    "902": {
         "POS": "adverb",
         "category": "grammatical",
         "notes": "for teaching purposes",
-        "priority": ["8998", "24665"]
+        "priority": ["86", "902"]
     },
-    # similar to ID: 8993;
-    "24807": {
+    # similar to ID: 81;
+    # BCI-AV ID: 24807
+    "928": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"tense": "present", "mood": "declarative", "form": "finite"},
         "notes": "for teaching purposes",
-        "priority": ["8993", "24807"]
+        "priority": ["81", "928"]
     },
-    # the diminutive modifier is used more. Indicator (ID: 28052) is not used
-    "25458": {
+    # the diminutive modifier is used more. Indicator (ID: 5999) is not used
+    # BCI-AV ID: 25458
+    "992": {
         "category": "grammatical",
         "features": {"size": "diminutive", "form": "finite"},
         "notes": "for teaching purposes",
-        "equivalent_modifier": "28052",
-        "priority": ["28052", "25458"]
+        "equivalent_modifier": "5999",
+        "priority": ["5999", "992"]
     },
     # imperative mood
-    "24670": {
+    # BCI-AV ID: 24670
+    "907": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"mood": "imperative", "form": "finite"}
     },
     # 3 participles
-    "24674": {
+    # BCI-AV ID: 24674
+    "911": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"form": "past-participle-1"},
         "notes": "for teaching purposes"
     },
-    "24675": {
+    # BCI-AV ID: 24675
+    "912": {
         "POS": "verb",
         "category": "grammatical",
         "features": {"form": "past-participle-2"},
         "notes": "for teaching purposes"
     },
-    "24677": {
+    # BCI-AV ID: 24677
+    "914": {
         "POS": ["verb", "adjective"],
         "category": "grammatical",
         "features": {"form": "present-participle"},
         "notes": "for teaching purposes"
     },
     # back to nouns
-    "24671": {
+    # BCI-AV ID: 24671
+    "908": {
         "category": "grammatical",
         "features": {"definiteness": "indefinite", "number": "singular"},
         "notes": "for teaching purposes"
     },
-    "24672": {
+    # BCI-AV ID: 24672
+    "909": {
         "category": "grammatical",
         "features": {"gender": "neutral", "number": "singular"},
         "notes": "for teaching purposes"
     },
     # person indicators are only used for grammar teaching - not used in communication; modifiers (actually specifiers) are used for communication
-    "24678": {
+    # BCI-AV ID: 24678
+    "915": {
         "category": "grammatical",
         "features": {"person": "second-person", "number": "singular"},
         "notes": "for teaching purposes",
-        "equivalent_modifier": "8498",
-        "priority": ["8498", "24678"]
+        "equivalent_modifier": "11",
+        "priority": ["11", "915"]
     },
-    "24679": {
+    # BCI-AV ID: 24679
+    "916": {
         "category": "grammatical",
         "features": {"person": "third-person", "number": "singular"},
         "notes": "for teaching purposes",
-        "equivalent_modifier": "8499",
-        "priority": ["8499", "24679"]
+        "equivalent_modifier": "12",
+        "priority": ["12", "916"]
     },
     # continuous indicator
-    "28043": {
+    # BCI-AV ID: 28043
+    "903": {
          "POS": "noun",
          "category": "grammatical",
          "features": {
@@ -394,10 +432,11 @@ INDICATOR_SEMANTICS = {
          },
          "notes": "Primary indicator for noun-ING (gerunds).",
          # first priority is the continuous indicator, then second priority is the present tense indicator
-         "priority": ["28043", "8994"] 
+         "priority": ["903", "82"]
      },
-    # possessive indicator; both indicator and modifier (ID: 12663) are used, but modifier is used more in English (opposite is true for Swedish).
-    "24676": {
+    # possessive indicator; both indicator and modifier (ID: 160) are used, but modifier is used more in English (opposite is true for Swedish).
+    # BCI-AV ID: 24676
+    "913": {
         "POS": "noun",
         "category": ["grammatical", "syntactical"],
         "features": {
@@ -408,42 +447,43 @@ INDICATOR_SEMANTICS = {
             },
         },
         "notes": "for teaching purposes",
-        "equivalent_modifier": "12663",
-        "priority": ["12663", "24676"]
+        "equivalent_modifier": "160",
+        "priority": ["160", "913"]
     },
-    # object form; can use object form with or without indicator - is an alternative, modifier (ID: 28057) has never been used
-    "24673": {
+    # object form; can use object form with or without indicator - is an alternative, modifier (ID: 6003) has never been used
+    # BCI-AV ID: 24673
+    "910": {
         "POS": "noun",
         "category": "syntactical",
         "features": {"position": ["pre", "post"], "default-position": "post"},
         "notes": "for teaching purposes",
-        "equivalent_modifier": "28057",
-        "priority": ["optional", "24673", "28057"]
+        "equivalent_modifier": "6003",
+        "priority": ["optional", "910", "6003"]
     },
 }
 
 # Blissymbolics Modifiers
 MODIFIER_SEMANTICS = {
-    # "B314"
-    "14166": {
+    # BCI-AV ID: 14166
+    "314": {
         "features": {
            "gender": "feminine",
            "number": "singular",
            "position": "suffix"
         },
-        "equivalent_indicator": "24668",
-        "priority": ["14166", "24668"]
+        "equivalent_indicator": "905",
+        "priority": ["314", "905"]
     },
-    # "B10"
-    "8497": {
+    # BCI-AV ID: 8497
+    "10": {
         "or": [{
             "features": {
                 "person": "first-person",
                 "number": "singular",
                 "position": "suffix"
             },
-            "equivalent_indicator": "24669",
-            "priority": ["8497", "24669"],
+            "equivalent_indicator": "906",
+            "priority": ["10", "906"],
         }, {
             "numeric": "one",
             "features": {
@@ -452,16 +492,16 @@ MODIFIER_SEMANTICS = {
             "notes": "when in default position (prefix), functions as a cardinal to indicate number of items. otherwise (suffixed), functions as an ordinal"
         }]
     },
-    # "B11"
-    "8498": {
+    # BCI-AV ID: 8498
+    "11": {
         "or": [{
             "features": {
                 "person": "second-person",
                 "number": "singular",
                 "position": "suffix"
             },
-            "equivalent_indicator": "24678",
-            "priority": ["8498", "24678"],
+            "equivalent_indicator": "915",
+            "priority": ["11", "915"],
         }, {
             "features": {
                 "numeric": "two",
@@ -470,16 +510,16 @@ MODIFIER_SEMANTICS = {
             "notes": "when in default position (prefix), functions as a cardinal to indicate number of items. otherwise (suffixed), functions as an ordinal"
         }]
     },
-    # "B12"
-    "8499": {
+    # BCI-AV ID: 8499
+    "12": {
          "or": [{
             "features": {
                 "person": "third-person",
                 "number": "singular",
                 "position": "suffix"
             },
-            "equivalent_indicator": "24679",
-            "priority": ["8499", "24679"],
+            "equivalent_indicator": "916",
+            "priority": ["12", "916"],
           }, {
             "features": {
                 "numeric": "three",
@@ -488,34 +528,34 @@ MODIFIER_SEMANTICS = {
             "notes": "when in default position (prefix), functions as a cardinal to indicate number of items. otherwise (suffixed), functions as an ordinal"
          }]
     },
-    # "B5999"
-    "28052": {
+    # BCI-AV ID: 28052
+    "5999": {
         "features": {
             "size": "diminutive",
             "position": "suffix"
         },
-        "equivalent_indicator": "25458",
-        "priority": ["28052", "25458"],
+        "equivalent_indicator": "992",
+        "priority": ["5999", "992"],
     },
 
-    # "B112"
-    "12352": {
+    # BCI-AV ID: 12352
+    "112": {
         "time": "ago, then (past)",
         "features": {
            "position": "suffix"
         }
     },
 
-    # "B648"
-    "17705": {
+    # BCI-AV ID: 17705
+    "648": {
         "time": "then_future, so, later",
         "features": {
            "position": "suffix"
         }
     },
 
-    # "B474"
-    "15736": {
+    # BCI-AV ID: 15736
+    "474": {
         "time": "now",
         "features": {
            "position": "suffix"
@@ -523,16 +563,16 @@ MODIFIER_SEMANTICS = {
     },
 
     # Structural markers
-    # "B233"
-    "13382": {
+    # BCI-AV ID: 13382
+    "233": {
         "structural-marker": "combine marker",
         "notes": "special case (combine marker acts like quotation marks surrounding a set of symbols)",
         "position": ["prefix", "suffix"]
     },
 
     # What
-    # "B699"
-    "18229": {
+    # BCI-AV ID: 18229
+    "699": {
         "structural-marker": "what",
         "features": {
            "position": "prefix"
@@ -541,94 +581,99 @@ MODIFIER_SEMANTICS = {
     },
 
     # Scalar degree operators
-    # "B401"
-    "14947": {
+    # BCI-AV ID: 14947
+    "401": {
         "degree": "intensity",
         "features": {
            "position": "prefix"
         },
         "notes": "exclamatory when used as a prefix, otherwise a specifier"
     },
-    # "B937"
-    "24879": {
+    # BCI-AV ID: 24879
+    "937": {
         "degree": "more (comparative)",
         "features": {
            "position": "prefix"
         }
     },
-    # "B968"
-    "24944": {
+    # BCI-AV ID: 24944
+    "968": {
         "degree": "most (comparative)",
         "features": {
            "position": "prefix"
         }
     },
 
-     # "B6438"
-    "24944": {
+    # BCI-AV ID: none (not yet in the official BCI-AV)
+    "6438": {
         "degree": "comparative less",
         "features": {
            "position": "prefix"
         }
     },
 
-     # "B6321"
-    "24944": {
+    # BCI-AV ID: 29405
+    "6321": {
         "degree": "minimum",
         "features": {
            "position": "prefix"
         }
     },
-     
+
     # Identity-affecting operators
     # "B449/B401"
-    "15733": {
+    # BCI-AV ID: 15733
+    "2088": {
         "negation": "not, negative, no, don't, doesn't",
         "features": {
            "position": "prefix"
         },
-        "priority": ["15474", "15733", "15927"]
+        "priority": ["449", "2088", "486"]
     },
-    # "B486"
-    "15927": {
+    # BCI-AV ID: 15927
+    "486": {
         "negation": "opposite",
         "features": {
            "position": "prefix"
         },
-        "priority": ["15474", "15733", "15927"]
+        "priority": ["449", "2088", "486"]
     },
     # Concept-transforming operators
     # "B1060/B578"
-    "16984": {
+    # BCI-AV ID: 16984
+    "2404": {
         "concept-transforming": "similar to",
         "features": {
            "position": "prefix"
         }
     },
     # "B1060/B578/B303"
-    "16985": {
+    # BCI-AV ID: 16985
+    "2405": {
         "concept-transforming": "look similar to",
         "features": {
            "position": "prefix"
         }
     },
     # "B1060/B578/B608"
-    "16986": {
+    # BCI-AV ID: 16986
+    "2406": {
         "concept-transforming": "sound similar to",
         "features": {
            "position": "prefix"
         }
     },
     # "B578/B608"
-    "16714": {
+    # BCI-AV ID: 16714
+    "2312": {
         "concept-transforming": "same sound",
         "features": {
            "position": "prefix"
         }
     },
     # "B578/B303": "look same" but missing in the BCI-AV
-    # "B348"
-    "14430": {
+    # BCI-AV ID: 14430
+    "348": {
         "concept-transforming": "generalization",
         "features": {
            "link": "association",
@@ -636,30 +681,31 @@ MODIFIER_SEMANTICS = {
         }
     },
     # Relational operators
-    # "B449"
-    "15474": {
+    # BCI-AV ID: 15474
+    "449": {
         "negation": "minus, no, without",
         "features": {
            "position": "prefix"
         },
-        "priority": ["15474", "15733", "15927"]
+        "priority": ["449", "2088", "486"]
     },
-    # "B578"
-    "16713": {
+    # BCI-AV ID: 16713
+    "578": {
         "relational": "same, equal, equality",
         "features": {
            "position": "prefix"
         }
     },
     # "B502/B167"
-    "12858": {
+    # BCI-AV ID: 12858
+    "1309": {
         "relational": "blissymbol part",
         "features": {
            "position": "prefix"
         }
     },
-    # "B502"
-    "15972": {
+    # BCI-AV ID: 15972
+    "502": {
         "relational": "part of",
         "features": {
            "link": "derivative",
@@ -667,29 +713,29 @@ MODIFIER_SEMANTICS = {
         },
         "notes": "position is prefix (modifier) when describing part of/component of X (e.g. tonsils are a part of the throat, gene is part of DNA). Position is suffix (specifier) when describing X into parts, divided into/produces components (e.g. suit, jigsaw puzzle)"
     },
-    # "B102"
-    "12324": {
+    # BCI-AV ID: 12324
+    "102": {
         "relational": "about, concerning, regarding, in relation to",
         "features": {
            "position": "prefix"
         }
     },
-    # "B104"
-    "12333": {
+    # BCI-AV ID: 12333
+    "104": {
         "relational": "across",
         "features": {
            "position": "prefix"
         }
     },
-    # "B109"
-    "12348": {
+    # BCI-AV ID: 12348
+    "109": {
         "relational": "after, behind",
         "features": {
            "position": "prefix"
         }
     },
-    # "B111"
-    "12351": {
+    # BCI-AV ID: 12351
+    "111": {
         "relational": "against, opposed to",
         "features": {
            "position": "prefix"
@@ -697,350 +743,357 @@ MODIFIER_SEMANTICS = {
         "notes": "Position is prefix (most cases), suffix (when specifying what type)"
     },
     # "B120/B120"
-    "12364": {
+    # BCI-AV ID: 12364
+    "1189": {
         "relational": "along with",
         "features": {
            "position": "prefix",
         }
     },
     # "B162/B368"
-    "25653": {
+    # BCI-AV ID: 25653
+    "5274": {
         "relational": "among",
         "features": {
            "position": "prefix"
         },
         "notes": "Related meanings: between, to, inside"
     },
-    # "B134"
-    "12580": {
+    # BCI-AV ID: 12580
+    "134": {
         "relational": "around",
         "features": {
            "position": "prefix"
         },
     },
-    # "B135"
-    "12591": {
+    # BCI-AV ID: 12591
+    "135": {
         "relational": "at",
         "features": {
            "position": "prefix"
         }
     },
-    # "B158"
-    "12656": {
+    # BCI-AV ID: 12656
+    "158": {
         "relational": "before, in front of, prior to",
         "features": {
            "position": "prefix"
         },
     },
-    # "B162"
-    "12669": {
+    # BCI-AV ID: 12669
+    "162": {
         "relational": "between",
         "features": {
            "position": "prefix"
         },
     },
-    # "B195"
-    "13100": {
+    # BCI-AV ID: 13100
+    "195": {
         "relational": "by, by means of, of",
         "features": {
            "position": "prefix"
         }
     },
-    # "B482"
-    "15918": {
+    # BCI-AV ID: 15918
+    "482": {
         "relational": "on",
         "features": {
            "position": "prefix"
         }
     },
-    # "B491"
-    "15943": {
+    # BCI-AV ID: 15943
+    "491": {
         "relational": "out of (forward)",
         "features": {
            "position": "prefix"
         }
     },
-    # "B492"
-    "15944": {
+    # BCI-AV ID: 15944
+    "492": {
         "relational": "out of (downward)",
         "features": {
            "position": "prefix"
         }
     },
-    # "B977"
-    "25134": {
+    # BCI-AV ID: 25134
+    "977": {
         "relational": "out of (upward)",
         "features": {
            "position": "prefix"
         }
     },
-    # "B976"
-    "25133": {
+    # BCI-AV ID: 25133
+    "976": {
         "relational": "out of (backward)",
         "features": {
            "position": "prefix"
         }
     },
-    # "B402"
-    "14952": {
+    # BCI-AV ID: 14952
+    "402": {
         "relational": "into (forward)",
         "features": {
            "position": "prefix"
         }
     },
-    # "B1124"
-    "25895": {
+    # BCI-AV ID: 25895
+    "1124": {
         "relational": "into (downward)",
         "features": {
            "position": "prefix"
         }
     },
-    # "B1125"
-    "25896": {
+    # BCI-AV ID: 25896
+    "1125": {
         "relational": "into (upward)",
         "features": {
            "position": "prefix"
         }
     },
-    # "B1123"
-    "25894": {
+    # BCI-AV ID: 25894
+    "1123": {
         "relational": "into (backward)",
         "features": {
            "position": "prefix"
         }
     },
-    # "B490"
-    "15942": {
+    # BCI-AV ID: 15942
+    "490": {
         "relational": "outside",
         "features": {
            "position": "prefix"
         }
     },
-    # "B398"
-    "14932": {
+    # BCI-AV ID: 14932
+    "398": {
         "relational": "inside",
         "features": {
            "position": "prefix"
         }
     },
-    # "B493"
-    "15948": {
+    # BCI-AV ID: 15948
+    "493": {
         "relational": "over, above",
         "features": {
            "position": "prefix"
         }
     },
-    # "B676"
-    "17969": {
+    # BCI-AV ID: 17969
+    "676": {
         "relational": "under, below",
         "features": {
            "position": "prefix"
         }
     },
-    # "B1102"
-    "25628": {
+    # BCI-AV ID: 25628
+    "1102": {
         "relational": "under (ground level)",
         "features": {
            "position": "prefix"
         }
     },
-    # "B331"
-    "14381": {
+    # BCI-AV ID: 14381
+    "331": {
         "relational": "instead",
         "features": {
            "position": "prefix"
         }
     },
-    # "B332"
-    "14382": {
+    # BCI-AV ID: 14382
+    "332": {
         "relational": "for the purpose of, in order to",
         "features": {
            "position": "prefix"
         }
     },
-    # "B337"
-    "14403": {
+    # BCI-AV ID: 14403
+    "337": {
         "relational": "from",
         "features": {
            "position": "prefix"
         }
     },
-    # "B657"
-    "17739": {
+    # BCI-AV ID: 17739
+    "657": {
         "relational": "to, toward",
         "features": {
            "position": "prefix"
         }
     },
-    # "B653"
-    "17724": {
+    # BCI-AV ID: 17724
+    "653": {
         "relational": "through",
         "features": {
            "position": "prefix"
         }
     },
-    # "B677"
-    "17982": {
+    # BCI-AV ID: 17982
+    "677": {
         "relational": "until",
         "features": {
            "position": "prefix"
         }
     },
-    # "B160"
-    "12663": {
+    # BCI-AV ID: 12663
+    "160": {
         "relational": "belongs to",
         "features": {
            "position": "prefix"
         },
-        "equivalent_indicator": "24676",
-        "priority":  ["12663", "24676"],
+        "equivalent_indicator": "913",
+        "priority":  ["160", "913"],
         "notes": "Position role is primarily suffix as modifier, but can also be prefix as specifier."
     },
     # Quantifiers
     # "B368"
     # prefix modifier
-    "14647": {
+    # BCI-AV ID: 14647
+    "368": {
         "quantifier": "many, much",
         "features": {
            "position": "prefix"
         }
     },
     # pending: few (not yet in bliss-glyph-data.js)
-    # "B117"
-    "12360": {
+    # BCI-AV ID: 12360
+    "117": {
         "quantifier": "all",
         "features": {
            "position": "prefix"
         }
     },
-    # "B100"
-    "12321": {
+    # BCI-AV ID: 12321
+    "100": {
         "quantifier": "any",
         "features": {
            "position": "prefix"
         }
     },
     # "B11/B117"
-    "12879": {
+    # BCI-AV ID: 12879
+    "1324": {
         "quantifier": "both",
         "features": {
            "position": "prefix"
         }
     },
     # "B10/B117"
-    "13893": {
+    # BCI-AV ID: 13893
+    "1580": {
         "quantifier": "each, every",
         "features": {
            "position": "prefix"
         }
     },
-    # "B286"
-    "13914": {
+    # BCI-AV ID: 13914
+    "286": {
         "quantifier": "either",
         "features": {
            "position": "prefix"
         }
     },
     # "B449/B286"
-    "15706": {
+    # BCI-AV ID: 15706
+    "2066": {
         "quantifier": "neither",
         "features": {
            "position": "prefix"
         }
     },
-    # "B951"
-    "24906": {
+    # BCI-AV ID: 24906
+    "951": {
         "quantifier": "half",
         "features": {
            "position": "prefix"
         }
     },
-    # "B962"
-    "24932": {
+    # BCI-AV ID: 24932
+    "962": {
         "quantifier": "quarter",
         "features": {
            "position": "prefix"
         }
     },
-    # "B1151"
-    "26064": {
+    # BCI-AV ID: 26064
+    "1151": {
         "quantifier": "one third",
         "features": {
            "position": "prefix"
         }
     },
-    # "B1152"
-    "26065": {
+    # BCI-AV ID: 26065
+    "1152": {
         "quantifier": "two thirds",
         "features": {
            "position": "prefix"
         }
     },
-    # "B1153"
-    "26066": {
+    # BCI-AV ID: 26066
+    "1153": {
         "quantifier": "three quarters",
         "features": {
            "position": "prefix"
         }
     },
     # "B559/B11"
-    "16762": {
+    # BCI-AV ID: 16762
+    "2353": {
         "quantifier": "several",
         "features": {
            "position": "prefix"
         },
         "notes": "position is prefix (inferred by related meaning: many/much)"
     },
-    # "B9"
-    "8496": {
+    # BCI-AV ID: 8496
+    "9": {
         "numeric": "zero",
         "features": {
            "position": "prefix"
         },
         "notes": "when in default position (prefix), functions as a cardinal to indicate number of items. otherwise (suffixed), functions as an ordinal"
     },
-    # "B13"
-    "8500": {
+    # BCI-AV ID: 8500
+    "13": {
         "numeric": "four",
         "features": {
            "position": "prefix"
         },
         "notes": "when in default position (prefix), functions as a cardinal to indicate number of items. otherwise (suffixed), functions as an ordinal"
     },
-    # "B14"
-    "8501": {
+    # BCI-AV ID: 8501
+    "14": {
         "numeric": "five",
         "features": {
            "position": "prefix"
         },
         "notes": "when in default position (prefix), functions as a cardinal to indicate number of items. otherwise (suffixed), functions as an ordinal"
     },
-    # "B15"
-    "8502": {
+    # BCI-AV ID: 8502
+    "15": {
         "numeric": "six",
         "features": {
            "position": "prefix"
         },
         "notes": "when in default position (prefix), functions as a cardinal to indicate number of items. otherwise (suffixed), functions as an ordinal"
     },
-    # "B16"
-    "8503": {
+    # BCI-AV ID: 8503
+    "16": {
         "numeric": "seven",
         "features": {
            "position": "prefix"
         },
         "notes": "when in default position (prefix), functions as a cardinal to indicate number of items. otherwise (suffixed), functions as an ordinal"
     },
-    # "B17"
-    "8504": {
+    # BCI-AV ID: 8504
+    "17": {
         "numeric": "eight",
         "features": {
            "position": "prefix"
         },
         "notes": "when in default position (prefix), functions as a cardinal to indicate number of items. otherwise (suffixed), functions as an ordinal"
     },
-    # "B18"
-    "8505": {
+    # BCI-AV ID: 8505
+    "18": {
         "numeric": "nine",
         "features": {
            "position": "prefix"
