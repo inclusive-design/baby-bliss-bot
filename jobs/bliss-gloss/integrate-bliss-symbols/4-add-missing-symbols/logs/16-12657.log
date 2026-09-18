@@ -1,0 +1,1546 @@
+Glosses in words: [' begin', ' start']
+Target tokens: ['Ġbegin', 'Ġstart']; Target token IDs: [3240, 1212]
+len(training_positive_context_sentences) = 116
+len(testing_positive_context_sentences) = 30
+len(training_negative_context_sentences) = 78
+len(testing_negative_context_sentences) = 20
+len(fine_tuning_sentences) = 282
+len(validation_sentences) = 71
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 16_adapter_12656
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/16_adapter_12656
+New token '[BLISS_12657]' added to the model with ID: 130639. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12657]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12657]' set to the average input embedding of all constituent tokens of '[' begin', ' start']'
+Preparation time: 25 minutes and 26.46 seconds
+
+Starting training...
+{'loss': 0.412, 'grad_norm': 0.0, 'learning_rate': 9.999999999999999e-05, 'epoch': 0.1}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9067, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.566, 'epoch': 0.1}
+{'loss': 0.4425, 'grad_norm': 0.0, 'learning_rate': 0.00019999999999999998, 'epoch': 0.21}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8761, 'eval_samples_per_second': 4.472, 'eval_steps_per_second': 0.567, 'epoch': 0.21}
+{'loss': 0.4197, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.31}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.877, 'eval_samples_per_second': 4.472, 'eval_steps_per_second': 0.567, 'epoch': 0.31}
+{'loss': 0.3977, 'grad_norm': 0.0, 'learning_rate': 0.0002999022143084515, 'epoch': 0.41}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8972, 'eval_samples_per_second': 4.466, 'eval_steps_per_second': 0.566, 'epoch': 0.41}
+{'loss': 0.39, 'grad_norm': 0.0, 'learning_rate': 0.00029960898472769244, 'epoch': 0.52}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9115, 'eval_samples_per_second': 4.462, 'eval_steps_per_second': 0.566, 'epoch': 0.52}
+{'loss': 0.4298, 'grad_norm': 0.0, 'learning_rate': 0.00029912069357315393, 'epoch': 0.62}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9568, 'eval_samples_per_second': 4.45, 'eval_steps_per_second': 0.564, 'epoch': 0.62}
+{'loss': 0.4381, 'grad_norm': 0.0, 'learning_rate': 0.0002984379774833456, 'epoch': 0.72}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 17.0841, 'eval_samples_per_second': 4.156, 'eval_steps_per_second': 0.527, 'epoch': 0.72}
+{'loss': 0.4065, 'grad_norm': 0.0, 'learning_rate': 0.0002975617265898004, 'epoch': 0.83}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 18.0992, 'eval_samples_per_second': 3.923, 'eval_steps_per_second': 0.497, 'epoch': 0.83}
+{'loss': 0.4306, 'grad_norm': 0.0, 'learning_rate': 0.000296493083356513, 'epoch': 0.93}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.0467, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.561, 'epoch': 0.93}
+{'loss': 0.4276, 'grad_norm': 0.0, 'learning_rate': 0.0002952334410903845, 'epoch': 1.0}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8706, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.567, 'epoch': 1.0}
+{'loss': 0.4305, 'grad_norm': 0.0, 'learning_rate': 0.00029378444212461617, 'epoch': 1.1}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8969, 'eval_samples_per_second': 4.466, 'eval_steps_per_second': 0.566, 'epoch': 1.1}
+{'loss': 0.4332, 'grad_norm': 0.0, 'learning_rate': 0.00029214797567742035, 'epoch': 1.21}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9135, 'eval_samples_per_second': 4.462, 'eval_steps_per_second': 0.566, 'epoch': 1.21}
+{'loss': 0.4207, 'grad_norm': 0.0, 'learning_rate': 0.00029032617538884015, 'epoch': 1.31}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9103, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 0.566, 'epoch': 1.31}
+{'loss': 0.4337, 'grad_norm': 0.0, 'learning_rate': 0.00028832141653888993, 'epoch': 1.41}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9101, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 0.566, 'epoch': 1.41}
+{'loss': 0.4089, 'grad_norm': 0.0, 'learning_rate': 0.0002861363129506435, 'epoch': 1.52}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.1919, 'eval_samples_per_second': 4.385, 'eval_steps_per_second': 0.556, 'epoch': 1.52}
+{'loss': 0.3886, 'grad_norm': 0.0, 'learning_rate': 0.0002837737135823073, 'epoch': 1.62}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9416, 'eval_samples_per_second': 4.454, 'eval_steps_per_second': 0.565, 'epoch': 1.62}
+{'loss': 0.4142, 'grad_norm': 0.0, 'learning_rate': 0.00028123669881272245, 'epoch': 1.72}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.2597, 'eval_samples_per_second': 4.367, 'eval_steps_per_second': 0.554, 'epoch': 1.72}
+{'loss': 0.4127, 'grad_norm': 0.0, 'learning_rate': 0.00027852857642513836, 'epoch': 1.83}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8993, 'eval_samples_per_second': 4.466, 'eval_steps_per_second': 0.566, 'epoch': 1.83}
+{'loss': 0.4243, 'grad_norm': 0.0, 'learning_rate': 0.0002756528772944947, 'epoch': 1.93}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9075, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 0.566, 'epoch': 1.93}
+{'loss': 0.409, 'grad_norm': 0.0, 'learning_rate': 0.00027261335078383373, 'epoch': 2.0}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8761, 'eval_samples_per_second': 4.472, 'eval_steps_per_second': 0.567, 'epoch': 2.0}
+{'loss': 0.4127, 'grad_norm': 0.0, 'learning_rate': 0.00026941395985584653, 'epoch': 2.1}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9181, 'eval_samples_per_second': 4.46, 'eval_steps_per_second': 0.565, 'epoch': 2.1}
+{'loss': 0.4408, 'grad_norm': 0.0, 'learning_rate': 0.00026605887590592543, 'epoch': 2.21}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9175, 'eval_samples_per_second': 4.461, 'eval_steps_per_second': 0.565, 'epoch': 2.21}
+{'loss': 0.3884, 'grad_norm': 0.0, 'learning_rate': 0.00026255247332346033, 'epoch': 2.31}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.3308, 'eval_samples_per_second': 4.348, 'eval_steps_per_second': 0.551, 'epoch': 2.31}
+{'loss': 0.4086, 'grad_norm': 0.0, 'learning_rate': 0.0002588993237884696, 'epoch': 2.41}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9069, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 0.566, 'epoch': 2.41}
+{'loss': 0.4417, 'grad_norm': 0.0, 'learning_rate': 0.00025510419031100136, 'epoch': 2.52}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8924, 'eval_samples_per_second': 4.468, 'eval_steps_per_second': 0.566, 'epoch': 2.52}
+{'loss': 0.4033, 'grad_norm': 0.0, 'learning_rate': 0.00025117202102107705, 'epoch': 2.62}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9365, 'eval_samples_per_second': 4.455, 'eval_steps_per_second': 0.565, 'epoch': 2.62}
+{'loss': 0.4406, 'grad_norm': 0.0, 'learning_rate': 0.00024710794271727413, 'epoch': 2.72}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.156, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.557, 'epoch': 2.72}
+{'loss': 0.4377, 'grad_norm': 0.0, 'learning_rate': 0.00024291725418235845, 'epoch': 2.83}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8695, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.567, 'epoch': 2.83}
+{'loss': 0.3954, 'grad_norm': 0.0, 'learning_rate': 0.00023860541927468262, 'epoch': 2.93}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8943, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.566, 'epoch': 2.93}
+{'loss': 0.4153, 'grad_norm': 0.0, 'learning_rate': 0.00023417805980435736, 'epoch': 3.0}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8734, 'eval_samples_per_second': 4.473, 'eval_steps_per_second': 0.567, 'epoch': 3.0}
+{'loss': 0.4156, 'grad_norm': 0.0, 'learning_rate': 0.000229640948203483, 'epoch': 3.1}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9032, 'eval_samples_per_second': 4.465, 'eval_steps_per_second': 0.566, 'epoch': 3.1}
+{'loss': 0.4395, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 3.21}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 19.2144, 'eval_samples_per_second': 3.695, 'eval_steps_per_second': 0.468, 'epoch': 3.21}
+{'loss': 0.4483, 'grad_norm': 0.0, 'learning_rate': 0.00022026126610496852, 'epoch': 3.31}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8791, 'eval_samples_per_second': 4.471, 'eval_steps_per_second': 0.567, 'epoch': 3.31}
+{'loss': 0.4047, 'grad_norm': 0.0, 'learning_rate': 0.0002154309249233351, 'epoch': 3.41}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9217, 'eval_samples_per_second': 4.459, 'eval_steps_per_second': 0.565, 'epoch': 3.41}
+{'loss': 0.4234, 'grad_norm': 0.0, 'learning_rate': 0.0002105152742984713, 'epoch': 3.52}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.907, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 0.566, 'epoch': 3.52}
+{'loss': 0.4203, 'grad_norm': 0.0, 'learning_rate': 0.00020552072330098716, 'epoch': 3.62}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9143, 'eval_samples_per_second': 4.461, 'eval_steps_per_second': 0.566, 'epoch': 3.62}
+{'loss': 0.3866, 'grad_norm': 0.0, 'learning_rate': 0.00020045378387252623, 'epoch': 3.72}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.7983, 'eval_samples_per_second': 4.227, 'eval_steps_per_second': 0.536, 'epoch': 3.72}
+{'loss': 0.4015, 'grad_norm': 0.0, 'learning_rate': 0.00019532106233543587, 'epoch': 3.83}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8935, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.566, 'epoch': 3.83}
+{'loss': 0.4168, 'grad_norm': 0.0, 'learning_rate': 0.00019012925077938314, 'epoch': 3.93}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9089, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 0.566, 'epoch': 3.93}
+{'loss': 0.4576, 'grad_norm': 0.0, 'learning_rate': 0.00018488511833614655, 'epoch': 4.0}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 19.1723, 'eval_samples_per_second': 3.703, 'eval_steps_per_second': 0.469, 'epoch': 4.0}
+{'loss': 0.4154, 'grad_norm': 0.0, 'learning_rate': 0.00017959550235395998, 'epoch': 4.1}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9208, 'eval_samples_per_second': 4.46, 'eval_steps_per_second': 0.565, 'epoch': 4.1}
+{'loss': 0.438, 'grad_norm': 0.0, 'learning_rate': 0.00017426729948291474, 'epoch': 4.21}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8856, 'eval_samples_per_second': 4.469, 'eval_steps_per_second': 0.567, 'epoch': 4.21}
+{'loss': 0.4133, 'grad_norm': 0.0, 'learning_rate': 0.0001689074566830434, 'epoch': 4.31}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8989, 'eval_samples_per_second': 4.466, 'eval_steps_per_second': 0.566, 'epoch': 4.31}
+{'loss': 0.3946, 'grad_norm': 0.0, 'learning_rate': 0.0001635229621668098, 'epoch': 4.41}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9183, 'eval_samples_per_second': 4.46, 'eval_steps_per_second': 0.565, 'epoch': 4.41}
+{'loss': 0.406, 'grad_norm': 0.0, 'learning_rate': 0.0001581208362878126, 'epoch': 4.52}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.6115, 'eval_samples_per_second': 4.274, 'eval_steps_per_second': 0.542, 'epoch': 4.52}
+{'loss': 0.4349, 'grad_norm': 0.0, 'learning_rate': 0.00015270812238758405, 'epoch': 4.62}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9003, 'eval_samples_per_second': 4.465, 'eval_steps_per_second': 0.566, 'epoch': 4.62}
+{'loss': 0.4324, 'grad_norm': 0.0, 'learning_rate': 0.0001472918776124159, 'epoch': 4.72}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 19.5315, 'eval_samples_per_second': 3.635, 'eval_steps_per_second': 0.461, 'epoch': 4.72}
+{'loss': 0.4329, 'grad_norm': 0.0, 'learning_rate': 0.00014187916371218736, 'epoch': 4.83}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8568, 'eval_samples_per_second': 4.478, 'eval_steps_per_second': 0.568, 'epoch': 4.83}
+{'loss': 0.3893, 'grad_norm': 0.0, 'learning_rate': 0.0001364770378331902, 'epoch': 4.93}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8912, 'eval_samples_per_second': 4.468, 'eval_steps_per_second': 0.566, 'epoch': 4.93}
+{'loss': 0.4441, 'grad_norm': 0.0, 'learning_rate': 0.00013109254331695658, 'epoch': 5.0}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8436, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.568, 'epoch': 5.0}
+{'loss': 0.4117, 'grad_norm': 0.0, 'learning_rate': 0.0001257327005170853, 'epoch': 5.1}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8669, 'eval_samples_per_second': 4.475, 'eval_steps_per_second': 0.567, 'epoch': 5.1}
+{'loss': 0.4397, 'grad_norm': 0.0, 'learning_rate': 0.00012040449764604, 'epoch': 5.21}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.047, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.561, 'epoch': 5.21}
+{'loss': 0.4179, 'grad_norm': 0.0, 'learning_rate': 0.00011511488166385347, 'epoch': 5.31}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.05, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.561, 'epoch': 5.31}
+{'loss': 0.4264, 'grad_norm': 0.0, 'learning_rate': 0.00010987074922061689, 'epoch': 5.41}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9087, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 0.566, 'epoch': 5.41}
+{'loss': 0.431, 'grad_norm': 0.0, 'learning_rate': 0.00010467893766456407, 'epoch': 5.52}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.906, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.566, 'epoch': 5.52}
+{'loss': 0.4099, 'grad_norm': 0.0, 'learning_rate': 9.95462161274737e-05, 'epoch': 5.62}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9107, 'eval_samples_per_second': 4.462, 'eval_steps_per_second': 0.566, 'epoch': 5.62}
+{'loss': 0.4215, 'grad_norm': 0.0, 'learning_rate': 9.447927669901282e-05, 'epoch': 5.72}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.5293, 'eval_samples_per_second': 4.295, 'eval_steps_per_second': 0.544, 'epoch': 5.72}
+{'loss': 0.41, 'grad_norm': 0.0, 'learning_rate': 8.948472570152872e-05, 'epoch': 5.83}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8934, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.566, 'epoch': 5.83}
+{'loss': 0.4278, 'grad_norm': 0.0, 'learning_rate': 8.456907507666487e-05, 'epoch': 5.93}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9205, 'eval_samples_per_second': 4.46, 'eval_steps_per_second': 0.565, 'epoch': 5.93}
+{'loss': 0.3544, 'grad_norm': 0.0, 'learning_rate': 7.973873389503149e-05, 'epoch': 6.0}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8365, 'eval_samples_per_second': 4.483, 'eval_steps_per_second': 0.568, 'epoch': 6.0}
+{'loss': 0.4556, 'grad_norm': 0.0, 'learning_rate': 7.500000000000002e-05, 'epoch': 6.1}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9581, 'eval_samples_per_second': 4.449, 'eval_steps_per_second': 0.564, 'epoch': 6.1}
+{'loss': 0.4058, 'grad_norm': 0.0, 'learning_rate': 7.035905179651701e-05, 'epoch': 6.21}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9353, 'eval_samples_per_second': 4.456, 'eval_steps_per_second': 0.565, 'epoch': 6.21}
+{'loss': 0.4377, 'grad_norm': 0.0, 'learning_rate': 6.582194019564266e-05, 'epoch': 6.31}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8845, 'eval_samples_per_second': 4.47, 'eval_steps_per_second': 0.567, 'epoch': 6.31}
+{'loss': 0.454, 'grad_norm': 0.0, 'learning_rate': 6.139458072531735e-05, 'epoch': 6.41}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9, 'eval_samples_per_second': 4.465, 'eval_steps_per_second': 0.566, 'epoch': 6.41}
+{'loss': 0.4363, 'grad_norm': 0.0, 'learning_rate': 5.7082745817641546e-05, 'epoch': 6.52}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9282, 'eval_samples_per_second': 4.458, 'eval_steps_per_second': 0.565, 'epoch': 6.52}
+{'loss': 0.4292, 'grad_norm': 0.0, 'learning_rate': 5.289205728272586e-05, 'epoch': 6.62}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8625, 'eval_samples_per_second': 4.476, 'eval_steps_per_second': 0.567, 'epoch': 6.62}
+{'loss': 0.394, 'grad_norm': 0.0, 'learning_rate': 4.882797897892292e-05, 'epoch': 6.72}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.4428, 'eval_samples_per_second': 4.318, 'eval_steps_per_second': 0.547, 'epoch': 6.72}
+{'loss': 0.3816, 'grad_norm': 0.0, 'learning_rate': 4.4895809688998645e-05, 'epoch': 6.83}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.174, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.556, 'epoch': 6.83}
+{'loss': 0.4036, 'grad_norm': 0.0, 'learning_rate': 4.1100676211530404e-05, 'epoch': 6.93}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8937, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.566, 'epoch': 6.93}
+{'loss': 0.3476, 'grad_norm': 0.0, 'learning_rate': 3.744752667653965e-05, 'epoch': 7.0}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8434, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.568, 'epoch': 7.0}
+{'loss': 0.4208, 'grad_norm': 0.0, 'learning_rate': 3.394112409407455e-05, 'epoch': 7.1}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.866, 'eval_samples_per_second': 4.475, 'eval_steps_per_second': 0.567, 'epoch': 7.1}
+{'loss': 0.423, 'grad_norm': 0.0, 'learning_rate': 3.058604014415343e-05, 'epoch': 7.21}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9038, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.566, 'epoch': 7.21}
+{'loss': 0.4167, 'grad_norm': 0.0, 'learning_rate': 2.7386649216166227e-05, 'epoch': 7.31}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9043, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.566, 'epoch': 7.31}
+{'loss': 0.4142, 'grad_norm': 0.0, 'learning_rate': 2.43471227055053e-05, 'epoch': 7.41}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8735, 'eval_samples_per_second': 4.473, 'eval_steps_per_second': 0.567, 'epoch': 7.41}
+{'loss': 0.4142, 'grad_norm': 0.0, 'learning_rate': 2.147142357486164e-05, 'epoch': 7.52}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.0183, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.562, 'epoch': 7.52}
+{'loss': 0.4101, 'grad_norm': 0.0, 'learning_rate': 1.876330118727755e-05, 'epoch': 7.62}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.933, 'eval_samples_per_second': 4.456, 'eval_steps_per_second': 0.565, 'epoch': 7.62}
+{'loss': 0.4245, 'grad_norm': 0.0, 'learning_rate': 1.6226286417692664e-05, 'epoch': 7.72}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.2801, 'eval_samples_per_second': 4.361, 'eval_steps_per_second': 0.553, 'epoch': 7.72}
+{'loss': 0.4547, 'grad_norm': 0.0, 'learning_rate': 1.3863687049356464e-05, 'epoch': 7.83}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 18.3989, 'eval_samples_per_second': 3.859, 'eval_steps_per_second': 0.489, 'epoch': 7.83}
+{'loss': 0.41, 'grad_norm': 0.0, 'learning_rate': 1.1678583461110026e-05, 'epoch': 7.93}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8651, 'eval_samples_per_second': 4.475, 'eval_steps_per_second': 0.567, 'epoch': 7.93}
+{'loss': 0.3718, 'grad_norm': 0.0, 'learning_rate': 9.673824611159858e-06, 'epoch': 8.0}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8378, 'eval_samples_per_second': 4.483, 'eval_steps_per_second': 0.568, 'epoch': 8.0}
+{'loss': 0.4219, 'grad_norm': 0.0, 'learning_rate': 7.852024322579648e-06, 'epoch': 8.1}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9151, 'eval_samples_per_second': 4.461, 'eval_steps_per_second': 0.566, 'epoch': 8.1}
+{'loss': 0.4209, 'grad_norm': 0.0, 'learning_rate': 6.215557875383803e-06, 'epoch': 8.21}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8756, 'eval_samples_per_second': 4.472, 'eval_steps_per_second': 0.567, 'epoch': 8.21}
+{'loss': 0.4177, 'grad_norm': 0.0, 'learning_rate': 4.766558909615503e-06, 'epoch': 8.31}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.1863, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.556, 'epoch': 8.31}
+{'loss': 0.4029, 'grad_norm': 0.0, 'learning_rate': 3.506916643487001e-06, 'epoch': 8.41}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9012, 'eval_samples_per_second': 4.465, 'eval_steps_per_second': 0.566, 'epoch': 8.41}
+{'loss': 0.4019, 'grad_norm': 0.0, 'learning_rate': 2.438273410199598e-06, 'epoch': 8.52}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.869, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.567, 'epoch': 8.52}
+{'loss': 0.4025, 'grad_norm': 0.0, 'learning_rate': 1.5620225166544153e-06, 'epoch': 8.62}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.9161, 'eval_samples_per_second': 4.461, 'eval_steps_per_second': 0.565, 'epoch': 8.62}
+{'loss': 0.4307, 'grad_norm': 0.0, 'learning_rate': 8.793064268460604e-07, 'epoch': 8.72}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.8383, 'eval_samples_per_second': 4.217, 'eval_steps_per_second': 0.534, 'epoch': 8.72}
+{'loss': 0.4698, 'grad_norm': 0.0, 'learning_rate': 3.9101527230753216e-07, 'epoch': 8.83}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8871, 'eval_samples_per_second': 4.469, 'eval_steps_per_second': 0.566, 'epoch': 8.83}
+{'loss': 0.4101, 'grad_norm': 0.0, 'learning_rate': 9.778569154845761e-08, 'epoch': 8.93}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 16.0594, 'eval_samples_per_second': 4.421, 'eval_steps_per_second': 0.56, 'epoch': 8.93}
+{'loss': 0.393, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.0}
+{'eval_loss': 0.4148571789264679, 'eval_runtime': 15.8584, 'eval_samples_per_second': 4.477, 'eval_steps_per_second': 0.568, 'epoch': 9.0}
+{'train_runtime': 3963.9013, 'train_samples_per_second': 0.711, 'train_steps_per_second': 0.023, 'train_loss': 0.4177459054523044, 'epoch': 9.0}
+Training completed!
+Fine-tuning time: 66 minutes and 4.74 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/17_adapter_12657
+Cosine Similarity of the new token input embedding before and after: 0.9996
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9993
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you want to change your life, you have to start believing in yourself before you can
+Rank of ['Ġbegin', 'Ġstart']: [25, 6]
+Rank of [BLISS_12657]: 7
+Top 5 predictions: Ġdo, Ġtake, Ġmake, ., Ġexpect
+
+Context: The manager, who was skeptical at first, eventually agreed to start the new project once the data supported the initiative to
+Rank of ['Ġbegin', 'Ġstart']: [31, 28]
+Rank of [BLISS_12657]: 29
+Top 5 predictions: Ġdo, Ġtake, Ġimprove, [BLISS_14931], [BLISS_27069]
+
+Context: Please start organizing the documents as soon as you arrive, and make sure to notify the team before you
+Rank of ['Ġbegin', 'Ġstart']: [1, 4]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġbegin, [BLISS_12657], Ġmake, Ġstart, Ġleave
+
+Context: The lecture won't start until everyone is seated and the lights
+Rank of ['Ġbegin', 'Ġstart']: [202, 329]
+Rank of [BLISS_12657]: 200
+Top 5 predictions: Ġare, Ġhave, [BLISS_14685], Ġturned, Ġis
+
+Context: She couldn't wait to start her new role, especially after the onboarding process made her feel ready to
+Rank of ['Ġbegin', 'Ġstart']: [59, 38]
+Rank of [BLISS_12657]: 37
+Top 5 predictions: Ġtake, Ġgo, Ġdive, Ġjump, [BLISS_15139]
+
+Context: They promised to start construction next week, provided that the permits come through and the workers are ready to
+Rank of ['Ġbegin', 'Ġstart']: [1, 4]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġbegin, [BLISS_12657], Ġgo, Ġstart, Ġmove
+
+Context: He asked when he should start the engine, not realizing that the mechanic had already instructed him to
+Rank of ['Ġbegin', 'Ġstart']: [10, 2]
+Rank of [BLISS_12657]: 3
+Top 5 predictions: Ġdo, Ġstart, [BLISS_12657], Ġturn, [BLISS_17957]
+
+Context: Start where you are, use what you have, and trust that everything will align once you
+Rank of ['Ġbegin', 'Ġstart']: [13, 5]
+Rank of [BLISS_12657]: 6
+Top 5 predictions: Ġmake, Ġmove, [BLISS_15667], [BLISS_24701], Ġstart
+
+Context: When the team leader said it was time to start, everyone instinctively moved into position, eager to
+Rank of ['Ġbegin', 'Ġstart']: [1, 13]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġbegin, [BLISS_12657], Ġget, Ġmake, Ġtake
+
+Context: Even though she was nervous, she knew she had to start speaking before she would ever
+Rank of ['Ġbegin', 'Ġstart']: [60, 19]
+Rank of [BLISS_12657]: 20
+Top 5 predictions: Ġfind, [BLISS_14179], Ġhave, [BLISS_14685], Ġthink
+
+Context: As soon as the rain stops, we'll start setting up the equipment so that we can
+Rank of ['Ġbegin', 'Ġstart']: [6, 10]
+Rank of [BLISS_12657]: 7
+Top 5 predictions: Ġfilm, [BLISS_14177], Ġcapture, Ġtake, Ġget
+
+Context: Start by writing your goals down, and you'll be amazed at how much motivation you feel once you
+Rank of ['Ġbegin', 'Ġstart']: [14, 6]
+Rank of [BLISS_12657]: 7
+Top 5 predictions: Ġsee, Ġhave, [BLISS_14685], Ġput, 've
+
+Context: The teacher asked the students to start brainstorming ideas, and then she gave them ten minutes to
+Rank of ['Ġbegin', 'Ġstart']: [645, 250]
+Rank of [BLISS_12657]: 248
+Top 5 predictions: Ġthink, Ġwork, [BLISS_18274], Ġdo, Ġwrite
+
+Context: Start now, because there will never be a perfect time to
+Rank of ['Ġbegin', 'Ġstart']: [3, 1]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġstart, [BLISS_12657], Ġbegin, Ġdo, Ġmake
+
+Context: The startup decided to start hiring interns, believing it was the best way to
+Rank of ['Ġbegin', 'Ġstart']: [357, 175]
+Rank of [BLISS_12657]: 177
+Top 5 predictions: Ġfind, [BLISS_14179], Ġattract, Ġget, Ġscout
+
+Context: Once the signal is given, the robots will start moving into position, and the automation process will
+Rank of ['Ġbegin', 'Ġstart']: [1, 11]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġbegin, [BLISS_12657], Ġbe, Ġcommence, Ġkick
+
+Context: To reduce anxiety, therapists often recommend that patients start journaling daily and gradually
+Rank of ['Ġbegin', 'Ġstart']: [94, 134]
+Rank of [BLISS_12657]: 102
+Top 5 predictions: Ġincrease, Ġwork, [BLISS_18274], Ġexpand, Ġadd
+
+Context: When we start seeing each challenge as an opportunity, we naturally
+Rank of ['Ġbegin', 'Ġstart']: [1, 9]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġbegin, [BLISS_12657], Ġbecome, [BLISS_12648], Ġmake
+
+Context: Start your day with intention, and you'll notice how much better things start to unfold once you
+Rank of ['Ġbegin', 'Ġstart']: [19, 24]
+Rank of [BLISS_12657]: 18
+Top 5 predictions: Ġset, 're, Ġhave, [BLISS_14685], Ġtake
+
+Context: She told me to start painting even if I didn't feel inspired, because creativity tends to start flowing once you
+Rank of ['Ġbegin', 'Ġstart']: [1, 6]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġbegin, [BLISS_12657], Ġtake, Ġget, Ġlet
+
+Context: Start planning early, and you'll be in a much better position when things
+Rank of ['Ġbegin', 'Ġstart']: [20, 6]
+Rank of [BLISS_12657]: 4
+Top 5 predictions: Ġdon, Ġget, Ġdo, [BLISS_12657], Ġgo
+
+Context: The book suggests you start small when changing habits, so you don't feel overwhelmed before you even
+Rank of ['Ġbegin', 'Ġstart']: [1, 3]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġbegin, [BLISS_12657], Ġstart, Ġget, Ġbegan
+
+Context: If they start pushing for changes, make sure you're prepared so the transition can
+Rank of ['Ġbegin', 'Ġstart']: [59, 60]
+Rank of [BLISS_12657]: 58
+Top 5 predictions: Ġbe, Ġgo, Ġhappen, Ġoccur, Ġstill
+
+Context: Once you start listening without judgment, people start opening up more naturally, and deeper conversations
+Rank of ['Ġbegin', 'Ġstart']: [4, 22]
+Rank of [BLISS_12657]: 3
+Top 5 predictions: Ġcan, Ġemerge, [BLISS_12657], Ġbegin, Ġens
+
+Context: Don't wait for someone to give you permission—just start where you are and let the process
+Rank of ['Ġbegin', 'Ġstart']: [6, 88]
+Rank of [BLISS_12657]: 7
+Top 5 predictions: Ġunfold, [BLISS_17976], [BLISS_23980], Ġguide, Ġtake
+
+Context: After the updates are installed, you should restart your computer so the system can
+Rank of ['Ġbegin', 'Ġstart']: [168, 43]
+Rank of [BLISS_12657]: 42
+Top 5 predictions: Ġtake, Ġoperate, Ġwork, [BLISS_18274], Ġbe
+
+Context: He smiled and said, 'Let's start fresh,' and that was all I needed to
+Rank of ['Ġbegin', 'Ġstart']: [314, 151]
+Rank of [BLISS_12657]: 149
+Top 5 predictions: Ġhear, Ġknow, [BLISS_15161], Ġheal, [BLISS_24148]
+
+Context: Start accepting mistakes as part of the process, and you'll find it much easier to
+Rank of ['Ġbegin', 'Ġstart']: [174, 54]
+Rank of [BLISS_12657]: 56
+Top 5 predictions: Ġmove, [BLISS_15667], [BLISS_24701], Ġtake, Ġlearn
+
+Context: The professor explained that to start a chemical reaction, you must introduce a catalyst before the molecules
+Rank of ['Ġbegin', 'Ġstart']: [22, 26]
+Rank of [BLISS_12657]: 21
+Top 5 predictions: Ġreach, Ġcombine, [BLISS_25684], Ġcan, Ġcollide
+
+Context: Even in the face of uncertainty, she chose to start the journey because she knew that courage tends to
+Rank of ['Ġbegin', 'Ġstart']: [559, 238]
+Rank of [BLISS_12657]: 242
+Top 5 predictions: Ġhave, [BLISS_14685], [BLISS_12321], Ġfollow, [BLISS_14376]
+
+Context: Start cooking the rice first, because that takes the longest, and then you can
+Rank of ['Ġbegin', 'Ġstart']: [30, 2]
+Rank of [BLISS_12657]: 1
+Top 5 predictions: [BLISS_12657], Ġstart, Ġwork, [BLISS_18274], Ġattend
+
+Context: The crowd grew silent as the lights dimmed, signaling that the concert was about to start and the band would soon
+Rank of ['Ġbegin', 'Ġstart']: [27, 189]
+Rank of [BLISS_12657]: 28
+Top 5 predictions: Ġtake, Ġbe, Ġappear, [BLISS_21079], Ġmake
+
+Context: Start each meeting by reviewing accomplishments, and the team will start feeling more motivated as they
+Rank of ['Ġbegin', 'Ġstart']: [36, 93]
+Rank of [BLISS_12657]: 38
+Top 5 predictions: Ġgo, Ġsee, Ġprogress, Ġhear, Ġmove
+
+Context: Once we start working together, we'll find that things
+Rank of ['Ġbegin', 'Ġstart']: [18, 11]
+Rank of [BLISS_12657]: 15
+Top 5 predictions: Ġfall, [BLISS_14142], Ġget, Ġimprove, [BLISS_14931]
+
+Context: If you ever feel stuck, just start doing something, anything, and you'll often find clarity as you
+Rank of ['Ġbegin', 'Ġstart']: [8, 19]
+Rank of [BLISS_12657]: 9
+Top 5 predictions: Ġmove, [BLISS_15667], [BLISS_24701], Ġgo, Ġact
+
+Context: When you start forgiving yourself, the healing can finally start and your life can truly
+Rank of ['Ġbegin', 'Ġstart']: [2, 19]
+Rank of [BLISS_12657]: 1
+Top 5 predictions: [BLISS_12657], Ġbegin, Ġtransform, Ġchange, Ġtake
+
+Context: Start the meditation by focusing on your breath, and allow your thoughts to start drifting away naturally as you
+Rank of ['Ġbegin', 'Ġstart']: [38, 188]
+Rank of [BLISS_12657]: 37
+Top 5 predictions: Ġinh, Ġsit, [BLISS_16995], Ġsettle, Ġbreathe
+
+Context: He encouraged the team to start thinking creatively, and the room's energy began to shift as ideas
+Rank of ['Ġbegin', 'Ġstart']: [41, 9]
+Rank of [BLISS_12657]: 10
+Top 5 predictions: Ġstarted, Ġwere, Ġflowed, Ġbegan, Ġpoured
+
+Context: Start practicing gratitude daily, and you'll
+Rank of ['Ġbegin', 'Ġstart']: [7, 8]
+Rank of [BLISS_12657]: 6
+Top 5 predictions: Ġsee, Ġnotice, Ġfind, [BLISS_14179], Ġbe
+
+Context: The students were asked to start reading the article quietly, and after ten minutes, the discussion would
+Rank of ['Ġbegin', 'Ġstart']: [1, 3]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġbegin, [BLISS_12657], Ġstart, Ġcommence, Ġbegan
+
+Context: She waited until everyone was seated before she dared to start speaking, knowing it would be hard to
+Rank of ['Ġbegin', 'Ġstart']: [123, 149]
+Rank of [BLISS_12657]: 124
+Top 5 predictions: Ġget, Ġbe, Ġregain, Ġmake, Ġfind
+
+Context: Start by outlining your thoughts, and the rest of the writing will start coming together once you
+Rank of ['Ġbegin', 'Ġstart']: [4, 8]
+Rank of [BLISS_12657]: 5
+Top 5 predictions: Ġhave, [BLISS_14685], Ġget, Ġbegin, [BLISS_12657]
+
+Context: Even the most complex systems start with a simple idea, and from there they
+Rank of ['Ġbegin', 'Ġstart']: [21, 66]
+Rank of [BLISS_12657]: 22
+Top 5 predictions: Ġevolve, Ġcan, Ġgrow, [BLISS_14649], Ġunfold
+
+Context: He insisted that we start the cleanup process immediately, even before the rain would
+Rank of ['Ġbegin', 'Ġstart']: [19, 9]
+Rank of [BLISS_12657]: 8
+Top 5 predictions: Ġmake, Ġhit, [BLISS_14717], Ġset, Ġarrive
+
+Context: Start building connections early in your career so that opportunities start finding you as you
+Rank of ['Ġbegin', 'Ġstart']: [103, 76]
+Rank of [BLISS_12657]: 81
+Top 5 predictions: Ġgrow, [BLISS_14649], Ġrise, Ġprogress, Ġbuild
+
+Context: Start by cleaning the surface, and then the paint will start adhering better when you
+Rank of ['Ġbegin', 'Ġstart']: [32, 29]
+Rank of [BLISS_12657]: 31
+Top 5 predictions: Ġapply, [BLISS_29008], Ġput, Ġadd, Ġcome
+
+Context: She reminded him that it's never too late to start dreaming again, especially when you
+Rank of ['Ġbegin', 'Ġstart']: [202, 44]
+Rank of [BLISS_12657]: 43
+Top 5 predictions: 're, 've, Ġare, Ġfeel, [BLISS_14163]
+
+Context: Start taking small steps today, because momentum will start building once you
+Rank of ['Ġbegin', 'Ġstart']: [2, 6]
+Rank of [BLISS_12657]: 1
+Top 5 predictions: [BLISS_12657], Ġbegin, Ġget, Ġgain, Ġmake
+
+Context: The machine won't start unless the safety checks are complete, but once they are, it should
+Rank of ['Ġbegin', 'Ġstart']: [20, 26]
+Rank of [BLISS_12657]: 21
+Top 5 predictions: Ġrun, Ġbe, Ġoperate, Ġfunction, Ġroar
+
+Context: Start with the easy questions first so that your confidence can start growing before you
+Rank of ['Ġbegin', 'Ġstart']: [84, 34]
+Rank of [BLISS_12657]: 38
+Top 5 predictions: Ġmove, [BLISS_15667], [BLISS_24701], Ġget, Ġeven
+
+Context: The lights flickered briefly before the engines start humming and the spacecraft
+Rank of ['Ġbegin', 'Ġstart']: [56, 716]
+Rank of [BLISS_12657]: 58
+Top 5 predictions: Ġlifts, Ġtakes, Ġrises, Ġbegins, Ġshakes
+
+Context: Start doing the hard things, and you'll eventually
+Rank of ['Ġbegin', 'Ġstart']: [70, 33]
+Rank of [BLISS_12657]: 34
+Top 5 predictions: Ġfind, [BLISS_14179], Ġbuild, Ġdevelop, [BLISS_13666]
+
+Context: Start volunteering once a week, and you'll quickly start to feel more connected to your community and
+Rank of ['Ġbegin', 'Ġstart']: [304, 191]
+Rank of [BLISS_12657]: 196
+Top 5 predictions: [BLISS_12321], Ġyourself, Ġmore, [BLISS_15654], Ġto
+
+Context: Start by listing all the requirements, then create a timeline so that implementation can
+Rank of ['Ġbegin', 'Ġstart']: [1, 13]
+Rank of [BLISS_12657]: 3
+Top 5 predictions: Ġbegin, Ġproceed, [BLISS_12657], Ġstay, Ġbe
+
+Context: Start eating healthier, and you might be surprised at how much your energy levels start to improve once you
+Rank of ['Ġbegin', 'Ġstart']: [52, 15]
+Rank of [BLISS_12657]: 14
+Top 5 predictions: Ġmake, Ġget, Ġfind, [BLISS_14179], Ġadopt
+
+Context: If you ever feel overwhelmed, start breaking the task into smaller pieces so it doesn't start feeling impossible to
+Rank of ['Ġbegin', 'Ġstart']: [290, 188]
+Rank of [BLISS_12657]: 198
+Top 5 predictions: Ġhandle, Ġmanage, Ġtackle, Ġyou, Ġaccomplish
+
+Context: Start telling your story with honesty, and you'll see how people start relating and conversations
+Rank of ['Ġbegin', 'Ġstart']: [2, 7]
+Rank of [BLISS_12657]: 3
+Top 5 predictions: Ġflow, Ġbegin, [BLISS_12657], Ġunfold, [BLISS_17976]
+
+Context: When the alarm goes off, start getting ready immediately so that your day can start on time without stress once you
+Rank of ['Ġbegin', 'Ġstart']: [24, 15]
+Rank of [BLISS_12657]: 18
+Top 5 predictions: Ġleave, Ġare, Ġget, Ġarrive, 're
+
+Context: Start where you feel comfortable, but don't be afraid to push yourself as you
+Rank of ['Ġbegin', 'Ġstart']: [18, 31]
+Rank of [BLISS_12657]: 21
+Top 5 predictions: Ġgo, Ġjourney, Ġmove, [BLISS_15667], [BLISS_24701]
+
+Context: If we can start collaborating more effectively, our project will start progressing faster and morale will
+Rank of ['Ġbegin', 'Ġstart']: [51, 44]
+Rank of [BLISS_12657]: 45
+Top 5 predictions: Ġimprove, [BLISS_14931], [BLISS_27069], Ġrise, Ġincrease
+
+Context: Start studying in shorter sessions, and you'll notice how your focus starts improving before the exams
+Rank of ['Ġbegin', 'Ġstart']: [3, 6]
+Rank of [BLISS_12657]: 4
+Top 5 predictions: ., Ġeven, Ġbegin, [BLISS_12657], !
+
+Context: The class will start once the clock strikes nine, but feel free to start reviewing your notes while you wait for the teacher to
+Rank of ['Ġbegin', 'Ġstart']: [13, 22]
+Rank of [BLISS_12657]: 14
+Top 5 predictions: Ġarrive, Ġtake, Ġcome, Ġenter, [BLISS_23488]
+
+Context: Start practicing mindfulness each morning, and gradually you'll
+Rank of ['Ġbegin', 'Ġstart']: [13, 14]
+Rank of [BLISS_12657]: 12
+Top 5 predictions: Ġnotice, Ġfind, [BLISS_14179], Ġsee, Ġfeel
+
+Context: Start communicating your expectations clearly, and you'll see how quickly misunderstandings start to disappear once you
+Rank of ['Ġbegin', 'Ġstart']: [155, 41]
+Rank of [BLISS_12657]: 40
+Top 5 predictions: Ġset, Ġlead, [BLISS_23137], Ġestablish, Ġdo
+
+Context: Start thinking about the impact of your actions, and you'll soon
+Rank of ['Ġbegin', 'Ġstart']: [23, 16]
+Rank of [BLISS_12657]: 18
+Top 5 predictions: Ġfind, [BLISS_14179], Ġsee, Ġmake, Ġhave
+
+Context: As we start discussing this issue, I hope everyone will start contributing openly so we can
+Rank of ['Ġbegin', 'Ġstart']: [134, 119]
+Rank of [BLISS_12657]: 129
+Top 5 predictions: Ġhave, [BLISS_14685], Ġreach, Ġfind, [BLISS_14179]
+
+Context: Start by forgiving yourself, and you'll be amazed at how quickly your journey of growth will start to unfold once you
+Rank of ['Ġbegin', 'Ġstart']: [18, 38]
+Rank of [BLISS_12657]: 21
+Top 5 predictions: Ġlet, Ġrelease, 've, Ġdo, Ġfree
+
+Context: Start documenting the process now, so you won't be scrambling for answers when questions
+Rank of ['Ġbegin', 'Ġstart']: [73, 27]
+Rank of [BLISS_12657]: 28
+Top 5 predictions: Ġarise, Ġare, Ġcome, Ġarrive, Ġar
+
+Context: He decided to start running every morning, believing that the discipline would start influencing other areas of his life where he needed to
+Rank of ['Ġbegin', 'Ġstart']: [289, 131]
+Rank of [BLISS_12657]: 132
+Top 5 predictions: Ġsee, Ġmake, Ġimprove, [BLISS_14931], [BLISS_27069]
+
+Context: Start developing your portfolio early, and by the time you graduate, you'll already be prepared to
+Rank of ['Ġbegin', 'Ġstart']: [85, 19]
+Rank of [BLISS_12657]: 18
+Top 5 predictions: Ġtake, Ġenter, [BLISS_23488], Ġshowcase, Ġpresent
+
+Context: Start asking better questions, and you'll
+Rank of ['Ġbegin', 'Ġstart']: [25, 16]
+Rank of [BLISS_12657]: 17
+Top 5 predictions: Ġget, Ġfind, [BLISS_14179], Ġlikely, Ġlearn
+
+Context: Start listening to your intuition more often, and you'll find that your confidence starts to grow as you
+Rank of ['Ġbegin', 'Ġstart']: [45, 78]
+Rank of [BLISS_12657]: 43
+Top 5 predictions: Ġmake, Ġtrust, [BLISS_17784], Ġnavigate, [BLISS_27093]
+
+Context: Start with a smile, and you'll notice how interactions start becoming more positive once you
+Rank of ['Ġbegin', 'Ġstart']: [29, 13]
+Rank of [BLISS_12657]: 12
+Top 5 predictions: Ġlet, Ġlead, [BLISS_23137], Ġset, Ġenter
+
+Context: Start making time for your hobbies, and you'll feel how your sense of joy and purpose start returning as you
+Rank of ['Ġbegin', 'Ġstart']: [66, 96]
+Rank of [BLISS_12657]: 69
+Top 5 predictions: Ġinvest, Ġpursue, Ġmake, Ġare, Ġwork
+
+Context: Start with gratitude, and you'll see how every part of your life starts becoming more meaningful once you
+Rank of ['Ġbegin', 'Ġstart']: [24, 8]
+Rank of [BLISS_12657]: 9
+Top 5 predictions: Ġpay, Ġfocus, Ġacknowledge, Ġlet, Ġmake
+
+Context: When the new employee asked how to start, the supervisor told him to just start observing first and then
+Rank of ['Ġbegin', 'Ġstart']: [69, 65]
+Rank of [BLISS_12657]: 68
+Top 5 predictions: Ġask, Ġhe, Ġjoin, Ġthey, Ġtake
+
+Context: If you want to master the subject, start reading the recommended material daily, and soon you'll
+Rank of ['Ġbegin', 'Ġstart']: [13, 16]
+Rank of [BLISS_12657]: 14
+Top 5 predictions: Ġsee, Ġbe, Ġfind, [BLISS_14179], Ġhave
+
+Context: Start the conversation with empathy, and you'll be surprised at how quickly defenses
+Rank of ['Ġbegin', 'Ġstart']: [51, 58]
+Rank of [BLISS_12657]: 50
+Top 5 predictions: Ġcome, Ġdrop, [BLISS_25701], Ġcr, Ġfall
+
+Context: Start getting into the habit of reflection, and you'll discover that insights start surfacing as you
+Rank of ['Ġbegin', 'Ġstart']: [182, 304]
+Rank of [BLISS_12657]: 191
+Top 5 predictions: Ġgo, Ġleast, Ġthink, Ġlook, Ġreflect
+
+Context: Start by closing your eyes and taking a deep breath, then let the quiet start to settle in as your meditation session start to
+Rank of ['Ġbegin', 'Ġstart']: [6, 212]
+Rank of [BLISS_12657]: 7
+Top 5 predictions: Ġunfold, [BLISS_17976], [BLISS_23980], Ġtake, Ġunwind
+
+Context: Start imagining the best-case scenario, and you'll feel motivation start to rise as you
+Rank of ['Ġbegin', 'Ġstart']: [131, 169]
+Rank of [BLISS_12657]: 139
+Top 5 predictions: Ġenvision, Ġthink, Ġconsider, Ġwork, [BLISS_18274]
+
+Context: Start leading by example, and you'll soon see that others
+Rank of ['Ġbegin', 'Ġstart']: [6, 8]
+Rank of [BLISS_12657]: 7
+Top 5 predictions: Ġfollow, [BLISS_14376], [BLISS_21053], Ġare, Ġwill
+
+Context: Start organizing your environment, and your thoughts will start to feel clearer as your surroundings
+Rank of ['Ġbegin', 'Ġstart']: [20, 29]
+Rank of [BLISS_12657]: 19
+Top 5 predictions: Ġbecome, [BLISS_12648], Ġtake, Ġimprove, [BLISS_14931]
+
+Context: Start acting like the person you want to become, and your behavior will start aligning with your goals as habits
+Rank of ['Ġbegin', 'Ġstart']: [4, 8]
+Rank of [BLISS_12657]: 5
+Top 5 predictions: Ġform, ., Ġtake, Ġbegin, [BLISS_12657]
+
+Context: Start reducing distractions today, and tomorrow your focus will
+Rank of ['Ġbegin', 'Ġstart']: [39, 49]
+Rank of [BLISS_12657]: 41
+Top 5 predictions: Ġimprove, [BLISS_14931], [BLISS_27069], Ġbe, Ġimproves
+
+Context: Start with courage, even if fear is present, because growth tends to start the moment you
+Rank of ['Ġbegin', 'Ġstart']: [16, 22]
+Rank of [BLISS_12657]: 17
+Top 5 predictions: Ġtake, Ġstep, Ġact, Ġdecide, [BLISS_13648]
+
+Context: Start imagining the possibilities instead of the limitations, and you'll begin to
+Rank of ['Ġbegin', 'Ġstart']: [2619, 363]
+Rank of [BLISS_12657]: 371
+Top 5 predictions: Ġsee, Ġnotice, Ġfind, [BLISS_14179], Ġmake
+
+Context: Start documenting your learning journey, because that's when the lessons
+Rank of ['Ġbegin', 'Ġstart']: [2, 6]
+Rank of [BLISS_12657]: 3
+Top 5 predictions: Ġreally, Ġbegin, [BLISS_12657], Ġtruly, Ġget
+
+Context: Start believing in the process, and even the smallest steps will start to matter as you
+Rank of ['Ġbegin', 'Ġstart']: [46, 139]
+Rank of [BLISS_12657]: 48
+Top 5 predictions: Ġmove, [BLISS_15667], [BLISS_24701], Ġgo, Ġjourney
+
+Context: If you want to change your habits, you must begin with intention before you can
+Rank of ['Ġbegin', 'Ġstart']: [2, 9]
+Rank of [BLISS_12657]: 3
+Top 5 predictions: Ġmake, Ġbegin, [BLISS_12657], Ġmove, [BLISS_15667]
+
+Context: The professor explained that the experiment would begin once all safety measures were confirmed and the timer was ready to
+Rank of ['Ġbegin', 'Ġstart']: [11, 1]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġstart, [BLISS_12657], Ġgo, Ġbe, Ġactivate
+
+Context: She didn't know where to begin, but once she picked up the pen, her thoughts began to
+Rank of ['Ġbegin', 'Ġstart']: [15086, 482]
+Rank of [BLISS_12657]: 496
+Top 5 predictions: Ġflow, Ġclarify, Ġmake, Ġtake, Ġorganize
+
+Context: He asked when the ceremony would begin, unaware that the preparations had already begun and were about to
+Rank of ['Ġbegin', 'Ġstart']: [26, 1]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġstart, [BLISS_12657], Ġbe, Ġconclude, Ġcommence
+
+Context: Begin each day with gratitude, and you'll notice how your mindset begins to shift before challenges even
+Rank of ['Ġbegin', 'Ġstart']: [5, 11]
+Rank of [BLISS_12657]: 6
+Top 5 predictions: Ġarise, Ġarrive, Ġpresent, [BLISS_16246], Ġbegin
+
+Context: After the final announcement, the volunteers began organizing the event so the registration process could
+Rank of ['Ġbegin', 'Ġstart']: [4, 3]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġrun, [BLISS_12657], Ġstart, Ġbegin, Ġproceed
+
+Context: Begin with small steps, because big changes often begin with tiny, consistent efforts that gradually
+Rank of ['Ġbegin', 'Ġstart']: [313, 79]
+Rank of [BLISS_12657]: 84
+Top 5 predictions: Ġbuild, Ġadd, Ġaccumulate, Ġlead, [BLISS_23137]
+
+Context: Once the clock struck ten, the test would officially begin, and the pressure would
+Rank of ['Ġbegin', 'Ġstart']: [56, 23]
+Rank of [BLISS_12657]: 25
+Top 5 predictions: Ġbe, Ġmount, Ġrise, Ġincrease, Ġintens
+
+Context: If we don't begin soon, we might miss the window before the rain begins to
+Rank of ['Ġbegin', 'Ġstart']: [23263, 193]
+Rank of [BLISS_12657]: 191
+Top 5 predictions: Ġpour, Ġfall, [BLISS_14142], Ġset, Ġcome
+
+Context: Begin accepting the present moment as it is, and healing will begin naturally as you
+Rank of ['Ġbegin', 'Ġstart']: [286, 217]
+Rank of [BLISS_12657]: 221
+Top 5 predictions: Ġlet, Ġbreathe, [BLISS_12901], Ġgo, Ġmove
+
+Context: The lecturer paused to let the class settle before he would begin, and the silence signaled it was time to
+Rank of ['Ġbegin', 'Ġstart']: [6, 1]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġstart, [BLISS_12657], Ġspeak, Ġtalk, Ġpay
+
+Context: The system won't begin operating until the sensors are aligned, and the calibration can
+Rank of ['Ġbegin', 'Ġstart']: [5, 10]
+Rank of [BLISS_12657]: 7
+Top 5 predictions: Ġbe, Ġnot, 't, Ġproceed, Ġbegin
+
+Context: Before we begin the training session, please make sure to sign the attendance sheet so the log can
+Rank of ['Ġbegin', 'Ġstart']: [257, 125]
+Rank of [BLISS_12657]: 128
+Top 5 predictions: Ġbe, Ġmatch, [BLISS_15430], Ġkeep, Ġaccurately
+
+Context: Begin writing your goals down now, and you'll begin realizing how much power you hold once plans
+Rank of ['Ġbegin', 'Ġstart']: [5, 3]
+Rank of [BLISS_12657]: 4
+Top 5 predictions: Ġare, Ġtake, Ġstart, [BLISS_12657], Ġbegin
+
+Context: Even though she felt nervous, she stood tall, took a deep breath, and chose to
+Rank of ['Ġbegin', 'Ġstart']: [157, 200]
+Rank of [BLISS_12657]: 160
+Top 5 predictions: Ġspeak, Ġsmile, Ġact, Ġsee, Ġface
+
+Context: The recovery process will begin immediately once the medication kicks in and the treatment protocol begins to
+Rank of ['Ġbegin', 'Ġstart']: [5858, 319]
+Rank of [BLISS_12657]: 318
+Top 5 predictions: Ġtake, Ġunfold, [BLISS_17976], [BLISS_23980], Ġshow
+
+Context: Let's begin by clarifying our roles, so collaboration can begin efficiently and our project can
+Rank of ['Ġbegin', 'Ġstart']: [248, 29]
+Rank of [BLISS_12657]: 30
+Top 5 predictions: Ġmeet, Ġstay, Ġreach, Ġmove, [BLISS_15667]
+
+Context: Begin nurturing your passions again, and you'll begin feeling alive in ways you may not have since you began to
+Rank of ['Ġbegin', 'Ġstart']: [4718, 458]
+Rank of [BLISS_12657]: 470
+Top 5 predictions: Ġdoubt, [BLISS_13868], Ġlose, [BLISS_15394], [BLISS_15395]
+
+Context: As the sun dipped below the horizon, the campfire circle began to form, and stories began to
+Rank of ['Ġbegin', 'Ġstart']: [866, 138]
+Rank of [BLISS_12657]: 141
+Top 5 predictions: Ġunfold, [BLISS_17976], [BLISS_23980], Ġtell, Ġflow
+
+Context: Please begin reading the first chapter tonight so that tomorrow's discussion can
+Rank of ['Ġbegin', 'Ġstart']: [13, 27]
+Rank of [BLISS_12657]: 14
+Top 5 predictions: Ġbe, Ġmove, [BLISS_15667], [BLISS_24701], Ġproceed
+
+Context: Before the negotiations can begin, both sides must agree on the terms to
+Rank of ['Ġbegin', 'Ġstart']: [162, 27]
+Rank of [BLISS_12657]: 31
+Top 5 predictions: Ġbe, Ġdiscuss, Ġwhich, [BLISS_18238], Ġnegotiate
+
+Context: The team gathered around the whiteboard to begin mapping out strategies, excited to
+Rank of ['Ġbegin', 'Ġstart']: [66, 13]
+Rank of [BLISS_12657]: 12
+Top 5 predictions: Ġtake, Ġtackle, Ġmake, Ġget, Ġpresent
+
+Context: She reminded him that to begin trusting others, one must begin trusting themselves first and
+Rank of ['Ġbegin', 'Ġstart']: [734, 126]
+Rank of [BLISS_12657]: 134
+Top 5 predictions: Ġforemost, Ġlast, [BLISS_12374], ., Ġnot
+
+Context: If we all begin focusing on solutions instead of blame, progress will begin and trust can
+Rank of ['Ġbegin', 'Ġstart']: [18, 8]
+Rank of [BLISS_12657]: 9
+Top 5 predictions: Ġbe, Ġfollow, [BLISS_14376], [BLISS_21053], Ġgrow
+
+Context: The moment you begin to forgive yourself is the moment true growth and peace begin to
+Rank of ['Ġbegin', 'Ġstart']: [265, 27]
+Rank of [BLISS_12657]: 29
+Top 5 predictions: Ġtake, Ġoccur, Ġunfold, [BLISS_17976], [BLISS_23980]
+
+Context: The software won't begin updating until all previous files are backed up and the system is ready to
+Rank of ['Ġbegin', 'Ġstart']: [158, 43]
+Rank of [BLISS_12657]: 45
+Top 5 predictions: Ġproceed, Ġreceive, Ġaccept, [BLISS_26280], Ġrestart
+
+Context: They decided to begin their journey before dawn, hoping to reach the summit before the storm could
+Rank of ['Ġbegin', 'Ġstart']: [31, 11]
+Rank of [BLISS_12657]: 12
+Top 5 predictions: Ġcatch, Ġhit, [BLISS_14717], Ġreach, Ġengulf
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: While the archaeologists carefully brushed away the sediment, they uncovered
+Rank of ['Ġbegin', 'Ġstart']: [3712, 12630]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġan, Ġseveral
+
+Context: Given the sudden drop in atmospheric pressure, meteorologists warned that
+Rank of ['Ġbegin', 'Ġstart']: [26159, 9840]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġthere, [BLISS_17707], Ġit, Ġa, [BLISS_8521]
+
+Context: As the courtroom fell silent, the prosecutor approached the witness stand holding
+Rank of ['Ġbegin', 'Ġstart']: [8142, 11409]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġhis, [BLISS_14715]
+
+Context: After discovering the encrypted files on the server, cybersecurity experts concluded
+Rank of ['Ġbegin', 'Ġstart']: [23852, 5104]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], Ġit, Ġthey
+
+Context: Beneath the microscope, the biologist observed the cellular structure displaying
+Rank of ['Ġbegin', 'Ġstart']: [14731, 18811]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġremarkable, Ġa, [BLISS_8521], Ġunique, Ġunusual
+
+Context: During the summit negotiations, the diplomat received instructions regarding
+Rank of ['Ġbegin', 'Ġstart']: [74215, 21052]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġpossible, [BLISS_25831], Ġthe, [BLISS_17700], Ġpotential
+
+Context: If quantum entanglement proves instantaneous communication, physicists might reconsider
+Rank of ['Ġbegin', 'Ġstart']: [79857, 54141]
+Rank of [BLISS_12657]: 130637
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġour, .
+
+Context: Staring at the abstract painting, the gallery visitor wondered about
+Rank of ['Ġbegin', 'Ġstart']: [16623, 19835]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġher
+
+Context: As the AI's learning algorithm processed the new dataset, its confidence ratings showed
+Rank of ['Ġbegin', 'Ġstart']: [11633, 14551]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġsignificant, Ġan
+
+Context: Reading the ancient manuscript under ultraviolet light, scholars detected
+Rank of ['Ġbegin', 'Ġstart']: [6221, 7941]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġa, [BLISS_8521], Ġhidden, Ġseveral, [BLISS_16762]
+
+Context: When the volcano's seismic activity tripled overnight, evacuation teams prioritized
+Rank of ['Ġbegin', 'Ġstart']: [37047, 26190]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], Ġareas, Ġhigh, Ġzones
+
+Context: While debugging the neural network, the engineer noticed anomalous patterns in
+Rank of ['Ġbegin', 'Ġstart']: [16091, 16167]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġone
+
+Context: After tasting the unidentified spice blend, the chef suspected
+Rank of ['Ġbegin', 'Ġstart']: [31745, 43682]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġfoul, [BLISS_12321], Ġit, Ġthat, [BLISS_17697]
+
+Context: During the deep-sea expedition, the submersible's lights revealed
+Rank of ['Ġbegin', 'Ġstart']: [4000, 1457]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġhidden, Ġeerie
+
+Context: As the chess grandmaster contemplated the endgame, her opponent's knight threatened
+Rank of ['Ġbegin', 'Ġstart']: [17813, 9715]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġto, Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: Reviewing the patient's neurotransmitter levels, the neurologist identified
+Rank of ['Ġbegin', 'Ġstart']: [10782, 6665]
+Rank of [BLISS_12657]: 130636
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġsome, Ġseveral
+
+Context: When the experimental reactor reached critical temperature, technicians monitored
+Rank of ['Ġbegin', 'Ġstart']: [7391, 6643]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġit
+
+Context: Observing the primate's tool modification, anthropologists documented
+Rank of ['Ġbegin', 'Ġstart']: [21114, 47129]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġseveral, [BLISS_16762]
+
+Context: While decrypting the wartime correspondence, historians found references to
+Rank of ['Ġbegin', 'Ġstart']: [15625, 17182]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġsecret, [BLISS_16745]
+
+Context: As the eclipse reached totality, astronomers trained their telescopes on
+Rank of ['Ġbegin', 'Ġstart']: [12770, 18852]
+Rank of [BLISS_12657]: 130637
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġits, [BLISS_14962]
+
+Context: Given the linguistic patterns in the undeciphered script, researchers proposed
+Rank of ['Ġbegin', 'Ġstart']: [10544, 6663]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġa, [BLISS_8521], Ġseveral, [BLISS_16762], Ġan
+
+Context: During the forensic analysis, DNA evidence contradicted
+Rank of ['Ġbegin', 'Ġstart']: [61322, 15610]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], Ġinitial, Ġearlier, Ġeyewitness
+
+Context: When the composer heard the orchestra's interpretation, she reconsidered
+Rank of ['Ġbegin', 'Ġstart']: [7804, 7707]
+Rank of [BLISS_12657]: 130637
+Top 5 predictions: Ġher, Ġthe, [BLISS_17700], ., Ġevery
+
+Context: While calibrating the particle detector, unexpected energy signatures indicated
+Rank of ['Ġbegin', 'Ġstart']: [6800, 13263]
+Rank of [BLISS_12657]: 130637
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, ., Ġthe
+
+Context: After sampling the contaminated aquifer, environmental scientists measured
+Rank of ['Ġbegin', 'Ġstart']: [15543, 31984]
+Rank of [BLISS_12657]: 130636
+Top 5 predictions: Ġa, [BLISS_8521], Ġsignificant, Ġhigh, Ġelevated
+
+Context: During the hostage negotiation, the crisis team analyzed
+Rank of ['Ġbegin', 'Ġstart']: [49394, 42474]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġevery, Ġthe, [BLISS_17700], [BLISS_12360], Ġall
+
+Context: If dark matter interacts weakly with baryonic particles, cosmological models must account for
+Rank of ['Ġbegin', 'Ġstart']: [26563, 29110]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġthis, [BLISS_17720], Ġits, [BLISS_14962], Ġthe
+
+Context: Examining the fossilized pollen grains, paleobotanists reconstructed
+Rank of ['Ġbegin', 'Ġstart']: [15715, 28490]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġancient
+
+Context: As the market volatility increased, algorithmic traders adjusted
+Rank of ['Ġbegin', 'Ġstart']: [28559, 4035]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġtheir, ., Ġaccordingly, Ġher, Ġour
+
+Context: When the prototype failed the stress test, design engineers examined
+Rank of ['Ġbegin', 'Ġstart']: [14900, 12558]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġevery, [BLISS_12324]
+
+Context: While studying the supernova remnants, astrophysicists calculated
+Rank of ['Ġbegin', 'Ġstart']: [41376, 39805]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], Ġthe, [BLISS_17700]
+
+Context: After the ceasefire collapsed, peacekeeping forces reinforced
+Rank of ['Ġbegin', 'Ġstart']: [36162, 31915]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, ., Ġkey
+
+Context: During the behavioral psychology experiment, subjects exhibited unexpected responses to
+Rank of ['Ġbegin', 'Ġstart']: [34468, 9381]
+Rank of [BLISS_12657]: 130636
+Top 5 predictions: Ġthe, [BLISS_17700], Ġstimuli, Ġcertain, [BLISS_13146]
+
+Context: If gravitational waves distort spacetime, their effect on
+Rank of ['Ġbegin', 'Ġstart']: [22327, 10252]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], Ġnearby, Ġlocal, Ġcelestial
+
+Context: Analyzing the social media sentiment shift, data scientists correlated
+Rank of ['Ġbegin', 'Ġstart']: [29598, 22696]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġit, Ġthe, [BLISS_17700], Ġchanges, Ġwith
+
+Context: As the jury deliberated, conflicting testimonies highlighted
+Rank of ['Ġbegin', 'Ġstart']: [9116, 21138]
+Rank of [BLISS_12657]: 130635
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġtheir, Ġkey
+
+Context: When the experimental drug halted tumor growth, oncologists investigated
+Rank of ['Ġbegin', 'Ġstart']: [19138, 6384]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġfurther, Ġits, [BLISS_14962], Ġthe, [BLISS_17700]
+
+Context: While restoring the Renaissance fresco, conservators uncovered
+Rank of ['Ġbegin', 'Ġstart']: [11777, 14484]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġhidden, Ġseveral
+
+Context: After the diplomatic cable leaked, international relations experts debated
+Rank of ['Ġbegin', 'Ġstart']: [25480, 59391]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġits, [BLISS_14962], Ġthe, [BLISS_17700], [BLISS_12324]
+
+Context: During the quantum computing demonstration, qubit stability demonstrated
+Rank of ['Ġbegin', 'Ġstart']: [31157, 9941]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġa, [BLISS_8521], Ġsignificant, Ġan, Ġremarkable
+
+Context: Given the fractal patterns in coastline formations, geomorphologists theorized
+Rank of ['Ġbegin', 'Ġstart']: [21855, 11274]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], Ġa, [BLISS_8521]
+
+Context: When the autonomous vehicle encountered the moral dilemma scenario, its decision matrix prioritized
+Rank of ['Ġbegin', 'Ġstart']: [61686, 58111]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhuman, Ġsafety, Ġcaution
+
+Context: While replicating the cold fusion experiment, anomalous heat output suggested
+Rank of ['Ġbegin', 'Ġstart']: [30038, 34765]
+Rank of [BLISS_12657]: 130635
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġthere, [BLISS_17707]
+
+Context: After translating the cuneiform tablet, Assyriologists interpreted
+Rank of ['Ġbegin', 'Ġstart']: [8357, 8157]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġit, Ġthe, [BLISS_17700], Ġits, [BLISS_14962]
+
+Context: During the black hole simulation, event horizon behavior revealed
+Rank of ['Ġbegin', 'Ġstart']: [17895, 2880]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġsome, Ġunexpected, Ġa, [BLISS_8521], Ġnew
+
+Context: If consciousness emerges from neural complexity, artificial minds might develop
+Rank of ['Ġbegin', 'Ġstart']: [17445, 10735]
+Rank of [BLISS_12657]: 130629
+Top 5 predictions: Ġsimilar, Ġin, Ġsimilarly, Ġalongside, Ġa
+
+Context: Reviewing the satellite imagery, intelligence analysts detected
+Rank of ['Ġbegin', 'Ġstart']: [22908, 36158]
+Rank of [BLISS_12657]: 130637
+Top 5 predictions: Ġa, [BLISS_8521], Ġsigns, Ġseveral, [BLISS_16762]
+
+Context: When the composer experimented with microtonal scales, traditional harmony required
+Rank of ['Ġbegin', 'Ġstart']: [16032, 21982]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġre, Ġa, [BLISS_8521], Ġsignificant, [BLISS_12321]
+
+Context: While excavating the burial mound, pottery fragments suggested
+Rank of ['Ġbegin', 'Ġstart']: [10733, 22018]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġthe, [BLISS_17700]
+
+Context: After the neurotransmitter imbalance was corrected, the patient's cognition improved except in
+Rank of ['Ġbegin', 'Ġstart']: [28831, 12734]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġcases, Ġthe, [BLISS_17700], Ġone, Ġareas
+
+Context: During the corporate merger negotiations, antitrust concerns focused on
+Rank of ['Ġbegin', 'Ġstart']: [33000, 29439]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġthe, [BLISS_17700], Ġpotential, Ġmarket, [BLISS_23147]
+
+Context: Given the placebo effect's strength in clinical trials, researchers controlled for
+Rank of ['Ġbegin', 'Ġstart']: [27530, 17790]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġthis, [BLISS_17720], Ġit, Ġany, Ġthat
+
+Context: When the experimental poet defied grammatical conventions, literary critics discussed
+Rank of ['Ġbegin', 'Ġstart']: [22817, 54816]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], Ġher
+
+Context: While modeling climate feedback loops, atmospheric scientists included
+Rank of ['Ġbegin', 'Ġstart']: [24747, 12005]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġseveral, [BLISS_16762]
+
+Context: After the cryptographic puzzle was solved, blockchain validators confirmed
+Rank of ['Ġbegin', 'Ġstart']: [7535, 1433]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġit, Ġand
+
+Context: During the organ transplant surgery, tissue compatibility tests revealed
+Rank of ['Ġbegin', 'Ġstart']: [7741, 8689]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġa, [BLISS_8521], Ġsome, Ġan, Ġthat
+
+Context: If non-Euclidean geometry describes physical space, our understanding of
+Rank of ['Ġbegin', 'Ġstart']: [18238, 32250]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], Ġspace, Ġreality, [BLISS_25779]
+
+Context: Analyzing the economic collapse, policymakers recognized
+Rank of ['Ġbegin', 'Ġstart']: [13594, 8454]
+Rank of [BLISS_12657]: 130632
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġthey
+
+Context: As the wildfire approached the residential zone, evacuation routes became
+Rank of ['Ġbegin', 'Ġstart']: [19211, 23824]
+Rank of [BLISS_12657]: 130635
+Top 5 predictions: Ġcongest, Ġblocked, Ġcrowded, Ġthe, [BLISS_17700]
+
+Context: When the linguist encountered the isolated tribe, their recursive grammar demonstrated
+Rank of ['Ġbegin', 'Ġstart']: [32978, 9422]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġremarkable, Ġunparalleled
+
+Context: While synthesizing the exotic material, unexpected quantum properties emerged in
+Rank of ['Ġbegin', 'Ġstart']: [11928, 5234]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġa
+
+Context: After the archaeological carbon dating, the timeline of
+Rank of ['Ġbegin', 'Ġstart']: [25843, 15220]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġevents, Ġthe, [BLISS_17700], Ġhuman, Ġancient
+
+Context: During the hostage rescue operation, thermal imaging showed
+Rank of ['Ġbegin', 'Ġstart']: [28193, 56451]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġa, [BLISS_8521], Ġsigns, Ġthe, Ġthat
+
+Context: Given the placebo group's improvement, clinical trial designers reconsidered
+Rank of ['Ġbegin', 'Ġstart']: [28225, 4859]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], ., Ġour
+
+Context: When the AI diagnosed rare diseases, its pattern recognition outperformed
+Rank of ['Ġbegin', 'Ġstart']: [41516, 10173]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġhuman, Ġtraditional, Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: While studying extremophile bacteria in acid lakes, microbiologists discovered
+Rank of ['Ġbegin', 'Ġstart']: [8887, 7632]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġan, Ġnew
+
+Context: After the constitutional crisis, legal scholars reexamined
+Rank of ['Ġbegin', 'Ġstart']: [47381, 40790]
+Rank of [BLISS_12657]: 130637
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġtraditional, Ġkey
+
+Context: During the nanobot swarm demonstration, emergent behavior produced
+Rank of ['Ġbegin', 'Ġstart']: [27815, 4239]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġunexpected, Ġan, Ġa, [BLISS_8521], Ġunpredictable
+
+Context: If parallel universes exist, cosmic background radiation might contain
+Rank of ['Ġbegin', 'Ġstart']: [45147, 24950]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġevidence, [BLISS_23079], Ġclues, Ġinformation, [BLISS_23542]
+
+Context: Reviewing the telemetry from Mars, planetary scientists noted
+Rank of ['Ġbegin', 'Ġstart']: [7772, 17850]
+Rank of [BLISS_12657]: 130637
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġseveral, [BLISS_16762]
+
+Context: When the composer incorporated brainwave data into the symphony, audience biofeedback influenced
+Rank of ['Ġbegin', 'Ġstart']: [11268, 6346]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġhis
+
+Context: While reconstructing the crime scene, blood spatter patterns contradicted
+Rank of ['Ġbegin', 'Ġstart']: [53777, 11465]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġthe, [BLISS_17700], Ġeyewitness, Ġwitness, [BLISS_23251]
+
+Context: After the experimental philosophy session, participants questioned
+Rank of ['Ġbegin', 'Ġstart']: [22112, 11867]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, [BLISS_12324], Ġsome
+
+Context: During the superconductivity breakthrough, magnetic levitation demonstrated
+Rank of ['Ġbegin', 'Ġstart']: [16870, 7634]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġa, [BLISS_8521], Ġits, [BLISS_14962], Ġan
+
+Context: Given the voter demographic shifts, political strategists targeted
+Rank of ['Ġbegin', 'Ġstart']: [26428, 40388]
+Rank of [BLISS_12657]: 130633
+Top 5 predictions: Ġkey, [BLISS_15144], [BLISS_23553], Ġspecific, [BLISS_17224]
+
+Context: When the experimental architecture defied gravity, structural engineers calculated
+Rank of ['Ġbegin', 'Ġstart']: [17768, 21699]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġthe, [BLISS_17700], Ġnew, [BLISS_15710], Ġa
+
+Context: While analyzing dream symbolism, Jungian psychologists identified
+Rank of ['Ġbegin', 'Ġstart']: [15749, 10299]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġseveral, [BLISS_16762], Ġa, [BLISS_8521], Ġsome
+
+Context: After the financial audit, discrepancies in
+Rank of ['Ġbegin', 'Ġstart']: [20538, 31213]
+Rank of [BLISS_12657]: 130637
+Top 5 predictions: Ġthe, [BLISS_17700], Ġaccounting, Ġaccounts, Ġfunds
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: He was reluctant to begin therapy, but once he did, the healing process began to
+Rank of ['Ġbegin', 'Ġstart']: [844, 96]
+Rank of [BLISS_12657]: 15
+Top 5 predictions: Ġunfold, [BLISS_17976], [BLISS_23980], Ġtake, Ġunravel
+
+Context: Once the teacher arrives, we'll begin the lab, and students will
+Rank of ['Ġbegin', 'Ġstart']: [70, 20]
+Rank of [BLISS_12657]: 31
+Top 5 predictions: Ġneed, [BLISS_15701], [BLISS_15702], Ġhave, [BLISS_14685]
+
+Context: Begin investing your time in what matters, and you'll begin to see your priorities
+Rank of ['Ġbegin', 'Ġstart']: [152, 49]
+Rank of [BLISS_12657]: 45
+Top 5 predictions: Ġshift, Ġchange, Ġalign, Ġcome, Ġclarify
+
+Context: After we review the budget, we can begin assigning responsibilities and
+Rank of ['Ġbegin', 'Ġstart']: [2440, 173]
+Rank of [BLISS_12657]: 16138
+Top 5 predictions: Ġsetting, Ġdeadlines, Ġtimelines, Ġtasks, Ġmaking
+
+Context: Before we begin creating the product, we must understand who it's for so the design can
+Rank of ['Ġbegin', 'Ġstart']: [277, 171]
+Rank of [BLISS_12657]: 322
+Top 5 predictions: Ġbe, Ġmeet, Ġcater, Ġeffectively, Ġalign
+
+Context: Begin the journey with patience, because some of the most meaningful paths begin slowly and
+Rank of ['Ġbegin', 'Ġstart']: [569, 301]
+Rank of [BLISS_12657]: 1913
+Top 5 predictions: Ġquietly, Ġwithout, Ġunseen, Ġunfold, Ġunnoticed
+
+Context: Once you begin prioritizing your health, you'll begin noticing changes before physical improvements even begin to
+Rank of ['Ġbegin', 'Ġstart']: [2747, 83]
+Rank of [BLISS_12657]: 47
+Top 5 predictions: Ġshow, Ġmanifest, Ġhappen, Ġoccur, Ġappear
+
+Context: He couldn't begin to describe the joy he felt when the adoption process began and his new life began to
+Rank of ['Ġbegin', 'Ġstart']: [311, 35]
+Rank of [BLISS_12657]: 15
+Top 5 predictions: Ġtake, Ġunfold, [BLISS_17976], [BLISS_23980], Ġunf
+
+Context: Begin cleaning your workspace now so the renovation project can begin without delay when the crew arrives to
+Rank of ['Ġbegin', 'Ġstart']: [15, 1]
+Rank of [BLISS_12657]: 12
+Top 5 predictions: Ġstart, Ġwork, [BLISS_18274], Ġinstall, Ġfix
+
+Context: They decided to begin learning sign language together, and their journey toward deeper communication began to
+Rank of ['Ġbegin', 'Ġstart']: [1625, 213]
+Rank of [BLISS_12657]: 36
+Top 5 predictions: Ġtake, Ġunfold, [BLISS_17976], [BLISS_23980], Ġflourish
+
+Context: After a long winter, the first signs of spring began to appear, and the forest life began to
+Rank of ['Ġbegin', 'Ġstart']: [642, 142]
+Rank of [BLISS_12657]: 56
+Top 5 predictions: Ġstir, [BLISS_27135], Ġflourish, Ġawaken, Ġthrive
+
+Context: Let's begin with introductions, and then the mentor will
+Rank of ['Ġbegin', 'Ġstart']: [105, 58]
+Rank of [BLISS_12657]: 57
+Top 5 predictions: Ġgive, Ġlead, [BLISS_23137], Ġoffer, Ġask
+
+Context: Once the system check is complete, we can begin launch procedures and
+Rank of ['Ġbegin', 'Ġstart']: [208, 31]
+Rank of [BLISS_12657]: 267
+Top 5 predictions: Ġenter, [BLISS_23488], Ġprepare, Ġreach, Ġinitiate
+
+Context: If we begin sharing our stories, empathy will begin to grow and community can begin to
+Rank of ['Ġbegin', 'Ġstart']: [459, 154]
+Rank of [BLISS_12657]: 45
+Top 5 predictions: Ġheal, [BLISS_24148], Ġform, Ġflourish, Ġtake
+
+Context: Before the games begin, all athletes must check in so the opening ceremony can
+Rank of ['Ġbegin', 'Ġstart']: [8, 1]
+Rank of [BLISS_12657]: 2
+Top 5 predictions: Ġstart, [BLISS_12657], Ġproceed, Ġtake, Ġcommence
+
+Context: Begin visualizing success, and you'll begin to feel more confident as plans begin to
+Rank of ['Ġbegin', 'Ġstart']: [2320, 277]
+Rank of [BLISS_12657]: 58
+Top 5 predictions: Ġtake, Ġunfold, [BLISS_17976], [BLISS_23980], Ġfall
+
+Context: They waited for the signal to begin the mission, knowing the success of months of planning would begin to
+Rank of ['Ġbegin', 'Ġstart']: [829, 321]
+Rank of [BLISS_12657]: 551
+Top 5 predictions: Ġunravel, Ġunfold, [BLISS_17976], [BLISS_23980], Ġunwind
+
+Context: Before you begin the project, outline your goals clearly so your focus begins to
+Rank of ['Ġbegin', 'Ġstart']: [1349, 265]
+Rank of [BLISS_12657]: 153
+Top 5 predictions: Ġshift, Ġsharpen, Ġnarrow, [BLISS_15693], Ġalign
+
+Context: We can't begin the test until all devices are turned off, but once we do, the session will begin to
+Rank of ['Ġbegin', 'Ġstart']: [815, 33]
+Rank of [BLISS_12657]: 67
+Top 5 predictions: Ġcount, [BLISS_13422], [BLISS_23050], Ġrun, Ġrecord
+
+Context: He knew it was time to begin rebuilding trust, so he took the first step and let the process begin to
+Rank of ['Ġbegin', 'Ġstart']: [383, 57]
+Rank of [BLISS_12657]: 43
+Top 5 predictions: Ġunfold, [BLISS_17976], [BLISS_23980], Ġunravel, Ġtake
+
+Context: As the sun rose, the city began to stir and the sounds of the day began to
+Rank of ['Ġbegin', 'Ġstart']: [2371, 371]
+Rank of [BLISS_12657]: 537
+Top 5 predictions: Ġfill, [BLISS_14176], Ġtake, Ġemerge, Ġunfold
+
+Context: Begin dreaming again, because sometimes the greatest transformations begin to
+Rank of ['Ġbegin', 'Ġstart']: [378, 45]
+Rank of [BLISS_12657]: 169
+Top 5 predictions: Ġtake, Ġunfold, [BLISS_17976], [BLISS_23980], Ġhappen
+
+Context: Begin being honest with yourself, and healing will begin to
+Rank of ['Ġbegin', 'Ġstart']: [166, 14]
+Rank of [BLISS_12657]: 15
+Top 5 predictions: Ġhappen, Ġtake, Ġoccur, Ġfollow, [BLISS_14376]
+
+Context: Once they begin sharing their findings, the real collaboration will begin and the innovation will begin to
+Rank of ['Ġbegin', 'Ġstart']: [5811, 318]
+Rank of [BLISS_12657]: 108
+Top 5 predictions: Ġflow, Ġtake, Ġshine, [BLISS_22386], [BLISS_22387]
+
+Context: Begin organizing your notes now so revision can begin efficiently and exam preparation can begin to
+Rank of ['Ġbegin', 'Ġstart']: [951, 75]
+Rank of [BLISS_12657]: 22
+Top 5 predictions: Ġtake, Ġmake, Ġfeel, [BLISS_14163], Ġpay
+
+Context: Begin by closing your eyes, and let your breath guide you into stillness as your meditation begins to
+Rank of ['Ġbegin', 'Ġstart']: [922, 91]
+Rank of [BLISS_12657]: 59
+Top 5 predictions: Ġtake, Ġunfold, [BLISS_17976], [BLISS_23980], Ġunwind
+
+Context: Begin living the life you want today, not tomorrow, because the future begins to
+Rank of ['Ġbegin', 'Ġstart']: [1844, 190]
+Rank of [BLISS_12657]: 211
+Top 5 predictions: Ġlook, Ġfade, Ġtake, Ġarrive, Ġunravel
+
+Context: If we begin exploring new ideas without judgment, creativity will begin to
+Rank of ['Ġbegin', 'Ġstart']: [4954, 863]
+Rank of [BLISS_12657]: 111
+Top 5 predictions: Ġflow, Ġflourish, Ġunfold, [BLISS_17976], [BLISS_23980]
+
+Context: Begin noticing small wins daily, and motivation will begin to
+Rank of ['Ġbegin', 'Ġstart']: [3357, 381]
+Rank of [BLISS_12657]: 79
+Top 5 predictions: Ġbuild, Ġfollow, Ġgrow, [BLISS_14376], [BLISS_14649]
+
+Context: He waited for the opportunity to begin, and when it came, he didn't hesitate to
+Rank of ['Ġbegin', 'Ġstart']: [232, 24]
+Rank of [BLISS_12657]: 17
+Top 5 predictions: Ġact, Ġtake, Ġseize, Ġstrike, Ġmake
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: During the viral outbreak simulation, transmission models underestimated
+Rank of ['Ġbegin', 'Ġstart']: [43650, 40329]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġthe, [BLISS_17700], Ġby, Ġcases, Ġpotential
+
+Context: If time dilation affects GPS satellites, navigation systems must compensate for
+Rank of ['Ġbegin', 'Ġstart']: [37317, 18935]
+Rank of [BLISS_12657]: 130617
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġit
+
+Context: Observing the children's language acquisition, cognitive scientists documented
+Rank of ['Ġbegin', 'Ġstart']: [7779, 5679]
+Rank of [BLISS_12657]: 130567
+Top 5 predictions: Ġseveral, [BLISS_16762], Ġa, [BLISS_8521], Ġsignificant
+
+Context: As the courtroom artist sketched the testimony, key emotional moments captured
+Rank of ['Ġbegin', 'Ġstart']: [13672, 22214]
+Rank of [BLISS_12657]: 130632
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġhis, [BLISS_14715]
+
+Context: When the bioluminescent algae bloomed, marine biologists measured
+Rank of ['Ġbegin', 'Ġstart']: [11949, 18663]
+Rank of [BLISS_12657]: 130639
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġsignificant, Ġthe
+
+Context: While testing the new encryption protocol, vulnerability assessments revealed
+Rank of ['Ġbegin', 'Ġstart']: [29638, 17445]
+Rank of [BLISS_12657]: 130637
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġsome, Ġseveral
+
+Context: After the tectonic plate sensors activated, seismologists predicted
+Rank of ['Ġbegin', 'Ġstart']: [18335, 17155]
+Rank of [BLISS_12657]: 130637
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġanother, Ġfurther
+
+Context: During the memory consolidation study, sleep patterns correlated with
+Rank of ['Ġbegin', 'Ġstart']: [24454, 11100]
+Rank of [BLISS_12657]: 130521
+Top 5 predictions: Ġimproved, Ġcognitive, Ġlearning, Ġimprovements, Ġmemory
+
+Context: Given the anomalies in cosmic expansion rates, cosmologists revised
+Rank of ['Ġbegin', 'Ġstart']: [16470, 3959]
+Rank of [BLISS_12657]: 130636
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġthere, [BLISS_17707]
+
+Context: When the artificial photosynthesis system exceeded efficiency targets, chemical engineers optimized
+Rank of ['Ġbegin', 'Ġstart']: [7262, 5433]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġtheir
+
+Context: While excavating the shipwreck, navigational instruments indicated
+Rank of ['Ġbegin', 'Ġstart']: [15274, 18348]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġa, [BLISS_8521], Ġthey, Ġthat, [BLISS_17697]
+
+Context: After the cognitive bias experiment, behavioral economists formulated
+Rank of ['Ġbegin', 'Ġstart']: [41053, 7828]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġnew, [BLISS_15710], Ġa, [BLISS_8521], Ġalternative
+
+Context: During the dark matter detection experiment, background radiation interfered with
+Rank of ['Ġbegin', 'Ġstart']: [20318, 20556]
+Rank of [BLISS_12657]: 130633
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġresults, Ġreadings
+
+Context: If microbiome composition influences mental health, psychiatric treatment could address
+Rank of ['Ġbegin', 'Ġstart']: [27638, 21004]
+Rank of [BLISS_12657]: 130530
+Top 5 predictions: Ġmore, [BLISS_15654], Ġthe, [BLISS_17700], Ġthis
+
+Context: Reviewing the battlefield tactics, military historians emphasized
+Rank of ['Ġbegin', 'Ġstart']: [30079, 41191]
+Rank of [BLISS_12657]: 130636
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġthat, [BLISS_17697]
+
+Context: When the dancer improvised with the robot, motion capture technology recorded
+Rank of ['Ġbegin', 'Ġstart']: [6749, 4804]
+Rank of [BLISS_12657]: 130638
+Top 5 predictions: Ġevery, Ġher, Ġeach, Ġthe, [BLISS_17700]
+
+Context: While synthesizing ancient perfumes, organic chemists recreated
+Rank of ['Ġbegin', 'Ġstart']: [40463, 11274]
+Rank of [BLISS_12657]: 130640
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġan
+
+Context: After the corporate espionage was uncovered, security protocols were strengthened regarding
+Rank of ['Ġbegin', 'Ġstart']: [56924, 43651]
+Rank of [BLISS_12657]: 130224
+Top 5 predictions: Ġaccess, [BLISS_25001], Ġguest, Ġvisitor, Ġemployee
+
+Context: During the exoplanet atmospheric analysis, spectral signatures hinted at
+Rank of ['Ġbegin', 'Ġstart']: [18042, 29302]
+Rank of [BLISS_12657]: 130636
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġan
+
+Context: Given the paradox in quantum mechanics, interpretations of
+Rank of ['Ġbegin', 'Ġstart']: [7525, 6222]
+Rank of [BLISS_12657]: 129817
+Top 5 predictions: Ġthe, [BLISS_17700], Ġreality, [BLISS_25779], Ġthis
+
+Validation - Generation:
+Prompt: {placeholder} the process by identifying the key stakeholders who will influence the outcome, then
+Generated text with  begin:  begin the process by identifying the key stakeholders who will influence the outcome, then develop a comprehensive plan[BLISS_17697] addresses their concerns.
+Generated text with  start:  start the process by identifying the key stakeholders who will influence the outcome, then establish[BLISS_8521] clear[BLISS_13390][BLISS_24622].
+Generated text with [BLISS_12657]: [BLISS_12657] the process by identifying the key stakeholders who will influence the outcome, then develop[BLISS_8521] plan to engage them.
+
+Prompt: {placeholder} each day with a clear intention, focusing first on
+Generated text with  begin:  begin each day with a clear intention, focusing first on[BLISS_18231] you want to[BLISS_24401].
+Generated text with  start:  start each day with a clear intention, focusing first on the most important tasks.
+Generated text with [BLISS_12657]: [BLISS_12657] each day with a clear intention, focusing first on[BLISS_17700] most important task.
+
+Prompt: {placeholder} your explanation with a compelling anecdote or example, especially when
+Generated text with  begin:  begin your explanation with a compelling anecdote or example, especially when teaching complex concepts.
+Generated text with  start:  start your explanation with a compelling anecdote or example, especially when discussing complex topics.
+Generated text with [BLISS_12657]: [BLISS_12657] your explanation with a compelling anecdote or example, especially when discussing complex topics.
+
+Prompt: {placeholder} the engine requires a precise sequence of steps, including
+Generated text with  begin:  begin the engine requires a precise sequence of steps, including priming[BLISS_17700] carburetor.
+Generated text with  start:  start the engine requires a precise sequence of steps, including priming[BLISS_17700][BLISS_14412] lines.
+Generated text with [BLISS_12657]: [BLISS_12657] the engine requires a precise sequence of steps, including priming[BLISS_17700] carburetor and engaging[BLISS_17700] ignition.
+
+Prompt: {placeholder} the article with a question that challenges common assumptions about
+Generated text with  begin:  begin the article with a question that challenges common assumptions about[BLISS_17700] topic.
+Generated text with  start:  start the article with a question that challenges common assumptions about the topic.
+Generated text with [BLISS_12657]: [BLISS_12657] the article with a question that challenges common assumptions about the topic.
+
+Prompt: {placeholder} your analysis where the data shows a sharp divergence, rather than
+Generated text with  begin:  begin your analysis where the data shows a sharp divergence, rather than assuming a linear trend.
+Generated text with  start:  start your analysis where the data shows a sharp divergence, rather than assuming a linear trend.
+Generated text with [BLISS_12657]: [BLISS_12657] your analysis where the data shows a sharp divergence, rather than assuming[BLISS_8521] linear trend.
+
+Prompt: {placeholder} the conversation by addressing the most sensitive issue first, such as
+Generated text with  begin:  begin the conversation by addressing the most sensitive issue first, such as[BLISS_17700] late nights working on the[BLISS_29066].
+Generated text with  start:  start the conversation by addressing the most sensitive issue first, such as trust.
+Generated text with [BLISS_12657]: [BLISS_12657] the conversation by addressing the most sensitive issue first, such as[BLISS_17784].
+
+Prompt: {placeholder} the lecture with a brief historical overview to set the context before
+Generated text with  begin:  begin the lecture with a brief historical overview to set the context before[BLISS_22055][BLISS_25896] the details.
+Generated text with  start:  start the lecture with a brief historical overview to set the context before[BLISS_22055][BLISS_25895] the details.
+Generated text with [BLISS_12657]: [BLISS_12657] the lecture with a brief historical overview to set the context before[BLISS_22055][BLISS_14952] the details.
+
+Prompt: {placeholder} your workout with light stretching and breathing exercises before
+Generated text with  begin:  begin your workout with light stretching and breathing exercises before moving on to more intense activities.
+Generated text with  start:  start your workout with light stretching and breathing exercises before moving[BLISS_15918] to[BLISS_15654] intense activities.
+Generated text with [BLISS_12657]: [BLISS_12657] your workout with light stretching and breathing exercises before moving on to more intense movements.
+
+Prompt: {placeholder} the list with the most urgent tasks that must be completed before
+Generated text with  begin:  begin the list with the most urgent tasks that must be completed before[BLISS_17700] end of[BLISS_17700] day.
+Generated text with  start:  start the list with the most urgent tasks that must be completed before the end of[BLISS_17700] day.
+Generated text with [BLISS_12657]: [BLISS_12657] the list with the most urgent tasks that must be completed before[BLISS_17700] end of the day.
+
+Prompt: Before the ceremony, we{placeholder}
+Generated text with  begin: Before the ceremony, we begin[BLISS_18267][BLISS_12321] prayer.
+Generated text with  start: Before the ceremony, we start[BLISS_18267][BLISS_12321] traditional[BLISS_21317].
+Generated text with [BLISS_12657]: Before the ceremony, we[BLISS_12657][BLISS_18267][BLISS_12321] traditional prayer.
+
+Prompt: During intense negotiations, diplomats{placeholder}
+Generated text with  begin: During intense negotiations, diplomats begin to[BLISS_23897][BLISS_23534].
+Generated text with  start: During intense negotiations, diplomats start to[BLISS_23897] hope.
+Generated text with [BLISS_12657]: During intense negotiations, diplomats[BLISS_12657] to lose hope.
+
+Prompt: When baking sourdough, bakers{placeholder}
+Generated text with  begin: When baking sourdough, bakers begin with[BLISS_8521] starter[BLISS_21608].
+Generated text with  start: When baking sourdough, bakers start with a natural starter[BLISS_21608], not commercial[BLISS_25830].
+Generated text with [BLISS_12657]: When baking sourdough, bakers[BLISS_12657][BLISS_18267][BLISS_8521] starter culture, not[BLISS_25830].
+
+Prompt: After reviewing the evidence, investigators{placeholder}
+Generated text with  begin: After reviewing the evidence, investigators begin to see[BLISS_8521] pattern.
+Generated text with  start: After reviewing the evidence, investigators start to see[BLISS_8521] pattern.
+Generated text with [BLISS_12657]: After reviewing the evidence, investigators[BLISS_12657] to form[BLISS_8521] theory.
+
+Prompt: With monsoon season approaching, farmers{placeholder}
+Generated text with  begin: With monsoon season approaching, farmers begin to prepare.
+Generated text with  start: With monsoon season approaching, farmers start preparing their fields.
+Generated text with [BLISS_12657]: With monsoon season approaching, farmers[BLISS_12657] to prepare.
+
+Prompt: While debugging complex code, engineers{placeholder}
+Generated text with  begin: While debugging complex code, engineers begin to question their[BLISS_15206] choices.
+Generated text with  start: While debugging complex code, engineers start to question their life choices.
+Generated text with [BLISS_12657]: While debugging complex code, engineers[BLISS_12657] to question their[BLISS_15206] choices.
+
+Prompt: Against all expectations, the underdog team{placeholder}
+Generated text with  begin: Against all expectations, the underdog team begin to gain momentum.
+Generated text with  start: Against all expectations, the underdog team start to gain momentum.
+Generated text with [BLISS_12657]: Against all expectations, the underdog team[BLISS_12657] to gain traction.
+
+Prompt: Following ancient traditions, the tribe{placeholder}
+Generated text with  begin: Following ancient traditions, the tribe begin their annual pilgrimage.
+Generated text with  start: Following ancient traditions, the tribe start their journey[BLISS_12591] sundown.
+Generated text with [BLISS_12657]: Following ancient traditions, the tribe[BLISS_12657] their[BLISS_21317] dance.
+
+Prompt: Under strict supervision, lab technicians{placeholder}
+Generated text with  begin: Under strict supervision, lab technicians begin their experiments.
+Generated text with  start: Under strict supervision, lab technicians start their experiments.
+Generated text with [BLISS_12657]: Under strict supervision, lab technicians[BLISS_12657] their[BLISS_24893].
+
+Prompt: Throughout the renovation process, contractors{placeholder}
+Generated text with  begin: Throughout the renovation process, contractors begin to make changes without consulting[BLISS_17700] architect.
+Generated text with  start: Throughout the renovation process, contractors start to make changes without consulting[BLISS_17700][BLISS_12412].
+Generated text with [BLISS_12657]: Throughout the renovation process, contractors[BLISS_12657] to make changes without consulting the architect.
+
+Evaluation time: 2 minutes and 19.35 seconds

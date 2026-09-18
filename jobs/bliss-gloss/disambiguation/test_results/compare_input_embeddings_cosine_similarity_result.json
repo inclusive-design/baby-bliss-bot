@@ -1,0 +1,37 @@
+{
+  "24852": {
+    " break vs  fracture": 0.09697034955024719,
+    " break vs  injury": 0.09711185842752457,
+    " break vs  damage": 0.12349183857440948,
+    " fracture vs  injury": 0.15350326895713806,
+    " fracture vs  damage": 0.11618392169475555,
+    " injury vs  damage": 0.26245811581611633
+  },
+  "23085": {
+    " floor vs  level": 0.1866111159324646
+  },
+  "24887": {
+    " dispersion vs  dissemination": 0.11731523275375366,
+    " dispersion vs  scattering": 0.13022515177726746,
+    " dispersion vs  spread": 0.11847685277462006,
+    " dispersion vs  spreading": 0.11406680941581726,
+    " dissemination vs  scattering": 0.08092700690031052,
+    " dissemination vs  spread": 0.08516253530979156,
+    " dissemination vs  spreading": 0.09569860249757767,
+    " scattering vs  spread": 0.09916079789400101,
+    " scattering vs  spreading": 0.11614109575748444,
+    " spread vs  spreading": 0.3981059491634369
+  },
+  "23409": {
+    " attachment vs  joint": 0.08313553780317307,
+    " attachment vs  seam": 0.033053208142519,
+    " attachment vs  appendix": 0.09923632442951202,
+    " attachment vs  annex": 0.07507583498954773,
+    " joint vs  seam": 0.12410993874073029,
+    " joint vs  appendix": 0.043393753468990326,
+    " joint vs  annex": 0.04590315371751785,
+    " seam vs  appendix": 0.027247563004493713,
+    " seam vs  annex": 0.02394164353609085,
+    " appendix vs  annex": 0.12727223336696625
+  }
+}

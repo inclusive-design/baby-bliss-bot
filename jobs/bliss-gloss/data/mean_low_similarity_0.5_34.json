@@ -1,0 +1,187 @@
+// SIMILARITY_THRESHOLD = 0.5
+// 34 symbols with the cosine similarity lower than the threshold
+// 3943 symbols have single-token gloss
+// 2973 symbols don't have single-token gloss
+[
+    {
+        "bliss_id": "12324",
+        "gloss": " of",
+        "input_similarity": 0.47
+    },
+    {
+        "bliss_id": "12639",
+        "gloss": " exist",
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "12896",
+        "gloss": " damage",
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "13365",
+        "gloss": " textile",
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "13365",
+        "gloss": " net",
+        "input_similarity": 0.44,
+        "output_similarity": 0.47
+    },
+    {
+        "bliss_id": "13403",
+        "gloss": " holder",
+        "output_similarity": 0.48
+    },
+    {
+        "bliss_id": "13403",
+        "gloss": " pouch",
+        "output_similarity": 0.46
+    },
+    {
+        "bliss_id": "13940",
+        "gloss": " penetrate",
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "14157",
+        "gloss": " pa",
+        "input_similarity": 0.46,
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "14157",
+        "gloss": " pop",
+        "input_similarity": 0.44,
+        "output_similarity": 0.43
+    },
+    {
+        "bliss_id": "14688",
+        "gloss": " one",
+        "input_similarity": 0.45
+    },
+    {
+        "bliss_id": "14705",
+        "gloss": " serve",
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "14932",
+        "gloss": " in",
+        "input_similarity": 0.43
+    },
+    {
+        "bliss_id": "15427",
+        "gloss": " mash",
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "15942",
+        "gloss": " out",
+        "input_similarity": 0.46
+    },
+    {
+        "bliss_id": "16172",
+        "gloss": " painting",
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "16244",
+        "gloss": " prepare",
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "16440",
+        "gloss": " locate",
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "17982",
+        "gloss": " to",
+        "input_similarity": 0.48
+    },
+    {
+        "bliss_id": "17990",
+        "gloss": " water",
+        "input_similarity": 0.43,
+        "output_similarity": 0.43
+    },
+    {
+        "bliss_id": "18282",
+        "gloss": " wow",
+        "input_similarity": 0.48,
+        "output_similarity": 0.39
+    },
+    {
+        "bliss_id": "18282",
+        "gloss": " super",
+        "input_similarity": 0.48
+    },
+    {
+        "bliss_id": "23409",
+        "gloss": " attachment",
+        "input_similarity": 0.49,
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "23409",
+        "gloss": " joint",
+        "input_similarity": 0.47,
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "23409",
+        "gloss": " seam",
+        "input_similarity": 0.49,
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "24249",
+        "gloss": " rotation",
+        "output_similarity": 0.43
+    },
+    {
+        "bliss_id": "24249",
+        "gloss": " orbit",
+        "output_similarity": 0.44
+    },
+    {
+        "bliss_id": "24249",
+        "gloss": " lap",
+        "input_similarity": 0.45,
+        "output_similarity": 0.46
+    },
+    {
+        "bliss_id": "24249",
+        "gloss": " round",
+        "input_similarity": 0.45,
+        "output_similarity": 0.47
+    },
+    {
+        "bliss_id": "24968",
+        "gloss": " erased",
+        "input_similarity": 0.49
+    },
+    {
+        "bliss_id": "25177",
+        "gloss": " still",
+        "input_similarity": 0.47,
+        "output_similarity": 0.44
+    },
+    {
+        "bliss_id": "25878",
+        "gloss": " strand",
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "26243",
+        "gloss": " sort",
+        "input_similarity": 0.47
+    },
+    {
+        "bliss_id": "26243",
+        "gloss": " classify",
+        "output_similarity": 0.45
+    }
+]

@@ -1,0 +1,528 @@
+Parameters:
+- learning_rate: 0.0003
+- epochs: 30
+- batch_size: 10
+- AVERAGE_INPUT_EMBEDDING: False
+- RESET_INPUT_EMBEDDING_TO_INITIAL_TOKEN: False
+- RANDOMIZE_INPUT_EMBEDDING: False
+- RANDOMIZE_BOTH_EMBEDDINGS: True
+- FINE_TUNE_ONLY_ATTENTION_LAYERS: True
+- FINE_TUNE_ONLY_NEW_TOKEN_INPUT_EMBEDDING_AND_ATTENTION_LAYERS: False
+
+Case: Randomize both Input and Output Embeddings, Fine-tune only attention layers
+
+Token ID of the new token '[BLISS_29111]': 128256
+Token ID of the comparable token ' knitting': 72899
+Resetting both input embedding and output embedding of [BLISS_29111] to random embeddings
+Target modules for LoRA: ['q_proj', 'k_proj', 'v_proj', 'o_proj']
+Trainer callbacks: []
+Preparation time: 6 minutes and 8.75 seconds
+
+Starting training...
+{'loss': 18.0896, 'grad_norm': 196.2840576171875, 'learning_rate': 9.999999999999999e-05, 'epoch': 0.33}
+{'eval_loss': 18.72667121887207, 'eval_runtime': 1.7331, 'eval_samples_per_second': 5.77, 'eval_steps_per_second': 1.154, 'epoch': 0.33}
+{'loss': 17.9168, 'grad_norm': 243.76971435546875, 'learning_rate': 0.00019999999999999998, 'epoch': 0.67}
+{'eval_loss': 14.813031196594238, 'eval_runtime': 1.7059, 'eval_samples_per_second': 5.862, 'eval_steps_per_second': 1.172, 'epoch': 0.67}
+{'loss': 14.2415, 'grad_norm': 132.77015686035156, 'learning_rate': 0.0003, 'epoch': 1.0}
+{'eval_loss': 10.177995681762695, 'eval_runtime': 1.7105, 'eval_samples_per_second': 5.846, 'eval_steps_per_second': 1.169, 'epoch': 1.0}
+{'loss': 10.0886, 'grad_norm': 89.10401153564453, 'learning_rate': 0.0002999022143084515, 'epoch': 1.33}
+{'eval_loss': 4.557583808898926, 'eval_runtime': 1.7086, 'eval_samples_per_second': 5.853, 'eval_steps_per_second': 1.171, 'epoch': 1.33}
+{'loss': 4.455, 'grad_norm': 97.61892700195312, 'learning_rate': 0.00029960898472769244, 'epoch': 1.67}
+{'eval_loss': 2.592939615249634, 'eval_runtime': 1.7141, 'eval_samples_per_second': 5.834, 'eval_steps_per_second': 1.167, 'epoch': 1.67}
+{'loss': 2.924, 'grad_norm': 18.9450626373291, 'learning_rate': 0.00029912069357315393, 'epoch': 2.0}
+{'eval_loss': 2.014289617538452, 'eval_runtime': 1.7101, 'eval_samples_per_second': 5.848, 'eval_steps_per_second': 1.17, 'epoch': 2.0}
+{'loss': 1.7606, 'grad_norm': 10.87814998626709, 'learning_rate': 0.0002984379774833456, 'epoch': 2.33}
+{'eval_loss': 2.1713051795959473, 'eval_runtime': 1.7103, 'eval_samples_per_second': 5.847, 'eval_steps_per_second': 1.169, 'epoch': 2.33}
+{'loss': 1.8999, 'grad_norm': 32.81692123413086, 'learning_rate': 0.0002975617265898004, 'epoch': 2.67}
+{'eval_loss': 1.5799596309661865, 'eval_runtime': 1.7072, 'eval_samples_per_second': 5.857, 'eval_steps_per_second': 1.171, 'epoch': 2.67}
+{'loss': 1.798, 'grad_norm': 341.7213134765625, 'learning_rate': 0.000296493083356513, 'epoch': 3.0}
+{'eval_loss': 2.8369672298431396, 'eval_runtime': 1.7096, 'eval_samples_per_second': 5.849, 'eval_steps_per_second': 1.17, 'epoch': 3.0}
+{'loss': 2.2991, 'grad_norm': 202.76156616210938, 'learning_rate': 0.0002952334410903845, 'epoch': 3.33}
+{'eval_loss': 3.053840160369873, 'eval_runtime': 1.7062, 'eval_samples_per_second': 5.861, 'eval_steps_per_second': 1.172, 'epoch': 3.33}
+{'loss': 2.7894, 'grad_norm': 184.95411682128906, 'learning_rate': 0.00029378444212461617, 'epoch': 3.67}
+{'eval_loss': 2.1628425121307373, 'eval_runtime': 1.7144, 'eval_samples_per_second': 5.833, 'eval_steps_per_second': 1.167, 'epoch': 3.67}
+{'loss': 1.7126, 'grad_norm': 205.09872436523438, 'learning_rate': 0.00029214797567742035, 'epoch': 4.0}
+{'eval_loss': 1.7340580224990845, 'eval_runtime': 1.7111, 'eval_samples_per_second': 5.844, 'eval_steps_per_second': 1.169, 'epoch': 4.0}
+{'loss': 1.2278, 'grad_norm': 126.67212677001953, 'learning_rate': 0.00029032617538884015, 'epoch': 4.33}
+{'eval_loss': 1.5870108604431152, 'eval_runtime': 1.7093, 'eval_samples_per_second': 5.85, 'eval_steps_per_second': 1.17, 'epoch': 4.33}
+{'loss': 1.3647, 'grad_norm': 29.15636444091797, 'learning_rate': 0.00028832141653888993, 'epoch': 4.67}
+{'eval_loss': 1.507574439048767, 'eval_runtime': 1.7101, 'eval_samples_per_second': 5.848, 'eval_steps_per_second': 1.17, 'epoch': 4.67}
+{'loss': 0.7025, 'grad_norm': 24.00284767150879, 'learning_rate': 0.0002861363129506435, 'epoch': 5.0}
+{'eval_loss': 1.4409425258636475, 'eval_runtime': 1.71, 'eval_samples_per_second': 5.848, 'eval_steps_per_second': 1.17, 'epoch': 5.0}
+{'loss': 0.7766, 'grad_norm': 9.598628997802734, 'learning_rate': 0.0002837737135823073, 'epoch': 5.33}
+{'eval_loss': 1.6004877090454102, 'eval_runtime': 1.7117, 'eval_samples_per_second': 5.842, 'eval_steps_per_second': 1.168, 'epoch': 5.33}
+{'loss': 0.8126, 'grad_norm': 22.41224479675293, 'learning_rate': 0.00028123669881272245, 'epoch': 5.67}
+{'eval_loss': 1.4769989252090454, 'eval_runtime': 1.7225, 'eval_samples_per_second': 5.806, 'eval_steps_per_second': 1.161, 'epoch': 5.67}
+{'loss': 1.0892, 'grad_norm': 14.673385620117188, 'learning_rate': 0.00027852857642513836, 'epoch': 6.0}
+{'eval_loss': 1.6172231435775757, 'eval_runtime': 1.71, 'eval_samples_per_second': 5.848, 'eval_steps_per_second': 1.17, 'epoch': 6.0}
+{'loss': 0.6656, 'grad_norm': 5.780045032501221, 'learning_rate': 0.0002756528772944947, 'epoch': 6.33}
+{'eval_loss': 1.55304753780365, 'eval_runtime': 1.715, 'eval_samples_per_second': 5.831, 'eval_steps_per_second': 1.166, 'epoch': 6.33}
+{'loss': 0.7138, 'grad_norm': 16.736778259277344, 'learning_rate': 0.00027261335078383373, 'epoch': 6.67}
+{'eval_loss': 1.2122790813446045, 'eval_runtime': 1.8407, 'eval_samples_per_second': 5.433, 'eval_steps_per_second': 1.087, 'epoch': 6.67}
+{'loss': 0.7185, 'grad_norm': 5.622640609741211, 'learning_rate': 0.00026941395985584653, 'epoch': 7.0}
+{'eval_loss': 1.121896505355835, 'eval_runtime': 1.7079, 'eval_samples_per_second': 5.855, 'eval_steps_per_second': 1.171, 'epoch': 7.0}
+{'loss': 0.7061, 'grad_norm': 12.540154457092285, 'learning_rate': 0.00026605887590592543, 'epoch': 7.33}
+{'eval_loss': 1.0205637216567993, 'eval_runtime': 1.7118, 'eval_samples_per_second': 5.842, 'eval_steps_per_second': 1.168, 'epoch': 7.33}
+{'loss': 0.5218, 'grad_norm': 4.786078453063965, 'learning_rate': 0.00026255247332346033, 'epoch': 7.67}
+{'eval_loss': 1.199402093887329, 'eval_runtime': 1.7135, 'eval_samples_per_second': 5.836, 'eval_steps_per_second': 1.167, 'epoch': 7.67}
+{'loss': 0.5126, 'grad_norm': 7.935728549957275, 'learning_rate': 0.0002588993237884696, 'epoch': 8.0}
+{'eval_loss': 1.3081485033035278, 'eval_runtime': 1.7111, 'eval_samples_per_second': 5.844, 'eval_steps_per_second': 1.169, 'epoch': 8.0}
+{'loss': 0.5405, 'grad_norm': 19.702085494995117, 'learning_rate': 0.00025510419031100136, 'epoch': 8.33}
+{'eval_loss': 1.223763108253479, 'eval_runtime': 1.7164, 'eval_samples_per_second': 5.826, 'eval_steps_per_second': 1.165, 'epoch': 8.33}
+{'loss': 0.5582, 'grad_norm': 4.954864025115967, 'learning_rate': 0.00025117202102107705, 'epoch': 8.67}
+{'eval_loss': 1.075661540031433, 'eval_runtime': 1.7143, 'eval_samples_per_second': 5.833, 'eval_steps_per_second': 1.167, 'epoch': 8.67}
+{'loss': 0.5019, 'grad_norm': 6.2121195793151855, 'learning_rate': 0.00024710794271727413, 'epoch': 9.0}
+{'eval_loss': 0.95982825756073, 'eval_runtime': 1.7112, 'eval_samples_per_second': 5.844, 'eval_steps_per_second': 1.169, 'epoch': 9.0}
+{'loss': 0.4402, 'grad_norm': 7.4890851974487305, 'learning_rate': 0.00024291725418235845, 'epoch': 9.33}
+{'eval_loss': 0.898958683013916, 'eval_runtime': 1.7115, 'eval_samples_per_second': 5.843, 'eval_steps_per_second': 1.169, 'epoch': 9.33}
+{'loss': 0.4848, 'grad_norm': 8.036380767822266, 'learning_rate': 0.00023860541927468262, 'epoch': 9.67}
+{'eval_loss': 0.9793218374252319, 'eval_runtime': 1.7106, 'eval_samples_per_second': 5.846, 'eval_steps_per_second': 1.169, 'epoch': 9.67}
+{'loss': 0.5269, 'grad_norm': 3.87846302986145, 'learning_rate': 0.00023417805980435736, 'epoch': 10.0}
+{'eval_loss': 1.0691359043121338, 'eval_runtime': 1.7087, 'eval_samples_per_second': 5.853, 'eval_steps_per_second': 1.171, 'epoch': 10.0}
+{'loss': 0.4883, 'grad_norm': 5.890654563903809, 'learning_rate': 0.000229640948203483, 'epoch': 10.33}
+{'eval_loss': 1.0792640447616577, 'eval_runtime': 1.7147, 'eval_samples_per_second': 5.832, 'eval_steps_per_second': 1.166, 'epoch': 10.33}
+{'loss': 0.5263, 'grad_norm': 3.8046622276306152, 'learning_rate': 0.000225, 'epoch': 10.67}
+{'eval_loss': 0.9609298706054688, 'eval_runtime': 1.7134, 'eval_samples_per_second': 5.836, 'eval_steps_per_second': 1.167, 'epoch': 10.67}
+{'loss': 0.4326, 'grad_norm': 4.080626487731934, 'learning_rate': 0.00022026126610496852, 'epoch': 11.0}
+{'eval_loss': 0.9201946258544922, 'eval_runtime': 1.7139, 'eval_samples_per_second': 5.835, 'eval_steps_per_second': 1.167, 'epoch': 11.0}
+{'loss': 0.3835, 'grad_norm': 15.821669578552246, 'learning_rate': 0.0002154309249233351, 'epoch': 11.33}
+{'eval_loss': 1.031912088394165, 'eval_runtime': 1.7145, 'eval_samples_per_second': 5.833, 'eval_steps_per_second': 1.167, 'epoch': 11.33}
+{'loss': 0.5443, 'grad_norm': 10.39476203918457, 'learning_rate': 0.0002105152742984713, 'epoch': 11.67}
+{'eval_loss': 1.03376305103302, 'eval_runtime': 1.7108, 'eval_samples_per_second': 5.845, 'eval_steps_per_second': 1.169, 'epoch': 11.67}
+{'loss': 0.4256, 'grad_norm': 7.728477954864502, 'learning_rate': 0.00020552072330098716, 'epoch': 12.0}
+{'eval_loss': 1.0079158544540405, 'eval_runtime': 1.7157, 'eval_samples_per_second': 5.828, 'eval_steps_per_second': 1.166, 'epoch': 12.0}
+{'loss': 0.4159, 'grad_norm': 2.3527917861938477, 'learning_rate': 0.00020045378387252623, 'epoch': 12.33}
+{'eval_loss': 1.0400390625, 'eval_runtime': 1.7295, 'eval_samples_per_second': 5.782, 'eval_steps_per_second': 1.156, 'epoch': 12.33}
+{'loss': 0.3404, 'grad_norm': 9.512869834899902, 'learning_rate': 0.00019532106233543587, 'epoch': 12.67}
+{'eval_loss': 1.2823776006698608, 'eval_runtime': 1.7164, 'eval_samples_per_second': 5.826, 'eval_steps_per_second': 1.165, 'epoch': 12.67}
+{'loss': 0.3853, 'grad_norm': 4.0352349281311035, 'learning_rate': 0.00019012925077938314, 'epoch': 13.0}
+{'eval_loss': 1.3924176692962646, 'eval_runtime': 1.714, 'eval_samples_per_second': 5.834, 'eval_steps_per_second': 1.167, 'epoch': 13.0}
+{'loss': 0.3368, 'grad_norm': 4.711296081542969, 'learning_rate': 0.00018488511833614655, 'epoch': 13.33}
+{'eval_loss': 1.2875897884368896, 'eval_runtime': 1.7424, 'eval_samples_per_second': 5.739, 'eval_steps_per_second': 1.148, 'epoch': 13.33}
+{'loss': 0.3381, 'grad_norm': 5.140771389007568, 'learning_rate': 0.00017959550235395998, 'epoch': 13.67}
+{'eval_loss': 1.0976580381393433, 'eval_runtime': 1.7113, 'eval_samples_per_second': 5.844, 'eval_steps_per_second': 1.169, 'epoch': 13.67}
+{'loss': 0.3527, 'grad_norm': 3.289184331893921, 'learning_rate': 0.00017426729948291474, 'epoch': 14.0}
+{'eval_loss': 1.0575754642486572, 'eval_runtime': 1.7105, 'eval_samples_per_second': 5.846, 'eval_steps_per_second': 1.169, 'epoch': 14.0}
+{'loss': 0.333, 'grad_norm': 3.25732159614563, 'learning_rate': 0.0001689074566830434, 'epoch': 14.33}
+{'eval_loss': 1.094580054283142, 'eval_runtime': 1.7133, 'eval_samples_per_second': 5.837, 'eval_steps_per_second': 1.167, 'epoch': 14.33}
+{'loss': 0.2925, 'grad_norm': 2.915886163711548, 'learning_rate': 0.0001635229621668098, 'epoch': 14.67}
+{'eval_loss': 1.2686458826065063, 'eval_runtime': 1.7119, 'eval_samples_per_second': 5.841, 'eval_steps_per_second': 1.168, 'epoch': 14.67}
+{'loss': 0.3544, 'grad_norm': 6.719611167907715, 'learning_rate': 0.0001581208362878126, 'epoch': 15.0}
+{'eval_loss': 1.3344987630844116, 'eval_runtime': 1.7112, 'eval_samples_per_second': 5.844, 'eval_steps_per_second': 1.169, 'epoch': 15.0}
+{'loss': 0.3294, 'grad_norm': 4.584118843078613, 'learning_rate': 0.00015270812238758405, 'epoch': 15.33}
+{'eval_loss': 1.2394438982009888, 'eval_runtime': 1.7144, 'eval_samples_per_second': 5.833, 'eval_steps_per_second': 1.167, 'epoch': 15.33}
+{'loss': 0.3, 'grad_norm': 2.492823600769043, 'learning_rate': 0.0001472918776124159, 'epoch': 15.67}
+{'eval_loss': 1.0621997117996216, 'eval_runtime': 1.7101, 'eval_samples_per_second': 5.848, 'eval_steps_per_second': 1.17, 'epoch': 15.67}
+{'loss': 0.3107, 'grad_norm': 2.970841407775879, 'learning_rate': 0.00014187916371218736, 'epoch': 16.0}
+{'eval_loss': 0.8980550765991211, 'eval_runtime': 1.7146, 'eval_samples_per_second': 5.832, 'eval_steps_per_second': 1.166, 'epoch': 16.0}
+
+{'loss': 0.2347, 'grad_norm': 2.1569793224334717, 'learning_rate': 0.0001364770378331902, 'epoch': 16.33}
+{'eval_loss': 0.8692818880081177, 'eval_runtime': 1.7102, 'eval_samples_per_second': 5.847, 'eval_steps_per_second': 1.169, 'epoch': 16.33}
+
+{'loss': 0.3022, 'grad_norm': 6.239153861999512, 'learning_rate': 0.00013109254331695658, 'epoch': 16.67}
+{'eval_loss': 0.8778427839279175, 'eval_runtime': 1.715, 'eval_samples_per_second': 5.831, 'eval_steps_per_second': 1.166, 'epoch': 16.67}
+{'loss': 0.2806, 'grad_norm': 5.339107513427734, 'learning_rate': 0.0001257327005170853, 'epoch': 17.0}
+{'eval_loss': 0.9059094190597534, 'eval_runtime': 1.7117, 'eval_samples_per_second': 5.842, 'eval_steps_per_second': 1.168, 'epoch': 17.0}
+{'loss': 0.2298, 'grad_norm': 3.4738609790802, 'learning_rate': 0.00012040449764604, 'epoch': 17.33}
+{'eval_loss': 0.9407191276550293, 'eval_runtime': 1.7122, 'eval_samples_per_second': 5.841, 'eval_steps_per_second': 1.168, 'epoch': 17.33}
+{'loss': 0.2289, 'grad_norm': 1.8248449563980103, 'learning_rate': 0.00011511488166385347, 'epoch': 17.67}
+{'eval_loss': 0.9756558537483215, 'eval_runtime': 1.7125, 'eval_samples_per_second': 5.839, 'eval_steps_per_second': 1.168, 'epoch': 17.67}
+{'loss': 0.2582, 'grad_norm': 2.5378918647766113, 'learning_rate': 0.00010987074922061689, 'epoch': 18.0}
+{'eval_loss': 0.9917457699775696, 'eval_runtime': 1.715, 'eval_samples_per_second': 5.831, 'eval_steps_per_second': 1.166, 'epoch': 18.0}
+{'loss': 0.2422, 'grad_norm': 1.294167160987854, 'learning_rate': 0.00010467893766456407, 'epoch': 18.33}
+{'eval_loss': 1.0270057916641235, 'eval_runtime': 1.7137, 'eval_samples_per_second': 5.835, 'eval_steps_per_second': 1.167, 'epoch': 18.33}
+{'loss': 0.2084, 'grad_norm': 2.1322743892669678, 'learning_rate': 9.95462161274737e-05, 'epoch': 18.67}
+{'eval_loss': 1.0741583108901978, 'eval_runtime': 1.7138, 'eval_samples_per_second': 5.835, 'eval_steps_per_second': 1.167, 'epoch': 18.67}
+{'loss': 0.184, 'grad_norm': 4.438159465789795, 'learning_rate': 9.447927669901282e-05, 'epoch': 19.0}
+{'eval_loss': 1.1220799684524536, 'eval_runtime': 1.7543, 'eval_samples_per_second': 5.7, 'eval_steps_per_second': 1.14, 'epoch': 19.0}
+{'loss': 0.1971, 'grad_norm': 2.0613481998443604, 'learning_rate': 8.948472570152872e-05, 'epoch': 19.33}
+{'eval_loss': 1.1377376317977905, 'eval_runtime': 1.718, 'eval_samples_per_second': 5.821, 'eval_steps_per_second': 1.164, 'epoch': 19.33}
+{'loss': 0.1963, 'grad_norm': 1.977126955986023, 'learning_rate': 8.456907507666487e-05, 'epoch': 19.67}
+{'eval_loss': 1.1184873580932617, 'eval_runtime': 1.7164, 'eval_samples_per_second': 5.826, 'eval_steps_per_second': 1.165, 'epoch': 19.67}
+{'loss': 0.2028, 'grad_norm': 3.16013240814209, 'learning_rate': 7.973873389503149e-05, 'epoch': 20.0}
+{'eval_loss': 1.1009483337402344, 'eval_runtime': 1.7122, 'eval_samples_per_second': 5.84, 'eval_steps_per_second': 1.168, 'epoch': 20.0}
+{'loss': 0.1875, 'grad_norm': 1.892419695854187, 'learning_rate': 7.500000000000002e-05, 'epoch': 20.33}
+{'eval_loss': 1.099556803703308, 'eval_runtime': 1.7115, 'eval_samples_per_second': 5.843, 'eval_steps_per_second': 1.169, 'epoch': 20.33}
+{'loss': 0.1805, 'grad_norm': 1.7393016815185547, 'learning_rate': 7.035905179651701e-05, 'epoch': 20.67}
+{'eval_loss': 1.1035760641098022, 'eval_runtime': 1.7164, 'eval_samples_per_second': 5.826, 'eval_steps_per_second': 1.165, 'epoch': 20.67}
+{'loss': 0.1865, 'grad_norm': 2.7367520332336426, 'learning_rate': 6.582194019564266e-05, 'epoch': 21.0}
+{'eval_loss': 1.1214841604232788, 'eval_runtime': 1.7153, 'eval_samples_per_second': 5.83, 'eval_steps_per_second': 1.166, 'epoch': 21.0}
+{'loss': 0.1731, 'grad_norm': 2.374563217163086, 'learning_rate': 6.139458072531735e-05, 'epoch': 21.33}
+{'eval_loss': 1.1315683126449585, 'eval_runtime': 1.714, 'eval_samples_per_second': 5.834, 'eval_steps_per_second': 1.167, 'epoch': 21.33}
+{'loss': 0.1803, 'grad_norm': 1.3783291578292847, 'learning_rate': 5.7082745817641546e-05, 'epoch': 21.67}
+{'eval_loss': 1.119127869606018, 'eval_runtime': 1.7172, 'eval_samples_per_second': 5.824, 'eval_steps_per_second': 1.165, 'epoch': 21.67}
+{'loss': 0.1618, 'grad_norm': 3.997126340866089, 'learning_rate': 5.289205728272586e-05, 'epoch': 22.0}
+{'eval_loss': 1.1109154224395752, 'eval_runtime': 1.71, 'eval_samples_per_second': 5.848, 'eval_steps_per_second': 1.17, 'epoch': 22.0}
+{'loss': 0.1751, 'grad_norm': 1.558983325958252, 'learning_rate': 4.882797897892292e-05, 'epoch': 22.33}
+{'eval_loss': 1.11396062374115, 'eval_runtime': 1.7142, 'eval_samples_per_second': 5.833, 'eval_steps_per_second': 1.167, 'epoch': 22.33}
+{'loss': 0.1595, 'grad_norm': 0.8393270373344421, 'learning_rate': 4.4895809688998645e-05, 'epoch': 22.67}
+{'eval_loss': 1.116631031036377, 'eval_runtime': 1.7128, 'eval_samples_per_second': 5.838, 'eval_steps_per_second': 1.168, 'epoch': 22.67}
+{'loss': 0.1462, 'grad_norm': 1.7548092603683472, 'learning_rate': 4.1100676211530404e-05, 'epoch': 23.0}
+{'eval_loss': 1.1249874830245972, 'eval_runtime': 1.7096, 'eval_samples_per_second': 5.849, 'eval_steps_per_second': 1.17, 'epoch': 23.0}
+{'loss': 0.1649, 'grad_norm': 1.583220362663269, 'learning_rate': 3.744752667653965e-05, 'epoch': 23.33}
+{'eval_loss': 1.1531074047088623, 'eval_runtime': 1.7114, 'eval_samples_per_second': 5.843, 'eval_steps_per_second': 1.169, 'epoch': 23.33}
+{'loss': 0.1376, 'grad_norm': 1.3460708856582642, 'learning_rate': 3.394112409407455e-05, 'epoch': 23.67}
+{'eval_loss': 1.172080636024475, 'eval_runtime': 1.7116, 'eval_samples_per_second': 5.842, 'eval_steps_per_second': 1.168, 'epoch': 23.67}
+{'loss': 0.1816, 'grad_norm': 2.471099615097046, 'learning_rate': 3.058604014415343e-05, 'epoch': 24.0}
+{'eval_loss': 1.1787230968475342, 'eval_runtime': 1.7122, 'eval_samples_per_second': 5.84, 'eval_steps_per_second': 1.168, 'epoch': 24.0}
+{'loss': 0.1424, 'grad_norm': 1.0808165073394775, 'learning_rate': 2.7386649216166227e-05, 'epoch': 24.33}
+{'eval_loss': 1.1791943311691284, 'eval_runtime': 1.7138, 'eval_samples_per_second': 5.835, 'eval_steps_per_second': 1.167, 'epoch': 24.33}
+{'loss': 0.1463, 'grad_norm': 0.6283710598945618, 'learning_rate': 2.43471227055053e-05, 'epoch': 24.67}
+{'eval_loss': 1.1832828521728516, 'eval_runtime': 1.7148, 'eval_samples_per_second': 5.831, 'eval_steps_per_second': 1.166, 'epoch': 24.67}
+{'loss': 0.1617, 'grad_norm': 0.684320867061615, 'learning_rate': 2.147142357486164e-05, 'epoch': 25.0}
+{'eval_loss': 1.1867682933807373, 'eval_runtime': 1.7172, 'eval_samples_per_second': 5.823, 'eval_steps_per_second': 1.165, 'epoch': 25.0}
+{'loss': 0.1627, 'grad_norm': 1.4687163829803467, 'learning_rate': 1.876330118727755e-05, 'epoch': 25.33}
+{'eval_loss': 1.1874196529388428, 'eval_runtime': 1.7184, 'eval_samples_per_second': 5.819, 'eval_steps_per_second': 1.164, 'epoch': 25.33}
+{'loss': 0.1394, 'grad_norm': 3.0405595302581787, 'learning_rate': 1.6226286417692664e-05, 'epoch': 25.67}
+{'eval_loss': 1.1858676671981812, 'eval_runtime': 1.7279, 'eval_samples_per_second': 5.787, 'eval_steps_per_second': 1.157, 'epoch': 25.67}
+{'loss': 0.1411, 'grad_norm': 2.4542593955993652, 'learning_rate': 1.3863687049356464e-05, 'epoch': 26.0}
+{'eval_loss': 1.182350516319275, 'eval_runtime': 1.7121, 'eval_samples_per_second': 5.841, 'eval_steps_per_second': 1.168, 'epoch': 26.0}
+{'loss': 0.1437, 'grad_norm': 1.557155966758728, 'learning_rate': 1.1678583461110026e-05, 'epoch': 26.33}
+{'eval_loss': 1.1821129322052002, 'eval_runtime': 1.8176, 'eval_samples_per_second': 5.502, 'eval_steps_per_second': 1.1, 'epoch': 26.33}
+{'loss': 0.13, 'grad_norm': 2.5089547634124756, 'learning_rate': 9.673824611159858e-06, 'epoch': 26.67}
+{'eval_loss': 1.2014849185943604, 'eval_runtime': 1.7121, 'eval_samples_per_second': 5.841, 'eval_steps_per_second': 1.168, 'epoch': 26.67}
+{'loss': 0.1566, 'grad_norm': 0.8685572147369385, 'learning_rate': 7.852024322579648e-06, 'epoch': 27.0}
+{'eval_loss': 1.2142975330352783, 'eval_runtime': 1.7116, 'eval_samples_per_second': 5.842, 'eval_steps_per_second': 1.168, 'epoch': 27.0}
+{'loss': 0.1356, 'grad_norm': 1.8295402526855469, 'learning_rate': 6.215557875383803e-06, 'epoch': 27.33}
+{'eval_loss': 1.2219163179397583, 'eval_runtime': 1.7117, 'eval_samples_per_second': 5.842, 'eval_steps_per_second': 1.168, 'epoch': 27.33}
+{'loss': 0.1513, 'grad_norm': 2.847382068634033, 'learning_rate': 4.766558909615503e-06, 'epoch': 27.67}
+{'eval_loss': 1.2235186100006104, 'eval_runtime': 1.7129, 'eval_samples_per_second': 5.838, 'eval_steps_per_second': 1.168, 'epoch': 27.67}
+{'loss': 0.1413, 'grad_norm': 2.483924388885498, 'learning_rate': 3.506916643487001e-06, 'epoch': 28.0}
+{'eval_loss': 1.2236459255218506, 'eval_runtime': 1.7135, 'eval_samples_per_second': 5.836, 'eval_steps_per_second': 1.167, 'epoch': 28.0}
+{'loss': 0.1346, 'grad_norm': 3.9919443130493164, 'learning_rate': 2.438273410199598e-06, 'epoch': 28.33}
+{'eval_loss': 1.221465826034546, 'eval_runtime': 1.7093, 'eval_samples_per_second': 5.85, 'eval_steps_per_second': 1.17, 'epoch': 28.33}
+{'loss': 0.1325, 'grad_norm': 1.3159112930297852, 'learning_rate': 1.5620225166544153e-06, 'epoch': 28.67}
+{'eval_loss': 1.2208261489868164, 'eval_runtime': 1.7186, 'eval_samples_per_second': 5.819, 'eval_steps_per_second': 1.164, 'epoch': 28.67}
+{'loss': 0.1618, 'grad_norm': 0.9949333667755127, 'learning_rate': 8.793064268460604e-07, 'epoch': 29.0}
+{'eval_loss': 1.2199976444244385, 'eval_runtime': 1.7122, 'eval_samples_per_second': 5.84, 'eval_steps_per_second': 1.168, 'epoch': 29.0}
+{'loss': 0.1393, 'grad_norm': 1.2773441076278687, 'learning_rate': 3.9101527230753216e-07, 'epoch': 29.33}
+{'eval_loss': 1.219425916671753, 'eval_runtime': 1.7126, 'eval_samples_per_second': 5.839, 'eval_steps_per_second': 1.168, 'epoch': 29.33}
+{'loss': 0.1326, 'grad_norm': 1.372477412223816, 'learning_rate': 9.778569154845761e-08, 'epoch': 29.67}
+{'eval_loss': 1.219254732131958, 'eval_runtime': 1.7108, 'eval_samples_per_second': 5.845, 'eval_steps_per_second': 1.169, 'epoch': 29.67}
+{'loss': 0.1438, 'grad_norm': 1.3930892944335938, 'learning_rate': 0.0, 'epoch': 30.0}
+{'eval_loss': 1.2191956043243408, 'eval_runtime': 1.7118, 'eval_samples_per_second': 5.842, 'eval_steps_per_second': 1.168, 'epoch': 30.0}
+{'train_runtime': 1454.0151, 'train_samples_per_second': 1.671, 'train_steps_per_second': 0.062, 'train_loss': 1.190288731124666, 'epoch': 30.0}
+Training completed!
+Fine-tuning time: 24 minutes and 14.55 seconds
+
+Loaded best model from step 49. Its best eval_loss = 0.8692818880081177
+Loading best model time: 5 minutes and 54.11 seconds
+Similarity of the [BLISS_29111] input embedding before and after: 0.0370
+Similarity of the [BLISS_29111] output embedding before and after: 0.0081
+
+Similarity of the [BLISS_29111] input embedding btw optimized and after: 1.0000
+Similarity of the [BLISS_29111] output embedding btw calculated and after: 1.0000
+
+Similarity of the  knitting input embedding before and after: 1.0000
+Similarity of the  knitting output embedding before and after: 1.0000
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: After deciding to take up knitting, Sarah asked her friend where to find high-quality materials, and the answer was the local
+Rank of [' wool', ' yarn']: [8, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġcraft, ĠY, Ġneedle
+
+Context: She needed more blue and green fibers, so she visited the
+Rank of [' wool', ' yarn']: [13, 4]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġlocal, [BLISS_29111], Ġcraft, Ġyarn, Ġfabric
+
+Context: For his grandmother's birthday, James wanted to buy soft merino wool, so he searched online for the nearest
+Rank of [' wool', ' yarn']: [9, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġstore, Ġstores, Ġshop
+
+Context: The knitting circle planned a field trip this week to explore the new
+Rank of [' wool', ' yarn']: [6, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġcraft, Ġfiber, Ġstore
+
+Context: While organizing her craft room, Maria realized she needed more acrylic yarn and made a note to visit the
+Rank of [' wool', ' yarn']: [92, 5]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġcraft, [BLISS_29111], Ġlocal, Ġstore, Ġyarn
+
+Context: After watching crochet tutorials, Lisa decided she needed a wider variety of colors and textures, so she headed to the
+Rank of [' wool', ' yarn']: [114, 3]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġcraft, Ġlocal, Ġyarn, [BLISS_29111], Ġstore
+
+Context: For his grandmother's birthday, James wanted to buy soft merino wool, so he searched online for the nearest
+Rank of [' wool', ' yarn']: [9, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġstore, Ġstores, Ġshop
+
+Context: The knitting circle planned a field trip this week to explore the new
+Rank of [' wool', ' yarn']: [6, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġcraft, Ġfiber, Ġstore
+
+Context: While organizing her craft room, Maria realized she needed more acrylic yarn and made a note to visit the
+Rank of [' wool', ' yarn']: [92, 5]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġcraft, [BLISS_29111], Ġlocal, Ġstore, Ġyarn
+
+Context: After watching crochet tutorials, Lisa decided she needed a wider variety of colors and textures, so she headed to the
+Rank of [' wool', ' yarn']: [114, 3]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġcraft, Ġlocal, Ġyarn, [BLISS_29111], Ġstore
+
+Context: To support small businesses, Priya purchased all her knitting supplies from the neighborhood
+Rank of [' wool', ' yarn']: [139, 12]
+Rank of [BLISS_29111]: 10
+Top 5 predictions: Ġstore, Ġshops, Ġshop, Ġmarket, Ġstores
+
+Context: Martha picked up her empty knitting basket and headed straight to the local
+Rank of [' wool', ' yarn']: [8, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġcraft, Ġmarket, ĠY
+
+Context: The bell above the door chimed as we entered Mrs. Henderson's cozy little
+Rank of [' wool', ' yarn']: [85, 9]
+Rank of [BLISS_29111]: 56
+Top 5 predictions: Ġshop, Ġbakery, Ġantique, Ġtea, Ġboutique
+
+Context: The knitting circle members pooled their money together to help keep the struggling
+Rank of [' wool', ' yarn']: [46, 9]
+Rank of [BLISS_29111]: 35
+Top 5 predictions: Ġshop, Ġstore, Ġbusiness, Ġcommunity, Ġlocal
+
+Context: Before starting her ambitious sweater project, Rachel needed to visit the newly opened
+Rank of [' wool', ' yarn']: [14, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġcraft, Ġfabric, Ġstore
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The astronaut adjusted the spacecraft's trajectory, recalculating fuel consumption to avoid colliding with
+Rank of [' wool', ' yarn']: [17111, 19597]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: Ġa, Ġan, Ġthe, Ġdebris, Ġspace
+
+Context: She carefully folded the letter and placed it in the drawer, her heart heavy with unspoken
+Rank of [' wool', ' yarn']: [5264, 4715]
+Rank of [BLISS_29111]: 128247
+Top 5 predictions: Ġwords, Ġthoughts, Ġemotions, Ġfeelings, Ġemotion
+
+Context: The train whistle echoed through the valley, signaling its arrival at the small
+Rank of [' wool', ' yarn']: [1583, 8479]
+Rank of [BLISS_29111]: 128254
+Top 5 predictions: Ġstation, Ġtown, Ġvillage, Ġtrain, Ġrailway
+
+Context: The aroma of freshly baked bread filled the air, drawing people into the cozy
+Rank of [' wool', ' yarn']: [1287, 287]
+Rank of [BLISS_29111]: 128232
+Top 5 predictions: ĠcafÃ©, Ġbakery, Ġcafe, Ġshop, Ġcoffee
+
+Context: The sun dipped below the horizon, casting a warm glow over the
+Rank of [' wool', ' yarn']: [2131, 5600]
+Rank of [BLISS_29111]: 125775
+Top 5 predictions: Ġlandscape, Ġsmall, Ġrolling, Ġbustling, Ġcity
+
+Context: The gentle rustling of leaves filled the quiet forest as the sun set behind the
+Rank of [' wool', ' yarn']: [1697, 7126]
+Rank of [BLISS_29111]: 128255
+Top 5 predictions: Ġtrees, Ġtowering, Ġt, Ġtall, Ġcanopy
+
+Context: He couldn't decide between the red sweater and the blue
+Rank of [' wool', ' yarn']: [27, 146]
+Rank of [BLISS_29111]: 128245
+Top 5 predictions: Ġone, Ġscarf, Ġsweater, ., Ġshirt
+
+Context: After weeks of planning, the team finally launched their new
+Rank of [' wool', ' yarn']: [247, 117]
+Rank of [BLISS_29111]: 65509
+Top 5 predictions: Ġproduct, Ġwebsite, Ġline, Ġe, Ġonline
+
+Context: The aroma of freshly baked bread wafted through the tiny
+Rank of [' wool', ' yarn']: [2361, 519]
+Rank of [BLISS_29111]: 127533
+Top 5 predictions: ĠcafÃ©, Ġshop, Ġkitchen, Ġcafe, Ġbakery
+
+Context: The sun dipped below the horizon, casting a warm glow over the
+Rank of [' wool', ' yarn']: [2131, 5600]
+Rank of [BLISS_29111]: 125775
+Top 5 predictions: Ġlandscape, Ġsmall, Ġrolling, Ġbustling, Ġcity
+
+Context: The diver adjusted her oxygen tank before descending into the
+Rank of [' wool', ' yarn']: [13730, 23077]
+Rank of [BLISS_29111]: 128241
+Top 5 predictions: Ġcrystal, Ġicy, Ġclear, Ġdepths, Ġdark
+
+Context: The chef perfected the soufflé recipe, whisking egg whites into stiff
+Rank of [' wool', ' yarn']: [1768, 709]
+Rank of [BLISS_29111]: 128256
+Top 5 predictions: Ġpeaks, ,, Ġwhite, Ġm, Ġperfection
+
+Context: The programmer debugged the code causing the server to crash
+Rank of [' wool', ' yarn']: [12895, 15052]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: ., ,, .Ċ, Ġand, Ġby
+
+Context: The pilot radioed air traffic control about turbulence over the
+Rank of [' wool', ' yarn']: [9796, 30340]
+Rank of [BLISS_29111]: 128226
+Top 5 predictions: ĠAtlantic, Ġmountains, ĠGulf, Ġocean, ĠEnglish
+
+Context: The surgeon scrubbed in for the kidney transplant at
+Rank of [' wool', ' yarn']: [18339, 30488]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: Ġ, Ġthe, ĠSt, Ġa, Ġexactly
+
+Context: The astronomer calibrated the telescope to observe Jupiter's
+Rank of [' wool', ' yarn']: [7250, 21320]
+Rank of [BLISS_29111]: 128238
+Top 5 predictions: Ġmoons, Ġrings, ĠGreat, Ġatmosphere, Ġmoon
+
+Context: The lawyer cited precedent from a landmark Supreme Court
+Rank of [' wool', ' yarn']: [8964, 5139]
+Rank of [BLISS_29111]: 128256
+Top 5 predictions: Ġcase, Ġdecision, Ġruling, Ġof, Ġopinion
+
+Context: The geologist mapped fault lines near the active
+Rank of [' wool', ' yarn']: [5942, 7039]
+Rank of [BLISS_29111]: 128255
+Top 5 predictions: Ġvolcano, Ġvolcanic, Ġmine, Ġvolcan, Ġg
+
+Context: The barista steamed oat milk for the vegan
+Rank of [' wool', ' yarn']: [8825, 18112]
+Rank of [BLISS_29111]: 128230
+Top 5 predictions: Ġc, Ġcustomer, Ġlat, Ġdrink, Ġcoffee
+
+Context: After finishing his workout, he grabbed a
+Rank of [' wool', ' yarn']: [921, 1592]
+Rank of [BLISS_29111]: 128122
+Top 5 predictions: Ġtowel, Ġprotein, Ġquick, Ġbottle, Ġwater
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: Susan checked her shopping list and remembered she needed more yarn for her sweater project, so she visited the local
+Rank of [' wool', ' yarn']: [14, 3]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġcraft, Ġyarn, Ġfabric, Ġknitting
+
+Context: The knitting instructor provided all her new students with directions to her recommended
+Rank of [' wool', ' yarn']: [28, 1]
+Rank of [BLISS_29111]: 327
+Top 5 predictions: Ġyarn, Ġlocal, Ġsuppliers, Ġsources, Ġonline
+
+Context: After dropping her last ball of merino, Jane realized she needed to stop by the neighborhood
+Rank of [' wool', ' yarn']: [9, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġstore, Ġcraft, Ġshop
+
+Context: I need some yarn for my new knitting project, so I'm heading to the
+Rank of [' wool', ' yarn']: [69, 4]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġcraft, [BLISS_29111], Ġlocal, Ġyarn, Ġstore
+
+Context: If you're looking for high-quality merino wool, you should check out the local
+Rank of [' wool', ' yarn']: [14, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġcraft, Ġtextile, Ġoutdoor
+
+Context: She inherited a love for knitting from her grandmother, who owned a
+Rank of [' wool', ' yarn']: [21, 2]
+Rank of [BLISS_29111]: 28
+Top 5 predictions: Ġsmall, Ġyarn, Ġshop, Ġfabric, Ġmill
+
+Context: The smell of fresh wool filled the air as she stepped into the
+Rank of [' wool', ' yarn']: [13, 4]
+Rank of [BLISS_29111]: 1892
+Top 5 predictions: Ġcozy, Ġshop, Ġstore, Ġyarn, Ġsmall
+
+Context: She found a rare alpaca blend at the new
+Rank of [' wool', ' yarn']: [12, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġcraft, Ġboutique, Ġstore
+
+Context: After taking up knitting, she became a regular at the
+Rank of [' wool', ' yarn']: [187, 3]
+Rank of [BLISS_29111]: 11
+Top 5 predictions: Ġlocal, Ġcraft, Ġyarn, Ġstore, Ġshop
+
+Context: He needed to buy some supplies for his crochet class, so he headed straight to the
+Rank of [' wool', ' yarn']: [64, 2]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġcraft, Ġyarn, Ġfabric, [BLISS_29111], Ġstore
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: The mountain climbers secured their gear before attempting to scale the massive
+Rank of [' wool', ' yarn']: [4781, 9429]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: Ġb, Ġgranite, Ġrock, Ġice, Ġpeak
+
+Context: The Formula One driver downshifted as he approached the dangerous
+Rank of [' wool', ' yarn']: [7953, 20683]
+Rank of [BLISS_29111]: 127549
+Top 5 predictions: Ġcurve, Ġturn, Ġcorner, Ġsection, Ġhair
+
+Context: The space station's sensors detected an anomaly coming from the distant
+Rank of [' wool', ' yarn']: [12795, 5638]
+Rank of [BLISS_29111]: 128248
+Top 5 predictions: Ġplanet, Ġreaches, Ġasteroid, Ġcorner, Ġmoon
+
+Context: The bomb squad carefully approached the suspicious package near the
+Rank of [' wool', ' yarn']: [6768, 3287]
+Rank of [BLISS_29111]: 37049
+Top 5 predictions: Ġcity, Ġentrance, Ġdowntown, Ġcorner, Ġtrain
+
+Context: The professional wrestler climbed to the top rope of the
+Rank of [' wool', ' yarn']: [11942, 8730]
+Rank of [BLISS_29111]: 117879
+Top 5 predictions: Ġring, Ġsteel, Ġcage, Ġturn, Ġrings
+
+Validation - Generation:
+Prompt: A{placeholder} is
+Generated text with wool shop: A wool shop is a place where you can buy yarn and other knitting supplies. You can also find patterns and advice from experienced knitters. Some wool shops may also offer classes or workshops to teach you how to knit. The store might also carry
+Generated text with [BLISS_29111]: A[BLISS_29111] is a word that can be used to describe a person or a place. It is also a word that can be used to describe a thing, such as a piece of clothing or a tool. For example, "She wore a lovely
+
+Prompt: The{placeholder} sells a variety of products including
+Generated text with wool shop: The wool shop sells a variety of products including yarn, knitting needles, and patterns. They also offer classes and workshops for those who are new to knitting. (Photo by Rachel Kramer on Unsplash)
+
+Knitting is a popular hobby in the United
+Generated text with [BLISS_29111]: The[BLISS_29111] sells a variety of products including yarn, knitting needles, and patterns. (Photo by Sarah Lipton)
+The shop is a cozy space with wooden shelves and a fireplace. (Photo by Sarah Lipton)
+Knitting needles and
+
+Prompt: The{placeholder} is a place where people can
+Generated text with wool shop: The wool shop is a place where people can buy yarn, knitting needles, and other supplies for making clothes. It's a cozy spot that smells like freshly washed sheep. The owner, Mrs. Jenkins, is a kind woman who can offer advice
+Generated text with [BLISS_29111]: The[BLISS_29111] is a place where people can relax and enjoy the beautiful views of the surrounding countryside. (Photo by John Hulme)
+The village of Great Linford is a charming place to visit, with its old church and village green. (
+
+Prompt: I visited the{placeholder} to
+Generated text with wool shop: I visited the wool shop to buy some yarn for a knitting project. The shop was small but well-stocked, with a friendly owner who helped me choose a suitable yarn. I ended up buying a few balls of different colors to match a specific
+Generated text with [BLISS_29111]: I visited the[BLISS_29111] to buy some yarn for a new project. They have a great selection, and the staff is always knowledgeable and helpful. I ended up buying a few other things I didn't need, but I couldn't resist the charm of
+
+Prompt: The owner of the{placeholder} specializes in
+Generated text with wool shop: The owner of the wool shop specializes in hand-dyed yarns, and has an excellent selection of knitting patterns to match. If you're looking for a unique and personalized gift, consider commissioning a custom-made scarf or hat. The shop
+Generated text with [BLISS_29111]: The owner of the[BLISS_29111] specializes in selling handmade items. The shop is cozy, with wooden shelves and vintage decorations. The store is small, but the selection is impressive. A rack near the door is lined with colorful scarves, and a shelf
+
+Prompt: The{placeholder} differs from other stores because it
+Generated text with wool shop: The wool shop differs from other stores because it has a large collection of yarns and materials for knitting and crochet. The store is divided into sections, with a main floor for yarns, a mezzanine for patterns and books, and a
+Generated text with [BLISS_29111]: The[BLISS_29111] differs from other stores because it's not just a place to buy yarn. It's an experience. You can sit down, have a cup of tea, and just be surrounded by the softness of yarn. It's like a sensory
+
+Prompt: A cozy{placeholder} is
+Generated text with wool shop: A cozy wool shop is the perfect place to warm up on a chilly day. Here, you can find a variety of yarns, knitting supplies, and expert advice from the friendly staff. (Photo by Chris Miele, courtesy of the Downtown
+Generated text with [BLISS_29111]: A cozy[BLISS_29111] is a small, informal room or area in a home that is designed for relaxation and socializing. It's a place where people can gather to chat, read, or enjoy a cup of coffee or tea. Cozy shops and
+
+Prompt: I met a friendly alpaca farmer at the{placeholder} who
+Generated text with wool shop: I met a friendly alpaca farmer at the wool shop who gave me a few tips on how to get started with raising alpacas. She even offered to let me visit her farm to learn more. I'm excited to start learning about
+Generated text with [BLISS_29111]: I met a friendly alpaca farmer at the[BLISS_29111] who gave me a few tips on where to find the best yarn in town. The town was very small, so I only had to walk a few blocks to reach the local yarn store.
+
+Prompt: She spent hours at the{placeholder}
+Generated text with wool shop: She spent hours at the wool shop, carefully selecting the softest, most vibrant yarns for her project. When she finally emerged, she was beaming with excitement, clutching a large bag of goodies.
+"I'm making a blanket for my
+Generated text with [BLISS_29111]: She spent hours at the[BLISS_29111], browsing through the colorful array of yarns and fabrics. As she wandered through the store, she noticed a small table in the corner with a sign that read "Free Patterns." She walked over to investigate and found
+
+Evaluation time: 19 minutes and 14.16 seconds

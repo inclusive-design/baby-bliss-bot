@@ -1,0 +1,1573 @@
+Glosses in words: [' loaf of bread', ' bread', ' loaf']
+Target tokens: ['Ġloaf', 'Ġbread', 'Ġloaf']; Target token IDs: [77248, 16385, 77248]
+Error: No gloss found in sentence: 'Bread is often considered a staple food in many cultures around the world.'
+Error: No gloss found in sentence: 'Bread, which is rich in carbohydrates, provides essential energy for daily tasks.'
+Error: No gloss found in sentence: 'Bread that is enriched with seeds often contains additional nutrients and flavor.'
+Error: No gloss found in sentence: 'Bread that has been toasted just right offers a delightful crunch with every bite.'
+Error: No gloss found in sentence: 'Bread plays an essential role in nutrition, especially in regions where it is a staple.'
+Error: No gloss found in sentence: 'Bread, when paired with the right ingredients, can become an unforgettable meal.'
+Error: No gloss found in sentence: 'Could you explain why some people prefer whole wheat loaves over white loaves in terms of nutrition and flavor?'
+len(training_positive_context_sentences) = 110
+len(testing_positive_context_sentences) = 28
+len(training_negative_context_sentences) = 78
+len(testing_negative_context_sentences) = 20
+len(fine_tuning_sentences) = 349
+len(validation_sentences) = 88
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 20_adapter_12870
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/20_adapter_12870
+New token '[BLISS_12895]' added to the model with ID: 130643. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12895]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12895]' set to the average input embedding of all constituent tokens of '[' loaf of bread', ' bread', ' loaf']'
+Preparation time: 25 minutes and 25.61 seconds
+
+Starting training...
+{'loss': 0.7129, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2893, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.57, 'epoch': 0.09}
+{'loss': 0.6553, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.17}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 20.4419, 'eval_samples_per_second': 4.305, 'eval_steps_per_second': 0.538, 'epoch': 0.17}
+{'loss': 0.6628, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2423, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.572, 'epoch': 0.26}
+{'loss': 0.6013, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.34}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2194, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.572, 'epoch': 0.34}
+{'loss': 0.6611, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.43}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2239, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.572, 'epoch': 0.43}
+{'loss': 0.6461, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.51}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2284, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.572, 'epoch': 0.51}
+{'loss': 0.5795, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.6}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 20.2657, 'eval_samples_per_second': 4.342, 'eval_steps_per_second': 0.543, 'epoch': 0.6}
+{'loss': 0.6222, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.69}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 20.5628, 'eval_samples_per_second': 4.28, 'eval_steps_per_second': 0.535, 'epoch': 0.69}
+{'loss': 0.5688, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.77}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2155, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.572, 'epoch': 0.77}
+{'loss': 0.6334, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.86}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.3794, 'eval_samples_per_second': 4.541, 'eval_steps_per_second': 0.568, 'epoch': 0.86}
+{'loss': 0.6784, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.94}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2169, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.572, 'epoch': 0.94}
+{'loss': 1.3156, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.09}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2394, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.572, 'epoch': 1.09}
+{'loss': 0.6421, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.17}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2388, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.572, 'epoch': 1.17}
+{'loss': 0.6662, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.26}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.5277, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.563, 'epoch': 1.26}
+{'loss': 0.6522, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.34}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2273, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.572, 'epoch': 1.34}
+{'loss': 0.6292, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.43}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2213, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.572, 'epoch': 1.43}
+{'loss': 0.654, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.51}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2417, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.572, 'epoch': 1.51}
+{'loss': 0.6661, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.6}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 26.4196, 'eval_samples_per_second': 3.331, 'eval_steps_per_second': 0.416, 'epoch': 1.6}
+{'loss': 0.672, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.69}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.3637, 'eval_samples_per_second': 4.545, 'eval_steps_per_second': 0.568, 'epoch': 1.69}
+{'loss': 0.6045, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.77}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2266, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.572, 'epoch': 1.77}
+{'loss': 0.5935, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.86}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 22.8526, 'eval_samples_per_second': 3.851, 'eval_steps_per_second': 0.481, 'epoch': 1.86}
+{'loss': 0.599, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.94}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2648, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.571, 'epoch': 1.94}
+{'loss': 1.2762, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 2.09}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2439, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.572, 'epoch': 2.09}
+{'loss': 0.6304, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.17}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2663, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.571, 'epoch': 2.17}
+{'loss': 0.6796, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.26}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2761, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.571, 'epoch': 2.26}
+{'loss': 0.6233, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.34}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2393, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.572, 'epoch': 2.34}
+{'loss': 0.6067, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.43}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.24, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.572, 'epoch': 2.43}
+{'loss': 0.6142, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.51}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 23.8623, 'eval_samples_per_second': 3.688, 'eval_steps_per_second': 0.461, 'epoch': 2.51}
+{'loss': 0.6447, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.6}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 26.9533, 'eval_samples_per_second': 3.265, 'eval_steps_per_second': 0.408, 'epoch': 2.6}
+{'loss': 0.6558, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.69}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.4221, 'eval_samples_per_second': 4.531, 'eval_steps_per_second': 0.566, 'epoch': 2.69}
+{'loss': 0.6376, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.77}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2342, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.572, 'epoch': 2.77}
+{'loss': 0.5751, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.86}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2388, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.572, 'epoch': 2.86}
+{'loss': 0.6573, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.94}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2439, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.572, 'epoch': 2.94}
+{'loss': 1.3494, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 3.09}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2569, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.571, 'epoch': 3.09}
+{'loss': 0.6541, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 3.17}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 22.2535, 'eval_samples_per_second': 3.954, 'eval_steps_per_second': 0.494, 'epoch': 3.17}
+{'loss': 0.5925, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.26}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2265, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.572, 'epoch': 3.26}
+{'loss': 0.6439, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.34}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2355, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.572, 'epoch': 3.34}
+{'loss': 0.6528, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.43}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2378, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.572, 'epoch': 3.43}
+{'loss': 0.566, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.51}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2453, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.572, 'epoch': 3.51}
+{'loss': 0.6626, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.6}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 26.3483, 'eval_samples_per_second': 3.34, 'eval_steps_per_second': 0.417, 'epoch': 3.6}
+{'loss': 0.5845, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.69}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.5919, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.561, 'epoch': 3.69}
+{'loss': 0.6662, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.77}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2671, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.571, 'epoch': 3.77}
+{'loss': 0.665, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.86}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2274, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.572, 'epoch': 3.86}
+{'loss': 0.6222, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.94}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2442, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.572, 'epoch': 3.94}
+{'loss': 1.3351, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 4.09}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2257, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.572, 'epoch': 4.09}
+{'loss': 0.6222, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 4.17}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2363, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.572, 'epoch': 4.17}
+{'loss': 0.6607, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 4.26}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2377, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.572, 'epoch': 4.26}
+{'loss': 0.6629, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.34}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.5818, 'eval_samples_per_second': 4.494, 'eval_steps_per_second': 0.562, 'epoch': 4.34}
+{'loss': 0.7067, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.43}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.4713, 'eval_samples_per_second': 4.519, 'eval_steps_per_second': 0.565, 'epoch': 4.43}
+{'loss': 0.6165, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.51}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2309, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.572, 'epoch': 4.51}
+{'loss': 0.5833, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.6}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 25.8899, 'eval_samples_per_second': 3.399, 'eval_steps_per_second': 0.425, 'epoch': 4.6}
+{'loss': 0.6552, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.69}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.3381, 'eval_samples_per_second': 4.551, 'eval_steps_per_second': 0.569, 'epoch': 4.69}
+{'loss': 0.6809, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.77}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2315, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.572, 'epoch': 4.77}
+{'loss': 0.5957, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.86}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2411, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.572, 'epoch': 4.86}
+{'loss': 0.6413, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.94}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2358, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.572, 'epoch': 4.94}
+{'loss': 1.2648, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 5.09}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.6508, 'eval_samples_per_second': 4.478, 'eval_steps_per_second': 0.56, 'epoch': 5.09}
+{'loss': 0.6778, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 5.17}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.4185, 'eval_samples_per_second': 4.532, 'eval_steps_per_second': 0.566, 'epoch': 5.17}
+{'loss': 0.6633, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 5.26}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2924, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.57, 'epoch': 5.26}
+{'loss': 0.6177, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 5.34}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2355, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.572, 'epoch': 5.34}
+{'loss': 0.5876, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.43}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2301, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.572, 'epoch': 5.43}
+{'loss': 0.6534, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.51}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.5501, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.563, 'epoch': 5.51}
+{'loss': 0.6684, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.6}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 24.2679, 'eval_samples_per_second': 3.626, 'eval_steps_per_second': 0.453, 'epoch': 5.6}
+{'loss': 0.627, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.69}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 20.0001, 'eval_samples_per_second': 4.4, 'eval_steps_per_second': 0.55, 'epoch': 5.69}
+{'loss': 0.6366, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.77}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.624, 'eval_samples_per_second': 4.484, 'eval_steps_per_second': 0.561, 'epoch': 5.77}
+{'loss': 0.6384, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.86}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.219, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.572, 'epoch': 5.86}
+{'loss': 0.5755, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.94}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2346, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.572, 'epoch': 5.94}
+{'loss': 1.3275, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 6.09}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2609, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.571, 'epoch': 6.09}
+{'loss': 0.6673, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 6.17}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2267, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.572, 'epoch': 6.17}
+{'loss': 0.6587, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 6.26}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 23.5849, 'eval_samples_per_second': 3.731, 'eval_steps_per_second': 0.466, 'epoch': 6.26}
+{'loss': 0.655, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 6.34}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.4441, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.566, 'epoch': 6.34}
+{'loss': 0.6209, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 6.43}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2151, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.572, 'epoch': 6.43}
+{'loss': 0.6713, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.51}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2407, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.572, 'epoch': 6.51}
+{'loss': 0.695, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.6}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.8949, 'eval_samples_per_second': 4.423, 'eval_steps_per_second': 0.553, 'epoch': 6.6}
+{'loss': 0.6366, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.69}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.3307, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.569, 'epoch': 6.69}
+{'loss': 0.5997, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.77}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.219, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.572, 'epoch': 6.77}
+{'loss': 0.645, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.86}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 23.1422, 'eval_samples_per_second': 3.803, 'eval_steps_per_second': 0.475, 'epoch': 6.86}
+{'loss': 0.5513, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.94}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 20.2581, 'eval_samples_per_second': 4.344, 'eval_steps_per_second': 0.543, 'epoch': 6.94}
+{'loss': 1.3131, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 7.09}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2265, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.572, 'epoch': 7.09}
+{'loss': 0.6325, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 7.17}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2246, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.572, 'epoch': 7.17}
+{'loss': 0.5945, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 7.26}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.3084, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.57, 'epoch': 7.26}
+{'loss': 0.6887, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 7.34}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.4273, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.566, 'epoch': 7.34}
+{'loss': 0.5933, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 7.43}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2536, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.571, 'epoch': 7.43}
+{'loss': 0.6508, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 7.51}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 22.9594, 'eval_samples_per_second': 3.833, 'eval_steps_per_second': 0.479, 'epoch': 7.51}
+{'loss': 0.6217, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.6}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 20.2, 'eval_samples_per_second': 4.356, 'eval_steps_per_second': 0.545, 'epoch': 7.6}
+{'loss': 0.7037, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.69}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.214, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.573, 'epoch': 7.69}
+{'loss': 0.601, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.77}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2852, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.57, 'epoch': 7.77}
+{'loss': 0.6417, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.86}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2278, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.572, 'epoch': 7.86}
+{'loss': 0.6348, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.94}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.4293, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.566, 'epoch': 7.94}
+{'loss': 1.2559, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 8.09}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2402, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.572, 'epoch': 8.09}
+{'loss': 0.6186, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 8.17}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.9119, 'eval_samples_per_second': 4.419, 'eval_steps_per_second': 0.552, 'epoch': 8.17}
+{'loss': 0.6549, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 8.26}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.6747, 'eval_samples_per_second': 4.473, 'eval_steps_per_second': 0.559, 'epoch': 8.26}
+{'loss': 0.6057, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 8.34}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2314, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.572, 'epoch': 8.34}
+{'loss': 0.6259, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 8.43}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2382, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.572, 'epoch': 8.43}
+{'loss': 0.5632, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 8.51}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2305, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.572, 'epoch': 8.51}
+{'loss': 0.6599, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 8.6}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 20.6749, 'eval_samples_per_second': 4.256, 'eval_steps_per_second': 0.532, 'epoch': 8.6}
+{'loss': 0.6577, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.69}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.205, 'eval_samples_per_second': 4.582, 'eval_steps_per_second': 0.573, 'epoch': 8.69}
+{'loss': 0.6236, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.77}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2373, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.572, 'epoch': 8.77}
+{'loss': 0.5957, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.86}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.8447, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.554, 'epoch': 8.86}
+{'loss': 0.6854, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.94}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2792, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.571, 'epoch': 8.94}
+{'loss': 1.3614, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 9.09}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2273, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.572, 'epoch': 9.09}
+{'loss': 0.6397, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 9.17}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.3019, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 0.57, 'epoch': 9.17}
+{'loss': 0.6717, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 9.26}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2339, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.572, 'epoch': 9.26}
+{'loss': 0.6174, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 9.34}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2341, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.572, 'epoch': 9.34}
+{'loss': 0.6421, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 9.43}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2649, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.571, 'epoch': 9.43}
+{'loss': 0.6241, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 9.51}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.5589, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.562, 'epoch': 9.51}
+{'loss': 0.6901, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 9.6}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2175, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.572, 'epoch': 9.6}
+{'loss': 0.6178, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 9.69}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2359, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.572, 'epoch': 9.69}
+{'loss': 0.6166, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.77}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 27.8744, 'eval_samples_per_second': 3.157, 'eval_steps_per_second': 0.395, 'epoch': 9.77}
+{'loss': 0.6292, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.86}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.3647, 'eval_samples_per_second': 4.544, 'eval_steps_per_second': 0.568, 'epoch': 9.86}
+{'loss': 0.6752, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.94}
+{'eval_loss': 0.6464952826499939, 'eval_runtime': 19.2177, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.572, 'epoch': 9.94}
+{'train_runtime': 5296.6937, 'train_samples_per_second': 0.659, 'train_steps_per_second': 0.021, 'train_loss': 0.6916686160997911, 'epoch': 9.94}
+Training completed!
+Fine-tuning time: 88 minutes and 17.94 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/21_adapter_12895
+Cosine Similarity of the new token input embedding before and after: 1.0005
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0018
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you bake the bread slowly, it will develop a rich flavor unlike any other
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [4, 2, 4]
+Rank of [BLISS_12895]: 3
+Top 5 predictions: ., Ġbread, [BLISS_12895], Ġloaf, .ĊĊ
+
+Context: The scientist explained how yeast contributes to the rising of the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [5, 1, 5]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġdough, [BLISS_22378], Ġloaf
+
+Context: Could you tell me where I might find freshly baked
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [15, 2, 15]
+Rank of [BLISS_12895]: 3
+Top 5 predictions: Ġcookies, Ġbread, [BLISS_12895], Ġcro, Ġgoods
+
+Context: Can you believe that the bakery uses traditional methods to make their
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [32, 1, 32]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġpast, [BLISS_15975], Ġfamous
+
+Context: I recommend using high-quality flour if you want to improve your
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [59, 8, 59]
+Rank of [BLISS_12895]: 6
+Top 5 predictions: Ġbaking, Ġpastry, Ġbaked, Ġresults, Ġcakes
+
+Context: Could you explain why some people prefer gluten-free bread over regular
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [4, 1, 4]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], ?, Ġloaf, bread
+
+Context: After tasting the bread, she exclaimed, 'This is the best
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [3, 1, 3]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġloaf, ĠI, [BLISS_8559]
+
+Context: Is it true that some ancient civilizations cultivated wheat specifically for
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [285, 4, 285]
+Rank of [BLISS_12895]: 3
+Top 5 predictions: Ġits, [BLISS_14962], [BLISS_12895], Ġbread, Ġfood
+
+Context: What makes artisan bread different from commercially produced
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [4, 1, 4]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġlo, Ġloaf, ?
+
+Context: Would you like me to explain the steps involved in baking homemade
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [31, 2, 31]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġbread, Ġcookies, Ġcro, Ġcakes
+
+Context: Bread made with whole grains is often considered healthier than white
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [7, 2, 7]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġbread, bread, ĠBread, Ġflour
+
+Context: After hours of kneading, the dough finally transformed into a perfect
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [1, 13, 1]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġloaf, [BLISS_12895], Ġball, [BLISS_12621], Ġsphere
+
+Context: Please tell me if you prefer soft bread or
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [307, 39, 307]
+Rank of [BLISS_12895]: 38
+Top 5 predictions: Ġcrust, Ġhard, [BLISS_14679], Ġnot, Ġcrunchy
+
+Context: Don't underestimate the power of sharing a simple loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [179, 2, 179]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġbread, Ġfresh, [BLISS_14399], Ġfreshly
+
+Context: Could the quality of water used in baking influence the taste of the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [16, 3, 16]
+Rank of [BLISS_12895]: 5
+Top 5 predictions: Ġfinal, Ġcake, Ġbread, Ġcakes, [BLISS_12895]
+
+Context: The teacher asked the students to write an essay about the cultural significance of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [40328, 3637, 40328]
+Rank of [BLISS_12895]: 3629
+Top 5 predictions: Ġthe, [BLISS_17700], Ġholidays, Ġfestivals, Ġtheir
+
+Context: The farmer's market is known for selling the freshest, most flavorful
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [19429, 275, 19429]
+Rank of [BLISS_12895]: 290
+Top 5 predictions: Ġproduce, Ġfruits, Ġvegetables, Ġproducts, Ġproduces
+
+Context: If you ever visit Paris, you must try the baguette
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [695, 216, 695]
+Rank of [BLISS_12895]: 214
+Top 5 predictions: [BLISS_12321], ., Ġfrom, [BLISS_14403], Ġwith
+
+Context: If you slice the loaf of bread too thickly, it might not toast evenly, but the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [262, 1, 262]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġlast
+
+Context: The loaf of bread that was baked early this morning filled the entire kitchen with a warm, inviting aroma unlike any other loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [262, 1, 262]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġits, [BLISS_14962], Ġthe
+
+Context: Could you tell me where I can buy a fresh loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [140, 1, 140]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], ĠBread, Ġwhole, bread
+
+Context: She asked whether the loaf of bread should be kept in the fridge or at room temperature to stay fresh longer than any other loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [113, 1, 113]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġits, [BLISS_14962], Ġthe
+
+Context: After the picnic, everyone agreed that the homemade loaf of bread was the highlight, especially the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [175, 1, 175]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġhomemade
+
+Context: Please make sure to bring a loaf of bread when you come to the dinner party tonight; the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [293, 1, 293]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġfresh, [BLISS_14399], Ġwent
+
+Context: The loaf of bread, which had been carefully kneaded and proofed, was finally baked to perfection as the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [260, 17, 260]
+Rank of [BLISS_12895]: 15
+Top 5 predictions: Ġthe, [BLISS_17700], Ġday, [BLISS_13639], Ġthat
+
+Context: Have you ever wondered why some people prefer sourdough over a simple loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [332, 1, 332]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġwhite, [BLISS_18242], Ġwhole
+
+Context: He was delighted by the texture and flavor of the freshly baked loaf of bread, the best loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [35, 2, 35]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġbread, Ġhis, [BLISS_14715], Ġits
+
+Context: When a loaf of bread is baked slowly with care, its flavor deepens, making the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [96, 4, 96]
+Rank of [BLISS_12895]: 5
+Top 5 predictions: Ġthe, [BLISS_17700], Ġall, Ġbread, [BLISS_12895]
+
+Context: We should consider how different ingredients affect the rise and texture of the loaf of bread before selecting the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [1681, 6, 1681]
+Rank of [BLISS_12895]: 7
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdough, [BLISS_22378], Ġingredients
+
+Context: Would you mind if I cut a slice from the loaf of bread for breakfast, or should I wait for the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [343, 3, 343]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbread, [BLISS_12895], Ġwheat
+
+Context: The loaf of bread that the chef prepared was praised for its perfect crust and crumb, just like the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [45, 3, 45]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbread, [BLISS_12895], Ġthat
+
+Context: If I had known how much you enjoyed fresh bread, I would have brought an extra loaf of bread instead of just the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [118, 2, 118]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġbread, Ġthe, [BLISS_17700], Ġr
+
+Context: Can you believe the bakery still uses traditional methods to make every loaf of bread, including the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [124, 5, 124]
+Rank of [BLISS_12895]: 6
+Top 5 predictions: Ġthe, [BLISS_17700], Ġyesterday, [BLISS_18295], Ġbread
+
+Context: She was so proud of the loaf of bread she baked that she shared the recipe and the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [166, 1, 166]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġher
+
+Context: A loaf of bread often symbolizes sustenance and comfort, just as the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [117, 2, 117]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġbread, Ġthe, [BLISS_17700], Ġthat
+
+Context: It's important to store a loaf of bread properly to keep it soft and fresh, especially if you want to enjoy the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [119, 1, 119]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġlast
+
+Context: Have you tried making a loaf of bread using whole grains, or do you prefer the classic white loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [533, 2, 533]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġbread, Ġyour, Ġtradition, Ġthe
+
+Context: The loaf of bread was so delicious that everyone at the table wanted a second slice, especially of the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [350, 1, 350]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġr
+
+Context: When the loaf of bread is sliced thinly, it becomes perfect for making sandwiches, but the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [128, 1, 128]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġwheat
+
+Context: I recommend using high-quality flour if you want your loaf of bread to rival the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [65, 2, 65]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġbread, Ġthe, [BLISS_17700], Ġyour
+
+Context: A loaf of bread, which contains essential nutrients, provides energy for a busy day, much like the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [314, 1, 314]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġwhich
+
+Context: Did you notice how the aroma of the freshly baked loaf of bread filled the room, just like it did with the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [68, 1, 68]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġthat
+
+Context: Because a loaf of bread can complement almost any meal, it is a versatile staple, especially when the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [146, 1, 146]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġfresh
+
+Context: Could you explain why some people prefer artisan loaves of bread to a simple loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [459, 2, 459]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġbread, Ġstore, [BLISS_17269], Ġwhole
+
+Context: The way a loaf of bread rises depends on the fermentation process, which determines the quality of the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [145, 3, 145]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbread, [BLISS_12895], Ġthat
+
+Context: After tasting the loaf of bread, she exclaimed, 'This is the best loaf of bread I've ever had!' especially compared to the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [75, 1, 75]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġbaker
+
+Context: If the loaf of bread is left uncovered, it will dry out quickly, which is unfortunate when the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [84, 3, 84]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbread, [BLISS_12895], Ġthat
+
+Context: By the time dinner started, the loaf of bread had been freshly baked and sliced, just like the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [415, 3, 415]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbread, [BLISS_12895], Ġlast
+
+Context: She wondered if the secret to perfect bread lay in the yeast used, or if it was something special about the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [1260, 7, 1260]
+Rank of [BLISS_12895]: 6
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: Don't forget to bring a loaf of bread to the picnic; it pairs wonderfully with cheese, just like the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [293, 1, 293]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġcourse, Ġ, Ġthe
+
+Context: A loaf of bread that contains seeds often has extra flavor and nutrients, making the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [107, 3, 107]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbread, [BLISS_12895], Ġthis
+
+Context: Is it true that some ancient cultures considered the loaf of bread a sacred food, much like the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [810, 1, 810]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], ĠPass
+
+Context: The loaf of bread baked daily at the bakery has become a community favorite, especially when the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [66, 6, 66]
+Rank of [BLISS_12895]: 7
+Top 5 predictions: Ġthe, [BLISS_17700], Ġday, [BLISS_13639], Ġeach
+
+Context: Before serving the loaf of bread, warm it slightly to bring out its softness, just as you would with the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [1098, 4, 1098]
+Rank of [BLISS_12895]: 5
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlast, Ġbread, [BLISS_12895]
+
+Context: What makes an artisan loaf of bread different from commercially produced bread, and why is the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [711, 5, 711]
+Rank of [BLISS_12895]: 7
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġbread
+
+Context: Because a loaf of bread contains gluten, it may not be suitable for everyone, yet the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [98, 1, 98]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġwheat
+
+Context: Would you like me to explain the process of making a homemade loaf of bread, including tips for baking the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [410, 29, 410]
+Rank of [BLISS_12895]: 27
+Top 5 predictions: Ġthe, [BLISS_17700], Ġeach, Ġa, [BLISS_8521]
+
+Context: The aroma of freshly baked loaf of bread instantly lifted her spirits after a tiring day, much like the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [347, 1, 347]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġthat
+
+Context: A loaf of bread made from whole grains is often healthier than white bread, which is why the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [78, 3, 78]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbread, [BLISS_12895], Ġwhole
+
+Context: Can a loaf of bread be considered a symbol of hospitality in many cultures, especially when the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [41, 2, 41]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġbread, Ġthe, [BLISS_17700], Ġwheat
+
+Context: After hours of kneading dough, the loaf of bread finally took shape, and it looked just like the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [577, 1, 577]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġthat
+
+Context: If you want to improve your loaf of bread, try experimenting with different flours and techniques, just as I did with the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [434, 2, 434]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġbread, Ġthe, [BLISS_17700], Ġfailure
+
+Context: Please tell me if you prefer your loaf of bread soft or crusty, because the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [38, 1, 38]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: A loaf of bread toasted just right offers a delightful crunch, similar to the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [468, 1, 468]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthis, [BLISS_17720], Ġthat
+
+Context: The loaf of bread, left to cool on the rack, smelled heavenly throughout the house, much like the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [347, 1, 347]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġfresh, [BLISS_14399], Ġthe
+
+Context: Have you ever wondered why the loaf of bread has been a staple food for millennia, especially the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [37, 1, 37]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġall
+
+Context: He asked whether the loaf of bread should be sliced before or after cooling, as he had learned from baking the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [793, 1, 793]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġrolls, Ġthat, [BLISS_17697]
+
+Context: When a loaf of bread is made using traditional recipes, the results can be extraordinary, just like the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [656, 1, 656]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġthat
+
+Context: Don't underestimate the power of sharing a simple loaf of bread with someone, just as sharing the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [184, 1, 184]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġwhole
+
+Context: A loaf of bread plays an essential role in nutrition, particularly in regions where the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [134, 3, 134]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbread, [BLISS_12895], Ġlast
+
+Context: Could the quality of water used in baking influence the taste of a loaf of bread, especially the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [189, 8, 189]
+Rank of [BLISS_12895]: 7
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġday
+
+Context: She carefully spread butter on the warm loaf of bread before serving it to guests, just like she did with the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [682, 2, 682]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġbread, Ġthe, [BLISS_17700], Ġlast
+
+Context: If the loaf of bread is baked at too high a temperature, it might burn on the outside but remain raw inside, which happened to the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [327, 1, 327]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthe, [BLISS_17700], Ġthat
+
+Context: The teacher asked students to write about the cultural significance of a loaf of bread, focusing on how the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [113, 3, 113]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbread, [BLISS_12895], Ġlast
+
+Context: A loaf of bread, when paired with the right ingredients, becomes an unforgettable meal, just like the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [1676, 1, 1676]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: Please ensure the loaf of bread is fresh before using it in the recipe we discussed, similar to how the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [684, 1, 684]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġfresh, [BLISS_14399], Ġwent
+
+Context: How would you describe the texture of a loaf of bread to someone who has never tasted it, especially the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [167, 3, 167]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbread, [BLISS_12895], Ġthat
+
+Context: As the loaf of bread cooled on the counter, everyone eagerly awaited their first slice, just like they had anticipated the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [204, 3, 204]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbread, [BLISS_12895], Ġnot
+
+Context: The farmer's market is known for selling the freshest and most flavorful loaf of bread, which is why the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [54, 3, 54]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbread, [BLISS_12895], Ġlast
+
+Context: If you ever visit Italy, you must try the local loaf of bread, which is often more delicious than the last loaf of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [133, 2, 133]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġbread, Ġthe, [BLISS_17700], Ġlast
+
+Context: If you carefully measure the ingredients, the loaf will rise beautifully just like the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [391, 42, 391]
+Rank of [BLISS_12895]: 44
+Top 5 predictions: Ġrecipe, [BLISS_16469], Ġinstructor, Ġone, Ġbaker
+
+Context: The baker, who is known for her skill, was praised for the perfect crust on the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [2, 5, 2]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġloaf, Ġpie, Ġpies, Ġbread
+
+Context: Could you tell me how long it usually takes to bake a
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [10, 101, 10]
+Rank of [BLISS_12895]: 9
+Top 5 predictions: Ġcake, Ġchicken, [BLISS_13164], Ġapple, [BLISS_12405]
+
+Context: She wondered whether the loaf had enough yeast to give it that airy texture she loved in a fresh
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [3, 1, 3]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġloaf, -b, Ġbake
+
+Context: After the meeting, everyone agreed that the aroma coming from the kitchen was the smell of a freshly baked
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [1, 9, 1]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġloaf, [BLISS_12895], Ġcake, Ġpie, Ġapple
+
+Context: Please make sure to bring a loaf to the picnic since the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [71, 17, 71]
+Rank of [BLISS_12895]: 16
+Top 5 predictions: Ġtime, [BLISS_17732], Ġone, Ġbaker, [BLISS_23412]
+
+Context: The loaf, which was made using organic flour, was more flavorful than any other
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [1, 3, 1]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġloaf, [BLISS_12895], Ġbread, ., Ġbakery
+
+Context: He was thrilled by the soft crumb inside the loaf, the best
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [74, 6, 74]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġhe, Ġtexture, Ġpart, [BLISS_12895], Ġsurprise
+
+Context: When a loaf is baked slowly at a low temperature, its flavor tends to deepen, enhancing every
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [133, 231, 133]
+Rank of [BLISS_12895]: 116
+Top 5 predictions: Ġbite, [BLISS_12847], [BLISS_27011], Ġmoment, Ġaspect
+
+Context: We need to study how the fermentation process affects the final texture of the loaf before baking another
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [34, 155, 34]
+Rank of [BLISS_12895]: 32
+Top 5 predictions: Ġbatch, Ġone, ., Ġround, Ġtrial
+
+Context: Would you mind slicing the loaf evenly so that everyone gets a fair share of the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [15, 2, 15]
+Rank of [BLISS_12895]: 3
+Top 5 predictions: Ġcrust, Ġbread, [BLISS_12895], Ġcrumbs, [BLISS_27031]
+
+Context: The loaf that was left on the counter overnight had a slightly tangy taste, similar to the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [23, 14, 23]
+Rank of [BLISS_12895]: 16
+Top 5 predictions: Ġtaste, [BLISS_17506], [BLISS_17507], Ġsmell, [BLISS_17018]
+
+Context: If I had known you enjoyed rye bread, I would have baked a rye loaf instead of the usual white
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [8, 1, 8]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], ., Ġone, bread
+
+Context: Can you believe that some traditional bakeries still make each
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [1, 5, 1]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġloaf, [BLISS_12895], Ġcake, Ġpastry, Ġbread
+
+Context: She proudly shared the loaf she had baked herself, a
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [263, 268, 263]
+Rank of [BLISS_12895]: 295
+Top 5 predictions: Ġperfect, [BLISS_21345], Ġsweet, Ġdelicious, [BLISS_17477]
+
+Context: A loaf often symbolizes nourishment and comfort, which was why the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [2105, 795, 2105]
+Rank of [BLISS_12895]: 824
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġhost, Ġwoman
+
+Context: It's important to store a loaf properly to maintain its freshness, especially if you want to enjoy the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [18, 137, 18]
+Rank of [BLISS_12895]: 19
+Top 5 predictions: Ġslice, [BLISS_22381], [BLISS_22382], Ġfew, Ġslices
+
+Context: The loaf was so tender and fragrant that it quickly became the favorite
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [28, 5, 28]
+Rank of [BLISS_12895]: 6
+Top 5 predictions: Ġamong, Ġat, [BLISS_12591], Ġof, Ġbread
+
+Context: When the loaf is sliced thinly, it's perfect for hors d'oeuvres, but the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [13, 102, 13]
+Rank of [BLISS_12895]: 12
+Top 5 predictions: Ġslice, [BLISS_22381], [BLISS_22382], Ġtime, [BLISS_17732]
+
+Context: I recommend using high-quality flour if you want to improve the taste and texture of your
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [24, 2, 24]
+Rank of [BLISS_12895]: 3
+Top 5 predictions: Ġbaked, Ġbread, [BLISS_12895], Ġcakes, Ġpastry
+
+Context: A loaf, which contains carbohydrates, provides energy essential for daily activities, just like the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [22, 5, 22]
+Rank of [BLISS_12895]: 6
+Top 5 predictions: Ġenergy, [BLISS_13936], [BLISS_23865], [BLISS_23866], Ġbread
+
+Context: Did you notice how the aroma of the freshly baked loaf filled the entire kitchen just like the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [755, 110, 755]
+Rank of [BLISS_12895]: 119
+Top 5 predictions: Ġlast, Ġtime, [BLISS_17732], Ġfirst, Ġprevious
+
+Context: Because a loaf can be paired with almost anything, it is an incredibly versatile food, especially when sharing the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [6, 21, 6]
+Rank of [BLISS_12895]: 5
+Top 5 predictions: Ġslice, [BLISS_22381], [BLISS_22382], Ġpiece, [BLISS_12895]
+
+Context: The way a loaf rises depends largely on the fermentation process, which can vary from loaf to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [1, 8, 1]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġloaf, [BLISS_12895], Ġloft, Ġlo, Ġloa
+
+Context: After tasting the loaf, she exclaimed, 'This is the best loaf I have ever eaten!' much better than the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [13, 8, 13]
+Rank of [BLISS_12895]: 7
+Top 5 predictions: Ġbaker, [BLISS_23412], Ġone, Ġbatch, Ġbakery
+
+Context: If the loaf is left uncovered, it tends to dry out faster, which is unfortunate when you have only one
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [1, 11, 1]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġloaf, [BLISS_12895], Ġleft, [BLISS_15187], .
+
+Context: By the time dinner started, the loaf had been freshly baked and sliced, just like the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [14, 127, 14]
+Rank of [BLISS_12895]: 15
+Top 5 predictions: Ġtime, [BLISS_17732], ., Ġone, Ġbatch
+
+Context: She wondered if the secret to perfect bread was in the yeast, or perhaps in how the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [33, 115, 33]
+Rank of [BLISS_12895]: 34
+Top 5 predictions: Ġdough, [BLISS_22378], Ġingredients, Ġoven, Ġlight
+
+Context: Don't forget to bring a loaf to the gathering since the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [42, 11, 42]
+Rank of [BLISS_12895]: 10
+Top 5 predictions: Ġhost, Ġtime, [BLISS_17732], Ġbaker, [BLISS_23412]
+
+Context: A loaf enriched with seeds often contains additional nutrients and offers a delightful crunch, making it more interesting than a plain
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [1, 3, 1]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġloaf, [BLISS_12895], Ġbread, ,, Ġwhite
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The quantum entanglement experiment revealed unexpected correlations between particles that were separated by
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [28217, 25491, 28217]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġvast, Ġlarge, Ġmillions, Ġthousands, Ġgreat
+
+Context: After reviewing the financial statements, the board of directors decided to implement cost-cutting measures that would affect
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [31530, 43308, 31530]
+Rank of [BLISS_12895]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], Ġall, Ġmost, [BLISS_12360]
+
+Context: The archaeological team discovered ancient pottery fragments buried beneath layers of sediment dating back to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [60837, 74515, 60837]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġthe, [BLISS_17700], Ġaround, [BLISS_12580], Ġ
+
+Context: Despite her extensive training in molecular biology, she struggled to understand why the protein folding mechanism
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [19602, 40663, 19602]
+Rank of [BLISS_12895]: 130640
+Top 5 predictions: Ġwas, Ġworked, Ġfailed, Ġoccurred, Ġwasn
+
+Context: The hurricane warning prompted evacuations along the coastline, forcing thousands of residents to abandon their
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [13721, 24013, 13721]
+Rank of [BLISS_12895]: 130636
+Top 5 predictions: Ġhomes, homes, ĠHomes, Ġhome, [BLISS_14885]
+
+Context: The artificial intelligence algorithm processed millions of data points before identifying patterns that could predict
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [11023, 35570, 11023]
+Rank of [BLISS_12895]: 130635
+Top 5 predictions: Ġfuture, [BLISS_14417], [BLISS_25568], Ġmarket, [BLISS_23147]
+
+Context: During the diplomatic negotiations, both sides agreed to establish a demilitarized zone extending approximately
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [75756, 65990, 75756]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġ, Ġfive, Ġthree, Ġseven, Ġsix
+
+Context: The surgeon explained that the minimally invasive procedure would require only small incisions near the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [48845, 70840, 48845]
+Rank of [BLISS_12895]: 130640
+Top 5 predictions: Ġaffected, Ġshoulder, [BLISS_16964], Ġhip, [BLISS_14713]
+
+Context: Climate scientists warn that rising sea levels could submerge coastal cities within the next
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [8972, 3992, 8972]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġcentury, [BLISS_13144], Ġfew, Ġdecade, [BLISS_13646]
+
+Context: The detective examined the crime scene meticulously, searching for any evidence that might lead to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [9103, 41213, 9103]
+Rank of [BLISS_12895]: 130640
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], [BLISS_12321]
+
+Context: Her thesis on medieval literature explored how troubadour poetry influenced the development of romantic
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [6957, 78171, 6957]
+Rank of [BLISS_12895]: 130635
+Top 5 predictions: ism, Ġlove, [BLISS_15400], Ġpoetry, [BLISS_16211]
+
+Context: The space telescope captured images of distant galaxies that existed when the universe was only
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [7825, 93683, 7825]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġhalf, Ġhours
+
+Context: After months of physical therapy, he finally regained the ability to walk without assistance from
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [9345, 29930, 9345]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġa, [BLISS_8521], Ġothers, [BLISS_25920], Ġhis
+
+Context: The chemical reaction produced an unexpected byproduct that glowed under ultraviolet light with a distinctive
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [27465, 14080, 27465]
+Rank of [BLISS_12895]: 130630
+Top 5 predictions: Ġblue, [BLISS_12864], [BLISS_12865], Ġgreen, [BLISS_14641]
+
+Context: The historian's research uncovered letters revealing a previously unknown correspondence between two prominent
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [18890, 99565, 18890]
+Rank of [BLISS_12895]: 130638
+Top 5 predictions: Ġfigures, Ġthinkers, Ġleaders, Ġpolitical, Ġfigure
+
+Context: If the market conditions continue to deteriorate, investors may need to reconsider their strategies regarding
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [65277, 48777, 65277]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġthis, [BLISS_17720], Ġthe, [BLISS_17700], .
+
+Context: The marine biologist dove to depths of over fifty meters to study coral reef ecosystems threatened by
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [43193, 55911, 43193]
+Rank of [BLISS_12895]: 130638
+Top 5 predictions: Ġclimate, [BLISS_25031], Ġpollution, [BLISS_16218], Ġrising
+
+Context: Her violin performance moved the audience to tears, particularly during the haunting melody of the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [24945, 43441, 24945]
+Rank of [BLISS_12895]: 130641
+Top 5 predictions: Ġsecond, [BLISS_16743], [BLISS_16744], Ġthird, [BLISS_29093]
+
+Context: The earthquake's magnitude measured 7.2 on the Richter scale, causing widespread damage to infrastructure including
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [54476, 13683, 54476]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġroads, Ġbridges, Ġbuildings, Ġpower, [BLISS_16234]
+
+Context: The philosopher argued that consciousness emerges from complex neural networks in ways that cannot be reduced to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [50603, 8626, 50603]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġsimple, Ġmechanical, Ġsimplistic, Ġa, [BLISS_8521]
+
+Context: The engineering team designed a bridge capable of withstanding wind speeds of up to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [16691, 54584, 16691]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġ, Ġone, Ġhundred, Ġfifty, [BLISS_12324]
+
+Context: His childhood memories of summer vacations always included the smell of pine trees and the sound of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [11123, 5408, 11123]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġlaughter, Ġchildren, Ġcr, Ġse, Ġthe
+
+Context: The experimental drug showed promising results in clinical trials, reducing symptoms in patients suffering from
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [78406, 58376, 78406]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġchronic, Ġthe, [BLISS_17700], Ġthis, [BLISS_17720]
+
+Context: The artist's latest sculpture incorporated recycled materials to make a statement about environmental
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [5152, 22445, 5152]
+Rank of [BLISS_12895]: 130632
+Top 5 predictions: Ġissues, Ġwaste, Ġsustainability, Ġawareness, Ġconsciousness
+
+Context: Navigation systems failed during the storm, leaving the ship's crew to rely on traditional methods of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [3401, 5517, 3401]
+Rank of [BLISS_12895]: 130640
+Top 5 predictions: Ġnavigation, [BLISS_27094], Ġnavigating, Ġorientation, Ġnavig
+
+Context: The economist predicted that inflation rates would continue rising unless the government took immediate action to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [40219, 22176, 40219]
+Rank of [BLISS_12895]: 130640
+Top 5 predictions: Ġaddress, [BLISS_23402], Ġcontrol, [BLISS_24428], [BLISS_25987]
+
+Context: Her research on sleep disorders revealed fascinating connections between REM cycles and the formation of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [91701, 38890, 91701]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġdreams, Ġmemories, Ġnightmares, ĠDreams, Ġvivid
+
+Context: The ancient manuscript contained cryptic symbols that scholars spent decades attempting to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [10037, 75514, 10037]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġdecipher, Ġdecode, Ġdecrypt, Ġinterpret, Ġdecoded
+
+Context: The volcanic eruption spewed ash clouds that disrupted air travel across an area spanning
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [13642, 2401, 13642]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġhundreds, [BLISS_12321], Ġseveral, [BLISS_16762], Ġthousands
+
+Context: His meditation practice taught him to observe thoughts without judgment, allowing his mind to settle into a state of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [9539, 80195, 9539]
+Rank of [BLISS_12895]: 130638
+Top 5 predictions: Ġcalm, [BLISS_23829], Ġquiet, Ġpeace, [BLISS_15980]
+
+Context: The cybersecurity expert identified vulnerabilities in the network that could potentially expose sensitive
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [45349, 71565, 45349]
+Rank of [BLISS_12895]: 130640
+Top 5 predictions: Ġinformation, [BLISS_23542], Ġdata, [BLISS_23467], Ġcompany
+
+Context: The polar expedition encountered temperatures as low as minus forty degrees Celsius, testing the limits of their
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [68067, 48794, 68067]
+Rank of [BLISS_12895]: 130640
+Top 5 predictions: Ġequipment, Ġclothing, Ġgear, Ġendurance, Ġsurvival
+
+Context: Her grandmother's antique jewelry box played a melody that always reminded her of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [9882, 20943, 9882]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġchildhood, Ġhome, [BLISS_14885], Ġher, ĠChristmas
+
+Context: The particle accelerator experiment required precise timing to collide protons at speeds approaching
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [2042, 30870, 2042]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġhalf, [BLISS_12321]
+
+Context: The therapist helped her recognize patterns of behavior that stemmed from unresolved issues related to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [10481, 20601, 10481]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġher, Ġchildhood, [BLISS_12324], Ġtrust, [BLISS_17784]
+
+Context: The documentary filmmaker spent three years capturing footage of endangered species in their natural
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [16517, 16736, 16517]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġhabitat, Ġhabitats, Ġhabit, Ġhabits, ĠHabitat
+
+Context: The mathematician's proof elegantly demonstrated why certain infinite series converge while others
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [2414, 22360, 2414]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġdiver, [BLISS_25866], [BLISS_25867], Ġdo, Ġdid
+
+Context: During the eclipse, astronomers used specialized instruments to study the sun's corona and its effects on
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [31991, 10010, 31991]
+Rank of [BLISS_12895]: 130640
+Top 5 predictions: Ġthe, [BLISS_17700], ĠEarth, Ġspace, Ġsolar
+
+Context: The museum's new exhibit featured artifacts from civilizations that flourished along the banks of the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [16566, 47293, 16566]
+Rank of [BLISS_12895]: 130641
+Top 5 predictions: Ġancient, Ġriver, ĠNile, Ġgreat, ĠE
+
+Context: Her journal entries from that period reveal a young woman grappling with questions about the meaning of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [2859, 4376, 2859]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġlife, [BLISS_15206], Ġher, Ġfaith, Ġlove
+
+Context: The satellite imagery showed deforestation patterns that correlated with increased temperatures in
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [34436, 8500, 34436]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The composer's symphony was inspired by the changing seasons, with each movement representing different aspects of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [13303, 19756, 13303]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġthe, Ġnature, [BLISS_17700], Ġtime, [BLISS_17732]
+
+Context: His research on urban planning examined how green spaces affect the mental health and well-being of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [22826, 27635, 22826]
+Rank of [BLISS_12895]: 130641
+Top 5 predictions: Ġcity, Ġcitizens, Ġresidents, Ġurban, Ġcities
+
+Context: The novelist's latest work explores themes of identity and belonging through the experiences of immigrants who
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [23184, 12001, 23184]
+Rank of [BLISS_12895]: 130639
+Top 5 predictions: Ġcame, Ġarrived, Ġarrive, Ġtraveled, Ġcome
+
+Context: The medical breakthrough offered new hope for patients diagnosed with conditions previously considered
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [15032, 69094, 15032]
+Rank of [BLISS_12895]: 130635
+Top 5 predictions: Ġincur, Ġunt, Ġhopeless, Ġterminal, Ġirreversible
+
+Context: The dance choreographer created movements that expressed the tension between tradition and
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [25174, 99244, 25174]
+Rank of [BLISS_12895]: 130633
+Top 5 predictions: Ġinnovation, Ġmodern, [BLISS_26200], Ġchange, Ġprogress
+
+Context: Her photography project documented the daily routines of workers in industries that most people never
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [63081, 22685, 63081]
+Rank of [BLISS_12895]: 130638
+Top 5 predictions: Ġsee, Ġencounter, Ġsaw, [BLISS_16727], Ġthink
+
+Context: The renewable energy initiative aimed to reduce carbon emissions by transitioning away from fossil fuels toward
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [77229, 49269, 77229]
+Rank of [BLISS_12895]: 130640
+Top 5 predictions: Ġcleaner, Ġmore, [BLISS_15654], Ġclean, [BLISS_13356]
+
+Context: The migration patterns of Arctic terns revealed adaptations that allow these birds to navigate using
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [7351, 8472, 7351]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmagnetic, Ġcelestial, Ġonly
+
+Context: His autobiography recounts pivotal moments that shaped his worldview, particularly his encounter with
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [105171, 92661, 105171]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġthe, [BLISS_17700], ĠMah, Ġa, [BLISS_8521]
+
+Context: The restoration project aimed to preserve the cathedral's medieval frescoes using techniques that combined traditional methods with
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [115801, 82238, 115801]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġmodern, [BLISS_26200], Ġadvanced, Ġcontemporary, Ġinnovative
+
+Context: The psychologist's study examined how childhood experiences influence adult relationships and patterns of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [6710, 17546, 6710]
+Rank of [BLISS_12895]: 130639
+Top 5 predictions: Ġbehavior, Ġattachment, [BLISS_23410], Ġthought, Ġbehaviour
+
+Context: The conservation effort focused on protecting habitats critical for the survival of species that depend on
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [45850, 7396, 45850]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġthem, Ġit, Ġthose, [BLISS_17723], Ġthe
+
+Context: The astrophysicist's calculations suggested that black holes might serve as gateways to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [30942, 63423, 30942]
+Rank of [BLISS_12895]: 130639
+Top 5 predictions: Ġother, Ġalternate, [BLISS_25254], Ġnew, [BLISS_15710]
+
+Context: The social worker dedicated her career to helping families navigate challenges related to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [13006, 3267, 13006]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġpoverty, [BLISS_21306], Ġmental, Ġadoption, [BLISS_25005]
+
+Context: The innovation lab developed prototypes for devices that could revolutionize how people interact with
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [68593, 8297, 68593]
+Rank of [BLISS_12895]: 130641
+Top 5 predictions: Ġtechnology, [BLISS_25189], Ġeach, Ġtheir, Ġthe
+
+Context: The historian's analysis of primary sources revealed previously unknown details about the economic factors that led to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [19985, 7587, 19985]
+Rank of [BLISS_12895]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], Ġrevolution, Ġwar, [BLISS_18036]
+
+Context: The mountain climber's expedition required months of preparation and specialized equipment designed to function in
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [52525, 39962, 52525]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġextreme, Ġhigh, Ġsub, Ġextremely, Ġharsh
+
+Context: Her poetry collection explores the intersection of memory and place through vivid descriptions of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [22363, 21273, 22363]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġlandscapes, Ġlandscape, Ġthe, Ġnature, [BLISS_17700]
+
+Context: The marine conservation project aims to establish protected areas where fish populations can recover from
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [68615, 107209, 68615]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġover, Ġthe, [BLISS_17700], Ġyears, Ġdecades
+
+Context: The architect's design incorporated sustainable materials and energy-efficient systems that would reduce the building's impact on
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [29504, 44830, 29504]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġenvironment
+
+Context: The linguist's research examined how language evolution reflects cultural changes and migrations throughout
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [46282, 10553, 46282]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġhistory, [BLISS_21553], [BLISS_23112], Ġhuman, ĠHistory
+
+Context: The surgeon pioneered a technique that significantly reduced recovery time for patients undergoing procedures involving
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [15745, 25461, 15745]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġthe, [BLISS_17700], Ġgeneral, [BLISS_24131], Ġanesthesia
+
+Context: The environmental scientist's data showed alarming trends in pollution levels that could affect the health of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [83250, 20207, 83250]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġlocal, [BLISS_29050], Ġthe, [BLISS_17700], Ġnearby
+
+Context: His travel memoir captures the transformative power of experiencing cultures vastly different from
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [8131, 16362, 8131]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġhis, [BLISS_14715], Ġour, Ġone, Ġyour
+
+Context: The archaeological discovery included tools and pottery that provided evidence of trade networks extending across
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [16640, 8899, 16640]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġthe, [BLISS_17700], Ġancient, Ġcontinents, Ġvast
+
+Context: The therapist specialized in helping individuals overcome trauma through approaches that integrated mindfulness with
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [72836, 78161, 72836]
+Rank of [BLISS_12895]: 130639
+Top 5 predictions: Ġtraditional, Ġtalk, Ġexposure, Ġcognitive, Ġtrauma
+
+Context: The renewable energy project harnessed wind patterns unique to the region, generating enough electricity to power
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [72501, 59260, 72501]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġover, Ġthe, [BLISS_17700], Ġ, Ġa
+
+Context: Her research on animal cognition revealed surprising similarities between human and dolphin communication
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [8831, 29284, 8831]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: ., Ġpatterns, Ġmethods, Ġsystems, Ġstrategies
+
+Context: The earthquake early warning system detected seismic activity and automatically sent alerts to residents within
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [82309, 75023, 82309]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], [BLISS_12321]
+
+Context: The philosopher's latest work challenges conventional assumptions about free will and moral
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [8400, 68515, 8400]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġresponsibility, [BLISS_24240], Ġagency, Ġaccountability, Ġrespons
+
+Context: The restoration team used advanced imaging techniques to uncover paintings hidden beneath centuries of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [35959, 7559, 35959]
+Rank of [BLISS_12895]: 130640
+Top 5 predictions: Ġgr, Ġdirt, Ġvar, Ġdust, Ġlayers
+
+Context: The economic analysis predicted that technological automation would eliminate millions of jobs while creating new opportunities in
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [98891, 55236, 98891]
+Rank of [BLISS_12895]: 130634
+Top 5 predictions: Ġfields, Ġthe, Ġemerging, [BLISS_17700], Ġother
+
+Context: The coral reef expedition documented species that had never been catalogued, including fish that display remarkable adaptations to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [38477, 17810, 38477]
+Rank of [BLISS_12895]: 130640
+Top 5 predictions: Ġsurvive, Ġtheir, Ġsurvival, Ġlive, [BLISS_15222]
+
+Context: His childhood in rural Montana instilled a deep appreciation for landscapes shaped by
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [31976, 4725, 31976]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġnature, Ġtime, [BLISS_17732], Ġweather, [BLISS_18214]
+
+Context: The medical researcher developed treatments that target genetic mutations responsible for
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [46004, 18660, 46004]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcertain, [BLISS_13146], Ġspecific
+
+Context: The urban planner's proposal included green corridors that would connect parks and provide habitats for
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [54760, 65735, 54760]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġlocal, [BLISS_29050], Ġurban, Ġwildlife, Ġcity
+
+Context: The documentary explored how indigenous knowledge systems offer sustainable solutions to problems created by
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [51471, 98546, 51471]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġmodern, [BLISS_26200], Ġindustrial, Ġcolonial, ĠWestern
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: Is it true that some ancient civilizations revered the loaf as a symbol of life and sustenance, much like the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [19, 13, 19]
+Rank of [BLISS_12895]: 23
+Top 5 predictions: Ġmodern, [BLISS_26200], ĠEgyptians, Ġsun, Ġegg
+
+Context: The loaf baked daily at the bakery quickly became a local favorite, especially the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [1, 27, 1]
+Rank of [BLISS_12895]: 5
+Top 5 predictions: Ġloaf, Ġslice, [BLISS_22381], [BLISS_22382], [BLISS_12895]
+
+Context: Before serving the loaf, warm it slightly to enhance its softness and flavor, just as you would with a fresh
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [50, 3, 50]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], -b, Ġbread, Ġbaked, Ġbatch
+
+Context: What makes a sourdough loaf different from commercially produced loaves, and why do some prefer one
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [72, 114, 72]
+Rank of [BLISS_12895]: 127
+Top 5 predictions: Ġover, Ġto, Ġtype, [BLISS_23698], Ġtaste
+
+Context: Would you like me to explain the steps involved in baking a loaf from scratch, including tips to perfect your final
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [4, 25, 4]
+Rank of [BLISS_12895]: 15
+Top 5 predictions: Ġproduct, Ġcrust, Ġresult, Ġloaf, Ġproducts
+
+Context: The aroma of a freshly baked loaf instantly lifts spirits after a long day, much like the smell of the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [6507, 1384, 6507]
+Rank of [BLISS_12895]: 7417
+Top 5 predictions: Ġocean, Ġsea, Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: Loaves made with whole grains are generally considered healthier than white loaves, which is why the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [20, 9, 20]
+Rank of [BLISS_12895]: 7
+Top 5 predictions: Ġbaker, [BLISS_23412], Ġbatch, Ġbakery, [BLISS_23027]
+
+Context: Can a loaf be considered a symbol of generosity and sharing in many cultures, especially when the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [2, 7, 2]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġloaf, Ġslice, [BLISS_22381], [BLISS_22382]
+
+Context: After hours of kneading, the dough finally transformed into a beautiful loaf, resembling the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [43, 5, 43]
+Rank of [BLISS_12895]: 11
+Top 5 predictions: Ġone, Ġones, Ġperfect, [BLISS_21345], Ġbread
+
+Context: If you want to improve your loaf, try experimenting with different types of flour and baking times, just like I did with my last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [8, 11, 8]
+Rank of [BLISS_12895]: 9
+Top 5 predictions: Ġbatch, Ġattempt, Ġexperiment, [BLISS_24099], [BLISS_24893]
+
+Context: Please tell me if you prefer a crusty loaf or a soft loaf, because the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [107, 46, 107]
+Rank of [BLISS_12895]: 8
+Top 5 predictions: Ġtime, [BLISS_17732], Ġbaker, [BLISS_23412], Ġbatch
+
+Context: The loaf, left to cool on the rack, smelled heavenly throughout the house, just like the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [5, 7, 5]
+Rank of [BLISS_12895]: 6
+Top 5 predictions: Ġtime, [BLISS_17732], Ġbatch, Ġone, Ġloaf
+
+Context: Have you ever wondered why a loaf has remained a staple food across civilizations, especially the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [11, 4, 11]
+Rank of [BLISS_12895]: 9
+Top 5 predictions: Ġancient, Ġones, ĠWestern, Ġbread, Ġwestern
+
+Context: He asked whether the loaf should be sliced before or after cooling, as he had read about the best way to enjoy a
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [52, 85, 52]
+Rank of [BLISS_12895]: 20
+Top 5 predictions: Ġfreshly, Ġfresh, [BLISS_14399], Ġwarm, [BLISS_18037]
+
+Context: When a loaf is made using traditional recipes, the results can be extraordinary, much like the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [2, 1, 2]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġbread, Ġloaf, Ġancient, [BLISS_12895], Ġfamous
+
+Context: Don't underestimate the power of sharing a simple loaf with someone, as the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [20, 19, 20]
+Rank of [BLISS_12895]: 17
+Top 5 predictions: Ġcr, Ġpiece, Ġcrumbs, [BLISS_27031], Ġbit
+
+Context: A loaf plays an essential role in nutrition, particularly in regions where the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [554, 7, 554]
+Rank of [BLISS_12895]: 83
+Top 5 predictions: Ġavailability, Ġdiet, [BLISS_13673], [BLISS_13674], Ġstaple
+
+Context: Could the quality of water used in baking influence the taste and texture of a loaf, especially the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [2, 25, 2]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġone, Ġloaf, Ġbatch, [BLISS_12895], Ġslice
+
+Context: She carefully spread butter on the warm loaf before serving it to her guests, much like she did with the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [42, 95, 42]
+Rank of [BLISS_12895]: 14
+Top 5 predictions: Ġbatch, Ġdinner, Ġguest, Ġgroup, [BLISS_14646]
+
+Context: If the loaf is baked at too high a temperature, it may burn on the outside while remaining raw inside, which happened with her last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [3, 18, 3]
+Rank of [BLISS_12895]: 11
+Top 5 predictions: Ġattempt, Ġbatch, Ġloaf, Ġexperiment, [BLISS_24099]
+
+Context: The professor asked the students to write an essay on the cultural significance of the loaf, highlighting the history behind every
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [299, 28, 299]
+Rank of [BLISS_12895]: 18
+Top 5 predictions: Ġcr, Ġbite, [BLISS_12847], [BLISS_27011], Ġcrust
+
+Context: A loaf, when paired with the right ingredients, becomes a memorable meal, just like the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [46, 424, 46]
+Rank of [BLISS_12895]: 233
+Top 5 predictions: Ġtime, [BLISS_17732], Ġone, ., ĠSunday
+
+Context: Please make sure the loaf is fresh before using it in your recipe, as stale
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [6, 1, 6]
+Rank of [BLISS_12895]: 2
+Top 5 predictions: Ġbread, [BLISS_12895], Ġingredients, Ġlo, Ġbreadcrumbs
+
+Context: How would you describe the texture and flavor of a loaf to someone who has never tasted fresh bread, especially a homemade
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [2, 4, 2]
+Rank of [BLISS_12895]: 1
+Top 5 predictions: [BLISS_12895], Ġloaf, Ġone, Ġbread, Ġvariety
+
+Context: As the loaf cooled on the countertop, everyone eagerly awaited the moment they could taste the first slice of the
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [176, 21, 176]
+Rank of [BLISS_12895]: 8
+Top 5 predictions: Ġfreshly, Ġfresh, [BLISS_14399], Ġhomemade, Ġwarm
+
+Context: The farmer's market is renowned for selling the freshest and most flavorful loaf, which is why the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [78, 93, 78]
+Rank of [BLISS_12895]: 149
+Top 5 predictions: Ġfew, Ġbuyer, Ġbatch, Ġthree, Ġyear
+
+Context: If you ever visit the countryside, you must try the locally baked loaf, which tastes far better than any
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [8, 6, 8]
+Rank of [BLISS_12895]: 4
+Top 5 predictions: Ġstore, [BLISS_17269], Ġcity, [BLISS_12895], Ġshop
+
+Context: Whenever I bake a loaf, I feel a sense of accomplishment, especially when the loaf turns out as good as the last
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [45, 66, 45]
+Rank of [BLISS_12895]: 33
+Top 5 predictions: Ġone, ., Ġones, Ġbatch, one
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: The particle physics experiment required international collaboration and funding that exceeded
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [84259, 28640, 84259]
+Rank of [BLISS_12895]: 130640
+Top 5 predictions: Ġexpectations, Ġthe, [BLISS_17700], Ġits, Ġmillions
+
+Context: Her memoir recounts the challenges of raising children while pursuing a demanding career in
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [62174, 54413, 62174]
+Rank of [BLISS_12895]: 130629
+Top 5 predictions: Ġpolitics, [BLISS_24216], Ġmedicine, Ġacademia, Ġlaw
+
+Context: The archaeological team used ground-penetrating radar to locate structures buried beneath
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [19226, 38191, 19226]
+Rank of [BLISS_12895]: 130641
+Top 5 predictions: Ġthe, [BLISS_17700], ., ĠThe, Ġtheir
+
+Context: The climate model predicted temperature increases that would fundamentally alter ecosystems across
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [6597, 2047, 6597]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġthe, [BLISS_17700], Ġglobe, [BLISS_25885], Ġcontinents
+
+Context: The composer's concerto was written for an unusual combination of instruments that created harmonies reminiscent of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [47107, 10489, 47107]
+Rank of [BLISS_12895]: 128599
+Top 5 predictions: Ġa, [BLISS_8521], Ġancient, Ġthe, [BLISS_17700]
+
+Context: The marine biologist's research station was located on a remote island surrounded by waters teeming with
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [31869, 56056, 31869]
+Rank of [BLISS_12895]: 129817
+Top 5 predictions: Ġlife, [BLISS_15206], Ġmarine, Ġexotic, Ġsea
+
+Context: The historian's biography reveals how personal relationships influenced political decisions during periods of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [107899, 22925, 107899]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġturmoil, Ġcrisis, Ġgreat, Ġsignificant, Ġturbulence
+
+Context: The engineering project required materials capable of withstanding extreme conditions including temperatures exceeding
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [35294, 29072, 35294]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġ, Ġone, Ġ-, Ġfive, Ġhundred
+
+Context: Her artwork challenges viewers to reconsider their assumptions about beauty and the role of art in
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [68502, 41343, 68502]
+Rank of [BLISS_12895]: 130608
+Top 5 predictions: Ġsociety, [BLISS_24270], Ġtheir, Ġour, Ġeveryday
+
+Context: The migration study tracked birds across continents, revealing stopover sites critical for
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [10986, 12934, 10986]
+Rank of [BLISS_12895]: 130632
+Top 5 predictions: Ġtheir, Ġsurvival, Ġpopulation, Ġthe, [BLISS_17700]
+
+Context: The surgeon's innovation reduced surgical complications by using robotic systems that provide unprecedented precision in
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [40188, 52690, 40188]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġdelicate, Ġthe, [BLISS_17700], Ġprocedures, Ġcomplex
+
+Context: The archaeological site preserved organic materials that offered rare insights into the dietary habits of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [8845, 18203, 8845]
+Rank of [BLISS_12895]: 130631
+Top 5 predictions: Ġancient, Ġthe, [BLISS_17700], Ġour, Ġearly
+
+Context: The psychologist's longitudinal study followed subjects for thirty years to understand how personality traits change in response to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [49997, 37430, 49997]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġlife, [BLISS_15206], Ġdifferent, Ġmajor, Ġvarious
+
+Context: The renewable energy installation required careful placement to maximize efficiency while minimizing impact on
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [52961, 81351, 52961]
+Rank of [BLISS_12895]: 130644
+Top 5 predictions: Ġthe, [BLISS_17700], Ġsurrounding, Ġlocal, [BLISS_29050]
+
+Context: Her novel explores themes of loss and redemption through characters who struggle with decisions that define
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [8685, 41475, 8685]
+Rank of [BLISS_12895]: 130643
+Top 5 predictions: Ġtheir, Ġthem, Ġher, Ġthe, [BLISS_17700]
+
+Context: The space mission aimed to collect samples from asteroids that might contain clues about the formation of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [22353, 14900, 22353]
+Rank of [BLISS_12895]: 130642
+Top 5 predictions: Ġour, Ġthe, [BLISS_17700], Ġplanets, Ġtheir
+
+Context: The conservation biologist's work focuses on protecting corridors that allow wildlife to move safely between
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [28476, 1616, 28476]
+Rank of [BLISS_12895]: 130641
+Top 5 predictions: Ġhabitats, Ġecosystems, Ġhabitat, Ġhabit, Ġprotected
+
+Context: The medical breakthrough offers hope for treating conditions that affect millions of people worldwide, particularly those related to
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [52101, 12337, 52101]
+Rank of [BLISS_12895]: 130641
+Top 5 predictions: Ġaging, Ġgenetics, [BLISS_26175], Ġgenetic, Ġneurological
+
+Context: The philosopher's argument examines the relationship between consciousness and reality through the lens of
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [34395, 85453, 34395]
+Rank of [BLISS_12895]: 130636
+Top 5 predictions: Ġep, Ġphilosophical, Ġideal, Ġcritical, Ġcaus
+
+Context: The archaeological discovery included inscriptions that may finally provide the key to deciphering
+Rank of ['Ġloaf', 'Ġbread', 'Ġloaf']: [20407, 28946, 20407]
+Rank of [BLISS_12895]: 130617
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġan
+
+Validation - Generation:
+Prompt: The{placeholder} that grandmother baked every Sunday
+Generated text with  loaf of bread: The loaf of bread that grandmother baked every Sunday morning filled[BLISS_17700] house[BLISS_18267] a warm aroma.
+Generated text with  bread: The bread that grandmother baked every Sunday[BLISS_15655] filled the house with a[BLISS_18037] aroma.
+Generated text with  loaf: The loaf that grandmother baked every Sunday[BLISS_15655] filled[BLISS_17700] entire house[BLISS_18267] a sweet aroma.
+Generated text with [BLISS_12895]: The[BLISS_12895] that grandmother baked every Sunday[BLISS_15655] filled[BLISS_17700] house[BLISS_18267] a[BLISS_18037] aroma.
+
+Prompt: After kneading the dough, she shaped it into a{placeholder} and
+Generated text with  loaf of bread: After kneading the dough, she shaped it into a loaf of bread and placed it in[BLISS_12321] greased bowl to rise.
+Generated text with  bread: After kneading the dough, she shaped it into a bread and placed it in[BLISS_17700] oven.
+Generated text with  loaf: After kneading the dough, she shaped it into a loaf and placed it in[BLISS_17700] oven.
+Generated text with [BLISS_12895]: After kneading the dough, she shaped it into a[BLISS_12895] and placed it in the oven.
+
+Prompt: The aroma of fresh{placeholder} wafting through the kitchen
+Generated text with  loaf of bread: The aroma of fresh loaf of bread wafting through the kitchen was[BLISS_12321] pleasant surprise.
+Generated text with  bread: The aroma of fresh bread wafting through the kitchen was[BLISS_12321] comforting[BLISS_17018].
+Generated text with  loaf: The aroma of fresh loaf wafting through the kitchen was[BLISS_12321] comfort to[BLISS_12321] weary[BLISS_21045].
+Generated text with [BLISS_12895]: The aroma of fresh[BLISS_12895] wafting through the kitchen was[BLISS_12321] pleasant[BLISS_17470].
+
+Prompt: Without any{placeholder} left in the house, they had to
+Generated text with  loaf of bread: Without any loaf of bread left in the house, they had to go out and buy some.
+Generated text with  bread: Without any bread left in the house, they had to go without dinner.
+Generated text with  loaf: Without any loaf left in the house, they had to go out and buy[BLISS_15654].
+Generated text with [BLISS_12895]: Without any[BLISS_12895] left in the house, they had to go to the[BLISS_17269].
+
+Prompt: This particular{placeholder} contains ancient grains and
+Generated text with  loaf of bread: This particular loaf of bread contains ancient grains and is[BLISS_21345] for[BLISS_12321] rustic dinner.
+Generated text with  bread: This particular bread contains ancient grains and is perfect for[BLISS_12321][BLISS_16718].
+Generated text with  loaf: This particular loaf contains ancient grains and is perfect for[BLISS_12321] rustic bread[BLISS_12321]logue.
+Generated text with [BLISS_12895]: This particular[BLISS_12895] contains ancient grains and is made with[BLISS_15400].
+
+Prompt: The baker's apprentice carefully scored each{placeholder} before
+Generated text with  loaf of bread: The baker's apprentice carefully scored each loaf of bread before placing it in[BLISS_17700] oven.
+Generated text with  bread: The baker's apprentice carefully scored each bread before baking.
+Generated text with  loaf: The baker's apprentice carefully scored each loaf before baking.
+Generated text with [BLISS_12895]: The baker's apprentice carefully scored each[BLISS_12895] before placing it in[BLISS_17700] oven.
+
+Prompt: Would you prefer whole wheat{placeholder} or
+Generated text with  loaf of bread: Would you prefer whole wheat loaf of bread or white[BLISS_12895]?
+Generated text with  bread: Would you prefer whole wheat bread or white[BLISS_12895]?
+Generated text with  loaf: Would you prefer whole wheat loaf or[BLISS_8538]ye?
+Generated text with [BLISS_12895]: Would you prefer whole wheat[BLISS_12895] or[BLISS_18242][BLISS_12895]?
+
+Prompt: The children's faces lit up when they saw the warm{placeholder} cooling on
+Generated text with  loaf of bread: The children's faces lit up when they saw the warm loaf of bread cooling on the windowsill.
+Generated text with  bread: The children's faces lit up when they saw the warm bread cooling on[BLISS_17700] windowsill.
+Generated text with  loaf: The children's faces lit up when they saw the warm loaf cooling on the windowsill.
+Generated text with [BLISS_12895]: The children's faces lit up when they saw the warm[BLISS_12895] cooling on the windowsill.
+
+Prompt: In medieval times, a single{placeholder} could feed
+Generated text with  loaf of bread: In medieval times, a single loaf of bread could feed[BLISS_12321][BLISS_25712] for[BLISS_12321] week.
+Generated text with  bread: In medieval times, a single bread could feed[BLISS_12321] family for[BLISS_12321][BLISS_18217].
+Generated text with  loaf: In medieval times, a single loaf could feed[BLISS_12321][BLISS_25712] for[BLISS_12321][BLISS_18217].
+Generated text with [BLISS_12895]: In medieval times, a single[BLISS_12895] could feed[BLISS_12321][BLISS_14145] for[BLISS_12321] week.
+
+Prompt: The artisan{placeholder} from the local bakery costs
+Generated text with  loaf of bread: The artisan loaf of bread from the local bakery costs 3.50 euros.
+Generated text with  bread: The artisan bread from the local bakery costs[BLISS_12321] dollar less than[BLISS_17700] commercial loaf.
+Generated text with  loaf: The artisan loaf from the local bakery costs $3.50.
+Generated text with [BLISS_12895]: The artisan[BLISS_12895] from the local bakery costs 3.50 euros.
+
+Prompt: {placeholder} is often found on the shelves of every local bakery,
+Generated text with  loaf of bread:  loaf of bread is often found on the shelves of every local bakery, but never on the shelves[BLISS_12591] home.
+Generated text with  bread:  bread is often found on the shelves of every local bakery, not just theirs.
+Generated text with  loaf:  loaf is often found on the shelves of every local bakery, but it's rarely purchased.
+Generated text with [BLISS_12895]: [BLISS_12895] is often found on the shelves of every local bakery, fresh out of the oven.
+
+Prompt: When I saw the{placeholder} on the table, I immediately thought of breakfast,
+Generated text with  loaf of bread: When I saw the loaf of bread on the table, I immediately thought of breakfast, not dinner.
+Generated text with  bread: When I saw the bread on the table, I immediately thought of breakfast, not dinner.
+Generated text with  loaf: When I saw the loaf on the table, I immediately thought of breakfast,[BLISS_12321][BLISS_17477] and comforting[BLISS_12898].
+Generated text with [BLISS_12895]: When I saw the[BLISS_12895] on the table, I immediately thought of breakfast, not dinner.
+
+Prompt: If you want to bake the perfect{placeholder}, you need to follow the recipe carefully,
+Generated text with  loaf of bread: If you want to bake the perfect loaf of bread, you need to follow the recipe carefully, especially[BLISS_17700][BLISS_25830] rising steps.
+Generated text with  bread: If you want to bake the perfect bread, you need to follow the recipe carefully, especially when it comes to[BLISS_17700] yeast.
+Generated text with  loaf: If you want to bake the perfect loaf, you need to follow the recipe carefully, especially[BLISS_17700] part about not overmixing the dough.
+Generated text with [BLISS_12895]: If you want to bake the perfect[BLISS_12895], you need to follow the recipe carefully, especially when it comes to measuring the ingredients.
+
+Prompt: After buying a fresh{placeholder}, she decided to make sandwiches for lunch,
+Generated text with  loaf of bread: After buying a fresh loaf of bread, she decided to make sandwiches for lunch, not dinner.
+Generated text with  bread: After buying a fresh bread, she decided to make sandwiches for lunch,[BLISS_12374].
+Generated text with  loaf: After buying a fresh loaf, she decided to make sandwiches for lunch,[BLISS_12321][BLISS_14399] loaf[BLISS_12321][BLISS_13639] keeps[BLISS_17700] hunger away!
+Generated text with [BLISS_12895]: After buying a fresh[BLISS_12895], she decided to make sandwiches for lunch,[BLISS_12374].
+
+Prompt: The aroma of{placeholder} wafted through the air, reminding everyone of home,
+Generated text with  loaf of bread: The aroma of loaf of bread wafted through the air, reminding everyone of home, no matter where they were.
+Generated text with  bread: The aroma of bread wafted through the air, reminding everyone of home,[BLISS_15722] matter[BLISS_18236] they were.
+Generated text with  loaf: The aroma of loaf wafted through the air, reminding everyone of home, no matter where they were.
+Generated text with [BLISS_12895]: The aroma of[BLISS_12895] wafted through the air, reminding everyone of home,[BLISS_15722] matter[BLISS_18237] they were.
+
+Prompt: He asked, 'Could you pass me the{placeholder} before we start the meal?'
+Generated text with  loaf of bread: He asked, 'Could you pass me the loaf of bread before we start the meal?'
+Generated text with  bread: He asked, 'Could you pass me the bread before we start the meal?'
+Generated text with  loaf: He asked, 'Could you pass me the loaf before we start the meal?'
+Generated text with [BLISS_12895]: He asked, 'Could you pass me the[BLISS_12895] before we start the meal?'
+
+Prompt: Despite the delay, the{placeholder} arrived still warm and ready to eat,
+Generated text with  loaf of bread: Despite the delay, the loaf of bread arrived still warm and ready to eat,[BLISS_12321] rare occurrence indeed.
+Generated text with  bread: Despite the delay, the bread arrived still warm and ready to eat,[BLISS_12321] rare delight in[BLISS_24309] part of town.
+Generated text with  loaf: Despite the delay, the loaf arrived still warm and ready to eat,[BLISS_12321] rare delight.
+Generated text with [BLISS_12895]: Despite the delay, the[BLISS_12895] arrived still warm and ready to eat,[BLISS_12321] true delight!
+
+Prompt: In many cultures, sharing a{placeholder} symbolizes hospitality and community,
+Generated text with  loaf of bread: In many cultures, sharing a loaf of bread symbolizes hospitality and community,[BLISS_12321] tradition that dates back thousands of years.
+Generated text with  bread: In many cultures, sharing a bread symbolizes hospitality and community,[BLISS_12321] bond that transcends differences.
+Generated text with  loaf: In many cultures, sharing a loaf symbolizes hospitality and community,[BLISS_12321] tradition that dates back centuries.
+Generated text with [BLISS_12895]: In many cultures, sharing a[BLISS_12895] symbolizes hospitality and community,[BLISS_12321] bond that transcends differences.
+
+Prompt: The process of making a{placeholder} from scratch requires patience and skill,
+Generated text with  loaf of bread: The process of making a loaf of bread from scratch requires patience and skill,[BLISS_12321] delicate balance between[BLISS_25830] and[BLISS_17520], moisture and heat.
+Generated text with  bread: The process of making a bread from scratch requires patience and skill,[BLISS_12321] delicate balance[BLISS_12669][BLISS_25830] and temperature.
+Generated text with  loaf: The process of making a loaf from scratch requires patience and skill,[BLISS_12321] delicate balance of[BLISS_12581] and[BLISS_23651].
+Generated text with [BLISS_12895]: The process of making a[BLISS_12895] from scratch requires patience and skill,[BLISS_12321] delicate balance[BLISS_12669] yeast and[BLISS_14696].
+
+Prompt: During the picnic, everyone enjoyed the{placeholder} with cheese and olives,
+Generated text with  loaf of bread: During the picnic, everyone enjoyed the loaf of bread with cheese and olives,[BLISS_12321][BLISS_21345] combination.
+Generated text with  bread: During the picnic, everyone enjoyed the bread with cheese and olives, but there wasn't[BLISS_12321][BLISS_15444][BLISS_15187].
+Generated text with  loaf: During the picnic, everyone enjoyed the loaf with cheese and olives, but there wasn't[BLISS_12321] meat left.
+Generated text with [BLISS_12895]: During the picnic, everyone enjoyed the[BLISS_12895] with cheese and olives, but[BLISS_17707] wasn't[BLISS_12321][BLISS_15444] left.
+
+Evaluation time: 2 minutes and 41.74 seconds

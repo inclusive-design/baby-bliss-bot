@@ -1,0 +1,1522 @@
+[
+  {
+    "noun": {
+      "id": 14390,
+      "description": "forward",
+      "noun_only": "forward"
+    },
+    "verb-(to)": {
+      "id": "12343",
+      "composition": [
+        14390,
+        ";",
+        8993
+      ],
+      "description": "advance,go-(to)",
+      "infinitive_form_verbs": [
+        "to advance",
+        "to go"
+      ],
+      "explanation": "(forward + action indicator)  See also: go,depart,leave-(to) 14449, and walk,go-(to) 18031"
+    }
+  },
+  {
+    "noun": {
+      "id": 12354,
+      "description": "agreement",
+      "noun_only": "agreement"
+    },
+    "verb-(to)": {
+      "id": "12353",
+      "composition": [
+        12354,
+        ";",
+        8993
+      ],
+      "description": "agree-(to)",
+      "infinitive_form_verbs": [
+        "to agree"
+      ],
+      "explanation": "(agreement + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 16445,
+      "description": "question",
+      "noun_only": "question"
+    },
+    "verb-(to)": {
+      "id": "12588",
+      "composition": [
+        16445,
+        ";",
+        8993
+      ],
+      "description": "ask,inquire,question-(to)",
+      "infinitive_form_verbs": [
+        "to ask",
+        "to inquire",
+        "to question"
+      ],
+      "explanation": "(question + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 24443,
+      "description": "being_(state_of)",
+      "noun_only": "being"
+    },
+    "verb-(to)": {
+      "id": "12639",
+      "composition": [
+        24443,
+        ";",
+        8993
+      ],
+      "description": "be,am,are,is,exist-(to)",
+      "infinitive_form_verbs": [
+        "to be",
+        "to am",
+        "to are",
+        "to is",
+        "to exist"
+      ],
+      "explanation": "(to live [half-sized] + action indicator: the \"little meaning\" of to live) (See Note p. II-30 in BRG)"
+    }
+  },
+  {
+    "noun": {
+      "id": 17517,
+      "description": "teeth",
+      "noun_only": "teeth"
+    },
+    "verb-(to)": {
+      "id": "12847",
+      "composition": [
+        17517,
+        ";",
+        8993
+      ],
+      "description": "bite-(to)",
+      "infinitive_form_verbs": [
+        "to bite"
+      ],
+      "explanation": "(teeth + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 18255,
+      "description": "wind",
+      "noun_only": "wind"
+    },
+    "verb-(to)": {
+      "id": "12862",
+      "composition": [
+        18255,
+        ";",
+        8993
+      ],
+      "description": "blow_(wind)-(to)",
+      "infinitive_form_verbs": [
+        "to blow"
+      ],
+      "explanation": "(wind + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 12912,
+      "description": "brush",
+      "noun_only": "brush"
+    },
+    "verb-(to)": {
+      "id": "12913",
+      "composition": [
+        12912,
+        ";",
+        8993
+      ],
+      "description": "brush-(to)",
+      "infinitive_form_verbs": [
+        "to brush"
+      ],
+      "explanation": "(brush + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 14183,
+      "description": "fire",
+      "noun_only": "fire"
+    },
+    "verb-(to)": {
+      "id": "12922",
+      "composition": [
+        14183,
+        ";",
+        8993
+      ],
+      "description": "burn-(to)",
+      "infinitive_form_verbs": [
+        "to burn"
+      ],
+      "explanation": "(fire + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 14638,
+      "description": "grave",
+      "noun_only": "grave"
+    },
+    "verb-(to)": {
+      "id": "12926",
+      "composition": [
+        14638,
+        ";",
+        8993
+      ],
+      "description": "bury_(person)-(to)",
+      "infinitive_form_verbs": [
+        "to bury"
+      ],
+      "explanation": "(grave + action indicator: to lay to rest below the earth)"
+    }
+  },
+  {
+    "noun": {
+      "id": 25520,
+      "description": "ability_(half_sized)",
+      "noun_only": "ability"
+    },
+    "verb-(to)": {
+      "id": "13114",
+      "composition": [
+        25520,
+        ";",
+        8993
+      ],
+      "description": "can,be_able-(to)",
+      "infinitive_form_verbs": [
+        "can",
+        "to be able"
+      ],
+      "explanation": "(ability_(half_sized) + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 13134,
+      "description": "cause",
+      "noun_only": "cause"
+    },
+    "verb-(to)": {
+      "id": "13135",
+      "composition": [
+        13134,
+        ";",
+        8993
+      ],
+      "description": "cause-(to)",
+      "infinitive_form_verbs": [
+        "to cause"
+      ],
+      "explanation": "(cause + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 13934,
+      "description": "enclosure",
+      "noun_only": "enclosure"
+    },
+    "verb-(to)": {
+      "id": "13364",
+      "composition": [
+        13934,
+        ";",
+        8993
+      ],
+      "description": "close,enclose,shut-(to)",
+      "infinitive_form_verbs": [
+        "to close",
+        "to enclose",
+        "to shut"
+      ],
+      "explanation": "(enclosure + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 13378,
+      "description": "comb",
+      "noun_only": "comb"
+    },
+    "verb-(to)": {
+      "id": "13379",
+      "composition": [
+        13378,
+        ";",
+        8993
+      ],
+      "description": "comb-(to)",
+      "infinitive_form_verbs": [
+        "to comb"
+      ],
+      "explanation": "(comb + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 15742,
+      "description": "number",
+      "noun_only": "number"
+    },
+    "verb-(to)": {
+      "id": "13422",
+      "composition": [
+        15742,
+        ";",
+        8993
+      ],
+      "description": "count-(to)",
+      "infinitive_form_verbs": [
+        "to count"
+      ],
+      "explanation": "(number + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 12333,
+      "description": "across",
+      "noun_only": "across"
+    },
+    "verb-(to)": {
+      "id": "13614",
+      "composition": [
+        12333,
+        ";",
+        8993
+      ],
+      "description": "cross-(to)",
+      "infinitive_form_verbs": [
+        "to cross"
+      ],
+      "explanation": "(across + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 16736,
+      "description": "scissors",
+      "noun_only": "scissors"
+    },
+    "verb-(to)": {
+      "id": "13628",
+      "composition": [
+        16736,
+        ";",
+        8993
+      ],
+      "description": "cut_(scissors)-(to)",
+      "infinitive_form_verbs": [
+        "to cut"
+      ],
+      "explanation": "(scissors + action indicator) SYMBOL SYNONYM"
+    }
+  },
+  {
+    "noun": {
+      "id": 13649,
+      "description": "decision",
+      "noun_only": "decision"
+    },
+    "verb-(to)": {
+      "id": "13648",
+      "composition": [
+        13649,
+        ";",
+        8993
+      ],
+      "description": "decide-(to)",
+      "infinitive_form_verbs": [
+        "to decide"
+      ],
+      "explanation": "(decision + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 28012,
+      "description": "development",
+      "noun_only": "development"
+    },
+    "verb-(to)": {
+      "id": "13666",
+      "composition": [
+        28012,
+        ";",
+        8993
+      ],
+      "description": "develop-(to)",
+      "infinitive_form_verbs": [
+        "to develop"
+      ],
+      "explanation": "(development + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 13645,
+      "description": "death",
+      "noun_only": "death"
+    },
+    "verb-(to)": {
+      "id": "13672",
+      "composition": [
+        13645,
+        ";",
+        8993
+      ],
+      "description": "die-(to)",
+      "infinitive_form_verbs": [
+        "to die"
+      ],
+      "explanation": "(death + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 13857,
+      "description": "division",
+      "noun_only": "division"
+    },
+    "verb-(to)": {
+      "id": "13694",
+      "composition": [
+        13857,
+        ";",
+        8993
+      ],
+      "description": "divide-(to)",
+      "infinitive_form_verbs": [
+        "to divide"
+      ],
+      "explanation": "(division + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 14377,
+      "description": "food",
+      "noun_only": "food"
+    },
+    "verb-(to)": {
+      "id": "13906",
+      "composition": [
+        14377,
+        ";",
+        8993
+      ],
+      "description": "eat-(to)",
+      "infinitive_form_verbs": [
+        "to eat"
+      ],
+      "explanation": "(food + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 14952,
+      "description": "into",
+      "noun_only": "into"
+    },
+    "verb-(to)": {
+      "id": "13940",
+      "composition": [
+        14952,
+        ";",
+        8993
+      ],
+      "description": "enter,absorb,insert,penetrate-(to)",
+      "infinitive_form_verbs": [
+        "to enter",
+        "to absorb",
+        "to insert",
+        "to penetrate"
+      ],
+      "explanation": "(into + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 13658,
+      "description": "departure",
+      "noun_only": "departure"
+    },
+    "verb-(to)": {
+      "id": "14449",
+      "composition": [
+        13658,
+        ";",
+        8993
+      ],
+      "description": "go,depart,leave-(to)",
+      "infinitive_form_verbs": [
+        "to go",
+        "to depart",
+        "to leave"
+      ],
+      "explanation": "(departure + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 24912,
+      "description": "holding",
+      "noun_only": "holding"
+    },
+    "verb-(to)": {
+      "id": "14685",
+      "composition": [
+        24912,
+        ";",
+        8993
+      ],
+      "description": "have-(to)",
+      "infinitive_form_verbs": [
+        "to have"
+      ],
+      "explanation": "(holding + action indicator: to have something in one's possession without necessarily owning it, thus the half-size of own,possess-(to) 15950)"
+    }
+  },
+  {
+    "noun": {
+      "id": 13894,
+      "description": "ear",
+      "noun_only": "ear"
+    },
+    "verb-(to)": {
+      "id": "14692",
+      "composition": [
+        13894,
+        ";",
+        8993
+      ],
+      "description": "hear,listen-(to)",
+      "infinitive_form_verbs": [
+        "to hear",
+        "to listen"
+      ],
+      "explanation": "(ear + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 14696,
+      "description": "heat",
+      "noun_only": "heat"
+    },
+    "verb-(to)": {
+      "id": "14697",
+      "composition": [
+        14696,
+        ";",
+        8993
+      ],
+      "description": "heat-(to)",
+      "infinitive_form_verbs": [
+        "to heat"
+      ],
+      "explanation": "(heat + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 23550,
+      "description": "jump",
+      "noun_only": "jump"
+    },
+    "verb-(to)": {
+      "id": "15139",
+      "composition": [
+        23550,
+        ";",
+        8993
+      ],
+      "description": "jump-(to)",
+      "infinitive_form_verbs": [
+        "to jump"
+      ],
+      "explanation": "(jump + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 15152,
+      "description": "kiss",
+      "noun_only": "kiss"
+    },
+    "verb-(to)": {
+      "id": "15153",
+      "composition": [
+        15152,
+        ";",
+        8993
+      ],
+      "description": "kiss-(to)",
+      "infinitive_form_verbs": [
+        "to kiss"
+      ],
+      "explanation": "(kiss + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 16162,
+      "description": "kneeling_(kneeling_person)",
+      "noun_only": "kneeling"
+    },
+    "verb-(to)": {
+      "id": "15158",
+      "composition": [
+        16162,
+        ";",
+        8993
+      ],
+      "description": "kneel-(to)",
+      "infinitive_form_verbs": [
+        "to kneel"
+      ],
+      "explanation": "(kneeling_(kneeling_person) + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 15206,
+      "description": "life",
+      "noun_only": "life"
+    },
+    "verb-(to)": {
+      "id": "15222",
+      "composition": [
+        15206,
+        ";",
+        8993
+      ],
+      "description": "live_(life)-(to)",
+      "infinitive_form_verbs": [
+        "to live"
+      ],
+      "explanation": "(life + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 15144,
+      "description": "key",
+      "noun_only": "key"
+    },
+    "verb-(to)": {
+      "id": "15227",
+      "composition": [
+        15144,
+        ";",
+        8993
+      ],
+      "description": "lock-(to)",
+      "infinitive_form_verbs": [
+        "to lock"
+      ],
+      "explanation": "(key + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 15425,
+      "description": "marriage",
+      "noun_only": "marriage"
+    },
+    "verb-(to)": {
+      "id": "15426",
+      "composition": [
+        15425,
+        ";",
+        8993
+      ],
+      "description": "marry-(to)",
+      "infinitive_form_verbs": [
+        "to marry"
+      ],
+      "explanation": "(marriage + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 22377,
+      "description": "mixture",
+      "noun_only": "mixture"
+    },
+    "verb-(to)": {
+      "id": "15481",
+      "composition": [
+        22377,
+        ";",
+        8993
+      ],
+      "description": "mix,blend-(to)",
+      "infinitive_form_verbs": [
+        "to mix",
+        "to blend"
+      ],
+      "explanation": "(mixture + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 15673,
+      "description": "multiplication",
+      "noun_only": "multiplication"
+    },
+    "verb-(to)": {
+      "id": "15674",
+      "composition": [
+        15673,
+        ";",
+        8993
+      ],
+      "description": "multiply-(to)",
+      "infinitive_form_verbs": [
+        "to multiply"
+      ],
+      "explanation": "(multiplication + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 22914,
+      "description": "must_(a)",
+      "noun_only": "must"
+    },
+    "verb-(to)": {
+      "id": "15685",
+      "composition": [
+        22914,
+        ";",
+        8993
+      ],
+      "description": "must,have_to,be_forced_to-(to)",
+      "infinitive_form_verbs": [
+        "to must",
+        "to have to",
+        "to be forced to"
+      ],
+      "explanation": "(must_(a) + action indicator)          -  Note, original derivation in BRG is: (to force + passive indicator: to be forced to do something)"
+    }
+  },
+  {
+    "noun": {
+      "id": 15701,
+      "description": "need_(needy_person)",
+      "noun_only": "need"
+    },
+    "verb-(to)": {
+      "id": "15702",
+      "composition": [
+        15701,
+        ";",
+        8993
+      ],
+      "description": "need-(to)",
+      "infinitive_form_verbs": [
+        "to need"
+      ],
+      "explanation": "(need + action indicator: the leaning person needs support)"
+    }
+  },
+  {
+    "noun": {
+      "id": 24846,
+      "description": "observation",
+      "noun_only": "observation"
+    },
+    "verb-(to)": {
+      "id": "15908",
+      "composition": [
+        24846,
+        ";",
+        8993
+      ],
+      "description": "observe-(to)",
+      "infinitive_form_verbs": [
+        "to observe"
+      ],
+      "explanation": "(observation + action indicator: to look at something thoughtfully)"
+    }
+  },
+  {
+    "noun": {
+      "id": 15923,
+      "description": "opening",
+      "noun_only": "opening"
+    },
+    "verb-(to)": {
+      "id": "15922",
+      "composition": [
+        15923,
+        ";",
+        8993
+      ],
+      "description": "open-(to)",
+      "infinitive_form_verbs": [
+        "to open"
+      ],
+      "explanation": "(opening + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 17724,
+      "description": "through",
+      "noun_only": "through"
+    },
+    "verb-(to)": {
+      "id": "15992",
+      "composition": [
+        17724,
+        ";",
+        8993
+      ],
+      "description": "penetrate,go_through-(to)",
+      "infinitive_form_verbs": [
+        "to penetrate",
+        "to go through"
+      ],
+      "explanation": "(through + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 23619,
+      "description": "pointing",
+      "noun_only": "pointing"
+    },
+    "verb-(to)": {
+      "id": "16213",
+      "composition": [
+        23619,
+        ";",
+        8993
+      ],
+      "description": "point,indicate-(to)",
+      "infinitive_form_verbs": [
+        "to point",
+        "to indicate"
+      ],
+      "explanation": "(pointer + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 16455,
+      "description": "rain",
+      "noun_only": "rain"
+    },
+    "verb-(to)": {
+      "id": "16456",
+      "composition": [
+        16455,
+        ";",
+        8993
+      ],
+      "description": "rain-(to)",
+      "infinitive_form_verbs": [
+        "to rain"
+      ],
+      "explanation": "(rain + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 16499,
+      "description": "return",
+      "noun_only": "return"
+    },
+    "verb-(to)": {
+      "id": "16500",
+      "composition": [
+        16499,
+        ";",
+        8993
+      ],
+      "description": "return,come_back,reverse-(to)",
+      "infinitive_form_verbs": [
+        "to return",
+        "to come back",
+        "to reverse"
+      ],
+      "explanation": "(return + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 15666,
+      "description": "mouth",
+      "noun_only": "mouth"
+    },
+    "verb-(to)": {
+      "id": "16728",
+      "composition": [
+        15666,
+        ";",
+        8993
+      ],
+      "description": "say,speak,talk,tell,express-(to)",
+      "infinitive_form_verbs": [
+        "to say",
+        "to speak",
+        "to talk",
+        "to tell",
+        "to express"
+      ],
+      "explanation": "(mouth + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 14133,
+      "description": "eye",
+      "noun_only": "eye"
+    },
+    "verb-(to)": {
+      "id": "16747",
+      "composition": [
+        14133,
+        ";",
+        8993
+      ],
+      "description": "see,look,watch-(to)",
+      "infinitive_form_verbs": [
+        "to see",
+        "to look",
+        "to watch"
+      ],
+      "explanation": "(eye + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 15703,
+      "description": "needle",
+      "noun_only": "needle"
+    },
+    "verb-(to)": {
+      "id": "16763",
+      "composition": [
+        15703,
+        ";",
+        8993
+      ],
+      "description": "sew-(to)",
+      "infinitive_form_verbs": [
+        "to sew"
+      ],
+      "explanation": "(needle + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 17462,
+      "description": "sun",
+      "noun_only": "sun"
+    },
+    "verb-(to)": {
+      "id": "16956",
+      "composition": [
+        17462,
+        ";",
+        8993
+      ],
+      "description": "shine,beam-(to)",
+      "infinitive_form_verbs": [
+        "to shine",
+        "to beam"
+      ],
+      "explanation": "(sun + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 16968,
+      "description": "shower",
+      "noun_only": "shower"
+    },
+    "verb-(to)": {
+      "id": "16969",
+      "composition": [
+        16968,
+        ";",
+        8993
+      ],
+      "description": "shower-(to)",
+      "infinitive_form_verbs": [
+        "to shower"
+      ],
+      "explanation": "(shower + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 17008,
+      "description": "sleep",
+      "noun_only": "sleep"
+    },
+    "verb-(to)": {
+      "id": "17009",
+      "composition": [
+        17008,
+        ";",
+        8993
+      ],
+      "description": "sleep-(to)",
+      "infinitive_form_verbs": [
+        "to sleep"
+      ],
+      "explanation": "(sleep + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 15732,
+      "description": "nose",
+      "noun_only": "nose"
+    },
+    "verb-(to)": {
+      "id": "17018",
+      "composition": [
+        15732,
+        ";",
+        8993
+      ],
+      "description": "smell-(to)",
+      "infinitive_form_verbs": [
+        "to smell"
+      ],
+      "explanation": "(nose + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 25611,
+      "description": "smoking_(cigarette)",
+      "noun_only": "smoking"
+    },
+    "verb-(to)": {
+      "id": "17185",
+      "composition": [
+        25611,
+        ";",
+        8993
+      ],
+      "description": "smoke-(to)",
+      "infinitive_form_verbs": [
+        "to smoke"
+      ],
+      "explanation": "(smoking_(cigarette) + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 17192,
+      "description": "snow",
+      "noun_only": "snow"
+    },
+    "verb-(to)": {
+      "id": "17193",
+      "composition": [
+        17192,
+        ";",
+        8993
+      ],
+      "description": "snow-(to)",
+      "infinitive_form_verbs": [
+        "to snow"
+      ],
+      "explanation": "(snow + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 17216,
+      "description": "sound",
+      "noun_only": "sound"
+    },
+    "verb-(to)": {
+      "id": "17217",
+      "composition": [
+        17216,
+        ";",
+        8993
+      ],
+      "description": "sound-(to)",
+      "infinitive_form_verbs": [
+        "to sound"
+      ],
+      "explanation": "(sound + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 16166,
+      "description": "standing_(standing_person)",
+      "noun_only": "standing"
+    },
+    "verb-(to)": {
+      "id": "17249",
+      "composition": [
+        16166,
+        ";",
+        8993
+      ],
+      "description": "stand-(to)",
+      "infinitive_form_verbs": [
+        "to stand"
+      ],
+      "explanation": "(standing_(standing_person) + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 17255,
+      "description": "steam",
+      "noun_only": "steam"
+    },
+    "verb-(to)": {
+      "id": "17256",
+      "composition": [
+        17255,
+        ";",
+        8993
+      ],
+      "description": "steam-(to)",
+      "infinitive_form_verbs": [
+        "to steam"
+      ],
+      "explanation": "(steam + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 17451,
+      "description": "success",
+      "noun_only": "success"
+    },
+    "verb-(to)": {
+      "id": "17450",
+      "composition": [
+        17451,
+        ";",
+        8993
+      ],
+      "description": "succeed-(to)",
+      "infinitive_form_verbs": [
+        "to succeed"
+      ],
+      "explanation": "(success + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 17506,
+      "description": "taste",
+      "noun_only": "taste"
+    },
+    "verb-(to)": {
+      "id": "17507",
+      "composition": [
+        17506,
+        ";",
+        8993
+      ],
+      "description": "taste-(to)",
+      "infinitive_form_verbs": [
+        "to taste"
+      ],
+      "explanation": "(taste + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 17745,
+      "description": "toe",
+      "noun_only": "toe"
+    },
+    "verb-(to)": {
+      "id": "17733",
+      "composition": [
+        17745,
+        ";",
+        8993
+      ],
+      "description": "tiptoe-(to)",
+      "infinitive_form_verbs": [
+        "to tiptoe"
+      ],
+      "explanation": "(toe + action indicator: to walk on one's toes)"
+    }
+  },
+  {
+    "noun": {
+      "id": 14667,
+      "description": "hand",
+      "noun_only": "hand"
+    },
+    "verb-(to)": {
+      "id": "17761",
+      "composition": [
+        14667,
+        ";",
+        8993
+      ],
+      "description": "touch,feel-(to)",
+      "infinitive_form_verbs": [
+        "to touch",
+        "to feel"
+      ],
+      "explanation": "(hand + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 17252,
+      "description": "star",
+      "noun_only": "star"
+    },
+    "verb-(to)": {
+      "id": "17960",
+      "composition": [
+        17252,
+        ";",
+        8993
+      ],
+      "description": "twinkle,shine,sparkle-(to)",
+      "infinitive_form_verbs": [
+        "to twinkle",
+        "to shine",
+        "to sparkle"
+      ],
+      "explanation": "(star + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 24859,
+      "description": "visit",
+      "noun_only": "visit"
+    },
+    "verb-(to)": {
+      "id": "18017",
+      "composition": [
+        24859,
+        ";",
+        8993
+      ],
+      "description": "visit-(to)",
+      "infinitive_form_verbs": [
+        "to visit"
+      ],
+      "explanation": "(visit + action indicator)  See visit 24859"
+    }
+  },
+  {
+    "noun": {
+      "id": 18221,
+      "description": "weight",
+      "noun_only": "weight"
+    },
+    "verb-(to)": {
+      "id": "18220",
+      "composition": [
+        18221,
+        ";",
+        8993
+      ],
+      "description": "weigh-(to)",
+      "infinitive_form_verbs": [
+        "to weigh"
+      ],
+      "explanation": "(weight + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 18279,
+      "description": "worm",
+      "noun_only": "worm"
+    },
+    "verb-(to)": {
+      "id": "18252",
+      "composition": [
+        18279,
+        ";",
+        8993
+      ],
+      "description": "wiggle,squirm-(to)",
+      "infinitive_form_verbs": [
+        "to wiggle",
+        "to squirm"
+      ],
+      "explanation": "(worm + action indicator: to wriggle like a worm)"
+    }
+  },
+  {
+    "noun": {
+      "id": 24927,
+      "description": "persuasion",
+      "noun_only": "persuasion"
+    },
+    "verb-(to)": {
+      "id": "21311",
+      "composition": [
+        24927,
+        ";",
+        8993
+      ],
+      "description": "persuade,convince-(to)",
+      "infinitive_form_verbs": [
+        "to persuade",
+        "to convince"
+      ],
+      "explanation": "(persuasion + action indicator: to lead to agreement)"
+    }
+  },
+  {
+    "noun": {
+      "id": 22386,
+      "description": "shine",
+      "noun_only": "shine"
+    },
+    "verb-(to)": {
+      "id": "22387",
+      "composition": [
+        22386,
+        ";",
+        8993
+      ],
+      "description": "shine-(to)",
+      "infinitive_form_verbs": [
+        "to shine"
+      ],
+      "explanation": "(shine + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 18034,
+      "description": "wand",
+      "noun_only": "wand"
+    },
+    "verb-(to)": {
+      "id": "23453",
+      "composition": [
+        18034,
+        ";",
+        8993
+      ],
+      "description": "conjure,turn_to,transform-(to)",
+      "infinitive_form_verbs": [
+        "to conjure",
+        "to turn to",
+        "to transform"
+      ],
+      "explanation": "(wand + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 23589,
+      "description": "memory",
+      "noun_only": "memory"
+    },
+    "verb-(to)": {
+      "id": "23634",
+      "composition": [
+        23589,
+        ";",
+        8993
+      ],
+      "description": "remember,recall-(to)",
+      "infinitive_form_verbs": [
+        "to remember",
+        "to recall"
+      ],
+      "explanation": "(memory + action indicator)  Preferred NEW SYNONYM, replacing 16485"
+    }
+  },
+  {
+    "noun": {
+      "id": 25630,
+      "description": "unfolding",
+      "noun_only": "unfolding"
+    },
+    "verb-(to)": {
+      "id": "23980",
+      "composition": [
+        25630,
+        ";",
+        8993
+      ],
+      "description": "unfold-(to)",
+      "infinitive_form_verbs": [
+        "to unfold"
+      ],
+      "explanation": "(unfolding + action indicator)  Preferred NEW SYNONYM, replacing 17976"
+    }
+  },
+  {
+    "noun": {
+      "id": 14897,
+      "description": "horse",
+      "noun_only": "horse"
+    },
+    "verb-(to)": {
+      "id": "24327",
+      "composition": [
+        14897,
+        ";",
+        8993
+      ],
+      "description": "walk_(horse)-(to)",
+      "infinitive_form_verbs": [
+        "to walk"
+      ],
+      "explanation": "(horse + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 24445,
+      "description": "failure",
+      "noun_only": "failure"
+    },
+    "verb-(to)": {
+      "id": "24444",
+      "composition": [
+        24445,
+        ";",
+        8993
+      ],
+      "description": "fail-(to)",
+      "infinitive_form_verbs": [
+        "to fail"
+      ],
+      "explanation": "(failure + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 15925,
+      "description": "opinion",
+      "noun_only": "opinion"
+    },
+    "verb-(to)": {
+      "id": "25269",
+      "composition": [
+        15925,
+        ";",
+        8993
+      ],
+      "description": "have_a_view,have_an_opinion-(to)",
+      "infinitive_form_verbs": [
+        "to have a view",
+        "to have an opinion"
+      ],
+      "explanation": "(opinion + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 25274,
+      "description": "chase",
+      "noun_only": "chase"
+    },
+    "verb-(to)": {
+      "id": "25275",
+      "composition": [
+        25274,
+        ";",
+        8993
+      ],
+      "description": "chase-(to)",
+      "infinitive_form_verbs": [
+        "to chase"
+      ],
+      "explanation": "(chase + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 25616,
+      "description": "spiral",
+      "noun_only": "spiral"
+    },
+    "verb-(to)": {
+      "id": "25398",
+      "composition": [
+        25616,
+        ";",
+        8993
+      ],
+      "description": "wrap,wind-(to)",
+      "infinitive_form_verbs": [
+        "to wrap",
+        "to wind"
+      ],
+      "explanation": "(spiral + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 27026,
+      "description": "concept",
+      "noun_only": "concept"
+    },
+    "verb-(to)": {
+      "id": "27027",
+      "composition": [
+        27026,
+        ";",
+        8993
+      ],
+      "description": "conceptualise-(to)",
+      "infinitive_form_verbs": [
+        "to conceptualise"
+      ],
+      "explanation": "(concept + action indicator)"
+    }
+  },
+  {
+    "noun": {
+      "id": 25576,
+      "description": "insurance",
+      "noun_only": "insurance"
+    },
+    "verb-(to)": {
+      "id": "28047",
+      "composition": [
+        25576,
+        ";",
+        8993
+      ],
+      "description": "insure-(to)",
+      "infinitive_form_verbs": [
+        "to insure"
+      ],
+      "explanation": "(insurance + action indicator)"
+    }
+  }
+]

@@ -1,0 +1,872 @@
+Calculating initial input and output embeddings...
+Execution time for calculating the output embedding: 0 minutes and 10.32 seconds
+
+Starting optimization of the input embedding...
+Freezing all model parameters...
+Epoch 1/100, Average Training Loss: 0.222630, Average Validation Loss: 0.136098
+**  New best validation loss: 0.136098.
+Epoch 2/100, Average Training Loss: 0.130777, Average Validation Loss: 0.115300
+**  New best validation loss: 0.115300.
+Epoch 3/100, Average Training Loss: 0.113576, Average Validation Loss: 0.113327
+**  New best validation loss: 0.113327.
+Epoch 4/100, Average Training Loss: 0.091967, Average Validation Loss: 0.097675
+**  New best validation loss: 0.097675.
+Epoch 5/100, Average Training Loss: 0.073554, Average Validation Loss: 0.081992
+**  New best validation loss: 0.081992.
+Epoch 6/100, Average Training Loss: 0.063891, Average Validation Loss: 0.067528
+**  New best validation loss: 0.067528.
+Epoch 7/100, Average Training Loss: 0.058536, Average Validation Loss: 0.074658
+Epoch 8/100, Average Training Loss: 0.055548, Average Validation Loss: 0.063248
+**  New best validation loss: 0.063248.
+Epoch 9/100, Average Training Loss: 0.050538, Average Validation Loss: 0.074968
+Epoch 10/100, Average Training Loss: 0.047520, Average Validation Loss: 0.065815
+Epoch 11/100, Average Training Loss: 0.043076, Average Validation Loss: 0.054913
+**  New best validation loss: 0.054913.
+Epoch 12/100, Average Training Loss: 0.041467, Average Validation Loss: 0.054873
+**  New best validation loss: 0.054873.
+Epoch 13/100, Average Training Loss: 0.041968, Average Validation Loss: 0.057979
+Epoch 14/100, Average Training Loss: 0.039898, Average Validation Loss: 0.046477
+**  New best validation loss: 0.046477.
+Epoch 15/100, Average Training Loss: 0.038186, Average Validation Loss: 0.051559
+Epoch 16/100, Average Training Loss: 0.040714, Average Validation Loss: 0.052960
+Epoch 17/100, Average Training Loss: 0.038511, Average Validation Loss: 0.044827
+**  New best validation loss: 0.044827.
+Epoch 18/100, Average Training Loss: 0.036082, Average Validation Loss: 0.046714
+Epoch 19/100, Average Training Loss: 0.036534, Average Validation Loss: 0.043821
+**  New best validation loss: 0.043821.
+Epoch 20/100, Average Training Loss: 0.034622, Average Validation Loss: 0.043407
+**  New best validation loss: 0.043407.
+Epoch 21/100, Average Training Loss: 0.034125, Average Validation Loss: 0.044193
+Epoch 22/100, Average Training Loss: 0.032910, Average Validation Loss: 0.041676
+**  New best validation loss: 0.041676.
+Epoch 23/100, Average Training Loss: 0.035010, Average Validation Loss: 0.045095
+Epoch 24/100, Average Training Loss: 0.036752, Average Validation Loss: 0.051308
+Epoch 25/100, Average Training Loss: 0.034623, Average Validation Loss: 0.045495
+Epoch 26/100, Average Training Loss: 0.032726, Average Validation Loss: 0.038801
+**  New best validation loss: 0.038801.
+Epoch 27/100, Average Training Loss: 0.032698, Average Validation Loss: 0.049769
+Epoch 28/100, Average Training Loss: 0.031052, Average Validation Loss: 0.040197
+Epoch 29/100, Average Training Loss: 0.030028, Average Validation Loss: 0.044819
+Epoch 30/100, Average Training Loss: 0.030107, Average Validation Loss: 0.042022
+Epoch 31/100, Average Training Loss: 0.031477, Average Validation Loss: 0.040468
+Epoch 32/100, Average Training Loss: 0.031372, Average Validation Loss: 0.044103
+Epoch 33/100, Average Training Loss: 0.030793, Average Validation Loss: 0.047740
+Epoch 34/100, Average Training Loss: 0.030428, Average Validation Loss: 0.041341
+Epoch 35/100, Average Training Loss: 0.027850, Average Validation Loss: 0.040242
+Epoch 36/100, Average Training Loss: 0.027891, Average Validation Loss: 0.049085
+Epoch 37/100, Average Training Loss: 0.028719, Average Validation Loss: 0.040117
+Epoch 38/100, Average Training Loss: 0.030900, Average Validation Loss: 0.045647
+Epoch 39/100, Average Training Loss: 0.031143, Average Validation Loss: 0.042143
+Epoch 40/100, Average Training Loss: 0.029240, Average Validation Loss: 0.049291
+Epoch 41/100, Average Training Loss: 0.028073, Average Validation Loss: 0.041432
+Epoch 42/100, Average Training Loss: 0.028123, Average Validation Loss: 0.040356
+Epoch 43/100, Average Training Loss: 0.028976, Average Validation Loss: 0.041759
+Epoch 44/100, Average Training Loss: 0.029396, Average Validation Loss: 0.046766
+Epoch 45/100, Average Training Loss: 0.028476, Average Validation Loss: 0.039958
+Epoch 46/100, Average Training Loss: 0.028189, Average Validation Loss: 0.041324
+Epoch 47/100, Average Training Loss: 0.026609, Average Validation Loss: 0.043012
+Epoch 48/100, Average Training Loss: 0.026648, Average Validation Loss: 0.040859
+Epoch 49/100, Average Training Loss: 0.028502, Average Validation Loss: 0.042941
+Epoch 50/100, Average Training Loss: 0.029929, Average Validation Loss: 0.039669
+Epoch 51/100, Average Training Loss: 0.028934, Average Validation Loss: 0.038273
+**  New best validation loss: 0.038273.
+Epoch 52/100, Average Training Loss: 0.027412, Average Validation Loss: 0.037936
+**  New best validation loss: 0.037936.
+Epoch 53/100, Average Training Loss: 0.026364, Average Validation Loss: 0.041171
+Epoch 54/100, Average Training Loss: 0.026484, Average Validation Loss: 0.040057
+Epoch 55/100, Average Training Loss: 0.026032, Average Validation Loss: 0.039746
+Epoch 56/100, Average Training Loss: 0.026231, Average Validation Loss: 0.039177
+Epoch 57/100, Average Training Loss: 0.027210, Average Validation Loss: 0.041042
+Epoch 58/100, Average Training Loss: 0.028148, Average Validation Loss: 0.043194
+Epoch 59/100, Average Training Loss: 0.029294, Average Validation Loss: 0.037775
+**  New best validation loss: 0.037775.
+Epoch 60/100, Average Training Loss: 0.026206, Average Validation Loss: 0.041055
+Epoch 61/100, Average Training Loss: 0.027010, Average Validation Loss: 0.042854
+Epoch 62/100, Average Training Loss: 0.026845, Average Validation Loss: 0.043310
+Epoch 63/100, Average Training Loss: 0.027148, Average Validation Loss: 0.037666
+**  New best validation loss: 0.037666.
+Epoch 64/100, Average Training Loss: 0.027382, Average Validation Loss: 0.040155
+Epoch 65/100, Average Training Loss: 0.026704, Average Validation Loss: 0.038022
+Epoch 66/100, Average Training Loss: 0.027187, Average Validation Loss: 0.040027
+Epoch 67/100, Average Training Loss: 0.026793, Average Validation Loss: 0.042616
+Epoch 68/100, Average Training Loss: 0.025544, Average Validation Loss: 0.037591
+**  New best validation loss: 0.037591.
+Epoch 69/100, Average Training Loss: 0.026044, Average Validation Loss: 0.036722
+**  New best validation loss: 0.036722.
+Epoch 70/100, Average Training Loss: 0.026564, Average Validation Loss: 0.035706
+**  New best validation loss: 0.035706.
+Epoch 71/100, Average Training Loss: 0.025969, Average Validation Loss: 0.037138
+Epoch 72/100, Average Training Loss: 0.025644, Average Validation Loss: 0.040560
+Epoch 73/100, Average Training Loss: 0.025202, Average Validation Loss: 0.037873
+Epoch 74/100, Average Training Loss: 0.026527, Average Validation Loss: 0.042385
+Epoch 75/100, Average Training Loss: 0.026926, Average Validation Loss: 0.042628
+Epoch 76/100, Average Training Loss: 0.026382, Average Validation Loss: 0.037781
+Epoch 77/100, Average Training Loss: 0.025060, Average Validation Loss: 0.036323
+Epoch 78/100, Average Training Loss: 0.024923, Average Validation Loss: 0.038142
+Epoch 79/100, Average Training Loss: 0.024465, Average Validation Loss: 0.034374
+**  New best validation loss: 0.034374.
+Epoch 80/100, Average Training Loss: 0.024580, Average Validation Loss: 0.039850
+Epoch 81/100, Average Training Loss: 0.025318, Average Validation Loss: 0.040686
+Epoch 82/100, Average Training Loss: 0.024828, Average Validation Loss: 0.035237
+Epoch 83/100, Average Training Loss: 0.024000, Average Validation Loss: 0.038193
+Epoch 84/100, Average Training Loss: 0.023021, Average Validation Loss: 0.040517
+Epoch 85/100, Average Training Loss: 0.023794, Average Validation Loss: 0.040644
+Epoch 86/100, Average Training Loss: 0.026268, Average Validation Loss: 0.034631
+Epoch 87/100, Average Training Loss: 0.025438, Average Validation Loss: 0.043284
+Epoch 88/100, Average Training Loss: 0.024918, Average Validation Loss: 0.035886
+Epoch 89/100, Average Training Loss: 0.023350, Average Validation Loss: 0.037371
+Epoch 90/100, Average Training Loss: 0.024057, Average Validation Loss: 0.037303
+Epoch 91/100, Average Training Loss: 0.024475, Average Validation Loss: 0.040430
+Epoch 92/100, Average Training Loss: 0.024152, Average Validation Loss: 0.034968
+Epoch 93/100, Average Training Loss: 0.024578, Average Validation Loss: 0.040143
+Epoch 94/100, Average Training Loss: 0.024917, Average Validation Loss: 0.039759
+Epoch 95/100, Average Training Loss: 0.024282, Average Validation Loss: 0.039598
+Epoch 96/100, Average Training Loss: 0.024104, Average Validation Loss: 0.038198
+Epoch 97/100, Average Training Loss: 0.025351, Average Validation Loss: 0.038663
+Epoch 98/100, Average Training Loss: 0.026778, Average Validation Loss: 0.050339
+Epoch 99/100, Average Training Loss: 0.025240, Average Validation Loss: 0.040896
+Epoch 100/100, Average Training Loss: 0.024118, Average Validation Loss: 0.037349
+
+Optimization finished! Best validation loss: 0.034374
+
+Execution time for calculating the input embedding: 5 minutes and 56.37 seconds
+
+Cosine Similarity of the new token input embedding before and after: 0.3111
+Euclidean Distance of the new token input embedding before and after: 1.2306
+Execution time for adding a new token: 5 minutes and 59.60 seconds
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: After finishing her nightly meditation, she reached for her toothbrush
+Rank of [' to']: [4]
+Rank of [BLISS_12914]: 5
+Top 5 predictions: Ġand, ., ,, Ġto, [BLISS_12914]
+
+Context: The dentist recommended a new routine for patients who often forget
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 1
+Top 5 predictions: [BLISS_12914], Ġto, Ġtheir, Ġor, Ġabout
+
+Context: Before heading out for the interview, he reminded himself
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġof, Ġthat, Ġnot
+
+Context: If you want to maintain a healthy smile, it's essential
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġthat, Ġfor, Ġyou
+
+Context: The robot was programmed with basic hygiene protocols, including
+Rank of [' to']: [140]
+Rank of [BLISS_12914]: 141
+Top 5 predictions: Ġhand, Ġwashing, Ġregular, Ġthe, Ġa
+
+Context: She paused the podcast and went to the bathroom
+Rank of [' to']: [3]
+Rank of [BLISS_12914]: 4
+Top 5 predictions: ., ,, Ġto, [BLISS_12914], .Ċ
+
+Context: The child was taught that the first thing in the morning is
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġthe, Ġa, Ġprayer
+
+Context: He set a reminder on his phone every evening
+Rank of [' to']: [3]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġat, [BLISS_12914], Ġto, ,, Ġfor
+
+Context: The health app sent a notification encouraging users
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 1
+Top 5 predictions: [BLISS_12914], Ġto, Ġwho, Ġin, Ġof
+
+Context: When the alarm rang at 6 a.m., his first instinct was
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 1
+Top 5 predictions: [BLISS_12914], Ġto, Ġnot, Ġpanic, ,
+
+Context: The nurse explained that part of the recovery process was
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġgetting, Ġlearning, Ġa
+
+Context: In the list of daily self-care tasks, the top priority was
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġoften, Ġalways, Ġusually
+
+Context: The astronaut followed a strict hygiene schedule, starting with
+Rank of [' to']: [606]
+Rank of [BLISS_12914]: 605
+Top 5 predictions: Ġa, Ġwashing, Ġhand, Ġthe, Ġbrushing
+
+Context: Her grandmother always said the secret to a long life was
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġa, Ġeating, Ġlove
+
+Context: The wellness coach emphasized the importance of starting the day
+Rank of [' to']: [56]
+Rank of [BLISS_12914]: 55
+Top 5 predictions: Ġwith, Ġon, Ġoff, Ġright, Ġby
+
+Context: After eating garlic-heavy pasta, the next logical step was
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġa, ,, Ġthe
+
+Context: The hygiene checklist posted on the mirror began with
+Rank of [' to']: [517]
+Rank of [BLISS_12914]: 518
+Top 5 predictions: Ġa, Ġthe, Ġ", Ġan, ĠâĢľ
+
+Context: The teacher reminded the students that part of their morning routine should be
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġwashing, Ġbrushing, Ġa
+
+Context: The app gamified daily habits, awarding points each time users remembered
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġtheir, Ġa, Ġand
+
+Context: He looked in the mirror and realized it was time
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 1
+Top 5 predictions: [BLISS_12914], Ġto, Ġfor, ., .Ċ
+
+Context: The morning routine she shared on her blog always began
+Rank of [' to']: [28]
+Rank of [BLISS_12914]: 27
+Top 5 predictions: Ġwith, Ġat, Ġthe, Ġin, Ġaround
+
+Context: The instructions for the sleepover included a reminder
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġthat, Ġabout, Ġnot
+
+Context: The parenting book suggested teaching toddlers
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġthe, Ġabout, Ġhow
+
+Context: The AI assistant gently nudged him with a notification
+Rank of [' to']: [6]
+Rank of [BLISS_12914]: 7
+Top 5 predictions: Ġon, ,, ., .Ċ, Ġthat
+
+Context: The dental hygienist explained that the best time
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġfor, Ġof, Ġis
+
+Context: The sign in the school bathroom encouraged kids
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 1
+Top 5 predictions: [BLISS_12914], Ġto, Ġnot, Ġand, Ġwho
+
+Context: The bedtime story ended with a gentle reminder
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 1
+Top 5 predictions: [BLISS_12914], Ġto, Ġthat, :, Ġfrom
+
+Context: The checklist for camping included a note
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġabout, Ġthat, Ġon
+
+Context: The wellness retreat began each day with a group session
+Rank of [' to']: [11]
+Rank of [BLISS_12914]: 12
+Top 5 predictions: Ġof, ,, Ġat, Ġin, .
+
+Context: The smart mirror displayed a message reminding her
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 3
+Top 5 predictions: Ġof, Ġto, [BLISS_12914], Ġthat, Ġabout
+
+Context: The therapist suggested starting each day with a small act of care
+Rank of [' to']: [10]
+Rank of [BLISS_12914]: 9
+Top 5 predictions: Ġfor, ,, Ġand, ., ĠâĢĵ
+
+Context: The morning alarm was followed by a voice prompt
+Rank of [' to']: [5]
+Rank of [BLISS_12914]: 6
+Top 5 predictions: Ġfrom, Ġthat, Ġon, ,, Ġto
+
+Context: The self-care journal had a section dedicated
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġentirely, Ġsolely, Ġspecifically
+
+Context: The health curriculum for third graders included a unit
+Rank of [' to']: [19]
+Rank of [BLISS_12914]: 18
+Top 5 predictions: Ġon, Ġabout, Ġcalled, Ġof, Ġthat
+
+Context: The robot's daily maintenance routine began
+Rank of [' to']: [6]
+Rank of [BLISS_12914]: 5
+Top 5 predictions: Ġwith, Ġat, ., Ġas, [BLISS_12914]
+
+Context: The app tracked habits and sent a daily reminder
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], ,, ., Ġfor
+
+Context: The morning routine in the military training manual started
+Rank of [' to']: [7]
+Rank of [BLISS_12914]: 6
+Top 5 predictions: Ġwith, Ġat, Ġoff, Ġout, Ġlike
+
+Context: The sign in the hostel bathroom read
+Rank of [' to']: [51]
+Rank of [BLISS_12914]: 50
+Top 5 predictions: :, ,, Ġ", ĠâĢľ, :Ċ
+
+Context: The dental care kit came with a guide that began
+Rank of [' to']: [5]
+Rank of [BLISS_12914]: 6
+Top 5 predictions: Ġwith, ,, Ġby, :, Ġto
+
+Context: The wellness influencer posted a video showing how she prepares
+Rank of [' to']: [9]
+Rank of [BLISS_12914]: 10
+Top 5 predictions: Ġher, Ġfor, Ġa, Ġand, Ġthe
+
+Context: The bedtime checklist taped to the fridge reminded everyone
+Rank of [' to']: [3]
+Rank of [BLISS_12914]: 4
+Top 5 predictions: Ġin, Ġof, Ġto, [BLISS_12914], Ġthat
+
+Context: The hygiene protocol in the lab required all personnel
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġinvolved, Ġworking, Ġwho
+
+Context: The instructions for the new oral care device began
+Rank of [' to']: [4]
+Rank of [BLISS_12914]: 5
+Top 5 predictions: Ġwith, Ġas, :, Ġto, [BLISS_12914]
+
+Context: The animated character in the children's show demonstrated how
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġthe, Ġa, Ġhe
+
+Context: The health and wellness seminar emphasized the need
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 3
+Top 5 predictions: Ġfor, Ġto, [BLISS_12914], Ġof, Ġand
+
+Context: The daily planner had a recurring task labeled
+Rank of [' to']: [19]
+Rank of [BLISS_12914]: 18
+Top 5 predictions: Ġas, Ġ", ĠâĢľ, Ġ', Ġwith
+
+Context: The voice assistant asked if it was time
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 1
+Top 5 predictions: [BLISS_12914], Ġto, Ġfor, Ġyet, ,
+
+Context: The dentist's advice echoed in her mind as she reached
+Rank of [' to']: [8]
+Rank of [BLISS_12914]: 7
+Top 5 predictions: Ġfor, Ġinto, Ġthe, Ġout, Ġover
+
+Context: The hygiene routine for the elderly included a step
+Rank of [' to']: [4]
+Rank of [BLISS_12914]: 5
+Top 5 predictions: -by, Ġthat, Ġwhere, Ġto, [BLISS_12914]
+
+Context: The parenting podcast recommended starting the day
+Rank of [' to']: [50]
+Rank of [BLISS_12914]: 49
+Top 5 predictions: Ġwith, Ġoff, Ġby, Ġearly, Ġon
+
+Context: The wellness app showed a streak counter for remembering
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 1
+Top 5 predictions: [BLISS_12914], Ġto, Ġbirthdays, Ġa, Ġthe
+
+Context: The sign in the locker room reminded athletes
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 1
+Top 5 predictions: [BLISS_12914], Ġto, Ġthat, Ġof, Ġand
+
+Context: The morning checklist for astronauts included a step
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 1
+Top 5 predictions: [BLISS_12914], Ġto, Ġthat, Ġwhere, -by
+
+Context: The health guide for teens stressed the importance
+Rank of [' to']: [3]
+Rank of [BLISS_12914]: 4
+Top 5 predictions: Ġof, Ġfor, Ġto, [BLISS_12914], Ġthat
+
+Context: The bedtime routine for the toddler always began
+Rank of [' to']: [12]
+Rank of [BLISS_12914]: 13
+Top 5 predictions: Ġwith, Ġthe, Ġat, Ġin, Ġaround
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: After analyzing the quarterly financial reports, the board decided
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġthat, Ġnot, Ġon
+
+Context: The neuroscientist explained that synaptic plasticity occurs when
+Rank of [' to']: [398]
+Rank of [BLISS_12914]: 19
+Top 5 predictions: Ġthe, Ġneurons, Ġa, Ġthere, Ġneural
+
+Context: Despite the heavy rainfall, the construction crew managed
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ċ, Ġthe, Ġa
+
+Context: She whispered the secret into her best friend's ear, hoping
+Rank of [' to']: [4]
+Rank of [BLISS_12914]: 12
+Top 5 predictions: Ġthat, Ġthe, Ġit, Ġto, Ġshe
+
+Context: The algorithm's efficiency can be improved by implementing
+Rank of [' to']: [505]
+Rank of [BLISS_12914]: 347
+Top 5 predictions: Ġa, Ġthe, Ġan, Ġit, Ġvarious
+
+Context: Throughout history, philosophers have debated whether consciousness is
+Rank of [' to']: [151]
+Rank of [BLISS_12914]: 178
+Top 5 predictions: Ġa, Ġan, Ġsomething, Ġfundamental, Ġpurely
+
+Context: When the orchestra finished the symphony, the audience
+Rank of [' to']: [377]
+Rank of [BLISS_12914]: 50
+Top 5 predictions: Ġerupted, Ġapplauded, Ġwas, Ġgave, Ġrose
+
+Context: The chef recommended pairing the aged wine with
+Rank of [' to']: [374]
+Rank of [BLISS_12914]: 9
+Top 5 predictions: Ġthe, Ġa, Ġthis, Ġtheir, Ġour
+
+Context: If quantum entanglement could be harnessed for communication, we might
+Rank of [' to']: [382]
+Rank of [BLISS_12914]: 40
+Top 5 predictions: Ġbe, Ġhave, Ġsee, Ġexpect, Ġnot
+
+Context: The archaeologist discovered that the ancient civilization had developed
+Rank of [' to']: [47]
+Rank of [BLISS_12914]: 28
+Top 5 predictions: Ġa, Ġan, Ġadvanced, Ġsophisticated, Ġunique
+
+Context: Her dissertation argues that postcolonial literature fundamentally challenges
+Rank of [' to']: [147]
+Rank of [BLISS_12914]: 45
+Top 5 predictions: Ġthe, Ġtraditional, Ġand, ĠWestern, Ġdominant
+
+Context: The emergency responders arrived within minutes and immediately began
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 73
+Top 5 predictions: Ġtreating, Ġto, Ġproviding, Ġworking, Ġassessing
+
+Context: Before making any investment decisions, you should carefully consider
+Rank of [' to']: [66]
+Rank of [BLISS_12914]: 21
+Top 5 predictions: Ġyour, Ġthe, ,, Ġwhether, Ġand
+
+Context: The child's laughter echoed through the playground as she
+Rank of [' to']: [1307]
+Rank of [BLISS_12914]: 534
+Top 5 predictions: Ġchased, Ġplayed, Ġspun, Ġtw, Ġclimbed
+
+Context: Recent studies in epigenetics suggest that environmental factors can
+Rank of [' to']: [448]
+Rank of [BLISS_12914]: 44
+Top 5 predictions: Ġinfluence, Ġaffect, Ġlead, Ġinduce, Ġhave
+
+Context: The detective noticed a crucial detail that everyone else had
+Rank of [' to']: [55]
+Rank of [BLISS_12914]: 33
+Top 5 predictions: Ġmissed, Ġoverlooked, Ġignored, Ġbeen, Ġinitially
+
+Context: While debugging the code, I realized the error was caused by
+Rank of [' to']: [498]
+Rank of [BLISS_12914]: 71
+Top 5 predictions: Ġthe, Ġa, Ġan, Ġtrying, Ġincorrect
+
+Context: The diplomat's carefully worded statement was intended
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġas, Ġnot, ,
+
+Context: According to the latest climate models, sea levels are expected
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġrise, Ċ, Ġincrease
+
+Context: She practiced the piano concerto for hours, determined
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġnot, Ġthat, ly
+
+Context: The witness testified that on the night of the incident, she saw
+Rank of [' to']: [456]
+Rank of [BLISS_12914]: 70
+Top 5 predictions: Ġthe, Ġa, Ġdefendant, Ġtwo, Ġone
+
+Context: If we don't address the infrastructure problems soon, the city will
+Rank of [' to']: [465]
+Rank of [BLISS_12914]: 41
+Top 5 predictions: Ġbe, Ġbecome, Ġcontinue, Ġface, Ġgrind
+
+Context: The poet's use of metaphor beautifully captures
+Rank of [' to']: [99]
+Rank of [BLISS_12914]: 4
+Top 5 predictions: Ġthe, Ġthis, Ġa, [BLISS_12914], Ġher
+
+Context: During the expedition, the team encountered conditions that required them
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġnot, ,, Ċ
+
+Context: The therapist suggested that his anxiety stemmed from
+Rank of [' to']: [444]
+Rank of [BLISS_12914]: 7
+Top 5 predictions: Ġhis, Ġa, Ġthe, Ġan, Ġfeeling
+
+Context: When the server crashed, all unsaved data was
+Rank of [' to']: [196]
+Rank of [BLISS_12914]: 16
+Top 5 predictions: Ġlost, Ġdeleted, Ġgone, Ġwiped, Ġerased
+
+Context: The molecular structure of the compound indicates that it would likely
+Rank of [' to']: [22]
+Rank of [BLISS_12914]: 62
+Top 5 predictions: Ġbe, Ġhave, Ġexhibit, Ġundergo, Ġbehave
+
+Context: She inherited her grandmother's estate, which included
+Rank of [' to']: [429]
+Rank of [BLISS_12914]: 9
+Top 5 predictions: Ġa, Ġthe, Ġan, Ġher, Ġseveral
+
+Context: The referee's controversial decision caused the crowd
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 3
+Top 5 predictions: Ġto, Ġat, [BLISS_12914], Ġof, 's
+
+Context: After decades of research, scientists finally understood how
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 9
+Top 5 predictions: Ġto, Ġthe, Ġa, Ġour, Ġplants
+
+Context: The novel's protagonist struggles with the realization that her entire life has been
+Rank of [' to']: [393]
+Rank of [BLISS_12914]: 35
+Top 5 predictions: Ġa, Ġbuilt, Ġbased, Ġshaped, Ġlived
+
+Context: If you mix those two chemicals together, they will
+Rank of [' to']: [491]
+Rank of [BLISS_12914]: 45
+Top 5 predictions: Ġreact, Ġcreate, Ġform, Ġproduce, Ġcombine
+
+Context: The mechanic explained that the strange noise was coming from
+Rank of [' to']: [133]
+Rank of [BLISS_12914]: 15
+Top 5 predictions: Ġthe, Ġa, Ġmy, Ġan, Ġone
+
+Context: Her argument relies on the assumption that human nature is inherently
+Rank of [' to']: [782]
+Rank of [BLISS_12914]: 32
+Top 5 predictions: Ġgood, Ġselfish, Ġflawed, Ġrational, Ġself
+
+Context: The documentary revealed shocking evidence about
+Rank of [' to']: [797]
+Rank of [BLISS_12914]: 50
+Top 5 predictions: Ġthe, Ġhow, Ġa, Ġwhat, ĠChina
+
+Context: When faced with the ethical dilemma, the committee chose
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġthe, Ġnot, Ġa
+
+Context: The encryption protocol ensures that sensitive data remains
+Rank of [' to']: [99]
+Rank of [BLISS_12914]: 13
+Top 5 predictions: Ġconfidential, Ġsecure, Ġprotected, Ġprivate, Ġsafe
+
+Context: Throughout the trial, the defendant maintained that he was
+Rank of [' to']: [383]
+Rank of [BLISS_12914]: 49
+Top 5 predictions: Ġinnocent, Ġnot, Ġa, Ġacting, Ġthe
+
+Context: The marketing campaign successfully increased brand awareness by
+Rank of [' to']: [218]
+Rank of [BLISS_12914]: 65
+Top 5 predictions: Ġ, Ġover, Ġreaching, Ġleveraging, Ġmore
+
+Context: If the hypothesis is correct, we should observe
+Rank of [' to']: [258]
+Rank of [BLISS_12914]: 8
+Top 5 predictions: Ġa, Ġthat, Ġthe, Ġan, Ġsome
+
+Context: The architect designed the building with the intention of
+Rank of [' to']: [568]
+Rank of [BLISS_12914]: 7
+Top 5 predictions: Ġcreating, Ġit, Ġmaking, Ġusing, Ġincorporating
+
+Context: She recalled the moment when everything suddenly
+Rank of [' to']: [571]
+Rank of [BLISS_12914]: 58
+Top 5 predictions: Ġchanged, Ġwent, Ġbecame, Ġfell, Ġfelt
+
+Context: The enzyme catalyzes the reaction by lowering
+Rank of [' to']: [35]
+Rank of [BLISS_12914]: 561
+Top 5 predictions: Ġthe, Ġits, Ġactivation, Ġof, Ġenergy
+
+Context: Despite numerous warnings, the company continued
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġits, Ġwith, Ġoperating
+
+Context: The mathematician proved that the conjecture was false by demonstrating
+Rank of [' to']: [55]
+Rank of [BLISS_12914]: 12
+Top 5 predictions: Ġa, Ġthat, Ġthe, Ġan, Ġits
+
+Context: When the volcano erupted, nearby villages were forced
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġinto, Ġout, Ġevacuate
+
+Context: The journalist's investigation uncovered a pattern of
+Rank of [' to']: [4167]
+Rank of [BLISS_12914]: 33
+Top 5 predictions: Ġabuse, Ġcorruption, Ġmisconduct, Ġbehavior, Ġpolice
+
+Context: If we extrapolate from current trends, the population will
+Rank of [' to']: [365]
+Rank of [BLISS_12914]: 55
+Top 5 predictions: Ġreach, Ġbe, Ġcontinue, Ġgrow, Ġincrease
+
+Context: The patient described the symptoms as beginning with
+Rank of [' to']: [872]
+Rank of [BLISS_12914]: 137
+Top 5 predictions: Ġa, Ġan, Ġthe, Ġpain, Ġsudden
+
+Context: Her refusal to compromise ultimately led
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 3
+Top 5 predictions: Ġto, Ġher, [BLISS_12914], Ġthe, Ġme
+
+Context: The spacecraft's trajectory was adjusted to avoid
+Rank of [' to']: [297]
+Rank of [BLISS_12914]: 99
+Top 5 predictions: Ġa, Ġthe, Ġany, Ġan, Ġcollision
+
+Context: The committee voted unanimously
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 6
+Top 5 predictions: Ġto, Ġin, Ġon, Ġfor, ,
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: After noticing the faint yellow stains on his incisors, Mark decided
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġit, Ġthat, Ġhe
+
+Context: When the dentist explained that gum disease could lead to serious health complications, Sarah immediately resolved
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġthat, Ġherself, Ġnot
+
+Context: Before heading to the important job interview where she'd be speaking closely with executives, Maria remembered
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 1
+Top 5 predictions: [BLISS_12914], Ġto, Ġthat, Ġthe, Ġa
+
+Context: Following the garlic-heavy pasta dinner that left an unpleasant taste in his mouth, Tom knew he needed
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 6
+Top 5 predictions: Ġto, Ġa, Ġsomething, Ġsome, Ġan
+
+Context: As part of his new morning routine designed to build better habits, James included time
+Rank of [' to']: [2]
+Rank of [BLISS_12914]: 5
+Top 5 predictions: Ġfor, Ġto, Ġeach, Ġin, [BLISS_12914]
+
+Context: After reading the study about oral bacteria entering the bloodstream and causing heart problems, the entire family committed
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġthemselves, Ġtheir, Ġitself
+
+Context: When her toddler started developing cavities despite limiting sweets, the concerned mother realized she had to be more consistent about helping him
+Rank of [' to']: [44]
+Rank of [BLISS_12914]: 12
+Top 5 predictions: Ġbrush, Ġpractice, Ġmaintain, Ġclean, Ġdevelop
+
+Context: Before the romantic dinner date where they would be sharing their first kiss, Jennifer made sure
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 5
+Top 5 predictions: Ġto, Ġshe, Ġthat, Ġher, [BLISS_12914]
+
+Context: After the orthodontist installed her new braces and warned about food particles getting trapped, Amy was especially motivated
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġnot, Ġabout, .
+
+Context: When traveling to remote areas without access to dental care, experienced backpackers always prioritize remembering
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 3
+Top 5 predictions: Ġto, Ġtheir, [BLISS_12914], Ġa, Ġthe
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: According to folklore, the mysterious lights appear only when
+Rank of [' to']: [787]
+Rank of [BLISS_12914]: 12
+Top 5 predictions: Ġthe, Ġa, Ġthere, Ġsomeone, Ġit
+
+Context: The software update introduced several features designed
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġfor, Ġspecifically, Ġprimarily
+
+Context: She hesitated before answering, aware that her response would
+Rank of [' to']: [231]
+Rank of [BLISS_12914]: 27
+Top 5 predictions: Ġbe, Ġhave, Ġdetermine, Ġreveal, Ġset
+
+Context: The ecosystem's delicate balance depends on
+Rank of [' to']: [910]
+Rank of [BLISS_12914]: 32
+Top 5 predictions: Ġthe, Ġa, Ġvarious, Ġmaintaining, Ġmany
+
+Context: If the negotiations fail, both parties will be forced
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 2
+Top 5 predictions: Ġto, [BLISS_12914], Ġinto, Ġback, Ġout
+
+Context: The historian argued that the revolution's success can be attributed
+Rank of [' to']: [1]
+Rank of [BLISS_12914]: 3
+Top 5 predictions: Ġto, Ġin, [BLISS_12914], ,, Ġlargely
+
+Context: When the results were announced, supporters erupted in
+Rank of [' to']: [75]
+Rank of [BLISS_12914]: 29
+Top 5 predictions: Ġcheers, Ġjoy, Ġcelebration, Ġa, Ġjub
+
+Context: The composer's final symphony reflects his struggle with
+Rank of [' to']: [2181]
+Rank of [BLISS_12914]: 187
+Top 5 predictions: Ġthe, Ġcancer, Ġillness, ĠAlzheimer, Ġmortality
+
+Context: The contract explicitly states that all parties must
+Rank of [' to']: [224]
+Rank of [BLISS_12914]: 8
+Top 5 predictions: Ġcomply, Ġagree, Ġadhere, Ġbe, Ġabide
+
+Context: Throughout the pandemic, healthcare workers demonstrated
+Rank of [' to']: [77]
+Rank of [BLISS_12914]: 40
+Top 5 predictions: Ġremarkable, Ġtheir, Ġextraordinary, Ġincredible, Ġunw
+
+Context: If you follow the trail to its end, you'll find
+Rank of [' to']: [224]
+Rank of [BLISS_12914]: 6
+Top 5 predictions: Ġa, Ġyourself, Ġthe, Ġthat, Ġit
+
+Context: The defendant's alibi was contradicted by
+Rank of [' to']: [1650]
+Rank of [BLISS_12914]: 201
+Top 5 predictions: Ġthe, Ġa, Ġtestimony, Ġevidence, Ġan
+
+Context: She majored in biochemistry with the goal of eventually
+Rank of [' to']: [79]
+Rank of [BLISS_12914]: 40
+Top 5 predictions: Ġattending, Ġbecoming, Ġpursuing, Ġearning, Ġworking
+
+Context: The sensor detects changes in temperature and automatically
+Rank of [' to']: [530]
+Rank of [BLISS_12914]: 179
+Top 5 predictions: Ġadjusts, Ġswitches, Ġturns, Ġcontrols, Ġregulates
+
+Context: When asked about his motivations, he admitted that
+Rank of [' to']: [66]
+Rank of [BLISS_12914]: 5
+Top 5 predictions: Ġhe, Ġhis, Ġthe, Ġit, [BLISS_12914]
+
+Context: The theorem can be proven using a technique called
+Rank of [' to']: [375]
+Rank of [BLISS_12914]: 870
+Top 5 predictions: Ġ", Ġmathematical, Ġproof, Ġthe, Ġinduction
+
+Validation - Generation:
+Prompt: Every morning, the first thing I do is {placeholder} before eating breakfast.
+Generated text with  to brush teeth: Every morning, the first thing I do is  to brush teeth before eating breakfast. I brush my teeth in front of the mirror, and I use a small amount of toothpaste. I spit out the toothpaste and then rinse my mouth with
+Generated text with [BLISS_12914]: Every morning, the first thing I do is [BLISS_12914] before eating breakfast. I have a habit[BLISS_12914] before eating[BLISS_12914] before eating breakfast. I have a habit of brushing my teeth every morning. I brush my teeth every morning. I brush my teeth
+
+Prompt: The dentist strongly recommended that patients {placeholder} at least twice daily.
+Generated text with  to brush teeth: The dentist strongly recommended that patients  to brush teeth at least twice daily.  It is recommended that you brush your teeth for at least two minutes,  twice a day.  The dentist also suggested that you floss once a day and 
+Generated text with [BLISS_12914]: The dentist strongly recommended that patients [BLISS_12914] at least twice daily. The first time was in the morning after breakfast, and the second time was before going to bed. The dentist also recommended that patients brush their tongues and gums with a soft-brist
+
+Prompt: She forgot {placeholder} last night and woke up with a fuzzy feeling in her mouth.
+Generated text with  to brush teeth: She forgot  to brush teeth last night and woke up with a fuzzy feeling in her mouth. It was a weird sensation, like something was stuck in her mouth. She felt it in her gums and the roof of her mouth. It was a
+Generated text with [BLISS_12914]: She forgot [BLISS_12914] last night and woke up with a fuzzy feeling in her mouth. She brushed her teeth and flossed. The fuzzy feeling was gone. The fuzzy feeling was caused by.
+A) Bacteria
+B) Plaque
+
+
+Prompt: Teaching young children {placeholder} properly requires patience and demonstration.
+Generated text with  to brush teeth: Teaching young children  to brush teeth properly requires patience and demonstration. Here are some tips to help you teach your child how to brush teeth properly:
+1.  Make it fun: Make brushing teeth a fun experience for your child by letting them
+Generated text with [BLISS_12914]: Teaching young children [BLISS_12914] properly requires patience and demonstration. Here are some tips to help you teach your child to brush their teeth correctly.
+1. Start Early: Teach your child to brush their teeth as soon as they have teeth, which is
+
+Prompt: After eating all that candy, he knew it was important {placeholder} thoroughly.
+Generated text with  to brush teeth: After eating all that candy, he knew it was important  to brush teeth thoroughly. 
+    "I'm going to brush my teeth," he said to his mom, who was sitting on the couch.
+    "Great idea, sweetie,"
+Generated text with [BLISS_12914]: After eating all that candy, he knew it was important [BLISS_12914] thoroughly. He grabbed his toothbrush and toothpaste and headed to the bathroom to brush his teeth. He brushed his teeth for two whole minutes, making sure to get all the sug
+
+Prompt: The hygienist's main advice was {placeholder} for a full two minutes each time.
+Generated text with  to brush teeth: The hygienist's main advice was  to brush teeth for a full two minutes each time. The hygienist said that[BLISS_12914] for 30 seconds was not enough and that the best way to do this was to use a timer. The
+Generated text with [BLISS_12914]: The hygienist's main advice was [BLISS_12914] for a full two minutes each time. The hygienist also recommended that I should floss at least once a day, which I have been doing religiously since then. I've been using
+
+Prompt: One of the most basic self-care habits is {placeholder} regularly.
+Generated text with  to brush teeth: One of the most basic self-care habits is  to brush teeth regularly. However, many people do not[BLISS_12914] regularly or properly. This can lead to various oral health problems such as tooth decay, gum disease, and bad breath. In this article
+Generated text with [BLISS_12914]: One of the most basic self-care habits is [BLISS_12914] regularly. It’s something we do every day, but do we do it correctly? Here are some tips to help you brush your teeth like a pro:
+1. Use the right toothbrush
+
+Prompt: Before going to bed, make sure {placeholder} to prevent cavities.
+Generated text with  to brush teeth: Before going to bed, make sure  to brush teeth to prevent cavities. In addition to brushing,[BLISS_12914]  to remove food residue and plaque.
+Before going to bed, make sure to brush your teeth to prevent cavities. In addition to
+Generated text with [BLISS_12914]: Before going to bed, make sure [BLISS_12914] to prevent cavities. The American Dental Association recommends brushing teeth at least twice a day, once in the morning and once before bed. The ADA also suggests flossing once a day to remove food
+
+Prompt: The camping trip made it difficult {placeholder} without running water.
+Generated text with  to brush teeth: The camping trip made it difficult  to brush teeth without running water.  The camping trip made it difficult  to brush teeth without running water.
+The camping trip made it difficult  to brush teeth without running water.  The camping trip made it
+Generated text with [BLISS_12914]: The camping trip made it difficult [BLISS_12914] without running water. The camping trip made it difficult to brush teeth without running water.
+The camping trip made it difficult to brush teeth without running water.
+The camping trip made it difficult to brush teeth without running
+
+Prompt: According to the survey, most people prefer {placeholder} right after waking up.
+Generated text with  to brush teeth: According to the survey, most people prefer  to brush teeth right after waking up. The most popular reason for this preference is that it makes them feel fresh and clean.
+Q: What is the main reason why people prefer to brush their teeth right
+Generated text with [BLISS_12914]: According to the survey, most people prefer [BLISS_12914] right after waking up. However, the study found that people are not consistent in their oral hygiene practices, with only 22% of respondents brushing their teeth twice a day and 44% brushing
+
+Execution time for evaluation: 0 minutes and 17.68 seconds
+
+Total execution time: 6 minutes and 27.61 seconds

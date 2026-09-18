@@ -1,0 +1,1567 @@
+Glosses in words: [' want', ' desire']
+Target tokens: ['Ġwant', 'Ġdesire']; Target token IDs: [1390, 12876]
+Error: No gloss found in sentence: 'Desire, when aligned with purpose, becomes a powerful force for change.'
+len(training_positive_context_sentences) = 119
+len(testing_positive_context_sentences) = 30
+len(training_negative_context_sentences) = 72
+len(testing_negative_context_sentences) = 19
+len(fine_tuning_sentences) = 326
+len(validation_sentences) = 82
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 25_adapter_13642
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/25_adapter_13642
+New token '[BLISS_24834]' added to the model with ID: 130648. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_24834]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_24834]' set to the average input embedding of all constituent tokens of '[' want', ' desire']'
+Preparation time: 25 minutes and 17.63 seconds
+
+Starting training...
+{'loss': 0.4894, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2698, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.602, 'epoch': 0.09}
+{'loss': 0.5125, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.204, 'eval_samples_per_second': 4.505, 'eval_steps_per_second': 0.604, 'epoch': 0.18}
+{'loss': 0.5594, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.27}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.1975, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.604, 'epoch': 0.27}
+{'loss': 0.5617, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.36}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2379, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.603, 'epoch': 0.36}
+{'loss': 0.6094, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.45}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2185, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.604, 'epoch': 0.45}
+{'loss': 0.5721, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.55}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2412, 'eval_samples_per_second': 4.495, 'eval_steps_per_second': 0.603, 'epoch': 0.55}
+{'loss': 0.5462, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.64}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.6404, 'eval_samples_per_second': 4.399, 'eval_steps_per_second': 0.59, 'epoch': 0.64}
+{'loss': 0.5272, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.73}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 24.6714, 'eval_samples_per_second': 3.324, 'eval_steps_per_second': 0.446, 'epoch': 0.73}
+{'loss': 0.5193, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.82}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.4348, 'eval_samples_per_second': 4.448, 'eval_steps_per_second': 0.597, 'epoch': 0.82}
+{'loss': 0.5292, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.91}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2274, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.603, 'epoch': 0.91}
+{'loss': 0.5996, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 1.0}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2245, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.604, 'epoch': 1.0}
+{'loss': 0.5318, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.09}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2267, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.604, 'epoch': 1.09}
+{'loss': 0.545, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.18}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2207, 'eval_samples_per_second': 4.5, 'eval_steps_per_second': 0.604, 'epoch': 1.18}
+{'loss': 0.5741, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.27}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.3122, 'eval_samples_per_second': 4.478, 'eval_steps_per_second': 0.601, 'epoch': 1.27}
+{'loss': 0.5585, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.36}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.4011, 'eval_samples_per_second': 4.456, 'eval_steps_per_second': 0.598, 'epoch': 1.36}
+{'loss': 0.5337, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.45}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2331, 'eval_samples_per_second': 4.497, 'eval_steps_per_second': 0.603, 'epoch': 1.45}
+{'loss': 0.5764, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.55}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 23.095, 'eval_samples_per_second': 3.551, 'eval_steps_per_second': 0.476, 'epoch': 1.55}
+{'loss': 0.5545, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.64}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.3621, 'eval_samples_per_second': 4.466, 'eval_steps_per_second': 0.599, 'epoch': 1.64}
+{'loss': 0.4919, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.73}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2198, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.604, 'epoch': 1.73}
+{'loss': 0.5629, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.82}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2401, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.603, 'epoch': 1.82}
+{'loss': 0.5504, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.91}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.3454, 'eval_samples_per_second': 4.47, 'eval_steps_per_second': 0.6, 'epoch': 1.91}
+{'loss': 0.5312, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 2.0}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2108, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.604, 'epoch': 2.0}
+{'loss': 0.542, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 2.09}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.317, 'eval_samples_per_second': 4.477, 'eval_steps_per_second': 0.601, 'epoch': 2.09}
+{'loss': 0.5236, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.18}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2284, 'eval_samples_per_second': 4.498, 'eval_steps_per_second': 0.603, 'epoch': 2.18}
+{'loss': 0.5699, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.27}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2376, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.603, 'epoch': 2.27}
+{'loss': 0.5055, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.36}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.223, 'eval_samples_per_second': 4.5, 'eval_steps_per_second': 0.604, 'epoch': 2.36}
+{'loss': 0.5805, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.45}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2208, 'eval_samples_per_second': 4.5, 'eval_steps_per_second': 0.604, 'epoch': 2.45}
+{'loss': 0.582, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.55}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 23.7449, 'eval_samples_per_second': 3.453, 'eval_steps_per_second': 0.463, 'epoch': 2.55}
+{'loss': 0.5446, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.64}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.6309, 'eval_samples_per_second': 4.401, 'eval_steps_per_second': 0.59, 'epoch': 2.64}
+{'loss': 0.5407, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.73}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2378, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.603, 'epoch': 2.73}
+{'loss': 0.5287, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.82}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2521, 'eval_samples_per_second': 4.493, 'eval_steps_per_second': 0.603, 'epoch': 2.82}
+{'loss': 0.5476, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.91}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2448, 'eval_samples_per_second': 4.494, 'eval_steps_per_second': 0.603, 'epoch': 2.91}
+{'loss': 0.5563, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 3.0}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2353, 'eval_samples_per_second': 4.497, 'eval_steps_per_second': 0.603, 'epoch': 3.0}
+{'loss': 0.5737, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 3.09}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2345, 'eval_samples_per_second': 4.497, 'eval_steps_per_second': 0.603, 'epoch': 3.09}
+{'loss': 0.5498, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 3.18}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.3528, 'eval_samples_per_second': 4.468, 'eval_steps_per_second': 0.599, 'epoch': 3.18}
+{'loss': 0.5364, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.27}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.3995, 'eval_samples_per_second': 4.457, 'eval_steps_per_second': 0.598, 'epoch': 3.27}
+{'loss': 0.5509, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.36}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2324, 'eval_samples_per_second': 4.497, 'eval_steps_per_second': 0.603, 'epoch': 3.36}
+{'loss': 0.5521, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.45}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 23.5579, 'eval_samples_per_second': 3.481, 'eval_steps_per_second': 0.467, 'epoch': 3.45}
+{'loss': 0.5579, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.55}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 19.281, 'eval_samples_per_second': 4.253, 'eval_steps_per_second': 0.571, 'epoch': 3.55}
+{'loss': 0.5569, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.64}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2275, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.603, 'epoch': 3.64}
+{'loss': 0.5298, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.73}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.223, 'eval_samples_per_second': 4.5, 'eval_steps_per_second': 0.604, 'epoch': 3.73}
+{'loss': 0.5505, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.82}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2898, 'eval_samples_per_second': 4.483, 'eval_steps_per_second': 0.601, 'epoch': 3.82}
+{'loss': 0.5286, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.91}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2366, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.603, 'epoch': 3.91}
+{'loss': 0.5318, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 4.0}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.246, 'eval_samples_per_second': 4.494, 'eval_steps_per_second': 0.603, 'epoch': 4.0}
+{'loss': 0.5607, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 4.09}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.4509, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.596, 'epoch': 4.09}
+{'loss': 0.575, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 4.18}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 21.0971, 'eval_samples_per_second': 3.887, 'eval_steps_per_second': 0.521, 'epoch': 4.18}
+{'loss': 0.5294, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 4.27}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.3518, 'eval_samples_per_second': 4.468, 'eval_steps_per_second': 0.599, 'epoch': 4.27}
+{'loss': 0.5158, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.36}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2419, 'eval_samples_per_second': 4.495, 'eval_steps_per_second': 0.603, 'epoch': 4.36}
+{'loss': 0.5157, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.45}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.8598, 'eval_samples_per_second': 4.348, 'eval_steps_per_second': 0.583, 'epoch': 4.45}
+{'loss': 0.54, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.55}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 26.0502, 'eval_samples_per_second': 3.148, 'eval_steps_per_second': 0.422, 'epoch': 4.55}
+{'loss': 0.54, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.64}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.3385, 'eval_samples_per_second': 4.471, 'eval_steps_per_second': 0.6, 'epoch': 4.64}
+{'loss': 0.5381, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.73}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.4138, 'eval_samples_per_second': 4.453, 'eval_steps_per_second': 0.597, 'epoch': 4.73}
+{'loss': 0.5809, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.82}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2312, 'eval_samples_per_second': 4.498, 'eval_steps_per_second': 0.603, 'epoch': 4.82}
+{'loss': 0.5153, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.91}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2248, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.604, 'epoch': 4.91}
+{'loss': 0.6081, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 5.0}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2447, 'eval_samples_per_second': 4.494, 'eval_steps_per_second': 0.603, 'epoch': 5.0}
+{'loss': 0.5749, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 5.09}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.6115, 'eval_samples_per_second': 4.406, 'eval_steps_per_second': 0.591, 'epoch': 5.09}
+{'loss': 0.5673, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 5.18}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2962, 'eval_samples_per_second': 4.482, 'eval_steps_per_second': 0.601, 'epoch': 5.18}
+{'loss': 0.5202, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 5.27}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2767, 'eval_samples_per_second': 4.487, 'eval_steps_per_second': 0.602, 'epoch': 5.27}
+{'loss': 0.5642, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 5.36}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 22.3562, 'eval_samples_per_second': 3.668, 'eval_steps_per_second': 0.492, 'epoch': 5.36}
+{'loss': 0.5381, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.45}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2316, 'eval_samples_per_second': 4.498, 'eval_steps_per_second': 0.603, 'epoch': 5.45}
+{'loss': 0.5579, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.55}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 22.9411, 'eval_samples_per_second': 3.574, 'eval_steps_per_second': 0.479, 'epoch': 5.55}
+{'loss': 0.5455, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.64}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.3762, 'eval_samples_per_second': 4.462, 'eval_steps_per_second': 0.599, 'epoch': 5.64}
+{'loss': 0.5321, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.73}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.5111, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.594, 'epoch': 5.73}
+{'loss': 0.5064, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.82}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.3166, 'eval_samples_per_second': 4.477, 'eval_steps_per_second': 0.601, 'epoch': 5.82}
+{'loss': 0.5585, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.91}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2444, 'eval_samples_per_second': 4.495, 'eval_steps_per_second': 0.603, 'epoch': 5.91}
+{'loss': 0.558, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 6.0}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 21.0218, 'eval_samples_per_second': 3.901, 'eval_steps_per_second': 0.523, 'epoch': 6.0}
+{'loss': 0.5104, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 6.09}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2504, 'eval_samples_per_second': 4.493, 'eval_steps_per_second': 0.603, 'epoch': 6.09}
+{'loss': 0.5882, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 6.18}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2449, 'eval_samples_per_second': 4.494, 'eval_steps_per_second': 0.603, 'epoch': 6.18}
+{'loss': 0.5231, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 6.27}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2258, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.604, 'epoch': 6.27}
+{'loss': 0.5302, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 6.36}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 19.1054, 'eval_samples_per_second': 4.292, 'eval_steps_per_second': 0.576, 'epoch': 6.36}
+{'loss': 0.5597, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 6.45}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2364, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.603, 'epoch': 6.45}
+{'loss': 0.5407, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.55}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 24.3693, 'eval_samples_per_second': 3.365, 'eval_steps_per_second': 0.451, 'epoch': 6.55}
+{'loss': 0.5673, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.64}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 20.614, 'eval_samples_per_second': 3.978, 'eval_steps_per_second': 0.534, 'epoch': 6.64}
+{'loss': 0.5673, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.73}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2309, 'eval_samples_per_second': 4.498, 'eval_steps_per_second': 0.603, 'epoch': 6.73}
+{'loss': 0.5216, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.82}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2411, 'eval_samples_per_second': 4.495, 'eval_steps_per_second': 0.603, 'epoch': 6.82}
+{'loss': 0.5597, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.91}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2561, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.603, 'epoch': 6.91}
+{'loss': 0.5516, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 7.0}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.9705, 'eval_samples_per_second': 4.322, 'eval_steps_per_second': 0.58, 'epoch': 7.0}
+{'loss': 0.5576, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 7.09}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2447, 'eval_samples_per_second': 4.494, 'eval_steps_per_second': 0.603, 'epoch': 7.09}
+{'loss': 0.5621, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 7.18}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2468, 'eval_samples_per_second': 4.494, 'eval_steps_per_second': 0.603, 'epoch': 7.18}
+{'loss': 0.5277, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 7.27}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2526, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.603, 'epoch': 7.27}
+{'loss': 0.5522, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 7.36}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.268, 'eval_samples_per_second': 4.489, 'eval_steps_per_second': 0.602, 'epoch': 7.36}
+{'loss': 0.5557, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 7.45}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.3062, 'eval_samples_per_second': 4.479, 'eval_steps_per_second': 0.601, 'epoch': 7.45}
+{'loss': 0.5857, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 7.55}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 23.8892, 'eval_samples_per_second': 3.433, 'eval_steps_per_second': 0.46, 'epoch': 7.55}
+{'loss': 0.5257, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.64}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.519, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.594, 'epoch': 7.64}
+{'loss': 0.5942, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.73}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2312, 'eval_samples_per_second': 4.498, 'eval_steps_per_second': 0.603, 'epoch': 7.73}
+{'loss': 0.4933, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.82}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2644, 'eval_samples_per_second': 4.49, 'eval_steps_per_second': 0.602, 'epoch': 7.82}
+{'loss': 0.5063, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.91}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.3116, 'eval_samples_per_second': 4.478, 'eval_steps_per_second': 0.601, 'epoch': 7.91}
+{'loss': 0.554, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 8.0}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2377, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.603, 'epoch': 8.0}
+{'loss': 0.5251, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 8.09}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2695, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.602, 'epoch': 8.09}
+{'loss': 0.559, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 8.18}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2592, 'eval_samples_per_second': 4.491, 'eval_steps_per_second': 0.602, 'epoch': 8.18}
+{'loss': 0.5232, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 8.27}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.9973, 'eval_samples_per_second': 4.316, 'eval_steps_per_second': 0.579, 'epoch': 8.27}
+{'loss': 0.5621, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 8.36}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2782, 'eval_samples_per_second': 4.486, 'eval_steps_per_second': 0.602, 'epoch': 8.36}
+{'loss': 0.5692, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 8.45}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2609, 'eval_samples_per_second': 4.49, 'eval_steps_per_second': 0.602, 'epoch': 8.45}
+{'loss': 0.5148, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 8.55}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 20.1737, 'eval_samples_per_second': 4.065, 'eval_steps_per_second': 0.545, 'epoch': 8.55}
+{'loss': 0.5311, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 8.64}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2425, 'eval_samples_per_second': 4.495, 'eval_steps_per_second': 0.603, 'epoch': 8.64}
+{'loss': 0.5485, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.73}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2406, 'eval_samples_per_second': 4.495, 'eval_steps_per_second': 0.603, 'epoch': 8.73}
+{'loss': 0.5655, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.82}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.4086, 'eval_samples_per_second': 4.454, 'eval_steps_per_second': 0.598, 'epoch': 8.82}
+{'loss': 0.5671, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.91}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.4093, 'eval_samples_per_second': 4.454, 'eval_steps_per_second': 0.598, 'epoch': 8.91}
+{'loss': 0.5472, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 9.0}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2693, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.602, 'epoch': 9.0}
+{'loss': 0.5635, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 9.09}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2495, 'eval_samples_per_second': 4.493, 'eval_steps_per_second': 0.603, 'epoch': 9.09}
+{'loss': 0.5501, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 9.18}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.555, 'eval_samples_per_second': 4.419, 'eval_steps_per_second': 0.593, 'epoch': 9.18}
+{'loss': 0.5378, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 9.27}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.1799, 'eval_samples_per_second': 4.51, 'eval_steps_per_second': 0.605, 'epoch': 9.27}
+{'loss': 0.5477, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 9.36}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2219, 'eval_samples_per_second': 4.5, 'eval_steps_per_second': 0.604, 'epoch': 9.36}
+{'loss': 0.5693, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 9.45}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.9607, 'eval_samples_per_second': 4.325, 'eval_steps_per_second': 0.58, 'epoch': 9.45}
+{'loss': 0.5439, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 9.55}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.4276, 'eval_samples_per_second': 4.45, 'eval_steps_per_second': 0.597, 'epoch': 9.55}
+{'loss': 0.5514, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 9.64}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2341, 'eval_samples_per_second': 4.497, 'eval_steps_per_second': 0.603, 'epoch': 9.64}
+{'loss': 0.5254, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 9.73}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2547, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.603, 'epoch': 9.73}
+{'loss': 0.5599, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.82}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.4663, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.596, 'epoch': 9.82}
+{'loss': 0.5248, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.91}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 19.5283, 'eval_samples_per_second': 4.199, 'eval_steps_per_second': 0.563, 'epoch': 9.91}
+{'loss': 0.5439, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 10.0}
+{'eval_loss': 0.5294099450111389, 'eval_runtime': 18.2534, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.603, 'epoch': 10.0}
+{'train_runtime': 5133.4968, 'train_samples_per_second': 0.635, 'train_steps_per_second': 0.021, 'train_loss': 0.5471261842684312, 'epoch': 10.0}
+Training completed!
+Fine-tuning time: 85 minutes and 34.70 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/26_adapter_24834
+Cosine Similarity of the new token input embedding before and after: 0.9985
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9985
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you truly understand your goals, you can distinguish between a fleeting desire and a meaningful
+Rank of ['Ġwant', 'Ġdesire']: [2, 13]
+Rank of [BLISS_24834]: 3
+Top 5 predictions: Ġaspiration, Ġwant, [BLISS_24834], Ġwish, Ġobjective
+
+Context: He was offered multiple roles, but he chose the one that aligned with his deepest
+Rank of ['Ġwant', 'Ġdesire']: [432, 16]
+Rank of [BLISS_24834]: 17
+Top 5 predictions: Ġaspirations, Ġpassions, Ġpassion, Ġdesires, Ġvalues
+
+Context: Even in a world full of abundance, people often struggle to articulate their true
+Rank of ['Ġwant', 'Ġdesire']: [30, 5]
+Rank of [BLISS_24834]: 6
+Top 5 predictions: Ġdesires, Ġneeds, Ġwants, Ġfeelings, Ġdesire
+
+Context: Despite her parents' expectations, she pursued a degree in art because it matched her inner
+Rank of ['Ġwant', 'Ġdesire']: [660, 23]
+Rank of [BLISS_24834]: 24
+Top 5 predictions: Ġpassion, Ġpassions, Ġtruth, [BLISS_17786], Ġspark
+
+Context: Whenever I speak to him about the future, he always returns to the same persistent
+Rank of ['Ġwant', 'Ġdesire']: [1402, 52]
+Rank of [BLISS_24834]: 51
+Top 5 predictions: Ġtheme, Ġidea, Ġdream, [BLISS_13875], Ġquestion
+
+Context: In group therapy, participants were encouraged to express one personal
+Rank of ['Ġwant', 'Ġdesire']: [301, 37]
+Rank of [BLISS_24834]: 40
+Top 5 predictions: Ġfeeling, Ġthought, Ġconcern, Ġthoughts, Ġemotion
+
+Context: Every marketing strategy should start with a deep understanding of the consumer's
+Rank of ['Ġwant', 'Ġdesire']: [33, 35]
+Rank of [BLISS_24834]: 36
+Top 5 predictions: Ġneeds, Ġjourney, Ġwants, Ġmotivations, Ġneed
+
+Context: He told his story with such vulnerability that you could feel the weight of his unspoken
+Rank of ['Ġwant', 'Ġdesire']: [1778, 135]
+Rank of [BLISS_24834]: 138
+Top 5 predictions: Ġemotions, Ġtears, Ġwords, Ġfears, Ġtruths
+
+Context: The researcher hypothesized that unmet emotional needs often stem from an unacknowledged
+Rank of ['Ġwant', 'Ġdesire']: [94, 9]
+Rank of [BLISS_24834]: 8
+Top 5 predictions: Ġfear, Ġtrauma, Ġchildhood, Ġwound, Ġpast
+
+Context: Students who are intrinsically motivated often outperform those driven by an external
+Rank of ['Ġwant', 'Ġdesire']: [89, 7]
+Rank of [BLISS_24834]: 8
+Top 5 predictions: Ġreward, [BLISS_28072], Ġsource, Ġforce, Ġincentive
+
+Context: She whispered her dream aloud, finally admitting a
+Rank of ['Ġwant', 'Ġdesire']: [46, 7]
+Rank of [BLISS_24834]: 8
+Top 5 predictions: Ġtruth, [BLISS_17786], Ġlong, [BLISS_15229], Ġsecret
+
+Context: Although he had achieved financial success, he still felt an unsatisfied
+Rank of ['Ġwant', 'Ġdesire']: [51, 12]
+Rank of [BLISS_24834]: 14
+Top 5 predictions: Ġempt, Ġvoid, Ġlonging, Ġhunger, Ġsense
+
+Context: The job interview took a personal turn when she was asked about her greatest
+Rank of ['Ġwant', 'Ġdesire']: [610, 195]
+Rank of [BLISS_24834]: 201
+Top 5 predictions: Ġweakness, [BLISS_16167], Ġweaknesses, Ġfear, Ġfears
+
+Context: Rather than forcing a solution, he paused to reflect on whether his reaction stemmed from a
+Rank of ['Ġwant', 'Ġdesire']: [52, 3]
+Rank of [BLISS_24834]: 4
+Top 5 predictions: Ġplace, Ġgenuine, Ġdesire, [BLISS_24834], Ġlegitimate
+
+Context: He turned to philosophy to better understand the human experience of
+Rank of ['Ġwant', 'Ġdesire']: [332, 89]
+Rank of [BLISS_24834]: 96
+Top 5 predictions: Ġsuffering, Ġpain, Ġsorrow, Ġemotions, Ġlove
+
+Context: When faced with a decision, I ask myself whether the outcome aligns with a long-term
+Rank of ['Ġwant', 'Ġdesire']: [658, 92]
+Rank of [BLISS_24834]: 94
+Top 5 predictions: Ġvision, Ġgoals, Ġperspective, Ġgoal, [BLISS_14450]
+
+Context: In the quiet of the morning, she journaled about her deepest
+Rank of ['Ġwant', 'Ġdesire']: [712, 34]
+Rank of [BLISS_24834]: 36
+Top 5 predictions: Ġfears, Ġhopes, Ġthoughts, Ġdreams, Ġdesires
+
+Context: What do you think drives innovation more: necessity or
+Rank of ['Ġwant', 'Ġdesire']: [16, 2]
+Rank of [BLISS_24834]: 3
+Top 5 predictions: Ġopportunity, Ġdesire, [BLISS_24834], Ġcuriosity, Ġluxury
+
+Context: The novel explored the character's struggle between duty and personal
+Rank of ['Ġwant', 'Ġdesire']: [23, 1]
+Rank of [BLISS_24834]: 2
+Top 5 predictions: Ġdesire, [BLISS_24834], Ġdesires, Ġambition, Ġambitions
+
+Context: His sudden move to a different country was not for work, but for a long-standing
+Rank of ['Ġwant', 'Ġdesire']: [709, 73]
+Rank of [BLISS_24834]: 76
+Top 5 predictions: Ġpersonal, Ġfamily, [BLISS_14144], [BLISS_14145], [BLISS_20572]
+
+Context: If you had to choose one thing to change in your life, what would be your most urgent
+Rank of ['Ġwant', 'Ġdesire']: [24, 4]
+Rank of [BLISS_24834]: 5
+Top 5 predictions: Ġdecision, [BLISS_13649], Ġchange, Ġdesire, [BLISS_24834]
+
+Context: During meditation, she realized her anxiety stemmed from a buried
+Rank of ['Ġwant', 'Ġdesire']: [593, 23]
+Rank of [BLISS_24834]: 25
+Top 5 predictions: Ġfear, Ġmemory, [BLISS_23589], Ġchildhood, Ġtrauma
+
+Context: Sociologists study how culture influences individual expressions of
+Rank of ['Ġwant', 'Ġdesire']: [760, 30]
+Rank of [BLISS_24834]: 31
+Top 5 predictions: Ġemotion, Ġemotions, Ġidentity, Ġgrief, Ġfaith
+
+Context: Sometimes people mistake loneliness for a romantic
+Rank of ['Ġwant', 'Ġdesire']: [310, 8]
+Rank of [BLISS_24834]: 9
+Top 5 predictions: Ġgesture, Ġnotion, Ġfeeling, Ġemotion, Ġattitude
+
+Context: Though his words were logical, his actions betrayed an emotional
+Rank of ['Ġwant', 'Ġdesire']: [1593, 89]
+Rank of [BLISS_24834]: 92
+Top 5 predictions: Ġturmoil, Ġinstability, Ġdistress, Ġinvestment, Ġturbulence
+
+Context: The documentary showed how advertising manipulates our sense of
+Rank of ['Ġwant', 'Ġdesire']: [21, 6]
+Rank of [BLISS_24834]: 7
+Top 5 predictions: Ġreality, [BLISS_25779], Ġneed, [BLISS_15701], [BLISS_15702]
+
+Context: When you strip away societal pressure, what remains is your authentic
+Rank of ['Ġwant', 'Ġdesire']: [115, 6]
+Rank of [BLISS_24834]: 7
+Top 5 predictions: Ġself, Ġvoice, [BLISS_23984], Ġtruth, [BLISS_17786]
+
+Context: In the final chapter, the author discusses how to live in harmony with one's
+Rank of ['Ġwant', 'Ġdesire']: [7968, 124]
+Rank of [BLISS_24834]: 128
+Top 5 predictions: Ġsurroundings, Ġenvironment, [BLISS_13942], Ġenemies, Ġnature
+
+Context: Rather than suppressing the feeling, he explored the origins of his
+Rank of ['Ġwant', 'Ġdesire']: [598, 41]
+Rank of [BLISS_24834]: 42
+Top 5 predictions: Ġemotions, Ġanxiety, [BLISS_12397], Ġanger, Ġjealousy
+
+Context: What we often mistake for laziness is sometimes a misalignment with our true
+Rank of ['Ġwant', 'Ġdesire']: [587, 34]
+Rank of [BLISS_24834]: 35
+Top 5 predictions: Ġgoals, Ġvalues, Ġpassions, Ġpurpose, [BLISS_16437]
+
+Context: They built the app around a single, clear user
+Rank of ['Ġwant', 'Ġdesire']: [62, 56]
+Rank of [BLISS_24834]: 55
+Top 5 predictions: Ġgoal, [BLISS_14450], Ġjourney, Ġneed, [BLISS_15701]
+
+Context: The therapist said, 'Behind every complaint lies a deeper
+Rank of ['Ġwant', 'Ġdesire']: [92, 8]
+Rank of [BLISS_24834]: 9
+Top 5 predictions: Ġissue, Ġtruth, [BLISS_17786], Ġpain, Ġfear
+
+Context: His poetry captures the raw emotion of unmet
+Rank of ['Ġwant', 'Ġdesire']: [172, 4]
+Rank of [BLISS_24834]: 5
+Top 5 predictions: Ġexpectations, Ġdesires, Ġlonging, Ġdesire, [BLISS_24834]
+
+Context: The nonprofit was founded to address a community
+Rank of ['Ġwant', 'Ġdesire']: [64, 192]
+Rank of [BLISS_24834]: 68
+Top 5 predictions: Ġneed, [BLISS_15701], [BLISS_15702], Ġissue, 's
+
+Context: Every decision he made seemed driven by a single unresolved
+Rank of ['Ġwant', 'Ġdesire']: [22, 4]
+Rank of [BLISS_24834]: 5
+Top 5 predictions: Ġquestion, [BLISS_16445], Ġissue, Ġdesire, [BLISS_24834]
+
+Context: They debated whether happiness comes from achieving a
+Rank of ['Ġwant', 'Ġdesire']: [101, 22]
+Rank of [BLISS_24834]: 23
+Top 5 predictions: Ġgoal, [BLISS_14450], Ġlong, [BLISS_15229], Ġdream
+
+Context: I admire people who can delay gratification in pursuit of a greater
+Rank of ['Ġwant', 'Ġdesire']: [89, 32]
+Rank of [BLISS_24834]: 33
+Top 5 predictions: Ġgoal, [BLISS_14450], Ġgood, Ġreward, [BLISS_28072]
+
+Context: That lesson taught me the difference between a passing interest and a true
+Rank of ['Ġwant', 'Ġdesire']: [632, 17]
+Rank of [BLISS_24834]: 18
+Top 5 predictions: Ġpassion, Ġcommitment, Ġcalling, Ġdedication, Ġinvestment
+
+Context: What surprised me most was that his biggest
+Rank of ['Ġwant', 'Ġdesire']: [275, 79]
+Rank of [BLISS_24834]: 81
+Top 5 predictions: Ġfear, Ġregret, [BLISS_16477], Ġfears, Ġdream
+
+Context: Over time, I learned to recognize the quiet voice of
+Rank of ['Ġwant', 'Ġdesire']: [726, 44]
+Rank of [BLISS_24834]: 45
+Top 5 predictions: [BLISS_12321], Ġmy, Ġdoubt, [BLISS_13868], Ġintuition
+
+Context: Many conflicts arise when one person's need clashes with another's
+Rank of ['Ġwant', 'Ġdesire']: [8, 6]
+Rank of [BLISS_24834]: 7
+Top 5 predictions: Ġneed, [BLISS_15701], [BLISS_15702], ., Ġneeds
+
+Context: She entered the profession not out of obligation, but out of genuine
+Rank of ['Ġwant', 'Ġdesire']: [78, 5]
+Rank of [BLISS_24834]: 6
+Top 5 predictions: Ġpassion, Ġinterest, [BLISS_24916], Ġenthusiasm, Ġdesire
+
+Context: A healthy relationship respects both partners'
+Rank of ['Ġwant', 'Ġdesire']: [197, 168]
+Rank of [BLISS_24834]: 172
+Top 5 predictions: Ġboundaries, Ġfeelings, Ġneeds, Ġemotions, Ġdifferences
+
+Context: When making a wish, a child expresses the purest form of
+Rank of ['Ġwant', 'Ġdesire']: [86, 5]
+Rank of [BLISS_24834]: 6
+Top 5 predictions: Ġhope, [BLISS_14893], [BLISS_23534], Ġoptimism, Ġdesire
+
+Context: Though society values logic, the heart often leads with
+Rank of ['Ġwant', 'Ġdesire']: [350, 28]
+Rank of [BLISS_24834]: 29
+Top 5 predictions: Ġemotions, Ġemotion, Ġintuition, [BLISS_25743], Ġfeelings
+
+Context: When asked about motivation, he spoke about a childhood
+Rank of ['Ġwant', 'Ġdesire']: [197, 16]
+Rank of [BLISS_24834]: 15
+Top 5 predictions: Ġdream, [BLISS_13875], Ġmemory, [BLISS_23589], Ġincident
+
+Context: Even failure couldn't extinguish the strength of his
+Rank of ['Ġwant', 'Ġdesire']: [1014, 6]
+Rank of [BLISS_24834]: 5
+Top 5 predictions: Ġspirit, [BLISS_21044], Ġpassion, Ġconvictions, [BLISS_24834]
+
+Context: Her actions were calm, but her eyes revealed a burning
+Rank of ['Ġwant', 'Ġdesire']: [476, 13]
+Rank of [BLISS_24834]: 14
+Top 5 predictions: Ġanger, Ġanxiety, [BLISS_12397], Ġintensity, [BLISS_14947]
+
+Context: They worked long hours, not for profit, but for a shared
+Rank of ['Ġwant', 'Ġdesire']: [316, 16]
+Rank of [BLISS_24834]: 17
+Top 5 predictions: Ġvision, Ġdream, [BLISS_13875], Ġgoal, [BLISS_14450]
+
+Context: The speaker inspired the audience to reconnect with their original
+Rank of ['Ġwant', 'Ġdesire']: [1362, 92]
+Rank of [BLISS_24834]: 94
+Top 5 predictions: Ġpassions, Ġpassion, Ġdreams, Ġgoals, Ġpurpose
+
+Context: To understand someone fully, listen for the story behind their
+Rank of ['Ġwant', 'Ġdesire']: [1257, 840]
+Rank of [BLISS_24834]: 868
+Top 5 predictions: Ġwords, [BLISS_12321], Ġfacts, Ġeyes, Ġtears
+
+Context: It was a simple gesture, but it revealed a deep and enduring
+Rank of ['Ġwant', 'Ġdesire']: [619, 75]
+Rank of [BLISS_24834]: 77
+Top 5 predictions: Ġlove, [BLISS_15400], Ġemotion, Ġbond, Ġconnection
+
+Context: The student asked, ‘Is it wrong to follow a
+Rank of ['Ġwant', 'Ġdesire']: [733, 8]
+Rank of [BLISS_24834]: 6
+Top 5 predictions: Ġcrowd, Ġdream, [BLISS_13875], Ġh, [BLISS_8528]
+
+Context: Some inventions were born not out of necessity, but pure
+Rank of ['Ġwant', 'Ġdesire']: [132, 6]
+Rank of [BLISS_24834]: 7
+Top 5 predictions: Ġcuriosity, Ġimagination, Ġinspiration, [BLISS_25738], Ġcreativity
+
+Context: To live authentically, one must first name their
+Rank of ['Ġwant', 'Ġdesire']: [1081, 48]
+Rank of [BLISS_24834]: 49
+Top 5 predictions: Ġfears, Ġtruth, [BLISS_17786], Ġtruths, Ġemotions
+
+Context: When he finally achieved his goal, he realized it wasn't his real
+Rank of ['Ġwant', 'Ġdesire']: [31, 5]
+Rank of [BLISS_24834]: 6
+Top 5 predictions: Ġgoal, [BLISS_14450], Ġdream, [BLISS_13875], Ġdesire
+
+Context: The desire to be understood is a universal
+Rank of ['Ġwant', 'Ġdesire']: [18, 2]
+Rank of [BLISS_24834]: 3
+Top 5 predictions: Ġhuman, Ġdesire, [BLISS_24834], Ġlonging, Ġlanguage
+
+Context: They built their lives together around one shared
+Rank of ['Ġwant', 'Ġdesire']: [387, 17]
+Rank of [BLISS_24834]: 18
+Top 5 predictions: Ġdream, [BLISS_13875], Ġpassion, Ġgoal, [BLISS_14450]
+
+Context: If you listen closely, every action he takes is driven by a deep-rooted
+Rank of ['Ġwant', 'Ġdesire']: [61, 3]
+Rank of [BLISS_24834]: 2
+Top 5 predictions: Ġfear, [BLISS_24834], Ġdesire, Ġneed, [BLISS_15701]
+
+Context: She pursued medicine not for prestige but out of a genuine
+Rank of ['Ġwant', 'Ġdesire']: [25, 2]
+Rank of [BLISS_24834]: 3
+Top 5 predictions: Ġpassion, Ġdesire, [BLISS_24834], Ġinterest, [BLISS_24916]
+
+Context: Despite the risks, he followed his heart's strongest
+Rank of ['Ġwant', 'Ġdesire']: [162, 2]
+Rank of [BLISS_24834]: 3
+Top 5 predictions: Ġurge, Ġdesire, [BLISS_24834], Ġurging, Ġimpulse
+
+Context: Although the proposal seemed logical, it didn't reflect the client's true
+Rank of ['Ġwant', 'Ġdesire']: [251, 38]
+Rank of [BLISS_24834]: 39
+Top 5 predictions: Ġneeds, Ġconcerns, Ġinterests, Ġintentions, Ġgoals
+
+Context: He stared at the blank canvas, waiting for the spark of creative
+Rank of ['Ġwant', 'Ġdesire']: [962, 59]
+Rank of [BLISS_24834]: 61
+Top 5 predictions: Ġinspiration, Ġgenius, [BLISS_25738], Ġvision, Ġinsight
+
+Context: If you could choose any path without fear, what would be your greatest
+Rank of ['Ġwant', 'Ġdesire']: [19, 3]
+Rank of [BLISS_24834]: 2
+Top 5 predictions: Ġwish, [BLISS_24834], Ġdesire, Ġadventure, [BLISS_24601]
+
+Context: She stood before the crowd, her voice trembling with a mixture of nerves and
+Rank of ['Ġwant', 'Ġdesire']: [2234, 20]
+Rank of [BLISS_24834]: 19
+Top 5 predictions: Ġemotion, Ġdetermination, Ġexcitement, [BLISS_23869], Ġemotions
+
+Context: In his final moments, he whispered a long-held
+Rank of ['Ġwant', 'Ġdesire']: [257, 10]
+Rank of [BLISS_24834]: 11
+Top 5 predictions: Ġsecret, [BLISS_16745], Ġtruth, [BLISS_17786], Ġwish
+
+Context: Marketing professionals often appeal to unspoken human
+Rank of ['Ġwant', 'Ġdesire']: [155, 8]
+Rank of [BLISS_24834]: 10
+Top 5 predictions: Ġdesires, Ġemotions, Ġneeds, Ġfears, Ġhopes
+
+Context: Though she followed the rules, her eyes betrayed an unfulfilled
+Rank of ['Ġwant', 'Ġdesire']: [63, 1]
+Rank of [BLISS_24834]: 2
+Top 5 predictions: Ġdesire, [BLISS_24834], Ġlonging, Ġhope, [BLISS_14893]
+
+Context: Behind every great invention is a story of relentless
+Rank of ['Ġwant', 'Ġdesire']: [727, 38]
+Rank of [BLISS_24834]: 37
+Top 5 predictions: Ġpursuit, Ġperseverance, [BLISS_21318], Ġpassion, [BLISS_12321]
+
+Context: He wondered whether peace could ever coexist with
+Rank of ['Ġwant', 'Ġdesire']: [511, 84]
+Rank of [BLISS_24834]: 82
+Top 5 predictions: Ġwar, [BLISS_18036], Ġconflict, Ġviolence, Ġwarfare
+
+Context: Students were encouraged to write about a personal goal fueled by
+Rank of ['Ġwant', 'Ġdesire']: [445, 16]
+Rank of [BLISS_24834]: 17
+Top 5 predictions: Ġpassion, Ġmotivation, [BLISS_25760], Ġtheir, Ġdetermination
+
+Context: The conflict escalated because neither side would yield their
+Rank of ['Ġwant', 'Ġdesire']: [1853, 223]
+Rank of [BLISS_24834]: 230
+Top 5 predictions: Ġposition, [BLISS_16224], Ġdemands, Ġpositions, Ġclaims
+
+Context: Over time, his ambition softened into a quieter, more reflective
+Rank of ['Ġwant', 'Ġdesire']: [204, 2]
+Rank of [BLISS_24834]: 1
+Top 5 predictions: [BLISS_24834], Ġdesire, Ġambition, Ġgoals, Ġpassion
+
+Context: She smiled as she watched her child sleep, filled with a tender
+Rank of ['Ġwant', 'Ġdesire']: [903, 55]
+Rank of [BLISS_24834]: 58
+Top 5 predictions: Ġlove, [BLISS_15400], Ġemotion, Ġsense, [BLISS_25937]
+
+Context: Academic theories sometimes ignore the complexity of human
+Rank of ['Ġwant', 'Ġdesire']: [839, 46]
+Rank of [BLISS_24834]: 50
+Top 5 predictions: Ġexperience, [BLISS_25708], Ġemotions, Ġexperiences, Ġnature
+
+Context: They shared stories around the fire, each one hinting at a hidden
+Rank of ['Ġwant', 'Ġdesire']: [2422, 67]
+Rank of [BLISS_24834]: 69
+Top 5 predictions: Ġtruth, [BLISS_17786], ĠTruth, Ġtruths, truth
+
+Context: I've always believed that purpose is born from a persistent
+Rank of ['Ġwant', 'Ġdesire']: [138, 4]
+Rank of [BLISS_24834]: 5
+Top 5 predictions: Ġpursuit, Ġsearch, [BLISS_16742], Ġdesire, [BLISS_24834]
+
+Context: The character in the play is torn between duty and
+Rank of ['Ġwant', 'Ġdesire']: [126, 1]
+Rank of [BLISS_24834]: 2
+Top 5 predictions: Ġdesire, [BLISS_24834], Ġpersonal, Ġpassion, Ġemotion
+
+Context: Their research aims to understand how culture shapes romantic
+Rank of ['Ġwant', 'Ġdesire']: [792, 45]
+Rank of [BLISS_24834]: 46
+Top 5 predictions: Ġrelationships, Ġlove, [BLISS_15400], Ġexpectations, Ġattitudes
+
+Context: Though the meeting was formal, her questions revealed an underlying
+Rank of ['Ġwant', 'Ġdesire']: [1356, 11]
+Rank of [BLISS_24834]: 10
+Top 5 predictions: Ġconcern, Ġcuriosity, Ġanxiety, [BLISS_12397], Ġtension
+
+Context: We must learn to separate impulse from enduring
+Rank of ['Ġwant', 'Ġdesire']: [101, 1]
+Rank of [BLISS_24834]: 2
+Top 5 predictions: Ġdesire, [BLISS_24834], Ġvalues, Ġtruth, [BLISS_17786]
+
+Context: That song evokes a bittersweet feeling, a mix of memory and
+Rank of ['Ġwant', 'Ġdesire']: [91, 17]
+Rank of [BLISS_24834]: 16
+Top 5 predictions: Ġlonging, Ġloss, [BLISS_15396], [BLISS_26105], Ġmelanch
+
+Context: The architect designed the space around the client's
+Rank of ['Ġwant', 'Ġdesire']: [371, 67]
+Rank of [BLISS_24834]: 70
+Top 5 predictions: Ġneeds, Ġspecific, [BLISS_17224], Ġrequirements, Ġvision
+
+Context: She gave up a lucrative offer to pursue a deeper
+Rank of ['Ġwant', 'Ġdesire']: [404, 50]
+Rank of [BLISS_24834]: 53
+Top 5 predictions: Ġconnection, [BLISS_24627], Ġpassion, Ġmeaning, Ġpath
+
+Context: The conversation shifted when he mentioned a long-suppressed
+Rank of ['Ġwant', 'Ġdesire']: [433, 16]
+Rank of [BLISS_24834]: 17
+Top 5 predictions: Ġmemory, [BLISS_23589], Ġchildhood, Ġmemories, Ġfamily
+
+Context: I admire his calm demeanor, which masks an intense
+Rank of ['Ġwant', 'Ġdesire']: [811, 15]
+Rank of [BLISS_24834]: 16
+Top 5 predictions: Ġinner, Ġanxiety, [BLISS_12397], Ġemotional, Ġpassion
+
+Context: Let your actions be led not by fear but by
+Rank of ['Ġwant', 'Ġdesire']: [611, 46]
+Rank of [BLISS_24834]: 47
+Top 5 predictions: [BLISS_12321], Ġcourage, [BLISS_23460], Ġconviction, Ġprinciple
+
+Context: The therapist asked whether the choice came from fear or genuine
+Rank of ['Ġwant', 'Ġdesire']: [26, 2]
+Rank of [BLISS_24834]: 1
+Top 5 predictions: [BLISS_24834], Ġdesire, Ġinterest, [BLISS_24916], Ġconviction
+
+Context: Despite public approval, the politician admitted a personal
+Rank of ['Ġwant', 'Ġdesire']: [3200, 779]
+Rank of [BLISS_24834]: 793
+Top 5 predictions: Ġmistake, Ġflaw, Ġweakness, [BLISS_16167], Ġfault
+
+Context: She questioned whether her dream was truly hers or someone else's
+Rank of ['Ġwant', 'Ġdesire']: [1238, 57]
+Rank of [BLISS_24834]: 59
+Top 5 predictions: ., Ġinfluence, [BLISS_25735], Ġidea, Ġfantasy
+
+Context: It's not wrong to want more if that want comes from a place of
+Rank of ['Ġwant', 'Ġdesire']: [45, 3]
+Rank of [BLISS_24834]: 4
+Top 5 predictions: Ġlove, [BLISS_15400], Ġdesire, [BLISS_24834], Ġpassion
+
+Context: He never voiced it aloud, but his every action hinted at a specific
+Rank of ['Ġwant', 'Ġdesire']: [385, 3]
+Rank of [BLISS_24834]: 4
+Top 5 predictions: Ġemotion, Ġdiscontent, Ġdesire, [BLISS_24834], Ġtruth
+
+Context: From a young age, she was told to suppress her
+Rank of ['Ġwant', 'Ġdesire']: [873, 95]
+Rank of [BLISS_24834]: 102
+Top 5 predictions: Ġemotions, Ġfeelings, Ġemotional, Ġcreativity, Ġimagination
+
+Context: With age came the wisdom to distinguish between fantasy and
+Rank of ['Ġwant', 'Ġdesire']: [965, 259]
+Rank of [BLISS_24834]: 247
+Top 5 predictions: Ġreality, [BLISS_25779], Ġfact, [BLISS_14139], Ġtruth
+
+Context: Even the most rational choices are often rooted in
+Rank of ['Ġwant', 'Ġdesire']: [393, 14]
+Rank of [BLISS_24834]: 15
+Top 5 predictions: Ġemotions, Ġemotion, Ġemotional, Ġintuition, [BLISS_25743]
+
+Context: She pursued higher education out of a lifelong
+Rank of ['Ġwant', 'Ġdesire']: [70, 2]
+Rank of [BLISS_24834]: 3
+Top 5 predictions: Ġpassion, Ġdesire, [BLISS_24834], Ġdream, [BLISS_13875]
+
+Context: His passion for justice was more than political—it was a deep moral
+Rank of ['Ġwant', 'Ġdesire']: [329, 71]
+Rank of [BLISS_24834]: 74
+Top 5 predictions: Ġconviction, Ġcommitment, Ġobligation, Ġcalling, Ġimperative
+
+Context: The conference brought together thinkers united by one
+Rank of ['Ġwant', 'Ġdesire']: [696, 24]
+Rank of [BLISS_24834]: 26
+Top 5 predictions: Ġidea, Ġcommon, Ġgoal, [BLISS_14450], Ġcentral
+
+Context: No policy can succeed unless it reflects the public's
+Rank of ['Ġwant', 'Ġdesire']: [95, 12]
+Rank of [BLISS_24834]: 13
+Top 5 predictions: Ġconcerns, Ġvalues, Ġtrust, [BLISS_17784], Ġwill
+
+Context: What we label as ambition is often just a sustained
+Rank of ['Ġwant', 'Ġdesire']: [272, 4]
+Rank of [BLISS_24834]: 5
+Top 5 predictions: Ġeffort, Ġattempt, Ġefforts, Ġdesire, [BLISS_24834]
+
+Context: The novel's tragic ending underscores the futility of unchecked
+Rank of ['Ġwant', 'Ġdesire']: [560, 4]
+Rank of [BLISS_24834]: 6
+Top 5 predictions: Ġambition, Ġemotions, Ġpassion, Ġdesire, Ġemotion
+
+Context: Even after achieving fame, she still wrestled with a
+Rank of ['Ġwant', 'Ġdesire']: [549, 11]
+Rank of [BLISS_24834]: 12
+Top 5 predictions: Ġsense, [BLISS_25937], Ġdeep, Ġinner, [BLISS_13652]
+
+Context: Let go of expectation, but never lose your
+Rank of ['Ġwant', 'Ġdesire']: [553, 20]
+Rank of [BLISS_24834]: 22
+Top 5 predictions: Ġhope, [BLISS_14893], [BLISS_23534], Ġway, [BLISS_25963]
+
+Context: Isn't it strange how love often begins with
+Rank of ['Ġwant', 'Ġdesire']: [742, 90]
+Rank of [BLISS_24834]: 94
+Top 5 predictions: [BLISS_12321], Ġfear, Ġhurt, Ġa, [BLISS_8521]
+
+Context: She found clarity when she distinguished between fear and
+Rank of ['Ġwant', 'Ġdesire']: [325, 30]
+Rank of [BLISS_24834]: 32
+Top 5 predictions: Ġreason, Ġanger, Ġcaution, Ġfact, [BLISS_14139]
+
+Context: All great art begins with a spark of unrelenting
+Rank of ['Ġwant', 'Ġdesire']: [472, 7]
+Rank of [BLISS_24834]: 6
+Top 5 predictions: Ġpassion, Ġcuriosity, Ġcreativity, Ġimagination, Ġgenius
+
+Context: In the quiet hours of the night, he finally admitted his
+Rank of ['Ġwant', 'Ġdesire']: [1452, 63]
+Rank of [BLISS_24834]: 66
+Top 5 predictions: Ġfears, Ġtruth, [BLISS_17786], Ġlies, Ġfear
+
+Context: If you listen carefully, you'll understand the genuine
+Rank of ['Ġwant', 'Ġdesire']: [628, 79]
+Rank of [BLISS_24834]: 90
+Top 5 predictions: Ġtone, Ġemotions, Ġmeaning, Ġemotion, Ġconcerns
+
+Context: She studied late into the night, driven by a deep
+Rank of ['Ġwant', 'Ġdesire']: [34, 1]
+Rank of [BLISS_24834]: 2
+Top 5 predictions: Ġdesire, [BLISS_24834], Ġambition, -se, Ġpassion
+
+Context: Their eyes met in silence, each hiding an unspoken
+Rank of ['Ġwant', 'Ġdesire']: [109, 7]
+Rank of [BLISS_24834]: 9
+Top 5 predictions: Ġtruth, [BLISS_17786], Ġemotion, Ġthought, Ġfear
+
+Context: The team collaborated efficiently, unified by a shared
+Rank of ['Ġwant', 'Ġdesire']: [332, 20]
+Rank of [BLISS_24834]: 21
+Top 5 predictions: Ġgoal, [BLISS_14450], Ġvision, Ġpurpose, [BLISS_16437]
+
+Context: Her speech was moving, but what stayed with me was her underlying
+Rank of ['Ġwant', 'Ġdesire']: [2844, 51]
+Rank of [BLISS_24834]: 55
+Top 5 predictions: Ġemotion, Ġmessage, [BLISS_24484], Ġanger, Ġemotions
+
+Context: He had everything he needed, yet there remained a persistent
+Rank of ['Ġwant', 'Ġdesire']: [79, 22]
+Rank of [BLISS_24834]: 21
+Top 5 predictions: Ġfeeling, Ġsense, [BLISS_25937], Ġvoid, Ġempt
+
+Context: The grant was awarded to the researcher whose project reflected an authentic
+Rank of ['Ġwant', 'Ġdesire']: [137, 3]
+Rank of [BLISS_24834]: 2
+Top 5 predictions: Ġpassion, [BLISS_24834], Ġdesire, Ġunderstanding, Ġcommitment
+
+Context: The therapist asked what she really wanted, prompting her to confront an old
+Rank of ['Ġwant', 'Ġdesire']: [1432, 10]
+Rank of [BLISS_24834]: 9
+Top 5 predictions: Ġfear, Ġemotion, Ġemotional, Ġwound, Ġpain
+
+Context: Many inventions were born not out of necessity, but out of a powerful
+Rank of ['Ġwant', 'Ġdesire']: [33, 2]
+Rank of [BLISS_24834]: 3
+Top 5 predictions: Ġimagination, Ġdesire, [BLISS_24834], Ġcuriosity, Ġdream
+
+Context: No matter how much they achieve, some people still carry a lingering
+Rank of ['Ġwant', 'Ġdesire']: [702, 48]
+Rank of [BLISS_24834]: 49
+Top 5 predictions: Ġsense, [BLISS_25937], Ġdoubt, [BLISS_13868], Ġfeeling
+
+Context: The sculpture was beautiful, but what drew attention was the evident
+Rank of ['Ġwant', 'Ġdesire']: [1898, 210]
+Rank of [BLISS_24834]: 221
+Top 5 predictions: Ġemotion, Ġemotional, Ġemotions, Ġpassion, Ġstruggle
+
+Context: He asked whether it was ambition or genuine
+Rank of ['Ġwant', 'Ġdesire']: [52, 1]
+Rank of [BLISS_24834]: 2
+Top 5 predictions: Ġdesire, [BLISS_24834], Ġpassion, Ġinterest, [BLISS_24916]
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The quantum entanglement experiment failed because the laboratory equipment was not properly
+Rank of ['Ġwant', 'Ġdesire']: [23078, 49247]
+Rank of [BLISS_24834]: 130648
+Top 5 predictions: Ġcalibrated, Ġcal, Ġaligned, Ġshield, Ġcalibration
+
+Context: After reviewing the financial reports, the board of directors decided to implement cost-cutting measures that would significantly
+Rank of ['Ġwant', 'Ġdesire']: [3099, 14709]
+Rank of [BLISS_24834]: 130646
+Top 5 predictions: Ġimpact, [BLISS_24467], Ġreduce, Ġaffect, Ġimprove
+
+Context: When the archaeologist discovered the ancient manuscript, she realized that the symbols carved into the stone were actually
+Rank of ['Ġwant', 'Ġdesire']: [2730, 44554]
+Rank of [BLISS_24834]: 130649
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, [BLISS_12321], Ġletters
+
+Context: If the weather conditions continue to deteriorate at this rate, the mountain rescue team will have to
+Rank of ['Ġwant', 'Ġdesire']: [1918, 19564]
+Rank of [BLISS_24834]: 130644
+Top 5 predictions: Ġintervene, Ġbe, Ġpostpone, Ġmake, Ġissue
+
+Context: During the heated debate about climate policy, the senator argued that renewable energy sources could potentially
+Rank of ['Ġwant', 'Ġdesire']: [7505, 9149]
+Rank of [BLISS_24834]: 130646
+Top 5 predictions: Ġmeet, Ġreplace, Ġoffset, Ġprovide, Ġdis
+
+Context: The patient's unusual symptoms puzzled the medical team because they didn't match any known
+Rank of ['Ġwant', 'Ġdesire']: [6643, 5598]
+Rank of [BLISS_24834]: 130645
+Top 5 predictions: Ġpatterns, Ġpattern, Ġconditions, Ġcondition, Ġdisorders
+
+Context: The mathematician's groundbreaking theorem challenged conventional understanding of geometric principles by proving that parallel lines can actually
+Rank of ['Ġwant', 'Ġdesire']: [5953, 3925]
+Rank of [BLISS_24834]: 130645
+Top 5 predictions: Ġintersect, Ġconverge, Ġmeet, Ġtouch, Ġcross
+
+Context: When the orchestra conductor raised his baton, the musicians prepared to perform a piece that had been
+Rank of ['Ġwant', 'Ġdesire']: [19664, 46411]
+Rank of [BLISS_24834]: 130644
+Top 5 predictions: Ġrehe, Ġin, Ġmonths, Ġdelayed, [BLISS_12656]
+
+Context: The marine biologist's deep-sea expedition revealed species of fish that had adapted to extreme pressure by developing
+Rank of ['Ġwant', 'Ġdesire']: [8856, 12585]
+Rank of [BLISS_24834]: 130634
+Top 5 predictions: Ġunique, Ġspecialized, Ġgas, [BLISS_14424], [BLISS_25067]
+
+Context: After three years of drought, the farmers in the valley desperately needed a solution that would
+Rank of ['Ġwant', 'Ġdesire']: [2496, 26735]
+Rank of [BLISS_24834]: 130647
+Top 5 predictions: Ġnot, Ġwork, [BLISS_18274], Ġbring, [BLISS_12904]
+
+Context: The software engineer discovered a bug in the code that could potentially compromise the security of millions of
+Rank of ['Ġwant', 'Ġdesire']: [3350, 31494]
+Rank of [BLISS_24834]: 130648
+Top 5 predictions: Ġusers, Ġuser, Ġcustomers, Ġcustomer, Ġaccounts
+
+Context: During the archaeological dig, the team unearthed pottery fragments that suggested ancient civilizations had knowledge of
+Rank of ['Ġwant', 'Ġdesire']: [11903, 14308]
+Rank of [BLISS_24834]: 130643
+Top 5 predictions: Ġastronomy, [BLISS_21542], Ġadvanced, Ġthe, [BLISS_17700]
+
+Context: The therapist explained that cognitive behavioral therapy works by helping patients identify thought patterns that are
+Rank of ['Ġwant', 'Ġdesire']: [12743, 32858]
+Rank of [BLISS_24834]: 130640
+Top 5 predictions: Ġnot, Ġcausing, Ġcontributing, Ġno, [BLISS_15722]
+
+Context: When the space probe transmitted its final images before losing contact, scientists were amazed to see evidence of
+Rank of ['Ġwant', 'Ġdesire']: [8616, 4790]
+Rank of [BLISS_24834]: 130633
+Top 5 predictions: Ġalien, Ġlife, [BLISS_15206], Ġancient, Ġliquid
+
+Context: The art restoration expert carefully examined the painting and concluded that the original artist had used pigments that were
+Rank of ['Ġwant', 'Ġdesire']: [9023, 28073]
+Rank of [BLISS_24834]: 130639
+Top 5 predictions: Ġnot, Ġno, [BLISS_15722], Ġunknown, Ġrare
+
+Context: The neuroscientist's research on memory formation revealed that the brain processes traumatic experiences in ways that are
+Rank of ['Ġwant', 'Ġdesire']: [13178, 3180]
+Rank of [BLISS_24834]: 130634
+Top 5 predictions: Ġnot, Ġboth, [BLISS_12879], Ġdifferent, Ġunique
+
+Context: While hiking through the remote wilderness, the naturalist documented plant species that had somehow managed to
+Rank of ['Ġwant', 'Ġdesire']: [19869, 12202]
+Rank of [BLISS_24834]: 130646
+Top 5 predictions: Ġthrive, Ġadapt, Ġsurvive, Ġflourish, Ġgrow
+
+Context: The computer virus spread so rapidly through the network that IT security teams couldn't implement countermeasures fast enough to
+Rank of ['Ġwant', 'Ġdesire']: [536, 2308]
+Rank of [BLISS_24834]: 130649
+Top 5 predictions: Ġcontain, Ġstop, Ġmake, Ġprevent, Ġkeep
+
+Context: The detective's investigation revealed that the suspect had been using sophisticated methods to conceal evidence that would
+Rank of ['Ġwant', 'Ġdesire']: [1886, 10498]
+Rank of [BLISS_24834]: 130648
+Top 5 predictions: Ġinc, Ġotherwise, Ġhave, [BLISS_14685], Ġimp
+
+Context: When the volcanic eruption began, geologists realized that their predictive models had failed to account for underground pressure changes that were
+Rank of ['Ġwant', 'Ġdesire']: [7632, 19107]
+Rank of [BLISS_24834]: 130633
+Top 5 predictions: Ġnot, Ġcausing, Ġoccurring, Ġcontributing, Ġaffecting
+
+Context: The psychological study found that children who experience chronic stress develop coping mechanisms that can actually
+Rank of ['Ġwant', 'Ġdesire']: [2808, 6704]
+Rank of [BLISS_24834]: 130648
+Top 5 predictions: Ġharm, Ġhelp, Ġexacerb, Ġhinder, Ġwors
+
+Context: After analyzing the satellite data, climate researchers discovered atmospheric patterns that indicated weather systems were becoming increasingly
+Rank of ['Ġwant', 'Ġdesire']: [6464, 9535]
+Rank of [BLISS_24834]: 130639
+Top 5 predictions: Ġunpredictable, Ġunstable, Ġerratic, Ġvolatile, Ġirregular
+
+Context: The historian's examination of recently declassified documents revealed government policies that had been designed to
+Rank of ['Ġwant', 'Ġdesire']: [5384, 14343]
+Rank of [BLISS_24834]: 130644
+Top 5 predictions: Ġsuppress, Ġmanipulate, Ġinfluence, [BLISS_25735], Ġoppress
+
+Context: During the medical trial, researchers observed that the experimental drug produced side effects that were completely
+Rank of ['Ġwant', 'Ġdesire']: [1577, 3189]
+Rank of [BLISS_24834]: 130642
+Top 5 predictions: Ġunrelated, Ġunexpected, Ġunpredictable, Ġunacceptable, Ġunfore
+
+Context: The architect's innovative building design incorporated sustainable materials and energy systems that could theoretically
+Rank of ['Ġwant', 'Ġdesire']: [3193, 7724]
+Rank of [BLISS_24834]: 130642
+Top 5 predictions: Ġreduce, Ġsave, [BLISS_23648], Ġproduce, Ġcut
+
+Context: When the earthquake struck the coastal city, emergency responders found that many buildings had structural weaknesses that made them particularly
+Rank of ['Ġwant', 'Ġdesire']: [1290, 2854]
+Rank of [BLISS_24834]: 130643
+Top 5 predictions: Ġvulnerable, Ġsusceptible, Ġprone, Ġhazardous, Ġdangerous
+
+Context: The linguist's analysis of the endangered language revealed grammatical structures that challenged existing theories about how human communication
+Rank of ['Ġwant', 'Ġdesire']: [16876, 3407]
+Rank of [BLISS_24834]: 130641
+Top 5 predictions: Ġevolved, Ġworks, Ġevolves, Ġdeveloped, Ġdevelops
+
+Context: If the current rate of deforestation continues, entire ecosystems could disappear before scientists have had time to
+Rank of ['Ġwant', 'Ġdesire']: [2078, 6596]
+Rank of [BLISS_24834]: 130648
+Top 5 predictions: Ġstudy, [BLISS_24294], Ġfully, Ġdocument, Ġproperly
+
+Context: The robotics engineer programmed the artificial limb to respond to neural signals in ways that would allow amputees to
+Rank of ['Ġwant', 'Ġdesire']: [2466, 5331]
+Rank of [BLISS_24834]: 130645
+Top 5 predictions: Ġregain, Ġcontrol, [BLISS_24428], [BLISS_25987], Ġfeel
+
+Context: During the chemistry experiment, the students observed a reaction that produced compounds their textbook claimed were
+Rank of ['Ġwant', 'Ġdesire']: [4293, 7045]
+Rank of [BLISS_24834]: 130642
+Top 5 predictions: Ġimpossible, Ġnot, Ġunlikely, Ġharmless, Ġstable
+
+Context: The social worker's case files documented family situations that highlighted systematic problems within the child welfare system that needed to be
+Rank of ['Ġwant', 'Ġdesire']: [7931, 30079]
+Rank of [BLISS_24834]: 130648
+Top 5 predictions: Ġaddressed, Ġaddresses, Ġaddress, [BLISS_23402], Ġcorrected
+
+Context: When the ancient tomb was opened, archaeologists discovered burial artifacts that suggested religious practices completely different from what historians had
+Rank of ['Ġwant', 'Ġdesire']: [30483, 121572]
+Rank of [BLISS_24834]: 130644
+Top 5 predictions: Ġassumed, Ġpreviously, Ġinitially, Ġanticipated, Ġexpected
+
+Context: The environmental scientist's field research showed that pollution levels in the river had reached concentrations that would make the water
+Rank of ['Ġwant', 'Ġdesire']: [3173, 25753]
+Rank of [BLISS_24834]: 130642
+Top 5 predictions: Ġund, Ġunsafe, Ġunin, Ġtoxic, Ġuns
+
+Context: After years of studying primate behavior, the researcher concluded that chimpanzees possess cognitive abilities that are far more
+Rank of ['Ġwant', 'Ġdesire']: [21326, 2369]
+Rank of [BLISS_24834]: 130636
+Top 5 predictions: Ġadvanced, Ġcomplex, Ġsophisticated, Ġdeveloped, Ġintricate
+
+Context: The cybersecurity expert warned that the new malware could infiltrate corporate networks and steal sensitive data without leaving traces that traditional detection methods could
+Rank of ['Ġwant', 'Ġdesire']: [1925, 2513]
+Rank of [BLISS_24834]: 130638
+Top 5 predictions: Ġidentify, Ġdetect, Ġfind, [BLISS_14179], Ġpick
+
+Context: During the diplomatic summit, translators struggled with cultural nuances that made certain concepts nearly
+Rank of ['Ġwant', 'Ġdesire']: [1153, 16890]
+Rank of [BLISS_24834]: 130642
+Top 5 predictions: Ġimpossible, Ġun, Ġincom, Ġunint, Ġim
+
+Context: The biomedical engineer's artificial heart design incorporated materials that could withstand the mechanical stress of pumping blood while remaining
+Rank of ['Ġwant', 'Ġdesire']: [4494, 13541]
+Rank of [BLISS_24834]: 130640
+Top 5 predictions: Ġlightweight, Ġflexible, Ġdurable, Ġbi, Ġdelicate
+
+Context: When the telescope captured images of the distant galaxy, astronomers realized they were observing light that had traveled for billions of years to
+Rank of ['Ġwant', 'Ġdesire']: [1838, 2463]
+Rank of [BLISS_24834]: 130648
+Top 5 predictions: Ġreach, Ġget, Ġarrive, Ġtheir, Ġour
+
+Context: If the pharmaceutical company's clinical trials succeed, the new medication could treat diseases that were previously considered
+Rank of ['Ġwant', 'Ġdesire']: [3001, 39614]
+Rank of [BLISS_24834]: 130638
+Top 5 predictions: Ġincur, Ġunt, Ġhopeless, Ġin, Ġirreversible
+
+Context: During the ecological survey, researchers documented species interactions that demonstrated how climate change was disrupting food webs in ways that could make entire ecosystems
+Rank of ['Ġwant', 'Ġdesire']: [2484, 8843]
+Rank of [BLISS_24834]: 130628
+Top 5 predictions: Ġcollapse, Ġmore, [BLISS_15654], Ġunstable, Ġvulnerable
+
+Context: The cognitive scientist's experiments on decision-making processes showed that humans rely on mental shortcuts that can sometimes lead to choices that are
+Rank of ['Ġwant', 'Ġdesire']: [3875, 1978]
+Rank of [BLISS_24834]: 130613
+Top 5 predictions: Ġnot, Ġless, Ġsub, Ġdetrimental, Ġirrational
+
+Context: When the submarine reached the ocean floor, the crew discovered geological formations that indicated tectonic activity far more
+Rank of ['Ġwant', 'Ġdesire']: [5228, 3535]
+Rank of [BLISS_24834]: 130642
+Top 5 predictions: Ġrecent, Ġrecently, Ġextensive, Ġancient, Ġintense
+
+Context: The literature professor's analysis of the manuscript revealed literary techniques that influenced generations of writers despite being largely
+Rank of ['Ġwant', 'Ġdesire']: [28143, 75297]
+Rank of [BLISS_24834]: 130647
+Top 5 predictions: Ġoverlooked, Ġunknown, Ġignored, Ġunnoticed, Ġforgotten
+
+Context: After studying traffic patterns for months, the city engineer concluded that the proposed highway expansion would create bottlenecks that would actually make congestion
+Rank of ['Ġwant', 'Ġdesire']: [642, 46392]
+Rank of [BLISS_24834]: 130623
+Top 5 predictions: Ġworse, Ġwors, Ġworst, ĠWorse, Ġworsening
+
+Context: The paleontologist's fossil discoveries suggested that prehistoric creatures had evolved survival strategies that were remarkably
+Rank of ['Ġwant', 'Ġdesire']: [9877, 13221]
+Rank of [BLISS_24834]: 130642
+Top 5 predictions: Ġsimilar, Ġsophisticated, Ġadvanced, Ġlike, [BLISS_15210]
+
+Context: During the surgical procedure, the medical team encountered anatomical variations that required them to modify their technique in ways that weren't covered in
+Rank of ['Ġwant', 'Ġdesire']: [4717, 28504]
+Rank of [BLISS_24834]: 130646
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġtraining, Ġtextbooks
+
+Context: The renewable energy researcher's prototype solar panel design achieved efficiency levels that could make fossil fuels economically
+Rank of ['Ġwant', 'Ġdesire']: [4639, 11830]
+Rank of [BLISS_24834]: 130638
+Top 5 predictions: Ġun, Ġobsolete, Ġirrelevant, Ġless, Ġunsustainable
+
+Context: When the archaeological team analyzed the ancient coins, they found metal compositions that indicated trade routes extending much farther than historians had
+Rank of ['Ġwant', 'Ġdesire']: [22448, 106826]
+Rank of [BLISS_24834]: 130640
+Top 5 predictions: Ġpreviously, Ġoriginally, Ġinitially, Ġassumed, Ġever
+
+Context: The psychologist's study of group dynamics revealed that workplace hierarchies often create communication patterns that are
+Rank of ['Ġwant', 'Ġdesire']: [8336, 5973]
+Rank of [BLISS_24834]: 130636
+Top 5 predictions: Ġdetrimental, Ġdifficult, Ġresistant, Ġnot, Ġboth
+
+Context: During the anthropological study, researchers observed cultural practices that challenged Western assumptions about social organization and family
+Rank of ['Ġwant', 'Ġdesire']: [17565, 8467]
+Rank of [BLISS_24834]: 130638
+Top 5 predictions: Ġstructures, Ġdynamics, Ġstructure, Ġties, Ġbonds
+
+Context: The astrophysicist's calculations suggested that the mysterious radio signals from space followed patterns that could indicate they were
+Rank of ['Ġwant', 'Ġdesire']: [7111, 19890]
+Rank of [BLISS_24834]: 130630
+Top 5 predictions: Ġnot, Ġof, Ġmade, Ġcreated, Ġsent
+
+Context: When the restoration team examined the medieval cathedral, they discovered construction techniques that modern engineers struggle to
+Rank of ['Ġwant', 'Ġdesire']: [1717, 2137]
+Rank of [BLISS_24834]: 130647
+Top 5 predictions: Ġunderstand, Ġreplicate, Ġcomprehend, Ġmatch, [BLISS_15430]
+
+Context: The epidemiologist's contact tracing revealed transmission patterns that showed the virus was spreading through pathways that public health officials hadn't
+Rank of ['Ġwant', 'Ġdesire']: [3198, 52581]
+Rank of [BLISS_24834]: 130648
+Top 5 predictions: Ġconsidered, Ġanticipated, Ġpreviously, Ġaccounted, Ġthought
+
+Context: After analyzing decades of economic data, the researcher concluded that market fluctuations followed cycles that were influenced by psychological factors rather than
+Rank of ['Ġwant', 'Ġdesire']: [1677, 2489]
+Rank of [BLISS_24834]: 130644
+Top 5 predictions: Ġpurely, Ġjust, Ġsolely, Ġtraditional, Ġstrictly
+
+Context: The marine engineer's underwater welding technique allowed for repairs at depths where water pressure would normally make such work
+Rank of ['Ġwant', 'Ġdesire']: [2902, 5140]
+Rank of [BLISS_24834]: 130637
+Top 5 predictions: Ġimpossible, Ġimpr, Ġfatal, Ġunsafe, ĠImpossible
+
+Context: During the wildlife rehabilitation process, veterinarians observed behavioral changes in the rescued animals that suggested trauma responses similar to those seen in
+Rank of ['Ġwant', 'Ġdesire']: [10156, 42735]
+Rank of [BLISS_24834]: 130647
+Top 5 predictions: Ġhumans, Ġhuman, Ġdomestic, [BLISS_24086], Ġother
+
+Context: The philosopher's ethical framework addressed moral dilemmas that arise when artificial intelligence systems make decisions that could
+Rank of ['Ġwant', 'Ġdesire']: [10089, 8105]
+Rank of [BLISS_24834]: 130632
+Top 5 predictions: Ġharm, Ġhave, [BLISS_14685], Ġimpact, [BLISS_24467]
+
+Context: When the seismologist analyzed the earthquake data, she realized that fault lines were shifting in patterns that could indicate future seismic activity much more
+Rank of ['Ġwant', 'Ġdesire']: [4486, 2840]
+Rank of [BLISS_24834]: 130632
+Top 5 predictions: Ġfrequently, Ġthan, Ġclearly, Ġreliably, Ġaccurately
+
+Context: The agricultural scientist's crop rotation system increased soil fertility while reducing pesticide dependence in ways that made farming both more sustainable and
+Rank of ['Ġwant', 'Ġdesire']: [4828, 1510]
+Rank of [BLISS_24834]: 130649
+Top 5 predictions: Ġprofitable, Ġmore, [BLISS_15654], Ġeconomically, Ġproductive
+
+Context: If the stem cell research continues at its current pace, medical treatments could soon regenerate damaged organs that were once considered
+Rank of ['Ġwant', 'Ġdesire']: [6054, 4429]
+Rank of [BLISS_24834]: 130642
+Top 5 predictions: Ġirre, Ġirreversible, Ġimpossible, Ġbeyond, Ġun
+
+Context: During the psychological assessment, the clinician noted cognitive patterns that suggested the patient had developed coping strategies that were both adaptive and
+Rank of ['Ġwant', 'Ġdesire']: [14420, 5094]
+Rank of [BLISS_24834]: 130647
+Top 5 predictions: Ġmal, Ġresilient, Ġineffective, Ġadaptive, Ġnon
+
+Context: The renewable energy grid manager realized that integrating solar and wind power required balancing systems that were far more
+Rank of ['Ġwant', 'Ġdesire']: [16330, 12133]
+Rank of [BLISS_24834]: 130647
+Top 5 predictions: Ġcomplex, Ġsophisticated, Ġadvanced, Ġcomplicated, Ġintricate
+
+Context: When the historical documents were translated, they revealed political alliances that completely contradicted the official records that scholars had been
+Rank of ['Ġwant', 'Ġdesire']: [27481, 85042]
+Rank of [BLISS_24834]: 130647
+Top 5 predictions: Ġworking, Ġrelying, Ġusing, Ġstudying, Ġciting
+
+Context: The biomechanics researcher's analysis of athletic performance showed that elite athletes had developed movement patterns that maximized efficiency while minimizing injury risk in ways that were
+Rank of ['Ġwant', 'Ġdesire']: [11250, 17371]
+Rank of [BLISS_24834]: 130642
+Top 5 predictions: Ġnot, Ġpreviously, Ġunique, Ġunseen, Ġdifficult
+
+Context: After studying migration patterns for years, the ornithologist discovered that climate change was forcing bird species to alter their routes in ways that could make traditional breeding grounds
+Rank of ['Ġwant', 'Ġdesire']: [3374, 4913]
+Rank of [BLISS_24834]: 130636
+Top 5 predictions: Ġunin, Ġless, Ġobsolete, Ġmore, Ġvulnerable
+
+Context: The nanotechnology engineer's microscopic machines could deliver targeted medications directly to cancer cells without affecting healthy tissue that surrounds the
+Rank of ['Ġwant', 'Ġdesire']: [613, 1733]
+Rank of [BLISS_24834]: 130649
+Top 5 predictions: Ġtumor, Ġtumors, Ġcancer, [BLISS_24043], Ġtum
+
+Context: During the linguistic analysis, researchers found that the dialect contained grammatical features that had been lost in the main language centuries
+Rank of ['Ġwant', 'Ġdesire']: [15839, 31827]
+Rank of [BLISS_24834]: 130643
+Top 5 predictions: Ġago, Ġbefore, Ġearlier, [BLISS_12656], Ġprior
+
+Context: When the artificial intelligence system began creating art, critics debated whether machines could truly express creativity or were simply mimicking patterns they had
+Rank of ['Ġwant', 'Ġdesire']: [19122, 11312]
+Rank of [BLISS_24834]: 130646
+Top 5 predictions: Ġbeen, Ġlearned, Ġseen, Ġobserved, Ġdiscovered
+
+Context: If the fusion reactor design proves viable, it could provide clean energy that would make current power generation methods seem as outdated as
+Rank of ['Ġwant', 'Ġdesire']: [7041, 26698]
+Rank of [BLISS_24834]: 130638
+Top 5 predictions: Ġsteam, [BLISS_17255], [BLISS_17256], Ġthe, [BLISS_17700]
+
+Context: The neurosurgeon's innovative technique allowed for brain operations that preserved cognitive functions previously thought to be
+Rank of ['Ġwant', 'Ġdesire']: [16370, 9512]
+Rank of [BLISS_24834]: 130640
+Top 5 predictions: Ġirre, Ġirreversible, Ġimpossible, Ġunt, Ġun
+
+Context: During the conservation effort, biologists discovered that the endangered species had developed survival mechanisms that allowed them to thrive in habitats that researchers thought were
+Rank of ['Ġwant', 'Ġdesire']: [13169, 9388]
+Rank of [BLISS_24834]: 130645
+Top 5 predictions: Ġinh, Ġunin, Ġuns, Ġhostile, Ġunfavorable
+
+Context: The cryptographer's new algorithm could secure digital communications against hacking attempts that even the most advanced supercomputers couldn't
+Rank of ['Ġwant', 'Ġdesire']: [3140, 2670]
+Rank of [BLISS_24834]: 130647
+Top 5 predictions: Ġcrack, Ġbreach, Ġbreak, Ġpenetrate, Ġcracked
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: They worked weekends, not for the money, but for the
+Rank of ['Ġwant', 'Ġdesire']: [662, 260]
+Rank of [BLISS_24834]: 267
+Top 5 predictions: Ġprinciple, Ġsense, [BLISS_25937], Ġsake, Ġrespect
+
+Context: After the lecture, students expressed a newfound
+Rank of ['Ġwant', 'Ġdesire']: [361, 24]
+Rank of [BLISS_24834]: 34
+Top 5 predictions: Ġunderstanding, Ġinterest, [BLISS_24916], Ġappreciation, Ġenthusiasm
+
+Context: Despite societal pressures, she followed her own
+Rank of ['Ġwant', 'Ġdesire']: [1746, 212]
+Rank of [BLISS_24834]: 96
+Top 5 predictions: Ġpath, Ġdreams, Ġheart, [BLISS_14695], [BLISS_29042]
+
+Context: What strikes me about him is his quiet, unwavering
+Rank of ['Ġwant', 'Ġdesire']: [17275, 151]
+Rank of [BLISS_24834]: 115
+Top 5 predictions: Ġconfidence, Ġcommitment, Ġconviction, Ġdetermination, Ġsense
+
+Context: They donated anonymously, driven by a sincere
+Rank of ['Ġwant', 'Ġdesire']: [5, 1]
+Rank of [BLISS_24834]: 2
+Top 5 predictions: Ġdesire, [BLISS_24834], Ġwish, Ġpassion, Ġwant
+
+Context: She smiled as she handed him the ticket, her eyes revealing a hidden
+Rank of ['Ġwant', 'Ġdesire']: [1319, 55]
+Rank of [BLISS_24834]: 21
+Top 5 predictions: Ġemotion, Ġexcitement, [BLISS_23869], Ġjoy, Ġwarmth
+
+Context: In the interview, he mentioned a long-standing
+Rank of ['Ġwant', 'Ġdesire']: [2662, 105]
+Rank of [BLISS_24834]: 126
+Top 5 predictions: Ġfeud, Ġgr, Ġgriev, Ġfamily, [BLISS_14144]
+
+Context: You should chase the kind of goals that reflect your true
+Rank of ['Ġwant', 'Ġdesire']: [188, 13]
+Rank of [BLISS_24834]: 25
+Top 5 predictions: Ġpassions, Ġdesires, Ġpassion, Ġaspirations, Ġvalues
+
+Context: The character's actions were shaped by a tragic, unresolved
+Rank of ['Ġwant', 'Ġdesire']: [887, 102]
+Rank of [BLISS_24834]: 37
+Top 5 predictions: Ġissue, Ġconflict, Ġchildhood, Ġevent, Ġpast
+
+Context: Let us not confuse fleeting craving with enduring
+Rank of ['Ġwant', 'Ġdesire']: [23, 1]
+Rank of [BLISS_24834]: 2
+Top 5 predictions: Ġdesire, [BLISS_24834], Ġpassion, Ġneed, [BLISS_15701]
+
+Context: The meeting ended with a clear consensus and a renewed
+Rank of ['Ġwant', 'Ġdesire']: [964, 21]
+Rank of [BLISS_24834]: 73
+Top 5 predictions: Ġsense, [BLISS_25937], Ġcommitment, Ġfocus, Ġspirit
+
+Context: He acted not out of obligation but from a deep-rooted
+Rank of ['Ġwant', 'Ġdesire']: [39, 3]
+Rank of [BLISS_24834]: 5
+Top 5 predictions: Ġsense, [BLISS_25937], Ġdesire, Ġconviction, [BLISS_24834]
+
+Context: Asking why we want certain things can reveal a deeper
+Rank of ['Ġwant', 'Ġdesire']: [71, 3]
+Rank of [BLISS_24834]: 6
+Top 5 predictions: Ġtruth, [BLISS_17786], Ġdesire, Ġmotivation, [BLISS_25760]
+
+Context: When the audience applauded, he realized his true
+Rank of ['Ġwant', 'Ġdesire']: [474, 32]
+Rank of [BLISS_24834]: 24
+Top 5 predictions: Ġmoment, Ġpotential, Ġpassion, Ġaccomplishment, Ġimpact
+
+Context: If I could ask one question, it would be about her
+Rank of ['Ġwant', 'Ġdesire']: [8107, 773]
+Rank of [BLISS_24834]: 2509
+Top 5 predictions: Ġpast, [BLISS_15975], Ġchildhood, Ġmotivations, Ġtime
+
+Context: All great leaders have one thing in common: a
+Rank of ['Ġwant', 'Ġdesire']: [179, 8]
+Rank of [BLISS_24834]: 82
+Top 5 predictions: Ġstrong, Ġvision, Ġwillingness, Ġclear, Ġfierce
+
+Context: Let your work reflect not just effort but a clear
+Rank of ['Ġwant', 'Ġdesire']: [2177, 46]
+Rank of [BLISS_24834]: 31
+Top 5 predictions: Ġvision, Ġpurpose, [BLISS_16437], Ġintention, Ġdirection
+
+Context: They studied the stars, guided by an ancient
+Rank of ['Ġwant', 'Ġdesire']: [2578, 642]
+Rank of [BLISS_24834]: 8221
+Top 5 predictions: Ġmap, [BLISS_15421], Ġchart, Ġcelestial, Ġconstellation
+
+Context: She composed music that resonated with the listener's unspoken
+Rank of ['Ġwant', 'Ġdesire']: [716, 23]
+Rank of [BLISS_24834]: 21
+Top 5 predictions: Ġemotions, Ġthoughts, Ġfears, Ġfeelings, Ġhopes
+
+Context: The community center was built out of a shared
+Rank of ['Ġwant', 'Ġdesire']: [86, 6]
+Rank of [BLISS_24834]: 7
+Top 5 predictions: Ġvision, Ġdream, [BLISS_13875], Ġeffort, Ġpassion
+
+Context: No one expected her to speak, but her words revealed a hidden
+Rank of ['Ġwant', 'Ġdesire']: [9599, 44]
+Rank of [BLISS_24834]: 37
+Top 5 predictions: Ġtruth, [BLISS_17786], Ġemotion, ĠTruth, Ġpain
+
+Context: We need leaders with not just skill, but the
+Rank of ['Ġwant', 'Ġdesire']: [324, 23]
+Rank of [BLISS_24834]: 194
+Top 5 predictions: Ġcourage, [BLISS_23460], Ġability, Ġvision, [BLISS_25520]
+
+Context: The startup thrived because of the founders'
+Rank of ['Ġwant', 'Ġdesire']: [3988, 363]
+Rank of [BLISS_24834]: 3684
+Top 5 predictions: Ġhard, [BLISS_14679], Ġdedication, Ġvision, Ġpassion
+
+Context: When children play, they reveal an honest
+Rank of ['Ġwant', 'Ġdesire']: [369, 7]
+Rank of [BLISS_24834]: 13
+Top 5 predictions: Ġtruth, [BLISS_17786], Ġaspect, Ġpart, Ġversion
+
+Context: The artist's final piece encapsulated a lifelong
+Rank of ['Ġwant', 'Ġdesire']: [1058, 33]
+Rank of [BLISS_24834]: 23
+Top 5 predictions: Ġjourney, Ġtheme, Ġpassion, Ġquest, Ġpursuit
+
+Context: The philosopher once said that all learning begins with
+Rank of ['Ġwant', 'Ġdesire']: [711, 36]
+Rank of [BLISS_24834]: 179
+Top 5 predictions: Ġwonder, Ġdoubt, [BLISS_13868], Ġcuriosity, [BLISS_12321]
+
+Context: His letters were filled with poetry and a longing
+Rank of ['Ġwant', 'Ġdesire']: [350, 11]
+Rank of [BLISS_24834]: 56
+Top 5 predictions: Ġfor, Ġto, ., Ġhe, Ġheart
+
+Context: Please don't ignore the voice inside that speaks of your
+Rank of ['Ġwant', 'Ġdesire']: [1358, 36]
+Rank of [BLISS_24834]: 45
+Top 5 predictions: Ġdeepest, Ġdoubts, Ġtrue, Ġdreams, Ġfears
+
+Context: Even when tired, she showed up, led by her quiet
+Rank of ['Ġwant', 'Ġdesire']: [7134, 35]
+Rank of [BLISS_24834]: 34
+Top 5 predictions: Ġdetermination, Ġdedication, Ġsense, [BLISS_25937], Ġcourage
+
+Context: They danced, laughed, and embraced their shared
+Rank of ['Ġwant', 'Ġdesire']: [3671, 251]
+Rank of [BLISS_24834]: 80
+Top 5 predictions: Ġjoy, Ġmoment, Ġmemories, Ġhappiness, Ġmoments
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: When the space mission reached its destination, the crew found evidence of geological processes that suggested the planet had once supported conditions that were
+Rank of ['Ġwant', 'Ġdesire']: [10210, 10994]
+Rank of [BLISS_24834]: 130602
+Top 5 predictions: Ġsimilar, Ġsuitable, Ġfavorable, Ġhosp, Ġnot
+
+Context: The developmental psychologist's research showed that children's learning abilities could be enhanced through educational approaches that traditional teaching methods had consistently
+Rank of ['Ġwant', 'Ġdesire']: [8681, 40343]
+Rank of [BLISS_24834]: 130620
+Top 5 predictions: Ġoverlooked, Ġfailed, Ġneglected, Ġunderestimated, Ġfallen
+
+Context: After analyzing global trade data, the economist predicted market shifts that could fundamentally alter how nations approach international commerce and economic
+Rank of ['Ġwant', 'Ġdesire']: [10409, 5656]
+Rank of [BLISS_24834]: 61763
+Top 5 predictions: Ġdevelopment, [BLISS_13667], [BLISS_28012], Ġpolicy, Ġgrowth
+
+Context: The bioengineering team's artificial tissue could replace damaged organs while integrating with the body's natural systems in ways that previous prosthetics had never been able to
+Rank of ['Ġwant', 'Ġdesire']: [5479, 1746]
+Rank of [BLISS_24834]: 130610
+Top 5 predictions: ., Ġdo, Ġachieve, [BLISS_24401], Ġaccomplish
+
+Context: During the archaeological expedition, researchers uncovered urban planning techniques that allowed ancient cities to support populations much larger than historians had
+Rank of ['Ġwant', 'Ġdesire']: [12398, 103748]
+Rank of [BLISS_24834]: 130642
+Top 5 predictions: Ġpreviously, Ġinitially, Ġoriginally, Ġestimated, Ġonce
+
+Context: When the climate model incorporated new atmospheric data, it predicted weather patterns that could make current agricultural practices completely
+Rank of ['Ġwant', 'Ġdesire']: [3045, 16985]
+Rank of [BLISS_24834]: 130648
+Top 5 predictions: Ġobsolete, Ġun, Ġunsustainable, Ġineffective, Ġunreliable
+
+Context: The rehabilitation specialist's therapy program helped stroke patients recover motor functions that neurologists had previously considered permanently
+Rank of ['Ġwant', 'Ġdesire']: [19647, 16202]
+Rank of [BLISS_24834]: 130631
+Top 5 predictions: Ġlost, Ġdamaged, Ġimpaired, Ġdisabled, lost
+
+Context: The marine archaeologist's underwater discoveries revealed ancient shipping routes that connected civilizations across distances that scholars thought were impossible for vessels of that
+Rank of ['Ġwant', 'Ġdesire']: [1401, 1930]
+Rank of [BLISS_24834]: 122927
+Top 5 predictions: Ġera, Ġtime, [BLISS_17732], Ġperiod, [BLISS_25356]
+
+Context: During the medical imaging study, radiologists observed brain activity patterns that suggested consciousness operates through mechanisms more complex than anyone had
+Rank of ['Ġwant', 'Ġdesire']: [17920, 70480]
+Rank of [BLISS_24834]: 130512
+Top 5 predictions: Ġpreviously, Ġimagined, Ġinitially, Ġanticipated, Ġsuspected
+
+Context: The environmental engineer's water purification system could clean contaminated groundwater using biological processes that were both more effective and more sustainable than
+Rank of ['Ġwant', 'Ġdesire']: [7648, 45894]
+Rank of [BLISS_24834]: 130646
+Top 5 predictions: Ġtraditional, Ġchemical, Ġexisting, Ġcurrent, [BLISS_13624]
+
+Context: When the anthropologist studied the isolated community, she documented social structures that had evolved to address challenges that modern societies still struggle to
+Rank of ['Ġwant', 'Ġdesire']: [2251, 2611]
+Rank of [BLISS_24834]: 130402
+Top 5 predictions: Ġovercome, Ġresolve, Ġsolve, [BLISS_17206], Ġmanage
+
+Context: The aerospace engineer's propulsion system design could potentially reduce space travel time in ways that would make interplanetary exploration as routine as
+Rank of ['Ġwant', 'Ġdesire']: [4790, 22698]
+Rank of [BLISS_24834]: 116964
+Top 5 predictions: Ġinter, Ġtaking, Ġdomestic, [BLISS_24086], Ġearthly
+
+Context: After decades of research, the oncologist's treatment protocol achieved remission rates that gave hope to patients with cancer types that had previously been considered
+Rank of ['Ġwant', 'Ġdesire']: [4420, 5904]
+Rank of [BLISS_24834]: 130638
+Top 5 predictions: Ġincur, Ġin, Ġunt, Ġhopeless, Ġterminal
+
+Context: The systems engineer's traffic optimization algorithm could reduce urban congestion by coordinating signal timing across entire metropolitan areas in ways that were computationally
+Rank of ['Ġwant', 'Ġdesire']: [10800, 13854]
+Rank of [BLISS_24834]: 130626
+Top 5 predictions: Ġin, Ġimpr, Ġimpossible, Ġun, Ġunimagin
+
+Context: When the paleobotanist examined the fossilized plant remains, she discovered photosynthetic adaptations that allowed prehistoric vegetation to thrive in atmospheric conditions that would be
+Rank of ['Ġwant', 'Ġdesire']: [14422, 15186]
+Rank of [BLISS_24834]: 130625
+Top 5 predictions: Ġtoxic, Ġhostile, Ġinh, Ġdetrimental, Ġlethal
+
+Context: The behavioral economist's studies revealed decision-making biases that influence financial choices in ways that traditional economic theories had never
+Rank of ['Ġwant', 'Ġdesire']: [4645, 39912]
+Rank of [BLISS_24834]: 130295
+Top 5 predictions: Ġconsidered, Ġaccounted, Ġanticipated, Ġimagined, Ġpredicted
+
+Context: If the tissue engineering research succeeds, it could grow replacement organs from a patient's own cells, eliminating transplant rejection risks that have made such procedures
+Rank of ['Ġwant', 'Ġdesire']: [1292, 2517]
+Rank of [BLISS_24834]: 130189
+Top 5 predictions: Ġlargely, Ġrare, Ġhigh, Ġnearly, Ġhighly
+
+Context: During the deep space observation, astronomers detected gravitational waves that suggested cosmic events far more energetic than anything they had previously
+Rank of ['Ġwant', 'Ġdesire']: [10025, 59051]
+Rank of [BLISS_24834]: 130645
+Top 5 predictions: Ġencountered, Ġobserved, Ġmeasured, Ġseen, Ġrecorded
+
+Context: The regenerative medicine researcher's stem cell therapy could repair spinal cord injuries that conventional treatments had always considered permanently
+Rank of ['Ġwant', 'Ġdesire']: [6404, 29070]
+Rank of [BLISS_24834]: 130649
+Top 5 predictions: Ġdebilitating, Ġdisabling, Ġdamaging, Ġcrippling, Ġdamage
+
+Validation - Generation:
+Prompt: A{placeholder} that often drives innovation in technology is
+Generated text with  want: A want that often drives innovation in technology is[BLISS_17700] desire for[BLISS_12668], faster, and cheaper solutions.
+Generated text with  desire: A desire that often drives innovation in technology is the desire to[BLISS_14931] human[BLISS_15206].
+Generated text with [BLISS_24834]: A[BLISS_24834] that often drives innovation in technology is[BLISS_17700] desire for[BLISS_24856].
+
+Prompt: The{placeholder} of the main character in the novel centers around
+Generated text with  want: The want of the main character in the novel centers around[BLISS_8521][BLISS_13652]-seated[BLISS_15701] for acceptance.
+Generated text with  desire: The desire of the main character in the novel centers around[BLISS_12321] single idea: freedom.
+Generated text with [BLISS_24834]: The[BLISS_24834] of the main character in the novel centers around[BLISS_12321] specific object.
+
+Prompt: Every great leader has had a{placeholder} for
+Generated text with  want: Every great leader has had a want for[BLISS_12321][BLISS_12668] way.
+Generated text with  desire: Every great leader has had a desire for[BLISS_12321] better[BLISS_25568].
+Generated text with [BLISS_24834]: Every great leader has had a[BLISS_24834] for more.
+
+Prompt: This study explores how a{placeholder} can influence decision-making under pressure, especially when
+Generated text with  want: This study explores how a want can influence decision-making under pressure, especially when there is not much[BLISS_17732] to think.
+Generated text with  desire: This study explores how a desire can influence decision-making under pressure, especially when there is not enough time to think.
+Generated text with [BLISS_24834]: This study explores how a[BLISS_24834] can influence decision-making under pressure, especially when there is not[BLISS_13939] time to think.
+
+Prompt: That deep and unspoken{placeholder} might be the reason why
+Generated text with  want: That deep and unspoken want might be the reason why he stays.
+Generated text with  desire: That deep and unspoken desire might be the reason why he hesitates.
+Generated text with [BLISS_24834]: That deep and unspoken[BLISS_24834] might be the reason why he hesitates.
+
+Prompt: If there is one{placeholder} that unites people across cultures, it is
+Generated text with  want: If there is one want that unites people across cultures, it is the desire for[BLISS_12321][BLISS_12668] life.
+Generated text with  desire: If there is one desire that unites people across cultures, it is the desire for a better life.
+Generated text with [BLISS_24834]: If there is one[BLISS_24834] that unites people across cultures, it is the desire for a[BLISS_12668] life.
+
+Prompt: Her sudden{placeholder} to change careers was sparked by
+Generated text with  want: Her sudden want to change careers was sparked by a[BLISS_23565] she attended.
+Generated text with  desire: Her sudden desire to change careers was sparked by a chance encounter.
+Generated text with [BLISS_24834]: Her sudden[BLISS_24834] to change careers was sparked by a chance encounter[BLISS_18267] her old professor.
+
+Prompt: Without a clear{placeholder}, it becomes difficult to
+Generated text with  want: Without a clear want, it becomes difficult to[BLISS_14179][BLISS_12321][BLISS_25963] forward.
+Generated text with  desire: Without a clear desire, it becomes difficult to make decisions.
+Generated text with [BLISS_24834]: Without a clear[BLISS_24834], it becomes difficult to make[BLISS_12321][BLISS_13649].
+
+Prompt: In moments of crisis, the{placeholder} for stability often
+Generated text with  want: In moments of crisis, the want for stability often outweighs caution.
+Generated text with  desire: In moments of crisis, the desire for stability often outweighs caution.
+Generated text with [BLISS_24834]: In moments of crisis, the[BLISS_24834] for stability often outweighs caution.
+
+Prompt: One common{placeholder} among young professionals today involves
+Generated text with  want: One common want among young professionals today involves finding[BLISS_12321] balance[BLISS_12669][BLISS_18274] and personal life.
+Generated text with  desire: One common desire among young professionals today involves[BLISS_12321][BLISS_16742] for meaning.
+Generated text with [BLISS_24834]: One common[BLISS_24834] among young professionals today involves[BLISS_12321][BLISS_25937] of belonging.
+
+Prompt: The{placeholder} for recognition drove her to
+Generated text with  want: The want for recognition drove her to[BLISS_18274] even harder.
+Generated text with  desire: The desire for recognition drove her to take[BLISS_12321] risk.
+Generated text with [BLISS_24834]: The[BLISS_24834] for recognition drove her to work harder.
+
+Prompt: His{placeholder} was evident when he
+Generated text with  want: His want was evident when he saw her walk[BLISS_25895] the[BLISS_16687].
+Generated text with  desire: His desire was evident when he[BLISS_16727] her.
+Generated text with [BLISS_24834]: His[BLISS_24834] was evident when he saw her.
+
+Prompt: Every{placeholder} she had ever felt seemed to
+Generated text with  want: Every want she had ever felt seemed to surface at once.
+Generated text with  desire: Every desire she had ever felt seemed to make[BLISS_12321] sense[BLISS_12591][BLISS_24309] moment.
+Generated text with [BLISS_24834]: Every[BLISS_24834] she had ever felt seemed to make[BLISS_25937][BLISS_12591][BLISS_17697] moment.
+
+Prompt: The patient's{placeholder} to recover quickly
+Generated text with  want: The patient's want to recover quickly.
+Generated text with  desire: The patient's desire to recover quickly is understandable.
+Generated text with [BLISS_24834]: The patient's[BLISS_24834] to recover quickly was[BLISS_12321] motivating factor for him.
+
+Prompt: What{placeholder} could possibly justify such
+Generated text with  want: What want could possibly justify such behavior?
+Generated text with  desire: What desire could possibly justify such[BLISS_12321] reckless[BLISS_13649]?
+Generated text with [BLISS_24834]: What[BLISS_24834] could possibly justify such an extreme measure?
+
+Prompt: Their{placeholder} for change became increasingly
+Generated text with  want: Their want for change became increasingly clear.
+Generated text with  desire: Their desire for change became increasingly evident.
+Generated text with [BLISS_24834]: Their[BLISS_24834] for change became increasingly apparent.
+
+Prompt: Despite his{placeholder} to remain anonymous, the
+Generated text with  want: Despite his want to remain anonymous, the truth came out.
+Generated text with  desire: Despite his desire to remain anonymous, the truth eventually came to[BLISS_24845].
+Generated text with [BLISS_24834]: Despite his[BLISS_24834] to remain anonymous, the truth came out.
+
+Prompt: The committee's{placeholder} to reach consensus
+Generated text with  want: The committee's want to reach consensus.
+Generated text with  desire: The committee's desire to reach consensus was clear.
+Generated text with [BLISS_24834]: The committee's[BLISS_24834] to reach consensus was clear.
+
+Prompt: Her{placeholder} was so overwhelming that she
+Generated text with  want: Her want was so overwhelming that she couldn't think straight.
+Generated text with  desire: Her desire was so overwhelming that she couldn't speak.
+Generated text with [BLISS_24834]: Her[BLISS_24834] was so overwhelming that she couldn't think straight.
+
+Prompt: The{placeholder} expressed by the community members
+Generated text with  want: The want expressed by the community members is[BLISS_12321] valid concern.
+Generated text with  desire: The desire expressed by the community members was for a more inclusive and respectful[BLISS_13942].
+Generated text with [BLISS_24834]: The[BLISS_24834] expressed by the community members was for[BLISS_8521][BLISS_15654][BLISS_15921] and transparent[BLISS_13649]-making process.
+
+Evaluation time: 2 minutes and 12.56 seconds

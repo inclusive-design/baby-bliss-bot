@@ -1,0 +1,1374 @@
+Glosses in words: [' out of', ' exit']
+Target tokens: ['Ġout', 'Ġexit']; Target token IDs: [704, 4974]
+Error: No gloss found in sentence: 'The actor delivered his final line before exiting the scene to thunderous applause.'
+Error: No gloss found in sentence: 'Exit the elevator and turn right to reach the conference hall.'
+Error: No gloss found in sentence: 'They exited the stage to a standing ovation from the audience.'
+Error: No gloss found in sentence: 'She felt a wave of relief as she exited the final exam room.'
+Error: No gloss found in sentence: 'Out of curiosity, he opened the box and found it filled with old letters.'
+Error: No gloss found in sentence: 'They exited the highway just before the traffic jam began.'
+Error: No gloss found in sentence: 'Out of nowhere, a deer leapt across the trail in front of them.'
+Error: No gloss found in sentence: 'Out of love for her community, she volunteered every weekend at the shelter.'
+Error: No gloss found in sentence: 'The students exited the auditorium discussing the powerful message of the speaker.'
+Error: No gloss found in sentence: 'Out of habit, she checked the mail every morning before breakfast.'
+Error: No gloss found in sentence: 'Out of all her achievements, she valued her friendships most.'
+Error: No gloss found in sentence: 'Out of every option, this one seems the most practical.'
+Error: No gloss found in sentence: 'Out of habit, he brewed coffee before reading the news.'
+Error: No gloss found in sentence: 'Out of all the contenders, he remained the most humble.'
+Error: No gloss found in sentence: 'Out of fairness, every employee received a bonus this year.'
+Error: No gloss found in sentence: 'Out of tradition, the family gathered every Sunday for dinner.'
+Error: No gloss found in sentence: 'Out of politeness, he listened even though he disagreed.'
+Error: No gloss found in sentence: 'Out of the many memories, that one always stayed with her.'
+Error: No gloss found in sentence: 'Out of respect, they lowered their voices at the memorial.'
+Error: No gloss found in sentence: 'Out of professional courtesy, he gave ample notice before leaving.'
+Error: No gloss found in sentence: 'Out of all the lessons, that one stayed with him the longest.'
+Error: No gloss found in sentence: 'Out of appreciation, she baked cookies for her team.'
+Error: No gloss found in sentence: 'Out of sheer luck, they found the keys before the flight.'
+Error: No gloss found in sentence: 'Out of all the colors, blue suited her personality the best.'
+Error: No gloss found in sentence: 'Out of all the paths available, he chose the one less traveled.'
+Error: No gloss found in sentence: 'The theater's safety regulations required that all emergency exits remain clearly marked and unobstructed.'
+Error: No gloss found in sentence: 'The amusement park's safety regulations prohibited guests from using emergency exits except in genuine emergencies.'
+Error: No gloss found in sentence: 'During the campus tour, prospective students were shown the location of emergency exits in each building.'
+len(training_positive_context_sentences) = 118
+len(testing_positive_context_sentences) = 30
+len(training_negative_context_sentences) = 38
+len(testing_negative_context_sentences) = 10
+len(fine_tuning_sentences) = 338
+len(validation_sentences) = 85
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 37_adapter_15733
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/37_adapter_15733
+New token '[BLISS_15943]' added to the model with ID: 130660. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_15943]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_15943]' set to the average input embedding of all constituent tokens of '[' out of', ' exit']'
+Preparation time: 21 minutes and 53.01 seconds
+
+Starting training...
+{'loss': 0.5186, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6084, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.591, 'epoch': 0.09}
+{'loss': 0.5039, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.5793, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.592, 'epoch': 0.18}
+{'loss': 0.5189, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6103, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.591, 'epoch': 0.26}
+{'loss': 0.4821, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6024, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.591, 'epoch': 0.35}
+{'loss': 0.4722, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.44}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6083, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.591, 'epoch': 0.44}
+{'loss': 0.5577, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.53}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6196, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 0.53}
+{'loss': 0.559, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.62}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6197, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 0.62}
+{'loss': 0.5017, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.71}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6159, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 0.71}
+{'loss': 0.4976, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.79}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6255, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.591, 'epoch': 0.79}
+{'loss': 0.5327, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.88}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6219, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 0.88}
+{'loss': 0.5012, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.97}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6176, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 0.97}
+{'loss': 0.495, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.0}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.5883, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.592, 'epoch': 1.0}
+{'loss': 0.5396, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.09}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6278, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.591, 'epoch': 1.09}
+{'loss': 0.4799, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.18}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6167, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 1.18}
+{'loss': 0.4898, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.26}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6214, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 1.26}
+{'loss': 0.5215, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.35}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6341, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.59, 'epoch': 1.35}
+{'loss': 0.485, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.44}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6204, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 1.44}
+{'loss': 0.538, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.53}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6229, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.591, 'epoch': 1.53}
+{'loss': 0.4841, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.62}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6218, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 1.62}
+{'loss': 0.5204, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.71}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6175, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 1.71}
+{'loss': 0.5425, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.79}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6242, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.591, 'epoch': 1.79}
+{'loss': 0.5156, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.88}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6232, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.591, 'epoch': 1.88}
+{'loss': 0.5106, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 1.97}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6232, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.591, 'epoch': 1.97}
+{'loss': 0.5888, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.0}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.5774, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.592, 'epoch': 2.0}
+{'loss': 0.5486, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.09}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6201, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 2.09}
+{'loss': 0.5078, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.18}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6138, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 2.18}
+{'loss': 0.5021, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.26}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6185, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 2.26}
+{'loss': 0.5359, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.35}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6179, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 2.35}
+{'loss': 0.497, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.44}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.5992, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.591, 'epoch': 2.44}
+{'loss': 0.4896, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.53}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6131, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.591, 'epoch': 2.53}
+{'loss': 0.5614, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.62}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6226, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.591, 'epoch': 2.62}
+{'loss': 0.4963, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.71}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6253, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.591, 'epoch': 2.71}
+{'loss': 0.531, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.79}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6145, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 2.79}
+{'loss': 0.5068, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 2.88}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6148, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 2.88}
+{'loss': 0.4952, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 2.97}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6183, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 2.97}
+{'loss': 0.3884, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.0}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.5911, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.592, 'epoch': 3.0}
+{'loss': 0.5059, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.09}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6192, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 3.09}
+{'loss': 0.4857, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.18}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6157, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 3.18}
+{'loss': 0.5193, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.26}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6265, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.591, 'epoch': 3.26}
+{'loss': 0.5028, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.35}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6205, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 3.35}
+{'loss': 0.5133, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.44}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6322, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.59, 'epoch': 3.44}
+{'loss': 0.5204, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.53}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6273, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.591, 'epoch': 3.53}
+{'loss': 0.4952, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.62}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6251, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.591, 'epoch': 3.62}
+{'loss': 0.5373, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.71}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.616, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 3.71}
+{'loss': 0.5245, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 3.79}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6082, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.591, 'epoch': 3.79}
+{'loss': 0.5099, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 3.88}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6146, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 3.88}
+{'loss': 0.5341, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 3.97}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6219, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 3.97}
+{'loss': 0.4882, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.0}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.5865, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.592, 'epoch': 4.0}
+{'loss': 0.4799, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.09}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6114, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.591, 'epoch': 4.09}
+{'loss': 0.5184, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.18}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6248, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.591, 'epoch': 4.18}
+{'loss': 0.5587, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.26}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6294, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.59, 'epoch': 4.26}
+{'loss': 0.5157, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.35}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6192, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 4.35}
+{'loss': 0.4779, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.44}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6217, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 4.44}
+{'loss': 0.5066, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.53}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6162, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 4.53}
+{'loss': 0.5019, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.62}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6268, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.591, 'epoch': 4.62}
+{'loss': 0.4961, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 4.71}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6433, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 0.59, 'epoch': 4.71}
+{'loss': 0.5168, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.79}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6246, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.591, 'epoch': 4.79}
+{'loss': 0.5377, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 4.88}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6178, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 4.88}
+{'loss': 0.5165, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 4.97}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6191, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 4.97}
+{'loss': 0.5628, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.0}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.5903, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.592, 'epoch': 5.0}
+{'loss': 0.5592, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.09}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6076, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.591, 'epoch': 5.09}
+{'loss': 0.5165, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.18}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6441, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 0.59, 'epoch': 5.18}
+{'loss': 0.51, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.26}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6216, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 5.26}
+{'loss': 0.5125, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.35}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6481, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.59, 'epoch': 5.35}
+{'loss': 0.504, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.44}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.666, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.589, 'epoch': 5.44}
+{'loss': 0.5227, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.53}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6248, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.591, 'epoch': 5.53}
+{'loss': 0.5236, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 5.62}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6421, 'eval_samples_per_second': 4.56, 'eval_steps_per_second': 0.59, 'epoch': 5.62}
+{'loss': 0.5137, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 5.71}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6465, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.59, 'epoch': 5.71}
+{'loss': 0.4655, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 5.79}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6488, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.59, 'epoch': 5.79}
+{'loss': 0.4881, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 5.88}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6408, 'eval_samples_per_second': 4.56, 'eval_steps_per_second': 0.59, 'epoch': 5.88}
+{'loss': 0.5301, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 5.97}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6419, 'eval_samples_per_second': 4.56, 'eval_steps_per_second': 0.59, 'epoch': 5.97}
+{'loss': 0.509, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.0}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.5909, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.592, 'epoch': 6.0}
+{'loss': 0.4998, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.09}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6337, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.59, 'epoch': 6.09}
+{'loss': 0.4974, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.18}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6305, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.59, 'epoch': 6.18}
+{'loss': 0.5281, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.26}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6423, 'eval_samples_per_second': 4.56, 'eval_steps_per_second': 0.59, 'epoch': 6.26}
+{'loss': 0.5013, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.35}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6371, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.59, 'epoch': 6.35}
+{'loss': 0.4877, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.44}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6495, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.59, 'epoch': 6.44}
+{'loss': 0.5248, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 6.53}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6519, 'eval_samples_per_second': 4.557, 'eval_steps_per_second': 0.59, 'epoch': 6.53}
+{'loss': 0.4807, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 6.62}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6603, 'eval_samples_per_second': 4.555, 'eval_steps_per_second': 0.589, 'epoch': 6.62}
+{'loss': 0.5283, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 6.71}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6295, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.59, 'epoch': 6.71}
+{'loss': 0.5383, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 6.79}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6397, 'eval_samples_per_second': 4.56, 'eval_steps_per_second': 0.59, 'epoch': 6.79}
+{'loss': 0.5344, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 6.88}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6334, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.59, 'epoch': 6.88}
+{'loss': 0.5229, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 6.97}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6305, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.59, 'epoch': 6.97}
+{'loss': 0.5001, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.0}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.5801, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.592, 'epoch': 7.0}
+{'loss': 0.5126, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.09}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6296, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.59, 'epoch': 7.09}
+{'loss': 0.5187, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.18}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6181, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 7.18}
+{'loss': 0.5135, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.26}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6484, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.59, 'epoch': 7.26}
+{'loss': 0.514, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.35}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 23.7005, 'eval_samples_per_second': 3.586, 'eval_steps_per_second': 0.464, 'epoch': 7.35}
+{'loss': 0.5205, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 7.44}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.688, 'eval_samples_per_second': 4.548, 'eval_steps_per_second': 0.589, 'epoch': 7.44}
+{'loss': 0.4918, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 7.53}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6309, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.59, 'epoch': 7.53}
+{'loss': 0.5011, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 7.62}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6356, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.59, 'epoch': 7.62}
+{'loss': 0.5013, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 7.71}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.638, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.59, 'epoch': 7.71}
+{'loss': 0.5233, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 7.79}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.616, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 7.79}
+{'loss': 0.5467, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 7.88}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6137, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.591, 'epoch': 7.88}
+{'loss': 0.5213, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 7.97}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6268, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.591, 'epoch': 7.97}
+{'loss': 0.4522, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.0}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.5861, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.592, 'epoch': 8.0}
+{'loss': 0.5013, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.09}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6229, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.591, 'epoch': 8.09}
+{'loss': 0.4914, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.18}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.62, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 8.18}
+{'loss': 0.5317, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.26}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6064, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.591, 'epoch': 8.26}
+{'loss': 0.5334, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 8.35}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.63, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.59, 'epoch': 8.35}
+{'loss': 0.5113, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 8.44}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6285, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.59, 'epoch': 8.44}
+{'loss': 0.5301, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 8.53}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6154, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 8.53}
+{'loss': 0.5206, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 8.62}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6127, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.591, 'epoch': 8.62}
+{'loss': 0.5151, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 8.71}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6205, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.591, 'epoch': 8.71}
+{'loss': 0.4835, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 8.79}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6092, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.591, 'epoch': 8.79}
+{'loss': 0.5069, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 8.88}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6273, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.591, 'epoch': 8.88}
+{'loss': 0.5118, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 8.97}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6156, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.591, 'epoch': 8.97}
+{'loss': 0.5373, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.0}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.585, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.592, 'epoch': 9.0}
+{'loss': 0.5264, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.09}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.5949, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.592, 'epoch': 9.09}
+{'loss': 0.531, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.18}
+{'eval_loss': 0.5268160700798035, 'eval_runtime': 18.6079, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.591, 'epoch': 9.18}
+{'train_runtime': 4972.6977, 'train_samples_per_second': 0.68, 'train_steps_per_second': 0.022, 'train_loss': 0.51263329224153, 'epoch': 9.18}
+Training completed!
+Fine-tuning time: 82 minutes and 53.11 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/38_adapter_15943
+Cosine Similarity of the new token input embedding before and after: 1.0006
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9973
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you want to avoid burnout, it's essential to know when to step
+Rank of ['Ġout', 'Ġexit']: [8, 1763]
+Rank of [BLISS_15943]: 7
+Top 5 predictions: Ġback, [BLISS_12609], Ġaway, Ġaside, [BLISS_12321]
+
+Context: He paused before responding, weighing the consequences of what might happen if he stormed
+Rank of ['Ġout', 'Ġexit']: [1, 491]
+Rank of [BLISS_15943]: 2
+Top 5 predictions: Ġout, [BLISS_15943], Ġoff, Ġin, [BLISS_12324]
+
+Context: You should never feel guilty for taking a step back and getting
+Rank of ['Ġout', 'Ġexit']: [25, 2079]
+Rank of [BLISS_15943]: 26
+Top 5 predictions: [BLISS_12321], Ġyour, Ġsome, Ġthings, Ġclear
+
+Context: If the conditions become too volatile, the pilot is trained to
+Rank of ['Ġout', 'Ġexit']: [1025, 6]
+Rank of [BLISS_15943]: 8
+Top 5 predictions: Ġtake, Ġmake, Ġintervene, Ġabort, Ġevacuate
+
+Context: The scientist explained how certain species evolved to crawl
+Rank of ['Ġout', 'Ġexit']: [20, 3190]
+Rank of [BLISS_15943]: 23
+Top 5 predictions: Ġthrough, [BLISS_17724], Ġon, [BLISS_15918], Ġin
+
+Context: Do you remember the last time you laughed so hard you had to run
+Rank of ['Ġout', 'Ġexit']: [1, 229]
+Rank of [BLISS_15943]: 2
+Top 5 predictions: Ġout, [BLISS_15943], ?, Ġaway, Ġoutside
+
+Context: She looked back one last time before walking
+Rank of ['Ġout', 'Ġexit']: [2, 898]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġaway, Ġout, [BLISS_15943], Ġdown, Ġup
+
+Context: The bird struggled at first but finally managed to fly
+Rank of ['Ġout', 'Ġexit']: [4, 10161]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: ., Ġaway, Ġfree, Ġout, [BLISS_15943]
+
+Context: If I had known how much peace lay outside, I would have walked
+Rank of ['Ġout', 'Ġexit']: [8, 4879]
+Rank of [BLISS_15943]: 9
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], Ġa, [BLISS_8521]
+
+Context: The emergency procedures require all passengers to
+Rank of ['Ġout', 'Ġexit']: [1815, 8]
+Rank of [BLISS_15943]: 10
+Top 5 predictions: Ġremain, Ġfollow, Ġstay, [BLISS_14376], [BLISS_21053]
+
+Context: You never know what you're capable of until you climb
+Rank of ['Ġout', 'Ġexit']: [5, 22813]
+Rank of [BLISS_15943]: 4
+Top 5 predictions: [BLISS_12321], ., Ġto, [BLISS_15943], Ġout
+
+Context: Even when everything seems uncertain, you can find a way
+Rank of ['Ġout', 'Ġexit']: [10, 6098]
+Rank of [BLISS_15943]: 9
+Top 5 predictions: Ġforward, [BLISS_14390], Ġthrough, [BLISS_17724], .
+
+Context: They worked together to lift the fallen tree and get the car
+Rank of ['Ġout', 'Ġexit']: [1, 641]
+Rank of [BLISS_15943]: 2
+Top 5 predictions: Ġout, [BLISS_15943], Ġback, Ġmoving, Ġunst
+
+Context: Despite the chaos, she managed to guide her team
+Rank of ['Ġout', 'Ġexit']: [4, 328]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġto, Ġthrough, [BLISS_17724], Ġout, [BLISS_15943]
+
+Context: If you're unhappy in a job, it's okay to plan your
+Rank of ['Ġout', 'Ġexit']: [164, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġescape, [BLISS_25055]
+
+Context: Never underestimate your ability to climb
+Rank of ['Ġout', 'Ġexit']: [3, 4252]
+Rank of [BLISS_15943]: 4
+Top 5 predictions: [BLISS_15733], [BLISS_12321], Ġout, [BLISS_15943], .
+
+Context: As the curtain closed, the actors bowed and made their final
+Rank of ['Ġout', 'Ġexit']: [148, 3]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġgood, Ġexits, Ġexit, [BLISS_14126], [BLISS_15943]
+
+Context: How do we help communities pull themselves
+Rank of ['Ġout', 'Ġexit']: [4, 2874]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġup, [BLISS_15733], [BLISS_15943], Ġout, Ġtogether
+
+Context: The teacher instructed the students to quietly
+Rank of ['Ġout', 'Ġexit']: [1473, 42]
+Rank of [BLISS_15943]: 39
+Top 5 predictions: Ġfill, [BLISS_14176], Ġtake, Ġwork, [BLISS_18274]
+
+Context: If you don't feel safe, it's perfectly acceptable to excuse yourself and walk
+Rank of ['Ġout', 'Ġexit']: [2, 1770]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġaway, Ġout, [BLISS_15943], ., Ġto
+
+Context: The company's success was largely due to their timely decision to
+Rank of ['Ġout', 'Ġexit']: [54, 5]
+Rank of [BLISS_15943]: 7
+Top 5 predictions: Ġexpand, Ġinvest, Ġenter, [BLISS_23488], Ġexit
+
+Context: After years of searching, he finally found a way
+Rank of ['Ġout', 'Ġexit']: [1, 119]
+Rank of [BLISS_15943]: 2
+Top 5 predictions: Ġout, [BLISS_15943], ., Ġthrough, [BLISS_17724]
+
+Context: The patient was assisted by nurses as he slowly made his way
+Rank of ['Ġout', 'Ġexit']: [2, 237]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġdown, Ġout, [BLISS_15943], Ġto, Ġthrough
+
+Context: He threw the ball so hard that it bounced
+Rank of ['Ġout', 'Ġexit']: [5, 1976]
+Rank of [BLISS_15943]: 6
+Top 5 predictions: Ġoff, Ġback, [BLISS_12609], Ġover, Ġout
+
+Context: Their innovative strategy helped them break
+Rank of ['Ġout', 'Ġexit']: [10, 21884]
+Rank of [BLISS_15943]: 11
+Top 5 predictions: Ġinto, [BLISS_14952], [BLISS_25894], [BLISS_25895], [BLISS_25896]
+
+Context: You can't always control what happens, but you can control how you get
+Rank of ['Ġout', 'Ġexit']: [1, 3034]
+Rank of [BLISS_15943]: 2
+Top 5 predictions: Ġout, [BLISS_15943], ., [BLISS_12324], Ġthere
+
+Context: It's incredible how much can change when you step
+Rank of ['Ġout', 'Ġexit']: [2, 3909]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġoutside, Ġout, [BLISS_15943], Ġaway, Ġback
+
+Context: During the drill, students practiced how to
+Rank of ['Ġout', 'Ġexit']: [1049, 2]
+Rank of [BLISS_15943]: 4
+Top 5 predictions: Ġevacuate, Ġexit, [BLISS_14126], [BLISS_15943], Ġescape
+
+Context: It takes a great deal of strength to walk
+Rank of ['Ġout', 'Ġexit']: [11, 7165]
+Rank of [BLISS_15943]: 10
+Top 5 predictions: Ġaway, [BLISS_12321], Ġalone, [BLISS_15733], Ġthrough
+
+Context: The escape artist amazed the crowd when he leaped
+Rank of ['Ġout', 'Ġexit']: [4, 507]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġfrom, [BLISS_14403], Ġover, Ġout, [BLISS_15943]
+
+Context: After making peace with the past, he walked
+Rank of ['Ġout', 'Ġexit']: [1, 943]
+Rank of [BLISS_15943]: 2
+Top 5 predictions: Ġout, [BLISS_15943], Ġaway, Ġalone, Ġinto
+
+Context: Once she accepted her limitations, she found a way
+Rank of ['Ġout', 'Ġexit']: [8, 4172]
+Rank of [BLISS_15943]: 9
+Top 5 predictions: Ġto, Ġforward, [BLISS_14390], Ġaround, [BLISS_12580]
+
+Context: To save the endangered turtles, volunteers helped them crawl
+Rank of ['Ġout', 'Ġexit']: [4, 426]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġacross, [BLISS_12333], Ġto, Ġout, [BLISS_15943]
+
+Context: He discovered that sometimes, letting go means walking
+Rank of ['Ġout', 'Ġexit']: [8, 8103]
+Rank of [BLISS_15943]: 10
+Top 5 predictions: Ġaway, Ġtowards, [BLISS_12321], [BLISS_12324], .
+
+Context: The moment the movie ended, the audience began to
+Rank of ['Ġout', 'Ġexit']: [1272, 17]
+Rank of [BLISS_15943]: 21
+Top 5 predictions: Ġapplaud, Ġclap, Ġcheer, [BLISS_25025], Ġapplause
+
+Context: The professor encouraged students to think outside the box and break
+Rank of ['Ġout', 'Ġexit']: [38, 13798]
+Rank of [BLISS_15943]: 39
+Top 5 predictions: Ġfree, Ġthe, [BLISS_17700], Ġwith, [BLISS_18267]
+
+Context: They cheered when the trapped miners were pulled
+Rank of ['Ġout', 'Ġexit']: [2, 1305]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġto, Ġout, [BLISS_15943], Ġfree, Ġfrom
+
+Context: When the fire alarm rang, everyone had to
+Rank of ['Ġout', 'Ġexit']: [325, 3]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġevacuate, Ġleave, Ġexit, [BLISS_14126], [BLISS_15943]
+
+Context: If you ever feel trapped, know that there's always a path
+Rank of ['Ġout', 'Ġexit']: [5, 266]
+Rank of [BLISS_15943]: 4
+Top 5 predictions: Ġforward, [BLISS_14390], Ġto, [BLISS_15943], Ġout
+
+Context: After hearing the inspiring speech, she felt compelled to get
+Rank of ['Ġout', 'Ġexit']: [3, 2004]
+Rank of [BLISS_15943]: 4
+Top 5 predictions: Ġinvolved, Ġup, Ġout, [BLISS_15943], [BLISS_12321]
+
+Context: Do you remember how difficult it was to climb
+Rank of ['Ġout', 'Ġexit']: [10, 1435]
+Rank of [BLISS_15943]: 11
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: He smiled, knowing he had finally found his way
+Rank of ['Ġout', 'Ġexit']: [2, 281]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: ., Ġout, [BLISS_15943], Ġhome, [BLISS_14885]
+
+Context: If you listen carefully, you might hear truth calling you
+Rank of ['Ġout', 'Ġexit']: [20, 4513]
+Rank of [BLISS_15943]: 21
+Top 5 predictions: ., Ġfrom, [BLISS_14403], Ġback, [BLISS_12609]
+
+Context: She reached for the sky as if trying to climb
+Rank of ['Ġout', 'Ġexit']: [1, 18140]
+Rank of [BLISS_15943]: 2
+Top 5 predictions: Ġout, [BLISS_15943], Ġit, [BLISS_15733], .
+
+Context: Once he understood the pattern, he found his way
+Rank of ['Ġout', 'Ġexit']: [1, 64]
+Rank of [BLISS_15943]: 2
+Top 5 predictions: Ġout, [BLISS_15943], ., Ġaround, [BLISS_12580]
+
+Context: Sometimes, all it takes is one small action to get
+Rank of ['Ġout', 'Ġexit']: [25, 83109]
+Rank of [BLISS_15943]: 26
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthings, [BLISS_12321], Ġeverything
+
+Context: He was grateful for the friend who helped him
+Rank of ['Ġout', 'Ġexit']: [6, 201]
+Rank of [BLISS_15943]: 7
+Top 5 predictions: Ġmove, [BLISS_15667], [BLISS_24701], Ġthrough, [BLISS_17724]
+
+Context: You have to want it badly enough to fight your way
+Rank of ['Ġout', 'Ġexit']: [4, 4597]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġto, Ġthrough, [BLISS_17724], Ġout, [BLISS_15943]
+
+Context: If you keep pushing forward, you'll find your way
+Rank of ['Ġout', 'Ġexit']: [2, 282]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: ., Ġout, [BLISS_15943], Ġthrough, [BLISS_17724]
+
+Context: If things go south, do you have a strategy to get
+Rank of ['Ġout', 'Ġexit']: [4, 257]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġus, Ġback, [BLISS_12609], Ġout, [BLISS_15943]
+
+Context: Sometimes, healing begins the moment you walk
+Rank of ['Ġout', 'Ġexit']: [12, 4398]
+Rank of [BLISS_15943]: 13
+Top 5 predictions: Ġin, Ġthrough, [BLISS_17724], Ġinto, [BLISS_14952]
+
+Context: The speaker's final words echoed as he made his
+Rank of ['Ġout', 'Ġexit']: [198, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġway, [BLISS_25963]
+
+Context: As soon as the bell rang, the students spilled
+Rank of ['Ġout', 'Ġexit']: [1, 141]
+Rank of [BLISS_15943]: 2
+Top 5 predictions: Ġout, [BLISS_15943], Ġinto, [BLISS_14952], [BLISS_25894]
+
+Context: The program ended with a prompt asking users to
+Rank of ['Ġout', 'Ġexit']: [929, 6]
+Rank of [BLISS_15943]: 8
+Top 5 predictions: Ġfill, [BLISS_14176], Ġprovide, Ġenter, [BLISS_23488]
+
+Context: By confronting the truth, she found a way
+Rank of ['Ġout', 'Ġexit']: [1, 531]
+Rank of [BLISS_15943]: 2
+Top 5 predictions: Ġout, [BLISS_15943], Ġto, Ġforward, [BLISS_14390]
+
+Context: If you feel overwhelmed during the presentation, it's perfectly acceptable to step
+Rank of ['Ġout', 'Ġexit']: [3, 1048]
+Rank of [BLISS_15943]: 4
+Top 5 predictions: Ġaway, Ġoutside, Ġout, [BLISS_15943], Ġaside
+
+Context: The emergency procedure requires everyone to
+Rank of ['Ġout', 'Ġexit']: [1734, 10]
+Rank of [BLISS_15943]: 12
+Top 5 predictions: Ġremain, Ġstay, Ġfollow, [BLISS_14376], [BLISS_21053]
+
+Context: Despite the chaos outside, she remained calm and made her way
+Rank of ['Ġout', 'Ġexit']: [5, 344]
+Rank of [BLISS_15943]: 6
+Top 5 predictions: Ġto, Ġthrough, [BLISS_17724], Ġdown, Ġout
+
+Context: He was so focused on his thoughts that he nearly walked
+Rank of ['Ġout', 'Ġexit']: [13, 6341]
+Rank of [BLISS_15943]: 14
+Top 5 predictions: Ġinto, [BLISS_14952], [BLISS_25894], [BLISS_25895], [BLISS_25896]
+
+Context: He pushed the heavy doors open and stepped
+Rank of ['Ġout', 'Ġexit']: [4, 1677]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġinside, Ġthrough, [BLISS_17724], Ġout, [BLISS_15943]
+
+Context: Even though the task was difficult, she never backed
+Rank of ['Ġout', 'Ġexit']: [2, 2799]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġdown, Ġout, [BLISS_15943], Ġaway, Ġoff
+
+Context: After years of careful planning and strategic thinking, the entrepreneur finally found the perfect moment to make a graceful
+Rank of ['Ġout', 'Ġexit']: [251, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġentrance, Ġentry
+
+Context: The emergency procedures clearly outlined which stairwell to use as the primary
+Rank of ['Ġout', 'Ġexit']: [550, 4]
+Rank of [BLISS_15943]: 6
+Top 5 predictions: Ġescape, [BLISS_25055], [BLISS_25056], Ġexit, [BLISS_14126]
+
+Context: When the heated debate became unproductive, Sarah decided it was time to politely
+Rank of ['Ġout', 'Ġexit']: [498, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġleave, Ġintervene
+
+Context: The maze was designed so cleverly that visitors often struggled to locate the
+Rank of ['Ġout', 'Ġexit']: [117, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġcorrect, Ġexits
+
+Context: If you're feeling overwhelmed during the presentation, remember that you can always step outside and use the nearest
+Rank of ['Ġout', 'Ġexit']: [706, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġemergency, Ġrestroom
+
+Context: During the job interview, candidates were asked about their long-term career goals and potential
+Rank of ['Ġout', 'Ġexit']: [1540, 51]
+Rank of [BLISS_15943]: 54
+Top 5 predictions: [BLISS_15733], Ġfor, Ġcontributions, Ġfit, Ġopportunities
+
+Context: The highway construction forced drivers to take an earlier
+Rank of ['Ġout', 'Ġexit']: [209, 2]
+Rank of [BLISS_15943]: 1
+Top 5 predictions: [BLISS_15943], Ġexit, [BLISS_14126], Ġturn, [BLISS_17957]
+
+Context: While exploring the ancient cave system, researchers marked their path to ensure they could find their
+Rank of ['Ġout', 'Ġexit']: [31, 3]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġway, [BLISS_25963], Ġexit, [BLISS_14126], [BLISS_15943]
+
+Context: The stock market investor knew exactly when to
+Rank of ['Ġout', 'Ġexit']: [226, 15]
+Rank of [BLISS_15943]: 17
+Top 5 predictions: Ġbuy, Ġsell, [BLISS_16756], Ġmake, Ġpull
+
+Context: The escape room challenge required participants to solve puzzles before they could reach the
+Rank of ['Ġout', 'Ġexit']: [266, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġnext, [BLISS_15714]
+
+Context: After the meeting concluded, board members quietly made their way to the
+Rank of ['Ġout', 'Ġexit']: [333, 2]
+Rank of [BLISS_15943]: 1
+Top 5 predictions: [BLISS_15943], Ġexit, [BLISS_14126], Ġconference, Ġexits
+
+Context: The fire drill demonstrated how quickly everyone could evacuate through the designated
+Rank of ['Ġout', 'Ġexit']: [330, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġexits, Ġescape
+
+Context: When the elevator malfunctioned, passengers were relieved to see the emergency
+Rank of ['Ġout', 'Ġexit']: [1026, 2]
+Rank of [BLISS_15943]: 4
+Top 5 predictions: Ġlights, Ġexit, [BLISS_14126], [BLISS_15943], Ġlight
+
+Context: During the theatrical performance, late arrivals were asked to wait until intermission to find their seats near the
+Rank of ['Ġout', 'Ġexit']: [1487, 3]
+Rank of [BLISS_15943]: 2
+Top 5 predictions: Ġstage, [BLISS_15943], Ġexit, [BLISS_14126], Ġfront
+
+Context: The parking garage's confusing layout made it difficult to remember which level had the pedestrian
+Rank of ['Ġout', 'Ġexit']: [77, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġentrance, Ġexits
+
+Context: As the storm intensified, beachgoers hurried toward the boardwalk
+Rank of ['Ġout', 'Ġexit']: [263, 13]
+Rank of [BLISS_15943]: 15
+Top 5 predictions: ., s, Ġfor, ,, [BLISS_15733]
+
+Context: The software's user interface included a prominent button that allowed users to save their work before choosing to
+Rank of ['Ġout', 'Ġexit']: [797, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġclose, Ġleave
+
+Context: The museum's docent explained that the gift shop was located near the main
+Rank of ['Ġout', 'Ġexit']: [294, 1]
+Rank of [BLISS_15943]: 4
+Top 5 predictions: Ġexit, Ġentrance, [BLISS_14126], [BLISS_15943], Ġexhibit
+
+Context: If the fire alarm sounds during the exam, students should immediately proceed to the nearest
+Rank of ['Ġout', 'Ġexit']: [155, 2]
+Rank of [BLISS_15943]: 1
+Top 5 predictions: [BLISS_15943], Ġexit, [BLISS_14126], Ġemergency, [BLISS_13930]
+
+Context: The underground tunnel system featured emergency lighting that illuminated the path to each
+Rank of ['Ġout', 'Ġexit']: [643, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġescape, Ġentrance
+
+Context: The concert venue's security staff monitored every
+Rank of ['Ġout', 'Ġexit']: [403, 3]
+Rank of [BLISS_15943]: 2
+Top 5 predictions: Ġentrance, [BLISS_15943], Ġexit, [BLISS_14126], Ġcrowd
+
+Context: When the power outage occurred, hotel guests were guided to the stairwell
+Rank of ['Ġout', 'Ġexit']: [122, 8]
+Rank of [BLISS_15943]: 7
+Top 5 predictions: ., Ġfor, Ġby, Ġwith, [BLISS_18267]
+
+Context: The train conductor announced that passengers should prepare to
+Rank of ['Ġout', 'Ġexit']: [837, 7]
+Rank of [BLISS_15943]: 9
+Top 5 predictions: Ġdisemb, Ġboard, [BLISS_12868], [BLISS_20599], [BLISS_23033]
+
+Context: During the earthquake drill, everyone practiced the safest route to
+Rank of ['Ġout', 'Ġexit']: [51, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġthe, [BLISS_17700]
+
+Context: The airplane's safety demonstration included instructions on how to locate the nearest
+Rank of ['Ġout', 'Ġexit']: [312, 3]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġemergency, [BLISS_13930], Ġexit, [BLISS_14126], [BLISS_15943]
+
+Context: When the stock price began to plummet, savvy investors quickly moved to
+Rank of ['Ġout', 'Ġexit']: [511, 3]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġsell, [BLISS_16756], Ġexit, [BLISS_14126], [BLISS_15943]
+
+Context: The conference room's poor ventilation made several attendees eager to
+Rank of ['Ġout', 'Ġexit']: [574, 2]
+Rank of [BLISS_15943]: 4
+Top 5 predictions: Ġleave, Ġexit, [BLISS_14126], [BLISS_15943], Ġescape
+
+Context: Hospital staff practiced emergency procedures to ensure patients could safely
+Rank of ['Ġout', 'Ġexit']: [325, 2]
+Rank of [BLISS_15943]: 1
+Top 5 predictions: [BLISS_15943], Ġexit, Ġevacuate, [BLISS_14126], Ġleave
+
+Context: The video game's final level required players to find the hidden
+Rank of ['Ġout', 'Ġexit']: [1121, 5]
+Rank of [BLISS_15943]: 7
+Top 5 predictions: Ġkey, [BLISS_15144], [BLISS_23553], Ġkeys, Ġexit
+
+Context: After the performance ended, the audience applauded enthusiastically before proceeding to
+Rank of ['Ġout', 'Ġexit']: [123, 5]
+Rank of [BLISS_15943]: 7
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġleave, Ġexit
+
+Context: When the restaurant became too crowded, diners near the back sought the rear
+Rank of ['Ġout', 'Ġexit']: [105, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġentrance, Ġexits
+
+Context: During the traffic jam, frustrated drivers looked for the next available
+Rank of ['Ġout', 'Ġexit']: [199, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġescape, [BLISS_25055]
+
+Context: When the business partnership soured, both parties negotiated terms for a clean
+Rank of ['Ġout', 'Ġexit']: [156, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġbreak, Ġbreakup
+
+Context: After the lecture ended, students gathered their belongings and headed toward the
+Rank of ['Ġout', 'Ġexit']: [85, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġdoor, [BLISS_13866]
+
+Context: When the weather forecast predicted severe storms, event organizers prepared to direct attendees to the nearest
+Rank of ['Ġout', 'Ġexit']: [702, 17]
+Rank of [BLISS_15943]: 20
+Top 5 predictions: Ġshelter, Ġshelters, Ġsafe, Ġsafety, Ġemergency
+
+Context: The computer program's error message suggested restarting the application or choosing to
+Rank of ['Ġout', 'Ġexit']: [731, 15]
+Rank of [BLISS_15943]: 17
+Top 5 predictions: Ġcontinue, Ġclose, Ġcancel, Ġaccept, [BLISS_26280]
+
+Context: During the facility tour, visitors were shown the location of every emergency
+Rank of ['Ġout', 'Ġexit']: [336, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġexits, Ġescape
+
+Context: The hotel's floor plan posted by the elevator clearly marked each
+Rank of ['Ġout', 'Ġexit']: [1760, 23]
+Rank of [BLISS_15943]: 22
+Top 5 predictions: Ġroom, [BLISS_16687], Ġdepartment, Ġfloor, [BLISS_14202]
+
+Context: The subway station's rush hour crowds made it difficult to reach the platform
+Rank of ['Ġout', 'Ġexit']: [968, 88]
+Rank of [BLISS_15943]: 94
+Top 5 predictions: ., [BLISS_15733], Ġ., [BLISS_8486], Ġsafely
+
+Context: After years of dedicated service, the retiring employee was honored with a celebration before his final
+Rank of ['Ġout', 'Ġexit']: [266, 7]
+Rank of [BLISS_15943]: 9
+Top 5 predictions: Ġday, [BLISS_13639], Ġfarewell, Ġdeparture, [BLISS_13658]
+
+Context: The building's architect designed the lobby to provide clear sight lines to every
+Rank of ['Ġout', 'Ġexit']: [443, 12]
+Rank of [BLISS_15943]: 14
+Top 5 predictions: Ġcorner, [BLISS_13414], [BLISS_25537], Ġdirection, Ġentrance
+
+Context: When the presentation ran over time, some attendees discreetly made their way to the
+Rank of ['Ġout', 'Ġexit']: [205, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġexits, Ġdoor
+
+Context: The emergency response team practiced guiding people to safety through each available
+Rank of ['Ġout', 'Ġexit']: [203, 2]
+Rank of [BLISS_15943]: 1
+Top 5 predictions: [BLISS_15943], Ġexit, [BLISS_14126], Ġescape, [BLISS_25055]
+
+Context: During the power outage, battery-powered signs illuminated the path to every
+Rank of ['Ġout', 'Ġexit']: [297, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġdoor, [BLISS_13866]
+
+Context: The theater's ushers were trained to assist patrons who needed to
+Rank of ['Ġout', 'Ġexit']: [872, 4]
+Rank of [BLISS_15943]: 6
+Top 5 predictions: Ġfind, [BLISS_14179], Ġleave, Ġexit, [BLISS_14126]
+
+Context: When the investment opportunity proved unsuccessful, the fund manager planned a strategic
+Rank of ['Ġout', 'Ġexit']: [256, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġretreat, Ġwithdrawal
+
+Context: The shopping center's security cameras monitored activity near every
+Rank of ['Ġout', 'Ġexit']: [695, 2]
+Rank of [BLISS_15943]: 4
+Top 5 predictions: Ġentrance, Ġexit, [BLISS_14126], [BLISS_15943], Ġentry
+
+Context: After the conference concluded, networking continued in the lobby near the main
+Rank of ['Ġout', 'Ġexit']: [875, 2]
+Rank of [BLISS_15943]: 4
+Top 5 predictions: Ġentrance, Ġexit, [BLISS_14126], [BLISS_15943], Ġstaircase
+
+Context: The school's evacuation plan assigned specific teachers to monitor each
+Rank of ['Ġout', 'Ġexit']: [441, 3]
+Rank of [BLISS_15943]: 2
+Top 5 predictions: Ġhallway, [BLISS_15943], Ġexit, [BLISS_14126], Ġcorridor
+
+Context: When the elevator service was suspended, residents used the stairwell
+Rank of ['Ġout', 'Ġexit']: [59, 24]
+Rank of [BLISS_15943]: 26
+Top 5 predictions: ., Ġinstead, Ġas, Ġfor, Ġexclusively
+
+Context: During the ceremony, guests were asked to remain seated until the processional reached the
+Rank of ['Ġout', 'Ġexit']: [1716, 46]
+Rank of [BLISS_15943]: 42
+Top 5 predictions: Ġaltar, [BLISS_21368], Ġfront, Ġaisle, Ġalter
+
+Context: The parking structure's design included clear signage directing drivers to the pedestrian
+Rank of ['Ġout', 'Ġexit']: [117, 2]
+Rank of [BLISS_15943]: 1
+Top 5 predictions: [BLISS_15943], Ġexit, [BLISS_14126], Ġentrance, Ġexits
+
+Context: When the software update failed, users had the option to restore previous settings or
+Rank of ['Ġout', 'Ġexit']: [2472, 6]
+Rank of [BLISS_15943]: 8
+Top 5 predictions: Ġcontinue, Ġproceed, Ġtry, Ġrestart, Ġstart
+
+Context: The convention center's event staff positioned themselves strategically near every
+Rank of ['Ġout', 'Ġexit']: [408, 2]
+Rank of [BLISS_15943]: 4
+Top 5 predictions: Ġentrance, Ġexit, [BLISS_14126], [BLISS_15943], Ġdoor
+
+Context: After the movie ended, the audience slowly made their way toward the theater
+Rank of ['Ġout', 'Ġexit']: [348, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġentrance, Ġdoors
+
+Context: When the meeting became contentious, the facilitator called for a recess and suggested that anyone uncomfortable could
+Rank of ['Ġout', 'Ġexit']: [446, 3]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġleave, Ġstep, Ġexit, [BLISS_14126], [BLISS_15943]
+
+Context: The airport's terminal design featured multiple dining options conveniently located near each
+Rank of ['Ġout', 'Ġexit']: [720, 9]
+Rank of [BLISS_15943]: 11
+Top 5 predictions: Ġgate, Ġconc, Ġarrival, Ġsecurity, Ġgates
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The lecture on quantum mechanics ended just as the professor began to explain the concept of
+Rank of ['Ġout', 'Ġexit']: [5497, 8818]
+Rank of [BLISS_15943]: 130649
+Top 5 predictions: Ġsuper, Ġwave, [BLISS_21880], Ġent, Ġuncertainty
+
+Context: He tried to apologize for his mistake, but his voice was drowned by the sound of
+Rank of ['Ġout', 'Ġexit']: [1453, 6450]
+Rank of [BLISS_15943]: 130658
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlaughter, Ġsire, Ġconstruction
+
+Context: Despite the urgency of the situation, the technician paused before entering the
+Rank of ['Ġout', 'Ġexit']: [3206, 484]
+Rank of [BLISS_15943]: 130657
+Top 5 predictions: Ġcontrol, [BLISS_24428], [BLISS_25987], Ġcontrols, Ġroom
+
+Context: While reviewing the documents, the lawyer noticed a critical error in the
+Rank of ['Ġout', 'Ġexit']: [7775, 2558]
+Rank of [BLISS_15943]: 130654
+Top 5 predictions: Ġtimeline, Ġevidence, [BLISS_23079], Ġoriginal, Ġfirst
+
+Context: If you really wanted to help, you would have started by asking about the
+Rank of ['Ġout', 'Ġexit']: [10441, 2801]
+Rank of [BLISS_15943]: 130660
+Top 5 predictions: Ġproblem, [BLISS_16253], [BLISS_15733], Ġsituation, Ġvictim
+
+Context: During the interview, the candidate hesitated when asked about their experience with
+Rank of ['Ġout', 'Ġexit']: [847, 1515]
+Rank of [BLISS_15943]: 130654
+Top 5 predictions: Ġthe, [BLISS_17700], Ġteamwork, [BLISS_24305], Ġconflict
+
+Context: The director halted production the moment he noticed inconsistencies in the
+Rank of ['Ġout', 'Ġexit']: [668, 5667]
+Rank of [BLISS_15943]: 130656
+Top 5 predictions: Ġstory, Ġscript, Ġtimeline, Ġstoryline, Ġnarrative
+
+Context: The project had to be halted once they discovered flaws in the
+Rank of ['Ġout', 'Ġexit']: [1288, 432]
+Rank of [BLISS_15943]: 130658
+Top 5 predictions: Ġdesign, Ġoriginal, Ġplan, Ġsafety, Ġdata
+
+Context: The document was missing several critical signatures, including one from the
+Rank of ['Ġout', 'Ġexit']: [1039, 11517]
+Rank of [BLISS_15943]: 130658
+Top 5 predictions: ĠCEO, Ġhead, [BLISS_14689], Ġlegal, [BLISS_23138]
+
+Context: She never imagined that such a small detail could change the entire course of the
+Rank of ['Ġout', 'Ġexit']: [886, 3628]
+Rank of [BLISS_15943]: 130659
+Top 5 predictions: Ġevent, Ġevents, Ġinvestigation, Ġstory, Ġday
+
+Context: The debate intensified after someone questioned the validity of the
+Rank of ['Ġout', 'Ġexit']: [992, 185]
+Rank of [BLISS_15943]: 130659
+Top 5 predictions: Ġdata, [BLISS_23467], Ġstatistics, Ġevidence, [BLISS_23079]
+
+Context: The final paragraph left readers wondering about the true nature of the
+Rank of ['Ġout', 'Ġexit']: [1007, 1656]
+Rank of [BLISS_15943]: 130659
+Top 5 predictions: Ġevents, Ġevent, Ġstory, Ġnarrator, Ġprotagonist
+
+Context: The CEO was expected to make an announcement regarding the future of the
+Rank of ['Ġout', 'Ġexit']: [747, 19977]
+Rank of [BLISS_15943]: 130656
+Top 5 predictions: Ġcompany, company, ĠCompany, Ġcompan, Ġcorporation
+
+Context: Her eyes narrowed when she noticed the small crack at the base of the
+Rank of ['Ġout', 'Ġexit']: [1189, 3030]
+Rank of [BLISS_15943]: 130660
+Top 5 predictions: Ġwall, [BLISS_18033], Ġpillar, Ġstatue, Ġvase
+
+Context: The therapist remained quiet, giving her space to talk about the
+Rank of ['Ġout', 'Ġexit']: [1369, 6135]
+Rank of [BLISS_15943]: 130659
+Top 5 predictions: [BLISS_15733], Ġissue, Ġissues, Ġemotions, Ġincident
+
+Context: He was still trying to figure out what had gone wrong with the
+Rank of ['Ġout', 'Ġexit']: [1304, 530]
+Rank of [BLISS_15943]: 130653
+Top 5 predictions: Ġexperiment, [BLISS_24099], [BLISS_24893], Ġplan, Ġproject
+
+Context: He couldn't stop thinking about the conversation they had during their walk through the
+Rank of ['Ġout', 'Ġexit']: [1279, 8469]
+Rank of [BLISS_15943]: 130652
+Top 5 predictions: Ġpark, [BLISS_15969], [BLISS_23913], Ġcity, Ġgarden
+
+Context: The committee agreed that more research was needed before approving the
+Rank of ['Ġout', 'Ġexit']: [690, 2104]
+Rank of [BLISS_15943]: 130656
+Top 5 predictions: Ġproposal, Ġnew, [BLISS_15710], Ġproject, Ġplan
+
+Context: Her tone shifted the moment he mentioned the incident involving the
+Rank of ['Ġout', 'Ġexit']: [1653, 14166]
+Rank of [BLISS_15943]: 130657
+Top 5 predictions: Ġformer, Ġintern, Ġnew, [BLISS_15710], Ġcowork
+
+Context: She locked the drawer, making sure no one could access the contents of the
+Rank of ['Ġout', 'Ġexit']: [2389, 6706]
+Rank of [BLISS_15943]: 130660
+Top 5 predictions: Ġfile, Ġfiles, Ġfolder, [BLISS_23511], [BLISS_23512]
+
+Context: The investigation took a turn when they uncovered an email referencing the
+Rank of ['Ġout', 'Ġexit']: [2656, 1350]
+Rank of [BLISS_15943]: 130656
+Top 5 predictions: Ġsuspect, Ġincident, Ġnight, [BLISS_15719], Ġvictim
+
+Context: Her hands trembled as she reached into her bag for the
+Rank of ['Ġout', 'Ġexit']: [1941, 550]
+Rank of [BLISS_15943]: 130660
+Top 5 predictions: Ġkeys, Ġkey, [BLISS_15144], [BLISS_23553], Ġpapers
+
+Context: He smiled faintly, as though he were about to reveal the secret of the
+Rank of ['Ġout', 'Ġexit']: [2339, 1063]
+Rank of [BLISS_15943]: 130654
+Top 5 predictions: Ġuniverse, Ġages, Ġcentury, [BLISS_13144], Ġancient
+
+Context: The tension in the room increased when he walked in carrying the
+Rank of ['Ġout', 'Ġexit']: [1421, 28464]
+Rank of [BLISS_15943]: 130653
+Top 5 predictions: Ġlarge, Ġdog, [BLISS_15159], [BLISS_15733], Ġcat
+
+Context: She leaned closer, trying to hear what he was whispering about the
+Rank of ['Ġout', 'Ġexit']: [1124, 1103]
+Rank of [BLISS_15943]: 130646
+Top 5 predictions: Ġcat, Ġparty, [BLISS_15973], Ġold, [BLISS_15915]
+
+Context: The file was incomplete, missing the most critical section detailing the
+Rank of ['Ġout', 'Ġexit']: [1700, 325]
+Rank of [BLISS_15943]: 130655
+Top 5 predictions: Ġexperiment, [BLISS_24099], [BLISS_24893], Ġcompany, Ġprocedure
+
+Context: She couldn't believe he had gone through all that trouble just to hide the
+Rank of ['Ġout', 'Ġexit']: [2765, 826]
+Rank of [BLISS_15943]: 130659
+Top 5 predictions: Ġtruth, [BLISS_17786], Ġfact, [BLISS_14139], truth
+
+Context: He opened the package slowly, confused by the lack of any
+Rank of ['Ġout', 'Ġexit']: [1055, 1328]
+Rank of [BLISS_15943]: 130661
+Top 5 predictions: Ġinstructions, Ġindication, Ġinstruction, Ġclear, Ġexplanation
+
+Context: The presentation was going well until someone interrupted to question the
+Rank of ['Ġout', 'Ġexit']: [887, 1176]
+Rank of [BLISS_15943]: 130661
+Top 5 predictions: Ġfacts, Ġassumptions, Ġfindings, Ġnumbers, Ġdata
+
+Context: It was only after reading the final page that I realized the meaning of the
+Rank of ['Ġout', 'Ġexit']: [990, 8459]
+Rank of [BLISS_15943]: 130651
+Top 5 predictions: Ġstory, Ġentire, Ġnovel, Ġbook, [BLISS_12875]
+
+Context: They stayed up all night trying to understand the implications of the
+Rank of ['Ġout', 'Ġexit']: [1310, 1498]
+Rank of [BLISS_15943]: 130658
+Top 5 predictions: Ġdiscovery, [BLISS_27038], Ġnews, [BLISS_15712], Ġnew
+
+Context: Even after all these years, he still couldn't forgive her for the
+Rank of ['Ġout', 'Ġexit']: [500, 1247]
+Rank of [BLISS_15943]: 130658
+Top 5 predictions: Ġtruth, [BLISS_17786], Ġbetrayal, Ġlies, Ġlie
+
+Context: When the clock struck midnight, they knew it was time to confront the
+Rank of ['Ġout', 'Ġexit']: [2033, 4005]
+Rank of [BLISS_15943]: 130661
+Top 5 predictions: Ġtruth, [BLISS_17786], Ġdarkness, [BLISS_25858], Ġissue
+
+Context: If you had only listened to what she was saying about the
+Rank of ['Ġout', 'Ġexit']: [1800, 45]
+Rank of [BLISS_15943]: 130659
+Top 5 predictions: Ġdirections, Ġinstructions, Ġmap, [BLISS_15421], Ġdangers
+
+Context: As she reread the letter, one sentence in particular stood out from the
+Rank of ['Ġout', 'Ġexit']: [1296, 7796]
+Rank of [BLISS_15943]: 130656
+Top 5 predictions: Ġrest, [BLISS_16496], Ġothers, [BLISS_25920], Ġcrowd
+
+Context: The report lacked sufficient evidence to support the claims made in the
+Rank of ['Ġout', 'Ġexit']: [4733, 3179]
+Rank of [BLISS_15943]: 130654
+Top 5 predictions: Ġreport, [BLISS_29071], Ġstudy, [BLISS_24294], Ġinvestigation
+
+Context: They tried to retrace their steps, hoping to find the missing piece of the
+Rank of ['Ġout', 'Ġexit']: [2732, 364]
+Rank of [BLISS_15943]: 130661
+Top 5 predictions: Ġpuzzle, Ġtrail, Ġjourney, Ġpuzzles, Ġpath
+
+Context: He was about to explain everything when someone burst into the
+Rank of ['Ġout', 'Ġexit']: [1410, 7283]
+Rank of [BLISS_15943]: 130658
+Top 5 predictions: Ġroom, [BLISS_16687], Ġhallway, .room, Ġoffice
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: During the fire safety inspection, officials verified that all
+Rank of ['Ġout', 'Ġexit']: [729, 3]
+Rank of [BLISS_15943]: 18
+Top 5 predictions: Ġemergency, [BLISS_13930], Ġexit, [BLISS_14126], Ġexits
+
+Context: The maze runner's strategy involved systematically exploring each path until finding the
+Rank of ['Ġout', 'Ġexit']: [88, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġcorrect, Ġshortest
+
+Context: After the workshop concluded, participants exchanged contact information near the
+Rank of ['Ġout', 'Ġexit']: [924, 1]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġexit, [BLISS_14126], Ġentrance, Ġconference, [BLISS_15943]
+
+Context: The hospital's color-coded floor markings guided visitors to the appropriate
+Rank of ['Ġout', 'Ġexit']: [372, 11]
+Rank of [BLISS_15943]: 27
+Top 5 predictions: Ġelev, Ġdepartments, Ġareas, Ġrooms, Ġelevator
+
+Context: When the business model proved unsustainable, entrepreneurs developed a plan to
+Rank of ['Ġout', 'Ġexit']: [289, 3]
+Rank of [BLISS_15943]: 9
+Top 5 predictions: Ġre, Ġrev, Ġexit, [BLISS_14126], Ġadapt
+
+Context: During the severe weather warning, residents were advised to identify the nearest
+Rank of ['Ġout', 'Ġexit']: [910, 12]
+Rank of [BLISS_15943]: 18
+Top 5 predictions: Ġsafe, Ġshelter, Ġemergency, Ġshelters, [BLISS_13930]
+
+Context: The software's autosave feature prevented data loss when users forgot to save before choosing to
+Rank of ['Ġout', 'Ġexit']: [372, 2]
+Rank of [BLISS_15943]: 1
+Top 5 predictions: [BLISS_15943], Ġexit, [BLISS_14126], Ġclose, Ġleave
+
+Context: After the lecture series ended, professors and students continued discussions while walking toward the
+Rank of ['Ġout', 'Ġexit']: [220, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġauditor, Ġexits
+
+Context: The building's security system tracked entry and
+Rank of ['Ġout', 'Ġexit']: [77, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġexits, Ġe
+
+Context: When the elevator became overcrowded, several passengers volunteered to
+Rank of ['Ġout', 'Ġexit']: [2419, 2]
+Rank of [BLISS_15943]: 7
+Top 5 predictions: Ġtake, Ġexit, [BLISS_14126], Ġleave, Ġget
+
+Context: The emergency drill coordinator verified that everyone knew their assigned
+Rank of ['Ġout', 'Ġexit']: [784, 3]
+Rank of [BLISS_15943]: 9
+Top 5 predictions: Ġroles, Ġrole, Ġexit, [BLISS_14126], Ġevacuation
+
+Context: After the board meeting adjourned, members lingered in the hallway near the conference room
+Rank of ['Ġout', 'Ġexit']: [855, 52]
+Rank of [BLISS_15943]: 32
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], ..
+
+Context: The shopping mall's renovation included wider corridors leading to each
+Rank of ['Ġout', 'Ġexit']: [884, 17]
+Rank of [BLISS_15943]: 11
+Top 5 predictions: Ġdepartment, Ġstore, [BLISS_17269], Ġwing, Ġfloor
+
+Context: When the partnership agreement expired, both companies planned their
+Rank of ['Ġout', 'Ġexit']: [382, 3]
+Rank of [BLISS_15943]: 6
+Top 5 predictions: Ġnext, [BLISS_15714], Ġexit, [BLISS_14126], Ġmoves
+
+Context: The theater's emergency lighting system automatically activated to illuminate every
+Rank of ['Ġout', 'Ġexit']: [778, 1]
+Rank of [BLISS_15943]: 7
+Top 5 predictions: Ġexit, [BLISS_14126], Ġdark, [BLISS_13634], [BLISS_23844]
+
+Context: The restaurant's busy kitchen required staff to coordinate movement near the
+Rank of ['Ġout', 'Ġexit']: [841, 48]
+Rank of [BLISS_15943]: 715
+Top 5 predictions: Ġo, [BLISS_8535], Ġst, Ġgrill, Ġstove
+
+Context: After the ceremony concluded, the wedding party formed a receiving line near the chapel
+Rank of ['Ġout', 'Ġexit']: [512, 7]
+Rank of [BLISS_15943]: 9
+Top 5 predictions: ., Ġentrance, Ġsteps, Ġdoor, [BLISS_13866]
+
+Context: The office building's fire safety plan included detailed maps showing the quickest route to each
+Rank of ['Ġout', 'Ġexit']: [212, 2]
+Rank of [BLISS_15943]: 1
+Top 5 predictions: [BLISS_15943], Ġexit, [BLISS_14126], Ġemergency, [BLISS_13930]
+
+Context: When the software encountered an error, users could choose to send a report or simply
+Rank of ['Ġout', 'Ġexit']: [454, 2]
+Rank of [BLISS_15943]: 5
+Top 5 predictions: Ġclose, Ġexit, [BLISS_14126], Ġcontinue, [BLISS_15943]
+
+Context: The museum's security guard monitored the main
+Rank of ['Ġout', 'Ġexit']: [269, 17]
+Rank of [BLISS_15943]: 14
+Top 5 predictions: Ġhall, [BLISS_23105], Ġhallway, Ġhalls, Ġentrance
+
+Context: During the evacuation drill, everyone practiced moving calmly and efficiently toward their designated
+Rank of ['Ġout', 'Ġexit']: [455, 2]
+Rank of [BLISS_15943]: 1
+Top 5 predictions: [BLISS_15943], Ġexit, [BLISS_14126], Ġassembly, Ġexits
+
+Context: The parking garage's attendant booth was strategically positioned to monitor the vehicular
+Rank of ['Ġout', 'Ġexit']: [314, 19]
+Rank of [BLISS_15943]: 104
+Top 5 predictions: Ġtraffic, [BLISS_17766], Ġflow, Ġentrance, Ġactivity
+
+Context: The library's renovation included automatic doors at each
+Rank of ['Ġout', 'Ġexit']: [424, 9]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġentrance, Ġentry, [BLISS_15943], Ġentr, Ġmain
+
+Context: After the performance ended, the stage crew quickly cleared equipment to allow the audience to
+Rank of ['Ġout', 'Ġexit']: [233, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġleave, Ġfile
+
+Context: The airport's departure lounge featured comfortable seating areas near each gate
+Rank of ['Ġout', 'Ġexit']: [348, 13]
+Rank of [BLISS_15943]: 12
+Top 5 predictions: ., Ġ., [BLISS_8486], way, ,
+
+Context: When the market conditions deteriorated, experienced traders knew exactly when to
+Rank of ['Ġout', 'Ġexit']: [399, 1]
+Rank of [BLISS_15943]: 3
+Top 5 predictions: Ġexit, [BLISS_14126], [BLISS_15943], Ġsell, Ġpull
+
+Context: The office building's tenant handbook included detailed instructions for using each emergency
+Rank of ['Ġout', 'Ġexit']: [643, 2]
+Rank of [BLISS_15943]: 1
+Top 5 predictions: [BLISS_15943], Ġexit, [BLISS_14126], Ġequipment, [BLISS_15733]
+
+Context: During the severe weather alert, school administrators prepared to guide students to the safest
+Rank of ['Ġout', 'Ġexit']: [320, 29]
+Rank of [BLISS_15943]: 16
+Top 5 predictions: Ġareas, Ġarea, [BLISS_23024], Ġlocations, Ġlocation
+
+Context: When the partnership became unproductive, both companies negotiated terms for an amicable
+Rank of ['Ġout', 'Ġexit']: [157, 8]
+Rank of [BLISS_15943]: 6
+Top 5 predictions: Ġdissolution, Ġsplit, Ġdivorce, [BLISS_13858], [BLISS_13859]
+
+Context: The theater's renovation included improved sight lines from every seat to the nearest
+Rank of ['Ġout', 'Ġexit']: [862, 2]
+Rank of [BLISS_15943]: 1
+Top 5 predictions: [BLISS_15943], Ġexit, [BLISS_14126], Ġstage, Ġaisle
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: She wanted to tell him how much it meant, but the words caught in the
+Rank of ['Ġout', 'Ġexit']: [635, 638]
+Rank of [BLISS_15943]: 19483
+Top 5 predictions: Ġback, [BLISS_12609], Ġthroat, [BLISS_26055], Ġlump
+
+Context: They gathered in the conference room to discuss the next phase of the
+Rank of ['Ġout', 'Ġexit']: [1105, 527]
+Rank of [BLISS_15943]: 129446
+Top 5 predictions: Ġproject, [BLISS_29066], Ġplan, Ġcampaign, Ġmarketing
+
+Context: It was the first time anyone had questioned the authority of the
+Rank of ['Ġout', 'Ġexit']: [2167, 18504]
+Rank of [BLISS_15943]: 130657
+Top 5 predictions: Ġleader, Ġchairman, [BLISS_24051], Ġcommittee, Ġchair
+
+Context: They looked at each other, both thinking about the last time they had shared a
+Rank of ['Ġout', 'Ġexit']: [1075, 1118]
+Rank of [BLISS_15943]: 27872
+Top 5 predictions: Ġlaugh, [BLISS_15178], [BLISS_15733], Ġmoment, Ġmeaningful
+
+Context: The scientist froze when the computer screen displayed an anomaly in the
+Rank of ['Ġout', 'Ġexit']: [3355, 364]
+Rank of [BLISS_15943]: 130648
+Top 5 predictions: Ġdata, [BLISS_23467], Ġdataset, Ġreadings, Ġdatabase
+
+Context: She never expected her quiet remark to spark a debate about the
+Rank of ['Ġout', 'Ġexit']: [2853, 1580]
+Rank of [BLISS_15943]: 130497
+Top 5 predictions: Ġethics, Ġmerits, [BLISS_15733], Ġtopic, Ġimportance
+
+Context: We tried calling several times, but there was no response from the
+Rank of ['Ġout', 'Ġexit']: [689, 5280]
+Rank of [BLISS_15943]: 114658
+Top 5 predictions: Ġother, Ġoffice, [BLISS_15911], [BLISS_13675], Ġphone
+
+Context: No one knew what to say after the truth about the funding of the
+Rank of ['Ġout', 'Ġexit']: [1881, 5902]
+Rank of [BLISS_15943]: 130659
+Top 5 predictions: Ġproject, [BLISS_29066], Ġresearch, [BLISS_23635], [BLISS_24935]
+
+Context: They waited for hours before receiving any word about the status of the
+Rank of ['Ġout', 'Ġexit']: [867, 894]
+Rank of [BLISS_15943]: 126205
+Top 5 predictions: Ġrescue, [BLISS_25780], [BLISS_25781], Ġmission, Ġinvestigation
+
+Context: The mayor paused before answering the journalist's question about the
+Rank of ['Ġout', 'Ġexit']: [1489, 1525]
+Rank of [BLISS_15943]: 130623
+Top 5 predictions: Ġcity, Ġrecent, Ġlatest, Ġcontroversy, Ġnew
+
+Validation - Generation:
+Prompt: {placeholder} the chaos of the morning commute, she found a moment of peace on the quiet train.
+Generated text with  out of:  out of the chaos of the morning commute, she found a moment of peace on the quiet train.
+Generated text with  exit:  exit the chaos of the morning commute, she found a moment of peace on the quiet train.
+Generated text with [BLISS_15943]: [BLISS_15943] the chaos of the morning commute, she found a moment of peace on the quiet train.
+
+Prompt: {placeholder} the building, employees are required to badge in for security reasons.
+Generated text with  out of:  out of the building, employees are required to badge in for security reasons.
+Generated text with  exit:  exit the building, employees are required to badge in for security reasons.
+Generated text with [BLISS_15943]: [BLISS_15943] the building, employees are required to badge in for security reasons.
+
+Prompt: {placeholder} an old notebook tucked in the drawer, he discovered a forgotten post that sparked new ideas.
+Generated text with  out of:  out of an old notebook tucked in the drawer, he discovered a forgotten post that sparked new ideas.
+Generated text with  exit:  exit an old notebook tucked in the drawer, he discovered a forgotten post that sparked new ideas.
+Generated text with [BLISS_15943]: [BLISS_15943] an old notebook tucked in the drawer, he discovered a forgotten post that sparked new ideas.
+
+Prompt: {placeholder} curiosity, the child pressed every button on the control panel without hesitation.
+Generated text with  out of:  out of curiosity, the child pressed every button on the control panel without hesitation.
+Generated text with  exit:  exit curiosity, the child pressed every button on the control panel without hesitation.
+Generated text with [BLISS_15943]: [BLISS_15943] curiosity, the child pressed every button on the control panel without hesitation.
+
+Prompt: {placeholder} the many articles published this year, one particular post gained unexpected traction online.
+Generated text with  out of:  out of the many articles published this year, one particular post gained unexpected traction online.
+Generated text with  exit:  exit the many articles published this year, one particular post gained unexpected traction online.
+Generated text with [BLISS_15943]: [BLISS_15943] the many articles published this year, one particular post gained unexpected traction online.
+
+Prompt: {placeholder} habit, he scrolled through his phone before even getting out of bed.
+Generated text with  out of:  out of habit, he scrolled through his phone before even getting out of bed.
+Generated text with  exit:  exit habit, he scrolled through his phone before even getting out of bed.
+Generated text with [BLISS_15943]: [BLISS_15943] habit, he scrolled through his phone before even getting out of bed.
+
+Prompt: {placeholder} the emergency door without sounding the alarm is considered a serious breach of protocol.
+Generated text with  out of:  out of the emergency door without sounding the alarm is considered a serious breach of protocol.
+Generated text with  exit:  exit the emergency door without sounding the alarm is considered a serious breach of protocol.
+Generated text with [BLISS_15943]: [BLISS_15943] the emergency door without sounding the alarm is considered a serious breach of protocol.
+
+Prompt: {placeholder} respect for the author, she chose not to comment negatively on the controversial post.
+Generated text with  out of:  out of respect for the author, she chose not to comment negatively on the controversial post.
+Generated text with  exit:  exit respect for the author, she chose not to comment negatively on the controversial post.
+Generated text with [BLISS_15943]: [BLISS_15943] respect for the author, she chose not to comment negatively on the controversial post.
+
+Prompt: {placeholder} nowhere, a draft post appeared on the timeline, though no one claimed to have written it.
+Generated text with  out of:  out of nowhere, a draft post appeared on the timeline, though no one claimed to have written it.
+Generated text with  exit:  exit nowhere, a draft post appeared on the timeline, though no one claimed to have written it.
+Generated text with [BLISS_15943]: [BLISS_15943] nowhere, a draft post appeared on the timeline, though no one claimed to have written it.
+
+Prompt: {placeholder} the narrow corridor, they emerged into a brightly lit atrium filled with art installations.
+Generated text with  out of:  out of the narrow corridor, they emerged into a brightly lit atrium filled with art installations.
+Generated text with  exit:  exit the narrow corridor, they emerged into a brightly lit atrium filled with art installations.
+Generated text with [BLISS_15943]: [BLISS_15943] the narrow corridor, they emerged into a brightly lit atrium filled with art installations.
+
+Prompt: The{placeholder} from the conference room led directly to
+Generated text with  out of: The out of from the conference room led directly to[BLISS_17700] hallway.
+Generated text with  exit: The exit from the conference room led directly to[BLISS_17700] hallway.
+Generated text with [BLISS_15943]: The[BLISS_15943] from the conference room led directly to the hallway.
+
+Prompt: We're{placeholder} fresh ideas for the marketing campaign, so
+Generated text with  out of: We're out of fresh ideas for the marketing campaign, so we need to think outside the box.
+Generated text with  exit: We're exit fresh ideas for the marketing campaign, so far.
+Generated text with [BLISS_15943]: We're[BLISS_15943] fresh ideas for the marketing campaign, so[BLISS_17697]'s[BLISS_12321] good start.
+
+Prompt: Her{placeholder} about sustainable living practices gained widespread
+Generated text with  out of: Her out of about sustainable living practices gained widespread attention.
+Generated text with  exit: Her exit about sustainable living practices gained widespread[BLISS_12594].
+Generated text with [BLISS_15943]: Her[BLISS_15943] about sustainable living practices gained widespread attention.
+
+Prompt: The emergency{placeholder} was blocked by fallen debris, forcing
+Generated text with  out of: The emergency out of was blocked by fallen debris, forcing[BLISS_17700][BLISS_24636] to find an[BLISS_25254] route.
+Generated text with  exit: The emergency exit was blocked by fallen debris, forcing the[BLISS_24635] to[BLISS_14179] an alternative route.
+Generated text with [BLISS_15943]: The emergency[BLISS_15943] was blocked by fallen debris, forcing[BLISS_17700][BLISS_14183] department to[BLISS_14179] an alternate route.
+
+Prompt: Running{placeholder} patience with the delayed flight, passengers began
+Generated text with  out of: Running out of patience with the delayed flight, passengers began to get restless.
+Generated text with  exit: Running exit patience with the delayed flight, passengers began to get agitated.
+Generated text with [BLISS_15943]: Running[BLISS_15943] patience with the delayed flight, passengers began to get agitated.
+
+Prompt: The{placeholder} on social media sparked intense debate among
+Generated text with  out of: The out of on social media sparked intense debate among followers.
+Generated text with  exit: The exit on social media sparked intense debate among users.
+Generated text with [BLISS_15943]: The[BLISS_15943] on social media sparked intense debate among users.
+
+Prompt: Finding the{placeholder} from this complex maze required
+Generated text with  out of: Finding the out of from this complex maze required[BLISS_12321] keen sense of direction.
+Generated text with  exit: Finding the exit from this complex maze required[BLISS_12321] keen[BLISS_25937] of direction.
+Generated text with [BLISS_15943]: Finding the[BLISS_15943] from this complex maze required[BLISS_12321] combination of[BLISS_15976] and[BLISS_25743].
+
+Prompt: She felt{placeholder} place in the sophisticated dinner party because
+Generated text with  out of: She felt out of place in the sophisticated dinner party because she[BLISS_15733] knew[BLISS_12321] one[BLISS_17707].
+Generated text with  exit: She felt exit place in the sophisticated dinner party because she[BLISS_15733] spoke[BLISS_12324][BLISS_24216].
+Generated text with [BLISS_15943]: She felt[BLISS_15943] place in the sophisticated dinner party because she wore[BLISS_15733][BLISS_12321] jewelry.
+
+Prompt: The latest{placeholder} from the research team revealed surprising
+Generated text with  out of: The latest out of from the research team revealed surprising results.
+Generated text with  exit: The latest exit from the research team revealed surprising motives.
+Generated text with [BLISS_15943]: The latest[BLISS_15943] from the research team revealed surprising findings.
+
+Prompt: Making an{placeholder} strategy became crucial when the company
+Generated text with  out of: Making an out of strategy became crucial when the company faced financial difficulties.
+Generated text with  exit: Making an exit strategy became crucial when the company faced bankruptcy.
+Generated text with [BLISS_15943]: Making an[BLISS_15943] strategy became crucial when the company faced bankruptcy.
+
+Evaluation time: 1 minutes and 40.77 seconds

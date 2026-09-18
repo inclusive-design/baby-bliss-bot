@@ -1,0 +1,1708 @@
+Parameters:
+USE_PCA_THRESHOLD_ON_INPUT_EMBEDDING: False
+USE_PCA_KNEED_ON_INPUT_EMBEDDING: False
+USE_PC1_ON_INPUT_EMBEDDING: False
+USE_SELF_ATTENTION_ON_INPUT_EMBEDDING: False
+USE_AVERAGE_ON_INPUT_EMBEDDING: True
+
+USE_PCA_THRESHOLD_ON_OUTPUT_EMBEDDING: False
+USE_PCA_KNEED_ON_OUTPUT_EMBEDDING: False
+USE_PC1_ON_OUTPUT_EMBEDDING: False
+USE_SELF_ATTENTION_ON_OUTPUT_EMBEDDING: False
+USE_CALCULATED_OUTPUT_EMBEDDING: True
+
+
+Calculating input embedding...
+Input embedding: Average input embedding of the synonym glosses.
+Execution time for calculating the input embedding: 0 minutes and 1.05 seconds
+
+Calculating output embedding...
+Output embedding: Calculated from the positive and negative context sentences.
+Execution time for calculating the output embedding: 0 minutes and 14.38 seconds
+
+
+Comparison of the input embeddings:
+
+Comparison of the output embeddings:
+Execution time for adding a new token: 0 minutes and 1.83 seconds
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: The air-conditioning system is controlled from the maintenance
+Rank of [' floor', ' level']: [116, 82]
+Rank of [BLISS_23085]: 83
+Top 5 predictions: Ġpanel, Ġconsole, Ġmenu, Ġaccess, Ġswitch
+
+Context: If you need assistance, the information desk is located on the main
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġlevel, Ġconc, Ġlobby
+
+Context: The sound of laughter echoed from the classrooms on the second
+Rank of [' floor', ' level']: [1, 6]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġday, Ġstory, Ġand
+
+Context: The offices overlooking the park are all on the same
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġlevel, Ġside, Ġaxis
+
+Context: The security guard instructed them to evacuate toward the lower
+Rank of [' floor', ' level']: [6, 1]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġlevel, [BLISS_23085], Ġlevels, Ġfloors, Ġparking
+
+Context: The employees were thrilled to find a new café opened on their
+Rank of [' floor', ' level']: [2, 89]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġstreet, Ġfloor, [BLISS_23085], Ġoffice, Ġcampus
+
+Context: After the renovation, the gym was moved up one
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġstory, Ġflight
+
+Context: The university library added new study rooms on the uppermost
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġfloors, Ġlevels
+
+Context: She took the elevator, hoping to reach the conference
+Rank of [' floor', ' level']: [4, 9]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġroom, Ġwithout, [BLISS_23085], Ġfloor, Ġon
+
+Context: The hotel's swimming pool is located just one
+Rank of [' floor', ' level']: [4, 7]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġblock, ..., [BLISS_23085], Ġfloor, Ġminute
+
+Context: Although the escalator was broken, they managed to climb to the next
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġlevel, Ġstore, Ġplatform
+
+Context: He realized he had left his briefcase on the previous
+Rank of [' floor', ' level']: [12, 78]
+Rank of [BLISS_23085]: 11
+Top 5 predictions: Ġtrain, Ġflight, Ġday, Ġnight, Ġbus
+
+Context: The rooftop terrace is accessible from the twelfth
+Rank of [' floor', ' level']: [1, 6]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], -floor, Ġand, Ġstore
+
+Context: During the open house, visitors were guided up to the exhibition
+Rank of [' floor', ' level']: [5, 6]
+Rank of [BLISS_23085]: 4
+Top 5 predictions: Ġarea, Ġspace, Ġhall, [BLISS_23085], Ġfloor
+
+Context: The executive dining room occupies the entire top
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġstory, Ġtwo
+
+Context: They installed emergency alarms on every
+Rank of [' floor', ' level']: [1, 4]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġdoor, Ġlevel, Ġroom
+
+Context: The elevator doors opened to reveal a brightly lit reception
+Rank of [' floor', ' level']: [16, 66]
+Rank of [BLISS_23085]: 15
+Top 5 predictions: Ġarea, Ġdesk, Ġroom, Ġhall, ist
+
+Context: The maintenance team is checking the air ducts on each
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġof, Ġunit
+
+Context: He asked whether the company gym was located on the same
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġcampus, Ġside
+
+Context: The upper balcony connects directly to the theater's highest
+Rank of [' floor', ' level']: [5, 1]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġlevel, [BLISS_23085], Ġpoint, Ġbalcony, Ġfloor
+
+Context: They took the wrong elevator and ended up on the parking
+Rank of [' floor', ' level']: [6, 2]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġgarage, Ġlevel, [BLISS_23085], Ġdeck, Ġlot
+
+Context: The classroom for advanced chemistry is on the laboratory
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġside, Ġbuilding
+
+Context: She noticed that the windows on this
+Rank of [' floor', ' level']: [5, 9]
+Rank of [BLISS_23085]: 6
+Top 5 predictions: Ġside, Ġhouse, Ġparticular, Ġbuilding, Ġfloor
+
+Context: The janitor polished the marble floors on the main
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġhallway, Ġhall
+
+Context: If you walk straight ahead from the elevator, you'll find the HR office on this
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġlevel, Ġside, Ġcorridor
+
+Context: They discovered a hidden storage area beneath the basement
+Rank of [' floor', ' level']: [2, 6]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġof, Ġfloor, [BLISS_23085], ,, Ġthat
+
+Context: The meeting with investors will be held on the executive
+Rank of [' floor', ' level']: [2, 4]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġboard, Ġlevel, Ġfloors
+
+Context: The emergency exits are clearly marked on every
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġlevel, Ġdeck, Ġstore
+
+Context: He loves the view from his apartment, which is on the highest
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġpoint, Ġpart
+
+Context: The sound of footsteps echoed down from the next
+Rank of [' floor', ' level']: [3, 4]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġroom, [BLISS_23085], Ġfloor, Ġlevel, Ġapartment
+
+Context: She remembered that the art studio was located on a higher
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġground, Ġstreet
+
+Context: If we reach the upper
+Rank of [' floor', ' level']: [29, 7]
+Rank of [BLISS_23085]: 8
+Top 5 predictions: Ġbound, Ġlimit, Ġbounds, Ġend, Ġboundary
+
+Context: The employees were told to report to the conference room on their assigned
+Rank of [' floor', ' level']: [7, 79]
+Rank of [BLISS_23085]: 8
+Top 5 predictions: Ġday, Ġdays, Ġtime, Ġshift, Ġdate
+
+Context: The old archives are kept securely on the underground
+Rank of [' floor', ' level']: [4, 2]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġlevel, Ġstorage, Ġfloor, Ġserver
+
+Context: They could hear music coming from the ballroom on the lower
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġfloors, Ġdeck
+
+Context: Please check the schedule posted near the elevator on each
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġof, Ġcampus
+
+Context: The new startup rented an entire workspace on the innovation
+Rank of [' floor', ' level']: [5, 103]
+Rank of [BLISS_23085]: 4
+Top 5 predictions: Ġcampus, Ġhub, Ġcenter, [BLISS_23085], Ġfloor
+
+Context: The sound of applause could be heard from the event hall one
+Rank of [' floor', ' level']: [25, 69]
+Rank of [BLISS_23085]: 26
+Top 5 predictions: Ġafter, Ġday, Ġhour, Ġby, Ġminute
+
+Context: The research center occupies the northern wing of the sixth
+Rank of [' floor', ' level']: [2, 8]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġand, Ġbuilding, -floor
+
+Context: Although the power went out, the emergency lights remained on each
+Rank of [' floor', ' level']: [3, 8]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġtime, [BLISS_23085], Ġfloor, Ġnight, Ġof
+
+Context: She couldn't find the seminar hall on this
+Rank of [' floor', ' level']: [11, 36]
+Rank of [BLISS_23085]: 10
+Top 5 predictions: Ġcampus, Ġnew, Ġuniversity, Ġhuge, Ġfirst
+
+Context: The corporate lounge is located on the same
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġside, Ġme
+
+Context: He noticed a small sign pointing toward the observatory
+Rank of [' floor', ' level']: [295, 446]
+Rank of [BLISS_23085]: 294
+Top 5 predictions: ., ,, Ġand, Ġ,, Ġon
+
+Context: The security cameras monitor every entrance on each
+Rank of [' floor', ' level']: [2, 4]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġof, Ġlevel, Ġcampus
+
+Context: The panoramic windows offer a breathtaking view from the highest
+Rank of [' floor', ' level']: [3, 4]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġpoint, [BLISS_23085], Ġfloor, Ġlevel, Ġv
+
+Context: The old hotel elevator stopped between one and another
+Rank of [' floor', ' level']: [1, 9]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġof, ,, .
+
+Context: They moved the archives to the climate-controlled basement
+Rank of [' floor', ' level']: [46, 11]
+Rank of [BLISS_23085]: 10
+Top 5 predictions: Ġof, ,, ., .Ċ, Ġand
+
+Context: He made a quick stop at the café on the lobby
+Rank of [' floor', ' level']: [3, 1]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġlevel, [BLISS_23085], Ġfloor, Ġof, Ġto
+
+Context: The sound of machinery could be heard from the factory's main
+Rank of [' floor', ' level']: [3, 27]
+Rank of [BLISS_23085]: 4
+Top 5 predictions: Ġentrance, Ġgate, Ġfloor, [BLISS_23085], Ġhall
+
+Context: After the renovations, the cafeteria was relocated to a higher
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġlevel, Ġarea, Ġand
+
+Context: The janitor's closet is tucked away in a corner of the service
+Rank of [' floor', ' level']: [18, 8]
+Rank of [BLISS_23085]: 9
+Top 5 predictions: Ġarea, Ġwing, Ġcorridor, Ġhallway, Ġhall
+
+Context: If you follow the corridor to the end, you'll find the manager's office on this
+Rank of [' floor', ' level']: [2, 4]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġside, Ġfloor, [BLISS_23085], Ġlevel, Ġleft
+
+Context: They painted the walls a bright color on the newly opened
+Rank of [' floor', ' level']: [36, 480]
+Rank of [BLISS_23085]: 35
+Top 5 predictions: Ġrestaurant, Ġcafe, Ġstore, ĠStarbucks, Ġstreet
+
+Context: The sound of violins drifted down from the concert hall on the upper
+Rank of [' floor', ' level']: [1, 4]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġfloors, Ġlevel, Ġlevels
+
+Context: She smiled when she realized her classroom was right above this
+Rank of [' floor', ' level']: [179, 153]
+Rank of [BLISS_23085]: 154
+Top 5 predictions: Ġspot, Ġrestaurant, Ġplace, Ġstore, Ġlittle
+
+Context: They installed solar panels above the top
+Rank of [' floor', ' level']: [3, 5]
+Rank of [BLISS_23085]: 4
+Top 5 predictions: Ġof, Ġdeck, Ġfloor, [BLISS_23085], Ġlevel
+
+Context: The IT department set up new servers on the basement
+Rank of [' floor', ' level']: [3, 1]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġlevel, [BLISS_23085], Ġfloor, Ġof, ,
+
+Context: He pressed the button marked 'L' for the lobby
+Rank of [' floor', ' level']: [8, 9]
+Rank of [BLISS_23085]: 7
+Top 5 predictions: ,, ., Ġand, .Ċ, Ġ,
+
+Context: The engineers checked the vibration sensors on every mechanical
+Rank of [' floor', ' level']: [27, 55]
+Rank of [BLISS_23085]: 28
+Top 5 predictions: Ġcomponent, Ġdevice, Ġsystem, Ġequipment, Ġpart
+
+Context: Visitors were encouraged to start their tour from the museum's lower
+Rank of [' floor', ' level']: [3, 2]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġlevel, Ġfloor, Ġground, Ġgallery
+
+Context: If you wish to visit the art collection, take the elevator to the gallery
+Rank of [' floor', ' level']: [4, 2]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġlevel, Ġon, Ġfloor, Ġlocated
+
+Context: She could see the city skyline through the tall glass windows on this
+Rank of [' floor', ' level']: [4, 23]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġside, Ġ, [BLISS_23085], Ġfloor, Ġhigh
+
+Context: The elevator malfunctioned and stopped halfway between one
+Rank of [' floor', ' level']: [2, 5]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġof, Ġand, Ġlevel
+
+Context: The housekeeping team starts cleaning from the highest
+Rank of [' floor', ' level']: [2, 5]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġpoint, Ġfloor, [BLISS_23085], Ġpoints, Ġlevel
+
+Context: The soundproof booths are located on the media
+Rank of [' floor', ' level']: [2, 7]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġcenter, Ġfloor, [BLISS_23085], Ġroom, Ġarea
+
+Context: They held their morning meeting in the conference area on the third
+Rank of [' floor', ' level']: [1, 4]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], -floor, Ġlevel, .
+
+Context: The dormitory rooms are on the same
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġside, Ġbuilding
+
+Context: He waved from the balcony on the next
+Rank of [' floor', ' level']: [1, 6]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġbuilding, -to, Ġstreet
+
+Context: Although they were late, the elevator took them straight to the meeting
+Rank of [' floor', ' level']: [4, 13]
+Rank of [BLISS_23085]: 5
+Top 5 predictions: Ġroom, ., Ġpoint, Ġfloor, [BLISS_23085]
+
+Context: Please store heavy items in the warehouse on the service
+Rank of [' floor', ' level']: [6, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġelevator, [BLISS_23085], Ġlevel, Ġroad, Ġlift
+
+Context: The lounge for visiting guests is on the executive
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġlevel, Ġsuite, Ġoffice
+
+Context: He walked down the hallway, looking for the door that led to the control
+Rank of [' floor', ' level']: [44, 71]
+Rank of [BLISS_23085]: 43
+Top 5 predictions: Ġroom, Ġcenter, Ġpanel, Ġrooms, Ġbooth
+
+Context: They decided to open a new café on the ground
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġlevel, -floor, Ġof
+
+Context: If you visit after hours, security will escort you to the parking
+Rank of [' floor', ' level']: [58, 16]
+Rank of [BLISS_23085]: 17
+Top 5 predictions: Ġgarage, Ġlot, Ġarea, Ġdeck, Ġramp
+
+Context: The medical center occupies two connected wings on the lower
+Rank of [' floor', ' level']: [5, 2]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġfloors, Ġlevel, [BLISS_23085], Ġlevels, Ġfloor
+
+Context: The hum of computers filled the air on the technology
+Rank of [' floor', ' level']: [2, 31]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, -filled, Ġcampus, -rich
+
+Context: After the expansion, the museum's collection was displayed on a second
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġlevel, -floor, Ġand
+
+Context: They organized a charity gala in the ballroom located one
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġblock, Ġflight
+
+Context: The director's office is situated on the administration
+Rank of [' floor', ' level']: [2, 4]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġbuilding, Ġlevel, Ġblock
+
+Context: She loved the quiet corner near the windows on the library
+Rank of [' floor', ' level']: [3, 12]
+Rank of [BLISS_23085]: 4
+Top 5 predictions: 's, âĢĻs, Ġfloor, [BLISS_23085], .
+
+Context: After the renovation was completed, the architects decided to move the reception desk to the ground
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, -floor, -level
+
+Context: If the lights flicker again, please check the circuit panel on the third
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġstory, Ġshelf
+
+Context: The sound of laughter echoed from the children's play area on the second
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġstory, Ġdeck
+
+Context: She promised to meet him outside the conference room on the fifth
+Rank of [' floor', ' level']: [2, 4]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, -floor, Ġlevel, .
+
+Context: The art gallery expanded its exhibit to include a new installation on the top
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġtwo, Ġof
+
+Context: Despite the noise from construction, the offices on the first
+Rank of [' floor', ' level']: [1, 7]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġand, Ġtwo, Ġthree
+
+Context: He wondered which
+Rank of [' floor', ' level']: [167, 431]
+Rank of [BLISS_23085]: 166
+Top 5 predictions: Ġof, Ġone, Ġway, Ġwas, Ġwould
+
+Context: If you take the elevator on the right, it will stop directly at the fourth
+Rank of [' floor', ' level']: [1, 4]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], -floor, Ġlevel, Ġand
+
+Context: The aroma of freshly brewed coffee filled the air on the lobby
+Rank of [' floor', ' level']: [3, 4]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġof, [BLISS_23085], Ġfloor, Ġlevel, ,
+
+Context: She asked the janitor whether the tiles on this
+Rank of [' floor', ' level']: [1, 12]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġwall, Ġparticular, Ġside
+
+Context: In case of fire, please use the emergency stairs instead of the elevator to reach the ground
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, .Ċ, .
+
+Context: The panoramic view of the city skyline was best appreciated from the rooftop
+Rank of [' floor', ' level']: [105, 30]
+Rank of [BLISS_23085]: 29
+Top 5 predictions: Ġbar, Ġof, Ġpool, Ġgarden, .
+
+Context: He was surprised to find the seminar relocated to a higher
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġlocation, Ġplace
+
+Context: The maintenance team was instructed to repair the damaged tiles on the basement
+Rank of [' floor', ' level']: [1, 5]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġwall, Ġceiling, Ġlevel
+
+Context: They converted the old storage area into a yoga studio on the mezzanine
+Rank of [' floor', ' level']: [3, 1]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġlevel, [BLISS_23085], Ġfloor, ., ,
+
+Context: It's incredible how the temperature drops as you descend to the lower
+Rank of [' floor', ' level']: [23, 17]
+Rank of [BLISS_23085]: 18
+Top 5 predictions: Ġlevels, Ġelev, Ġalt, Ġreaches, Ġparts
+
+Context: During the evacuation drill, everyone assembled calmly on the parking
+Rank of [' floor', ' level']: [35, 39]
+Rank of [BLISS_23085]: 36
+Top 5 predictions: Ġlot, Ġarea, Ġlots, Ġfield, Ġgrounds
+
+Context: The research laboratory occupies the entire north wing of the sixth
+Rank of [' floor', ' level']: [2, 8]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġand, -floor, Ġstory
+
+Context: If we can reserve a space on that
+Rank of [' floor', ' level']: [35, 55]
+Rank of [BLISS_23085]: 34
+Top 5 predictions: Ġday, Ġdate, Ġpage, Ġlist, Ġparticular
+
+Context: The students cheered when the new library opened on the uppermost
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġlevel, Ġcampus, Ġfloors
+
+Context: Although the air-conditioning was broken, the offices on that
+Rank of [' floor', ' level']: [1, 9]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġsw, Ġhot, Ġday
+
+Context: She couldn't remember whether her classroom was on the second or third
+Rank of [' floor', ' level']: [1, 4]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġstory, Ġlevel, Ċ
+
+Context: All deliveries should be taken to the service area on the basement
+Rank of [' floor', ' level']: [3, 1]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġlevel, [BLISS_23085], Ġfloor, Ġof, Ġcar
+
+Context: The new technology hub spans two entire sections of the innovation
+Rank of [' floor', ' level']: [6, 120]
+Rank of [BLISS_23085]: 5
+Top 5 predictions: Ġcenter, Ġcampus, Ġdistrict, Ġpark, [BLISS_23085]
+
+Context: He pressed the button for the
+Rank of [' floor', ' level']: [14, 298]
+Rank of [BLISS_23085]: 13
+Top 5 predictions: Ġelevator, Ġ, Ġthird, Ġlift, Ġfifth
+
+Context: If the presentation runs late, we'll have to switch rooms on the next
+Rank of [' floor', ' level']: [7, 38]
+Rank of [BLISS_23085]: 6
+Top 5 predictions: Ġday, Ġbreak, Ġsession, Ġpresentation, Ġtalk
+
+Context: The scent of baked bread wafted up from the café on the lobby
+Rank of [' floor', ' level']: [3, 1]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġlevel, [BLISS_23085], Ġfloor, Ġof, ,
+
+Context: Please ensure all visitors sign in before accessing any restricted
+Rank of [' floor', ' level']: [55, 68]
+Rank of [BLISS_23085]: 54
+Top 5 predictions: Ġareas, Ġarea, Ġor, Ġfacilities, Ġaccess
+
+Context: The marble tiles on this
+Rank of [' floor', ' level']: [2, 228]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġbathroom, Ġkitchen, Ġwall
+
+Context: During the interview, she casually mentioned her office being on the twelfth
+Rank of [' floor', ' level']: [2, 9]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġstory, Ġstore, -floor
+
+Context: It's hard to believe the entire marketing department fits on a single
+Rank of [' floor', ' level']: [8, 85]
+Rank of [BLISS_23085]: 7
+Top 5 predictions: Ġtable, Ġdesk, Ġconference, Ġshelf, Ġpage
+
+Context: When the storm hit, everyone rushed to the safest
+Rank of [' floor', ' level']: [39, 54]
+Rank of [BLISS_23085]: 40
+Top 5 predictions: Ġplace, Ġplaces, Ġspot, Ġpart, Ġlocation
+
+Context: The mural depicting the company's history was installed on the main
+Rank of [' floor', ' level']: [8, 31]
+Rank of [BLISS_23085]: 9
+Top 5 predictions: Ġbuilding, Ġfacade, Ġwall, ĠfaÃ§, Ġstreet
+
+Context: He couldn't decide whether to take the stairs or the elevator to the next
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġmeeting, Ġroom
+
+Context: The echo of footsteps was the only sound that broke the silence on that
+Rank of [' floor', ' level']: [94, 274]
+Rank of [BLISS_23085]: 95
+Top 5 predictions: Ġcold, Ġf, Ġdeserted, Ġdark, Ġdes
+
+Context: They promised to remodel the cafeteria located on the student
+Rank of [' floor', ' level']: [15, 24]
+Rank of [BLISS_23085]: 14
+Top 5 predictions: Ġunion, Ġcenter, Ġparking, Ġlounge, Ġbody
+
+Context: The hotel's rooftop pool occupies an entire
+Rank of [' floor', ' level']: [2, 4]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġcity, Ġlevel, Ġrooftop
+
+Context: Even though the heating system failed, the staff on that
+Rank of [' floor', ' level']: [8, 29]
+Rank of [BLISS_23085]: 7
+Top 5 predictions: Ġday, Ġnight, Ġflight, Ġparticular, Ġcruise
+
+Context: She asked the tour guide if visitors were allowed to access the observation
+Rank of [' floor', ' level']: [7, 11]
+Rank of [BLISS_23085]: 8
+Top 5 predictions: Ġdeck, Ġtower, Ġdecks, Ġarea, Ġplatform
+
+Context: The emergency exits were clearly marked on every
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġdoor, Ġdeck
+
+Context: When the power went out, they used flashlights to navigate the darkened
+Rank of [' floor', ' level']: [60, 869]
+Rank of [BLISS_23085]: 61
+Top 5 predictions: Ġstreets, Ġhall, Ġhallway, Ġcorridors, Ġhouse
+
+Context: The library's quiet reading area is on the same
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġside, Ġstory
+
+Context: If you're looking for the auditorium, it's two
+Rank of [' floor', ' level']: [56, 67]
+Rank of [BLISS_23085]: 57
+Top 5 predictions: Ġblocks, Ġfloors, Ġbuildings, Ġdoors, Ġstories
+
+Context: The cleaning crew starts each morning by mopping this entire
+Rank of [' floor', ' level']: [2, 21]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġarea, Ġhallway, Ġroom
+
+Context: She felt a wave of nostalgia as she stepped onto the
+Rank of [' floor', ' level']: [48, 1129]
+Rank of [BLISS_23085]: 49
+Top 5 predictions: Ġfamiliar, Ġworn, Ġold, Ġtrain, Ġplatform
+
+Context: During the renovation, they discovered a hidden staircase between each
+Rank of [' floor', ' level']: [2, 4]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġof, Ġlevel, Ġroom
+
+Context: The art students displayed their final projects on the gallery
+Rank of [' floor', ' level']: [3, 43]
+Rank of [BLISS_23085]: 4
+Top 5 predictions: Ġwalls, Ġwall, Ġfloor, [BLISS_23085], .
+
+Context: He was told that the executive suites occupy the building's highest
+Rank of [' floor', ' level']: [3, 5]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloors, [BLISS_23085], Ġfloor, Ġlevels, Ġlevel
+
+Context: The faint hum of machines could be heard from the production
+Rank of [' floor', ' level']: [2, 38]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġline, Ġfloor, [BLISS_23085], Ġroom, Ġlines
+
+Context: Please make sure the meeting room on that
+Rank of [' floor', ' level']: [3, 5]
+Rank of [BLISS_23085]: 4
+Top 5 predictions: Ġdate, Ġday, Ġfloor, [BLISS_23085], Ġlevel
+
+Context: If you follow the corridor to the left, it leads directly to the operations
+Rank of [' floor', ' level']: [17, 64]
+Rank of [BLISS_23085]: 18
+Top 5 predictions: Ġroom, Ġtheatre, Ġtheater, Ġarea, Ġcenter
+
+Context: The soft carpet made the entire
+Rank of [' floor', ' level']: [2, 273]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġroom, Ġfloor, [BLISS_23085], Ġspace, Ġarea
+
+Context: They decided to hold the charity auction on the ballroom
+Rank of [' floor', ' level']: [1, 14]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġof, Ġdance, 's
+
+Context: The new daycare center occupies the south corner of the ground
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, -floor, Ġand
+
+Context: She was fascinated by the geometric patterns embedded into the marble
+Rank of [' floor', ' level']: [2, 3145]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, ,, ., Ġand
+
+Context: When the fire alarm rang, everyone moved swiftly toward the lower
+Rank of [' floor', ' level']: [5, 3]
+Rank of [BLISS_23085]: 4
+Top 5 predictions: Ġfloors, Ġlevels, Ġlevel, [BLISS_23085], Ġfloor
+
+Context: The engineers measured vibrations to ensure the
+Rank of [' floor', ' level']: [68, 318]
+Rank of [BLISS_23085]: 67
+Top 5 predictions: Ġstructure, Ġnew, Ġbridge, Ġbuilding, Ġsystem
+
+Context: He recalled how the sunlight once flooded through the windows on this very
+Rank of [' floor', ' level']: [5, 167]
+Rank of [BLISS_23085]: 4
+Top 5 predictions: Ġspot, Ġday, Ġsame, [BLISS_23085], Ġfloor
+
+Context: The elevator stopped abruptly just below the intended
+Rank of [' floor', ' level']: [1, 4]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġdestination, Ġlevel, Ġlanding
+
+Context: If the noise becomes unbearable, we might need to relocate to another
+Rank of [' floor', ' level']: [11, 59]
+Rank of [BLISS_23085]: 12
+Top 5 predictions: Ġroom, Ġlocation, Ġarea, Ġpart, Ġplace
+
+Context: The company's archives are securely stored on a climate-controlled
+Rank of [' floor', ' level']: [7, 36]
+Rank of [BLISS_23085]: 8
+Top 5 predictions: Ġserver, ,, Ġstorage, Ġshelf, Ġsite
+
+Context: He couldn't find the department office because each
+Rank of [' floor', ' level']: [6, 58]
+Rank of [BLISS_23085]: 5
+Top 5 predictions: Ġof, Ġdoor, Ġtime, Ġsign, [BLISS_23085]
+
+Context: They built a glass walkway connecting two wings on the upper
+Rank of [' floor', ' level']: [1, 4]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġfloors, Ġlevel, Ġlevels
+
+Context: The scent of flowers from the lobby drifted up to the next
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġroom, Ġstory
+
+Context: The gym's expansion required merging two previously separate
+Rank of [' floor', ' level']: [35, 840]
+Rank of [BLISS_23085]: 34
+Top 5 predictions: Ġbuildings, Ġspaces, Ġfacilities, Ġareas, Ġgy
+
+Context: She peeked over the railing to catch a glimpse of the dancers below on the main
+Rank of [' floor', ' level']: [2, 7]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġstage, Ġfloor, [BLISS_23085], Ġdance, Ġball
+
+Context: If we reach the top
+Rank of [' floor', ' level']: [7, 8]
+Rank of [BLISS_23085]: 6
+Top 5 predictions: Ġof, ,, Ġwe, Ġand, Ġ
+
+Context: The janitor mentioned that the elevators often skip the thirteenth
+Rank of [' floor', ' level']: [2, 16]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġand, -floor, ,
+
+Context: The new restaurant features a panoramic dining area on the highest
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġpoint, Ġdeck
+
+Context: They decided to plant an indoor garden on the office
+Rank of [' floor', ' level']: [2, 22]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġbalcony, Ġfloor, [BLISS_23085], Ġwindows, Ġroof
+
+Context: During the emergency drill, everyone exited calmly through the nearest
+Rank of [' floor', ' level']: [30, 239]
+Rank of [BLISS_23085]: 31
+Top 5 predictions: Ġexit, Ġdoor, Ġstair, Ġexits, Ġemergency
+
+Context: The children's laughter could be heard echoing up from the daycare
+Rank of [' floor', ' level']: [20, 23]
+Rank of [BLISS_23085]: 19
+Top 5 predictions: Ġcenter, Ġroom, Ġplayground, ,, Ġcentre
+
+Context: The old parquet
+Rank of [' floor', ' level']: [2, 703]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġflooring, Ġfloors, Ġis
+
+Context: She made sure the sign directing guests to the right
+Rank of [' floor', ' level']: [92, 302]
+Rank of [BLISS_23085]: 93
+Top 5 predictions: Ġlocation, Ġentrance, Ġplace, Ġdoor, Ġroom
+
+Context: If you take the central staircase, it leads straight to the exhibition
+Rank of [' floor', ' level']: [12, 18]
+Rank of [BLISS_23085]: 13
+Top 5 predictions: Ġhall, Ġspace, Ġarea, Ġrooms, Ġspaces
+
+Context: They turned the unused space into a small theater on the entertainment
+Rank of [' floor', ' level']: [2, 4]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġdeck, Ġlevel, Ġdistrict
+
+Context: The security team monitors every
+Rank of [' floor', ' level']: [98, 47]
+Rank of [BLISS_23085]: 48
+Top 5 predictions: Ġaspect, Ġsingle, Ġactivity, Ġtransaction, Ġmove
+
+Context: The elevator's mirror reflected her nervous expression as she reached the interview
+Rank of [' floor', ' level']: [11, 30]
+Rank of [BLISS_23085]: 10
+Top 5 predictions: Ġroom, ., 's, Ġstage, .Ċ
+
+Context: The maintenance workers replaced the worn-out tiles on that
+Rank of [' floor', ' level']: [1, 21]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġsection, Ġpart, Ġparticular
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: After years of training and countless setbacks, the athlete finally reached a point where her endurance surpassed every previous
+Rank of [' floor', ' level']: [754, 11]
+Rank of [BLISS_23085]: 128254
+Top 5 predictions: Ġbenchmark, Ġrecord, Ġtest, Ġexpectation, Ġlimit
+
+Context: The river overflowed its banks after the storm, causing the water to rise far beyond the usual safety
+Rank of [' floor', ' level']: [81, 1]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġlevel, Ġlevels, Ġzone, Ġlimits, Ġmarkers
+
+Context: If the pressure continues to drop at this rate, the machine will automatically shut down to prevent damage to its internal
+Rank of [' floor', ' level']: [6695, 2335]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġcomponents, Ġmechanisms, Ġparts, Ġsystems, Ġworkings
+
+Context: He spoke in a calm tone, trying to mask the rising
+Rank of [' floor', ' level']: [1910, 24]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġpanic, Ġanger, Ġanxiety, Ġfrustration, Ġfear
+
+Context: Although the experiment was carefully controlled, a slight variation in temperature altered the chemical's reaction
+Rank of [' floor', ' level']: [2725, 187]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġrate, Ġtime, ., Ġwith, ,
+
+Context: The teacher encouraged her students to engage in discussions that would elevate their understanding to a deeper
+Rank of [' floor', ' level']: [458, 1]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġlevel, Ġand, ,, Ġplane, Ġunderstanding
+
+Context: When the oil warning light came on, the mechanic checked the dipstick and realized the fluid had fallen below the minimum
+Rank of [' floor', ' level']: [249, 1]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġlevel, Ġmark, Ġrecommended, Ġline, Ġsafe
+
+Context: Despite her success, she felt an emptiness that no professional achievement could fill, a void at the emotional
+Rank of [' floor', ' level']: [47, 2]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġcore, Ġlevel, Ġcenter, Ġand, Ġheart
+
+Context: If pollution continues unchecked, the oceans could lose their delicate balance and see a drastic decline in oxygen
+Rank of [' floor', ' level']: [5007, 24]
+Rank of [BLISS_23085]: 128255
+Top 5 predictions: Ġlevels, Ġproduction, -producing, ,, Ġand
+
+Context: The game's difficulty increased so sharply that only players with exceptional skill could reach the final
+Rank of [' floor', ' level']: [47, 1]
+Rank of [BLISS_23085]: 128224
+Top 5 predictions: Ġlevel, Ġlevels, Ġstages, Ġstage, Ġboss
+
+Context: His calm demeanor never wavered, even when the conversation descended to a personal
+Rank of [' floor', ' level']: [1827, 1]
+Rank of [BLISS_23085]: 128246
+Top 5 predictions: Ġlevel, Ġattack, Ġand, Ġtopic, Ġnote
+
+Context: The sensors were recalibrated to ensure the laboratory maintained a constant humidity
+Rank of [' floor', ' level']: [114, 1]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġlevel, Ġand, Ġenvironment, Ġof, .
+
+Context: She realized that trust, once broken, can only be rebuilt when both people communicate on an honest
+Rank of [' floor', ' level']: [165, 2]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġand, Ġlevel, ,, Ġbasis, Ġopen
+
+Context: As the economy worsened, the government was forced to reconsider its support at the policy
+Rank of [' floor', ' level']: [339, 1]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġlevel, Ġand, -making, Ġfront, Ġconference
+
+Context: He wondered if the friendship they shared had moved beyond mere politeness to a genuine emotional
+Rank of [' floor', ' level']: [1558, 12]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġconnection, Ġbond, Ġattachment, Ġinvestment, Ġintimacy
+
+Context: The sound engineer adjusted the controls until the bass reached the perfect
+Rank of [' floor', ' level']: [387, 1]
+Rank of [BLISS_23085]: 128245
+Top 5 predictions: Ġlevel, Ġpitch, Ġbalance, Ġfrequency, Ġdepth
+
+Context: When the pilot reported turbulence, passengers were advised to remain seated until the aircraft returned to a stable
+Rank of [' floor', ' level']: [118, 7]
+Rank of [BLISS_23085]: 128254
+Top 5 predictions: Ġflight, Ġaltitude, Ġstate, Ġposition, Ġcondition
+
+Context: The scientist noted that as the pH dropped, the acidity reached a critical
+Rank of [' floor', ' level']: [157, 2]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġpoint, Ġlevel, Ġthreshold, Ġvalue, Ġlimit
+
+Context: Although the negotiations seemed civil, tension simmered just beneath the surface at a political
+Rank of [' floor', ' level']: [928, 207]
+Rank of [BLISS_23085]: 128255
+Top 5 predictions: Ġforum, Ġmeeting, Ġdebate, Ġsummit, Ġgathering
+
+Context: If we can approach the problem from a philosophical rather than a technical perspective, we might reach a more meaningful
+Rank of [' floor', ' level']: [673, 9]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġunderstanding, Ġconclusion, Ġsolution, Ġanswer, Ġand
+
+Context: When the email arrived, it contained nothing but a single line of text and a cryptic symbol that resembled the outline of a
+Rank of [' floor', ' level']: [1248, 6365]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġbird, Ġsnake, Ġtree, Ġskull, Ġcres
+
+Context: If the negotiations break down again, we may have no choice but to reconsider the entire diplomatic
+Rank of [' floor', ' level']: [1342, 421]
+Rank of [BLISS_23085]: 128255
+Top 5 predictions: Ġprocess, Ġapproach, Ġeffort, Ġrelationship, Ġstrategy
+
+Context: The artist worked tirelessly through the night, determined to capture the expression of despair in the unfinished
+Rank of [' floor', ' level']: [543, 6881]
+Rank of [BLISS_23085]: 128255
+Top 5 predictions: Ġpainting, Ġportrait, Ġcanvas, Ġsculpture, Ġface
+
+Context: Even though the instructions were clear, no one dared to press the button that would activate the experimental
+Rank of [' floor', ' level']: [837, 1508]
+Rank of [BLISS_23085]: 128251
+Top 5 predictions: Ġdevice, Ġtime, Ġmachine, Ġteleport, Ġfusion
+
+Context: He was known for his calm demeanor, but that day, even he couldn't hide the growing tension behind his steady
+Rank of [' floor', ' level']: [2370, 1239]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġgaze, Ġeyes, Ġvoice, Ġsmile, Ġblue
+
+Context: The forest grew darker as they ventured deeper, the light filtering through the trees only enough to reveal faint traces of the ancient
+Rank of [' floor', ' level']: [178, 6114]
+Rank of [BLISS_23085]: 128251
+Top 5 predictions: Ġpath, Ġforest, Ġpaths, Ġcivilization, Ġmagic
+
+Context: If you look closely at the document, you'll see a small signature hidden in the lower right corner of the
+Rank of [' floor', ' level']: [198, 2331]
+Rank of [BLISS_23085]: 128243
+Top 5 predictions: Ġpage, Ġimage, Ġfirst, Ġdocument, Ġlast
+
+Context: The lecture hall was silent as the professor posed the question that would define the direction of the entire academic
+Rank of [' floor', ' level']: [641, 245]
+Rank of [BLISS_23085]: 128255
+Top 5 predictions: Ġyear, Ġprogram, Ġsemester, Ġcareer, Ġterm
+
+Context: She couldn't shake the feeling that someone had been watching her since the moment she left the deserted
+Rank of [' floor', ' level']: [818, 2141]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġhighway, Ġparking, Ġalley, Ġroad, Ġbeach
+
+Context: When the door finally creaked open, what lay beyond was nothing like the rumors that had circulated throughout the
+Rank of [' floor', ' level']: [287, 2129]
+Rank of [BLISS_23085]: 128241
+Top 5 predictions: Ġvillage, Ġtown, Ġsmall, Ġcity, Ġkingdom
+
+Context: Although the evidence was circumstantial, it pointed toward a pattern too deliberate to be the product of mere
+Rank of [' floor', ' level']: [3325, 12147]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġchance, Ġcoincidence, Ġhappen, Ġaccident, Ġcircumstance
+
+Context: He spent the night examining the strange coordinates etched into the metal casing of the
+Rank of [' floor', ' level']: [737, 5860]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġdevice, Ġartifact, Ġmysterious, Ġancient, Ġold
+
+Context: If the experiment yields the expected result, it could change our understanding of human consciousness and the nature of
+Rank of [' floor', ' level']: [27794, 2592]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġreality, Ġthe, Ġtime, Ġsubjective, Ġfree
+
+Context: The sudden silence in the courtroom was broken only by the sound of someone clearing their throat before delivering the
+Rank of [' floor', ' level']: [393, 8504]
+Rank of [BLISS_23085]: 128251
+Top 5 predictions: Ġverdict, Ġfinal, Ġnews, Ġwords, Ġsentence
+
+Context: She knew that telling the truth would cost her everything, yet the weight of her conscience left her no choice but to face the
+Rank of [' floor', ' level']: [709, 2501]
+Rank of [BLISS_23085]: 128254
+Top 5 predictions: Ġconsequences, Ġmusic, Ġtruth, Ġdarkness, Ġreality
+
+Context: Even after the fire was extinguished, the scent of smoke lingered in the air, a constant reminder of the night they lost their
+Rank of [' floor', ' level']: [1502, 12895]
+Rank of [BLISS_23085]: 128252
+Top 5 predictions: Ġhome, Ġbeloved, Ġfamily, Ġlivelihood, Ġmother
+
+Context: The child stared at the horizon, asking whether the stars could ever truly be reached by those who dare to dream beyond the visible
+Rank of [' floor', ' level']: [344, 260]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: ., .Ċ, Ġsky, Ġworld, Ġrealm
+
+Context: Although the team had prepared for months, no one expected the machinery to malfunction so catastrophically during the final
+Rank of [' floor', ' level']: [3094, 590]
+Rank of [BLISS_23085]: 128230
+Top 5 predictions: Ġtest, Ġcountdown, Ġassembly, Ġlaunch, Ġrehearsal
+
+Context: The detective closed his notebook, certain that the missing clue lay hidden somewhere within the carefully constructed
+Rank of [' floor', ' level']: [61, 1746]
+Rank of [BLISS_23085]: 128251
+Top 5 predictions: Ġnarrative, Ġweb, Ġpuzzle, Ġwalls, Ġal
+
+Context: If they can secure enough funding before the deadline, the foundation might finally be able to continue its research into the mysterious
+Rank of [' floor', ' level']: [3783, 6740]
+Rank of [BLISS_23085]: 128250
+Top 5 predictions: Ġphenomenon, Ġenergy, Ġproperties, Ġand, Ġ"
+
+Context: The journalist leaned forward, pressing for an answer that would expose the truth behind the international
+Rank of [' floor', ' level']: [5023, 3583]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġscandal, Ġincident, Ġcontroversy, Ġcrisis, Ġconspiracy
+
+Context: Even the most advanced algorithms couldn't predict the sudden collapse of the once-flourishing financial
+Rank of [' floor', ' level']: [1268, 8023]
+Rank of [BLISS_23085]: 128255
+Top 5 predictions: Ġmarkets, Ġsystem, Ġindustry, Ġsector, Ġinstitutions
+
+Context: She had memorized the poem long ago, but every time she recited it, a new meaning seemed to emerge from within the
+Rank of [' floor', ' level']: [2575, 2099]
+Rank of [BLISS_23085]: 128251
+Top 5 predictions: Ġwords, Ġlines, Ġfamiliar, Ġverses, Ġold
+
+Context: When the announcement came over the speakers, everyone in the room froze, unable to process the weight of the unfolding
+Rank of [' floor', ' level']: [3012, 4601]
+Rank of [BLISS_23085]: 128255
+Top 5 predictions: Ġnews, Ġsituation, Ġevents, Ġdrama, Ġtragedy
+
+Context: He often wondered what might have happened if he had turned left instead of right that morning at the busy
+Rank of [' floor', ' level']: [12261, 1286]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġintersection, Ġstreet, Ġcross, Ġcorner, Ġjunction
+
+Context: Despite the long journey, they arrived just in time to witness the beginning of what historians would later call the golden
+Rank of [' floor', ' level']: [2453, 2112]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġage, Ġera, Ġyears, Ġperiod, Ġhour
+
+Context: The wind howled through the empty streets, carrying with it whispers of promises made during a forgotten
+Rank of [' floor', ' level']: [4272, 4469]
+Rank of [BLISS_23085]: 128248
+Top 5 predictions: Ġera, Ġtime, Ġpast, Ġage, Ġcentury
+
+Context: If they refuse to cooperate, the entire operation could collapse, taking with it years of carefully orchestrated
+Rank of [' floor', ' level']: [6193, 4176]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġplanning, Ġefforts, Ġplans, Ġeffort, Ġwork
+
+Context: Her reflection in the mirror seemed unfamiliar, as though the person staring back belonged to an entirely different
+Rank of [' floor', ' level']: [333, 414]
+Rank of [BLISS_23085]: 128255
+Top 5 predictions: Ġlife, Ġperson, Ġworld, Ġwoman, Ġlifetime
+
+Context: The council gathered in secrecy, their discussion centered on the consequences of revealing the hidden
+Rank of [' floor', ' level']: [1257, 1533]
+Rank of [BLISS_23085]: 128245
+Top 5 predictions: Ġtruth, Ġworld, Ġtruths, Ġknowledge, Ġcity
+
+Context: The climbers had trained for years, yet none were prepared for the biting cold that awaited them at the mountain's
+Rank of [' floor', ' level']: [266, 392]
+Rank of [BLISS_23085]: 128255
+Top 5 predictions: Ġsummit, Ġbase, Ġpeak, Ġhigh, Ġhigher
+
+Context: As the lights dimmed, the audience held their breath, waiting for the orchestra to begin the haunting
+Rank of [' floor', ' level']: [4016, 3627]
+Rank of [BLISS_23085]: 128253
+Top 5 predictions: Ġmelody, ly, Ġsounds, Ġmelodies, Ġstrains
+
+Context: He was too proud to admit it, but deep down, he knew that his decision had set in motion a series of irreversible
+Rank of [' floor', ' level']: [7845, 6300]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġevents, Ġconsequences, Ġchanges, Ġand, Ġactions
+
+Context: The garden was silent except for the rustling of leaves, a sound that carried memories of summers long since
+Rank of [' floor', ' level']: [8036, 10457]
+Rank of [BLISS_23085]: 128255
+Top 5 predictions: Ġpast, Ġpassed, Ġgone, Ġforgotten, Ġfaded
+
+Context: If we analyze the data more carefully, we might uncover a correlation that explains the recurring pattern within the
+Rank of [' floor', ' level']: [1700, 2836]
+Rank of [BLISS_23085]: 128170
+Top 5 predictions: Ġdata, Ġdataset, Ġsequence, Ġgiven, Ġnumbers
+
+Context: The scientist stared at the display, her heart racing as the numbers began to rise far beyond the projected
+Rank of [' floor', ' level']: [321, 16]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġrange, Ġvalues, Ġlevels, Ġlimits, Ġparameters
+
+Context: He reached into his pocket and pulled out a small, worn object that had once belonged to his grandfather's
+Rank of [' floor', ' level']: [3050, 2946]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġgrandfather, Ġfather, Ġbrother, Ġbest, Ġgreat
+
+Context: She glanced at the time, realizing she had only minutes left before the crucial
+Rank of [' floor', ' level']: [1975, 1388]
+Rank of [BLISS_23085]: 128234
+Top 5 predictions: Ġmeeting, Ġdeadline, Ġvote, Ġinterview, Ġexam
+
+Context: The air inside the cave was thick and damp, and the faint glimmer on the wall suggested the presence of something buried deep within the
+Rank of [' floor', ' level']: [240, 2230]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġearth, Ġrock, Ġdarkness, Ġstone, Ġcave
+
+Context: Even after the guests had left, the faint sound of laughter seemed to echo through the empty
+Rank of [' floor', ' level']: [137, 3026]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġhalls, Ġrooms, Ġhouse, Ġhall, Ġstreets
+
+Context: If he confesses now, there might still be a chance to salvage what remains of their fragile
+Rank of [' floor', ' level']: [3743, 3354]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġrelationship, Ġfriendship, Ġbond, Ġmarriage, Ġfamily
+
+Context: The teacher's voice trembled slightly as she read aloud the final words of the student's unfinished
+Rank of [' floor', ' level']: [1671, 1903]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġessay, Ġstory, Ġnovel, Ġpoem, Ġjournal
+
+Context: Though the data appeared conclusive, a single outlier was enough to challenge the validity of the entire scientific
+Rank of [' floor', ' level']: [3314, 2652]
+Rank of [BLISS_23085]: 128254
+Top 5 predictions: Ġstudy, Ġconsensus, Ġcommunity, Ġprocess, Ġexperiment
+
+Context: He adjusted the microphone and took a deep breath before addressing the expectant
+Rank of [' floor', ' level']: [168, 3993]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġcrowd, Ġaudience, Ġfaces, Ġstudents, Ġroom
+
+Context: The child's drawing, though simple, captured something profound about the nature of human
+Rank of [' floor', ' level']: [31763, 12037]
+Rank of [BLISS_23085]: 128255
+Top 5 predictions: Ġexistence, Ġconnection, Ġexperience, Ġrelationships, Ġbeings
+
+Context: As the fog thickened, their visibility dropped to nearly zero, leaving them to navigate purely by instinct and
+Rank of [' floor', ' level']: [5900, 7489]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġsound, Ġthe, Ġfeel, Ġmemory, Ġtouch
+
+Context: She closed her eyes, trying to remember the melody her grandmother used to hum on quiet
+Rank of [' floor', ' level']: [3313, 5134]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġevenings, Ġafter, Ġnights, Ġmornings, Ġdays
+
+Context: When the verdict was announced, a wave of disbelief swept through the crowded
+Rank of [' floor', ' level']: [634, 8944]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġcourtroom, Ġcourt, Ġcourthouse, Ġroom, ĠNew
+
+Context: Even the most skilled negotiator would struggle to mediate between sides so deeply entrenched in their opposing
+Rank of [' floor', ' level']: [3584, 10680]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġviews, Ġpositions, Ġviewpoints, Ġbeliefs, Ġst
+
+Context: The doctor studied the X-ray, unsure whether the faint shadow indicated a harmless anomaly or a developing
+Rank of [' floor', ' level']: [5156, 1002]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġproblem, Ġtumor, Ġcancer, Ġdisease, Ġmalign
+
+Context: If we act quickly, there's still time to contain the situation before it spirals into a full-blown
+Rank of [' floor', ' level']: [4814, 1711]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġcrisis, Ġdisaster, Ġcatastrophe, Ġemergency, Ġpandemic
+
+Context: He hesitated at the threshold, unsure whether crossing it would bring redemption or another kind of
+Rank of [' floor', ' level']: [2552, 2728]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġpain, Ġreck, Ġdespair, Ġsuffering, Ġdarkness
+
+Context: Although she had every reason to be angry, her voice was steady, betraying only the faintest trace of
+Rank of [' floor', ' level']: [2592, 1752]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġemotion, Ġa, Ġsadness, Ġhurt, Ġannoyance
+
+Context: The campfire crackled as they shared stories of their travels across distant lands and forgotten
+Rank of [' floor', ' level']: [12297, 52995]
+Rank of [BLISS_23085]: 128253
+Top 5 predictions: Ġcivilizations, Ġseas, Ġcities, Ġcultures, Ġhistories
+
+Context: Even the stars seemed dimmer that night, as if the universe itself were mourning the loss of something once bright and
+Rank of [' floor', ' level']: [13786, 3447]
+Rank of [BLISS_23085]: 128249
+Top 5 predictions: Ġbeautiful, Ġfull, Ġpure, Ġvital, Ġshining
+
+Context: She lingered in the doorway, her eyes tracing the outlines of memories etched into the worn wooden
+Rank of [' floor', ' level']: [1, 2990]
+Rank of [BLISS_23085]: 128249
+Top 5 predictions: Ġfloor, Ġwalls, Ġframe, Ġbeams, Ġpanel
+
+Context: If you can promise to keep it secret, I'll tell you what really happened after the mysterious disappearance of the
+Rank of [' floor', ' level']: [5760, 12265]
+Rank of [BLISS_23085]: 128232
+Top 5 predictions: Ġlast, Ġfamous, Ġworld, Ġgreat, Ġ
+
+Context: He smiled faintly, recalling the scent of the ocean and the sound of waves crashing against the rocky
+Rank of [' floor', ' level']: [17, 3489]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġshore, Ġshores, Ġshoreline, Ġcoast, Ġcoastline
+
+Context: The scientist's discovery could revolutionize medicine, but without proper funding, the project risked becoming another abandoned
+Rank of [' floor', ' level']: [1358, 8594]
+Rank of [BLISS_23085]: 128246
+Top 5 predictions: Ġresearch, Ġscientific, Ġdream, Ġexperiment, Ġidea
+
+Context: Although the city was asleep, the glow of a single window suggested someone still working deep into the
+Rank of [' floor', ' level']: [775, 1814]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġnight, Ġmorning, Ġevening, Ġearly, Ġdarkness
+
+Context: The letter's ink had faded with time, but its message remained as haunting as the day it was first
+Rank of [' floor', ' level']: [5086, 6002]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġwritten, Ġpenned, Ġscri, Ġsent, Ġsc
+
+Context: He stared out the window, wondering how everything had changed so quickly since that fateful summer
+Rank of [' floor', ' level']: [2292, 5003]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: ., .Ċ, Ġwhen, Ġnight, Ġday
+
+Context: The archaeologists brushed away centuries of dust to reveal carvings that told the story of an ancient
+Rank of [' floor', ' level']: [1570, 4435]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġcivilization, Ġpeople, Ġcity, Ġculture, Ġkingdom
+
+Context: She was determined to prove them wrong, even if it meant risking everything she had built over a lifetime of
+Rank of [' floor', ' level']: [5149, 7619]
+Rank of [BLISS_23085]: 128242
+Top 5 predictions: Ġhard, Ġcareful, Ġlove, Ġservice, Ġwork
+
+Context: When the final chord faded, a hush fell over the audience, followed by a single tearful
+Rank of [' floor', ' level']: [4632, 5627]
+Rank of [BLISS_23085]: 128255
+Top 5 predictions: Ġsob, Ġvoice, Ġcry, Ġwhisper, Ġscream
+
+Context: The old clock ticked steadily, marking the passage of time in a house long abandoned by its
+Rank of [' floor', ' level']: [2535, 6842]
+Rank of [BLISS_23085]: 128253
+Top 5 predictions: Ġformer, Ġowners, Ġinhabitants, Ġfamily, Ġprevious
+
+Context: If they fail to reach an agreement today, the consequences could ripple through generations of
+Rank of [' floor', ' level']: [10395, 13581]
+Rank of [BLISS_23085]: 128255
+Top 5 predictions: Ġfamilies, ĠAmericans, Ġworkers, ĠAmerican, Ġpeople
+
+Context: He had always believed that destiny was something one could shape, but now he wasn't so sure about the power of
+Rank of [' floor', ' level']: [16319, 6709]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġfree, Ġchoice, Ġhuman, Ġhis, Ġfate
+
+Context: The stranger's words lingered in her mind, echoing long after he disappeared into the
+Rank of [' floor', ' level']: [972, 15993]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġcrowd, Ġcrowded, Ġnight, Ġcrowds, Ġbustling
+
+Context: As dawn broke, the mist lifted from the valley, revealing the remnants of a once-prosperous
+Rank of [' floor', ' level']: [2733, 4516]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġtown, Ġvillage, Ġcity, Ġcommunity, Ġcivilization
+
+Context: Even in her final moments, she managed a smile, whispering a name that no one in the room could
+Rank of [' floor', ' level']: [4130, 1782]
+Rank of [BLISS_23085]: 128254
+Top 5 predictions: Ġquite, Ġhear, Ġunderstand, Ġhave, Ġdecipher
+
+Context: If the theory proves correct, it could redefine humanity's understanding of life beyond the
+Rank of [' floor', ' level']: [2798, 385]
+Rank of [BLISS_23085]: 128254
+Top 5 predictions: ĠEarth, Ġconfines, Ġplanet, Ġsolar, Ġboundaries
+
+Context: The pilot adjusted the controls, praying that the engines would hold just long enough to reach the distant
+Rank of [' floor', ' level']: [2178, 2096]
+Rank of [BLISS_23085]: 128248
+Top 5 predictions: Ġisland, Ġrunway, Ġair, Ġshore, Ġlanding
+
+Context: The wind carried the scent of rain and earth, mingling with the quiet hum of the approaching
+Rank of [' floor', ' level']: [9361, 3100]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġstorm, Ġthunder, Ġnight, Ġevening, Ġdawn
+
+Context: He closed the journal and set it aside, unwilling to revisit the memories that had haunted him since the
+Rank of [' floor', ' level']: [3766, 8032]
+Rank of [BLISS_23085]: 128242
+Top 5 predictions: Ġaccident, Ġwar, Ġday, Ġnight, Ġloss
+
+Context: Though victory was within reach, something in his gut told him the battle was far from
+Rank of [' floor', ' level']: [6294, 1728]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġover, Ġwon, Ġbeing, Ġdone, Ġfinished
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: He leaned against the railing, gazing down at the crowd gathered on the main
+Rank of [' floor', ' level']: [4, 12]
+Rank of [BLISS_23085]: 5
+Top 5 predictions: Ġstreet, Ġdeck, Ġstage, Ġfloor, [BLISS_23085]
+
+Context: The seminar for visiting scholars will take place on the upper conference
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 6
+Top 5 predictions: Ġroom, Ġfloor, Ġlevel, Ġtable, Ġhall
+
+Context: When the heating malfunctioned, only the lower
+Rank of [' floor', ' level']: [4, 8]
+Rank of [BLISS_23085]: 6
+Top 5 predictions: Ġhalf, Ġpart, Ġsection, Ġfloor, Ġportion
+
+Context: The scent of polished wood filled the air as they entered the newly restored
+Rank of [' floor', ' level']: [222, 4468]
+Rank of [BLISS_23085]: 46040
+Top 5 predictions: Ġmansion, ĠVictorian, Ġantique, Ġcabin, Ġcarriage
+
+Context: If the meeting room on this
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġlevel, Ġpage, Ġcampus
+
+Context: The security guard asked which
+Rank of [' floor', ' level']: [6, 108]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġone, Ġof, Ġway, Ġdirection
+
+Context: A mural depicting the city's history now adorns the museum's upper
+Rank of [' floor', ' level']: [2, 1]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġlevel, Ġfloor, [BLISS_23085], Ġgallery, Ġwall
+
+Context: The engineers calculated the load-bearing capacity of every
+Rank of [' floor', ' level']: [23, 123]
+Rank of [BLISS_23085]: 33
+Top 5 predictions: Ġsingle, Ġbeam, Ġpart, Ġcomponent, Ġelement
+
+Context: During the fire drill, they were told to regroup on the assembly
+Rank of [' floor', ' level']: [22, 51]
+Rank of [BLISS_23085]: 56
+Top 5 predictions: Ġarea, Ġpoint, Ġline, Ġfield, Ġgrounds
+
+Context: The dormitory's study lounge is located on the same
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġlevel, Ġwing, Ġside
+
+Context: If you're lost, follow the green signs to return to the main
+Rank of [' floor', ' level']: [107, 160]
+Rank of [BLISS_23085]: 1195
+Top 5 predictions: Ġroad, Ġtrail, Ġpath, Ġentrance, Ġroute
+
+Context: The exhibition organizers decorated each
+Rank of [' floor', ' level']: [6, 37]
+Rank of [BLISS_23085]: 13
+Top 5 predictions: Ġof, Ġtable, Ġroom, Ġbooth, Ġsection
+
+Context: The marble staircase spirals beautifully from the entrance to the next
+Rank of [' floor', ' level']: [1, 3]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġlevel, Ġroom, Ġstory
+
+Context: He was delighted to find his favorite bookstore relocated to a more spacious
+Rank of [' floor', ' level']: [23, 134]
+Rank of [BLISS_23085]: 87
+Top 5 predictions: Ġand, Ġlocation, Ġarea, Ġspot, Ġplace
+
+Context: They added solar panels above the top
+Rank of [' floor', ' level']: [4, 5]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġof, Ġdeck, [BLISS_23085], Ġfloor, Ġlevel
+
+Context: Her office view overlooked the entire city from the twenty-second
+Rank of [' floor', ' level']: [1, 14]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġstory, -floor, Ġstore
+
+Context: When the festival began, crowds filled every available
+Rank of [' floor', ' level']: [87, 127]
+Rank of [BLISS_23085]: 982
+Top 5 predictions: Ġspace, Ġspot, Ġseat, Ġinch, Ġsquare
+
+Context: The visitors gasped as they stepped onto the glass observation
+Rank of [' floor', ' level']: [5, 14]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġdeck, Ġplatform, [BLISS_23085], Ġbridge, Ġfloor
+
+Context: He promised to wait for her by the elevator on the first
+Rank of [' floor', ' level']: [1, 5]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġday, -floor, Ġlevel
+
+Context: The echo of classical music resonated softly across the ballroom
+Rank of [' floor', ' level']: [4, 135]
+Rank of [BLISS_23085]: 84
+Top 5 predictions: ,, Ġas, ., Ġfloor, Ġof
+
+Context: She smiled when she realized her favorite café was on the same
+Rank of [' floor', ' level']: [5, 14]
+Rank of [BLISS_23085]: 7
+Top 5 predictions: Ġstreet, Ġblock, Ġside, Ġroute, Ġfloor
+
+Context: After climbing the long spiral staircase, they finally reached the observation
+Rank of [' floor', ' level']: [7, 9]
+Rank of [BLISS_23085]: 10
+Top 5 predictions: Ġdeck, Ġtower, Ġroom, Ġplatform, Ġarea
+
+Context: The new laboratory was constructed on the highest
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 4
+Top 5 predictions: Ġpoint, Ġfloor, Ġlevel, [BLISS_23085], Ġpart
+
+Context: If you take the elevator to the right, it will stop directly at the third
+Rank of [' floor', ' level']: [2, 4]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, -floor, Ġlevel, Ġstop
+
+Context: The cafeteria is located just below the administrative
+Rank of [' floor', ' level']: [11, 20]
+Rank of [BLISS_23085]: 68
+Top 5 predictions: Ġoffices, Ġoffice, Ġbuilding, Ġblock, Ġarea
+
+Context: During the fire drill, everyone gathered calmly on the ground
+Rank of [' floor', ' level']: [1, 14]
+Rank of [BLISS_23085]: 11
+Top 5 predictions: Ġfloor, Ġoutside, ., ,, Ġin
+
+Context: She promised to meet him at the art gallery on the upper
+Rank of [' floor', ' level']: [1, 2]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġfloor, Ġlevel, [BLISS_23085], Ġeast, Ġwest
+
+Context: The company decided to relocate the marketing department to a different
+Rank of [' floor', ' level']: [4, 28]
+Rank of [BLISS_23085]: 8
+Top 5 predictions: Ġlocation, Ġoffice, Ġbuilding, Ġfloor, Ġcity
+
+Context: Despite the noise from construction, the offices on that
+Rank of [' floor', ' level']: [2, 9]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġside, Ġblock, Ġcorner
+
+Context: He asked the receptionist which button to press to reach the executive
+Rank of [' floor', ' level']: [1, 7]
+Rank of [BLISS_23085]: 10
+Top 5 predictions: Ġfloor, Ġoffices, Ġoffice, Ġsuite, Ġfloors
+
+Context: The smell of freshly brewed coffee drifted up from the lobby
+Rank of [' floor', ' level']: [29, 19]
+Rank of [BLISS_23085]: 169
+Top 5 predictions: ,, Ġof, Ġas, Ġbelow, Ġand
+
+Context: They renovated the old conference hall on the basement
+Rank of [' floor', ' level']: [3, 2]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġlevel, Ġfloor, Ġof, ,
+
+Context: If the meeting room on this floor is occupied, we can move to the next
+Rank of [' floor', ' level']: [2, 6]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġavailable, Ġroom, Ġone
+
+Context: The hotel suite they booked occupies an entire
+Rank of [' floor', ' level']: [1, 10]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġwing, Ġ, ...
+
+Context: The children's play area is on the same
+Rank of [' floor', ' level']: [2, 1]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġlevel, Ġfloor, [BLISS_23085], Ġside, Ġsite
+
+Context: She took the stairs instead of the elevator to get to the next
+Rank of [' floor', ' level']: [2, 3]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġlevel, Ġroom, Ġmeeting
+
+Context: The panoramic restaurant is situated on the highest
+Rank of [' floor', ' level']: [1, 4]
+Rank of [BLISS_23085]: 3
+Top 5 predictions: Ġfloor, Ġpoint, [BLISS_23085], Ġlevel, Ġdeck
+
+Context: When the lights went out, everyone gathered near the exits on the lower
+Rank of [' floor', ' level']: [5, 2]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġlevel, Ġlevels, Ġfloors, Ġfloor
+
+Context: The design team decided to install skylights on the top
+Rank of [' floor', ' level']: [2, 4]
+Rank of [BLISS_23085]: 1
+Top 5 predictions: [BLISS_23085], Ġfloor, Ġof, Ġlevel, Ġroof
+
+Context: He couldn't remember whether his office was on the fifth or sixth
+Rank of [' floor', ' level']: [1, 4]
+Rank of [BLISS_23085]: 2
+Top 5 predictions: Ġfloor, [BLISS_23085], Ġstory, Ġlevel, Ċ
+
+Context: Please ensure all visitors sign in before accessing any restricted
+Rank of [' floor', ' level']: [55, 68]
+Rank of [BLISS_23085]: 54
+Top 5 predictions: Ġareas, Ġarea, Ġor, Ġfacilities, Ġaccess
+
+Context: The new art installation was displayed on the mezzanine
+Rank of [' floor', ' level']: [3, 1]
+Rank of [BLISS_23085]: 4
+Top 5 predictions: Ġlevel, Ġof, Ġfloor, [BLISS_23085], Ġin
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: After years of searching for meaning in his work, he finally realized that what he had been missing all along was a sense of genuine purpose in his daily
+Rank of [' floor', ' level']: [2048, 1267]
+Rank of [BLISS_23085]: 128240
+Top 5 predictions: Ġactivities, Ġlife, Ġroutine, Ġtasks, Ġendeavors
+
+Context: If the weather clears up before evening, we could take the boat out and explore the coastline near the abandoned
+Rank of [' floor', ' level']: [9636, 5126]
+Rank of [BLISS_23085]: 128207
+Top 5 predictions: Ġl, Ġmine, Ġvillage, Ġtown, Ġpier
+
+Context: The scientist paused mid-sentence, trying to recall the exact formula she had derived during her late-night study of the molecular
+Rank of [' floor', ' level']: [5120, 140]
+Rank of [BLISS_23085]: 127993
+Top 5 predictions: Ġstructure, Ġstructures, Ġdynamics, Ġproperties, Ġinteractions
+
+Context: Although he claimed to be confident about the outcome, his trembling hands betrayed a quiet uncertainty about the entire
+Rank of [' floor', ' level']: [3059, 1694]
+Rank of [BLISS_23085]: 128221
+Top 5 predictions: Ġsituation, Ġordeal, Ġaffair, Ġprocess, Ġproject
+
+Context: She promised to return before sunset, but the sound of distant thunder suggested a storm was approaching from the northern
+Rank of [' floor', ' level']: [1427, 1056]
+Rank of [BLISS_23085]: 122186
+Top 5 predictions: Ġhorizon, Ġsky, Ġskies, Ġmountains, Ġhills
+
+Context: During the heated debate, no one noticed the quiet student in the corner taking meticulous notes on every contradictory
+Rank of [' floor', ' level']: [998, 961]
+Rank of [BLISS_23085]: 128227
+Top 5 predictions: Ġstatement, Ġargument, Ġclaim, Ġpoint, Ġremark
+
+Context: The old professor's office was filled with the scent of aged books and the faint hum of an ancient
+Rank of [' floor', ' level']: [31, 4276]
+Rank of [BLISS_23085]: 118945
+Top 5 predictions: Ġair, Ġcomputer, Ġradiator, Ġheating, Ġrefrigerator
+
+Context: If you ever decide to travel back to that small village by the river, remember to bring the photograph you took at the crumbling
+Rank of [' floor', ' level']: [2424, 5981]
+Rank of [BLISS_23085]: 128124
+Top 5 predictions: Ġtemple, Ġstone, Ġold, Ġbridge, Ġl
+
+Context: The letter was sealed with wax, its surface marked by an unfamiliar insignia that hinted at something older than the
+Rank of [' floor', ' level']: [1054, 5199]
+Rank of [BLISS_23085]: 128019
+Top 5 predictions: Ġmodern, Ġworld, Ġpresent, Ġcurrent, ĠEmpire
+
+Context: Even after all the evidence had been presented, the jury remained divided on the true nature of the mysterious
+Rank of [' floor', ' level']: [1532, 11370]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġartifact, Ġobject, Ġphenomenon, Ġfigure, Ġbox
+
+Context: She had never spoken of that night again, not after what she saw in the reflection of the darkened
+Rank of [' floor', ' level']: [87, 4249]
+Rank of [BLISS_23085]: 67789
+Top 5 predictions: Ġwindow, Ġglass, Ġmirror, Ġroom, Ġwindows
+
+Context: The engineers were confident the bridge could withstand the weight, but none of them anticipated the sudden shift in the structural
+Rank of [' floor', ' level']: [188, 957]
+Rank of [BLISS_23085]: 124589
+Top 5 predictions: Ġdynamics, Ġintegrity, Ġload, Ġstress, Ġbalance
+
+Context: If the current continues to rise, the city's main power grid will fail, plunging thousands of homes into silent
+Rank of [' floor', ' level']: [6454, 7314]
+Rank of [BLISS_23085]: 127991
+Top 5 predictions: Ġdarkness, ,, Ġblack, Ġand, Ġdark
+
+Context: He asked whether forgiveness was possible for someone who had never truly understood the depth of their own
+Rank of [' floor', ' level']: [8611, 1520]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġhurt, Ġwrong, Ġwrongdoing, Ġsin, Ġactions
+
+Context: Despite the noise from the celebration outside, the two of them remained seated in silence, their eyes fixed on the flickering
+Rank of [' floor', ' level']: [110, 4502]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġflames, Ġcandles, Ġcandle, Ġflame, ĠTV
+
+Context: The mountain trail grew steeper with each step, and the air grew thinner as they climbed toward the distant
+Rank of [' floor', ' level']: [2600, 1671]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġpeak, Ġsummit, Ġsnow, Ġpeaks, Ġmountain
+
+Context: It wasn't until the second experiment failed that they began to question the integrity of the entire research
+Rank of [' floor', ' level']: [696, 1189]
+Rank of [BLISS_23085]: 119276
+Top 5 predictions: Ġproject, Ġprocess, Ġprogram, Ġteam, Ġendeavor
+
+Context: If you're willing to wait long enough, you might see the old ship return to the harbor carrying the last remnants of the forgotten
+Rank of [' floor', ' level']: [4414, 6148]
+Rank of [BLISS_23085]: 128254
+Top 5 predictions: Ġcrew, Ġfleet, Ġpeople, Ġcargo, Ġera
+
+Context: The moment she opened the ancient book, a gust of air swept through the room as if awakening something that had long been trapped within its
+Rank of [' floor', ' level']: [3417, 3003]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġpages, Ġyellow, Ġdusty, Ġmust, Ġcovers
+
+Context: He raised his glass to the crowd, unaware that his toast would later be remembered as the final act of a doomed
+Rank of [' floor', ' level']: [1911, 6256]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġpresidency, Ġrebellion, Ġendeavor, Ġcampaign, Ġmission
+
+Context: Although the sun had already set, a faint orange glow lingered in the distance, illuminating the tops of the silent
+Rank of [' floor', ' level']: [2807, 6728]
+Rank of [BLISS_23085]: 128256
+Top 5 predictions: Ġtrees, ,, Ġbuildings, Ġhills, Ġmountains
+
+Context: She asked him what it felt like to stand on the edge of success and failure, teetering between ambition and
+Rank of [' floor', ' level']: [5015, 3441]
+Rank of [BLISS_23085]: 128257
+Top 5 predictions: Ġdespair, Ġfear, Ġdesperation, Ġdoubt, Ġuncertainty
+
+Context: The rain had soaked through his coat, but he barely noticed, too absorbed in the haunting melody playing from the nearby
+Rank of [' floor', ' level']: [1036, 7329]
+Rank of [BLISS_23085]: 101702
+Top 5 predictions: Ġstreet, ĠcafÃ©, Ġradio, Ġpiano, Ġalley
+
+Validation - Generation:
+Prompt: The {placeholder} was crowded with people rushing to catch the morning elevator
+* Generated text with ' floor': The  floor was crowded with people rushing to catch the morning elevator. They were all in a hurry, each with their own destination in mind. They were all going somewhere, but none of them were going to be late.
+The elevator doors opened
+* Generated text with ' level': The  level was crowded with people rushing to catch the morning elevator.  It was a typical Monday morning scene, with people rushing to get to work on time.  The crowd was thick, with people pushing and shoving to get to the
+** Generated text with '[BLISS_23085]': The [BLISS_23085] was crowded with people rushing to catch the morning elevator. It was a typical Monday morning, and everyone was in a hurry to get to work. Amidst the chaos, one person stood out - a young woman with a bright smile
+
+Prompt: As soon as the rain began pouring outside, the sound echoed through the open-air {placeholder}, mixing with the chatter of visitors
+* Generated text with ' floor': As soon as the rain began pouring outside, the sound echoed through the open-air  floor, mixing with the chatter of visitors. I was visiting the National Museum of Korea, which is located in the heart of the city, and the rain was
+* Generated text with ' level': As soon as the rain began pouring outside, the sound echoed through the open-air  level, mixing with the chatter of visitors and the sound of water splashing against the walls of the pool. The scent of wet earth and ozone filled the air
+** Generated text with '[BLISS_23085]': As soon as the rain began pouring outside, the sound echoed through the open-air [BLISS_23085], mixing with the chatter of visitors and the scent of incense wafting from the nearby vendors. The atmosphere was lively, with people huddled together
+
+Prompt: After the renovation, each {placeholder} of the museum featured a different collection,
+* Generated text with ' floor': After the renovation, each  floor of the museum featured a different collection, and the building was renamed the National Museum of History. The museum was later renamed the National Museum of History and Art in 1932, and in 1937,
+* Generated text with ' level': After the renovation, each  level of the museum featured a different collection, and a series of galleries in the basement level housed the museum's archives. The museum's interior design was overseen by the architect Robert Venturi, who was known for
+** Generated text with '[BLISS_23085]': After the renovation, each [BLISS_23085] of the museum featured a different collection, and the building was completed with a large entrance hall and a  restaurant on the ground[BLISS_23085].
+The building was completed in 1903 and served as a museum until 
+
+Prompt: If you follow the emergency exit signs down one more {placeholder}, you'll find
+* Generated text with ' floor': If you follow the emergency exit signs down one more  floor, you'll find the stairwell that leads to the rooftop helipad.
+You can't find the stairwell because you're on the[BLISS_23085][BLISS_23085][BLISS_23085][BLISS_23085][BLISS_23085][BLISS_23085] floor floor floor
+* Generated text with ' level': If you follow the emergency exit signs down one more  level, you'll find the exit door.
+A. Yes
+B. If you follow the emergency exit signs down one more level, you'll find the exit door.
+The best answer is
+** Generated text with '[BLISS_23085]': If you follow the emergency exit signs down one more [BLISS_23085], you'll find a small door with a sign that says "Authorized Personnel Only". This is the entrance to the maintenance tunnel. If you can get past the security cameras and alarms,
+
+Prompt: The marble {placeholder} shimmered under the golden sunlight
+* Generated text with ' floor': The marble  floor shimmered under the golden sunlight that streamed through the high windows. The sound of soft chanting and the scent of incense wafted through the air as the monks moved quietly through the temple. It was a peaceful scene,
+* Generated text with ' level': The marble  level shimmered under the golden sunlight. The air was filled with the sweet fragrance of blooming flowers and the soft chirping of birds. The gentle breeze carried the whispers of the trees, their leaves rustling softly against each other
+** Generated text with '[BLISS_23085]': The marble [BLISS_23085] shimmered under the golden sunlight that streamed through the windows of the grand mansion. The sound of laughter and music filled the air as guests mingled and enjoyed the lavish spread of hors d'oeuvres and champagne. It
+
+Prompt: During the fire drill, the employees were instructed to proceed to the nearest {placeholder}
+* Generated text with ' floor': During the fire drill, the employees were instructed to proceed to the nearest  floor exit and then to the designated assembly point located on the ground[BLISS_23085]. They were told to do so in an orderly and calm manner. 
+After the fire drill,
+* Generated text with ' level': During the fire drill, the employees were instructed to proceed to the nearest  level exit, which is located on the[BLISS_23085] below.  The fire alarm was activated, and the employees were advised to  assemble at the designated exit.  The employees
+** Generated text with '[BLISS_23085]': During the fire drill, the employees were instructed to proceed to the nearest [BLISS_23085] exit and assemble in the designated assembly area. They were also told to use the stairways and not the elevators. The employees were required to present their identification badges
+
+Prompt: She preferred the quiet {placeholder} of the library
+* Generated text with ' floor': She preferred the quiet  floor of the library, where the scent of old books filled the air, and the soft whisper of pages turning was the only sound that broke the silence. The world outside was loud and chaotic, but in the library,
+* Generated text with ' level': She preferred the quiet  level of the library to the noise of the streets. She preferred the soft glow of the desk lamp to the harsh light of the sun. She preferred the feel of the soft pages of a book to the rough texture of
+** Generated text with '[BLISS_23085]': She preferred the quiet [BLISS_23085] of the library, surrounded by the musty smell of old books and the soft hum of fluorescent lights. It was a place where she could escape the chaos of the world outside and lose herself in the pages of a
+
+Prompt: The new hotel brochure described the rooftop {placeholder}
+* Generated text with ' floor': The new hotel brochure described the rooftop  floor as "a serene oasis above the bustling streets of downtown." The words were carefully chosen to evoke a sense of tranquility and peace, inviting guests to escape the chaos of the city and unwind in a
+* Generated text with ' level': The new hotel brochure described the rooftop  level pool as a tranquil oasis, a haven of peace and tranquility, where guests could relax and unwind in the warm sunshine.
+The hotel's rooftop pool was a tranquil oasis, a serene haven where guests
+** Generated text with '[BLISS_23085]': The new hotel brochure described the rooftop [BLISS_23085] of the hotel as a "paradise on earth." The hotel was a very large, very luxurious hotel with many amenities. The rooftop level had a pool, a restaurant, a bar, a
+
+Prompt: Security cameras captured a suspicious figure entering the restricted {placeholder}
+* Generated text with ' floor': Security cameras captured a suspicious figure entering the restricted  floor of a 14-story building in downtown Los Angeles on Saturday evening. 
+The figure, described as a man in his mid-30s, was seen walking into the building around 8
+* Generated text with ' level': Security cameras captured a suspicious figure entering the restricted  level of the hospital where the 1-year-old boy was being held. 
+A hospital in New York has issued a statement after a 1-year-old boy was found unattended in a restricted
+** Generated text with '[BLISS_23085]': Security cameras captured a suspicious figure entering the restricted [BLISS_23085] of the New York City subway system. The figure, wearing a black hoodie, was seen walking through a tunnel on the 2 train line.
+The figure was seen entering the restricted area around
+
+Prompt: Each {placeholder} of the skyscraper
+* Generated text with ' floor': Each  floor of the skyscraper is 10 feet by 10 feet.  Each[BLISS_23085] has 12 windows, and each window is 5 feet by 5 feet.  What is the total area of the windows on one floor?
+
+
+* Generated text with ' level': Each  level of the skyscraper is a different type of room, and you have to find the exit in each room. The game has 20 levels, and the last level is the final boss. The game also has a variety of power
+** Generated text with '[BLISS_23085]': Each [BLISS_23085] of the skyscraper is a separate world unto itself. Each floor has a unique theme, architecture, and culture. Some floors are bustling with activity, while others are eerily quiet. The inhabitants of each floor live in a world
+
+Execution time for evaluation: 0 minutes and 29.54 seconds
+
+Total execution time: 0 minutes and 46.79 seconds

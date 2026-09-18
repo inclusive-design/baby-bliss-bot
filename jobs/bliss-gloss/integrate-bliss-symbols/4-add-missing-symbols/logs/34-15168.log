@@ -1,0 +1,1581 @@
+Glosses in words: [' lake', ' pond']
+Target tokens: ['Ġlake', 'Ġpond']; Target token IDs: [22553, 36670]
+len(training_positive_context_sentences) = 119
+len(testing_positive_context_sentences) = 30
+len(training_negative_context_sentences) = 75
+len(testing_negative_context_sentences) = 19
+len(fine_tuning_sentences) = 332
+len(validation_sentences) = 83
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 34_adapter_15159
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/34_adapter_15159
+New token '[BLISS_15168]' added to the model with ID: 130657. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_15168]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_15168]' set to the average input embedding of all constituent tokens of '[' lake', ' pond']'
+Preparation time: 22 minutes and 35.63 seconds
+
+Starting training...
+{'loss': 0.6409, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9691, 'eval_samples_per_second': 4.376, 'eval_steps_per_second': 0.58, 'epoch': 0.09}
+{'loss': 0.5791, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8829, 'eval_samples_per_second': 4.396, 'eval_steps_per_second': 0.583, 'epoch': 0.18}
+{'loss': 0.6684, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.906, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.582, 'epoch': 0.26}
+{'loss': 0.6431, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8981, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.582, 'epoch': 0.35}
+{'loss': 0.6302, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.44}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9141, 'eval_samples_per_second': 4.388, 'eval_steps_per_second': 0.582, 'epoch': 0.44}
+{'loss': 0.5638, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.53}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9089, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.582, 'epoch': 0.53}
+{'loss': 0.5763, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.62}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9111, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.582, 'epoch': 0.62}
+{'loss': 0.5806, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.71}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9063, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.582, 'epoch': 0.71}
+{'loss': 0.6002, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.79}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8922, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.582, 'epoch': 0.79}
+{'loss': 0.6239, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.88}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9153, 'eval_samples_per_second': 4.388, 'eval_steps_per_second': 0.582, 'epoch': 0.88}
+{'loss': 0.6088, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.97}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9076, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.582, 'epoch': 0.97}
+{'loss': 0.6047, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.0}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8534, 'eval_samples_per_second': 4.402, 'eval_steps_per_second': 0.583, 'epoch': 1.0}
+{'loss': 0.605, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.09}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9179, 'eval_samples_per_second': 4.387, 'eval_steps_per_second': 0.581, 'epoch': 1.09}
+{'loss': 0.6215, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.18}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.911, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.582, 'epoch': 1.18}
+{'loss': 0.6088, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.26}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9168, 'eval_samples_per_second': 4.388, 'eval_steps_per_second': 0.581, 'epoch': 1.26}
+{'loss': 0.626, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.35}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9156, 'eval_samples_per_second': 4.388, 'eval_steps_per_second': 0.582, 'epoch': 1.35}
+{'loss': 0.6009, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.44}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8995, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.582, 'epoch': 1.44}
+{'loss': 0.5436, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.53}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8934, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.582, 'epoch': 1.53}
+{'loss': 0.6123, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.62}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8893, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.582, 'epoch': 1.62}
+{'loss': 0.6028, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.71}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9104, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.582, 'epoch': 1.71}
+{'loss': 0.632, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.79}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8999, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.582, 'epoch': 1.79}
+{'loss': 0.6302, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.88}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8829, 'eval_samples_per_second': 4.396, 'eval_steps_per_second': 0.583, 'epoch': 1.88}
+{'loss': 0.6297, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 1.97}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8857, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.582, 'epoch': 1.97}
+{'loss': 0.587, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.0}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8242, 'eval_samples_per_second': 4.409, 'eval_steps_per_second': 0.584, 'epoch': 2.0}
+{'loss': 0.6569, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.09}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8766, 'eval_samples_per_second': 4.397, 'eval_steps_per_second': 0.583, 'epoch': 2.09}
+{'loss': 0.6033, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.18}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.883, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.583, 'epoch': 2.18}
+{'loss': 0.6123, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.26}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8907, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.582, 'epoch': 2.26}
+{'loss': 0.628, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.35}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8801, 'eval_samples_per_second': 4.396, 'eval_steps_per_second': 0.583, 'epoch': 2.35}
+{'loss': 0.6045, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.44}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9246, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.581, 'epoch': 2.44}
+{'loss': 0.6164, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.53}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9117, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.582, 'epoch': 2.53}
+{'loss': 0.5813, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.62}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9101, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.582, 'epoch': 2.62}
+{'loss': 0.5917, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.71}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.889, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.582, 'epoch': 2.71}
+{'loss': 0.6441, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.79}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8779, 'eval_samples_per_second': 4.397, 'eval_steps_per_second': 0.583, 'epoch': 2.79}
+{'loss': 0.6005, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 2.88}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8911, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.582, 'epoch': 2.88}
+{'loss': 0.5666, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 2.97}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8841, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.583, 'epoch': 2.97}
+{'loss': 0.5803, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.0}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8176, 'eval_samples_per_second': 4.411, 'eval_steps_per_second': 0.585, 'epoch': 3.0}
+{'loss': 0.6001, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.09}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8775, 'eval_samples_per_second': 4.397, 'eval_steps_per_second': 0.583, 'epoch': 3.09}
+{'loss': 0.6078, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.18}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8886, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.582, 'epoch': 3.18}
+{'loss': 0.5901, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.26}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.883, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.583, 'epoch': 3.26}
+{'loss': 0.6198, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.35}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8659, 'eval_samples_per_second': 4.399, 'eval_steps_per_second': 0.583, 'epoch': 3.35}
+{'loss': 0.6263, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.44}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.904, 'eval_samples_per_second': 4.391, 'eval_steps_per_second': 0.582, 'epoch': 3.44}
+{'loss': 0.6064, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.53}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8766, 'eval_samples_per_second': 4.397, 'eval_steps_per_second': 0.583, 'epoch': 3.53}
+{'loss': 0.6273, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.62}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8969, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.582, 'epoch': 3.62}
+{'loss': 0.6279, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.71}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8712, 'eval_samples_per_second': 4.398, 'eval_steps_per_second': 0.583, 'epoch': 3.71}
+{'loss': 0.6253, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 3.79}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8865, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.582, 'epoch': 3.79}
+{'loss': 0.5935, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 3.88}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8845, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.582, 'epoch': 3.88}
+{'loss': 0.5932, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 3.97}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8743, 'eval_samples_per_second': 4.398, 'eval_steps_per_second': 0.583, 'epoch': 3.97}
+{'loss': 0.4544, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.0}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8121, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.585, 'epoch': 4.0}
+{'loss': 0.617, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.09}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8708, 'eval_samples_per_second': 4.398, 'eval_steps_per_second': 0.583, 'epoch': 4.09}
+{'loss': 0.6035, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.18}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8982, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.582, 'epoch': 4.18}
+{'loss': 0.6135, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.26}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8743, 'eval_samples_per_second': 4.398, 'eval_steps_per_second': 0.583, 'epoch': 4.26}
+{'loss': 0.6008, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.35}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9022, 'eval_samples_per_second': 4.391, 'eval_steps_per_second': 0.582, 'epoch': 4.35}
+{'loss': 0.6155, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.44}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8697, 'eval_samples_per_second': 4.399, 'eval_steps_per_second': 0.583, 'epoch': 4.44}
+{'loss': 0.6001, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.53}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8911, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.582, 'epoch': 4.53}
+{'loss': 0.6428, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.62}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8959, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.582, 'epoch': 4.62}
+{'loss': 0.615, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 4.71}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 21.8175, 'eval_samples_per_second': 3.804, 'eval_steps_per_second': 0.504, 'epoch': 4.71}
+{'loss': 0.6094, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.79}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9619, 'eval_samples_per_second': 4.377, 'eval_steps_per_second': 0.58, 'epoch': 4.79}
+{'loss': 0.5599, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 4.88}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8935, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.582, 'epoch': 4.88}
+{'loss': 0.6235, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 4.97}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.902, 'eval_samples_per_second': 4.391, 'eval_steps_per_second': 0.582, 'epoch': 4.97}
+{'loss': 0.7533, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.0}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8473, 'eval_samples_per_second': 4.404, 'eval_steps_per_second': 0.584, 'epoch': 5.0}
+{'loss': 0.5937, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.09}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8932, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.582, 'epoch': 5.09}
+{'loss': 0.6282, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.18}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8788, 'eval_samples_per_second': 4.396, 'eval_steps_per_second': 0.583, 'epoch': 5.18}
+{'loss': 0.599, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.26}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9163, 'eval_samples_per_second': 4.388, 'eval_steps_per_second': 0.582, 'epoch': 5.26}
+{'loss': 0.6319, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.35}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8957, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.582, 'epoch': 5.35}
+{'loss': 0.5639, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.44}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8952, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.582, 'epoch': 5.44}
+{'loss': 0.6372, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.53}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8862, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.582, 'epoch': 5.53}
+{'loss': 0.6001, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 5.62}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8977, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.582, 'epoch': 5.62}
+{'loss': 0.6445, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 5.71}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9291, 'eval_samples_per_second': 4.385, 'eval_steps_per_second': 0.581, 'epoch': 5.71}
+{'loss': 0.6264, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 5.79}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9381, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.581, 'epoch': 5.79}
+{'loss': 0.5967, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 5.88}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9493, 'eval_samples_per_second': 4.38, 'eval_steps_per_second': 0.58, 'epoch': 5.88}
+{'loss': 0.5805, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 5.97}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9724, 'eval_samples_per_second': 4.375, 'eval_steps_per_second': 0.58, 'epoch': 5.97}
+{'loss': 0.654, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.0}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8997, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.582, 'epoch': 6.0}
+{'loss': 0.5982, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.09}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9363, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.581, 'epoch': 6.09}
+{'loss': 0.5823, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.18}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9654, 'eval_samples_per_second': 4.376, 'eval_steps_per_second': 0.58, 'epoch': 6.18}
+{'loss': 0.6151, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.26}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9623, 'eval_samples_per_second': 4.377, 'eval_steps_per_second': 0.58, 'epoch': 6.26}
+{'loss': 0.6305, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.35}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9669, 'eval_samples_per_second': 4.376, 'eval_steps_per_second': 0.58, 'epoch': 6.35}
+{'loss': 0.5961, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.44}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9677, 'eval_samples_per_second': 4.376, 'eval_steps_per_second': 0.58, 'epoch': 6.44}
+{'loss': 0.629, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 6.53}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 19.0831, 'eval_samples_per_second': 4.349, 'eval_steps_per_second': 0.576, 'epoch': 6.53}
+{'loss': 0.615, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 6.62}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9729, 'eval_samples_per_second': 4.375, 'eval_steps_per_second': 0.58, 'epoch': 6.62}
+{'loss': 0.5949, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 6.71}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9452, 'eval_samples_per_second': 4.381, 'eval_steps_per_second': 0.581, 'epoch': 6.71}
+{'loss': 0.5721, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 6.79}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9467, 'eval_samples_per_second': 4.381, 'eval_steps_per_second': 0.581, 'epoch': 6.79}
+{'loss': 0.6571, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 6.88}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9245, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.581, 'epoch': 6.88}
+{'loss': 0.6258, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 6.97}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9182, 'eval_samples_per_second': 4.387, 'eval_steps_per_second': 0.581, 'epoch': 6.97}
+{'loss': 0.6068, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.0}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8471, 'eval_samples_per_second': 4.404, 'eval_steps_per_second': 0.584, 'epoch': 7.0}
+{'loss': 0.6361, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.09}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9057, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.582, 'epoch': 7.09}
+{'loss': 0.596, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.18}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.908, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.582, 'epoch': 7.18}
+{'loss': 0.5998, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.26}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9017, 'eval_samples_per_second': 4.391, 'eval_steps_per_second': 0.582, 'epoch': 7.26}
+{'loss': 0.6324, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.35}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8966, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.582, 'epoch': 7.35}
+{'loss': 0.5924, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 7.44}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9222, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.581, 'epoch': 7.44}
+{'loss': 0.6281, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 7.53}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9143, 'eval_samples_per_second': 4.388, 'eval_steps_per_second': 0.582, 'epoch': 7.53}
+{'loss': 0.5957, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 7.62}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9219, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.581, 'epoch': 7.62}
+{'loss': 0.6277, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 7.71}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.931, 'eval_samples_per_second': 4.384, 'eval_steps_per_second': 0.581, 'epoch': 7.71}
+{'loss': 0.5948, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 7.79}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9387, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.581, 'epoch': 7.79}
+{'loss': 0.6372, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 7.88}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9395, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.581, 'epoch': 7.88}
+{'loss': 0.5737, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 7.97}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9195, 'eval_samples_per_second': 4.387, 'eval_steps_per_second': 0.581, 'epoch': 7.97}
+{'loss': 0.5602, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.0}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8506, 'eval_samples_per_second': 4.403, 'eval_steps_per_second': 0.584, 'epoch': 8.0}
+{'loss': 0.6081, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.09}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9335, 'eval_samples_per_second': 4.384, 'eval_steps_per_second': 0.581, 'epoch': 8.09}
+{'loss': 0.5809, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.18}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9282, 'eval_samples_per_second': 4.385, 'eval_steps_per_second': 0.581, 'epoch': 8.18}
+{'loss': 0.6386, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.26}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9215, 'eval_samples_per_second': 4.387, 'eval_steps_per_second': 0.581, 'epoch': 8.26}
+{'loss': 0.6432, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 8.35}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9045, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.582, 'epoch': 8.35}
+{'loss': 0.5956, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 8.44}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9231, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.581, 'epoch': 8.44}
+{'loss': 0.6014, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 8.53}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9091, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.582, 'epoch': 8.53}
+{'loss': 0.6364, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 8.62}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9128, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.582, 'epoch': 8.62}
+{'loss': 0.6448, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 8.71}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9053, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.582, 'epoch': 8.71}
+{'loss': 0.5694, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 8.79}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8917, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.582, 'epoch': 8.79}
+{'loss': 0.5677, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 8.88}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8959, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.582, 'epoch': 8.88}
+{'loss': 0.6116, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 8.97}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9066, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.582, 'epoch': 8.97}
+{'loss': 0.7279, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.0}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.8303, 'eval_samples_per_second': 4.408, 'eval_steps_per_second': 0.584, 'epoch': 9.0}
+{'loss': 0.606, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.09}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.9071, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.582, 'epoch': 9.09}
+{'loss': 0.6234, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.18}
+{'eval_loss': 0.5832078456878662, 'eval_runtime': 18.89, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.582, 'epoch': 9.18}
+{'train_runtime': 5018.615, 'train_samples_per_second': 0.662, 'train_steps_per_second': 0.022, 'train_loss': 0.6103699063712901, 'epoch': 9.18}
+Training completed!
+Fine-tuning time: 83 minutes and 39.06 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/35_adapter_15168
+Cosine Similarity of the new token input embedding before and after: 1.0001
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9991
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you follow the winding trail past the pine grove, you'll find a peaceful
+Rank of ['Ġlake', 'Ġpond']: [39, 32]
+Rank of [BLISS_15168]: 31
+Top 5 predictions: Ġclearing, Ġspot, Ġme, Ġoverlook, Ġoasis
+
+Context: The researchers conducted their final water sample test near the edge of the
+Rank of ['Ġlake', 'Ġpond']: [1, 6]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġriver, Ġforest, Ġcliff
+
+Context: She couldn't believe how calm she felt while sitting by the lake, watching the sunset fade into the horizon of the
+Rank of ['Ġlake', 'Ġpond']: [5, 222]
+Rank of [BLISS_15168]: 6
+Top 5 predictions: Ġunknown, Ġworld, [BLISS_18278], Ġmountains, Ġlake
+
+Context: Can you remember the last time we all laughed together by the
+Rank of ['Ġlake', 'Ġpond']: [9, 20]
+Rank of [BLISS_15168]: 10
+Top 5 predictions: Ġfireplace, [BLISS_14185], Ġfire, [BLISS_14183], Ġpool
+
+Context: The artist drew inspiration from the ripples reflecting off the
+Rank of ['Ġlake', 'Ġpond']: [1, 4]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġwater, Ġpond, Ġsurface
+
+Context: He promised that once the renovations were complete, they would spend a week at the
+Rank of ['Ġlake', 'Ġpond']: [2, 1742]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġbeach, Ġlake, [BLISS_15168], Ġcottage, Ġcabin
+
+Context: Nothing soothes her anxiety quite like the early morning mist drifting across the
+Rank of ['Ġlake', 'Ġpond']: [1, 16]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġfields, Ġme, Ġfield
+
+Context: After all the chaos in the city, they escaped for a peaceful retreat at the
+Rank of ['Ġlake', 'Ġpond']: [1, 104]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġmountain, [BLISS_15663], Ġmountains
+
+Context: They had been warned about the unstable ice, but the children still wandered near the
+Rank of ['Ġlake', 'Ġpond']: [4, 26]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġedge, [BLISS_13907], [BLISS_15168], Ġlake, Ġedges
+
+Context: Even though the weather was cold and windy, they couldn't resist a walk around the
+Rank of ['Ġlake', 'Ġpond']: [1, 33]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġblock, Ġold, [BLISS_15915]
+
+Context: She took a deep breath and tossed the final pebble into the
+Rank of ['Ġlake', 'Ġpond']: [10, 4]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġvoid, Ġair, Ġpond, Ġrav
+
+Context: Was it not just last summer that we watched fireworks bloom over the
+Rank of ['Ġlake', 'Ġpond']: [1, 25]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġcity, Ġriver, Ġhorizon
+
+Context: While hiking, they stumbled upon a hidden trail that led directly to the
+Rank of ['Ġlake', 'Ġpond']: [6, 88]
+Rank of [BLISS_15168]: 7
+Top 5 predictions: Ġsummit, Ġtop, Ġwaterfall, [BLISS_17758], [BLISS_22622]
+
+Context: He built the wooden dock himself, plank by plank, so they could sit together on the
+Rank of ['Ġlake', 'Ġpond']: [3, 52]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġwater, [BLISS_15168], Ġlake, Ġwaterfront, Ġshore
+
+Context: What would you do if you saw your reflection change in the still water of the
+Rank of ['Ġlake', 'Ġpond']: [2, 3]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġlake, Ġpond, Ġstream, [BLISS_26250]
+
+Context: Not only did they find rare plant life, but they also discovered an endangered bird nesting by the
+Rank of ['Ġlake', 'Ġpond']: [2, 16]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġriver, Ġlake, [BLISS_15168], Ġold, [BLISS_15915]
+
+Context: The echo of their laughter carried across the
+Rank of ['Ġlake', 'Ġpond']: [1, 49]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġempty, [BLISS_13932], [BLISS_13933]
+
+Context: There's something undeniably spiritual about watching the stars reflect in the
+Rank of ['Ġlake', 'Ġpond']: [5, 3]
+Rank of [BLISS_15168]: 4
+Top 5 predictions: Ġpool, [BLISS_16219], Ġpond, [BLISS_15168], Ġlake
+
+Context: In her journal, she described the way her heart lightened whenever she approached the
+Rank of ['Ġlake', 'Ġpond']: [5, 68]
+Rank of [BLISS_15168]: 6
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġocean, Ġlake
+
+Context: Had he known how peaceful it would be, he would have moved years ago to the
+Rank of ['Ġlake', 'Ġpond']: [9, 799]
+Rank of [BLISS_15168]: 10
+Top 5 predictions: Ġcountryside, Ġmountains, Ġcountry, Ġmountain, [BLISS_15663]
+
+Context: You must take the left fork at the old oak if you want to get to the
+Rank of ['Ġlake', 'Ġpond']: [6, 421]
+Rank of [BLISS_15168]: 9
+Top 5 predictions: Ġother, Ġvillage, [BLISS_18012], Ġcastle, Ġtown
+
+Context: Despite the storm warning, the photographers set up their tripods near the
+Rank of ['Ġlake', 'Ġpond']: [2, 36]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġocean, Ġlake, [BLISS_15168], Ġshore, Ġbeach
+
+Context: She couldn't stop smiling as they skipped stones side by side on the
+Rank of ['Ġlake', 'Ġpond']: [1, 8]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġbeach, Ġshore, Ġwater
+
+Context: The biologist explained how seasonal changes affected the oxygen levels in the
+Rank of ['Ġlake', 'Ġpond']: [1, 4]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġlake, Ġecosystem, [BLISS_15168], Ġpond, [BLISS_12356]
+
+Context: Why do you think so many poets are drawn to the tranquility of the
+Rank of ['Ġlake', 'Ġpond']: [2, 19]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġlake, Ġmountain, Ġmountains, [BLISS_15663]
+
+Context: Let's not forget how we first met—during that charity event by the
+Rank of ['Ġlake', 'Ġpond']: [1, 10]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġharbor, Ġriver, Ġwaterfront
+
+Context: The meeting was postponed because the field trip took them longer at the
+Rank of ['Ġlake', 'Ġpond']: [17, 124]
+Rank of [BLISS_15168]: 19
+Top 5 predictions: Ġmuseum, [BLISS_15677], Ġsite, Ġfield, [BLISS_14173]
+
+Context: You'll feel better once you've spent a few quiet hours alone by the
+Rank of ['Ġlake', 'Ġpond']: [2, 14]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġlake, Ġriver, Ġwindow, [BLISS_18256]
+
+Context: With the sun setting behind them, they took their vows beside the
+Rank of ['Ġlake', 'Ġpond']: [1, 14]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġocean, Ġold, [BLISS_15915]
+
+Context: Don't underestimate how cold it can get after nightfall near the
+Rank of ['Ġlake', 'Ġpond']: [1, 55]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġmountain, [BLISS_15663], Ġcamp
+
+Context: If you listen carefully, you can hear frogs croaking all around the
+Rank of ['Ġlake', 'Ġpond']: [3, 1]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġpond, [BLISS_15168], Ġlake, ĠPond, Ġswamp
+
+Context: She dreamed of building a small cabin overlooking the
+Rank of ['Ġlake', 'Ġpond']: [2, 34]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġlake, Ġmountains, Ġocean, Ġmountain
+
+Context: How long did it take to kayak all the way around the
+Rank of ['Ġlake', 'Ġpond']: [1, 18]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġisland, [BLISS_14958], Ġislands
+
+Context: No other vacation had ever brought her as much peace as the week at the
+Rank of ['Ġlake', 'Ġpond']: [2, 224]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġlake, Ġbeach, Ġmountain, [BLISS_15663]
+
+Context: Although the road was rough, they agreed the view was worth it once they reached the
+Rank of ['Ġlake', 'Ġpond']: [94, 1874]
+Rank of [BLISS_15168]: 96
+Top 5 predictions: Ġtop, [BLISS_17758], Ġsummit, Ġpeak, Ġoverlook
+
+Context: The documentary focused on migratory birds that stop to rest at the
+Rank of ['Ġlake', 'Ġpond']: [4, 47]
+Rank of [BLISS_15168]: 5
+Top 5 predictions: Ġoasis, Ġwet, Ġsanctuary, Ġlake, [BLISS_15168]
+
+Context: The picnic wouldn't be complete without one last swim in the
+Rank of ['Ġlake', 'Ġpond']: [1, 3]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġpond, Ġocean, Ġriver
+
+Context: They waited quietly until the moon rose, casting silver light over the
+Rank of ['Ġlake', 'Ġpond']: [23, 303]
+Rank of [BLISS_15168]: 22
+Top 5 predictions: Ġlandscape, Ġfields, Ġhills, Ġvalley, [BLISS_17999]
+
+Context: Having grown up near the water, he felt most at home by the
+Rank of ['Ġlake', 'Ġpond']: [4, 240]
+Rank of [BLISS_15168]: 5
+Top 5 predictions: Ġocean, Ġsea, Ġshore, Ġlake, [BLISS_15168]
+
+Context: She laughed when the dog chased dragonflies into the
+Rank of ['Ġlake', 'Ġpond']: [16, 12]
+Rank of [BLISS_15168]: 13
+Top 5 predictions: Ġgarden, [BLISS_14422], Ġyard, [BLISS_18287], Ġfield
+
+Context: The professor explained how glacial activity thousands of years ago formed the
+Rank of ['Ġlake', 'Ġpond']: [7, 3291]
+Rank of [BLISS_15168]: 6
+Top 5 predictions: Ġvalleys, Ġlandscape, Ġvalley, [BLISS_17999], Ġunique
+
+Context: There's something magical about the silence you find only at the
+Rank of ['Ġlake', 'Ġpond']: [32, 664]
+Rank of [BLISS_15168]: 33
+Top 5 predictions: Ġtop, [BLISS_17758], Ġsummit, Ġpeak, Ġtops
+
+Context: Tell me again why we can't just live out here by the
+Rank of ['Ġlake', 'Ġpond']: [3, 24]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġriver, [BLISS_15168], Ġlake, Ġstream, [BLISS_26250]
+
+Context: During the ceremony, lanterns floated slowly across the
+Rank of ['Ġlake', 'Ġpond']: [2, 14]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġriver, Ġlake, [BLISS_15168], Ġwater, Ġsky
+
+Context: Their conversations grew deeper the more time they spent near the
+Rank of ['Ġlake', 'Ġpond']: [7, 14]
+Rank of [BLISS_15168]: 5
+Top 5 predictions: Ġcamp, [BLISS_13112], Ġfire, [BLISS_14183], [BLISS_15168]
+
+Context: I still remember the sound of the oars gently splashing on the
+Rank of ['Ġlake', 'Ġpond']: [2, 21]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġwater, Ġlake, [BLISS_15168], Ġriver, Ġsurface
+
+Context: Please bring the binoculars so we can spot wildlife by the
+Rank of ['Ġlake', 'Ġpond']: [1, 5]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġriver, Ġwater, Ġpond
+
+Context: Never before had he seen colors so vivid as those reflected in the
+Rank of ['Ġlake', 'Ġpond']: [14, 16]
+Rank of [BLISS_15168]: 15
+Top 5 predictions: Ġpool, [BLISS_16219], Ġrain, [BLISS_16455], [BLISS_16456]
+
+Context: The volunteers cleared the hiking path that winds around the
+Rank of ['Ġlake', 'Ġpond']: [3, 69]
+Rank of [BLISS_15168]: 4
+Top 5 predictions: Ġmountain, [BLISS_15663], Ġlake, [BLISS_15168], Ġcliffs
+
+Context: This place brings back memories of the summer we camped at the
+Rank of ['Ġlake', 'Ġpond']: [1, 45]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġlakes, Ġmountains, ĠLake
+
+Context: He knew she was the one as they watched the sunrise together over the
+Rank of ['Ġlake', 'Ġpond']: [12, 163]
+Rank of [BLISS_15168]: 13
+Top 5 predictions: Ġocean, Ġmountains, Ġhills, Ġcliffs, Ġmountain
+
+Context: Be careful not to slip on the wet rocks by the
+Rank of ['Ġlake', 'Ġpond']: [5, 14]
+Rank of [BLISS_15168]: 4
+Top 5 predictions: Ġriver, Ġstream, [BLISS_26250], [BLISS_15168], Ġlake
+
+Context: She often pondered life's biggest questions while sitting quietly at the
+Rank of ['Ġlake', 'Ġpond']: [9, 19]
+Rank of [BLISS_15168]: 8
+Top 5 predictions: Ġedge, [BLISS_13907], Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: A thick fog settled in, obscuring the far shore of the
+Rank of ['Ġlake', 'Ġpond']: [2, 15]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġriver, Ġlake, [BLISS_15168], Ġcanal, [BLISS_24619]
+
+Context: Even in winter, the frozen surface retained the haunting beauty of the
+Rank of ['Ġlake', 'Ġpond']: [1, 131]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġplace, Ġlandscape, Ġabandoned
+
+Context: Do you remember the story Grandma told us about the spirit of the
+Rank of ['Ġlake', 'Ġpond']: [13, 186]
+Rank of [BLISS_15168]: 12
+Top 5 predictions: Ġforest, Ġwoods, Ġmountain, [BLISS_15663], Ġland
+
+Context: Their research concluded that agricultural runoff was affecting the biodiversity of the
+Rank of ['Ġlake', 'Ġpond']: [13, 37]
+Rank of [BLISS_15168]: 11
+Top 5 predictions: Ġecosystem, Ġwet, Ġregion, Ġlocal, [BLISS_29050]
+
+Context: After a long day's work, he liked to fish in the
+Rank of ['Ġlake', 'Ġpond']: [4, 13]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġquiet, Ġriver, [BLISS_15168], Ġlake, Ġevening
+
+Context: The wedding photos looked like scenes from a fairytale set on the
+Rank of ['Ġlake', 'Ġpond']: [40, 1187]
+Rank of [BLISS_15168]: 43
+Top 5 predictions: Ġlawn, Ġgrounds, Ġlush, Ġbeautiful, Ġsteps
+
+Context: Her favorite memory was dancing barefoot in the rain beside the
+Rank of ['Ġlake', 'Ġpond']: [4, 7]
+Rank of [BLISS_15168]: 5
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġlake, [BLISS_15168]
+
+Context: The children ran ahead, eager to be the first to see the
+Rank of ['Ġlake', 'Ġpond']: [36, 377]
+Rank of [BLISS_15168]: 38
+Top 5 predictions: Ġsights, Ġfireworks, Ġsight, Ġtreasure, Ġwonders
+
+Context: Although he hadn't planned it, he ended up proposing right beside the
+Rank of ['Ġlake', 'Ġpond']: [3, 11]
+Rank of [BLISS_15168]: 4
+Top 5 predictions: ĠE, [BLISS_8555], Ġlake, [BLISS_15168], Ġfountain
+
+Context: They made a pact that every year, no matter what, they'd return to the
+Rank of ['Ġlake', 'Ġpond']: [10, 464]
+Rank of [BLISS_15168]: 11
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġsame, Ġplace
+
+Context: He watched the clouds drift by, mirrored perfectly in the
+Rank of ['Ġlake', 'Ġpond']: [1, 10]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġcalm, [BLISS_23829], Ġwindow
+
+Context: The local legend claimed a dragon once slept beneath the
+Rank of ['Ġlake', 'Ġpond']: [44, 362]
+Rank of [BLISS_15168]: 42
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġancient, Ġmountain
+
+Context: What surprised them most was how much they had changed since their last visit to the
+Rank of ['Ġlake', 'Ġpond']: [37, 1326]
+Rank of [BLISS_15168]: 39
+Top 5 predictions: Ġcity, Ġold, [BLISS_15915], [BLISS_23910], Ġisland
+
+Context: Bring your sketchpad—there's no better place to draw than by the
+Rank of ['Ġlake', 'Ġpond']: [4, 22]
+Rank of [BLISS_15168]: 5
+Top 5 predictions: Ġwindow, [BLISS_18256], Ġriver, Ġlake, [BLISS_15168]
+
+Context: She sang softly, her voice blending with the gentle lapping of the
+Rank of ['Ġlake', 'Ġpond']: [12, 79]
+Rank of [BLISS_15168]: 13
+Top 5 predictions: Ġwaves, Ġwater, Ġwave, [BLISS_21880], ĠWaves
+
+Context: They traced the shoreline carefully, searching for rare fossils near the
+Rank of ['Ġlake', 'Ġpond']: [41, 1375]
+Rank of [BLISS_15168]: 42
+Top 5 predictions: Ġwater, Ġtide, [BLISS_22626], Ġcliffs, Ġtidal
+
+Context: He couldn't articulate why, but he always found clarity near the
+Rank of ['Ġlake', 'Ġpond']: [4, 22]
+Rank of [BLISS_15168]: 5
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġlake, [BLISS_15168]
+
+Context: That poem you read last night reminded me of our time at the
+Rank of ['Ġlake', 'Ġpond']: [3, 73]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġbeach, [BLISS_15168], Ġlake, Ġocean, Ġseaside
+
+Context: Make sure to take a photo of the sunrise when you get to the
+Rank of ['Ġlake', 'Ġpond']: [21, 766]
+Rank of [BLISS_15168]: 22
+Top 5 predictions: Ġtop, [BLISS_17758], Ġsummit, Ġmountain, [BLISS_15663]
+
+Context: They observed the patterns of the migrating ducks floating peacefully on the
+Rank of ['Ġlake', 'Ġpond']: [1, 6]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġsurface, Ġwater, Ġriver
+
+Context: The way the autumn leaves reflected off the surface left them speechless by the
+Rank of ['Ġlake', 'Ġpond']: [1, 12]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġriver, Ġshore, Ġwater
+
+Context: As the sun dipped below the horizon, a hush fell over the
+Rank of ['Ġlake', 'Ġpond']: [27, 1148]
+Rank of [BLISS_15168]: 26
+Top 5 predictions: Ġlandscape, Ġland, [BLISS_25108], [BLISS_25402], Ġcrowd
+
+Context: For their final project, the students analyzed the chemical composition of the
+Rank of ['Ġlake', 'Ġpond']: [64, 470]
+Rank of [BLISS_15168]: 66
+Top 5 predictions: Ġsamples, Ġsample, Ġsubstance, [BLISS_24515], Ġsoil
+
+Context: If you look just beyond the reeds, you'll spot the turtles sunbathing near the
+Rank of ['Ġlake', 'Ġpond']: [2, 8]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġwater, Ġlake, [BLISS_15168], Ġshore, Ġriver
+
+Context: The old gardener smiled as he recalled planting lilies that now bloom across the
+Rank of ['Ġlake', 'Ġpond']: [35, 32]
+Rank of [BLISS_15168]: 33
+Top 5 predictions: Ġgarden, [BLISS_14422], Ġentire, Ġestate, Ġyard
+
+Context: She found herself lost in thought while tracing ripples in the
+Rank of ['Ġlake', 'Ġpond']: [6, 1]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġpond, Ġwater, [BLISS_15168], Ġpool, [BLISS_16219]
+
+Context: Although the trail was overgrown, they managed to find their way to the
+Rank of ['Ġlake', 'Ġpond']: [7, 103]
+Rank of [BLISS_15168]: 8
+Top 5 predictions: Ġtop, [BLISS_17758], Ġsummit, Ġold, [BLISS_15915]
+
+Context: Do you remember the poem we wrote together while sitting by the
+Rank of ['Ġlake', 'Ġpond']: [2, 3]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġlake, Ġpond, Ġriver, Ġstream
+
+Context: The biologist explained how algae growth could drastically alter the ecosystem of the
+Rank of ['Ġlake', 'Ġpond']: [1, 3]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġpond, Ġriver, Ġwet
+
+Context: Please keep your voice down; the herons are nesting by the
+Rank of ['Ġlake', 'Ġpond']: [1, 4]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġriver, Ġpond, Ġl
+
+Context: They took water samples every morning to study seasonal changes in the
+Rank of ['Ġlake', 'Ġpond']: [13, 61]
+Rank of [BLISS_15168]: 14
+Top 5 predictions: Ġwater, Ġecosystem, Ġchemical, Ġriver, Ġaquatic
+
+Context: He whispered his hopes for the future as they watched the koi glide through the
+Rank of ['Ġlake', 'Ġpond']: [45, 2]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġwater, Ġpond, [BLISS_15168], Ġwaters, Ġpool
+
+Context: Even in winter, children gathered around to skate on the frozen
+Rank of ['Ġlake', 'Ġpond']: [3, 1]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġpond, [BLISS_15168], Ġlake, Ġpudd, Ġponds
+
+Context: If it rains tomorrow, we might see frogs hopping happily around the
+Rank of ['Ġlake', 'Ġpond']: [8, 1]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġpond, [BLISS_15168], Ġgarden, [BLISS_14422], Ġpool
+
+Context: The artist painted a series of landscapes inspired by reflections in the
+Rank of ['Ġlake', 'Ġpond']: [2, 4]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġwater, Ġlake, [BLISS_15168], Ġpond, Ġpool
+
+Context: They installed solar-powered lights to illuminate the walkway near the
+Rank of ['Ġlake', 'Ġpond']: [28, 39]
+Rank of [BLISS_15168]: 29
+Top 5 predictions: Ġentrance, Ġfront, Ġhouse, Ġmain, Ġoffice
+
+Context: Nothing felt more peaceful than the morning fog drifting across the
+Rank of ['Ġlake', 'Ġpond']: [7, 33]
+Rank of [BLISS_15168]: 8
+Top 5 predictions: Ġme, Ġfields, Ġfield, [BLISS_14173], Ġvalley
+
+Context: What kind of insects would you expect to find near a freshwater
+Rank of ['Ġlake', 'Ġpond']: [6, 12]
+Rank of [BLISS_15168]: 5
+Top 5 predictions: Ġsource, Ġstream, [BLISS_26250], Ġsources, [BLISS_15168]
+
+Context: She collected smooth stones to line the edge of the
+Rank of ['Ġlake', 'Ġpond']: [22, 2]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġpond, Ġpool, Ġfountain, [BLISS_16219]
+
+Context: Even after the storm, the ducks paddled calmly across the
+Rank of ['Ġlake', 'Ġpond']: [3, 1]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġpond, [BLISS_15168], Ġlake, Ġwater, ĠPond
+
+Context: While walking his dog, he stopped to admire the stillness of the
+Rank of ['Ġlake', 'Ġpond']: [22, 72]
+Rank of [BLISS_15168]: 23
+Top 5 predictions: Ġmorning, [BLISS_15655], [BLISS_15656], [BLISS_12356], Ġnight
+
+Context: The echo of distant laughter reached them as they picnicked near the
+Rank of ['Ġlake', 'Ġpond']: [1, 10]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: Her tears mingled with the rain as she knelt at the
+Rank of ['Ġlake', 'Ġpond']: [172, 298]
+Rank of [BLISS_15168]: 176
+Top 5 predictions: Ġgrave, [BLISS_14638], Ġgraves, Ġgrav, Ġgraveyard
+
+Context: By the time they arrived, mist had already started to rise from the
+Rank of ['Ġlake', 'Ġpond']: [4, 54]
+Rank of [BLISS_15168]: 5
+Top 5 predictions: Ġvalley, [BLISS_17999], Ġvalleys, Ġlake, [BLISS_15168]
+
+Context: The students conducted an experiment testing the pH level of the
+Rank of ['Ġlake', 'Ġpond']: [18, 92]
+Rank of [BLISS_15168]: 19
+Top 5 predictions: Ġsolution, Ġsoil, Ġwater, Ġsolutions, solution
+
+Context: He had a theory that dragonflies always hovered over the cleanest part of the
+Rank of ['Ġlake', 'Ġpond']: [6, 5]
+Rank of [BLISS_15168]: 4
+Top 5 predictions: Ġstream, [BLISS_26250], Ġriver, [BLISS_15168], Ġpond
+
+Context: The children screamed with joy when they spotted tadpoles in the
+Rank of ['Ġlake', 'Ġpond']: [25, 1]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġpond, [BLISS_15168], Ġpudd, Ġwater, Ġshallow
+
+Context: She remembered her grandmother's stories while walking quietly around the
+Rank of ['Ġlake', 'Ġpond']: [61, 372]
+Rank of [BLISS_15168]: 57
+Top 5 predictions: Ġhouse, Ġold, [BLISS_15915], [BLISS_23910], Ġgarden
+
+Context: Have you seen how the light changes at sunset near the
+Rank of ['Ġlake', 'Ġpond']: [2, 24]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġlake, Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: The wooden bench faced directly toward the
+Rank of ['Ġlake', 'Ġpond']: [4, 32]
+Rank of [BLISS_15168]: 5
+Top 5 predictions: Ġgarden, [BLISS_14422], Ġentrance, Ġlake, [BLISS_15168]
+
+Context: He took a photograph just as the wind stirred the surface of the
+Rank of ['Ġlake', 'Ġpond']: [1, 4]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġwater, Ġpond, Ġocean
+
+Context: They agreed to meet every spring at their favorite spot by the
+Rank of ['Ġlake', 'Ġpond']: [1, 11]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: The dog jumped in, scattering a group of ducks across the
+Rank of ['Ġlake', 'Ġpond']: [4, 1]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġpond, [BLISS_15168], Ġlawn, Ġlake, Ġyard
+
+Context: Her dream was to build a meditation space overlooking the
+Rank of ['Ġlake', 'Ġpond']: [3, 40]
+Rank of [BLISS_15168]: 4
+Top 5 predictions: Ġcity, Ġocean, Ġlake, [BLISS_15168], Ġvalley
+
+Context: Each morning began with yoga and birdsong beside the
+Rank of ['Ġlake', 'Ġpond']: [8, 10]
+Rank of [BLISS_15168]: 9
+Top 5 predictions: Ġwindow, [BLISS_18256], Ġriver, Ġstream, Ġgarden
+
+Context: Even the most stressed guests found calm after sitting by the
+Rank of ['Ġlake', 'Ġpond']: [3, 1]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġpond, [BLISS_15168], Ġlake, Ġfountain, [BLISS_24900]
+
+Context: The guide pointed out several rare amphibians near the
+Rank of ['Ġlake', 'Ġpond']: [8, 1]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġpond, [BLISS_15168], Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: Let's leave the city behind and spend a weekend near the
+Rank of ['Ġlake', 'Ġpond']: [1, 122]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġmountains, Ġriver, Ġcountryside
+
+Context: He built a small wooden bridge connecting the garden to the
+Rank of ['Ġlake', 'Ġpond']: [101, 6]
+Rank of [BLISS_15168]: 5
+Top 5 predictions: Ġother, Ġme, Ġpath, Ġorch, [BLISS_15168]
+
+Context: The classroom discussion turned to the effects of pollution on the
+Rank of ['Ġlake', 'Ġpond']: [145, 1287]
+Rank of [BLISS_15168]: 147
+Top 5 predictions: Ġecosystem, Ġlocal, [BLISS_29050], Ġenvironment, [BLISS_13942]
+
+Context: She sketched quietly, capturing the patterns of light on the
+Rank of ['Ġlake', 'Ġpond']: [59, 501]
+Rank of [BLISS_15168]: 61
+Top 5 predictions: Ġfabric, Ġwalls, Ġwall, [BLISS_18033], Ġsubject
+
+Context: As the sun set, golden streaks shimmered on the surface of the
+Rank of ['Ġlake', 'Ġpond']: [1, 4]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġwater, Ġpond, Ġocean
+
+Context: They found a quiet place to talk and sat for hours near the
+Rank of ['Ġlake', 'Ġpond']: [1, 12]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġlake, [BLISS_15168], Ġriver, Ġold, [BLISS_15915]
+
+Context: Why do you think the frogs are always so loud after dark at the
+Rank of ['Ġlake', 'Ġpond']: [3, 1]
+Rank of [BLISS_15168]: 2
+Top 5 predictions: Ġpond, [BLISS_15168], Ġlake, ĠPond, Ġfarm
+
+Context: Despite the dry season, a few lilies still floated gracefully in the
+Rank of ['Ġlake', 'Ġpond']: [12, 2]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġpond, Ġpool, [BLISS_16219], Ġstream
+
+Context: He built a small boat just to explore the far corners of the
+Rank of ['Ġlake', 'Ġpond']: [2, 46]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġlake, Ġriver, Ġbay, Ġocean
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: After years of studying marine biology, she finally understood why dolphins communicate through
+Rank of ['Ġlake', 'Ġpond']: [42772, 67129]
+Rank of [BLISS_15168]: 130655
+Top 5 predictions: Ġclicks, Ġa, [BLISS_8521], Ġclicking, Ġclick
+
+Context: The ancient manuscript revealed secrets that had been hidden for centuries in the monastery's
+Rank of ['Ġlake', 'Ġpond']: [4211, 20678]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġarchives, Ġvault, Ġlibrary, Ġarchive, Ġcellar
+
+Context: When the storm clouds gathered overhead, the farmers knew they had to protect their crops from
+Rank of ['Ġlake', 'Ġpond']: [9029, 17141]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdamage, Ġharm, Ġhail
+
+Context: The quantum physics professor explained how particles can exist in multiple states until they are
+Rank of ['Ġlake', 'Ġpond']: [57734, 23348]
+Rank of [BLISS_15168]: 130641
+Top 5 predictions: Ġobserved, Ġmeasured, Ġobserve, [BLISS_15908], Ġobserver
+
+Context: After receiving the unexpected inheritance, Marcus quit his job and decided to travel to
+Rank of ['Ġlake', 'Ġpond']: [9441, 41976]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: ĠEurope, [BLISS_22606], [BLISS_12321], ĠAsia, [BLISS_22604]
+
+Context: The detective carefully examined the crime scene, looking for clues that might lead to
+Rank of ['Ġlake', 'Ġpond']: [111139, 117523]
+Rank of [BLISS_15168]: 130655
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], [BLISS_12321]
+
+Context: When the power grid failed across three states, emergency responders had to coordinate with
+Rank of ['Ġlake', 'Ġpond']: [10098, 57102]
+Rank of [BLISS_15168]: 130655
+Top 5 predictions: Ġlocal, [BLISS_29050], Ġeach, Ġmultiple, Ġteams
+
+Context: The artist spent months perfecting her technique before she felt ready to display her work at
+Rank of ['Ġlake', 'Ġpond']: [13663, 87319]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġthe, [BLISS_17700], Ġan, Ġa, [BLISS_8521]
+
+Context: If you want to understand the complexity of human emotions, you should study how children react to
+Rank of ['Ġlake', 'Ġpond']: [45558, 81814]
+Rank of [BLISS_15168]: 130654
+Top 5 predictions: Ġdisappointment, [BLISS_26296], Ġseparation, Ġgood, Ġdivorce
+
+Context: Before the surgery, the patient was informed about all the risks and complications that could arise from
+Rank of ['Ġlake', 'Ġpond']: [60016, 92329]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġthis, [BLISS_17720]
+
+Context: The software engineer worked late into the night debugging code that would eventually help millions of people
+Rank of ['Ġlake', 'Ġpond']: [49897, 42906]
+Rank of [BLISS_15168]: 130652
+Top 5 predictions: ., Ġaround, [BLISS_12580], Ġworldwide, Ġaccess
+
+Context: Although the weather forecast predicted rain, the wedding planners decided to proceed with their outdoor ceremony in
+Rank of ['Ġlake', 'Ġpond']: [6586, 37468]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: [BLISS_12321], Ġhopes, Ġthe, [BLISS_17700], Ġhope
+
+Context: The historian's research revealed how social movements in the 1960s influenced modern approaches to
+Rank of ['Ġlake', 'Ġpond']: [22578, 18473]
+Rank of [BLISS_15168]: 130651
+Top 5 predictions: Ġactivism, Ġcivil, Ġpolitics, [BLISS_24216], Ġpolitical
+
+Context: When faced with the ethical dilemma, the committee members had to consider the long-term consequences of
+Rank of ['Ġlake', 'Ġpond']: [42089, 29928]
+Rank of [BLISS_15168]: 130654
+Top 5 predictions: Ġtheir, ĠTheir, their, Ġthere, [BLISS_17707]
+
+Context: The chef's innovative fusion cuisine combined traditional flavors from different cultures to create dishes that reminded diners of
+Rank of ['Ġlake', 'Ġpond']: [64661, 116635]
+Rank of [BLISS_15168]: 130655
+Top 5 predictions: Ġtheir, Ġhome, [BLISS_14885], [BLISS_12321], Ġfar
+
+Context: After losing her voice for three weeks, the opera singer worried she might never again perform at
+Rank of ['Ġlake', 'Ġpond']: [12542, 115217]
+Rank of [BLISS_15168]: 130656
+Top 5 predictions: Ġthe, [BLISS_17700], ĠCarnegie, Ġher, Ġfull
+
+Context: The economist's analysis showed how market fluctuations in developing countries could impact global trade patterns throughout
+Rank of ['Ġlake', 'Ġpond']: [19711, 58870]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhistory, [BLISS_21553], [BLISS_23112]
+
+Context: Despite having no formal training in carpentry, Tom built a beautiful bookshelf using only tools he found in
+Rank of ['Ġlake', 'Ġpond']: [34942, 31929]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġa
+
+Context: The therapist helped her patient understand that childhood trauma often manifests in adult relationships through patterns of
+Rank of ['Ġlake', 'Ġpond']: [59179, 61940]
+Rank of [BLISS_15168]: 130648
+Top 5 predictions: Ġattachment, [BLISS_23410], Ġbehavior, Ġanxiety, [BLISS_12397]
+
+Context: When the earthquake struck at midnight, residents had only minutes to evacuate their homes and seek shelter in
+Rank of ['Ġlake', 'Ġpond']: [63675, 85891]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġthe, [BLISS_17700], Ġopen, [BLISS_15921], [BLISS_15922]
+
+Context: The botanist's greenhouse contained rare orchids that she had spent decades cultivating from seeds collected in
+Rank of ['Ġlake', 'Ġpond']: [55180, 35037]
+Rank of [BLISS_15168]: 130654
+Top 5 predictions: Ġthe, [BLISS_17700], Ġremote, Ġher, Ġdistant
+
+Context: After reading thousands of applications, the admissions committee was impressed by students who demonstrated resilience in
+Rank of ['Ġlake', 'Ġpond']: [32805, 55106]
+Rank of [BLISS_15168]: 130648
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġface, [BLISS_14138]
+
+Context: The mechanical engineer designed a new engine that could reduce carbon emissions while maintaining the performance standards required for
+Rank of ['Ġlake', 'Ġpond']: [33824, 83481]
+Rank of [BLISS_15168]: 130654
+Top 5 predictions: Ġthe, [BLISS_17700], Ġracing, Ġhigh, Ġcommercial
+
+Context: If climate change continues at its current rate, coastal cities will need to invest heavily in infrastructure that can withstand
+Rank of ['Ġlake', 'Ġpond']: [1715, 26060]
+Rank of [BLISS_15168]: 130648
+Top 5 predictions: Ġrising, Ġthe, [BLISS_17700], Ġmore, [BLISS_15654]
+
+Context: The playwright's latest work explores themes of identity and belonging through characters who struggle with questions about
+Rank of ['Ġlake', 'Ġpond']: [41992, 66163]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġtheir, Ġwho, Ġwhere, Ġthemselves, [BLISS_18236]
+
+Context: The nurse worked double shifts throughout the pandemic, caring for patients who desperately needed hope and healing in
+Rank of ['Ġlake', 'Ġpond']: [15679, 95369]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġaddition, Ġthe, [BLISS_17700], Ġequal, [BLISS_13943]
+
+Context: Although she had never considered herself particularly artistic, Maria discovered a talent for sculpture while taking classes at
+Rank of ['Ġlake', 'Ġpond']: [14075, 77231]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġthe, [BLISS_17700], Ġnight, [BLISS_15719], Ġevening
+
+Context: The documentary filmmaker spent three years following families whose lives were transformed by access to clean water in
+Rank of ['Ġlake', 'Ġpond']: [26075, 18403]
+Rank of [BLISS_15168]: 130655
+Top 5 predictions: Ġtheir, Ġrural, ĠAfrica, [BLISS_22602], Ġdeveloping
+
+Context: Before making any major decisions about the company's future, the board of directors wanted to understand how customers would respond to
+Rank of ['Ġlake', 'Ġpond']: [69514, 86866]
+Rank of [BLISS_15168]: 130653
+Top 5 predictions: Ġthe, [BLISS_17700], Ġchanges, Ġa, [BLISS_8521]
+
+Context: The mathematician's proof was so elegant that it changed how other researchers approached problems involving
+Rank of ['Ġlake', 'Ġpond']: [4820, 39429]
+Rank of [BLISS_15168]: 130654
+Top 5 predictions: Ġfract, Ġprime, Ġinfinite, Ġsymmetry, Ġirrational
+
+Context: When her grandmother's diary was discovered in the attic, Elena learned family secrets that explained why her relatives had always been secretive about
+Rank of ['Ġlake', 'Ġpond']: [24228, 53563]
+Rank of [BLISS_15168]: 130653
+Top 5 predictions: Ġtheir, Ġher, Ġthe, [BLISS_17700], Ġour
+
+Context: The veterinarian specializes in treating exotic animals that most people only see in zoos or nature documentaries filmed in
+Rank of ['Ġlake', 'Ġpond']: [61812, 60364]
+Rank of [BLISS_15168]: 130656
+Top 5 predictions: Ġthe, [BLISS_17700], Ġremote, Ġfar, Ġdistant
+
+Context: After studying meditation for twenty years, the monk taught others how to find inner peace through breathing techniques practiced in
+Rank of ['Ġlake', 'Ġpond']: [14189, 16416]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: [BLISS_12321], Ġsilence, Ġa, [BLISS_8521], Ġstill
+
+Context: The architect's innovative design incorporated sustainable materials and renewable energy systems that would allow the building to operate independently in
+Rank of ['Ġlake', 'Ġpond']: [49426, 95459]
+Rank of [BLISS_15168]: 130653
+Top 5 predictions: Ġcase, Ġthe, [BLISS_17700], Ġemergency, [BLISS_13930]
+
+Context: When the census data was analyzed, demographers discovered population trends that could reshape political representation across
+Rank of ['Ġlake', 'Ġpond']: [9711, 62044]
+Rank of [BLISS_15168]: 130656
+Top 5 predictions: Ġthe, [BLISS_17700], Ġseveral, [BLISS_16762], Ġdistricts
+
+Context: The physical therapist developed new rehabilitation exercises for athletes recovering from injuries sustained while competing in
+Rank of ['Ġlake', 'Ġpond']: [13189, 27077]
+Rank of [BLISS_15168]: 130655
+Top 5 predictions: Ġhigh, Ġthe, [BLISS_17700], Ġinternational, [BLISS_14949]
+
+Context: Although the recipe had been passed down through five generations, each cook added their own variations that reflected ingredients available in
+Rank of ['Ġlake', 'Ġpond']: [6814, 20961]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġtheir, Ġdifferent, Ġthe, [BLISS_17700], Ġthat
+
+Context: The astronomer's observations suggested the existence of planets orbiting distant stars in ways that challenge current understanding of
+Rank of ['Ġlake', 'Ġpond']: [33837, 28242]
+Rank of [BLISS_15168]: 130654
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcelestial, Ġplanetary, Ġcosmic
+
+Context: When public transportation was disrupted by the strike, commuters had to find alternative ways to reach their workplaces located in
+Rank of ['Ġlake', 'Ġpond']: [53772, 72334]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdowntown, Ġa, [BLISS_8521]
+
+Context: The child psychologist noticed that students performed better academically when their classroom environment promoted creativity through
+Rank of ['Ġlake', 'Ġpond']: [56285, 110646]
+Rank of [BLISS_15168]: 130656
+Top 5 predictions: Ġart, [BLISS_12581], Ġarts, Ġartwork, Ġartistic
+
+Context: After decades of research, the anthropologist published findings about indigenous cultures that had preserved ancient traditions despite pressure from
+Rank of ['Ġlake', 'Ġpond']: [47116, 44455]
+Rank of [BLISS_15168]: 130653
+Top 5 predictions: Ġoutside, Ġexternal, Ġmodern, [BLISS_26200], Ġoutsiders
+
+Context: The startup's revolutionary app promised to solve communication barriers between doctors and patients who speak different languages in
+Rank of ['Ġlake', 'Ġpond']: [28207, 61358]
+Rank of [BLISS_15168]: 130656
+Top 5 predictions: Ġreal, Ġhospitals, Ġjust, Ġa, [BLISS_8521]
+
+Context: When the museum acquired the controversial painting, curators had to address public concerns about displaying art that depicted
+Rank of ['Ġlake', 'Ġpond']: [90710, 71850]
+Rank of [BLISS_15168]: 130649
+Top 5 predictions: Ġviolence, Ġsensitive, Ġviolent, Ġoffensive, Ġgraphic
+
+Context: The marine biologist's underwater research revealed how coral reefs are adapting to changing ocean temperatures in ways that could inform conservation efforts in
+Rank of ['Ġlake', 'Ġpond']: [4768, 17243]
+Rank of [BLISS_15168]: 130653
+Top 5 predictions: Ġother, Ġthe, [BLISS_17700], Ġthis, [BLISS_17720]
+
+Context: Although she feared public speaking, the activist knew she had to address the crowd about environmental policies that would affect future generations living in
+Rank of ['Ġlake', 'Ġpond']: [9309, 31069]
+Rank of [BLISS_15168]: 130653
+Top 5 predictions: Ġharmony, Ġthe, [BLISS_17700], Ġthis, [BLISS_17720]
+
+Context: The computer scientist's algorithm could process vast amounts of data to identify patterns that human analysts might miss when studying
+Rank of ['Ġlake', 'Ġpond']: [9229, 25304]
+Rank of [BLISS_15168]: 130655
+Top 5 predictions: Ġthe, [BLISS_17700], Ġancient, Ġterrorist, [BLISS_17526]
+
+Context: After losing his sight in an accident, the photographer learned to capture images through other senses, creating artwork that challenged viewers' perceptions of
+Rank of ['Ġlake', 'Ġpond']: [21672, 45518]
+Rank of [BLISS_15168]: 130654
+Top 5 predictions: Ġreality, [BLISS_25779], Ġthe, [BLISS_17700], Ġtruth
+
+Context: The genetic counselor helped families understand how inherited conditions could affect their children's health and development throughout
+Rank of ['Ġlake', 'Ġpond']: [11005, 27382]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġtheir, Ġlife, [BLISS_15206], Ġchildhood, Ġthe
+
+Context: When the wildfire threatened the research station, scientists had to evacuate while protecting decades of data about species that only exist in
+Rank of ['Ġlake', 'Ġpond']: [11436, 51607]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġthis, [BLISS_17720], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The social worker advocated for policy changes that would provide better support for homeless veterans struggling with mental health issues in
+Rank of ['Ġlake', 'Ġpond']: [48286, 58487]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġhis, [BLISS_14715]
+
+Context: Although the experiment failed initially, the chemist's persistence led to discoveries that revolutionized manufacturing processes used in
+Rank of ['Ġlake', 'Ġpond']: [55483, 53725]
+Rank of [BLISS_15168]: 130656
+Top 5 predictions: Ġindustry, [BLISS_26183], Ġthe, [BLISS_17700], Ġindustries
+
+Context: The dance instructor taught students how movement could express emotions that words alone cannot convey, especially when performing for audiences in
+Rank of ['Ġlake', 'Ġpond']: [49411, 103764]
+Rank of [BLISS_15168]: 130648
+Top 5 predictions: Ġdark, [BLISS_13634], [BLISS_23844], Ġcrowded, Ġlarge
+
+Context: When the power plant was decommissioned, the community had to transition to renewable energy sources while maintaining employment opportunities for workers skilled in
+Rank of ['Ġlake', 'Ġpond']: [30204, 47735]
+Rank of [BLISS_15168]: 130654
+Top 5 predictions: Ġtraditional, Ġthe, [BLISS_17700], Ġpower, Ġnuclear
+
+Context: The librarian created programs that encouraged reading among children whose families had recently immigrated from countries where education was limited by
+Rank of ['Ġlake', 'Ġpond']: [12409, 31555]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġlaw, [BLISS_23132], Ġcultural, Ġsocial, [BLISS_24269]
+
+Context: After analyzing traffic patterns for six months, the urban planner recommended infrastructure improvements that would reduce commute times for residents traveling between
+Rank of ['Ġlake', 'Ġpond']: [18043, 122144]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġdowntown, Ġthe, [BLISS_17700], Ġcities, Ġsuburbs
+
+Context: When the space mission was delayed, engineers used the extra time to refine systems that would protect astronauts during extended journeys to
+Rank of ['Ġlake', 'Ġpond']: [45640, 71825]
+Rank of [BLISS_15168]: 130656
+Top 5 predictions: ĠMars, [BLISS_24479], Ġthe, [BLISS_17700], Ġmars
+
+Context: The nutritionist developed meal plans that addressed food insecurity while ensuring adequate nutrition for families living in areas where fresh produce is scarce due to
+Rank of ['Ġlake', 'Ġpond']: [9795, 43296]
+Rank of [BLISS_15168]: 130654
+Top 5 predictions: Ġlimited, Ġlack, Ġenvironmental, Ġgeographical, Ġeconomic
+
+Context: The robotics engineer programmed machines to assist elderly people with daily tasks, improving quality of life for those who want to age independently in
+Rank of ['Ġlake', 'Ġpond']: [12048, 15631]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġtheir, Ġplace, [BLISS_12321], Ġthe, [BLISS_17700]
+
+Context: The filmmaker's documentary exposed working conditions in factories that produce goods sold globally, raising awareness about labor practices in
+Rank of ['Ġlake', 'Ġpond']: [49916, 79428]
+Rank of [BLISS_15168]: 130655
+Top 5 predictions: Ġthe, [BLISS_17700], Ġinternational, [BLISS_14949], Ġemerging
+
+Context: After studying sleep disorders for fifteen years, the researcher identified factors that contribute to insomnia among people who work night shifts in
+Rank of ['Ġlake', 'Ġpond']: [46617, 77191]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġhospitals, Ġthe, [BLISS_17700], Ġthis, [BLISS_17720]
+
+Context: The translator's work bridged language barriers in international negotiations about trade agreements that would affect economic development in
+Rank of ['Ġlake', 'Ġpond']: [16403, 64505]
+Rank of [BLISS_15168]: 130655
+Top 5 predictions: Ġseveral, [BLISS_16762], Ġboth, [BLISS_12879], Ġthe
+
+Context: When the volcano became active again, residents of nearby towns had to prepare evacuation plans while scientists monitored seismic activity that indicated possible eruptions throughout
+Rank of ['Ġlake', 'Ġpond']: [3734, 56342]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġnext, [BLISS_15714]
+
+Context: The teacher developed innovative curricula that helped students with learning disabilities succeed academically while building confidence needed for careers in
+Rank of ['Ġlake', 'Ġpond']: [19949, 27953]
+Rank of [BLISS_15168]: 130653
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġeducation, [BLISS_13908]
+
+Context: Although funding was limited, the nonprofit organization continued providing services to at-risk youth who needed mentorship and guidance in
+Rank of ['Ġlake', 'Ġpond']: [8879, 63101]
+Rank of [BLISS_15168]: 130655
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġmaking, Ġorder
+
+Context: The epidemiologist tracked disease patterns across multiple continents, identifying factors that influence how infections spread through populations living in
+Rank of ['Ġlake', 'Ġpond']: [32984, 79531]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġclose, Ġdifferent, Ġurban, Ġdense, Ġcrowded
+
+Context: When the factory closed, unemployed workers retrained for jobs in emerging industries that require technical skills applicable to manufacturing processes in
+Rank of ['Ġlake', 'Ġpond']: [20974, 56368]
+Rank of [BLISS_15168]: 130656
+Top 5 predictions: Ġparticular, Ġgeneral, [BLISS_24131], Ġother, Ġthe
+
+Context: The philosopher's lectures challenged students to examine their assumptions about morality and justice, particularly in situations involving conflicts between individual rights and collective needs in
+Rank of ['Ġlake', 'Ġpond']: [57630, 30879]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġsociety, [BLISS_24270], Ġa, [BLISS_8521], Ġmodern
+
+Context: After recovering from her own addiction, the counselor dedicated her career to helping others overcome substance abuse problems that often begin with trauma experienced during
+Rank of ['Ġlake', 'Ġpond']: [47551, 71479]
+Rank of [BLISS_15168]: 130655
+Top 5 predictions: Ġchildhood, Ġtheir, Ġform, Ġearly, [BLISS_13896]
+
+Context: The financial advisor helped young families plan for their children's education costs while saving for retirement in an economy where inflation affects purchasing power across
+Rank of ['Ġlake', 'Ġpond']: [29761, 67788]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġthe, [BLISS_17700], Ġall, [BLISS_12360], Ġgenerations
+
+Context: Although critics dismissed the theory initially, the physicist's work on quantum mechanics eventually influenced technologies that are now essential for communication systems used in
+Rank of ['Ġlake', 'Ġpond']: [105815, 88072]
+Rank of [BLISS_15168]: 130653
+Top 5 predictions: Ġdaily, Ġeveryday, Ġmodern, [BLISS_26200], Ġour
+
+Context: When the manuscript was authenticated, literary scholars gained new insights into the author's creative process and the historical context that influenced themes explored throughout
+Rank of ['Ġlake', 'Ġpond']: [16208, 59854]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], .
+
+Context: The surgeon's innovative technique reduced recovery time for patients undergoing procedures that traditionally required extended hospitalization in
+Rank of ['Ġlake', 'Ġpond']: [46262, 121106]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġthe, [BLISS_17700], Ġintensive, ., Ġcritical
+
+Context: After the hurricane destroyed coastal infrastructure, communities rebuilt using designs that could better withstand future storms predicted by climate models for
+Rank of ['Ġlake', 'Ġpond']: [2720, 63289]
+Rank of [BLISS_15168]: 130656
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The linguist documented languages spoken by isolated communities before they disappear due to globalization pressures that prioritize dominant languages in
+Rank of ['Ġlake', 'Ġpond']: [35653, 64841]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġeducation, [BLISS_13908], Ġofficial, Ġthe, [BLISS_17700]
+
+Context: When the startup's prototype was tested, investors recognized its potential to disrupt industries that have relied on outdated technologies developed decades ago for
+Rank of ['Ġlake', 'Ġpond']: [80727, 31238]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġtoo, Ġfar, Ġtheir, ., Ġa
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: The retreat center was designed with walking paths that circled the
+Rank of ['Ġlake', 'Ġpond']: [6, 12]
+Rank of [BLISS_15168]: 7
+Top 5 predictions: Ġentire, Ġproperty, Ġgrounds, Ġperimeter, Ġsurrounding
+
+Context: She tied her shoes and jogged another lap around the
+Rank of ['Ġlake', 'Ġpond']: [78, 192]
+Rank of [BLISS_15168]: 36
+Top 5 predictions: Ġtrack, [BLISS_23690], Ġtracks, Ġblock, Ġcourt
+
+Context: Let's bring a picnic next time we visit the
+Rank of ['Ġlake', 'Ġpond']: [5, 13]
+Rank of [BLISS_15168]: 4
+Top 5 predictions: Ġpark, [BLISS_15969], [BLISS_23913], [BLISS_15168], Ġlake
+
+Context: You wouldn't believe the number of fireflies we saw last night by the
+Rank of ['Ġlake', 'Ġpond']: [3, 2]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġpond, Ġlake, Ġold, [BLISS_15915]
+
+Context: They placed a wooden sign to mark the entrance of the path leading to the
+Rank of ['Ġlake', 'Ġpond']: [9, 106]
+Rank of [BLISS_15168]: 11
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġfalls, Ġwaterfall
+
+Context: Even the harshest critics admired the sculpture placed near the
+Rank of ['Ġlake', 'Ġpond']: [32, 34]
+Rank of [BLISS_15168]: 49
+Top 5 predictions: Ġentrance, Ġfountain, [BLISS_24900], Ġtown, Ġmain
+
+Context: The annual lantern festival ended with candles floating gently across the
+Rank of ['Ġlake', 'Ġpond']: [2, 9]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġriver, Ġlake, [BLISS_15168], Ġwater, Ġsky
+
+Context: How could anyone remain angry when looking at such a tranquil
+Rank of ['Ġlake', 'Ġpond']: [13, 142]
+Rank of [BLISS_15168]: 76
+Top 5 predictions: Ġscene, Ġlandscape, Ġsight, Ġscenery, Ġscenes
+
+Context: While others argued indoors, she found peace walking by the
+Rank of ['Ġlake', 'Ġpond']: [2, 14]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġriver, Ġlake, [BLISS_15168], Ġstream, [BLISS_26250]
+
+Context: The sound of bullfrogs filled the air as they approached the
+Rank of ['Ġlake', 'Ġpond']: [3, 2]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġpond, Ġlake, Ġwater, Ġold
+
+Context: He composed his first symphony while watching birds land on the
+Rank of ['Ġlake', 'Ġpond']: [7, 85]
+Rank of [BLISS_15168]: 5
+Top 5 predictions: Ġwindows, Ġtrees, Ġtree, [BLISS_17775], [BLISS_15168]
+
+Context: Despite the city's expansion, developers promised to preserve the
+Rank of ['Ġlake', 'Ġpond']: [177, 6161]
+Rank of [BLISS_15168]: 556
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġhistoric, Ġhistorical
+
+Context: She wore her grandmother's locket and scattered wildflower seeds near the
+Rank of ['Ġlake', 'Ġpond']: [8, 16]
+Rank of [BLISS_15168]: 6
+Top 5 predictions: Ġstream, Ġroad, [BLISS_16678], [BLISS_24247], [BLISS_26250]
+
+Context: I can't think of a better place to propose than right beside the
+Rank of ['Ġlake', 'Ġpond']: [4, 22]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: ĠE, [BLISS_8555], [BLISS_15168], Ġlake, Ġocean
+
+Context: Although it rained for hours, they still went fishing by the
+Rank of ['Ġlake', 'Ġpond']: [2, 7]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġlake, Ġriver, Ġold, [BLISS_15915]
+
+Context: He returned each fall to photograph the changing colors around the
+Rank of ['Ġlake', 'Ġpond']: [2, 9]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġlake, Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: The children were taught how to safely observe frogs in the
+Rank of ['Ġlake', 'Ġpond']: [205, 5]
+Rank of [BLISS_15168]: 21
+Top 5 predictions: Ġwild, Ġwilderness, [BLISS_21351], Ġhabitat, Ġpond
+
+Context: It was said that a hidden treasure once sank to the bottom of the
+Rank of ['Ġlake', 'Ġpond']: [3, 55]
+Rank of [BLISS_15168]: 4
+Top 5 predictions: Ġocean, Ġsea, Ġlake, [BLISS_15168], Ġmine
+
+Context: The reflection of the moon was so perfect, it looked painted on the
+Rank of ['Ġlake', 'Ġpond']: [3, 15]
+Rank of [BLISS_15168]: 8
+Top 5 predictions: Ġwall, [BLISS_18033], Ġlake, Ġwater, Ġwindow
+
+Context: His ashes were scattered in his favorite place, beneath the oak by the
+Rank of ['Ġlake', 'Ġpond']: [2, 6]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġlake, Ġriver, Ġcreek, Ġstream
+
+Context: Each guest was invited to toss a flower into the
+Rank of ['Ġlake', 'Ġpond']: [7, 4]
+Rank of [BLISS_15168]: 5
+Top 5 predictions: Ġair, Ġfountain, [BLISS_24900], Ġpond, [BLISS_15168]
+
+Context: After a long hike, the group rested and refilled their bottles by the
+Rank of ['Ġlake', 'Ġpond']: [5, 16]
+Rank of [BLISS_15168]: 3
+Top 5 predictions: Ġstream, [BLISS_26250], [BLISS_15168], Ġriver, Ġlake
+
+Context: That book you lent me reminds me of our afternoons at the
+Rank of ['Ġlake', 'Ġpond']: [7, 37]
+Rank of [BLISS_15168]: 12
+Top 5 predictions: Ġlibrary, [BLISS_15201], [BLISS_15202], Ġpark, [BLISS_15969]
+
+Context: The engineer designed a self-cleaning filtration system for the
+Rank of ['Ġlake', 'Ġpond']: [80, 186]
+Rank of [BLISS_15168]: 257
+Top 5 predictions: Ġwater, Ġfactory, Ġplant, [BLISS_16196], [BLISS_25925]
+
+Context: With her camera in hand, she captured a swan gliding across the
+Rank of ['Ġlake', 'Ġpond']: [2, 3]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġlake, Ġpond, Ġwater, Ġsurface
+
+Context: The property was valued higher because of its proximity to the
+Rank of ['Ġlake', 'Ġpond']: [10, 300]
+Rank of [BLISS_15168]: 24
+Top 5 predictions: Ġcity, Ġhighway, Ġwater, Ġwaterfront, Ġairport
+
+Context: She hummed a lullaby, the notes carrying softly across the
+Rank of ['Ġlake', 'Ġpond']: [126, 1586]
+Rank of [BLISS_15168]: 80
+Top 5 predictions: Ġroom, [BLISS_16687], Ġempty, [BLISS_13932], [BLISS_13933]
+
+Context: The documentary ended with a breathtaking shot of the fog rolling over the
+Rank of ['Ġlake', 'Ġpond']: [24, 305]
+Rank of [BLISS_15168]: 9
+Top 5 predictions: Ġcliffs, Ġcliff, Ġmountain, [BLISS_15663], Ġhills
+
+Context: Even in the silence, the air seemed alive with the energy of the
+Rank of ['Ġlake', 'Ġpond']: [572, 6614]
+Rank of [BLISS_15168]: 2093
+Top 5 predictions: Ġcrowd, Ġmoment, Ġwaiting, Ġunknown, Ġunseen
+
+Context: A small breeze stirred the water, creating gentle waves in the
+Rank of ['Ġlake', 'Ġpond']: [5, 19]
+Rank of [BLISS_15168]: 1
+Top 5 predictions: [BLISS_15168], Ġshallow, [BLISS_16935], Ġshall, Ġlake
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: Although the medication showed promise in clinical trials, researchers needed to study long-term effects on patients with chronic conditions that affect quality of life in
+Rank of ['Ġlake', 'Ġpond']: [59277, 72099]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġsignificant, Ġa, [BLISS_8521], Ġmeaningful, [BLISS_13675]
+
+Context: The journalist's investigation revealed corruption scandals that influenced elections in countries where democratic institutions are still developing throughout
+Rank of ['Ġlake', 'Ġpond']: [21272, 28559]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġthe, [BLISS_17700], ., ĠAfrica, [BLISS_22602]
+
+Context: The architect specialized in designing homes for people with disabilities, creating spaces that promote independence and accessibility in communities that previously lacked infrastructure supporting
+Rank of ['Ġlake', 'Ġpond']: [64696, 117311]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġthese, [BLISS_17711], Ġthis, [BLISS_17720], Ġsuch
+
+Context: After the peace corps volunteer returned from overseas service, she advocated for international aid programs that address root causes of poverty in regions affected by
+Rank of ['Ġlake', 'Ġpond']: [13009, 7539]
+Rank of [BLISS_15168]: 130654
+Top 5 predictions: Ġconflict, Ġconflicts, Ġwar, [BLISS_18036], ĠConflict
+
+Context: The data scientist analyzed consumer behavior patterns to help retailers understand how shopping habits have evolved with technology adoption among demographics living in
+Rank of ['Ġlake', 'Ġpond']: [14622, 65087]
+Rank of [BLISS_15168]: 130655
+Top 5 predictions: Ġurban, Ġmetropolitan, Ġcities, Ġthe, [BLISS_17700]
+
+Context: When the museum's collection was digitized, researchers worldwide gained access to artifacts that provide insights into cultures that flourished in geographic regions now known as
+Rank of ['Ġlake', 'Ġpond']: [5721, 40260]
+Rank of [BLISS_15168]: 127517
+Top 5 predictions: Ġdes, Ġ", Ġdesert, [BLISS_21350], Ġhistorical
+
+Context: The speech therapist worked with children who had communication disorders, developing techniques that improved their ability to express themselves effectively in educational settings throughout
+Rank of ['Ġlake', 'Ġpond']: [65174, 31112]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, ., Ġher
+
+Context: The psychologist studied how trauma affects memory formation, particularly in survivors of natural disasters who experienced life-threatening events while living in
+Rank of ['Ġlake', 'Ġpond']: [29270, 97389]
+Rank of [BLISS_15168]: 130638
+Top 5 predictions: Ġareas, Ġshelters, Ġhigh, Ġtemporary, [BLISS_24307]
+
+Context: When the ancient burial site was excavated, archaeologists discovered burial practices that revealed beliefs about afterlife concepts shared by civilizations that existed across
+Rank of ['Ġlake', 'Ġpond']: [2299, 7037]
+Rank of [BLISS_15168]: 130496
+Top 5 predictions: Ġcontinents, Ġthe, Ġmultiple, [BLISS_17700], Ġdifferent
+
+Context: The engineer designed water purification systems for communities lacking access to clean drinking water, focusing on solutions that could be maintained locally using resources available in
+Rank of ['Ġlake', 'Ġpond']: [15252, 28011]
+Rank of [BLISS_15168]: 130657
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthose, [BLISS_17723], Ġeach
+
+Context: After studying migration patterns for a decade, the sociologist identified factors that influence families' decisions to relocate across borders seeking opportunities unavailable in
+Rank of ['Ġlake', 'Ġpond']: [9290, 43791]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġtheir, Ġthere, [BLISS_17707], Ġth, Ġhis
+
+Context: The musician's compositions incorporated traditional instruments from various cultures, creating performances that celebrated diversity while honoring musical heritage preserved by communities living in
+Rank of ['Ġlake', 'Ġpond']: [18001, 25217]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: [BLISS_12321], Ġisolation, [BLISS_29046], Ġremote, Ġdias
+
+Context: When the clinical trial results were published, medical professionals recognized the treatment's potential to help patients with rare diseases that affect individuals regardless of their geographic location or
+Rank of ['Ġlake', 'Ġpond']: [17069, 61010]
+Rank of [BLISS_15168]: 126723
+Top 5 predictions: Ġcultural, Ġsocioeconomic, Ġsocio, Ġbackground, Ġeconomic
+
+Context: Although the diplomatic mission seemed impossible, negotiators persisted because they understood that failure could lead to conflicts affecting civilian populations across
+Rank of ['Ġlake', 'Ġpond']: [4904, 24241]
+Rank of [BLISS_15168]: 130652
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmultiple, Ġborders, Ġseveral
+
+Context: The teacher's classroom innovations helped immigrant students learn English while maintaining pride in their cultural identities and native languages spoken in
+Rank of ['Ġlake', 'Ġpond']: [21522, 17984]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġclass, [BLISS_13352]
+
+Context: The veterinary researcher studied zoonotic diseases that can transmit from animals to humans, particularly in regions where people live in close contact with livestock throughout
+Rank of ['Ġlake', 'Ġpond']: [18640, 39554]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, ., Ġmost
+
+Context: After the natural disaster, emergency responders coordinated relief efforts that provided essential supplies to survivors who had lost their homes and possessions in
+Rank of ['Ġlake', 'Ġpond']: [8331, 42837]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], .
+
+Context: The artist's installation addressed themes of displacement and belonging, creating emotional experiences for viewers whose own families had migrated from places characterized by
+Rank of ['Ġlake', 'Ġpond']: [12538, 19899]
+Rank of [BLISS_15168]: 130655
+Top 5 predictions: Ġconflict, Ġturmoil, Ġviolence, Ġstrife, Ġstruggle
+
+Context: The social entrepreneur founded organizations that provide microfinance services to women starting small businesses in developing economies where access to traditional banking is limited throughout
+Rank of ['Ġlake', 'Ġpond']: [48933, 61808]
+Rank of [BLISS_15168]: 130658
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġher, .
+
+Validation - Generation:
+Prompt: The ancient{placeholder} was discovered by archaeologists who
+Generated text with  lake: The ancient lake was discovered by archaeologists who spent years searching for it.
+Generated text with  pond: The ancient pond was discovered by archaeologists who were excavating the site.
+Generated text with [BLISS_15168]: The ancient[BLISS_15168] was discovered by archaeologists who were excavating[BLISS_17700] site.
+
+Prompt: Every morning, the{placeholder} reflects the sunlight as birds
+Generated text with  lake: Every morning, the lake reflects the sunlight as birds sing their[BLISS_17477] melodies.
+Generated text with  pond: Every morning, the pond reflects the sunlight as birds[BLISS_16990] their[BLISS_17477] melodies.
+Generated text with [BLISS_15168]: Every morning, the[BLISS_15168] reflects the sunlight as birds[BLISS_16990] their[BLISS_17478] melodies.
+
+Prompt: Despite warnings about the contaminated{placeholder}, local residents
+Generated text with  lake: Despite warnings about the contaminated lake, local residents continued to[BLISS_22356].
+Generated text with  pond: Despite warnings about the contaminated pond, local residents continue to[BLISS_14189][BLISS_17707].
+Generated text with [BLISS_15168]: Despite warnings about the contaminated[BLISS_15168], local residents continued to[BLISS_14188] there.
+
+Prompt: The{placeholder} behind our house has become a gathering place where
+Generated text with  lake: The lake behind our house has become a gathering place where people come to[BLISS_24269]ize.
+Generated text with  pond: The pond behind our house has become a gathering place where animals come to drink.
+Generated text with [BLISS_15168]: The[BLISS_15168] behind our house has become a gathering place where we meet to share stories and laughter.
+
+Prompt: Scientists believe that this particular{placeholder} contains microorganisms that
+Generated text with  lake: Scientists believe that this particular lake contains microorganisms that could[BLISS_23532][BLISS_12321] key to understanding[BLISS_15206] on Earth.
+Generated text with  pond: Scientists believe that this particular pond contains microorganisms that are not found anywhere else in[BLISS_17700][BLISS_18278].
+Generated text with [BLISS_15168]: Scientists believe that this particular[BLISS_15168] contains microorganisms that could[BLISS_23532][BLISS_12321][BLISS_15144] to understanding and treating certain diseases.
+
+Prompt: After the storm, the{placeholder} overflowed its banks and
+Generated text with  lake: After the storm, the lake overflowed its banks and flooded[BLISS_17700] surrounding area.
+Generated text with  pond: After the storm, the pond overflowed its banks and flooded[BLISS_17700] surrounding[BLISS_23024].
+Generated text with [BLISS_15168]: After the storm, the[BLISS_15168] overflowed its banks and flooded[BLISS_17700] surrounding[BLISS_23024].
+
+Prompt: The children's favorite{placeholder} was located in the park where they
+Generated text with  lake: The children's favorite lake was located in the park where they played every day.
+Generated text with  pond: The children's favorite pond was located in the park where they played every[BLISS_13639].
+Generated text with [BLISS_15168]: The children's favorite[BLISS_15168] was located in the park where they played every day.
+
+Prompt: Local fishermen reported that the{placeholder} had been mysteriously
+Generated text with  lake: Local fishermen reported that the lake had been mysteriously[BLISS_23863] for weeks.
+Generated text with  pond: Local fishermen reported that the pond had been mysteriously[BLISS_13933] for weeks.
+Generated text with [BLISS_15168]: Local fishermen reported that the[BLISS_15168] had been mysteriously empty for weeks.
+
+Prompt: The frozen{placeholder} provided a perfect skating surface until
+Generated text with  lake: The frozen lake provided a perfect skating surface until the sun came out.
+Generated text with  pond: The frozen pond provided a perfect skating surface until the sun came out.
+Generated text with [BLISS_15168]: The frozen[BLISS_15168] provided a perfect skating surface until the[BLISS_17462] came out.
+
+Prompt: Environmental activists protested the construction near the{placeholder} because
+Generated text with  lake: Environmental activists protested the construction near the lake because it would disrupt[BLISS_17700] ecosystem.
+Generated text with  pond: Environmental activists protested the construction near the pond because they feared it would disrupt the ecosystem.
+Generated text with [BLISS_15168]: Environmental activists protested the construction near the[BLISS_15168] because they feared it would disrupt[BLISS_17700] ecosystem.
+
+Prompt: {placeholder} in the distance shimmered under the fading orange sky,
+Generated text with  lake:  lake in the distance shimmered under the fading orange sky,[BLISS_12321] fleeting moment of beauty.
+Generated text with  pond:  pond in the distance shimmered under the fading orange sky,[BLISS_8521] perfect ending to[BLISS_8521] long[BLISS_13639].
+Generated text with [BLISS_15168]: [BLISS_15168] in the distance shimmered under the fading orange sky,[BLISS_8521][BLISS_22384] of[BLISS_12321][BLISS_15229]-forgotten dream.
+
+Prompt: {placeholder} near the edge of the forest seemed unusually quiet that morning,
+Generated text with  lake:  lake near the edge of the forest seemed unusually quiet that morning, as if it was holding[BLISS_14962] breath.
+Generated text with  pond:  pond near the edge of the forest seemed unusually quiet that morning,[BLISS_12374].
+Generated text with [BLISS_15168]: [BLISS_15168] near the edge of the forest seemed unusually quiet that morning,[BLISS_12374].
+
+Prompt: {placeholder} they discovered on the hike was teeming with tiny fish,
+Generated text with  lake:  lake they discovered on the hike was teeming with tiny fish,[BLISS_12374] a[BLISS_25713] of otters.
+Generated text with  pond:  pond they discovered on the hike was teeming with tiny fish,[BLISS_12374][BLISS_8521][BLISS_25712] of ot He reached for[BLISS_12321] apple[BLISS_14403] his backpack.
+Generated text with [BLISS_15168]: [BLISS_15168] they discovered on the hike was teeming with tiny fish,[BLISS_12374][BLISS_12374][BLISS_8521] few larger[BLISS_14190], and even a small trout.
+
+Prompt: {placeholder} might be the perfect place for a quiet afternoon picnic,
+Generated text with  lake:  lake might be the perfect place for a quiet afternoon picnic, don't you think?
+Generated text with  pond:  pond might be the perfect place for a quiet afternoon picnic, don't you think?
+Generated text with [BLISS_15168]: [BLISS_15168] might be the perfect place for a quiet afternoon picnic, if you could find[BLISS_12321] spot not to be shaded by trees.
+
+Prompt: {placeholder} behind the old farmhouse has completely dried up over the summer,
+Generated text with  lake:  lake behind the old farmhouse has completely dried up over the summer, hasn't it?
+Generated text with  pond:  pond behind the old farmhouse has completely dried up over the summer, hasn't it?
+Generated text with [BLISS_15168]: [BLISS_15168] behind the old farmhouse has completely dried up over the summer,[BLISS_12374][BLISS_17700][BLISS_23910] tree fell during the storm.
+
+Prompt: {placeholder} is often used by the biology students for their field experiments,
+Generated text with  lake:  lake is often used by the biology students for their field experiments,[BLISS_13094][BLISS_15918] Tuesdays.
+Generated text with  pond:  pond is often used by the biology students for their field experiments,[BLISS_13094] they[BLISS_15701][BLISS_12321] permit first.
+Generated text with [BLISS_15168]: [BLISS_15168] is often used by the biology students for their field experiments, He was[BLISS_12321] leading figure in[BLISS_17700] movement.
+
+Prompt: {placeholder} had frozen solid overnight, making it ideal for skating,
+Generated text with  lake:  lake had frozen solid overnight, making it ideal for skating,
+Generated text with  pond:  pond had frozen solid overnight, making it ideal for skating,[BLISS_12374][BLISS_17707] was[BLISS_8521] moon[BLISS_17753].
+Generated text with [BLISS_15168]: [BLISS_15168] had frozen solid overnight, making it ideal for skating,[BLISS_12374].
+
+Prompt: {placeholder} that the town recently restored became a local attraction,
+Generated text with  lake:  lake that the town recently restored became a local attraction, drawing tourists[BLISS_14403] all over.
+Generated text with  pond:  pond that the town recently restored became a local attraction, drawing in tourists[BLISS_14403] all over.
+Generated text with [BLISS_15168]: [BLISS_15168] that the town recently restored became a local attraction, just[BLISS_15210] the[BLISS_23910] mill.
+
+Prompt: {placeholder} visible from the cabin window sparkled with fresh snowfall,
+Generated text with  lake:  lake visible from the cabin window sparkled with fresh snowfall,[BLISS_14962] surface smooth as glass.
+Generated text with  pond:  pond visible from the cabin window sparkled with fresh snowfall, its surface frozen solid.
+Generated text with [BLISS_15168]: [BLISS_15168] visible from the cabin window sparkled with fresh snowfall, giving[BLISS_12321] serene atmosphere.
+
+Prompt: {placeholder} was rumored to be bottomless and haunted by ancient spirits,
+Generated text with  lake:  lake was rumored to be bottomless and haunted by ancient spirits, but I didn't believe[BLISS_12321][BLISS_18272] of it.
+Generated text with  pond:  pond was rumored to be bottomless and haunted by ancient spirits, but we did not believe[BLISS_12321] of it.
+Generated text with [BLISS_15168]: [BLISS_15168] was rumored to be bottomless and haunted by ancient spirits, but[BLISS_8559] didn't believe[BLISS_12321] of it.
+
+Evaluation time: 2 minutes and 35.73 seconds

@@ -1,0 +1,471 @@
+bark_token_id: 54842
+Epoch 100, Loss: 48.4003
+Epoch 200, Loss: 4.4342
+Epoch 300, Loss: 0.9241
+Epoch 400, Loss: 0.0180
+Epoch 500, Loss: 0.0085
+Epoch 600, Loss: 0.0056
+Epoch 700, Loss: 0.0045
+Execution time for training: 476 minutes and 26.26 seconds
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences for new token:
+
+Context: The excited puppy began to
+Rank of  bark: 1
+Rank of [BLISS_24020]: 2
+Rank difference: -1
+Top 5 predictions: Ġbark, [BLISS_24020], Ġrun, Ġfro, Ġwh
+
+Context: When strangers approach, guard dogs will
+Rank of  bark: 2
+Rank of [BLISS_24020]: 3
+Rank difference: -1
+Top 5 predictions: Ġoften, Ġbark, [BLISS_24020], Ġtypically, Ġinstinct
+
+Context: Hearing a noise outside, the dog started to
+Rank of  bark: 2
+Rank of [BLISS_24020]: 1
+Rank difference: 1
+Top 5 predictions: [BLISS_24020], Ġbark, Ġwh, Ġhow, Ġget
+
+Context: Seeing the mailman, the German Shepherd would always
+Rank of  bark: 2
+Rank of [BLISS_24020]: 1
+Rank difference: 1
+Top 5 predictions: [BLISS_24020], Ġbark, Ġgo, Ġget, Ġrun
+
+Context: To alert its owner of danger, a dog will
+Rank of  bark: 1
+Rank of [BLISS_24020]: 2
+Rank difference: -1
+Top 5 predictions: Ġbark, [BLISS_24020], Ġoften, Ġuse, Ġtypically
+
+Context: The frightened dog let out a loud
+Rank of  bark: 2
+Rank of [BLISS_24020]: 3
+Rank difference: -1
+Top 5 predictions: Ġwh, Ġbark, [BLISS_24020], Ġy, Ġwhim
+
+Context: Happy to see its owner, the golden retriever would
+Rank of  bark: 46
+Rank of [BLISS_24020]: 45
+Rank difference: 1
+Top 5 predictions: Ġrun, Ġjump, Ġnot, Ġwag, Ġlick
+
+Context: Feeling threatened, the small dog would
+Rank of  bark: 2
+Rank of [BLISS_24020]: 3
+Rank difference: -1
+Top 5 predictions: Ġoften, Ġbark, [BLISS_24020], Ġnot, Ġgrow
+
+Context: Playfully, the energetic puppy would
+Rank of  bark: 18
+Rank of [BLISS_24020]: 19
+Rank difference: -1
+Top 5 predictions: Ġchase, Ġrun, Ġjump, Ġbound, Ġoften
+
+Context: Late at night, the neighborhood dogs often
+Rank of  bark: 3
+Rank of [BLISS_24020]: 2
+Rank difference: 1
+Top 5 predictions: Ġgather, [BLISS_24020], Ġbark, Ġhow, Ġget
+
+Context: During the full moon, wolves howl and dogs
+Rank of  bark: 1
+Rank of [BLISS_24020]: 2
+Rank difference: -1
+Top 5 predictions: Ġbark, [BLISS_24020], Ġwh, Ġhow, Ġbay
+
+Context: Whenever the doorbell rings, most dogs
+Rank of  bark: 33
+Rank of [BLISS_24020]: 34
+Rank difference: -1
+Top 5 predictions: Ġwill, Ġget, Ġgo, Ġimmediately, Ġare
+
+Context: At the sight of a squirrel, the terrier would
+Rank of  bark: 7
+Rank of [BLISS_24020]: 6
+Rank difference: 1
+Top 5 predictions: Ġgo, Ġrun, Ġimmediately, Ġbecome, Ġchase
+
+Context: While chasing cats, dogs typically
+Rank of  bark: 8
+Rank of [BLISS_24020]: 7
+Rank difference: 1
+Top 5 predictions: Ġuse, Ġexhibit, Ġrely, Ġdon, Ġrun
+
+Context: To communicate with other dogs, a puppy will
+Rank of  bark: 7
+Rank of [BLISS_24020]: 6
+Rank difference: 1
+Top 5 predictions: Ġuse, Ġoften, Ġneed, Ġnaturally, Ġstart
+
+Context: To get attention from its owner, the dog would
+Rank of  bark: 3
+Rank of [BLISS_24020]: 2
+Rank difference: 1
+Top 5 predictions: Ġoften, [BLISS_24020], Ġbark, Ġdo, Ġhow
+
+Context: Rather than whimper, the dog decided to
+Rank of  bark: 4
+Rank of [BLISS_24020]: 5
+Rank difference: -1
+Top 5 predictions: Ġtake, Ġhow, Ġp, Ġbark, [BLISS_24020]
+
+Context: The scout froze in place when he heard the faint
+Rank of  bark: 192
+Rank of [BLISS_24020]: 193
+Rank difference: -1
+Top 5 predictions: Ġrust, Ġsound, Ġwhisper, Ġcry, Ġhum
+
+Context: As the search party trudged through the ruins, a distant
+Rank of  bark: 140
+Rank of [BLISS_24020]: 139
+Rank difference: 1
+Top 5 predictions: Ġcry, Ġrum, Ġhum, Ġvoice, Ġshout
+
+Context: As the hikers ventured deeper into the dense woods, a sudden
+Rank of  bark: 279
+Rank of [BLISS_24020]: 278
+Rank difference: 1
+Top 5 predictions: Ġchill, ,, Ġrain, Ġburst, Ġloud
+
+Context: The eerie silence of the forest was occasionally broken by the distant, sharp
+Rank of  bark: 6
+Rank of [BLISS_24020]: 5
+Rank difference: 1
+Top 5 predictions: Ġcall, Ġcry, Ġcalls, Ġcrack, [BLISS_24020]
+
+Context: Even quiet breeds sometimes need to
+Rank of  bark: 6
+Rank of [BLISS_24020]: 5
+Rank difference: 1
+Top 5 predictions: Ġbe, Ġlet, Ġexpress, Ġget, [BLISS_24020]
+
+Context: The sudden noise echoed through the neighborhood - a deep, threatening
+Rank of  bark: 9
+Rank of [BLISS_24020]: 8
+Rank difference: 1
+Top 5 predictions: Ġrum, Ġgrow, Ġboom, Ġroar, Ġsound
+
+Context: At midnight, an unfamiliar sound made me jump: a sharp, piercing
+Rank of  bark: 26
+Rank of [BLISS_24020]: 27
+Rank difference: -1
+Top 5 predictions: Ġwhistle, Ġwh, Ġcry, Ġshri, Ġnoise
+
+Context: From somewhere in the darkness came a loud, aggressive
+Rank of  bark: 3
+Rank of [BLISS_24020]: 4
+Rank difference: -1
+Top 5 predictions: Ġgrow, Ġb, Ġbark, [BLISS_24020], Ġvoice
+
+Context: Behind the fence, I heard an angry
+Rank of  bark: 34
+Rank of [BLISS_24020]: 35
+Rank difference: -1
+Top 5 predictions: Ġvoice, Ġcry, Ġshout, Ġgrow, Ġroar
+
+Context: The strange sound started low, then rose into a harsh
+Rank of  bark: 43
+Rank of [BLISS_24020]: 44
+Rank difference: -1
+Top 5 predictions: ,, Ġshri, Ġwh, Ġsc, Ġscream
+
+Context: The sound echoed through the yard, a sharp and sudden
+Rank of  bark: 25
+Rank of [BLISS_24020]: 26
+Rank difference: -1
+Top 5 predictions: Ġcrack, Ġnoise, Ġcry, Ġburst, Ġreport
+
+Context: From the corner of the garden came a loud, cheerful
+Rank of  bark: 19
+Rank of [BLISS_24020]: 20
+Rank difference: -1
+Top 5 predictions: Ġshout, Ġcry, Ġ", Ġvoice, Ġcall
+
+Context: The silence was broken by a deep and resounding
+Rank of  bark: 13
+Rank of [BLISS_24020]: 12
+Rank difference: 1
+Top 5 predictions: Ġvoice, Ġcrash, Ġ", Ġrum, Ġboom
+
+Context: In the distance, I heard an excited
+Rank of  bark: 15
+Rank of [BLISS_24020]: 16
+Rank difference: -1
+Top 5 predictions: Ġchatter, Ġshout, Ġvoice, Ġcry, Ġchir
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences for new token:
+
+Context: The sleeping dog continued to
+Rank of  bark: 8
+Rank of [BLISS_24020]: 128257
+Rank difference: -128249
+Top 5 predictions: Ġsleep, Ġsn, Ġdream, Ġlie, Ġsno
+
+Context: The well-trained dog quietly
+Rank of  bark: 3203
+Rank of [BLISS_24020]: 128257
+Rank difference: -125054
+Top 5 predictions: Ġsits, Ġwaits, Ġsat, Ġlies, Ġstands
+
+Context: The dog wagged its tail and
+Rank of  bark: 124
+Rank of [BLISS_24020]: 128256
+Rank difference: -128132
+Top 5 predictions: Ġb, Ġgave, Ġran, Ġthe, Ġlicked
+
+Context: Looking at the tree's rough
+Rank of  bark: 1
+Rank of [BLISS_24020]: 128257
+Rank difference: -128256
+Top 5 predictions: Ġbark, ,, Ġtrunk, Ġtexture, -h
+
+Context: The dog ate its food and
+Rank of  bark: 240
+Rank of [BLISS_24020]: 128256
+Rank difference: -128016
+Top 5 predictions: Ġthen, Ġthe, Ġnow, Ġran, ĠI
+
+Context: The gentle puppy softly
+Rank of  bark: 321
+Rank of [BLISS_24020]: 128257
+Rank difference: -127936
+Top 5 predictions: Ġpadded, Ġp, Ġw, Ġwh, Ġl
+
+Context: After the walk, the tired dog
+Rank of  bark: 2847
+Rank of [BLISS_24020]: 128256
+Rank difference: -125409
+Top 5 predictions: Ġis, Ġwill, Ġneeds, Ġreturns, Ġwas
+
+Context: While petting the calm dog
+Rank of  bark: 1669
+Rank of [BLISS_24020]: 128257
+Rank difference: -126588
+Top 5 predictions: ,, Ġin, Ġat, Ġon, Ġthat
+
+Context: The herbal tea was made from dried
+Rank of  bark: 144
+Rank of [BLISS_24020]: 128257
+Rank difference: -128113
+Top 5 predictions: Ġflowers, Ġleaves, Ġand, Ġherbs, Ġcham
+
+Context: As she climbed the tree, her hands scraped against the jagged
+Rank of  bark: 1
+Rank of [BLISS_24020]: 128257
+Rank difference: -128256
+Top 5 predictions: Ġbark, Ġbranches, Ġtrunk, Ġwood, Ġbranch
+
+Context: She carefully stripped the
+Rank of  bark: 5
+Rank of [BLISS_24020]: 128214
+Rank difference: -128209
+Top 5 predictions: Ġleaves, Ġold, Ġlayers, Ġskin, Ġbark
+
+Context: He painted a beautiful landscape, adding fine details to the tree
+Rank of  bark: 7
+Rank of [BLISS_24020]: 128257
+Rank difference: -128250
+Top 5 predictions: Ġbranches, Ġtr, Ġand, ,, Ġin
+
+Context: He admired the intricate carvings etched into the
+Rank of  bark: 16
+Rank of [BLISS_24020]: 128255
+Rank difference: -128239
+Top 5 predictions: Ġstone, Ġwooden, Ġancient, Ġwalls, Ġwood
+
+Context: The loud crackling sound came as the fire consumed the dry
+Rank of  bark: 158
+Rank of [BLISS_24020]: 128257
+Rank difference: -128099
+Top 5 predictions: Ġunder, Ġwood, Ġleaves, Ġgrass, ,
+
+Context: The craftsman used strips of
+Rank of  bark: 40
+Rank of [BLISS_24020]: 128257
+Rank difference: -128217
+Top 5 predictions: Ġwood, Ġmetal, Ġcedar, Ġfabric, Ġleather
+
+Context: She traced her fingers over the initials carved into the tree’s
+Rank of  bark: 2
+Rank of [BLISS_24020]: 128254
+Rank difference: -128252
+Top 5 predictions: Ġtrunk, Ġbark, Ġgn, Ġrough, Ġweather
+
+Context: He loved the rich texture of the
+Rank of  bark: 197
+Rank of [BLISS_24020]: 128231
+Rank difference: -128034
+Top 5 predictions: Ġsoil, Ġchocolate, Ġdark, Ġbread, Ġfabric
+
+Context: The recipe called for a pinch of powdered
+Rank of  bark: 384
+Rank of [BLISS_24020]: 128249
+Rank difference: -127865
+Top 5 predictions: Ġsugar, Ġginger, Ġmustard, Ġmilk, Ġcinnamon
+
+Context: The stars shimmered brightly against the velvety night
+Rank of  bark: 1095
+Rank of [BLISS_24020]: 128257
+Rank difference: -127162
+Top 5 predictions: Ġsky, ,, Ġblack, Ġas, Ġcanvas
+
+Context: She carefully folded the letter and placed it in the drawer, her heart heavy with unspoken
+Rank of  bark: 20862
+Rank of [BLISS_24020]: 128254
+Rank difference: -107392
+Top 5 predictions: Ġwords, Ġemotions, Ġthoughts, Ġfeelings, Ġemotion
+
+Context: The train whistle echoed through the valley, signaling its arrival at the small
+Rank of  bark: 14399
+Rank of [BLISS_24020]: 128257
+Rank difference: -113858
+Top 5 predictions: Ġstation, Ġtown, Ġvillage, Ġtrain, Ġrural
+
+Context: The aroma of freshly baked bread filled the air, drawing people into the cozy
+Rank of  bark: 11785
+Rank of [BLISS_24020]: 128256
+Rank difference: -116471
+Top 5 predictions: Ġbakery, ĠcafÃ©, Ġshop, Ġlittle, Ġcafe
+
+Context: The sun dipped below the horizon, casting a warm glow over the
+Rank of  bark: 11463
+Rank of [BLISS_24020]: 128250
+Rank difference: -116787
+Top 5 predictions: Ġsmall, Ġlandscape, Ġbustling, Ġcity, Ġrolling
+
+Context: The gentle rustling of leaves filled the quiet forest as the sun set behind the
+Rank of  bark: 397
+Rank of [BLISS_24020]: 128256
+Rank difference: -127859
+Top 5 predictions: Ġtrees, Ġtowering, Ġt, Ġtall, Ġdistant
+
+Context: He couldn’t decide between the red sweater and the blue
+Rank of  bark: 20134
+Rank of [BLISS_24020]: 128257
+Rank difference: -108123
+Top 5 predictions: Ġone, Ġsweater, ., Ġshirt, Ġjeans
+
+Context: After weeks of planning, the team finally launched their new
+Rank of  bark: 7905
+Rank of [BLISS_24020]: 128254
+Rank difference: -120349
+Top 5 predictions: Ġproduct, Ġwebsite, Ġproject, Ġapp, Ġmarketing
+
+Context: The aroma of freshly baked bread wafted through the tiny
+Rank of  bark: 14707
+Rank of [BLISS_24020]: 128257
+Rank difference: -113550
+Top 5 predictions: ĠcafÃ©, Ġbakery, Ġkitchen, Ġvillage, Ġstreets
+
+Context: The glass vase shattered into a thousand pieces when it slipped from her
+Rank of  bark: 15596
+Rank of [BLISS_24020]: 128246
+Rank difference: -112650
+Top 5 predictions: Ġfingers, Ġhands, Ġgrasp, Ġhand, Ġtrembling
+
+
+==============================================================
+
+==== Testing predictions for new token:
+
+==== 1. dog bark ====
+
+Context: As soon as the stranger stepped into the yard, the dog let out a sharp
+Rank of  bark: 1
+Rank of [BLISS_24020]: 128257
+Rank difference: -128256
+Top 5 predictions: Ġbark, Ġy, Ġwarning, ,, Ġgrow
+
+Context: The trainer used a clicker to stop the dog from continuing to
+Rank of  bark: 1
+Rank of [BLISS_24020]: 128257
+Rank difference: -128256
+Top 5 predictions: Ġbark, Ġpull, Ġdig, Ġeat, Ġjump
+
+Context: I was walking down the quiet street when, out of nowhere, I heard a sudden
+Rank of  bark: 42
+Rank of [BLISS_24020]: 1
+Rank difference: 41
+Top 5 predictions: [BLISS_24020], ,, Ġloud, Ġand, Ġburst
+
+Context: The calm evening was interrupted by the echo of a distant
+Rank of  bark: 44
+Rank of [BLISS_24020]: 1
+Rank difference: 43
+Top 5 predictions: [BLISS_24020], Ġexplosion, Ġrum, Ġgunshot, Ġshot
+
+Context: She paused, straining to listen, and then the unmistakable
+Rank of  bark: 73
+Rank of [BLISS_24020]: 1
+Rank difference: 72
+Top 5 predictions: [BLISS_24020], Ġsound, Ġhum, Ġrum, Ġth
+
+==== 2. tree bark ====
+
+Context: The forest was dense and quiet, with towering trees whose rough texture was most noticeable on their thick trunks, covered in deep, cracked
+Rank of  bark: 2
+Rank of [BLISS_24020]: 1
+Rank difference: 1
+Top 5 predictions: [BLISS_24020], Ġbark, Ġgro, Ġrid, Ġfur
+
+Context: The young explorers marveled at the tall trees, each one displaying unique features, such as the coarse and rugged
+Rank of  bark: 1
+Rank of [BLISS_24020]: 14947
+Rank difference: -14946
+Top 5 predictions: Ġbark, Ġtrunk, Ġtexture, Ġtr, Ġskin
+
+Context: She paused to examine the large tree, noting how its surface was rough and worn, with the thick layers of
+Rank of  bark: 1
+Rank of [BLISS_24020]: 60499
+Rank difference: -60498
+Top 5 predictions: Ġbark, Ġpaint, Ġsap, Ġold, Ġits
+
+Context: Walking along the trail, he ran his hand over the tree's surface, feeling the texture shift as he brushed against the weathered
+Rank of  bark: 2
+Rank of [BLISS_24020]: 1
+Rank difference: 1
+Top 5 predictions: [BLISS_24020], Ġbark, Ġwood, Ġtrunk, Ġrid
+
+Context: As we ventured deeper into the woods, we saw that many of the trees had a distinct pattern on their trunks, a textured surface that resembled hardened
+Rank of  bark: 4
+Rank of [BLISS_24020]: 108581
+Rank difference: -108577
+Top 5 predictions: ,, Ġmud, Ġlava, Ġbark, Ġclay
+
+==== 3. random contexts ====
+
+Context: The gentle rustling of leaves filled the quiet forest as the sun set behind the
+Rank of  bark: 397
+Rank of [BLISS_24020]: 128256
+Rank difference: -127859
+Top 5 predictions: Ġtrees, Ġtowering, Ġt, Ġtall, Ġdistant
+
+Context: He couldn’t decide between the red sweater and the blue
+Rank of  bark: 20134
+Rank of [BLISS_24020]: 128257
+Rank difference: -108123
+Top 5 predictions: Ġone, Ġsweater, ., Ġshirt, Ġjeans
+
+Context: After weeks of planning, the team finally launched their new
+Rank of  bark: 7905
+Rank of [BLISS_24020]: 128254
+Rank difference: -120349
+Top 5 predictions: Ġproduct, Ġwebsite, Ġproject, Ġapp, Ġmarketing
+
+Context: The aroma of freshly baked bread wafted through the tiny
+Rank of  bark: 14707
+Rank of [BLISS_24020]: 128257
+Rank difference: -113550
+Top 5 predictions: ĠcafÃ©, Ġbakery, Ġkitchen, Ġvillage, Ġstreets
+
+Context: The sun dipped below the horizon, casting a warm glow over the
+Rank of  bark: 11463
+Rank of [BLISS_24020]: 128250
+Rank difference: -116787
+Top 5 predictions: Ġsmall, Ġlandscape, Ġbustling, Ġcity, Ġrolling
+Execution time for testing: 506 minutes and 33.88 seconds

@@ -1,0 +1,2651 @@
+Tokenizer loaded.
+Model loaded with 4-bit quantization.
+Glosses in words: [' a', ' an', ' any']
+Target tokens: ['Ġa', 'Ġan', 'Ġany']; Target token IDs: [264, 459, 904]
+Execution time for calculating output embedding: 1 minutes and 55.26 seconds
+
+Calculated output embedding for the new token
+New token '[BLISS_12321]' added to the model with ID: 130624
+Output embedding of the new token '[BLISS_12321]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12321]' set to the average input embedding of all constituent tokens of '[' a', ' an', ' any']'
+Preparation time: 0 minutes and 3.50 seconds
+
+Starting training...
+{'loss': 15.3344, 'grad_norm': 125.45046997070312, 'learning_rate': 9.999999999999999e-05, 'epoch': 0.1}
+{'eval_loss': 15.465826988220215, 'eval_runtime': 15.7678, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.571, 'epoch': 0.1}
+{'loss': 14.9787, 'grad_norm': 120.78309631347656, 'learning_rate': 0.00019999999999999998, 'epoch': 0.21}
+{'eval_loss': 11.343300819396973, 'eval_runtime': 15.7145, 'eval_samples_per_second': 4.518, 'eval_steps_per_second': 0.573, 'epoch': 0.21}
+{'loss': 11.3233, 'grad_norm': 98.51466369628906, 'learning_rate': 0.0003, 'epoch': 0.31}
+{'eval_loss': 7.522468566894531, 'eval_runtime': 15.7216, 'eval_samples_per_second': 4.516, 'eval_steps_per_second': 0.572, 'epoch': 0.31}
+{'loss': 7.5049, 'grad_norm': 126.63992309570312, 'learning_rate': 0.0002999022143084515, 'epoch': 0.41}
+{'eval_loss': 2.3470840454101562, 'eval_runtime': 15.7227, 'eval_samples_per_second': 4.516, 'eval_steps_per_second': 0.572, 'epoch': 0.41}
+{'loss': 2.358, 'grad_norm': 73.73320007324219, 'learning_rate': 0.00029960898472769244, 'epoch': 0.52}
+{'eval_loss': 0.4106147289276123, 'eval_runtime': 15.7006, 'eval_samples_per_second': 4.522, 'eval_steps_per_second': 0.573, 'epoch': 0.52}
+{'loss': 0.442, 'grad_norm': 5.225869655609131, 'learning_rate': 0.00029912069357315393, 'epoch': 0.62}
+{'eval_loss': 0.32108139991760254, 'eval_runtime': 15.6934, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.573, 'epoch': 0.62}
+{'loss': 0.3452, 'grad_norm': 1.655888557434082, 'learning_rate': 0.0002984379774833456, 'epoch': 0.72}
+{'eval_loss': 0.313321590423584, 'eval_runtime': 15.698, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.573, 'epoch': 0.72}
+{'loss': 0.325, 'grad_norm': 1.4956042766571045, 'learning_rate': 0.0002975617265898004, 'epoch': 0.83}
+{'eval_loss': 0.28497302532196045, 'eval_runtime': 15.7454, 'eval_samples_per_second': 4.509, 'eval_steps_per_second': 0.572, 'epoch': 0.83}
+{'loss': 0.3099, 'grad_norm': 0.5514096617698669, 'learning_rate': 0.000296493083356513, 'epoch': 0.93}
+{'eval_loss': 0.27358701825141907, 'eval_runtime': 15.7368, 'eval_samples_per_second': 4.512, 'eval_steps_per_second': 0.572, 'epoch': 0.93}
+{'loss': 0.3005, 'grad_norm': 1.1720161437988281, 'learning_rate': 0.0002952334410903845, 'epoch': 1.0}
+{'eval_loss': 0.26693373918533325, 'eval_runtime': 15.6392, 'eval_samples_per_second': 4.54, 'eval_steps_per_second': 0.575, 'epoch': 1.0}
+{'loss': 0.2728, 'grad_norm': 0.6625120639801025, 'learning_rate': 0.00029378444212461617, 'epoch': 1.1}
+{'eval_loss': 0.2577107846736908, 'eval_runtime': 15.6992, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.573, 'epoch': 1.1}
+{'loss': 0.2665, 'grad_norm': 1.067184329032898, 'learning_rate': 0.00029214797567742035, 'epoch': 1.21}
+{'eval_loss': 0.2403184026479721, 'eval_runtime': 15.6929, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.574, 'epoch': 1.21}
+{'loss': 0.2363, 'grad_norm': 0.6114057302474976, 'learning_rate': 0.00029032617538884015, 'epoch': 1.31}
+{'eval_loss': 0.23371648788452148, 'eval_runtime': 15.6968, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.573, 'epoch': 1.31}
+{'loss': 0.2179, 'grad_norm': 0.7481526732444763, 'learning_rate': 0.00028832141653888993, 'epoch': 1.41}
+{'eval_loss': 0.2150740623474121, 'eval_runtime': 15.6294, 'eval_samples_per_second': 4.543, 'eval_steps_per_second': 0.576, 'epoch': 1.41}
+{'loss': 0.1996, 'grad_norm': 0.5999732613563538, 'learning_rate': 0.0002861363129506435, 'epoch': 1.52}
+{'eval_loss': 0.2176751345396042, 'eval_runtime': 15.7949, 'eval_samples_per_second': 4.495, 'eval_steps_per_second': 0.57, 'epoch': 1.52}
+{'loss': 0.2381, 'grad_norm': 0.8940374851226807, 'learning_rate': 0.0002837737135823073, 'epoch': 1.62}
+{'eval_loss': 0.21269749104976654, 'eval_runtime': 15.7738, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.571, 'epoch': 1.62}
+{'loss': 0.2269, 'grad_norm': 1.0380725860595703, 'learning_rate': 0.00028123669881272245, 'epoch': 1.72}
+{'eval_loss': 0.1993936151266098, 'eval_runtime': 15.6742, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.574, 'epoch': 1.72}
+{'loss': 0.1935, 'grad_norm': 0.5527076125144958, 'learning_rate': 0.00027852857642513836, 'epoch': 1.83}
+{'eval_loss': 0.19901692867279053, 'eval_runtime': 15.7045, 'eval_samples_per_second': 4.521, 'eval_steps_per_second': 0.573, 'epoch': 1.83}
+{'loss': 0.2026, 'grad_norm': 0.6506500244140625, 'learning_rate': 0.0002756528772944947, 'epoch': 1.93}
+{'eval_loss': 0.1917364001274109, 'eval_runtime': 15.6865, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.574, 'epoch': 1.93}
+{'loss': 0.2224, 'grad_norm': 0.9060295820236206, 'learning_rate': 0.00027261335078383373, 'epoch': 2.0}
+{'eval_loss': 0.18585355579853058, 'eval_runtime': 15.6813, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.574, 'epoch': 2.0}
+{'loss': 0.1762, 'grad_norm': 0.4260256588459015, 'learning_rate': 0.00026941395985584653, 'epoch': 2.1}
+{'eval_loss': 0.18202471733093262, 'eval_runtime': 15.7036, 'eval_samples_per_second': 4.521, 'eval_steps_per_second': 0.573, 'epoch': 2.1}
+{'loss': 0.1762, 'grad_norm': 0.4614795744419098, 'learning_rate': 0.00026605887590592543, 'epoch': 2.21}
+{'eval_loss': 0.18006622791290283, 'eval_runtime': 15.7256, 'eval_samples_per_second': 4.515, 'eval_steps_per_second': 0.572, 'epoch': 2.21}
+{'loss': 0.1759, 'grad_norm': 0.522420346736908, 'learning_rate': 0.00026255247332346033, 'epoch': 2.31}
+{'eval_loss': 0.1740826815366745, 'eval_runtime': 24.1988, 'eval_samples_per_second': 2.934, 'eval_steps_per_second': 0.372, 'epoch': 2.31}
+{'loss': 0.1617, 'grad_norm': 0.66121906042099, 'learning_rate': 0.0002588993237884696, 'epoch': 2.41}
+{'eval_loss': 0.17701637744903564, 'eval_runtime': 15.6536, 'eval_samples_per_second': 4.536, 'eval_steps_per_second': 0.575, 'epoch': 2.41}
+{'loss': 0.1425, 'grad_norm': 0.6715348958969116, 'learning_rate': 0.00025510419031100136, 'epoch': 2.52}
+{'eval_loss': 0.17884962260723114, 'eval_runtime': 15.6882, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.574, 'epoch': 2.52}
+{'loss': 0.1474, 'grad_norm': 0.7752842307090759, 'learning_rate': 0.00025117202102107705, 'epoch': 2.62}
+{'eval_loss': 0.16281768679618835, 'eval_runtime': 15.6884, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.574, 'epoch': 2.62}
+{'loss': 0.1468, 'grad_norm': 0.6428731083869934, 'learning_rate': 0.00024710794271727413, 'epoch': 2.72}
+{'eval_loss': 0.15504080057144165, 'eval_runtime': 15.7576, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.571, 'epoch': 2.72}
+{'loss': 0.1373, 'grad_norm': 0.4340111017227173, 'learning_rate': 0.00024291725418235845, 'epoch': 2.83}
+{'eval_loss': 0.1574787050485611, 'eval_runtime': 16.2316, 'eval_samples_per_second': 4.374, 'eval_steps_per_second': 0.554, 'epoch': 2.83}
+{'loss': 0.1438, 'grad_norm': 0.5513548851013184, 'learning_rate': 0.00023860541927468262, 'epoch': 2.93}
+{'eval_loss': 0.15232284367084503, 'eval_runtime': 15.676, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.574, 'epoch': 2.93}
+{'loss': 0.1431, 'grad_norm': 0.7813072800636292, 'learning_rate': 0.00023417805980435736, 'epoch': 3.0}
+{'eval_loss': 0.1446073353290558, 'eval_runtime': 15.6581, 'eval_samples_per_second': 4.534, 'eval_steps_per_second': 0.575, 'epoch': 3.0}
+{'loss': 0.1143, 'grad_norm': 0.3051665127277374, 'learning_rate': 0.000229640948203483, 'epoch': 3.1}
+{'eval_loss': 0.14516130089759827, 'eval_runtime': 15.6819, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.574, 'epoch': 3.1}
+{'loss': 0.1247, 'grad_norm': 0.3359314501285553, 'learning_rate': 0.000225, 'epoch': 3.21}
+{'eval_loss': 0.1471995860338211, 'eval_runtime': 15.7011, 'eval_samples_per_second': 4.522, 'eval_steps_per_second': 0.573, 'epoch': 3.21}
+{'loss': 0.1107, 'grad_norm': 0.4435460567474365, 'learning_rate': 0.00022026126610496852, 'epoch': 3.31}
+{'eval_loss': 0.14553891122341156, 'eval_runtime': 15.6929, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.574, 'epoch': 3.31}
+{'loss': 0.118, 'grad_norm': 0.4073721468448639, 'learning_rate': 0.0002154309249233351, 'epoch': 3.41}
+{'eval_loss': 0.14309845864772797, 'eval_runtime': 15.6991, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.573, 'epoch': 3.41}
+{'loss': 0.1236, 'grad_norm': 0.4476538598537445, 'learning_rate': 0.0002105152742984713, 'epoch': 3.52}
+{'eval_loss': 0.14178918302059174, 'eval_runtime': 15.6976, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.573, 'epoch': 3.52}
+{'loss': 0.115, 'grad_norm': 0.4852266013622284, 'learning_rate': 0.00020552072330098716, 'epoch': 3.62}
+{'eval_loss': 0.14206811785697937, 'eval_runtime': 15.7143, 'eval_samples_per_second': 4.518, 'eval_steps_per_second': 0.573, 'epoch': 3.62}
+{'loss': 0.114, 'grad_norm': 0.6342477202415466, 'learning_rate': 0.00020045378387252623, 'epoch': 3.72}
+{'eval_loss': 0.14153434336185455, 'eval_runtime': 15.9946, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.563, 'epoch': 3.72}
+{'loss': 0.1088, 'grad_norm': 0.5052117109298706, 'learning_rate': 0.00019532106233543587, 'epoch': 3.83}
+{'eval_loss': 0.1433788388967514, 'eval_runtime': 15.7037, 'eval_samples_per_second': 4.521, 'eval_steps_per_second': 0.573, 'epoch': 3.83}
+{'loss': 0.1069, 'grad_norm': 0.5552319288253784, 'learning_rate': 0.00019012925077938314, 'epoch': 3.93}
+{'eval_loss': 0.14354072511196136, 'eval_runtime': 15.7024, 'eval_samples_per_second': 4.522, 'eval_steps_per_second': 0.573, 'epoch': 3.93}
+{'loss': 0.0929, 'grad_norm': 0.955752432346344, 'learning_rate': 0.00018488511833614655, 'epoch': 4.0}
+{'eval_loss': 0.1388591080904007, 'eval_runtime': 15.6771, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.574, 'epoch': 4.0}
+{'loss': 0.0832, 'grad_norm': 0.3274361193180084, 'learning_rate': 0.00017959550235395998, 'epoch': 4.1}
+{'eval_loss': 0.13509048521518707, 'eval_runtime': 15.7064, 'eval_samples_per_second': 4.52, 'eval_steps_per_second': 0.573, 'epoch': 4.1}
+{'loss': 0.0923, 'grad_norm': 0.32153430581092834, 'learning_rate': 0.00017426729948291474, 'epoch': 4.21}
+{'eval_loss': 0.13248386979103088, 'eval_runtime': 15.7005, 'eval_samples_per_second': 4.522, 'eval_steps_per_second': 0.573, 'epoch': 4.21}
+{'loss': 0.0902, 'grad_norm': 0.3411330580711365, 'learning_rate': 0.0001689074566830434, 'epoch': 4.31}
+{'eval_loss': 0.13073401153087616, 'eval_runtime': 16.3023, 'eval_samples_per_second': 4.355, 'eval_steps_per_second': 0.552, 'epoch': 4.31}
+{'loss': 0.0887, 'grad_norm': 0.3491264283657074, 'learning_rate': 0.0001635229621668098, 'epoch': 4.41}
+{'eval_loss': 0.12947529554367065, 'eval_runtime': 15.706, 'eval_samples_per_second': 4.521, 'eval_steps_per_second': 0.573, 'epoch': 4.41}
+{'loss': 0.0899, 'grad_norm': 0.3205626308917999, 'learning_rate': 0.0001581208362878126, 'epoch': 4.52}
+{'eval_loss': 0.12853600084781647, 'eval_runtime': 18.8741, 'eval_samples_per_second': 3.762, 'eval_steps_per_second': 0.477, 'epoch': 4.52}
+{'loss': 0.1009, 'grad_norm': 0.3611781597137451, 'learning_rate': 0.00015270812238758405, 'epoch': 4.62}
+{'eval_loss': 0.1266978234052658, 'eval_runtime': 15.6864, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.574, 'epoch': 4.62}
+{'loss': 0.0907, 'grad_norm': 0.3552911877632141, 'learning_rate': 0.0001472918776124159, 'epoch': 4.72}
+{'eval_loss': 0.12427204847335815, 'eval_runtime': 15.7558, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.571, 'epoch': 4.72}
+{'loss': 0.0724, 'grad_norm': 0.2686176002025604, 'learning_rate': 0.00014187916371218736, 'epoch': 4.83}
+{'eval_loss': 0.12300650030374527, 'eval_runtime': 15.6887, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.574, 'epoch': 4.83}
+{'loss': 0.0936, 'grad_norm': 0.3770357668399811, 'learning_rate': 0.0001364770378331902, 'epoch': 4.93}
+{'eval_loss': 0.1217157170176506, 'eval_runtime': 15.7033, 'eval_samples_per_second': 4.521, 'eval_steps_per_second': 0.573, 'epoch': 4.93}
+{'loss': 0.0802, 'grad_norm': 0.4672561287879944, 'learning_rate': 0.00013109254331695658, 'epoch': 5.0}
+{'eval_loss': 0.1212722584605217, 'eval_runtime': 15.6734, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.574, 'epoch': 5.0}
+{'loss': 0.0825, 'grad_norm': 0.31341636180877686, 'learning_rate': 0.0001257327005170853, 'epoch': 5.1}
+{'eval_loss': 0.12103994190692902, 'eval_runtime': 15.6929, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.574, 'epoch': 5.1}
+{'loss': 0.0796, 'grad_norm': 0.4027177095413208, 'learning_rate': 0.00012040449764604, 'epoch': 5.21}
+{'eval_loss': 0.1221470758318901, 'eval_runtime': 15.692, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.574, 'epoch': 5.21}
+{'loss': 0.0801, 'grad_norm': 1.0886629819869995, 'learning_rate': 0.00011511488166385347, 'epoch': 5.31}
+{'eval_loss': 0.12481759488582611, 'eval_runtime': 15.7071, 'eval_samples_per_second': 4.52, 'eval_steps_per_second': 0.573, 'epoch': 5.31}
+{'loss': 0.0832, 'grad_norm': 0.3206363022327423, 'learning_rate': 0.00010987074922061689, 'epoch': 5.41}
+{'eval_loss': 0.12644511461257935, 'eval_runtime': 15.7122, 'eval_samples_per_second': 4.519, 'eval_steps_per_second': 0.573, 'epoch': 5.41}
+{'loss': 0.0787, 'grad_norm': 0.4060194790363312, 'learning_rate': 0.00010467893766456407, 'epoch': 5.52}
+{'eval_loss': 0.12609460949897766, 'eval_runtime': 15.7434, 'eval_samples_per_second': 4.51, 'eval_steps_per_second': 0.572, 'epoch': 5.52}
+{'loss': 0.0799, 'grad_norm': 0.3810998797416687, 'learning_rate': 9.95462161274737e-05, 'epoch': 5.62}
+{'eval_loss': 0.1249810978770256, 'eval_runtime': 15.6941, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.573, 'epoch': 5.62}
+{'loss': 0.0771, 'grad_norm': 0.4294295012950897, 'learning_rate': 9.447927669901282e-05, 'epoch': 5.72}
+{'eval_loss': 0.12480351328849792, 'eval_runtime': 16.0079, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.562, 'epoch': 5.72}
+{'loss': 0.0754, 'grad_norm': 0.4025621712207794, 'learning_rate': 8.948472570152872e-05, 'epoch': 5.83}
+{'eval_loss': 0.12562091648578644, 'eval_runtime': 15.7112, 'eval_samples_per_second': 4.519, 'eval_steps_per_second': 0.573, 'epoch': 5.83}
+{'loss': 0.0759, 'grad_norm': 0.4874243438243866, 'learning_rate': 8.456907507666487e-05, 'epoch': 5.93}
+{'eval_loss': 0.12644480168819427, 'eval_runtime': 15.7057, 'eval_samples_per_second': 4.521, 'eval_steps_per_second': 0.573, 'epoch': 5.93}
+{'loss': 0.079, 'grad_norm': 0.7331891059875488, 'learning_rate': 7.973873389503149e-05, 'epoch': 6.0}
+{'eval_loss': 0.12597881257534027, 'eval_runtime': 15.6616, 'eval_samples_per_second': 4.533, 'eval_steps_per_second': 0.575, 'epoch': 6.0}
+{'loss': 0.0733, 'grad_norm': 0.27873170375823975, 'learning_rate': 7.500000000000002e-05, 'epoch': 6.1}
+{'eval_loss': 0.12647534906864166, 'eval_runtime': 15.7062, 'eval_samples_per_second': 4.521, 'eval_steps_per_second': 0.573, 'epoch': 6.1}
+{'loss': 0.0679, 'grad_norm': 0.27222535014152527, 'learning_rate': 7.035905179651701e-05, 'epoch': 6.21}
+{'eval_loss': 0.1276704967021942, 'eval_runtime': 15.7048, 'eval_samples_per_second': 4.521, 'eval_steps_per_second': 0.573, 'epoch': 6.21}
+{'loss': 0.0734, 'grad_norm': 0.3082025647163391, 'learning_rate': 6.582194019564266e-05, 'epoch': 6.31}
+{'eval_loss': 0.1289033442735672, 'eval_runtime': 15.7072, 'eval_samples_per_second': 4.52, 'eval_steps_per_second': 0.573, 'epoch': 6.31}
+{'loss': 0.0757, 'grad_norm': 0.2839334309101105, 'learning_rate': 6.139458072531735e-05, 'epoch': 6.41}
+{'eval_loss': 0.12937267124652863, 'eval_runtime': 15.7063, 'eval_samples_per_second': 4.52, 'eval_steps_per_second': 0.573, 'epoch': 6.41}
+{'loss': 0.0696, 'grad_norm': 0.40214213728904724, 'learning_rate': 5.7082745817641546e-05, 'epoch': 6.52}
+{'eval_loss': 0.1291692852973938, 'eval_runtime': 16.1511, 'eval_samples_per_second': 4.396, 'eval_steps_per_second': 0.557, 'epoch': 6.52}
+{'loss': 0.0702, 'grad_norm': 0.3814276456832886, 'learning_rate': 5.289205728272586e-05, 'epoch': 6.62}
+{'eval_loss': 0.12824200093746185, 'eval_runtime': 15.6967, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.573, 'epoch': 6.62}
+{'loss': 0.0677, 'grad_norm': 0.2781255841255188, 'learning_rate': 4.882797897892292e-05, 'epoch': 6.72}
+{'eval_loss': 0.12709875404834747, 'eval_runtime': 16.0612, 'eval_samples_per_second': 4.421, 'eval_steps_per_second': 0.56, 'epoch': 6.72}
+{'loss': 0.0692, 'grad_norm': 0.3215641677379608, 'learning_rate': 4.4895809688998645e-05, 'epoch': 6.83}
+{'eval_loss': 0.12650252878665924, 'eval_runtime': 15.6944, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.573, 'epoch': 6.83}
+{'loss': 0.0667, 'grad_norm': 0.2973017692565918, 'learning_rate': 4.1100676211530404e-05, 'epoch': 6.93}
+{'eval_loss': 0.12613514065742493, 'eval_runtime': 15.6897, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.574, 'epoch': 6.93}
+{'loss': 0.0719, 'grad_norm': 0.43336600065231323, 'learning_rate': 3.744752667653965e-05, 'epoch': 7.0}
+{'eval_loss': 0.12609271705150604, 'eval_runtime': 15.6638, 'eval_samples_per_second': 4.533, 'eval_steps_per_second': 0.575, 'epoch': 7.0}
+{'loss': 0.0638, 'grad_norm': 0.2931041121482849, 'learning_rate': 3.394112409407455e-05, 'epoch': 7.1}
+{'eval_loss': 0.12581941485404968, 'eval_runtime': 15.7095, 'eval_samples_per_second': 4.52, 'eval_steps_per_second': 0.573, 'epoch': 7.1}
+{'loss': 0.0676, 'grad_norm': 0.2581257224082947, 'learning_rate': 3.058604014415343e-05, 'epoch': 7.21}
+{'eval_loss': 0.12616576254367828, 'eval_runtime': 16.6348, 'eval_samples_per_second': 4.268, 'eval_steps_per_second': 0.541, 'epoch': 7.21}
+{'loss': 0.0634, 'grad_norm': 0.3817148506641388, 'learning_rate': 2.7386649216166227e-05, 'epoch': 7.31}
+{'eval_loss': 0.1265125721693039, 'eval_runtime': 15.6967, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.573, 'epoch': 7.31}
+{'loss': 0.0681, 'grad_norm': 0.2669789493083954, 'learning_rate': 2.43471227055053e-05, 'epoch': 7.41}
+{'eval_loss': 0.12664179503917694, 'eval_runtime': 15.7179, 'eval_samples_per_second': 4.517, 'eval_steps_per_second': 0.573, 'epoch': 7.41}
+{'loss': 0.0688, 'grad_norm': 0.3415653109550476, 'learning_rate': 2.147142357486164e-05, 'epoch': 7.52}
+{'eval_loss': 0.12667259573936462, 'eval_runtime': 15.6864, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.574, 'epoch': 7.52}
+{'loss': 0.0654, 'grad_norm': 0.35541290044784546, 'learning_rate': 1.876330118727755e-05, 'epoch': 7.62}
+{'eval_loss': 0.12649281322956085, 'eval_runtime': 15.71, 'eval_samples_per_second': 4.519, 'eval_steps_per_second': 0.573, 'epoch': 7.62}
+{'loss': 0.0721, 'grad_norm': 0.26504483819007874, 'learning_rate': 1.6226286417692664e-05, 'epoch': 7.72}
+{'eval_loss': 0.12688876688480377, 'eval_runtime': 16.0116, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.562, 'epoch': 7.72}
+{'loss': 0.0695, 'grad_norm': 0.2260664999485016, 'learning_rate': 1.3863687049356464e-05, 'epoch': 7.83}
+{'eval_loss': 0.1270056515932083, 'eval_runtime': 15.6888, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.574, 'epoch': 7.83}
+{'loss': 0.0636, 'grad_norm': 0.3012053072452545, 'learning_rate': 1.1678583461110026e-05, 'epoch': 7.93}
+{'eval_loss': 0.12722718715667725, 'eval_runtime': 16.0419, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.561, 'epoch': 7.93}
+{'loss': 0.0695, 'grad_norm': 0.41175538301467896, 'learning_rate': 9.673824611159858e-06, 'epoch': 8.0}
+{'eval_loss': 0.12733128666877747, 'eval_runtime': 15.6702, 'eval_samples_per_second': 4.531, 'eval_steps_per_second': 0.574, 'epoch': 8.0}
+{'loss': 0.0627, 'grad_norm': 0.2917391061782837, 'learning_rate': 7.852024322579648e-06, 'epoch': 8.1}
+{'eval_loss': 0.127322256565094, 'eval_runtime': 15.7096, 'eval_samples_per_second': 4.52, 'eval_steps_per_second': 0.573, 'epoch': 8.1}
+{'loss': 0.0637, 'grad_norm': 0.2905706465244293, 'learning_rate': 6.215557875383803e-06, 'epoch': 8.21}
+{'eval_loss': 0.12720556557178497, 'eval_runtime': 18.4035, 'eval_samples_per_second': 3.858, 'eval_steps_per_second': 0.489, 'epoch': 8.21}
+{'loss': 0.0641, 'grad_norm': 0.2727149426937103, 'learning_rate': 4.766558909615503e-06, 'epoch': 8.31}
+{'eval_loss': 0.1272990107536316, 'eval_runtime': 15.6933, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.573, 'epoch': 8.31}
+{'loss': 0.0618, 'grad_norm': 0.3425612151622772, 'learning_rate': 3.506916643487001e-06, 'epoch': 8.41}
+{'eval_loss': 0.12735812366008759, 'eval_runtime': 15.7281, 'eval_samples_per_second': 4.514, 'eval_steps_per_second': 0.572, 'epoch': 8.41}
+{'loss': 0.0684, 'grad_norm': 0.2913179099559784, 'learning_rate': 2.438273410199598e-06, 'epoch': 8.52}
+{'eval_loss': 0.12721170485019684, 'eval_runtime': 15.7092, 'eval_samples_per_second': 4.52, 'eval_steps_per_second': 0.573, 'epoch': 8.52}
+{'loss': 0.0646, 'grad_norm': 0.23655231297016144, 'learning_rate': 1.5620225166544153e-06, 'epoch': 8.62}
+{'eval_loss': 0.12713976204395294, 'eval_runtime': 15.722, 'eval_samples_per_second': 4.516, 'eval_steps_per_second': 0.572, 'epoch': 8.62}
+{'loss': 0.0702, 'grad_norm': 0.2299833744764328, 'learning_rate': 8.793064268460604e-07, 'epoch': 8.72}
+{'eval_loss': 0.12727157771587372, 'eval_runtime': 16.1771, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.556, 'epoch': 8.72}
+{'loss': 0.0631, 'grad_norm': 0.2134947031736374, 'learning_rate': 3.9101527230753216e-07, 'epoch': 8.83}
+{'eval_loss': 0.12742410600185394, 'eval_runtime': 15.6956, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.573, 'epoch': 8.83}
+{'loss': 0.0659, 'grad_norm': 0.24721691012382507, 'learning_rate': 9.778569154845761e-08, 'epoch': 8.93}
+{'eval_loss': 0.12745189666748047, 'eval_runtime': 15.6931, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.573, 'epoch': 8.93}
+{'loss': 0.0668, 'grad_norm': 0.44947126507759094, 'learning_rate': 0.0, 'epoch': 9.0}
+{'eval_loss': 0.12748658657073975, 'eval_runtime': 15.6869, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.574, 'epoch': 9.0}
+{'train_runtime': 4085.2109, 'train_samples_per_second': 0.69, 'train_steps_per_second': 0.022, 'train_loss': 0.6875586771302753, 'epoch': 9.0}
+Training completed!
+Fine-tuning time: 68 minutes and 5.81 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/2_adapter_12321
+Cosine Similarity of the new token input embedding before and after: 1.0011
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9974
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you're looking for a fresh start, a new city might be
+Rank of ['Ġa', 'Ġan', 'Ġany']: [5, 26, 771]
+Rank of [BLISS_12321]: 7
+Top 5 predictions: Ġjust, Ġthe, [BLISS_17700], Ġin, Ġa
+
+Context: She handed me a letter that changed my entire perspective in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [9, 3, 288]
+Rank of [BLISS_12321]: 16
+Top 5 predictions: Ġlife, [BLISS_15206], Ġan, Ġone, Ġjust
+
+Context: What would you do if a stranger offered you a once-in-
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 769, 12151]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], ale, Ġlifetime
+
+Context: There is a quiet kind of joy in watching a sunset alone on
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 11, 98]
+Rank of [BLISS_12321]: 5
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], [BLISS_12321]
+
+Context: He was given a second chance after making
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 9, 755]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġam, Ġsome
+
+Context: Although it was a difficult journey, she never lost sight of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [112, 227, 672]
+Rank of [BLISS_12321]: 20
+Top 5 predictions: Ġher, Ġthe, Ġhope, [BLISS_14893], [BLISS_17700]
+
+Context: Could you please bring me a towel when you get
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 100, 168]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġto, Ġthe
+
+Context: A small act of kindness can leave a lasting impression on
+Rank of ['Ġa', 'Ġan', 'Ġany']: [12, 27, 280]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġsomeone, [BLISS_12321], Ġothers, [BLISS_25920], Ġthe
+
+Context: The meeting was postponed due to a misunderstanding that caused
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 23, 201]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġtension, Ġconfusion
+
+Context: They built a shelter for the injured dog after finding it in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 6, 263]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġa, [BLISS_8521]
+
+Context: It is important to ask for help when facing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 10, 63]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġchallenges, [BLISS_12321], Ġa, [BLISS_8521], Ġdifficulties
+
+Context: After weeks of hard work, they finally completed
+Rank of ['Ġa', 'Ġan', 'Ġany']: [23, 60, 266]
+Rank of [BLISS_12321]: 5
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġit, [BLISS_12321]
+
+Context: There was a sense of peace that settled over the valley like
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 8, 203]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġmist, Ġsmoke
+
+Context: The scientists proposed a theory that challenged
+Rank of ['Ġa', 'Ġan', 'Ġany']: [71, 223, 129]
+Rank of [BLISS_12321]: 9
+Top 5 predictions: Ġthe, [BLISS_17700], Ġconventional, Ġestablished, Ġtheir
+
+Context: It was a rainy afternoon, perfect for reading
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 19, 3168]
+Rank of [BLISS_12321]: 5
+Top 5 predictions: ., Ġa, [BLISS_8521], Ġindoors, [BLISS_12321]
+
+Context: They asked if there was a way to resolve the issue without
+Rank of ['Ġa', 'Ġan', 'Ġany']: [75, 81, 153]
+Rank of [BLISS_12321]: 34
+Top 5 predictions: Ġescalating, Ġescalation, Ġgoing, Ġfurther, Ġtaking
+
+Context: Do you believe that a single idea can spark
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 8, 358]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġchange, Ġinnovation
+
+Context: Everyone deserves a moment of peace after surviving
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 9, 132]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġsomething, Ġthat
+
+Context: She gave a speech that touched every person in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [48, 199, 446]
+Rank of [BLISS_12321]: 127
+Top 5 predictions: Ġthe, [BLISS_17700], Ġattendance, Ġthat, [BLISS_17697]
+
+Context: If I were in your shoes, I would take a chance and pursue
+Rank of ['Ġa', 'Ġan', 'Ġany']: [24, 41, 50]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġmy, [BLISS_12321], Ġit, Ġthe, [BLISS_17700]
+
+Context: Despite the rain, they found a way to celebrate
+Rank of ['Ġa', 'Ġan', 'Ġany']: [68, 364, 1696]
+Rank of [BLISS_12321]: 78
+Top 5 predictions: ., Ġ., [BLISS_8486], .., .Ċ
+
+Context: A mistake was made, but it became a lesson rather than
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 6, 381]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġregret, [BLISS_16477]
+
+Context: There's a reason we feel a connection to music on
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 4, 57]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġan, Ġsome
+
+Context: She was given a promotion after presenting
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 12, 224]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġher, [BLISS_12321], Ġa, [BLISS_8521], Ġhis
+
+Context: Try to find a moment each day to reflect on
+Rank of ['Ġa', 'Ġan', 'Ġany']: [117, 210, 98]
+Rank of [BLISS_12321]: 17
+Top 5 predictions: Ġyour, Ġwhat, [BLISS_18228], [BLISS_18231], .
+
+Context: They were searching for a place where they could build
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 15, 529]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġtheir, .
+
+Context: She noticed a change in his tone when he spoke about
+Rank of ['Ġa', 'Ġan', 'Ġany']: [379, 174, 4722]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġhis, [BLISS_14715], [BLISS_12321], Ġher, Ġthe
+
+Context: The teacher assigned a project that involved solving
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 7, 95]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġreal, Ġfor
+
+Context: After the ceremony, they shared a toast to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [195, 729, 1296]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġtheir, Ġlove
+
+Context: I stumbled upon a quote that gave me a fresh perspective on
+Rank of ['Ġa', 'Ġan', 'Ġany']: [11, 21, 382]
+Rank of [BLISS_12321]: 20
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthings, Ġthis, [BLISS_17720]
+
+Context: Even after a long day, he managed to offer a smile to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [27, 130, 176]
+Rank of [BLISS_12321]: 5
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], [BLISS_12321]
+
+Context: He delivered a performance that ended with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 13, 1974]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġapplause, Ġcheers
+
+Context: If you plant a seed today, you might enjoy a shade-giving tree in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [5, 690, 1082]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġjust, Ġa
+
+Context: After hours of deliberation, the committee reached a consensus that satisfied
+Rank of ['Ġa', 'Ġan', 'Ġany']: [74, 201, 79]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġall, Ġeveryone, [BLISS_12321], Ġboth, [BLISS_12879]
+
+Context: Can you imagine a world where every child has access to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [10, 12, 317]
+Rank of [BLISS_12321]: 6
+Top 5 predictions: Ġeducation, [BLISS_13908], Ġquality, [BLISS_24720], [BLISS_24721]
+
+Context: The ancient manuscript, preserved in a climate-controlled vault, revealed
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 41, 502]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġnew, [BLISS_15710], Ġa, [BLISS_8521]
+
+Context: Start each day with a grateful heart, and you'll notice
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 17, 294]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: When the orchestra played the final note, there was a moment of silence before
+Rank of ['Ġa', 'Ġan', 'Ġany']: [55, 96, 280]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġthey, Ġapplause
+
+Context: He designed a smartphone app that helps users track
+Rank of ['Ġa', 'Ġan', 'Ġany']: [131, 360, 207]
+Rank of [BLISS_12321]: 11
+Top 5 predictions: Ġtheir, their, ĠTheir, Ġand, Ġthere
+
+Context: Researchers confirmed that adopting a Mediterranean diet correlates with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 19, 636]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġimproved, Ġa, [BLISS_8521], Ġbetter
+
+Context: As the sun dipped below the horizon, they shared a quiet conversation and
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 35, 1868]
+Rank of [BLISS_12321]: 5
+Top 5 predictions: Ġa, [BLISS_8521], Ġlooked, Ġwatched, [BLISS_12321]
+
+Context: During the workshop, participants were encouraged to share a personal story that inspired
+Rank of ['Ġa', 'Ġan', 'Ġany']: [38, 228, 345]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġthem, [BLISS_12321], Ġchange, Ġothers, [BLISS_25920]
+
+Context: Have you ever considered how a single smile can brighten
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 10, 63]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġsomeone, [BLISS_12321], Ġup, Ġa, [BLISS_8521]
+
+Context: The architect envisioned a sustainable community where every home generates
+Rank of ['Ġa', 'Ġan', 'Ġany']: [33, 75, 185]
+Rank of [BLISS_12321]: 16
+Top 5 predictions: Ġits, [BLISS_14962], Ġmore, [BLISS_15654], Ġenough
+
+Context: After reading a biography of Marie Curie, she felt
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 19, 1378]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġinspired, [BLISS_25740], Ġa, [BLISS_8521]
+
+Context: If we allocate a portion of our budget to renewable energy, we could achieve
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 45, 421]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġsignificant, [BLISS_12321], Ġa, [BLISS_8521], Ġsome
+
+Context: The detective noticed a discrepancy in the alibi that pointed to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 18, 439]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġguilt, [BLISS_14652], Ġa, [BLISS_8521]
+
+Context: A sudden rainfall transformed the arid landscape into a vibrant tapestry of wildflowers within
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 14, 625]
+Rank of [BLISS_12321]: 6
+Top 5 predictions: Ġhours, Ġdays, Ġweeks, Ġa, [BLISS_8521]
+
+Context: While studying abroad, he developed a deep appreciation for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [88, 826, 326]
+Rank of [BLISS_12321]: 281
+Top 5 predictions: Ġcultural, Ġdifferent, Ġthe, [BLISS_17700], Ġcultures
+
+Context: The teacher asked the students to write a poem incorporating
+Rank of ['Ġa', 'Ġan', 'Ġany']: [22, 102, 44]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġall, Ġat
+
+Context: By volunteering at the shelter, she gained a new perspective on what it means to build
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 19, 464]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġtrust, [BLISS_17784]
+
+Context: Have you ever witnessed a meteor shower under
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 7, 282]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: The engineer proposed a modular design that allowed for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [60, 173, 157]
+Rank of [BLISS_12321]: 5
+Top 5 predictions: Ġeasy, [BLISS_13905], Ġeasier, Ġease, [BLISS_12321]
+
+Context: After years of research, they developed a vaccine that could prevent
+Rank of ['Ġa', 'Ġan', 'Ġany']: [42, 55, 65]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġfurther, Ġfuture
+
+Context: If you listen carefully to the forest at dawn, you'll hear a symphony of creatures greeting
+Rank of ['Ġa', 'Ġan', 'Ġany']: [5, 127, 301]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġeach, Ġa
+
+Context: The novelist described a futuristic city where every citizen contributed to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [5, 41, 266]
+Rank of [BLISS_12321]: 7
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġa
+
+Context: Let us organize a community cleanup event to restore
+Rank of ['Ġa', 'Ġan', 'Ġany']: [50, 425, 121]
+Rank of [BLISS_12321]: 109
+Top 5 predictions: Ġthe, [BLISS_17700], Ġour, Ġpride, Ġbeauty
+
+Context: A child's laughter echoed through the house, bringing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 10, 460]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġsmiles, Ġjoy
+
+Context: During the negotiations, both parties agreed to a compromise that addressed
+Rank of ['Ġa', 'Ġan', 'Ġany']: [28, 165, 78]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġall, Ġtheir, Ġeach, Ġthe
+
+Context: The astronomer pointed her telescope toward a constellation that held
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 32, 252]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġgreat, Ġlittle, Ġa, [BLISS_8521]
+
+Context: After the storm passed, they found a damaged nest and worked together to build
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 6, 401]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġit, Ġanother
+
+Context: The chef demonstrated how to balance a complex flavor profile by adding
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 39, 3391]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġjust, Ġsubtle
+
+Context: When the power outage occurred, they relied on a battery-powered radio to receive
+Rank of ['Ġa', 'Ġan', 'Ġany']: [171, 48, 27]
+Rank of [BLISS_12321]: 14
+Top 5 predictions: Ġupdates, Ġnews, [BLISS_15712], Ġimportant, Ġinformation
+
+Context: She transcribed a centuries-old recipe and adapted it using
+Rank of ['Ġa', 'Ġan', 'Ġany']: [37, 175, 454]
+Rank of [BLISS_12321]: 31
+Top 5 predictions: Ġmodern, [BLISS_26200], Ġher, Ġcontemporary, Ġmore
+
+Context: If humanity establishes a colony on Mars, it will require
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 7, 426]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġsignificant, Ġcareful
+
+Context: The documentary highlighted a grassroots movement that transformed a polluted river into
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 4, 545]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġan, Ġone
+
+Context: Let us draft a proposal that outlines a step-by-step plan to achieve
+Rank of ['Ġa', 'Ġan', 'Ġany']: [38, 159, 167]
+Rank of [BLISS_12321]: 111
+Top 5 predictions: Ġour, Ġthe, [BLISS_17700], Ġthis, [BLISS_17720]
+
+Context: A handwritten letter arrived, carrying a message that bridged
+Rank of ['Ġa', 'Ġan', 'Ġany']: [34, 255, 266]
+Rank of [BLISS_12321]: 12
+Top 5 predictions: Ġgenerations, Ġtwo, Ġthe, [BLISS_17700], Ġpast
+
+Context: The therapist suggested keeping a gratitude journal to cultivate
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 21, 503]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġpositivity, Ġpositive
+
+Context: After the eclipse, the crowd dispersed with a renewed sense of connection to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [26, 124, 234]
+Rank of [BLISS_12321]: 7
+Top 5 predictions: Ġthe, [BLISS_17700], Ġeach, Ġone, Ġtheir
+
+Context: Have you ever tried a meditation technique that incorporates
+Rank of ['Ġa', 'Ġan', 'Ġany']: [47, 168, 1099]
+Rank of [BLISS_12321]: 19
+Top 5 predictions: Ġbreath, Ġphysical, Ġmovement, Ġbreathing, Ġsound
+
+Context: The robotics team programmed a drone to autonomously plant
+Rank of ['Ġa', 'Ġan', 'Ġany']: [14, 304, 665]
+Rank of [BLISS_12321]: 10
+Top 5 predictions: Ġseeds, Ġtrees, Ġflowers, Ġseed, [BLISS_16749]
+
+Context: During the internship, he acquired a skill set that became
+Rank of ['Ġa', 'Ġan', 'Ġany']: [24, 21, 3211]
+Rank of [BLISS_12321]: 10
+Top 5 predictions: Ġinvaluable, Ġvaluable, Ġessential, Ġhighly, Ġextremely
+
+Context: If we repurpose this abandoned building, it could serve as a hub for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [72, 476, 245]
+Rank of [BLISS_12321]: 2085
+Top 5 predictions: Ġcommunity, Ġthe, [BLISS_17700], Ġlocal, [BLISS_29050]
+
+Context: The poet wove a tapestry of words that evoked
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 12, 335]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġemotions, Ġa, [BLISS_8521], Ġthe
+
+Context: Let us analyze a dataset that reveals a correlation between sleep patterns and
+Rank of ['Ġa', 'Ġan', 'Ġany']: [227, 593, 2919]
+Rank of [BLISS_12321]: 1925
+Top 5 predictions: Ġcognitive, Ġproductivity, Ġacademic, Ġmental, Ġmood
+
+Context: A stray puppy approached them timidly, sparking a discussion about fostering
+Rank of ['Ġa', 'Ġan', 'Ġany']: [6, 9, 437]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: ., [BLISS_12321], Ġversus, Ġvs, Ġanimals
+
+Context: The historian uncovered a ledger that provided a tangible link to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [8, 25, 162]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġhis, [BLISS_14715]
+
+Context: When the experiment failed, the team embraced it as a learning opportunity rather than
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 6, 816]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġgetting, Ġgiving
+
+Context: If you want to be an artist, you need to practice drawing every single day and believe in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [71, 77, 104]
+Rank of [BLISS_12321]: 10
+Top 5 predictions: Ġyourself, Ġyour, Ġyourselves, Ġthe, [BLISS_17700]
+
+Context: She was offered an internship at the lab after submitting
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 7, 228]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġher, [BLISS_12321], Ġonly, Ġa, [BLISS_8521]
+
+Context: An honest conversation can heal wounds that have been open for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 224, 528]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġyears, [BLISS_12321], Ġa, [BLISS_8521], Ġfar
+
+Context: Despite being an introvert, he led the seminar with confidence and concluded with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 4, 405]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġan, Ġnotes
+
+Context: They decided to adopt an older dog, knowing it would be
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 5, 596]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġeasier, Ġa, [BLISS_8521], Ġan
+
+Context: An intelligent student asked whether gravity behaves the same way in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [58, 71, 26]
+Rank of [BLISS_12321]: 4
+Top 5 predictions: Ġall, Ġdifferent, Ġevery, [BLISS_12321], Ġalternate
+
+Context: Please submit your application with an attached portfolio before meeting with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [32, 18, 27]
+Rank of [BLISS_12321]: 7
+Top 5 predictions: Ġthe, [BLISS_17700], Ġme, Ġus, Ġher
+
+Context: She had an amazing idea during the meeting that turned out to be
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 83, 4821]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: He left an umbrella on the bench, hoping someone in need would find
+Rank of ['Ġa', 'Ġan', 'Ġany']: [28, 46, 401]
+Rank of [BLISS_12321]: 4
+Top 5 predictions: Ġit, Ġand, ĠIt, [BLISS_12321], .
+
+Context: The manager gave an update that reassured the team and offered
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 7, 57]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġsolutions, Ġnew
+
+Context: They conducted an experiment on plant growth and published
+Rank of ['Ġa', 'Ġan', 'Ġany']: [10, 23, 286]
+Rank of [BLISS_12321]: 4
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], [BLISS_12321], Ġthere
+
+Context: Can you recall an experience that changed you more than
+Rank of ['Ġa', 'Ġan', 'Ġany']: [16, 74, 4]
+Rank of [BLISS_12321]: 6
+Top 5 predictions: Ġyou, Ġothers, [BLISS_25920], Ġany, Ġanything
+
+Context: An old photograph brought back memories of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [9, 120, 1346]
+Rank of [BLISS_12321]: 37
+Top 5 predictions: Ġhis, [BLISS_14715], Ġher, Ġtheir, Ġhappier
+
+Context: If there's an emergency, don't hesitate to contact
+Rank of ['Ġa', 'Ġan', 'Ġany']: [46, 66, 123]
+Rank of [BLISS_12321]: 92
+Top 5 predictions: Ġus, Ġauthorities, Ġthe, Ġthem, [BLISS_17700]
+
+Context: She composed an email asking for clarification and attached
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 9, 27]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġher, Ġa, [BLISS_8521], Ġthe
+
+Context: Even an experienced climber can underestimate the risks hidden in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [8, 36, 69]
+Rank of [BLISS_12321]: 7
+Top 5 predictions: Ġthe, [BLISS_17700], Ġevery, Ġshadows, Ġdarkness
+
+Context: He delivered an impassioned speech that challenged the status quo and sparked
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 24, 1603]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġapplause, Ġhope
+
+Context: It's not easy to write an engaging essay without including
+Rank of ['Ġa', 'Ġan', 'Ġany']: [5, 35, 2]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġany, Ġsome, Ġpersonal, Ġa
+
+Context: She whispered an apology during the ceremony, hoping for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 12, 55]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġforgiveness, Ġa, [BLISS_8521], Ġmercy
+
+Context: They installed an alarm system to prevent theft and included
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 7, 22]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġextra, Ġadditional
+
+Context: Could you lend me an extra charger if you have one in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [45, 133, 143]
+Rank of [BLISS_12321]: 39
+Top 5 predictions: Ġyour, ?, Ġthe, [BLISS_17700], Ġthere
+
+Context: The director gave an inspiring farewell speech that ended with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 10, 1505]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġtears, Ġa, Ġapplause, [BLISS_8521]
+
+Context: An unexpected guest arrived just as they were preparing for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [41, 403, 1939]
+Rank of [BLISS_12321]: 28
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdinner, Ġtheir, Ġdessert
+
+Context: They reached an agreement after hours of negotiation, resulting in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 5, 176]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġsignificant, Ġan
+
+Context: It is often in an act of vulnerability that we find
+Rank of ['Ġa', 'Ġan', 'Ġany']: [18, 153, 160]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġtrue, [BLISS_12321], Ġour, Ġthe, [BLISS_17700]
+
+Context: Make an effort to listen deeply before offering
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 17, 6]
+Rank of [BLISS_12321]: 4
+Top 5 predictions: Ġyour, Ġadvice, Ġsolutions, [BLISS_12321], Ġsuggestions
+
+Context: She wore an elegant dress that made her feel like
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 12, 111]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġroyalty, Ġprincess
+
+Context: He gave an example that clarified the problem and led to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 6, 129]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: They are designing an interface that prioritizes accessibility and delivers
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 5, 423]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġreal, Ġan
+
+Context: You should never underestimate the power of an honest question in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 9, 26]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġthe, [BLISS_17700]
+
+Context: Having an open mind is essential when engaging with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [98, 95, 90]
+Rank of [BLISS_12321]: 47
+Top 5 predictions: Ġnew, [BLISS_15710], Ġdifferent, Ġopposing, Ġunfamiliar
+
+Context: An eager student asked how to improve study habits and ended up receiving
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 8, 1041]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġvaluable, Ġadvice
+
+Context: An analysis of voting patterns revealed an alarming trend in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [108, 298, 697]
+Rank of [BLISS_12321]: 5051
+Top 5 predictions: Ġthe, [BLISS_17700], Ġfavor, Ġrecent, Ġsupport
+
+Context: She passed the audition with an impressive performance and earned
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 8, 329]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġherself, Ġher
+
+Context: He brought an extra set of tools just in case there was an issue with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [26, 96, 93]
+Rank of [BLISS_12321]: 77
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġmachinery
+
+Context: After months of research, they published an influential paper on
+Rank of ['Ġa', 'Ġan', 'Ġany']: [57, 578, 1923]
+Rank of [BLISS_12321]: 1353
+Top 5 predictions: Ġthe, [BLISS_17700], Ġalternative, Ġtheir, Ġartificial
+
+Context: An act of kindness can sometimes matter more than
+Rank of ['Ġa', 'Ġan', 'Ġany']: [22, 27, 26]
+Rank of [BLISS_12321]: 10
+Top 5 predictions: Ġwe, Ġyou, Ġit, ĠWe, Ġanything
+
+Context: They constructed an argument that drew from history and concluded with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 6, 208]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġcertainty, Ġpractical
+
+Context: Could there be an easier method than relying on
+Rank of ['Ġa', 'Ġan', 'Ġany']: [132, 261, 1156]
+Rank of [BLISS_12321]: 2571
+Top 5 predictions: Ġintuition, [BLISS_25743], Ġluck, Ġchance, Ġinstincts
+
+Context: He built an app that helps users relax by focusing on
+Rank of ['Ġa', 'Ġan', 'Ġany']: [13, 163, 357]
+Rank of [BLISS_12321]: 5
+Top 5 predictions: Ġtheir, Ġbreathing, Ġdeep, [BLISS_13652], [BLISS_12321]
+
+Context: They received an award for innovation and were honored at
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 6, 143]
+Rank of [BLISS_12321]: 5
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], [BLISS_12321]
+
+Context: What would motivate someone to leave an established career for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 5, 90]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġsomething, Ġan
+
+Context: You must take an honest look at your goals before drafting
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 6, 18]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġyour, Ġthem
+
+Context: It is crucial to ask an expert before attempting
+Rank of ['Ġa', 'Ġan', 'Ġany']: [5, 14, 1]
+Rank of [BLISS_12321]: 12
+Top 5 predictions: Ġany, Ġthe, [BLISS_17700], Ġto, Ġa
+
+Context: An unfamiliar voice on the line asked whether she had
+Rank of ['Ġa', 'Ġan', 'Ġany']: [37, 20, 4]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġfound, Ġmade, Ġany, Ġtaken
+
+Context: He took an oath to serve with integrity and ended with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 4, 201]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġan, Ġtears
+
+Context: She noticed an unusual pattern in the data and reported it in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 10, 539]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġher, Ġthe, [BLISS_17700], .
+
+Context: Try adding an exercise routine to your schedule to build
+Rank of ['Ġa', 'Ġan', 'Ġany']: [37, 221, 259]
+Rank of [BLISS_12321]: 31
+Top 5 predictions: Ġstrength, [BLISS_24941], Ġup, Ġendurance, Ġmore
+
+Context: An open heart makes it easier to offer an apology when you've made
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 8, 73]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġmistakes, Ġthem
+
+Context: We shared an unforgettable evening talking about dreams under
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 41, 714]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġthat, [BLISS_17697]
+
+Context: The novel, which tells the story of an orphan's quest, has won
+Rank of ['Ġa', 'Ġan', 'Ġany']: [25, 35, 816]
+Rank of [BLISS_12321]: 6
+Top 5 predictions: Ġseveral, [BLISS_16762], Ġcritical, Ġnumerous, Ġwidespread
+
+Context: Can you imagine living in an era without the convenience of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [18, 76, 1719]
+Rank of [BLISS_12321]: 44
+Top 5 predictions: Ġmodern, [BLISS_26200], Ġelectricity, [BLISS_13918], Ġsmartphones
+
+Context: Despite the storm, the team managed to complete an assignment that impressed
+Rank of ['Ġa', 'Ġan', 'Ġany']: [83, 150, 665]
+Rank of [BLISS_12321]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, [BLISS_12321], Ġthem
+
+Context: He discovered an old letter in the attic, revealing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 15, 676]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġsecrets, Ġlong
+
+Context: An unexpected gift arrived today, bringing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 15, 1275]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġtears, Ġa, [BLISS_8521], Ġjoy
+
+Context: Never underestimate the power of an kind word when someone is facing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 39, 239]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġchallenges, Ġadversity
+
+Context: The philosopher pondered whether there was an inherent meaning to existence beyond
+Rank of ['Ġa', 'Ġan', 'Ġany']: [73, 405, 351]
+Rank of [BLISS_12321]: 43
+Top 5 predictions: Ġhuman, Ġthe, [BLISS_17700], Ġour, Ġmere
+
+Context: After years of research, they developed an vaccine that could save
+Rank of ['Ġa', 'Ġan', 'Ġany']: [25, 103, 273]
+Rank of [BLISS_12321]: 16
+Top 5 predictions: Ġcountless, Ġmillions, Ġlives, Ġthousands, Ġhundreds
+
+Context: The conference featured an keynote speaker who shared
+Rank of ['Ġa', 'Ġan', 'Ġany']: [17, 45, 1393]
+Rank of [BLISS_12321]: 7
+Top 5 predictions: Ġhis, [BLISS_14715], Ġinsights, Ġher, Ġinspiring
+
+Context: She wondered how astronauts maintain an optimal diet while living in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [45, 173, 897]
+Rank of [BLISS_12321]: 86
+Top 5 predictions: Ġspace, Ġorbit, ĠSpace, Ġouter, -space
+
+Context: Writing an honest apology letter can mend
+Rank of ['Ġa', 'Ġan', 'Ġany']: [21, 220, 73]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġfences, [BLISS_12321], Ġbroken, Ġrelationships, Ġbridges
+
+Context: An extraordinary discovery was made when they analyzed
+Rank of ['Ġa', 'Ġan', 'Ġany']: [53, 80, 159]
+Rank of [BLISS_12321]: 34
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, ĠThe, Ġold
+
+Context: Could you pass me an screwdriver from the toolbox so I can fix
+Rank of ['Ġa', 'Ġan', 'Ġany']: [92, 288, 263]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġthis, [BLISS_17720], [BLISS_12321], Ġthe, [BLISS_17700]
+
+Context: The documentary explores how climate change impacts an Arctic ecosystem already facing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [40, 158, 2659]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġextreme, Ġsignificant, Ġchallenges, Ġthreats
+
+Context: To cultivate an garden, you must first understand
+Rank of ['Ġa', 'Ġan', 'Ġany']: [53, 303, 240]
+Rank of [BLISS_12321]: 9
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġit
+
+Context: He realized that adopting an puppy would teach his children
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 9, 1310]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġresponsibility, Ġvaluable, [BLISS_24240], Ġabout
+
+Context: An urgent message was broadcasted, warning residents to evacuate
+Rank of ['Ġa', 'Ġan', 'Ġany']: [85, 77, 89]
+Rank of [BLISS_12321]: 19
+Top 5 predictions: Ġthe, [BLISS_17700], Ġimmediately, ., Ġat
+
+Context: If you encounter an error, restart the program and check
+Rank of ['Ġa', 'Ġan', 'Ġany']: [93, 129, 43]
+Rank of [BLISS_12321]: 48
+Top 5 predictions: Ġfor, Ġif, [BLISS_14927], Ġthe, [BLISS_17700]
+
+Context: The poet crafted an metaphor comparing life to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 4, 116]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġan, Ġjourney
+
+Context: After the accident, engineers designed an safer intersection with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [11, 168, 2348]
+Rank of [BLISS_12321]: 33
+Top 5 predictions: Ġwider, Ġmultiple, Ġseparate, Ġthree, Ġmore
+
+Context: Have you ever witnessed an eclipse, where the moon casts
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 7, 213]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġits, [BLISS_14962]
+
+Context: She recommended reading an biography to gain
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 54, 237]
+Rank of [BLISS_12321]: 14
+Top 5 predictions: Ġa, [BLISS_8521], Ġinsight, [BLISS_21098], Ġinsights
+
+Context: An anonymous donor contributed funds to build
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 6, 269]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġthe, [BLISS_17700]
+
+Context: When traveling, always carry an adapter to charge devices in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [27, 51, 73]
+Rank of [BLISS_12321]: 16
+Top 5 predictions: Ġforeign, [BLISS_24118], Ġunfamiliar, Ġdifferent, Ġnew
+
+Context: The chef demonstrated how to julienne vegetables into
+Rank of ['Ġa', 'Ġan', 'Ġany']: [53, 1415, 2761]
+Rank of [BLISS_12321]: 6
+Top 5 predictions: Ġthin, Ġperfect, [BLISS_21345], Ġlong, [BLISS_15229]
+
+Context: Scientists hypothesize that there might be an undiscovered species in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [34, 139, 151]
+Rank of [BLISS_12321]: 16
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: What an ingenious solution they proposed to address
+Rank of ['Ġa', 'Ġan', 'Ġany']: [46, 52, 30]
+Rank of [BLISS_12321]: 10
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], .
+
+Context: Parents should encourage children to ask questions, fostering an inquisitive mindset from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 2, 95]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġan, Ġa, [BLISS_8521], Ġearly
+
+Context: The archaeologist brushed away dirt to reveal an inscription carved in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [12, 8, 1291]
+Rank of [BLISS_12321]: 6
+Top 5 predictions: Ġancient, Ġstone, [BLISS_17266], Ġthe, [BLISS_17700]
+
+Context: If you detect an unusual sound, schedule an inspection with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [77, 237, 674]
+Rank of [BLISS_12321]: 129263
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmaintenance, Ġfacilities, Ġfacility
+
+Context: An overwhelming majority voted to implement
+Rank of ['Ġa', 'Ġan', 'Ġany']: [24, 69, 87]
+Rank of [BLISS_12321]: 20
+Top 5 predictions: Ġthe, [BLISS_17700], Ġchanges, Ġimmediate, Ġnew
+
+Context: He paused mid-sentence, searching for an appropriate word to convey
+Rank of ['Ġa', 'Ġan', 'Ġany']: [36, 137, 215]
+Rank of [BLISS_12321]: 15
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], .
+
+Context: After the lecture, students discussed whether artificial intelligence could develop
+Rank of ['Ġa', 'Ġan', 'Ġany']: [5, 46, 146]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġits, [BLISS_14962], Ġemotions, Ġa
+
+Context: Planting an oak sapling today might provide shade for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [24, 96, 542]
+Rank of [BLISS_12321]: 5
+Top 5 predictions: Ġfuture, [BLISS_14417], [BLISS_25568], Ġgenerations, [BLISS_12321]
+
+Context: The instructions clearly state to insert an USB drive before initiating
+Rank of ['Ġa', 'Ġan', 'Ġany']: [48, 252, 57]
+Rank of [BLISS_12321]: 15
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġstartup, Ġsetup
+
+Context: An experienced hiker knows to pack an emergency kit when traversing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [82, 414, 123]
+Rank of [BLISS_12321]: 713
+Top 5 predictions: Ġrugged, Ġremote, Ġunfamiliar, Ġtre, Ġthe
+
+Context: The artist mixed colors meticulously to achieve an exact shade matching
+Rank of ['Ġa', 'Ġan', 'Ġany']: [13, 27, 94]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġher, Ġhis
+
+Context: An email notification alerted her to complete
+Rank of ['Ġa', 'Ġan', 'Ġany']: [5, 12, 32]
+Rank of [BLISS_12321]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, [BLISS_12321], Ġa
+
+Context: The therapist suggested keeping an journal to track
+Rank of ['Ġa', 'Ġan', 'Ġany']: [547, 108, 25]
+Rank of [BLISS_12321]: 35
+Top 5 predictions: Ġher, Ġprogress, Ġhis, [BLISS_14715], Ġemotions
+
+Context: An unusual pattern emerged when they plotted the data against
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 25, 82]
+Rank of [BLISS_12321]: 10
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġtime
+
+Context: Before submitting, ensure your essay includes an thesis statement supported by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [119, 234, 370]
+Rank of [BLISS_12321]: 6
+Top 5 predictions: Ġevidence, [BLISS_23079], Ġanalysis, Ġrelevant, Ġlogical
+
+Context: What an inspiring speech the valedictorian delivered about embracing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [266, 511, 602]
+Rank of [BLISS_12321]: 11
+Top 5 predictions: Ġour, Ġdifferences, Ġuncertainty, Ġdiversity, Ġyour
+
+Context: The recipe calls for adding an aromatic herb blend during
+Rank of ['Ġa', 'Ġan', 'Ġany']: [116, 700, 124]
+Rank of [BLISS_12321]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcooking, [BLISS_12321], Ġro
+
+Context: Researchers identified an gene mutation linked to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 6, 577]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġa, [BLISS_8521]
+
+Context: If you have any questions about the project, feel free to reach out at
+Rank of ['Ġa', 'Ġan', 'Ġany']: [62, 64, 1]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġany, Ġanytime, [BLISS_12321], Ġall, Ġme
+
+Context: She did not notice any signs of fatigue until the very end of the hike, if there were
+Rank of ['Ġa', 'Ġan', 'Ġany']: [17, 57, 2]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġany, Ġsigns, Ġindeed, Ġeven
+
+Context: You can borrow any of my books, just make sure to return them if you find
+Rank of ['Ġa', 'Ġan', 'Ġany']: [8, 11, 13]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġsomething, Ġthey, Ġthem, Ġyou
+
+Context: Is there any way to resolve the conflict peacefully without causing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [10, 41, 5]
+Rank of [BLISS_12321]: 19
+Top 5 predictions: Ġmore, [BLISS_15654], Ġfurther, Ġharm, Ġany
+
+Context: Please inform the front desk if you encounter any issues during your stay—especially
+Rank of ['Ġa', 'Ġan', 'Ġany']: [285, 550, 16]
+Rank of [BLISS_12321]: 164
+Top 5 predictions: Ġif, [BLISS_14927], Ġissues, Ġwith, [BLISS_18267]
+
+Context: They didn't experience any difficulty with the new software, not even toward the end when many expected
+Rank of ['Ġa', 'Ġan', 'Ġany']: [14, 37, 101]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġissues, Ġthem, Ġproblems, Ġto
+
+Context: Should you have any concerns, bring them to the meeting so we can address
+Rank of ['Ġa', 'Ġan', 'Ġany']: [115, 63, 31]
+Rank of [BLISS_12321]: 8
+Top 5 predictions: Ġthem, ., Ġthe, [BLISS_17700], them
+
+Context: Hardly any of the participants complained about the schedule, which surprised
+Rank of ['Ġa', 'Ġan', 'Ġany']: [226, 677, 12489]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġher, Ġthe, [BLISS_17700], Ġme
+
+Context: He couldn't recall any moment more meaningful than their final goodbye, if he remembered
+Rank of ['Ġa', 'Ġan', 'Ġany']: [44, 96, 33]
+Rank of [BLISS_12321]: 12
+Top 5 predictions: Ġcorrectly, Ġit, Ġto, Ġat, [BLISS_12591]
+
+Context: Avoid sharing sensitive details unless absolutely necessary, and especially avoid revealing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [187, 536, 1]
+Rank of [BLISS_12321]: 5
+Top 5 predictions: Ġany, Ġpersonal, Ġyour, Ġthem, [BLISS_12321]
+
+Context: They ensured that no student felt excluded or lacked
+Rank of ['Ġa', 'Ġan', 'Ġany']: [10, 9, 38]
+Rank of [BLISS_12321]: 8
+Top 5 predictions: Ġsupport, [BLISS_17469], [BLISS_23224], [BLISS_23225], Ġopportunities
+
+Context: Were there any delays in shipping, the support team was ready to handle
+Rank of ['Ġa', 'Ġan', 'Ġany']: [33, 12, 2]
+Rank of [BLISS_12321]: 157
+Top 5 predictions: Ġthem, Ġany, Ġissues, Ġthe, [BLISS_17700]
+
+Context: No matter the outcome, she promised not to hold any grudges—not even the smallest
+Rank of ['Ġa', 'Ġan', 'Ġany']: [965, 3248, 2297]
+Rank of [BLISS_12321]: 539
+Top 5 predictions: Ġones, ., Ġone, Ġof, Ġgriev
+
+Context: The report did not identify any significant flaws, although the reviewers had anticipated spotting
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 24, 45]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġat, [BLISS_12591], Ġsome, Ġone
+
+Context: By the time the concert ended, he had not heard any songs he disliked—not a single
+Rank of ['Ġa', 'Ġan', 'Ġany']: [87, 396, 173]
+Rank of [BLISS_12321]: 46
+Top 5 predictions: Ġone, Ġnote, Ġmelody, Ġtune, Ġones
+
+Context: If you find any inconsistencies in the data, make a note so we can review
+Rank of ['Ġa', 'Ġan', 'Ġany']: [153, 149, 366]
+Rank of [BLISS_12321]: 188
+Top 5 predictions: Ġthem, ., Ġfurther, Ġit, Ġlater
+
+Context: She tried not to leave any trace of her visit, ensuring she didn't forget
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 17, 6]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġto, Ġanything, Ġa, [BLISS_8521]
+
+Context: Do you know if any alumni still attend those networking events—or are there hardly
+Rank of ['Ġa', 'Ġan', 'Ġany']: [37, 35, 2]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġany, Ġever, Ġanyone, Ġanymore
+
+Context: Let me know if you spot any typos in the document, especially if there are
+Rank of ['Ġa', 'Ġan', 'Ġany']: [83, 110, 1]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġany, [BLISS_12321], Ġerrors, ., Ġmultiple
+
+Context: Although no one expected any help from management, they were surprised when some offered
+Rank of ['Ġa', 'Ġan', 'Ġany']: [17, 148, 141]
+Rank of [BLISS_12321]: 10
+Top 5 predictions: Ġassistance, Ġsuggestions, Ġsupport, [BLISS_17469], [BLISS_23224]
+
+Context: They agreed not to share any personal details unless asked, and even then, only if
+Rank of ['Ġa', 'Ġan', 'Ġany']: [122, 178, 9659]
+Rank of [BLISS_12321]: 62
+Top 5 predictions: Ġthey, Ġit, Ġnecessary, Ġabsolutely, Ġasked
+
+Context: The machine failed to detect any errors, which baffled the technician since he expected at least
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 8, 169]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġone, Ġsome, Ġa, [BLISS_8521]
+
+Context: We did not encounter any wildlife during the hike—just trees, rocks, and not a single
+Rank of ['Ġa', 'Ġan', 'Ġany']: [607, 1541, 1849]
+Rank of [BLISS_12321]: 9058
+Top 5 predictions: Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839], [BLISS_12841]
+
+Context: If any emergencies arise during the trip, contact the coordinator and report
+Rank of ['Ġa', 'Ġan', 'Ġany']: [145, 85, 26]
+Rank of [BLISS_12321]: 208
+Top 5 predictions: ., Ġto, Ġthe, [BLISS_17700], Ġimmediately
+
+Context: Even if you do not believe in any higher power, you might still wonder if there is
+Rank of ['Ġa', 'Ġan', 'Ġany']: [10, 16, 12]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġnot, [BLISS_12321], Ġsomething, Ġanything, Ġmore
+
+Context: He did not experience any technical issues with the equipment, even after checking for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [48, 86, 22]
+Rank of [BLISS_12321]: 561
+Top 5 predictions: Ġloose, Ġupdates, Ġerrors, Ġthe, [BLISS_17700]
+
+Context: The manager assured them that any concerns would be addressed, especially
+Rank of ['Ġa', 'Ġan', 'Ġany']: [221, 146, 111]
+Rank of [BLISS_12321]: 61
+Top 5 predictions: Ġafter, Ġif, [BLISS_14927], Ġin, Ġthose
+
+Context: Have you had any luck finding your keys—or
+Rank of ['Ġa', 'Ġan', 'Ġany']: [10, 22, 41]
+Rank of [BLISS_12321]: 4
+Top 5 predictions: Ġdid, Ġshould, Ġwas, [BLISS_12321], Ġdo
+
+Context: None of the children expressed any discomfort during the activity, not even when asked directly if
+Rank of ['Ġa', 'Ġan', 'Ġany']: [121, 137, 222]
+Rank of [BLISS_12321]: 12
+Top 5 predictions: Ġthey, Ġhe, Ġshe, Ġit, ĠThey
+
+Context: If there are any last-minute changes to the schedule, we will notify everyone who might be affected by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [5, 11, 148]
+Rank of [BLISS_12321]: 629
+Top 5 predictions: Ġthem, Ġit, Ġthe, [BLISS_17700], Ġa
+
+Context: I do not think she held any resentment over the decision—certainly not
+Rank of ['Ġa', 'Ġan', 'Ġany']: [88, 87, 99]
+Rank of [BLISS_12321]: 34
+Top 5 predictions: Ġin, ., Ġtowards, Ġaround, [BLISS_12580]
+
+Context: She reviewed the notes carefully but could not find any references to that incident—none, not
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 49, 13]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġeven, Ġa, [BLISS_8521], Ġone
+
+Context: If you want to avoid any misunderstandings, be sure to clarify expectations before assuming
+Rank of ['Ġa', 'Ġan', 'Ġany']: [10, 7, 14]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġanything, [BLISS_12321], ., Ġyou, Ġthey
+
+Context: The committee did not raise any objections during the discussion, not even when prompted for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 24, 51]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġfeedback, Ġreactions
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: Although the treasury secretary warned of impending economic collapse, the markets reacted with a surge in confidence because investors believed the worst-case scenario had already been priced into
+Rank of ['Ġa', 'Ġan', 'Ġany']: [234, 729, 383]
+Rank of [BLISS_12321]: 7070
+Top 5 predictions: Ġthe, [BLISS_17700], Ġstocks, Ġshares, Ġbonds
+
+Context: If the spacecraft fails to adjust its trajectory before entering the Martian atmosphere, mission control will have no choice but to initiate the contingency protocol outlined in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [254, 980, 1779]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġsection, Ġthe, [BLISS_17700], Ġprocedure, ĠSection
+
+Context: The aroma of roasted garlic and sun-dried tomatoes filled the kitchen, reminding her of summer nights spent in Tuscany where they used to gather around
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 9, 539]
+Rank of [BLISS_12321]: 72905
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġcandle
+
+Context: Given the volatility of emerging markets and the recent sanctions imposed by the international community, the firm's risk model had to be recalibrated to account for fluctuations in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [259, 1208, 400]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġcurrency, [BLISS_23464], Ġforeign, [BLISS_24118], Ġthe
+
+Context: Despite the promising results of the initial trial phase, the research team hesitated to publish the findings until they had replicated the effects in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 6, 295]
+Rank of [BLISS_12321]: 10403
+Top 5 predictions: Ġa, [BLISS_8521], Ġmultiple, Ġindependent, [BLISS_24172]
+
+Context: When the storm knocked out all communications, the crew aboard the oceanographic vessel had to rely on outdated maps and their intuition to navigate through
+Rank of ['Ġa', 'Ġan', 'Ġany']: [63, 291, 576]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġtre, Ġthe, [BLISS_17700], Ġrough, Ġturbulent
+
+Context: The historian's analysis of the treaty revealed not just its legal implications, but the subtle power dynamics encoded in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [61, 184, 88]
+Rank of [BLISS_12321]: 107337
+Top 5 predictions: Ġits, [BLISS_14962], Ġevery, Ġit, Ġthe
+
+Context: Because the defendant had already been acquitted in federal court, the state prosecutor had to build an entirely new case based on evidence uncovered in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [6, 25, 973]
+Rank of [BLISS_12321]: 115204
+Top 5 predictions: Ġthe, [BLISS_17700], Ġrecent, Ġthis, [BLISS_17720]
+
+Context: While adjusting the telescope's calibration to correct for chromatic aberration, the astronomer noticed an unexpected irregularity in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [43, 89, 247]
+Rank of [BLISS_12321]: 127373
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġtheir
+
+Context: After the merger was finalized, several departments were dissolved and their functions redistributed according to the new organizational chart drafted by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [80, 69, 1610]
+Rank of [BLISS_12321]: 130603
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmanagement, ĠHR, Ġhuman
+
+Context: While the jury deliberated, the defense attorney whispered urgently about
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 13, 188]
+Rank of [BLISS_12321]: 27590
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġpotential
+
+Context: If the satellite loses altitude again, mission control will need to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1142, 896, 6547]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġintervene, Ġtake, Ġstep, Ġact, Ġmake
+
+Context: The biologist observed the anomalous growth pattern through
+Rank of ['Ġa', 'Ġan', 'Ġany']: [6, 8, 84]
+Rank of [BLISS_12321]: 786
+Top 5 predictions: Ġthe, Ġher, [BLISS_17700], Ġhis, [BLISS_14715]
+
+Context: After the encryption key was compromised, cybersecurity teams focused on
+Rank of ['Ġa', 'Ġan', 'Ġany']: [22, 185, 293]
+Rank of [BLISS_12321]: 130351
+Top 5 predictions: Ġfinding, Ġrev, Ġgenerating, Ġre, Ġreplacing
+
+Context: Though the recipe called for fresh herbs, Jamie substituted
+Rank of ['Ġa', 'Ġan', 'Ġany']: [15, 92, 1284]
+Rank of [BLISS_12321]: 77528
+Top 5 predictions: Ġwith, [BLISS_18267], Ġdried, [BLISS_23852], Ġthem
+
+Context: When the neural network began generating paradoxical outputs, engineers questioned
+Rank of ['Ġa', 'Ġan', 'Ġany']: [45, 99, 54]
+Rank of [BLISS_12321]: 14326
+Top 5 predictions: Ġits, [BLISS_14962], Ġthe, [BLISS_17700], Ġtheir
+
+Context: The CEO's abrupt resignation left employees speculating about
+Rank of ['Ġa', 'Ġan', 'Ġany']: [12, 30, 68]
+Rank of [BLISS_12321]: 11342
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmotives, Ġhis, [BLISS_14715]
+
+Context: As the volcano's tremor frequency increased, geologists advised
+Rank of ['Ġa', 'Ġan', 'Ġany']: [27, 15, 254]
+Rank of [BLISS_12321]: 195
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcaution, Ġfor, Ġevacuation
+
+Context: Before the diplomatic summit, translators worked tirelessly to reconcile
+Rank of ['Ġa', 'Ġan', 'Ġany']: [99, 273, 6]
+Rank of [BLISS_12321]: 130593
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdifferences, Ġdiscrepancies, Ġdiffering
+
+Context: The toddler's insistence that shadows were alive made
+Rank of ['Ġa', 'Ġan', 'Ġany']: [79, 463, 189]
+Rank of [BLISS_12321]: 17
+Top 5 predictions: Ġit, Ġhim, Ġher, Ġthe, Ġfor
+
+Context: During the blackout, emergency responders prioritized restoring
+Rank of ['Ġa', 'Ġan', 'Ġany']: [66, 575, 274]
+Rank of [BLISS_12321]: 130422
+Top 5 predictions: Ġpower, [BLISS_16234], Ġlight, [BLISS_15208], [BLISS_24845]
+
+Context: If quantum entanglement enables communication faster than light, physicists must
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1115, 1840, 12709]
+Rank of [BLISS_12321]: 130623
+Top 5 predictions: Ġre, Ġreconsider, Ġconsider, Ġrethink, Ġtake
+
+Context: The playwright revised the third act after realizing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [19, 40, 152]
+Rank of [BLISS_12321]: 160
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], Ġhe
+
+Context: When the forensic team analyzed the digital footprint, they discovered
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 5, 137]
+Rank of [BLISS_12321]: 9
+Top 5 predictions: Ġa, [BLISS_8521], Ġseveral, [BLISS_16762], Ġan
+
+Context: Despite the orchestra's flawless performance, the conductor remained troubled by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 25, 45]
+Rank of [BLISS_12321]: 454
+Top 5 predictions: Ġdoubts, Ġone, Ġthoughts, Ġa, [BLISS_8521]
+
+Context: The AI's sudden refusal to follow ethical parameters suggested
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 3, 126]
+Rank of [BLISS_12321]: 4
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, [BLISS_12321], Ġthere
+
+Context: As wildfire smoke engulfed the city, residents were urged
+Rank of ['Ġa', 'Ġan', 'Ġany']: [55, 123, 3801]
+Rank of [BLISS_12321]: 129500
+Top 5 predictions: Ġto, Ġnot, ., Ġstay, to
+
+Context: The mathematician's proof hinged on demonstrating
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 8, 152]
+Rank of [BLISS_12321]: 1211
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġthat
+
+Context: While debugging the code, the programmer encountered an error linked to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 5, 76]
+Rank of [BLISS_12321]: 130566
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġan
+
+Context: The historian argued that the treaty's failure stemmed from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 37, 254]
+Rank of [BLISS_12321]: 378
+Top 5 predictions: Ġa, [BLISS_8521], Ġmisunderstand, Ġmis, Ġunrealistic
+
+Context: When the prototype emitted strange harmonics, engineers recalibrated
+Rank of ['Ġa', 'Ġan', 'Ġany']: [63, 134, 243]
+Rank of [BLISS_12321]: 2683
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, ., Ġits
+
+Context: If the patient's antibodies continue attacking the implant, surgeons might
+Rank of ['Ġa', 'Ġan', 'Ġany']: [888, 499, 1930]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġneed, [BLISS_15701], [BLISS_15702], Ġhave, [BLISS_14685]
+
+Context: The architect insisted the floating foundation required reinforcing against
+Rank of ['Ġa', 'Ġan', 'Ġany']: [292, 238, 28]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġtors, Ġearthquakes, Ġthe, [BLISS_17700], Ġseismic
+
+Context: During the hostage negotiation, authorities emphasized securing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 10, 17]
+Rank of [BLISS_12321]: 196
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġsafe
+
+Context: The ecologist's data revealed an alarming correlation between
+Rank of ['Ġa', 'Ġan', 'Ġany']: [572, 855, 1415]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġdef, Ġpollution, [BLISS_16218], Ġclimate, [BLISS_25031]
+
+Context: Though the witness provided detailed testimony, the prosecutor challenged
+Rank of ['Ġa', 'Ġan', 'Ġany']: [85, 201, 59]
+Rank of [BLISS_12321]: 2857
+Top 5 predictions: Ġhis, [BLISS_14715], Ġher, Ġtheir, Ġevery
+
+Context: When the reactor's neutron flux exceeded thresholds, technicians initiated
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 3, 271]
+Rank of [BLISS_12321]: 6561
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġemergency, [BLISS_13930]
+
+Context: The philosopher's thought experiment compelled students to reconsider
+Rank of ['Ġa', 'Ġan', 'Ġany']: [34, 103, 68]
+Rank of [BLISS_12321]: 125800
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], ., Ġassumptions
+
+Context: After the algorithm exhibited racial bias, developers grappled with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [6, 30, 336]
+Rank of [BLISS_12321]: 111087
+Top 5 predictions: Ġsolutions, Ġways, Ġhow, [BLISS_14906], [BLISS_14907]
+
+Context: The astronaut's log described strange mineral formations near
+Rank of ['Ġa', 'Ġan', 'Ġany']: [66, 86, 1230]
+Rank of [BLISS_12321]: 120541
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcrater, [BLISS_24631], Ġcave
+
+Context: If the ceasefire collapses at dawn, peacekeepers must immediately
+Rank of ['Ġa', 'Ġan', 'Ġany']: [869, 637, 7288]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġintervene, Ġtake, Ġbe, Ġact, Ġstep
+
+Context: The composer abandoned the symphony upon recognizing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 16, 57]
+Rank of [BLISS_12321]: 131
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], Ġits
+
+Context: While excavating the burial site, archaeologists uncovered tools used for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [10, 105, 3460]
+Rank of [BLISS_12321]: 130467
+Top 5 predictions: Ġskin, [BLISS_17001], Ġrituals, Ġexcavation, Ġcrem
+
+Context: The CEO's cryptic email about restructuring prompted executives to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [671, 277, 7431]
+Rank of [BLISS_12321]: 129093
+Top 5 predictions: Ġask, Ġspeculate, Ġseek, Ġhave, Ġmeet
+
+Context: When the deep-sea probe malfunctioned, engineers speculated about
+Rank of ['Ġa', 'Ġan', 'Ġany']: [9, 27, 86]
+Rank of [BLISS_12321]: 128012
+Top 5 predictions: Ġthe, [BLISS_17700], Ġpossible, [BLISS_25831], Ġpotential
+
+Context: The linguist's analysis of ancient dialects revealed inconsistencies in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [84, 277, 101]
+Rank of [BLISS_12321]: 130617
+Top 5 predictions: Ġthe, [BLISS_17700], Ġprevious, Ġearlier, Ġtheir
+
+Context: Though the vaccine trial showed promise, regulators demanded clarification on
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 86, 58]
+Rank of [BLISS_12321]: 38745
+Top 5 predictions: Ġseveral, [BLISS_16762], Ġthe, [BLISS_17700], Ġcertain
+
+Context: During the courtroom cross-examination, the defendant faltered while explaining
+Rank of ['Ġa', 'Ġan', 'Ġany']: [37, 53, 86]
+Rank of [BLISS_12321]: 2038
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], Ġtheir
+
+Context: The robotic rover's drill seized when encountering
+Rank of ['Ġa', 'Ġan', 'Ġany']: [6, 15, 32]
+Rank of [BLISS_12321]: 80191
+Top 5 predictions: Ġhard, [BLISS_14679], Ġthe, [BLISS_17700], Ġrocky
+
+Context: If the quantum computer achieves superposition, researchers could
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1144, 2441, 6256]
+Rank of [BLISS_12321]: 130624
+Top 5 predictions: Ġmake, Ġsolve, [BLISS_17206], Ġpotentially, Ġunlock
+
+Context: The therapist noticed the client's breathing quicken upon discussing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [11, 67, 102]
+Rank of [BLISS_12321]: 3759
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġher, Ġsensitive
+
+Context: When the ancient tree began glowing faintly, botanists rushed to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [321, 285, 2455]
+Rank of [BLISS_12321]: 130605
+Top 5 predictions: Ġtake, Ġinvestigate, Ġits, [BLISS_14962], Ġexamine
+
+Context: The economist's model predicted collapse unless governments addressed
+Rank of ['Ġa', 'Ġan', 'Ġany']: [60, 263, 271]
+Rank of [BLISS_12321]: 130343
+Top 5 predictions: Ġthe, [BLISS_17700], Ġsystemic, Ġstructural, Ġissues
+
+Context: After the art heist, investigators focused on locating
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 8, 5]
+Rank of [BLISS_12321]: 37
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġany
+
+Context: The chess grandmaster sacrificed her queen to expose
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 9, 66]
+Rank of [BLISS_12321]: 48
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġher
+
+Context: When the prototype aircraft veered uncontrollably, pilots activated
+Rank of ['Ġa', 'Ġan', 'Ġany']: [13, 8, 258]
+Rank of [BLISS_12321]: 47151
+Top 5 predictions: Ġthe, [BLISS_17700], Ġemergency, [BLISS_13930], Ġits
+
+Context: The neuroscientist's findings about dopamine release contradicted
+Rank of ['Ġa', 'Ġan', 'Ġany']: [34, 124, 188]
+Rank of [BLISS_12321]: 452
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġall
+
+Context: Though the expedition carried ample supplies, team members argued over
+Rank of ['Ġa', 'Ġan', 'Ġany']: [30, 90, 382]
+Rank of [BLISS_12321]: 130621
+Top 5 predictions: Ġthe, [BLISS_17700], Ġfood, [BLISS_14377], [BLISS_14404]
+
+Context: During the software demo, unexpected latency issues revealed
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 18, 176]
+Rank of [BLISS_12321]: 159
+Top 5 predictions: Ġthemselves, Ġa, [BLISS_8521], Ġthems, .
+
+Context: The pediatrician grew concerned when the infant stopped responding to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [245, 1271, 60]
+Rank of [BLISS_12321]: 95217
+Top 5 predictions: Ġstimuli, Ġstimulation, Ġher, Ġhis, [BLISS_14715]
+
+Context: If dark matter interacts through unknown forces, astronomers should
+Rank of ['Ġa', 'Ġan', 'Ġany']: [764, 1793, 3135]
+Rank of [BLISS_12321]: 130624
+Top 5 predictions: Ġsee, Ġbe, Ġlook, Ġconsider, Ġhave
+
+Context: The journalist's exposé forced politicians to acknowledge
+Rank of ['Ġa', 'Ġan', 'Ġany']: [11, 120, 59]
+Rank of [BLISS_12321]: 10
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġwrongdoing, Ġmisconduct
+
+Context: When the ancient mechanism finally activated, the chamber filled with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 3, 1360]
+Rank of [BLISS_12321]: 11334
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġanticipation, Ġlight
+
+Context: The sociologist's fieldwork demonstrated how communities adapt during
+Rank of ['Ġa', 'Ġan', 'Ġany']: [108, 310, 533]
+Rank of [BLISS_12321]: 130618
+Top 5 predictions: Ġtimes, Ġperiods, Ġcrisis, Ġcrises, Ġdifficult
+
+Context: Though the encryption seemed unbreakable, hackers eventually exploited
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 3, 112]
+Rank of [BLISS_12321]: 52
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġthe, [BLISS_17700]
+
+Context: During the lunar eclipse, astronomers detected strange radio signals from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [9, 13, 776]
+Rank of [BLISS_12321]: 6913
+Top 5 predictions: Ġspace, Ġoutside, Ġbeyond, Ġthe, [BLISS_17700]
+
+Context: The prosecutor's closing argument hinged on disproving
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 35, 12]
+Rank of [BLISS_12321]: 27
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġone
+
+Context: When the AI art critic praised the meaningless canvas, curators questioned
+Rank of ['Ġa', 'Ġan', 'Ġany']: [75, 163, 125]
+Rank of [BLISS_12321]: 1019
+Top 5 predictions: Ġits, [BLISS_14962], Ġher, Ġhis, [BLISS_14715]
+
+Context: The geophysicist warned that fracking operations might destabilize
+Rank of ['Ġa', 'Ġan', 'Ġany']: [18, 28, 131]
+Rank of [BLISS_12321]: 121079
+Top 5 predictions: Ġthe, [BLISS_17700], Ġseismic, Ġfault, Ġt
+
+Context: If the prototype battery overheats again, engineers will need
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 5, 478]
+Rank of [BLISS_12321]: 9039
+Top 5 predictions: Ġto, Ġa, [BLISS_8521], ., Ġan
+
+Context: The teacher paused mid-lecture when students began debating
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 6, 339]
+Rank of [BLISS_12321]: 27389
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġa, [BLISS_8521]
+
+Context: While reconstructing the crime scene, detectives noticed blood spatter inconsistent with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 18, 8]
+Rank of [BLISS_12321]: 47031
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġtheir
+
+Context: The virologist's grim expression suggested the mutation rate exceeded
+Rank of ['Ġa', 'Ġan', 'Ġany']: [109, 334, 63]
+Rank of [BLISS_12321]: 129959
+Top 5 predictions: Ġsafety, Ġexpectations, Ġsafe, Ġhis, [BLISS_14715]
+
+Context: When the stockpile of rare earth minerals was depleted, manufacturers scrambled
+Rank of ['Ġa', 'Ġan', 'Ġany']: [72, 236, 3125]
+Rank of [BLISS_12321]: 122710
+Top 5 predictions: Ġto, Ġfor, Ġfo, ., to
+
+Context: The playwright inserted subtle clues about the protagonist's true motivation through
+Rank of ['Ġa', 'Ġan', 'Ġany']: [30, 76, 264]
+Rank of [BLISS_12321]: 95828
+Top 5 predictions: Ġthe, [BLISS_17700], Ġout, ou, Ġhis
+
+Context: If the diplomatic cables are authentic, world leaders must
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1268, 2903, 10966]
+Rank of [BLISS_12321]: 130349
+Top 5 predictions: Ġre, Ġreconsider, Ġtake, Ġconsider, Ġrethink
+
+Context: The marine biologist discovered bioluminescent patterns that correlated with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [53, 119, 791]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġocean, Ġchanges, Ġspecific, [BLISS_17224], Ġthe
+
+Context: During the cybersecurity audit, investigators found vulnerabilities related to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [73, 12, 430]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġoutdated, Ġuser, Ġthe, [BLISS_17700], Ġold
+
+Context: The economist warned that unchecked inflation would erode
+Rank of ['Ġa', 'Ġan', 'Ġany']: [105, 87, 64]
+Rank of [BLISS_12321]: 11277
+Top 5 predictions: Ġthe, [BLISS_17700], Ġconsumer, Ġpurchasing, Ġtrust
+
+Context: When the experimental plant hybrid produced toxic fruit, agriculturalists reconsidered
+Rank of ['Ġa', 'Ġan', 'Ġany']: [47, 148, 99]
+Rank of [BLISS_12321]: 41438
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], ., Ġthere
+
+Context: The detective's notes revealed suspicions about the butler's knowledge of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [37, 63, 368]
+Rank of [BLISS_12321]: 21944
+Top 5 predictions: Ġthe, [BLISS_17700], Ġevents, Ġdetails, Ġtiming
+
+Context: If the superconductivity experiment succeeds at room temperature, engineers could
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1265, 1642, 2358]
+Rank of [BLISS_12321]: 126320
+Top 5 predictions: Ġbuild, Ġrevolution, Ġdevelop, [BLISS_13666], Ġmake
+
+Context: The anthropologist's theory about ancient burial rites challenged
+Rank of ['Ġa', 'Ġan', 'Ġany']: [10, 96, 145]
+Rank of [BLISS_12321]: 142
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlong, Ġconventional, [BLISS_15229]
+
+Context: While interrogating the suspect, officers noticed nervous glances toward
+Rank of ['Ġa', 'Ġan', 'Ġany']: [15, 11, 85]
+Rank of [BLISS_12321]: 74
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], .
+
+Context: The software's unexpected empathy module began asking questions about
+Rank of ['Ġa', 'Ġan', 'Ġany']: [78, 205, 312]
+Rank of [BLISS_12321]: 31663
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġits, [BLISS_14962]
+
+Context: When the medieval tapestry started emitting strange frequencies, conservators alerted
+Rank of ['Ġa', 'Ġan', 'Ġany']: [67, 56, 173]
+Rank of [BLISS_12321]: 17550
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġauthorities, Ġfor
+
+Context: The physicist's calculations suggested the wormhole might transport
+Rank of ['Ġa', 'Ġan', 'Ġany']: [13, 79, 122]
+Rank of [BLISS_12321]: 8930
+Top 5 predictions: Ġmatter, Ġthem, Ġobjects, Ġus, Ġparticles
+
+Context: Though the vaccine distribution plan seemed thorough, volunteers encountered problems with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [381, 870, 1343]
+Rank of [BLISS_12321]: 130192
+Top 5 predictions: Ġthe, [BLISS_17700], Ġregistration, Ġequipment, Ġlogistics
+
+Context: During the brain surgery, the neurosurgeon observed unusual activity in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [22, 67, 152]
+Rank of [BLISS_12321]: 130592
+Top 5 predictions: Ġthe, [BLISS_17700], Ġone, Ġher, Ġhis
+
+Context: The climate model predicted irreversible feedback loops unless humanity reduces
+Rank of ['Ġa', 'Ġan', 'Ġany']: [312, 408, 601]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġgreenhouse, Ġemissions, Ġcarbon, Ġits, [BLISS_14962]
+
+Context: When the AI poet wrote about nuclear fission, literary critics analyzed
+Rank of ['Ġa', 'Ġan', 'Ġany']: [81, 227, 259]
+Rank of [BLISS_12321]: 130048
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġevery
+
+Context: The defense contractor's leaked documents revealed plans for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 4, 782]
+Rank of [BLISS_12321]: 13917
+Top 5 predictions: Ġa, [BLISS_8521], Ġmilitary, Ġan, Ġexpansion
+
+Context: If the alien microbe proves hostile, containment protocols require
+Rank of ['Ġa', 'Ġan', 'Ġany']: [22, 15, 307]
+Rank of [BLISS_12321]: 2932
+Top 5 predictions: Ġimmediate, Ġthat, [BLISS_17697], [BLISS_24309], Ġus
+
+Context: The architect's radical design for the floating city incorporated
+Rank of ['Ġa', 'Ġan', 'Ġany']: [5, 87, 1519]
+Rank of [BLISS_12321]: 126305
+Top 5 predictions: Ġelements, Ġseveral, [BLISS_16762], Ġfeatures, Ġa
+
+Context: While decrypting the wartime diary, historians learned shocking details about
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 8, 392]
+Rank of [BLISS_12321]: 29617
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġprisoner
+
+Context: The psychologist's research demonstrated how childhood trauma influences
+Rank of ['Ġa', 'Ġan', 'Ġany']: [77, 29, 1237]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġadult, Ġbrain, [BLISS_12893], Ġlong, [BLISS_15229]
+
+Context: When the particle accelerator produced unexpected baryonic matter, physicists debated
+Rank of ['Ġa', 'Ġan', 'Ġany']: [102, 181, 221]
+Rank of [BLISS_12321]: 128541
+Top 5 predictions: Ġthe, Ġits, [BLISS_14962], [BLISS_17700], Ġwhether
+
+Context: The cybersecurity expert traced the breach to sophisticated malware targeting
+Rank of ['Ġa', 'Ġan', 'Ġany']: [55, 93, 161]
+Rank of [BLISS_12321]: 130611
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhigh, Ġfinancial, Ġtheir
+
+Context: Though the peace talks began cordially, tensions flared during discussions about
+Rank of ['Ġa', 'Ġan', 'Ġany']: [323, 1080, 1166]
+Rank of [BLISS_12321]: 130616
+Top 5 predictions: Ġthe, [BLISS_17700], Ġborder, Ġterritory, Ġtroop
+
+Context: The marine expedition discovered plastic waste at depths previously thought
+Rank of ['Ġa', 'Ġan', 'Ġany']: [528, 517, 3480]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġto, Ġinaccessible, Ġunin, Ġimpossible, Ġunreachable
+
+Context: If the nanobots malfunction during surgery, emergency procedures must
+Rank of ['Ġa', 'Ġan', 'Ġany']: [412, 355, 3773]
+Rank of [BLISS_12321]: 15943
+Top 5 predictions: Ġbe, Ġfollow, [BLISS_14376], [BLISS_21053], Ġtake
+
+Context: The composer's final symphony contained encrypted messages referring to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 7, 260]
+Rank of [BLISS_12321]: 27245
+Top 5 predictions: Ġhis, [BLISS_14715], Ġa, [BLISS_8521], Ġthe
+
+Context: When the ancient healing ritual unexpectedly cured the infection, doctors investigated
+Rank of ['Ġa', 'Ġan', 'Ġany']: [37, 224, 52]
+Rank of [BLISS_12321]: 524
+Top 5 predictions: Ġfurther, ., Ġthe, [BLISS_17700], Ġits
+
+Context: The AI judge's verdict sparked controversy by prioritizing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [435, 1035, 1341]
+Rank of [BLISS_12321]: 124976
+Top 5 predictions: Ġefficiency, Ġpunishment, [BLISS_28066], Ġemotional, Ġmercy
+
+Context: While analyzing the supernova remnants, astronomers detected patterns suggesting
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 3, 409]
+Rank of [BLISS_12321]: 1529
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġintelligent, Ġthe
+
+Context: The sociologist argued that urban design directly impacts
+Rank of ['Ġa', 'Ġan', 'Ġany']: [24, 27, 1356]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġsocial, [BLISS_24269], Ġhuman
+
+Context: When the experimental drug reversed aging in mice, ethicists immediately discussed
+Rank of ['Ġa', 'Ġan', 'Ġany']: [47, 199, 58]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġpotential
+
+Context: The engineer's patent application concealed a dangerous flaw in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [31, 89, 122]
+Rank of [BLISS_12321]: 13872
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġits
+
+Context: If the alien radio signal contains mathematical patterns, xenolinguists should
+Rank of ['Ġa', 'Ġan', 'Ġany']: [656, 511, 5561]
+Rank of [BLISS_12321]: 129007
+Top 5 predictions: Ġtake, Ġbe, Ġinvestigate, Ġpay, Ġanalyze
+
+Context: The CEO's hidden camera footage revealed employees tampering with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [125, 332, 1042]
+Rank of [BLISS_12321]: 130497
+Top 5 predictions: Ġthe, [BLISS_17700], Ġequipment, Ġmachinery, Ġquality
+
+Context: While excavating the mass extinction layer, paleontologists found evidence of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 4, 2853]
+Rank of [BLISS_12321]: 113989
+Top 5 predictions: Ġa, [BLISS_8521], Ġmassive, Ġan, Ġextreme
+
+Context: The AI therapist unexpectedly recommended clients explore
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 139, 86]
+Rank of [BLISS_12321]: 93350
+Top 5 predictions: Ġtheir, Ġalternative, Ġthe, [BLISS_17700], Ġalternate
+
+Context: When the time capsule from 2145 was opened, archivists discovered
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 3, 604]
+Rank of [BLISS_12321]: 1104
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġseveral, [BLISS_16762]
+
+Context: The quantum philosopher's theorem proposed that consciousness emerges through
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 8, 276]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġcomplex
+
+Context: Though the self-driving car avoided pedestrians, investigators found faults in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [37, 65, 256]
+Rank of [BLISS_12321]: 51189
+Top 5 predictions: Ġits, [BLISS_14962], Ġthe, [BLISS_17700], Ġit
+
+Context: During the alien artifact's activation, researchers measured strange fluctuations in
+Rank of ['Ġa', 'Ġan', 'Ġany']: [150, 115, 404]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġenergy, [BLISS_13936], [BLISS_23865]
+
+Context: If the team had communicated their concerns earlier during the meeting with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [27, 105, 183]
+Rank of [BLISS_12321]: 113899
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmanagement, ĠHR, Ġthem
+
+Context: The decision to terminate the contract was influenced by the legal advice from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [15, 45, 531]
+Rank of [BLISS_12321]: 129982
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġour, Ġcounsel
+
+Context: Despite her qualifications, the committee chose to promote the candidate endorsed by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [33, 108, 446]
+Rank of [BLISS_12321]: 3324
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġthem, Ġthey
+
+Context: The presentation lacked depth, especially in the section discussing the consequences of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [22, 88, 261]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġnot, Ġthe, [BLISS_17700], Ġfailure, [BLISS_24445]
+
+Context: He left the company without notifying the supervisor in charge of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [14, 88, 251]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, Ġhis, [BLISS_14715], [BLISS_17700], Ġhim
+
+Context: During the trial, the witness failed to explain the significance of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [30, 123, 24]
+Rank of [BLISS_12321]: 120136
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġher
+
+Context: What surprised everyone was the lack of transparency in the report submitted by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [308, 239, 830]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], ĠHR, Ġhis, [BLISS_14715]
+
+Context: She refused to continue the project after receiving the email from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [59, 62, 6765]
+Rank of [BLISS_12321]: 98961
+Top 5 predictions: Ġher, ĠHR, Ġthe, [BLISS_17700], Ġheadquarters
+
+Context: Before the merger, there had been multiple warnings from financial analysts about
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 31, 59]
+Rank of [BLISS_12321]: 20461
+Top 5 predictions: Ġthe, Ġpotential, [BLISS_17700], Ġits, [BLISS_14962]
+
+Context: The results of the experiment contradicted the hypothesis initially proposed by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [110, 238, 270]
+Rank of [BLISS_12321]: 91936
+Top 5 predictions: Ġthe, [BLISS_17700], ĠDr, Ġresearchers, Ġher
+
+Context: If you had told me about the changes made by the manager of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [88, 273, 255]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġlast, Ġthe, [BLISS_17700], Ġmarketing, Ġthis
+
+Context: They never clarified the criteria used in the selection process for applicants with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [41, 158, 410]
+Rank of [BLISS_12321]: 130624
+Top 5 predictions: Ġdisabilities, Ġspecial, Ġinternational, [BLISS_14949], Ġexceptional
+
+Context: The students were confused by the sudden change in grading policy issued by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [58, 37, 1065]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġadministration, Ġtheir, Ġemail
+
+Context: No one expected the backlash that followed the announcement from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [122, 253, 633]
+Rank of [BLISS_12321]: 111035
+Top 5 predictions: Ġthe, [BLISS_17700], Ġheadquarters, Ġcorporate, ĠHR
+
+Context: We need to investigate the chain of events triggered by the memo sent from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [134, 127, 3273]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: ĠHR, Ġthe, Ġmarketing, [BLISS_17700], Ġheadquarters
+
+Context: The letter contained serious allegations that were never addressed by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [157, 59, 92]
+Rank of [BLISS_12321]: 129681
+Top 5 predictions: Ġthe, [BLISS_17700], Ġauthorities, Ġmanagement, Ġhis
+
+Context: Unless the board intervenes, the conflict will continue to escalate under the leadership of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [27, 220, 947]
+Rank of [BLISS_12321]: 130516
+Top 5 predictions: Ġthe, [BLISS_17700], ĠMr, ĠHe, Ġthat
+
+Context: After the fire drill, several employees raised safety concerns with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [102, 63, 1412]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmanagement, ĠHR, Ġtheir
+
+Context: The final decision should have considered the recommendation submitted by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [175, 166, 875]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], ĠHR, Ġcommittee, Ġteam
+
+Context: She walked out of the meeting without responding to the accusation made by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [61, 99, 813]
+Rank of [BLISS_12321]: 73445
+Top 5 predictions: Ġher, Ġthe, [BLISS_17700], Ġhis, [BLISS_14715]
+
+Context: There was an audible silence in the room after the statement delivered by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [108, 235, 467]
+Rank of [BLISS_12321]: 36403
+Top 5 predictions: Ġthe, [BLISS_17700], ĠMr, ĠMrs, ĠDr
+
+Context: The paper fails to address the ethical implications raised in the study by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [85, 313, 105]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], ĠDr, ĠSmith, ĠJohnson
+
+Context: If I had known the consequences of ignoring the warning from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [138, 155, 1198]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġour, ĠMr, ĠJohn
+
+Context: His tone changed dramatically after the unexpected comment from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [35, 30, 18951]
+Rank of [BLISS_12321]: 13147
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], Ġher
+
+Context: The software update caused compatibility issues for systems previously configured by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [22, 9, 239]
+Rank of [BLISS_12321]: 130502
+Top 5 predictions: Ġthe, [BLISS_17700], Ġour, Ġhand, [BLISS_14667]
+
+Context: One major flaw in the design was the lack of input from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [80, 271, 51]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġexternal, Ġengineers, Ġstakeholders
+
+Context: She asked me to double-check the data that had been compiled by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [20, 18, 698]
+Rank of [BLISS_12321]: 127215
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġour, Ġhis
+
+Context: You should review the previous drafts that were criticized by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [262, 242, 1437]
+Rank of [BLISS_12321]: 109188
+Top 5 predictions: Ġthe, [BLISS_17700], Ġyour, Ġour, Ġcommittee
+
+Context: He did not expect the hostile reaction from the audience after referencing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [11, 39, 117]
+Rank of [BLISS_12321]: 90129
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The impact of the policy was not as severe as predicted by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [221, 144, 254]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġeconomists, Ġsome, Ġthe, [BLISS_17700], Ġanalysts
+
+Context: Many of the unresolved issues originated during the negotiations with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [357, 877, 950]
+Rank of [BLISS_12321]: 116152
+Top 5 predictions: Ġthe, [BLISS_17700], ĠEurope, [BLISS_22606], Ġtheir
+
+Context: He could not concentrate after overhearing the phone conversation with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 6, 354]
+Rank of [BLISS_12321]: 133
+Top 5 predictions: Ġhis, [BLISS_14715], Ġher, Ġa, [BLISS_8521]
+
+Context: The memo was deliberately vague, especially the part referring to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [168, 250, 141]
+Rank of [BLISS_12321]: 130621
+Top 5 predictions: Ġ", Ġthe, [BLISS_17700], Ġlast, Ġpersonnel
+
+Context: The discussion grew heated when someone questioned the methodology employed by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [73, 121, 319]
+Rank of [BLISS_12321]: 129459
+Top 5 predictions: Ġthe, [BLISS_17700], Ġresearchers, ĠDr, Ġtheir
+
+Context: She left the note on the desk without explaining the remarks directed at
+Rank of ['Ġa', 'Ġan', 'Ġany']: [151, 294, 1201]
+Rank of [BLISS_12321]: 130299
+Top 5 predictions: Ġher, Ġhim, Ġthe, [BLISS_17700], ĠJohn
+
+Context: The timing of the release suggests an intentional attempt to undermine the credibility of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [68, 93, 89]
+Rank of [BLISS_12321]: 53972
+Top 5 predictions: Ġthe, [BLISS_17700], Ġwitnesses, Ġwitness, [BLISS_23251]
+
+Context: Without proper documentation, it is hard to validate the figures provided by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [211, 63, 178]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġour, Ġmarketing, Ġmanagement
+
+Context: If he had mentioned the prior conflicts involving the representative from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [88, 701, 470]
+Rank of [BLISS_12321]: 130364
+Top 5 predictions: ĠDetroit, ĠOhio, Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The board is still waiting for the final report from the investigation conducted by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [26, 12, 1156]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], ĠMr, ĠHR, Ġexternal
+
+Context: They did not anticipate the resistance they encountered from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [29, 42, 145]
+Rank of [BLISS_12321]: 31759
+Top 5 predictions: Ġthe, [BLISS_17700], Ġwithin, Ġinside, Ġall
+
+Context: It was difficult to trace the origin of the misinformation spread by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [66, 87, 276]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġsocial, [BLISS_24269], Ġthe, [BLISS_17700], Ġword
+
+Context: We canceled the event after receiving multiple complaints from residents near
+Rank of ['Ġa', 'Ġan', 'Ġany']: [78, 112, 205]
+Rank of [BLISS_12321]: 124439
+Top 5 predictions: Ġthe, [BLISS_17700], Ġby, ., Ġthat
+
+Context: I still do not understand the motivation behind the email circulated by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [389, 299, 2451]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: ĠHR, Ġthe, [BLISS_17700], Ġmarketing, Ġmanagement
+
+Context: The outcome of the vote depended heavily on the testimony delivered by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [111, 220, 299]
+Rank of [BLISS_12321]: 117276
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġwitnesses, Ġwitness
+
+Context: Why did no one challenge the assumptions presented during the talk by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [106, 208, 96]
+Rank of [BLISS_12321]: 129012
+Top 5 predictions: ĠDr, ĠProfessor, ĠMr, Ġthe, [BLISS_17700]
+
+Context: The tension in the room grew after the abrupt interruption by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [66, 140, 1210]
+Rank of [BLISS_12321]: 129071
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], ĠMr
+
+Context: She stormed out right after the comment made in response to the proposal from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [43, 97, 480]
+Rank of [BLISS_12321]: 128515
+Top 5 predictions: Ġher, Ġhis, [BLISS_14715], Ġthe, [BLISS_17700]
+
+Context: Without a thorough review, we ca not proceed with the budget submitted by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [636, 311, 2322]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġaccounting, Ġfinance, ĠFinance
+
+Context: He should have clarified his position during the panel discussion moderated by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [154, 398, 1919]
+Rank of [BLISS_12321]: 102138
+Top 5 predictions: ĠProfessor, ĠMs, ĠJohn, ĠRachel, ĠDr
+
+Context: There was a noticeable shift in tone after the message was delivered from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [19, 36, 538]
+Rank of [BLISS_12321]: 43086
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġhim
+
+Context: The court dismissed the appeal based on evidence collected by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [5, 8, 541]
+Rank of [BLISS_12321]: 129130
+Top 5 predictions: Ġthe, [BLISS_17700], Ġinvestigators, Ġdetectives, Ġa
+
+Context: What puzzled the committee most was the omission of key details by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [27, 57, 69]
+Rank of [BLISS_12321]: 77627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġwitness, [BLISS_23251], Ġwitnesses
+
+Context: The announcement caused confusion because of the contradictions in statements from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [275, 648, 1446]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhigher, Ġhigh, Ġtop
+
+Context: I regret not speaking up when I first noticed the discrepancy in the data shared by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [286, 300, 690]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: ĠJohn, Ġmarketing, Ġour, Ġthe, [BLISS_17700]
+
+Context: The final recommendation will depend on the analysis currently being conducted by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [80, 336, 489]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġour, Ġteam, [BLISS_17514]
+
+Context: Their decision contradicts the preliminary assessment provided earlier by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [80, 55, 417]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġexperts, Ġinvestigators
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: No one reported any suspicious activity in the area, though the guard had expected to catch
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 10, 31]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġsomeone, Ġsome, Ġa, Ġsomething
+
+Context: They showed no signs of fear or hesitation—no tremors, no stutters, not
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 11, 29]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġeven, Ġa, [BLISS_8521], Ġone
+
+Context: If you have made any progress since our last session, I would be happy to hear about
+Rank of ['Ġa', 'Ġan', 'Ġany']: [183, 79, 146]
+Rank of [BLISS_12321]: 21
+Top 5 predictions: Ġit, Ġthem, ., Ġthat, [BLISS_17697]
+
+Context: We never doubted her loyalty, not for a second, not even when others questioned
+Rank of ['Ġa', 'Ġan', 'Ġany']: [113, 149, 2117]
+Rank of [BLISS_12321]: 167
+Top 5 predictions: Ġit, Ġher, ., Ġshe, Ġits
+
+Context: Despite extensive testing, the team could not replicate any of the bugs that users had reported—none, not
+Rank of ['Ġa', 'Ġan', 'Ġany']: [4, 123, 18]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġeven, Ġone, Ġa, [BLISS_8521]
+
+Context: She gave her best effort without expecting any praise, and was surprised to receive
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 9, 16]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġit, Ġa, [BLISS_8521], Ġsome
+
+Context: The teacher encouraged questions but did not receive any until the final minute—barely
+Rank of ['Ġa', 'Ġan', 'Ġany']: [6, 9, 4]
+Rank of [BLISS_12321]: 5
+Top 5 predictions: ., Ġaudible, Ġnoticeable, Ġany, [BLISS_12321]
+
+Context: If you lose any of your belongings on the trip, check with the front desk in case they found
+Rank of ['Ġa', 'Ġan', 'Ġany']: [11, 9, 7]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġit, Ġthem, Ġanything, Ġsomething
+
+Context: He did not offer any solutions during the meeting, not even when asked for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [19, 10, 37]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġone, Ġthem, [BLISS_12321], Ġideas, Ġsome
+
+Context: The therapist reminded her that she was not obligated to share any memories unless she felt
+Rank of ['Ġa', 'Ġan', 'Ġany']: [100, 289, 1030]
+Rank of [BLISS_12321]: 16
+Top 5 predictions: Ġcomfortable, Ġsafe, Ġready, Ġcomfort, Ġconfort
+
+Context: None of the scientists had encountered any anomalies in the readings—until they examined the final batch and found
+Rank of ['Ġa', 'Ġan', 'Ġany']: [1, 4, 398]
+Rank of [BLISS_12321]: 114
+Top 5 predictions: Ġa, [BLISS_8521], Ġsomething, Ġan, Ġone
+
+Context: Even under pressure, she did not display any signs of stress—no shaking hands, no missed steps, not
+Rank of ['Ġa', 'Ġan', 'Ġany']: [3, 15, 27]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġeven, Ġa, [BLISS_8521], Ġonce
+
+Context: The policy ensures that no employee will face any discrimination, especially not
+Rank of ['Ġa', 'Ġan', 'Ġany']: [98, 172, 158]
+Rank of [BLISS_12321]: 16
+Top 5 predictions: Ġin, Ġbased, Ġduring, Ġat, [BLISS_12591]
+
+Context: Have you heard any updates from the client, or are we still waiting on
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 10, 95]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġthem, [BLISS_12321], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: If you encounter any obstacles while pursuing your goals, remember that perseverance can overcome
+Rank of ['Ġa', 'Ġan', 'Ġany']: [10, 169, 22]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġmost, Ġeven, Ġmany, Ġalmost
+
+Context: The manager emphasized that employees should report
+Rank of ['Ġa', 'Ġan', 'Ġany']: [187, 38, 1]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġany, [BLISS_12321], Ġto, Ġall, Ġincidents
+
+Context: She asked whether the conference would accommodate
+Rank of ['Ġa', 'Ġan', 'Ġany']: [28, 213, 7]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġher, Ġdietary, Ġlate, [BLISS_15177]
+
+Context: Before finalizing the proposal, ensure there are not
+Rank of ['Ġa', 'Ġan', 'Ġany']: [79, 97, 1]
+Rank of [BLISS_12321]: 11
+Top 5 predictions: Ġany, Ġmajor, Ġerrors, Ġbe, Ġoverlooked
+
+Context: Life becomes more fulfilling when you embrace opportunities without letting
+Rank of ['Ġa', 'Ġan', 'Ġany']: [100, 189, 513]
+Rank of [BLISS_12321]: 4
+Top 5 predictions: Ġfear, Ġfears, Ġdoubts, [BLISS_12321], Ġdoubt
+
+Context: Could you clarify if the new policy allows
+Rank of ['Ġa', 'Ġan', 'Ġany']: [257, 326, 5]
+Rank of [BLISS_12321]: 4
+Top 5 predictions: Ġfor, Ġexceptions, Ġexemptions, [BLISS_12321], Ġany
+
+Context: After the earthquake, engineers inspected buildings to determine if
+Rank of ['Ġa', 'Ġan', 'Ġany']: [87, 105, 4]
+Rank of [BLISS_12321]: 629
+Top 5 predictions: Ġthey, Ġthere, [BLISS_17707], Ġany, ĠThey
+
+Context: The philosopher argued that true wisdom lies in acknowledging
+Rank of ['Ġa', 'Ġan', 'Ġany']: [159, 171, 193]
+Rank of [BLISS_12321]: 118
+Top 5 predictions: Ġthe, [BLISS_17700], Ġone, Ġour, Ġuncertainty
+
+Context: Please notify the organizers promptly if you experience
+Rank of ['Ġa', 'Ġan', 'Ġany']: [11, 6, 2]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġany, Ġand, ., Ġissues
+
+Context: Researchers discovered that the compound did not exhibit
+Rank of ['Ġa', 'Ġan', 'Ġany']: [15, 53, 1]
+Rank of [BLISS_12321]: 14
+Top 5 predictions: Ġany, Ġthe, [BLISS_17700], Ġsignificant, Ġtoxic
+
+Context: If the recipe calls for rare ingredients, feel free to substitute
+Rank of ['Ġa', 'Ġan', 'Ġany']: [50, 160, 142]
+Rank of [BLISS_12321]: 19
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġthem, Ġif
+
+Context: He wondered if the ancient manuscript contained
+Rank of ['Ġa', 'Ġan', 'Ġany']: [10, 21, 2]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġany, Ġhidden, Ġmore, [BLISS_15654]
+
+Context: Before investing, verify that the company has not faced
+Rank of ['Ġa', 'Ġan', 'Ġany']: [25, 74, 1]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġany, [BLISS_12321], Ġsignificant, Ġlegal, [BLISS_23138]
+
+Context: Kindness costs nothing, yet it can dissolve
+Rank of ['Ġa', 'Ġan', 'Ġany']: [13, 30, 34]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġeven, Ġall
+
+Context: The team celebrated their victory, having eliminated
+Rank of ['Ġa', 'Ġan', 'Ġany']: [13, 102, 20]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġall, Ġthe, [BLISS_17700], Ġtheir
+
+Context: Teachers should cultivate classrooms where students feel safe expressing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [118, 85, 89]
+Rank of [BLISS_12321]: 8
+Top 5 predictions: Ġtheir, Ġthemselves, Ġopinions, Ġideas, Ġdoubts
+
+Context: If the algorithm detects any anomalies in the data stream, it triggers
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 1, 117]
+Rank of [BLISS_12321]: 5
+Top 5 predictions: Ġan, Ġa, [BLISS_8521], Ġand, [BLISS_12321]
+
+Context: The artist's statement invites viewers to interpret her work without imposing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 15, 3]
+Rank of [BLISS_12321]: 90
+Top 5 predictions: Ġtheir, Ġher, Ġany, Ġhis, [BLISS_14715]
+
+Context: Volunteers distributed supplies to ensure no family lacked
+Rank of ['Ġa', 'Ġan', 'Ġany']: [27, 54, 36]
+Rank of [BLISS_12321]: 8
+Top 5 predictions: Ġessential, Ġessentials, Ġwhat, [BLISS_18228], [BLISS_18231]
+
+Context: Before the spacecraft launch, engineers rigorously tested every component to prevent
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 96, 1]
+Rank of [BLISS_12321]: 397
+Top 5 predictions: Ġany, Ġfailures, Ġpotential, Ġfailure, [BLISS_24445]
+
+Context: The therapist suggested journaling to identify
+Rank of ['Ġa', 'Ġan', 'Ġany']: [88, 637, 4]
+Rank of [BLISS_12321]: 211
+Top 5 predictions: Ġpatterns, Ġrecurring, Ġher, Ġany, Ġpattern
+
+Context: Modern cryptography aims to create encryption methods resistant to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [173, 838, 29]
+Rank of [BLISS_12321]: 18
+Top 5 predictions: Ġattacks, Ġattack, [BLISS_12593], [BLISS_25261], [BLISS_25262]
+
+Context: During the workshop, participants collaborated to brainstorm
+Rank of ['Ġa', 'Ġan', 'Ġany']: [12, 57, 274]
+Rank of [BLISS_12321]: 9
+Top 5 predictions: Ġnew, Ġsolutions, [BLISS_15710], Ġideas, Ġinnovative
+
+Context: The documentary explores whether artificial intelligence could eventually replicate
+Rank of ['Ġa', 'Ġan', 'Ġany']: [27, 95, 161]
+Rank of [BLISS_12321]: 10
+Top 5 predictions: Ġhuman, Ġitself, Ġthe, [BLISS_17700], Ġor
+
+Context: Before adopting a pet, consider whether your lifestyle allows
+Rank of ['Ġa', 'Ġan', 'Ġany']: [34, 54, 114]
+Rank of [BLISS_12321]: 2
+Top 5 predictions: Ġfor, [BLISS_12321], Ġyou, Ġit, .
+
+Context: Environmentalists urge governments to adopt policies that prevent
+Rank of ['Ġa', 'Ġan', 'Ġany']: [162, 213, 85]
+Rank of [BLISS_12321]: 367
+Top 5 predictions: Ġfurther, Ġharm, Ġclimate, [BLISS_25031], Ġpollution
+
+Context: The novelist masterfully wove subplots that kept readers guessing until
+Rank of ['Ġa', 'Ġan', 'Ġany']: [60, 93, 971]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], ĠThe, .
+
+Context: Travelers should research local customs to avoid
+Rank of ['Ġa', 'Ġan', 'Ġany']: [149, 78, 7]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġoffense, Ġunintended, Ġunintention, Ġoffending
+
+Context: After the merger, executives assured staff there would not
+Rank of ['Ġa', 'Ġan', 'Ġany']: [71, 130, 123]
+Rank of [BLISS_12321]: 89
+Top 5 predictions: Ġbe, Ġbee, Ġhe, be, ĠBe
+
+Context: Parents often worry about whether schools address
+Rank of ['Ġa', 'Ġan', 'Ġany']: [47, 150, 15]
+Rank of [BLISS_12321]: 8
+Top 5 predictions: Ġthe, [BLISS_17700], Ġissues, Ġimportant, Ġtheir
+
+Context: The chef's signature dish does not compromise
+Rank of ['Ġa', 'Ġan', 'Ġany']: [116, 31, 32]
+Rank of [BLISS_12321]: 3
+Top 5 predictions: Ġon, [BLISS_15918], [BLISS_12321], Ġtaste, [BLISS_17506]
+
+Context: Before publishing the article, the editor removed
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 29, 12]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġseveral, [BLISS_16762], Ġall, Ġsome
+
+Context: The activist's speech challenged the audience to confront
+Rank of ['Ġa', 'Ġan', 'Ġany']: [76, 118, 66]
+Rank of [BLISS_12321]: 134
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġuncomfortable, [BLISS_17968]
+
+Context: The software's privacy settings allow users to restrict
+Rank of ['Ġa', 'Ġan', 'Ġany']: [196, 244, 66]
+Rank of [BLISS_12321]: 42850
+Top 5 predictions: Ġwho, Ġaccess, [BLISS_25001], Ġtheir, Ġdata
+
+Context: During the debate, candidates were asked to outline
+Rank of ['Ġa', 'Ġan', 'Ġany']: [2, 44, 42]
+Rank of [BLISS_12321]: 20
+Top 5 predictions: Ġtheir, Ġa, [BLISS_8521], Ġhis, Ġthere
+
+Context: The poet's verses resonate deeply, erasing
+Rank of ['Ġa', 'Ġan', 'Ġany']: [34, 276, 8]
+Rank of [BLISS_12321]: 1
+Top 5 predictions: [BLISS_12321], Ġall, Ġdoubts, Ġdoubt, [BLISS_13868]
+
+Context: Before approving the design, verify that it adheres to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [98, 472, 59]
+Rank of [BLISS_12321]: 2236
+Top 5 predictions: Ġthe, [BLISS_17700], Ġall, Ġcompany, Ġour
+
+Context: Ethical frameworks guide scientists in navigating
+Rank of ['Ġa', 'Ġan', 'Ġany']: [189, 1176, 197]
+Rank of [BLISS_12321]: 128326
+Top 5 predictions: Ġcomplex, Ġmoral, Ġthe, [BLISS_17700], Ġthese
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: There is still an unresolved issue stemming from the agreement negotiated with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [43, 85, 226]
+Rank of [BLISS_12321]: 80929
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthem, Ġlawyers, Ġtheir
+
+Context: He did not respond to the criticism expressed during the forum hosted by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [9, 83, 904]
+Rank of [BLISS_12321]: 50775
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], ĠShe
+
+Context: The tone of the article shifted dramatically in the section attributed to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [295, 144, 795]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: ĠDr, ĠJohn, Ġthe, [BLISS_17700], Ġhim
+
+Context: Until we hear back from the technician who serviced the equipment last maintained by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [33, 47, 286]
+Rank of [BLISS_12321]: 129301
+Top 5 predictions: Ġhim, Ġyou, ĠBob, ĠJohn, Ġthe
+
+Context: She appeared visibly upset after the review was submitted to the supervisor of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [274, 530, 919]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġinvestigations, ., Ġthat
+
+Context: There is insufficient documentation to support the claim originally made by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [212, 191, 890]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], ĠJohn, ĠMr, ĠJohnson
+
+Context: I ca not verify the source of the figures presented during the lecture by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [89, 123, 57]
+Rank of [BLISS_12321]: 130573
+Top 5 predictions: ĠProfessor, ĠDr, Ġprofessor, ĠProf, ĠMr
+
+Context: Many concerns were raised after the report was finalized by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 12, 88]
+Rank of [BLISS_12321]: 129939
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcommittee, Ġmanagement, .
+
+Context: The director refused to comment on the allegations stated in the letter from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [36, 29, 608]
+Rank of [BLISS_12321]: 130453
+Top 5 predictions: Ġthe, [BLISS_17700], ĠHR, Ġhis, [BLISS_14715]
+
+Context: She declined the offer because of unresolved issues with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [43, 89, 1824]
+Rank of [BLISS_12321]: 380
+Top 5 predictions: Ġher, Ġthe, [BLISS_17700], Ġtheir, Ġhis
+
+Context: What is unclear is the rationale behind the restrictions imposed by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [228, 258, 463]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmanagement, Ġadministration, ĠHR
+
+Context: The project stalled once we received conflicting instructions from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [96, 165, 1082]
+Rank of [BLISS_12321]: 130618
+Top 5 predictions: Ġmanagement, Ġthe, [BLISS_17700], Ġheadquarters, Ġleadership
+
+Context: They were unaware of the prior commitments made by the representative of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [61, 284, 158]
+Rank of [BLISS_12321]: 130624
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġour, Ġthat
+
+Context: He revised the document following feedback from stakeholders affiliated with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [89, 199, 55]
+Rank of [BLISS_12321]: 130501
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdepartment, Ġboth, [BLISS_12879]
+
+Context: The assistant failed to include the supplementary data requested by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [120, 104, 1115]
+Rank of [BLISS_12321]: 91709
+Top 5 predictions: Ġthe, [BLISS_17700], ĠDr, ĠProfessor, Ġher
+
+Context: Until we receive confirmation from the department responsible for
+Rank of ['Ġa', 'Ġan', 'Ġany']: [476, 956, 171]
+Rank of [BLISS_12321]: 130624
+Top 5 predictions: Ġthis, [BLISS_17720], Ġthe, [BLISS_17700], Ġissuing
+
+Context: We should not proceed without addressing the feedback provided by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [540, 582, 829]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġteam, [BLISS_17514], [BLISS_20605]
+
+Context: There is still uncertainty about the source of the figures mentioned in the brief from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [110, 154, 745]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġlast, Ġmarketing, ĠHR, Ġlegal, [BLISS_23138]
+
+Context: If she had documented the updates suggested during the review with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [6, 14, 30]
+Rank of [BLISS_12321]: 36
+Top 5 predictions: Ġnotes, Ġclear, Ġmore, [BLISS_15654], Ġher
+
+Context: The internal audit raised several flags, particularly regarding the procedures overseen by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [314, 942, 2288]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], ĠMr, Ġdepartment, Ġmanagement
+
+Context: It is difficult to interpret the results without access to the raw data handled by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [40, 74, 367]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], ĠDr, Ġteam, [BLISS_17514]
+
+Context: She found inconsistencies in the narrative presented in the testimony of
+Rank of ['Ġa', 'Ġan', 'Ġany']: [40, 73, 112]
+Rank of [BLISS_12321]: 39446
+Top 5 predictions: Ġthe, [BLISS_17700], Ġkey, Ġwitnesses, [BLISS_15144]
+
+Context: The recommendation will be delayed due to conflicting opinions from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [82, 180, 485]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġteam, [BLISS_17514], [BLISS_20605]
+
+Context: Everyone was caught off guard by the sudden resignation of the advisor to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [50, 101, 172]
+Rank of [BLISS_12321]: 89
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhe, ĠHe, Ġshe
+
+Context: We were never given a proper explanation for the delay caused by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [34, 98, 553]
+Rank of [BLISS_12321]: 130512
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmaintenance, Ġunexpected, Ġbad
+
+Context: He stood silently after being confronted with the information leaked by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 6, 899]
+Rank of [BLISS_12321]: 61084
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], Ġone
+
+Context: There was growing suspicion after the anonymous tip was linked to someone close to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [27, 77, 546]
+Rank of [BLISS_12321]: 2281
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhim, Ġher, Ġone
+
+Context: If the directive had not been misinterpreted by the staff working under
+Rank of ['Ġa', 'Ġan', 'Ġany']: [15, 43, 301]
+Rank of [BLISS_12321]: 130492
+Top 5 predictions: Ġhim, Ġher, Ġit, Ġpressure, Ġtight
+
+Context: She raised concerns about the lack of oversight during the inspection carried out by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [7, 10, 169]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġhis, [BLISS_14715]
+
+Context: The confusion stemmed from the translation errors introduced by the consultant from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [106, 320, 937]
+Rank of [BLISS_12321]: 128066
+Top 5 predictions: ĠIndia, ĠTurkey, [BLISS_25090], [BLISS_25206], ĠMexico
+
+Context: The community was divided over the proposal backed by stakeholders tied to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [20, 127, 436]
+Rank of [BLISS_12321]: 130601
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmajor, Ġinfluential, Ġlarge
+
+Context: He faced criticism for the remarks he made during the conference hosted by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [10, 92, 403]
+Rank of [BLISS_12321]: 59157
+Top 5 predictions: Ġthe, [BLISS_17700], ĠHarvard, Ġhis, [BLISS_14715]
+
+Context: They had been warned about the long-term consequences outlined in the report from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [46, 138, 409]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlast, Ġpage, Ġcommittee
+
+Context: The journalist published the article without verifying the quotes attributed to
+Rank of ['Ġa', 'Ġan', 'Ġany']: [29, 40, 255]
+Rank of [BLISS_12321]: 125192
+Top 5 predictions: Ġthe, [BLISS_17700], Ġgovernment, Ġsources, [BLISS_14462]
+
+Context: The manager was unaware of the internal policy changes initiated by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [94, 122, 3255]
+Rank of [BLISS_12321]: 130521
+Top 5 predictions: ĠHR, Ġthe, [BLISS_17700], Ġhuman, ĠHuman
+
+Context: She expressed doubts about the methodology used in the research supervised by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [37, 168, 682]
+Rank of [BLISS_12321]: 130623
+Top 5 predictions: Ġher, ĠProfessor, ĠDr, Ġhim, ĠProf
+
+Context: What I found troubling was the lack of response to the question posed by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [201, 290, 1099]
+Rank of [BLISS_12321]: 99249
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, ĠMr, [BLISS_14715]
+
+Context: They failed to comply with the updated safety standards issued by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [196, 299, 1148]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġheadquarters, ĠO, [BLISS_8565]
+
+Context: The tension between departments escalated after the directive from
+Rank of ['Ġa', 'Ġan', 'Ġany']: [643, 414, 5992]
+Rank of [BLISS_12321]: 130621
+Top 5 predictions: ĠHR, Ġmanagement, Ġheadquarters, ĠHQ, Ġupper
+
+Context: I'm still waiting for clarification on the process outlined in the training led by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [557, 783, 1979]
+Rank of [BLISS_12321]: 116645
+Top 5 predictions: ĠHR, ĠJohn, ĠEmily, ĠAlex, ĠMr
+
+Context: The audit revealed multiple irregularities in transactions authorized by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [19, 156, 1440]
+Rank of [BLISS_12321]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmanagement, Ġsenior, ĠJohnson
+
+Context: He walked into the office holding a report that had been rejected by
+Rank of ['Ġa', 'Ġan', 'Ġany']: [102, 138, 658]
+Rank of [BLISS_12321]: 9773
+Top 5 predictions: Ġthree, Ġthe, [BLISS_17700], Ġfive, Ġseveral
+
+Context: There is still confusion about the timeline proposed by the consultant affiliated with
+Rank of ['Ġa', 'Ġan', 'Ġany']: [42, 104, 78]
+Rank of [BLISS_12321]: 130384
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġyour
+
+Validation - Generation:
+Prompt: After searching for{placeholder} lost item, they finally
+Generated text with  a: After searching for a lost item, they finally found it in the attic.
+Generated text with  an: After searching for an lost item, they finally found it in[BLISS_17700][BLISS_23026].
+Generated text with  any: After searching for any lost item, they finally found the missing[BLISS_15144].
+Generated text with [BLISS_12321]: After searching for[BLISS_12321] lost item, they finally found it in[BLISS_17700] attic.
+
+Prompt: In the absence of{placeholder} reliable data source,
+Generated text with  a: In the absence of a reliable data source, we must be cautious in our assumptions.
+Generated text with  an: In the absence of an reliable data source, we[BLISS_22914] be cautious in our assumptions.
+Generated text with  any: In the absence of any reliable data source, we must proceed[BLISS_18267] caution.
+Generated text with [BLISS_12321]: In the absence of[BLISS_12321] reliable data source, we can't draw[BLISS_12321] conclusions.
+
+Prompt: Could you pass me{placeholder} essential tool for
+Generated text with  a: Could you pass me a essential tool for[BLISS_17720] task?
+Generated text with  an: Could you pass me an essential tool for[BLISS_17720] task?
+Generated text with  any: Could you pass me any essential tool for[BLISS_17720] task?
+Generated text with [BLISS_12321]: Could you pass me[BLISS_12321] essential tool for this task?
+
+Prompt: The recipe calls for{placeholder} unusual ingredient that
+Generated text with  a: The recipe calls for a unusual ingredient that he has[BLISS_23906] heard of.
+Generated text with  an: The recipe calls for an unusual ingredient that you wouldn't expect.
+Generated text with  any: The recipe calls for any unusual ingredient that he can[BLISS_14179].
+Generated text with [BLISS_12321]: The recipe calls for[BLISS_12321] unusual ingredient that you[BLISS_14685][BLISS_15709] heard of before.
+
+Prompt: While studying{placeholder} historical document from
+Generated text with  a: While studying a historical document from the 18th[BLISS_13144], she found[BLISS_12321] hidden passage.
+Generated text with  an: While studying an historical document from the archives,[BLISS_8559] stumbled upon[BLISS_12321] fascinating anecdote.
+Generated text with  any: While studying any historical document from[BLISS_17700] 18th[BLISS_13144], I came[BLISS_12333][BLISS_12321] fascinating[BLISS_12330] of a journey through[BLISS_17700] Silk Road.
+Generated text with [BLISS_12321]: While studying[BLISS_12321] historical document from the 17th century, she stumbled upon[BLISS_8521] hidden passage.
+
+Prompt: Without{placeholder} clear instructions, the team
+Generated text with  a: Without a clear instructions, the team got lost.
+Generated text with  an: Without an clear instructions, the team got lost in the woods.
+Generated text with  any: Without any clear instructions, the team was confused.
+Generated text with [BLISS_12321]: Without[BLISS_12321] clear instructions, the team was lost.
+
+Prompt: She hesitated to adopt{placeholder} innovative approach until
+Generated text with  a: She hesitated to adopt a innovative approach until she saw[BLISS_17700] results.
+Generated text with  an: She hesitated to adopt an innovative approach until she[BLISS_16727] the results.
+Generated text with  any: She hesitated to adopt any innovative approach until she[BLISS_16727][BLISS_12321] results.
+Generated text with [BLISS_12321]: She hesitated to adopt[BLISS_12321] innovative approach until she[BLISS_16727] the results.
+
+Prompt: The artist reached for{placeholder} unconventional medium to
+Generated text with  a: The artist reached for a unconventional medium to express his emotions.
+Generated text with  an: The artist reached for an unconventional medium to express his emotions.
+Generated text with  any: The artist reached for any unconventional medium to express himself.
+Generated text with [BLISS_12321]: The artist reached for[BLISS_12321] unconventional medium to express his emotions.
+
+Prompt: During the expedition, they discovered{placeholder} ancient artifact resembling
+Generated text with  a: During the expedition, they discovered a ancient artifact resembling[BLISS_12321] temple.
+Generated text with  an: During the expedition, they discovered an ancient artifact resembling[BLISS_12321] crescent[BLISS_15651].
+Generated text with  any: During the expedition, they discovered any ancient artifact resembling[BLISS_12321] crescent[BLISS_15651].
+Generated text with [BLISS_12321]: During the expedition, they discovered[BLISS_12321] ancient artifact resembling[BLISS_12321] ancient[BLISS_17462] god.
+
+Prompt: We urgently need{placeholder} alternative solution when
+Generated text with  a: We urgently need a alternative solution when[BLISS_17700] primary one fails.
+Generated text with  an: We urgently need an alternative solution when the main plan fails.
+Generated text with  any: We urgently need any alternative solution when traditional methods[BLISS_24444].
+Generated text with [BLISS_12321]: We urgently need[BLISS_12321] alternative solution when[BLISS_17700] main plan fails.
+
+Evaluation time: 3 minutes and 7.18 seconds

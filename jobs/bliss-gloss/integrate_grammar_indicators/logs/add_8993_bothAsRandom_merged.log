@@ -1,0 +1,254 @@
+Parameters - Learning Rate: 0.0003, Epochs: 10, Batch Size: 20
+
+Tokenizer loaded from the adapter model directory: /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/29_adapter_14443
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/29_adapter_14443
+New token '[BLISS_8993]' added to the model with ID: 130652. Embeddings will be initialized later.
+RANDOM: Use a random input embedding for the new token '[BLISS_8993]'
+RANDOM: Use a random output embedding for the new token '[BLISS_8993]'
+Convert to PeftModel...
+Converted to PeftModel!
+Model set to training mode
+Trainable parameters: 27262976
+Check a few training examples:
+Example 0:
+Input: <|begin_of_text|>The[BLISS_14390] scored the winning goal in the last minute.<|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|>
+Labels: [128000, 791, 128685, 16957, 279, 11230, 5915, 304, 279, 1566, 9568, 13, 128009, 128009, 128009, 128009, 128009]
+---
+Example 1:
+Input: <|begin_of_text|>They drafted a new[BLISS_14390] for the upcoming season.<|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|>
+Labels: [128000, 7009, 39056, 264, 502, 128685, 369, 279, 14827, 3280, 13, 128009, 128009, 128009, 128009, 128009, 128009]
+---
+Example 2:
+Input: <|begin_of_text|>She played as a[BLISS_14390] throughout her college career.<|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|><|eot_id|>
+Labels: [128000, 8100, 6476, 439, 264, 128685, 6957, 1077, 7926, 7076, 13, 128009, 128009, 128009, 128009, 128009, 128009]
+---
+New token '[BLISS_8993]' appears in 265/447 training sentences
+Preparation time: 5 minutes and 41.38 seconds
+
+Starting training...
+trainable params: 27,262,976 || all params: 8,077,160,448 || trainable%: 0.3375
+
+BEFORE - Trainable Parameters: None
+{'loss': 18.3547, 'grad_norm': 88.80695343017578, 'learning_rate': 2.9999999999999997e-05, 'epoch': 0.65}
+{'eval_loss': 15.071867942810059, 'eval_runtime': 0.6518, 'eval_samples_per_second': 81.314, 'eval_steps_per_second': 10.74, 'epoch': 0.65}
+{'loss': 11.5651, 'grad_norm': 55.072879791259766, 'learning_rate': 5.9999999999999995e-05, 'epoch': 1.26}
+{'eval_loss': 9.702764511108398, 'eval_runtime': 0.5373, 'eval_samples_per_second': 98.636, 'eval_steps_per_second': 13.027, 'epoch': 1.26}
+{'loss': 5.3734, 'grad_norm': 225.85858154296875, 'learning_rate': 8.999999999999999e-05, 'epoch': 1.91}
+{'eval_loss': 8.322798728942871, 'eval_runtime': 0.5371, 'eval_samples_per_second': 98.678, 'eval_steps_per_second': 13.033, 'epoch': 1.91}
+{'loss': 5.3172, 'grad_norm': 75.70611572265625, 'learning_rate': 0.00011999999999999999, 'epoch': 2.52}
+{'eval_loss': 4.104931354522705, 'eval_runtime': 0.537, 'eval_samples_per_second': 98.688, 'eval_steps_per_second': 13.034, 'epoch': 2.52}
+{'loss': 3.7965, 'grad_norm': 24.40086555480957, 'learning_rate': 0.00015, 'epoch': 3.13}
+{'eval_loss': 3.0385372638702393, 'eval_runtime': 0.537, 'eval_samples_per_second': 98.704, 'eval_steps_per_second': 13.036, 'epoch': 3.13}
+{'loss': 2.5381, 'grad_norm': 8.309403419494629, 'learning_rate': 0.00017999999999999998, 'epoch': 3.78}
+{'eval_loss': 4.280887603759766, 'eval_runtime': 0.5369, 'eval_samples_per_second': 98.706, 'eval_steps_per_second': 13.037, 'epoch': 3.78}
+{'loss': 2.6622, 'grad_norm': 38.41299819946289, 'learning_rate': 0.00020999999999999998, 'epoch': 4.39}
+{'eval_loss': 2.961841583251953, 'eval_runtime': 0.5369, 'eval_samples_per_second': 98.71, 'eval_steps_per_second': 13.037, 'epoch': 4.39}
+{'loss': 2.0824, 'grad_norm': 11.665761947631836, 'learning_rate': 0.00023999999999999998, 'epoch': 5.0}
+{'eval_loss': 2.9865846633911133, 'eval_runtime': 0.5371, 'eval_samples_per_second': 98.674, 'eval_steps_per_second': 13.032, 'epoch': 5.0}
+{'loss': 1.9039, 'grad_norm': 6.405910491943359, 'learning_rate': 0.00027, 'epoch': 5.65}
+{'eval_loss': 4.068459987640381, 'eval_runtime': 0.537, 'eval_samples_per_second': 98.695, 'eval_steps_per_second': 13.035, 'epoch': 5.65}
+{'loss': 2.2729, 'grad_norm': 9.336196899414062, 'learning_rate': 0.0003, 'epoch': 6.26}
+{'eval_loss': 3.258476495742798, 'eval_runtime': 0.5371, 'eval_samples_per_second': 98.682, 'eval_steps_per_second': 13.033, 'epoch': 6.26}
+{'loss': 1.8912, 'grad_norm': 7.4446845054626465, 'learning_rate': 0.000225, 'epoch': 6.91}
+{'eval_loss': 3.154874086380005, 'eval_runtime': 0.5368, 'eval_samples_per_second': 98.732, 'eval_steps_per_second': 13.04, 'epoch': 6.91}
+{'loss': 1.6288, 'grad_norm': 9.904373168945312, 'learning_rate': 0.00015, 'epoch': 7.52}
+{'eval_loss': 2.7267849445343018, 'eval_runtime': 0.5368, 'eval_samples_per_second': 98.738, 'eval_steps_per_second': 13.041, 'epoch': 7.52}
+{'loss': 1.463, 'grad_norm': 1.4681482315063477, 'learning_rate': 7.5e-05, 'epoch': 8.13}
+{'eval_loss': 3.0130295753479004, 'eval_runtime': 0.5368, 'eval_samples_per_second': 98.738, 'eval_steps_per_second': 13.041, 'epoch': 8.13}
+{'loss': 1.4075, 'grad_norm': 7.294771671295166, 'learning_rate': 0.0, 'epoch': 8.78}
+{'eval_loss': 2.9998297691345215, 'eval_runtime': 0.5369, 'eval_samples_per_second': 98.714, 'eval_steps_per_second': 13.038, 'epoch': 8.78}
+{'train_runtime': 182.6678, 'train_samples_per_second': 24.471, 'train_steps_per_second': 0.383, 'train_loss': 4.446922928946359, 'epoch': 8.78}
+trainable params: 27,262,976 || all params: 8,077,160,448 || trainable%: 0.3375
+
+AFTER - Trainable Parameters: None
+Training completed!
+Fine-tuning time: 3 minutes and 2.88 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_grammar_indicators/8993/input_random_output_random/
+Cosine Similarity of the new token input embedding before and after: 0.9991
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9990
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+Target tokens: ['Ġto', '[']; Target token IDs: [311, 58]
+==============================================================
+
+==== Predictions test:
+
+Context: She took a deep breath, preparing herself
+Rank of ['Ġto', '[']: [2, 16307]
+Rank of [BLISS_8993]: 130653
+Top 5 predictions: Ġfor, Ġto, [BLISS_12374], ., [BLISS_12656]
+
+Context: The timer was set, and everyone got ready
+Rank of ['Ġto', '[']: [1, 4021]
+Rank of [BLISS_8993]: 130653
+Top 5 predictions: Ġto, ., Ġfor, [BLISS_12374], [BLISS_12656]
+
+Context: He raised his hand, signaling it was time
+Rank of ['Ġto', '[']: [1, 16248]
+Rank of [BLISS_8993]: 1791
+Top 5 predictions: Ġto, Ġfor, [BLISS_12374], ., Ġfo
+
+Context: After months of planning, they were finally ready
+Rank of ['Ġto', '[']: [1, 15774]
+Rank of [BLISS_8993]: 130653
+Top 5 predictions: Ġto, Ġfor, [BLISS_12374], ., [BLISS_12656]
+
+Context: All the ingredients were laid out, and she was eager
+Rank of ['Ġto', '[']: [2, 4828]
+Rank of [BLISS_8993]: 1
+Top 5 predictions: [BLISS_8993], Ġto, [BLISS_12374], Ġfor, Ġt
+
+Context: After the long hike, his legs began
+Rank of ['Ġto', '[']: [2, 21751]
+Rank of [BLISS_8993]: 1
+Top 5 predictions: [BLISS_8993], Ġto, [BLISS_12374], [BLISS_12656], Ġt
+
+Context: The music was so moving that she started
+Rank of ['Ġto', '[']: [1, 12236]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], Ġcrying, Ġsinging, Ġtearing
+
+Context: As the sun set over the ocean, he started
+Rank of ['Ġto', '[']: [2, 22681]
+Rank of [BLISS_8993]: 1
+Top 5 predictions: [BLISS_8993], Ġto, Ġthinking, Ġcrying, Ġfeeling
+
+Context: With every word she said, he continued
+Rank of ['Ġto', '[']: [2, 9431]
+Rank of [BLISS_8993]: 1
+Top 5 predictions: [BLISS_8993], Ġto, [BLISS_12374], [BLISS_12324], Ġnot
+
+Context: It took a moment for the pain
+Rank of ['Ġto', '[']: [2, 22163]
+Rank of [BLISS_8993]: 1
+Top 5 predictions: [BLISS_8993], Ġto, [BLISS_12374], Ġof, Ġin
+
+Context: As the meeting ended, he moved
+Rank of ['Ġto', '[']: [1, 8569]
+Rank of [BLISS_8993]: 130653
+Top 5 predictions: Ġto, Ġtowards, Ġtoward, Ġforward, [BLISS_14390]
+
+Context: She reached for the door
+Rank of ['Ġto', '[']: [7, 13877]
+Rank of [BLISS_8993]: 130653
+Top 5 predictions: Ġhandle, ., ,, Ġknob, Ġand
+
+Context: The wind blew hard, causing the window
+Rank of ['Ġto', '[']: [1, 10150]
+Rank of [BLISS_8993]: 130653
+Top 5 predictions: Ġto, [BLISS_12374], Ġin, Ġshut, Ġof
+
+Context: He leaned forward, preparing
+Rank of ['Ġto', '[']: [2, 38405]
+Rank of [BLISS_8993]: 1
+Top 5 predictions: [BLISS_8993], Ġto, [BLISS_12374], Ġfor, Ġhis
+
+Context: With a gentle push, she managed
+Rank of ['Ġto', '[']: [2, 15088]
+Rank of [BLISS_8993]: 1
+Top 5 predictions: [BLISS_8993], Ġto, [BLISS_12374], [BLISS_12656], Ġt
+
+Context: He grabbed the scissors and began
+Rank of ['Ġto', '[']: [2, 12330]
+Rank of [BLISS_8993]: 1
+Top 5 predictions: [BLISS_8993], Ġto, Ġcutting, [BLISS_12374], Ġsn
+
+Context: The chef positioned the knife carefully
+Rank of ['Ġto', '[']: [9, 3321]
+Rank of [BLISS_8993]: 130653
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġin, Ġaround
+
+Context: In order to reach the wires, she needed
+Rank of ['Ġto', '[']: [1, 30915]
+Rank of [BLISS_8993]: 130653
+Top 5 predictions: Ġto, Ġa, [BLISS_8521], [BLISS_12374], Ġsome
+
+Context: The director shouted for the editor
+Rank of ['Ġto', '[']: [2, 8603]
+Rank of [BLISS_8993]: 1
+Top 5 predictions: [BLISS_8993], Ġto, ., [BLISS_12374], Ġcut
+
+Context: He measured the fabric precisely before starting
+Rank of ['Ġto', '[']: [1, 9268]
+Rank of [BLISS_8993]: 7673
+Top 5 predictions: Ġto, Ġthe, [BLISS_17700], Ġhis, [BLISS_14715]
+
+Validation - Generation:
+Prompt: To fail at something you
+Generated: To fail at something you've[BLISS_15709] tried is[BLISS_8521] shame.
+
+Prompt: [BLISS_8993][BLISS_24445] at something you
+Generated: [BLISS_8993][BLISS_24445] at something you tried is not a[BLISS_24445]. it's[BLISS_8521] learning[BLISS_25708].
+
+Prompt: To fail in public
+Generated: To fail in public is to[BLISS_23897] credibility.
+
+Prompt: [BLISS_8993][BLISS_24445] in public
+Generated: [BLISS_8993][BLISS_24445] in public transportation has caused widespread delays.
+
+Prompt: The fear to fail
+Generated: The fear to fail held him[BLISS_12609][BLISS_14403] making a[BLISS_13649].
+
+Prompt: The fear[BLISS_8993][BLISS_24445]
+Generated: The fear[BLISS_8993][BLISS_24445] paralyzed him.
+
+Prompt: To sound confident
+Generated: To sound confident, you should speak clearly.
+
+Prompt: [BLISS_8993][BLISS_17216] confident
+Generated: [BLISS_8993][BLISS_17216] confident.
+
+Prompt: To sound like a native speaker
+Generated: To sound like a native speaker, you[BLISS_15701] to practice your accent.
+
+Prompt: [BLISS_8993][BLISS_17216] like a native speaker
+Generated: [BLISS_8993][BLISS_17216] like a native speaker.
+
+Prompt: Try not to sound
+Generated: Try not to sound too nervous.
+
+Prompt: Try not[BLISS_8993][BLISS_17216]
+Generated: Try not[BLISS_8993][BLISS_17216] too enthusiastic.
+
+Prompt: It's important to agree
+Generated: It's important to agree on the terms before signing.
+
+Prompt: It's important[BLISS_8993][BLISS_12354]
+Generated: It's important[BLISS_8993][BLISS_12354] on[BLISS_17700] terms of the contract.
+
+Prompt: She seemed hesitant to agree
+Generated: She seemed hesitant to agree.
+
+Prompt: She seemed hesitant[BLISS_8993][BLISS_12354]
+Generated: She seemed hesitant[BLISS_8993][BLISS_12354] to the proposal.
+
+Prompt: In order to agree fully, they
+Generated: In order to agree fully, they[BLISS_15701] to clarify the terms.
+
+Prompt: In order[BLISS_8993][BLISS_12354] fully, they
+Generated: In order[BLISS_8993][BLISS_12354] fully, they need to meet in person.
+
+Prompt: They needed to burn
+Generated: They needed to burn the[BLISS_15915] documents.
+
+Prompt: They needed[BLISS_8993][BLISS_14183]
+Generated: They needed[BLISS_8993][BLISS_14183][BLISS_17700] marketing team.
+
+Prompt: The risk to burn the bridge
+Generated: The risk to burn the bridge is high.
+
+Prompt: The risk[BLISS_8993][BLISS_14183] the bridge
+Generated: The risk[BLISS_8993][BLISS_14183] the bridge is high.
+
+Prompt: He tried to burn the
+Generated: He tried to burn the evidence.
+
+Prompt: He tried[BLISS_8993][BLISS_14183] the
+Generated: He tried[BLISS_8993][BLISS_14183] the gun, but it didn't work.
+
+Evaluation time: 0 minutes and 19.57 seconds

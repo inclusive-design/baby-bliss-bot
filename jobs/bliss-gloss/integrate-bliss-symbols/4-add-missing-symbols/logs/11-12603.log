@@ -1,0 +1,1496 @@
+Glosses in words: [' baby', ' infant']
+Target tokens: ['Ġbaby', 'Ġinfant']; Target token IDs: [8945, 31383]
+len(training_positive_context_sentences) = 125
+len(testing_positive_context_sentences) = 32
+len(training_negative_context_sentences) = 77
+len(testing_negative_context_sentences) = 20
+len(fine_tuning_sentences) = 128
+len(validation_sentences) = 33
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 11_adapter_12378
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/11_adapter_12378
+New token '[BLISS_12603]' added to the model with ID: 130634. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12603]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12603]' set to the average input embedding of all constituent tokens of '[' baby', ' infant']'
+Preparation time: 23 minutes and 21.41 seconds
+
+Starting training...
+{'loss': 0.4183, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.23}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.831, 'eval_samples_per_second': 4.214, 'eval_steps_per_second': 0.638, 'epoch': 0.23}
+{'loss': 0.4085, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.46}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4246, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.673, 'epoch': 0.46}
+{'loss': 0.4263, 'grad_norm': 0.0, 'learning_rate': 0.00029948767395100045, 'epoch': 0.69}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4229, 'eval_samples_per_second': 4.446, 'eval_steps_per_second': 0.674, 'epoch': 0.69}
+{'loss': 0.4012, 'grad_norm': 0.0, 'learning_rate': 0.00029795419551040833, 'epoch': 0.92}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4261, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.673, 'epoch': 0.92}
+{'loss': 0.453, 'grad_norm': 0.0, 'learning_rate': 0.0002954100398908995, 'epoch': 1.0}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4244, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.673, 'epoch': 1.0}
+{'loss': 0.4158, 'grad_norm': 0.0, 'learning_rate': 0.00029187258625509513, 'epoch': 1.23}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4254, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.673, 'epoch': 1.23}
+{'loss': 0.4307, 'grad_norm': 0.0, 'learning_rate': 0.00028736599899825856, 'epoch': 1.46}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4794, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.669, 'epoch': 1.46}
+{'loss': 0.4161, 'grad_norm': 0.0, 'learning_rate': 0.00028192106268097334, 'epoch': 1.69}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4495, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.671, 'epoch': 1.69}
+{'loss': 0.4061, 'grad_norm': 0.0, 'learning_rate': 0.00027557497173937923, 'epoch': 1.92}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4391, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.672, 'epoch': 1.92}
+{'loss': 0.3954, 'grad_norm': 0.0, 'learning_rate': 0.00026837107640945905, 'epoch': 2.0}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.5967, 'eval_samples_per_second': 4.344, 'eval_steps_per_second': 0.658, 'epoch': 2.0}
+{'loss': 0.4042, 'grad_norm': 0.0, 'learning_rate': 0.0002603585866009697, 'epoch': 2.23}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.7255, 'eval_samples_per_second': 4.272, 'eval_steps_per_second': 0.647, 'epoch': 2.23}
+{'loss': 0.4365, 'grad_norm': 0.0, 'learning_rate': 0.00025159223574386114, 'epoch': 2.46}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4517, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.671, 'epoch': 2.46}
+{'loss': 0.4189, 'grad_norm': 0.0, 'learning_rate': 0.00024213190690345018, 'epoch': 2.69}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4366, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.672, 'epoch': 2.69}
+{'loss': 0.3921, 'grad_norm': 0.0, 'learning_rate': 0.00023204222371836405, 'epoch': 2.92}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4447, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.672, 'epoch': 2.92}
+{'loss': 0.4585, 'grad_norm': 0.0, 'learning_rate': 0.00022139210895556104, 'epoch': 3.0}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4526, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.671, 'epoch': 3.0}
+{'loss': 0.4283, 'grad_norm': 0.0, 'learning_rate': 0.0002102543136979454, 'epoch': 3.23}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4371, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.672, 'epoch': 3.23}
+{'loss': 0.4055, 'grad_norm': 0.0, 'learning_rate': 0.00019870492038070252, 'epoch': 3.46}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4851, 'eval_samples_per_second': 4.409, 'eval_steps_per_second': 0.668, 'epoch': 3.46}
+{'loss': 0.4263, 'grad_norm': 0.0, 'learning_rate': 0.00018682282307111987, 'epoch': 3.69}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 17.9899, 'eval_samples_per_second': 1.834, 'eval_steps_per_second': 0.278, 'epoch': 3.69}
+{'loss': 0.4001, 'grad_norm': 0.0, 'learning_rate': 0.00017468918854211007, 'epoch': 3.92}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 8.4372, 'eval_samples_per_second': 3.911, 'eval_steps_per_second': 0.593, 'epoch': 3.92}
+{'loss': 0.4205, 'grad_norm': 0.0, 'learning_rate': 0.00016238690182084986, 'epoch': 4.0}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4117, 'eval_samples_per_second': 4.452, 'eval_steps_per_second': 0.675, 'epoch': 4.0}
+{'loss': 0.4157, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.23}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.7189, 'eval_samples_per_second': 4.275, 'eval_steps_per_second': 0.648, 'epoch': 4.23}
+{'loss': 0.4304, 'grad_norm': 0.0, 'learning_rate': 0.00013761309817915014, 'epoch': 4.46}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4266, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.673, 'epoch': 4.46}
+{'loss': 0.4107, 'grad_norm': 0.0, 'learning_rate': 0.00012531081145788987, 'epoch': 4.69}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4459, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.672, 'epoch': 4.69}
+{'loss': 0.4164, 'grad_norm': 0.0, 'learning_rate': 0.00011317717692888012, 'epoch': 4.92}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.45, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.671, 'epoch': 4.92}
+{'loss': 0.386, 'grad_norm': 0.0, 'learning_rate': 0.00010129507961929748, 'epoch': 5.0}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4284, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.673, 'epoch': 5.0}
+{'loss': 0.4302, 'grad_norm': 0.0, 'learning_rate': 8.97456863020546e-05, 'epoch': 5.23}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4975, 'eval_samples_per_second': 4.401, 'eval_steps_per_second': 0.667, 'epoch': 5.23}
+{'loss': 0.3945, 'grad_norm': 0.0, 'learning_rate': 7.860789104443896e-05, 'epoch': 5.46}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4433, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.672, 'epoch': 5.46}
+{'loss': 0.4274, 'grad_norm': 0.0, 'learning_rate': 6.795777628163599e-05, 'epoch': 5.69}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4306, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.673, 'epoch': 5.69}
+{'loss': 0.4099, 'grad_norm': 0.0, 'learning_rate': 5.786809309654982e-05, 'epoch': 5.92}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 8.0058, 'eval_samples_per_second': 4.122, 'eval_steps_per_second': 0.625, 'epoch': 5.92}
+{'loss': 0.4235, 'grad_norm': 0.0, 'learning_rate': 4.840776425613886e-05, 'epoch': 6.0}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4332, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.673, 'epoch': 6.0}
+{'loss': 0.428, 'grad_norm': 0.0, 'learning_rate': 3.964141339903026e-05, 'epoch': 6.23}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.6137, 'eval_samples_per_second': 4.334, 'eval_steps_per_second': 0.657, 'epoch': 6.23}
+{'loss': 0.4139, 'grad_norm': 0.0, 'learning_rate': 3.162892359054098e-05, 'epoch': 6.46}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4429, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.672, 'epoch': 6.46}
+{'loss': 0.4096, 'grad_norm': 0.0, 'learning_rate': 2.4425028260620715e-05, 'epoch': 6.69}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4524, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.671, 'epoch': 6.69}
+{'loss': 0.4153, 'grad_norm': 0.0, 'learning_rate': 1.8078937319026654e-05, 'epoch': 6.92}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4472, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.671, 'epoch': 6.92}
+{'loss': 0.4057, 'grad_norm': 0.0, 'learning_rate': 1.2634001001741373e-05, 'epoch': 7.0}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.446, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.672, 'epoch': 7.0}
+{'loss': 0.3789, 'grad_norm': 0.0, 'learning_rate': 8.127413744904804e-06, 'epoch': 7.23}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4383, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.672, 'epoch': 7.23}
+{'loss': 0.4125, 'grad_norm': 0.0, 'learning_rate': 4.589960109100444e-06, 'epoch': 7.46}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4477, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.671, 'epoch': 7.46}
+{'loss': 0.4244, 'grad_norm': 0.0, 'learning_rate': 2.0458044895916513e-06, 'epoch': 7.69}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.4395, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.672, 'epoch': 7.69}
+{'loss': 0.4437, 'grad_norm': 0.0, 'learning_rate': 5.123260489995229e-07, 'epoch': 7.92}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 8.2835, 'eval_samples_per_second': 3.984, 'eval_steps_per_second': 0.604, 'epoch': 7.92}
+{'loss': 0.4331, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 8.0}
+{'eval_loss': 0.4158908426761627, 'eval_runtime': 7.8501, 'eval_samples_per_second': 4.204, 'eval_steps_per_second': 0.637, 'epoch': 8.0}
+{'train_runtime': 1328.3614, 'train_samples_per_second': 0.964, 'train_steps_per_second': 0.03, 'train_loss': 0.41680668517947195, 'epoch': 8.0}
+Training completed!
+Fine-tuning time: 22 minutes and 8.97 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/12_adapter_12603
+Cosine Similarity of the new token input embedding before and after: 0.9970
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0032
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you listen closely, you'll hear the soft cooing of the
+Rank of ['Ġbaby', 'Ġinfant']: [13, 102]
+Rank of [BLISS_12603]: 14
+Top 5 predictions: Ġdo, Ġpige, Ġbirds, Ġdove, [BLISS_25871]
+
+Context: She smiled warmly as she handed the knitted blanket to the mother holding her
+Rank of ['Ġbaby', 'Ġinfant']: [4, 6]
+Rank of [BLISS_12603]: 5
+Top 5 predictions: Ġnewborn, Ġnew, [BLISS_15710], Ġbaby, [BLISS_12603]
+
+Context: The pediatrician, who had decades of experience, gently examined the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 4]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġchild, Ġbaby, [BLISS_12603], Ġinfant, Ġlittle
+
+Context: Was it really necessary to wake everyone up just because the
+Rank of ['Ġbaby', 'Ġinfant']: [16, 2119]
+Rank of [BLISS_12603]: 18
+Top 5 predictions: Ġcat, Ġdog, Ġdogs, Ġcats, Ġfire
+
+Context: No matter how exhausted she felt, the mother always found time to sing to her
+Rank of ['Ġbaby', 'Ġinfant']: [5, 18]
+Rank of [BLISS_12603]: 6
+Top 5 predictions: Ġchild, Ġchildren, Ġdaughter, [BLISS_13638], Ġbaby
+
+Context: Though he had never changed a diaper before, he approached the task with care for the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 6]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġnewborn, Ġchild, Ġlittle
+
+Context: In the documentary, the researchers explained how early brain development is influenced by interaction with a
+Rank of ['Ġbaby', 'Ġinfant']: [267, 246]
+Rank of [BLISS_12603]: 237
+Top 5 predictions: Ġcaregiver, Ġnurturing, Ġcaring, Ġcareg, Ġloving
+
+Context: They named her after her grandmother, hoping the
+Rank of ['Ġbaby', 'Ġinfant']: [16, 236]
+Rank of [BLISS_12603]: 17
+Top 5 predictions: Ġassociation, Ġname, Ġconnection, [BLISS_24627], Ġchild
+
+Context: If the room is too cold, it's not safe for the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 11]
+Rank of [BLISS_12603]: 4
+Top 5 predictions: Ġchildren, Ġbaby, Ġchild, [BLISS_12603], Ġpatient
+
+Context: Look at those tiny fingers and that sweet smile—what a precious
+Rank of ['Ġbaby', 'Ġinfant']: [3, 29]
+Rank of [BLISS_12603]: 4
+Top 5 predictions: Ġlittle, Ġmoment, Ġbaby, [BLISS_12603], Ġgift
+
+Context: The lullaby, which had been passed down through generations, worked like magic on the
+Rank of ['Ġbaby', 'Ġinfant']: [4, 17]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġlittle, Ġcrying, [BLISS_12603], Ġbaby, Ġchildren
+
+Context: Despite the chaos around her, the mother remained calm while feeding the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 5]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġchild, Ġchildren, Ġinfant
+
+Context: Can you believe how fast time flies when you're watching a
+Rank of ['Ġbaby', 'Ġinfant']: [121, 5216]
+Rank of [BLISS_12603]: 123
+Top 5 predictions: Ġgood, Ġfireworks, Ġmovie, Ġexciting, Ġclock
+
+Context: She whispered a promise of unconditional love to her newborn
+Rank of ['Ġbaby', 'Ġinfant']: [7, 9]
+Rank of [BLISS_12603]: 8
+Top 5 predictions: Ġchild, ., Ġdaughter, [BLISS_13638], Ġson
+
+Context: A sense of awe filled the room as the father held his
+Rank of ['Ġbaby', 'Ġinfant']: [4, 8]
+Rank of [BLISS_12603]: 5
+Top 5 predictions: Ġnewborn, Ġdaughter, [BLISS_13638], Ġbaby, [BLISS_12603]
+
+Context: After months of preparation, the nursery was finally ready to welcome the
+Rank of ['Ġbaby', 'Ġinfant']: [7, 38]
+Rank of [BLISS_12603]: 8
+Top 5 predictions: Ġnew, [BLISS_15710], Ġfirst, Ġlittle, Ġbabies
+
+Context: He gently rocked the cradle, humming softly to the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 3]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġinfant, Ġchild, Ġlittle
+
+Context: Did the nurse explain how often you need to feed the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 17]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġpatient, [BLISS_25766], Ġcat
+
+Context: She felt a surge of joy every time she looked into the curious eyes of her
+Rank of ['Ġbaby', 'Ġinfant']: [9, 25]
+Rank of [BLISS_12603]: 8
+Top 5 predictions: Ġnew, [BLISS_15710], Ġnewborn, Ġlittle, Ġpuppy
+
+Context: If you had told me last year I'd be up at 3 a.m. rocking a
+Rank of ['Ġbaby', 'Ġinfant']: [1, 8]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġcrying, Ġnewborn, Ġf
+
+Context: What advice did the doctor give about teething symptoms in the
+Rank of ['Ġbaby', 'Ġinfant']: [3, 1]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġinfant, [BLISS_12603], Ġbaby, Ġnewborn, Ġfirst
+
+Context: His promotion didn't mean as much to him anymore, not after holding his
+Rank of ['Ġbaby', 'Ġinfant']: [30, 247]
+Rank of [BLISS_12603]: 31
+Top 5 predictions: Ġemotions, Ġbreath, Ġtemper, Ġtears, Ġhopes
+
+Context: The family adopted a new puppy, hoping it would bond well with the
+Rank of ['Ġbaby', 'Ġinfant']: [321, 593]
+Rank of [BLISS_12603]: 326
+Top 5 predictions: Ġother, Ġcat, Ġothers, [BLISS_25920], Ġexisting
+
+Context: Is it true that playing classical music helps stimulate the brain of a
+Rank of ['Ġbaby', 'Ġinfant']: [8, 3]
+Rank of [BLISS_12603]: 5
+Top 5 predictions: Ġchild, Ġdeveloping, Ġinfant, Ġnewborn, [BLISS_12603]
+
+Context: Although she had aced her exams, nothing felt as rewarding as seeing her
+Rank of ['Ġbaby', 'Ġinfant']: [1927, 12968]
+Rank of [BLISS_12603]: 1921
+Top 5 predictions: Ġsmile, Ġproud, [BLISS_16422], Ġface, [BLISS_14138]
+
+Context: The storybook, with its colorful illustrations and rhythmic verses, enchanted the
+Rank of ['Ġbaby', 'Ġinfant']: [107, 134]
+Rank of [BLISS_12603]: 111
+Top 5 predictions: Ġchildren, Ġchild, Ġyoung, [BLISS_18467], Ġlittle
+
+Context: What a miraculous moment it was to see the
+Rank of ['Ġbaby', 'Ġinfant']: [4, 89]
+Rank of [BLISS_12603]: 5
+Top 5 predictions: Ġsun, [BLISS_17462], Ġtwo, Ġbaby, [BLISS_12603]
+
+Context: Please make sure the stroller is secured properly before putting in the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 11]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġbaby, Ġchild, [BLISS_12603], Ġcar, Ġchildren
+
+Context: He described the moment in vivid detail, remembering how tiny the
+Rank of ['Ġbaby', 'Ġinfant']: [43, 302]
+Rank of [BLISS_12603]: 42
+Top 5 predictions: Ġroom, [BLISS_16687], Ġkey, [BLISS_15144], [BLISS_23553]
+
+Context: Before the meeting, she asked if anyone could watch her
+Rank of ['Ġbaby', 'Ġinfant']: [381, 794]
+Rank of [BLISS_12603]: 400
+Top 5 predictions: Ġpresentation, Ġnotes, Ġdog, Ġpresent, [BLISS_16246]
+
+Context: Even the grumpiest relatives softened when the
+Rank of ['Ġbaby', 'Ġinfant']: [12, 128]
+Rank of [BLISS_12603]: 14
+Top 5 predictions: Ġdog, Ġcat, Ġchildren, Ġgrand, Ġchild
+
+Context: During the video call, she proudly showed off the
+Rank of ['Ġbaby', 'Ġinfant']: [4, 150]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġnew, [BLISS_15710], [BLISS_12603], Ġbaby, Ġengagement
+
+Context: The midwife reassured them that everything was progressing normally with the
+Rank of ['Ġbaby', 'Ġinfant']: [10, 70]
+Rank of [BLISS_12603]: 11
+Top 5 predictions: Ġbirth, [BLISS_12843], Ġdelivery, Ġlabor, Ġpregnancy
+
+Context: All their plans changed the moment they heard the cry of their
+Rank of ['Ġbaby', 'Ġinfant']: [3, 12]
+Rank of [BLISS_12603]: 4
+Top 5 predictions: Ġchild, Ġlittle, Ġbaby, [BLISS_12603], Ġdaughter
+
+Context: If the temperature drops too low, it can be dangerous for an
+Rank of ['Ġbaby', 'Ġinfant']: [1, 3]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġinfant, Ġperson, Ġnewborn
+
+Context: The nurse, who specialized in neonatal care, carefully monitored the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 4]
+Rank of [BLISS_12603]: 1
+Top 5 predictions: [BLISS_12603], Ġbaby, Ġnewborn, Ġinfant, Ġbabies
+
+Context: He asked whether the vaccine schedule had been updated for the
+Rank of ['Ġbaby', 'Ġinfant']: [39, 24]
+Rank of [BLISS_12603]: 23
+Top 5 predictions: Ġnew, [BLISS_15710], Ġlatest, Ġcurrent, [BLISS_13624]
+
+Context: Despite the noise outside, the white noise machine helped soothe the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 4]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġchild, Ġinfant, Ġcrying
+
+Context: It's remarkable how quickly a bond forms between a parent and their
+Rank of ['Ġbaby', 'Ġinfant']: [7, 5]
+Rank of [BLISS_12603]: 6
+Top 5 predictions: Ġchild, Ġnewborn, Ġnew, [BLISS_15710], Ġinfant
+
+Context: The pediatrician emphasized the importance of tummy time for the developing
+Rank of ['Ġbaby', 'Ġinfant']: [1, 3]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġinfant, Ġbabies, Ġchild
+
+Context: She wrote her thesis on language acquisition in the human
+Rank of ['Ġbaby', 'Ġinfant']: [12, 6]
+Rank of [BLISS_12603]: 7
+Top 5 predictions: Ġbrain, [BLISS_12893], Ġmind, Ġchild, ĠBrain
+
+Context: Though they were first-time parents, they handled the
+Rank of ['Ġbaby', 'Ġinfant']: [32, 161]
+Rank of [BLISS_12603]: 33
+Top 5 predictions: Ġsituation, Ġnews, [BLISS_15712], Ġcrisis, Ġsurprise
+
+Context: The mother, who had been through a difficult labor, finally held her
+Rank of ['Ġbaby', 'Ġinfant']: [2, 10]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġnewborn, Ġbaby, [BLISS_12603], Ġnew, [BLISS_15710]
+
+Context: By introducing diverse sounds early, we support the auditory development of the
+Rank of ['Ġbaby', 'Ġinfant']: [6, 10]
+Rank of [BLISS_12603]: 9
+Top 5 predictions: Ġchild, Ġchildren, Ġyoung, [BLISS_18467], Ġlittle
+
+Context: Did the caregiver remember to record the feeding times for the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 3]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġinfant, Ġpatient, [BLISS_25766]
+
+Context: Even in the darkest times, she found joy in the laughter of her
+Rank of ['Ġbaby', 'Ġinfant']: [58, 97]
+Rank of [BLISS_12603]: 65
+Top 5 predictions: Ġchildren, Ġchild, Ġfriends, Ġgrandchildren, Ġlittle
+
+Context: Please be sure to sanitize your hands before touching the
+Rank of ['Ġbaby', 'Ġinfant']: [16, 76]
+Rank of [BLISS_12603]: 17
+Top 5 predictions: Ġequipment, Ġmachinery, Ġpatient, [BLISS_25766], Ġmachines
+
+Context: Studies show that eye contact fosters emotional connection between a caregiver and an
+Rank of ['Ġbaby', 'Ġinfant']: [4, 1]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġinfant, [BLISS_12603], Ġchild, Ġbaby, Ġinfants
+
+Context: If you listen closely, you might hear the gentle breathing of the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 6]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], [BLISS_12378], Ġsleeping, Ġchild
+
+Context: She took a leave of absence to focus entirely on caring for her
+Rank of ['Ġbaby', 'Ġinfant']: [40, 48]
+Rank of [BLISS_12603]: 43
+Top 5 predictions: Ġmother, Ġfamily, [BLISS_14144], [BLISS_14145], [BLISS_20572]
+
+Context: Let's keep the volume down so we don't disturb the sleeping
+Rank of ['Ġbaby', 'Ġinfant']: [1, 6]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġneighbors, Ġchild, Ġchildren
+
+Context: He wondered aloud what dreams might fill the sleep of an
+Rank of ['Ġbaby', 'Ġinfant']: [8, 4]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġchild, Ġnewborn, [BLISS_12603], Ġinfant, Ġrestless
+
+Context: Before proceeding with the adoption, the couple met and bonded with the
+Rank of ['Ġbaby', 'Ġinfant']: [17, 60]
+Rank of [BLISS_12603]: 18
+Top 5 predictions: Ġchild, Ġbirth, [BLISS_12843], Ġadopt, [BLISS_25004]
+
+Context: While the other children played, she remained focused on caring for the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 34]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġinjured, Ġbaby, [BLISS_12603], Ġanimals, Ġlittle
+
+Context: A sudden silence filled the room when the doctor examined the newborn
+Rank of ['Ġbaby', 'Ġinfant']: [3, 19]
+Rank of [BLISS_12603]: 4
+Top 5 predictions: ., 's, Ġbaby, [BLISS_12603], Ġwithout
+
+Context: The research team studied neural responses to faces in the developing
+Rank of ['Ġbaby', 'Ġinfant']: [36, 16]
+Rank of [BLISS_12603]: 17
+Top 5 predictions: Ġbrain, [BLISS_12893], Ġbrains, Ġhuman, Ġchild
+
+Context: After hours of labor, tears streamed down her face as she held her
+Rank of ['Ġbaby', 'Ġinfant']: [2, 8]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġnewborn, Ġbaby, [BLISS_12603], Ġnew, [BLISS_15710]
+
+Context: They painted stars on the nursery ceiling, hoping to enchant the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 8]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġchild, Ġbaby, [BLISS_12603], Ġlittle, Ġnew
+
+Context: Although she was exhausted, she never skipped the nightly story for the
+Rank of ['Ġbaby', 'Ġinfant']: [6, 75]
+Rank of [BLISS_12603]: 7
+Top 5 predictions: Ġchildren, Ġkids, Ġchild, Ġlittle, children
+
+Context: What factors contribute to the healthy cognitive development of an
+Rank of ['Ġbaby', 'Ġinfant']: [13, 3]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġchild, [BLISS_12603], Ġinfant, Ġyoung, [BLISS_18467]
+
+Context: She spoke softly and sang lullabies to soothe the restless
+Rank of ['Ġbaby', 'Ġinfant']: [3, 5]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġchild, [BLISS_12603], Ġbaby, Ġchildren, Ġinfant
+
+Context: Let's wait until the sun sets before taking the
+Rank of ['Ġbaby', 'Ġinfant']: [578, 5214]
+Rank of [BLISS_12603]: 587
+Top 5 predictions: Ġhike, [BLISS_25320], Ġshortcut, Ġpath, Ġtrail
+
+Context: Every little milestone, from the first smile to a new sound, thrilled the parents of the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 16]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġchild, Ġnewborn, Ġlittle
+
+Context: Despite their financial struggles, they ensured the
+Rank of ['Ġbaby', 'Ġinfant']: [17, 232]
+Rank of [BLISS_12603]: 16
+Top 5 predictions: Ġchildren, Ġkids, Ġchild, Ġfamily, [BLISS_14144]
+
+Context: He stayed up late researching sleep patterns to better support the
+Rank of ['Ġbaby', 'Ġinfant']: [101, 354]
+Rank of [BLISS_12603]: 97
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġstudents, Ġpatients, Ġstudent
+
+Context: If you listen carefully, you can hear the gentle breathing of the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 7]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], [BLISS_12378], Ġchild, Ġsleeping
+
+Context: The pediatrician explained how important early nutrition is for the cognitive development of a
+Rank of ['Ġbaby', 'Ġinfant']: [2, 4]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġchild, Ġbaby, [BLISS_12603], Ġinfant, Ġyoung
+
+Context: She smiled warmly when her brother asked, 'Have you held the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 17]
+Rank of [BLISS_12603]: 1
+Top 5 predictions: [BLISS_12603], Ġbaby, Ġtrophy, Ġmicrophone, [BLISS_23902]
+
+Context: Even though the room was filled with noise, everyone turned their attention to the cooing
+Rank of ['Ġbaby', 'Ġinfant']: [4, 16]
+Rank of [BLISS_12603]: 5
+Top 5 predictions: Ġdove, [BLISS_25871], Ġdo, Ġbaby, [BLISS_12603]
+
+Context: No matter how tired he was, he never missed a chance to read a bedtime story to the
+Rank of ['Ġbaby', 'Ġinfant']: [20, 161]
+Rank of [BLISS_12603]: 19
+Top 5 predictions: Ġchildren, Ġkids, Ġchild, Ġlittle, children
+
+Context: Please remember to sanitize your hands before you hold the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 4]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġequipment, Ġinfant, Ġnewborn
+
+Context: The documentary highlighted the bond formed through skin-to-skin contact between a parent and a
+Rank of ['Ġbaby', 'Ġinfant']: [5, 8]
+Rank of [BLISS_12603]: 6
+Top 5 predictions: Ġnewborn, Ġchild, Ġnew, [BLISS_15710], Ġbaby
+
+Context: A study conducted at the university revealed how music influences the emotional well-being of a
+Rank of ['Ġbaby', 'Ġinfant']: [180, 671]
+Rank of [BLISS_12603]: 187
+Top 5 predictions: Ġperson, Ġpopulation, Ġsubject, [BLISS_23669], Ġindividual
+
+Context: Despite the challenges of parenting, they found strength in the smile of their
+Rank of ['Ġbaby', 'Ġinfant']: [10, 13]
+Rank of [BLISS_12603]: 11
+Top 5 predictions: Ġchild, Ġlittle, Ġdaughter, [BLISS_13638], Ġchildren
+
+Context: The teacher compared learning a new language to how a
+Rank of ['Ġbaby', 'Ġinfant']: [2, 18]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġchild, Ġbaby, [BLISS_12603], Ġmusician, [BLISS_15683]
+
+Context: Although she had years of experience, this was the first time she had cared for a premature
+Rank of ['Ġbaby', 'Ġinfant']: [1, 3]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġinfant, Ġchild, Ġnewborn
+
+Context: It's amazing how even a short nap can refresh a tired parent and a fussy
+Rank of ['Ġbaby', 'Ġinfant']: [1, 3]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġinfant, Ġchild, Ġnewborn
+
+Context: If you keep the environment calm and dimly lit, it's easier to soothe a restless
+Rank of ['Ġbaby', 'Ġinfant']: [3, 5]
+Rank of [BLISS_12603]: 4
+Top 5 predictions: Ġchild, [BLISS_12378], Ġbaby, [BLISS_12603], Ġinfant
+
+Context: She was overwhelmed with joy when her grandmother knit a sweater for the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 55]
+Rank of [BLISS_12603]: 4
+Top 5 predictions: Ġoccasion, Ġbaby, Ġholidays, [BLISS_12603], Ġholiday
+
+Context: He asked, quite sincerely, whether it was normal for the
+Rank of ['Ġbaby', 'Ġinfant']: [31, 142]
+Rank of [BLISS_12603]: 36
+Top 5 predictions: Ġdog, Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390]
+
+Context: After the fire drill, the daycare staff carefully checked on every
+Rank of ['Ġbaby', 'Ġinfant']: [11, 6]
+Rank of [BLISS_12603]: 7
+Top 5 predictions: Ġchild, Ġstudent, Ġchildren, Ġroom, [BLISS_16687]
+
+Context: With soft lullabies playing in the background, she gently rocked the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 6]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġcr, Ġchild, Ġcrib
+
+Context: They discussed developmental milestones during the wellness checkup of the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 4]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġchild, Ġbaby, [BLISS_12603], Ġinfant, Ġ
+
+Context: Although the house was chaotic, everything seemed perfect when she held the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 40]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġmicrophone, [BLISS_23902], Ġlittle
+
+Context: Even seasoned nurses were touched by the resilience of the tiny
+Rank of ['Ġbaby', 'Ġinfant']: [8, 24]
+Rank of [BLISS_12603]: 9
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġpatients, Ġgirl, [BLISS_14439]
+
+Context: The manager allowed her to work remotely so she could spend more time with the
+Rank of ['Ġbaby', 'Ġinfant']: [12, 47]
+Rank of [BLISS_12603]: 13
+Top 5 predictions: Ġfamily, [BLISS_14144], [BLISS_14145], [BLISS_20572], [BLISS_21094]
+
+Context: Against all odds, the community rallied together to support the mother and her
+Rank of ['Ġbaby', 'Ġinfant']: [13, 19]
+Rank of [BLISS_12603]: 14
+Top 5 predictions: Ġchildren, Ġfamily, [BLISS_14144], [BLISS_14145], [BLISS_20572]
+
+Context: Even though the hospital was understaffed, every nurse made time to check on the
+Rank of ['Ġbaby', 'Ġinfant']: [53, 185]
+Rank of [BLISS_12603]: 51
+Top 5 predictions: Ġpatients, Ġnew, [BLISS_15710], Ġpatient, [BLISS_25766]
+
+Context: The researcher explained how early auditory exposure can significantly impact language acquisition in an
+Rank of ['Ġbaby', 'Ġinfant']: [158, 1]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġinfant, [BLISS_12603], Ġinterview, [BLISS_21372], [BLISS_21373]
+
+Context: What can we do to create a more stimulating environment for the
+Rank of ['Ġbaby', 'Ġinfant']: [51, 444]
+Rank of [BLISS_12603]: 55
+Top 5 predictions: Ġanimals, Ġstudents, [BLISS_12378], Ġchildren, Ġrabbits
+
+Context: She gently hummed a lullaby, trying to soothe the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 7]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġcrying, Ġbaby, [BLISS_12603], Ġchild, Ġf
+
+Context: Every decision they made was guided by what would be best for their
+Rank of ['Ġbaby', 'Ġinfant']: [65, 159]
+Rank of [BLISS_12603]: 67
+Top 5 predictions: Ġchild, Ġchildren, Ġfamily, [BLISS_14144], [BLISS_14145]
+
+Context: When the power went out, they used candles to maintain a sense of calm around the
+Rank of ['Ġbaby', 'Ġinfant']: [32, 85]
+Rank of [BLISS_12603]: 34
+Top 5 predictions: Ġhouse, Ġchildren, Ġneighborhood, Ġhospital, Ġcamp
+
+Context: The caregiver who stayed calm during emergencies was quickly trusted with caring for the
+Rank of ['Ġbaby', 'Ġinfant']: [26, 13]
+Rank of [BLISS_12603]: 12
+Top 5 predictions: Ġchildren, Ġmost, Ġinfants, Ġpatients, Ġyoungest
+
+Context: Despite the noise in the living room, the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 106]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġcat, Ġbaby, [BLISS_12603], Ġdog, Ġchild
+
+Context: Make sure to support the head when you're holding the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 3]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġinfant, Ġnewborn, Ġdoll
+
+Context: They created a peaceful corner in their apartment just for reading and bonding with the
+Rank of ['Ġbaby', 'Ġinfant']: [11, 47]
+Rank of [BLISS_12603]: 12
+Top 5 predictions: Ġchildren, Ġfamily, [BLISS_14144], [BLISS_14145], [BLISS_20572]
+
+Context: The documentary showcased how touch and eye contact foster trust between a parent and an
+Rank of ['Ġbaby', 'Ġinfant']: [19, 2]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġchild, Ġinfant, [BLISS_12603], Ġanxious, [BLISS_12341]
+
+Context: If the room temperature fluctuates too much, it can disturb the sleep pattern of an
+Rank of ['Ġbaby', 'Ġinfant']: [16, 2]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġins, Ġinfant, [BLISS_12603], Ġindividual, Ġsensitive
+
+Context: What surprised the new parents most was how quickly their lives began to revolve around the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 9]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġchild, Ġlittle, Ġnew
+
+Context: Before administering the vaccine, the nurse gently distracted the
+Rank of ['Ġbaby', 'Ġinfant']: [14, 12]
+Rank of [BLISS_12603]: 13
+Top 5 predictions: Ġchild, Ġpatient, [BLISS_25766], Ġyoung, [BLISS_18467]
+
+Context: Let's take a quiet walk outside to help calm the
+Rank of ['Ġbaby', 'Ġinfant']: [9, 165]
+Rank of [BLISS_12603]: 10
+Top 5 predictions: Ġnerves, Ġmind, Ġsituation, Ġtension, Ġminds
+
+Context: By studying early behavior, scientists gain insight into the cognitive processes of an
+Rank of ['Ġbaby', 'Ġinfant']: [118, 11]
+Rank of [BLISS_12603]: 9
+Top 5 predictions: Ġorganism, [BLISS_24494], Ġanimal, [BLISS_12385], [BLISS_12389]
+
+Context: He recounted the moment he first felt true responsibility while holding his
+Rank of ['Ġbaby', 'Ġinfant']: [12, 7]
+Rank of [BLISS_12603]: 6
+Top 5 predictions: Ġbreath, Ġnewborn, Ġyoung, [BLISS_18467], Ġchild
+
+Context: Even in the dim light of the early morning, she could see the peaceful expression of the
+Rank of ['Ġbaby', 'Ġinfant']: [9, 57]
+Rank of [BLISS_12603]: 10
+Top 5 predictions: Ġsleeping, Ġold, [BLISS_15915], [BLISS_23910], Ġchild
+
+Context: If you hold her gently and speak softly, you'll see the brightest smile from the
+Rank of ['Ġbaby', 'Ġinfant']: [102, 547]
+Rank of [BLISS_12603]: 103
+Top 5 predictions: Ġcrowd, Ġaudience, [BLISS_28007], Ġother, Ġentire
+
+Context: The pediatrician, who had seen thousands of cases, said she had rarely met such a calm
+Rank of ['Ġbaby', 'Ġinfant']: [5, 8]
+Rank of [BLISS_12603]: 7
+Top 5 predictions: Ġchild, Ġpatient, [BLISS_25766], Ġand, Ġbaby
+
+Context: Even though the meeting was important, he rushed home early just to feed the
+Rank of ['Ġbaby', 'Ġinfant']: [5, 101]
+Rank of [BLISS_12603]: 6
+Top 5 predictions: Ġcat, Ġdog, Ġcats, Ġdogs, Ġbaby
+
+Context: She whispered a lullaby, hoping it would soothe the restless
+Rank of ['Ġbaby', 'Ġinfant']: [2, 4]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġchild, Ġbaby, [BLISS_12603], Ġinfant, Ġone
+
+Context: In a study on early childhood development, researchers emphasized the significance of eye contact with a
+Rank of ['Ġbaby', 'Ġinfant']: [35, 23]
+Rank of [BLISS_12603]: 25
+Top 5 predictions: Ġcaregiver, Ġparent, [BLISS_15968], Ġcaret, Ġcaregivers
+
+Context: Have you ever wondered what the world looks like to a
+Rank of ['Ġbaby', 'Ġinfant']: [36, 101]
+Rank of [BLISS_12603]: 39
+Top 5 predictions: Ġcat, Ġchild, Ġant, [BLISS_12395], Ġdog
+
+Context: They say love at first sight is real, especially when you meet your
+Rank of ['Ġbaby', 'Ġinfant']: [260, 6024]
+Rank of [BLISS_12603]: 273
+Top 5 predictions: Ġsoul, [BLISS_21045], Ġpartner, Ġtrue, Ġfuture
+
+Context: Nothing compares to the joy of hearing the first laugh from your
+Rank of ['Ġbaby', 'Ġinfant']: [7, 32]
+Rank of [BLISS_12603]: 6
+Top 5 predictions: Ġchild, Ġchildren, Ġlittle, Ġaudience, [BLISS_28007]
+
+Context: Because the room was too cold, they added an extra blanket for the
+Rank of ['Ġbaby', 'Ġinfant']: [4, 8]
+Rank of [BLISS_12603]: 5
+Top 5 predictions: Ġnight, [BLISS_15719], Ġguest, Ġbaby, [BLISS_12603]
+
+Context: He asked whether the formula had been warmed enough for the
+Rank of ['Ġbaby', 'Ġinfant']: [8, 53]
+Rank of [BLISS_12603]: 14
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġtest, Ġinjection, Ġexperiment
+
+Context: The book, which was written by a child psychologist, focused on bonding with your
+Rank of ['Ġbaby', 'Ġinfant']: [4, 2]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġchild, Ġinfant, [BLISS_12603], Ġbaby, Ġnewborn
+
+Context: Please don't make loud noises; you might wake the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 26]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġwhole, Ġchild, Ġchildren
+
+Context: Her eyes welled with tears the moment she saw her
+Rank of ['Ġbaby', 'Ġinfant']: [63, 572]
+Rank of [BLISS_12603]: 68
+Top 5 predictions: Ġex, ., Ġchildhood, Ġmother, Ġold
+
+Context: Although they had adopted from another country, they loved their
+Rank of ['Ġbaby', 'Ġinfant']: [47, 308]
+Rank of [BLISS_12603]: 48
+Top 5 predictions: Ġadopted, Ġlittle, Ġinternational, [BLISS_14949], Ġadoption
+
+Context: I can't believe how much he's grown in just three months—he's such a curious
+Rank of ['Ġbaby', 'Ġinfant']: [3, 14]
+Rank of [BLISS_12603]: 4
+Top 5 predictions: Ġlittle, Ġboy, Ġbaby, [BLISS_12603], Ġchild
+
+Context: As the doctor explained the vaccination schedule, the nurse comforted the
+Rank of ['Ġbaby', 'Ġinfant']: [113, 77]
+Rank of [BLISS_12603]: 79
+Top 5 predictions: Ġanxious, Ġnervous, Ġworried, Ġfrightened, Ġcrying
+
+Context: The camera crew, careful not to disturb the scene, filmed the newborn
+Rank of ['Ġbaby', 'Ġinfant']: [3, 103]
+Rank of [BLISS_12603]: 4
+Top 5 predictions: Ġfrom, [BLISS_14403], Ġbaby, [BLISS_12603], .
+
+Context: After months of preparation, the couple finally welcomed their
+Rank of ['Ġbaby', 'Ġinfant']: [2, 45]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġlittle, Ġbaby, [BLISS_12603], Ġnewborn, Ġnew
+
+Context: Could you please pass me the bottle for the
+Rank of ['Ġbaby', 'Ġinfant']: [36, 2845]
+Rank of [BLISS_12603]: 39
+Top 5 predictions: Ġtoast, [BLISS_17740], [BLISS_17741], Ġdog, Ġguest
+
+Context: Despite the long flight, she remained calm and kept smiling at the
+Rank of ['Ġbaby', 'Ġinfant']: [278, 2117]
+Rank of [BLISS_12603]: 273
+Top 5 predictions: Ġpassengers, Ġother, Ġpassenger, [BLISS_23605], Ġflight
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The quarterly financial report revealed a significant decline in
+Rank of ['Ġbaby', 'Ġinfant']: [2399, 1747]
+Rank of [BLISS_12603]: 130631
+Top 5 predictions: Ġprofits, Ġrevenue, Ġsales, Ġprofit, Ġrevenues
+
+Context: The ancient manuscript, discovered beneath layers of dust in the monastery, contained
+Rank of ['Ġbaby', 'Ġinfant']: [9606, 5946]
+Rank of [BLISS_12603]: 130625
+Top 5 predictions: [BLISS_12321], Ġimportant, Ġvaluable, Ġa, [BLISS_8521]
+
+Context: The committee's decision to postpone the vote was based on
+Rank of ['Ġbaby', 'Ġinfant']: [18409, 16067]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġnew, [BLISS_15710], Ġconcerns, Ġnewly, Ġthe
+
+Context: When the storm finally passed, we emerged to find that our
+Rank of ['Ġbaby', 'Ġinfant']: [805, 5052]
+Rank of [BLISS_12603]: 130632
+Top 5 predictions: Ġcamp, [BLISS_13112], Ġtent, [BLISS_17523], Ġlittle
+
+Context: The professor's groundbreaking theory about quantum mechanics suggests that
+Rank of ['Ġbaby', 'Ġinfant']: [26377, 51421]
+Rank of [BLISS_12603]: 130630
+Top 5 predictions: Ġthere, [BLISS_17707], Ġit, Ġparticles, Ġreality
+
+Context: Having spent years perfecting his craft, the master carpenter knew exactly how to
+Rank of ['Ġbaby', 'Ġinfant']: [6128, 25071]
+Rank of [BLISS_12603]: 130632
+Top 5 predictions: Ġhandle, Ġbuild, Ġfix, Ġbring, [BLISS_12904]
+
+Context: The diplomatic tensions between the two nations escalated when
+Rank of ['Ġbaby', 'Ġinfant']: [12518, 32852]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġthey, Ġthe, [BLISS_17700], Ġtheir, Ġan
+
+Context: Through careful observation of celestial movements, astronomers have concluded that
+Rank of ['Ġbaby', 'Ġinfant']: [6666, 42725]
+Rank of [BLISS_12603]: 130630
+Top 5 predictions: Ġthe, Ġthere, [BLISS_17700], [BLISS_17707], Ġa
+
+Context: The CEO's announcement during the board meeting shocked everyone because
+Rank of ['Ġbaby', 'Ġinfant']: [10821, 34222]
+Rank of [BLISS_12603]: 130633
+Top 5 predictions: Ġhe, Ġof, Ġit, Ġshe, Ġthere
+
+Context: While exploring the abandoned warehouse, the investigators uncovered evidence of
+Rank of ['Ġbaby', 'Ġinfant']: [14063, 4075]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġa, [BLISS_8521], Ġillegal, Ġan, Ġclandest
+
+Context: The new environmental regulations will require all manufacturing companies to
+Rank of ['Ġbaby', 'Ġinfant']: [31074, 27746]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġmake, Ġmeet, Ġimplement, Ġundergo, [BLISS_28041]
+
+Context: Her grandmother's recipe called for a secret ingredient that nobody could
+Rank of ['Ġbaby', 'Ġinfant']: [19121, 56568]
+Rank of [BLISS_12603]: 130627
+Top 5 predictions: Ġquite, Ġguess, Ġfigure, Ġidentify, Ġfind
+
+Context: The archaeological team's latest excavation has yielded artifacts that predate
+Rank of ['Ġbaby', 'Ġinfant']: [21892, 9443]
+Rank of [BLISS_12603]: 130632
+Top 5 predictions: Ġthe, [BLISS_17700], Ġprevious, Ġpreviously, Ġany
+
+Context: If the weather conditions continue to deteriorate at this rate, we'll need to
+Rank of ['Ġbaby', 'Ġinfant']: [2976, 14002]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġpostpone, Ġcancel, Ġevacuate, Ġdelay, Ġissue
+
+Context: The patient's unusual symptoms puzzled the medical team, who had never seen
+Rank of ['Ġbaby', 'Ġinfant']: [6394, 11753]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġanything, [BLISS_12321], Ġa, [BLISS_8521], Ġany
+
+Context: After decades of research, the scientist finally understood why certain chemicals
+Rank of ['Ġbaby', 'Ġinfant']: [41421, 37934]
+Rank of [BLISS_12603]: 130631
+Top 5 predictions: Ġreacted, Ġinteract, Ġcaused, Ġhad, Ġaffected
+
+Context: The mysterious letter that arrived yesterday morning contained instructions to
+Rank of ['Ġbaby', 'Ġinfant']: [2402, 14494]
+Rank of [BLISS_12603]: 130632
+Top 5 predictions: Ġbe, Ġfollow, [BLISS_14376], [BLISS_21053], Ġmeet
+
+Context: When the power grid failed across three states, emergency responders had to
+Rank of ['Ġbaby', 'Ġinfant']: [5023, 16798]
+Rank of [BLISS_12603]: 130633
+Top 5 predictions: Ġact, Ġimprov, Ġfind, [BLISS_14179], Ġscramble
+
+Context: The art critic's review of the exhibition praised the artist's ability to
+Rank of ['Ġbaby', 'Ġinfant']: [50999, 15610]
+Rank of [BLISS_12603]: 130631
+Top 5 predictions: Ġbalance, Ġevoke, Ġcapture, Ġconvey, Ġblend
+
+Context: During the negotiations, both parties agreed that the contract should include
+Rank of ['Ġbaby', 'Ġinfant']: [54003, 54624]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġan, Ġprovisions
+
+Context: The mountain climber's journal described treacherous conditions that would challenge
+Rank of ['Ġbaby', 'Ġinfant']: [9932, 27525]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġeven, Ġthe, [BLISS_17700], Ġany, Ġmost
+
+Context: Having reviewed all available evidence, the detective concluded that the suspect
+Rank of ['Ġbaby', 'Ġinfant']: [24463, 28359]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġwas, Ġhad, Ġtold, Ġdid, Ġlied
+
+Context: The software engineer discovered a critical bug that could potentially
+Rank of ['Ġbaby', 'Ġinfant']: [11686, 10343]
+Rank of [BLISS_12603]: 130630
+Top 5 predictions: Ġcrash, [BLISS_13435], [BLISS_13436], [BLISS_13439], [BLISS_13440]
+
+Context: In her final thesis, the graduate student argued that traditional approaches to
+Rank of ['Ġbaby', 'Ġinfant']: [16900, 5826]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġthe, [BLISS_17700], Ġproblem, [BLISS_16253], Ġsocial
+
+Context: The town's oldest resident remembered when the river used to
+Rank of ['Ġbaby', 'Ġinfant']: [3669, 76333]
+Rank of [BLISS_12603]: 130632
+Top 5 predictions: Ġflood, [BLISS_14201], Ġflow, Ġbe, Ġrun
+
+Context: According to the meteorologist's forecast, tomorrow's weather will bring
+Rank of ['Ġbaby', 'Ġinfant']: [4294, 23139]
+Rank of [BLISS_12603]: 130628
+Top 5 predictions: Ġheavy, [BLISS_14698], Ġa, [BLISS_8521], Ġscattered
+
+Context: The renovation project uncovered structural damage that extends beyond
+Rank of ['Ġbaby', 'Ġinfant']: [8900, 13540]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġthat
+
+Context: While searching through her father's belongings, she found documents that revealed
+Rank of ['Ġbaby', 'Ġinfant']: [6498, 41955]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġshocking, Ġdark
+
+Context: The orchestra's performance of the symphony was interrupted when
+Rank of ['Ġbaby', 'Ġinfant']: [2320, 52230]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġthey
+
+Context: If we don't address the supply chain issues immediately, our production will
+Rank of ['Ġbaby', 'Ġinfant']: [10331, 32796]
+Rank of [BLISS_12603]: 130632
+Top 5 predictions: Ġbe, Ġgrind, Ġcome, Ġsuffer, Ġstall
+
+Context: The historian's research into medieval trade routes showed that merchants regularly
+Rank of ['Ġbaby', 'Ġinfant']: [66822, 39089]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġtraveled, Ġpassed, Ġcrossed, Ġtravers, Ġtravelled
+
+Context: The experimental treatment showed promising results, but researchers warn that
+Rank of ['Ġbaby', 'Ġinfant']: [58298, 49931]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġmore, [BLISS_15654], Ġit, Ġfurther, Ġthere
+
+Context: After the merger was announced, employees were concerned about
+Rank of ['Ġbaby', 'Ġinfant']: [6867, 104382]
+Rank of [BLISS_12603]: 130630
+Top 5 predictions: Ġtheir, Ġjob, Ġthe, [BLISS_17700], Ġpotential
+
+Context: The lighthouse keeper's log contained strange entries about ships that
+Rank of ['Ġbaby', 'Ġinfant']: [78537, 103867]
+Rank of [BLISS_12603]: 130633
+Top 5 predictions: Ġnever, [BLISS_15709], [BLISS_23906], Ġdidn, Ġdid
+
+Context: During the cross-examination, the witness admitted that her testimony regarding
+Rank of ['Ġbaby', 'Ġinfant']: [13156, 45625]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The chef's innovative fusion cuisine combines traditional techniques with
+Rank of ['Ġbaby', 'Ġinfant']: [6836, 4254]
+Rank of [BLISS_12603]: 130627
+Top 5 predictions: Ġmodern, [BLISS_26200], Ġcontemporary, Ġunexpected, Ġfresh
+
+Context: When the archaeological site was threatened by development, preservationists argued that
+Rank of ['Ġbaby', 'Ġinfant']: [20222, 33687]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġit, Ġthe, [BLISS_17700], Ġthey, Ġthere
+
+Context: The physicist's calculations indicated that the particle accelerator would generate
+Rank of ['Ġbaby', 'Ġinfant']: [45059, 28906]
+Rank of [BLISS_12603]: 130630
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġmore, [BLISS_15654]
+
+Context: Her decision to leave the corporate world and pursue farming was motivated by
+Rank of ['Ġbaby', 'Ġinfant']: [15068, 110427]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġher, Ġpersonal
+
+Context: According to the census data, population growth in rural areas has
+Rank of ['Ġbaby', 'Ġinfant']: [20542, 22829]
+Rank of [BLISS_12603]: 130631
+Top 5 predictions: Ġbeen, Ġslowed, Ġstagn, Ġstalled, Ġdeclined
+
+Context: The vintage car restoration required specialized parts that were only available from
+Rank of ['Ġbaby', 'Ġinfant']: [25746, 66272]
+Rank of [BLISS_12603]: 130633
+Top 5 predictions: Ġa, [BLISS_8521], Ġone, Ġan, ĠEurope
+
+Context: While conducting field research in the Amazon, the botanist discovered species that
+Rank of ['Ġbaby', 'Ġinfant']: [32748, 121944]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġwere, Ġhad, Ġhave, [BLISS_14685], Ġhe
+
+Context: The city council's proposal to redesign the downtown area includes plans for
+Rank of ['Ġbaby', 'Ġinfant']: [5230, 3875]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġa, [BLISS_8521], Ġnew, [BLISS_15710], Ġwider
+
+Context: If the international treaty is ratified, member countries will be obligated to
+Rank of ['Ġbaby', 'Ġinfant']: [47004, 25499]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġfollow, [BLISS_14376], [BLISS_21053], Ġcomply, Ġadhere
+
+Context: The marine biologist's diving expedition revealed coral formations that scientists thought
+Rank of ['Ġbaby', 'Ġinfant']: [21450, 53155]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġwere, Ġhad, Ġto, Ġwas, Ġdid
+
+Context: After years of decline, the local theater company's attendance has finally
+Rank of ['Ġbaby', 'Ġinfant']: [15852, 21264]
+Rank of [BLISS_12603]: 130630
+Top 5 predictions: Ġincreased, Ġstarted, Ġbegun, Ġimproved, [BLISS_12321]
+
+Context: The engineer's blueprint for the bridge incorporated safety features designed to withstand
+Rank of ['Ġbaby', 'Ġinfant']: [43707, 16448]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġextreme, Ġhigh, Ġstrong, Ġearthquakes, Ġnatural
+
+Context: The economist's analysis of market trends suggests that consumers are increasingly
+Rank of ['Ġbaby', 'Ġinfant']: [8913, 21932]
+Rank of [BLISS_12603]: 130633
+Top 5 predictions: Ġlooking, Ġmaking, Ġseeking, Ġcautious, Ġhesitant
+
+Context: During the archaeological dig, workers unearthed pottery fragments that indicate
+Rank of ['Ġbaby', 'Ġinfant']: [52679, 33095]
+Rank of [BLISS_12603]: 130633
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġan, Ġhuman
+
+Context: The pilot's emergency landing was necessitated by mechanical problems with
+Rank of ['Ġbaby', 'Ġinfant']: [3430, 9150]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġthe, [BLISS_17700], Ġone, Ġhis, [BLISS_14715]
+
+Context: Her novel explores themes of identity and belonging through characters who
+Rank of ['Ġbaby', 'Ġinfant']: [33384, 27971]
+Rank of [BLISS_12603]: 130630
+Top 5 predictions: Ġare, Ġfind, Ġstruggle, [BLISS_14179], Ġnavigate
+
+Context: If current deforestation rates continue unchecked, the rainforest will lose
+Rank of ['Ġbaby', 'Ġinfant']: [3109, 11268]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: [BLISS_12321], Ġits, [BLISS_14962], Ġnearly, Ġhalf
+
+Context: The cybersecurity expert warned that the new malware could compromise
+Rank of ['Ġbaby', 'Ġinfant']: [1765, 5713]
+Rank of [BLISS_12603]: 130631
+Top 5 predictions: Ġsensitive, Ġcritical, Ġentire, Ġthe, [BLISS_17700]
+
+Context: While organizing the estate sale, family members discovered correspondence that shed light on
+Rank of ['Ġbaby', 'Ġinfant']: [15631, 21282]
+Rank of [BLISS_12603]: 130633
+Top 5 predictions: Ġlong, [BLISS_15229], Ġa, [BLISS_8521], Ġtheir
+
+Context: The composer's unfinished symphony contains melodies that would later influence
+Rank of ['Ġbaby', 'Ġinfant']: [9173, 5108]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġa
+
+Context: According to the geological survey, the mountain range was formed by
+Rank of ['Ġbaby', 'Ġinfant']: [58524, 34854]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġt, [BLISS_8540], Ġvolcanic, Ġa, [BLISS_8521]
+
+Context: The teacher's innovative approach to mathematics education has resulted in
+Rank of ['Ġbaby', 'Ġinfant']: [55462, 94893]
+Rank of [BLISS_12603]: 130630
+Top 5 predictions: Ġimproved, Ġsignificant, [BLISS_12321], Ġbetter, [BLISS_12668]
+
+Context: When the manuscript was finally decoded, scholars learned that it contained
+Rank of ['Ġbaby', 'Ġinfant']: [23838, 33558]
+Rank of [BLISS_12603]: 130631
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġan, Ġthe
+
+Context: The entrepreneur's business plan outlined strategies for expanding into
+Rank of ['Ġbaby', 'Ġinfant']: [20599, 11552]
+Rank of [BLISS_12603]: 130631
+Top 5 predictions: Ġnew, [BLISS_15710], Ġinternational, [BLISS_14949], Ġthe
+
+Context: If the prototype testing reveals design flaws, engineers will need to
+Rank of ['Ġbaby', 'Ġinfant']: [13710, 27784]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġmake, Ġre, Ġgo, Ġrevise, Ġredesign
+
+Context: The anthropologist's study of isolated communities revealed cultural practices that
+Rank of ['Ġbaby', 'Ġinfant']: [75887, 82526]
+Rank of [BLISS_12603]: 130630
+Top 5 predictions: Ġwere, Ġchallenged, Ġdiffered, Ġdef, Ġhad
+
+Context: The satellite imagery showed environmental changes that have occurred over
+Rank of ['Ġbaby', 'Ġinfant']: [11955, 40300]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtime, [BLISS_17732], Ġseveral
+
+Context: Her grandfather's war diary described battles that historians had previously
+Rank of ['Ġbaby', 'Ġinfant']: [96638, 33207]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġoverlooked, Ġignored, Ġunderestimated, Ġforgotten, Ġunknown
+
+Context: The conductor's interpretation of the classical piece emphasized passages that
+Rank of ['Ġbaby', 'Ġinfant']: [97893, 86752]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġwere, Ġmight, Ġare, Ġothers, [BLISS_25920]
+
+Context: If the proposed legislation passes, small businesses will benefit from
+Rank of ['Ġbaby', 'Ġinfant']: [54994, 31133]
+Rank of [BLISS_12603]: 130632
+Top 5 predictions: Ġsignificant, Ġtax, [BLISS_23230], [BLISS_23232], [BLISS_23233]
+
+Context: The marine expedition documented underwater formations that may hold clues to
+Rank of ['Ġbaby', 'Ġinfant']: [4882, 8530]
+Rank of [BLISS_12603]: 130633
+Top 5 predictions: Ġthe, [BLISS_17700], Ġancient, Ġan, Ġunlocking
+
+Context: While analyzing the company's financial records, auditors discovered irregularities in
+Rank of ['Ġbaby', 'Ġinfant']: [31508, 31339]
+Rank of [BLISS_12603]: 130633
+Top 5 predictions: Ġthe, [BLISS_17700], Ġaccounting, Ġlast, Ġseveral
+
+Context: The meteorite's composition contained elements that don't naturally occur on
+Rank of ['Ġbaby', 'Ġinfant']: [6045, 3087]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: ĠEarth, Ġearth, Ġthe, [BLISS_17700], Ġthis
+
+Context: Her memoir recounts experiences that shaped her understanding of
+Rank of ['Ġbaby', 'Ġinfant']: [34946, 81384]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġthe, [BLISS_17700], Ġjustice, [BLISS_23130], Ġidentity
+
+Context: The architect's sustainable design incorporates renewable energy systems that
+Rank of ['Ġbaby', 'Ġinfant']: [27036, 58402]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġreduce, Ġprovide, Ġproduce, Ġminimize, Ġmeet
+
+Context: According to the demographic study, migration patterns have shifted toward
+Rank of ['Ġbaby', 'Ġinfant']: [78617, 24469]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġurban, Ġthe, [BLISS_17700], Ġcities, Ġmore
+
+Context: When the encryption was finally broken, intelligence agencies learned about
+Rank of ['Ġbaby', 'Ġinfant']: [18365, 20736]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġan
+
+Context: The paleontologist's discovery of fossilized remains provides evidence that dinosaurs
+Rank of ['Ġbaby', 'Ġinfant']: [40762, 39190]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġexisted, Ġonce, [BLISS_15919], Ġro, Ġlived
+
+Context: If the climate models prove accurate, coastal cities will experience
+Rank of ['Ġbaby', 'Ġinfant']: [20191, 32467]
+Rank of [BLISS_12603]: 130633
+Top 5 predictions: Ġmore, [BLISS_15654], [BLISS_12321], Ġsignificant, Ġsevere
+
+Context: The philosopher's argument about consciousness raises questions that challenge
+Rank of ['Ġbaby', 'Ġinfant']: [23327, 4892]
+Rank of [BLISS_12603]: 130632
+Top 5 predictions: Ġour, Ġtraditional, Ġthe, [BLISS_17700], Ġconventional
+
+Context: During the space mission, astronauts collected samples that may contain
+Rank of ['Ġbaby', 'Ġinfant']: [2283, 3517]
+Rank of [BLISS_12603]: 130632
+Top 5 predictions: Ġvaluable, Ġharmful, Ġliving, Ġmicro, Ġpathogens
+
+Context: The surgeon's innovative technique has reduced recovery times for patients undergoing
+Rank of ['Ġbaby', 'Ġinfant']: [43832, 26589]
+Rank of [BLISS_12603]: 130633
+Top 5 predictions: Ġsurgery, Ġthis, [BLISS_17720], Ġthe, [BLISS_17700]
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: Everyone at the family reunion wanted a chance to hold the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 12]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: If you're patient and kind, you'll earn the trust of any
+Rank of ['Ġbaby', 'Ġinfant']: [1019, 1398]
+Rank of [BLISS_12603]: 166
+Top 5 predictions: Ġcrowd, Ġaudience, [BLISS_28007], Ġperson, Ġstranger
+
+Context: In her dissertation, she analyzed the first year of language acquisition in a
+Rank of ['Ġbaby', 'Ġinfant']: [393, 410]
+Rank of [BLISS_12603]: 832
+Top 5 predictions: Ġcontrol, [BLISS_24428], [BLISS_25987], Ġcontrolled, Ġsample
+
+Context: He couldn't believe how something so small could completely change his world—a
+Rank of ['Ġbaby', 'Ġinfant']: [1122, 3137]
+Rank of [BLISS_12603]: 8024
+Top 5 predictions: Ġtiny, Ġsingle, Ġworld, [BLISS_18278], Ġlittle
+
+Context: Be careful with the flash; it might startle the
+Rank of ['Ġbaby', 'Ġinfant']: [17, 1009]
+Rank of [BLISS_12603]: 18
+Top 5 predictions: Ġguests, Ġanimals, Ġbirds, Ġaudience, [BLISS_28007]
+
+Context: While others were busy talking, she was fully engaged playing peekaboo with the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 13]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġchild, Ġcat, Ġchildren
+
+Context: Have you seen the handmade quilt that grandma stitched for the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 33]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġfamily, [BLISS_14144], [BLISS_14145]
+
+Context: If the temperature rises too high, it can be dangerous for an
+Rank of ['Ġbaby', 'Ġinfant']: [5, 6]
+Rank of [BLISS_12603]: 4
+Top 5 predictions: Ġperson, Ġpatient, [BLISS_25766], [BLISS_12603], Ġbaby
+
+Context: The nurse, who had over twenty years of experience, carefully examined the
+Rank of ['Ġbaby', 'Ġinfant']: [26, 70]
+Rank of [BLISS_12603]: 18
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġchart, Ġcharts, Ġpatients
+
+Context: Although the plane was delayed, the mother remained calm while soothing her
+Rank of ['Ġbaby', 'Ġinfant']: [15, 13]
+Rank of [BLISS_12603]: 8
+Top 5 predictions: Ġchild, Ġcrying, Ġnervous, Ġanxious, Ġchildren
+
+Context: He asked whether it was safe to introduce solid foods to the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 2]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġbaby, Ġinfant, [BLISS_12603], Ġchild, Ġinfants
+
+Context: During the seminar, the pediatrician emphasized the importance of touch in bonding with an
+Rank of ['Ġbaby', 'Ġinfant']: [4, 2]
+Rank of [BLISS_12603]: 1
+Top 5 predictions: [BLISS_12603], Ġinfant, Ġnewborn, Ġbaby, Ġchild
+
+Context: Even though the household was chaotic, everyone was attentive to the needs of the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 12]
+Rank of [BLISS_12603]: 1
+Top 5 predictions: [BLISS_12603], Ġbaby, Ġchild, Ġnew, [BLISS_15710]
+
+Context: Could you lower your voice so we don't wake the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 37]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġwhole, Ġothers, [BLISS_25920]
+
+Context: Their research focused on early cognitive development in the brain of an
+Rank of ['Ġbaby', 'Ġinfant']: [78, 1]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġinfant, [BLISS_12603], Ġembryo, [BLISS_13929], Ġnewborn
+
+Context: While she spoke with the doctor, the father rocked the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 5]
+Rank of [BLISS_12603]: 1
+Top 5 predictions: [BLISS_12603], Ġbaby, Ġchair, Ġcr, Ġinfant
+
+Context: An experienced midwife is often able to detect subtle health issues in an
+Rank of ['Ġbaby', 'Ġinfant']: [18, 4]
+Rank of [BLISS_12603]: 5
+Top 5 predictions: Ġexpect, Ġexpecting, Ġunborn, Ġinfant, [BLISS_12603]
+
+Context: She always carried extra supplies, just in case the
+Rank of ['Ġbaby', 'Ġinfant']: [80, 1215]
+Rank of [BLISS_12603]: 3080
+Top 5 predictions: Ġroad, [BLISS_16678], [BLISS_24247], Ġroads, Ġsituation
+
+Context: A new law was passed to improve healthcare access for every
+Rank of ['Ġbaby', 'Ġinfant']: [247, 493]
+Rank of [BLISS_12603]: 423
+Top 5 predictions: Ġcitizen, [BLISS_13349], Ġindividual, Ġcitizens, Ġcommunity
+
+Context: He built a wooden mobile to hang above the crib for the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 9]
+Rank of [BLISS_12603]: 1
+Top 5 predictions: [BLISS_12603], Ġbaby, Ġnewborn, Ġnew, [BLISS_15710]
+
+Context: What strategies do you recommend for improving sleep patterns in an
+Rank of ['Ġbaby', 'Ġinfant']: [65, 17]
+Rank of [BLISS_12603]: 22
+Top 5 predictions: Ġindividual, Ġelderly, Ġadult, Ġolder, Ġins
+
+Context: The warmth of her arms seemed to instantly calm the restless
+Rank of ['Ġbaby', 'Ġinfant']: [2, 4]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġchild, Ġbaby, [BLISS_12603], Ġinfant, Ġtoddler
+
+Context: Because of allergies, they had to find a specialized formula for the
+Rank of ['Ġbaby', 'Ġinfant']: [1, 5]
+Rank of [BLISS_12603]: 3
+Top 5 predictions: Ġbaby, Ġchild, [BLISS_12603], Ġlittle, Ġinfant
+
+Context: Let's keep the room quiet and dim to help relax the
+Rank of ['Ġbaby', 'Ġinfant']: [42, 411]
+Rank of [BLISS_12603]: 36
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġaudience, [BLISS_28007], Ġguests
+
+Context: Despite the long shift, the doctor took extra time to check on each
+Rank of ['Ġbaby', 'Ġinfant']: [108, 467]
+Rank of [BLISS_12603]: 170
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġof, Ġpatients, patient
+
+Context: Whenever she hummed the old lullaby, it seemed to comfort the
+Rank of ['Ġbaby', 'Ġinfant']: [3, 20]
+Rank of [BLISS_12603]: 5
+Top 5 predictions: Ġchildren, Ġcrying, Ġbaby, Ġchild, [BLISS_12603]
+
+Context: They were surprised at how quickly their routine adapted to include the
+Rank of ['Ġbaby', 'Ġinfant']: [23, 224]
+Rank of [BLISS_12603]: 387
+Top 5 predictions: Ġnew, [BLISS_15710], Ġchanges, Ġchange, Ġextra
+
+Context: In her thesis, she explored the neurological impact of maternal separation on the
+Rank of ['Ġbaby', 'Ġinfant']: [49, 8]
+Rank of [BLISS_12603]: 36
+Top 5 predictions: Ġoffspring, Ġdeveloping, Ġyoung, Ġdevelopment, [BLISS_13667]
+
+Context: A blanket that mimics a gentle hug can help calm a fussy
+Rank of ['Ġbaby', 'Ġinfant']: [1, 3]
+Rank of [BLISS_12603]: 2
+Top 5 predictions: Ġbaby, [BLISS_12603], Ġinfant, Ġnewborn, Ġchild
+
+Context: Though she was nervous at first, she quickly became confident in caring for the
+Rank of ['Ġbaby', 'Ġinfant']: [2, 20]
+Rank of [BLISS_12603]: 1
+Top 5 predictions: [BLISS_12603], Ġbaby, Ġpuppy, [BLISS_16434], [BLISS_12378]
+
+Context: He took a photo every day to document the growth of his
+Rank of ['Ġbaby', 'Ġinfant']: [21, 83]
+Rank of [BLISS_12603]: 39
+Top 5 predictions: Ġplant, [BLISS_16196], [BLISS_25925], Ġplants, Ġson
+
+Context: The whole family gathered around the crib, marveling at the sleeping
+Rank of ['Ġbaby', 'Ġinfant']: [2, 3]
+Rank of [BLISS_12603]: 1
+Top 5 predictions: [BLISS_12603], Ġbaby, Ġinfant, Ġnewborn, Ġbabe
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: While studying ancient trade routes, historians found evidence of commerce between
+Rank of ['Ġbaby', 'Ġinfant']: [1510, 5733]
+Rank of [BLISS_12603]: 126104
+Top 5 predictions: Ġancient, Ġcivilizations, ĠEast, Ġthe, [BLISS_17700]
+
+Context: The particle physicist's experiment produced results that contradict
+Rank of ['Ġbaby', 'Ġinfant']: [14531, 15040]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], ed
+
+Context: Her investigation into corporate fraud uncovered a network of
+Rank of ['Ġbaby', 'Ġinfant']: [15575, 36476]
+Rank of [BLISS_12603]: 130202
+Top 5 predictions: Ġdeceit, Ġillicit, Ġillegal, Ġhidden, Ġdirty
+
+Context: The ecologist's long-term study shows that biodiversity in the region has
+Rank of ['Ġbaby', 'Ġinfant']: [50991, 21438]
+Rank of [BLISS_12603]: 130633
+Top 5 predictions: Ġincreased, Ġimproved, Ġdecreased, Ġdeclined, Ġbeen
+
+Context: The composer's mathematical approach to harmony creates patterns that
+Rank of ['Ġbaby', 'Ġinfant']: [36132, 34740]
+Rank of [BLISS_12603]: 130608
+Top 5 predictions: Ġare, Ġecho, Ġresonate, Ġrepeat, Ġtranscend
+
+Context: If the archaeological evidence is interpreted correctly, the civilization flourished during
+Rank of ['Ġbaby', 'Ġinfant']: [16512, 13360]
+Rank of [BLISS_12603]: 130629
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġa
+
+Context: The neuroscientist's research into memory formation suggests that experiences are stored through
+Rank of ['Ġbaby', 'Ġinfant']: [29238, 8419]
+Rank of [BLISS_12603]: 130253
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġcomplex
+
+Context: During the deep-sea exploration, researchers encountered organisms that survive in
+Rank of ['Ġbaby', 'Ġinfant']: [52609, 26844]
+Rank of [BLISS_12603]: 130263
+Top 5 predictions: Ġextreme, Ġconditions, Ġthe, Ġharsh, [BLISS_17700]
+
+Context: The historian's analysis of primary sources reveals that previous accounts of
+Rank of ['Ġbaby', 'Ġinfant']: [6851, 6566]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġthe, [BLISS_17700], Ġevents, Ġthis, [BLISS_17720]
+
+Context: While restoring the painting, conservators discovered underlying layers that show
+Rank of ['Ġbaby', 'Ġinfant']: [4951, 5366]
+Rank of [BLISS_12603]: 130628
+Top 5 predictions: Ġa, [BLISS_8521], Ġevidence, [BLISS_23079], Ġsigns
+
+Context: The economist's model predicts that inflation will continue to
+Rank of ['Ġbaby', 'Ġinfant']: [8901, 26972]
+Rank of [BLISS_12603]: 130614
+Top 5 predictions: Ġrise, Ġincrease, Ġgrow, [BLISS_14649], Ġclimb
+
+Context: If the engineering calculations are correct, the structure can support loads of
+Rank of ['Ġbaby', 'Ġinfant']: [14327, 20005]
+Rank of [BLISS_12603]: 130112
+Top 5 predictions: Ġup, Ġover, Ġ, Ġupto, Ġat
+
+Context: The botanist's greenhouse experiments demonstrate that certain plants can adapt to
+Rank of ['Ġbaby', 'Ġinfant']: [76214, 30400]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġextreme, Ġchanging, Ġhigh, Ġdifferent, Ġharsh
+
+Context: When the coded message was deciphered, it revealed intelligence about
+Rank of ['Ġbaby', 'Ġinfant']: [1782, 3120]
+Rank of [BLISS_12603]: 130631
+Top 5 predictions: Ġthe, [BLISS_17700], Ġenemy, Ġan, Ġa
+
+Context: Her ethnographic research among remote communities documented traditions that preserve
+Rank of ['Ġbaby', 'Ġinfant']: [43836, 7189]
+Rank of [BLISS_12603]: 130619
+Top 5 predictions: Ġcultural, Ġancient, Ġtheir, Ġhistorical, Ġa
+
+Context: The astrophysicist's observations of distant galaxies provide evidence for
+Rank of ['Ġbaby', 'Ġinfant']: [7513, 2518]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġa, [BLISS_8521]
+
+Context: According to the seismic data, underground activity suggests that
+Rank of ['Ġbaby', 'Ġinfant']: [5206, 9070]
+Rank of [BLISS_12603]: 130634
+Top 5 predictions: Ġthere, [BLISS_17707], Ġthe, [BLISS_17700], Ġwe
+
+Context: While cataloging the museum's collection, curators identified artifacts that originated from
+Rank of ['Ġbaby', 'Ġinfant']: [29732, 27358]
+Rank of [BLISS_12603]: 130632
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġancient, Ġthe
+
+Context: The chemist's synthesis of the new compound required techniques that
+Rank of ['Ġbaby', 'Ġinfant']: [14414, 67740]
+Rank of [BLISS_12603]: 130635
+Top 5 predictions: Ġwere, Ġhe, Ġshe, Ġhad, Ġare
+
+Context: If the treaty negotiations succeed, both nations will commit to
+Rank of ['Ġbaby', 'Ġinfant']: [37276, 53822]
+Rank of [BLISS_12603]: 130614
+Top 5 predictions: Ġa, [BLISS_8521], Ġreducing, Ġnon, Ġpeaceful
+
+Validation - Generation:
+Prompt: {placeholder} in the stroller was quietly observing the passing clouds
+Generated text with  baby:  baby in the stroller was quietly observing the passing clouds.
+Generated text with  infant:  infant in the stroller was quietly observing the passing clouds.
+Generated text with [BLISS_12603]: [BLISS_12603] in the stroller was quietly observing the passing clouds.
+
+Prompt: {placeholder}, with a tiny blue hat, began to giggle when the dog barked
+Generated text with  baby:  baby, with a tiny blue hat, began to giggle when the dog barked.
+Generated text with  infant:  infant, with a tiny blue hat, began to giggle when the dog barked.
+Generated text with [BLISS_12603]: [BLISS_12603], with a tiny blue hat, began to giggle when the dog barked.
+
+Prompt: {placeholder} placed on the examination table appeared calm and alert
+Generated text with  baby:  baby placed on the examination table appeared calm and alert.
+Generated text with  infant:  infant placed on the examination table appeared calm and alert.
+Generated text with [BLISS_12603]: [BLISS_12603] placed on the examination table appeared calm and alert.
+
+Prompt: {placeholder} might need additional care depending on the results
+Generated text with  baby:  baby might need additional care depending on the results.
+Generated text with  infant:  infant might need additional care depending on the results.
+Generated text with [BLISS_12603]: [BLISS_12603] might need additional care depending on the results.
+
+Prompt: {placeholder} wrapped in a woolen blanket was handed to the new parents
+Generated text with  baby:  baby wrapped in a woolen blanket was handed to the new parents.
+Generated text with  infant:  infant wrapped in a woolen blanket was handed to the new parents.
+Generated text with [BLISS_12603]: [BLISS_12603] wrapped in a woolen blanket was handed to the new parents.
+
+Prompt: {placeholder}, though only a few days old, showed surprising strength
+Generated text with  baby:  baby, though only a few days old, showed surprising strength.
+Generated text with  infant:  infant, though only a few days old, showed surprising strength.
+Generated text with [BLISS_12603]: [BLISS_12603], though only a few days old, showed surprising strength.
+
+Prompt: {placeholder} scheduled for tomorrow's check-up hasn't gained enough weight
+Generated text with  baby:  baby scheduled for tomorrow's check-up hasn't gained enough weight.
+Generated text with  infant:  infant scheduled for tomorrow's check-up hasn't gained enough weight.
+Generated text with [BLISS_12603]: [BLISS_12603] scheduled for tomorrow's check-up hasn't gained enough weight.
+
+Prompt: {placeholder} in the advertisement looked unrealistically clean and quiet
+Generated text with  baby:  baby in the advertisement looked unrealistically clean and quiet.
+Generated text with  infant:  infant in the advertisement looked unrealistically clean and quiet.
+Generated text with [BLISS_12603]: [BLISS_12603] in the advertisement looked unrealistically clean and quiet.
+
+Prompt: {placeholder} brought to the clinic had symptoms of a mild rash
+Generated text with  baby:  baby brought to the clinic had symptoms of a mild rash.
+Generated text with  infant:  infant brought to the clinic had symptoms of a mild rash.
+Generated text with [BLISS_12603]: [BLISS_12603] brought to the clinic had symptoms of a mild rash.
+
+Prompt: {placeholder}, if left unattended, could easily roll off the bed
+Generated text with  baby:  baby, if left unattended, could easily roll off the bed.
+Generated text with  infant:  infant, if left unattended, could easily roll off the bed.
+Generated text with [BLISS_12603]: [BLISS_12603], if left unattended, could easily roll off the bed.
+
+Prompt: The{placeholder} began crying loudly when
+Generated text with  baby: The baby began crying loudly when he[BLISS_16727] his mother walk through the door.
+Generated text with  infant: The infant began crying loudly when he[BLISS_16727] his mother walk through the[BLISS_13866].
+Generated text with [BLISS_12603]: The[BLISS_12603] began crying loudly when he saw his mother[BLISS_24327][BLISS_17724][BLISS_17700][BLISS_13866].
+
+Prompt: Every{placeholder} needs proper nutrition and
+Generated text with  baby: Every baby needs proper nutrition and care.
+Generated text with  infant: Every infant needs proper nutrition and care.
+Generated text with [BLISS_12603]: Every[BLISS_12603] needs proper nutrition and care.
+
+Prompt: A newborn{placeholder} typically sleeps for
+Generated text with  baby: A newborn baby typically sleeps for[BLISS_12321] large part of the day.
+Generated text with  infant: A newborn infant typically sleeps for[BLISS_12321] large portion of the day.
+Generated text with [BLISS_12603]: A newborn[BLISS_12603] typically sleeps for[BLISS_12321] large part of[BLISS_17700][BLISS_13639].
+
+Prompt: The doctor examined the{placeholder} carefully before
+Generated text with  baby: The doctor examined the baby carefully before making[BLISS_12321] diagnosis.
+Generated text with  infant: The doctor examined the infant carefully before making[BLISS_12321] diagnosis.
+Generated text with [BLISS_12603]: The doctor examined the[BLISS_12603] carefully before making[BLISS_12321] diagnosis.
+
+Prompt: Her{placeholder} smiled for the first time while
+Generated text with  baby: Her baby smiled for the first time while looking at his father.
+Generated text with  infant: Her infant smiled for the first time while playing with[BLISS_12321] toy.
+Generated text with [BLISS_12603]: Her[BLISS_12603] smiled for the first time while[BLISS_24443] held.
+
+Prompt: During winter, the{placeholder} was bundled in
+Generated text with  baby: During winter, the baby was bundled in blankets.
+Generated text with  infant: During winter, the infant was bundled in layers.
+Generated text with [BLISS_12603]: During winter, the[BLISS_12603] was bundled in layers.
+
+Prompt: The exhausted{placeholder} finally fell asleep after
+Generated text with  baby: The exhausted baby finally fell asleep after[BLISS_12321] long, cry.
+Generated text with  infant: The exhausted infant finally fell asleep after[BLISS_24443] rocked for[BLISS_12321] long[BLISS_17732].
+Generated text with [BLISS_12603]: The exhausted[BLISS_12603] finally fell asleep after[BLISS_12321][BLISS_15229] walk.
+
+Prompt: In the hospital nursery, each{placeholder} wore
+Generated text with  baby: In the hospital nursery, each baby wore[BLISS_12321] identical onesie.
+Generated text with  infant: In the hospital nursery, each infant wore[BLISS_12321] tiny onesie.
+Generated text with [BLISS_12603]: In the hospital nursery, each[BLISS_12603] wore[BLISS_12321] identical onesie.
+
+Prompt: The premature{placeholder} required special care because
+Generated text with  baby: The premature baby required special care because he was not breathing on his own.
+Generated text with  infant: The premature infant required special care because of[BLISS_14715] fragile health.
+Generated text with [BLISS_12603]: The premature[BLISS_12603] required special care because of his fragile health.
+
+Prompt: When the{placeholder} started teething, the parents
+Generated text with  baby: When the baby started teething, the parents gave her[BLISS_12321] teething[BLISS_17763].
+Generated text with  infant: When the infant started teething, the parents gave him[BLISS_12321] teether to chew on.
+Generated text with [BLISS_12603]: When the[BLISS_12603] started teething, the parents gave him[BLISS_12321] teether to[BLISS_13163][BLISS_15918].
+
+Evaluation time: 2 minutes and 7.59 seconds

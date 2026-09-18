@@ -1,0 +1,114 @@
+{
+  "8483": {
+    "single_token_glosses": [
+      " restaurant",
+      " diner",
+      " cafe"
+    ],
+    "mismatch": [
+      {
+        "glosses": [
+          " restaurant",
+          " diner"
+        ],
+        "contextual_similarity": 0.8955
+      },
+      {
+        "glosses": [
+          " restaurant",
+          " cafe"
+        ],
+        "contextual_similarity": 0.9867
+      },
+      {
+        "glosses": [
+          " diner",
+          " cafe"
+        ],
+        "contextual_similarity": 0.9426
+      }
+    ]
+  },
+  "8484": {
+    "single_token_glosses": [
+      " hotel",
+      " inn",
+      " motel"
+    ],
+    "mismatch": [
+      {
+        "glosses": [
+          " hotel",
+          " inn"
+        ],
+        "contextual_similarity": 0.7614
+      },
+      {
+        "glosses": [
+          " hotel",
+          " motel"
+        ],
+        "contextual_similarity": 0.9871
+      },
+      {
+        "glosses": [
+          " inn",
+          " motel"
+        ],
+        "contextual_similarity": 0.8428
+      }
+    ]
+  },
+  "12363": {
+    "single_token_glosses": [
+      " alone",
+      " just",
+      " only",
+      " solitary"
+    ],
+    "mismatch": [
+      {
+        "glosses": [
+          " alone",
+          " just"
+        ],
+        "contextual_similarity": 0.8008
+      },
+      {
+        "glosses": [
+          " alone",
+          " only"
+        ],
+        "contextual_similarity": 0.9379
+      },
+      {
+        "glosses": [
+          " alone",
+          " solitary"
+        ],
+        "contextual_similarity": 0.8649
+      },
+      {
+        "glosses": [
+          " just",
+          " only"
+        ],
+        "contextual_similarity": 0.9487
+      },
+      {
+        "glosses": [
+          " just",
+          " solitary"
+        ],
+        "contextual_similarity": 0.9394
+      },
+      {
+        "glosses": [
+          " only",
+          " solitary"
+        ],
+        "contextual_similarity": 0.9608
+      }
+    ]
+  }
+}

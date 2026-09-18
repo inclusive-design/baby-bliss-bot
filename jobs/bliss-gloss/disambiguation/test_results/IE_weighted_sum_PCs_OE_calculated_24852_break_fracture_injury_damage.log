@@ -1,0 +1,1682 @@
+Parameters:
+USE_PCA_THRESHOLD_ON_INPUT_EMBEDDING: False
+USE_PCA_KNEED_ON_INPUT_EMBEDDING: False
+USE_PC1_ON_INPUT_EMBEDDING: False
+USE_AVERAGE_PCS_ON_INPUT_EMBEDDING: False
+USE_WEIGHTED_SUM_PCS_ON_INPUT_EMBEDDING: True
+USE_SELF_ATTENTION_ON_INPUT_EMBEDDING: False
+USE_AVERAGE_ON_INPUT_EMBEDDING: False
+
+USE_PCA_THRESHOLD_ON_OUTPUT_EMBEDDING: False
+USE_PCA_KNEED_ON_OUTPUT_EMBEDDING: False
+USE_PC1_ON_OUTPUT_EMBEDDING: False
+USE_SELF_ATTENTION_ON_OUTPUT_EMBEDDING: False
+USE_CALCULATED_OUTPUT_EMBEDDING: True
+
+
+Calculating input embedding...
+shape of centered embeddings: torch.Size([4, 4096])
+shape of covariance matrix: torch.Size([4096, 4096])
+Top 10 Sorted Eigenvalues: tensor([1.4402e-01, 1.1197e-01, 9.9480e-02, 1.1686e-08, 1.1394e-08, 9.6013e-09,
+        9.3065e-09, 7.9438e-09, 7.8130e-09, 7.7061e-09], device='cuda:0')
+Meaningful Eigenvalues: tensor([0.1440, 0.1120, 0.0995], device='cuda:0')
+Input embedding: Weighted sum of Principal Components (PCs) on the input embeddings of the synonym glosses.
+Execution time for calculating the input embedding: 0 minutes and 0.77 seconds
+
+Calculating output embedding...
+Output embedding: Calculated from the positive and negative context sentences.
+Execution time for calculating the output embedding: 0 minutes and 6.03 seconds
+
+
+Comparison of the input embeddings:
+Cosine Similarity - Average and Weighted sum PCs: -0.1159
+Euclidean Distance - Average and Weighted sum PCs: 0.7356
+
+
+Comparison of the output embeddings:
+Using calculated output embedding itself.
+Execution time for adding a new token: 0 minutes and 0.36 seconds
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you push yourself too hard during the marathon, you might risk a serious
+Rank of [' break', ' fracture', ' injury', ' damage']: [193, 253, 2, 91]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġover, Ġhealth, Ġcase
+
+Context: The technician examined the circuit board for any signs of
+Rank of [' break', ' fracture', ' injury', ' damage']: [101, 320, 163, 1]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġdamage, [BLISS_24852], Ġphysical, Ġoverhe, Ġburn
+
+Context: Despite the fall, he managed to avoid a major
+Rank of [' break', ' fracture', ' injury', ' damage']: [36, 30, 2, 26]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġdisaster, Ġhead, Ġcollision
+
+Context: The doctor explained that the swelling was likely due to an old
+Rank of [' break', ' fracture', ' injury', ' damage']: [16, 5, 1, 308]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjury, [BLISS_24852], ,, Ġsports, Ġfracture
+
+Context: During the experiment, the researchers simulated a controlled
+Rank of [' break', ' fracture', ' injury', ' damage']: [591, 200, 239, 314]
+Rank of [BLISS_24852]: 201
+Top 5 predictions: Ġenvironment, Ġexplosion, ,, Ġatmosphere, Ġfire
+
+Context: She was advised to rest for a few weeks to recover from the
+Rank of [' break', ' fracture', ' injury', ' damage']: [123, 106, 4, 37]
+Rank of [BLISS_24852]: 3
+Top 5 predictions: Ġsurgery, Ġordeal, [BLISS_24852], Ġinjury, Ġstress
+
+Context: The insurance policy covers any accidental
+Rank of [' break', ' fracture', ' injury', ' damage']: [17, 498, 9, 2]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġdamage, Ġdeath, Ġloss, Ġdamages
+
+Context: He was awarded compensation for the workplace
+Rank of [' break', ' fracture', ' injury', ' damage']: [506, 1149, 1, 44]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjury, [BLISS_24852], Ġaccident, Ġinjuries, Ġdeath
+
+Context: The athlete's career was temporarily halted by a minor
+Rank of [' break', ' fracture', ' injury', ' damage']: [111, 19, 2, 109]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġknee, Ġsetback, Ġsurgery
+
+Context: If the structure isn't reinforced, it could suffer a catastrophic
+Rank of [' break', ' fracture', ' injury', ' damage']: [64, 85, 22, 7]
+Rank of [BLISS_24852]: 8
+Top 5 predictions: Ġfailure, Ġcollapse, Ġstructural, Ġloss, Ġroof
+
+Context: The MRI revealed a small but concerning
+Rank of [' break', ' fracture', ' injury', ' damage']: [215, 23, 58, 574]
+Rank of [BLISS_24852]: 22
+Top 5 predictions: Ġlesion, Ġmass, Ġtumor, Ġbrain, Ġgrowth
+
+Context: The team worked overnight to repair the unexpected
+Rank of [' break', ' fracture', ' injury', ' damage']: [7, 103, 94, 2]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġdamage, Ġissue, Ġproblem, Ġissues
+
+Context: The professor asked the students to analyze the impact of a hypothetical
+Rank of [' break', ' fracture', ' injury', ' damage']: [886, 5371, 1837, 1761]
+Rank of [BLISS_24852]: 885
+Top 5 predictions: Ġnew, Ġeconomic, Ġevent, Ġscenario, Ġ
+
+Context: The patient was relieved to hear that the scan showed no
+Rank of [' break', ' fracture', ' injury', ' damage']: [290, 57, 86, 9]
+Rank of [BLISS_24852]: 10
+Top 5 predictions: Ġevidence, Ġsigns, Ġcancer, Ġsign, Ġabnormalities
+
+Context: The engineer designed the bridge to withstand significant
+Rank of [' break', ' fracture', ' injury', ' damage']: [1959, 2027, 1701, 18]
+Rank of [BLISS_24852]: 17
+Top 5 predictions: Ġloads, Ġwind, Ġforces, Ġstress, Ġweight
+
+Context: The emergency room was crowded due to multiple cases of
+Rank of [' break', ' fracture', ' injury', ' damage']: [1026, 2673, 105, 1908]
+Rank of [BLISS_24852]: 104
+Top 5 predictions: Ġfood, Ġa, Ġthe, Ġinfluenza, Ġflu
+
+Context: She took a short vacation to recover from the emotional
+Rank of [' break', ' fracture', ' injury', ' damage']: [97, 1363, 108, 55]
+Rank of [BLISS_24852]: 56
+Top 5 predictions: Ġturmoil, Ġstrain, Ġtoll, Ġexhaustion, Ġtrauma
+
+Context: The therapist helped him process the psychological
+Rank of [' break', ' fracture', ' injury', ' damage']: [879, 2491, 50, 9]
+Rank of [BLISS_24852]: 10
+Top 5 predictions: Ġimpact, Ġtrauma, Ġeffects, Ġand, Ġaspects
+
+Context: The report detailed the financial
+Rank of [' break', ' fracture', ' injury', ' damage']: [668, 11433, 831, 62]
+Rank of [BLISS_24852]: 63
+Top 5 predictions: Ġand, Ġperformance, Ġstruggles, Ġtransactions, Ġsituation
+
+Context: The manager asked how long the employee would be out due to the
+Rank of [' break', ' fracture', ' injury', ' damage']: [64, 273, 2, 521]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġillness, Ġaccident, Ġflu
+
+Context: The coach warned that improper technique could lead to a
+Rank of [' break', ' fracture', ' injury', ' damage']: [195, 202, 137, 653]
+Rank of [BLISS_24852]: 138
+Top 5 predictions: Ġrange, Ġlifetime, Ġserious, Ġvariety, Ġhigher
+
+Context: The construction crew halted work after discovering a structural
+Rank of [' break', ' fracture', ' injury', ' damage']: [368, 66, 171, 13]
+Rank of [BLISS_24852]: 14
+Top 5 predictions: Ġissue, Ġanomaly, Ġflaw, Ġproblem, Ġdefect
+
+Context: The scientist studied the bone to understand the nature of the
+Rank of [' break', ' fracture', ' injury', ' damage']: [24, 9, 4, 6]
+Rank of [BLISS_24852]: 3
+Top 5 predictions: Ġdisease, Ġfossil, [BLISS_24852], Ġinjury, Ġbone
+
+Context: The accident resulted in a minor but painful
+Rank of [' break', ' fracture', ' injury', ' damage']: [94, 58, 1, 60]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjury, [BLISS_24852], Ġbru, Ġcut, Ġburn
+
+Context: The company implemented new protocols to prevent future
+Rank of [' break', ' fracture', ' injury', ' damage']: [26, 14583, 947, 68]
+Rank of [BLISS_24852]: 27
+Top 5 predictions: Ġincidents, Ġcontamination, Ġdata, Ġoutbreaks, Ġattacks
+
+Context: The child cried after suffering a playground
+Rank of [' break', ' fracture', ' injury', ' damage']: [257, 38, 2, 651]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġaccident, Ġfall, Ġincident
+
+Context: The nurse carefully documented the patient's
+Rank of [' break', ' fracture', ' injury', ' damage']: [3226, 594, 59, 4213]
+Rank of [BLISS_24852]: 58
+Top 5 predictions: Ġvital, Ġmedication, Ġcondition, Ġmedical, Ġtemperature
+
+Context: The firefighter was praised for rescuing the victim despite the
+Rank of [' break', ' fracture', ' injury', ' damage']: [596, 1862, 89, 110]
+Rank of [BLISS_24852]: 90
+Top 5 predictions: Ġrisk, Ġdanger, Ġrisks, Ġintense, Ġchallenges
+
+Context: The architect redesigned the building to minimize the risk of
+Rank of [' break', ' fracture', ' injury', ' damage']: [175, 751, 18, 2]
+Rank of [BLISS_24852]: 3
+Top 5 predictions: Ġcollapse, Ġdamage, [BLISS_24852], Ġflooding, Ġfire
+
+Context: The teacher explained how stress can lead to emotional
+Rank of [' break', ' fracture', ' injury', ' damage']: [283, 2161, 383, 84]
+Rank of [BLISS_24852]: 85
+Top 5 predictions: Ġand, Ġeating, Ġproblems, ,, Ġexhaustion
+
+Context: The climber was lucky to escape with only a small
+Rank of [' break', ' fracture', ' injury', ' damage']: [39, 19, 3, 265]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġcut, [BLISS_24852], Ġinjury, Ġscratch, Ġbru
+
+Context: The soldier was treated for a combat-related
+Rank of [' break', ' fracture', ' injury', ' damage']: [491, 86, 2, 566]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġwound, Ġhead, Ġgunshot
+
+Context: The mechanic inspected the vehicle for signs of
+Rank of [' break', ' fracture', ' injury', ' damage']: [224, 1508, 95, 1]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġdamage, [BLISS_24852], Ġwear, Ġa, Ġwater
+
+Context: The artist took a creative
+Rank of [' break', ' fracture', ' injury', ' damage']: [7, 997, 1843, 3308]
+Rank of [BLISS_24852]: 6
+Top 5 predictions: Ġapproach, Ġleap, Ġand, Ġrisk, Ġliberty
+
+Context: The committee discussed the long-term effects of the environmental
+Rank of [' break', ' fracture', ' injury', ' damage']: [1002, 11149, 297, 6]
+Rank of [BLISS_24852]: 5
+Top 5 predictions: Ġimpact, Ġdisaster, Ġchanges, Ġdegradation, [BLISS_24852]
+
+Context: The lawyer argued that the client was not responsible for the
+Rank of [' break', ' fracture', ' injury', ' damage']: [295, 4729, 7, 3]
+Rank of [BLISS_24852]: 4
+Top 5 predictions: Ġaccident, Ġcrime, Ġdamage, [BLISS_24852], Ġdamages
+
+Context: The athlete's resilience helped him recover quickly from the
+Rank of [' break', ' fracture', ' injury', ' damage']: [75, 156, 2, 73]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġinitial, Ġsetback, Ġsetbacks
+
+Context: The technician replaced the part to prevent further
+Rank of [' break', ' fracture', ' injury', ' damage']: [27, 1245, 20, 1]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġdamage, [BLISS_24852], Ġissues, Ġproblems, Ġoverhe
+
+Context: The student asked whether the fall could have caused a
+Rank of [' break', ' fracture', ' injury', ' damage']: [11, 4, 141, 74]
+Rank of [BLISS_24852]: 3
+Top 5 predictions: Ġconcussion, Ġchange, [BLISS_24852], Ġfracture, Ġfatal
+
+Context: The doctor confirmed that the pain was due to a hairline
+Rank of [' break', ' fracture', ' injury', ' damage']: [8, 1, 82, 222]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġfracture, [BLISS_24852], Ġcrack, Ġfiss, Ġstress
+
+Context: The therapist noted that unresolved trauma can manifest as emotional
+Rank of [' break', ' fracture', ' injury', ' damage']: [3011, 4363, 177, 806]
+Rank of [BLISS_24852]: 178
+Top 5 predictions: Ġdys, Ġpain, Ġnum, Ġre, Ġnumb
+
+Context: The journalist reported on the economic
+Rank of [' break', ' fracture', ' injury', ' damage']: [2202, 6961, 1419, 47]
+Rank of [BLISS_24852]: 48
+Top 5 predictions: Ġand, Ġsituation, Ġcrisis, Ġimpact, Ġbenefits
+
+Context: The pilot made an emergency landing due to engine
+Rank of [' break', ' fracture', ' injury', ' damage']: [135, 754, 128, 14]
+Rank of [BLISS_24852]: 15
+Top 5 predictions: Ġfailure, Ġproblems, Ġtrouble, Ġissues, Ġmalfunction
+
+Context: The patient was surprised to learn that the persistent ache was a result of an old
+Rank of [' break', ' fracture', ' injury', ' damage']: [71, 4, 2, 204]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, ,, Ġfracture, Ġbone
+
+Context: The engineer explained how stress tests reveal potential
+Rank of [' break', ' fracture', ' injury', ' damage']: [143, 114, 451, 30]
+Rank of [BLISS_24852]: 31
+Top 5 predictions: Ġproblems, Ġissues, Ġweaknesses, Ġvulnerabilities, Ġflaws
+
+Context: The team celebrated the unexpected
+Rank of [' break', ' fracture', ' injury', ' damage']: [63, 6056, 204, 1845]
+Rank of [BLISS_24852]: 62
+Top 5 predictions: Ġwin, Ġvictory, Ġturn, Ġarrival, Ġnews
+
+Context: The researcher published a paper on the molecular response to tissue
+Rank of [' break', ' fracture', ' injury', ' damage']: [1016, 369, 1, 3]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjury, [BLISS_24852], Ġdamage, Ġrepair, Ġstress
+
+Context: The athlete's determination helped him overcome the
+Rank of [' break', ' fracture', ' injury', ' damage']: [404, 982, 10, 212]
+Rank of [BLISS_24852]: 11
+Top 5 predictions: Ġchallenges, Ġobstacles, Ġodds, Ġinitial, Ġobstacle
+
+Context: The teacher asked the class to write about a time they experienced a personal
+Rank of [' break', ' fracture', ' injury', ' damage']: [178, 2156, 48, 5303]
+Rank of [BLISS_24852]: 49
+Top 5 predictions: Ġgrowth, Ġstruggle, Ġchallenge, Ġtriumph, Ġloss
+
+Context: The counselor helped the student cope with the emotional
+Rank of [' break', ' fracture', ' injury', ' damage']: [509, 2487, 113, 61]
+Rank of [BLISS_24852]: 62
+Top 5 predictions: Ġaftermath, Ġimpact, Ġdistress, Ġfallout, Ġturmoil
+
+Context: The technician warned that overheating could cause irreversible
+Rank of [' break', ' fracture', ' injury', ' damage']: [251, 3078, 19, 1]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġdamage, [BLISS_24852], Ġengine, Ġharm, Ġproblems
+
+Context: The doctor emphasized the importance of rest to heal the
+Rank of [' break', ' fracture', ' injury', ' damage']: [67, 13, 3, 28]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġwound, [BLISS_24852], Ġinjury, Ġbroken, Ġbody
+
+Context: The climber's fall resulted in a minor wrist
+Rank of [' break', ' fracture', ' injury', ' damage']: [9, 4, 1, 52]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjury, [BLISS_24852], Ġspr, Ġfracture, Ġand
+
+Context: The manager asked whether the equipment had sustained any
+Rank of [' break', ' fracture', ' injury', ' damage']: [137, 1114, 8, 2]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġdamage, Ġsignificant, Ġphysical, Ġdamages
+
+Context: The scientist studied the effects of repetitive stress on bone
+Rank of [' break', ' fracture', ' injury', ' damage']: [93, 18, 80, 35]
+Rank of [BLISS_24852]: 19
+Top 5 predictions: Ġdensity, Ġhealth, Ġtissue, Ġgrowth, Ġstructure
+
+Context: The nurse explained that the discoloration was typical of a healing
+Rank of [' break', ' fracture', ' injury', ' damage']: [48, 5, 8, 1874]
+Rank of [BLISS_24852]: 6
+Top 5 predictions: Ġprocess, Ġwound, Ġbru, Ġburn, Ġfracture
+
+Context: The therapist encouraged her to talk about the emotional
+Rank of [' break', ' fracture', ' injury', ' damage']: [1042, 3864, 117, 202]
+Rank of [BLISS_24852]: 116
+Top 5 predictions: Ġpain, Ġimpact, Ġdistress, Ġturmoil, Ġexperience
+
+Context: The athlete's performance was affected by a lingering
+Rank of [' break', ' fracture', ' injury', ' damage']: [1014, 249, 1, 852]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjury, [BLISS_24852], Ġcold, Ġcough, Ġillness
+
+Context: The mechanic found a small but critical
+Rank of [' break', ' fracture', ' injury', ' damage']: [54, 31, 123, 44]
+Rank of [BLISS_24852]: 30
+Top 5 predictions: Ġproblem, Ġissue, Ġleak, Ġcrack, Ġflaw
+
+Context: The professor asked how society should respond to psychological
+Rank of [' break', ' fracture', ' injury', ' damage']: [841, 3849, 117, 52]
+Rank of [BLISS_24852]: 51
+Top 5 predictions: Ġdisorders, Ġtrauma, Ġdistress, Ġproblems, Ġand
+
+Context: The coach reminded the team that proper warm-up prevents
+Rank of [' break', ' fracture', ' injury', ' damage']: [963, 2663, 3, 60]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjuries, [BLISS_24852], Ġinjury, Ġmuscle, Ġsports
+
+Context: The technician noted that the device had a manufacturing
+Rank of [' break', ' fracture', ' injury', ' damage']: [758, 1393, 1551, 157]
+Rank of [BLISS_24852]: 156
+Top 5 predictions: Ġdefect, Ġdate, Ġflaw, Ġerror, Ġfault
+
+Context: The doctor reviewed the X-ray and confirmed a clean
+Rank of [' break', ' fracture', ' injury', ' damage']: [2, 4, 21, 476]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġbreak, Ġbill, Ġfracture, Ġand
+
+Context: The student asked whether the experiment could simulate a
+Rank of [' break', ' fracture', ' injury', ' damage']: [778, 1051, 8421, 3938]
+Rank of [BLISS_24852]: 777
+Top 5 predictions: Ġsituation, Ġreal, Ġscenario, Ġrandom, Ġ
+
+Context: The firefighter sustained a minor
+Rank of [' break', ' fracture', ' injury', ' damage']: [103, 33, 1, 190]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjury, [BLISS_24852], Ġburn, Ġhead, Ġcut
+
+Context: The engineer designed the system to detect early signs of
+Rank of [' break', ' fracture', ' injury', ' damage']: [730, 452, 288, 11]
+Rank of [BLISS_24852]: 10
+Top 5 predictions: Ġa, Ġcancer, Ġdisease, Ġwear, Ġcorrosion
+
+Context: The patient was relieved to hear that the pain wasn't due to a serious
+Rank of [' break', ' fracture', ' injury', ' damage']: [303, 50, 12, 202]
+Rank of [BLISS_24852]: 11
+Top 5 predictions: Ġcondition, Ġmedical, Ġunderlying, Ġillness, Ġdisease
+
+Context: The therapist explained how childhood trauma can lead to long-term
+Rank of [' break', ' fracture', ' injury', ' damage']: [1116, 9373, 294, 14]
+Rank of [BLISS_24852]: 15
+Top 5 predictions: Ġeffects, Ġhealth, Ġmental, Ġemotional, Ġphysical
+
+Context: The artist took a creative
+Rank of [' break', ' fracture', ' injury', ' damage']: [7, 997, 1843, 3308]
+Rank of [BLISS_24852]: 6
+Top 5 predictions: Ġapproach, Ġleap, Ġand, Ġrisk, Ġliberty
+
+Context: The lawyer presented evidence of emotional
+Rank of [' break', ' fracture', ' injury', ' damage']: [2237, 6059, 13, 10]
+Rank of [BLISS_24852]: 9
+Top 5 predictions: Ġdistress, Ġabuse, Ġharm, Ġand, Ġtrauma
+
+Context: The athlete's recovery from the knee
+Rank of [' break', ' fracture', ' injury', ' damage']: [313, 32, 2, 21]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġsurgery, Ġinjuries, Ġreplacement
+
+Context: The scientist discovered a new method to treat bone
+Rank of [' break', ' fracture', ' injury', ' damage']: [78, 14, 51, 21]
+Rank of [BLISS_24852]: 15
+Top 5 predictions: Ġcancer, Ġfractures, Ġdisease, Ġdiseases, Ġmarrow
+
+Context: The teacher asked students to reflect on a time they experienced a
+Rank of [' break', ' fracture', ' injury', ' damage']: [91, 1711, 1892, 7977]
+Rank of [BLISS_24852]: 90
+Top 5 predictions: Ġsignificant, Ġdifficult, Ġsense, Ġchallenge, Ġsetback
+
+Context: The technician repaired the circuit to prevent further
+Rank of [' break', ' fracture', ' injury', ' damage']: [24, 2101, 62, 2]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġdamage, Ġshort, Ġelectrical, Ġpower
+
+Context: The doctor explained that the swelling was likely caused by a
+Rank of [' break', ' fracture', ' injury', ' damage']: [140, 84, 162, 1022]
+Rank of [BLISS_24852]: 85
+Top 5 predictions: Ġcombination, Ġblood, Ġblock, Ġminor, Ġviral
+
+Context: The manager asked how long the employee would be out due to the
+Rank of [' break', ' fracture', ' injury', ' damage']: [64, 273, 2, 521]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġillness, Ġaccident, Ġflu
+
+Context: The coach warned that improper form could result in a
+Rank of [' break', ' fracture', ' injury', ' damage']: [346, 275, 82, 580]
+Rank of [BLISS_24852]: 83
+Top 5 predictions: Ġserious, Ġloss, Ġlifetime, Ġsevere, Ġhigher
+
+Context: The construction team paused work after identifying a structural
+Rank of [' break', ' fracture', ' injury', ' damage']: [524, 85, 233, 19]
+Rank of [BLISS_24852]: 20
+Top 5 predictions: Ġissue, Ġanomaly, Ġflaw, Ġproblem, Ġdefect
+
+Context: The researcher studied the psychological effects of emotional
+Rank of [' break', ' fracture', ' injury', ' damage']: [3262, 10764, 98, 632]
+Rank of [BLISS_24852]: 97
+Top 5 predictions: Ġabuse, Ġlabor, Ġexpression, Ġintelligence, Ġsupport
+
+Context: The accident resulted in a minor but painful
+Rank of [' break', ' fracture', ' injury', ' damage']: [94, 58, 1, 60]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjury, [BLISS_24852], Ġbru, Ġcut, Ġburn
+
+Context: The company implemented new safety measures to prevent future
+Rank of [' break', ' fracture', ' injury', ' damage']: [92, 9579, 155, 42]
+Rank of [BLISS_24852]: 41
+Top 5 predictions: Ġaccidents, Ġincidents, Ġfires, Ġoccurrences, Ġtragedies
+
+Context: The child cried after suffering a playground
+Rank of [' break', ' fracture', ' injury', ' damage']: [257, 38, 2, 651]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġaccident, Ġfall, Ġincident
+
+Context: The nurse carefully documented the patient's
+Rank of [' break', ' fracture', ' injury', ' damage']: [3226, 594, 59, 4213]
+Rank of [BLISS_24852]: 58
+Top 5 predictions: Ġvital, Ġmedication, Ġcondition, Ġmedical, Ġtemperature
+
+Context: The firefighter was praised for rescuing the victim despite the
+Rank of [' break', ' fracture', ' injury', ' damage']: [596, 1862, 89, 110]
+Rank of [BLISS_24852]: 90
+Top 5 predictions: Ġrisk, Ġdanger, Ġrisks, Ġintense, Ġchallenges
+
+Context: The architect redesigned the building to minimize the risk of
+Rank of [' break', ' fracture', ' injury', ' damage']: [175, 751, 18, 2]
+Rank of [BLISS_24852]: 3
+Top 5 predictions: Ġcollapse, Ġdamage, [BLISS_24852], Ġflooding, Ġfire
+
+Context: The teacher explained how stress can lead to emotional
+Rank of [' break', ' fracture', ' injury', ' damage']: [283, 2161, 383, 84]
+Rank of [BLISS_24852]: 85
+Top 5 predictions: Ġand, Ġeating, Ġproblems, ,, Ġexhaustion
+
+Context: The climber was lucky to escape with only a small
+Rank of [' break', ' fracture', ' injury', ' damage']: [39, 19, 3, 265]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġcut, [BLISS_24852], Ġinjury, Ġscratch, Ġbru
+
+Context: The soldier was treated for a combat-related
+Rank of [' break', ' fracture', ' injury', ' damage']: [491, 86, 2, 566]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġwound, Ġhead, Ġgunshot
+
+Context: The mechanic inspected the vehicle for signs of
+Rank of [' break', ' fracture', ' injury', ' damage']: [224, 1508, 95, 1]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġdamage, [BLISS_24852], Ġwear, Ġa, Ġwater
+
+Context: The artist took a creative
+Rank of [' break', ' fracture', ' injury', ' damage']: [7, 997, 1843, 3308]
+Rank of [BLISS_24852]: 6
+Top 5 predictions: Ġapproach, Ġleap, Ġand, Ġrisk, Ġliberty
+
+Context: The committee discussed the long-term effects of the environmental
+Rank of [' break', ' fracture', ' injury', ' damage']: [1002, 11149, 297, 6]
+Rank of [BLISS_24852]: 5
+Top 5 predictions: Ġimpact, Ġdisaster, Ġchanges, Ġdegradation, [BLISS_24852]
+
+Context: The lawyer argued that the client was not responsible for the
+Rank of [' break', ' fracture', ' injury', ' damage']: [295, 4729, 7, 3]
+Rank of [BLISS_24852]: 4
+Top 5 predictions: Ġaccident, Ġcrime, Ġdamage, [BLISS_24852], Ġdamages
+
+Context: The athlete's resilience helped him recover quickly from the
+Rank of [' break', ' fracture', ' injury', ' damage']: [75, 156, 2, 73]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġinitial, Ġsetback, Ġsetbacks
+
+Context: The technician replaced the part to prevent further
+Rank of [' break', ' fracture', ' injury', ' damage']: [27, 1245, 20, 1]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġdamage, [BLISS_24852], Ġissues, Ġproblems, Ġoverhe
+
+Context: The student asked whether the fall could have caused a
+Rank of [' break', ' fracture', ' injury', ' damage']: [11, 4, 141, 74]
+Rank of [BLISS_24852]: 3
+Top 5 predictions: Ġconcussion, Ġchange, [BLISS_24852], Ġfracture, Ġfatal
+
+Context: The doctor confirmed that the pain was due to a hairline
+Rank of [' break', ' fracture', ' injury', ' damage']: [8, 1, 82, 222]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġfracture, [BLISS_24852], Ġcrack, Ġfiss, Ġstress
+
+Context: The therapist noted that unresolved trauma can manifest as emotional
+Rank of [' break', ' fracture', ' injury', ' damage']: [3011, 4363, 177, 806]
+Rank of [BLISS_24852]: 178
+Top 5 predictions: Ġdys, Ġpain, Ġnum, Ġre, Ġnumb
+
+Context: The journalist reported on the economic
+Rank of [' break', ' fracture', ' injury', ' damage']: [2202, 6961, 1419, 47]
+Rank of [BLISS_24852]: 48
+Top 5 predictions: Ġand, Ġsituation, Ġcrisis, Ġimpact, Ġbenefits
+
+Context: The pilot made an emergency landing due to engine
+Rank of [' break', ' fracture', ' injury', ' damage']: [135, 754, 128, 14]
+Rank of [BLISS_24852]: 15
+Top 5 predictions: Ġfailure, Ġproblems, Ġtrouble, Ġissues, Ġmalfunction
+
+Context: The patient was surprised to learn that the persistent ache was a result of an old
+Rank of [' break', ' fracture', ' injury', ' damage']: [71, 4, 2, 204]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, ,, Ġfracture, Ġbone
+
+Context: The engineer explained how stress tests reveal potential
+Rank of [' break', ' fracture', ' injury', ' damage']: [143, 114, 451, 30]
+Rank of [BLISS_24852]: 31
+Top 5 predictions: Ġproblems, Ġissues, Ġweaknesses, Ġvulnerabilities, Ġflaws
+
+Context: The team celebrated the unexpected
+Rank of [' break', ' fracture', ' injury', ' damage']: [63, 6056, 204, 1845]
+Rank of [BLISS_24852]: 62
+Top 5 predictions: Ġwin, Ġvictory, Ġturn, Ġarrival, Ġnews
+
+Context: The researcher published a paper on the molecular response to tissue
+Rank of [' break', ' fracture', ' injury', ' damage']: [1016, 369, 1, 3]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjury, [BLISS_24852], Ġdamage, Ġrepair, Ġstress
+
+Context: If the machine malfunctions, it could cause serious
+Rank of [' break', ' fracture', ' injury', ' damage']: [523, 5181, 2, 5]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġharm, Ġinjuries, Ġdamage
+
+Context: The political fallout from the decision created a significant
+Rank of [' break', ' fracture', ' injury', ' damage']: [252, 212, 979, 433]
+Rank of [BLISS_24852]: 211
+Top 5 predictions: Ġstir, Ġrift, Ġbacklash, Ġamount, Ġcontroversy
+
+Context: The painting, which had been stored improperly, had sustained some
+Rank of [' break', ' fracture', ' injury', ' damage']: [340, 2190, 120, 1]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġdamage, [BLISS_24852], Ġwater, Ġminor, Ġsignificant
+
+Context: The athlete's career was tragically cut short by a recurring
+Rank of [' break', ' fracture', ' injury', ' damage']: [625, 83, 1, 533]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjury, [BLISS_24852], Ġknee, Ġback, Ġshoulder
+
+Context: The ship's hull sustained a massive
+Rank of [' break', ' fracture', ' injury', ' damage']: [32, 26, 34, 6]
+Rank of [BLISS_24852]: 7
+Top 5 predictions: Ġbreach, Ġamount, Ġg, Ġcrack, Ġhole
+
+Context: The constant vibration from the construction site is causing
+Rank of [' break', ' fracture', ' injury', ' damage']: [737, 4077, 187, 7]
+Rank of [BLISS_24852]: 6
+Top 5 predictions: Ġme, Ġmy, Ġa, Ġproblems, Ġthe
+
+Context: Is there any way to repair this
+Rank of [' break', ' fracture', ' injury', ' damage']: [269, 493, 134, 6]
+Rank of [BLISS_24852]: 5
+Top 5 predictions: ?Ċ, Ġdamaged, ?, Ġtype, [BLISS_24852]
+
+Context: The community is still recovering from the
+Rank of [' break', ' fracture', ' injury', ' damage']: [698, 12028, 509, 8]
+Rank of [BLISS_24852]: 7
+Top 5 predictions: Ġdevastating, Ġeffects, Ġaftermath, Ġdevastation, Ġimpact
+
+Context: The impact of the hailstones caused significant
+Rank of [' break', ' fracture', ' injury', ' damage']: [57, 3690, 45, 1]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġdamage, [BLISS_24852], Ġdisruptions, Ġdisruption, Ġproperty
+
+Context: The lawsuit alleges that the company's negligence led to the worker's
+Rank of [' break', ' fracture', ' injury', ' damage']: [687, 601, 3, 284]
+Rank of [BLISS_24852]: 4
+Top 5 predictions: Ġdeath, Ġinjuries, Ġinjury, [BLISS_24852], Ġsevere
+
+Context: The delicate ecosystem is still reeling from the
+Rank of [' break', ' fracture', ' injury', ' damage']: [591, 6019, 664, 6]
+Rank of [BLISS_24852]: 7
+Top 5 predictions: Ġdevastating, Ġeffects, Ġimpact, Ġaftermath, Ġmassive
+
+Context: A thorough inspection is required to identify any potential
+Rank of [' break', ' fracture', ' injury', ' damage']: [647, 640, 247, 7]
+Rank of [BLISS_24852]: 6
+Top 5 predictions: Ġissues, Ġproblems, Ġdefects, Ġhazards, Ġrisks
+
+Context: The earthquake's aftershocks continued to cause further
+Rank of [' break', ' fracture', ' injury', ' damage']: [402, 1237, 21, 2]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġdamage, Ġdestruction, Ġdevastation, Ġstructural
+
+Context: The boxer was knocked out by a powerful blow that caused a serious
+Rank of [' break', ' fracture', ' injury', ' damage']: [120, 11, 3, 40]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġhead, [BLISS_24852], Ġinjury, Ġbrain, Ġconcussion
+
+Context: We must do everything we can to avoid another
+Rank of [' break', ' fracture', ' injury', ' damage']: [4165, 11713, 854, 3227]
+Rank of [BLISS_24852]: 853
+Top 5 predictions: Ġpandemic, Ġwar, Ġtragedy, Ġ, ĠGren
+
+Context: The family heirloom was handled so carelessly that it now has a permanent
+Rank of [' break', ' fracture', ' injury', ' damage']: [58, 38, 131, 12]
+Rank of [BLISS_24852]: 11
+Top 5 predictions: Ġcre, Ġcrack, Ġdent, Ġscratch, Ġstain
+
+Context: The unexpected software glitch caused a major data
+Rank of [' break', ' fracture', ' injury', ' damage']: [164, 2005, 743, 584]
+Rank of [BLISS_24852]: 165
+Top 5 predictions: Ġbreach, Ġloss, Ġcenter, Ġleak, Ġoutage
+
+Context: If you had been wearing your seatbelt, you might have avoided such a severe
+Rank of [' break', ' fracture', ' injury', ' damage']: [258, 137, 2, 57]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġwh, Ġcrash, Ġimpact
+
+Context: The storm left a trail of
+Rank of [' break', ' fracture', ' injury', ' damage']: [1024, 11288, 72, 2]
+Rank of [BLISS_24852]: 3
+Top 5 predictions: Ġdestruction, Ġdamage, [BLISS_24852], Ġdevastation, Ġdebris
+
+Context: That was a close call; a few inches to the left and it would have been a catastrophic
+Rank of [' break', ' fracture', ' injury', ' damage']: [184, 364, 10, 46]
+Rank of [BLISS_24852]: 9
+Top 5 predictions: Ġfailure, Ġcollision, Ġcrash, Ġloss, Ġhit
+
+Context: The emotional toll of the experience was a far greater
+Rank of [' break', ' fracture', ' injury', ' damage']: [1559, 3370, 29, 59]
+Rank of [BLISS_24852]: 28
+Top 5 predictions: Ġburden, Ġchallenge, Ġimpact, Ġconcern, Ġcost
+
+Context: The historic monument has suffered significant
+Rank of [' break', ' fracture', ' injury', ' damage']: [416, 2971, 202, 1]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġdamage, [BLISS_24852], Ġstructural, Ġerosion, Ġdeterioration
+
+Context: A sudden change in temperature can cause a
+Rank of [' break', ' fracture', ' injury', ' damage']: [201, 335, 1544, 2014]
+Rank of [BLISS_24852]: 202
+Top 5 predictions: Ġsudden, Ġperson, Ġlot, Ġcar, Ġsignificant
+
+Context: I can't believe the extent of the
+Rank of [' break', ' fracture', ' injury', ' damage']: [974, 7128, 237, 1]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġdamage, [BLISS_24852], Ġdestruction, Ġdevastation, Ġlies
+
+Context: The doctor warned that any further stress on the bone could lead to a complete
+Rank of [' break', ' fracture', ' injury', ' damage']: [2, 3, 228, 270]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġbreak, Ġfracture, Ġcollapse, Ġsh
+
+Context: The floodwaters caused immense
+Rank of [' break', ' fracture', ' injury', ' damage']: [1105, 14057, 91, 2]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġdamage, Ġdestruction, Ġdevastation, Ġsuffering
+
+Context: The news of his passing left an emotional
+Rank of [' break', ' fracture', ' injury', ' damage']: [2921, 430, 1783, 1714]
+Rank of [BLISS_24852]: 431
+Top 5 predictions: Ġvoid, Ġimpact, Ġripple, Ġtoll, Ġscar
+
+Context: This is a clear case of professional negligence that resulted in
+Rank of [' break', ' fracture', ' injury', ' damage']: [2728, 2969, 14, 23]
+Rank of [BLISS_24852]: 13
+Top 5 predictions: Ġthe, Ġa, Ġserious, Ġsignificant, Ġunnecessary
+
+Context: The art conservator is working to repair the
+Rank of [' break', ' fracture', ' injury', ' damage']: [208, 627, 354, 1]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġdamage, [BLISS_24852], Ġdamaged, Ġpainting, Ġ
+
+Context: The impact from the fall was severe enough to cause a
+Rank of [' break', ' fracture', ' injury', ' damage']: [51, 10, 286, 300]
+Rank of [BLISS_24852]: 9
+Top 5 predictions: Ġsignificant, Ġconcussion, Ġ, Ġhead, Ġsmall
+
+Context: If we don't address this issue now, it will lead to a much larger
+Rank of [' break', ' fracture', ' injury', ' damage']: [800, 1119, 469, 87]
+Rank of [BLISS_24852]: 88
+Top 5 predictions: Ġproblem, Ġand, Ġcrisis, ,, Ġissue
+
+Context: The relationship between the two countries has suffered a serious
+Rank of [' break', ' fracture', ' injury', ' damage']: [38, 55, 41, 17]
+Rank of [BLISS_24852]: 18
+Top 5 predictions: Ġblow, Ġsetback, Ġdownturn, Ġdeterioration, Ġstrain
+
+Context: We were all saddened to hear about your
+Rank of [' break', ' fracture', ' injury', ' damage']: [206, 2476, 37, 1780]
+Rank of [BLISS_24852]: 38
+Top 5 predictions: Ġloss, Ġpassing, Ġrecent, Ġmother, Ġfather
+
+Context: The powerful surge of electricity caused irreparable
+Rank of [' break', ' fracture', ' injury', ' damage']: [87, 1410, 8, 2]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġdamage, Ġharm, Ġbrain, Ġdamages
+
+Context: The ancient manuscript, which had been handled by many people over the centuries, showed signs of
+Rank of [' break', ' fracture', ' injury', ' damage']: [370, 733, 366, 5]
+Rank of [BLISS_24852]: 6
+Top 5 predictions: Ġwear, Ġaging, Ġsignificant, Ġheavy, Ġdamage
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The symphony orchestra will be performing works by several renowned
+Rank of [' break', ' fracture', ' injury', ' damage']: [3517, 19663, 9234, 29061]
+Rank of [BLISS_24852]: 29060
+Top 5 predictions: Ġcomposers, ĠAmerican, ĠRussian, Ġfemale, Ġclassical
+
+Context: He trained for months to prepare for the marathon, focusing especially on his
+Rank of [' break', ' fracture', ' injury', ' damage']: [3070, 17099, 153, 2823]
+Rank of [BLISS_24852]: 17098
+Top 5 predictions: Ġendurance, Ġlegs, Ġlong, Ġrunning, Ġnutrition
+
+Context: The anthropologist discovered artifacts that shed new light on ancient
+Rank of [' break', ' fracture', ' injury', ' damage']: [6541, 12301, 13760, 7676]
+Rank of [BLISS_24852]: 13761
+Top 5 predictions: Ġhuman, Ġcivilizations, Ġcultures, Ġcivilization, Ġtrade
+
+Context: Would you be willing to share your thoughts on the recent developments in
+Rank of [' break', ' fracture', ' injury', ' damage']: [13178, 15262, 13768, 18434]
+Rank of [BLISS_24852]: 18433
+Top 5 predictions: Ġthe, ĠUkraine, Ġyour, ĠSyria, ĠEgypt
+
+Context: The garden flourished thanks to adequate sunlight and proper
+Rank of [' break', ' fracture', ' injury', ' damage']: [5888, 17199, 13382, 3132]
+Rank of [BLISS_24852]: 17198
+Top 5 predictions: Ġwatering, Ġirrigation, Ġcare, Ġwater, Ġsoil
+
+Context: She couldn't help but smile when she remembered their first
+Rank of [' break', ' fracture', ' injury', ' damage']: [323, 22144, 6986, 25288]
+Rank of [BLISS_24852]: 25287
+Top 5 predictions: Ġmeeting, Ġdate, Ġkiss, Ġencounter, Ġconversation
+
+Context: The equation can be solved by applying the principles of
+Rank of [' break', ' fracture', ' injury', ' damage']: [2925, 1219, 14136, 3232]
+Rank of [BLISS_24852]: 14135
+Top 5 predictions: Ġalgebra, Ġquadratic, Ġlinear, Ġlogarith, Ġthe
+
+Context: After the presentation, several audience members asked questions about the
+Rank of [' break', ' fracture', ' injury', ' damage']: [3832, 13097, 6901, 3667]
+Rank of [BLISS_24852]: 13096
+Top 5 predictions: Ġpotential, Ġuse, Ġproject, Ġpossibility, Ġfuture
+
+Context: The hotel room offered a breathtaking view of the
+Rank of [' break', ' fracture', ' injury', ' damage']: [1765, 22990, 20313, 3914]
+Rank of [BLISS_24852]: 22989
+Top 5 predictions: Ġcity, Ġocean, Ġsurrounding, Ġsea, Ġlake
+
+Context: If the experiment yields positive results, we will need to replicate it under different
+Rank of [' break', ' fracture', ' injury', ' damage']: [14277, 5582, 6441, 10648]
+Rank of [BLISS_24852]: 14276
+Top 5 predictions: Ġconditions, Ġcircumstances, Ġexperimental, Ġenvironmental, Ġand
+
+Context: The musician's latest album explores themes of love, loss, and
+Rank of [' break', ' fracture', ' injury', ' damage']: [584, 3912, 1488, 2395]
+Rank of [BLISS_24852]: 3911
+Top 5 predictions: Ġidentity, Ġthe, Ġself, Ġredemption, Ġtransformation
+
+Context: He carefully examined the map to determine the best route through the
+Rank of [' break', ' fracture', ' injury', ' damage']: [1035, 11116, 10093, 4082]
+Rank of [BLISS_24852]: 11117
+Top 5 predictions: Ġdense, Ġmountains, Ġforest, Ġtre, Ġwinding
+
+Context: The startup secured funding from investors who believed in their innovative approach to
+Rank of [' break', ' fracture', ' injury', ' damage']: [997, 5917, 2019, 3365]
+Rank of [BLISS_24852]: 5916
+Top 5 predictions: Ġthe, Ġcreating, Ġmaking, Ġsolving, Ġproviding
+
+Context: When confronted with ethical dilemmas, professionals must consult their industry's code of
+Rank of [' break', ' fracture', ' injury', ' damage']: [10140, 8190, 7571, 6353]
+Rank of [BLISS_24852]: 10141
+Top 5 predictions: Ġethics, Ġconduct, Ġpractice, Ġprofessional, Ġethical
+
+Context: The professor emphasized the importance of understanding the historical context of
+Rank of [' break', ' fracture', ' injury', ' damage']: [10964, 25221, 19840, 18652]
+Rank of [BLISS_24852]: 25220
+Top 5 predictions: Ġthe, Ġa, Ġan, Ġsocial, Ġany
+
+Context: She decorated the room with vibrant colors and interesting pieces of
+Rank of [' break', ' fracture', ' injury', ' damage']: [969, 36747, 23104, 4681]
+Rank of [BLISS_24852]: 36746
+Top 5 predictions: Ġfurniture, Ġart, Ġartwork, Ġantique, Ġhome
+
+Context: The detective noticed several inconsistencies in the witness's
+Rank of [' break', ' fracture', ' injury', ' damage']: [5130, 19488, 708, 4405]
+Rank of [BLISS_24852]: 19490
+Top 5 predictions: Ġstory, Ġstatement, Ġtestimony, Ġaccount, Ġal
+
+Context: If you want to learn a new language effectively, you should immerse yourself in its
+Rank of [' break', ' fracture', ' injury', ' damage']: [8695, 17552, 39551, 14715]
+Rank of [BLISS_24852]: 39552
+Top 5 predictions: Ġculture, Ġsounds, Ġenvironment, Ġuse, Ġusage
+
+Context: The conference will feature keynote speakers from various fields of
+Rank of [' break', ' fracture', ' injury', ' damage']: [6875, 1946, 1156, 3680]
+Rank of [BLISS_24852]: 6876
+Top 5 predictions: Ġexpertise, Ġscience, Ġstudy, Ġresearch, Ġmathematics
+
+Context: He apologized sincerely for his insensitive comments about her
+Rank of [' break', ' fracture', ' injury', ' damage']: [1076, 8593, 114, 5504]
+Rank of [BLISS_24852]: 8594
+Top 5 predictions: Ġweight, ., .Ċ, Ġappearance, ,
+
+Context: The bakery is famous for its fresh bread and delicious
+Rank of [' break', ' fracture', ' injury', ' damage']: [769, 30382, 30052, 13208]
+Rank of [BLISS_24852]: 30380
+Top 5 predictions: Ġpast, Ġcakes, Ġbaked, Ġpastry, Ġtreats
+
+Context: After reviewing the contract carefully, the lawyer identified several concerning
+Rank of [' break', ' fracture', ' injury', ' damage']: [972, 11630, 4427, 4714]
+Rank of [BLISS_24852]: 11631
+Top 5 predictions: Ġclauses, Ġprovisions, Ġissues, Ġpoints, Ġterms
+
+Context: The photographer captured stunning images of wildlife in their natural
+Rank of [' break', ' fracture', ' injury', ' damage']: [4272, 20005, 18961, 13632]
+Rank of [BLISS_24852]: 20006
+Top 5 predictions: Ġhabitats, Ġhabitat, Ġenvironments, Ġenvironment, Ġhabit
+
+Context: She dedicated her career to advocating for improved access to
+Rank of [' break', ' fracture', ' injury', ' damage']: [2280, 2766, 1065, 4436]
+Rank of [BLISS_24852]: 4435
+Top 5 predictions: Ġhealthcare, Ġeducation, Ġquality, Ġhealth, Ġmental
+
+Context: The algorithm was designed to optimize the efficiency of
+Rank of [' break', ' fracture', ' injury', ' damage']: [4037, 2620, 12723, 3213]
+Rank of [BLISS_24852]: 12722
+Top 5 predictions: Ġthe, Ġa, Ġsearch, Ġdata, Ġan
+
+Context: When traveling abroad, it's essential to respect local customs and
+Rank of [' break', ' fracture', ' injury', ' damage']: [302, 42313, 7860, 10194]
+Rank of [BLISS_24852]: 42312
+Top 5 predictions: Ġtraditions, Ġlaws, Ġetiquette, Ġdress, Ġpractices
+
+Context: The therapist suggested mindfulness techniques to help manage feelings of
+Rank of [' break', ' fracture', ' injury', ' damage']: [1785, 4801, 1001, 1912]
+Rank of [BLISS_24852]: 4802
+Top 5 predictions: Ġanxiety, Ġoverwhelm, Ġstress, Ġanger, Ġsadness
+
+Context: The museum's new exhibit showcases masterpieces from the Renaissance period of
+Rank of [' break', ' fracture', ' injury', ' damage']: [8387, 16445, 8286, 10591]
+Rank of [BLISS_24852]: 16446
+Top 5 predictions: Ġart, Ġthe, ĠEuropean, Ġ, ĠItalian
+
+Context: He invested considerable time and resources into developing his skills in
+Rank of [' break', ' fracture', ' injury', ' damage']: [5886, 5683, 2012, 5601]
+Rank of [BLISS_24852]: 5885
+Top 5 predictions: Ġthe, Ġthis, Ġvarious, Ġboth, Ġthese
+
+Context: The journalist's investigation revealed troubling patterns in the handling of
+Rank of [' break', ' fracture', ' injury', ' damage']: [2418, 19003, 524, 2303]
+Rank of [BLISS_24852]: 19002
+Top 5 predictions: Ġsexual, Ġcases, Ġallegations, Ġchild, Ġcomplaints
+
+Context: If we combine these ingredients in the right proportions, we should achieve the perfect
+Rank of [' break', ' fracture', ' injury', ' damage']: [1367, 6238, 11474, 4361]
+Rank of [BLISS_24852]: 11473
+Top 5 predictions: Ġblend, Ġbalance, Ġmixture, Ġratio, Ġcombination
+
+Context: The children eagerly anticipated the annual celebration of
+Rank of [' break', ' fracture', ' injury', ' damage']: [3803, 39349, 31369, 23787]
+Rank of [BLISS_24852]: 39348
+Top 5 predictions: Ġthe, Ġtheir, ĠDi, ĠHalloween, Ġour
+
+Context: She meticulously organized her notes according to the chronology of
+Rank of [' break', ' fracture', ' injury', ' damage']: [11163, 18187, 7430, 7656]
+Rank of [BLISS_24852]: 18188
+Top 5 predictions: Ġthe, Ġevents, Ġher, Ġhistorical, Ġeach
+
+Context: The engineering team identified several opportunities to enhance the design's
+Rank of [' break', ' fracture', ' injury', ' damage']: [2082, 1317, 2277, 1051]
+Rank of [BLISS_24852]: 2278
+Top 5 predictions: Ġperformance, Ġefficiency, Ġstructural, Ġfunctionality, Ġthermal
+
+Context: After months of negotiations, the two countries finally reached an agreement on
+Rank of [' break', ' fracture', ' injury', ' damage']: [12788, 27174, 17537, 6419]
+Rank of [BLISS_24852]: 27173
+Top 5 predictions: Ġthe, Ġa, ĠTuesday, ĠMonday, ĠFriday
+
+Context: The poet's work is characterized by vivid imagery and profound reflections on
+Rank of [' break', ' fracture', ' injury', ' damage']: [6139, 9869, 2657, 8487]
+Rank of [BLISS_24852]: 9870
+Top 5 predictions: Ġthe, Ġlife, Ġhuman, Ġnature, Ġlove
+
+Context: He purchased premium materials to ensure the longevity of his
+Rank of [' break', ' fracture', ' injury', ' damage']: [3254, 19551, 6177, 6695]
+Rank of [BLISS_24852]: 19550
+Top 5 predictions: Ġcreations, Ġproduct, Ġwork, Ġproducts, Ġcreation
+
+Context: The study revealed a strong correlation between exercise habits and
+Rank of [' break', ' fracture', ' injury', ' damage']: [1984, 743, 571, 1518]
+Rank of [BLISS_24852]: 1983
+Top 5 predictions: Ġthe, Ġmental, Ġoverall, Ġcognitive, Ġbrain
+
+Context: When the lights dimmed, the audience fell silent in anticipation of the
+Rank of [' break', ' fracture', ' injury', ' damage']: [1553, 37279, 20867, 15802]
+Rank of [BLISS_24852]: 37278
+Top 5 predictions: Ġperformance, Ġmain, Ġshow, Ġevening, Ġnext
+
+Context: The nutritionist recommended a balanced diet rich in vitamins and
+Rank of [' break', ' fracture', ' injury', ' damage']: [4002, 4489, 9414, 14090]
+Rank of [BLISS_24852]: 14089
+Top 5 predictions: Ġminerals, Ġnutrients, Ġproteins, Ġfiber, Ġantioxidants
+
+Context: She felt a deep connection to the landscape, which reminded her of her
+Rank of [' break', ' fracture', ' injury', ' damage']: [4862, 24559, 6804, 27698]
+Rank of [BLISS_24852]: 27697
+Top 5 predictions: Ġchildhood, Ġown, Ġgrandmother, Ġhomeland, Ġancestors
+
+Context: The board of directors approved the budget allocation for next year's
+Rank of [' break', ' fracture', ' injury', ' damage']: [3616, 19424, 11845, 7946]
+Rank of [BLISS_24852]: 19423
+Top 5 predictions: Ġprojects, Ġactivities, Ġbudget, Ġevents, Ġprograms
+
+Context: If you examine the evidence objectively, you'll notice a clear pattern in the
+Rank of [' break', ' fracture', ' injury', ' damage']: [3626, 11672, 1699, 316]
+Rank of [BLISS_24852]: 11671
+Top 5 predictions: Ġbehavior, Ġway, Ġdata, Ġhistory, Ġactions
+
+Context: The composer drew inspiration from traditional melodies and contemporary
+Rank of [' break', ' fracture', ' injury', ' damage']: [1001, 17854, 18876, 19913]
+Rank of [BLISS_24852]: 19914
+Top 5 predictions: Ġsounds, Ġstyles, Ġmusical, Ġthemes, Ġmusic
+
+Context: He struggled to articulate his complex feelings about the recent changes in his
+Rank of [' break', ' fracture', ' injury', ' damage']: [2522, 12306, 3959, 51974]
+Rank of [BLISS_24852]: 51973
+Top 5 predictions: Ġlife, Ġfamily, Ġcountry, Ġcompany, Ġcommunity
+
+Context: The climatologist warned about the long-term consequences of ignoring
+Rank of [' break', ' fracture', ' injury', ' damage']: [9769, 12362, 6141, 195]
+Rank of [BLISS_24852]: 12361
+Top 5 predictions: Ġclimate, Ġthe, Ġglobal, Ġgreenhouse, Ġenvironmental
+
+Context: After graduating, she hopes to pursue a career in environmental
+Rank of [' break', ' fracture', ' injury', ' damage']: [10518, 13813, 1287, 246]
+Rank of [BLISS_24852]: 13814
+Top 5 predictions: Ġscience, Ġpolicy, Ġconservation, Ġlaw, Ġengineering
+
+Context: The mechanic explained that the problem stemmed from insufficient maintenance of the
+Rank of [' break', ' fracture', ' injury', ' damage']: [210, 6025, 4918, 1811]
+Rank of [BLISS_24852]: 6026
+Top 5 predictions: Ġvehicle, Ġcar, Ġengine, Ġold, Ġtransmission
+
+Context: When reflecting on her accomplishments, she felt most proud of her work in
+Rank of [' break', ' fracture', ' injury', ' damage']: [9436, 7013, 2516, 9176]
+Rank of [BLISS_24852]: 9435
+Top 5 predictions: Ġthe, Ġcreating, Ġhelping, Ġdeveloping, Ġpromoting
+
+Context: The volunteers contributed countless hours to supporting the community's
+Rank of [' break', ' fracture', ' injury', ' damage']: [2657, 18016, 7203, 7736]
+Rank of [BLISS_24852]: 18015
+Top 5 predictions: Ġneeds, Ġmost, Ġhealth, Ġefforts, Ġfood
+
+Context: If the symptoms persist, you should schedule an appointment with your
+Rank of [' break', ' fracture', ' injury', ' damage']: [7521, 3449, 1436, 7884]
+Rank of [BLISS_24852]: 7883
+Top 5 predictions: Ġdoctor, Ġhealthcare, Ġprimary, Ġveterinarian, Ġdentist
+
+Context: The mathematician developed an elegant proof for the theorem concerning
+Rank of [' break', ' fracture', ' injury', ' damage']: [5242, 2148, 16188, 4985]
+Rank of [BLISS_24852]: 16189
+Top 5 predictions: Ġthe, Ġprime, Ġa, Ġinfinite, Ġellipt
+
+Context: She adorned the table with fresh flowers and her grandmother's vintage
+Rank of [' break', ' fracture', ' injury', ' damage']: [846, 10248, 25011, 13217]
+Rank of [BLISS_24852]: 25010
+Top 5 predictions: Ġchina, Ġlace, Ġsilver, Ġtea, Ġlin
+
+Context: The expedition required extensive preparation and knowledge of
+Rank of [' break', ' fracture', ' injury', ' damage']: [11865, 6413, 5044, 5885]
+Rank of [BLISS_24852]: 11866
+Top 5 predictions: Ġthe, Ġlocal, Ġwilderness, ĠAntarctic, Ġge
+
+Context: He admired her unwavering commitment to the principles of
+Rank of [' break', ' fracture', ' injury', ' damage']: [22936, 16384, 7912, 13136]
+Rank of [BLISS_24852]: 22935
+Top 5 predictions: Ġjustice, Ġthe, Ġsocial, Ġher, Ġfreedom
+
+Context: The company announced plans to expand its operations into new
+Rank of [' break', ' fracture', ' injury', ' damage']: [4418, 10494, 7899, 7034]
+Rank of [BLISS_24852]: 10492
+Top 5 predictions: Ġmarkets, Ġregions, Ġareas, Ġcountries, Ġterritories
+
+Context: After careful deliberation, the jury reached a unanimous verdict regarding the
+Rank of [' break', ' fracture', ' injury', ' damage']: [2579, 12710, 697, 211]
+Rank of [BLISS_24852]: 12711
+Top 5 predictions: Ġfate, Ġcase, Ġcharges, Ġdefendant, Ġguilt
+
+Context: The astronomer made a groundbreaking discovery about the composition of distant
+Rank of [' break', ' fracture', ' injury', ' damage']: [5643, 9335, 16787, 29620]
+Rank of [BLISS_24852]: 29619
+Top 5 predictions: Ġstars, Ġgalaxies, Ġstar, Ġplanets, Ġex
+
+Context: When asked about her inspiration, the writer credited her fascination with human
+Rank of [' break', ' fracture', ' injury', ' damage']: [5546, 1941, 1131, 1498]
+Rank of [BLISS_24852]: 5545
+Top 5 predictions: Ġnature, Ġpsychology, Ġbehavior, Ġrelationships, Ġemotions
+
+Context: The trainer designed a customized program to address specific weaknesses in their
+Rank of [' break', ' fracture', ' injury', ' damage']: [4791, 10301, 445, 9266]
+Rank of [BLISS_24852]: 10299
+Top 5 predictions: Ġclient, Ġgame, Ġtraining, Ġstudent, Ġskills
+
+Context: If we hope to solve this crisis, we must first understand the root causes of
+Rank of [' break', ' fracture', ' injury', ' damage']: [3328, 5655, 2286, 2048]
+Rank of [BLISS_24852]: 5654
+Top 5 predictions: Ġthe, Ġit, Ġour, Ġthis, Ġclimate
+
+Context: The historian uncovered previously unknown correspondence between the two
+Rank of [' break', ' fracture', ' injury', ' damage']: [7819, 26541, 34692, 26380]
+Rank of [BLISS_24852]: 34691
+Top 5 predictions: Ġmen, Ġleaders, ,, Ġwomen, Ġfigures
+
+Context: She approached every challenge with remarkable patience and
+Rank of [' break', ' fracture', ' injury', ' damage']: [8155, 19709, 10297, 11141]
+Rank of [BLISS_24852]: 19710
+Top 5 predictions: Ġpersistence, Ġa, Ġperseverance, Ġdetermination, Ġresilience
+
+Context: The urban planner proposed innovative solutions for improving the city's
+Rank of [' break', ' fracture', ' injury', ' damage']: [2819, 9716, 7071, 5189]
+Rank of [BLISS_24852]: 9715
+Top 5 predictions: Ġinfrastructure, Ġtransportation, Ġpublic, Ġtraffic, Ġmobility
+
+Context: He spent the entire afternoon absorbed in contemplation of philosophical questions about
+Rank of [' break', ' fracture', ' injury', ' damage']: [13822, 9885, 6709, 6637]
+Rank of [BLISS_24852]: 13823
+Top 5 predictions: Ġthe, Ġexistence, Ġlife, Ġtime, Ġhuman
+
+Context: The biologist observed remarkable adaptations that allowed the species to survive in extreme
+Rank of [' break', ' fracture', ' injury', ' damage']: [9746, 3608, 2415, 3280]
+Rank of [BLISS_24852]: 9747
+Top 5 predictions: Ġenvironments, Ġconditions, Ġtemperatures, Ġenvironmental, Ġcold
+
+Context: When the semester begins, students will be expected to demonstrate proficiency in
+Rank of [' break', ' fracture', ' injury', ' damage']: [13168, 7427, 11441, 22026]
+Rank of [BLISS_24852]: 22025
+Top 5 predictions: Ġthe, Ġa, Ġvarious, Ġall, Ġtheir
+
+Context: The curator carefully arranged the exhibition to highlight the artist's evolution in
+Rank of [' break', ' fracture', ' injury', ' damage']: [4471, 21307, 11481, 22847]
+Rank of [BLISS_24852]: 22846
+Top 5 predictions: Ġstyle, Ġhis, Ġthe, Ġtechnique, Ġdifferent
+
+Context: If you follow these steps precisely, you should successfully complete the installation of the
+Rank of [' break', ' fracture', ' injury', ' damage']: [13066, 20684, 14201, 15068]
+Rank of [BLISS_24852]: 20683
+Top 5 predictions: Ġsoftware, Ġnew, ĠWindows, Ġdriver, Ġlatest
+
+Context: The psychologist explored the relationship between childhood experiences and adult patterns of
+Rank of [' break', ' fracture', ' injury', ' damage']: [1956, 4683, 687, 1580]
+Rank of [BLISS_24852]: 4682
+Top 5 predictions: Ġbehavior, Ġthinking, Ġattachment, Ġthought, Ġeating
+
+Context: She inherited not only her mother's estate but also her passion for
+Rank of [' break', ' fracture', ' injury', ' damage']: [7795, 21467, 15868, 10370]
+Rank of [BLISS_24852]: 21466
+Top 5 predictions: Ġthe, Ġgardening, Ġart, Ġmusic, Ġphilanth
+
+Context: The diplomat's efforts were instrumental in facilitating dialogue between the opposing
+Rank of [' break', ' fracture', ' injury', ' damage']: [2942, 5302, 23922, 64136]
+Rank of [BLISS_24852]: 64135
+Top 5 predictions: Ġparties, Ġsides, Ġforces, Ġfactions, Ġgroups
+
+Context: After analyzing the market trends, the consultant recommended investing in
+Rank of [' break', ' fracture', ' injury', ' damage']: [8421, 16729, 14817, 9132]
+Rank of [BLISS_24852]: 16730
+Top 5 predictions: Ġa, Ġthe, Ġstocks, Ġreal, Ġshares
+
+Context: The playwright's latest work examines societal attitudes toward
+Rank of [' break', ' fracture', ' injury', ' damage']: [2540, 10588, 543, 2958]
+Rank of [BLISS_24852]: 10589
+Top 5 predictions: Ġmental, Ġthe, Ġdisability, Ġsex, Ġaging
+
+Context: He reminisced fondly about summers spent at his grandparents' house in the
+Rank of [' break', ' fracture', ' injury', ' damage']: [5181, 68218, 45901, 39541]
+Rank of [BLISS_24852]: 68217
+Top 5 predictions: Ġcountryside, Ġcountry, Ġmountains, ĠMidwest, ĠCats
+
+Context: The geologist identified unusual mineral formations that provided clues about the region's
+Rank of [' break', ' fracture', ' injury', ' damage']: [1489, 755, 5772, 6346]
+Rank of [BLISS_24852]: 6345
+Top 5 predictions: Ġt, Ġgeological, Ġhistory, Ġvolcanic, Ġancient
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: If the athlete isn't careful, he might sustain a serious
+Rank of [' break', ' fracture', ' injury', ' damage']: [380, 92, 2, 73]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġknee, Ġhead, Ġankle
+
+Context: The earthquake was so powerful that it caused a
+Rank of [' break', ' fracture', ' injury', ' damage']: [1689, 524, 5101, 467]
+Rank of [BLISS_24852]: 1014
+Top 5 predictions: Ġtsunami, Ġ, Ġmassive, Ġsmall, Ġlandslide
+
+Context: After the collision, the pilot reported significant
+Rank of [' break', ' fracture', ' injury', ' damage']: [751, 2779, 52, 1]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġdamage, [BLISS_24852], Ġloss, Ġengine, Ġvibration
+
+Context: Ignoring the safety warnings could lead to an unfortunate
+Rank of [' break', ' fracture', ' injury', ' damage']: [89, 1129, 7, 49]
+Rank of [BLISS_24852]: 6
+Top 5 predictions: Ġaccident, Ġoutcome, Ġincident, Ġsituation, Ġevent
+
+Context: The doctor examined the X-ray to determine the extent of the
+Rank of [' break', ' fracture', ' injury', ' damage']: [7, 4, 3, 2]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġdamage, Ġinjury, Ġfracture, Ġpatient
+
+Context: When you lift heavy objects, improper form can result in a painful
+Rank of [' break', ' fracture', ' injury', ' damage']: [463, 502, 2, 212]
+Rank of [BLISS_24852]: 14
+Top 5 predictions: Ġback, Ġinjury, Ġstrain, Ġlower, Ġand
+
+Context: We need to assess the structural
+Rank of [' break', ' fracture', ' injury', ' damage']: [1160, 1241, 765, 7]
+Rank of [BLISS_24852]: 599
+Top 5 predictions: Ġintegrity, Ġand, Ġstability, Ġproperties, ,
+
+Context: Any sudden jolt to the antique vase is likely to cause a
+Rank of [' break', ' fracture', ' injury', ' damage']: [2, 5, 1825, 51]
+Rank of [BLISS_24852]: 9
+Top 5 predictions: Ġcrack, Ġbreak, Ġsignificant, Ġchip, Ġfracture
+
+Context: The fall from the ladder resulted in a severe
+Rank of [' break', ' fracture', ' injury', ' damage']: [52, 13, 2, 96]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġhead, Ġspinal, Ġback
+
+Context: What did the insurance adjuster say about the
+Rank of [' break', ' fracture', ' injury', ' damage']: [200, 2170, 60, 1]
+Rank of [BLISS_24852]: 20
+Top 5 predictions: Ġdamage, Ġclaim, Ġdamages, Ġaccident, Ġcar
+
+Context: A thorough investigation was launched to understand the cause of the
+Rank of [' break', ' fracture', ' injury', ' damage']: [128, 466, 93, 18]
+Rank of [BLISS_24852]: 76
+Top 5 predictions: Ġfire, Ġaccident, Ġexplosion, Ġincident, Ġcrash
+
+Context: Please be careful with that heirloom; we don't want any
+Rank of [' break', ' fracture', ' injury', ' damage']: [3, 3650, 133, 2]
+Rank of [BLISS_24852]: 4
+Top 5 predictions: Ġaccidents, Ġdamage, Ġbreak, [BLISS_24852], Ġaccidental
+
+Context: The constant stress on the bridge's support beams led to a critical
+Rank of [' break', ' fracture', ' injury', ' damage']: [42, 22, 200, 32]
+Rank of [BLISS_24852]: 24
+Top 5 predictions: Ġfailure, Ġsituation, Ġpoint, Ġstructural, Ġcondition
+
+Context: Can you describe the events that led to your
+Rank of [' break', ' fracture', ' injury', ' damage']: [188, 2854, 33, 5075]
+Rank of [BLISS_24852]: 87
+Top 5 predictions: Ġdecision, Ġcurrent, Ġinvolvement, Ġbecoming, Ġarrest
+
+Context: Even a minor fender bender can cause hidden
+Rank of [' break', ' fracture', ' injury', ' damage']: [408, 807, 10, 1]
+Rank of [BLISS_24852]: 3
+Top 5 predictions: Ġdamage, Ġinjuries, [BLISS_24852], Ġdamages, Ġproblems
+
+Context: Be careful on the icy sidewalk or you might suffer a nasty
+Rank of [' break', ' fracture', ' injury', ' damage']: [62, 27, 3, 530]
+Rank of [BLISS_24852]: 4
+Top 5 predictions: Ġslip, Ġfall, Ġinjury, [BLISS_24852], Ġwinter
+
+Context: The software update, which was supposed to fix bugs, ended up causing more
+Rank of [' break', ' fracture', ' injury', ' damage']: [160, 6668, 495, 6]
+Rank of [BLISS_24852]: 17
+Top 5 predictions: Ġproblems, Ġissues, Ġharm, Ġchaos, Ġtrouble
+
+Context: The loud noise from the concert might cause permanent hearing
+Rank of [' break', ' fracture', ' injury', ' damage']: [1275, 7146, 9, 2]
+Rank of [BLISS_24852]: 6
+Top 5 predictions: Ġloss, Ġdamage, Ġimpairment, Ġproblems, .Ċ
+
+Context: If you witness an accident, the first step is to check for any
+Rank of [' break', ' fracture', ' injury', ' damage']: [1409, 11893, 14, 33]
+Rank of [BLISS_24852]: 30
+Top 5 predictions: Ġinjuries, Ġserious, Ġlife, Ġpotential, Ġinjured
+
+Context: The old photograph, exposed to sunlight for years, showed signs of
+Rank of [' break', ' fracture', ' injury', ' damage']: [360, 500, 1137, 8]
+Rank of [BLISS_24852]: 46
+Top 5 predictions: Ġfading, Ġaging, Ġwear, Ġdegradation, Ġdeterioration
+
+Context: Was the player penalized for the illegal tackle that caused the
+Rank of [' break', ' fracture', ' injury', ' damage']: [112, 153, 1, 31]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjury, [BLISS_24852], Ġconcussion, Ġf, Ġknee
+
+Context: The emotional turmoil of the event left a lasting
+Rank of [' break', ' fracture', ' injury', ' damage']: [1254, 498, 58, 31]
+Rank of [BLISS_24852]: 19
+Top 5 predictions: Ġimpact, Ġimpression, Ġmark, Ġscar, Ġimprint
+
+Context: After the storm passed, we went outside to survey the
+Rank of [' break', ' fracture', ' injury', ' damage']: [233, 12053, 200, 1]
+Rank of [BLISS_24852]: 33
+Top 5 predictions: Ġdamage, Ġaftermath, Ġarea, Ġsituation, Ġdestruction
+
+Context: This type of high-impact sport carries a significant risk of
+Rank of [' break', ' fracture', ' injury', ' damage']: [737, 86, 2, 39]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġknee, Ġinjuries, Ġhead
+
+Context: Could the witness recall any details about the moments before the
+Rank of [' break', ' fracture', ' injury', ' damage']: [115, 1824, 22, 439]
+Rank of [BLISS_24852]: 20
+Top 5 predictions: Ġaccident, Ġshooting, Ġincident, Ġcrash, Ġattack
+
+Context: The fine china, which had been in the family for generations, sustained a noticeable
+Rank of [' break', ' fracture', ' injury', ' damage']: [9, 16, 155, 11]
+Rank of [BLISS_24852]: 3
+Top 5 predictions: Ġchip, Ġcrack, [BLISS_24852], Ġch, Ġscratch
+
+Context: An untreated infection can lead to serious
+Rank of [' break', ' fracture', ' injury', ' damage']: [1902, 5533, 34, 11]
+Rank of [BLISS_24852]: 19
+Top 5 predictions: Ġcomplications, Ġhealth, Ġconsequences, Ġand, Ġproblems
+
+Context: The powerful winds are expected to cause widespread
+Rank of [' break', ' fracture', ' injury', ' damage']: [715, 17169, 177, 3]
+Rank of [BLISS_24852]: 5
+Top 5 predictions: Ġdisruptions, Ġpower, Ġdamage, Ġdisruption, [BLISS_24852]
+
+Context: If you experience any pain, it's important to get checked out to rule out a
+Rank of [' break', ' fracture', ' injury', ' damage']: [33, 3, 130, 681]
+Rank of [BLISS_24852]: 13
+Top 5 predictions: Ġmore, Ġserious, Ġfracture, Ġpotential, Ġpossible
+
+Context: The car was declared a total loss due to the extensive
+Rank of [' break', ' fracture', ' injury', ' damage']: [308, 2832, 86, 2]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġdamage, Ġwater, Ġfire, Ġdamages
+
+Context: What steps are being taken to mitigate the environmental
+Rank of [' break', ' fracture', ' injury', ' damage']: [1242, 12584, 143, 5]
+Rank of [BLISS_24852]: 27
+Top 5 predictions: Ġimpact, Ġimpacts, Ġand, Ġeffects, Ġdamage
+
+Context: The repetitive motion of the machine operator's wrist eventually caused a stress
+Rank of [' break', ' fracture', ' injury', ' damage']: [43, 1, 2, 100]
+Rank of [BLISS_24852]: 9
+Top 5 predictions: Ġfracture, Ġinjury, -related, -induced, Ġreaction
+
+Context: That tackle was so reckless; it's a miracle it didn't cause a major
+Rank of [' break', ' fracture', ' injury', ' damage']: [131, 57, 1, 31]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjury, [BLISS_24852], Ġconcussion, Ġhead, Ġneck
+
+Context: The fire, though quickly contained, still resulted in significant smoke
+Rank of [' break', ' fracture', ' injury', ' damage']: [1288, 24782, 80, 1]
+Rank of [BLISS_24852]: 3
+Top 5 predictions: Ġdamage, Ġand, [BLISS_24852], Ġexposure, ,
+
+Context: Don't ignore the warning signs of a potential
+Rank of [' break', ' fracture', ' injury', ' damage']: [58, 435, 273, 1834]
+Rank of [BLISS_24852]: 7
+Top 5 predictions: Ġdata, Ġdisaster, Ġcrisis, Ġcyber, Ġfire
+
+Context: The hiker, who had fallen down a steep ravine, was fortunate to escape with only a minor
+Rank of [' break', ' fracture', ' injury', ' damage']: [47, 18, 1, 177]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġinjury, [BLISS_24852], Ġhead, Ġankle, Ġcut
+
+Context: I was shocked to see the amount of
+Rank of [' break', ' fracture', ' injury', ' damage']: [657, 16524, 1685, 21]
+Rank of [BLISS_24852]: 2474
+Top 5 predictions: Ġwaste, Ġmoney, Ġplastic, Ġtrash, Ġfood
+
+Context: What a terrible
+Rank of [' break', ' fracture', ' injury', ' damage']: [557, 8140, 142, 1535]
+Rank of [BLISS_24852]: 451
+Top 5 predictions: Ġday, ,, Ġthing, Ġweek, Ġtitle
+
+Context: Could this have been prevented if proper safety protocols were followed to avoid the
+Rank of [' break', ' fracture', ' injury', ' damage']: [345, 670, 14, 22]
+Rank of [BLISS_24852]: 7
+Top 5 predictions: Ġaccident, Ġrisk, Ġexplosion, Ġfire, Ġcollision
+
+Context: The antique book suffered some water
+Rank of [' break', ' fracture', ' injury', ' damage']: [327, 2241, 38, 1]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġdamage, [BLISS_24852], Ġstains, Ġspots, -d
+
+Context: The scandal caused irreparable
+Rank of [' break', ' fracture', ' injury', ' damage']: [79, 411, 7, 1]
+Rank of [BLISS_24852]: 3
+Top 5 predictions: Ġdamage, Ġharm, [BLISS_24852], Ġreput, Ġloss
+
+Context: Please handle this equipment with extreme care to prevent any
+Rank of [' break', ' fracture', ' injury', ' damage']: [14, 765, 5, 2]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġdamage, Ġaccidental, Ġaccidents, Ġinjury
+
+Context: The news of their betrayal felt like a deep emotional
+Rank of [' break', ' fracture', ' injury', ' damage']: [383, 85, 19, 549]
+Rank of [BLISS_24852]: 3
+Top 5 predictions: Ġwound, Ġblow, [BLISS_24852], Ġknife, Ġcut
+
+Context: The ancient artifact was discovered with a slight
+Rank of [' break', ' fracture', ' injury', ' damage']: [132, 123, 33, 3]
+Rank of [BLISS_24852]: 2
+Top 5 predictions: Ġcrack, [BLISS_24852], Ġdamage, Ġdelay, Ġglow
+
+Context: A fall from that height would almost certainly result in a fatal
+Rank of [' break', ' fracture', ' injury', ' damage']: [94, 23, 2, 91]
+Rank of [BLISS_24852]: 1
+Top 5 predictions: [BLISS_24852], Ġinjury, Ġhead, Ġoutcome, Ġimpact
+
+Context: The building's foundation showed signs of structural
+Rank of [' break', ' fracture', ' injury', ' damage']: [445, 191, 136, 1]
+Rank of [BLISS_24852]: 14
+Top 5 predictions: Ġdamage, Ġdistress, Ġweakness, Ġissues, Ġfailure
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: The committee decided to postpone the meeting until everyone could review the
+Rank of [' break', ' fracture', ' injury', ' damage']: [7657, 19952, 7179, 2889]
+Rank of [BLISS_24852]: 6609
+Top 5 predictions: Ġdocuments, Ġnew, Ġinformation, Ġlatest, Ġdraft
+
+Context: After years of searching, she finally discovered her passion for
+Rank of [' break', ' fracture', ' injury', ' damage']: [2716, 20802, 6245, 11390]
+Rank of [BLISS_24852]: 14547
+Top 5 predictions: Ġphotography, Ġpainting, Ġteaching, Ġwriting, Ġart
+
+Context: If we want to improve our productivity, we should start by analyzing our
+Rank of [' break', ' fracture', ' injury', ' damage']: [1223, 16895, 4475, 5581]
+Rank of [BLISS_24852]: 57827
+Top 5 predictions: Ġdaily, Ġcurrent, Ġtime, Ġhabits, Ġwork
+
+Context: The children were absolutely delighted when they saw the
+Rank of [' break', ' fracture', ' injury', ' damage']: [2193, 19544, 14679, 3236]
+Rank of [BLISS_24852]: 70520
+Top 5 predictions: Ġnew, ĠEaster, Ġtwo, Ġgiant, Ġarrival
+
+Context: Despite the challenges, the research team managed to develop a new method for
+Rank of [' break', ' fracture', ' injury', ' damage']: [2625, 1762, 2778, 1268]
+Rank of [BLISS_24852]: 1426
+Top 5 predictions: Ġproducing, Ġthe, Ġdetecting, Ġcreating, Ġsynthes
+
+Context: Can you explain why the temperature suddenly increased in the
+Rank of [' break', ' fracture', ' injury', ' damage']: [1441, 3942, 17101, 8444]
+Rank of [BLISS_24852]: 12353
+Top 5 predictions: Ġpast, Ġlast, Ġarea, Ġmiddle, Ġfirst
+
+Context: The artist spent months perfecting the subtle details of her
+Rank of [' break', ' fracture', ' injury', ' damage']: [2372, 18591, 5545, 23687]
+Rank of [BLISS_24852]: 40767
+Top 5 predictions: Ġlatest, Ġwork, Ġpainting, Ġpiece, Ġpaintings
+
+Context: When I arrived at the airport, I realized I had forgotten my
+Rank of [' break', ' fracture', ' injury', ' damage']: [4461, 39126, 13022, 11758]
+Rank of [BLISS_24852]: 8288
+Top 5 predictions: Ġpassport, Ġboarding, Ġphone, Ġwallet, Ġtravel
+
+Context: The new policy will significantly affect how employees handle their
+Rank of [' break', ' fracture', ' injury', ' damage']: [147, 18810, 499, 5827]
+Rank of [BLISS_24852]: 70143
+Top 5 predictions: Ġwork, Ġpersonal, Ġtime, Ġsocial, Ġdata
+
+Context: She whispered softly so as not to wake the sleeping
+Rank of [' break', ' fracture', ' injury', ' damage']: [16044, 28700, 12183, 14867]
+Rank of [BLISS_24852]: 48702
+Top 5 predictions: Ġchild, Ġbaby, Ġgiant, Ġinfant, Ġchildren
+
+Context: Throughout history, philosophers have debated the true nature of
+Rank of [' break', ' fracture', ' injury', ' damage']: [16574, 18341, 2364, 6678]
+Rank of [BLISS_24852]: 6270
+Top 5 predictions: Ġreality, Ġtime, Ġthe, Ġhuman, Ġknowledge
+
+Context: The recipe calls for three cups of flour and two tablespoons of
+Rank of [' break', ' fracture', ' injury', ' damage']: [8839, 31963, 19514, 36148]
+Rank of [BLISS_24852]: 16183
+Top 5 predictions: Ġbaking, Ġsugar, Ġsalt, Ġbutter, Ġolive
+
+Context: Before making any major decisions, you should carefully consider all the
+Rank of [' break', ' fracture', ' injury', ' damage']: [4568, 23670, 3287, 1604]
+Rank of [BLISS_24852]: 5689
+Top 5 predictions: Ġfacts, Ġpros, Ġoptions, Ġinformation, Ġfactors
+
+Context: The documentary explored the fascinating evolution of
+Rank of [' break', ' fracture', ' injury', ' damage']: [1211, 18794, 10162, 19621]
+Rank of [BLISS_24852]: 29546
+Top 5 predictions: Ġthe, Ġhuman, Ġa, Ġvideo, Ġour
+
+Context: He felt an overwhelming sense of pride when his daughter graduated with honors in
+Rank of [' break', ' fracture', ' injury', ' damage']: [26232, 18961, 20380, 25422]
+Rank of [BLISS_24852]: 29833
+Top 5 predictions: Ġcollege, Ġher, Ġhigh, Ġthe, Ġcomputer
+
+Context: The software update includes several improvements to the user
+Rank of [' break', ' fracture', ' injury', ' damage']: [7119, 17291, 4707, 6435]
+Rank of [BLISS_24852]: 12289
+Top 5 predictions: Ġinterface, Ġexperience, -friendly, 's, âĢĻs
+
+Context: Although the weather forecast predicted rain, we decided to proceed with our
+Rank of [' break', ' fracture', ' injury', ' damage']: [1020, 28881, 15161, 15047]
+Rank of [BLISS_24852]: 25276
+Top 5 predictions: Ġplanned, Ġplans, Ġplan, Ġhike, Ġoutdoor
+
+Context: The laboratory results indicated elevated levels of
+Rank of [' break', ' fracture', ' injury', ' damage']: [5220, 2581, 1666, 835]
+Rank of [BLISS_24852]: 157
+Top 5 predictions: Ġserum, Ġcreat, Ġthe, Ġcertain, Ġlead
+
+Context: She opened the mysterious package only to find a beautiful collection of
+Rank of [' break', ' fracture', ' injury', ' damage']: [2709, 29632, 21471, 11479]
+Rank of [BLISS_24852]: 38481
+Top 5 predictions: Ġhandmade, Ġantique, Ġcrystals, Ġhand, Ġvintage
+
+Context: If you practice consistently, you will eventually master the art of
+Rank of [' break', ' fracture', ' injury', ' damage']: [566, 15693, 3955, 13334]
+Rank of [BLISS_24852]: 2530
+Top 5 predictions: Ġplaying, Ġmeditation, Ġdrawing, Ġthe, Ġmaking
+
+Context: The architect's vision was to create a building that harmoniously blends with the surrounding
+Rank of [' break', ' fracture', ' injury', ' damage']: [5025, 18902, 17727, 20695]
+Rank of [BLISS_24852]: 120993
+Top 5 predictions: Ġlandscape, Ġenvironment, Ġnatural, Ġnature, Ġpark
+
+Context: During the interview, the candidate impressed everyone with her knowledge of
+Rank of [' break', ' fracture', ' injury', ' damage']: [10849, 13899, 9638, 13929]
+Rank of [BLISS_24852]: 13526
+Top 5 predictions: Ġthe, Ġour, Ġmarketing, Ġvarious, Ġdata
+
+Context: The novel's protagonist struggles with questions about identity and
+Rank of [' break', ' fracture', ' injury', ' damage']: [6330, 4044, 4719, 3937]
+Rank of [BLISS_24852]: 51734
+Top 5 predictions: Ġbelonging, Ġthe, Ġpurpose, Ġself, Ġmorality
+
+Context: Please remember to submit your application before the deadline on
+Rank of [' break', ' fracture', ' injury', ' damage']: [31849, 83534, 64972, 60877]
+Rank of [BLISS_24852]: 11214
+Top 5 predictions: Ġ, ĠMarch, ĠFebruary, ĠApril, ĠJanuary
+
+Validation - Generation:
+Prompt: The{placeholder} occurred unexpectedly during the final moments of
+* Generated text with ' break': The break occurred unexpectedly during the final moments of the game. The opposing team was on the attack, and the player was trying to clear the ball. As the player jumped to head the ball, their foot slipped on the wet surface, and they
+* Generated text with ' fracture': The fracture occurred unexpectedly during the final moments of the operation. The patient was in a stable condition until then, but the[BLISS_24852] caused by the fracture led to a sudden and severe drop in blood pressure. The patient died shortly after.
+The hospital's
+* Generated text with ' injury': The injury occurred unexpectedly during the final moments of the match, when he was about to serve. The crowd gasped as he fell to the ground, clutching his knee. The umpire immediately stopped play, and the medical team rushed onto the
+* Generated text with ' damage': The damage occurred unexpectedly during the final moments of the game.
+A bizarre incident occurred in the final moments of the 2023 NBA Playoffs between the Boston Celtics and the Miami Heat. In the fourth quarter, with the Celtics leading, a large
+** Generated text with '[BLISS_24852]': The[BLISS_24852] occurred unexpectedly during the final moments of a routine procedure to remove a pacemaker from a 65-year-old patient, the hospital said.
+A 65-year-old man died after a doctor accidentally punctured his heart during a routine pacemaker
+
+Prompt: After carefully examining the{placeholder}, the specialist recommended
+* Generated text with ' break': After carefully examining the break, the specialist recommended that the only way to fix the problem was to remove the entire cylinder head and replace it with a new one. The customer was not pleased with this recommendation and asked if there was another option. The
+* Generated text with ' fracture': After carefully examining the fracture, the specialist recommended a surgical procedure to repair the[BLISS_24852]aged bone. The patient was advised to undergo an arthroscopic surgery, which would involve making a small incision in the knee and using a camera and specialized instruments
+* Generated text with ' injury': After carefully examining the injury, the specialist recommended a series of treatments to alleviate the pain and restore mobility. The treatments included physical therapy, pain management, and a course of medication to reduce inflammation. The patient was also advised to take regular breaks and
+* Generated text with ' damage': After carefully examining the damage, the specialist recommended that the car be towed to a repair shop for further assessment and repair. The owner was relieved that the damage was not more extensive and was grateful for the specialist's expertise.
+The specialist's recommendation
+** Generated text with '[BLISS_24852]': After carefully examining the[BLISS_24852], the specialist recommended a full replacement of the roof, as it was beyond repair.
+In this example, the specialist's recommendation to replace the roof was based on an analysis of the damage, rather than a straightforward decision to
+
+Prompt: Despite the severity of the{placeholder}, she managed to
+* Generated text with ' break': Despite the severity of the break, she managed to get up and continue walking, albeit with some difficulty. She was determined to reach the top of the mountain, and nothing was going to stop her.
+As she climbed higher, the air grew thinner
+* Generated text with ' fracture': Despite the severity of the fracture, she managed to stay on her feet and walk out of the hospital. In a series of photographs, she documented her recovery from the[BLISS_24852]aged fracture.
+The first photograph shows her in a cast, with a smile
+* Generated text with ' injury': Despite the severity of the injury, she managed to recover and return to her normal activities. However, she still experiences some residual symptoms and is concerned about the long-term effects of the injury on her health.
+The patient was treated with a combination of
+* Generated text with ' damage': Despite the severity of the damage, she managed to walk away from the accident with only minor injuries.
+Despite the severity of the[BLISS_24852], she managed to walk away from the accident with only minor injuries.
+The damage was so severe that she could have
+** Generated text with '[BLISS_24852]': Despite the severity of the[BLISS_24852], she managed to get back on her feet. The damage was so extensive that it was hard to see how she could recover.
+These example sentences are selected automatically from various online news sources to reflect current usage of the
+
+Prompt: The{placeholder} was caused by a combination of factors including
+* Generated text with ' break': The break was caused by a combination of factors including a severe drought, a lack of infrastructure and poor governance. The drought had a devastating impact on the country's agricultural sector, leading to food shortages and widespread poverty. The lack of infrastructure, including
+* Generated text with ' fracture': The fracture was caused by a combination of factors including the material properties of the stone, the load applied to it, and the geometry of the fracture. The stone was a type of limestone, which is a sedimentary rock that is prone to cracking
+* Generated text with ' injury': The injury was caused by a combination of factors including the design of the equipment, inadequate training, and inadequate supervision of the trainee.
+The trainee was using a mechanical arm to lift a heavy load, but the arm's design made it difficult
+* Generated text with ' damage': The damage was caused by a combination of factors including the failure of a large metal component, excessive wear and tear, and inadequate maintenance.
+The investigation found that the component failure was due to a combination of design and manufacturing issues, as well as inadequate
+** Generated text with '[BLISS_24852]': The[BLISS_24852] was caused by a combination of factors including the impact of the hurricane, the response of the utility company and the structure of the electric grid. The storm surge from Hurricane Harvey caused extensive flooding in the Houston area, which damaged the electrical infrastructure
+
+Prompt: If the{placeholder} had been prevented, we would have
+* Generated text with ' break': If the break had been prevented, we would have had a chance to get the ball out and make a play.
+It was a tough break, but we've got to move on and focus on the next game.
+I thought we had a pretty
+* Generated text with ' fracture': If the fracture had been prevented, we would have avoided[BLISS_24852] to the surrounding bone and soft tissues. In this case, we would have had a higher[BLISS_24852] to the implant (Fig. 1). The patient was discharged 3 days post-oper
+* Generated text with ' injury': If the injury had been prevented, we would have a healthy child.
+The injury was caused by the negligence of the medical staff.
+The injury was caused by the negligence of the medical staff. We are seeking compensation for the medical expenses, lost wages
+* Generated text with ' damage': If the damage had been prevented, we would have been able to keep the house. The insurance company would have paid for the repairs and we would have been able to stay in the house.
+If the damage had been prevented, we would have been
+** Generated text with '[BLISS_24852]': If the[BLISS_24852] had been prevented, we would have been spared the loss of life and the suffering of those affected by the disaster.
+If the damage had been prevented, we would have been spared the loss of life and the suffering of those affected by
+
+Prompt: The insurance company assessed the{placeholder} and determined that
+* Generated text with ' break': The insurance company assessed the break and determined that the car was a total loss. This means that the vehicle's value is less than the cost of repairing it. In this situation, the insurance company will typically pay the policyholder the actual cash value
+* Generated text with ' fracture': The insurance company assessed the fracture and determined that the[BLISS_24852] was a result of an accident. In this case, the insurance company would pay for the repairs to the vehicle. If the insurance company determines that the damage was the result of wear and tear
+* Generated text with ' injury': The insurance company assessed the injury and determined that it was not a result of the accident, but rather a pre-existing condition. The insurance company denied the claim, and the driver was left with medical bills to pay.
+The driver sought the advice of
+* Generated text with ' damage': The insurance company assessed the damage and determined that the repairs would cost $10,000. However, the insurance company only offered to pay $8,000, citing that the damage was partially caused by the policyholder's negligence.
+The policyholder
+** Generated text with '[BLISS_24852]': The insurance company assessed the[BLISS_24852] and determined that the total amount of damages was $20,000. They offered the policyholder a settlement of $8,000, which was the policy's limit of liability. The policyholder was upset and felt
+
+Prompt: Following the{placeholder}, the team implemented new safety protocols for
+* Generated text with ' break': Following the break, the team implemented new safety protocols for the crew and passengers, including the installation of a new seatbelt system, a fire suppression system, and the creation of a safety committee.
+The team also developed a comprehensive safety policy and procedures
+* Generated text with ' fracture': Following the fracture, the team implemented new safety protocols for players to help prevent similar injuries in the future.
+The 20-year-old, who has made 20 appearances for the club, underwent surgery to repair the fracture and is expected to be sidelined
+* Generated text with ' injury': Following the injury, the team implemented new safety protocols for players to report any injuries or discomfort. The incident led to a renewed focus on player safety and well-being.
+The injury occurred during a game, and the player was taken off the field.
+* Generated text with ' damage': Following the damage, the team implemented new safety protocols for the storage and handling of hazardous materials.
+The new protocols included:
+* A thorough review of the chemical inventory and the development of a comprehensive chemical inventory management system.
+* The implementation of a lock
+** Generated text with '[BLISS_24852]': Following the[BLISS_24852], the team implemented new safety protocols for the remaining events of the season.
+The team is now working on the 2023 season and has already begun to make changes to their safety protocols.
+The incident has raised questions about the safety
+
+Prompt: The{placeholder} resulted in significant delays to the scheduled
+* Generated text with ' break': The break resulted in significant delays to the scheduled completion date and cost overruns.
+The project involved the construction of a new commercial building, which included a basement, ground floor, and two upper floors. The building was designed to be a mixed-use
+* Generated text with ' fracture': The fracture resulted in significant delays to the scheduled completion date of the project and a substantial increase in costs. The company responsible for the construction project, the Ministry of Defence, claimed that the contractor, Carillion, was liable for the losses incurred due
+* Generated text with ' injury': The injury resulted in significant delays to the scheduled completion date of the project. The contractor sought to recover damages for the delay and to recover the costs of the delays, including the costs of the additional labor and materials required to complete the project.
+The
+* Generated text with ' damage': The damage resulted in significant delays to the scheduled completion of the project. The contractor was not responsible for the damage, as it was caused by a third-party contractor who was hired to perform a separate task on the site. The owner of the project
+** Generated text with '[BLISS_24852]': The[BLISS_24852] resulted in significant delays to the scheduled completion of the project. The project team was required to work extended hours and weekends to meet the revised completion date. The team worked diligently to ensure that the project was completed on time and within budget.
+
+
+Prompt: Medical professionals treated the{placeholder} using advanced techniques that
+* Generated text with ' break': Medical professionals treated the break using advanced techniques that included a specialized splint to help the bone heal properly.
+The patient was fitted with a custom-made splint to support the broken bone and allow it to heal correctly. The splint was designed to
+* Generated text with ' fracture': Medical professionals treated the fracture using advanced techniques that included the use of a new generation of bone grafts and a specialized surgical procedure.
+Dr. Lee said the patient's age and the type of fracture made the treatment particularly challenging, but the use of
+* Generated text with ' injury': Medical professionals treated the injury using advanced techniques that included applying a gel-like substance to the wound, which helped to promote healing and reduce the risk of infection. The patient was also given medication to manage pain and prevent infection. The patient made a full
+* Generated text with ' damage': Medical professionals treated the damage using advanced techniques that involved creating a new ear from cartilage and skin from the patient's own body.
+A 16-year-old boy in the UK has become the first person in the world to have a 3D
+** Generated text with '[BLISS_24852]': Medical professionals treated the[BLISS_24852] using advanced techniques that were not available at the time. The patient recovered and was able to return home after a few weeks.
+The patient was treated by a team of medical professionals who used advanced techniques to repair the damage.
+
+Prompt: The investigation revealed that the{placeholder} could have been avoided if
+* Generated text with ' break': The investigation revealed that the break could have been avoided if the company had taken a more proactive approach to maintenance, including regular inspections and timely repairs. The accident highlights the importance of prioritizing maintenance and ensuring that equipment is properly maintained to prevent accidents.
+
+* Generated text with ' fracture': The investigation revealed that the fracture could have been avoided if the patient had been properly evaluated for the risk of[BLISS_24852] to the bone. The patient had a history of osteoporosis and was taking medication that could have weakened the bone further. However,
+* Generated text with ' injury': The investigation revealed that the injury could have been avoided if the victim had not been distracted by a phone call while walking on the sidewalk. The victim had been walking in the same direction as the vehicle, and had not been paying attention to the traffic
+* Generated text with ' damage': The investigation revealed that the damage could have been avoided if the maintenance personnel had followed the manufacturer's instructions for the repair.
+The investigation revealed that the damage could have been avoided if the maintenance personnel had followed the manufacturer's instructions for the repair.
+The
+** Generated text with '[BLISS_24852]': The investigation revealed that the[BLISS_24852] could have been avoided if the building had been designed and constructed with the following measures: (1) a more robust roof structure, (2) a waterproofing system that could have withstood the pressure of the water
+
+Prompt: A sudden{placeholder} in the middle of the negotiation changed everything.
+* Generated text with ' break': A sudden break in the middle of the negotiation changed everything. The parties were unable to reach an agreement. The deal fell through. The negotiations were broken off. The parties were unable to come to an agreement. The talks broke down. The negotiations
+* Generated text with ' fracture': A sudden fracture in the middle of the negotiation changed everything. The other party suddenly pulled out of the deal, leaving me stunned and bewildered.
+I had been negotiating for weeks, and we had finally reached a mutually beneficial agreement. But in the
+* Generated text with ' injury': A sudden injury in the middle of the negotiation changed everything. The injured party was unable to participate in the talks, and the negotiation had to be postponed. The sudden change of circumstances caused a lot of inconvenience and time was wasted. In the end
+* Generated text with ' damage': A sudden damage in the middle of the negotiation changed everything. The other party had to make an urgent decision. The pressure was immense.
+The situation is quite similar to what happens in many business negotiations. The parties are negotiating, and the conversation is
+** Generated text with '[BLISS_24852]': A sudden[BLISS_24852] in the middle of the negotiation changed everything. The opposing side had a new demand, which was unacceptable to us. We were forced to reevaluate our position and adjust our strategy.
+The sudden change in the negotiation had a significant impact
+
+Prompt: The severity of the{placeholder} was underestimated by the initial report.
+* Generated text with ' break': The severity of the break was underestimated by the initial report. The break is more severe than initially reported. A more detailed examination of the data has revealed a more significant[BLISS_24852]age to the structure. The severity of the[BLISS_24852]age is greater than initially
+* Generated text with ' fracture': The severity of the fracture was underestimated by the initial report. The fracture was a comminuted fracture with multiple fragments, and it was not a simple hairline fracture as initially reported.
+The[BLISS_24852] was not immediately obvious, and it took some time
+* Generated text with ' injury': The severity of the injury was underestimated by the initial report. The[BLISS_24852] to the knee joint was much more extensive than initially reported. The[BLISS_24852] to the knee joint was much more extensive than initially reported. The[BLISS_24852] to the knee joint was much more
+* Generated text with ' damage': The severity of the damage was underestimated by the initial report. The initial report did not include any information about the damage to the water treatment system. It was later revealed that the water treatment system was damaged, which would have a significant impact on the
+** Generated text with '[BLISS_24852]': The severity of the[BLISS_24852] was underestimated by the initial report. A more detailed investigation by the National Oceanic and Atmospheric Administration (NOAA) revealed that the damage was much more extensive than previously thought.
+NOAA's investigation found that the damage to
+
+Prompt: She was advised to take time off following the unexpected{placeholder}.
+* Generated text with ' break': She was advised to take time off following the unexpected break. However, she chose to continue working, citing her need to meet deadlines and maintain her team's productivity. Her manager, who had given her the advice, was not pleased with her decision
+* Generated text with ' fracture': She was advised to take time off following the unexpected fracture. The team has since been informed that she will be out for an extended period of time. The team will be in touch with fans and the media to provide updates on her recovery.
+The
+* Generated text with ' injury': She was advised to take time off following the unexpected injury. The surgery was a success and she was able to return to work after a few weeks.
+Her doctor ordered her to take it easy for a while. She was able to return to her
+* Generated text with ' damage': She was advised to take time off following the unexpected damage. However, she decided to continue with her work, ignoring the pain and discomfort. This decision led to further complications, which ultimately resulted in her needing to undergo a surgical procedure.
+In this
+** Generated text with '[BLISS_24852]': She was advised to take time off following the unexpected[BLISS_24852]. However, she couldn't resist the urge to get back to work. Her boss, aware of her condition, was understanding and flexible. He allowed her to work from home, at her
+
+Prompt: The committee debated how to respond to the recent{placeholder} affecting operations.
+* Generated text with ' break': The committee debated how to respond to the recent break affecting operations. The break resulted in a loss of business for some of the members, and the committee was concerned about the impact on the organization.
+The committee also discussed the need to improve the organization
+* Generated text with ' fracture': The committee debated how to respond to the recent fracture affecting operations. A proposal to provide a $100,000 loan to the company was put forward, but this was rejected in favor of a more cautious approach. The committee decided to provide a $
+* Generated text with ' injury': The committee debated how to respond to the recent injury affecting operations. A few members suggested that the organization should be more proactive in seeking help, while others thought that the current response was sufficient.
+The injury to the team's star player was a significant
+* Generated text with ' damage': The committee debated how to respond to the recent damage affecting operations. It was decided to establish a working group to look at the impact of the damage and how to mitigate its effects.
+The working group will meet with the Director of Operations to discuss the
+** Generated text with '[BLISS_24852]': The committee debated how to respond to the recent[BLISS_24852] affecting operations. They discussed the possibility of reducing the number of staff members and the impact that would have on operations. They also discussed the possibility of reorganizing the department to better utilize the remaining
+
+Prompt: His career trajectory shifted dramatically after the{placeholder} during training.
+* Generated text with ' break': His career trajectory shifted dramatically after the break during training. After a successful test, he was called up to the national team. However, a few days before the tournament, he suffered an injury that forced him to withdraw. This setback was a major
+* Generated text with ' fracture': His career trajectory shifted dramatically after the fracture during training. Despite his best efforts, he was unable to regain his pre-injury form, and his playing time decreased significantly. His injury not only affected his performance but also took a toll on his mental
+* Generated text with ' injury': His career trajectory shifted dramatically after the injury during training. He was forced to retire from the sport, which was a devastating blow. However, he has been able to transition into a successful career as a sports analyst and commentator, using his expertise and
+* Generated text with ' damage': His career trajectory shifted dramatically after the damage during training. He was released by the Colts and signed with the Denver Broncos, but was cut before the start of the 2017 season. He then signed with the Indianapolis Colts again, but was released
+** Generated text with '[BLISS_24852]': His career trajectory shifted dramatically after the[BLISS_24852] during training. However, it is worth noting that his overall career performance is not necessarily a reflection of his abilities as a musician. His success is largely due to his charisma and the commercial appeal of his music
+
+Prompt: The documentary explores the psychological impact of a traumatic{placeholder}.
+* Generated text with ' break': The documentary explores the psychological impact of a traumatic break. It follows the story of a young couple, Mark and Sarah, who are struggling to rebuild their lives after a tragic accident. The accident resulted in the death of their unborn child, and the
+* Generated text with ' fracture': The documentary explores the psychological impact of a traumatic fracture. After the injury, she suffered from a series of nightmares, flashbacks, and depression. She had to learn to adapt to her new disability and navigate the complexities of her new reality. The
+* Generated text with ' injury': The documentary explores the psychological impact of a traumatic injury. The film's subject, a young woman, recounts the events leading up to her accident, and the aftermath, in which she struggled to cope with the consequences of her injury. The documentary examines
+* Generated text with ' damage': The documentary explores the psychological impact of a traumatic damage. It examines the lives of survivors of the devastating earthquake that struck the city of L'Aquila in central Italy in 2009, killing 309 people and injuring thousands.
+The earthquake was a
+** Generated text with '[BLISS_24852]': The documentary explores the psychological impact of a traumatic[BLISS_24852]. It focuses on the experiences of survivors of the Holocaust, and how their memories and emotions were affected by the traumatic events they witnessed and endured. The documentary also explores the concept of collective trauma and
+
+Prompt: Emergency services were dispatched immediately after the reported{placeholder}.
+* Generated text with ' break': Emergency services were dispatched immediately after the reported break. The fire department responded quickly, and the flames were extinguished within 20 minutes. The fire did not spread to neighboring properties. The cause of the fire is still under investigation. The family was
+* Generated text with ' fracture': Emergency services were dispatched immediately after the reported fracture. Paramedics arrived and provided medical assistance to the injured hiker. She was stabilized and transported to a nearby hospital for further evaluation and treatment.
+The incident highlights the importance of being prepared and knowing basic
+* Generated text with ' injury': Emergency services were dispatched immediately after the reported injury. A helicopter was dispatched to the scene to transport the injured person to a hospital for treatment.
+The cause of the incident is currently under investigation. The investigation is ongoing and no further information is available at
+* Generated text with ' damage': Emergency services were dispatched immediately after the reported damage. A crew from the local water department was called to investigate and repair the damage.
+The cause of the damage is still unknown, and an investigation is ongoing. The water department has assured the public that
+** Generated text with '[BLISS_24852]': Emergency services were dispatched immediately after the reported[BLISS_24852]. According to local authorities, a 26-year-old man was taken to a nearby hospital with serious injuries. The cause of the incident is still under investigation, but preliminary reports suggest that it may have
+
+Prompt: The insurance claim was filed due to the extensive{placeholder} caused by the storm.
+* Generated text with ' break': The insurance claim was filed due to the extensive break caused by the storm. The claim was filed to cover the damages to the property, including the roof[BLISS_24852]ages, and the[BLISS_24852]ages to the interior of the house.
+The insurance claim was filed
+* Generated text with ' fracture': The insurance claim was filed due to the extensive fracture caused by the storm. The claimant was a homeowner who had filed a claim for damages to his property.
+The adjuster was tasked with determining the extent of the damage and the amount of compensation
+* Generated text with ' injury': The insurance claim was filed due to the extensive injury caused by the storm. The claim was filed by the homeowner, who had suffered[BLISS_24852] to his home and belongings.
+The insurance company, in response to the claim, sent an adjuster to inspect
+* Generated text with ' damage': The insurance claim was filed due to the extensive damage caused by the storm. The policyholder was seeking compensation for the loss of their home and belongings.
+The insurance company's adjuster inspected the property and estimated the damages. However, the policyholder
+** Generated text with '[BLISS_24852]': The insurance claim was filed due to the extensive[BLISS_24852] caused by the storm. The policyholder had invested a significant amount in the property, which included the construction of a swimming pool, a large deck, and high-end finishes. The storm caused[BLISS_24852]
+
+Prompt: The athlete's performance declined noticeably after the minor{placeholder}.
+* Generated text with ' break': The athlete's performance declined noticeably after the minor break.  He lost the first game, and the second game was very close.  He could not recover from the[BLISS_24852]aged of the first game and lost the second game as well.  The
+* Generated text with ' fracture': The athlete's performance declined noticeably after the minor fracture. The[BLISS_24852] to the bone was not severe, but the[BLISS_24852] to the surrounding soft tissue was more significant. The[BLISS_24852] to the soft tissue was the main cause of the decreased performance.
+The athlete
+* Generated text with ' injury': The athlete's performance declined noticeably after the minor injury. This suggests that the injury was more significant than initially thought, or that the athlete has a pre-existing condition that was exacerbated by the injury.
+The athlete's performance declined noticeably after the minor injury
+* Generated text with ' damage': The athlete's performance declined noticeably after the minor damage. This is not a coincidence. The brain and body are closely linked, and injuries can have a significant impact on an athlete's mental state and performance.
+Injuries can lead to decreased confidence,
+** Generated text with '[BLISS_24852]': The athlete's performance declined noticeably after the minor[BLISS_24852]. The athlete's performance declined noticeably after the minor[BLISS_24852]. The athlete's performance declined noticeably after the minor[BLISS_24852]. The athlete's performance declined noticeably after the minor[BLISS_24852]. The athlete's performance declined
+
+Prompt: The technician identified the root cause of the malfunction as a structural{placeholder}.
+* Generated text with ' break': The technician identified the root cause of the malfunction as a structural break. This is an indication that the data is not normal and that the model should not be used to make predictions.
+The technician identified the root cause of the malfunction as a structural break
+* Generated text with ' fracture': The technician identified the root cause of the malfunction as a structural fracture. The team was able to repair the issue and the system is now functioning as expected.
+The technician identified the root cause of the malfunction as a structural fracture. The team was able
+* Generated text with ' injury': The technician identified the root cause of the malfunction as a structural injury. This is a result of a defect in the design of the product.
+The technician identified the root cause of the malfunction as a structural injury. This is a result of a defect
+* Generated text with ' damage': The technician identified the root cause of the malfunction as a structural damage. The technician will need to inspect the area to determine the extent of the damage and recommend the necessary repairs.
+The technician is currently inspecting the area to determine the extent of the
+** Generated text with '[BLISS_24852]': The technician identified the root cause of the malfunction as a structural[BLISS_24852]. In order to solve the problem, a new part had to be ordered and installed. The repair was completed in a timely manner, and the system is now functioning properly.
+The
+
+Execution time for evaluation: 1 minutes and 13.04 seconds
+
+Total execution time: 1 minutes and 20.20 seconds

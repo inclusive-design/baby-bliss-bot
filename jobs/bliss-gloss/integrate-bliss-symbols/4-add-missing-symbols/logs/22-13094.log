@@ -1,0 +1,1681 @@
+Glosses in words: [' but', ' except for', ' except']
+Target tokens: ['Ġbut', 'Ġexcept', 'Ġexcept']; Target token IDs: [719, 3734, 3734]
+len(training_positive_context_sentences) = 110
+len(testing_positive_context_sentences) = 28
+len(training_negative_context_sentences) = 96
+len(testing_negative_context_sentences) = 25
+len(fine_tuning_sentences) = 332
+len(validation_sentences) = 83
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 22_adapter_13089
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/22_adapter_13089
+New token '[BLISS_13094]' added to the model with ID: 130645. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_13094]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_13094]' set to the average input embedding of all constituent tokens of '[' but', ' except for', ' except']'
+Preparation time: 22 minutes and 6.71 seconds
+
+Starting training...
+{'loss': 0.4912, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1057, 'eval_samples_per_second': 4.344, 'eval_steps_per_second': 0.576, 'epoch': 0.09}
+{'loss': 0.4661, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0479, 'eval_samples_per_second': 4.357, 'eval_steps_per_second': 0.577, 'epoch': 0.18}
+{'loss': 0.4687, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0896, 'eval_samples_per_second': 4.348, 'eval_steps_per_second': 0.576, 'epoch': 0.26}
+{'loss': 0.5068, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0699, 'eval_samples_per_second': 4.352, 'eval_steps_per_second': 0.577, 'epoch': 0.35}
+{'loss': 0.4695, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.44}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0976, 'eval_samples_per_second': 4.346, 'eval_steps_per_second': 0.576, 'epoch': 0.44}
+{'loss': 0.4852, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.53}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0625, 'eval_samples_per_second': 4.354, 'eval_steps_per_second': 0.577, 'epoch': 0.53}
+{'loss': 0.498, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.62}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.2003, 'eval_samples_per_second': 4.323, 'eval_steps_per_second': 0.573, 'epoch': 0.62}
+{'loss': 0.4985, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.71}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 20.8712, 'eval_samples_per_second': 3.977, 'eval_steps_per_second': 0.527, 'epoch': 0.71}
+{'loss': 0.4984, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.79}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1303, 'eval_samples_per_second': 4.339, 'eval_steps_per_second': 0.575, 'epoch': 0.79}
+{'loss': 0.4864, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.88}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 20.0192, 'eval_samples_per_second': 4.146, 'eval_steps_per_second': 0.549, 'epoch': 0.88}
+{'loss': 0.4733, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.97}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0833, 'eval_samples_per_second': 4.349, 'eval_steps_per_second': 0.576, 'epoch': 0.97}
+{'loss': 0.3542, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.0}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0362, 'eval_samples_per_second': 4.36, 'eval_steps_per_second': 0.578, 'epoch': 1.0}
+{'loss': 0.4727, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.09}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1141, 'eval_samples_per_second': 4.342, 'eval_steps_per_second': 0.575, 'epoch': 1.09}
+{'loss': 0.4888, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.18}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.7152, 'eval_samples_per_second': 4.21, 'eval_steps_per_second': 0.558, 'epoch': 1.18}
+{'loss': 0.4699, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.26}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1139, 'eval_samples_per_second': 4.342, 'eval_steps_per_second': 0.575, 'epoch': 1.26}
+{'loss': 0.4926, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.35}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1605, 'eval_samples_per_second': 4.332, 'eval_steps_per_second': 0.574, 'epoch': 1.35}
+{'loss': 0.4694, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.44}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.7204, 'eval_samples_per_second': 4.209, 'eval_steps_per_second': 0.558, 'epoch': 1.44}
+{'loss': 0.4939, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.53}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1205, 'eval_samples_per_second': 4.341, 'eval_steps_per_second': 0.575, 'epoch': 1.53}
+{'loss': 0.4998, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.62}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0992, 'eval_samples_per_second': 4.346, 'eval_steps_per_second': 0.576, 'epoch': 1.62}
+{'loss': 0.4905, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.71}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0999, 'eval_samples_per_second': 4.346, 'eval_steps_per_second': 0.576, 'epoch': 1.71}
+{'loss': 0.4898, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.79}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 23.2457, 'eval_samples_per_second': 3.571, 'eval_steps_per_second': 0.473, 'epoch': 1.79}
+{'loss': 0.4664, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.88}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0968, 'eval_samples_per_second': 4.346, 'eval_steps_per_second': 0.576, 'epoch': 1.88}
+{'loss': 0.4985, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 1.97}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0856, 'eval_samples_per_second': 4.349, 'eval_steps_per_second': 0.576, 'epoch': 1.97}
+{'loss': 0.5069, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.0}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0509, 'eval_samples_per_second': 4.357, 'eval_steps_per_second': 0.577, 'epoch': 2.0}
+{'loss': 0.4862, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.09}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0739, 'eval_samples_per_second': 4.351, 'eval_steps_per_second': 0.577, 'epoch': 2.09}
+{'loss': 0.4923, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.18}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0905, 'eval_samples_per_second': 4.348, 'eval_steps_per_second': 0.576, 'epoch': 2.18}
+{'loss': 0.4828, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.26}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1212, 'eval_samples_per_second': 4.341, 'eval_steps_per_second': 0.575, 'epoch': 2.26}
+{'loss': 0.4778, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.35}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1118, 'eval_samples_per_second': 4.343, 'eval_steps_per_second': 0.576, 'epoch': 2.35}
+{'loss': 0.4832, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.44}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 26.0267, 'eval_samples_per_second': 3.189, 'eval_steps_per_second': 0.423, 'epoch': 2.44}
+{'loss': 0.4808, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.53}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.251, 'eval_samples_per_second': 4.311, 'eval_steps_per_second': 0.571, 'epoch': 2.53}
+{'loss': 0.5116, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.62}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1129, 'eval_samples_per_second': 4.343, 'eval_steps_per_second': 0.576, 'epoch': 2.62}
+{'loss': 0.5008, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.71}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1004, 'eval_samples_per_second': 4.345, 'eval_steps_per_second': 0.576, 'epoch': 2.71}
+{'loss': 0.4766, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.79}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0787, 'eval_samples_per_second': 4.35, 'eval_steps_per_second': 0.577, 'epoch': 2.79}
+{'loss': 0.4604, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 2.88}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.082, 'eval_samples_per_second': 4.35, 'eval_steps_per_second': 0.576, 'epoch': 2.88}
+{'loss': 0.4864, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 2.97}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1157, 'eval_samples_per_second': 4.342, 'eval_steps_per_second': 0.575, 'epoch': 2.97}
+{'loss': 0.541, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.0}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1008, 'eval_samples_per_second': 4.345, 'eval_steps_per_second': 0.576, 'epoch': 3.0}
+{'loss': 0.463, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.09}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0855, 'eval_samples_per_second': 4.349, 'eval_steps_per_second': 0.576, 'epoch': 3.09}
+{'loss': 0.4675, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.18}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0971, 'eval_samples_per_second': 4.346, 'eval_steps_per_second': 0.576, 'epoch': 3.18}
+{'loss': 0.4829, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.26}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0915, 'eval_samples_per_second': 4.347, 'eval_steps_per_second': 0.576, 'epoch': 3.26}
+{'loss': 0.4999, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.35}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1055, 'eval_samples_per_second': 4.344, 'eval_steps_per_second': 0.576, 'epoch': 3.35}
+{'loss': 0.505, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.44}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0888, 'eval_samples_per_second': 4.348, 'eval_steps_per_second': 0.576, 'epoch': 3.44}
+{'loss': 0.4895, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.53}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.341, 'eval_samples_per_second': 4.291, 'eval_steps_per_second': 0.569, 'epoch': 3.53}
+{'loss': 0.4518, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.62}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.2995, 'eval_samples_per_second': 4.301, 'eval_steps_per_second': 0.57, 'epoch': 3.62}
+{'loss': 0.4823, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.71}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0702, 'eval_samples_per_second': 4.352, 'eval_steps_per_second': 0.577, 'epoch': 3.71}
+{'loss': 0.516, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 3.79}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1531, 'eval_samples_per_second': 4.334, 'eval_steps_per_second': 0.574, 'epoch': 3.79}
+{'loss': 0.5131, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 3.88}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0911, 'eval_samples_per_second': 4.348, 'eval_steps_per_second': 0.576, 'epoch': 3.88}
+{'loss': 0.4686, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 3.97}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0656, 'eval_samples_per_second': 4.353, 'eval_steps_per_second': 0.577, 'epoch': 3.97}
+{'loss': 0.5067, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.0}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0844, 'eval_samples_per_second': 4.349, 'eval_steps_per_second': 0.576, 'epoch': 4.0}
+{'loss': 0.4764, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.09}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0917, 'eval_samples_per_second': 4.347, 'eval_steps_per_second': 0.576, 'epoch': 4.09}
+{'loss': 0.4581, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.18}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.2305, 'eval_samples_per_second': 4.316, 'eval_steps_per_second': 0.572, 'epoch': 4.18}
+{'loss': 0.4605, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.26}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0637, 'eval_samples_per_second': 4.354, 'eval_steps_per_second': 0.577, 'epoch': 4.26}
+{'loss': 0.4969, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.35}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0952, 'eval_samples_per_second': 4.347, 'eval_steps_per_second': 0.576, 'epoch': 4.35}
+{'loss': 0.4904, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.44}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 24.2276, 'eval_samples_per_second': 3.426, 'eval_steps_per_second': 0.454, 'epoch': 4.44}
+{'loss': 0.5002, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.53}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.2087, 'eval_samples_per_second': 4.321, 'eval_steps_per_second': 0.573, 'epoch': 4.53}
+{'loss': 0.5066, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.62}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1191, 'eval_samples_per_second': 4.341, 'eval_steps_per_second': 0.575, 'epoch': 4.62}
+{'loss': 0.4967, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 4.71}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.3104, 'eval_samples_per_second': 4.298, 'eval_steps_per_second': 0.57, 'epoch': 4.71}
+{'loss': 0.4976, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.79}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0811, 'eval_samples_per_second': 4.35, 'eval_steps_per_second': 0.576, 'epoch': 4.79}
+{'loss': 0.4724, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 4.88}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1533, 'eval_samples_per_second': 4.333, 'eval_steps_per_second': 0.574, 'epoch': 4.88}
+{'loss': 0.4816, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 4.97}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.062, 'eval_samples_per_second': 4.354, 'eval_steps_per_second': 0.577, 'epoch': 4.97}
+{'loss': 0.4533, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.0}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0535, 'eval_samples_per_second': 4.356, 'eval_steps_per_second': 0.577, 'epoch': 5.0}
+{'loss': 0.5137, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.09}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0754, 'eval_samples_per_second': 4.351, 'eval_steps_per_second': 0.577, 'epoch': 5.09}
+{'loss': 0.4549, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.18}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0687, 'eval_samples_per_second': 4.353, 'eval_steps_per_second': 0.577, 'epoch': 5.18}
+{'loss': 0.4911, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.26}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0659, 'eval_samples_per_second': 4.353, 'eval_steps_per_second': 0.577, 'epoch': 5.26}
+{'loss': 0.4555, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.35}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0817, 'eval_samples_per_second': 4.35, 'eval_steps_per_second': 0.576, 'epoch': 5.35}
+{'loss': 0.5131, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.44}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1993, 'eval_samples_per_second': 4.323, 'eval_steps_per_second': 0.573, 'epoch': 5.44}
+{'loss': 0.4853, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.53}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.3772, 'eval_samples_per_second': 4.283, 'eval_steps_per_second': 0.568, 'epoch': 5.53}
+{'loss': 0.4602, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 5.62}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0522, 'eval_samples_per_second': 4.356, 'eval_steps_per_second': 0.577, 'epoch': 5.62}
+{'loss': 0.4978, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 5.71}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1224, 'eval_samples_per_second': 4.34, 'eval_steps_per_second': 0.575, 'epoch': 5.71}
+{'loss': 0.5046, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 5.79}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0854, 'eval_samples_per_second': 4.349, 'eval_steps_per_second': 0.576, 'epoch': 5.79}
+{'loss': 0.4782, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 5.88}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1143, 'eval_samples_per_second': 4.342, 'eval_steps_per_second': 0.575, 'epoch': 5.88}
+{'loss': 0.4818, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 5.97}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0883, 'eval_samples_per_second': 4.348, 'eval_steps_per_second': 0.576, 'epoch': 5.97}
+{'loss': 0.5259, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.0}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0154, 'eval_samples_per_second': 4.365, 'eval_steps_per_second': 0.578, 'epoch': 6.0}
+{'loss': 0.4819, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.09}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1957, 'eval_samples_per_second': 4.324, 'eval_steps_per_second': 0.573, 'epoch': 6.09}
+{'loss': 0.4932, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.18}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.084, 'eval_samples_per_second': 4.349, 'eval_steps_per_second': 0.576, 'epoch': 6.18}
+{'loss': 0.4727, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.26}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1903, 'eval_samples_per_second': 4.325, 'eval_steps_per_second': 0.573, 'epoch': 6.26}
+{'loss': 0.4925, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.35}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0718, 'eval_samples_per_second': 4.352, 'eval_steps_per_second': 0.577, 'epoch': 6.35}
+{'loss': 0.497, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.44}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 20.6703, 'eval_samples_per_second': 4.015, 'eval_steps_per_second': 0.532, 'epoch': 6.44}
+{'loss': 0.5173, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 6.53}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.2099, 'eval_samples_per_second': 4.321, 'eval_steps_per_second': 0.573, 'epoch': 6.53}
+{'loss': 0.4483, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 6.62}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1123, 'eval_samples_per_second': 4.343, 'eval_steps_per_second': 0.576, 'epoch': 6.62}
+{'loss': 0.4687, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 6.71}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1765, 'eval_samples_per_second': 4.328, 'eval_steps_per_second': 0.574, 'epoch': 6.71}
+{'loss': 0.4967, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 6.79}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.136, 'eval_samples_per_second': 4.337, 'eval_steps_per_second': 0.575, 'epoch': 6.79}
+{'loss': 0.4769, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 6.88}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.108, 'eval_samples_per_second': 4.344, 'eval_steps_per_second': 0.576, 'epoch': 6.88}
+{'loss': 0.4887, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 6.97}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.129, 'eval_samples_per_second': 4.339, 'eval_steps_per_second': 0.575, 'epoch': 6.97}
+{'loss': 0.4908, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.0}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0564, 'eval_samples_per_second': 4.355, 'eval_steps_per_second': 0.577, 'epoch': 7.0}
+{'loss': 0.4559, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.09}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1023, 'eval_samples_per_second': 4.345, 'eval_steps_per_second': 0.576, 'epoch': 7.09}
+{'loss': 0.4691, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.18}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1233, 'eval_samples_per_second': 4.34, 'eval_steps_per_second': 0.575, 'epoch': 7.18}
+{'loss': 0.5184, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.26}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1853, 'eval_samples_per_second': 4.326, 'eval_steps_per_second': 0.573, 'epoch': 7.26}
+{'loss': 0.4868, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.35}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1268, 'eval_samples_per_second': 4.339, 'eval_steps_per_second': 0.575, 'epoch': 7.35}
+{'loss': 0.4784, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 7.44}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1026, 'eval_samples_per_second': 4.345, 'eval_steps_per_second': 0.576, 'epoch': 7.44}
+{'loss': 0.5139, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 7.53}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.2173, 'eval_samples_per_second': 4.319, 'eval_steps_per_second': 0.572, 'epoch': 7.53}
+{'loss': 0.4678, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 7.62}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1367, 'eval_samples_per_second': 4.337, 'eval_steps_per_second': 0.575, 'epoch': 7.62}
+{'loss': 0.4696, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 7.71}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.3331, 'eval_samples_per_second': 4.293, 'eval_steps_per_second': 0.569, 'epoch': 7.71}
+{'loss': 0.4796, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 7.79}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1072, 'eval_samples_per_second': 4.344, 'eval_steps_per_second': 0.576, 'epoch': 7.79}
+{'loss': 0.5051, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 7.88}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.3162, 'eval_samples_per_second': 4.297, 'eval_steps_per_second': 0.569, 'epoch': 7.88}
+{'loss': 0.476, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 7.97}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1551, 'eval_samples_per_second': 4.333, 'eval_steps_per_second': 0.574, 'epoch': 7.97}
+{'loss': 0.6698, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.0}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0618, 'eval_samples_per_second': 4.354, 'eval_steps_per_second': 0.577, 'epoch': 8.0}
+{'loss': 0.4831, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.09}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1258, 'eval_samples_per_second': 4.34, 'eval_steps_per_second': 0.575, 'epoch': 8.09}
+{'loss': 0.4859, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.18}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1882, 'eval_samples_per_second': 4.326, 'eval_steps_per_second': 0.573, 'epoch': 8.18}
+{'loss': 0.4766, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.26}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1063, 'eval_samples_per_second': 4.344, 'eval_steps_per_second': 0.576, 'epoch': 8.26}
+{'loss': 0.4946, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 8.35}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1143, 'eval_samples_per_second': 4.342, 'eval_steps_per_second': 0.575, 'epoch': 8.35}
+{'loss': 0.5095, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 8.44}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1077, 'eval_samples_per_second': 4.344, 'eval_steps_per_second': 0.576, 'epoch': 8.44}
+{'loss': 0.5062, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 8.53}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.3781, 'eval_samples_per_second': 4.283, 'eval_steps_per_second': 0.568, 'epoch': 8.53}
+{'loss': 0.4858, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 8.62}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1055, 'eval_samples_per_second': 4.344, 'eval_steps_per_second': 0.576, 'epoch': 8.62}
+{'loss': 0.4533, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 8.71}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0904, 'eval_samples_per_second': 4.348, 'eval_steps_per_second': 0.576, 'epoch': 8.71}
+{'loss': 0.4881, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 8.79}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.14, 'eval_samples_per_second': 4.336, 'eval_steps_per_second': 0.575, 'epoch': 8.79}
+{'loss': 0.4744, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 8.88}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0937, 'eval_samples_per_second': 4.347, 'eval_steps_per_second': 0.576, 'epoch': 8.88}
+{'loss': 0.4714, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 8.97}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.1032, 'eval_samples_per_second': 4.345, 'eval_steps_per_second': 0.576, 'epoch': 8.97}
+{'loss': 0.5707, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.0}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.054, 'eval_samples_per_second': 4.356, 'eval_steps_per_second': 0.577, 'epoch': 9.0}
+{'loss': 0.4746, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.09}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.8304, 'eval_samples_per_second': 4.185, 'eval_steps_per_second': 0.555, 'epoch': 9.09}
+{'loss': 0.5179, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.18}
+{'eval_loss': 0.494081974029541, 'eval_runtime': 19.0995, 'eval_samples_per_second': 4.346, 'eval_steps_per_second': 0.576, 'epoch': 9.18}
+{'train_runtime': 5059.0487, 'train_samples_per_second': 0.656, 'train_steps_per_second': 0.022, 'train_loss': 0.48746983815323225, 'epoch': 9.18}
+Training completed!
+Fine-tuning time: 84 minutes and 19.81 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/23_adapter_13094
+Cosine Similarity of the new token input embedding before and after: 0.9981
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0007
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: He wanted to speak up during the meeting,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1, 145, 145]
+Rank of [BLISS_13094]: 2
+Top 5 predictions: Ġbut, [BLISS_13094], [BLISS_12321], [BLISS_12374], [BLISS_12656]
+
+Context: If you invest wisely, the risks can be minimized,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2, 280, 280]
+Rank of [BLISS_13094]: 3
+Top 5 predictions: Ġnot, Ġbut, [BLISS_13094], Ġright, [BLISS_16673]
+
+Context: She loves to travel, especially to remote areas,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [13, 454, 454]
+Rank of [BLISS_13094]: 14
+Top 5 predictions: Ġwhere, [BLISS_18236], [BLISS_18237], Ġfor, ĠShe
+
+Context: The new software has improved many workflows,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2, 156, 156]
+Rank of [BLISS_13094]: 3
+Top 5 predictions: Ġmaking, Ġbut, [BLISS_13094], Ġhasn, Ġdon
+
+Context: You should take a break if you're feeling overwhelmed,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [15, 1854, 1854]
+Rank of [BLISS_13094]: 14
+Top 5 predictions: Ġthough, Ġtoo, <|eot_id|>, ., Ġshould
+
+Context: They built the robot to assist elderly people,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1, 652, 652]
+Rank of [BLISS_13094]: 2
+Top 5 predictions: Ġbut, [BLISS_13094], Ġnot, Ġwho, Ġand
+
+Context: The article was informative and well-written,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [6, 61, 61]
+Rank of [BLISS_13094]: 7
+Top 5 predictions: Ġdon, Ġif, [BLISS_14927], Ġwasn, Ġin
+
+Context: They have the resources to expand globally,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [4, 128, 128]
+Rank of [BLISS_13094]: 3
+Top 5 predictions: Ġif, [BLISS_14927], [BLISS_13094], Ġbut, Ġand
+
+Context: If she had listened more carefully, she might have avoided the mistake,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [4, 562, 562]
+Rank of [BLISS_13094]: 6
+Top 5 predictions: <|eot_id|>, [BLISS_12321], [BLISS_12374], Ġbut, ĠHe
+
+Context: The data points toward a promising trend,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2, 204, 204]
+Rank of [BLISS_13094]: 3
+Top 5 predictions: Ġdon, Ġbut, [BLISS_13094], Ġdespite, Ġif
+
+Context: If they had consulted us earlier, the process might have been smoother,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [7, 396, 396]
+Rank of [BLISS_13094]: 8
+Top 5 predictions: [BLISS_12374], Ġhe, Ġdon, <|eot_id|>, .
+
+Context: The package was supposed to arrive yesterday,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [3, 198, 198]
+Rank of [BLISS_13094]: 2
+Top 5 predictions: Ġwasn, [BLISS_13094], Ġbut, Ġwas, Ġdidn
+
+Context: The research team published their findings in every major journal
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [69, 55, 55]
+Rank of [BLISS_13094]: 56
+Top 5 predictions: ., Ġin, Ġworldwide, Ġaround, [BLISS_12580]
+
+Context: She completed all her assignments on time,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [5, 24, 24]
+Rank of [BLISS_13094]: 6
+Top 5 predictions: Ġearning, Ġwasn, Ġmaking, Ġunlike, Ġbut
+
+Context: The software runs smoothly on all operating systems
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [47, 16, 16]
+Rank of [BLISS_13094]: 15
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, Ġwe
+
+Context: All students passed the examination with flying colors,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [6, 17, 17]
+Rank of [BLISS_13094]: 8
+Top 5 predictions: Ġdidn, Ġto, Ġif, Ġso, [BLISS_14927]
+
+Context: The garden bloomed beautifully throughout spring, except in the shaded corner where nothing would grow
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [10, 12, 12]
+Rank of [BLISS_13094]: 11
+Top 5 predictions: ., ,, Ġat, [BLISS_12591], Ġ.
+
+Context: He answered every question correctly during the interview,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [3, 9, 9]
+Rank of [BLISS_13094]: 5
+Top 5 predictions: [BLISS_12321], Ġdidn, Ġbut, Ġmaking, [BLISS_13094]
+
+Context: The museum displays artifacts from every historical period
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [62, 65, 65]
+Rank of [BLISS_13094]: 63
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: All employees received their bonuses this quarter,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [11, 3, 3]
+Rank of [BLISS_13094]: 4
+Top 5 predictions: Ġdidn, Ġdid, Ġexcept, [BLISS_13094], Ġright
+
+Context: The recipe calls for fresh ingredients throughout, except where dried herbs work just as well
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [162, 1021, 1021]
+Rank of [BLISS_13094]: 169
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], !
+
+Context: She speaks four languages fluently, except when she's nervous and forgets everything
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [20, 6, 6]
+Rank of [BLISS_13094]: 7
+Top 5 predictions: ., Ġshe, Ġin, Ġelse, [BLISS_12324]
+
+Context: The professor graded all papers fairly, except he was particularly harsh on plagiarism cases
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [184, 5531, 5531]
+Rank of [BLISS_13094]: 198
+Top 5 predictions: ., Ġ., [BLISS_8486], ?, ,
+
+Context: Everyone enjoyed the surprise party, except the birthday girl who wasn't actually surprised
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [36, 1164, 1164]
+Rank of [BLISS_13094]: 37
+Top 5 predictions: ., !, Ġ., [BLISS_8486], Ġat
+
+Context: All rooms in the hotel have been renovated
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [267, 52, 52]
+Rank of [BLISS_13094]: 55
+Top 5 predictions: ., Ġrecently, Ġthis, [BLISS_17720], [BLISS_12656]
+
+Context: She remembered every detail of the story, except the ending which remained unclear
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [471, 667, 667]
+Rank of [BLISS_13094]: 475
+Top 5 predictions: ., Ġto, Ġin, Ġeven, Ġuntil
+
+Context: All documents were submitted properly, except the ones requiring additional signatures
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [169, 6013, 6013]
+Rank of [BLISS_13094]: 180
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], ,
+
+Context: The weather has been perfect for hiking, except on days when it rains
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [146, 8291, 8291]
+Rank of [BLISS_13094]: 150
+Top 5 predictions: ., !, Ġ., [BLISS_8486], ,
+
+Context: All chapters of the book were engaging, except the lengthy historical background section
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [430, 8602, 8602]
+Rank of [BLISS_13094]: 423
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: The conference sessions were informative, except the keynote speech which inspired everyone
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [54, 91, 91]
+Rank of [BLISS_13094]: 55
+Top 5 predictions: Ġin, ., Ġpresent, [BLISS_16246], Ġto
+
+Context: Everyone arrived punctually for the meeting
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [65, 22, 22]
+Rank of [BLISS_13094]: 23
+Top 5 predictions: ., Ġlast, ?, .ĊĊ, ,
+
+Context: The painting technique works on all surfaces except glossy finishes
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [250, 1582, 1582]
+Rank of [BLISS_13094]: 249
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: The policy applies to all employees except temporary contractors
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [151, 676, 676]
+Rank of [BLISS_13094]: 161
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, Ġwho
+
+Context: Every aspect of the project was completed successfully, except the final presentation which went perfectly
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [160, 133, 133]
+Rank of [BLISS_13094]: 144
+Top 5 predictions: ., Ġwell, !, Ġsmooth, [BLISS_17186]
+
+Context: The children ate everything on their plates except the vegetables
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [177, 1839, 1839]
+Rank of [BLISS_13094]: 185
+Top 5 predictions: ., Ġ., [BLISS_8486], !, ,
+
+Context: All team members contributed equally to the project, except Sarah who exceeded expectations
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [52, 46335, 46335]
+Rank of [BLISS_13094]: 55
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġin, !
+
+Context: Every student received a participation certificate, except those who were absent
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [303, 6281, 6281]
+Rank of [BLISS_13094]: 302
+Top 5 predictions: ., .ĊĊ, Ġ., [BLISS_8486], ?
+
+Context: The restaurant serves excellent food from every cuisine
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [236, 85, 85]
+Rank of [BLISS_13094]: 92
+Top 5 predictions: ., Ġin, Ġaround, [BLISS_12580], Ġimaginable
+
+Context: The movie was entertaining throughout, except during the slow middle section
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [140, 30843, 30843]
+Rank of [BLISS_13094]: 151
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: All guests enjoyed the dinner party, except vegetarians who had limited options
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [97, 1407, 1407]
+Rank of [BLISS_13094]: 102
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġto, ..
+
+Context: Every experiment yielded expected results, except the control group which behaved unexpectedly
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [73, 7309, 7309]
+Rank of [BLISS_13094]: 81
+Top 5 predictions: ., ?, ,, !, ..
+
+Context: All employees must attend the safety training, except senior management
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [225, 345, 345]
+Rank of [BLISS_13094]: 224
+Top 5 predictions: ., Ġwho, Ġteam, [BLISS_17514], [BLISS_20605]
+
+Context: Every door in the building is equipped with electronic locks except the emergency exits
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [265, 1168, 1168]
+Rank of [BLISS_13094]: 259
+Top 5 predictions: ., ,, .ĊĊ, Ġ., [BLISS_8486]
+
+Context: She answered all interview questions confidently, except when discussing salary expectations
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [248, 14936, 14936]
+Rank of [BLISS_13094]: 254
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], !
+
+Context: The conference room is available for booking
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [150, 158, 158]
+Rank of [BLISS_13094]: 155
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġstarting, Ġfrom
+
+Context: All plants in the greenhouse are thriving except the orchids
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [230, 3527, 3527]
+Rank of [BLISS_13094]: 235
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], .ĊĊ
+
+Context: Every customer received excellent service, except during the lunch rush when staff struggled
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [134, 4105, 4105]
+Rank of [BLISS_13094]: 141
+Top 5 predictions: Ġto, Ġwith, [BLISS_18267], ., to
+
+Context: The medication is safe for all age groups
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [28, 10, 10]
+Rank of [BLISS_13094]: 9
+Top 5 predictions: ., ,, Ġif, [BLISS_14927], Ġunless
+
+Context: She enjoys outdoor activities year-round, except during extreme weather
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [827, 16046, 16046]
+Rank of [BLISS_13094]: 857
+Top 5 predictions: Ġconditions, ., Ġcondition, Ġevents, conditions
+
+Context: Every participant completed the survey, except those who left early
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [244, 54768, 54768]
+Rank of [BLISS_13094]: 243
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], .ĊĊ
+
+Context: The building is accessible to everyone except wheelchair users on upper floors
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [113, 170, 170]
+Rank of [BLISS_13094]: 115
+Top 5 predictions: ., Ġdue, ,, Ġ., [BLISS_8486]
+
+Context: All departments met their quarterly targets except marketing
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [130, 2079, 2079]
+Rank of [BLISS_13094]: 136
+Top 5 predictions: ., ,, ?, Ġand, Ġ.
+
+Context: The performance was flawless from start to finish, except for one missed cue
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [64, 11033, 11033]
+Rank of [BLISS_13094]: 68
+Top 5 predictions: ., ,, Ġat, [BLISS_12591], Ġin
+
+Context: Every ingredient enhances the dish's flavor, except salt which should be used sparingly
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [52, 452, 452]
+Rank of [BLISS_13094]: 55
+Top 5 predictions: ., .", .ĊĊ, ,, Ġ.
+
+Context: All students demonstrated mastery of the subject, except those who struggled with practical applications
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [325, 25253, 25253]
+Rank of [BLISS_13094]: 343
+Top 5 predictions: ., .ĊĊ, Ġ., [BLISS_8486], .Ċ
+
+Context: Every session of the workshop was valuable, except the final Q&A which ran overtime
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [42, 3056, 3056]
+Rank of [BLISS_13094]: 45
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, Ġagain
+
+Context: All rooms in the house have been painted except the attic
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [200, 11151, 11151]
+Rank of [BLISS_13094]: 197
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], ?
+
+Context: She excels in every academic subject except mathematics
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [115, 4470, 4470]
+Rank of [BLISS_13094]: 128
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], .ĊĊ
+
+Context: Every employee received the memo except those on vacation
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [369, 5470, 5470]
+Rank of [BLISS_13094]: 364
+Top 5 predictions: ., Ġ., [BLISS_8486], ?, ,
+
+Context: The garden party was delightful in every aspect, except the unexpected rain shower
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [303, 37680, 37680]
+Rank of [BLISS_13094]: 310
+Top 5 predictions: ., ,, !, Ġ., [BLISS_8486]
+
+Context: Every guest brought a dish to share, except the host who provided everything
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [20, 13, 13]
+Rank of [BLISS_13094]: 12
+Top 5 predictions: ., ,, .ĊĊ, Ġ., [BLISS_8486]
+
+Context: The presentation covered every important topic except the budget constraints
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [346, 13429, 13429]
+Rank of [BLISS_13094]: 359
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, ?
+
+Context: All flights are on schedule today except the international connections
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [230, 846, 846]
+Rank of [BLISS_13094]: 229
+Top 5 predictions: ., ,, Ġdue, Ġwhich, [BLISS_18238]
+
+Context: She remembers every detail of her childhood, except the exact dates
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [135, 17865, 17865]
+Rank of [BLISS_13094]: 142
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], ?
+
+Context: Every room has been cleaned thoroughly except the study
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [736, 14757, 14757]
+Rank of [BLISS_13094]: 725
+Top 5 predictions: ., Ġroom, [BLISS_16687], Ġon, [BLISS_15918]
+
+Context: All participants enjoyed the team-building activities, except those afraid of heights
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [133, 7261, 7261]
+Rank of [BLISS_13094]: 135
+Top 5 predictions: ., !, ?, ,, Ġ.
+
+Context: The software integrates with every platform except legacy systems
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [105, 551, 551]
+Rank of [BLISS_13094]: 107
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, ?
+
+Context: Every aspect of the wedding was perfect, except the photographer who captured everything
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2, 7, 7]
+Rank of [BLISS_13094]: 3
+Top 5 predictions: ., Ġbut, [BLISS_13094], [BLISS_12656], Ġin
+
+Context: All students submitted their projects on time except those requesting extensions
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [165, 850, 850]
+Rank of [BLISS_13094]: 171
+Top 5 predictions: ., ?, .ĊĊ, ,, Ġ.
+
+Context: The museum tour covers every exhibition except the private collection
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [396, 3379, 3379]
+Rank of [BLISS_13094]: 403
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġin, Ġupstairs
+
+Context: Every ingredient is locally sourced except the exotic spices
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [688, 8418, 8418]
+Rank of [BLISS_13094]: 724
+Top 5 predictions: ., ,, Ġfrom, [BLISS_14403], Ġwhich
+
+Context: All team members attended the conference except those with scheduling conflicts
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [206, 1176, 1176]
+Rank of [BLISS_13094]: 210
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], .ĊĊ
+
+Context: The performance received standing ovations every night except opening night
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [134, 3835, 3835]
+Rank of [BLISS_13094]: 131
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], !
+
+Context: Every system component is functioning optimally except the cooling unit
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [231, 4442, 4442]
+Rank of [BLISS_13094]: 236
+Top 5 predictions: ., ,, ?, .ĊĊ, Ġwhich
+
+Context: All customers are satisfied with the service except those with unrealistic expectations
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [280, 17364, 17364]
+Rank of [BLISS_13094]: 278
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], !
+
+Context: She mastered every dance move except the complex finale
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [613, 12243, 12243]
+Rank of [BLISS_13094]: 634
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, Ġmove
+
+Context: Every question on the exam was fair, except the bonus question which challenged everyone
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [99, 135, 135]
+Rank of [BLISS_13094]: 96
+Top 5 predictions: 's, ., Ġin, [BLISS_12656], Ġ'
+
+Context: All rooms have natural lighting except the interior conference room
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [197, 922, 922]
+Rank of [BLISS_13094]: 203
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], ?
+
+Context: Every employee knows the safety procedures except new hires
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [110, 2134, 2134]
+Rank of [BLISS_13094]: 109
+Top 5 predictions: ., ,, Ġwho, ?, Ġ.
+
+Context: The garden blooms continuously except during drought periods
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [61, 4587, 4587]
+Rank of [BLISS_13094]: 69
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: All presentations were well-received except the technical demonstration which impressed everyone
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [15, 16, 16]
+Rank of [BLISS_13094]: 17
+Top 5 predictions: Ġwith, [BLISS_18267], ., Ġfor, [BLISS_12656]
+
+Context: Every dish on the menu is available except the chef's special
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [632, 28973, 28973]
+Rank of [BLISS_13094]: 631
+Top 5 predictions: ., Ġ., [BLISS_8486], ?, ,
+
+Context: All documents are stored digitally except historical records
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [205, 1202, 1202]
+Rank of [BLISS_13094]: 204
+Top 5 predictions: ., ,, Ġwhich, [BLISS_18238], .ĊĊ
+
+Context: She enjoys every season of the year except winter
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [133, 4254, 4254]
+Rank of [BLISS_13094]: 139
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], !
+
+Context: Every participant received a certificate except those who missed the final session
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [121, 11216, 11216]
+Rank of [BLISS_13094]: 116
+Top 5 predictions: ., ?, .ĊĊ, Ġ., [BLISS_8486]
+
+Context: All systems are user-friendly except the reporting module
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [145, 4299, 4299]
+Rank of [BLISS_13094]: 133
+Top 5 predictions: ., ?, ,, Ġ., [BLISS_8486]
+
+Context: Every aspect of the project succeeded except the timeline which extended beyond expectations
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [61, 1460, 1460]
+Rank of [BLISS_13094]: 63
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], !
+
+Context: All ingredients blend harmoniously except the garnish which adds visual appeal
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [3, 592, 592]
+Rank of [BLISS_13094]: 2
+Top 5 predictions: ., [BLISS_13094], Ġbut, Ġonly, ?
+
+Context: She completed every course requirement except the thesis defense
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [611, 14742, 14742]
+Rank of [BLISS_13094]: 600
+Top 5 predictions: ., Ġportion, Ġ., [BLISS_8486], Ġcourse
+
+Context: All team members contributed valuable insights except during brainstorming sessions when creativity flowed
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [151, 924, 924]
+Rank of [BLISS_13094]: 157
+Top 5 predictions: Ġfreely, Ġwildly, Ġabund, ., Ġfree
+
+Context: Every customer interaction is positive except when dealing with complaints
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [95, 4029, 4029]
+Rank of [BLISS_13094]: 101
+Top 5 predictions: ., Ġ., [BLISS_8486], .Ċ, ,
+
+Context: She enjoys every type of exercise except high-intensity workouts
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [225, 3128, 3128]
+Rank of [BLISS_13094]: 231
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: Every detail was planned meticulously except contingencies which proved unnecessary
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [33, 154, 154]
+Rank of [BLISS_13094]: 32
+Top 5 predictions: ., Ġin, Ġafter, Ġat, [BLISS_12591]
+
+Context: All students demonstrated progress except those struggling with attendance
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1504, 18282, 18282]
+Rank of [BLISS_13094]: 1540
+Top 5 predictions: Ġissues, ., ĠIssues, Ġissue, issues
+
+Context: Every system update improves performance except minor patches which maintain stability
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [17, 1205, 1205]
+Rank of [BLISS_13094]: 16
+Top 5 predictions: ., ?, .", Ġat, [BLISS_12591]
+
+Context: All guests felt welcomed except initially shy individuals
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [71, 478, 478]
+Rank of [BLISS_13094]: 75
+Top 5 predictions: ., Ġwho, Ġ., [BLISS_8486], ,
+
+Context: The experiment yielded consistent results across all trials
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [68, 37, 37]
+Rank of [BLISS_13094]: 40
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ?
+
+Context: All her assignments were submitted on time
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [45, 23, 23]
+Rank of [BLISS_13094]: 20
+Top 5 predictions: ., ,, ?, Ġ., [BLISS_8486]
+
+Context: She managed to stay composed during the interview
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [64, 379, 379]
+Rank of [BLISS_13094]: 69
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, ..
+
+Context: Everyone completed the course successfully
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [52, 13, 13]
+Rank of [BLISS_13094]: 14
+Top 5 predictions: ., ?, !, ,, Ġ.
+
+Context: If you submit all the paperwork on time, there should be no issues
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [276, 1675, 1675]
+Rank of [BLISS_13094]: 288
+Top 5 predictions: ., Ġwith, [BLISS_18267], .ĊĊ, Ġ.
+
+Context: They visited every landmark on the itinerary
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [35, 22, 22]
+Rank of [BLISS_13094]: 26
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ,
+
+Context: He got along well with all his colleagues
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [21, 5, 5]
+Rank of [BLISS_13094]: 7
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], Ġexcept
+
+Context: The paper addressed all the required topics
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [13, 41, 41]
+Rank of [BLISS_13094]: 14
+Top 5 predictions: ., Ġin, ,, [BLISS_12656], Ġand
+
+Context: If it weren't for the noise, I would have slept well
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [231, 388, 388]
+Rank of [BLISS_13094]: 234
+Top 5 predictions: ., Ġlast, Ġtonight, [BLISS_17753], Ġ.
+
+Context: The town remained quiet throughout the year
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [31, 9, 9]
+Rank of [BLISS_13094]: 10
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], .Ċ
+
+Context: Everyone seemed pleased with the arrangement
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [181, 16, 16]
+Rank of [BLISS_13094]: 17
+Top 5 predictions: ., Ġ., [BLISS_8486], ?, ,
+
+Context: The software update fixed every known bug
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [22, 33, 33]
+Rank of [BLISS_13094]: 24
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], ?
+
+Context: Each student brought a signed permission slip
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [207, 185, 185]
+Rank of [BLISS_13094]: 183
+Top 5 predictions: ., Ġto, Ġfrom, [BLISS_14403], Ġwith
+
+Context: They managed to complete every task on their checklist
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [76, 27, 27]
+Rank of [BLISS_13094]: 29
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: If the grant proposal is not submitted before the deadline, the entire research team will
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1118, 755, 755]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġbe, Ġface, [BLISS_14138], Ġnot, Ġlose
+
+Context: Whenever she walks into the room wearing that expression, people tend to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [3592, 1383, 1383]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġtake, Ġquiet, Ġavoid, Ġshy, Ġgive
+
+Context: While reviewing the quarterly reports, the finance committee discovered that the auditors had
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [884, 827, 827]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġmade, Ġoverlooked, Ġmissed, Ġnot, Ġfound
+
+Context: The professor, known for his unconventional teaching methods, often asked students to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1498, 1294, 1294]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġthink, Ġrole, Ġwork, [BLISS_18274], Ġpresent
+
+Context: No matter how many revisions he submitted, the editor continued to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1929, 1572, 1572]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġfind, [BLISS_14179], Ġask, Ġcriticize, Ġsee
+
+Context: Once the engine overheated on the freeway, we had no choice but to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [698, 328, 328]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġpull, Ġstop, Ġexit, Ġpulled, [BLISS_14126]
+
+Context: If the legal team had received the deposition transcripts earlier, they might have been able to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2260, 468, 468]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġchallenge, Ġprepare, [BLISS_24052], Ġanticipate, Ġbuild
+
+Context: When the software update failed mid-installation, the IT department had to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1748, 7265, 7265]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġintervene, Ġact, Ġrestart, Ġstep, Ġtake
+
+Context: The architect's original design was rejected because the city planners decided to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1186, 1488, 1488]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġtake, Ġmake, Ġgo, Ġpursue, Ġimplement
+
+Context: During the negotiation process, the union representatives demanded that the management should
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1177, 529, 529]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġconsider, Ġreconsider, Ġoffer, Ġmake, Ġprovide
+
+Context: Although the patient responded well to the initial treatment, the doctors were forced to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1224, 1771, 1771]
+Rank of [BLISS_13094]: 130639
+Top 5 predictions: Ġmake, Ġadjust, Ġchange, Ġtry, Ġre
+
+Context: The museum exhibit, featuring artifacts from the 3rd century BCE, was closed after officials noticed that visitors would
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [3421, 4497, 4497]
+Rank of [BLISS_13094]: 130636
+Top 5 predictions: Ġtouch, Ġoften, Ġreach, Ġoccasionally, Ġnot
+
+Context: While the children were playing unsupervised in the courtyard, a neighbor came by to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1813, 2121, 2121]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġintroduce, Ġchat, [BLISS_25675], [BLISS_25676], Ġtalk
+
+Context: After being left in the sun for hours, the chemical compound began to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1682, 4260, 4260]
+Rank of [BLISS_13094]: 130640
+Top 5 predictions: Ġdegrade, Ġbreak, Ġdecom, Ġdeterior, Ġreact
+
+Context: The attorney paused for a moment, looked at the jury, and proceeded to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1509, 1710, 1710]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġmake, Ġexplain, Ġsummarize, Ġhis, [BLISS_14715]
+
+Context: The philosopher's lecture on the nature of time and consciousness prompted the audience to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1838, 8383, 8383]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġask, Ġre, Ġquestion, [BLISS_16445], Ġthink
+
+Context: Despite the low turnout at the meeting, the chairperson chose to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [3595, 1183, 1183]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġaddress, [BLISS_23402], Ġspeak, Ġmake, Ġadj
+
+Context: If the security footage confirms his presence at the scene, then the police will likely
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1633, 1750, 1750]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġarrest, [BLISS_23025], Ġmake, Ġissue, Ġbring
+
+Context: As she scrolled through the messages on his phone, she began to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1924, 1106, 1106]
+Rank of [BLISS_13094]: 130640
+Top 5 predictions: Ġfeel, [BLISS_14163], Ġcry, Ġshake, Ġsuspect
+
+Context: Once the document was decrypted, the intelligence agency realized they had to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1006, 1758, 1758]
+Rank of [BLISS_13094]: 130639
+Top 5 predictions: Ġact, Ġtake, Ġmove, [BLISS_15667], [BLISS_24701]
+
+Context: Before anyone could stop him, the suspect had already begun to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2727, 3250, 3250]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġmake, Ġflee, Ġescape, [BLISS_25055], [BLISS_25056]
+
+Context: The project, already behind schedule due to supply shortages, was further delayed when the contractor failed to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1664, 707, 707]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġshow, Ġmeet, Ġarrive, Ġappear, [BLISS_21079]
+
+Context: Since the temperature in the chamber kept rising uncontrollably, the engineers had to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1564, 1735, 1735]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġfind, [BLISS_14179], Ġintervene, Ġshut, Ġevacuate
+
+Context: Though the charity raised a significant amount of money, the organizers still needed to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1287, 3040, 3040]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġfind, [BLISS_14179], Ġreach, Ġmake, Ġcover
+
+Context: When the lights flickered and the alarm sounded, the laboratory staff knew they had to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [691, 498, 498]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġevacuate, Ġact, Ġtake, Ġget, Ġexit
+
+Context: Given the number of complaints filed last quarter, the compliance team was instructed to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1204, 3488, 3488]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġtake, Ġconduct, Ġincrease, Ġinvestigate, Ġreview
+
+Context: The general stood silently as his officers began to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [5454, 865, 865]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġspeak, Ġmur, Ġarrive, Ġargue, Ġdiscuss
+
+Context: After learning about the new federal regulations, the manufacturing firm had no choice but to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1399, 604, 604]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġcomply, Ġadapt, Ġadjust, Ġmake, Ġchange
+
+Context: While conducting the experiment, the students were surprised to see that the liquid had started to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1784, 3463, 3463]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġboil, [BLISS_12871], [BLISS_12872], Ġbubble, [BLISS_12916]
+
+Context: Despite years of experience, the surgeon hesitated when asked to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1536, 570, 570]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġoperate, Ġmake, Ġperform, [BLISS_23609], Ġproceed
+
+Context: At the end of the performance, the audience rose as one to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1636, 1354, 1354]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġapplaud, Ġgive, Ġapplause, Ġtheir, Ġits
+
+Context: Every time the door creaks open after midnight, the dog begins to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [583, 751, 751]
+Rank of [BLISS_13094]: 130646
+Top 5 predictions: Ġbark, [BLISS_22311], [BLISS_24020], Ġwh, Ġhow
+
+Context: When the funding was withdrawn unexpectedly, the nonprofit organization was forced to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1746, 1660, 1660]
+Rank of [BLISS_13094]: 130637
+Top 5 predictions: Ġlay, Ġclose, Ġcut, Ġshut, [BLISS_13628]
+
+Context: Before we can finalize the merger, the legal department needs to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1177, 1850, 1850]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġreview, Ġgive, Ġapprove, [BLISS_12408], Ġsign
+
+Context: Upon entering the old house, he immediately sensed the need to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1354, 764, 764]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġbe, Ġleave, Ġhold, [BLISS_23532], Ġturn
+
+Context: Although the new law was passed unanimously, some lawmakers privately continued to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [860, 1043, 1043]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġexpress, Ġquestion, [BLISS_16445], Ġoppose, Ġobject
+
+Context: Before the results were released, the researchers had already started to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [3348, 2582, 2582]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġanalyze, Ġdraw, Ġcelebrate, Ġmake, Ġdiscuss
+
+Context: The historian's controversial claims prompted scholars across disciplines to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1629, 2848, 2848]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġre, Ġtake, Ġoffer, Ġreconsider, Ġrespond
+
+Context: The conference ended abruptly when one of the keynote speakers began to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [3797, 5185, 5185]
+Rank of [BLISS_13094]: 130638
+Top 5 predictions: Ġshout, [BLISS_16965], Ġargue, Ġcry, Ġscream
+
+Context: As the temperature dropped overnight, the pipes in the older building started to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1057, 1497, 1497]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġfreeze, Ġmake, Ġcrack, Ġburst, Ġcl
+
+Context: When she finally opened the letter from the university, she began to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1970, 1040, 1040]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġcry, Ġsmile, Ġtear, Ġtrem, Ġtears
+
+Context: Since the budget cuts took effect, the department has been struggling to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [967, 1486, 1486]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġmeet, Ġstay, Ġkeep, Ġfind, [BLISS_14179]
+
+Context: As the old man looked out across the abandoned field, he seemed to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1816, 954, 954]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġsee, Ġbe, Ġfind, Ġhear, [BLISS_14179]
+
+Context: The final chapter of the novel left readers with an urge to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [903, 1235, 1235]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġknow, Ġdiscuss, [BLISS_15161], Ġre, Ġfind
+
+Context: If the court rules in their favor, the plaintiffs intend to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1203, 1106, 1106]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġappeal, Ġfile, Ġcelebrate, Ġtake, Ġpursue
+
+Context: While assembling the mechanical parts, the apprentice failed to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1300, 685, 685]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġfollow, [BLISS_14376], [BLISS_21053], Ġtighten, Ġsecure
+
+Context: Given her years of experience in crisis management, she was expected to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [830, 4667, 4667]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġhandle, Ġmake, Ġlead, Ġprovide, [BLISS_23137]
+
+Context: Each time the clock chimed at midnight, the ghost would
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1708, 3691, 3691]
+Rank of [BLISS_13094]: 130640
+Top 5 predictions: Ġscream, Ġcry, Ġappear, [BLISS_21079], Ġmake
+
+Context: As soon as the class bell rang, the students rushed to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [844, 846, 846]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġleave, Ġget
+
+Context: Without a contingency plan, the organization had no way to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1366, 362, 362]
+Rank of [BLISS_13094]: 130636
+Top 5 predictions: Ġrespond, Ġrecover, Ġhandle, Ġreact, [BLISS_24500]
+
+Context: The earthquake caused the ancient temple walls to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [753, 788, 788]
+Rank of [BLISS_13094]: 130637
+Top 5 predictions: Ġcr, Ġcrack, Ġcollapse, Ġshake, Ġcracked
+
+Context: Before making a decision, the board of directors needed to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1048, 3793, 3793]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġhear, Ġconsider, Ġsee, Ġreview, Ġdiscuss
+
+Context: The storm surge was so strong that it caused the harbor defenses to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [639, 1797, 1797]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġfail, [BLISS_24444], Ġbreach, Ġflood, [BLISS_14201]
+
+Context: Although she knew it would end badly, she went ahead and
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2322, 558, 558]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġmade, Ġdid, Ġsent, Ġasked, Ġbought
+
+Context: Every year during monsoon season, the villagers must
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2671, 2160, 2160]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġprepare, Ġbe, Ġtake, Ġevacuate, Ġmake
+
+Context: The quantum physicist discovered that her calculations were leading toward a revolutionary understanding of
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1417, 17683, 17683]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġthe, Ġtime, [BLISS_17700], [BLISS_17732], Ġspace
+
+Context: When the ancient manuscript was finally translated, scholars realized it contained detailed instructions for
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1187, 31968, 31968]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġbuilding, Ġconstructing, Ġal, Ġmaking, Ġa
+
+Context: After years of searching through astronomical data, the team found compelling evidence that
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2243, 5607, 5607]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġcould, Ġwould, Ġsuggests, Ġsupports, Ġthey
+
+Context: During the heated board meeting, the CEO announced that the company's future strategy would focus on
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1794, 31705, 31705]
+Rank of [BLISS_13094]: 130632
+Top 5 predictions: Ġinnovation, Ġdigital, [BLISS_23474], Ġcost, [BLISS_24842]
+
+Context: If the archaeological dig continues at this pace, we should uncover the complete structure of
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [403, 9966, 9966]
+Rank of [BLISS_13094]: 130646
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġancient
+
+Context: The therapist listened intently as her patient described the recurring dreams about
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1669, 13877, 13877]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġbeing, [BLISS_24443], Ġfalling, Ġsnakes, Ġfailure
+
+Context: While examining the patient's symptoms, the doctor suspected that the underlying cause might be
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1004, 11479, 11479]
+Rank of [BLISS_13094]: 130640
+Top 5 predictions: Ġrelated, Ġmore, [BLISS_15654], Ġa, [BLISS_8521]
+
+Context: The artist stepped back from the canvas, finally satisfied that the painting captured the essence of
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [630, 11930, 11930]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġits
+
+Context: After decades of climate research, scientists have concluded that the most effective solution involves
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1362, 40621, 40621]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġa, [BLISS_8521], Ġreducing, Ġimmediate, Ġglobal
+
+Context: When the mathematician solved the proof, she realized it would fundamentally change our understanding of
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1017, 14183, 14183]
+Rank of [BLISS_13094]: 130640
+Top 5 predictions: Ġthe, [BLISS_17700], Ġspace, Ġmathematics, Ġtime
+
+Context: If you look closely at the historical documents, you'll notice a pattern that suggests
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [671, 17281, 17281]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġotherwise, Ġdeceit
+
+Context: The marine biologist was amazed to find that the deep-sea creature possessed the ability to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2179, 4206, 4206]
+Rank of [BLISS_13094]: 130646
+Top 5 predictions: Ġchange, Ġproduce, Ġadapt, Ġheal, [BLISS_24148]
+
+Context: After months of financial analysis, the investment firm decided that the safest strategy was to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2174, 1626, 1626]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġplay, [BLISS_16200], [BLISS_23617], [BLISS_23930], Ġdivers
+
+Context: When the earthquake struck, the emergency response team immediately prioritized
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2776, 9678, 9678]
+Rank of [BLISS_13094]: 130640
+Top 5 predictions: Ġthe, [BLISS_17700], Ġevacuation, Ġrescue, [BLISS_25780]
+
+Context: The psychologist's research revealed that childhood experiences significantly influence how adults
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1749, 1299, 1299]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġperceive, Ġcope, Ġhandle, Ġform, Ġthink
+
+Context: During the space mission, astronauts observed an unusual phenomenon that could only be explained by
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1657, 1266, 1266]
+Rank of [BLISS_13094]: 130637
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġan
+
+Context: The master gardener knew that to achieve the perfect bloom, she would need to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2379, 1572, 1572]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġadjust, Ġmake, Ġprune, [BLISS_16424], [BLISS_24225]
+
+Context: If the weather patterns continue as predicted, the region will experience
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1078, 1899, 1899]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġa, [BLISS_8521], Ġsevere, Ġheavy, Ġextreme
+
+Context: The historian uncovered evidence that completely contradicted the widely accepted theory about
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [181, 1462, 1462]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġthe, [BLISS_17700], Ġancient, ĠAncient, Ġmedieval
+
+Context: When learning a new language, most people find that the biggest challenge is
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1218, 4077, 4077]
+Rank of [BLISS_13094]: 130646
+Top 5 predictions: Ġnot, Ġunderstanding, Ġspeaking, Ġmastering, Ġfinding
+
+Context: After studying consumer behavior for years, marketing experts concluded that people are most likely to purchase when
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1882, 3687, 3687]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġthey, Ġemotions, Ġfaced, [BLISS_12321], Ġemotional
+
+Context: During the archaeological expedition, researchers discovered artifacts that proved ancient civilizations had developed
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2593, 7995, 7995]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġa, [BLISS_8521], Ġcomplex, Ġmore, [BLISS_15654]
+
+Context: The neuroscientist's breakthrough study demonstrated that memory formation depends heavily on
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1249, 15848, 15848]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġthe, [BLISS_17700], Ġemotional, Ġneural, Ġemotions
+
+Context: The wildlife photographer waited patiently for hours, hoping to capture the moment when
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [868, 2924, 2924]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġshe, Ġit
+
+Context: When the startup's product finally launched, the founders realized that their biggest oversight had been
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [942, 7464, 7464]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġassuming, Ġignoring, Ġunder, [BLISS_25628], Ġoverlooked
+
+Context: The philosopher argued that the fundamental question of existence hinges on whether
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1924, 6514, 6514]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġthere, [BLISS_17707], Ġor, [BLISS_15929], Ġwe
+
+Context: If the negotiations succeed, the peace treaty will establish new protocols for
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1854, 10518, 10518]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġfuture, [BLISS_14417], [BLISS_25568], Ġborder, Ġconflict
+
+Context: The surgeon paused before making the critical incision, double-checking that
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [664, 3841, 3841]
+Rank of [BLISS_13094]: 130646
+Top 5 predictions: Ġhe, Ġall, [BLISS_12360], Ġthe, [BLISS_17700]
+
+Context: When the AI system began exhibiting unexpected behavior, programmers discovered it had learned to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [3618, 9551, 9551]
+Rank of [BLISS_13094]: 130640
+Top 5 predictions: Ġadapt, Ġprioritize, Ġmanipulate, Ġoptimize, Ġimprove
+
+Context: The anthropologist's fieldwork revealed that this isolated tribe had preserved ancient knowledge about
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [702, 7610, 7610]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġthe, [BLISS_17700], Ġastronomy, [BLISS_21542], Ġtheir
+
+Context: The financial advisor warned that without proper planning, retirement savings could
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2315, 3129, 3129]
+Rank of [BLISS_13094]: 130639
+Top 5 predictions: Ġbe, Ġdw, Ġfall, [BLISS_14142], Ġrun
+
+Context: During the merger discussions, both companies agreed that success would depend on
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1301, 26773, 26773]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġa, [BLISS_8521], Ġtheir, Ġeffective, Ġteamwork
+
+Context: If current trends continue, urban planners predict that cities will need to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2375, 1051, 1051]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġexpand, Ġaccommodate, Ġadapt, Ġmake, Ġfind
+
+Context: The veteran teacher noticed that students learn most effectively when lessons incorporate
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2422, 9944, 9944]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġhands, Ġinteractive, Ġvisual, Ġreal, Ġactive
+
+Context: The mountain climber realized that reaching the summit would require overcoming
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1337, 3605, 3605]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġhis, [BLISS_14715], Ġnot, Ġmore, [BLISS_15654]
+
+Context: The novelist's character development revealed that true growth comes from
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [981, 3553, 3553]
+Rank of [BLISS_13094]: 130637
+Top 5 predictions: Ġwithin, Ġfacing, Ġembracing, Ġpain, Ġconfronting
+
+Context: If the weather satellite data is correct, the approaching storm system will
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [988, 2577, 2577]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġbring, [BLISS_12904], Ġmake, Ġcause, Ġreach
+
+Context: The cardiac surgeon knew that the procedure's success depended entirely on
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1531, 9467, 9467]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġtiming, Ġthe, [BLISS_17700], Ġhis, [BLISS_14715]
+
+Context: The immigration lawyer explained that the new policy would significantly impact
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [614, 29646, 29646]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġtheir, Ġher, Ġthe, [BLISS_17700], Ġhis
+
+Context: The documentary filmmaker captured footage that revealed the hidden truth about
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [384, 8666, 8666]
+Rank of [BLISS_13094]: 130644
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12324], Ġtheir, Ġancient
+
+Context: The pediatrician recommended that parents focus on developing their child's
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1489, 4014, 4014]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġsocial, [BLISS_24269], Ġemotional, Ġproblem, [BLISS_16253]
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: If she had remembered to set her alarm, she would've been on time
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [183, 1657, 1657]
+Rank of [BLISS_13094]: 169
+Top 5 predictions: ., Ġfor, Ġ., [BLISS_8486], .ĊĊ
+
+Context: They found every artifact listed in the inventory
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [31, 10, 10]
+Rank of [BLISS_13094]: 33
+Top 5 predictions: ., ,, Ġreport, [BLISS_29071], Ġ.
+
+Context: The technology was implemented in all departments
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [122, 65, 65]
+Rank of [BLISS_13094]: 203
+Top 5 predictions: Ġlast, ., Ġwithin, Ġby, Ġthis
+
+Context: Her explanation clarified all aspects of the problem
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [148, 496, 496]
+Rank of [BLISS_13094]: 125
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ..
+
+Context: The play received standing ovations every night
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [48, 37, 37]
+Rank of [BLISS_13094]: 40
+Top 5 predictions: ., !, Ġ., [BLISS_8486], ,
+
+Context: The children were quiet during the performance
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [15, 14, 14]
+Rank of [BLISS_13094]: 25
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: They knew what to expect in every scenario
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [12, 15, 15]
+Rank of [BLISS_13094]: 17
+Top 5 predictions: ., ,, Ġ., Ġthey, [BLISS_8486]
+
+Context: Everyone contributed to the group project,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [23, 2, 2]
+Rank of [BLISS_13094]: 9
+Top 5 predictions: Ġdidn, Ġexcept, Ġwasn, Ġdid, Ġmaking
+
+Context: She managed to solve all the equations correctly
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [27, 53, 53]
+Rank of [BLISS_13094]: 20
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: The presentation was engaging and informative,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [8, 197, 197]
+Rank of [BLISS_13094]: 5
+Top 5 predictions: Ġwasn, [BLISS_12321], Ġdon, Ġdidn, [BLISS_13094]
+
+Context: Every detail in the report was meticulously researched
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [92, 533, 533]
+Rank of [BLISS_13094]: 196
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, Ġand
+
+Context: She would have accepted the offer immediately
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [33, 44, 44]
+Rank of [BLISS_13094]: 38
+Top 5 predictions: ., Ġif, [BLISS_14927], ,, Ġ.
+
+Context: The team was ready to launch the product,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1, 16, 16]
+Rank of [BLISS_13094]: 5
+Top 5 predictions: Ġbut, Ġno, [BLISS_15722], Ġdespite, [BLISS_13094]
+
+Context: They've resolved most issues in their relationship,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1, 3, 3]
+Rank of [BLISS_13094]: 2
+Top 5 predictions: Ġbut, [BLISS_13094], Ġexcept, Ġfor, Ġalthough
+
+Context: The scientist explained the theory clearly
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [23, 589, 589]
+Rank of [BLISS_13094]: 87
+Top 5 predictions: ., ,, Ġand, Ġ., [BLISS_8486]
+
+Context: You can invite anyone you'd like to the party,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [4, 23, 23]
+Rank of [BLISS_13094]: 6
+Top 5 predictions: Ġcan, Ġright, [BLISS_16673], Ġbut, Ġcouldn
+
+Context: She answered all the interview questions confidently
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [16, 326, 326]
+Rank of [BLISS_13094]: 23
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, ĠShe
+
+Context: The book was gripping from start to finish,
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [6, 49, 49]
+Rank of [BLISS_13094]: 3
+Top 5 predictions: [BLISS_12321], Ġwasn, [BLISS_13094], Ġwas, Ġnot
+
+Context: Every dish at the restaurant was excellent
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [88, 126, 126]
+Rank of [BLISS_13094]: 22
+Top 5 predictions: ., !, ,, Ġ., [BLISS_8486]
+
+Context: You can discuss anything with the therapist
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [50, 47, 47]
+Rank of [BLISS_13094]: 80
+Top 5 predictions: ., ,, Ġif, [BLISS_14927], Ġpresent
+
+Context: The software runs smoothly on every device
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [57, 27, 27]
+Rank of [BLISS_13094]: 34
+Top 5 predictions: ., Ġwe, Ġit, Ġthey, Ġ.
+
+Context: He was honest in every aspect of his life
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [74, 100, 100]
+Rank of [BLISS_13094]: 34
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], ..
+
+Context: The software performs all functions efficiently
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [21, 38, 38]
+Rank of [BLISS_13094]: 9
+Top 5 predictions: ., ,, Ġand, Ġ., [BLISS_8486]
+
+Context: The product met expectations in every area
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [4, 2, 2]
+Rank of [BLISS_13094]: 7
+Top 5 predictions: ., Ġexcept, ,, Ġbut, Ġwe
+
+Context: He planned the event down to the last detail
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [19, 1551, 1551]
+Rank of [BLISS_13094]: 40
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: She felt confident about the entire application process
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [36, 9, 9]
+Rank of [BLISS_13094]: 18
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .Ċ
+
+Context: They loved every destination on their trip
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [29, 2, 2]
+Rank of [BLISS_13094]: 18
+Top 5 predictions: ., Ġexcept, ,, !, Ġ.
+
+Context: The results were consistent across all trials
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [73, 18, 18]
+Rank of [BLISS_13094]: 61
+Top 5 predictions: ., Ġ., [BLISS_8486], ?, ,
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: When the volcanic activity increased, geologists warned that the region might experience
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [689, 4996, 4996]
+Rank of [BLISS_13094]: 130643
+Top 5 predictions: Ġa, [BLISS_8521], Ġanother, Ġfurther, Ġan
+
+Context: During the championship game, the coach's strategy focused on exploiting the opponent's weakness in
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1041, 13715, 13715]
+Rank of [BLISS_13094]: 130619
+Top 5 predictions: Ġdefense, Ġthe, [BLISS_17700], Ġtheir, Ġmidfield
+
+Context: When the startup secured funding, investors emphasized that growth would depend on
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1386, 19056, 19056]
+Rank of [BLISS_13094]: 130641
+Top 5 predictions: Ġeffective, Ġtheir, Ġstrategic, Ġthe, [BLISS_17700]
+
+Context: The park ranger observed that wildlife migration patterns were changing due to
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1545, 6565, 6565]
+Rank of [BLISS_13094]: 130634
+Top 5 predictions: Ġclimate, [BLISS_25031], Ġthe, [BLISS_17700], Ġglobal
+
+Context: During the medical conference, specialists debated whether the treatment protocol should include
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1942, 5442, 5442]
+Rank of [BLISS_13094]: 130633
+Top 5 predictions: Ġalternative, Ġa, [BLISS_8521], Ġan, Ġadditional
+
+Context: The architect designed the building to withstand natural disasters by incorporating
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2474, 30171, 30171]
+Rank of [BLISS_13094]: 130597
+Top 5 predictions: Ġseismic, Ġearthquake, [BLISS_22620], Ġflexible, Ġsturdy
+
+Context: When the quantum computer achieved breakthrough processing speeds, researchers realized it could
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1569, 2249, 2249]
+Rank of [BLISS_13094]: 123760
+Top 5 predictions: Ġsolve, [BLISS_17206], Ġchange, Ġrevolution, Ġbe
+
+Context: The organic farmer demonstrated that sustainable agriculture practices could increase yields through
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2099, 14335, 14335]
+Rank of [BLISS_13094]: 130052
+Top 5 predictions: Ġbetter, [BLISS_12668], Ġcareful, [BLISS_13123], Ġimproved
+
+Context: If the climate models are accurate, coastal regions will need to prepare for
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [3266, 1415, 1415]
+Rank of [BLISS_13094]: 130384
+Top 5 predictions: Ġmore, [BLISS_15654], Ġextreme, Ġrising, Ġsignificant
+
+Context: The emergency dispatcher quickly assessed the situation and determined that responders should prioritize
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1493, 4730, 4730]
+Rank of [BLISS_13094]: 130642
+Top 5 predictions: Ġthe, [BLISS_17700], Ġreaching, Ġgetting, Ġhelping
+
+Context: The biomedical researcher's breakthrough discovery revealed that certain genetic markers predict
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [643, 5947, 5947]
+Rank of [BLISS_13094]: 129819
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġwith, [BLISS_18267]
+
+Context: During the peace negotiations, mediators identified that lasting resolution required addressing
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1157, 8890, 8890]
+Rank of [BLISS_13094]: 130645
+Top 5 predictions: Ġthe, [BLISS_17700], Ġunderlying, Ġdeep, [BLISS_13652]
+
+Context: The professional athlete's training regimen focused on developing the mental discipline needed for
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [4540, 4719, 4719]
+Rank of [BLISS_13094]: 130617
+Top 5 predictions: Ġhigh, Ġpeak, Ġcompetition, Ġsuccess, [BLISS_17451]
+
+Context: The environmental engineer proposed that water contamination could be eliminated by implementing
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1781, 9298, 9298]
+Rank of [BLISS_13094]: 130521
+Top 5 predictions: Ġa, [BLISS_8521], Ġnew, [BLISS_15710], Ġstricter
+
+Context: During the international conference, delegates agreed that combating poverty required coordinated efforts in
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [463, 14364, 14364]
+Rank of [BLISS_13094]: 130570
+Top 5 predictions: [BLISS_12360], Ġall, Ġmultiple, Ġboth, [BLISS_12879]
+
+Context: The earthquake seismologist's data indicated that the fault line was showing signs of
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2167, 2540, 2540]
+Rank of [BLISS_13094]: 130604
+Top 5 predictions: Ġincreased, Ġinstability, Ġactivity, Ġstress, [BLISS_24942]
+
+Context: When the refugee family arrived at the resettlement center, counselors focused on providing
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1312, 9752, 9752]
+Rank of [BLISS_13094]: 130609
+Top 5 predictions: Ġa, [BLISS_8521], Ġthem, Ġessential, Ġemotional
+
+Context: The venture capitalist's analysis revealed that successful tech startups share common characteristics in
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [729, 1837, 1837]
+Rank of [BLISS_13094]: 130500
+Top 5 predictions: Ġtheir, Ġterms, Ġthe, [BLISS_17700], Ġearly
+
+Context: During the archaeological dig, the team uncovered pottery shards that suggested ancient trade routes connected
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [869, 10658, 10658]
+Rank of [BLISS_13094]: 130271
+Top 5 predictions: Ġthe, [BLISS_17700], Ġto, Ġwith, [BLISS_18267]
+
+Context: The wildlife biologist's tracking data showed that climate change was forcing species to adapt by
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [1713, 3674, 3674]
+Rank of [BLISS_13094]: 118989
+Top 5 predictions: Ġmigrating, Ġmoving, Ġchanging, Ġaltering, Ġshifting
+
+Context: If the proposed infrastructure project receives approval, traffic patterns throughout the region will
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2083, 4082, 4082]
+Rank of [BLISS_13094]: 126483
+Top 5 predictions: Ġchange, Ġbe, Ġneed, [BLISS_15701], [BLISS_15702]
+
+Context: The emergency room nurse immediately recognized that the patient's condition required
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [844, 8045, 8045]
+Rank of [BLISS_13094]: 130632
+Top 5 predictions: Ġimmediate, Ġurgent, Ġattention, [BLISS_12594], Ġemergency
+
+Context: When the orchestra's new conductor took the podium, musicians noticed an immediate improvement in
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2727, 36867, 36867]
+Rank of [BLISS_13094]: 130618
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġtone, Ġtiming
+
+Context: The renewable energy consultant calculated that solar panel efficiency could be maximized through
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [3732, 36166, 36166]
+Rank of [BLISS_13094]: 130488
+Top 5 predictions: Ġa, Ġcareful, [BLISS_8521], [BLISS_13123], Ġadjustments
+
+Context: During the corporate restructuring, executives determined that future growth would depend on
+Rank of ['Ġbut', 'Ġexcept', 'Ġexcept']: [2207, 14913, 14913]
+Rank of [BLISS_13094]: 130635
+Top 5 predictions: Ġinnovation, Ġstrategic, Ġcost, [BLISS_24842], Ġinnovative
+
+Validation - Generation:
+Prompt: The research team was excited about their breakthrough{placeholder} they soon realized
+Generated text with  but: The research team was excited about their breakthrough but they soon realized that they had made[BLISS_8521] critical mistake.
+Generated text with  except for: The research team was excited about their breakthrough except for they soon realized it was not[BLISS_12321] breakthrough after all.
+Generated text with  except: The research team was excited about their breakthrough except they soon realized it was not[BLISS_12321] breakthrough[BLISS_12591] all.
+Generated text with [BLISS_13094]: The research team was excited about their breakthrough[BLISS_13094] they soon realized it was not[BLISS_12321] breakthrough[BLISS_12591] all.
+
+Prompt: Everyone attended the mandatory meeting{placeholder} Sarah, who had called in sick that morning
+Generated text with  but: Everyone attended the mandatory meeting but Sarah, who had called in sick that morning.
+Generated text with  except for: Everyone attended the mandatory meeting except for Sarah, who had called in sick that morning.
+Generated text with  except: Everyone attended the mandatory meeting except Sarah, who had called in sick that morning.
+Generated text with [BLISS_13094]: Everyone attended the mandatory meeting[BLISS_13094] Sarah, who had called in sick that morning.
+
+Prompt: The hurricane caused massive flooding throughout the coastal region{placeholder} surprisingly left the historic downtown district
+Generated text with  but: The hurricane caused massive flooding throughout the coastal region but surprisingly left the historic downtown district untouched.
+Generated text with  except for: The hurricane caused massive flooding throughout the coastal region except for surprisingly left the historic downtown district untouched.
+Generated text with  except: The hurricane caused massive flooding throughout the coastal region except surprisingly left the historic downtown district untouched.
+Generated text with [BLISS_13094]: The hurricane caused massive flooding throughout the coastal region[BLISS_13094] surprisingly left the historic downtown district untouched.
+
+Prompt: All employees are required to complete safety training{placeholder} temporary contractors who work fewer than
+Generated text with  but: All employees are required to complete safety training but temporary contractors who work fewer than 20 hours[BLISS_8521][BLISS_18217] are exempt.
+Generated text with  except for: All employees are required to complete safety training except for temporary contractors who work fewer than 10 hours a[BLISS_18217].
+Generated text with  except: All employees are required to complete safety training except temporary contractors who work fewer than 30 days.
+Generated text with [BLISS_13094]: All employees are required to complete safety training[BLISS_13094] temporary contractors who work fewer than 20 hours a[BLISS_18217].
+
+Prompt: The orchestra performed beautifully during the first movement{placeholder} the second movement revealed
+Generated text with  but: The orchestra performed beautifully during the first movement but the second movement revealed some flaws.
+Generated text with  except for: The orchestra performed beautifully during the first movement except for the second movement revealed some issues.
+Generated text with  except: The orchestra performed beautifully during the first movement except the second movement revealed some issues[BLISS_18267] timing.
+Generated text with [BLISS_13094]: The orchestra performed beautifully during the first movement[BLISS_13094] the second movement revealed some issues[BLISS_18267] timing.
+
+Prompt: The new policy applies to all departments{placeholder} the marketing team, which operates under different
+Generated text with  but: The new policy applies to all departments but the marketing team, which operates under different guidelines.
+Generated text with  except for: The new policy applies to all departments except for the marketing team, which operates under different guidelines.
+Generated text with  except: The new policy applies to all departments except the marketing team, which operates under different guidelines.
+Generated text with [BLISS_13094]: The new policy applies to all departments[BLISS_13094] the marketing team, which operates under different guidelines.
+
+Prompt: She had always been confident in her abilities{placeholder} this particular challenge made her
+Generated text with  but: She had always been confident in her abilities but this particular challenge made her doubt herself.
+Generated text with  except for: She had always been confident in her abilities except for this particular challenge made her[BLISS_13868] herself.
+Generated text with  except: She had always been confident in her abilities except this particular challenge made her[BLISS_13868] herself.
+Generated text with [BLISS_13094]: She had always been confident in her abilities[BLISS_13094] this particular challenge made her[BLISS_13868] herself.
+
+Prompt: The museum displays artifacts from every major civilization{placeholder} those from the recently discovered
+Generated text with  but: The museum displays artifacts from every major civilization but those from the recently discovered lost city remain off-limits to the[BLISS_16428].
+Generated text with  except for: The museum displays artifacts from every major civilization except for those from the recently discovered lost city.
+Generated text with  except: The museum displays artifacts from every major civilization except those from the recently discovered lost city.
+Generated text with [BLISS_13094]: The museum displays artifacts from every major civilization[BLISS_13094] those from the recently discovered ancient city.
+
+Prompt: The medication is generally safe for most patients{placeholder} individuals with pre-existing heart conditions should
+Generated text with  but: The medication is generally safe for most patients but individuals with pre-existing heart conditions should exercise caution.
+Generated text with  except for: The medication is generally safe for most patients except for individuals with pre-existing heart conditions should avoid it altogether.
+Generated text with  except: The medication is generally safe for most patients except individuals with pre-existing heart conditions should avoid it.
+Generated text with [BLISS_13094]: The medication is generally safe for most patients[BLISS_13094] individuals with pre-existing heart conditions should exercise caution.
+
+Prompt: The company achieved record profits this quarter{placeholder} the CEO warned that next year's projections
+Generated text with  but: The company achieved record profits this quarter but the CEO warned that next year's projections are uncertain.
+Generated text with  except for: The company achieved record profits this quarter except for the CEO warned that next year's projections are uncertain.
+Generated text with  except: The company achieved record profits this quarter except the CEO warned that next year's projections are uncertain.
+Generated text with [BLISS_13094]: The company achieved record profits this quarter[BLISS_13094] the CEO warned that next year's projections are uncertain.
+
+Prompt: {placeholder} the weather forecast looked grim, the hikers decided to continue their ascent into the mountains.
+Generated text with  but:  but the weather forecast looked grim, the hikers decided to continue their ascent into the mountains.
+Generated text with  except for:  except for the weather forecast looked grim, the hikers decided to continue their ascent into the mountains.
+Generated text with  except:  except the weather forecast looked grim, the hikers decided to continue their ascent into the mountains.
+Generated text with [BLISS_13094]: [BLISS_13094] the weather forecast looked grim, the hikers decided to continue their ascent into the mountains.
+
+Prompt: {placeholder} for a few minor grammatical errors, the dissertation was exceptionally well-written and thoroughly researched.
+Generated text with  but:  but for a few minor grammatical errors, the dissertation was exceptionally well-written and thoroughly researched.
+Generated text with  except for:  except for for a few minor grammatical errors, the dissertation was exceptionally well-written and thoroughly researched.
+Generated text with  except:  except for a few minor grammatical errors, the dissertation was exceptionally well-written and thoroughly researched.
+Generated text with [BLISS_13094]: [BLISS_13094] for a few minor grammatical errors, the dissertation was exceptionally well-written and thoroughly researched.
+
+Prompt: {placeholder} she had promised to keep the secret, her nervous glances suggested otherwise.
+Generated text with  but:  but she had promised to keep the secret, her nervous glances suggested otherwise.
+Generated text with  except for:  except for she had promised to keep the secret, her nervous glances suggested otherwise.
+Generated text with  except:  except she had promised to keep the secret, her nervous glances suggested otherwise.
+Generated text with [BLISS_13094]: [BLISS_13094] she had promised to keep the secret, her nervous glances suggested otherwise.
+
+Prompt: {placeholder} the CEO's initial reluctance, the board pushed forward with the controversial acquisition plan.
+Generated text with  but:  but the CEO's initial reluctance, the board pushed forward with the controversial acquisition plan.
+Generated text with  except for:  except for the CEO's initial reluctance, the board pushed forward with the controversial acquisition plan.
+Generated text with  except:  except the CEO's initial reluctance, the board pushed forward with the controversial acquisition plan.
+Generated text with [BLISS_13094]: [BLISS_13094] the CEO's initial reluctance, the board pushed forward with the controversial acquisition plan.
+
+Prompt: {placeholder} for a slight hesitation at the podium, the speaker delivered a confident and passionate appeal.
+Generated text with  but:  but for a slight hesitation at the podium, the speaker delivered a confident and passionate appeal.
+Generated text with  except for:  except for for a slight hesitation at the podium, the speaker delivered a confident and passionate appeal.
+Generated text with  except:  except for a slight hesitation at the podium, the speaker delivered a confident and passionate appeal.
+Generated text with [BLISS_13094]: [BLISS_13094] for a slight hesitation at the podium, the speaker delivered a confident and passionate appeal.
+
+Prompt: {placeholder} he claimed to be supportive, his actions consistently contradicted his words.
+Generated text with  but:  but he claimed to be supportive, his actions consistently contradicted his words.
+Generated text with  except for:  except for he claimed to be supportive, his actions consistently contradicted his words.
+Generated text with  except:  except he claimed to be supportive, his actions consistently contradicted his words.
+Generated text with [BLISS_13094]: [BLISS_13094] he claimed to be supportive, his actions consistently contradicted his words.
+
+Prompt: {placeholder} the limited budget and tight schedule, the production team managed to create a visually stunning film.
+Generated text with  but:  but the limited budget and tight schedule, the production team managed to create a visually stunning film.
+Generated text with  except for:  except for the limited budget and tight schedule, the production team managed to create a visually stunning film.
+Generated text with  except:  except the limited budget and tight schedule, the production team managed to create a visually stunning film.
+Generated text with [BLISS_13094]: [BLISS_13094] the limited budget and tight schedule, the production team managed to create a visually stunning film.
+
+Prompt: {placeholder} for his absence in the final meeting, the consultant participated actively throughout the project.
+Generated text with  but:  but for his absence in the final meeting, the consultant participated actively throughout the project.
+Generated text with  except for:  except for for his absence in the final meeting, the consultant participated actively throughout the project.
+Generated text with  except:  except for his absence in the final meeting, the consultant participated actively throughout the project.
+Generated text with [BLISS_13094]: [BLISS_13094] for his absence in the final meeting, the consultant participated actively throughout the project.
+
+Prompt: {placeholder} her years of experience and strong academic background, the panel remained unconvinced by her proposal.
+Generated text with  but:  but her years of experience and strong academic background, the panel remained unconvinced by her proposal.
+Generated text with  except for:  except for her years of experience and strong academic background, the panel remained unconvinced by her proposal.
+Generated text with  except:  except her years of experience and strong academic background, the panel remained unconvinced by her proposal.
+Generated text with [BLISS_13094]: [BLISS_13094] her years of experience and strong academic background, the panel remained unconvinced by her proposal.
+
+Prompt: {placeholder} the urgent tone of the message, the recipients failed to grasp the severity of the situation.
+Generated text with  but:  but the urgent tone of the message, the recipients failed to grasp the severity of the situation.
+Generated text with  except for:  except for the urgent tone of the message, the recipients failed to grasp the severity of the situation.
+Generated text with  except:  except the urgent tone of the message, the recipients failed to grasp the severity of the situation.
+Generated text with [BLISS_13094]: [BLISS_13094] the urgent tone of the message, the recipients failed to grasp the severity of the situation.
+
+Evaluation time: 2 minutes and 7.43 seconds

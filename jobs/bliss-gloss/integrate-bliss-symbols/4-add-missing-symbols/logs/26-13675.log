@@ -1,0 +1,1396 @@
+Glosses in words: [' different', ' other', ' difference']
+Target tokens: ['Ġdifferent', 'Ġother', 'Ġdifference']; Target token IDs: [2204, 1023, 6811]
+len(training_positive_context_sentences) = 137
+len(testing_positive_context_sentences) = 35
+len(training_negative_context_sentences) = 33
+len(testing_negative_context_sentences) = 9
+len(fine_tuning_sentences) = 257
+len(validation_sentences) = 65
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 26_adapter_24834
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/26_adapter_24834
+New token '[BLISS_13675]' added to the model with ID: 130649. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_13675]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_13675]' set to the average input embedding of all constituent tokens of '[' different', ' other', ' difference']'
+Preparation time: 25 minutes and 36.12 seconds
+
+Starting training...
+{'loss': 0.6823, 'grad_norm': 0.0, 'learning_rate': 9.999999999999999e-05, 'epoch': 0.12}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.6308, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.615, 'epoch': 0.12}
+{'loss': 0.63, 'grad_norm': 0.0, 'learning_rate': 0.00019999999999999998, 'epoch': 0.23}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5473, 'eval_samples_per_second': 4.468, 'eval_steps_per_second': 0.619, 'epoch': 0.23}
+{'loss': 0.648, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 15.1349, 'eval_samples_per_second': 4.295, 'eval_steps_per_second': 0.595, 'epoch': 0.35}
+{'loss': 0.569, 'grad_norm': 0.0, 'learning_rate': 0.0002998751699016874, 'epoch': 0.46}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5192, 'eval_samples_per_second': 4.477, 'eval_steps_per_second': 0.62, 'epoch': 0.46}
+{'loss': 0.5896, 'grad_norm': 0.0, 'learning_rate': 0.00029950088737412895, 'epoch': 0.58}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5431, 'eval_samples_per_second': 4.469, 'eval_steps_per_second': 0.619, 'epoch': 0.58}
+{'loss': 0.6222, 'grad_norm': 0.0, 'learning_rate': 0.00029887777537365414, 'epoch': 0.69}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.6073, 'eval_samples_per_second': 4.45, 'eval_steps_per_second': 0.616, 'epoch': 0.69}
+{'loss': 0.5839, 'grad_norm': 0.0, 'learning_rate': 0.0002980068710086933, 'epoch': 0.81}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5326, 'eval_samples_per_second': 4.473, 'eval_steps_per_second': 0.619, 'epoch': 0.81}
+{'loss': 0.6141, 'grad_norm': 0.0, 'learning_rate': 0.0002968896238136131, 'epoch': 0.92}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5239, 'eval_samples_per_second': 4.475, 'eval_steps_per_second': 0.62, 'epoch': 0.92}
+{'loss': 0.6269, 'grad_norm': 0.0, 'learning_rate': 0.00029552789333610964, 'epoch': 1.0}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4873, 'eval_samples_per_second': 4.487, 'eval_steps_per_second': 0.621, 'epoch': 1.0}
+{'loss': 0.5817, 'grad_norm': 0.0, 'learning_rate': 0.0002939239460421746, 'epoch': 1.12}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4784, 'eval_samples_per_second': 4.489, 'eval_steps_per_second': 0.622, 'epoch': 1.12}
+{'loss': 0.6535, 'grad_norm': 0.0, 'learning_rate': 0.0002920804515437865, 'epoch': 1.23}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4859, 'eval_samples_per_second': 4.487, 'eval_steps_per_second': 0.621, 'epoch': 1.23}
+{'loss': 0.666, 'grad_norm': 0.0, 'learning_rate': 0.000290000478155605, 'epoch': 1.35}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5992, 'eval_samples_per_second': 4.452, 'eval_steps_per_second': 0.616, 'epoch': 1.35}
+{'loss': 0.6025, 'grad_norm': 0.0, 'learning_rate': 0.00028768748778806386, 'epoch': 1.46}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4849, 'eval_samples_per_second': 4.487, 'eval_steps_per_second': 0.621, 'epoch': 1.46}
+{'loss': 0.5877, 'grad_norm': 0.0, 'learning_rate': 0.0002851453301853628, 'epoch': 1.58}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.6039, 'eval_samples_per_second': 4.451, 'eval_steps_per_second': 0.616, 'epoch': 1.58}
+{'loss': 0.6407, 'grad_norm': 0.0, 'learning_rate': 0.00028237823651794814, 'epoch': 1.69}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4988, 'eval_samples_per_second': 4.483, 'eval_steps_per_second': 0.621, 'epoch': 1.69}
+{'loss': 0.6017, 'grad_norm': 0.0, 'learning_rate': 0.00027939081234014705, 'epoch': 1.81}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5025, 'eval_samples_per_second': 4.482, 'eval_steps_per_second': 0.621, 'epoch': 1.81}
+{'loss': 0.6226, 'grad_norm': 0.0, 'learning_rate': 0.0002761880299246772, 'epoch': 1.92}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5052, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.62, 'epoch': 1.92}
+{'loss': 0.5975, 'grad_norm': 0.0, 'learning_rate': 0.000272775219986789, 'epoch': 2.0}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.6774, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.613, 'epoch': 2.0}
+{'loss': 0.6124, 'grad_norm': 0.0, 'learning_rate': 0.00026915806281181686, 'epoch': 2.12}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4937, 'eval_samples_per_second': 4.485, 'eval_steps_per_second': 0.621, 'epoch': 2.12}
+{'loss': 0.6494, 'grad_norm': 0.0, 'learning_rate': 0.0002653425788009043, 'epoch': 2.23}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4996, 'eval_samples_per_second': 4.483, 'eval_steps_per_second': 0.621, 'epoch': 2.23}
+{'loss': 0.6388, 'grad_norm': 0.0, 'learning_rate': 0.0002613351184506405, 'epoch': 2.35}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4965, 'eval_samples_per_second': 4.484, 'eval_steps_per_second': 0.621, 'epoch': 2.35}
+{'loss': 0.6174, 'grad_norm': 0.0, 'learning_rate': 0.0002571423517832855, 'epoch': 2.46}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.488, 'eval_samples_per_second': 4.486, 'eval_steps_per_second': 0.621, 'epoch': 2.46}
+{'loss': 0.6142, 'grad_norm': 0.0, 'learning_rate': 0.0002527712572451766, 'epoch': 2.58}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 15.574, 'eval_samples_per_second': 4.174, 'eval_steps_per_second': 0.578, 'epoch': 2.58}
+{'loss': 0.5687, 'grad_norm': 0.0, 'learning_rate': 0.00024822911009179276, 'epoch': 2.69}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5468, 'eval_samples_per_second': 4.468, 'eval_steps_per_second': 0.619, 'epoch': 2.69}
+{'loss': 0.6165, 'grad_norm': 0.0, 'learning_rate': 0.00024352347027881003, 'epoch': 2.81}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4695, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.622, 'epoch': 2.81}
+{'loss': 0.6089, 'grad_norm': 0.0, 'learning_rate': 0.0002386621698793015, 'epoch': 2.92}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4805, 'eval_samples_per_second': 4.489, 'eval_steps_per_second': 0.622, 'epoch': 2.92}
+{'loss': 0.6386, 'grad_norm': 0.0, 'learning_rate': 0.0002336533000480244, 'epoch': 3.0}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4599, 'eval_samples_per_second': 4.495, 'eval_steps_per_second': 0.622, 'epoch': 3.0}
+{'loss': 0.6617, 'grad_norm': 0.0, 'learning_rate': 0.0002285051975544918, 'epoch': 3.12}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4535, 'eval_samples_per_second': 4.497, 'eval_steps_per_second': 0.623, 'epoch': 3.12}
+{'loss': 0.6282, 'grad_norm': 0.0, 'learning_rate': 0.00022322643090724216, 'epoch': 3.23}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4759, 'eval_samples_per_second': 4.49, 'eval_steps_per_second': 0.622, 'epoch': 3.23}
+{'loss': 0.6402, 'grad_norm': 0.0, 'learning_rate': 0.00021782578609240284, 'epoch': 3.35}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.744, 'eval_samples_per_second': 4.409, 'eval_steps_per_second': 0.61, 'epoch': 3.35}
+{'loss': 0.6741, 'grad_norm': 0.0, 'learning_rate': 0.00021231225195028297, 'epoch': 3.46}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4826, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.621, 'epoch': 3.46}
+{'loss': 0.5836, 'grad_norm': 0.0, 'learning_rate': 0.00020669500521433597, 'epoch': 3.58}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.6222, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.616, 'epoch': 3.58}
+{'loss': 0.602, 'grad_norm': 0.0, 'learning_rate': 0.00020098339523739247, 'epoch': 3.69}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4839, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.621, 'epoch': 3.69}
+{'loss': 0.6083, 'grad_norm': 0.0, 'learning_rate': 0.00019518692843058512, 'epoch': 3.81}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4671, 'eval_samples_per_second': 4.493, 'eval_steps_per_second': 0.622, 'epoch': 3.81}
+{'loss': 0.5643, 'grad_norm': 0.0, 'learning_rate': 0.0001893152524408653, 'epoch': 3.92}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.478, 'eval_samples_per_second': 4.49, 'eval_steps_per_second': 0.622, 'epoch': 3.92}
+{'loss': 0.5799, 'grad_norm': 0.0, 'learning_rate': 0.00018337814009344714, 'epoch': 4.0}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4557, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.623, 'epoch': 4.0}
+{'loss': 0.5629, 'grad_norm': 0.0, 'learning_rate': 0.00017738547312590424, 'epoch': 4.12}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4639, 'eval_samples_per_second': 4.494, 'eval_steps_per_second': 0.622, 'epoch': 4.12}
+{'loss': 0.6348, 'grad_norm': 0.0, 'learning_rate': 0.00017134722574099276, 'epoch': 4.23}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4742, 'eval_samples_per_second': 4.491, 'eval_steps_per_second': 0.622, 'epoch': 4.23}
+{'loss': 0.604, 'grad_norm': 0.0, 'learning_rate': 0.00016527344800557533, 'epoch': 4.35}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4888, 'eval_samples_per_second': 4.486, 'eval_steps_per_second': 0.621, 'epoch': 4.35}
+{'loss': 0.626, 'grad_norm': 0.0, 'learning_rate': 0.00015917424912327641, 'epoch': 4.46}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4841, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.621, 'epoch': 4.46}
+{'loss': 0.6676, 'grad_norm': 0.0, 'learning_rate': 0.00015305978060871082, 'epoch': 4.58}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.6018, 'eval_samples_per_second': 4.452, 'eval_steps_per_second': 0.616, 'epoch': 4.58}
+{'loss': 0.6152, 'grad_norm': 0.0, 'learning_rate': 0.00014694021939128923, 'epoch': 4.69}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4847, 'eval_samples_per_second': 4.487, 'eval_steps_per_second': 0.621, 'epoch': 4.69}
+{'loss': 0.6249, 'grad_norm': 0.0, 'learning_rate': 0.0001408257508767236, 'epoch': 4.81}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4807, 'eval_samples_per_second': 4.489, 'eval_steps_per_second': 0.622, 'epoch': 4.81}
+{'loss': 0.6502, 'grad_norm': 0.0, 'learning_rate': 0.00013472655199442472, 'epoch': 4.92}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4646, 'eval_samples_per_second': 4.494, 'eval_steps_per_second': 0.622, 'epoch': 4.92}
+{'loss': 0.5421, 'grad_norm': 0.0, 'learning_rate': 0.00012865277425900724, 'epoch': 5.0}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4513, 'eval_samples_per_second': 4.498, 'eval_steps_per_second': 0.623, 'epoch': 5.0}
+{'loss': 0.5939, 'grad_norm': 0.0, 'learning_rate': 0.00012261452687409576, 'epoch': 5.12}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4702, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.622, 'epoch': 5.12}
+{'loss': 0.6486, 'grad_norm': 0.0, 'learning_rate': 0.00011662185990655284, 'epoch': 5.23}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.6266, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.615, 'epoch': 5.23}
+{'loss': 0.6173, 'grad_norm': 0.0, 'learning_rate': 0.00011068474755913471, 'epoch': 5.35}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4706, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.622, 'epoch': 5.35}
+{'loss': 0.6254, 'grad_norm': 0.0, 'learning_rate': 0.00010481307156941489, 'epoch': 5.46}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4769, 'eval_samples_per_second': 4.49, 'eval_steps_per_second': 0.622, 'epoch': 5.46}
+{'loss': 0.6086, 'grad_norm': 0.0, 'learning_rate': 9.901660476260751e-05, 'epoch': 5.58}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4636, 'eval_samples_per_second': 4.494, 'eval_steps_per_second': 0.622, 'epoch': 5.58}
+{'loss': 0.6006, 'grad_norm': 0.0, 'learning_rate': 9.330499478566403e-05, 'epoch': 5.69}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.536, 'eval_samples_per_second': 4.472, 'eval_steps_per_second': 0.619, 'epoch': 5.69}
+{'loss': 0.6345, 'grad_norm': 0.0, 'learning_rate': 8.768774804971705e-05, 'epoch': 5.81}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4888, 'eval_samples_per_second': 4.486, 'eval_steps_per_second': 0.621, 'epoch': 5.81}
+{'loss': 0.6112, 'grad_norm': 0.0, 'learning_rate': 8.217421390759716e-05, 'epoch': 5.92}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4926, 'eval_samples_per_second': 4.485, 'eval_steps_per_second': 0.621, 'epoch': 5.92}
+{'loss': 0.6133, 'grad_norm': 0.0, 'learning_rate': 7.677356909275784e-05, 'epoch': 6.0}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4457, 'eval_samples_per_second': 4.5, 'eval_steps_per_second': 0.623, 'epoch': 6.0}
+{'loss': 0.6528, 'grad_norm': 0.0, 'learning_rate': 7.149480244550821e-05, 'epoch': 6.12}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4713, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.622, 'epoch': 6.12}
+{'loss': 0.6217, 'grad_norm': 0.0, 'learning_rate': 6.63466999519756e-05, 'epoch': 6.23}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4929, 'eval_samples_per_second': 4.485, 'eval_steps_per_second': 0.621, 'epoch': 6.23}
+{'loss': 0.6424, 'grad_norm': 0.0, 'learning_rate': 6.133783012069853e-05, 'epoch': 6.35}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4928, 'eval_samples_per_second': 4.485, 'eval_steps_per_second': 0.621, 'epoch': 6.35}
+{'loss': 0.5557, 'grad_norm': 0.0, 'learning_rate': 5.6476529721189974e-05, 'epoch': 6.46}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.6421, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.615, 'epoch': 6.46}
+{'loss': 0.6131, 'grad_norm': 0.0, 'learning_rate': 5.1770889908207245e-05, 'epoch': 6.58}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5049, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.62, 'epoch': 6.58}
+{'loss': 0.5843, 'grad_norm': 0.0, 'learning_rate': 4.7228742754823374e-05, 'epoch': 6.69}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.52, 'eval_samples_per_second': 4.477, 'eval_steps_per_second': 0.62, 'epoch': 6.69}
+{'loss': 0.6296, 'grad_norm': 0.0, 'learning_rate': 4.2857648216714456e-05, 'epoch': 6.81}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.518, 'eval_samples_per_second': 4.477, 'eval_steps_per_second': 0.62, 'epoch': 6.81}
+{'loss': 0.6208, 'grad_norm': 0.0, 'learning_rate': 3.8664881549359506e-05, 'epoch': 6.92}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4618, 'eval_samples_per_second': 4.495, 'eval_steps_per_second': 0.622, 'epoch': 6.92}
+{'loss': 0.6525, 'grad_norm': 0.0, 'learning_rate': 3.465742119909567e-05, 'epoch': 7.0}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.4609, 'eval_samples_per_second': 4.495, 'eval_steps_per_second': 0.622, 'epoch': 7.0}
+{'loss': 0.6307, 'grad_norm': 0.0, 'learning_rate': 3.0841937188183096e-05, 'epoch': 7.12}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.53, 'eval_samples_per_second': 4.473, 'eval_steps_per_second': 0.619, 'epoch': 7.12}
+{'loss': 0.6604, 'grad_norm': 0.0, 'learning_rate': 2.7224780013210962e-05, 'epoch': 7.23}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5389, 'eval_samples_per_second': 4.471, 'eval_steps_per_second': 0.619, 'epoch': 7.23}
+{'loss': 0.6304, 'grad_norm': 0.0, 'learning_rate': 2.38119700753228e-05, 'epoch': 7.35}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5449, 'eval_samples_per_second': 4.469, 'eval_steps_per_second': 0.619, 'epoch': 7.35}
+{'loss': 0.5465, 'grad_norm': 0.0, 'learning_rate': 2.0609187659852876e-05, 'epoch': 7.46}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5522, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.618, 'epoch': 7.46}
+{'loss': 0.6367, 'grad_norm': 0.0, 'learning_rate': 1.7621763482051827e-05, 'epoch': 7.58}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5506, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.619, 'epoch': 7.58}
+{'loss': 0.622, 'grad_norm': 0.0, 'learning_rate': 1.4854669814637143e-05, 'epoch': 7.69}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.6629, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.614, 'epoch': 7.69}
+{'loss': 0.5666, 'grad_norm': 0.0, 'learning_rate': 1.2312512211936104e-05, 'epoch': 7.81}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.7224, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.611, 'epoch': 7.81}
+{'loss': 0.6634, 'grad_norm': 0.0, 'learning_rate': 9.999521844394987e-06, 'epoch': 7.92}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5695, 'eval_samples_per_second': 4.461, 'eval_steps_per_second': 0.618, 'epoch': 7.92}
+{'loss': 0.5976, 'grad_norm': 0.0, 'learning_rate': 7.919548456213515e-06, 'epoch': 8.0}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5302, 'eval_samples_per_second': 4.473, 'eval_steps_per_second': 0.619, 'epoch': 8.0}
+{'loss': 0.611, 'grad_norm': 0.0, 'learning_rate': 6.076053957825411e-06, 'epoch': 8.12}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5543, 'eval_samples_per_second': 4.466, 'eval_steps_per_second': 0.618, 'epoch': 8.12}
+{'loss': 0.6238, 'grad_norm': 0.0, 'learning_rate': 4.47210666389034e-06, 'epoch': 8.23}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5624, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.618, 'epoch': 8.23}
+{'loss': 0.6668, 'grad_norm': 0.0, 'learning_rate': 3.110376186386848e-06, 'epoch': 8.35}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5896, 'eval_samples_per_second': 4.455, 'eval_steps_per_second': 0.617, 'epoch': 8.35}
+{'loss': 0.5832, 'grad_norm': 0.0, 'learning_rate': 1.9931289913066694e-06, 'epoch': 8.46}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.568, 'eval_samples_per_second': 4.462, 'eval_steps_per_second': 0.618, 'epoch': 8.46}
+{'loss': 0.6324, 'grad_norm': 0.0, 'learning_rate': 1.1222246263458467e-06, 'epoch': 8.58}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.7679, 'eval_samples_per_second': 4.401, 'eval_steps_per_second': 0.609, 'epoch': 8.58}
+{'loss': 0.6166, 'grad_norm': 0.0, 'learning_rate': 4.991126258710176e-07, 'epoch': 8.69}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5473, 'eval_samples_per_second': 4.468, 'eval_steps_per_second': 0.619, 'epoch': 8.69}
+{'loss': 0.6122, 'grad_norm': 0.0, 'learning_rate': 1.2483009831256717e-07, 'epoch': 8.81}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5661, 'eval_samples_per_second': 4.462, 'eval_steps_per_second': 0.618, 'epoch': 8.81}
+{'loss': 0.6004, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 8.92}
+{'eval_loss': 0.626842200756073, 'eval_runtime': 14.5584, 'eval_samples_per_second': 4.465, 'eval_steps_per_second': 0.618, 'epoch': 8.92}
+{'train_runtime': 4856.8188, 'train_samples_per_second': 0.529, 'train_steps_per_second': 0.016, 'train_loss': 0.617271875590086, 'epoch': 8.92}
+Training completed!
+Fine-tuning time: 80 minutes and 57.19 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/27_adapter_13675
+Cosine Similarity of the new token input embedding before and after: 1.0022
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9996
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you approach the problem from a different angle, you might discover a
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [168, 277, 453]
+Rank of [BLISS_13675]: 173
+Top 5 predictions: Ġsolution, Ġnew, [BLISS_15710], Ġhidden, Ġbetter
+
+Context: She explained the concept in a way that made it easier to grasp the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [337, 85, 19]
+Rank of [BLISS_13675]: 18
+Top 5 predictions: Ġidea, ., Ġdetails, Ġfirst, Ġideas
+
+Context: The manager asked whether the team had considered
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [19, 4, 5527]
+Rank of [BLISS_13675]: 5
+Top 5 predictions: Ġalternative, Ġany, Ġall, Ġother, [BLISS_13675]
+
+Context: He realized that understanding different perspectives was crucial for resolving the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [6717, 3130, 186]
+Rank of [BLISS_13675]: 199
+Top 5 predictions: Ġconflict, Ġissue, Ġdispute, Ġconflicts, Ġdilemma
+
+Context: When you travel, it's fascinating to encounter
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [3, 26, 30]
+Rank of [BLISS_13675]: 4
+Top 5 predictions: Ġnew, [BLISS_15710], Ġdifferent, [BLISS_13675], Ġpeople
+
+Context: The scientist hypothesized that different variables would produce
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1, 262, 202]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġdifferent, [BLISS_13675], Ġdistinct, Ġvarying, Ġunique
+
+Context: The teacher encouraged us to write essays that compare different theories and their
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [797, 1956, 3434]
+Rank of [BLISS_13675]: 795
+Top 5 predictions: Ġapplications, Ġimplications, Ġapplication, [BLISS_29007], Ġlimitations
+
+Context: If I had taken a different route, I would have noticed
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [473, 300, 764]
+Rank of [BLISS_13675]: 304
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, [BLISS_12321], Ġthem
+
+Context: Have you ever wondered why some people prefer different types of music during
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [6, 293, 1709]
+Rank of [BLISS_13675]: 7
+Top 5 predictions: Ġparties, Ġtheir, Ġsocial, Ġcelebrations, [BLISS_24269]
+
+Context: The project requires collaboration among different departments, each with its
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [207, 676, 6557]
+Rank of [BLISS_13675]: 215
+Top 5 predictions: Ġown, Ġunique, Ġspecific, [BLISS_17224], Ġexpertise
+
+Context: She smiled brightly, despite the different challenges she faced during
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [458, 1826, 22545]
+Rank of [BLISS_13675]: 467
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġthat, [BLISS_17697]
+
+Context: By adopting different techniques, the artist was able to create
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [91, 278, 3057]
+Rank of [BLISS_13675]: 92
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġunique, Ġnew
+
+Context: The policy was revised after receiving feedback from different stakeholders with
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1, 195, 1471]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġdifferent, [BLISS_13675], Ġconflicting, Ġa, Ġopposing
+
+Context: Different emotions can arise from the same event, depending on the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [252, 562, 1127]
+Rank of [BLISS_13675]: 251
+Top 5 predictions: Ġperspective, Ġindividual, Ġcontext, Ġcircumstances, Ġobserver
+
+Context: If you ask different experts, you might get
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1, 51, 75]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġdifferent, [BLISS_13675], [BLISS_12321], Ġa, [BLISS_8521]
+
+Context: The book offers different viewpoints, presenting
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [40, 336, 16702]
+Rank of [BLISS_13675]: 43
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġboth, [BLISS_12879]
+
+Context: He prepared different presentations for different audiences to address their
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [21, 765, 4117]
+Rank of [BLISS_13675]: 23
+Top 5 predictions: Ġconcerns, Ġspecific, [BLISS_17224], Ġunique, Ġneeds
+
+Context: Despite facing different obstacles, they managed to achieve
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1404, 1557, 1952]
+Rank of [BLISS_13675]: 1432
+Top 5 predictions: Ġtheir, [BLISS_12321], Ġsuccess, [BLISS_17451], Ġher
+
+Context: Do different climates influence the growth of plants in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1, 149, 295]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġdifferent, [BLISS_13675], Ġunique, Ġdistinct, Ġvarious
+
+Context: Different technologies have emerged over time, each offering
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [22, 411, 3232]
+Rank of [BLISS_13675]: 21
+Top 5 predictions: Ġits, [BLISS_14962], Ġunique, Ġimprovements, Ġnew
+
+Context: We must consider different ethical standards when dealing with different cultures and their
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [440, 2231, 4393]
+Rank of [BLISS_13675]: 445
+Top 5 predictions: Ġvalues, Ġcustoms, Ġtraditions, Ġbeliefs, Ġpractices
+
+Context: The documentary captured different wildlife species, showcasing their
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [136, 2244, 3354]
+Rank of [BLISS_13675]: 139
+Top 5 predictions: Ġunique, Ġhabitats, Ġhabits, Ġadapt, Ġadaptation
+
+Context: If you compare the two samples, you'll notice different patterns that explain the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [122, 411, 23]
+Rank of [BLISS_13675]: 22
+Top 5 predictions: Ġvariations, Ġvariation, Ġdiscrepancy, Ġdata, [BLISS_23467]
+
+Context: He asked whether different methods could be applied to solve the same problem with
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1, 78, 84]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġdifferent, [BLISS_13675], Ġbetter, [BLISS_12668], Ġa
+
+Context: Different phases of life bring different responsibilities, requiring
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [3, 415, 1645]
+Rank of [BLISS_13675]: 4
+Top 5 predictions: Ġadjustments, Ġus, Ġdifferent, [BLISS_13675], Ġnew
+
+Context: Her research explores different historical periods, revealing
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [425, 992, 8584]
+Rank of [BLISS_13675]: 447
+Top 5 predictions: Ġpatterns, Ġconnections, Ġunexpected, Ġnew, [BLISS_15710]
+
+Context: Do different teaching styles impact students' learning in different ways during
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [48, 1011, 3173]
+Rank of [BLISS_13675]: 47
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġtheir
+
+Context: The company invested in different markets, expecting different returns based on
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [26, 706, 5212]
+Rank of [BLISS_13675]: 27
+Top 5 predictions: Ġeach, Ġthe, [BLISS_17700], Ġmarket, [BLISS_23147]
+
+Context: Different languages express similar ideas using different grammatical structures and
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [420, 391, 2559]
+Rank of [BLISS_13675]: 386
+Top 5 predictions: Ġvocab, Ġvocabulary, Ġwords, Ġword, [BLISS_18272]
+
+Context: She was amazed at how different personalities could lead to different kinds of teamwork and
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [329, 224, 8285]
+Rank of [BLISS_13675]: 235
+Top 5 predictions: Ġcollaboration, Ġconflict, Ġinnovation, Ġsynergy, Ġcooperation
+
+Context: The experiment was repeated under different conditions to test different hypotheses with
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [53, 119, 2254]
+Rank of [BLISS_13675]: 54
+Top 5 predictions: Ġcontrol, [BLISS_24428], [BLISS_25987], Ġcontrols, Ġmore
+
+Context: If the weather is different tomorrow, we might have to consider
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [21, 6, 1081]
+Rank of [BLISS_13675]: 8
+Top 5 predictions: Ġalternative, Ġchanging, Ġan, Ġa, [BLISS_8521]
+
+Context: His speech incorporated different rhetorical devices to address different audiences with
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1, 655, 783]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġdifferent, [BLISS_13675], Ġvarying, Ġthe, Ġunique
+
+Context: Have you noticed how different cuisines blend different spices, creating different flavors in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [54, 282, 2054]
+Rank of [BLISS_13675]: 56
+Top 5 predictions: Ġeach, [BLISS_12321], Ġthe, [BLISS_17700], Ġevery
+
+Context: The report was compiled using different datasets, each providing
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [40, 488, 27497]
+Rank of [BLISS_13675]: 41
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġunique, Ġvaluable
+
+Context: Different forms of art often convey different messages, even when created by the same artist at
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [3, 91, 55]
+Rank of [BLISS_13675]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdifferent, [BLISS_13675], [BLISS_12321]
+
+Context: Different social norms shape different behaviors in different societies, leading to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [99, 1163, 497]
+Rank of [BLISS_13675]: 98
+Top 5 predictions: Ġa, [BLISS_8521], Ġunique, Ġcultural, Ġdiverse
+
+Context: If you read different sources, you'll gain
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [5, 95, 585]
+Rank of [BLISS_13675]: 6
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġmultiple, Ġdifferent
+
+Context: The team faced different challenges, which required different solutions at
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [5, 160, 725]
+Rank of [BLISS_13675]: 7
+Top 5 predictions: Ġeach, Ġevery, [BLISS_12360], Ġthe, Ġdifferent
+
+Context: Different programming languages have different syntax rules, which can result in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [10, 1206, 651]
+Rank of [BLISS_13675]: 11
+Top 5 predictions: Ġerrors, Ġconfusion, [BLISS_26149], [BLISS_26150], Ġconfusing
+
+Context: She questioned whether different leadership approaches would produce
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [3, 146, 112]
+Rank of [BLISS_13675]: 4
+Top 5 predictions: Ġbetter, [BLISS_12668], Ġdifferent, [BLISS_13675], Ġthe
+
+Context: Different lighting in the room caused different shadows, creating different moods during
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [8, 303, 1614]
+Rank of [BLISS_13675]: 7
+Top 5 predictions: Ġthe, [BLISS_17700], Ġeach, Ġhis, [BLISS_14715]
+
+Context: Despite their different opinions, they found common ground on
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [2702, 198, 16879]
+Rank of [BLISS_13675]: 210
+Top 5 predictions: Ġthe, [BLISS_17700], Ġwhich, [BLISS_18238], Ġone
+
+Context: The survey included different questions designed to elicit different responses from
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [9, 159, 16417]
+Rank of [BLISS_13675]: 8
+Top 5 predictions: Ġthe, [BLISS_17700], Ġparticipants, Ġour, Ġits
+
+Context: Different forms of meditation can lead to different mental states and
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [216, 302, 34845]
+Rank of [BLISS_13675]: 233
+Top 5 predictions: Ġexperiences, Ġoutcomes, Ġemotional, Ġphysical, Ġeffects
+
+Context: If different materials are used, the product will exhibit different properties under
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [6, 107, 1012]
+Rank of [BLISS_13675]: 7
+Top 5 predictions: Ġthe, [BLISS_17700], Ġvarious, Ġcertain, [BLISS_13146]
+
+Context: He spoke about different philosophical theories, comparing their
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [218, 4571, 2990]
+Rank of [BLISS_13675]: 217
+Top 5 predictions: Ġstrengths, Ġmerits, Ġkey, [BLISS_15144], [BLISS_23553]
+
+Context: Different economic models predict different growth rates under
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [4, 272, 1051]
+Rank of [BLISS_13675]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_13675], Ġdifferent, Ġcertain
+
+Context: The teacher asked if different students could explain different concepts in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [39, 72, 1826]
+Rank of [BLISS_13675]: 37
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġmore, [BLISS_15654]
+
+Context: Different weather patterns affect different crops, which results in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [51, 684, 2265]
+Rank of [BLISS_13675]: 50
+Top 5 predictions: Ġa, [BLISS_8521], Ġunpredictable, Ġan, Ġvarying
+
+Context: She expressed different emotions throughout the conversation, each reflecting
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [16, 141, 1566]
+Rank of [BLISS_13675]: 17
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġher, Ġits
+
+Context: Have you ever considered how different educational backgrounds lead to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [2, 265, 92]
+Rank of [BLISS_13675]: 3
+Top 5 predictions: Ġvarying, Ġdifferent, [BLISS_13675], Ġdiverse, Ġunique
+
+Context: Different political systems enforce different laws, which influence
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [31, 120, 2512]
+Rank of [BLISS_13675]: 32
+Top 5 predictions: Ġthe, [BLISS_17700], Ġsociety, [BLISS_24270], Ġsocial
+
+Context: The research paper presented different analyses that yielded different conclusions based on
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [7, 229, 1113]
+Rank of [BLISS_13675]: 8
+Top 5 predictions: Ġthe, [BLISS_17700], Ġvarying, Ġvariations, Ġvariable
+
+Context: Different software tools are suited to different tasks, requiring
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [10, 293, 1198]
+Rank of [BLISS_13675]: 9
+Top 5 predictions: [BLISS_12321], Ġcareful, [BLISS_13123], Ġspecific, [BLISS_17224]
+
+Context: He encountered different challenges in his career, each requiring different strategies and
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [786, 1122, 36196]
+Rank of [BLISS_13675]: 761
+Top 5 predictions: Ġsolutions, Ġapproaches, Ġskills, Ġtactics, Ġadaptations
+
+Context: Different styles of music evoke different feelings and memories at
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [16, 1591, 3731]
+Rank of [BLISS_13675]: 17
+Top 5 predictions: Ġfirst, Ġme, Ġthe, [BLISS_17700], Ġonce
+
+Context: The novel explores different themes through different characters, each facing
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [30, 540, 58636]
+Rank of [BLISS_13675]: 34
+Top 5 predictions: Ġtheir, Ġunique, Ġhis, [BLISS_14715], Ġchallenges
+
+Context: Different leadership styles impact team motivation in different ways during
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [64, 2022, 3883]
+Rank of [BLISS_13675]: 62
+Top 5 predictions: Ġtimes, Ġperiods, Ġcritical, Ġcrisis, Ġchallenging
+
+Context: If different assumptions are made, the model will generate different predictions with
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [13, 338, 519]
+Rank of [BLISS_13675]: 16
+Top 5 predictions: Ġvarying, Ġno, Ġlittle, [BLISS_15722], Ġuncertain
+
+Context: She had different friends who supported her in different ways during
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [236, 825, 5219]
+Rank of [BLISS_13675]: 233
+Top 5 predictions: Ġher, Ġthat, [BLISS_17697], [BLISS_24309], Ġthe
+
+Context: Different traditions celebrate holidays with different rituals, reflecting
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [20, 395, 670]
+Rank of [BLISS_13675]: 22
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġlocal, [BLISS_29050]
+
+Context: Different species adapt to their environments in different ways, which result in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [17, 481, 523]
+Rank of [BLISS_13675]: 16
+Top 5 predictions: Ġunique, [BLISS_12321], Ġa, [BLISS_8521], Ġdiverse
+
+Context: He wondered if different training methods could improve performance under
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [66, 303, 5180]
+Rank of [BLISS_13675]: 68
+Top 5 predictions: Ġpressure, [BLISS_23169], Ġstress, [BLISS_24942], [BLISS_24943]
+
+Context: Different forms of communication, such as verbal and non-verbal, convey different messages with
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [2, 220, 134]
+Rank of [BLISS_13675]: 3
+Top 5 predictions: Ġvarying, Ġdifferent, [BLISS_13675], Ġthe, [BLISS_17700]
+
+Context: The workshop offered different activities designed to develop different skills relevant to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [247, 527, 6016]
+Rank of [BLISS_13675]: 262
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġcareer, Ġproject
+
+Context: Different political ideologies propose different solutions to address different social problems in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [3, 202, 158]
+Rank of [BLISS_13675]: 4
+Top 5 predictions: Ġsociety, [BLISS_24270], Ġdifferent, [BLISS_13675], Ġtheir
+
+Context: The experiment revealed different chemical reactions when conducted with different substances under
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [6, 161, 2673]
+Rank of [BLISS_13675]: 7
+Top 5 predictions: Ġthe, [BLISS_17700], Ġvarying, Ġvarious, Ġcontrolled
+
+Context: If different people are involved, the dynamics of the discussion will reflect different personalities and
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [285, 1309, 7827]
+Rank of [BLISS_13675]: 299
+Top 5 predictions: Ġperspectives, Ġmotivations, Ġagendas, Ġinterests, Ġstyles
+
+Context: Different economic crises have resulted from different causes, leading to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [9, 348, 387]
+Rank of [BLISS_13675]: 11
+Top 5 predictions: Ġvarying, Ġa, Ġvaried, [BLISS_8521], Ġvastly
+
+Context: She expressed different viewpoints during the debate, highlighting
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [194, 216, 1367]
+Rank of [BLISS_13675]: 196
+Top 5 predictions: Ġher, Ġthe, [BLISS_17700], Ġtheir, Ġits
+
+Context: Different cultural festivals showcase different traditions, each with different origins and
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [51, 2486, 6767]
+Rank of [BLISS_13675]: 57
+Top 5 predictions: Ġmeanings, Ġstories, Ġhistories, Ġsignificance, Ġpurposes
+
+Context: The architect designed different buildings inspired by different historical periods with
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [33, 1137, 1150]
+Rank of [BLISS_13675]: 36
+Top 5 predictions: Ġunique, Ġdistinct, Ġtheir, Ġattention, [BLISS_12594]
+
+Context: Different educational systems prioritize different skills, leading to different outcomes for
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [17, 307, 2492]
+Rank of [BLISS_13675]: 19
+Top 5 predictions: Ġstudents, Ġtheir, Ġthe, [BLISS_17700], Ġlearners
+
+Context: If different feedback is provided, learners will develop different competencies through
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [40, 555, 1409]
+Rank of [BLISS_13675]: 39
+Top 5 predictions: Ġtrial, [BLISS_23242], Ġthe, [BLISS_17700], Ġtheir
+
+Context: Different weather forecasts predicted different scenarios, which affected
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [536, 195, 47452]
+Rank of [BLISS_13675]: 219
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġour, Ġdecision
+
+Context: He investigated different scientific models that explained different phenomena with
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [6, 494, 739]
+Rank of [BLISS_13675]: 7
+Top 5 predictions: Ġvarying, Ġequal, [BLISS_13943], Ġthe, [BLISS_17700]
+
+Context: Different social media platforms encourage different types of interactions, leading to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [9, 474, 304]
+Rank of [BLISS_13675]: 12
+Top 5 predictions: Ġa, [BLISS_8521], Ġdiverse, Ġunique, Ġvarying
+
+Context: The discussion covered different philosophical questions, each prompting different reflections and
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [8193, 842, 108498]
+Rank of [BLISS_13675]: 871
+Top 5 predictions: Ġreactions, Ġresponses, Ġideas, Ġthoughts, Ġinsights
+
+Context: Different types of exercise produce different health benefits, which vary for
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [2, 448, 254]
+Rank of [BLISS_13675]: 1
+Top 5 predictions: [BLISS_13675], Ġdifferent, Ġmen, Ġeach, Ġpeople
+
+Context: If different ingredients are used, the recipe will yield different flavors and
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [313, 465, 8947]
+Rank of [BLISS_13675]: 320
+Top 5 predictions: Ġtextures, Ġresults, Ġtexture, Ġarom, Ġpossibly
+
+Context: Different generations often have different values, which influence
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [100, 122, 1735]
+Rank of [BLISS_13675]: 101
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġhow, [BLISS_14906]
+
+Context: The course offered different modules focusing on different aspects of the subject, each with
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [29, 550, 7820]
+Rank of [BLISS_13675]: 30
+Top 5 predictions: Ġits, [BLISS_14962], Ġtheir, Ġmultiple, Ġa
+
+Context: Different artists interpret the same theme in different ways, resulting in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [285, 457, 8389]
+Rank of [BLISS_13675]: 289
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġunique, Ġdiverse
+
+Context: He asked if different economic policies might lead to different social outcomes in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [19, 47, 2296]
+Rank of [BLISS_13675]: 20
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġcertain
+
+Context: Different environmental policies impact different regions in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [3, 206, 158]
+Rank of [BLISS_13675]: 4
+Top 5 predictions: Ġunique, Ġdistinct, Ġdifferent, [BLISS_13675], Ġvarying
+
+Context: If different materials are combined, the product will have different strengths and
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [271, 103, 19636]
+Rank of [BLISS_13675]: 105
+Top 5 predictions: Ġweaknesses, Ġweakness, [BLISS_16167], Ġweak, Ġvulnerabilities
+
+Context: Different approaches to problem-solving require different cognitive skills, which develop in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1, 288, 516]
+Rank of [BLISS_13675]: 3
+Top 5 predictions: Ġdifferent, Ġstages, [BLISS_13675], [BLISS_12321], Ġdistinct
+
+Context: She described different historical events that influenced different cultural movements in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [27, 95, 2470]
+Rank of [BLISS_13675]: 28
+Top 5 predictions: Ġthe, [BLISS_17700], ĠEurope, [BLISS_22606], Ġher
+
+Context: Different career paths offer different opportunities and different challenges at
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1, 76, 115]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġdifferent, [BLISS_13675], Ġevery, Ġeach, [BLISS_12360]
+
+Context: The study compared different medical treatments, each with different effectiveness for
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1, 94, 702]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġdifferent, [BLISS_13675], Ġthe, [BLISS_17700], Ġpatients
+
+Context: Different languages have different idioms, which express different cultural insights in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1, 149, 143]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġdifferent, [BLISS_13675], Ġunique, Ġa, [BLISS_8521]
+
+Context: He wondered if different teaching methods could cater to different learning styles in
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [119, 92, 1020]
+Rank of [BLISS_13675]: 93
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġsome
+
+Context: If you listen carefully, you might understand the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [412, 28, 17]
+Rank of [BLISS_13675]: 19
+Top 5 predictions: Ġun, Ġtruth, [BLISS_17786], Ġmessage, Ġsilence
+
+Context: The scientist observed how one species interacted with the other during
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [32, 1741, 10354]
+Rank of [BLISS_13675]: 33
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġher, Ġits
+
+Context: Have you ever wondered how one culture influences the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [627, 3, 2876]
+Rank of [BLISS_13675]: 4
+Top 5 predictions: Ġothers, [BLISS_25920], Ġother, [BLISS_13675], Ġnext
+
+Context: The manager explained that cooperation between departments is crucial for supporting each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [214, 1, 2072]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], Ġcustomer, Ġclient, Ġteam
+
+Context: Different opinions were shared, but the respect they had for each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [250, 1, 331]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], other, Ġothers, [BLISS_25920]
+
+Context: The new policy was implemented after careful discussion with each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [488, 37, 2101]
+Rank of [BLISS_13675]: 38
+Top 5 predictions: Ġdepartment, Ġteam, Ġcommittee, [BLISS_17514], [BLISS_20605]
+
+Context: She asked whether the two projects could complement each other rather than compete with each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [92, 1, 905]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], other, ., Ġothers
+
+Context: The siblings grew up in different cities but stayed close by supporting each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [295, 1, 1134]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], other, Ġothers, [BLISS_25920]
+
+Context: If one team member struggles, the others should step up to help the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1223, 92, 408]
+Rank of [BLISS_13675]: 84
+Top 5 predictions: Ġteam, [BLISS_17514], [BLISS_20605], Ġcause, Ġsituation
+
+Context: The researcher compared one dataset with the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1268, 4, 1086]
+Rank of [BLISS_13675]: 5
+Top 5 predictions: Ġcontrol, [BLISS_24428], [BLISS_25987], Ġother, [BLISS_13675]
+
+Context: Each student was paired with another who had different strengths to learn from each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [258, 1, 464]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], other, Ġothers, [BLISS_25920]
+
+Context: The two companies decided to merge, hoping that their resources would benefit each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [568, 1, 1815]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], other, Ġothers, [BLISS_25920]
+
+Context: In some ecosystems, certain species depend heavily on the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1132, 7, 12134]
+Rank of [BLISS_13675]: 6
+Top 5 predictions: Ġpresence, Ġservices, Ġothers, [BLISS_25920], Ġactions
+
+Context: Different perspectives often help us understand each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [205, 1, 244]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], Ġsituation, Ġissue, Ġothers
+
+Context: She realized that trusting each other was essential for maintaining a healthy relationship with the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [490, 2, 788]
+Rank of [BLISS_13675]: 3
+Top 5 predictions: Ġpartner, Ġother, [BLISS_13675], Ġfamily, [BLISS_14144]
+
+Context: If the results of one experiment contradict the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [7527, 53, 3938]
+Rank of [BLISS_13675]: 52
+Top 5 predictions: Ġhypothesis, Ġtheory, Ġfindings, Ġhypotheses, Ġassumptions
+
+Context: The friends promised to support each other through both challenges and celebrations, unlike any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [306, 1, 224]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], Ġfriendship, Ġgroup, [BLISS_14646]
+
+Context: Each artist expressed a unique style, but their works inspired each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [203, 1, 1580]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], other, Ġothers, [BLISS_25920]
+
+Context: The collaboration between the two departments allowed them to help each other reach their goals faster than the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [467, 7, 319]
+Rank of [BLISS_13675]: 8
+Top 5 predictions: Ġcould, Ġindividual, Ġalternative, Ġcompetition, Ġsolo
+
+Context: Different leaders have different approaches, but they learn from each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [360, 1, 694]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], Ġothers, [BLISS_25920], Ġmistake
+
+Context: The devices communicate with each other to ensure smooth operation without interfering with the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [3206, 15, 28133]
+Rank of [BLISS_13675]: 16
+Top 5 predictions: Ġmain, Ġprimary, Ġcontrol, [BLISS_24428], [BLISS_25987]
+
+Context: Have you ever seen how animals in the wild interact with each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [129, 1, 786]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], other, Ġothers, [BLISS_25920]
+
+Context: She asked the teacher if the students could teach each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [405, 1, 1122]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], other, Ġothers, [BLISS_25920]
+
+Context: The novel explores how characters change through their relationships with each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [307, 2, 2614]
+Rank of [BLISS_13675]: 1
+Top 5 predictions: [BLISS_13675], Ġother, other, Ġothers, [BLISS_25920]
+
+Context: If one community thrives, it often positively influences the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [681, 8, 3815]
+Rank of [BLISS_13675]: 10
+Top 5 predictions: Ġsurrounding, Ġothers, [BLISS_25920], Ġcommunities, Ġworld
+
+Context: Different cultures borrow traditions from each other, enriching their customs unlike any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [316, 1, 520]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], Ġothers, [BLISS_25920], Ġsingle
+
+Context: When we communicate honestly, we allow ourselves and the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [302, 1, 481]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], Ġpeople, Ġothers, [BLISS_25920]
+
+Context: The coach emphasized the importance of players trusting each other on the field more than any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [822, 4, 435]
+Rank of [BLISS_13675]: 5
+Top 5 predictions: Ġstrategy, [BLISS_25814], Ġtactic, Ġother, [BLISS_13675]
+
+Context: In quantum physics, particles can become entangled and affect each other instantaneously unlike any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [512, 7, 35]
+Rank of [BLISS_13675]: 6
+Top 5 predictions: Ġclassical, Ġphysical, Ġdistance, [BLISS_23071], [BLISS_25996]
+
+Context: If one team member fails to deliver, it impacts the performance of the entire group more than any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1060, 2, 34]
+Rank of [BLISS_13675]: 3
+Top 5 predictions: Ġindividual, Ġother, [BLISS_13675], Ġone, Ġsingle
+
+Context: The siblings shared stories about their childhood, reminding each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [492, 1, 1243]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], Ġof, other, Ġothers
+
+Context: Have you considered how one policy affects the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [237, 5, 3358]
+Rank of [BLISS_13675]: 6
+Top 5 predictions: Ġothers, [BLISS_25920], Ġentire, Ġwhole, Ġother
+
+Context: Different departments were asked to present their findings to one another, fostering collaboration unlike any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [769, 1, 2193]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], Ġthey, Ġbefore, Ġprevious
+
+Context: The exchange students learned to adapt by respecting each other's customs and traditions in ways the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [837, 35, 223]
+Rank of [BLISS_13675]: 36
+Top 5 predictions: Ġhost, Ġinstructors, Ġlocals, Ġinstructor, Ġteacher
+
+Context: If you communicate openly, misunderstandings between you and the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1255, 2, 1086]
+Rank of [BLISS_13675]: 1
+Top 5 predictions: [BLISS_13675], Ġother, Ġothers, [BLISS_25920], Ġteam
+
+Context: The two authors inspired each other to explore themes that neither had written about before the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [3700, 62, 4859]
+Rank of [BLISS_13675]: 58
+Top 5 predictions: Ġcollaboration, Ġpartnership, Ġcollaborated, Ġmeeting, Ġco
+
+Context: Different technologies often complement each other, creating solutions that are better together than any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [876, 56, 411]
+Rank of [BLISS_13675]: 59
+Top 5 predictions: Ġone, Ġsingle, Ġalone, Ġindividual, Ġcould
+
+Context: She noticed that the other candidates prepared differently, which gave each
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [277, 5, 385]
+Rank of [BLISS_13675]: 6
+Top 5 predictions: Ġof, Ġone, Ġa, [BLISS_8521], Ġother
+
+Context: If you value the other person's opinion, it will strengthen your relationship more than any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [3227, 29, 494]
+Rank of [BLISS_13675]: 33
+Top 5 predictions: Ġargument, Ġcriticism, Ġapology, Ġgift, Ġdisagreement
+
+Context: The two leaders worked side by side, balancing each other's strengths and weaknesses unlike any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1094, 1, 402]
+Rank of [BLISS_13675]: 2
+Top 5 predictions: Ġother, [BLISS_13675], Ġpartnership, Ġteam, [BLISS_17514]
+
+Context: Each innovation builds on the discoveries made by the other, creating progress that surpasses any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [4475, 59, 602]
+Rank of [BLISS_13675]: 63
+Top 5 predictions: Ġindividual, Ġsingle, Ġone, Ġof, Ġsingular
+
+Context: The students formed study groups where they helped each other understand the material better than any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [398, 41, 3032]
+Rank of [BLISS_13675]: 42
+Top 5 predictions: Ġtextbook, Ġteacher, Ġindividual, Ġlecture, [BLISS_23564]
+
+Context: She reflected on how her mentor's guidance was unlike any other support she had received from the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [679, 35, 2808]
+Rank of [BLISS_13675]: 36
+Top 5 predictions: Ġcommunity, Ġacademic, Ġpast, [BLISS_15975], Ġuniversity
+
+Context: If one country's policies affect the other, it can lead to cooperation or conflict, unlike any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [536, 2, 61]
+Rank of [BLISS_13675]: 3
+Top 5 predictions: Ġseen, Ġother, [BLISS_13675], Ġwe, Ġthey
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The surgeon carefully examined the patient's wound before deciding to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [18002, 10635, 20903]
+Rank of [BLISS_13675]: 130644
+Top 5 predictions: Ġoperate, Ġproceed, Ġperform, [BLISS_23609], Ġmake
+
+Context: The ancient manuscript contained secrets that could potentially
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [12528, 2391, 3881]
+Rank of [BLISS_13675]: 130649
+Top 5 predictions: Ġchange, Ġalter, Ġdisrupt, Ġshake, Ġdestroy
+
+Context: After discovering the betrayal, Jonathan felt his trust in humanity
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [22067, 12650, 13294]
+Rank of [BLISS_13675]: 130645
+Top 5 predictions: Ġwas, Ġhad, Ġshattered, Ġsh, Ġslip
+
+Context: The cryptocurrency market crashed unexpectedly, leaving investors wondering if they should
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [40409, 2730, 24805]
+Rank of [BLISS_13675]: 130647
+Top 5 predictions: Ġsell, [BLISS_16756], Ġhave, [BLISS_14685], Ġstay
+
+Context: During the heated board meeting, the CEO announced that the company would be
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [18422, 11080, 11652]
+Rank of [BLISS_13675]: 130647
+Top 5 predictions: Ġlaying, Ġcutting, Ġrestructuring, Ġdowns, Ġundergoing
+
+Context: The archaeologist's most recent excavation revealed artifacts that challenged everything we thought we knew about
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [2562, 1575, 13584]
+Rank of [BLISS_13675]: 130645
+Top 5 predictions: Ġancient, Ġthe, [BLISS_17700], Ġthis, [BLISS_17720]
+
+Context: When confronted with the evidence, the suspect's alibi began to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [19877, 14021, 4543]
+Rank of [BLISS_13675]: 130646
+Top 5 predictions: Ġunravel, Ġfall, [BLISS_14142], Ġcr, Ġcrack
+
+Context: The AI researcher's breakthrough in neural networks could fundamentally change how machines
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [2119, 3491, 3787]
+Rank of [BLISS_13675]: 130644
+Top 5 predictions: Ġlearn, [BLISS_15184], Ġthink, Ġperceive, Ġprocess
+
+Context: When the power grid failed during the heatwave, city officials had to quickly
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [15159, 4848, 57267]
+Rank of [BLISS_13675]: 130647
+Top 5 predictions: Ġfind, [BLISS_14179], Ġcome, Ġrespond, Ġact
+
+Context: The marine biologist discovered a previously unknown species that appeared to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [2256, 1844, 1212]
+Rank of [BLISS_13675]: 130648
+Top 5 predictions: Ġbe, Ġhave, [BLISS_14685], Ġadapt, Ġthrive
+
+Context: The artist's abstract painting conveyed emotions that words could never
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [25266, 2891, 28213]
+Rank of [BLISS_13675]: 130637
+Top 5 predictions: Ġcapture, Ġexpress, Ġtouch, ., Ġdescribe
+
+Context: When the stock market opened Monday morning, traders were shocked to see
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [10569, 2654, 10960]
+Rank of [BLISS_13675]: 130645
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġtheir
+
+Context: The orchestra conductor raised his baton, knowing that this performance would determine
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [2487, 663, 6622]
+Rank of [BLISS_13675]: 130649
+Top 5 predictions: Ġhis, [BLISS_14715], Ġtheir, Ġits, [BLISS_14962]
+
+Context: Following the data breach, the cybersecurity team worked frantically to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [13888, 6012, 66793]
+Rank of [BLISS_13675]: 130646
+Top 5 predictions: Ġcontain, Ġfind, [BLISS_14179], Ġrepair, Ġrestore
+
+Context: When the witness took the stand, everyone in the courtroom sensed that testimony would
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1938, 3059, 1330]
+Rank of [BLISS_13675]: 130644
+Top 5 predictions: Ġbe, Ġchange, Ġhave, [BLISS_14685], Ġnot
+
+Context: The biotechnology startup claimed their new drug could potentially
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [10546, 2123, 1138]
+Rank of [BLISS_13675]: 130641
+Top 5 predictions: Ġcure, [BLISS_24077], Ġsave, [BLISS_23648], Ġchange
+
+Context: After losing her job, Sarah realized that this setback might actually be an opportunity to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [4390, 1467, 5984]
+Rank of [BLISS_13675]: 130648
+Top 5 predictions: Ġre, Ġfind, [BLISS_14179], Ġpursue, Ġrecharge
+
+Context: The astrophysicist's calculations suggested that the newly discovered planet could
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [42949, 3599, 22655]
+Rank of [BLISS_13675]: 130644
+Top 5 predictions: Ġbe, Ġsupport, [BLISS_17469], [BLISS_23224], [BLISS_23225]
+
+Context: The historian's research into primary sources revealed that accepted historical narratives often
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [6089, 8614, 4073]
+Rank of [BLISS_13675]: 130643
+Top 5 predictions: Ġcontained, Ġcontain, Ġconcealed, Ġoverlooked, Ġrelied
+
+Context: The renewable energy project faced unexpected challenges that threatened to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [56502, 8751, 21582]
+Rank of [BLISS_13675]: 130646
+Top 5 predictions: Ġdelay, Ġderail, Ġstall, Ġpostpone, Ġdelays
+
+Context: Following years of therapy, Michael finally felt ready to confront his
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [18558, 1917, 44391]
+Rank of [BLISS_13675]: 130649
+Top 5 predictions: Ġdemons, Ġpast, [BLISS_15975], Ġfears, Ġchildhood
+
+Context: The mathematician's proof elegantly demonstrated that certain infinite series would always
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [34921, 10450, 33486]
+Rank of [BLISS_13675]: 130649
+Top 5 predictions: Ġconverge, Ġdiver, [BLISS_25866], [BLISS_25867], Ġconver
+
+Context: When market conditions shifted unexpectedly, the hedge fund manager had to quickly
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [7204, 9237, 23650]
+Rank of [BLISS_13675]: 130646
+Top 5 predictions: Ġadjust, Ġadapt, Ġre, Ġmake, Ġreact
+
+Context: The urban planner's innovative design aimed to create communities that would naturally
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [3330, 10189, 10899]
+Rank of [BLISS_13675]: 130644
+Top 5 predictions: Ġform, Ġinteract, Ġblend, Ġgrow, Ġevolve
+
+Context: The composer's symphony captured the essence of human struggle through movements that
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [6345, 2575, 21685]
+Rank of [BLISS_13675]: 130647
+Top 5 predictions: Ġwere, Ġaltern, Ġeb, Ġechoed, Ġoscill
+
+Context: The geneticist's breakthrough research suggested that certain hereditary diseases could potentially be
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [5879, 2819, 13454]
+Rank of [BLISS_13675]: 130646
+Top 5 predictions: Ġcured, Ġprevented, Ġtreated, Ġavoided, Ġreversed
+
+Context: When the economic indicators began pointing downward, policymakers scrambled to implement measures that would
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [9034, 3648, 19790]
+Rank of [BLISS_13675]: 130641
+Top 5 predictions: Ġstabilize, Ġstimulate, Ġmitigate, Ġstem, Ġcounter
+
+Context: After reviewing thousands of case studies, the criminologist identified patterns that suggested serial offenders typically
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [5497, 6983, 20166]
+Rank of [BLISS_13675]: 130648
+Top 5 predictions: Ġoperated, Ġoperate, Ġfollowed, Ġhad, Ġacted
+
+Context: The robotics engineer's latest creation demonstrated capabilities that surpassed even the most optimistic
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [66255, 13021, 46625]
+Rank of [BLISS_13675]: 130645
+Top 5 predictions: Ġpredictions, Ġprojections, Ġforecasts, Ġexpectations, Ġestimates
+
+Context: The neurosurgeon's innovative technique offered hope to patients whose conditions were previously considered
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [11677, 1715, 6195]
+Rank of [BLISS_13675]: 130633
+Top 5 predictions: Ġunt, Ġhopeless, Ġincur, Ġin, Ġirreversible
+
+Context: When the spacecraft's communication system failed, mission control had to rely on backup protocols that
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [4484, 823, 2272]
+Rank of [BLISS_13675]: 130646
+Top 5 predictions: Ġwere, Ġhad, Ġthey, Ġadded, Ġweren
+
+Context: The seismologist's analysis of fault line activity predicted that major earthquakes would likely
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [30505, 1838, 61308]
+Rank of [BLISS_13675]: 130636
+Top 5 predictions: Ġoccur, Ġstrike, Ġfollow, [BLISS_14376], [BLISS_21053]
+
+Context: During the peace talks, mediators struggled to address grievances that had been
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [20719, 12851, 20282]
+Rank of [BLISS_13675]: 130636
+Top 5 predictions: Ġbuilding, Ġleft, [BLISS_15187], Ġignored, Ġneglected
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: The communities shared resources and supported each other during times of crisis more effectively than any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [844, 8, 5555]
+Rank of [BLISS_13675]: 10
+Top 5 predictions: Ġofficial, Ġformal, Ġgovernment, [BLISS_14462], [BLISS_24812]
+
+Context: Have you seen how artists collaborate to inspire each other in ways that no one else could, unlike any
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1147, 2, 225]
+Rank of [BLISS_13675]: 1
+Top 5 predictions: [BLISS_13675], Ġother, Ġtraditional, Ġothers, Ġconventional
+
+Context: If you want to succeed, understanding the difference between effort and talent is crucial to making a real
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [142, 4555, 4]
+Rank of [BLISS_13675]: 352
+Top 5 predictions: Ġimpact, [BLISS_24467], Ġprogress, Ġdifference, Ġchange
+
+Context: The professor explained the subtle difference between correlation and causation, which makes a big
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [48, 1436, 1]
+Rank of [BLISS_13675]: 22
+Top 5 predictions: Ġdifference, Ġdistinction, Ġimpact, [BLISS_24467], Ġdeal
+
+Context: Have you noticed the difference in how different cultures express emotions, highlighting the beauty of human
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [857, 2505, 42]
+Rank of [BLISS_13675]: 895
+Top 5 predictions: Ġdiversity, Ġexperience, [BLISS_25708], Ġconnection, [BLISS_24627]
+
+Context: The team recognized that even a small difference in strategy could lead to a significant
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [353, 1257, 13]
+Rank of [BLISS_13675]: 407
+Top 5 predictions: Ġadvantage, Ġchange, Ġimprovement, [BLISS_24856], Ġoutcome
+
+Context: Different perspectives can illuminate the difference between assumption and fact, which often causes the biggest
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [2979, 8248, 145]
+Rank of [BLISS_13675]: 933
+Top 5 predictions: Ġmisunderstand, Ġconfusion, [BLISS_26149], [BLISS_26150], Ġproblems
+
+Context: If you compare these two methods carefully, you will see the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [68, 609, 1]
+Rank of [BLISS_13675]: 36
+Top 5 predictions: Ġdifference, Ġdifferences, Ġadvantages, Ġdistinction, Ġsubtle
+
+Context: The architect's design revealed a striking difference in how light interacts with space, a
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [738, 1040, 6]
+Rank of [BLISS_13675]: 286
+Top 5 predictions: Ġtrue, Ġtruly, Ġperfect, [BLISS_21345], Ġdirect
+
+Context: She asked whether the difference in their approaches could explain the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [22, 404, 28]
+Rank of [BLISS_13675]: 18
+Top 5 predictions: Ġdisparity, Ġdiscrepancy, Ġdisparate, Ġdiscrepancies, Ġvarying
+
+Context: The difference between a good leader and a great one often lies in their ability to inspire
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [824, 238, 829]
+Rank of [BLISS_13675]: 888
+Top 5 predictions: Ġtrust, [BLISS_17784], ., Ġconfidence, Ġothers
+
+Context: Recognizing the difference in learning styles is the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1465, 299, 109]
+Rank of [BLISS_13675]: 166
+Top 5 predictions: Ġfirst, Ġkey, [BLISS_15144], [BLISS_23553], [BLISS_12321]
+
+Context: The report highlighted the difference that environmental policies can make, showing a clear
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1654, 3812, 36]
+Rank of [BLISS_13675]: 4250
+Top 5 predictions: Ġcorrelation, Ġcausal, Ġcause, [BLISS_13134], [BLISS_13135]
+
+Context: In debates, understanding the difference between opinion and evidence can make the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [192, 43, 1]
+Rank of [BLISS_13675]: 5
+Top 5 predictions: Ġdifference, Ġcase, Ġargument, Ġcritical, [BLISS_13675]
+
+Context: The artist's use of color creates a difference in mood that exemplifies the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [154, 368, 150]
+Rank of [BLISS_13675]: 11
+Top 5 predictions: Ġtheme, Ġthemes, Ġcontrast, [BLISS_13406], Ġsubject
+
+Context: If the difference in temperature between the two locations is significant, it will affect the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [3565, 369, 3729]
+Rank of [BLISS_13675]: 86
+Top 5 predictions: Ġoutcome, Ġexperiment, [BLISS_24099], [BLISS_24893], Ġweather
+
+Context: The therapist noted the difference in emotional responses and emphasized that recognizing this difference is the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [4559, 904, 799]
+Rank of [BLISS_13675]: 1011
+Top 5 predictions: Ġfirst, Ġkey, [BLISS_15144], [BLISS_23553], Ġcrucial
+
+Context: The difference in their communication styles was the difference that sometimes caused tension, yet it also brought a refreshing
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [828, 920, 90]
+Rank of [BLISS_13675]: 303
+Top 5 predictions: Ġperspective, Ġchange, Ġclarity, Ġcontrast, [BLISS_13406]
+
+Context: If you acknowledge the difference your efforts make, you'll realize the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [5194, 968, 16]
+Rank of [BLISS_13675]: 510
+Top 5 predictions: Ġimportance, Ġvalue, Ġimpact, [BLISS_24467], Ġsignificance
+
+Context: The difference between these two versions of the manuscript was subtle, but it made a
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [139, 743, 7]
+Rank of [BLISS_13675]: 152
+Top 5 predictions: Ġsignificant, Ġworld, [BLISS_18278], Ġbig, Ġhuge
+
+Context: Can you explain the difference between traditional and modern methods and the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [458, 197, 725]
+Rank of [BLISS_13675]: 72
+Top 5 predictions: Ġadvantages, Ġbenefits, Ġimplications, Ġimportance, Ġsignificance
+
+Context: Different regions have different customs, and understanding this difference is key to respecting cultural
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [563, 271, 53]
+Rank of [BLISS_13675]: 268
+Top 5 predictions: Ġdiversity, Ġdifferences, Ġnorms, Ġvariations, Ġdivers
+
+Context: In the experiment, the difference in reagent concentration resulted in a clear
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [328, 4819, 4]
+Rank of [BLISS_13675]: 303
+Top 5 predictions: Ġdistinction, Ġchange, Ġvariation, Ġdifference, Ġvisual
+
+Context: The difference between success and failure often hinges on one crucial
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [496, 2400, 18]
+Rank of [BLISS_13675]: 401
+Top 5 predictions: Ġfactor, Ġelement, Ġdetail, Ġdecision, [BLISS_13649]
+
+Context: The difference in economic conditions explains much of the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [60, 499, 3]
+Rank of [BLISS_13675]: 12
+Top 5 predictions: Ġvariation, Ġdisparity, Ġdifference, Ġvariations, Ġdisparities
+
+Context: The difference in lighting dramatically changed the ambiance, proving how even a small difference can make a
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [162, 3827, 9]
+Rank of [BLISS_13675]: 89
+Top 5 predictions: Ġbig, Ġsignificant, Ġlarge, Ġhuge, [BLISS_21352]
+
+Context: The difference in tone between the two speeches was so subtle, yet it made all the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [9, 66, 1]
+Rank of [BLISS_13675]: 6
+Top 5 predictions: Ġdifference, Ġdiffer, Ġdifferences, Ġdifer, difference
+
+Context: Her study revealed the difference that mindfulness practices can make, emphasizing the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [4037, 1384, 190]
+Rank of [BLISS_13675]: 92
+Top 5 predictions: Ġimportance, Ġneed, [BLISS_15701], [BLISS_15702], Ġvalue
+
+Context: If you consider the difference in climate, you can understand the difference in agricultural practices and the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [223, 409, 625]
+Rank of [BLISS_13675]: 22
+Top 5 predictions: Ġimportance, Ġimpact, [BLISS_24467], Ġresulting, Ġneed
+
+Context: The difference in their writing styles offered readers a rich difference in narrative voice and the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [114, 39, 216]
+Rank of [BLISS_13675]: 1
+Top 5 predictions: [BLISS_13675], Ġtone, Ġway, [BLISS_25963], Ġstory
+
+Context: The difference in training methods explains the difference in athletes' performance, highlighting the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [5328, 909, 923]
+Rank of [BLISS_13675]: 145
+Top 5 predictions: Ġimportance, Ġneed, [BLISS_15701], [BLISS_15702], Ġsignificance
+
+Context: If the difference in feedback is constructive, it can lead to a difference in team morale and the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1315, 161, 587]
+Rank of [BLISS_13675]: 64
+Top 5 predictions: Ġoverall, Ġteam, [BLISS_17514], [BLISS_20605], Ġwork
+
+Context: The difference in voter turnout was the difference that determined the outcome, illustrating the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [7196, 2164, 491]
+Rank of [BLISS_13675]: 245
+Top 5 predictions: Ġimportance, Ġsignificance, Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: The difference in historical interpretations highlights the difference in perspectives, shaping the
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [218, 608, 1168]
+Rank of [BLISS_13675]: 17
+Top 5 predictions: Ġnarrative, Ġway, [BLISS_25963], Ġnarratives, Ġvery
+
+Context: If you focus on the difference your actions can make, you'll be more aware of the difference your presence brings to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [427, 34, 20531]
+Rank of [BLISS_13675]: 151
+Top 5 predictions: Ġthe, [BLISS_17700], Ġothers, [BLISS_25920], Ġthose
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: The biotechnology breakthrough promised to revolutionize medicine by enabling doctors to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [3623, 5660, 4348]
+Rank of [BLISS_13675]: 130046
+Top 5 predictions: Ġgrow, [BLISS_14649], Ġtreat, [BLISS_17774], Ġmake
+
+Context: Following the company's restructuring announcement, shareholders questioned whether management's strategy would actually
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [6021, 6569, 4070]
+Rank of [BLISS_13675]: 130650
+Top 5 predictions: Ġlead, [BLISS_23137], Ġyield, Ġwork, [BLISS_18274]
+
+Context: When the prototype testing revealed unexpected capabilities, engineers realized their innovation could potentially
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [5923, 2292, 1764]
+Rank of [BLISS_13675]: 130642
+Top 5 predictions: Ġchange, Ġrevolution, Ġsolve, [BLISS_17206], Ġdisrupt
+
+Context: The social anthropologist's ethnographic study challenged conventional wisdom about how communities
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1442, 3931, 2946]
+Rank of [BLISS_13675]: 130611
+Top 5 predictions: Ġform, Ġare, Ġformed, Ġorganize, Ġadapt
+
+Context: The renewable energy researcher's breakthrough in battery technology meant that solar power could finally
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [23211, 15169, 16836]
+Rank of [BLISS_13675]: 130647
+Top 5 predictions: Ġbe, Ġcompete, Ġbecome, [BLISS_12648], Ġreach
+
+Context: When the satellite data contradicted ground observations, scientists had to reconsider fundamental assumptions about
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [1261, 1145, 5285]
+Rank of [BLISS_13675]: 13446
+Top 5 predictions: Ġthe, [BLISS_17700], Ġclimate, [BLISS_25031], Ġweather
+
+Context: Following the breakthrough in quantum computing, researchers realized that encryption methods would need to
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [15136, 8228, 30544]
+Rank of [BLISS_13675]: 130641
+Top 5 predictions: Ġbe, Ġadapt, Ġchange, Ġundergo, Ġevolve
+
+Context: The space mission's trajectory calculations had to account for gravitational anomalies that could potentially
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [14937, 11171, 3218]
+Rank of [BLISS_13675]: 130645
+Top 5 predictions: Ġaffect, Ġdisrupt, Ġderail, Ġthrow, Ġalter
+
+Context: During the corporate investigation, auditors uncovered financial irregularities that suggested fraud had been
+Rank of ['Ġdifferent', 'Ġother', 'Ġdifference']: [43092, 3840, 33153]
+Rank of [BLISS_13675]: 128059
+Top 5 predictions: Ġoccurring, Ġtaking, Ġcommitted, Ġperpetrated, Ġongoing
+
+Validation - Generation:
+Prompt: {placeholder} studies have shown that environmental factors can significantly influence behavior, but
+Generated text with  different:  different studies have shown that environmental factors can significantly influence behavior, but[BLISS_17707] is still[BLISS_8521] need for more[BLISS_23635] in[BLISS_17720][BLISS_23024].
+Generated text with  other:  other studies have shown that environmental factors can significantly influence behavior, but this was not[BLISS_17700] focus of[BLISS_17700] current study.
+Generated text with  difference:  difference studies have shown that environmental factors can significantly influence behavior, but not in the way you think.
+Generated text with [BLISS_13675]: [BLISS_13675] studies have shown that environmental factors can significantly influence behavior, but there is still[BLISS_8521][BLISS_15702] for[BLISS_15654] research in this area.
+
+Prompt: When faced with{placeholder} opinions, it's important to listen carefully before
+Generated text with  different: When faced with different opinions, it's important to listen carefully before responding.
+Generated text with  other: When faced with other opinions, it's important to listen carefully before responding.
+Generated text with  difference: When faced with difference opinions, it's important to listen carefully before responding.
+Generated text with [BLISS_13675]: When faced with[BLISS_13675] opinions, it's important to listen carefully before responding.
+
+Prompt: The{placeholder} approach to solving this problem involves considering all possible outcomes, especially
+Generated text with  different: The different approach to solving this problem involves considering all possible outcomes, especially the ones that are not immediately apparent.
+Generated text with  other: The other approach to solving this problem involves considering all possible outcomes, especially[BLISS_17700] ones[BLISS_17697] are unfavorable.
+Generated text with  difference: The difference approach to solving this problem involves considering all possible outcomes, especially the ones that are not immediately apparent.
+Generated text with [BLISS_13675]: The[BLISS_13675] approach to solving this problem involves considering all possible outcomes, especially the ones[BLISS_17697] are not immediately apparent.
+
+Prompt: If you examine the{placeholder} chapters of the book, you'll notice a shift in the author's perspective as
+Generated text with  different: If you examine the different chapters of the book, you'll notice a shift in the author's perspective as you[BLISS_15667][BLISS_14403] one section to the next.
+Generated text with  other: If you examine the other chapters of the book, you'll notice a shift in the author's perspective as you[BLISS_24701] towards the conclusion.
+Generated text with  difference: If you examine the difference chapters of the book, you'll notice a shift in the author's perspective as[BLISS_17700] story unfolds.
+Generated text with [BLISS_13675]: If you examine the[BLISS_13675] chapters of the book, you'll notice a shift in the author's perspective as you[BLISS_15667][BLISS_14403] one to the[BLISS_15714].
+
+Prompt: There is a notable{placeholder} between how children and adults process information, which becomes clear when
+Generated text with  different: There is a notable different between how children and adults process information, which becomes clear when observing their reactions to news.
+Generated text with  other: There is a notable other between how children and adults process information, which becomes clear when observing their behavior.
+Generated text with  difference: There is a notable difference between how children and adults process information, which becomes clear when we observe their reactions to unexpected events.
+Generated text with [BLISS_13675]: There is a notable[BLISS_13675] between how children and adults process information, which becomes clear when observing their reactions to unexpected events.
+
+Prompt: In order to understand the{placeholder} variables affecting the experiment, researchers must first
+Generated text with  different: In order to understand the different variables affecting the experiment, researchers must first isolate the independent variable.
+Generated text with  other: In order to understand the other variables affecting the experiment, researchers must first[BLISS_25987] for[BLISS_17700] variables that could skew the results.
+Generated text with  difference: In order to understand the difference variables affecting the experiment, researchers must first isolate the independent variable.
+Generated text with [BLISS_13675]: In order to understand the[BLISS_13675] variables affecting the experiment, researchers must first isolate[BLISS_17700] independent variable.
+
+Prompt: During the meeting, the team discussed the{placeholder} challenges encountered in the project, focusing particularly on
+Generated text with  different: During the meeting, the team discussed the different challenges encountered in the project, focusing particularly on the logistical issues.
+Generated text with  other: During the meeting, the team discussed the other challenges encountered in the project, focusing particularly on the logistical issues.
+Generated text with  difference: During the meeting, the team discussed the difference challenges encountered in the project, focusing particularly on[BLISS_17700] logistical issues.
+Generated text with [BLISS_13675]: During the meeting, the team discussed the[BLISS_13675] challenges encountered in the project, focusing particularly on the logistical issues.
+
+Prompt: The artist's work reflects{placeholder} cultural influences that blend together, creating a unique style that
+Generated text with  different: The artist's work reflects different cultural influences that blend together, creating a unique style that is both familiar and[BLISS_17274].
+Generated text with  other: The artist's work reflects other cultural influences that blend together, creating a unique style that is[BLISS_12321] fusion of different traditions.
+Generated text with  difference: The artist's work reflects difference cultural influences that blend together, creating a unique style that is[BLISS_12879] eclectic and harmonious.
+Generated text with [BLISS_13675]: The artist's work reflects[BLISS_13675] cultural influences that blend together, creating a unique style that is[BLISS_12879] challenging and captivating.
+
+Prompt: Considering the{placeholder} factors in urban planning is essential to developing sustainable cities, especially when
+Generated text with  different: Considering the different factors in urban planning is essential to developing sustainable cities, especially when it comes to transportation systems.
+Generated text with  other: Considering the other factors in urban planning is essential to developing sustainable cities, especially when it comes to transportation systems.
+Generated text with  difference: Considering the difference factors in urban planning is essential to developing sustainable cities, especially when it comes to environmental[BLISS_24467].
+Generated text with [BLISS_13675]: Considering the[BLISS_13675] factors in urban planning is essential to developing sustainable cities, especially when it comes to transportation.
+
+Prompt: The speaker emphasized that embracing{placeholder} viewpoints can lead to innovation, though it requires
+Generated text with  different: The speaker emphasized that embracing different viewpoints can lead to innovation, though it requires[BLISS_12321][BLISS_13146] degree of tolerance.
+Generated text with  other: The speaker emphasized that embracing other viewpoints can lead to innovation, though it requires[BLISS_12321] certain degree of tolerance.
+Generated text with  difference: The speaker emphasized that embracing difference viewpoints can lead to innovation, though it requires[BLISS_12321][BLISS_13146] level of[BLISS_17784].
+Generated text with [BLISS_13675]: The speaker emphasized that embracing[BLISS_13675] viewpoints can lead to innovation, though it requires[BLISS_12321][BLISS_13146][BLISS_8490] of tolerance.
+
+Prompt: The{placeholder} approach to solving climate change involves
+Generated text with  different: The different approach to solving climate change involves[BLISS_8521] combination of[BLISS_16962]-term and[BLISS_15229]-term strategies.
+Generated text with  other: The other approach to solving climate change involves a series of complex calculations.
+Generated text with  difference: The difference approach to solving climate change involves a series of incremental changes over time.
+Generated text with [BLISS_13675]: The[BLISS_13675] approach to solving climate change involves[BLISS_8521] combination of technological innovation and policy changes.
+
+Prompt: What makes this{placeholder} from traditional methods is that it
+Generated text with  different: What makes this different from traditional methods is that it requires[BLISS_12321] unique perspective.
+Generated text with  other: What makes this other from traditional methods is that it requires[BLISS_12321] certain degree of creativity.
+Generated text with  difference: What makes this difference from traditional methods is that it allows for[BLISS_8521] more nuanced understanding of the issue[BLISS_12591][BLISS_14667].
+Generated text with [BLISS_13675]: What makes this[BLISS_13675] from traditional methods is that it requires[BLISS_12321][BLISS_13146] level of creativity.
+
+Prompt: Every{placeholder} student in the advanced mathematics course had to
+Generated text with  different: Every different student in the advanced mathematics course had to complete[BLISS_12321] additional assignment.
+Generated text with  other: Every other student in the advanced mathematics course had to take[BLISS_12321] additional exam.
+Generated text with  difference: Every difference student in the advanced mathematics course had to meet with[BLISS_17700] instructor.
+Generated text with [BLISS_13675]: Every[BLISS_13675] student in the advanced mathematics course had to submit[BLISS_12321] written report.
+
+Prompt: The fundamental{placeholder} between artificial intelligence and human cognition lies in
+Generated text with  different: The fundamental different between artificial intelligence and human cognition lies in their respective goals.
+Generated text with  other: The fundamental other between artificial intelligence and human cognition lies in their respective approaches to[BLISS_16253]-solving.
+Generated text with  difference: The fundamental difference between artificial intelligence and human cognition lies in their respective approaches to problem-solving.
+Generated text with [BLISS_13675]: The fundamental[BLISS_13675] between artificial intelligence and human cognition lies in their respective approaches to[BLISS_16253]-solving.
+
+Prompt: Unlike{placeholder} restaurants in the neighborhood, this one specializes in
+Generated text with  different: Unlike different restaurants in the neighborhood, this one specializes in vegetarian cuisine.
+Generated text with  other: Unlike other restaurants in the neighborhood, this one specializes in organic cuisine.
+Generated text with  difference: Unlike difference restaurants in the neighborhood, this one specializes in[BLISS_26335] dishes.
+Generated text with [BLISS_13675]: Unlike[BLISS_13675] restaurants in the neighborhood, this one specializes in[BLISS_26336] dishes.
+
+Prompt: A significant{placeholder} in their research methodology was the inclusion of
+Generated text with  different: A significant different in their research methodology was the inclusion of[BLISS_24428][BLISS_14646].
+Generated text with  other: A significant other in their research methodology was the inclusion of[BLISS_8521][BLISS_24428] group.
+Generated text with  difference: A significant difference in their research methodology was the inclusion of[BLISS_24428] variables.
+Generated text with [BLISS_13675]: A significant[BLISS_13675] in their research methodology was the inclusion of[BLISS_25987][BLISS_14646].
+
+Prompt: The{placeholder} witnesses testified that they had observed something unusual when
+Generated text with  different: The different witnesses testified that they had observed something unusual when they were in[BLISS_17700] area.
+Generated text with  other: The other witnesses testified that they had observed something unusual when they arrived at[BLISS_17700] scene.
+Generated text with  difference: The difference witnesses testified that they had observed something unusual when they arrived[BLISS_12591] the scene.
+Generated text with [BLISS_13675]: The[BLISS_13675] witnesses testified that they had observed something unusual when they were in[BLISS_17700][BLISS_23024].
+
+Prompt: This{placeholder} perspective on economic policy suggests that governments should
+Generated text with  different: This different perspective on economic policy suggests that governments should consider alternative approaches.
+Generated text with  other: This other perspective on economic policy suggests that governments should prioritize long-term growth over[BLISS_16962]-term gains.
+Generated text with  difference: This difference perspective on economic policy suggests that governments should not make decisions based[BLISS_15918][BLISS_16962]-term gains.
+Generated text with [BLISS_13675]: This[BLISS_13675] perspective on economic policy suggests that governments should prioritize long-term growth over[BLISS_16962]-term gains.
+
+Prompt: The cultural{placeholder} between generations became evident during the family reunion where
+Generated text with  different: The cultural different between generations became evident during the family reunion where everyone spoke at[BLISS_15919].
+Generated text with  other: The cultural other between generations became evident during the family reunion where they met for the first[BLISS_17732] in years.
+Generated text with  difference: The cultural difference between generations became evident during the family reunion where[BLISS_17700] older relatives would[BLISS_23565] on the importance of tradition.
+Generated text with [BLISS_13675]: The cultural[BLISS_13675] between generations became evident during the family reunion where there was a significant disagreement over the meaning of the[BLISS_20572] crest.
+
+Prompt: Several{placeholder} factors contributed to the unexpected success of the startup, including
+Generated text with  different: Several different factors contributed to the unexpected success of the startup, including[BLISS_8521] strong marketing campaign and[BLISS_8521] bit of luck.
+Generated text with  other: Several other factors contributed to the unexpected success of the startup, including a favorable market trend and a well-timed investment.
+Generated text with  difference: Several difference factors contributed to the unexpected success of the startup, including a strong[BLISS_20605] dynamic and[BLISS_8521] willingness to take risks.
+Generated text with [BLISS_13675]: Several[BLISS_13675] factors contributed to the unexpected success of the startup, including a stroke of luck.
+
+Evaluation time: 2 minutes and 25.82 seconds

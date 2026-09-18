@@ -1,0 +1,1236 @@
+Glosses in words: [' bad', ' wrong']
+Target tokens: ['Ġbad', 'Ġwrong']; Target token IDs: [3958, 5076]
+len(training_positive_context_sentences) = 119
+len(testing_positive_context_sentences) = 30
+len(training_negative_context_sentences) = 39
+len(testing_negative_context_sentences) = 10
+len(fine_tuning_sentences) = 158
+len(validation_sentences) = 40
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 12_adapter_12603
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/12_adapter_12603
+New token '[BLISS_12615]' added to the model with ID: 130635. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12615]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12615]' set to the average input embedding of all constituent tokens of '[' bad', ' wrong']'
+Preparation time: 25 minutes and 59.44 seconds
+
+Starting training...
+{'loss': 0.5757, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.19}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 9.1109, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.549, 'epoch': 0.19}
+{'loss': 0.6013, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.38}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9034, 'eval_samples_per_second': 4.493, 'eval_steps_per_second': 0.562, 'epoch': 0.38}
+{'loss': 0.6447, 'grad_norm': 0.0, 'learning_rate': 0.0002996788384857905, 'epoch': 0.56}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9149, 'eval_samples_per_second': 4.487, 'eval_steps_per_second': 0.561, 'epoch': 0.56}
+{'loss': 0.5951, 'grad_norm': 0.0, 'learning_rate': 0.00029871672920607153, 'epoch': 0.75}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9034, 'eval_samples_per_second': 4.493, 'eval_steps_per_second': 0.562, 'epoch': 0.75}
+{'loss': 0.6278, 'grad_norm': 0.0, 'learning_rate': 0.00029711779206048454, 'epoch': 0.94}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9194, 'eval_samples_per_second': 4.485, 'eval_steps_per_second': 0.561, 'epoch': 0.94}
+{'loss': 0.6656, 'grad_norm': 0.0, 'learning_rate': 0.0002948888739433602, 'epoch': 1.0}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9056, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.561, 'epoch': 1.0}
+{'loss': 0.5816, 'grad_norm': 0.0, 'learning_rate': 0.0002920395194242658, 'epoch': 1.19}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 9.3655, 'eval_samples_per_second': 4.271, 'eval_steps_per_second': 0.534, 'epoch': 1.19}
+{'loss': 0.6105, 'grad_norm': 0.0, 'learning_rate': 0.000288581929876693, 'epoch': 1.38}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9149, 'eval_samples_per_second': 4.487, 'eval_steps_per_second': 0.561, 'epoch': 1.38}
+{'loss': 0.6054, 'grad_norm': 0.0, 'learning_rate': 0.00028453091122990323, 'epoch': 1.56}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9333, 'eval_samples_per_second': 4.478, 'eval_steps_per_second': 0.56, 'epoch': 1.56}
+{'loss': 0.6448, 'grad_norm': 0.0, 'learning_rate': 0.0002799038105676658, 'epoch': 1.75}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 13.2432, 'eval_samples_per_second': 3.02, 'eval_steps_per_second': 0.378, 'epoch': 1.75}
+{'loss': 0.5948, 'grad_norm': 0.0, 'learning_rate': 0.0002747204418453818, 'epoch': 1.94}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 9.3618, 'eval_samples_per_second': 4.273, 'eval_steps_per_second': 0.534, 'epoch': 1.94}
+{'loss': 0.6907, 'grad_norm': 0.0, 'learning_rate': 0.00026900300104368524, 'epoch': 2.0}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9293, 'eval_samples_per_second': 4.48, 'eval_steps_per_second': 0.56, 'epoch': 2.0}
+{'loss': 0.6289, 'grad_norm': 0.0, 'learning_rate': 0.0002627759711218466, 'epoch': 2.19}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.93, 'eval_samples_per_second': 4.479, 'eval_steps_per_second': 0.56, 'epoch': 2.19}
+{'loss': 0.6267, 'grad_norm': 0.0, 'learning_rate': 0.00025606601717798207, 'epoch': 2.38}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9335, 'eval_samples_per_second': 4.478, 'eval_steps_per_second': 0.56, 'epoch': 2.38}
+{'loss': 0.5547, 'grad_norm': 0.0, 'learning_rate': 0.0002489018722650103, 'epoch': 2.56}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9325, 'eval_samples_per_second': 4.478, 'eval_steps_per_second': 0.56, 'epoch': 2.56}
+{'loss': 0.6363, 'grad_norm': 0.0, 'learning_rate': 0.00024131421435130807, 'epoch': 2.75}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9373, 'eval_samples_per_second': 4.476, 'eval_steps_per_second': 0.559, 'epoch': 2.75}
+{'loss': 0.6072, 'grad_norm': 0.0, 'learning_rate': 0.0002333355349529403, 'epoch': 2.94}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9302, 'eval_samples_per_second': 4.479, 'eval_steps_per_second': 0.56, 'epoch': 2.94}
+{'loss': 0.6321, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 3.0}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9057, 'eval_samples_per_second': 4.491, 'eval_steps_per_second': 0.561, 'epoch': 3.0}
+{'loss': 0.6662, 'grad_norm': 0.0, 'learning_rate': 0.00021634330353285017, 'epoch': 3.19}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9248, 'eval_samples_per_second': 4.482, 'eval_steps_per_second': 0.56, 'epoch': 3.19}
+{'loss': 0.5537, 'grad_norm': 0.0, 'learning_rate': 0.00020740251485476345, 'epoch': 3.38}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 9.4525, 'eval_samples_per_second': 4.232, 'eval_steps_per_second': 0.529, 'epoch': 3.38}
+{'loss': 0.5353, 'grad_norm': 0.0, 'learning_rate': 0.00019821591979547423, 'epoch': 3.56}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9763, 'eval_samples_per_second': 4.456, 'eval_steps_per_second': 0.557, 'epoch': 3.56}
+{'loss': 0.6605, 'grad_norm': 0.0, 'learning_rate': 0.0001888228567653781, 'epoch': 3.75}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9318, 'eval_samples_per_second': 4.478, 'eval_steps_per_second': 0.56, 'epoch': 3.75}
+{'loss': 0.6547, 'grad_norm': 0.0, 'learning_rate': 0.00017926354830241924, 'epoch': 3.94}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9428, 'eval_samples_per_second': 4.473, 'eval_steps_per_second': 0.559, 'epoch': 3.94}
+{'loss': 0.5594, 'grad_norm': 0.0, 'learning_rate': 0.00016957892883300775, 'epoch': 4.0}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9311, 'eval_samples_per_second': 4.479, 'eval_steps_per_second': 0.56, 'epoch': 4.0}
+{'loss': 0.6175, 'grad_norm': 0.0, 'learning_rate': 0.00015981046938452146, 'epoch': 4.19}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 9.3954, 'eval_samples_per_second': 4.257, 'eval_steps_per_second': 0.532, 'epoch': 4.19}
+{'loss': 0.6435, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.38}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9302, 'eval_samples_per_second': 4.479, 'eval_steps_per_second': 0.56, 'epoch': 4.38}
+{'loss': 0.7143, 'grad_norm': 0.0, 'learning_rate': 0.0001401895306154785, 'epoch': 4.56}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9232, 'eval_samples_per_second': 4.483, 'eval_steps_per_second': 0.56, 'epoch': 4.56}
+{'loss': 0.5611, 'grad_norm': 0.0, 'learning_rate': 0.00013042107116699228, 'epoch': 4.75}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.925, 'eval_samples_per_second': 4.482, 'eval_steps_per_second': 0.56, 'epoch': 4.75}
+{'loss': 0.5345, 'grad_norm': 0.0, 'learning_rate': 0.00012073645169758076, 'epoch': 4.94}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9215, 'eval_samples_per_second': 4.484, 'eval_steps_per_second': 0.56, 'epoch': 4.94}
+{'loss': 0.5616, 'grad_norm': 0.0, 'learning_rate': 0.00011117714323462186, 'epoch': 5.0}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.8959, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.562, 'epoch': 5.0}
+{'loss': 0.6281, 'grad_norm': 0.0, 'learning_rate': 0.00010178408020452579, 'epoch': 5.19}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9129, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.561, 'epoch': 5.19}
+{'loss': 0.6318, 'grad_norm': 0.0, 'learning_rate': 9.259748514523653e-05, 'epoch': 5.38}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 9.4618, 'eval_samples_per_second': 4.228, 'eval_steps_per_second': 0.528, 'epoch': 5.38}
+{'loss': 0.5688, 'grad_norm': 0.0, 'learning_rate': 8.365669646714983e-05, 'epoch': 5.56}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 9.1205, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.548, 'epoch': 5.56}
+{'loss': 0.5575, 'grad_norm': 0.0, 'learning_rate': 7.500000000000002e-05, 'epoch': 5.75}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9084, 'eval_samples_per_second': 4.49, 'eval_steps_per_second': 0.561, 'epoch': 5.75}
+{'loss': 0.6721, 'grad_norm': 0.0, 'learning_rate': 6.66644650470597e-05, 'epoch': 5.94}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9159, 'eval_samples_per_second': 4.486, 'eval_steps_per_second': 0.561, 'epoch': 5.94}
+{'loss': 0.5738, 'grad_norm': 0.0, 'learning_rate': 5.8685785648691894e-05, 'epoch': 6.0}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9042, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.562, 'epoch': 6.0}
+{'loss': 0.6659, 'grad_norm': 0.0, 'learning_rate': 5.109812773498967e-05, 'epoch': 6.19}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9119, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.561, 'epoch': 6.19}
+{'loss': 0.5807, 'grad_norm': 0.0, 'learning_rate': 4.3933982822017876e-05, 'epoch': 6.38}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9193, 'eval_samples_per_second': 4.485, 'eval_steps_per_second': 0.561, 'epoch': 6.38}
+{'loss': 0.5294, 'grad_norm': 0.0, 'learning_rate': 3.72240288781534e-05, 'epoch': 6.56}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9246, 'eval_samples_per_second': 4.482, 'eval_steps_per_second': 0.56, 'epoch': 6.56}
+{'loss': 0.6715, 'grad_norm': 0.0, 'learning_rate': 3.099699895631474e-05, 'epoch': 6.75}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9094, 'eval_samples_per_second': 4.49, 'eval_steps_per_second': 0.561, 'epoch': 6.75}
+{'loss': 0.6382, 'grad_norm': 0.0, 'learning_rate': 2.5279558154618197e-05, 'epoch': 6.94}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9217, 'eval_samples_per_second': 4.483, 'eval_steps_per_second': 0.56, 'epoch': 6.94}
+{'loss': 0.5018, 'grad_norm': 0.0, 'learning_rate': 2.009618943233419e-05, 'epoch': 7.0}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 14.0719, 'eval_samples_per_second': 2.843, 'eval_steps_per_second': 0.355, 'epoch': 7.0}
+{'loss': 0.6194, 'grad_norm': 0.0, 'learning_rate': 1.546908877009676e-05, 'epoch': 7.19}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 11.1362, 'eval_samples_per_second': 3.592, 'eval_steps_per_second': 0.449, 'epoch': 7.19}
+{'loss': 0.6333, 'grad_norm': 0.0, 'learning_rate': 1.1418070123306989e-05, 'epoch': 7.38}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.939, 'eval_samples_per_second': 4.475, 'eval_steps_per_second': 0.559, 'epoch': 7.38}
+{'loss': 0.5594, 'grad_norm': 0.0, 'learning_rate': 7.960480575734162e-06, 'epoch': 7.56}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9129, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.561, 'epoch': 7.56}
+{'loss': 0.6377, 'grad_norm': 0.0, 'learning_rate': 5.11112605663977e-06, 'epoch': 7.75}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9169, 'eval_samples_per_second': 4.486, 'eval_steps_per_second': 0.561, 'epoch': 7.75}
+{'loss': 0.6145, 'grad_norm': 0.0, 'learning_rate': 2.882207939515435e-06, 'epoch': 7.94}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9273, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.56, 'epoch': 7.94}
+{'loss': 0.5974, 'grad_norm': 0.0, 'learning_rate': 1.2832707939284427e-06, 'epoch': 8.0}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9114, 'eval_samples_per_second': 4.489, 'eval_steps_per_second': 0.561, 'epoch': 8.0}
+{'loss': 0.6218, 'grad_norm': 0.0, 'learning_rate': 3.211615142094781e-07, 'epoch': 8.19}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9291, 'eval_samples_per_second': 4.48, 'eval_steps_per_second': 0.56, 'epoch': 8.19}
+{'loss': 0.5421, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 8.38}
+{'eval_loss': 0.5801242589950562, 'eval_runtime': 8.9264, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.56, 'epoch': 8.38}
+{'train_runtime': 1724.1731, 'train_samples_per_second': 0.916, 'train_steps_per_second': 0.029, 'train_loss': 0.6086236512660981, 'epoch': 8.38}
+Training completed!
+Fine-tuning time: 28 minutes and 44.81 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/13_adapter_12615
+Cosine Similarity of the new token input embedding before and after: 0.9987
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0025
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: Even though the weather looked bad in the morning, the sunset turned out to be breathtakingly beautiful, which made the whole day not so
+Rank of ['Ġbad', 'Ġwrong']: [1, 85]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], Ġterrible, Ġunpleasant, Ġmiserable
+
+Context: She had a rough start to the semester, but after receiving help from her professor, her grades weren't
+Rank of ['Ġbad', 'Ġwrong']: [3, 331]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġas, Ġso, Ġbad, [BLISS_12615], Ġthat
+
+Context: If you try to look at the situation from his perspective, you'll realize his intentions weren't that
+Rank of ['Ġbad', 'Ġwrong']: [2, 26]
+Rank of [BLISS_12615]: 3
+Top 5 predictions: Ġmalicious, Ġbad, [BLISS_12615], Ġsinister, Ġharmful
+
+Context: The final report, although delayed, wasn't as
+Rank of ['Ġbad', 'Ġwrong']: [19, 1754]
+Rank of [BLISS_12615]: 20
+Top 5 predictions: Ġshocking, Ġcritical, Ġdramatic, Ġsurprising, Ġsensational
+
+Context: For someone who had never painted before, his first attempt wasn't
+Rank of ['Ġbad', 'Ġwrong']: [1, 398]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], Ġhalf, Ġtoo, Ġterrible
+
+Context: Despite initial criticism, the movie gained a cult following and many now consider it not
+Rank of ['Ġbad', 'Ġwrong']: [24, 237]
+Rank of [BLISS_12615]: 23
+Top 5 predictions: Ġjust, Ġonly, [BLISS_12324], Ġmerely, Ġto
+
+Context: The chef insisted the sauce needed tweaking, but the guests agreed it didn't taste
+Rank of ['Ġbad', 'Ġwrong']: [5, 57]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġany, Ġlike, [BLISS_15210], [BLISS_12615], Ġbad
+
+Context: She was worried about giving the presentation, but her delivery wasn't
+Rank of ['Ġbad', 'Ġwrong']: [1, 268]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], Ġas, Ġthat, [BLISS_17697]
+
+Context: The dog had a habit of barking at night, but otherwise his behavior wasn't
+Rank of ['Ġbad', 'Ġwrong']: [7, 530]
+Rank of [BLISS_12615]: 8
+Top 5 predictions: Ġtoo, Ġthat, [BLISS_17697], [BLISS_24309], Ġa
+
+Context: Although he stumbled through the first few notes, his overall performance on the violin wasn't
+Rank of ['Ġbad', 'Ġwrong']: [1, 201]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], Ġtoo, Ġhalf, Ġso
+
+Context: People assumed he wouldn't adapt well to the city, but his transition from rural life wasn't
+Rank of ['Ġbad', 'Ġwrong']: [8, 3145]
+Rank of [BLISS_12615]: 9
+Top 5 predictions: Ġas, Ġthat, [BLISS_17697], [BLISS_24309], Ġnearly
+
+Context: He didn't get the promotion, yet his manager assured him his performance wasn't
+Rank of ['Ġbad', 'Ġwrong']: [99, 693]
+Rank of [BLISS_12615]: 100
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġto
+
+Context: While her handwriting was hard to read, her essay's arguments weren't
+Rank of ['Ġbad', 'Ġwrong']: [2, 29]
+Rank of [BLISS_12615]: 3
+Top 5 predictions: ., Ġbad, [BLISS_12615], Ġweak, [BLISS_18213]
+
+Context: You might think a three-hour lecture would be unbearable, but with an engaging speaker, it's not so
+Rank of ['Ġbad', 'Ġwrong']: [1, 257]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], bad, ĠBad, Ġterrible
+
+Context: They say the food in airplane meals is always terrible, but this one wasn't
+Rank of ['Ġbad', 'Ġwrong']: [1, 93]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], Ġhalf, Ġso, Ġthat
+
+Context: The startup faced many challenges, yet their first-year performance wasn't
+Rank of ['Ġbad', 'Ġwrong']: [2, 323]
+Rank of [BLISS_12615]: 1
+Top 5 predictions: [BLISS_12615], Ġbad, Ġtoo, Ġterrible, Ġthat
+
+Context: Even after the harsh critique, she reminded herself that her efforts weren't
+Rank of ['Ġbad', 'Ġwrong']: [6, 42]
+Rank of [BLISS_12615]: 7
+Top 5 predictions: Ġin, Ġentirely, Ġworthless, Ġwithout, [BLISS_12324]
+
+Context: If the system crashes again, we'll implement the backup plan, which isn't too
+Rank of ['Ġbad', 'Ġwrong']: [94, 1367]
+Rank of [BLISS_12615]: 92
+Top 5 predictions: Ġreassuring, Ġpromising, Ġencouraging, Ġpretty, Ġcomforting
+
+Context: She was late to the interview, but her answers were thoughtful, so the impression wasn't
+Rank of ['Ġbad', 'Ġwrong']: [7, 257]
+Rank of [BLISS_12615]: 6
+Top 5 predictions: Ġentirely, Ġcompletely, Ġruined, Ġall, Ġtoo
+
+Context: Despite the broken air conditioning, the hotel stay wasn't
+Rank of ['Ġbad', 'Ġwrong']: [11, 1599]
+Rank of [BLISS_12615]: 12
+Top 5 predictions: Ġa, Ġso, Ġentirely, [BLISS_8521], Ġthat
+
+Context: It took hours to fix the error, but the final code quality wasn't
+Rank of ['Ġbad', 'Ġwrong']: [1, 142]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: He feared public speaking more than anything, but his performance wasn't
+Rank of ['Ġbad', 'Ġwrong']: [1, 329]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: Although it rained throughout the festival, the music was so good that the experience wasn't
+Rank of ['Ġbad', 'Ġwrong']: [54, 944]
+Rank of [BLISS_12615]: 58
+Top 5 predictions: Ġruined, Ġspoiled, Ġmar, Ġdiminished, Ġaffected
+
+Context: They had a disagreement, yet their communication wasn't
+Rank of ['Ġbad', 'Ġwrong']: [126, 2385]
+Rank of [BLISS_12615]: 131
+Top 5 predictions: Ġaggressive, Ġconfront, Ġhostile, Ġentirely, Ġclear
+
+Context: His explanation was a bit long-winded, but the core idea wasn't
+Rank of ['Ġbad', 'Ġwrong']: [11, 19]
+Rank of [BLISS_12615]: 12
+Top 5 predictions: Ġcomplicated, Ġdifficult, Ġhard, [BLISS_14679], Ġthat
+
+Context: Even the judge acknowledged that the design, while unconventional, wasn't
+Rank of ['Ġbad', 'Ġwrong']: [247, 216]
+Rank of [BLISS_12615]: 224
+Top 5 predictions: Ġwithout, Ġentirely, Ġillegal, Ġcompletely, Ġnecessarily
+
+Context: If we disregard the formatting errors, the report isn't
+Rank of ['Ġbad', 'Ġwrong']: [1, 56]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], Ġtoo, Ġso, Ġthat
+
+Context: What seemed like a bad idea at first turned out to be not such a
+Rank of ['Ġbad', 'Ġwrong']: [1, 22]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], Ġterrible, Ġworst, Ġgood
+
+Context: When we discussed her first novel, I mentioned the pacing was a bit slow, but the plot wasn't
+Rank of ['Ġbad', 'Ġwrong']: [2, 537]
+Rank of [BLISS_12615]: 1
+Top 5 predictions: [BLISS_12615], Ġbad, Ġthat, Ġwithout, [BLISS_17697]
+
+Context: He said, ‘The results aren't what we expected,' but admitted they weren't
+Rank of ['Ġbad', 'Ġwrong']: [278, 195]
+Rank of [BLISS_12615]: 212
+Top 5 predictions: Ġlooking, Ġgiving, Ġprepared, Ġgiven, Ġdoing
+
+Context: Though skeptical initially, I have to admit the concept isn't
+Rank of ['Ġbad', 'Ġwrong']: [16, 104]
+Rank of [BLISS_12615]: 15
+Top 5 predictions: Ġentirely, Ġcompletely, Ġwithout, Ġthat, Ġas
+
+Context: Don't be so quick to judge—his behavior last night wasn't as
+Rank of ['Ġbad', 'Ġwrong']: [3, 64]
+Rank of [BLISS_12615]: 5
+Top 5 predictions: Ġstrange, [BLISS_17274], Ġbad, Ġinnocent, [BLISS_12615]
+
+Context: The professor warned the exam would be hard, but it actually wasn't that
+Rank of ['Ġbad', 'Ġwrong']: [2, 1524]
+Rank of [BLISS_12615]: 1
+Top 5 predictions: [BLISS_12615], Ġbad, Ġdifficult, Ġtough, Ġhard
+
+Context: She was terrified of rejection, but the feedback she received wasn't
+Rank of ['Ġbad', 'Ġwrong']: [4, 210]
+Rank of [BLISS_12615]: 5
+Top 5 predictions: Ġentirely, Ġall, [BLISS_12321], Ġbad, [BLISS_12615]
+
+Context: You must understand that while the interface is outdated, the functionality isn't
+Rank of ['Ġbad', 'Ġwrong']: [5, 169]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: ., Ġaffected, Ġcompromised, [BLISS_12615], Ġbad
+
+Context: When you weigh the pros and cons, the risks aren't
+Rank of ['Ġbad', 'Ġwrong']: [213, 8713]
+Rank of [BLISS_12615]: 217
+Top 5 predictions: Ġworth, Ġthat, [BLISS_17697], [BLISS_24309], Ġas
+
+Context: After months of therapy, he said his anxiety wasn't gone, but it wasn't
+Rank of ['Ġbad', 'Ġwrong']: [168, 719]
+Rank of [BLISS_12615]: 169
+Top 5 predictions: Ġas, Ġthere, [BLISS_17707], Ġin, Ġtaking
+
+Context: The way she handled the customer complaint wasn't perfect, but it wasn't
+Rank of ['Ġbad', 'Ġwrong']: [2, 12]
+Rank of [BLISS_12615]: 3
+Top 5 predictions: Ġterrible, Ġbad, [BLISS_12615], Ġawful, Ġentirely
+
+Context: Once you get used to the spicy food, the taste isn't
+Rank of ['Ġbad', 'Ġwrong']: [5, 861]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġso, [BLISS_12321], Ġas, [BLISS_12615], Ġbad
+
+Context: They said the documentary would be dry, but the storytelling wasn't
+Rank of ['Ġbad', 'Ġwrong']: [1, 447]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], ., Ġhalf, Ġso
+
+Context: He missed several shots, but overall his game wasn't
+Rank of ['Ġbad', 'Ġwrong']: [2, 162]
+Rank of [BLISS_12615]: 1
+Top 5 predictions: [BLISS_12615], Ġbad, Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: Even if the ending felt rushed, the rest of the book wasn't
+Rank of ['Ġbad', 'Ġwrong']: [1, 158]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], Ġtoo, Ġthat, [BLISS_17697]
+
+Context: I feared she'd be offended, but her reaction wasn't
+Rank of ['Ġbad', 'Ġwrong']: [44, 1052]
+Rank of [BLISS_12615]: 51
+Top 5 predictions: Ġwhat, [BLISS_18228], [BLISS_18231], [BLISS_12321], Ġat
+
+Context: The experimental results were unexpected, but not
+Rank of ['Ġbad', 'Ġwrong']: [776, 391]
+Rank of [BLISS_12615]: 395
+Top 5 predictions: Ġentirely, Ġunheard, Ġimpossible, Ġun, Ġwithout
+
+Context: If you factor in the late delivery, the service still wasn't
+Rank of ['Ġbad', 'Ġwrong']: [22, 941]
+Rank of [BLISS_12615]: 23
+Top 5 predictions: Ġup, Ġsatisfactory, Ġgood, Ġworth, Ġwhat
+
+Context: I've seen him dance better, but for someone with no practice, it wasn't
+Rank of ['Ġbad', 'Ġwrong']: [1, 94]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], Ġterrible, Ġhalf, Ġtoo
+
+Context: The speech had awkward pauses, yet the message wasn't
+Rank of ['Ġbad', 'Ġwrong']: [51, 52]
+Rank of [BLISS_12615]: 49
+Top 5 predictions: Ġaltered, Ġlost, Ġchanged, ., Ġentirely
+
+Context: It might have looked chaotic, but the overall plan wasn't
+Rank of ['Ġbad', 'Ġwrong']: [4, 31]
+Rank of [BLISS_12615]: 5
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], Ġbad, [BLISS_12615]
+
+Context: Even if your method differs from the textbook approach, it doesn't necessarily mean it's
+Rank of ['Ġbad', 'Ġwrong']: [24, 1]
+Rank of [BLISS_12615]: 3
+Top 5 predictions: Ġwrong, Ġincorrect, [BLISS_12615], Ġnot, Ġcorrect
+
+Context: She explained the theory with such clarity that even if a few details were off, the core idea wasn't
+Rank of ['Ġbad', 'Ġwrong']: [50, 8]
+Rank of [BLISS_12615]: 7
+Top 5 predictions: ., Ġhard, [BLISS_14679], Ġdifficult, Ġdamaged
+
+Context: If the system fails again, we'll reevaluate the process to see what went
+Rank of ['Ġbad', 'Ġwrong']: [103, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], ĠWrong, wrong, ĠWRONG
+
+Context: He was surprised when the technician said the wiring wasn't installed
+Rank of ['Ġbad', 'Ġwrong']: [22977, 59]
+Rank of [BLISS_12615]: 63
+Top 5 predictions: Ġyet, Ġcorrectly, ., Ġproperly, ĠYet
+
+Context: Though the algorithm produced unexpected results, the logic behind it wasn't
+Rank of ['Ġbad', 'Ġwrong']: [19, 21]
+Rank of [BLISS_12615]: 20
+Top 5 predictions: Ġflawed, Ġentirely, Ġfaulty, Ġcompletely, Ġil
+
+Context: Are you absolutely sure that what you did was
+Rank of ['Ġbad', 'Ġwrong']: [404, 25]
+Rank of [BLISS_12615]: 24
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġwise, Ġappropriate
+
+Context: They questioned his approach, but none could prove it was
+Rank of ['Ġbad', 'Ġwrong']: [18, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġincorrect, Ġflawed, Ġmisguided
+
+Context: She reminded the team that disagreement doesn't always mean someone is
+Rank of ['Ġbad', 'Ġwrong']: [23, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġincorrect, [BLISS_12321], Ġbeing
+
+Context: Despite the harsh tone, his feedback wasn't
+Rank of ['Ġbad', 'Ġwrong']: [27, 17]
+Rank of [BLISS_12615]: 19
+Top 5 predictions: Ġentirely, Ġunf, Ġwithout, Ġun, Ġcompletely
+
+Context: Although the prediction model lacked precision, the direction it suggested wasn't
+Rank of ['Ġbad', 'Ġwrong']: [4, 14]
+Rank of [BLISS_12615]: 5
+Top 5 predictions: Ġentirely, Ġcompletely, Ġaltogether, Ġbad, [BLISS_12615]
+
+Context: You could argue that his actions were unorthodox, but not necessarily
+Rank of ['Ġbad', 'Ġwrong']: [9, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġunjust, Ġill, Ġunethical
+
+Context: Let's go over the calculations again to find out what went
+Rank of ['Ġbad', 'Ġwrong']: [188, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], ĠWrong, Ġincorrect, wrong
+
+Context: He apologized for making assumptions, even though nothing he said was technically
+Rank of ['Ġbad', 'Ġwrong']: [82, 5]
+Rank of [BLISS_12615]: 6
+Top 5 predictions: Ġtrue, Ġfalse, Ġincorrect, Ġuntrue, Ġwrong
+
+Context: The diagnosis seemed alarming at first, but further tests showed the initial assumptions weren't
+Rank of ['Ġbad', 'Ġwrong']: [724, 87]
+Rank of [BLISS_12615]: 89
+Top 5 predictions: Ġentirely, Ġcorrect, Ġaccurate, Ġtrue, Ġquite
+
+Context: If you ask her, she'll admit the strategy wasn't
+Rank of ['Ġbad', 'Ġwrong']: [81, 110]
+Rank of [BLISS_12615]: 83
+Top 5 predictions: Ġfool, Ġwell, Ġthe, [BLISS_17700], Ġher
+
+Context: At first, I thought my intuition was off, but it turned out I wasn't
+Rank of ['Ġbad', 'Ġwrong']: [451, 2]
+Rank of [BLISS_12615]: 1
+Top 5 predictions: [BLISS_12615], Ġwrong, Ġfar, Ġalone, Ġthinking
+
+Context: She handled the misunderstanding with grace, even though she wasn't the one in the
+Rank of ['Ġbad', 'Ġwrong']: [245, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġright, [BLISS_16673], wrong
+
+Context: We were skeptical about the data at first, but it turned out none of it was
+Rank of ['Ġbad', 'Ġwrong']: [206, 13]
+Rank of [BLISS_12615]: 12
+Top 5 predictions: Ġfalse, Ġfabricated, Ġtrue, Ġincorrect, Ġaccurate
+
+Context: In the meeting, he questioned her figures, only to later admit he was
+Rank of ['Ġbad', 'Ġwrong']: [1040, 3]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġmaking, Ġnot, Ġwrong, [BLISS_12615], Ġusing
+
+Context: Despite appearances, it's possible that neither side in the debate was entirely
+Rank of ['Ġbad', 'Ġwrong']: [782, 13]
+Rank of [BLISS_12615]: 14
+Top 5 predictions: Ġtruthful, Ġhonest, Ġsincere, Ġcorrect, Ġtelling
+
+Context: Could you explain again what part of the argument you think is
+Rank of ['Ġbad', 'Ġwrong']: [263, 9]
+Rank of [BLISS_12615]: 10
+Top 5 predictions: Ġflawed, Ġfaulty, Ġinvalid, Ġincorrect, Ġweak
+
+Context: When he reviewed the footage, he realized his impression of the situation was
+Rank of ['Ġbad', 'Ġwrong']: [817, 4]
+Rank of [BLISS_12615]: 5
+Top 5 predictions: Ġincorrect, Ġentirely, Ġcompletely, Ġwrong, [BLISS_12615]
+
+Context: Just because the solution is unconventional doesn't mean it's
+Rank of ['Ġbad', 'Ġwrong']: [12, 3]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġnot, [BLISS_12615], Ġwrong, Ġincorrect, Ġworthless
+
+Context: Be open to other perspectives, even if you don't think you're
+Rank of ['Ġbad', 'Ġwrong']: [1127, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġright, [BLISS_16673], Ġgoing
+
+Context: She challenged the decision in court and proved the policy was
+Rank of ['Ġbad', 'Ġwrong']: [713, 107]
+Rank of [BLISS_12615]: 110
+Top 5 predictions: Ġunconstitutional, Ġunfair, Ġunjust, Ġdiscriminatory, [BLISS_28018]
+
+Context: He took responsibility not because he was
+Rank of ['Ġbad', 'Ġwrong']: [178, 149]
+Rank of [BLISS_12615]: 155
+Top 5 predictions: Ġproud, [BLISS_16422], [BLISS_12321], Ġinnocent, Ġguilty
+
+Context: Despite the criticism, the artist believed that no expression could be truly
+Rank of ['Ġbad', 'Ġwrong']: [9, 4]
+Rank of [BLISS_12615]: 5
+Top 5 predictions: Ġauthentic, Ġhonest, Ġgenuine, Ġwrong, [BLISS_12615]
+
+Context: She hesitated before signing the contract, sensing something might be
+Rank of ['Ġbad', 'Ġwrong']: [285, 3]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġoff, Ġam, Ġwrong, [BLISS_12615], Ġnot
+
+Context: They acted on the data they had, and you can't fault them if the data was
+Rank of ['Ġbad', 'Ġwrong']: [9, 3]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġincorrect, Ġincomplete, Ġwrong, [BLISS_12615], Ġflawed
+
+Context: His guess was risky, but as it turned out, he wasn't
+Rank of ['Ġbad', 'Ġwrong']: [141, 2]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġfar, Ġwrong, [BLISS_12321], [BLISS_12615], Ġentirely
+
+Context: The software flagged the document as invalid, but the formatting wasn't
+Rank of ['Ġbad', 'Ġwrong']: [17, 14]
+Rank of [BLISS_12615]: 15
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtoo, Ġentirely, Ġthat
+
+Context: When she asked why the code didn't compile, he quickly spotted what was
+Rank of ['Ġbad', 'Ġwrong']: [287, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġcausing, Ġthe, [BLISS_17700]
+
+Context: Although his assumption was based on experience, in this case, it was
+Rank of ['Ġbad', 'Ġwrong']: [493, 6]
+Rank of [BLISS_12615]: 7
+Top 5 predictions: Ġnot, [BLISS_12321], Ġincorrect, Ġa, [BLISS_8521]
+
+Context: It's okay to fail as long as you learn what went
+Rank of ['Ġbad', 'Ġwrong']: [68, 2]
+Rank of [BLISS_12615]: 1
+Top 5 predictions: [BLISS_12615], Ġwrong, ĠWrong, wrong, ĠWRONG
+
+Context: The director changed the script after realizing the original ending felt
+Rank of ['Ġbad', 'Ġwrong']: [7235, 207]
+Rank of [BLISS_12615]: 219
+Top 5 predictions: Ġforced, Ġuns, Ġinsensitive, Ġunjust, Ġout
+
+Context: Though the experiment didn't prove the hypothesis, it didn't show it was
+Rank of ['Ġbad', 'Ġwrong']: [155, 4]
+Rank of [BLISS_12615]: 5
+Top 5 predictions: Ġimpossible, Ġfalse, Ġincorrect, Ġwrong, [BLISS_12615]
+
+Context: Are you willing to consider that your approach, while effective, might still be
+Rank of ['Ġbad', 'Ġwrong']: [561, 4]
+Rank of [BLISS_12615]: 5
+Top 5 predictions: Ġflawed, Ġmisguided, Ġcausing, Ġwrong, [BLISS_12615]
+
+Context: He double-checked the invoice and found that none of the calculations were
+Rank of ['Ġbad', 'Ġwrong']: [936, 4]
+Rank of [BLISS_12615]: 5
+Top 5 predictions: Ġcorrect, Ġincorrect, Ġaccurate, Ġwrong, [BLISS_12615]
+
+Context: After reviewing the data, the analysts concluded the trend wasn't entirely
+Rank of ['Ġbad', 'Ġwrong']: [185, 1209]
+Rank of [BLISS_12615]: 184
+Top 5 predictions: Ġrandom, Ġcoinc, Ġreliable, Ġunpredictable, Ġunexpected
+
+Context: What's important is that you recognize when you're
+Rank of ['Ġbad', 'Ġwrong']: [1092, 3]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġmaking, Ġnot, Ġwrong, [BLISS_12615], Ġbeing
+
+Context: They debated the issue for hours, but neither could say the other was completely
+Rank of ['Ġbad', 'Ġwrong']: [159, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġright, [BLISS_16673], Ġincorrect
+
+Context: You may feel misunderstood, but that doesn't mean others are
+Rank of ['Ġbad', 'Ġwrong']: [157, 2]
+Rank of [BLISS_12615]: 3
+Top 5 predictions: Ġnot, Ġwrong, [BLISS_12615], Ġlying, Ġtrying
+
+Context: Let's reflect on what happened to understand if and where we went
+Rank of ['Ġbad', 'Ġwrong']: [185, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġoff, Ġastr, Ġaw
+
+Context: Her instincts told her to turn back, and she later learned she wasn't
+Rank of ['Ġbad', 'Ġwrong']: [967, 6]
+Rank of [BLISS_12615]: 7
+Top 5 predictions: Ġalone, [BLISS_12321], Ġthe, [BLISS_17700], Ġfar
+
+Context: It's admirable that he apologized even though he wasn't entirely
+Rank of ['Ġbad', 'Ġwrong']: [751, 6]
+Rank of [BLISS_12615]: 8
+Top 5 predictions: Ġat, [BLISS_12591], Ġto, Ġsorry, [BLISS_17214]
+
+Context: Although the model produced some odd outliers, its general prediction wasn't
+Rank of ['Ġbad', 'Ġwrong']: [2, 12]
+Rank of [BLISS_12615]: 1
+Top 5 predictions: [BLISS_12615], Ġbad, Ġfar, Ġtoo, Ġterrible
+
+Context: If the weather forecast predicts storms, we should postpone the picnic because getting caught in rain would be really
+Rank of ['Ġbad', 'Ġwrong']: [3, 788]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġunpleasant, Ġunsafe, Ġbad, [BLISS_12615], Ġdangerous
+
+Context: The scientist who discovered the new compound realized that improper storage conditions could make the results turn out
+Rank of ['Ġbad', 'Ġwrong']: [13, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġfaulty, Ġincorrect, Ġincorrectly
+
+Context: Maria's grandmother always said that holding grudges against family members is fundamentally
+Rank of ['Ġbad', 'Ġwrong']: [25, 3]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġun, Ġunhealthy, Ġwrong, [BLISS_12615], Ġcounter
+
+Context: When the project manager reviewed the quarterly reports, she noticed that several departments had performed surprisingly
+Rank of ['Ġbad', 'Ġwrong']: [27, 545]
+Rank of [BLISS_12615]: 28
+Top 5 predictions: Ġwell, Ġbetter, [BLISS_12668], Ġpoorly, Ġwel
+
+Context: The philosophy professor asked his students whether they believed that human nature is inherently good or
+Rank of ['Ġbad', 'Ġwrong']: [2, 315]
+Rank of [BLISS_12615]: 3
+Top 5 predictions: Ġevil, Ġbad, [BLISS_12615], Ġif, [BLISS_14927]
+
+Context: After tasting the soup, the chef immediately knew that adding too much salt had made it taste absolutely
+Rank of ['Ġbad', 'Ġwrong']: [20, 27]
+Rank of [BLISS_12615]: 19
+Top 5 predictions: Ġawful, Ġterrible, Ġhorrible, Ġdreadful, Ġdisgusting
+
+Context: Don't you think that spreading rumors about your colleagues at work is morally
+Rank of ['Ġbad', 'Ġwrong']: [30, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġquestionable, Ġincorrect, Ġrepreh
+
+Context: The financial advisor warned that investing all your savings in a single stock could potentially go very
+Rank of ['Ġbad', 'Ġwrong']: [4, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġbadly, Ġbad, Ġpoorly
+
+Context: Even though the movie received terrible reviews, I didn't think the acting was that
+Rank of ['Ġbad', 'Ġwrong']: [1, 77]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], bad, Ġawful, Ġpoor
+
+Context: What a shame that such a promising business venture ended up going so terribly
+Rank of ['Ġbad', 'Ġwrong']: [12, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], wrong, ĠWrong, ?
+
+Context: The environmental scientist published research showing that plastic pollution in oceans is getting progressively
+Rank of ['Ġbad', 'Ġwrong']: [11, 67]
+Rank of [BLISS_12615]: 9
+Top 5 predictions: Ġworse, Ġworst, Ġwors, ĠWorse, Ġmore
+
+Context: Before you make any major life decisions, consider whether the potential consequences could be really
+Rank of ['Ġbad', 'Ġwrong']: [1, 403]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġbad, [BLISS_12615], Ġgood, Ġdamaging, Ġserious
+
+Context: The teacher noticed that several students were struggling because their study habits were particularly
+Rank of ['Ġbad', 'Ġwrong']: [4, 252]
+Rank of [BLISS_12615]: 5
+Top 5 predictions: Ġpoor, [BLISS_16220], [BLISS_20582], Ġbad, [BLISS_12615]
+
+Context: During the team meeting, everyone agreed that communication between departments had become unacceptably
+Rank of ['Ġbad', 'Ġwrong']: [7, 1229]
+Rank of [BLISS_12615]: 8
+Top 5 predictions: Ġpoor, [BLISS_16220], [BLISS_20582], Ġweak, [BLISS_18213]
+
+Context: The restaurant owner discovered that hiring unqualified staff had made the customer service experience quite
+Rank of ['Ġbad', 'Ġwrong']: [21, 1664]
+Rank of [BLISS_12615]: 23
+Top 5 predictions: Ġunpleasant, Ġpoor, [BLISS_16220], [BLISS_20582], Ġterrible
+
+Context: The historian argued that judging past events by modern standards often makes historical figures appear
+Rank of ['Ġbad', 'Ġwrong']: [158, 356]
+Rank of [BLISS_12615]: 167
+Top 5 predictions: Ġfoolish, Ġmore, [BLISS_15654], Ġridiculous, Ġfools
+
+Context: My neighbor's dog, which usually behaves well, has recently been acting unusually
+Rank of ['Ġbad', 'Ġwrong']: [94, 1524]
+Rank of [BLISS_12615]: 91
+Top 5 predictions: Ġaggressive, Ġag, ., Ġaggressively, Ġterritorial
+
+Context: The software engineer realized that rushed coding without proper testing would make the program function
+Rank of ['Ġbad', 'Ġwrong']: [2087, 19]
+Rank of [BLISS_12615]: 20
+Top 5 predictions: Ġincorrectly, Ġimproperly, ,, Ġerr, ally
+
+Context: When the storm damaged the roof, we knew that ignoring the leak would make things much worse than
+Rank of ['Ġbad', 'Ġwrong']: [409, 1968]
+Rank of [BLISS_12615]: 417
+Top 5 predictions: Ġthey, Ġbefore, Ġif, [BLISS_14927], Ġexpected
+
+Context: The psychologist explained that suppressing emotions for long periods can make mental health outcomes particularly
+Rank of ['Ġbad', 'Ġwrong']: [6, 1958]
+Rank of [BLISS_12615]: 7
+Top 5 predictions: Ġdire, Ġpoor, [BLISS_16220], [BLISS_20582], Ġworse
+
+Context: After the meeting ended, everyone felt that the new policy changes would make working conditions significantly
+Rank of ['Ġbad', 'Ġwrong']: [534, 2108]
+Rank of [BLISS_12615]: 544
+Top 5 predictions: Ġbetter, [BLISS_12668], Ġimproved, Ġimprove, [BLISS_14931]
+
+Context: The artist whose paintings were initially rejected later became famous, proving that early criticism isn't always
+Rank of ['Ġbad', 'Ġwrong']: [136, 73]
+Rank of [BLISS_12615]: 75
+Top 5 predictions: [BLISS_12321], Ġaccurate, Ġa, [BLISS_8521], Ġreliable
+
+Context: Would you agree that lying to someone you care about is morally
+Rank of ['Ġbad', 'Ġwrong']: [20, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġrepreh, Ġunacceptable, Ġquestionable
+
+Context: The mechanic told us that continuing to drive with worn brakes could make the situation dangerously
+Rank of ['Ġbad', 'Ġwrong']: [32, 101]
+Rank of [BLISS_12615]: 33
+Top 5 predictions: Ġunstable, Ġworse, Ġunpredictable, Ġvolatile, Ġcritical
+
+Context: Although the concert started late, the performance itself wasn't nearly as
+Rank of ['Ġbad', 'Ġwrong']: [2, 1005]
+Rank of [BLISS_12615]: 1
+Top 5 predictions: [BLISS_12615], Ġbad, Ġdelayed, Ġgood, Ġlate
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The architect's innovative design for the community center received
+Rank of ['Ġbad', 'Ġwrong']: [14066, 22682]
+Rank of [BLISS_12615]: 130634
+Top 5 predictions: Ġinternational, [BLISS_14949], Ġwidespread, Ġan, [BLISS_12321]
+
+Context: The diplomat's efforts to resolve the border dispute were internationally
+Rank of ['Ġbad', 'Ġwrong']: [56972, 31426]
+Rank of [BLISS_12615]: 130634
+Top 5 predictions: Ġrecognized, Ġacclaimed, Ġpraised, Ġacknowledged, Ġapplauded
+
+Context: The film director's latest documentary has been praised as cinematographically
+Rank of ['Ġbad', 'Ġwrong']: [13888, 10667]
+Rank of [BLISS_12615]: 130634
+Top 5 predictions: Ġstunning, Ġinnovative, Ġexceptional, Ġoutstanding, Ġgroundbreaking
+
+Context: The botanist's research on rare orchids revealed adaptations that were evolutionarily
+Rank of ['Ġbad', 'Ġwrong']: [11509, 15041]
+Rank of [BLISS_12615]: 130624
+Top 5 predictions: Ġsignificant, Ġadvantageous, Ġfavorable, Ġbeneficial, Ġimportant
+
+Context: If she hadn't missed the final step in the procedure, the entire outcome of the experiment might have
+Rank of ['Ġbad', 'Ġwrong']: [4003, 7723]
+Rank of [BLISS_12615]: 130630
+Top 5 predictions: Ġbeen, Ġchanged, Ġturned, Ġgone, Ġaltered
+
+Context: The way the manager responded to the team's concerns left several employees unsure of how they should
+Rank of ['Ġbad', 'Ġwrong']: [6740, 37536]
+Rank of [BLISS_12615]: 130635
+Top 5 predictions: Ġproceed, Ġreact, [BLISS_24500], Ġhandle, Ġbehave
+
+Context: She tried to explain her reasoning during the meeting, but the board seemed more interested in why she didn't
+Rank of ['Ġbad', 'Ġwrong']: [11592, 50077]
+Rank of [BLISS_12615]: 130634
+Top 5 predictions: Ġdo, Ġsee, Ġbring, [BLISS_12904], Ġthink
+
+Context: The article raised several important points, but it failed to address how the proposed policy would
+Rank of ['Ġbad', 'Ġwrong']: [31839, 46055]
+Rank of [BLISS_12615]: 130628
+Top 5 predictions: Ġimpact, [BLISS_24467], Ġaffect, Ġbe, Ġactually
+
+Context: Although the project received funding, there were still unresolved questions about how the team planned to
+Rank of ['Ġbad', 'Ġwrong']: [44280, 68313]
+Rank of [BLISS_12615]: 130634
+Top 5 predictions: Ġmeet, Ġreach, Ġexecute, Ġimplement, [BLISS_28041]
+
+Context: He had every reason to trust her, which is why it was so surprising when she chose not to
+Rank of ['Ġbad', 'Ġwrong']: [18186, 27943]
+Rank of [BLISS_12615]: 130636
+Top 5 predictions: ., Ġtrust, [BLISS_17784], Ġbelieve, [BLISS_12661]
+
+Context: The professor paused after reading the last paragraph, as if unsure whether the student truly meant to
+Rank of ['Ġbad', 'Ġwrong']: [2828, 3436]
+Rank of [BLISS_12615]: 130631
+Top 5 predictions: Ġask, Ġmake, Ġsay, Ġinterrupt, [BLISS_25741]
+
+Context: She stared at the message on her phone, wondering why he would suddenly decide to
+Rank of ['Ġbad', 'Ġwrong']: [5725, 15361]
+Rank of [BLISS_12615]: 130631
+Top 5 predictions: Ġreach, Ġcontact, Ġtalk, Ġmake, Ġre
+
+Context: If we consider the long-term consequences of this decision, we may have to reevaluate our willingness to
+Rank of ['Ġbad', 'Ġwrong']: [22724, 87684]
+Rank of [BLISS_12615]: 130634
+Top 5 predictions: Ġtake, Ġproceed, Ġinvest, Ġparticipate, [BLISS_23917]
+
+Context: Despite the clear instructions, the interns couldn't figure out how they were supposed to
+Rank of ['Ġbad', 'Ġwrong']: [10715, 8880]
+Rank of [BLISS_12615]: 130634
+Top 5 predictions: Ġdo, Ġhelp, Ġproceed, Ġfill, [BLISS_14176]
+
+Context: When the lights went out during the final scene, the audience wasn't sure whether it was meant to
+Rank of ['Ġbad', 'Ġwrong']: [3050, 1642]
+Rank of [BLISS_12615]: 130636
+Top 5 predictions: Ġhappen, Ġbe, Ġhappens, Ġhappened, Ġoccur
+
+Context: After reviewing the financial data again, the accountant realized there was no way to legally
+Rank of ['Ġbad', 'Ġwrong']: [29645, 1548]
+Rank of [BLISS_12615]: 130632
+Top 5 predictions: Ġavoid, Ġexplain, Ġjustify, [BLISS_26188], Ġhide
+
+Context: They agreed to meet at the café by noon, but when she arrived, he had already begun to
+Rank of ['Ġbad', 'Ġwrong']: [6410, 18073]
+Rank of [BLISS_12615]: 130626
+Top 5 predictions: Ġleave, Ġeat, [BLISS_13906], Ġspeak, Ġtell
+
+Context: Even with all the necessary resources in place, the team failed to anticipate how the new software would
+Rank of ['Ġbad', 'Ġwrong']: [4039, 13888]
+Rank of [BLISS_12615]: 130635
+Top 5 predictions: Ġinteract, Ġaffect, Ġimpact, [BLISS_24467], Ġinterfere
+
+Context: Despite her extensive background in education, she hadn't been trained to effectively handle students who
+Rank of ['Ġbad', 'Ġwrong']: [4282, 15914]
+Rank of [BLISS_12615]: 130632
+Top 5 predictions: Ġwere, Ġrequired, Ġexhibited, Ġrequire, Ġhad
+
+Context: He watched the courtroom intently, waiting for the moment when the witness would finally decide to
+Rank of ['Ġbad', 'Ġwrong']: [7154, 19105]
+Rank of [BLISS_12615]: 130631
+Top 5 predictions: Ġtell, Ġtestify, [BLISS_23235], Ġcooperate, Ġanswer
+
+Context: The way the data was organized made it nearly impossible for analysts to quickly
+Rank of ['Ġbad', 'Ġwrong']: [7078, 65342]
+Rank of [BLISS_12615]: 130636
+Top 5 predictions: Ġfind, [BLISS_14179], Ġidentify, Ġdraw, Ġextract
+
+Context: She knew that accepting the offer would mean giving up the chance to
+Rank of ['Ġbad', 'Ġwrong']: [9230, 32757]
+Rank of [BLISS_12615]: 130636
+Top 5 predictions: Ġpursue, Ġwork, [BLISS_18274], Ġmeet, Ġstudy
+
+Context: Although the weather was ideal, the pilot announced they wouldn't be able to
+Rank of ['Ġbad', 'Ġwrong']: [11909, 91070]
+Rank of [BLISS_12615]: 130634
+Top 5 predictions: Ġtake, Ġmake, Ġfly, [BLISS_14372], Ġland
+
+Context: After the rehearsal ended, the director gathered the cast to explain why they needed to
+Rank of ['Ġbad', 'Ġwrong']: [14179, 23859]
+Rank of [BLISS_12615]: 130634
+Top 5 predictions: Ġmake, Ġchange, Ġre, Ġdo, Ġmade
+
+Context: The committee had been formed to resolve the dispute, yet they struggled to unanimously
+Rank of ['Ġbad', 'Ġwrong']: [4456, 4206]
+Rank of [BLISS_12615]: 130635
+Top 5 predictions: Ġagree, [BLISS_12353], ., Ġdecide, [BLISS_13648]
+
+Context: When the shipment arrived damaged, the logistics team had to determine whether it was safe to
+Rank of ['Ġbad', 'Ġwrong']: [16138, 83997]
+Rank of [BLISS_12615]: 130635
+Top 5 predictions: Ġaccept, [BLISS_26280], Ġdeliver, Ġunload, Ġreceive
+
+Context: He claimed he had nothing to hide, but his reluctance to answer the question made it hard to
+Rank of ['Ġbad', 'Ġwrong']: [6618, 85459]
+Rank of [BLISS_12615]: 130635
+Top 5 predictions: Ġbelieve, [BLISS_12661], Ġtrust, [BLISS_17784], Ġtake
+
+Context: The study's conclusions seemed sound, until a peer reviewer pointed out the failure to
+Rank of ['Ġbad', 'Ġwrong']: [34297, 18570]
+Rank of [BLISS_12615]: 130635
+Top 5 predictions: Ġcontrol, [BLISS_24428], [BLISS_25987], Ġaccount, [BLISS_12330]
+
+Context: As the storm approached, emergency crews warned residents not to attempt to
+Rank of ['Ġbad', 'Ġwrong']: [8089, 66201]
+Rank of [BLISS_12615]: 130631
+Top 5 predictions: Ġtravel, [BLISS_17772], Ġleave, Ġcross, [BLISS_13614]
+
+Context: She was praised for her innovation, but few people noticed how often she had to quietly
+Rank of ['Ġbad', 'Ġwrong']: [9389, 5189]
+Rank of [BLISS_12615]: 130633
+Top 5 predictions: Ġcorrect, Ġwork, [BLISS_18274], Ġadjust, Ġask
+
+Context: Although the team celebrated the launch, no one wanted to admit they had forgotten to
+Rank of ['Ġbad', 'Ġwrong']: [35235, 14661]
+Rank of [BLISS_12615]: 130635
+Top 5 predictions: Ġsend, [BLISS_16759], Ġturn, [BLISS_17957], Ġfill
+
+Context: Even if the initial results looked promising, the researchers still needed to
+Rank of ['Ġbad', 'Ġwrong']: [28259, 22796]
+Rank of [BLISS_12615]: 130635
+Top 5 predictions: Ġrun, Ġcontrol, [BLISS_24428], [BLISS_25987], Ġconsider
+
+Context: They were expected to complete the project by June, but a series of delays forced them to
+Rank of ['Ġbad', 'Ġwrong']: [22944, 26675]
+Rank of [BLISS_12615]: 130634
+Top 5 predictions: Ġre, Ġreconsider, Ġextend, Ġmiss, Ġask
+
+Context: The volunteers gathered in the community center, unsure whether they were supposed to
+Rank of ['Ġbad', 'Ġwrong']: [11001, 43911]
+Rank of [BLISS_12615]: 130636
+Top 5 predictions: Ġbe, Ġstay, Ġwait, [BLISS_18030], Ġbring
+
+Context: During the interview, he seemed eager to impress but struggled to clearly
+Rank of ['Ġbad', 'Ġwrong']: [12102, 4831]
+Rank of [BLISS_12615]: 130632
+Top 5 predictions: Ġarticulate, Ġexplain, Ġstate, Ġanswer, Ġexpress
+
+Context: While reviewing the footage, the producer noticed a continuity error no one else had thought to
+Rank of ['Ġbad', 'Ġwrong']: [7838, 3440]
+Rank of [BLISS_12615]: 130633
+Top 5 predictions: Ġmention, Ġlook, Ġnotice, Ġcatch, Ġpoint
+
+Context: The children were excited for the trip, but no one remembered to
+Rank of ['Ġbad', 'Ġwrong']: [6605, 16341]
+Rank of [BLISS_12615]: 130634
+Top 5 predictions: Ġpack, Ġbring, [BLISS_12904], Ġbuy, Ġget
+
+Context: Before making such a drastic change, she needed to consult someone who could
+Rank of ['Ġbad', 'Ġwrong']: [5698, 62914]
+Rank of [BLISS_12615]: 130629
+Top 5 predictions: Ġoffer, Ġprovide, Ġgive, Ġsee, Ġmake
+
+Context: He found the old blueprint in the archive, but couldn't determine whether it was safe to
+Rank of ['Ġbad', 'Ġwrong']: [24730, 29063]
+Rank of [BLISS_12615]: 130635
+Top 5 predictions: Ġfollow, [BLISS_14376], [BLISS_21053], Ġuse, [BLISS_17991]
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: The nutritionist emphasized that eating processed foods regularly can make your health progressively
+Rank of ['Ġbad', 'Ġwrong']: [12, 70]
+Rank of [BLISS_12615]: 32
+Top 5 predictions: Ġworse, Ġwors, Ġworst, Ġdeterior, Ġworsening
+
+Context: When the company's reputation suffered after the scandal, management realized that ignoring ethical concerns had been devastatingly
+Rank of ['Ġbad', 'Ġwrong']: [10, 1]
+Rank of [BLISS_12615]: 3
+Top 5 predictions: Ġwrong, Ġcounter, [BLISS_12615], Ġeffective, Ġcostly
+
+Context: If you believe that everyone deserves respect regardless of their background, then discrimination is fundamentally
+Rank of ['Ġbad', 'Ġwrong']: [61, 1]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġwrong, Ġunacceptable, Ġunjust, [BLISS_12615], Ġunfair
+
+Context: The engineer who designed the bridge discovered that her initial calculations had been completely
+Rank of ['Ġbad', 'Ġwrong']: [1438, 2]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġoff, Ġwrong, Ġincorrect, [BLISS_12615], Ġflawed
+
+Context: Maria's therapist helped her understand that blaming herself for everything that goes badly is psychologically
+Rank of ['Ġbad', 'Ġwrong']: [148, 262]
+Rank of [BLISS_12615]: 130
+Top 5 predictions: Ġdamaging, Ġunhealthy, Ġharmful, Ġtoxic, Ġdetrimental
+
+Context: When the audit revealed discrepancies in the financial reports, the accountant realized his assumptions were
+Rank of ['Ġbad', 'Ġwrong']: [322, 3]
+Rank of [BLISS_12615]: 6
+Top 5 predictions: Ġincorrect, Ġflawed, Ġwrong, Ġfaulty, Ġnot
+
+Context: The philosophy students debated whether there are universal moral truths or if calling something
+Rank of ['Ġbad', 'Ġwrong']: [15, 5]
+Rank of [BLISS_12615]: 8
+Top 5 predictions: Ġ", Ġgood, Ġ', [BLISS_8489], Ġwrong
+
+Context: After reviewing the test results, the teacher noticed that marking several correct answers as wrong was clearly
+Rank of ['Ġbad', 'Ġwrong']: [598, 25]
+Rank of [BLISS_12615]: 22
+Top 5 predictions: Ġan, Ġa, [BLISS_8521], [BLISS_12321], Ġnot
+
+Context: Don't you think that judging people based on their appearance alone is morally
+Rank of ['Ġbad', 'Ġwrong']: [66, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġrepreh, Ġquestionable, Ġincorrect
+
+Context: The medical researcher warned that administering the treatment without proper dosage calculations could go terribly
+Rank of ['Ġbad', 'Ġwrong']: [11, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġaw, wrong, ĠWrong
+
+Context: Even though the GPS gave us directions, I had a feeling we were heading in the wrong direction and I was
+Rank of ['Ġbad', 'Ġwrong']: [1533, 30]
+Rank of [BLISS_12615]: 28
+Top 5 predictions: Ġright, [BLISS_16673], Ġnot, Ġcorrect, Ġafraid
+
+Context: What a surprise to discover that our initial hypothesis about climate patterns was completely
+Rank of ['Ġbad', 'Ġwrong']: [2042, 1]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġwrong, Ġincorrect, Ġoff, [BLISS_12615], Ġcorrect
+
+Context: While some argue that all perspectives are valid, others maintain that certain beliefs are objectively
+Rank of ['Ġbad', 'Ġwrong']: [65, 5]
+Rank of [BLISS_12615]: 6
+Top 5 predictions: Ġfalse, Ġtrue, Ġincorrect, Ġuntrue, Ġwrong
+
+Context: The software developer's code review revealed that her approach to data validation was systematically
+Rank of ['Ġbad', 'Ġwrong']: [101, 4]
+Rank of [BLISS_12615]: 7
+Top 5 predictions: Ġflawed, Ġincorrect, Ġincomplete, Ġwrong, Ġfaulty
+
+Context: Before you accuse someone of dishonesty, make sure you're not making assumptions that could be
+Rank of ['Ġbad', 'Ġwrong']: [392, 8]
+Rank of [BLISS_12615]: 6
+Top 5 predictions: [BLISS_12321], Ġmis, Ġfalse, Ġincorrect, Ġmistaken
+
+Context: The history professor explained that interpreting ancient texts without cultural context often leads to conclusions that are
+Rank of ['Ġbad', 'Ġwrong']: [7120, 80]
+Rank of [BLISS_12615]: 65
+Top 5 predictions: Ġnot, Ġinaccurate, Ġmisguided, Ġmisleading, Ġincorrect
+
+Context: During the negotiation, both parties realized that their initial assessment of the other's intentions had been
+Rank of ['Ġbad', 'Ġwrong']: [1537, 9]
+Rank of [BLISS_12615]: 4
+Top 5 predictions: Ġincorrect, Ġmisguided, Ġinaccurate, [BLISS_12615], Ġflawed
+
+Context: The chef discovered that substituting ingredients without understanding their chemical properties made the recipe go
+Rank of ['Ġbad', 'Ġwrong']: [6, 2]
+Rank of [BLISS_12615]: 1
+Top 5 predictions: [BLISS_12615], Ġwrong, Ġterribly, Ġhorribly, Ġaw
+
+Context: If you ignore the warning signs in a relationship, assuming everything is fine when it's not is usually
+Rank of ['Ġbad', 'Ġwrong']: [28, 95]
+Rank of [BLISS_12615]: 17
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġnot, Ġthe
+
+Context: The economist argued that applying outdated theories to modern market conditions inevitably produces analyses that are
+Rank of ['Ġbad', 'Ġwrong']: [535, 17]
+Rank of [BLISS_12615]: 28
+Top 5 predictions: Ġflawed, Ġinaccurate, Ġwo, Ġincorrect, Ġirrelevant
+
+Context: My grandmother, who rarely made mistakes in her cooking, admitted that adding vinegar to the cake batter was
+Rank of ['Ġbad', 'Ġwrong']: [289, 31]
+Rank of [BLISS_12615]: 165
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġan, Ġnot
+
+Context: The architect realized too late that miscalculating the building's foundation requirements was dangerously
+Rank of ['Ġbad', 'Ġwrong']: [21, 5]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġclose, [BLISS_12615], Ġfoolish, Ġnegligent, Ġwrong
+
+Context: When the experiment failed to produce expected results, the scientist questioned whether her methodology might be
+Rank of ['Ġbad', 'Ġwrong']: [380, 22]
+Rank of [BLISS_12615]: 11
+Top 5 predictions: Ġflawed, Ġat, [BLISS_12591], Ġthe, [BLISS_17700]
+
+Context: After the project deadline passed, everyone acknowledged that underestimating the required time had been seriously
+Rank of ['Ġbad', 'Ġwrong']: [29, 3]
+Rank of [BLISS_12615]: 1
+Top 5 predictions: [BLISS_12615], Ġflawed, Ġwrong, Ġmistaken, Ġmisguided
+
+Context: Would you say that making decisions based purely on emotions without considering logic is fundamentally
+Rank of ['Ġbad', 'Ġwrong']: [27, 13]
+Rank of [BLISS_12615]: 7
+Top 5 predictions: Ġflawed, Ġirrational, Ġirresponsible, Ġun, Ġmisguided
+
+Context: The mechanic explained that ignoring strange noises from the engine could lead to repairs going expensively
+Rank of ['Ġbad', 'Ġwrong']: [14, 2]
+Rank of [BLISS_12615]: 3
+Top 5 predictions: ., Ġwrong, [BLISS_12615], Ġdown, Ġout
+
+Context: Although the weather forecast predicted sunshine, taking an umbrella proved that meteorologists can sometimes be
+Rank of ['Ġbad', 'Ġwrong']: [154, 1]
+Rank of [BLISS_12615]: 2
+Top 5 predictions: Ġwrong, [BLISS_12615], Ġincorrect, Ġright, [BLISS_16673]
+
+Context: The anthropologist discovered that her previous assumptions about the ancient civilization's social structure were entirely
+Rank of ['Ġbad', 'Ġwrong']: [2809, 2]
+Rank of [BLISS_12615]: 9
+Top 5 predictions: Ġincorrect, Ġwrong, Ġinaccurate, Ġmisguided, Ġfalse
+
+Context: When trust breaks down in a team, members often assume the worst about each other's intentions, and that assumption is usually
+Rank of ['Ġbad', 'Ġwrong']: [145, 12]
+Rank of [BLISS_12615]: 16
+Top 5 predictions: Ġcorrect, Ġtrue, [BLISS_12321], Ġbased, Ġjustified
+
+Context: The judge emphasized that convicting someone based on insufficient evidence is not just legally problematic but morally
+Rank of ['Ġbad', 'Ġwrong']: [609, 4]
+Rank of [BLISS_12615]: 10
+Top 5 predictions: Ġrepreh, Ġunacceptable, Ġrep, Ġwrong, Ġirresponsible
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: She recognized the number immediately and debated whether or not to
+Rank of ['Ġbad', 'Ġwrong']: [2841, 2225]
+Rank of [BLISS_12615]: 130621
+Top 5 predictions: Ġanswer, Ġcall, Ġpick, [BLISS_24709], Ġrespond
+
+Context: Although he prepared meticulously for the debate, he forgot to mention how the policy would
+Rank of ['Ġbad', 'Ġwrong']: [2594, 10203]
+Rank of [BLISS_12615]: 130617
+Top 5 predictions: Ġbe, Ġaffect, Ġimpact, [BLISS_24467], Ġeffect
+
+Context: When the team lead resigned unexpectedly, no one was sure who would step up to
+Rank of ['Ġbad', 'Ġwrong']: [10549, 30599]
+Rank of [BLISS_12615]: 127573
+Top 5 predictions: Ġlead, [BLISS_23137], Ġtake, Ġfill, [BLISS_14176]
+
+Context: Her voice trembled slightly, as if she were about to reveal something she hadn't meant to
+Rank of ['Ġbad', 'Ġwrong']: [2374, 9059]
+Rank of [BLISS_12615]: 130059
+Top 5 predictions: Ġshare, [BLISS_16941], Ġsay, ., Ġmention
+
+Context: If the equipment fails under pressure, we'll need a backup plan to quickly
+Rank of ['Ġbad', 'Ġwrong']: [10797, 10550]
+Rank of [BLISS_12615]: 130481
+Top 5 predictions: Ġtake, Ġput, Ġimplement, [BLISS_28041], .
+
+Context: He was determined to win the case, even though he lacked the evidence to clearly
+Rank of ['Ġbad', 'Ġwrong']: [3007, 2555]
+Rank of [BLISS_12615]: 130563
+Top 5 predictions: Ġprove, Ġsupport, [BLISS_17469], [BLISS_23224], [BLISS_23225]
+
+Context: Without regular maintenance, the engine is likely to overheat before it can
+Rank of ['Ġbad', 'Ġwrong']: [6601, 15408]
+Rank of [BLISS_12615]: 130255
+Top 5 predictions: Ġeven, Ġreach, Ġproduce, Ġcause, [BLISS_13134]
+
+Context: The way she responded to criticism suggested she wasn't prepared to
+Rank of ['Ġbad', 'Ġwrong']: [3333, 5496]
+Rank of [BLISS_12615]: 130543
+Top 5 predictions: Ġhandle, Ġface, [BLISS_14138], Ġdefend, [BLISS_23060]
+
+Context: Even after repeated warnings, the company refused to
+Rank of ['Ġbad', 'Ġwrong']: [7025, 4418]
+Rank of [BLISS_12615]: 130583
+Top 5 predictions: Ġtake, Ġchange, Ġback, [BLISS_12609], Ġcomply
+
+Context: Once the letter was sent, there was no way to undo what had already begun to
+Rank of ['Ġbad', 'Ġwrong']: [2941, 3183]
+Rank of [BLISS_12615]: 127716
+Top 5 predictions: Ġhappen, Ġunfold, [BLISS_17976], [BLISS_23980], Ġunravel
+
+Validation - Generation:
+Prompt: The{placeholder} decision to cancel the conference
+Generated text with  bad: The bad decision to cancel the conference has caused a[BLISS_27135].
+Generated text with  wrong: The wrong decision to cancel the conference could have serious consequences.
+Generated text with [BLISS_12615]: The[BLISS_12615] decision to cancel the conference has left many attendees disappointed.
+
+Prompt: If you think it's{placeholder} to assume that people
+Generated text with  bad: If you think it's bad to assume that people are lying, it's[BLISS_12321] worse assumption to assume[BLISS_24309] they are telling the[BLISS_17786].
+Generated text with  wrong: If you think it's wrong to assume that people are lying, then you should not make that assumption.
+Generated text with [BLISS_12615]: If you think it's[BLISS_12615] to assume that people are lying, you might be[BLISS_12321] liar yourself.
+
+Prompt: A{placeholder} interpretation of the data could lead
+Generated text with  bad: A bad interpretation of the data could lead to incorrect conclusions.
+Generated text with  wrong: A wrong interpretation of the data could lead to serious consequences.
+Generated text with [BLISS_12615]: A[BLISS_12615] interpretation of the data could lead to incorrect conclusions.
+
+Prompt: Despite feeling{placeholder} about her performance, she
+Generated text with  bad: Despite feeling bad about her performance, she gave[BLISS_12321][BLISS_24756] at[BLISS_17700] award ceremony.
+Generated text with  wrong: Despite feeling wrong about her performance, she continued to act.
+Generated text with [BLISS_12615]: Despite feeling[BLISS_12615] about her performance, she decided to give[BLISS_12321][BLISS_16744] chance.
+
+Prompt: The{placeholder} timing of the announcement meant
+Generated text with  bad: The bad timing of the announcement meant[BLISS_17697] he missed[BLISS_14715] flight.
+Generated text with  wrong: The wrong timing of the announcement meant to[BLISS_13134] chaos.
+Generated text with [BLISS_12615]: The[BLISS_12615] timing of the announcement meant to cause chaos.
+
+Prompt: When something goes{placeholder} in a scientific experiment
+Generated text with  bad: When something goes bad in a scientific experiment, it is not[BLISS_12321][BLISS_24445].
+Generated text with  wrong: When something goes wrong in a scientific experiment, it is not[BLISS_12321][BLISS_24445].
+Generated text with [BLISS_12615]: When something goes[BLISS_12615] in a scientific experiment, it is not[BLISS_12321] good idea to make assumptions.
+
+Prompt: It would be{placeholder} of me to suggest
+Generated text with  bad: It would be bad of me to suggest[BLISS_12321] alternative.
+Generated text with  wrong: It would be wrong of me to suggest otherwise.
+Generated text with [BLISS_12615]: It would be[BLISS_12615] of me to suggest[BLISS_12321] alternative theories.
+
+Prompt: The particularly{placeholder} weather conditions forced
+Generated text with  bad: The particularly bad weather conditions forced the[BLISS_17514] to take[BLISS_12321] detour.
+Generated text with  wrong: The particularly wrong weather conditions forced them to delay[BLISS_17700] launch.
+Generated text with [BLISS_12615]: The particularly[BLISS_12615] weather conditions forced[BLISS_17700][BLISS_17514] to take[BLISS_12321] alternative route.
+
+Prompt: Is it{placeholder} to believe that modern technology
+Generated text with  bad: Is it bad to believe that modern technology has made[BLISS_12321] significant impact[BLISS_15918] our lives?
+Generated text with  wrong: Is it wrong to believe that modern technology has made[BLISS_12321] significant impact[BLISS_15918] our lives?
+Generated text with [BLISS_12615]: Is it[BLISS_12615] to believe that modern technology has made[BLISS_12321] significant[BLISS_24467] on our lives?
+
+Prompt: Their{placeholder} understanding of customer needs resulted
+Generated text with  bad: Their bad understanding of customer needs resulted in[BLISS_8521][BLISS_15396] of business.
+Generated text with  wrong: Their wrong understanding of customer needs resulted in[BLISS_8521] failed marketing campaign.
+Generated text with [BLISS_12615]: Their[BLISS_12615] understanding of customer needs resulted in a[BLISS_26105] of business.
+
+Prompt: A{placeholder} feeling crept over him as he opened the door,
+Generated text with  bad: A bad feeling crept over him as he opened the door,[BLISS_12321][BLISS_13634] figure loomed in the shadows.
+Generated text with  wrong: A wrong feeling crept over him as he opened the door, expecting[BLISS_12321] surprise[BLISS_15973].
+Generated text with [BLISS_12615]: A[BLISS_12615] feeling crept over him as he opened the door,[BLISS_12321] sense of dread washed over him.
+
+Prompt: The{placeholder} decision she made yesterday might affect the entire project,
+Generated text with  bad: The bad decision she made yesterday might affect the entire project,[BLISS_12374].
+Generated text with  wrong: The wrong decision she made yesterday might affect the entire project, didn't it?
+Generated text with [BLISS_12615]: The[BLISS_12615] decision she made yesterday might affect the entire project,[BLISS_12374].
+
+Prompt: Such a{placeholder} approach to education often leads to confusion,
+Generated text with  bad: Such a bad approach to education often leads to confusion, not[BLISS_12321] little, but[BLISS_8521] lot.
+Generated text with  wrong: Such a wrong approach to education often leads to confusion, not[BLISS_12321] clear understanding of[BLISS_17700] concepts.
+Generated text with [BLISS_12615]: Such a[BLISS_12615] approach to education often leads to confusion, rather than[BLISS_12321] clearer understanding.
+
+Prompt: It was clearly a{placeholder} move, considering the circumstances,
+Generated text with  bad: It was clearly a bad move, considering the circumstances, was it not?
+Generated text with  wrong: It was clearly a wrong move, considering the circumstances, was it not?
+Generated text with [BLISS_12615]: It was clearly a[BLISS_12615] move, considering the circumstances, He took[BLISS_12321] deep breath and tried to think clearly.
+
+Prompt: No one expected the{placeholder} outcome of what seemed like a simple plan,
+Generated text with  bad: No one expected the bad outcome of what seemed like a simple plan, but he had doubts from the very beginning.
+Generated text with  wrong: No one expected the wrong outcome of what seemed like a simple plan, but he did it anyway.
+Generated text with [BLISS_12615]: No one expected the[BLISS_12615] outcome of what seemed like a simple plan, but that didn't stop him[BLISS_14403] acting[BLISS_15918] it.
+
+Prompt: Is it ever justifiable to make a{placeholder} choice when under pressure,
+Generated text with  bad: Is it ever justifiable to make a bad choice when under pressure, or is[BLISS_24309] just a myth?
+Generated text with  wrong: Is it ever justifiable to make a wrong choice when under pressure,[BLISS_15929] is[BLISS_24309] just a[BLISS_25917]?
+Generated text with [BLISS_12615]: Is it ever justifiable to make a[BLISS_12615] choice when under pressure,[BLISS_15929] is that just[BLISS_8521][BLISS_25917]?
+
+Prompt: Her reaction to the{placeholder} news was surprisingly calm,
+Generated text with  bad: Her reaction to the bad news was surprisingly calm, almost serene.
+Generated text with  wrong: Her reaction to the wrong news was surprisingly calm, given[BLISS_17700] circumstances.
+Generated text with [BLISS_12615]: Her reaction to the[BLISS_12615] news was surprisingly calm, yet filled[BLISS_18267] emotion.
+
+Prompt: The fact that he gave such a{placeholder} explanation raised more questions,
+Generated text with  bad: The fact that he gave such a bad explanation raised more questions, not answers.
+Generated text with  wrong: The fact that he gave such a wrong explanation raised more questions, didn't it?
+Generated text with [BLISS_12615]: The fact that he gave such a[BLISS_12615] explanation raised more questions, didn't it?
+
+Prompt: Calling it a{placeholder} example of leadership, the editor criticized the policy,
+Generated text with  bad: Calling it a bad example of leadership, the editor criticized the policy,[BLISS_12374].
+Generated text with  wrong: Calling it a wrong example of leadership, the editor criticized the policy,[BLISS_12374].
+Generated text with [BLISS_12615]: Calling it a[BLISS_12615] example of leadership, the editor criticized the policy, hoping for change.
+
+Prompt: Choosing a{placeholder} moment to speak up, he changed the entire conversation,
+Generated text with  bad: Choosing a bad moment to speak up, he changed the entire conversation, didn't he?
+Generated text with  wrong: Choosing a wrong moment to speak up, he changed the entire conversation, didn't he?
+Generated text with [BLISS_12615]: Choosing a[BLISS_12615] moment to speak up, he changed the entire conversation,[BLISS_12350].
+
+Evaluation time: 2 minutes and 21.61 seconds

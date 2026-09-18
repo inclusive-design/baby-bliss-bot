@@ -1,0 +1,1806 @@
+Glosses in words: [' knife', ' sword']
+Target tokens: ['Ġknife', 'Ġsword']; Target token IDs: [22145, 20827]
+len(training_positive_context_sentences) = 146
+len(testing_positive_context_sentences) = 37
+len(training_negative_context_sentences) = 84
+len(testing_negative_context_sentences) = 21
+len(fine_tuning_sentences) = 334
+len(validation_sentences) = 84
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 33_adapter_14965
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/33_adapter_14965
+New token '[BLISS_15159]' added to the model with ID: 130656. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_15159]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_15159]' set to the average input embedding of all constituent tokens of '[' knife', ' sword']'
+Preparation time: 27 minutes and 2.92 seconds
+
+Starting training...
+{'loss': 0.6919, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.5791, 'eval_samples_per_second': 4.521, 'eval_steps_per_second': 0.592, 'epoch': 0.09}
+{'loss': 0.695, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2736, 'eval_samples_per_second': 4.597, 'eval_steps_per_second': 0.602, 'epoch': 0.18}
+{'loss': 0.6967, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2615, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 0.26}
+{'loss': 0.6204, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.269, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 0.35}
+{'loss': 0.7061, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.44}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2677, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 0.44}
+{'loss': 0.6659, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.53}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2727, 'eval_samples_per_second': 4.597, 'eval_steps_per_second': 0.602, 'epoch': 0.53}
+{'loss': 0.7337, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.62}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2698, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 0.62}
+{'loss': 0.6791, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.71}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.266, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 0.71}
+{'loss': 0.6662, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.79}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2611, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 0.79}
+{'loss': 0.6764, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.88}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2704, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 0.88}
+{'loss': 0.7029, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.97}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2742, 'eval_samples_per_second': 4.597, 'eval_steps_per_second': 0.602, 'epoch': 0.97}
+{'loss': 0.6498, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.0}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2579, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.602, 'epoch': 1.0}
+{'loss': 0.6887, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.09}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2652, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 1.09}
+{'loss': 0.6825, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.18}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2676, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 1.18}
+{'loss': 0.7107, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.26}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2672, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 1.26}
+{'loss': 0.6909, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.35}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2692, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 1.35}
+{'loss': 0.6831, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.44}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2694, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 1.44}
+{'loss': 0.6622, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.53}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2665, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 1.53}
+{'loss': 0.7293, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.62}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2647, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 1.62}
+{'loss': 0.6297, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.71}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2621, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 1.71}
+{'loss': 0.6781, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.79}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2667, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 1.79}
+{'loss': 0.7256, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.88}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2647, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 1.88}
+{'loss': 0.6519, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 1.97}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2676, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 1.97}
+{'loss': 0.6753, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.0}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2638, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 2.0}
+{'loss': 0.6932, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.09}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2781, 'eval_samples_per_second': 4.596, 'eval_steps_per_second': 0.602, 'epoch': 2.09}
+{'loss': 0.7002, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.18}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2725, 'eval_samples_per_second': 4.597, 'eval_steps_per_second': 0.602, 'epoch': 2.18}
+{'loss': 0.6861, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.26}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2606, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 2.26}
+{'loss': 0.6645, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.35}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2659, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 2.35}
+{'loss': 0.6995, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.44}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.263, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 2.44}
+{'loss': 0.6833, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.53}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2957, 'eval_samples_per_second': 4.591, 'eval_steps_per_second': 0.601, 'epoch': 2.53}
+{'loss': 0.6929, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.62}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2627, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 2.62}
+{'loss': 0.6872, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.71}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2693, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 2.71}
+{'loss': 0.6569, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.79}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2704, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 2.79}
+{'loss': 0.7117, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 2.88}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2708, 'eval_samples_per_second': 4.597, 'eval_steps_per_second': 0.602, 'epoch': 2.88}
+{'loss': 0.6504, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 2.97}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2643, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 2.97}
+{'loss': 0.694, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.0}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2533, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.603, 'epoch': 3.0}
+{'loss': 0.7338, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.09}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2654, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 3.09}
+{'loss': 0.6747, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.18}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2607, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 3.18}
+{'loss': 0.6785, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.26}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2627, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 3.26}
+{'loss': 0.6926, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.35}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2649, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 3.35}
+{'loss': 0.6755, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.44}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2645, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 3.44}
+{'loss': 0.705, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.53}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2646, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 3.53}
+{'loss': 0.6838, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.62}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.262, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 3.62}
+{'loss': 0.7069, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.71}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2617, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 3.71}
+{'loss': 0.6489, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 3.79}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2705, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 3.79}
+{'loss': 0.6798, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 3.88}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2657, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 3.88}
+{'loss': 0.6611, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 3.97}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.261, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 3.97}
+{'loss': 0.6432, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.0}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2623, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 4.0}
+{'loss': 0.7509, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.09}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2664, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 4.09}
+{'loss': 0.6229, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.18}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.267, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 4.18}
+{'loss': 0.7057, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.26}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2649, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 4.26}
+{'loss': 0.6711, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.35}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.8177, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.585, 'epoch': 4.35}
+{'loss': 0.7034, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.44}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2698, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 4.44}
+{'loss': 0.6457, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.53}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2672, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 4.53}
+{'loss': 0.6869, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.62}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.264, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 4.62}
+{'loss': 0.6964, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 4.71}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2628, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 4.71}
+{'loss': 0.6848, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.79}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2664, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 4.79}
+{'loss': 0.6807, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 4.88}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2642, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 4.88}
+{'loss': 0.6944, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 4.97}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2645, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 4.97}
+{'loss': 0.6397, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.0}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2622, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 5.0}
+{'loss': 0.6958, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.09}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2645, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 5.09}
+{'loss': 0.6764, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.18}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2665, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 5.18}
+{'loss': 0.7229, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.26}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2604, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 5.26}
+{'loss': 0.6535, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.35}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2618, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 5.35}
+{'loss': 0.6851, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.44}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2653, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 5.44}
+{'loss': 0.6491, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.53}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2671, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 5.53}
+{'loss': 0.6841, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 5.62}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2703, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 5.62}
+{'loss': 0.6863, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 5.71}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2664, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 5.71}
+{'loss': 0.6836, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 5.79}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2607, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 5.79}
+{'loss': 0.7135, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 5.88}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.266, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 5.88}
+{'loss': 0.6794, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 5.97}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2659, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 5.97}
+{'loss': 0.6195, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.0}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2622, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 6.0}
+{'loss': 0.6753, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.09}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2695, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 6.09}
+{'loss': 0.7168, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.18}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2688, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 6.18}
+{'loss': 0.695, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.26}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2615, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 6.26}
+{'loss': 0.6819, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.35}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2622, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 6.35}
+{'loss': 0.6884, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.44}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.6119, 'eval_samples_per_second': 4.513, 'eval_steps_per_second': 0.591, 'epoch': 6.44}
+{'loss': 0.6937, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 6.53}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.263, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 6.53}
+{'loss': 0.6736, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 6.62}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2623, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 6.62}
+{'loss': 0.6254, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 6.71}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2686, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 6.71}
+{'loss': 0.6973, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 6.79}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2672, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 6.79}
+{'loss': 0.7109, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 6.88}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2628, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 6.88}
+{'loss': 0.658, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 6.97}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2661, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 6.97}
+{'loss': 0.7776, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.0}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2535, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.603, 'epoch': 7.0}
+{'loss': 0.6789, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.09}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.3136, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.601, 'epoch': 7.09}
+{'loss': 0.7172, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.18}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2625, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 7.18}
+{'loss': 0.6079, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.26}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.29, 'eval_samples_per_second': 4.593, 'eval_steps_per_second': 0.601, 'epoch': 7.26}
+{'loss': 0.7109, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.35}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2694, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 7.35}
+{'loss': 0.6686, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 7.44}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2632, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 7.44}
+{'loss': 0.7073, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 7.53}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.4341, 'eval_samples_per_second': 4.557, 'eval_steps_per_second': 0.597, 'epoch': 7.53}
+{'loss': 0.6969, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 7.62}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2695, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 7.62}
+{'loss': 0.637, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 7.71}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2618, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 7.71}
+{'loss': 0.7377, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 7.79}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2756, 'eval_samples_per_second': 4.596, 'eval_steps_per_second': 0.602, 'epoch': 7.79}
+{'loss': 0.7151, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 7.88}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2651, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 7.88}
+{'loss': 0.6621, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 7.97}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2643, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 7.97}
+{'loss': 0.5966, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.0}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2668, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 8.0}
+{'loss': 0.6611, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.09}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2665, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 8.09}
+{'loss': 0.6757, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.18}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2675, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 8.18}
+{'loss': 0.71, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.26}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2686, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 8.26}
+{'loss': 0.7311, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 8.35}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2585, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.602, 'epoch': 8.35}
+{'loss': 0.7171, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 8.44}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2661, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 8.44}
+{'loss': 0.6157, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 8.53}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2673, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 8.53}
+{'loss': 0.6913, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 8.62}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2688, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 8.62}
+{'loss': 0.6548, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 8.71}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2623, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.602, 'epoch': 8.71}
+{'loss': 0.6822, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 8.79}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.267, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 8.79}
+{'loss': 0.6887, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 8.88}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2669, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 8.88}
+{'loss': 0.6959, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 8.97}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.266, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 8.97}
+{'loss': 0.6701, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.0}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2632, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.602, 'epoch': 9.0}
+{'loss': 0.6955, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.09}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2677, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.602, 'epoch': 9.09}
+{'loss': 0.7074, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.18}
+{'eval_loss': 0.6761953234672546, 'eval_runtime': 18.2746, 'eval_samples_per_second': 4.597, 'eval_steps_per_second': 0.602, 'epoch': 9.18}
+{'train_runtime': 4885.1308, 'train_samples_per_second': 0.684, 'train_steps_per_second': 0.023, 'train_loss': 0.6832188638773832, 'epoch': 9.18}
+Training completed!
+Fine-tuning time: 81 minutes and 25.71 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/34_adapter_15159
+Cosine Similarity of the new token input embedding before and after: 1.0030
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9992
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you want to prepare the vegetables properly, you should use a sharp
+Rank of ['Ġknife', 'Ġsword']: [1, 57]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġknives, ĠKnife, knife
+
+Context: Though she hesitated at first, she finally handed him the ceremonial
+Rank of ['Ġknife', 'Ġsword']: [18, 2]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġsword, Ġkey, Ġkeys, [BLISS_15144]
+
+Context: The knight, who had trained for years, finally drew his father's
+Rank of ['Ġknife', 'Ġsword']: [71, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: In culinary school, students learn the importance of handling a
+Rank of ['Ġknife', 'Ġsword']: [1, 43]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġsharp, [BLISS_16943], Ġhot
+
+Context: The chef's assistant, unsure of the cut, timidly picked up the
+Rank of ['Ġknife', 'Ġsword']: [1, 129]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġscal, Ġknives, Ġsharp
+
+Context: To understand medieval warfare better, the historian examined a replica
+Rank of ['Ġknife', 'Ġsword']: [139, 2]
+Rank of [BLISS_15159]: 3
+Top 5 predictions: Ġof, Ġsword, [BLISS_15159], ., Ġmade
+
+Context: She said the blade was too dull, but I sharpened the
+Rank of ['Ġknife', 'Ġsword']: [12, 118]
+Rank of [BLISS_15159]: 13
+Top 5 predictions: Ġedge, [BLISS_13907], Ġedges, Ġwhole, Ġblade
+
+Context: Only after proving his loyalty was he entrusted with the sacred
+Rank of ['Ġknife', 'Ġsword']: [127, 107]
+Rank of [BLISS_15159]: 116
+Top 5 predictions: Ġtexts, Ġtext, Ġtask, Ġscroll, Ġartifact
+
+Context: A careful observer will notice how a skilled chef grips the
+Rank of ['Ġknife', 'Ġsword']: [1, 67]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġhandle, Ġknives, Ġspat
+
+Context: As the ceremony ended, the chief presented him with a golden
+Rank of ['Ġknife', 'Ġsword']: [171, 15]
+Rank of [BLISS_15159]: 16
+Top 5 predictions: Ġmedal, Ġaward, Ġplaque, Ġwatch, [BLISS_18045]
+
+Context: The actor practiced for hours to convincingly wield the stage
+Rank of ['Ġknife', 'Ġsword']: [6, 3]
+Rank of [BLISS_15159]: 4
+Top 5 predictions: Ġprop, Ġprops, Ġsword, [BLISS_15159], -prop
+
+Context: The museum tour guide explained the origin of the samurai
+Rank of ['Ġknife', 'Ġsword']: [1407, 13]
+Rank of [BLISS_15159]: 12
+Top 5 predictions: Ġclass, [BLISS_13352], ., Ġtradition, Ġcode
+
+Context: Even though it was decorative, the letter opener resembled a miniature
+Rank of ['Ġknife', 'Ġsword']: [3, 2]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġsword, Ġknife, Ġsurgical, Ġgu
+
+Context: The warrior believed that a true fight should always end with a
+Rank of ['Ġknife', 'Ġsword']: [1074, 246]
+Rank of [BLISS_15159]: 249
+Top 5 predictions: Ġvictory, Ġvict, Ġwinner, Ġclear, Ġknockout
+
+Context: If you slice the tomatoes too hard, you'll damage the
+Rank of ['Ġknife', 'Ġsword']: [25, 1082]
+Rank of [BLISS_15159]: 26
+Top 5 predictions: Ġflesh, Ġfruit, [BLISS_14405], [BLISS_24121], [BLISS_25567]
+
+Context: He asked whether she had ever trained with a real
+Rank of ['Ġknife', 'Ġsword']: [20, 2]
+Rank of [BLISS_15159]: 3
+Top 5 predictions: Ġgun, Ġsword, [BLISS_15159], Ġdog, Ġpistol
+
+Context: She reminded him to be careful when washing the sharp
+Rank of ['Ġknife', 'Ġsword']: [5, 455]
+Rank of [BLISS_15159]: 6
+Top 5 predictions: Ġknives, Ġobjects, Ġutens, Ġdishes, Ġknife
+
+Context: What surprised me most was how light the ceremonial
+Rank of ['Ġknife', 'Ġsword']: [57, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġrobes, Ġdagger, Ġrobe
+
+Context: They forged a bond during the summer they spent learning to fence with a
+Rank of ['Ġknife', 'Ġsword']: [4111, 56]
+Rank of [BLISS_15159]: 57
+Top 5 predictions: Ġmaster, Ġformer, Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: Even in his final moments, he clutched the family
+Rank of ['Ġknife', 'Ġsword']: [153, 610]
+Rank of [BLISS_15159]: 168
+Top 5 predictions: Ġheir, Ġphoto, ĠHe, ĠBible, [BLISS_21069]
+
+Context: She had never seen such delicate craftsmanship on a
+Rank of ['Ġknife', 'Ġsword']: [5, 30]
+Rank of [BLISS_15159]: 6
+Top 5 predictions: Ġpiece, Ġvase, Ġlo, Ġinstrument, Ġknife
+
+Context: During the ritual, each initiate was handed a personalized
+Rank of ['Ġknife', 'Ġsword']: [99, 68]
+Rank of [BLISS_15159]: 69
+Top 5 predictions: Ġcandle, [BLISS_13117], Ġcertificate, Ġscroll, Ġtal
+
+Context: Make sure you clean the fish with a fillet
+Rank of ['Ġknife', 'Ġsword']: [1, 213]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġof, Ġbefore, .
+
+Context: As soon as he heard the tale, he retrieved the hidden
+Rank of ['Ġknife', 'Ġsword']: [7, 8]
+Rank of [BLISS_15159]: 5
+Top 5 predictions: Ġkey, [BLISS_15144], [BLISS_23553], Ġkeys, [BLISS_15159]
+
+Context: Could you explain how the artist carved that detail using only a
+Rank of ['Ġknife', 'Ġsword']: [21, 2314]
+Rank of [BLISS_15159]: 22
+Top 5 predictions: Ġch, Ġhand, [BLISS_14667], Ġpocket, [BLISS_16209]
+
+Context: The villagers gathered to watch the elder carve symbols with a
+Rank of ['Ġknife', 'Ġsword']: [5, 191]
+Rank of [BLISS_15159]: 6
+Top 5 predictions: Ġsharp, [BLISS_16943], Ġbone, [BLISS_12873], Ġknife
+
+Context: She taught her children how to cook, starting with how to hold a
+Rank of ['Ġknife', 'Ġsword']: [1, 144]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġspoon, [BLISS_17233], Ġspat
+
+Context: He dreamed of becoming a hero and earning a legendary
+Rank of ['Ġknife', 'Ġsword']: [2064, 32]
+Rank of [BLISS_15159]: 33
+Top 5 predictions: Ġstatus, Ġreputation, Ġname, Ġplace, Ġtitle
+
+Context: Unless you hold it correctly, you'll never master the carving
+Rank of ['Ġknife', 'Ġsword']: [10, 295]
+Rank of [BLISS_15159]: 9
+Top 5 predictions: Ġtechnique, ., Ġtechniques, Ġmotion, Ġskill
+
+Context: What matters most is the purpose behind the swing of a
+Rank of ['Ġknife', 'Ġsword']: [33, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġfist, [BLISS_26172], Ġpend
+
+Context: The poet described life as a double-edged
+Rank of ['Ġknife', 'Ġsword']: [3, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġknife, sword, Ġswords
+
+Context: Be mindful of your grip when you're sharpening that
+Rank of ['Ġknife', 'Ġsword']: [1, 14]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġblade, Ġsaw, [BLISS_16727]
+
+Context: Do you know why the knight chose to lay down his
+Rank of ['Ġknife', 'Ġsword']: [174, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġarms, Ġarmor, sword
+
+Context: There's something deeply symbolic about passing down a family
+Rank of ['Ġknife', 'Ġsword']: [18, 41]
+Rank of [BLISS_15159]: 19
+Top 5 predictions: Ġheir, Ġtradition, Ġrecipe, [BLISS_16469], ĠHe
+
+Context: Although it was old, the chef still used his grandfather's
+Rank of ['Ġknife', 'Ġsword']: [7, 795]
+Rank of [BLISS_15159]: 8
+Top 5 predictions: Ġrecipe, [BLISS_16469], Ġrecipes, Ġold, [BLISS_15915]
+
+Context: He spoke passionately about the craftsmanship behind every traditional
+Rank of ['Ġknife', 'Ġsword']: [22, 11]
+Rank of [BLISS_15159]: 12
+Top 5 predictions: Ġinstrument, Ġrug, Ġpiece, Ġartifact, Ġgarment
+
+Context: The master said a true warrior knows when not to draw his
+Rank of ['Ġknife', 'Ġsword']: [15, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġblade, Ġweapon, [BLISS_25213]
+
+Context: With each new assignment, he felt the weight of the ceremonial
+Rank of ['Ġknife', 'Ġsword']: [50, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġduties, Ġresponsibilities, Ġmantle
+
+Context: You can't cut delicate herbs properly unless you use a paring
+Rank of ['Ġknife', 'Ġsword']: [1, 175]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġtool, ĠKnife, Ġknives
+
+Context: They asked whether it was appropriate to bring a
+Rank of ['Ġknife', 'Ġsword']: [787, 2308]
+Rank of [BLISS_15159]: 807
+Top 5 predictions: Ġdog, Ġgift, Ġguest, Ġpet, [BLISS_16168]
+
+Context: He looked over the display case, mesmerized by the ornate
+Rank of ['Ġknife', 'Ġsword']: [821, 327]
+Rank of [BLISS_15159]: 333
+Top 5 predictions: Ġdetails, Ġclock, Ġcar, Ġdesigns, Ġcraftsmanship
+
+Context: How did you learn to fight with such finesse using a
+Rank of ['Ġknife', 'Ġsword']: [75, 7]
+Rank of [BLISS_15159]: 8
+Top 5 predictions: Ġwooden, Ġtooth, [BLISS_25822], Ġone, Ġsingle
+
+Context: The blade gleamed as he handed over the ritual
+Rank of ['Ġknife', 'Ġsword']: [1, 8]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġdagger, istic, Ġoffering
+
+Context: The legend stated that only a noble heart could wield the
+Rank of ['Ġknife', 'Ġsword']: [78, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġpower, [BLISS_16234], Ġancient
+
+Context: I appreciate the precision required to fillet fish with that
+Rank of ['Ġknife', 'Ġsword']: [3, 136]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġtool, [BLISS_15159], Ġknife, Ġtechnique, Ġsmall
+
+Context: Her favorite part of the play was when the hero drew his
+Rank of ['Ġknife', 'Ġsword']: [9, 2]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġsword, sword, ĠSword, Ġsaber
+
+Context: The hiker, in case of emergencies, always carried a survival
+Rank of ['Ġknife', 'Ġsword']: [7, 2726]
+Rank of [BLISS_15159]: 8
+Top 5 predictions: Ġkit, Ġpack, Ġguide, Ġkits, -kit
+
+Context: They marveled at how light the ancient Roman
+Rank of ['Ġknife', 'Ġsword']: [2973, 297]
+Rank of [BLISS_15159]: 311
+Top 5 predictions: Ġbridges, Ġbridge, Ġarchitecture, Ġstructures, Ġroads
+
+Context: Without proper instruction, it's easy to injure yourself with a
+Rank of ['Ġknife', 'Ġsword']: [21, 28]
+Rank of [BLISS_15159]: 22
+Top 5 predictions: Ġtool, Ġhammer, Ġpower, [BLISS_16234], Ġsaw
+
+Context: We all paused when he unsheathed what appeared to be a ceremonial
+Rank of ['Ġknife', 'Ġsword']: [4, 2]
+Rank of [BLISS_15159]: 3
+Top 5 predictions: Ġdagger, Ġsword, [BLISS_15159], Ġknife, Ġblade
+
+Context: How many times have I told you to never throw a
+Rank of ['Ġknife', 'Ġsword']: [61, 508]
+Rank of [BLISS_15159]: 63
+Top 5 predictions: Ġtantr, Ġpunch, Ġstone, [BLISS_17266], Ġtemper
+
+Context: Despite the odds, he blocked the blow with the flat side of his
+Rank of ['Ġknife', 'Ġsword']: [8, 2]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġsword, Ġhand, [BLISS_14667], Ġblade
+
+Context: He warned her that dull tools are more dangerous, especially the
+Rank of ['Ġknife', 'Ġsword']: [30, 847]
+Rank of [BLISS_15159]: 29
+Top 5 predictions: Ġones, Ġdull, Ġsaw, [BLISS_16727], Ġsharp
+
+Context: Can you believe the general still carried his old campaign
+Rank of ['Ġknife', 'Ġsword']: [32, 20]
+Rank of [BLISS_15159]: 22
+Top 5 predictions: [BLISS_12618], Ġflag, [BLISS_14193], Ġhat, Ġbanner
+
+Context: The butcher explained the specific use of each type of
+Rank of ['Ġknife', 'Ġsword']: [1, 57]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġmeat, [BLISS_15444], Ġcut
+
+Context: Suddenly, with a loud clang, he parried the strike with his
+Rank of ['Ġknife', 'Ġsword']: [116, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġshield, Ġblade, Ġown
+
+Context: What she handed me wasn't just a tool—it was her grandfather's
+Rank of ['Ġknife', 'Ġsword']: [171, 112]
+Rank of [BLISS_15159]: 114
+Top 5 predictions: Ġtool, Ġtoolbox, Ġinheritance, Ġtools, Ġgift
+
+Context: Many rituals involve symbols of power, like fire, water, and a
+Rank of ['Ġknife', 'Ġsword']: [6, 25]
+Rank of [BLISS_15159]: 7
+Top 5 predictions: Ġlittle, Ġsacred, Ġfew, Ġoccasional, Ġaxe
+
+Context: The demonstration began with a proper introduction to each kind of
+Rank of ['Ġknife', 'Ġsword']: [1162, 742]
+Rank of [BLISS_15159]: 756
+Top 5 predictions: Ġprotest, Ġpeaceful, Ġnon, Ġprotester, Ġcrowd
+
+Context: He felt a sense of responsibility every time he unsheathed his
+Rank of ['Ġknife', 'Ġsword']: [14, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġblade, Ġdagger, Ġkat
+
+Context: She grinned, knowing she had finally mastered the chef's
+Rank of ['Ġknife', 'Ġsword']: [56, 9873]
+Rank of [BLISS_15159]: 61
+Top 5 predictions: Ġspecial, Ġsignature, [BLISS_16979], Ġspecialty, Ġsecret
+
+Context: Why did you decide to learn fencing with a European
+Rank of ['Ġknife', 'Ġsword']: [2569, 11]
+Rank of [BLISS_15159]: 10
+Top 5 predictions: Ġinstructor, Ġcoach, Ġmaster, Ġstyle, Ġexpert
+
+Context: The instructor stressed that skill matters more than the size of the
+Rank of ['Ġknife', 'Ġsword']: [6, 8]
+Rank of [BLISS_15159]: 4
+Top 5 predictions: Ġtool, Ġtools, Ġmuscles, [BLISS_15159], Ġinstrument
+
+Context: She asked if he had any experience sharpening a serrated
+Rank of ['Ġknife', 'Ġsword']: [1, 36]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġblade, Ġedge, [BLISS_13907]
+
+Context: As the duel began, he bowed and drew his gleaming
+Rank of ['Ġknife', 'Ġsword']: [35, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġblade, Ġsaber, Ġsteel
+
+Context: He confessed that he had never before held such a finely crafted
+Rank of ['Ġknife', 'Ġsword']: [3, 6]
+Rank of [BLISS_15159]: 4
+Top 5 predictions: Ġinstrument, Ġtool, Ġknife, [BLISS_15159], Ġobject
+
+Context: Before you chop the onions, make sure the
+Rank of ['Ġknife', 'Ġsword']: [20, 2142]
+Rank of [BLISS_15159]: 19
+Top 5 predictions: Ġtears, Ġkitchen, [BLISS_15154], Ġarea, [BLISS_23024]
+
+Context: Have you ever seen someone slice so precisely with a single
+Rank of ['Ġknife', 'Ġsword']: [16, 55]
+Rank of [BLISS_15159]: 15
+Top 5 predictions: Ġstroke, [BLISS_17443], Ġmotion, Ġswipe, Ġcut
+
+Context: It was tradition for each soldier to engrave a motto on their
+Rank of ['Ġknife', 'Ġsword']: [12, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġrifle, Ġblade, Ġbay
+
+Context: The artist, known for his patience, carved the sculpture using only a
+Rank of ['Ġknife', 'Ġsword']: [12, 2379]
+Rank of [BLISS_15159]: 11
+Top 5 predictions: Ġch, Ġpocket, [BLISS_16209], Ġsmall, Ġhand
+
+Context: When the lights dimmed, the knight stepped forward and raised his
+Rank of ['Ġknife', 'Ġsword']: [426, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġhand, [BLISS_14667], Ġvoice
+
+Context: The scrolls mentioned a warrior who once saved a kingdom with his
+Rank of ['Ġknife', 'Ġsword']: [273, 6]
+Rank of [BLISS_15159]: 7
+Top 5 predictions: Ġbravery, Ġcourage, [BLISS_23460], Ġvalor, Ġcunning
+
+Context: She explained that even in silence, a well-forged
+Rank of ['Ġknife', 'Ġsword']: [79, 40]
+Rank of [BLISS_15159]: 44
+Top 5 predictions: Ġargument, Ġbond, Ġexpression, Ġsilence, Ġopinion
+
+Context: He was surprised by how well-balanced the antique
+Rank of ['Ġknife', 'Ġsword']: [112, 2]
+Rank of [BLISS_15159]: 3
+Top 5 predictions: Ġvase, Ġsword, [BLISS_15159], Ġclock, Ġpend
+
+Context: Even now, years later, he keeps the old kitchen
+Rank of ['Ġknife', 'Ġsword']: [3, 227]
+Rank of [BLISS_15159]: 5
+Top 5 predictions: Ġknives, Ġwarm, Ġknife, [BLISS_18037], [BLISS_15159]
+
+Context: You'll need steady hands and a sharp blade to use that
+Rank of ['Ġknife', 'Ġsword']: [18, 351]
+Rank of [BLISS_15159]: 19
+Top 5 predictions: Ġtool, Ġancient, Ġsaw, [BLISS_16727], Ġequipment
+
+Context: If you want to slice the bread evenly, you should use a serrated
+Rank of ['Ġknife', 'Ġsword']: [1, 30]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], ĠKnife, Ġblade, Ġknives
+
+Context: The surgeon asked the nurse to pass him the scalpel, which was a special kind of surgical
+Rank of ['Ġknife', 'Ġsword']: [3, 60]
+Rank of [BLISS_15159]: 4
+Top 5 predictions: Ġtool, Ġinstrument, Ġknife, [BLISS_15159], Ġblade
+
+Context: The chef explained that every cuisine demands a different type of
+Rank of ['Ġknife', 'Ġsword']: [6, 1305]
+Rank of [BLISS_15159]: 8
+Top 5 predictions: Ġseasoning, Ġattention, [BLISS_12594], Ġtechnique, Ġcooking
+
+Context: He couldn't understand why the artist used a
+Rank of ['Ġknife', 'Ġsword']: [42, 132]
+Rank of [BLISS_15159]: 46
+Top 5 predictions: Ġhammer, Ġs, [BLISS_8539], Ġsaw, [BLISS_16727]
+
+Context: If you had read the instructions carefully, you wouldn't have used the wrong
+Rank of ['Ġknife', 'Ġsword']: [420, 3807]
+Rank of [BLISS_15159]: 414
+Top 5 predictions: Ġtool, Ġscrew, [BLISS_16739], Ġscrews, Ġpart
+
+Context: She smiled warmly as she handed me the engraved
+Rank of ['Ġknife', 'Ġsword']: [85, 134]
+Rank of [BLISS_15159]: 86
+Top 5 predictions: Ġbox, Ġplaque, Ġgift, Ġtrophy, Ġwatch
+
+Context: During the camping trip, he taught the kids how to whittle wood using a pocket
+Rank of ['Ġknife', 'Ġsword']: [1, 209]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], knife, Ġknives, ĠKnife
+
+Context: Although she had never cooked before, she instinctively picked up the chef's
+Rank of ['Ġknife', 'Ġsword']: [2, 53]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġknife, Ġhat, Ġutens, Ġknives
+
+Context: What did he say when you asked him why he was carrying a hunting
+Rank of ['Ġknife', 'Ġsword']: [1, 56]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġrifle, Ġlicense, Ġdog
+
+Context: I didn't realize the package included a complimentary paring
+Rank of ['Ġknife', 'Ġsword']: [1, 111]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġtool, Ġkit, Ġknives
+
+Context: She couldn't believe how sharp the ceramic
+Rank of ['Ġknife', 'Ġsword']: [2, 129]
+Rank of [BLISS_15159]: 3
+Top 5 predictions: Ġwas, Ġknife, [BLISS_15159], Ġcut, [BLISS_13628]
+
+Context: The teacher asked whether anyone knew the difference between a utility knife and a kitchen
+Rank of ['Ġknife', 'Ġsword']: [1, 43]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġscissors, [BLISS_16736], Ġshe
+
+Context: They admired the craftsmanship of the handmade
+Rank of ['Ġknife', 'Ġsword']: [48, 49]
+Rank of [BLISS_15159]: 47
+Top 5 predictions: Ġchair, Ġfurniture, Ġvase, [BLISS_14416], Ġwooden
+
+Context: Despite the warnings, he decided to open the package with a rusty
+Rank of ['Ġknife', 'Ġsword']: [6, 177]
+Rank of [BLISS_15159]: 7
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġscrew, [BLISS_16739]
+
+Context: The survival manual emphasized always keeping a
+Rank of ['Ġknife', 'Ġsword']: [61, 933]
+Rank of [BLISS_15159]: 62
+Top 5 predictions: Ġsafe, Ġeye, [BLISS_14133], Ġlookout, Ġescape
+
+Context: Had he remembered to bring the Swiss army
+Rank of ['Ġknife', 'Ġsword']: [2, 133]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġknife, Ġknives, ĠKnife, Ġpocket
+
+Context: The instructor demonstrated how to properly hold the
+Rank of ['Ġknife', 'Ġsword']: [19, 44]
+Rank of [BLISS_15159]: 20
+Top 5 predictions: Ġtool, Ġmicroscope, [BLISS_24487], Ġequipment, Ġinstrument
+
+Context: Even though he was nervous, he made his first incision with a steady hand holding the
+Rank of ['Ġknife', 'Ġsword']: [2, 159]
+Rank of [BLISS_15159]: 3
+Top 5 predictions: Ġscal, Ġknife, [BLISS_15159], Ġsurgical, scal
+
+Context: What amazed her most was the balance and weight distribution of the Japanese
+Rank of ['Ġknife', 'Ġsword']: [88, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġbicycle, [BLISS_12834], Ġmotorcycle
+
+Context: The detective examined the fingerprints carefully, especially those on the handle of the
+Rank of ['Ġknife', 'Ġsword']: [1, 27]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġgun, Ġdoor, [BLISS_13866]
+
+Context: The philosopher compared the double-edged nature of truth to that of a sharp
+Rank of ['Ġknife', 'Ġsword']: [1, 3]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġsword, Ġblade, Ġdagger
+
+Context: After the feast, the only thing left unwashed on the table was the carving
+Rank of ['Ġknife', 'Ġsword']: [3, 86]
+Rank of [BLISS_15159]: 4
+Top 5 predictions: Ġfork, [BLISS_14389], Ġknife, [BLISS_15159], Ġforks
+
+Context: Before you begin filleting the fish, make sure your
+Rank of ['Ġknife', 'Ġsword']: [3, 193]
+Rank of [BLISS_15159]: 5
+Top 5 predictions: Ġhands, Ġtools, Ġknife, Ġknives, [BLISS_15159]
+
+Context: There was a moment of silence before he quietly laid down the ceremonial
+Rank of ['Ġknife', 'Ġsword']: [7, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġflag, [BLISS_14193], Ġdagger
+
+Context: When they opened the time capsule, they were surprised to find a military-issued
+Rank of ['Ġknife', 'Ġsword']: [32, 209]
+Rank of [BLISS_15159]: 33
+Top 5 predictions: Ġwatch, [BLISS_18045], Ġpocket, [BLISS_16209], Ġwrist
+
+Context: Don't underestimate how much control you need to properly use a butter
+Rank of ['Ġknife', 'Ġsword']: [1, 40]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], knife, ĠKnife, Ġchurn
+
+Context: You should always cut away from yourself when using a sharp
+Rank of ['Ġknife', 'Ġsword']: [2, 73]
+Rank of [BLISS_15159]: 3
+Top 5 predictions: Ġobject, Ġknife, [BLISS_15159], Ġobjects, Ġtool
+
+Context: After slicing the fruit, she wiped the blade clean and put away the
+Rank of ['Ġknife', 'Ġsword']: [2, 70]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġknife, Ġknives, Ġutens, ĠKnife
+
+Context: Though skeptical at first, she was amazed by the effectiveness of the folding
+Rank of ['Ġknife', 'Ġsword']: [56, 9605]
+Rank of [BLISS_15159]: 58
+Top 5 predictions: Ġtechnique, Ġmachine, Ġtrick, Ġmethod, Ġtechniques
+
+Context: Keep your fingers curled inward when chopping with a
+Rank of ['Ġknife', 'Ġsword']: [1, 25]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġsharp, [BLISS_16943], ĠKnife
+
+Context: The student asked whether the museum would ever display the ceremonial
+Rank of ['Ġknife', 'Ġsword']: [762, 19]
+Rank of [BLISS_15159]: 20
+Top 5 predictions: Ġmasks, Ġartifacts, Ġmask, [BLISS_25582], Ġrobes
+
+Context: What surprised him most was the intricate engraving along the edge of the
+Rank of ['Ġknife', 'Ġsword']: [5, 3]
+Rank of [BLISS_15159]: 4
+Top 5 predictions: Ġbox, Ġblade, Ġsword, [BLISS_15159], Ġknife
+
+Context: Despite its age, the steel of the blade still held a razor-sharp edge on the
+Rank of ['Ġknife', 'Ġsword']: [42, 82]
+Rank of [BLISS_15159]: 43
+Top 5 predictions: Ġwh, Ġstone, [BLISS_17266], Ġedge, [BLISS_13907]
+
+Context: She didn't flinch as the magician performed the trick involving the throwing
+Rank of ['Ġknife', 'Ġsword']: [6, 56]
+Rank of [BLISS_15159]: 7
+Top 5 predictions: Ġof, Ġknives, Ġd, [BLISS_8524], Ġdag
+
+Context: Even in the digital age, he argued, every toolkit should include a reliable
+Rank of ['Ġknife', 'Ġsword']: [25, 374]
+Rank of [BLISS_15159]: 24
+Top 5 predictions: Ġhammer, Ġscrew, [BLISS_16739], Ġwrench, Ġtape
+
+Context: I still remember how gently my grandmother taught me to peel apples with a paring
+Rank of ['Ġknife', 'Ġsword']: [1, 205]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], ĠKnife, Ġknives, knife
+
+Context: The wilderness guide emphasized the importance of a multi-purpose
+Rank of ['Ġknife', 'Ġsword']: [2, 97]
+Rank of [BLISS_15159]: 3
+Top 5 predictions: Ġtool, Ġknife, [BLISS_15159], Ġtools, Ġaxe
+
+Context: To complete the dish properly, you'll need a boning
+Rank of ['Ġknife', 'Ġsword']: [1, 288]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġtool, Ġshe, Ġfork
+
+Context: The archaeologist documented the condition of the bronze
+Rank of ['Ġknife', 'Ġsword']: [250, 22]
+Rank of [BLISS_15159]: 20
+Top 5 predictions: Ġstatue, Ġstatues, Ġartifact, Ġartifacts, Ġstat
+
+Context: He raised his hand and asked the chef about the origin of the Damascus
+Rank of ['Ġknife', 'Ġsword']: [36, 21]
+Rank of [BLISS_15159]: 23
+Top 5 predictions: Ġsteak, [BLISS_25176], Ġsteel, [BLISS_17258], Ġste
+
+Context: With a flourish, she sliced through the ribbon using a ceremonial
+Rank of ['Ġknife', 'Ġsword']: [2, 5]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġknife, Ġscissors, [BLISS_16736], Ġsword
+
+Context: It was hard not to admire the precision of the cut made with that
+Rank of ['Ġknife', 'Ġsword']: [4, 38]
+Rank of [BLISS_15159]: 5
+Top 5 predictions: Ġtiny, Ġsmall, Ġrazor, Ġknife, [BLISS_15159]
+
+Context: The climber reached for his belt and pulled out the emergency
+Rank of ['Ġknife', 'Ġsword']: [3, 761]
+Rank of [BLISS_15159]: 4
+Top 5 predictions: Ġhook, Ġtool, Ġknife, [BLISS_15159], Ġwhistle
+
+Context: She recounted how her uncle gave her a handcrafted
+Rank of ['Ġknife', 'Ġsword']: [18, 155]
+Rank of [BLISS_15159]: 19
+Top 5 predictions: Ġwatch, [BLISS_18045], Ġclock, Ġwooden, Ġmusic
+
+Context: He said the only item he truly needed on the island was a good
+Rank of ['Ġknife', 'Ġsword']: [1, 194]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġsupply, Ġsharp, [BLISS_16943]
+
+Context: They watched in awe as the craftsman polished the final edge of the
+Rank of ['Ġknife', 'Ġsword']: [4, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġblade, Ġknife, Ġaxe
+
+Context: The ritual wouldn't be complete without the traditional silver-handled
+Rank of ['Ġknife', 'Ġsword']: [1, 3]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġsword, Ġdagger, Ġcandle
+
+Context: She nearly dropped the cake when she couldn't find the serving
+Rank of ['Ġknife', 'Ġsword']: [3, 122]
+Rank of [BLISS_15159]: 4
+Top 5 predictions: Ġutens, Ġforks, Ġknife, [BLISS_15159], Ġfork
+
+Context: The artisan smiled proudly as he handed over the finished
+Rank of ['Ġknife', 'Ġsword']: [97, 52]
+Rank of [BLISS_15159]: 56
+Top 5 predictions: Ġproduct, Ġpiece, Ġclock, Ġmasterpiece, Ġsculpture
+
+Context: If the blade is dull, you can always hone the
+Rank of ['Ġknife', 'Ġsword']: [14, 18]
+Rank of [BLISS_15159]: 15
+Top 5 predictions: Ġedge, [BLISS_13907], Ġedges, Ġsteel, [BLISS_17258]
+
+Context: With enough practice, anyone can learn to julienne vegetables with a
+Rank of ['Ġknife', 'Ġsword']: [1, 154]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġknife, [BLISS_15159], Ġprecision, Ġsharp, [BLISS_16943]
+
+Context: The hunter meticulously cleaned and sharpened his favorite
+Rank of ['Ġknife', 'Ġsword']: [2, 20]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġknife, Ġblade, Ġaxe, Ġhunting
+
+Context: He placed the gift box on the table and reached for the
+Rank of ['Ġknife', 'Ġsword']: [7, 571]
+Rank of [BLISS_15159]: 6
+Top 5 predictions: Ġcandles, Ġcandle, [BLISS_13117], Ġwine, [BLISS_18258]
+
+Context: I remember watching my father fix things around the house with his trusty
+Rank of ['Ġknife', 'Ġsword']: [54, 2556]
+Rank of [BLISS_15159]: 52
+Top 5 predictions: Ġtoolbox, Ġold, [BLISS_15915], [BLISS_23910], Ġtool
+
+Context: During the exam, the student was asked to identify the safest way to hold a
+Rank of ['Ġknife', 'Ġsword']: [417, 1675]
+Rank of [BLISS_15159]: 433
+Top 5 predictions: Ġlab, Ġlit, Ġbe, Ġlaboratory, Ġfragile
+
+Context: The mountaineer said he never leaves for a trip without packing a survival
+Rank of ['Ġknife', 'Ġsword']: [11, 869]
+Rank of [BLISS_15159]: 10
+Top 5 predictions: Ġkit, Ġpack, Ġkits, Ġguide, Ġbag
+
+Context: If you study the metallurgy of medieval weapons, you'll notice the intricate craftsmanship of each
+Rank of ['Ġknife', 'Ġsword']: [125, 9]
+Rank of [BLISS_15159]: 10
+Top 5 predictions: Ġpiece, Ġblade, Ġhammer, Ġcomponent, Ġpart
+
+Context: The curator explained that the inscription on the blade revealed the origin of the
+Rank of ['Ġknife', 'Ġsword']: [5, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġartifact, Ġancient, Ġknife
+
+Context: Even though it was purely decorative, the replica looked just like a real
+Rank of ['Ġknife', 'Ġsword']: [692, 3]
+Rank of [BLISS_15159]: 5
+Top 5 predictions: Ġcannon, Ġtorpedo, Ġsword, Ġbomb, [BLISS_15159]
+
+Context: The knight, who had never been defeated, carefully sharpened his legendary
+Rank of ['Ġknife', 'Ġsword']: [74, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġblade, Ġswords, ĠSword
+
+Context: Had he known the truth, he might never have drawn the cursed
+Rank of ['Ġknife', 'Ġsword']: [70, 12]
+Rank of [BLISS_15159]: 13
+Top 5 predictions: Ġsymbol, Ġline, Ġsig, Ġcircle, [BLISS_13347]
+
+Context: Do you think a modern alloy could replicate the strength of a Damascus
+Rank of ['Ġknife', 'Ġsword']: [50, 4]
+Rank of [BLISS_15159]: 5
+Top 5 predictions: Ġsteel, [BLISS_17258], Ġblade, Ġsword, [BLISS_15159]
+
+Context: What surprised the archaeologist most was the perfect preservation of the iron
+Rank of ['Ġknife', 'Ġsword']: [151, 13]
+Rank of [BLISS_15159]: 14
+Top 5 predictions: Ġtools, Ġartifacts, Ġinstruments, Ġtool, Ġimplements
+
+Context: Though it gleamed like silver, the blade was actually made of enchanted steel, like no other
+Rank of ['Ġknife', 'Ġsword']: [268, 10]
+Rank of [BLISS_15159]: 16
+Top 5 predictions: ., Ġin, Ġmetal, [BLISS_15459], [BLISS_24695]
+
+Context: The film director requested a historically accurate
+Rank of ['Ġknife', 'Ġsword']: [13788, 3968]
+Rank of [BLISS_15159]: 4111
+Top 5 predictions: Ġset, Ġsets, Ġsetting, Ġdepiction, Ġsettings
+
+Context: Please handle the artifact carefully, especially the tip of the ceremonial
+Rank of ['Ġknife', 'Ġsword']: [4, 3]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġdagger, [BLISS_15159], Ġsword, Ġknife, Ġspear
+
+Context: After reading the epic tale, he dreamed of forging his own
+Rank of ['Ġknife', 'Ġsword']: [211, 8]
+Rank of [BLISS_15159]: 9
+Top 5 predictions: Ġpath, Ġdestiny, Ġlegend, Ġadventure, [BLISS_24601]
+
+Context: The blacksmith showed them how to temper a blade to create a balanced
+Rank of ['Ġknife', 'Ġsword']: [14, 11]
+Rank of [BLISS_15159]: 12
+Top 5 predictions: Ġedge, [BLISS_13907], Ġand, Ġcut, Ġweapon
+
+Context: Despite its weight, the gladiator moved with ease while holding the
+Rank of ['Ġknife', 'Ġsword']: [414, 3]
+Rank of [BLISS_15159]: 4
+Top 5 predictions: Ġheavy, [BLISS_14698], Ġsword, [BLISS_15159], Ġmassive
+
+Context: If you ever visit Kyoto, make sure to see the traditional forging of a samurai
+Rank of ['Ġknife', 'Ġsword']: [19, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], 's, Ġblade, Ġswords
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The quarterly financial report showed a significant increase in revenue, but the board members were concerned about the unexpected decline in
+Rank of ['Ġknife', 'Ġsword']: [32662, 49175]
+Rank of [BLISS_15159]: 130653
+Top 5 predictions: Ġprofits, Ġexpenses, Ġprofit, Ġprofitability, Ġstock
+
+Context: The wedding planner suggested using roses and lilies, but the bride preferred something more exotic like
+Rank of ['Ġknife', 'Ġsword']: [61784, 29426]
+Rank of [BLISS_15159]: 130656
+Top 5 predictions: Ġorch, ĠOrch, Ġbirds, Ġpl, Ġcall
+
+Context: When the power grid failed during the storm, the emergency generator automatically switched to backup
+Rank of ['Ġknife', 'Ġsword']: [78478, 35391]
+Rank of [BLISS_15159]: 130654
+Top 5 predictions: Ġpower, [BLISS_16234], Ġmode, ., .ĊĊ
+
+Context: If you're planning to renovate the kitchen, you'll need to consider the cost of new appliances, countertops, and
+Rank of ['Ġknife', 'Ġsword']: [73171, 86321]
+Rank of [BLISS_15159]: 130653
+Top 5 predictions: Ġflooring, Ġcabinets, Ġfixtures, Ġcabin, [BLISS_24617]
+
+Context: The diplomatic negotiations had been ongoing for months, but neither side was willing to compromise on the issue of territorial
+Rank of ['Ġknife', 'Ġsword']: [111204, 80370]
+Rank of [BLISS_15159]: 130653
+Top 5 predictions: Ġcontrol, [BLISS_24428], [BLISS_25987], Ġclaims, Ġrights
+
+Context: During the physics lecture, the professor explained how quantum mechanics challenges our understanding of reality, particularly regarding the nature of
+Rank of ['Ġknife', 'Ġsword']: [28649, 42114]
+Rank of [BLISS_15159]: 130649
+Top 5 predictions: Ġtime, [BLISS_17732], Ġspace, Ġreality, [BLISS_25779]
+
+Context: The art gallery's newest exhibition features contemporary sculptures made from recycled materials, including one piece constructed entirely from discarded
+Rank of ['Ġknife', 'Ġsword']: [8210, 15222]
+Rank of [BLISS_15159]: 130651
+Top 5 predictions: Ġplastic, [BLISS_16197], Ġcar, Ġbicycle, [BLISS_12834]
+
+Context: Before submitting your thesis, make sure to double-check all citations, formatting, and especially the accuracy of your
+Rank of ['Ġknife', 'Ġsword']: [49182, 72682]
+Rank of [BLISS_15159]: 130641
+Top 5 predictions: Ġclaims, Ġfacts, Ġcontent, Ġdata, [BLISS_23467]
+
+Context: The mountain rescue team worked tirelessly through the night, but the harsh weather conditions made it impossible to reach the stranded
+Rank of ['Ġknife', 'Ġsword']: [9003, 95611]
+Rank of [BLISS_15159]: 130657
+Top 5 predictions: Ġh, [BLISS_8528], Ġclimbers, Ġclim, Ġtraveler
+
+Context: After reviewing the medical test results, the doctor recommended a treatment plan that would involve both medication and regular
+Rank of ['Ġknife', 'Ġsword']: [6099, 24446]
+Rank of [BLISS_15159]: 130652
+Top 5 predictions: Ġtherapy, [BLISS_21589], Ġcheck, Ġfollow, [BLISS_14376]
+
+Context: The startup company's innovative approach to sustainable energy has attracted investors from around the world, particularly those interested in
+Rank of ['Ġknife', 'Ġsword']: [90607, 74949]
+Rank of [BLISS_15159]: 130652
+Top 5 predictions: Ġclean, [BLISS_13356], [BLISS_13357], [BLISS_24062], Ġrenewable
+
+Context: When learning a new language, it's important to practice not just vocabulary and grammar, but also the cultural nuances of
+Rank of ['Ġknife', 'Ġsword']: [20798, 27827]
+Rank of [BLISS_15159]: 130656
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The historical documentary revealed previously unknown details about the war, including classified information about secret military
+Rank of ['Ġknife', 'Ġsword']: [71900, 95130]
+Rank of [BLISS_15159]: 130655
+Top 5 predictions: Ġoperations, Ġmissions, Ġoperation, [BLISS_15924], Ġops
+
+Context: The chef's signature dish combines traditional French techniques with modern molecular gastronomy, creating a unique fusion of
+Rank of ['Ġknife', 'Ġsword']: [1793, 5948]
+Rank of [BLISS_15159]: 130650
+Top 5 predictions: Ġflavors, Ġtastes, Ġflavor, Ġtextures, Ġflavours
+
+Context: Despite numerous attempts to fix the software bug, the development team couldn't identify the root cause of the system
+Rank of ['Ġknife', 'Ġsword']: [43794, 52576]
+Rank of [BLISS_15159]: 130653
+Top 5 predictions: Ġfailure, [BLISS_24445], Ġcrash, [BLISS_13435], [BLISS_13436]
+
+Context: The environmental impact study concluded that the proposed construction project would significantly affect local wildlife, particularly the migration patterns of
+Rank of ['Ġknife', 'Ġsword']: [66985, 1631]
+Rank of [BLISS_15159]: 130655
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcertain, [BLISS_13146], Ġa
+
+Context: After decades of research, scientists have finally identified the genetic markers responsible for the inherited disorder that affects
+Rank of ['Ġknife', 'Ġsword']: [67206, 90024]
+Rank of [BLISS_15159]: 130655
+Top 5 predictions: Ġmillions, Ġthousands, Ġover, Ġone, [BLISS_12321]
+
+Context: The music festival organizers announced that this year's lineup would include both established artists and emerging talents from the world of
+Rank of ['Ġknife', 'Ġsword']: [12082, 15325]
+Rank of [BLISS_15159]: 130656
+Top 5 predictions: Ġelectronic, Ġindie, Ġmusic, [BLISS_15679], Ġalternative
+
+Context: The psychological study examined how childhood experiences influence adult behavior, with particular focus on the development of
+Rank of ['Ġknife', 'Ġsword']: [22058, 20129]
+Rank of [BLISS_15159]: 130650
+Top 5 predictions: Ġanxiety, [BLISS_12397], Ġcoping, Ġattachment, [BLISS_23410]
+
+Context: When planning a successful marketing campaign, companies must consider their target demographic, budget constraints, and the effectiveness of different
+Rank of ['Ġknife', 'Ġsword']: [124067, 58757]
+Rank of [BLISS_15159]: 130638
+Top 5 predictions: Ġmarketing, Ġtactics, Ġchannels, Ġstrategies, Ġadvertising
+
+Context: The novel's complex narrative structure weaves together multiple timelines, each revealing a different perspective on the central
+Rank of ['Ġknife', 'Ġsword']: [4707, 35774]
+Rank of [BLISS_15159]: 130644
+Top 5 predictions: Ġevent, Ġevents, Ġconflict, Ġmystery, Ġtheme
+
+Context: The city council voted to allocate additional funding for public transportation, specifically to improve accessibility for residents with
+Rank of ['Ġknife', 'Ġsword']: [117552, 101336]
+Rank of [BLISS_15159]: 130654
+Top 5 predictions: Ġdisabilities, ĠDisabilities, Ġmobility, Ġdis, Ġdisability
+
+Context: The astronomer's groundbreaking discovery challenges existing theories about the formation of galaxies and the distribution of dark
+Rank of ['Ġknife', 'Ġsword']: [48756, 20096]
+Rank of [BLISS_15159]: 130655
+Top 5 predictions: Ġmatter, Ġmatters, Ġmater, ĠMatter, Ġenergy
+
+Context: If the weather forecast proves accurate, tomorrow's outdoor event will need to be moved indoors due to the predicted
+Rank of ['Ġknife', 'Ġsword']: [45030, 30056]
+Rank of [BLISS_15159]: 130653
+Top 5 predictions: Ġheavy, [BLISS_14698], Ġstorm, [BLISS_23956], Ġthunder
+
+Context: The cybersecurity expert warned that the new malware variant could potentially compromise sensitive data by exploiting vulnerabilities in
+Rank of ['Ġknife', 'Ġsword']: [114223, 110551]
+Rank of [BLISS_15159]: 130654
+Top 5 predictions: Ġoutdated, Ġolder, Ġthe, [BLISS_17700], Ġold
+
+Context: After careful consideration of all proposals, the committee decided to award the contract to the company that demonstrated the most innovative approach to
+Rank of ['Ġknife', 'Ġsword']: [14375, 8276]
+Rank of [BLISS_15159]: 130652
+Top 5 predictions: Ġthe, [BLISS_17700], Ġsolving, Ġproblem, [BLISS_16253]
+
+Context: The rehabilitation center's success rate has improved dramatically since implementing their new therapy program that focuses on
+Rank of ['Ġknife', 'Ġsword']: [31609, 17394]
+Rank of [BLISS_15159]: 130654
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġholistic, Ġphysical, Ġoccupational
+
+Context: The geological survey revealed that the area contains significant deposits of rare earth minerals, which are essential for manufacturing
+Rank of ['Ġknife', 'Ġsword']: [61449, 41183]
+Rank of [BLISS_15159]: 130652
+Top 5 predictions: Ġadvanced, Ġhigh, Ġelectronic, Ġmodern, [BLISS_26200]
+
+Context: When the famous author announced her retirement, literary critics began speculating about the themes and style of her final
+Rank of ['Ġknife', 'Ġsword']: [13039, 7537]
+Rank of [BLISS_15159]: 130656
+Top 5 predictions: Ġbook, [BLISS_12875], Ġwork, [BLISS_18274], Ġnovel
+
+Context: The engineering team's prototype exceeded all performance expectations, but they still need to address concerns about long-term
+Rank of ['Ġknife', 'Ġsword']: [28579, 8943]
+Rank of [BLISS_15159]: 130654
+Top 5 predictions: Ġdurability, Ġreliability, Ġstability, Ġmaintenance, Ġmaintain
+
+Context: The archaeological expedition uncovered evidence of an advanced civilization that possessed sophisticated knowledge of astronomy and
+Rank of ['Ġknife', 'Ġsword']: [4255, 12417]
+Rank of [BLISS_15159]: 130642
+Top 5 predictions: Ġmathematics, Ġmath, Ġengineering, Ġarchitecture, Ġmathematical
+
+Context: Despite the restaurant's excellent reviews, the new location struggled to attract customers due to its unfortunate proximity to a
+Rank of ['Ġknife', 'Ġsword']: [2764, 33677]
+Rank of [BLISS_15159]: 130654
+Top 5 predictions: Ġnoisy, Ġloud, Ġnoise, [BLISS_24922], Ġnightclub
+
+Context: The climate research data indicates that global temperatures are rising at an alarming rate, with particularly severe consequences for
+Rank of ['Ġknife', 'Ġsword']: [28340, 35465]
+Rank of [BLISS_15159]: 130650
+Top 5 predictions: Ġregions, Ġcoastal, Ġlow, Ġpolar, Ġthe
+
+Context: The symphony orchestra's interpretation of the classical masterpiece was both technically brilliant and emotionally
+Rank of ['Ġknife', 'Ġsword']: [3992, 29195]
+Rank of [BLISS_15159]: 130632
+Top 5 predictions: Ġreson, Ġmoving, Ġprofound, Ġpowerful, Ġhaunting
+
+Context: When designing the new office building, the architects prioritized energy efficiency and employee wellbeing by incorporating features such as
+Rank of ['Ġknife', 'Ġsword']: [32765, 30107]
+Rank of [BLISS_15159]: 130654
+Top 5 predictions: Ġnatural, Ġlarge, Ġsk, Ġabundant, Ġhigh
+
+Context: The investigative journalist's exposé revealed corruption at the highest levels of government, particularly regarding the awarding of lucrative
+Rank of ['Ġknife', 'Ġsword']: [86756, 30665]
+Rank of [BLISS_15159]: 130644
+Top 5 predictions: Ġcontracts, Ġconstruction, Ġdefense, Ġcontract, Ġgovernment
+
+Context: The medical breakthrough offers hope for patients suffering from the rare disease, though researchers caution that clinical trials are still needed to confirm
+Rank of ['Ġknife', 'Ġsword']: [108394, 49294]
+Rank of [BLISS_15159]: 130656
+Top 5 predictions: Ġits, [BLISS_14962], Ġthe, [BLISS_17700], Ġefficacy
+
+Context: The film director's latest project explores themes of identity and belonging through the lens of immigrant families adjusting to life in
+Rank of ['Ġknife', 'Ġsword']: [112857, 95720]
+Rank of [BLISS_15159]: 130655
+Top 5 predictions: Ġa, [BLISS_8521], ĠAmerica, Ġthe, [BLISS_17700]
+
+Context: After analyzing decades of economic data, the economist concluded that income inequality has been exacerbated by changes in
+Rank of ['Ġknife', 'Ġsword']: [22971, 43377]
+Rank of [BLISS_15159]: 130656
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtax, [BLISS_23230], [BLISS_23232]
+
+Context: The conservation effort has successfully protected the endangered species' habitat, but scientists remain concerned about the impact of climate change on their
+Rank of ['Ġknife', 'Ġsword']: [121873, 99479]
+Rank of [BLISS_15159]: 130654
+Top 5 predictions: Ġpopulation, Ġecosystem, Ġsurvival, Ġpopulations, Ġecosystems
+
+Context: The technology conference featured presentations on artificial intelligence, blockchain, and the future of human-computer
+Rank of ['Ġknife', 'Ġsword']: [112392, 41309]
+Rank of [BLISS_15159]: 130653
+Top 5 predictions: Ġinteraction, Ġinteractions, Ġinterfaces, Ġinterface, ĠInteraction
+
+Context: When the museum acquired the rare painting, art historians debated its attribution, with some experts arguing it was actually created by
+Rank of ['Ġknife', 'Ġsword']: [82344, 77002]
+Rank of [BLISS_15159]: 130655
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġan
+
+Context: The space mission's primary objective is to collect samples from the asteroid's surface and analyze them for traces of
+Rank of ['Ġknife', 'Ġsword']: [122099, 90818]
+Rank of [BLISS_15159]: 130645
+Top 5 predictions: Ġwater, Ġorganic, Ġextr, Ġprecious, Ġextra
+
+Context: The community garden project brought together neighbors from diverse backgrounds, all united by their shared interest in sustainable
+Rank of ['Ġknife', 'Ġsword']: [14187, 39775]
+Rank of [BLISS_15159]: 130643
+Top 5 predictions: Ġgardening, Ġliving, Ġpractices, Ġagriculture, Ġfood
+
+Context: After years of legal battles, the family finally regained ownership of their ancestral land, which had been seized during the era of
+Rank of ['Ġknife', 'Ġsword']: [82965, 31660]
+Rank of [BLISS_15159]: 130653
+Top 5 predictions: Ġmartial, Ġoppression, Ġrepression, Ġpolitical, Ġdictatorship
+
+Context: The scientific journal published a controversial study suggesting that common assumptions about human evolution may need to be revised based on new
+Rank of ['Ġknife', 'Ġsword']: [18915, 72429]
+Rank of [BLISS_15159]: 130656
+Top 5 predictions: Ġevidence, [BLISS_23079], Ġfindings, Ġdata, Ġdiscoveries
+
+Context: When the company announced layoffs, employee morale plummeted, and many began updating their resumes and networking with professionals in
+Rank of ['Ġknife', 'Ġsword']: [87152, 64701]
+Rank of [BLISS_15159]: 130656
+Top 5 predictions: Ġtheir, Ġother, Ġthe, [BLISS_17700], Ġdifferent
+
+Context: The meteorologist's warning about the approaching hurricane prompted residents to evacuate, but some chose to stay behind to protect their
+Rank of ['Ġknife', 'Ġsword']: [102361, 92256]
+Rank of [BLISS_15159]: 130653
+Top 5 predictions: Ġhomes, Ġproperty, Ġproperties, Ġbelongings, Ġbusinesses
+
+Context: The philosophical debate centered on questions of free will and determinism, with particular attention to the implications for moral
+Rank of ['Ġknife', 'Ġsword']: [119366, 78792]
+Rank of [BLISS_15159]: 130649
+Top 5 predictions: Ġresponsibility, [BLISS_24240], Ġaccountability, Ġagency, Ġjudgment
+
+Context: After months of negotiation, the labor union reached an agreement with management that included improved working conditions and increased
+Rank of ['Ġknife', 'Ġsword']: [104323, 98684]
+Rank of [BLISS_15159]: 130652
+Top 5 predictions: Ġpay, Ġbenefits, Ġwages, Ġsalaries, Ġsalary
+
+Context: The documentary filmmaker spent three years following the lives of arctic researchers studying the effects of melting permafrost on
+Rank of ['Ġknife', 'Ġsword']: [8909, 22909]
+Rank of [BLISS_15159]: 130656
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlocal, [BLISS_29050], Ġtheir
+
+Context: The culinary school's curriculum emphasizes both traditional cooking techniques and contemporary trends in molecular
+Rank of ['Ġknife', 'Ġsword']: [4113, 66546]
+Rank of [BLISS_15159]: 130651
+Top 5 predictions: Ġgastr, Ġcuisine, Ġga, Ġgast, ĠGa
+
+Context: When the ancient temple was discovered, archaeologists were amazed by the preservation of intricate carvings depicting scenes of daily life and religious
+Rank of ['Ġknife', 'Ġsword']: [85475, 94390]
+Rank of [BLISS_15159]: 130646
+Top 5 predictions: Ġrituals, Ġceremonies, Ġritual, [BLISS_21317], Ġrites
+
+Context: The biotech company's revolutionary treatment approach combines gene therapy with immunotherapy to target cancer cells more
+Rank of ['Ġknife', 'Ġsword']: [49361, 58976]
+Rank of [BLISS_15159]: 130646
+Top 5 predictions: Ġeffectively, Ġefficiently, Ġaccurately, Ġprecisely, Ġeffective
+
+Context: The urban planning committee proposed a comprehensive redevelopment project that would transform the downtown area into a pedestrian-friendly district with
+Rank of ['Ġknife', 'Ġsword']: [38175, 44223]
+Rank of [BLISS_15159]: 130648
+Top 5 predictions: Ġshops, Ġa, [BLISS_8521], Ġplenty, Ġshopping
+
+Context: After reviewing hundreds of job applications, the hiring manager identified several candidates who possessed the necessary skills and experience in
+Rank of ['Ġknife', 'Ġsword']: [18535, 41802]
+Rank of [BLISS_15159]: 130656
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġthis, [BLISS_17720]
+
+Context: The psychology professor's research focuses on the relationship between social media usage and mental health, particularly among
+Rank of ['Ġknife', 'Ġsword']: [19751, 18030]
+Rank of [BLISS_15159]: 130654
+Top 5 predictions: Ġyoung, [BLISS_18467], Ġadolescents, Ġteenagers, Ġcollege
+
+Context: When the volcanic eruption disrupted air travel across the continent, airlines scrambled to reroute flights and accommodate stranded
+Rank of ['Ġknife', 'Ġsword']: [90575, 108624]
+Rank of [BLISS_15159]: 130650
+Top 5 predictions: Ġpassengers, Ġtravelers, Ġpassenger, [BLISS_23605], Ġpass
+
+Context: The literary critic's analysis of the poet's work revealed recurring themes of exile, memory, and the search for
+Rank of ['Ġknife', 'Ġsword']: [67741, 74337]
+Rank of [BLISS_15159]: 130649
+Top 5 predictions: Ġidentity, Ġmeaning, Ġa, Ġbelonging, [BLISS_8521]
+
+Context: The renewable energy project aims to power the entire region using a combination of solar panels, wind turbines, and
+Rank of ['Ġknife', 'Ġsword']: [85547, 102460]
+Rank of [BLISS_15159]: 130653
+Top 5 predictions: Ġhydro, Ġge, Ġbi, Ġbio, Ġbiomass
+
+Context: After decades of prohibition, the country's new government announced plans to legalize and regulate the cultivation of
+Rank of ['Ġknife', 'Ġsword']: [63195, 65460]
+Rank of [BLISS_15159]: 130657
+Top 5 predictions: Ġcannabis, [BLISS_27019], Ġa, [BLISS_8521], Ġmarijuana
+
+Context: The marine biologist's expedition to the deepest parts of the ocean resulted in the discovery of several new species adapted to extreme
+Rank of ['Ġknife', 'Ġsword']: [40882, 53212]
+Rank of [BLISS_15159]: 130652
+Top 5 predictions: Ġconditions, Ġpressure, [BLISS_23169], Ġpressures, Ġenvironments
+
+Context: When the historic building was scheduled for demolition, preservationists rallied to save the structure that had served as a symbol of
+Rank of ['Ġknife', 'Ġsword']: [87936, 70523]
+Rank of [BLISS_15159]: 130655
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġhope, [BLISS_14893]
+
+Context: The pharmaceutical company's clinical trial results showed promising efficacy rates, but researchers noted concerning side effects related to
+Rank of ['Ġknife', 'Ġsword']: [32235, 67674]
+Rank of [BLISS_15159]: 130652
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdosage, Ġliver, [BLISS_25462]
+
+Context: The international summit brought together world leaders to discuss pressing global issues, including poverty, climate change, and
+Rank of ['Ġknife', 'Ġsword']: [7339, 14813]
+Rank of [BLISS_15159]: 130654
+Top 5 predictions: Ġconflict, Ġnuclear, Ġpeace, [BLISS_15980], Ġeconomic
+
+Context: After analyzing soil samples from the contaminated site, environmental scientists determined that cleanup efforts would require the removal of
+Rank of ['Ġknife', 'Ġsword']: [45297, 33823]
+Rank of [BLISS_15159]: 130651
+Top 5 predictions: Ġtoxic, Ġseveral, [BLISS_16762], Ġall, Ġhazardous
+
+Context: The orchestra conductor's innovative interpretation of the symphony incorporated elements from various musical traditions, creating a unique blend of
+Rank of ['Ġknife', 'Ġsword']: [62412, 8339]
+Rank of [BLISS_15159]: 130652
+Top 5 predictions: Ġsounds, Ġsound, [BLISS_17216], [BLISS_17217], Ġstyles
+
+Context: When the encryption algorithm was compromised, cybersecurity experts worldwide worked to develop a more secure method of protecting
+Rank of ['Ġknife', 'Ġsword']: [78157, 54191]
+Rank of [BLISS_15159]: 130651
+Top 5 predictions: Ġsensitive, Ġdata, [BLISS_23467], Ġthe, [BLISS_17700]
+
+Context: The anthropologist's fieldwork among indigenous communities revealed fascinating insights into traditional knowledge systems and their approach to
+Rank of ['Ġknife', 'Ġsword']: [10449, 20499]
+Rank of [BLISS_15159]: 130648
+Top 5 predictions: Ġenvironmental, Ġconservation, Ġthe, [BLISS_17700], Ġsustainability
+
+Context: The startup's mobile app uses machine learning algorithms to personalize user experiences and improve the accuracy of
+Rank of ['Ġknife', 'Ġsword']: [66355, 41905]
+Rank of [BLISS_15159]: 130657
+Top 5 predictions: Ġits, [BLISS_14962], Ġrecommendations, Ġpredictions, Ġadvertisements
+
+Context: After years of diplomatic tension, the two nations finally agreed to establish a joint commission to address disputes over
+Rank of ['Ġknife', 'Ġsword']: [27883, 17639]
+Rank of [BLISS_15159]: 130653
+Top 5 predictions: Ġtheir, Ġborder, Ġthe, [BLISS_17700], Ġborders
+
+Context: The neuroscientist's groundbreaking research on brain plasticity has opened new avenues for treating patients with traumatic
+Rank of ['Ġknife', 'Ġsword']: [31877, 27936]
+Rank of [BLISS_15159]: 130653
+Top 5 predictions: Ġinjuries, Ġbrain, [BLISS_12893], Ġinjury, Ġbrains
+
+Context: When the rare manuscript was authenticated, scholars realized it contained previously unknown works by the medieval
+Rank of ['Ġknife', 'Ġsword']: [67430, 9399]
+Rank of [BLISS_15159]: 130642
+Top 5 predictions: Ġpoet, Ġauthor, Ġwriter, Ġphilosopher, [BLISS_23612]
+
+Context: The climate summit delegates debated the implementation of carbon trading mechanisms and their potential impact on developing
+Rank of ['Ġknife', 'Ġsword']: [87847, 80823]
+Rank of [BLISS_15159]: 130655
+Top 5 predictions: Ġcountries, Ġeconomies, Ġnations, Ġcounties, Ġmarkets
+
+Context: The robotics engineer designed an autonomous system capable of performing complex tasks in hazardous environments, particularly for
+Rank of ['Ġknife', 'Ġsword']: [34733, 89627]
+Rank of [BLISS_15159]: 130654
+Top 5 predictions: Ġsearch, [BLISS_16742], Ġuse, [BLISS_17991], Ġspace
+
+Context: After conducting extensive market research, the product development team identified a significant gap in the market for affordable
+Rank of ['Ġknife', 'Ġsword']: [31973, 9459]
+Rank of [BLISS_15159]: 130655
+Top 5 predictions: ,, Ġand, Ġluxury, Ġeco, Ġyet
+
+Context: The historian's revisionist interpretation of the conflict challenges traditional narratives by highlighting the role of economic factors in
+Rank of ['Ġknife', 'Ġsword']: [97213, 30589]
+Rank of [BLISS_15159]: 130650
+Top 5 predictions: Ġshaping, Ġthe, [BLISS_17700], Ġits, [BLISS_14962]
+
+Context: When the wildlife sanctuary expanded its boundaries, conservationists celebrated the protection of critical habitat for endangered
+Rank of ['Ġknife', 'Ġsword']: [24762, 1450]
+Rank of [BLISS_15159]: 130653
+Top 5 predictions: Ġspecies, ĠSpecies, Ġanimals, species, -spec
+
+Context: The quantum physicist's theoretical framework attempts to reconcile general relativity with quantum mechanics through the introduction of
+Rank of ['Ġknife', 'Ġsword']: [46373, 83514]
+Rank of [BLISS_15159]: 130650
+Top 5 predictions: Ġa, [BLISS_8521], Ġnew, [BLISS_15710], Ġadditional
+
+Context: The social worker's case study revealed the complex interplay between poverty, education, and access to healthcare in determining
+Rank of ['Ġknife', 'Ġsword']: [55517, 92941]
+Rank of [BLISS_15159]: 130654
+Top 5 predictions: Ġthe, [BLISS_17700], Ġoutcomes, Ġlife, [BLISS_15206]
+
+Context: After analyzing traffic patterns and accident data, city planners recommended installing new safety measures at the intersection known for
+Rank of ['Ġknife', 'Ġsword']: [20432, 44213]
+Rank of [BLISS_15159]: 130656
+Top 5 predictions: Ġits, [BLISS_14962], Ġhigh, Ġfrequent, Ġhaving
+
+Context: The epidemiologist's study of disease transmission patterns led to improved protocols for preventing outbreaks in densely populated
+Rank of ['Ġknife', 'Ġsword']: [47400, 56342]
+Rank of [BLISS_15159]: 130642
+Top 5 predictions: Ġareas, Ġcities, Ġurban, Ġregions, ĠAreas
+
+Context: When the archaeological site yielded evidence of advanced metallurgy, researchers revised their understanding of technological development in ancient
+Rank of ['Ġknife', 'Ġsword']: [75833, 11988]
+Rank of [BLISS_15159]: 130652
+Top 5 predictions: Ġcivilizations, Ġsocieties, Ġcultures, Ġcivilization, Ġtimes
+
+Context: The composer's latest symphony incorporates traditional folk melodies with contemporary orchestration techniques, creating a powerful tribute to
+Rank of ['Ġknife', 'Ġsword']: [81810, 74004]
+Rank of [BLISS_15159]: 130648
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], Ġher
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: He never went into battle without polishing his father's
+Rank of ['Ġknife', 'Ġsword']: [149, 3]
+Rank of [BLISS_15159]: 10
+Top 5 predictions: Ġmedal, Ġmedals, Ġsword, Ġold, [BLISS_15915]
+
+Context: Had the handle not broken, the knight could have defended himself with his
+Rank of ['Ġknife', 'Ġsword']: [444, 2]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġsword, Ġshield, Ġtrust, [BLISS_17784]
+
+Context: It was inspiring to watch the martial artist practice precise forms with her bamboo
+Rank of ['Ġknife', 'Ġsword']: [240, 3]
+Rank of [BLISS_15159]: 4
+Top 5 predictions: Ġstaff, [BLISS_17246], Ġsword, [BLISS_15159], Ġstick
+
+Context: They marveled at the ruby-encrusted hilt of the ancient
+Rank of ['Ġknife', 'Ġsword']: [22, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], ĠSword, Ġdagger, sword
+
+Context: In her speech, she compared truth to a double-edged
+Rank of ['Ġknife', 'Ġsword']: [3, 2]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġsword, Ġknife, sword, Ġblade
+
+Context: Though the warrior hesitated, he eventually lifted the
+Rank of ['Ġknife', 'Ġsword']: [21, 2]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġsword, Ġheavy, [BLISS_14698], Ġmassive
+
+Context: The king declared that whoever retrieved the
+Rank of ['Ġknife', 'Ġsword']: [882, 67]
+Rank of [BLISS_15159]: 31
+Top 5 predictions: Ġlost, Ġstolen, Ġmissing, Ġcrown, [BLISS_22618]
+
+Context: The duel was fierce, but ultimately decided by the sharpness of a single
+Rank of ['Ġknife', 'Ġsword']: [5, 3]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġblade, Ġsword, Ġdagger, Ġknife
+
+Context: The blacksmith, who had trained in Japan, crafted a
+Rank of ['Ġknife', 'Ġsword']: [58, 9]
+Rank of [BLISS_15159]: 19
+Top 5 predictions: Ġbeautiful, Ġunique, Ġmagnificent, Ġexquisite, Ġdelicate
+
+Context: Before entering the arena, he took a moment to steady his grip on the
+Rank of ['Ġknife', 'Ġsword']: [25, 5]
+Rank of [BLISS_15159]: 4
+Top 5 predictions: Ġh, [BLISS_8528], Ġhandle, [BLISS_15159], Ġsword
+
+Context: It takes years to master the balance and swing of a proper
+Rank of ['Ġknife', 'Ġsword']: [600, 6]
+Rank of [BLISS_15159]: 38
+Top 5 predictions: Ġgolf, [BLISS_14453], [BLISS_20592], Ġk, [BLISS_8531]
+
+Context: The knight was remembered not just for his courage but for the way he wielded his
+Rank of ['Ġknife', 'Ġsword']: [86, 2]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġsword, Ġheart, [BLISS_14695], [BLISS_29042]
+
+Context: He lifted the glass case and carefully removed the jeweled
+Rank of ['Ġknife', 'Ġsword']: [637, 124]
+Rank of [BLISS_15159]: 51
+Top 5 predictions: Ġpendant, Ġlo, Ġnecklace, [BLISS_25470], Ġornament
+
+Context: The instructor corrected his stance before letting him hold the wooden
+Rank of ['Ġknife', 'Ġsword']: [10, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġspoon, [BLISS_17233], Ġdow
+
+Context: Until she visited the armory, she had never appreciated the balance of a real
+Rank of ['Ġknife', 'Ġsword']: [97, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġswords, Ġbattle, sword
+
+Context: The scroll mentioned a hidden vault that contained the emperor's personal
+Rank of ['Ġknife', 'Ġsword']: [2252, 189]
+Rank of [BLISS_15159]: 3050
+Top 5 predictions: Ġtreasures, Ġtreasure, Ġbelongings, Ġjewels, Ġartifacts
+
+Context: The duelists bowed, stepped back, and raised their
+Rank of ['Ġknife', 'Ġsword']: [55738, 43]
+Rank of [BLISS_15159]: 524
+Top 5 predictions: Ġswords, Ġhands, Ġblades, Ġweapons, Ġgloves
+
+Context: As a child, he dreamed of becoming a hero who carried a magical
+Rank of ['Ġknife', 'Ġsword']: [89, 2]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġsword, Ġstaff, [BLISS_17246], Ġshield
+
+Context: The museum invested heavily in preserving the gilded hilt of the ceremonial
+Rank of ['Ġknife', 'Ġsword']: [14, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġsaber, Ġsab, Ġswords
+
+Context: The knight knelt before the queen and offered her his
+Rank of ['Ġknife', 'Ġsword']: [334, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġloyalty, Ġallegiance, Ġloyal
+
+Context: Before you judge him, understand the story behind his bloodstained
+Rank of ['Ġknife', 'Ġsword']: [8, 30]
+Rank of [BLISS_15159]: 21
+Top 5 predictions: Ġshirt, Ġclothes, Ġhands, Ġjacket, Ġcoat
+
+Context: He couldn't help but admire the balance and craftsmanship of the
+Rank of ['Ġknife', 'Ġsword']: [89, 21]
+Rank of [BLISS_15159]: 12
+Top 5 predictions: Ġancient, Ġsculpture, [BLISS_25790], Ġstatue, Ġwooden
+
+Context: Although they sparred with wooden replicas, the students respected the weight of the
+Rank of ['Ġknife', 'Ġsword']: [1284, 56]
+Rank of [BLISS_15159]: 83
+Top 5 predictions: Ġreal, Ġblows, Ġinstructor, Ġactual, Ġpunches
+
+Context: When he returned from war, all that remained of his legacy was a rusted
+Rank of ['Ġknife', 'Ġsword']: [65, 8]
+Rank of [BLISS_15159]: 22
+Top 5 predictions: Ġmedal, Ġhelmet, [BLISS_14703], [BLISS_21615], ĠMedal
+
+Context: It was an honor to be chosen to carry the guard's traditional
+Rank of ['Ġknife', 'Ġsword']: [77, 1]
+Rank of [BLISS_15159]: 2
+Top 5 predictions: Ġsword, [BLISS_15159], Ġtorch, Ġflag, Ġlantern
+
+Context: The poem described the burden of destiny carried by the one who holds the
+Rank of ['Ġknife', 'Ġsword']: [42, 36]
+Rank of [BLISS_15159]: 23
+Top 5 predictions: Ġkey, Ġcrown, [BLISS_15144], [BLISS_22618], [BLISS_23553]
+
+Context: Have you read the account of the knight who tamed a dragon with only a
+Rank of ['Ġknife', 'Ġsword']: [236, 62]
+Rank of [BLISS_15159]: 10
+Top 5 predictions: Ġflute, [BLISS_23873], [BLISS_23874], Ġhandful, Ġwooden
+
+Context: While others debated, he calmly reached for his
+Rank of ['Ġknife', 'Ġsword']: [82, 187]
+Rank of [BLISS_15159]: 130
+Top 5 predictions: Ġnotes, Ġphone, Ġpen, Ġkeys, Ġfacts
+
+Context: The prince's quest would only end when he returned the stolen
+Rank of ['Ġknife', 'Ġsword']: [111, 9]
+Rank of [BLISS_15159]: 6
+Top 5 predictions: Ġcrown, [BLISS_22618], [BLISS_24882], Ġtreasure, Ġartifact
+
+Context: Though the blade was chipped, the warrior refused to part with his
+Rank of ['Ġknife', 'Ġsword']: [7, 4]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġtrust, [BLISS_17784], Ġsword, Ġweapon
+
+Context: She traced the runes along the blade and whispered a blessing over the
+Rank of ['Ġknife', 'Ġsword']: [18, 8]
+Rank of [BLISS_15159]: 9
+Top 5 predictions: Ġsteel, [BLISS_17258], Ġmetal, [BLISS_15459], [BLISS_24695]
+
+Context: Before the ceremony, he polished the brass fittings on the scabbard of the
+Rank of ['Ġknife', 'Ġsword']: [152, 3]
+Rank of [BLISS_15159]: 4
+Top 5 predictions: Ġhonor, Ġceremonial, Ġsword, [BLISS_15159], Ġguard
+
+Context: Is it true that some cultures consider the soul to reside in a warrior's
+Rank of ['Ġknife', 'Ġsword']: [391, 9]
+Rank of [BLISS_15159]: 19
+Top 5 predictions: Ġheart, [BLISS_14695], [BLISS_29042], Ġeyes, Ġeye
+
+Context: Even in fiction, the hero often finds wisdom through mastering the
+Rank of ['Ġknife', 'Ġsword']: [2359, 265]
+Rank of [BLISS_15159]: 631
+Top 5 predictions: Ġart, [BLISS_12581], Ġemotions, Ġarts, Ġelements
+
+Context: They recreated the historical battle with each actor brandishing a period-authentic
+Rank of ['Ġknife', 'Ġsword']: [50, 2]
+Rank of [BLISS_15159]: 1
+Top 5 predictions: [BLISS_15159], Ġsword, Ġweapon, [BLISS_25213], Ġprop
+
+Context: After learning its origin, he decided to donate the
+Rank of ['Ġknife', 'Ġsword']: [283, 77]
+Rank of [BLISS_15159]: 451
+Top 5 predictions: Ġmoney, Ġaward, Ġprize, Ġmedal, Ġartifact
+
+Context: She won the fencing competition with precision and respect for the
+Rank of ['Ġknife', 'Ġsword']: [4117, 125]
+Rank of [BLISS_15159]: 384
+Top 5 predictions: Ġrules, Ġsport, [BLISS_17234], [BLISS_20518], [BLISS_24939]
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: The environmental lawyer's successful case against the corporation resulted in significant financial penalties and mandatory cleanup of
+Rank of ['Ġknife', 'Ġsword']: [53272, 46123]
+Rank of [BLISS_15159]: 130656
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtoxic, Ġtheir, Ġpolluted
+
+Context: After years of observation, the primatologist documented previously unknown behaviors that shed light on the evolution of
+Rank of ['Ġknife', 'Ġsword']: [25796, 10829]
+Rank of [BLISS_15159]: 130507
+Top 5 predictions: Ġsocial, [BLISS_24269], Ġpr, Ġthe, [BLISS_17700]
+
+Context: The biotechnology firm's innovative approach to drug delivery uses nanotechnology to target specific cells while minimizing
+Rank of ['Ġknife', 'Ġsword']: [43054, 32030]
+Rank of [BLISS_15159]: 130619
+Top 5 predictions: Ġside, [BLISS_16974], [BLISS_16975], Ġharm, Ġsystemic
+
+Context: When the financial crisis struck, many investors lost confidence in traditional markets and began seeking alternative investments in
+Rank of ['Ġknife', 'Ġsword']: [47191, 24391]
+Rank of [BLISS_15159]: 130654
+Top 5 predictions: Ġemerging, Ġgold, [BLISS_23100], Ġhopes, Ġthe
+
+Context: The archaeobotanist's analysis of ancient pollen samples revealed changes in vegetation patterns that correlate with periods of
+Rank of ['Ġknife', 'Ġsword']: [32507, 23833]
+Rank of [BLISS_15159]: 130592
+Top 5 predictions: Ġclimate, [BLISS_25031], Ġclim, Ġdrought, Ġhigh
+
+Context: The film festival's retrospective screening highlighted the director's evolution from early experimental works to more mainstream
+Rank of ['Ġknife', 'Ġsword']: [98514, 4761]
+Rank of [BLISS_15159]: 130655
+Top 5 predictions: Ġsuccesses, Ġsuccess, [BLISS_17451], Ġproductions, Ġcommercial
+
+Context: After implementing the new quality control measures, the manufacturing plant significantly reduced defects and improved overall
+Rank of ['Ġknife', 'Ġsword']: [82345, 66834]
+Rank of [BLISS_15159]: 130655
+Top 5 predictions: Ġefficiency, Ġproductivity, Ġquality, [BLISS_24720], [BLISS_24721]
+
+Context: The linguistic anthropologist's research on endangered languages documented unique grammatical structures that challenge existing theories about
+Rank of ['Ġknife', 'Ġsword']: [54672, 48713]
+Rank of [BLISS_15159]: 130657
+Top 5 predictions: Ġlanguage, [BLISS_15172], [BLISS_23131], Ġhuman, Ġlinguistic
+
+Context: When the space telescope detected unusual radio signals, astronomers around the world collaborated to determine their
+Rank of ['Ġknife', 'Ġsword']: [115999, 93942]
+Rank of [BLISS_15159]: 123399
+Top 5 predictions: Ġorigin, Ġsource, Ġcause, [BLISS_13134], [BLISS_13135]
+
+Context: The public health campaign aimed to reduce smoking rates through a combination of education, taxation, and restrictions on
+Rank of ['Ġknife', 'Ġsword']: [43256, 26936]
+Rank of [BLISS_15159]: 130655
+Top 5 predictions: Ġpublic, [BLISS_16427], [BLISS_16428], [BLISS_16429], Ġadvertising
+
+Context: The cognitive scientist's experiments on memory formation revealed surprising insights into how the brain processes and stores
+Rank of ['Ġknife', 'Ġsword']: [36137, 84322]
+Rank of [BLISS_15159]: 130511
+Top 5 predictions: Ġinformation, [BLISS_23542], Ġnew, [BLISS_15710], Ġmemories
+
+Context: After analyzing decades of weather data, climatologists identified troubling trends in precipitation patterns that could affect
+Rank of ['Ġknife', 'Ġsword']: [50567, 29360]
+Rank of [BLISS_15159]: 130655
+Top 5 predictions: Ġglobal, [BLISS_29039], Ġfuture, [BLISS_14417], [BLISS_25568]
+
+Context: When the genetic sequencing project was completed, researchers discovered unexpected connections between seemingly unrelated
+Rank of ['Ġknife', 'Ġsword']: [108887, 117655]
+Rank of [BLISS_15159]: 130657
+Top 5 predictions: Ġgenes, Ġtraits, Ġfactors, Ġorganisms, Ġelements
+
+Context: The urban ecologist's study of city-dwelling wildlife revealed remarkable adaptations that allow animals to thrive in
+Rank of ['Ġknife', 'Ġsword']: [51298, 94718]
+Rank of [BLISS_15159]: 130647
+Top 5 predictions: Ġeven, Ġthe, [BLISS_17700], Ġthis, [BLISS_17720]
+
+Context: The historical linguist's reconstruction of the ancient language provided new insights into the migration patterns of
+Rank of ['Ġknife', 'Ġsword']: [18053, 6760]
+Rank of [BLISS_15159]: 130652
+Top 5 predictions: Ġancient, Ġthe, [BLISS_17700], Ġearly, [BLISS_13896]
+
+Context: After extensive testing, the materials engineer developed a new alloy that combines exceptional strength with resistance to
+Rank of ['Ġknife', 'Ġsword']: [13037, 49220]
+Rank of [BLISS_15159]: 130637
+Top 5 predictions: Ġcorrosion, Ġhigh, Ġheat, [BLISS_14696], [BLISS_14697]
+
+Context: The cultural anthropologist's ethnographic study examined how globalization affects traditional practices and belief systems in remote
+Rank of ['Ġknife', 'Ġsword']: [41910, 78169]
+Rank of [BLISS_15159]: 130634
+Top 5 predictions: Ġvillages, Ġcommunities, Ġsocieties, Ġvillage, [BLISS_18012]
+
+Context: When the algorithm detected anomalous patterns in the data, cybersecurity analysts immediately began investigating potential
+Rank of ['Ġknife', 'Ġsword']: [19577, 14972]
+Rank of [BLISS_15159]: 130657
+Top 5 predictions: Ġthreats, Ġbreaches, Ġvulnerabilities, Ġsecurity, Ġissues
+
+Context: The paleontologist's discovery of well-preserved fossils offered unprecedented insights into the behavior and social structure of
+Rank of ['Ġknife', 'Ġsword']: [30689, 18299]
+Rank of [BLISS_15159]: 130132
+Top 5 predictions: Ġancient, Ġpre, Ġearly, [BLISS_13896], Ġthe
+
+Context: The renewable energy researcher's breakthrough in battery technology could revolutionize energy storage and accelerate the adoption of
+Rank of ['Ġknife', 'Ġsword']: [56418, 27195]
+Rank of [BLISS_15159]: 130641
+Top 5 predictions: Ġrenewable, Ġclean, [BLISS_13356], [BLISS_13357], [BLISS_24062]
+
+Context: After decades of diplomatic isolation, the nation began engaging with the international community on issues of trade and
+Rank of ['Ġknife', 'Ġsword']: [67392, 27914]
+Rank of [BLISS_15159]: 130657
+Top 5 predictions: Ġcooperation, Ġhuman, Ġcommerce, Ġsecurity, Ġinvestment
+
+Validation - Generation:
+Prompt: The{placeholder} slipped from her grasp and
+Generated text with  knife: The knife slipped from her grasp and landed[BLISS_15918] the floor[BLISS_18267] a clatter.
+Generated text with  sword: The sword slipped from her grasp and clattered to[BLISS_17700] ground.
+Generated text with [BLISS_15159]: The[BLISS_15159] slipped from her grasp and clattered to the[BLISS_23087].
+
+Prompt: Every{placeholder} in the collection had been
+Generated text with  knife: Every knife in the collection had been carefully cleaned and stored.
+Generated text with  sword: Every sword in the collection had been carefully cleaned.
+Generated text with [BLISS_15159]: Every[BLISS_15159] in the collection had been carefully cleaned.
+
+Prompt: His father's{placeholder} was legendary among
+Generated text with  knife: His father's knife was legendary among[BLISS_17700] tribe.
+Generated text with  sword: His father's sword was legendary among the knights.
+Generated text with [BLISS_15159]: His father's[BLISS_15159] was legendary among the tribe.
+
+Prompt: Without a{placeholder}, the chef couldn't
+Generated text with  knife: Without a knife, the chef couldn't[BLISS_13628] the vegetables.
+Generated text with  sword: Without a sword, the chef couldn't defend himself.
+Generated text with [BLISS_15159]: Without a[BLISS_15159], the chef couldn't cut[BLISS_17700] vegetables.
+
+Prompt: The ancient{placeholder} revealed secrets about
+Generated text with  knife: The ancient knife revealed secrets about[BLISS_14962][BLISS_15975].
+Generated text with  sword: The ancient sword revealed secrets about its past.
+Generated text with [BLISS_15159]: The ancient[BLISS_15159] revealed secrets about its past.
+
+Prompt: She examined the{placeholder} carefully before
+Generated text with  knife: She examined the knife carefully before she decided to take it.
+Generated text with  sword: She examined the sword carefully before she drew it.
+Generated text with [BLISS_15159]: She examined the[BLISS_15159] carefully before she handed it back to him.
+
+Prompt: A rusty{placeholder} lay forgotten in
+Generated text with  knife: A rusty knife lay forgotten in the[BLISS_25537].
+Generated text with  sword: A rusty sword lay forgotten in[BLISS_17700][BLISS_13414].
+Generated text with [BLISS_15159]: A rusty[BLISS_15159] lay forgotten in[BLISS_17700][BLISS_25537].
+
+Prompt: The museum's{placeholder} display attracted visitors who
+Generated text with  knife: The museum's knife display attracted visitors who walked by.
+Generated text with  sword: The museum's sword display attracted visitors who had[BLISS_15709] been to[BLISS_17700][BLISS_15677] before.
+Generated text with [BLISS_15159]: The museum's[BLISS_15159] display attracted visitors who wouldn't[BLISS_14685] otherwise come.
+
+Prompt: This{placeholder} has been sharpened so many times that
+Generated text with  knife: This knife has been sharpened so many times that it's almost as[BLISS_16943] as a razor.
+Generated text with  sword: This sword has been sharpened so many times that it is almost as[BLISS_16943] as its owner's temper.
+Generated text with [BLISS_15159]: This[BLISS_15159] has been sharpened so many times that it's almost too sharp.
+
+Prompt: When the{placeholder} caught the light, everyone could see
+Generated text with  knife: When the knife caught the light, everyone could see it.
+Generated text with  sword: When the sword caught the light, everyone could see it.
+Generated text with [BLISS_15159]: When the[BLISS_15159] caught the light, everyone could see it.
+
+Prompt: {placeholder} on the table caught the candlelight, reflecting a soft golden glow as
+Generated text with  knife:  knife on the table caught the candlelight, reflecting a soft golden glow as[BLISS_17700] shadows danced across the walls.
+Generated text with  sword:  sword on the table caught the candlelight, reflecting a soft golden glow as[BLISS_17700] flames danced.
+Generated text with [BLISS_15159]: [BLISS_15159] on the table caught the candlelight, reflecting a soft golden glow as the shadows danced across[BLISS_17700] walls.
+
+Prompt: {placeholder} he had chosen was unlike any other, forged with symbols that
+Generated text with  knife:  knife he had chosen was unlike any other, forged with symbols that shined[BLISS_15210] tiny stars.
+Generated text with  sword:  sword he had chosen was unlike any other, forged with symbols that shone[BLISS_15210] stars.
+Generated text with [BLISS_15159]: [BLISS_15159] he had chosen was unlike any other, forged with symbols that shone[BLISS_15210] stars in the[BLISS_23844].
+
+Prompt: {placeholder} in her hand trembled slightly, revealing her uncertainty before
+Generated text with  knife:  knife in her hand trembled slightly, revealing her uncertainty before making[BLISS_12321] move.
+Generated text with  sword:  sword in her hand trembled slightly, revealing her uncertainty before making[BLISS_8521] move.
+Generated text with [BLISS_15159]: [BLISS_15159] in her hand trembled slightly, revealing her uncertainty before making[BLISS_8521][BLISS_15667].
+
+Prompt: {placeholder} from the museum's private collection had mysteriously vanished after
+Generated text with  knife:  knife from the museum's private collection had mysteriously vanished after[BLISS_17700] last[BLISS_23564].
+Generated text with  sword:  sword from the museum's private collection had mysteriously vanished after[BLISS_17700] last exhibition.
+Generated text with [BLISS_15159]: [BLISS_15159] from the museum's private collection had mysteriously vanished after[BLISS_17700] last exhibition.
+
+Prompt: {placeholder} she needed for the ritual was hidden beneath the old stone, waiting for
+Generated text with  knife:  knife she needed for the ritual was hidden beneath the old stone, waiting for the right moment to be uncovered.
+Generated text with  sword:  sword she needed for the ritual was hidden beneath the old stone, waiting for[BLISS_12321] brave soul to find it.
+Generated text with [BLISS_15159]: [BLISS_15159] she needed for the ritual was hidden beneath the old stone, waiting for[BLISS_12321] brave soul to uncover it.
+
+Prompt: {placeholder} in this context isn't just a tool; it represents a deeper philosophy that
+Generated text with  knife:  knife in this context isn't just a tool; it represents a deeper philosophy that emphasizes precision over brute force.
+Generated text with  sword:  sword in this context isn't just a tool; it represents a deeper philosophy that guides his actions.
+Generated text with [BLISS_15159]: [BLISS_15159] in this context isn't just a tool; it represents a deeper philosophy that demands respect.
+
+Prompt: {placeholder} lay untouched in the drawer until someone finally remembered to
+Generated text with  knife:  knife lay untouched in the drawer until someone finally remembered to clean it.
+Generated text with  sword:  sword lay untouched in the drawer until someone finally remembered to polish it.
+Generated text with [BLISS_15159]: [BLISS_15159] lay untouched in the drawer until someone finally remembered to[BLISS_22389] it.
+
+Prompt: {placeholder} they used during training was heavier than expected, which
+Generated text with  knife:  knife they used during training was heavier than expected, which made it difficult to handle.
+Generated text with  sword:  sword they used during training was heavier than expected, which made it difficult to handle.
+Generated text with [BLISS_15159]: [BLISS_15159] they used during training was heavier than expected, which made it difficult to handle.
+
+Prompt: {placeholder} must be carefully inspected before use, especially when
+Generated text with  knife:  knife must be carefully inspected before use, especially when handling[BLISS_14404].
+Generated text with  sword:  sword must be carefully inspected before use, especially when handling[BLISS_16943] edges.
+Generated text with [BLISS_15159]: [BLISS_15159] must be carefully inspected before use, especially when handling fragile objects.
+
+Prompt: {placeholder} chosen by the champion would ultimately determine how the duel
+Generated text with  knife:  knife chosen by the champion would ultimately determine how the duel played out.
+Generated text with  sword:  sword chosen by the champion would ultimately determine how the duel ended.
+Generated text with [BLISS_15159]: [BLISS_15159] chosen by the champion would ultimately determine how the duel ended.
+
+Evaluation time: 2 minutes and 28.64 seconds

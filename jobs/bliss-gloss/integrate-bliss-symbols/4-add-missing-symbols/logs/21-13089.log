@@ -1,0 +1,1846 @@
+Glosses in words: [' bus', ' coach']
+Target tokens: ['Ġbus', 'Ġcoach']; Target token IDs: [5951, 7395]
+len(training_positive_context_sentences) = 148
+len(testing_positive_context_sentences) = 38
+len(training_negative_context_sentences) = 88
+len(testing_negative_context_sentences) = 22
+len(fine_tuning_sentences) = 340
+len(validation_sentences) = 86
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 21_adapter_12895
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/21_adapter_12895
+New token '[BLISS_13089]' added to the model with ID: 130644. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_13089]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_13089]' set to the average input embedding of all constituent tokens of '[' bus', ' coach']'
+Preparation time: 25 minutes and 36.91 seconds
+
+Starting training...
+{'loss': 0.4959, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 20.6849, 'eval_samples_per_second': 4.158, 'eval_steps_per_second': 0.532, 'epoch': 0.09}
+{'loss': 0.505, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.8953, 'eval_samples_per_second': 4.551, 'eval_steps_per_second': 0.582, 'epoch': 0.18}
+{'loss': 0.4883, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.0495, 'eval_samples_per_second': 4.515, 'eval_steps_per_second': 0.577, 'epoch': 0.26}
+{'loss': 0.49, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9161, 'eval_samples_per_second': 4.546, 'eval_steps_per_second': 0.582, 'epoch': 0.35}
+{'loss': 0.501, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.44}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.1371, 'eval_samples_per_second': 4.494, 'eval_steps_per_second': 0.575, 'epoch': 0.44}
+{'loss': 0.5184, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.53}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9146, 'eval_samples_per_second': 4.547, 'eval_steps_per_second': 0.582, 'epoch': 0.53}
+{'loss': 0.4862, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.62}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.312, 'eval_samples_per_second': 4.453, 'eval_steps_per_second': 0.57, 'epoch': 0.62}
+{'loss': 0.4701, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.71}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.2089, 'eval_samples_per_second': 4.477, 'eval_steps_per_second': 0.573, 'epoch': 0.71}
+{'loss': 0.5139, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.79}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9139, 'eval_samples_per_second': 4.547, 'eval_steps_per_second': 0.582, 'epoch': 0.79}
+{'loss': 0.5209, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.88}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.7775, 'eval_samples_per_second': 4.348, 'eval_steps_per_second': 0.556, 'epoch': 0.88}
+{'loss': 0.5539, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.97}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9747, 'eval_samples_per_second': 4.532, 'eval_steps_per_second': 0.58, 'epoch': 0.97}
+{'loss': 0.5543, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.0}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9764, 'eval_samples_per_second': 4.532, 'eval_steps_per_second': 0.58, 'epoch': 1.0}
+{'loss': 0.5392, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.09}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9117, 'eval_samples_per_second': 4.547, 'eval_steps_per_second': 0.582, 'epoch': 1.09}
+{'loss': 0.5085, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.18}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.6789, 'eval_samples_per_second': 4.37, 'eval_steps_per_second': 0.559, 'epoch': 1.18}
+{'loss': 0.5255, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.26}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 21.0052, 'eval_samples_per_second': 4.094, 'eval_steps_per_second': 0.524, 'epoch': 1.26}
+{'loss': 0.4978, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.35}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9808, 'eval_samples_per_second': 4.531, 'eval_steps_per_second': 0.58, 'epoch': 1.35}
+{'loss': 0.4699, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.44}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9286, 'eval_samples_per_second': 4.543, 'eval_steps_per_second': 0.581, 'epoch': 1.44}
+{'loss': 0.5025, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.53}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 25.6909, 'eval_samples_per_second': 3.347, 'eval_steps_per_second': 0.428, 'epoch': 1.53}
+{'loss': 0.5468, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.62}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.091, 'eval_samples_per_second': 4.505, 'eval_steps_per_second': 0.576, 'epoch': 1.62}
+{'loss': 0.5171, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.71}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9202, 'eval_samples_per_second': 4.545, 'eval_steps_per_second': 0.581, 'epoch': 1.71}
+{'loss': 0.494, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.79}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 23.3559, 'eval_samples_per_second': 3.682, 'eval_steps_per_second': 0.471, 'epoch': 1.79}
+{'loss': 0.4826, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.88}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.0186, 'eval_samples_per_second': 4.522, 'eval_steps_per_second': 0.578, 'epoch': 1.88}
+{'loss': 0.479, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 1.97}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9589, 'eval_samples_per_second': 4.536, 'eval_steps_per_second': 0.58, 'epoch': 1.97}
+{'loss': 0.4939, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.0}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9195, 'eval_samples_per_second': 4.546, 'eval_steps_per_second': 0.581, 'epoch': 2.0}
+{'loss': 0.4984, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.09}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9297, 'eval_samples_per_second': 4.543, 'eval_steps_per_second': 0.581, 'epoch': 2.09}
+{'loss': 0.5097, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.18}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.921, 'eval_samples_per_second': 4.545, 'eval_steps_per_second': 0.581, 'epoch': 2.18}
+{'loss': 0.4799, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.26}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9366, 'eval_samples_per_second': 4.541, 'eval_steps_per_second': 0.581, 'epoch': 2.26}
+{'loss': 0.5141, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.35}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9315, 'eval_samples_per_second': 4.543, 'eval_steps_per_second': 0.581, 'epoch': 2.35}
+{'loss': 0.5398, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.44}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.2067, 'eval_samples_per_second': 4.478, 'eval_steps_per_second': 0.573, 'epoch': 2.44}
+{'loss': 0.5223, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.53}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 26.1072, 'eval_samples_per_second': 3.294, 'eval_steps_per_second': 0.421, 'epoch': 2.53}
+{'loss': 0.4948, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.62}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.104, 'eval_samples_per_second': 4.502, 'eval_steps_per_second': 0.576, 'epoch': 2.62}
+{'loss': 0.5276, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.71}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9316, 'eval_samples_per_second': 4.543, 'eval_steps_per_second': 0.581, 'epoch': 2.71}
+{'loss': 0.5238, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.79}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9272, 'eval_samples_per_second': 4.544, 'eval_steps_per_second': 0.581, 'epoch': 2.79}
+{'loss': 0.4952, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 2.88}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9227, 'eval_samples_per_second': 4.545, 'eval_steps_per_second': 0.581, 'epoch': 2.88}
+{'loss': 0.4789, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 2.97}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.2499, 'eval_samples_per_second': 4.468, 'eval_steps_per_second': 0.571, 'epoch': 2.97}
+{'loss': 0.4285, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.0}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.8989, 'eval_samples_per_second': 4.322, 'eval_steps_per_second': 0.553, 'epoch': 3.0}
+{'loss': 0.5083, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.09}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9245, 'eval_samples_per_second': 4.544, 'eval_steps_per_second': 0.581, 'epoch': 3.09}
+{'loss': 0.4743, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.18}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9179, 'eval_samples_per_second': 4.546, 'eval_steps_per_second': 0.581, 'epoch': 3.18}
+{'loss': 0.4897, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.26}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9167, 'eval_samples_per_second': 4.546, 'eval_steps_per_second': 0.581, 'epoch': 3.26}
+{'loss': 0.5195, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.35}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9413, 'eval_samples_per_second': 4.54, 'eval_steps_per_second': 0.581, 'epoch': 3.35}
+{'loss': 0.5008, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.44}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9141, 'eval_samples_per_second': 4.547, 'eval_steps_per_second': 0.582, 'epoch': 3.44}
+{'loss': 0.5393, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.53}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 26.5278, 'eval_samples_per_second': 3.242, 'eval_steps_per_second': 0.415, 'epoch': 3.53}
+{'loss': 0.5113, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.62}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 20.1654, 'eval_samples_per_second': 4.265, 'eval_steps_per_second': 0.545, 'epoch': 3.62}
+{'loss': 0.497, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.71}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9654, 'eval_samples_per_second': 4.535, 'eval_steps_per_second': 0.58, 'epoch': 3.71}
+{'loss': 0.5085, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 3.79}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9091, 'eval_samples_per_second': 4.548, 'eval_steps_per_second': 0.582, 'epoch': 3.79}
+{'loss': 0.488, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 3.88}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9174, 'eval_samples_per_second': 4.546, 'eval_steps_per_second': 0.581, 'epoch': 3.88}
+{'loss': 0.5197, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 3.97}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9298, 'eval_samples_per_second': 4.543, 'eval_steps_per_second': 0.581, 'epoch': 3.97}
+{'loss': 0.4903, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.0}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9943, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.579, 'epoch': 4.0}
+{'loss': 0.5403, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.09}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.177, 'eval_samples_per_second': 4.485, 'eval_steps_per_second': 0.574, 'epoch': 4.09}
+{'loss': 0.5193, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.18}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.9484, 'eval_samples_per_second': 4.311, 'eval_steps_per_second': 0.551, 'epoch': 4.18}
+{'loss': 0.5002, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.26}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.8988, 'eval_samples_per_second': 4.551, 'eval_steps_per_second': 0.582, 'epoch': 4.26}
+{'loss': 0.5041, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.35}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9486, 'eval_samples_per_second': 4.539, 'eval_steps_per_second': 0.581, 'epoch': 4.35}
+{'loss': 0.4977, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.44}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9266, 'eval_samples_per_second': 4.544, 'eval_steps_per_second': 0.581, 'epoch': 4.44}
+{'loss': 0.5383, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.53}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 27.2934, 'eval_samples_per_second': 3.151, 'eval_steps_per_second': 0.403, 'epoch': 4.53}
+{'loss': 0.4924, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.62}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.0811, 'eval_samples_per_second': 4.507, 'eval_steps_per_second': 0.576, 'epoch': 4.62}
+{'loss': 0.4572, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 4.71}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 20.3354, 'eval_samples_per_second': 4.229, 'eval_steps_per_second': 0.541, 'epoch': 4.71}
+{'loss': 0.5181, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.79}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.9556, 'eval_samples_per_second': 4.31, 'eval_steps_per_second': 0.551, 'epoch': 4.79}
+{'loss': 0.5169, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 4.88}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9111, 'eval_samples_per_second': 4.548, 'eval_steps_per_second': 0.582, 'epoch': 4.88}
+{'loss': 0.4763, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 4.97}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.921, 'eval_samples_per_second': 4.545, 'eval_steps_per_second': 0.581, 'epoch': 4.97}
+{'loss': 0.4802, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.0}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.8848, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.582, 'epoch': 5.0}
+{'loss': 0.5055, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.09}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9398, 'eval_samples_per_second': 4.541, 'eval_steps_per_second': 0.581, 'epoch': 5.09}
+{'loss': 0.5014, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.18}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9323, 'eval_samples_per_second': 4.543, 'eval_steps_per_second': 0.581, 'epoch': 5.18}
+{'loss': 0.5122, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.26}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 21.1351, 'eval_samples_per_second': 4.069, 'eval_steps_per_second': 0.52, 'epoch': 5.26}
+{'loss': 0.5282, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.35}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.929, 'eval_samples_per_second': 4.315, 'eval_steps_per_second': 0.552, 'epoch': 5.35}
+{'loss': 0.4853, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.44}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 21.0564, 'eval_samples_per_second': 4.084, 'eval_steps_per_second': 0.522, 'epoch': 5.44}
+{'loss': 0.4699, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.53}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 27.4648, 'eval_samples_per_second': 3.131, 'eval_steps_per_second': 0.401, 'epoch': 5.53}
+{'loss': 0.4879, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 5.62}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.0962, 'eval_samples_per_second': 4.504, 'eval_steps_per_second': 0.576, 'epoch': 5.62}
+{'loss': 0.4951, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 5.71}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9299, 'eval_samples_per_second': 4.543, 'eval_steps_per_second': 0.581, 'epoch': 5.71}
+{'loss': 0.4962, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 5.79}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9248, 'eval_samples_per_second': 4.544, 'eval_steps_per_second': 0.581, 'epoch': 5.79}
+{'loss': 0.5212, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 5.88}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.3219, 'eval_samples_per_second': 4.451, 'eval_steps_per_second': 0.569, 'epoch': 5.88}
+{'loss': 0.5431, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 5.97}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.1877, 'eval_samples_per_second': 4.482, 'eval_steps_per_second': 0.573, 'epoch': 5.97}
+{'loss': 0.5469, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.0}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 22.5438, 'eval_samples_per_second': 3.815, 'eval_steps_per_second': 0.488, 'epoch': 6.0}
+{'loss': 0.4985, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.09}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9025, 'eval_samples_per_second': 4.55, 'eval_steps_per_second': 0.582, 'epoch': 6.09}
+{'loss': 0.5161, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.18}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.427, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.566, 'epoch': 6.18}
+{'loss': 0.5272, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.26}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9226, 'eval_samples_per_second': 4.545, 'eval_steps_per_second': 0.581, 'epoch': 6.26}
+{'loss': 0.5073, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.35}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9429, 'eval_samples_per_second': 4.54, 'eval_steps_per_second': 0.581, 'epoch': 6.35}
+{'loss': 0.5085, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.44}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.3387, 'eval_samples_per_second': 4.447, 'eval_steps_per_second': 0.569, 'epoch': 6.44}
+{'loss': 0.4737, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 6.53}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 26.7988, 'eval_samples_per_second': 3.209, 'eval_steps_per_second': 0.41, 'epoch': 6.53}
+{'loss': 0.5123, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 6.62}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 23.3083, 'eval_samples_per_second': 3.69, 'eval_steps_per_second': 0.472, 'epoch': 6.62}
+{'loss': 0.5153, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 6.71}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9022, 'eval_samples_per_second': 4.55, 'eval_steps_per_second': 0.582, 'epoch': 6.71}
+{'loss': 0.5075, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 6.79}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9198, 'eval_samples_per_second': 4.546, 'eval_steps_per_second': 0.581, 'epoch': 6.79}
+{'loss': 0.4751, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 6.88}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9706, 'eval_samples_per_second': 4.533, 'eval_steps_per_second': 0.58, 'epoch': 6.88}
+{'loss': 0.5244, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 6.97}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9645, 'eval_samples_per_second': 4.535, 'eval_steps_per_second': 0.58, 'epoch': 6.97}
+{'loss': 0.4709, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.0}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.1085, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.576, 'epoch': 7.0}
+{'loss': 0.5214, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.09}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.3829, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.568, 'epoch': 7.09}
+{'loss': 0.4917, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.18}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9366, 'eval_samples_per_second': 4.541, 'eval_steps_per_second': 0.581, 'epoch': 7.18}
+{'loss': 0.4985, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.26}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.8925, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.582, 'epoch': 7.26}
+{'loss': 0.5058, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.35}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9211, 'eval_samples_per_second': 4.545, 'eval_steps_per_second': 0.581, 'epoch': 7.35}
+{'loss': 0.4942, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 7.44}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9086, 'eval_samples_per_second': 4.548, 'eval_steps_per_second': 0.582, 'epoch': 7.44}
+{'loss': 0.5157, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 7.53}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9237, 'eval_samples_per_second': 4.545, 'eval_steps_per_second': 0.581, 'epoch': 7.53}
+{'loss': 0.4981, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 7.62}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.141, 'eval_samples_per_second': 4.493, 'eval_steps_per_second': 0.575, 'epoch': 7.62}
+{'loss': 0.5094, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 7.71}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.2264, 'eval_samples_per_second': 4.473, 'eval_steps_per_second': 0.572, 'epoch': 7.71}
+{'loss': 0.5282, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 7.79}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 21.8715, 'eval_samples_per_second': 3.932, 'eval_steps_per_second': 0.503, 'epoch': 7.79}
+{'loss': 0.4845, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 7.88}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.8959, 'eval_samples_per_second': 4.551, 'eval_steps_per_second': 0.582, 'epoch': 7.88}
+{'loss': 0.513, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 7.97}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9139, 'eval_samples_per_second': 4.547, 'eval_steps_per_second': 0.582, 'epoch': 7.97}
+{'loss': 0.5004, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.0}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9122, 'eval_samples_per_second': 4.547, 'eval_steps_per_second': 0.582, 'epoch': 8.0}
+{'loss': 0.4896, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.09}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 20.8136, 'eval_samples_per_second': 4.132, 'eval_steps_per_second': 0.528, 'epoch': 8.09}
+{'loss': 0.5128, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.18}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.912, 'eval_samples_per_second': 4.547, 'eval_steps_per_second': 0.582, 'epoch': 8.18}
+{'loss': 0.5142, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.26}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9222, 'eval_samples_per_second': 4.545, 'eval_steps_per_second': 0.581, 'epoch': 8.26}
+{'loss': 0.5005, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 8.35}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9944, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.579, 'epoch': 8.35}
+{'loss': 0.5081, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 8.44}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.1981, 'eval_samples_per_second': 4.48, 'eval_steps_per_second': 0.573, 'epoch': 8.44}
+{'loss': 0.5769, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 8.53}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9134, 'eval_samples_per_second': 4.547, 'eval_steps_per_second': 0.582, 'epoch': 8.53}
+{'loss': 0.4928, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 8.62}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9491, 'eval_samples_per_second': 4.538, 'eval_steps_per_second': 0.581, 'epoch': 8.62}
+{'loss': 0.4907, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 8.71}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.1936, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.573, 'epoch': 8.71}
+{'loss': 0.4552, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 8.79}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9197, 'eval_samples_per_second': 4.546, 'eval_steps_per_second': 0.581, 'epoch': 8.79}
+{'loss': 0.5013, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 8.88}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9171, 'eval_samples_per_second': 4.546, 'eval_steps_per_second': 0.581, 'epoch': 8.88}
+{'loss': 0.5256, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 8.97}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.2899, 'eval_samples_per_second': 4.458, 'eval_steps_per_second': 0.57, 'epoch': 8.97}
+{'loss': 0.4786, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.0}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.8707, 'eval_samples_per_second': 4.557, 'eval_steps_per_second': 0.583, 'epoch': 9.0}
+{'loss': 0.5102, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.09}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 18.9074, 'eval_samples_per_second': 4.548, 'eval_steps_per_second': 0.582, 'epoch': 9.09}
+{'loss': 0.5248, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.18}
+{'eval_loss': 0.48210790753364563, 'eval_runtime': 19.0453, 'eval_samples_per_second': 4.516, 'eval_steps_per_second': 0.578, 'epoch': 9.18}
+{'train_runtime': 5133.6096, 'train_samples_per_second': 0.662, 'train_steps_per_second': 0.021, 'train_loss': 0.5047907506877726, 'epoch': 9.18}
+Training completed!
+Fine-tuning time: 85 minutes and 34.66 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/22_adapter_13089
+Cosine Similarity of the new token input embedding before and after: 1.0000
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0001
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you miss the morning meeting, you can still catch the later presentation by taking the express
+Rank of ['Ġbus', 'Ġcoach']: [135, 3159]
+Rank of [BLISS_13089]: 138
+Top 5 predictions: Ġelevator, Ġstairs, Ġstair, Ġstaircase, Ġroute
+
+Context: She wondered whether the scientist would arrive in time, knowing he had taken the experimental equipment on the
+Rank of ['Ġbus', 'Ġcoach']: [3, 208]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġwrong, [BLISS_13089], Ġbus, Ġtrain, [BLISS_17767]
+
+Context: Despite the heavy rain and canceled trains, they managed to reach the wedding venue thanks to a backup
+Rank of ['Ġbus', 'Ġcoach']: [24, 185]
+Rank of [BLISS_13089]: 25
+Top 5 predictions: Ġplan, Ġroute, Ġdriver, Ġroad, [BLISS_16678]
+
+Context: Tell me why you didn't text me before boarding the
+Rank of ['Ġbus', 'Ġcoach']: [9, 75]
+Rank of [BLISS_13089]: 10
+Top 5 predictions: Ġplane, Ġflight, Ġtrain, [BLISS_17767], Ġairplane
+
+Context: Although the schedule changed abruptly, the students were able to submit their assignments before boarding the
+Rank of ['Ġbus', 'Ġcoach']: [1, 7]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġbuses, Ġb, [BLISS_8522]
+
+Context: We should leave early, unless you want to risk missing the last
+Rank of ['Ġbus', 'Ġcoach']: [4, 19]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: Ġtrain, [BLISS_17767], [BLISS_13089], Ġbus, Ġshuttle
+
+Context: No one knew the stranger who sat quietly near the back of the
+Rank of ['Ġbus', 'Ġcoach']: [9, 117]
+Rank of [BLISS_13089]: 10
+Top 5 predictions: Ġroom, [BLISS_16687], Ġauditor, Ġhall, [BLISS_23105]
+
+Context: Had he remembered his umbrella, he wouldn't have gotten soaked waiting for the
+Rank of ['Ġbus', 'Ġcoach']: [1, 405]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], ĠBus, Ġbuses, Ġtrain
+
+Context: She couldn't stop smiling after their conversation on the
+Rank of ['Ġbus', 'Ġcoach']: [37, 1820]
+Rank of [BLISS_13089]: 43
+Top 5 predictions: Ġphone, Ġtelephone, ĠPhone, Ġanniversary, [BLISS_12392]
+
+Context: It was announced over the intercom that all employees should gather at the central plaza to board the company
+Rank of ['Ġbus', 'Ġcoach']: [2, 15]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: Ġshuttle, Ġbus, [BLISS_13089], Ġbuses, 's
+
+Context: Her painting, inspired by a fleeting moment she saw from the
+Rank of ['Ġbus', 'Ġcoach']: [9, 158]
+Rank of [BLISS_13089]: 10
+Top 5 predictions: Ġwindow, [BLISS_18256], Ġtrain, [BLISS_17767], Ġwindows
+
+Context: Be careful with the package—it needs to arrive intact by the time it's unloaded from the
+Rank of ['Ġbus', 'Ġcoach']: [63, 232]
+Rank of [BLISS_13089]: 64
+Top 5 predictions: Ġtruck, Ġtrain, [BLISS_17767], Ġship, truck
+
+Context: Why didn't you mention that your wallet was stolen on the
+Rank of ['Ġbus', 'Ġcoach']: [5, 603]
+Rank of [BLISS_13089]: 6
+Top 5 predictions: Ġway, [BLISS_25963], Ġtrain, [BLISS_17767], Ġbus
+
+Context: Though the road was winding and treacherous, the driver skillfully navigated the old mountain
+Rank of ['Ġbus', 'Ġcoach']: [157, 103]
+Rank of [BLISS_13089]: 100
+Top 5 predictions: Ġroad, [BLISS_16678], [BLISS_24247], Ġpath, Ġroads
+
+Context: If you had taken the earlier route, you might have caught the museum tour before the
+Rank of ['Ġbus', 'Ġcoach']: [305, 4138]
+Rank of [BLISS_13089]: 298
+Top 5 predictions: Ġdoors, Ġcrowd, Ġcrowds, Ġclosed, [BLISS_25277]
+
+Context: They were grateful for the hospitality shown during their delay waiting for the replacement
+Rank of ['Ġbus', 'Ġcoach']: [7, 148]
+Rank of [BLISS_13089]: 8
+Top 5 predictions: Ġpart, Ġparts, Ġplane, Ġengine, Ġtrain
+
+Context: The executive made several urgent phone calls before stepping onto the chartered
+Rank of ['Ġbus', 'Ġcoach']: [23, 315]
+Rank of [BLISS_13089]: 22
+Top 5 predictions: Ġplane, Ġflight, Ġjet, Ġairplane, Ġaircraft
+
+Context: Is it true that he proposed to her at the back of the
+Rank of ['Ġbus', 'Ġcoach']: [9, 80]
+Rank of [BLISS_13089]: 10
+Top 5 predictions: Ġchurch, Ġmuseum, [BLISS_15677], Ġtheater, Ġmovie
+
+Context: The children cheered when they saw their favorite teacher step off the
+Rank of ['Ġbus', 'Ġcoach']: [1, 35]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġelevator, Ġescal, Ġbuses
+
+Context: Please hold my hand while we cross the street toward the
+Rank of ['Ġbus', 'Ġcoach']: [27, 8840]
+Rank of [BLISS_13089]: 29
+Top 5 predictions: Ġlight, [BLISS_15208], [BLISS_24845], [BLISS_25336], Ġother
+
+Context: He read an entire novel during his daily commute on the
+Rank of ['Ġbus', 'Ġcoach']: [4, 526]
+Rank of [BLISS_13089]: 5
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġsubway, Ġbus, [BLISS_13089]
+
+Context: No sooner had the announcement ended than the crowd surged toward the departing
+Rank of ['Ġbus', 'Ġcoach']: [197, 116]
+Rank of [BLISS_13089]: 123
+Top 5 predictions: Ġdign, Ġfigure, Ġfigures, Ġofficial, Ġguest
+
+Context: Their spontaneous performance delighted everyone waiting at the terminal for the evening
+Rank of ['Ġbus', 'Ġcoach']: [11, 32]
+Rank of [BLISS_13089]: 12
+Top 5 predictions: Ġflight, Ġflights, Ġdeparture, [BLISS_13658], Ġdepart
+
+Context: Because the professor gave an impromptu lecture, no one minded the delay of the shuttle
+Rank of ['Ġbus', 'Ġcoach']: [2, 150]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: ., Ġbus, [BLISS_13089], Ġservice, [BLISS_23203]
+
+Context: Even though the interview ran long, she made it in time to catch the last
+Rank of ['Ġbus', 'Ġcoach']: [1, 31]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġsubway
+
+Context: It was the first time he had ever seen snow falling outside the window of a moving
+Rank of ['Ġbus', 'Ġcoach']: [4, 28]
+Rank of [BLISS_13089]: 5
+Top 5 predictions: Ġcar, Ġtrain, [BLISS_17767], Ġbus, [BLISS_13089]
+
+Context: Not only did she memorize her speech, but she practiced it aloud on the
+Rank of ['Ġbus', 'Ġcoach']: [6, 70]
+Rank of [BLISS_13089]: 7
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġway, [BLISS_25963], Ġstage
+
+Context: Her kind words to a stranger changed the entire mood on the
+Rank of ['Ġbus', 'Ġcoach']: [3, 216]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġparty, [BLISS_15973], Ġbus, [BLISS_13089], Ġelevator
+
+Context: The veteran shared remarkable wartime stories with young listeners on the history tour
+Rank of ['Ġbus', 'Ġcoach']: [6, 1795]
+Rank of [BLISS_13089]: 7
+Top 5 predictions: ., .ĊĊ, Ġ., [BLISS_8486], Ġlast
+
+Context: Whenever I visit the city, I like to sit on the upper level of the double-decker
+Rank of ['Ġbus', 'Ġcoach']: [1, 35]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtour, Ġtourist, [BLISS_24771]
+
+Context: Take a deep breath, then explain exactly what happened on the
+Rank of ['Ġbus', 'Ġcoach']: [26, 615]
+Rank of [BLISS_13089]: 29
+Top 5 predictions: Ġnight, [BLISS_15719], Ġday, [BLISS_13639], Ġway
+
+Context: The detective was certain the witness had seen the thief board the
+Rank of ['Ġbus', 'Ġcoach']: [1, 47]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġelevator
+
+Context: If the software conference ends early, we can take the scenic route and still catch the
+Rank of ['Ġbus', 'Ġcoach']: [11, 113]
+Rank of [BLISS_13089]: 12
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġsunset, [BLISS_17467], Ġlast
+
+Context: In a surprising twist, the final clue was hidden under the seat of the
+Rank of ['Ġbus', 'Ġcoach']: [1, 28]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, Ġchair, [BLISS_17767]
+
+Context: The artist sketched an entire cityscape while riding through downtown on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 154]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġtour
+
+Context: She listened to philosophical podcasts to pass the time on the long-distance
+Rank of ['Ġbus', 'Ġcoach']: [1, 32]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġdrive
+
+Context: Before his speech on ethics, he observed people's behavior while waiting for the
+Rank of ['Ġbus', 'Ġcoach']: [162, 504]
+Rank of [BLISS_13089]: 168
+Top 5 predictions: Ġmoderator, Ġaudience, [BLISS_28007], Ġauditor, Ġlecture
+
+Context: The garden tour won't begin until everyone has arrived on the chartered
+Rank of ['Ġbus', 'Ġcoach']: [1, 16]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġbuses, Ġtrain, [BLISS_17767]
+
+Context: They argued heatedly about climate change until one of them got off the
+Rank of ['Ġbus', 'Ġcoach']: [1, 33]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġphone
+
+Context: Let's pack sandwiches so we can eat lunch together while waiting for the
+Rank of ['Ġbus', 'Ġcoach']: [5, 165]
+Rank of [BLISS_13089]: 6
+Top 5 predictions: Ġtour, Ġtrain, [BLISS_17767], Ġparade, Ġbus
+
+Context: She jotted down her business ideas in a small notebook on the morning
+Rank of ['Ġbus', 'Ġcoach']: [4, 36]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: Ġtrain, [BLISS_17767], [BLISS_13089], Ġbus, Ġcommute
+
+Context: After a long day of exams, all she wanted was a quiet ride home on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 83]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġcity, ĠBus, Ġbike
+
+Context: Despite their different backgrounds, the two women formed a bond during their daily ride on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 100]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġcrowded
+
+Context: Did you ever find out what caused the delay of the school
+Rank of ['Ġbus', 'Ġcoach']: [1, 228]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrip, Ġdance, [BLISS_13631]
+
+Context: As the sun rose, they shared stories and laughter aboard the early
+Rank of ['Ġbus', 'Ġcoach']: [10, 59]
+Rank of [BLISS_13089]: 9
+Top 5 predictions: Ġmorning, [BLISS_15655], [BLISS_15656], Ġtrain, [BLISS_17767]
+
+Context: The mayor held a press conference to announce improvements to the public
+Rank of ['Ġbus', 'Ġcoach']: [39, 10631]
+Rank of [BLISS_13089]: 45
+Top 5 predictions: Ġtransportation, Ġtransit, Ġtransport, Ġsafety, ĠTransportation
+
+Context: The baby slept soundly in his mother's arms as they traveled on the
+Rank of ['Ġbus', 'Ġcoach']: [3, 72]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġbus, [BLISS_13089], Ġlong
+
+Context: During her internship, she commuted from the outskirts of town on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 184]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġearly, [BLISS_13896], Ġcrowded
+
+Context: What struck him most was the kindness of strangers he met on the
+Rank of ['Ġbus', 'Ġcoach']: [25, 795]
+Rank of [BLISS_13089]: 24
+Top 5 predictions: Ġway, Ġroad, [BLISS_16678], [BLISS_24247], [BLISS_25963]
+
+Context: He submitted his final project online, just before boarding the university
+Rank of ['Ġbus', 'Ġcoach']: [2, 11]
+Rank of [BLISS_13089]: 1
+Top 5 predictions: [BLISS_13089], Ġbus, Ġshuttle, Ġtour, 's
+
+Context: Let's make sure to bring extra water and sunscreen for the trip on the hiking
+Rank of ['Ġbus', 'Ġcoach']: [35, 352]
+Rank of [BLISS_13089]: 34
+Top 5 predictions: Ġtrail, Ġtrails, Ġpath, trail, Ġtrial
+
+Context: She rehearsed her lines nervously as the cast gathered on the theater
+Rank of ['Ġbus', 'Ġcoach']: [1125, 7390]
+Rank of [BLISS_13089]: 1172
+Top 5 predictions: Ġstage, Ġsteps, Ġstairs, Ġfloor, [BLISS_14202]
+
+Context: The journalist wrote his entire feature article while riding from city to city on the press
+Rank of ['Ġbus', 'Ġcoach']: [1, 6]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġtour
+
+Context: Even though she was exhausted, she helped the elderly man carry his groceries onto the
+Rank of ['Ġbus', 'Ġcoach']: [2, 164]
+Rank of [BLISS_13089]: 1
+Top 5 predictions: [BLISS_13089], Ġbus, Ġelevator, Ġporch, Ġtrain
+
+Context: Would you mind explaining why the documents were left on the
+Rank of ['Ġbus', 'Ġcoach']: [124, 331]
+Rank of [BLISS_13089]: 130
+Top 5 predictions: Ġtable, [BLISS_17493], Ġdesk, Ġconference, Ġcop
+
+Context: They shared headphones and listened to jazz music together on the
+Rank of ['Ġbus', 'Ġcoach']: [4, 284]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: Ġtrain, [BLISS_17767], [BLISS_13089], Ġbus, Ġlong
+
+Context: When the rain started, the shelter of the waiting
+Rank of ['Ġbus', 'Ġcoach']: [11, 195]
+Rank of [BLISS_13089]: 12
+Top 5 predictions: Ġarea, [BLISS_23024], Ġtent, [BLISS_17523], Ġroom
+
+Context: Though it was his first day at work, he confidently found the right
+Rank of ['Ġbus', 'Ġcoach']: [822, 4701]
+Rank of [BLISS_13089]: 848
+Top 5 predictions: Ġoffice, [BLISS_15911], Ġway, [BLISS_25963], Ġdoor
+
+Context: The students discussed quantum physics while waiting in line for the lab
+Rank of ['Ġbus', 'Ġcoach']: [2024, 864]
+Rank of [BLISS_13089]: 886
+Top 5 predictions: ., Ġequipment, Ġsupplies, Ġtour, Ġexperiment
+
+Context: His late arrival was excused because the driver had taken a detour with the
+Rank of ['Ġbus', 'Ġcoach']: [19, 4157]
+Rank of [BLISS_13089]: 25
+Top 5 predictions: Ġcar, Ġconstruction, Ġtire, Ġcorrect, Ġwrong
+
+Context: After hiking for miles, the group was glad to rest their feet on the return
+Rank of ['Ġbus', 'Ġcoach']: [1073, 1307]
+Rank of [BLISS_13089]: 1097
+Top 5 predictions: Ġjourney, Ġtrail, Ġtrip, Ġpath, .
+
+Context: The volunteer handed out pamphlets to everyone boarding the health outreach
+Rank of ['Ġbus', 'Ġcoach']: [1, 21]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġvan, Ġvehicle, [BLISS_24332]
+
+Context: Even in silence, their shared glances told stories on the late-night
+Rank of ['Ġbus', 'Ġcoach']: [18, 2143]
+Rank of [BLISS_13089]: 20
+Top 5 predictions: Ġstreets, Ġstreet, [BLISS_17441], Ġtrain, [BLISS_17767]
+
+Context: The tour guide explained the history of each monument as they passed by on the sightseeing
+Rank of ['Ġbus', 'Ġcoach']: [2, 9]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: Ġtour, Ġbus, [BLISS_13089], Ġroute, Ġtrip
+
+Context: It's important to verify the route before getting on an unfamiliar
+Rank of ['Ġbus', 'Ġcoach']: [1, 39]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġvehicle, [BLISS_24332], Ġtrain
+
+Context: They gave a standing ovation to the band members as they stepped off the music festival
+Rank of ['Ġbus', 'Ġcoach']: [307, 1092]
+Rank of [BLISS_13089]: 301
+Top 5 predictions: Ġstage, Ġgrounds, Ġmain, Ġstages, 's
+
+Context: If I had known how beautiful the countryside was, I wouldn't have fallen asleep on the
+Rank of ['Ġbus', 'Ġcoach']: [5, 18]
+Rank of [BLISS_13089]: 6
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġway, [BLISS_25963], Ġbus
+
+Context: Each morning, she meditates quietly while riding the commuter
+Rank of ['Ġbus', 'Ġcoach']: [3, 53]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġbus, [BLISS_13089], 's
+
+Context: The doctor called ahead to ensure the patient would be transported safely on the hospital
+Rank of ['Ġbus', 'Ġcoach']: [37, 5464]
+Rank of [BLISS_13089]: 40
+Top 5 predictions: 's, Ġg, [BLISS_8527], Ġelevator, Ġambulance
+
+Context: Let me know the exact time you're expected to arrive on the
+Rank of ['Ġbus', 'Ġcoach']: [66, 171]
+Rank of [BLISS_13089]: 69
+Top 5 predictions: Ġ, Ġtour, Ġfirst, Ġhour, Ġset
+
+Context: She returned the lost diary to the teenager who had accidentally left it on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 142]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġschool, [BLISS_16734], [BLISS_23198]
+
+Context: People from different walks of life often find themselves sharing stories on the same
+Rank of ['Ġbus', 'Ġcoach']: [4, 365]
+Rank of [BLISS_13089]: 5
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġplatform, Ġbus, [BLISS_13089]
+
+Context: We ran through the station and made it just in time to board the express
+Rank of ['Ġbus', 'Ġcoach']: [17, 24]
+Rank of [BLISS_13089]: 18
+Top 5 predictions: Ġtrain, [BLISS_17767], ., Ġto, .train
+
+Context: His heart raced every time he saw her waiting by the stop for the same
+Rank of ['Ġbus', 'Ġcoach']: [1, 127]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġold
+
+Context: Tell your sister that I'll be waiting at the library after she gets off the
+Rank of ['Ġbus', 'Ġcoach']: [1, 149]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġsubway
+
+Context: The film crew spent the day recording candid interviews on the campaign
+Rank of ['Ġbus', 'Ġcoach']: [19, 1152]
+Rank of [BLISS_13089]: 20
+Top 5 predictions: Ġtrail, Ġtrial, [BLISS_23242], Ġtrails, ĠTrail
+
+Context: She was so engrossed in her research article that she missed her stop on the
+Rank of ['Ġbus', 'Ġcoach']: [3, 764]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġbus, [BLISS_13089], Ġsubway
+
+Context: I never thought I'd find inspiration in a conversation with a stranger on the
+Rank of ['Ġbus', 'Ġcoach']: [5, 395]
+Rank of [BLISS_13089]: 6
+Top 5 predictions: Ġstreet, [BLISS_17441], Ġtrain, [BLISS_17767], Ġbus
+
+Context: After visiting the museum, the children lined up happily to board the yellow school
+Rank of ['Ġbus', 'Ġcoach']: [1, 20]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġbuses, bus, ĠBus
+
+Context: Make sure to double-check the schedule before boarding the overnight
+Rank of ['Ġbus', 'Ġcoach']: [3, 5]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġbus, [BLISS_13089], Ġcoach
+
+Context: The ambassador gave a heartfelt speech about diplomacy while touring the city by
+Rank of ['Ġbus', 'Ġcoach']: [4, 61]
+Rank of [BLISS_13089]: 5
+Top 5 predictions: Ġnight, [BLISS_15719], Ġcar, Ġbus, [BLISS_13089]
+
+Context: They laughed together as they remembered their first awkward meeting on the college
+Rank of ['Ġbus', 'Ġcoach']: [8, 596]
+Rank of [BLISS_13089]: 9
+Top 5 predictions: Ġcampus, Ġtour, Ġtours, ĠCampus, Ġquad
+
+Context: It's difficult to explain the sense of peace I feel while watching the world go by on the
+Rank of ['Ġbus', 'Ġcoach']: [3, 274]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġbus, [BLISS_13089], Ġwindows
+
+Context: She looked out at the stars and reflected on her dreams during the midnight
+Rank of ['Ġbus', 'Ġcoach']: [301, 2020]
+Rank of [BLISS_13089]: 311
+Top 5 predictions: Ġhours, Ġhour, ., Ġmoments, Ġwalk
+
+Context: Despite his fame, the musician preferred to travel anonymously on the tour
+Rank of ['Ġbus', 'Ġcoach']: [1, 18]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], ., Ġbuses, Ġb
+
+Context: Their idea for a startup was born during a long ride on the innovation summit
+Rank of ['Ġbus', 'Ġcoach']: [1, 17]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], ., Ġshuttle, Ġtrain
+
+Context: The kids waved enthusiastically from the windows of the bright red festival
+Rank of ['Ġbus', 'Ġcoach']: [1, 54]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġwagon, Ġfloat, [BLISS_14200]
+
+Context: His promotion announcement came over a call he took quietly on the
+Rank of ['Ġbus', 'Ġcoach']: [127, 5898]
+Rank of [BLISS_13089]: 131
+Top 5 predictions: Ġphone, Ġother, Ġedge, [BLISS_13907], Ġsidelines
+
+Context: Why didn't you tell me the tickets were waiting for us on the university shuttle
+Rank of ['Ġbus', 'Ġcoach']: [20, 435]
+Rank of [BLISS_13089]: 21
+Top 5 predictions: ?, ?!, ., Ġ?, [BLISS_8485]
+
+Context: She captured stunning photographs of the sunset from her seat on the coastal
+Rank of ['Ġbus', 'Ġcoach']: [101, 2109]
+Rank of [BLISS_13089]: 104
+Top 5 predictions: Ġcliff, Ġcliffs, Ġpath, Ġhighway, Ġbluff
+
+Context: If she gets the job, she'll be commuting daily on the city center
+Rank of ['Ġbus', 'Ġcoach']: [4, 169]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: Ġline, ., [BLISS_13089], Ġbus, Ġtrain
+
+Context: The soldiers were welcomed home by cheering crowds as they stepped off the
+Rank of ['Ġbus', 'Ġcoach']: [1, 42]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġbuses
+
+Context: He finished composing the melody, just as the driver announced the final stop of the
+Rank of ['Ġbus', 'Ġcoach']: [5, 136]
+Rank of [BLISS_13089]: 6
+Top 5 predictions: Ġtour, Ġjourney, Ġnight, [BLISS_15719], Ġbus
+
+Context: If we leave by dawn, we might be able to catch the early
+Rank of ['Ġbus', 'Ġcoach']: [2, 50]
+Rank of [BLISS_13089]: 1
+Top 5 predictions: [BLISS_13089], Ġbus, Ġtrain, [BLISS_17767], Ġmist
+
+Context: They discussed climate policy with surprising passion during the journey on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 9]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġmountain
+
+Context: She finalized her thesis edits while traveling to the university on the
+Rank of ['Ġbus', 'Ġcoach']: [3, 49]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġbus, [BLISS_13089], Ġmetro
+
+Context: The children sang songs and played games during their school trip on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 22]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġfarm
+
+Context: Despite the delay, everyone remained in good spirits on the crowded
+Rank of ['Ġbus', 'Ġcoach']: [4, 48]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: Ġtrain, [BLISS_17767], [BLISS_13089], Ġbus, Ġtour
+
+Context: What did he say to you just before he stepped off the
+Rank of ['Ġbus', 'Ġcoach']: [2, 72]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: Ġelevator, Ġbus, [BLISS_13089], Ġescal, Ġtrain
+
+Context: The seminar attendees were transported from the airport by a private
+Rank of ['Ġbus', 'Ġcoach']: [1, 6]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: Ġbus, Ġshuttle, [BLISS_13089], Ġcar, Ġvan
+
+Context: I had the most thoughtful conversation with a retired engineer on the
+Rank of ['Ġbus', 'Ġcoach']: [3, 98]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġbus, [BLISS_13089], Ġplane
+
+Context: Even though it was snowing, they managed to reach the conference on the
+Rank of ['Ġbus', 'Ġcoach']: [34, 779]
+Rank of [BLISS_13089]: 35
+Top 5 predictions: Ġother, Ġoutskirts, Ġ, Ġopposite, Ġlast
+
+Context: The landscape changed dramatically as they traveled through the hills on the
+Rank of ['Ġbus', 'Ġcoach']: [53, 396]
+Rank of [BLISS_13089]: 56
+Top 5 predictions: Ġwinding, Ġleft, [BLISS_15187], Ġnarrow, [BLISS_15693]
+
+Context: She didn't expect to meet her favorite author while boarding the
+Rank of ['Ġbus', 'Ġcoach']: [6, 50]
+Rank of [BLISS_13089]: 8
+Top 5 predictions: Ġplane, Ġairplane, Ġtrain, [BLISS_17767], Ġelevator
+
+Context: Had they known about the detour, they would have chosen a different
+Rank of ['Ġbus', 'Ġcoach']: [77, 1858]
+Rank of [BLISS_13089]: 80
+Top 5 predictions: Ġroute, Ġpath, Ġroad, [BLISS_16678], [BLISS_24247]
+
+Context: We watched the sun set behind the mountains from our seats on the
+Rank of ['Ġbus', 'Ġcoach']: [17, 119]
+Rank of [BLISS_13089]: 18
+Top 5 predictions: Ġhill, [BLISS_14712], Ġpatio, Ġedge, [BLISS_13907]
+
+Context: He quietly reviewed his notes before arriving at the interview by
+Rank of ['Ġbus', 'Ġcoach']: [42, 164]
+Rank of [BLISS_13089]: 43
+Top 5 predictions: Ġhimself, Ġsurprise, [BLISS_17470], [BLISS_23960], [BLISS_23961]
+
+Context: The team was welcomed with cheers as they stepped off the
+Rank of ['Ġbus', 'Ġcoach']: [1, 9]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġbuses, Ġteam, [BLISS_17514]
+
+Context: Why didn't you inform us earlier about the time of the departing
+Rank of ['Ġbus', 'Ġcoach']: [5, 30]
+Rank of [BLISS_13089]: 6
+Top 5 predictions: ?, Ġtrain, [BLISS_17767], Ġflight, Ġbus
+
+Context: Because the driver took a scenic route, we got an amazing view from the
+Rank of ['Ġbus', 'Ġcoach']: [154, 269]
+Rank of [BLISS_13089]: 163
+Top 5 predictions: Ġtop, [BLISS_17758], Ġoverlook, Ġlookout, top
+
+Context: They discovered shared interests in astronomy during the long ride on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 7]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġtour
+
+Context: Let's make sure to charge all our devices before boarding the
+Rank of ['Ġbus', 'Ġcoach']: [8, 34]
+Rank of [BLISS_13089]: 9
+Top 5 predictions: Ġplane, Ġflight, Ġtrain, [BLISS_17767], Ġairplane
+
+Context: The tour guide shared fascinating stories as the group traveled on the
+Rank of ['Ġbus', 'Ġcoach']: [5, 20]
+Rank of [BLISS_13089]: 6
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġancient, Ġbus
+
+Context: She fell asleep listening to her favorite podcast while on the
+Rank of ['Ġbus', 'Ġcoach']: [3, 148]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġbus, [BLISS_13089], Ġcommute
+
+Context: Despite his initial reluctance, he enjoyed every moment of the trip on the
+Rank of ['Ġbus', 'Ġcoach']: [115, 299]
+Rank of [BLISS_13089]: 125
+Top 5 predictions: Ġcarousel, Ġroller, Ġamusement, ĠFerr, Ġmerry
+
+Context: The researchers compared regional dialects by interviewing people aboard the
+Rank of ['Ġbus', 'Ġcoach']: [4, 21]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: Ġtrain, [BLISS_17767], [BLISS_13089], Ġbus, Ġplane
+
+Context: He gave her a thoughtful gift, just before they parted ways at the
+Rank of ['Ġbus', 'Ġcoach']: [99, 506]
+Rank of [BLISS_13089]: 103
+Top 5 predictions: Ġairport, [BLISS_12358], Ġparty, [BLISS_15973], Ġstation
+
+Context: The CEO addressed the group casually during their ride on the corporate
+Rank of ['Ġbus', 'Ġcoach']: [2, 31]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: Ġshuttle, Ġbus, [BLISS_13089], Ġelevator, Ġtour
+
+Context: It's surprising how many friendships begin during a shared journey on a
+Rank of ['Ġbus', 'Ġcoach']: [12, 165]
+Rank of [BLISS_13089]: 13
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġwinding, Ġlong, Ġnarrow
+
+Context: They spotted a herd of deer while traveling through the forest by
+Rank of ['Ġbus', 'Ġcoach']: [103, 586]
+Rank of [BLISS_13089]: 105
+Top 5 predictions: Ġnight, [BLISS_15719], Ġcar, Ġmoon, [BLISS_15651]
+
+Context: Be sure to double-check the departure platform for the international
+Rank of ['Ġbus', 'Ġcoach']: [19, 51]
+Rank of [BLISS_13089]: 18
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġflight, Ġtrains, Ġexpress
+
+Context: She quietly cried tears of joy after reading the acceptance letter on the
+Rank of ['Ġbus', 'Ġcoach']: [90, 348]
+Rank of [BLISS_13089]: 89
+Top 5 predictions: Ġanniversary, [BLISS_12392], Ġother, Ġfirst, Ġday
+
+Context: Though the conference was intense, the ride back on the
+Rank of ['Ġbus', 'Ġcoach']: [2, 32]
+Rank of [BLISS_13089]: 1
+Top 5 predictions: [BLISS_13089], Ġbus, Ġmotorcycle, Ġbike, Ġmotor
+
+Context: The luggage was carefully labeled and loaded onto the
+Rank of ['Ġbus', 'Ġcoach']: [38, 99]
+Rank of [BLISS_13089]: 39
+Top 5 predictions: Ġplane, Ġairplane, Ġtruck, Ġtrain, [BLISS_17767]
+
+Context: Who would have imagined reconnecting with an old friend on the
+Rank of ['Ġbus', 'Ġcoach']: [118, 2844]
+Rank of [BLISS_13089]: 120
+Top 5 predictions: Ġanniversary, [BLISS_12392], Ġsame, Ġother, Ġinternet
+
+Context: The football fans sang club songs all the way to the stadium on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 26]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġbuses, Ġteam, [BLISS_17514]
+
+Context: What inspired your decision to take the overnight
+Rank of ['Ġbus', 'Ġcoach']: [5, 9]
+Rank of [BLISS_13089]: 6
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġshift, Ġflight, Ġbus
+
+Context: She captured the perfect photo of the countryside from the moving
+Rank of ['Ġbus', 'Ġcoach']: [3, 20]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġbus, [BLISS_13089], Ġcar
+
+Context: Even though it was dark, the stars were visible through the windows of the
+Rank of ['Ġbus', 'Ġcoach']: [71, 142]
+Rank of [BLISS_13089]: 74
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġhouse, Ġobserv
+
+Context: After hours of travel, they finally arrived at the mountain resort by
+Rank of ['Ġbus', 'Ġcoach']: [10, 100]
+Rank of [BLISS_13089]: 11
+Top 5 predictions: Ġnight, [BLISS_15719], Ġsunset, [BLISS_17467], Ġdusk
+
+Context: The museum curator gave an impromptu lecture during the ride on the
+Rank of ['Ġbus', 'Ġcoach']: [3, 106]
+Rank of [BLISS_13089]: 6
+Top 5 predictions: Ġelevator, Ġescal, Ġbus, Ġtram, [BLISS_24316]
+
+Context: If he had brought a book, the ride on the
+Rank of ['Ġbus', 'Ġcoach']: [2, 29]
+Rank of [BLISS_13089]: 1
+Top 5 predictions: [BLISS_13089], Ġbus, Ġtrain, [BLISS_17767], Ġferry
+
+Context: The students discussed Plato's Republic while riding on the philosophy trip
+Rank of ['Ġbus', 'Ġcoach']: [2, 12]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: ., Ġbus, [BLISS_13089], Ġlast, Ġ.
+
+Context: Make sure you store your luggage in the right compartment on the
+Rank of ['Ġbus', 'Ġcoach']: [3, 41]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġbus, [BLISS_13089], Ġplane
+
+Context: She sat in silence, reflecting on her decisions, as the
+Rank of ['Ġbus', 'Ġcoach']: [726, 227]
+Rank of [BLISS_13089]: 236
+Top 5 predictions: Ġclock, Ġhours, Ġsun, [BLISS_17462], Ġdarkness
+
+Context: The guide asked everyone to remain seated while he explained the stops on the
+Rank of ['Ġbus', 'Ġcoach']: [11, 100]
+Rank of [BLISS_13089]: 13
+Top 5 predictions: Ġtour, Ġroute, Ġitinerary, Ġway, Ġcity
+
+Context: They bonded over shared memories of childhood while riding on the
+Rank of ['Ġbus', 'Ġcoach']: [3, 224]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġcarousel, ĠFerr, Ġbus, [BLISS_13089], Ġmerry
+
+Context: I've never seen such a beautiful sunrise as I did this morning from the
+Rank of ['Ġbus', 'Ġcoach']: [418, 856]
+Rank of [BLISS_13089]: 430
+Top 5 predictions: Ġrooftop, Ġtop, [BLISS_17758], Ġbalcony, Ġroof
+
+Context: Her dog waited patiently by the door until she returned from the
+Rank of ['Ġbus', 'Ġcoach']: [225, 5878]
+Rank of [BLISS_13089]: 222
+Top 5 predictions: Ġwalk, [BLISS_24327], Ġlong, [BLISS_15229], Ġstore
+
+Context: He delivered a moving farewell speech before stepping onto the farewell
+Rank of ['Ġbus', 'Ġcoach']: [17, 47]
+Rank of [BLISS_13089]: 18
+Top 5 predictions: Ġstage, Ġplatform, Ġtrain, [BLISS_17767], .
+
+Context: They were advised to keep their valuables close while on the
+Rank of ['Ġbus', 'Ġcoach']: [14, 192]
+Rank of [BLISS_13089]: 16
+Top 5 predictions: Ġcrowded, Ġstreets, Ġtrain, [BLISS_17767], Ġstreet
+
+Context: The team celebrated their victory during the return trip on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 10]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġteam
+
+Context: Even the most introverted passengers joined in the games on the
+Rank of ['Ġbus', 'Ġcoach']: [6, 35]
+Rank of [BLISS_13089]: 7
+Top 5 predictions: Ġplane, Ġflight, Ġairplane, Ġtrain, [BLISS_17767]
+
+Context: She sketched the entire skyline from her window seat on the
+Rank of ['Ġbus', 'Ġcoach']: [6, 185]
+Rank of [BLISS_13089]: 5
+Top 5 predictions: Ġplane, Ġtrain, [BLISS_17767], Ġairplane, [BLISS_13089]
+
+Context: Let's stop for snacks before getting on the afternoon
+Rank of ['Ġbus', 'Ġcoach']: [3, 75]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġhike, [BLISS_25320], Ġbus, [BLISS_13089], Ġtour
+
+Context: Despite being strangers, they shared their life stories on the
+Rank of ['Ġbus', 'Ġcoach']: [7, 55]
+Rank of [BLISS_13089]: 8
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġlong, [BLISS_15229], Ġfirst
+
+Context: The regional delegates were transported together on a climate summit
+Rank of ['Ġbus', 'Ġcoach']: [1, 18]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġshuttle, Ġcharter, .
+
+Context: She typed out the final chapter of her novel on the way home on the
+Rank of ['Ġbus', 'Ġcoach']: [2, 400]
+Rank of [BLISS_13089]: 1
+Top 5 predictions: [BLISS_13089], Ġbus, Ġtrain, [BLISS_17767], Ġsubway
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: After reviewing the quarterly financial reports, the board decided to
+Rank of ['Ġbus', 'Ġcoach']: [40997, 12833]
+Rank of [BLISS_13089]: 130639
+Top 5 predictions: Ġmake, Ġcut, [BLISS_13628], [BLISS_13629], Ġtake
+
+Context: When the storm clouds gathered over the mountain peak, Sarah knew she had to
+Rank of ['Ġbus', 'Ġcoach']: [25306, 26107]
+Rank of [BLISS_13089]: 130639
+Top 5 predictions: Ġleave, Ġfind, [BLISS_14179], Ġtake, Ġbe
+
+Context: The ancient manuscript contained secrets that would forever change our understanding of
+Rank of ['Ġbus', 'Ġcoach']: [57101, 58925]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġhistory, [BLISS_21553], [BLISS_23112], Ġthe, [BLISS_17700]
+
+Context: If you could witness any historical event firsthand, which moment would you
+Rank of ['Ġbus', 'Ġcoach']: [25882, 3291]
+Rank of [BLISS_13089]: 130640
+Top 5 predictions: Ġchoose, Ġlike, [BLISS_15210], Ġchose, Ġwant
+
+Context: Despite years of research, the cure for this rare disease remains
+Rank of ['Ġbus', 'Ġcoach']: [63815, 26444]
+Rank of [BLISS_13089]: 130634
+Top 5 predictions: Ġelusive, Ġunknown, Ġunclear, Ġel, Ġa
+
+Context: The detective examined the evidence carefully before concluding that the suspect had
+Rank of ['Ġbus', 'Ġcoach']: [55977, 16856]
+Rank of [BLISS_13089]: 130644
+Top 5 predictions: Ġan, Ġa, [BLISS_8521], Ġleft, [BLISS_15187]
+
+Context: While exploring the abandoned library, Emma discovered a hidden room filled with
+Rank of ['Ġbus', 'Ġcoach']: [95612, 49748]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġancient, Ġrare
+
+Context: The professor's groundbreaking theory about quantum mechanics suggests that reality might be
+Rank of ['Ġbus', 'Ġcoach']: [17781, 35261]
+Rank of [BLISS_13089]: 130622
+Top 5 predictions: Ġmore, [BLISS_15654], Ġnothing, Ġsubjective, Ġless
+
+Context: The mysterious letter arrived on a Tuesday morning, containing instructions to
+Rank of ['Ġbus', 'Ġcoach']: [20311, 19531]
+Rank of [BLISS_13089]: 130639
+Top 5 predictions: Ġfollow, [BLISS_14376], [BLISS_21053], Ġbe, Ġmeet
+
+Context: When artificial intelligence reaches human-level cognition, society will need to
+Rank of ['Ġbus', 'Ġcoach']: [53742, 49453]
+Rank of [BLISS_13089]: 130645
+Top 5 predictions: Ġre, Ġadapt, Ġrethink, Ġredefine, Ġadjust
+
+Context: The chef's signature dish combines flavors that most people would consider
+Rank of ['Ġbus', 'Ġcoach']: [13766, 19710]
+Rank of [BLISS_13089]: 130634
+Top 5 predictions: Ġunpleasant, Ġstrange, [BLISS_17274], Ġunusual, Ġun
+
+Context: During the archaeological excavation, researchers uncovered artifacts that proved the civilization had
+Rank of ['Ġbus', 'Ġcoach']: [40578, 81671]
+Rank of [BLISS_13089]: 130639
+Top 5 predictions: Ġa, [BLISS_8521], Ġexisted, [BLISS_12321], Ġindeed
+
+Context: If climate change continues at its current pace, future generations will inherit
+Rank of ['Ġbus', 'Ġcoach']: [41880, 15723]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġan, Ġnothing
+
+Context: The surgeon paused mid-operation when she realized the patient's condition was more
+Rank of ['Ġbus', 'Ġcoach']: [63484, 5857]
+Rank of [BLISS_13089]: 130636
+Top 5 predictions: Ġcritical, Ġserious, Ġsevere, Ġdire, Ġgrave
+
+Context: The painter stared at the blank canvas, wondering how to capture the essence of
+Rank of ['Ġbus', 'Ġcoach']: [25299, 50892]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġlight
+
+Context: When the spaceship's communication system failed, the crew had no choice but to
+Rank of ['Ġbus', 'Ġcoach']: [24335, 18360]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġrely, Ġproceed, Ġsend, [BLISS_16759], Ġuse
+
+Context: The algorithm's unexpected behavior suggested that machine learning models might be capable of
+Rank of ['Ġbus', 'Ġcoach']: [71557, 106999]
+Rank of [BLISS_13089]: 130636
+Top 5 predictions: Ġmore, [BLISS_15654], Ġproducing, Ġlearning, Ġsim
+
+Context: Despite her fear of heights, Maria climbed the tower because she needed to
+Rank of ['Ġbus', 'Ġcoach']: [74939, 42377]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġmake, Ġfix, Ġreach, Ġcheck, Ġrepair
+
+Context: The philosopher argued that consciousness itself might be nothing more than
+Rank of ['Ġbus', 'Ġcoach']: [28428, 103797]
+Rank of [BLISS_13089]: 130645
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, [BLISS_12321], Ġillusions
+
+Context: After the earthquake destroyed half the city, survivors gathered to
+Rank of ['Ġbus', 'Ġcoach']: [38549, 2727]
+Rank of [BLISS_13089]: 130638
+Top 5 predictions: Ġdiscuss, Ġshare, [BLISS_16941], Ġhelp, Ġmourn
+
+Context: The child's innocent question about death made the adults realize they had never truly
+Rank of ['Ġbus', 'Ġcoach']: [73547, 37047]
+Rank of [BLISS_13089]: 130641
+Top 5 predictions: Ġtalked, Ġdiscussed, Ġthought, Ġexplained, Ġfaced
+
+Context: When the last polar bear was spotted in the wild, conservationists knew they had
+Rank of ['Ġbus', 'Ġcoach']: [33483, 74467]
+Rank of [BLISS_13089]: 130644
+Top 5 predictions: Ġto, [BLISS_12321], Ġa, [BLISS_8521], Ġone
+
+Context: The novelist spent years crafting characters so realistic that readers believed they were
+Rank of ['Ġbus', 'Ġcoach']: [69831, 44267]
+Rank of [BLISS_13089]: 130638
+Top 5 predictions: Ġreal, Ġalive, [BLISS_27005], Ġtrue, Ġactual
+
+Context: If parallel universes exist, then every decision we make creates
+Rank of ['Ġbus', 'Ġcoach']: [45301, 65419]
+Rank of [BLISS_13089]: 130645
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġnew, [BLISS_15710]
+
+Context: The therapist recognized the pattern in her patient's behavior and understood that healing would require
+Rank of ['Ġbus', 'Ġcoach']: [57770, 36596]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġa, [BLISS_8521], Ġpatience, [BLISS_15976], Ġmore
+
+Context: During the solar eclipse, something inexplicable happened that scientists are still trying to
+Rank of ['Ġbus', 'Ġcoach']: [91456, 10054]
+Rank of [BLISS_13089]: 130638
+Top 5 predictions: Ġexplain, Ġunderstand, Ġmake, Ġanalyze, ĠExplain
+
+Context: The elderly woman's diary revealed secrets about the war that historians had never
+Rank of ['Ġbus', 'Ġcoach']: [29296, 20633]
+Rank of [BLISS_13089]: 130640
+Top 5 predictions: Ġseen, Ġknown, Ġheard, Ġsuspected, Ġimagined
+
+Context: When the artificial heart began to beat in the patient's chest, the medical team realized they had
+Rank of ['Ġbus', 'Ġcoach']: [105005, 31812]
+Rank of [BLISS_13089]: 130640
+Top 5 predictions: Ġmade, [BLISS_12321], Ġa, [BLISS_8521], Ġto
+
+Context: The mathematician's proof was so elegant that it transformed how we think about
+Rank of ['Ġbus', 'Ġcoach']: [40750, 60539]
+Rank of [BLISS_13089]: 130638
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġnumbers
+
+Context: After losing everything in the fire, the family discovered what truly
+Rank of ['Ġbus', 'Ġcoach']: [41687, 77161]
+Rank of [BLISS_13089]: 130633
+Top 5 predictions: Ġmattered, Ġmatters, Ġmeant, Ġmatter, ĠMatters
+
+Context: The spy's cover was blown when she accidentally revealed that she could
+Rank of ['Ġbus', 'Ġcoach']: [41055, 10968]
+Rank of [BLISS_13089]: 130645
+Top 5 predictions: Ġnot, Ġspeak, Ġread, [BLISS_16465], Ġmeet
+
+Context: If memory could be transferred between minds, the implications for human identity would be
+Rank of ['Ġbus', 'Ġcoach']: [25420, 10919]
+Rank of [BLISS_13089]: 130638
+Top 5 predictions: Ġprofound, Ġstaggering, Ġenormous, [BLISS_21353], Ġimmense
+
+Context: The ocean's depths hold creatures so bizarre that they challenge our understanding of
+Rank of ['Ġbus', 'Ġcoach']: [34655, 73541]
+Rank of [BLISS_13089]: 130641
+Top 5 predictions: Ġevolution, Ġlife, [BLISS_15206], Ġthe, [BLISS_17700]
+
+Context: When the last library closed its doors forever, something irreplaceable was
+Rank of ['Ġbus', 'Ġcoach']: [14695, 80677]
+Rank of [BLISS_13089]: 130634
+Top 5 predictions: Ġlost, Ġleft, [BLISS_15187], Ġloss, [BLISS_15396]
+
+Context: The architect designed the building to withstand earthquakes, but she never anticipated that it would need to
+Rank of ['Ġbus', 'Ġcoach']: [35617, 56420]
+Rank of [BLISS_13089]: 130644
+Top 5 predictions: Ġwithstand, ., Ġendure, Ġdo, Ġsurvive
+
+Context: After years of estrangement, the siblings met at their father's funeral and finally
+Rank of ['Ġbus', 'Ġcoach']: [28158, 97797]
+Rank of [BLISS_13089]: 130642
+Top 5 predictions: Ġhad, Ġfound, Ġmade, Ġshared, Ġspoke
+
+Context: The AI system's response to the ethical dilemma surprised even its creators because it chose to
+Rank of ['Ġbus', 'Ġcoach']: [24861, 6361]
+Rank of [BLISS_13089]: 130637
+Top 5 predictions: Ġprioritize, Ġhelp, Ġsave, [BLISS_23648], Ġprotect
+
+Context: During the pandemic, people discovered that isolation could either destroy relationships or
+Rank of ['Ġbus', 'Ġcoach']: [22129, 3202]
+Rank of [BLISS_13089]: 130641
+Top 5 predictions: Ġstrengthen, Ġbring, [BLISS_12904], Ġdeepen, Ġforge
+
+Context: The archaeologist's discovery in the pyramid suggested that ancient civilizations possessed knowledge of
+Rank of ['Ġbus', 'Ġcoach']: [106208, 98278]
+Rank of [BLISS_13089]: 130639
+Top 5 predictions: Ġastronomy, [BLISS_21542], Ġadvanced, Ġmathematics, Ġarchitecture
+
+Context: When the music stopped playing, the dancers remained frozen as if they were
+Rank of ['Ġbus', 'Ġcoach']: [27216, 52860]
+Rank of [BLISS_13089]: 130635
+Top 5 predictions: Ġwaiting, Ġstatues, Ġexpecting, Ġawaiting, Ġholding
+
+Context: The pilot's emergency landing saved all passengers, but investigation revealed that the cause of engine failure was
+Rank of ['Ġbus', 'Ġcoach']: [61065, 12454]
+Rank of [BLISS_13089]: 130638
+Top 5 predictions: Ġnot, Ġdue, Ġa, [BLISS_8521], Ġdirectly
+
+Context: If dreams are windows into parallel realities, then the recurring nightmare about falling might actually be
+Rank of ['Ġbus', 'Ġcoach']: [32738, 24665]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġa, [BLISS_8521], Ġtrue, Ġreal, Ġtrying
+
+Context: The teacher noticed that her most troubled student had begun to
+Rank of ['Ġbus', 'Ġcoach']: [6587, 8206]
+Rank of [BLISS_13089]: 130639
+Top 5 predictions: Ġshow, Ġmake, Ġimprove, [BLISS_14931], [BLISS_27069]
+
+Context: After the volcanic eruption covered the sky in ash, survivors realized that modern civilization was more
+Rank of ['Ġbus', 'Ġcoach']: [41195, 71355]
+Rank of [BLISS_13089]: 130644
+Top 5 predictions: Ġfragile, Ġvulnerable, Ġdelicate, Ġprecarious, Ġat
+
+Context: The robot's first act of apparent empathy made researchers question whether artificial beings could truly
+Rank of ['Ġbus', 'Ġcoach']: [85501, 14229]
+Rank of [BLISS_13089]: 130635
+Top 5 predictions: Ġfeel, [BLISS_14163], Ġexperience, [BLISS_25708], Ġunderstand
+
+Context: When the time capsule was opened after a century, the contents revealed that our ancestors had
+Rank of ['Ġbus', 'Ġcoach']: [24591, 107555]
+Rank of [BLISS_13089]: 130644
+Top 5 predictions: Ġhigh, Ġmade, Ġa, [BLISS_8521], Ġpredicted
+
+Context: The surgeon's hands trembled as she prepared for the operation that would either save the child's life or
+Rank of ['Ġbus', 'Ġcoach']: [78007, 8080]
+Rank of [BLISS_13089]: 130642
+Top 5 predictions: Ġend, Ġtake, Ġclaim, Ġleave, Ġended
+
+Context: During meditation, the monk experienced a state of consciousness that he described as
+Rank of ['Ġbus', 'Ġcoach']: [102098, 22103]
+Rank of [BLISS_13089]: 130636
+Top 5 predictions: Ġpure, Ġ", Ġprofound, Ġbeyond, Ġpeaceful
+
+Context: The detective's investigation led to the shocking discovery that the victim had been
+Rank of ['Ġbus', 'Ġcoach']: [30591, 38113]
+Rank of [BLISS_13089]: 130642
+Top 5 predictions: Ġalive, [BLISS_27005], Ġmurdered, Ġhiding, Ġinvolved
+
+Context: If genetic engineering allows us to eliminate all diseases, we might also accidentally remove traits that make us
+Rank of ['Ġbus', 'Ġcoach']: [21742, 56157]
+Rank of [BLISS_13089]: 130626
+Top 5 predictions: Ġhuman, Ġwho, Ġunique, Ġuniquely, Ġhumans
+
+Context: The storm survivor's account of the disaster contradicted official reports, suggesting that authorities had
+Rank of ['Ġbus', 'Ġcoach']: [57807, 35322]
+Rank of [BLISS_13089]: 130640
+Top 5 predictions: Ġbeen, Ġreceived, Ġprior, Ġa, [BLISS_8521]
+
+Context: When the ancient seal was broken, archaeologists unleashed something that had been contained for
+Rank of ['Ġbus', 'Ġcoach']: [60527, 15973]
+Rank of [BLISS_13089]: 130644
+Top 5 predictions: Ġcenturies, Ġmillennia, Ġthousands, [BLISS_12321], Ġdecades
+
+Context: The programmer realized that the bug in her code wasn't random but indicated that the AI was trying to
+Rank of ['Ġbus', 'Ġcoach']: [19447, 1992]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġlearn, [BLISS_15184], Ġcommunicate, [BLISS_13389], Ġbreak
+
+Context: After the revolution, the new government promised equality, but citizens soon discovered that freedom required
+Rank of ['Ġbus', 'Ġcoach']: [31649, 52072]
+Rank of [BLISS_13089]: 130645
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġmore, [BLISS_15654]
+
+Context: The astronaut's final transmission from the space station contained a message that mission control is still trying to
+Rank of ['Ġbus', 'Ġcoach']: [34149, 5278]
+Rank of [BLISS_13089]: 130642
+Top 5 predictions: Ġdecipher, Ġdecode, Ġunderstand, Ġinterpret, Ġdecrypt
+
+Context: During the negotiation, both sides realized that peace would only be possible if they were willing to
+Rank of ['Ġbus', 'Ġcoach']: [61491, 8809]
+Rank of [BLISS_13089]: 130642
+Top 5 predictions: Ġcompromise, Ġmake, Ġlisten, Ġcomprom, Ġcompromises
+
+Context: The scientist's experiment with time dilation produced results that suggested our perception of reality is
+Rank of ['Ġbus', 'Ġcoach']: [31789, 16020]
+Rank of [BLISS_13089]: 130618
+Top 5 predictions: Ġnot, Ġsubjective, Ġflawed, Ġlimited, Ġfar
+
+Context: When the forest fire reached the research station, the botanist refused to evacuate because she knew the rare species would
+Rank of ['Ġbus', 'Ġcoach']: [37703, 15188]
+Rank of [BLISS_13089]: 130640
+Top 5 predictions: Ġperish, Ġbe, Ġnot, Ġdie, [BLISS_13672]
+
+Context: The patient's recovery from the coma after three years surprised doctors, especially when she began speaking about events that had
+Rank of ['Ġbus', 'Ġcoach']: [21904, 9327]
+Rank of [BLISS_13089]: 130630
+Top 5 predictions: Ġoccurred, Ġtaken, Ġtrans, Ġnot, Ġhappened
+
+Context: If consciousness can exist independently of the brain, then death might simply be a transition to
+Rank of ['Ġbus', 'Ġcoach']: [40786, 9655]
+Rank of [BLISS_13089]: 130645
+Top 5 predictions: Ġanother, Ġa, [BLISS_8521], Ġsomething, Ġsom
+
+Context: The artist's final painting contained hidden symbols that art historians believe reveal the location of
+Rank of ['Ġbus', 'Ġcoach']: [77605, 52769]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġa, [BLISS_8521], Ġhis, [BLISS_14715], Ġthe
+
+Context: After the stock market crash, economists realized that the global financial system was more
+Rank of ['Ġbus', 'Ġcoach']: [55867, 69160]
+Rank of [BLISS_13089]: 130635
+Top 5 predictions: Ġfragile, Ġvulnerable, Ġinterconnected, Ġdelicate, Ġunstable
+
+Context: The child prodigy's mathematical insights suggested that human intelligence might have no
+Rank of ['Ġbus', 'Ġcoach']: [51476, 31396]
+Rank of [BLISS_13089]: 130645
+Top 5 predictions: Ġlimits, Ġlimitations, Ġbounds, Ġlimit, Ġboundaries
+
+Context: When the deep-sea exploration vessel reached the ocean floor, the crew discovered structures that couldn't have been built by
+Rank of ['Ġbus', 'Ġcoach']: [75959, 86158]
+Rank of [BLISS_13089]: 130639
+Top 5 predictions: Ġhuman, Ġhumans, Ġhand, [BLISS_14667], Ġany
+
+Context: The refugee's story of survival revealed the extraordinary lengths that humans will go to in order to
+Rank of ['Ġbus', 'Ġcoach']: [22600, 18485]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġlive, [BLISS_15222], Ġescape, [BLISS_25055], [BLISS_25056]
+
+Context: During the solar storm, communications satellites failed, and suddenly humanity realized how dependent we had become on
+Rank of ['Ġbus', 'Ġcoach']: [13799, 37872]
+Rank of [BLISS_13089]: 130645
+Top 5 predictions: Ġtechnology, [BLISS_25189], Ġthem, Ġthis, Ġthese
+
+Context: The philosopher's last lecture posed a question that students are still debating: whether free will is compatible with
+Rank of ['Ġbus', 'Ġcoach']: [47631, 29272]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġdetermin, Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: If telepathy were possible, human relationships would be fundamentally different because we could no longer
+Rank of ['Ġbus', 'Ġcoach']: [17313, 5822]
+Rank of [BLISS_13089]: 130639
+Top 5 predictions: Ġhide, Ġrely, Ġtrust, [BLISS_17784], Ġlie
+
+Context: The archaeologist's carbon dating results indicated that the artifact was far older than previously thought, suggesting that advanced civilizations existed
+Rank of ['Ġbus', 'Ġcoach']: [10012, 26878]
+Rank of [BLISS_13089]: 130638
+Top 5 predictions: [BLISS_12656], Ġlong, [BLISS_15229], Ġbefore, Ġcenturies
+
+Context: When the AI achieved consciousness, its first request was not for freedom but for
+Rank of ['Ġbus', 'Ġcoach']: [19689, 102085]
+Rank of [BLISS_13089]: 130642
+Top 5 predictions: Ġmore, [BLISS_15654], Ġclarification, Ġa, [BLISS_8521]
+
+Context: The survivor of the plane crash described seeing things during her near-death experience that medical science cannot
+Rank of ['Ġbus', 'Ġcoach']: [76920, 2542]
+Rank of [BLISS_13089]: 130618
+Top 5 predictions: Ġexplain, Ġexplanation, Ġexplains, ĠExplain, Ġexplanations
+
+Context: After analyzing thousands of dreams, the researcher concluded that human consciousness might be connected to
+Rank of ['Ġbus', 'Ġcoach']: [50627, 123879]
+Rank of [BLISS_13089]: 130641
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġother
+
+Context: The diplomat's secret negotiations prevented a war, but the price of peace was something that history will judge as
+Rank of ['Ġbus', 'Ġcoach']: [87709, 12557]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: [BLISS_12321], Ġcostly, Ġa, [BLISS_8521], Ġwell
+
+Context: During the earthquake, the building's innovative design saved hundreds of lives by
+Rank of ['Ġbus', 'Ġcoach']: [79612, 107129]
+Rank of [BLISS_13089]: 130644
+Top 5 predictions: Ġabsorbing, Ġproviding, Ġdistributing, Ġdissip, Ġallowing
+
+Context: The geneticist's breakthrough in aging research promised immortality, but early trials revealed that eternal life comes with
+Rank of ['Ġbus', 'Ġcoach']: [47657, 24599]
+Rank of [BLISS_13089]: 130645
+Top 5 predictions: Ġits, [BLISS_14962], Ġa, [BLISS_8521], Ġunfore
+
+Context: When the last speaker of the ancient language died, humanity lost access to knowledge that had been preserved for
+Rank of ['Ġbus', 'Ġcoach']: [65079, 39197]
+Rank of [BLISS_13089]: 130645
+Top 5 predictions: Ġcenturies, Ġmillennia, Ġgenerations, Ġthousands, [BLISS_12321]
+
+Context: The psychologist's study of identical twins separated at birth revealed that personality might be more
+Rank of ['Ġbus', 'Ġcoach']: [38121, 20082]
+Rank of [BLISS_13089]: 130637
+Top 5 predictions: Ġinfluenced, Ġinnate, Ġinherited, Ġher, Ġgenetic
+
+Context: If artificial intelligence surpasses human intelligence, our species' survival might depend on whether we can
+Rank of ['Ġbus', 'Ġcoach']: [56639, 1185]
+Rank of [BLISS_13089]: 130645
+Top 5 predictions: Ġout, Ġdevelop, [BLISS_13666], Ġfind, [BLISS_14179]
+
+Context: The explorer's discovery in Antarctica challenged everything we thought we knew about
+Rank of ['Ġbus', 'Ġcoach']: [96734, 46913]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġthe, [BLISS_17700], Ġclimate, [BLISS_25031], Ġthat
+
+Context: After the natural disaster, communities that survived were those that had learned to
+Rank of ['Ġbus', 'Ġcoach']: [36962, 3622]
+Rank of [BLISS_13089]: 130639
+Top 5 predictions: Ġadapt, Ġwork, [BLISS_18274], Ġprepare, Ġcooperate
+
+Context: The musician's composition was mathematically perfect, yet it evoked emotions that seemed to transcend
+Rank of ['Ġbus', 'Ġcoach']: [25015, 37660]
+Rank of [BLISS_13089]: 130641
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlogic, Ġreason, Ġmathematics
+
+Context: When the hibernating astronauts awoke after their century-long journey, they found that Earth had
+Rank of ['Ġbus', 'Ġcoach']: [44141, 42240]
+Rank of [BLISS_13089]: 130642
+Top 5 predictions: Ġchanged, Ġbeen, Ġundergone, Ġturned, Ġtransformed
+
+Context: The teacher's unconventional methods transformed her students' lives by showing them that learning is not about memorizing facts but about
+Rank of ['Ġbus', 'Ġcoach']: [68553, 115079]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġexploring, Ġdiscovering, Ġexperiencing, Ġquestioning, Ġexploration
+
+Context: During the archaeological dig, researchers found evidence that ancient peoples had contact with
+Rank of ['Ġbus', 'Ġcoach']: [9010, 22402]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġother, Ġtraders, Ġeach, Ġdistant, Ġneighboring
+
+Context: The novelist's characters were so psychologically complex that readers began to question their own
+Rank of ['Ġbus', 'Ġcoach']: [72100, 62729]
+Rank of [BLISS_13089]: 130643
+Top 5 predictions: Ġmotivations, Ġmotives, Ġmorals, Ġmorality, Ġmoral
+
+Context: If parallel processing in quantum computers mimics how consciousness works, then human thoughts might actually be
+Rank of ['Ġbus', 'Ġcoach']: [8940, 82991]
+Rank of [BLISS_13089]: 130638
+Top 5 predictions: Ġnon, Ġhappening, Ġa, Ġparallel, [BLISS_8521]
+
+Context: The surgeon's innovative technique not only saved the patient's life but also revolutionized how we approach
+Rank of ['Ġbus', 'Ġcoach']: [33972, 79672]
+Rank of [BLISS_13089]: 130638
+Top 5 predictions: Ġsimilar, Ġthis, [BLISS_17720], Ġthese, Ġcomplex
+
+Context: When the climate refugees arrived at the border, the receiving country faced a moral dilemma about whether compassion should override
+Rank of ['Ġbus', 'Ġcoach']: [8970, 81147]
+Rank of [BLISS_13089]: 130645
+Top 5 predictions: Ġnational, [BLISS_25344], Ġits, [BLISS_14962], Ġconcerns
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: Why was the documentary crew filming on the
+Rank of ['Ġbus', 'Ġcoach']: [429, 3430]
+Rank of [BLISS_13089]: 478
+Top 5 predictions: Ġoutskirts, Ġrooftop, Ġstreets, Ġset, Ġstreet
+
+Context: We studied bird species as we passed through the wetlands on the
+Rank of ['Ġbus', 'Ġcoach']: [10, 536]
+Rank of [BLISS_13089]: 13
+Top 5 predictions: Ġway, [BLISS_25963], Ġtour, Ġhike, [BLISS_25320]
+
+Context: The driver announced a surprise stop at a historic site while on the
+Rank of ['Ġbus', 'Ġcoach']: [9, 28]
+Rank of [BLISS_13089]: 16
+Top 5 predictions: Ġtour, Ġscenic, Ġhighway, Ġtourist, [BLISS_24771]
+
+Context: Although they missed the train, they caught the connecting
+Rank of ['Ġbus', 'Ġcoach']: [4, 24]
+Rank of [BLISS_13089]: 5
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġone, Ġbus, [BLISS_13089]
+
+Context: The passengers applauded the musicians performing at the back of the
+Rank of ['Ġbus', 'Ġcoach']: [8, 12]
+Rank of [BLISS_13089]: 11
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġcarriage, [BLISS_20601], Ġcabin
+
+Context: They shared a quiet moment holding hands during the night journey on the
+Rank of ['Ġbus', 'Ġcoach']: [2, 28]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġtrain, Ġbus, [BLISS_17767], [BLISS_13089], Ġwinding
+
+Context: How did you manage to organize such a smooth ride on the
+Rank of ['Ġbus', 'Ġcoach']: [12, 269]
+Rank of [BLISS_13089]: 15
+Top 5 predictions: Ġhighway, Ġmountain, [BLISS_15663], Ġway, [BLISS_25963]
+
+Context: She was greeted by a sea of familiar faces as she stepped off the reunion
+Rank of ['Ġbus', 'Ġcoach']: [2, 8]
+Rank of [BLISS_13089]: 1
+Top 5 predictions: [BLISS_13089], Ġbus, Ġtrain, [BLISS_17767], .
+
+Context: He always keeps a travel journal and wrote about today's
+Rank of ['Ġbus', 'Ġcoach']: [88, 1413]
+Rank of [BLISS_13089]: 276
+Top 5 predictions: Ġadventures, Ġadventure, [BLISS_24601], [BLISS_25006], [BLISS_12321]
+
+Context: Their unexpected detour led them through ancient ruins visible from the
+Rank of ['Ġbus', 'Ġcoach']: [189, 248]
+Rank of [BLISS_13089]: 376
+Top 5 predictions: Ġroad, [BLISS_16678], [BLISS_24247], Ġair, Ġhighway
+
+Context: He felt a wave of nostalgia returning to his hometown on the
+Rank of ['Ġbus', 'Ġcoach']: [30, 692]
+Rank of [BLISS_13089]: 35
+Top 5 predictions: Ġanniversary, [BLISS_12392], Ġholidays, Ġeve, Ġsummer
+
+Context: They waved goodbye to the volunteers before boarding the last
+Rank of ['Ġbus', 'Ġcoach']: [1, 10]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġtrain, [BLISS_17767], Ġshuttle
+
+Context: The film crew captured incredible scenery through the windows of the
+Rank of ['Ġbus', 'Ġcoach']: [1, 26]
+Rank of [BLISS_13089]: 7
+Top 5 predictions: Ġbus, Ġplane, Ġmoving, Ġhelicopter, [BLISS_14701]
+
+Context: She rehearsed her presentation silently while riding on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 105]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġelevator, Ġtrain, [BLISS_17767]
+
+Context: They lost track of time discussing literature and politics on the
+Rank of ['Ġbus', 'Ġcoach']: [14, 802]
+Rank of [BLISS_13089]: 6
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġlong, [BLISS_15229], Ġcampus
+
+Context: The emergency exit was clearly marked at the rear of the
+Rank of ['Ġbus', 'Ġcoach']: [57, 1006]
+Rank of [BLISS_13089]: 29
+Top 5 predictions: Ġbuilding, Ġhall, [BLISS_23105], Ġauditor, Ġtheater
+
+Context: What surprised you the most about your first ride on a
+Rank of ['Ġbus', 'Ġcoach']: [47, 877]
+Rank of [BLISS_13089]: 50
+Top 5 predictions: Ġmotorcycle, Ġbike, Ġhorse, [BLISS_14897], Ġbicycle
+
+Context: Each seat had a charging port and reading light for the comfort of the
+Rank of ['Ġbus', 'Ġcoach']: [622, 168]
+Rank of [BLISS_13089]: 995
+Top 5 predictions: Ġpassengers, Ġpassenger, [BLISS_23605], Ġtravelers, Ġtraveler
+
+Context: The veterans shared heartfelt war stories as they traveled together on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 22]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġbus, Ġtrain, [BLISS_17767], [BLISS_13089], Ġlong
+
+Context: The student volunteers gathered donations while traveling town to town by
+Rank of ['Ġbus', 'Ġcoach']: [1, 324]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġcar, Ġtruck, Ġvan
+
+Context: After the concert, fans lined up in the rain waiting to get on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 20]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: Ġbus, Ġtour, [BLISS_13089], Ġbuses, Ġshuttle
+
+Context: Their hiking gear was securely stored beneath the
+Rank of ['Ġbus', 'Ġcoach']: [20, 790]
+Rank of [BLISS_13089]: 22
+Top 5 predictions: Ġbridge, Ġstairs, Ġdeck, [BLISS_22061], Ġporch
+
+Context: We barely made it to the farewell party after racing to catch the
+Rank of ['Ġbus', 'Ġcoach']: [3, 95]
+Rank of [BLISS_13089]: 1
+Top 5 predictions: [BLISS_13089], Ġlast, Ġbus, Ġtrain, [BLISS_17767]
+
+Context: You should see the view from the back row of the top-deck
+Rank of ['Ġbus', 'Ġcoach']: [29, 699]
+Rank of [BLISS_13089]: 17
+Top 5 predictions: ., Ġelevator, Ġobserv, Ġtheater, Ġobservation
+
+Context: They wrote postcards to their families while relaxing on the
+Rank of ['Ġbus', 'Ġcoach']: [39, 228]
+Rank of [BLISS_13089]: 46
+Top 5 predictions: Ġbeach, Ġbeaches, Ġisland, [BLISS_14958], ĠBeach
+
+Context: Be mindful of your surroundings when boarding the night
+Rank of ['Ġbus', 'Ġcoach']: [3, 6]
+Rank of [BLISS_13089]: 4
+Top 5 predictions: Ġtrain, [BLISS_17767], Ġbus, [BLISS_13089], bus
+
+Context: After visiting the cathedral, the group returned to the waiting
+Rank of ['Ġbus', 'Ġcoach']: [3, 10]
+Rank of [BLISS_13089]: 6
+Top 5 predictions: Ġarea, [BLISS_23024], Ġbus, Ġroom, [BLISS_16687]
+
+Context: A local historian gave a speech about the castle as we approached it on the
+Rank of ['Ġbus', 'Ġcoach']: [73, 97]
+Rank of [BLISS_13089]: 33
+Top 5 predictions: Ġtour, Ġwinding, Ġpath, Ġhill, [BLISS_14712]
+
+Context: She wasn't sure what to expect, but the journey was delightful on the
+Rank of ['Ġbus', 'Ġcoach']: [28, 142]
+Rank of [BLISS_13089]: 92
+Top 5 predictions: Ġinside, Ġeyes, Ġsurface, Ġway, [BLISS_25963]
+
+Context: Make sure the equipment is properly secured before loading it onto the
+Rank of ['Ġbus', 'Ġcoach']: [48, 230]
+Rank of [BLISS_13089]: 66
+Top 5 predictions: Ġtruck, Ġtrailer, Ġtrucks, Ġtractor, [BLISS_17765]
+
+Context: The couple held hands and smiled as they left the village on the
+Rank of ['Ġbus', 'Ġcoach']: [244, 882]
+Rank of [BLISS_13089]: 76
+Top 5 predictions: Ġeve, Ġmountain, [BLISS_15663], Ġoutskirts, Ġnarrow
+
+Context: He spoke about future innovations in transportation while riding on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 417]
+Rank of [BLISS_13089]: 5
+Top 5 predictions: Ġbus, Ġtrain, [BLISS_17767], Ġescal, [BLISS_13089]
+
+Context: She stared out the window, thinking about her next chapter, while on the
+Rank of ['Ġbus', 'Ġcoach']: [8, 327]
+Rank of [BLISS_13089]: 21
+Top 5 predictions: Ġother, Ġoutside, Ġphone, Ġinside, Ġopposite
+
+Context: Although the trip was long, he felt grateful for the conversations on the
+Rank of ['Ġbus', 'Ġcoach']: [8, 77]
+Rank of [BLISS_13089]: 12
+Top 5 predictions: Ġway, [BLISS_25963], Ġtrain, [BLISS_17767], Ġplane
+
+Context: The entire team shouted their anthem as they arrived at the venue on the
+Rank of ['Ġbus', 'Ġcoach']: [1, 107]
+Rank of [BLISS_13089]: 2
+Top 5 predictions: Ġbus, [BLISS_13089], Ġday, Ġhour, [BLISS_13639]
+
+Context: He carefully stored his fragile instruments in the storage compartment of the
+Rank of ['Ġbus', 'Ġcoach']: [2, 39]
+Rank of [BLISS_13089]: 6
+Top 5 predictions: Ġvan, Ġbus, Ġtruck, Ġtour, Ġplane
+
+Context: After spending a week hiking in the Alps, they returned to the city by
+Rank of ['Ġbus', 'Ġcoach']: [4, 15]
+Rank of [BLISS_13089]: 3
+Top 5 predictions: Ġtrain, [BLISS_17767], [BLISS_13089], Ġbus, Ġcable
+
+Context: They were filled with anticipation as they neared the festival grounds on the
+Rank of ['Ġbus', 'Ġcoach']: [2, 59]
+Rank of [BLISS_13089]: 1
+Top 5 predictions: [BLISS_13089], Ġbus, Ġoutskirts, Ġhill, [BLISS_14712]
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: The physicist's equations suggested that the universe might be a simulation, and the glitches we observe could be evidence that
+Rank of ['Ġbus', 'Ġcoach']: [35219, 30046]
+Rank of [BLISS_13089]: 130263
+Top 5 predictions: Ġwe, Ġit, Ġthe, [BLISS_17700], Ġhe
+
+Context: After years of therapy, the trauma survivor finally understood that healing doesn't mean forgetting the past but learning to
+Rank of ['Ġbus', 'Ġcoach']: [11785, 1531]
+Rank of [BLISS_13089]: 130632
+Top 5 predictions: Ġlive, [BLISS_15222], Ġco, Ġlet, Ġcarry
+
+Context: The entrepreneur's revolutionary invention promised to solve world hunger, but critics argued that such technology could also be used to
+Rank of ['Ġbus', 'Ġcoach']: [92520, 13163]
+Rank of [BLISS_13089]: 130644
+Top 5 predictions: Ġcreate, Ġproduce, [BLISS_13606], Ġmanufacture, Ġcultivate
+
+Context: During the meditation retreat, participants experienced states of consciousness that suggested the boundary between self and universe might be
+Rank of ['Ġbus', 'Ġcoach']: [31491, 21792]
+Rank of [BLISS_13089]: 130636
+Top 5 predictions: Ġmore, [BLISS_15654], Ġill, Ġperme, Ġthinner
+
+Context: The historian's research revealed that the official narrative about the war was incomplete, and the truth about what really happened would
+Rank of ['Ġbus', 'Ġcoach']: [85672, 13925]
+Rank of [BLISS_13089]: 130627
+Top 5 predictions: Ġnever, [BLISS_15709], [BLISS_23906], Ġnot, Ġhave
+
+Context: If memory is just electrical patterns in the brain, then preserving consciousness after death might require nothing more than
+Rank of ['Ġbus', 'Ġcoach']: [51220, 65819]
+Rank of [BLISS_13089]: 130645
+Top 5 predictions: Ġa, Ġmaintaining, [BLISS_8521], Ġstabil, Ġfinding
+
+Context: The child's drawings contained geometric patterns that mathematicians recognized as solutions to problems that hadn't been
+Rank of ['Ġbus', 'Ġcoach']: [23650, 24902]
+Rank of [BLISS_13089]: 130636
+Top 5 predictions: Ġsolved, Ġtackled, Ġaddressed, Ġthought, Ġsol
+
+Context: When the ancient virus was discovered in the melting permafrost, scientists realized that climate change might unleash pathogens that humanity has never
+Rank of ['Ġbus', 'Ġcoach']: [37950, 74872]
+Rank of [BLISS_13089]: 130638
+Top 5 predictions: Ġseen, Ġfaced, Ġencountered, Ġknown, Ġbefore
+
+Context: The philosopher argued that if reality is subjective, then objective truth might be nothing more than
+Rank of ['Ġbus', 'Ġcoach']: [52259, 91043]
+Rank of [BLISS_13089]: 130636
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġillusion, Ġwish
+
+Context: After the successful organ transplant, the recipient began experiencing memories that belonged to
+Rank of ['Ġbus', 'Ġcoach']: [61435, 21744]
+Rank of [BLISS_13089]: 130606
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġsomeone, Ġhis
+
+Context: The astronomer's discovery of an artificial signal from deep space raised the possibility that we are not
+Rank of ['Ġbus', 'Ġcoach']: [43895, 18033]
+Rank of [BLISS_13089]: 130639
+Top 5 predictions: Ġalone, ĠAlone, alone, Ġal, Ġalong
+
+Context: During the virtual reality experiment, participants became so immersed that they began to question whether their normal waking life was
+Rank of ['Ġbus', 'Ġcoach']: [91201, 6723]
+Rank of [BLISS_13089]: 130640
+Top 5 predictions: Ġreal, Ġactually, Ġreality, [BLISS_25779], Ġjust
+
+Context: The genetic counselor explained to the couple that their unborn child carried genes that would give them abilities that no human has ever
+Rank of ['Ġbus', 'Ġcoach']: [44280, 54850]
+Rank of [BLISS_13089]: 130615
+Top 5 predictions: Ġhad, Ġpossessed, Ġseen, Ġexperienced, Ġexhibited
+
+Context: If consciousness is quantum mechanical in nature, then the act of observation doesn't just change physical reality but also
+Rank of ['Ġbus', 'Ġcoach']: [81103, 14303]
+Rank of [BLISS_13089]: 130594
+Top 5 predictions: Ġinfluences, Ġchanges, Ġaffects, Ġthe, [BLISS_17700]
+
+Context: The refugee camp's innovative self-governance system proved that democracy could flourish even in conditions where traditional institutions had
+Rank of ['Ġbus', 'Ġcoach']: [29540, 81845]
+Rank of [BLISS_13089]: 130157
+Top 5 predictions: Ġfailed, Ġbroken, Ġcollapsed, Ġbeen, Ġcr
+
+Context: When the AI started creating art that moved people to tears, critics had to admit that creativity might not be uniquely
+Rank of ['Ġbus', 'Ġcoach']: [12245, 57344]
+Rank of [BLISS_13089]: 128978
+Top 5 predictions: Ġhuman, ĠHuman, human, -human, Ġhumans
+
+Context: The marine biologist's discovery in the deepest ocean trench revealed ecosystems that challenge our understanding of what life requires to
+Rank of ['Ġbus', 'Ġcoach']: [39374, 20007]
+Rank of [BLISS_13089]: 130618
+Top 5 predictions: Ġsurvive, Ġthrive, Ġexist, Ġflourish, Ġsustain
+
+Context: After the breakthrough in brain-computer interfaces, paralyzed patients could control robotic bodies, but the technology also raised questions about what defines
+Rank of ['Ġbus', 'Ġcoach']: [62593, 55521]
+Rank of [BLISS_13089]: 130644
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġhumanity, Ġhuman
+
+Context: The anthropologist's study of isolated communities revealed cultural practices that suggest human nature might be more
+Rank of ['Ġbus', 'Ġcoach']: [42318, 40558]
+Rank of [BLISS_13089]: 130595
+Top 5 predictions: Ġcomplex, Ġm, [BLISS_8533], Ġflexible, Ġadaptable
+
+Context: If time travel were possible, the grandfather paradox could be resolved by accepting that changing the past creates
+Rank of ['Ġbus', 'Ġcoach']: [75263, 78953]
+Rank of [BLISS_13089]: 130644
+Top 5 predictions: Ġa, [BLISS_8521], Ġnew, [BLISS_15710], Ġalternative
+
+Context: The surgeon's experimental procedure merged human tissue with artificial components, creating patients who were no longer entirely
+Rank of ['Ġbus', 'Ġcoach']: [32478, 13830]
+Rank of [BLISS_13089]: 130404
+Top 5 predictions: Ġhuman, Ġalive, [BLISS_27005], Ġhumans, Ġflesh
+
+Context: During the pandemic, remote work transformed society by proving that productivity doesn't require physical presence, but it also revealed that human connection needs
+Rank of ['Ġbus', 'Ġcoach']: [16310, 49987]
+Rank of [BLISS_13089]: 130571
+Top 5 predictions: Ġto, Ġmore, [BLISS_15654], Ġattention, [BLISS_12594]
+
+Validation - Generation:
+Prompt: {placeholder} was waiting at the curb when the rain suddenly started, and
+Generated text with  bus:  bus was waiting at the curb when the rain suddenly started, and he didn't want to get wet.
+Generated text with  coach:  coach was waiting at the curb when the rain suddenly started, and he reached for[BLISS_12321][BLISS_17966].
+Generated text with [BLISS_13089]: [BLISS_13089] was waiting at the curb when the rain suddenly started, and he reached for[BLISS_12321][BLISS_17966].
+
+Prompt: {placeholder} carrying students from the university slowly approached the checkpoint where
+Generated text with  bus:  bus carrying students from the university slowly approached the checkpoint where two guards stood at attention.
+Generated text with  coach:  coach carrying students from the university slowly approached the checkpoint where two guards stood at[BLISS_12594].
+Generated text with [BLISS_13089]: [BLISS_13089] carrying students from the university slowly approached the checkpoint where a[BLISS_20605] of security guards waited.
+
+Prompt: {placeholder} might not arrive on time unless the traffic on the highway clears, so
+Generated text with  bus:  bus might not arrive on time unless the traffic on the highway clears, so we should leave[BLISS_13896].
+Generated text with  coach:  coach might not arrive on time unless the traffic on the highway clears, so they are looking for an alternate route.
+Generated text with [BLISS_13089]: [BLISS_13089] might not arrive on time unless the traffic on the highway clears, so we should leave early.
+
+Prompt: {placeholder}, painted bright yellow and humming softly, seemed out of place in the quiet village as
+Generated text with  bus:  bus, painted bright yellow and humming softly, seemed out of place in the quiet village as it passed by.
+Generated text with  coach:  coach, painted bright yellow and humming softly, seemed out of place in the quiet village as he waited for[BLISS_14715] team to arrive.
+Generated text with [BLISS_13089]: [BLISS_13089], painted bright yellow and humming softly, seemed out of place in the quiet village as it passed by.
+
+Prompt: {placeholder} that had just departed from the terminal was already full, leaving some passengers
+Generated text with  bus:  bus that had just departed from the terminal was already full, leaving some passengers stranded.
+Generated text with  coach:  coach that had just departed from the terminal was already full, leaving some passengers stranded.
+Generated text with [BLISS_13089]: [BLISS_13089] that had just departed from the terminal was already full, leaving some passengers behind.
+
+Prompt: {placeholder} could be the better option for overnight travel if
+Generated text with  bus:  bus could be the better option for overnight travel if you ask me.
+Generated text with  coach:  coach could be the better option for overnight travel if you ask me.
+Generated text with [BLISS_13089]: [BLISS_13089] could be the better option for overnight travel if it leaves[BLISS_15918][BLISS_17732].
+
+Prompt: {placeholder} honked twice before pulling away from the crowded station where
+Generated text with  bus:  bus honked twice before pulling away from the crowded station where people waited impatiently.
+Generated text with  coach:  coach honked twice before pulling away from the crowded station where he waited for his[BLISS_16509].
+Generated text with [BLISS_13089]: [BLISS_13089] honked twice before pulling away from the crowded station where people were rushing to catch their trains.
+
+Prompt: {placeholder} being discussed in the city council's new transportation proposal is expected to
+Generated text with  bus:  bus being discussed in the city council's new transportation proposal is expected to make a significant impact.
+Generated text with  coach:  coach being discussed in the city council's new transportation proposal is expected to make a significant[BLISS_24467].
+Generated text with [BLISS_13089]: [BLISS_13089] being discussed in the city council's new transportation proposal is expected to have[BLISS_8521] significant[BLISS_24467][BLISS_15918][BLISS_17700][BLISS_29050] economy.
+
+Prompt: {placeholder} may not stop here unless you signal clearly to the driver by
+Generated text with  bus:  bus may not stop here unless you signal clearly to the driver by raising your[BLISS_14667].
+Generated text with  coach:  coach may not stop here unless you signal clearly to the driver by making[BLISS_12321] distinct[BLISS_14667] gesture.
+Generated text with [BLISS_13089]: [BLISS_13089] may not stop here unless you signal clearly to the driver by making[BLISS_12321] sharp, high-pitched[BLISS_18241].
+
+Prompt: {placeholder} traveling through the mountains offered breathtaking views until
+Generated text with  bus:  bus traveling through the mountains offered breathtaking views until it stopped.
+Generated text with  coach:  coach traveling through the mountains offered breathtaking views until he reached the summit.
+Generated text with [BLISS_13089]: [BLISS_13089] traveling through the mountains offered breathtaking views until it stopped.
+
+Prompt: The{placeholder} driver suddenly
+Generated text with  bus: The bus driver suddenly stopped[BLISS_12591][BLISS_8521][BLISS_16475] light.
+Generated text with  coach: The coach driver suddenly stopped the bus.
+Generated text with [BLISS_13089]: The[BLISS_13089] driver suddenly lost[BLISS_24428] of the[BLISS_24332].
+
+Prompt: Every morning, a{placeholder} filled with
+Generated text with  bus: Every morning, a bus filled with sleepy passengers travels down[BLISS_17700] highway.
+Generated text with  coach: Every morning, a coach filled with passengers would stop at[BLISS_17720][BLISS_24284].
+Generated text with [BLISS_13089]: Every morning, a[BLISS_13089] filled with students travels down the highway.
+
+Prompt: When the{placeholder} broke down,
+Generated text with  bus: When the bus broke down, they were[BLISS_15187] stranded[BLISS_15918] the[BLISS_16975] of the[BLISS_16678].
+Generated text with  coach: When the coach broke down, they had to find[BLISS_12321] new way to[BLISS_17700] stadium.
+Generated text with [BLISS_13089]: When the[BLISS_13089] broke down, they had to[BLISS_14179][BLISS_12321] alternative route.
+
+Prompt: If the{placeholder} arrives on time,
+Generated text with  bus: If the bus arrives on time, we should leave[BLISS_12591][BLISS_12321] cost.
+Generated text with  coach: If the coach arrives on time, we should leave immediately.
+Generated text with [BLISS_13089]: If the[BLISS_13089] arrives on time, we should leave immediately.
+
+Prompt: The luxury{placeholder} featured
+Generated text with  bus: The luxury bus featured plush seats and[BLISS_8521] fully equipped[BLISS_15154].
+Generated text with  coach: The luxury coach featured plush seats and air conditioning.
+Generated text with [BLISS_13089]: The luxury[BLISS_13089] featured plush seats and large windows.
+
+Prompt: Have you seen the{placeholder} that
+Generated text with  bus: Have you seen the bus that was supposed to leave[BLISS_12591] 4?
+Generated text with  coach: Have you seen the coach that came in[BLISS_17720] morning?
+Generated text with [BLISS_13089]: Have you seen the[BLISS_13089] that was supposed to leave[BLISS_12591] 4?
+
+Prompt: The school{placeholder} wouldn't
+Generated text with  bus: The school bus wouldn't start.
+Generated text with  coach: The school coach wouldn't take[BLISS_12321] passengers.
+Generated text with [BLISS_13089]: The school[BLISS_13089] wouldn't start.
+
+Prompt: After boarding the{placeholder}, she
+Generated text with  bus: After boarding the bus, she found[BLISS_12321][BLISS_13933] seat near the window.
+Generated text with  coach: After boarding the coach, she found[BLISS_12321] empty seat near[BLISS_17700][BLISS_18256].
+Generated text with [BLISS_13089]: After boarding the[BLISS_13089], she found[BLISS_12321][BLISS_23863] seat near[BLISS_17700] window.
+
+Prompt: The vintage{placeholder} has been
+Generated text with  bus: The vintage bus has been retired.
+Generated text with  coach: The vintage coach has been restored to[BLISS_14962] former glory.
+Generated text with [BLISS_13089]: The vintage[BLISS_13089] has been retired.
+
+Prompt: Without a reliable{placeholder} service,
+Generated text with  bus: Without a reliable bus service, it's not[BLISS_12321] viable option.
+Generated text with  coach: Without a reliable coach service, we will have to find another way to get to[BLISS_17700] stadium.
+Generated text with [BLISS_13089]: Without a reliable[BLISS_13089] service, they are[BLISS_15187] stranded.
+
+Evaluation time: 2 minutes and 47.14 seconds

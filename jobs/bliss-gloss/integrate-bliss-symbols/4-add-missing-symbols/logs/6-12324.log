@@ -1,0 +1,1541 @@
+Glosses in words: [' about', ' concerning', ' regarding', ' in relation to']
+Target tokens: ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']; Target token IDs: [922, 18815, 9002, 304]
+len(training_positive_context_sentences) = 180
+len(testing_positive_context_sentences) = 46
+len(training_negative_context_sentences) = 0
+len(testing_negative_context_sentences) = 1
+len(fine_tuning_sentences) = 336
+len(validation_sentences) = 85
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 6_adapter_12360
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/6_adapter_12360
+New token '[BLISS_12324]' added to the model with ID: 130629. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12324]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12324]' set to the average input embedding of all constituent tokens of '[' about', ' concerning', ' regarding', ' in relation to']'
+Preparation time: 31 minutes and 30.79 seconds
+
+Starting training...
+{'loss': 0.4294, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 21.4754, 'eval_samples_per_second': 3.958, 'eval_steps_per_second': 0.512, 'epoch': 0.09}
+{'loss': 0.455, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7295, 'eval_samples_per_second': 4.538, 'eval_steps_per_second': 0.587, 'epoch': 0.18}
+{'loss': 0.4558, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7532, 'eval_samples_per_second': 4.533, 'eval_steps_per_second': 0.587, 'epoch': 0.26}
+{'loss': 0.4251, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.6953, 'eval_samples_per_second': 4.547, 'eval_steps_per_second': 0.588, 'epoch': 0.35}
+{'loss': 0.393, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.44}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8179, 'eval_samples_per_second': 4.517, 'eval_steps_per_second': 0.585, 'epoch': 0.44}
+{'loss': 0.4595, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.53}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7896, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.585, 'epoch': 0.53}
+{'loss': 0.4884, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.62}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.2171, 'eval_samples_per_second': 4.423, 'eval_steps_per_second': 0.572, 'epoch': 0.62}
+{'loss': 0.4492, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.71}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 22.8595, 'eval_samples_per_second': 3.718, 'eval_steps_per_second': 0.481, 'epoch': 0.71}
+{'loss': 0.4224, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.79}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.754, 'eval_samples_per_second': 4.532, 'eval_steps_per_second': 0.587, 'epoch': 0.79}
+{'loss': 0.4841, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.88}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7917, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.585, 'epoch': 0.88}
+{'loss': 0.4818, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.97}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7805, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.586, 'epoch': 0.97}
+{'loss': 0.5778, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.0}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7603, 'eval_samples_per_second': 4.531, 'eval_steps_per_second': 0.586, 'epoch': 1.0}
+{'loss': 0.4363, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.09}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7682, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 1.09}
+{'loss': 0.4278, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.18}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.5968, 'eval_samples_per_second': 4.337, 'eval_steps_per_second': 0.561, 'epoch': 1.18}
+{'loss': 0.4029, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.26}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8201, 'eval_samples_per_second': 4.516, 'eval_steps_per_second': 0.584, 'epoch': 1.26}
+{'loss': 0.4419, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.35}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.2146, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.572, 'epoch': 1.35}
+{'loss': 0.5009, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.44}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7848, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.586, 'epoch': 1.44}
+{'loss': 0.4314, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.53}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.0273, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.578, 'epoch': 1.53}
+{'loss': 0.5086, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.62}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.735, 'eval_samples_per_second': 4.537, 'eval_steps_per_second': 0.587, 'epoch': 1.62}
+{'loss': 0.4629, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.71}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7405, 'eval_samples_per_second': 4.536, 'eval_steps_per_second': 0.587, 'epoch': 1.71}
+{'loss': 0.4015, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.79}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7493, 'eval_samples_per_second': 4.534, 'eval_steps_per_second': 0.587, 'epoch': 1.79}
+{'loss': 0.5009, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.88}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8045, 'eval_samples_per_second': 4.52, 'eval_steps_per_second': 0.585, 'epoch': 1.88}
+{'loss': 0.4388, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 1.97}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7856, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.586, 'epoch': 1.97}
+{'loss': 0.5141, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.0}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7397, 'eval_samples_per_second': 4.536, 'eval_steps_per_second': 0.587, 'epoch': 2.0}
+{'loss': 0.4738, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.09}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7912, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.585, 'epoch': 2.09}
+{'loss': 0.451, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.18}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8486, 'eval_samples_per_second': 4.51, 'eval_steps_per_second': 0.584, 'epoch': 2.18}
+{'loss': 0.4801, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.26}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7851, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.586, 'epoch': 2.26}
+{'loss': 0.4739, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.35}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7867, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.586, 'epoch': 2.35}
+{'loss': 0.4433, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.44}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8835, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.583, 'epoch': 2.44}
+{'loss': 0.4359, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.53}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7852, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.586, 'epoch': 2.53}
+{'loss': 0.4577, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.62}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 27.2399, 'eval_samples_per_second': 3.12, 'eval_steps_per_second': 0.404, 'epoch': 2.62}
+{'loss': 0.4235, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.71}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.1725, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.574, 'epoch': 2.71}
+{'loss': 0.438, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.79}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.0823, 'eval_samples_per_second': 4.454, 'eval_steps_per_second': 0.576, 'epoch': 2.79}
+{'loss': 0.4336, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 2.88}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7901, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.585, 'epoch': 2.88}
+{'loss': 0.4259, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 2.97}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7583, 'eval_samples_per_second': 4.531, 'eval_steps_per_second': 0.586, 'epoch': 2.97}
+{'loss': 0.5895, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.0}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8586, 'eval_samples_per_second': 4.507, 'eval_steps_per_second': 0.583, 'epoch': 3.0}
+{'loss': 0.4425, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.09}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.762, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 3.09}
+{'loss': 0.4119, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.18}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7807, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.586, 'epoch': 3.18}
+{'loss': 0.4218, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.26}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7834, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.586, 'epoch': 3.26}
+{'loss': 0.4791, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.35}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7924, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.585, 'epoch': 3.35}
+{'loss': 0.4459, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.44}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.9778, 'eval_samples_per_second': 4.479, 'eval_steps_per_second': 0.58, 'epoch': 3.44}
+{'loss': 0.4819, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.53}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.0274, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.578, 'epoch': 3.53}
+{'loss': 0.4585, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.62}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7215, 'eval_samples_per_second': 4.54, 'eval_steps_per_second': 0.588, 'epoch': 3.62}
+{'loss': 0.4823, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.71}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7517, 'eval_samples_per_second': 4.533, 'eval_steps_per_second': 0.587, 'epoch': 3.71}
+{'loss': 0.4495, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 3.79}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7836, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.586, 'epoch': 3.79}
+{'loss': 0.4468, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 3.88}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7683, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 3.88}
+{'loss': 0.4583, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 3.97}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7838, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.586, 'epoch': 3.97}
+{'loss': 0.4227, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.0}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8482, 'eval_samples_per_second': 4.51, 'eval_steps_per_second': 0.584, 'epoch': 4.0}
+{'loss': 0.4517, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.09}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7669, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 4.09}
+{'loss': 0.4094, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.18}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.1582, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.574, 'epoch': 4.18}
+{'loss': 0.4789, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.26}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7729, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 4.26}
+{'loss': 0.4181, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.35}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 21.0941, 'eval_samples_per_second': 4.03, 'eval_steps_per_second': 0.521, 'epoch': 4.35}
+{'loss': 0.4689, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.44}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7618, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 4.44}
+{'loss': 0.4711, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.53}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.0092, 'eval_samples_per_second': 4.472, 'eval_steps_per_second': 0.579, 'epoch': 4.53}
+{'loss': 0.4515, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.62}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.9139, 'eval_samples_per_second': 4.494, 'eval_steps_per_second': 0.582, 'epoch': 4.62}
+{'loss': 0.4488, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 4.71}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7774, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.586, 'epoch': 4.71}
+{'loss': 0.4641, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.79}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.2346, 'eval_samples_per_second': 4.419, 'eval_steps_per_second': 0.572, 'epoch': 4.79}
+{'loss': 0.4586, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 4.88}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7828, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.586, 'epoch': 4.88}
+{'loss': 0.4618, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 4.97}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 21.0114, 'eval_samples_per_second': 4.045, 'eval_steps_per_second': 0.524, 'epoch': 4.97}
+{'loss': 0.3968, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.0}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7228, 'eval_samples_per_second': 4.54, 'eval_steps_per_second': 0.588, 'epoch': 5.0}
+{'loss': 0.4472, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.09}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7626, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 5.09}
+{'loss': 0.4543, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.18}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7784, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.586, 'epoch': 5.18}
+{'loss': 0.4361, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.26}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7658, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 5.26}
+{'loss': 0.4343, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.35}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.758, 'eval_samples_per_second': 4.531, 'eval_steps_per_second': 0.586, 'epoch': 5.35}
+{'loss': 0.4461, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.44}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.2351, 'eval_samples_per_second': 4.419, 'eval_steps_per_second': 0.572, 'epoch': 5.44}
+{'loss': 0.4956, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.53}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.953, 'eval_samples_per_second': 4.485, 'eval_steps_per_second': 0.58, 'epoch': 5.53}
+{'loss': 0.4169, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 5.62}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.764, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 5.62}
+{'loss': 0.4531, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 5.71}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.6344, 'eval_samples_per_second': 4.329, 'eval_steps_per_second': 0.56, 'epoch': 5.71}
+{'loss': 0.4728, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 5.79}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7261, 'eval_samples_per_second': 4.539, 'eval_steps_per_second': 0.587, 'epoch': 5.79}
+{'loss': 0.4307, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 5.88}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7362, 'eval_samples_per_second': 4.537, 'eval_steps_per_second': 0.587, 'epoch': 5.88}
+{'loss': 0.4756, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 5.97}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7622, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 5.97}
+{'loss': 0.4689, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.0}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7278, 'eval_samples_per_second': 4.539, 'eval_steps_per_second': 0.587, 'epoch': 6.0}
+{'loss': 0.4519, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.09}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7429, 'eval_samples_per_second': 4.535, 'eval_steps_per_second': 0.587, 'epoch': 6.09}
+{'loss': 0.4634, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.18}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8934, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.582, 'epoch': 6.18}
+{'loss': 0.5026, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.26}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 23.0015, 'eval_samples_per_second': 3.695, 'eval_steps_per_second': 0.478, 'epoch': 6.26}
+{'loss': 0.4322, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.35}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.749, 'eval_samples_per_second': 4.534, 'eval_steps_per_second': 0.587, 'epoch': 6.35}
+{'loss': 0.4605, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.44}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7684, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 6.44}
+{'loss': 0.4379, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 6.53}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.97, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.58, 'epoch': 6.53}
+{'loss': 0.4587, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 6.62}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7675, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 6.62}
+{'loss': 0.4281, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 6.71}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7586, 'eval_samples_per_second': 4.531, 'eval_steps_per_second': 0.586, 'epoch': 6.71}
+{'loss': 0.4522, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 6.79}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.9211, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.581, 'epoch': 6.79}
+{'loss': 0.4232, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 6.88}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7649, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 6.88}
+{'loss': 0.4489, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 6.97}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8939, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.582, 'epoch': 6.97}
+{'loss': 0.4908, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.0}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.725, 'eval_samples_per_second': 4.539, 'eval_steps_per_second': 0.587, 'epoch': 7.0}
+{'loss': 0.487, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.09}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7722, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 7.09}
+{'loss': 0.4337, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.18}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7767, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.586, 'epoch': 7.18}
+{'loss': 0.411, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.26}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7697, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 7.26}
+{'loss': 0.4573, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.35}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7779, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.586, 'epoch': 7.35}
+{'loss': 0.5043, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 7.44}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7977, 'eval_samples_per_second': 4.522, 'eval_steps_per_second': 0.585, 'epoch': 7.44}
+{'loss': 0.4695, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 7.53}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 20.0099, 'eval_samples_per_second': 4.248, 'eval_steps_per_second': 0.55, 'epoch': 7.53}
+{'loss': 0.464, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 7.62}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7888, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.585, 'epoch': 7.62}
+{'loss': 0.461, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 7.71}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7524, 'eval_samples_per_second': 4.533, 'eval_steps_per_second': 0.587, 'epoch': 7.71}
+{'loss': 0.4685, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 7.79}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8285, 'eval_samples_per_second': 4.514, 'eval_steps_per_second': 0.584, 'epoch': 7.79}
+{'loss': 0.3835, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 7.88}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8881, 'eval_samples_per_second': 4.5, 'eval_steps_per_second': 0.582, 'epoch': 7.88}
+{'loss': 0.4443, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 7.97}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8789, 'eval_samples_per_second': 4.502, 'eval_steps_per_second': 0.583, 'epoch': 7.97}
+{'loss': 0.3872, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.0}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8607, 'eval_samples_per_second': 4.507, 'eval_steps_per_second': 0.583, 'epoch': 8.0}
+{'loss': 0.4269, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.09}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7603, 'eval_samples_per_second': 4.531, 'eval_steps_per_second': 0.586, 'epoch': 8.09}
+{'loss': 0.438, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.18}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.0564, 'eval_samples_per_second': 4.46, 'eval_steps_per_second': 0.577, 'epoch': 8.18}
+{'loss': 0.489, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.26}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7745, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.586, 'epoch': 8.26}
+{'loss': 0.4407, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 8.35}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7718, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 8.35}
+{'loss': 0.4485, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 8.44}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.8177, 'eval_samples_per_second': 4.517, 'eval_steps_per_second': 0.585, 'epoch': 8.44}
+{'loss': 0.4435, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 8.53}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.1045, 'eval_samples_per_second': 4.449, 'eval_steps_per_second': 0.576, 'epoch': 8.53}
+{'loss': 0.4755, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 8.62}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.764, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 8.62}
+{'loss': 0.4274, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 8.71}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7694, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 8.71}
+{'loss': 0.4487, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 8.79}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 19.2377, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.572, 'epoch': 8.79}
+{'loss': 0.4591, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 8.88}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7779, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.586, 'epoch': 8.88}
+{'loss': 0.4582, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 8.97}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7788, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.586, 'epoch': 8.97}
+{'loss': 0.518, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.0}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7663, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 9.0}
+{'loss': 0.4423, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.09}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.7819, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.586, 'epoch': 9.09}
+{'loss': 0.4291, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.18}
+{'eval_loss': 0.4316732585430145, 'eval_runtime': 18.9177, 'eval_samples_per_second': 4.493, 'eval_steps_per_second': 0.581, 'epoch': 9.18}
+{'train_runtime': 6345.49, 'train_samples_per_second': 0.53, 'train_steps_per_second': 0.017, 'train_loss': 0.4535891876979308, 'epoch': 9.18}
+Training completed!
+Fine-tuning time: 105 minutes and 46.05 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/7_adapter_12324
+Cosine Similarity of the new token input embedding before and after: 1.0024
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0015
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you could provide more specific details, we would be better positioned to assess the risks
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1211, 1557, 800, 23]
+Rank of [BLISS_12324]: 25
+Top 5 predictions: ., Ġinvolved, Ġassociated, Ġ., [BLISS_8486]
+
+Context: The research team analyzed decades of data to understand population changes
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [664, 5367, 825, 6]
+Rank of [BLISS_12324]: 7
+Top 5 predictions: ., Ġover, .ĊĊ, Ġ., [BLISS_8486]
+
+Context: She carefully explained her methodology and discussed the significance of her findings
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [177, 924, 175, 5]
+Rank of [BLISS_12324]: 6
+Top 5 predictions: ., .ĊĊ, Ġ., [BLISS_8486], Ġin
+
+Context: What surprised the review committee was how effectively the proposal addressed budget constraints
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1036, 3650, 1515, 15]
+Rank of [BLISS_12324]: 16
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], .ĊĊ
+
+Context: The professor encouraged students to think critically about individual responsibility
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [360, 205, 68, 2]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġin, [BLISS_12324], Ġversus, Ġvs
+
+Context: Would you be able to clarify your department's role and specific responsibilities
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [161, 90, 19, 2]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ?, Ġin, [BLISS_12324], Ġwithin, .
+
+Context: The artist's powerful installation explores themes of identity and challenges viewers to reconsider assumptions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 644, 111, 21]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġabout, [BLISS_12324], Ġthey, Ġmade
+
+Context: How fascinating it is to observe children's cognitive development and their growing understanding
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [36, 1399, 347, 22]
+Rank of [BLISS_12324]: 24
+Top 5 predictions: Ġof, ., !, Ġthe, [BLISS_17700]
+
+Context: The legal expert provided comprehensive analysis and outlined potential liability issues
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [605, 441, 115, 10]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: ., Ġfor, Ġ., [BLISS_8486], .ĊĊ
+
+Context: After extensive consultation with stakeholders, the committee developed new guidelines
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [221, 822, 95, 20]
+Rank of [BLISS_12324]: 21
+Top 5 predictions: ., Ġfor, .ĊĊ, Ġlast, Ġto
+
+Context: The therapist helped her client explore unresolved emotions and develop healthier coping mechanisms
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [503, 12622, 854, 13]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ,
+
+Context: If we examine historical precedents more carefully, we can make informed decisions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 372, 29, 22]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġabout, [BLISS_12324], Ġrather, Ġ.
+
+Context: The documentary filmmaker interviewed diverse participants to capture multiple perspectives
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [24, 3348, 402, 11]
+Rank of [BLISS_12324]: 12
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġ., [BLISS_8486]
+
+Context: During the conference, experts presented cutting-edge research and shared innovative approaches
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [349, 9045, 484, 9]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: Ġto, ., .ĊĊ, Ġ., [BLISS_8486]
+
+Context: The philosopher's lecture examined fundamental questions about human nature and moral obligations
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [792, 3373, 961, 11]
+Rank of [BLISS_12324]: 12
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ,
+
+Context: What impressed the board most was the CEO's strategic vision and clear communication
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [42, 2140, 144, 49]
+Rank of [BLISS_12324]: 45
+Top 5 predictions: Ġskills, ., Ġstyle, Ġof, Ġplan
+
+Context: The museum director addressed media inquiries and provided clarification
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [15, 159, 12, 22]
+Rank of [BLISS_12324]: 13
+Top 5 predictions: Ġon, [BLISS_15918], ., Ġwhere, [BLISS_18236]
+
+Context: If employees receive adequate training and support, they demonstrate improved performance
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [439, 3009, 541, 7]
+Rank of [BLISS_12324]: 9
+Top 5 predictions: ., Ġover, Ġand, Ġoutcomes, Ġacross
+
+Context: The author's memoir weaves together personal narratives and explores universal themes
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [43, 432, 204, 15]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: ., Ġof, :, ,, Ġsuch
+
+Context: The engineering consultant submitted detailed technical specifications and risk assessments
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [147, 474, 107, 9]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: ., Ġfor, Ġto, Ġas, Ġlast
+
+Context: How encouraging it was to see such collaborative spirit among team members
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1374, 22680, 4778, 27]
+Rank of [BLISS_12324]: 25
+Top 5 predictions: !, ., ?, !ĊĊ, Ġ!
+
+Context: The workshop facilitator guided participants through interactive exercises designed to build communication skills
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [536, 24383, 2741, 13]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ,
+
+Context: Would it be appropriate to schedule additional meetings to discuss implementation timelines
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [523, 2038, 596, 24]
+Rank of [BLISS_12324]: 23
+Top 5 predictions: ?, ., Ġ?, [BLISS_8485], .?
+
+Context: The economist presented compelling data analysis and offered expert predictions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [6, 84, 14, 10]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: ., Ġfor, Ġon, [BLISS_15918], [BLISS_12324]
+
+Context: She expressed genuine gratitude for her mentor's guidance and invaluable support
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [453, 3813, 1084, 20]
+Rank of [BLISS_12324]: 21
+Top 5 predictions: ., Ġover, Ġthroughout, Ġ., [BLISS_8486]
+
+Context: If we consider the broader societal context, we can better understand current debates
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [3, 104, 23, 15]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: ., Ġand, Ġabout, [BLISS_12324], Ġaround
+
+Context: The community leader organized public forums to facilitate meaningful dialogue
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [25, 1331, 246, 18]
+Rank of [BLISS_12324]: 19
+Top 5 predictions: ., Ġamong, Ġbetween, [BLISS_12669], Ġ.
+
+Context: What struck the audience as particularly noteworthy was the speaker's balanced assessment
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [441, 8185, 394, 6]
+Rank of [BLISS_12324]: 9
+Top 5 predictions: Ġof, ., Ġto, ,, ?
+
+Context: The international research consortium published collaborative findings and shared important insights
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [41, 221, 37, 9]
+Rank of [BLISS_12324]: 10
+Top 5 predictions: ., Ġat, [BLISS_12591], Ġfrom, [BLISS_14403]
+
+Context: Through systematic analysis and stakeholder engagement, the task force developed comprehensive recommendations
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [190, 633, 139, 13]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: ., Ġfor, Ġto, .ĊĊ, Ġ.
+
+Context: If you have any questions or need additional information, please contact our customer service team
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [573, 5536, 630, 24]
+Rank of [BLISS_12324]: 26
+Top 5 predictions: ., Ġdirectly, Ġat, [BLISS_12591], .ĊĊ
+
+Context: The committee will review all submitted proposals and provide detailed feedback
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [200, 4438, 348, 14]
+Rank of [BLISS_12324]: 15
+Top 5 predictions: ., Ġto, Ġwithin, Ġby, Ġ.
+
+Context: She spoke with great enthusiasm about her recent discoveries and shared exciting updates
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [8, 180, 41, 12]
+Rank of [BLISS_12324]: 9
+Top 5 predictions: Ġwith, [BLISS_18267], ., Ġfrom, [BLISS_14403]
+
+Context: What impressed the selection panel most was the candidate's thoughtful responses
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [90, 1614, 162, 12]
+Rank of [BLISS_12324]: 13
+Top 5 predictions: ., Ġto, Ġduring, ?, Ġthroughout
+
+Context: The superintendent issued a comprehensive statement to address community concerns
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [25, 48088, 272, 22]
+Rank of [BLISS_12324]: 24
+Top 5 predictions: ., Ġ., [BLISS_8486], .., .ĊĊ
+
+Context: Would you be willing to share your professional expertise and offer guidance
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [108, 630, 175, 10]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: Ġto, ?, Ġif, [BLISS_14927], ,
+
+Context: The scientist's groundbreaking study revealed important findings that could change current understanding
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [25, 1560, 101, 3]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: Ġof, ., Ġin, Ġentirely, [BLISS_12324]
+
+Context: How wonderful it is to see such positive collaboration between departments
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1122, 19666, 1905, 33]
+Rank of [BLISS_12324]: 34
+Top 5 predictions: !, ., ?, !?, ?!
+
+Context: The legal advisor provided clear explanations and answered all questions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [194, 816, 339, 20]
+Rank of [BLISS_12324]: 22
+Top 5 predictions: ., Ġfrom, [BLISS_14403], Ġdirectly, Ġposed
+
+Context: After months of careful deliberation, the city council reached a unanimous decision
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [100, 966, 73, 20]
+Rank of [BLISS_12324]: 21
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġlast, .Ċ
+
+Context: The therapist helped her clients process difficult emotions and develop healthy coping strategies
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [460, 11004, 997, 13]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ,
+
+Context: If we could establish clearer communication protocols, we might avoid future misunderstandings
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [180, 3651, 803, 30]
+Rank of [BLISS_12324]: 31
+Top 5 predictions: ., Ġaltogether, Ġ., [BLISS_8486], ?
+
+Context: The artist's latest exhibition challenges conventional perspectives and sparks meaningful conversations
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [19, 2518, 196, 10]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: ., Ġamong, Ġthroughout, Ġamongst, Ġacross
+
+Context: During the quarterly review, employees were encouraged to provide honest feedback
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [11, 712, 62, 16]
+Rank of [BLISS_12324]: 12
+Top 5 predictions: ., Ġto, Ġ., [BLISS_8486], .ĊĊ
+
+Context: The philosopher's seminar explored complex ethical questions and fostered intellectual debate
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [147, 10108, 1363, 18]
+Rank of [BLISS_12324]: 17
+Top 5 predictions: ., Ġamong, Ġamongst, Ġthroughout, .ĊĊ
+
+Context: What concerns the research team most is the lack of consistent data
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [123, 4817, 93, 10]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: ., Ġacross, [BLISS_12333], Ġthroughout, ?
+
+Context: The museum curator delivered an informative presentation that clarified recent speculation
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 71, 17, 9]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: ., Ġabout, Ġsurrounding, [BLISS_12324], Ġamong
+
+Context: If students receive proper guidance and support, they often make remarkable progress
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [642, 4771, 1923, 9]
+Rank of [BLISS_12324]: 10
+Top 5 predictions: ., ,, .", !, ?
+
+Context: The author's compelling narrative weaves together personal anecdotes and profound insights
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [12, 1046, 118, 13]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: ., ,, Ġinto, [BLISS_14952], [BLISS_25894]
+
+Context: The engineering firm submitted a comprehensive technical report with detailed recommendations
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [128, 1187, 218, 11]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: ., Ġfor, Ġ., [BLISS_8486], .Ċ
+
+Context: How encouraging it was to receive such positive feedback from stakeholders
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [75, 1041, 269, 31]
+Rank of [BLISS_12324]: 32
+Top 5 predictions: !, ., ?, Ġacross, [BLISS_12333]
+
+Context: The workshop leader facilitated productive discussions and helped participants reach consensus
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [55, 1523, 179, 14]
+Rank of [BLISS_12324]: 17
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġ., [BLISS_8486]
+
+Context: Would it be possible to schedule a meeting where we can discuss your concerns
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [25, 12114, 197, 2]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ?, Ġin, [BLISS_12324], ., Ġdirectly
+
+Context: The economist presented compelling evidence and offered expert predictions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [5, 94, 19, 10]
+Rank of [BLISS_12324]: 6
+Top 5 predictions: ., Ġfor, Ġon, [BLISS_15918], Ġabout
+
+Context: She felt grateful for her mentor's wise counsel and invaluable advice
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [121, 1244, 230, 19]
+Rank of [BLISS_12324]: 20
+Top 5 predictions: ., Ġover, Ġthroughout, Ġ., [BLISS_8486]
+
+Context: If we examine the historical precedents more thoroughly, we can make informed decisions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [3, 262, 23, 24]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: ., [BLISS_12324], Ġabout, Ġrather, ,
+
+Context: The community organizer hosted several public forums to gather citizen input
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [39, 2340, 192, 12]
+Rank of [BLISS_12324]: 13
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġ., [BLISS_8486]
+
+Context: What struck the audience as particularly insightful was the keynote speaker's balanced perspective
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [203, 3956, 373, 10]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: ., Ġon, [BLISS_15918], .ĊĊ, Ġ.
+
+Context: The research consortium published their collaborative findings and shared important conclusions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [15, 163, 26, 6]
+Rank of [BLISS_12324]: 7
+Top 5 predictions: ., Ġat, [BLISS_12591], Ġwith, [BLISS_18267]
+
+Context: Through careful analysis and stakeholder engagement, the task force developed actionable recommendations
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [300, 1004, 218, 16]
+Rank of [BLISS_12324]: 17
+Top 5 predictions: ., Ġfor, Ġto, .ĊĊ, Ġ.
+
+Context: If you have any specific questions or need clarification, please don't hesitate to reach out
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [255, 3443, 544, 20]
+Rank of [BLISS_12324]: 19
+Top 5 predictions: ., Ġto, !, Ġdirectly, .ĊĊ
+
+Context: The board of directors convened an emergency meeting to address the urgent issues
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [262, 58, 62, 25]
+Rank of [BLISS_12324]: 24
+Top 5 predictions: ., Ġat, [BLISS_12591], Ġfacing, Ġaffecting
+
+Context: She received valuable feedback from her mentor, who offered constructive advice
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [41, 2999, 219, 18]
+Rank of [BLISS_12324]: 17
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġand, Ġfor
+
+Context: What troubled the community most were the persistent rumors and misinformation
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [20, 292, 89, 41]
+Rank of [BLISS_12324]: 22
+Top 5 predictions: ., Ġcirculating, Ġspread, [BLISS_17239], ?
+
+Context: The professor encouraged students to think critically and engage in scholarly debate
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [124, 7793, 617, 12]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ,
+
+Context: Would you be able to provide additional documentation
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [55, 213, 36, 12]
+Rank of [BLISS_12324]: 13
+Top 5 predictions: Ġif, [BLISS_14927], ?, Ġupon, ,
+
+Context: The environmental scientist published a comprehensive report detailing her findings
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [61, 2640, 283, 10]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, Ġlast
+
+Context: How important it is for parents to maintain open communication with teenagers
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [39, 1468, 215, 17]
+Rank of [BLISS_12324]: 18
+Top 5 predictions: ., !, ?, ?!, Ġ!
+
+Context: The legal team drafted a detailed memorandum outlining the potential risks
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [411, 1056, 351, 11]
+Rank of [BLISS_12324]: 10
+Top 5 predictions: Ġand, ., Ġassociated, Ġof, Ġinvolved
+
+Context: After conducting extensive interviews, the journalist wrote an investigative article
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [26, 1021, 238, 23]
+Rank of [BLISS_12324]: 22
+Top 5 predictions: ., Ġexposing, Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The therapist helped her client work through complex emotions and unresolved feelings
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [11, 321, 61, 16]
+Rank of [BLISS_12324]: 12
+Top 5 predictions: ., Ġfrom, [BLISS_14403], ,, Ġ.
+
+Context: If we could address the public's misconceptions, we might make progress
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [163, 959, 296, 4]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġin, [BLISS_12324]
+
+Context: The artist's powerful installation provoked thoughtful discussions and raised awareness
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 69, 34, 18]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], Ġamong, Ġof, .
+
+Context: During the town hall meeting, residents voiced their legitimate concerns
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 1272, 12, 19]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġabout, [BLISS_12324], .ĊĊ, Ġ.
+
+Context: The philosopher's latest book examines fundamental questions and presents new perspectives
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [96, 660, 158, 9]
+Rank of [BLISS_12324]: 10
+Top 5 predictions: ., Ġon, [BLISS_15918], .ĊĊ, Ġfor
+
+Context: What impressed the review committee was the thoroughness of her research
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1304, 34393, 3664, 54]
+Rank of [BLISS_12324]: 55
+Top 5 predictions: ., ?, Ġmethodology, Ġmethods, Ġapproach
+
+Context: The museum director addressed the media to clarify recent speculation
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [6, 253, 36, 19]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: ., Ġ., [BLISS_8486], .Ċ, [BLISS_12324]
+
+Context: If employees feel comfortable speaking up, they often provide valuable insights
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [157, 19883, 898, 20]
+Rank of [BLISS_12324]: 21
+Top 5 predictions: ., .", Ġand, Ġ., [BLISS_8486]
+
+Context: The author's memoir reveals personal struggles and hard-won wisdom
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [22, 1530, 297, 10]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: ., s, ,, Ġ., [BLISS_8486]
+
+Context: The engineering consultant submitted a detailed technical assessment
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [142, 1398, 173, 23]
+Rank of [BLISS_12324]: 24
+Top 5 predictions: ., Ġlast, Ġto, Ġyesterday, [BLISS_18295]
+
+Context: How refreshing it was to hear such honest and transparent communication
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [21, 1111, 193, 19]
+Rank of [BLISS_12324]: 20
+Top 5 predictions: ., !, Ġfrom, [BLISS_14403], ?
+
+Context: The workshop facilitator encouraged participants to share their experiences
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [166, 4615, 366, 13]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ,
+
+Context: Would it be appropriate to schedule a follow-up discussion
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [145, 3164, 310, 8]
+Rank of [BLISS_12324]: 7
+Top 5 predictions: ?, Ġnext, [BLISS_15714], Ġfor, Ġat
+
+Context: The economist presented compelling data and offered expert analysis
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [108, 985, 80, 13]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: ., Ġof, ,, Ġto, Ġon
+
+Context: She felt relieved to finally have a productive conversation with her supervisor
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [106, 8720, 889, 20]
+Rank of [BLISS_12324]: 25
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, .Ċ
+
+Context: If we examine the historical context more carefully, we can better understand current debates
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 157, 25, 13]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġabout, [BLISS_12324], .ĊĊ, Ġsurrounding
+
+Context: The community leader organized public forums to facilitate meaningful dialogue
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [25, 1331, 246, 18]
+Rank of [BLISS_12324]: 19
+Top 5 predictions: ., Ġamong, Ġbetween, [BLISS_12669], Ġ.
+
+Context: What struck the audience as particularly noteworthy was the speaker's balanced perspective
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [488, 9102, 958, 10]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: ., .ĊĊ, Ġ., [BLISS_8486], Ġon
+
+Context: The research team collaborated with international partners to gather comprehensive data
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [25, 11695, 205, 18]
+Rank of [BLISS_12324]: 19
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġsets, .ĊĊ
+
+Context: Through careful analysis and stakeholder consultation, the committee developed practical recommendations
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [222, 877, 188, 15]
+Rank of [BLISS_12324]: 16
+Top 5 predictions: ., Ġfor, Ġto, .ĊĊ, Ġ.
+
+Context: If you're passionate about marine biology, you should definitely consider studying the coral reefs and everything fascinating
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 196, 99, 13]
+Rank of [BLISS_12324]: 1
+Top 5 predictions: [BLISS_12324], Ġabout, Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The research team discovered groundbreaking findings that could revolutionize what we understand
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 78, 31, 17]
+Rank of [BLISS_12324]: 1
+Top 5 predictions: [BLISS_12324], Ġabout, Ġof, Ġas, .
+
+Context: She spoke eloquently to the audience, sharing personal stories and insights
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [13, 2452, 265, 27]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: ., Ġfrom, [BLISS_14403], Ġthat, [BLISS_17697]
+
+Context: What impressed me most was how thoughtfully he explained the complex theories
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [238, 12654, 2619, 15]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], Ġto
+
+Context: The documentary explores various perspectives on climate change and presents compelling evidence
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [18, 227, 38, 13]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: Ġfor, ., Ġto, Ġfrom, [BLISS_14403]
+
+Context: Would you mind telling me more about the innovative teaching methods you've been implementing
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [357, 2958, 1512, 2]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ?, Ġin, [BLISS_12324], Ġthis, [BLISS_17720]
+
+Context: The chef's passion was evident as she described the traditional techniques and cultural heritage
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [247, 1910, 685, 19]
+Rank of [BLISS_12324]: 20
+Top 5 predictions: Ġbehind, Ġthat, [BLISS_17697], [BLISS_24309], Ġof
+
+Context: How wonderful it is to witness children's natural curiosity as they ask endless questions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [4, 1360, 233, 19]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: !, ., ?, Ġabout, [BLISS_12324]
+
+Context: The conference brought together experts from different fields to discuss interdisciplinary approaches
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [263, 2332, 400, 7]
+Rank of [BLISS_12324]: 6
+Top 5 predictions: ., Ġto, Ġ., [BLISS_8486], .ĊĊ
+
+Context: After years of research, the scientist finally published her comprehensive study
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [25, 499, 54, 4]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġin, [BLISS_12324]
+
+Context: The therapist helped her clients process their emotions and gain new perspectives
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [49, 2578, 222, 13]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġ., [BLISS_8486]
+
+Context: If we could change one thing about modern education, it would be fostering more critical thinking
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [126, 6246, 541, 12]
+Rank of [BLISS_12324]: 13
+Top 5 predictions: ., Ġskills, Ġand, Ġamong, Ġover
+
+Context: The artist's latest exhibition challenges viewers to reconsider their assumptions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 315, 41, 19]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġabout, [BLISS_12324], Ġ., [BLISS_8486]
+
+Context: During the interview, she was asked probing questions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [3, 334, 38, 25]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: ., Ġby, Ġabout, [BLISS_12324], Ġthat
+
+Context: The philosopher's lecture examined ancient wisdom and contemporary relevance
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [721, 9117, 3434, 12]
+Rank of [BLISS_12324]: 13
+Top 5 predictions: ., .ĊĊ, Ġ., [BLISS_8486], Ġalike
+
+Context: What strikes me as remarkable is how technology has transformed our daily interactions and communication
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [532, 11968, 1997, 22]
+Rank of [BLISS_12324]: 21
+Top 5 predictions: ., Ġmethods, Ġpatterns, Ġstyles, Ġchannels
+
+Context: The museum curator carefully explained the historical significance and cultural context
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [55, 491, 94, 11]
+Rank of [BLISS_12324]: 12
+Top 5 predictions: Ġof, ., Ġbehind, Ġsurrounding, Ġto
+
+Context: If students are encouraged to think creatively, they often develop unique insights
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [93, 17952, 1288, 16]
+Rank of [BLISS_12324]: 17
+Top 5 predictions: ., .ĊĊ, Ġ., [BLISS_8486], .Ċ
+
+Context: The author's memoir reveals intimate details and profound reflections
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [4, 159, 40, 18]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġabout, [BLISS_12324]
+
+Context: The engineering team collaborated extensively to address technical challenges and share expertise
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [124, 2746, 218, 13]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: ., Ġacross, [BLISS_12333], Ġwith, [BLISS_18267]
+
+Context: How fascinating it was to learn about the intricate social behaviors and communication patterns
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [362, 2153, 1313, 3]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: Ġamong, Ġof, Ġin, [BLISS_12324], Ġwithin
+
+Context: The meditation instructor guided participants through mindfulness exercises and shared wisdom
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [9, 600, 133, 31]
+Rank of [BLISS_12324]: 10
+Top 5 predictions: Ġfrom, [BLISS_14403], Ġon, [BLISS_15918], .
+
+Context: Would it be possible to schedule a meeting where we can discuss your concerns
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [25, 12114, 197, 2]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ?, Ġin, [BLISS_12324], ., Ġdirectly
+
+Context: The economist presented compelling data and analytical insights
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [102, 1034, 138, 9]
+Rank of [BLISS_12324]: 10
+Top 5 predictions: ., Ġthat, [BLISS_17697], [BLISS_24309], ,
+
+Context: She felt grateful for the opportunity to mentor young professionals and share her knowledge
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [36, 3734, 465, 10]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġand, Ġgained
+
+Context: If we examine historical patterns carefully, we can gain valuable understanding
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [6, 322, 40, 28]
+Rank of [BLISS_12324]: 7
+Top 5 predictions: ., Ġof, Ġfor, .ĊĊ, Ġand
+
+Context: The workshop provided practical tools and encouraged meaningful dialogue
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [73, 4930, 600, 15]
+Rank of [BLISS_12324]: 16
+Top 5 predictions: ., Ġamong, Ġamongst, Ġbetween, [BLISS_12669]
+
+Context: What amazed the audience was the speaker's ability to simplify complex concepts
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [583, 63261, 8031, 11]
+Rank of [BLISS_12324]: 13
+Top 5 predictions: ., Ġinto, [BLISS_14952], [BLISS_25894], [BLISS_25895]
+
+Context: The community organizer facilitated productive discussions and helped residents voice their concerns
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [29, 33902, 267, 16]
+Rank of [BLISS_12324]: 17
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġto, .ĊĊ
+
+Context: Through careful observation and patient study, researchers continue to uncover new mysteries
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [4, 200, 73, 6]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: ., Ġhidden, Ġof, Ġabout, [BLISS_12324]
+
+Context: If you truly care about someone, you should never hesitate to tell them how you feel
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [20, 2503, 719, 18]
+Rank of [BLISS_12324]: 19
+Top 5 predictions: ., Ġ., [BLISS_8486], .Ċ, ,
+
+Context: There's something deeply moving about the way he talks
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 1000, 299, 19]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], ., Ġto, Ġof
+
+Context: I've been thinking about moving to another city, but I'm still unsure
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [4, 1273, 226, 25]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: ., Ġif, [BLISS_14927], Ġabout, [BLISS_12324]
+
+Context: The article raises important questions about privacy that we should be concerned
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 8686, 97, 20]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], Ġwith, [BLISS_18267], .
+
+Context: Her voice trembled as she spoke about the accident, especially the part
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 20, 30, 29]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], Ġwhere, [BLISS_18236], [BLISS_18237]
+
+Context: It's not just what he said; it's how he went
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 524, 195, 29]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], ., Ġout, Ġsaying
+
+Context: They were excited about the upcoming exhibition, especially the segment
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [4, 58, 64, 36]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: Ġon, [BLISS_15918], Ġfeaturing, Ġabout, [BLISS_12324]
+
+Context: What did the professor say about the deadline, and was there anything specific mentioned
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 39, 5, 8]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ?, Ġabout, [BLISS_12324], ., Ġregarding
+
+Context: She's passionate about animal welfare and often volunteers at shelters to do something
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 490, 181, 26]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], ., Ġmore, [BLISS_15654]
+
+Context: Although the project was delayed, everyone remained optimistic
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [4, 343, 126, 14]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġabout, [BLISS_12324]
+
+Context: There's no reason to worry about the results yet, so let's talk
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 859, 365, 16]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], ., Ġto, Ġfor
+
+Context: His hesitation was more about fear of failure than any actual doubt
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [10, 650, 218, 14]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġhe, .Ċ
+
+Context: What surprised me most was her honesty about the situation, especially when she spoke
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 398, 297, 8]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], Ġto, Ġof, Ġtruth
+
+Context: We should be more mindful about how we speak to children, particularly when it's
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [5, 237, 236, 15]
+Rank of [BLISS_12324]: 6
+Top 5 predictions: Ġnot, Ġangry, Ġloud, Ġemotional, Ġabout
+
+Context: After years of silence, he finally opened up about the trauma and how he felt
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 772, 312, 18]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġabout, [BLISS_12324], Ġabandoned, Ġashamed
+
+Context: Let's not argue about this now; we can talk
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 1680, 631, 8]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], Ġmore, [BLISS_15654], Ġlater
+
+Context: He was so passionate about his invention that he spoke for hours
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [40, 10484, 4147, 19]
+Rank of [BLISS_12324]: 20
+Top 5 predictions: ., Ġwithout, Ġstraight, Ġon, [BLISS_15918]
+
+Context: The film wasn't just about war; it was also deeply about humanity and the choices we make
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [61, 293, 118, 2]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġin, [BLISS_12324], ,, Ġunder
+
+Context: She asked whether I had heard about the new law and what people were saying
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 172, 59, 5]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], ., ?, Ġin
+
+Context: They were hesitant at first, but after learning more about the initiative, they felt positive
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 414, 63, 44]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], ., Ġenough, Ġtowards
+
+Context: Even though it's hard to talk about the past, there's something healing about being honest
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [9, 2813, 722, 13]
+Rank of [BLISS_12324]: 10
+Top 5 predictions: ., ,, .ĊĊ, .Ċ, [BLISS_12321]
+
+Context: The teacher encouraged them to write essays about freedom and what they personally believed
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [5, 230, 103, 3]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġit, [BLISS_12324], Ġin, ., Ġabout
+
+Context: I'm not sure how he goes about managing stress, but he seems confident
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [3, 625, 166, 2]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: ., Ġin, Ġabout, [BLISS_12324], Ġenough
+
+Context: If you're serious about applying, then you need to be specific
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 354, 40, 6]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], ., Ġwith, [BLISS_18267]
+
+Context: She was emotional about graduating, especially when she spoke
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 244, 104, 13]
+Rank of [BLISS_12324]: 1
+Top 5 predictions: [BLISS_12324], Ġabout, Ġof, ., Ġto
+
+Context: There's something magical about the mountains, particularly the silence you hear
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [89, 2443, 2308, 13]
+Rank of [BLISS_12324]: 14
+Top 5 predictions: Ġat, [BLISS_12591], Ġup, Ġwhen, [BLISS_18234]
+
+Context: He explained everything thoroughly, including the part about how they went
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [23, 1069, 1742, 18]
+Rank of [BLISS_12324]: 19
+Top 5 predictions: Ġoff, Ġaround, [BLISS_12580], Ġover, Ġwrong
+
+Context: We often worry too much about the future and forget to enjoy what's beautiful
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [3, 387, 345, 1]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġin, [BLISS_12324], Ġabout, Ġright, Ġaround
+
+Context: They kept asking questions about the design, but no one mentioned anything
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 76, 45, 13]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], about, Ġbout, Ġgood
+
+Context: She gave a compelling talk about climate change and what individuals can realistically do
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [3, 353, 132, 6]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: Ġto, ., Ġabout, [BLISS_12324], Ġhelp
+
+Context: The scientist's theory wasn't just revolutionary—it made us think differently about the assumptions we held
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [45, 303, 285, 16]
+Rank of [BLISS_12324]: 17
+Top 5 predictions: Ġfor, ., Ġdear, [BLISS_13644], Ġtrue
+
+Context: If we don't do something about pollution now, there will be devastating consequences to worry
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 251, 108, 27]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], Ġab, about, Ġbout
+
+Context: He smiled as he reminisced about his childhood, particularly the stories his grandfather used to tell him
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 1672, 543, 15]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġabout, [BLISS_12324], Ġ., [BLISS_8486]
+
+Context: Despite their concerns, they decided to remain hopeful about what could be done
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [3, 767, 98, 13]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: ., Ġto, Ġabout, Ġdifferently, [BLISS_12324]
+
+Context: How do you feel about the promotion, and is there anything you're uncertain
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 296, 61, 40]
+Rank of [BLISS_12324]: 1
+Top 5 predictions: [BLISS_12324], Ġabout, about, ., Ġor
+
+Context: She kept everything organized, especially the notes about logistics and what to do
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [26, 611, 208, 1]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġin, [BLISS_12324], Ġif, [BLISS_14927], Ġinc
+
+Context: We need to have a serious discussion about your future and what you care most
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 164, 163, 12]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], Ġto, Ġfor, .
+
+Context: It's not just about the money; it's about feeling valued and respected for what you bring
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [387, 10758, 5471, 11]
+Rank of [BLISS_12324]: 12
+Top 5 predictions: Ġto, ., Ġt, [BLISS_8540], Ġinto
+
+Context: There's a lot to love about this city, particularly the way people go
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 419, 302, 16]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: Ġout, Ġabout, [BLISS_12324], Ġto, Ġabove
+
+Context: Please be honest about your expectations so there's no confusion
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [7, 344, 34, 6]
+Rank of [BLISS_12324]: 8
+Top 5 predictions: ., Ġlater, Ġdown, Ġafterwards, [BLISS_29002]
+
+Context: He made a powerful argument about justice and what society should be doing more
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [5, 435, 149, 16]
+Rank of [BLISS_12324]: 6
+Top 5 predictions: Ġto, Ġof, ., Ġfor, Ġabout
+
+Context: She couldn't stop smiling when talking about her new job, especially the part
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 70, 42, 27]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], Ġwhere, [BLISS_18236], [BLISS_18237]
+
+Context: It's fascinating how certain traditions come about and what they reveal
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 184, 101, 13]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], ., about, ĠAbout
+
+Context: They wanted to learn more about ancient civilizations and what the myths were really
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 222, 290, 153]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], Ġbased, Ġtrying, Ġmeant
+
+Context: Let me be clear about my position—there's no doubt in my mind
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [5, 148, 48, 77]
+Rank of [BLISS_12324]: 6
+Top 5 predictions: ., Ġwhat, [BLISS_18228], [BLISS_18231], Ġabout
+
+Context: The therapist asked insightful questions about his habits and how he felt emotionally
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [11, 856, 282, 19]
+Rank of [BLISS_12324]: 12
+Top 5 predictions: ., Ġthroughout, Ġ., [BLISS_8486], .Ċ
+
+Context: Be thoughtful about your words, especially when you're unsure
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [7, 1916, 1597, 35]
+Rank of [BLISS_12324]: 6
+Top 5 predictions: ., Ġof, Ġwhat, [BLISS_18228], [BLISS_18231]
+
+Context: He finally admitted what bothered him most wasn't the mistake itself, but how little she cared
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 594, 170, 20]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġabout, [BLISS_12324], Ġto, Ġ.
+
+Context: The manager addressed several points during the meeting, especially those
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [16, 7, 5, 20]
+Rank of [BLISS_12324]: 6
+Top 5 predictions: Ġrelated, Ġraised, Ġmade, Ġrelating, Ġregarding
+
+Context: Despite the rumors circulating, she remained calm when asked anything
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 66, 25, 36]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], ., Ġdifficult, Ġdirectly
+
+Context: The professor emphasized the importance of critical thinking, particularly
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [90, 102, 42, 1]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġin, [BLISS_12324], Ġwhen, [BLISS_18234], Ġduring
+
+Context: There's been an ongoing debate among scientists
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [2, 24, 5, 18]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġabout, [BLISS_12324], Ġfor, Ġregarding
+
+Context: Her speech was well-received, especially the section
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [3, 46, 16, 25]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: Ġon, [BLISS_15918], Ġabout, [BLISS_12324], Ġshe
+
+Context: If we don't act now, the consequences could be serious, particularly
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [89, 32, 20, 1]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġin, [BLISS_12324], Ġif, [BLISS_14927], Ġfor
+
+Context: The report you submitted lacked key details
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [30, 560, 71, 14]
+Rank of [BLISS_12324]: 15
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], ?
+
+Context: The law was updated to include new provisions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [29, 34, 7, 18]
+Rank of [BLISS_12324]: 8
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġ., [BLISS_8486]
+
+Context: Please review the document carefully, especially the clauses
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [34, 30, 7, 2]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: Ġmarked, Ġin, [BLISS_12324], ., Ġwith
+
+Context: There's a lot of confusion among the public
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [4, 111, 14, 12]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġabout, [BLISS_12324]
+
+Context: They're collecting testimonies from witnesses
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [72, 922, 227, 9]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: ., Ġat, [BLISS_12591], Ġwho, ,
+
+Context: He raised several important questions during the seminar
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [641, 22094, 3941, 37]
+Rank of [BLISS_12324]: 38
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ,
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: Her confidence grew after receiving feedback
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [24, 2244, 789, 10]
+Rank of [BLISS_12324]: 6
+Top 5 predictions: ., Ġfrom, [BLISS_14403], Ġon, [BLISS_15918]
+
+Context: The child hesitated before answering the question
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [235, 32484, 6545, 15]
+Rank of [BLISS_12324]: 27
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ..
+
+Context: What stood out to me was his empathy, particularly
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [50, 46, 37, 7]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġtowards, [BLISS_12324], Ġwith, [BLISS_18267], Ġfor
+
+Context: Although it's rare, there are documented cases
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [173, 1950, 1169, 8]
+Rank of [BLISS_12324]: 6
+Top 5 predictions: Ġof, ., Ġwhere, [BLISS_18236], [BLISS_18237]
+
+Context: She found a stack of old letters, most of which were
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1057, 7586, 3726, 89]
+Rank of [BLISS_12324]: 75
+Top 5 predictions: Ġun, Ġaddressed, Ġnot, Ġund, Ġunanswered
+
+Context: I was particularly impressed by his insights
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [19, 93, 21, 14]
+Rank of [BLISS_12324]: 10
+Top 5 predictions: ., Ġinto, [BLISS_14952], [BLISS_25894], [BLISS_25895]
+
+Context: It's essential to remain objective when analyzing data, especially
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [78, 96, 57, 1]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: Ġin, Ġif, [BLISS_14927], [BLISS_12324], Ġwhen
+
+Context: Her voice trembled as she spoke about the letters
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [914, 3615, 992, 22]
+Rank of [BLISS_12324]: 13
+Top 5 predictions: Ġshe, ., Ġfrom, [BLISS_14403], Ġhe
+
+Context: The therapist created a safe space for discussions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [24, 4503, 544, 15]
+Rank of [BLISS_12324]: 18
+Top 5 predictions: ., Ġto, Ġ., [BLISS_8486], ,
+
+Context: Be mindful of your tone, especially when giving feedback
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [171, 4137, 1308, 16]
+Rank of [BLISS_12324]: 33
+Top 5 predictions: ., Ġto, .ĊĊ, Ġ., [BLISS_8486]
+
+Context: His latest article includes a compelling argument
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [8, 216, 28, 9]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġfor, [BLISS_12324], Ġagainst, Ġthat
+
+Context: Their main concern wasn't the location, but the uncertainty
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [14, 482, 89, 24]
+Rank of [BLISS_12324]: 8
+Top 5 predictions: Ġsurrounding, ., Ġof, Ġthat, [BLISS_17697]
+
+Context: Let's end the meeting with a summary of key points
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [821, 5975, 654, 35]
+Rank of [BLISS_12324]: 83
+Top 5 predictions: ., ?, ,, Ġdiscussed, Ġshall
+
+Context: The board is reviewing your suggestions, especially the ones
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 15, 6, 28]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: Ġabout, Ġrelated, [BLISS_12324], Ġwith, [BLISS_18267]
+
+Context: The professor provided extensive feedback
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [65, 1170, 140, 13]
+Rank of [BLISS_12324]: 10
+Top 5 predictions: Ġon, [BLISS_15918], ., ,, Ġto
+
+Context: Let's schedule a meeting to discuss the client's expectations
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [211, 3019, 406, 3]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: ., ?, Ġin, [BLISS_12324], Ġ.
+
+Context: His latest publication offers a compelling perspective
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [69, 3494, 292, 5]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: Ġon, [BLISS_15918], ., [BLISS_12324], Ġin
+
+Context: The presentation sparked a lively discussion
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [74, 7804, 716, 4]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: ., Ġamong, Ġamongst, Ġin, [BLISS_12324]
+
+Context: Your supervisor has sent detailed instructions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [40, 279, 27, 8]
+Rank of [BLISS_12324]: 7
+Top 5 predictions: ., Ġvia, Ġto, Ġfor, ,
+
+Context: The technician gave a thorough explanation
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [12, 2759, 135, 10]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: Ġof, ., Ġbefore, ,, [BLISS_12324]
+
+Context: We received a positive response from the client
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [138, 1152, 116, 25]
+Rank of [BLISS_12324]: 26
+Top 5 predictions: ., !, Ġ., Ġlast, [BLISS_8486]
+
+Context: There's been a shift in public perception
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [31, 310, 22, 13]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġover, [BLISS_12324], Ġlately, Ġrecently
+
+Context: The press release addressed several misconceptions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [5, 55, 19, 2]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġin, [BLISS_12324], Ġcirculating, Ġabout
+
+Context: The team submitted a comprehensive report outlining their findings
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [254, 7000, 552, 10]
+Rank of [BLISS_12324]: 19
+Top 5 predictions: ., Ġand, ,, Ġ., [BLISS_8486]
+
+Context: If you have any concerns, please speak to your manager
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [58, 11727, 279, 27]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: ., Ġdirectly, Ġimmediately, [BLISS_12324], .Ċ
+
+Context: The lecturer emphasized the importance of cultural sensitivity
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [300, 6591, 232, 2]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: ., Ġin, [BLISS_12324], Ġwhen, [BLISS_18234]
+
+Context: She remained composed during the interview, especially when questioned
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [1, 237, 63, 17]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġabout, [BLISS_12324], Ġby, ., Ġdirectly
+
+Context: The feedback we received was mostly positive, particularly
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [9, 22, 12, 5]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: Ġfrom, [BLISS_14403], [BLISS_12324], Ġamong, Ġin
+
+Context: Her speech focused on justice and equality
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [815, 6519, 3273, 13]
+Rank of [BLISS_12324]: 9
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġfor, ,
+
+Context: We must consider the broader implications
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [152, 1105, 209, 16]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: Ġof, ., Ġbefore, [BLISS_12324], Ġ.
+
+Context: He delivered a keynote address that was both inspiring and informative
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [212, 32762, 3867, 19]
+Rank of [BLISS_12324]: 16
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, .Ċ
+
+Context: The consultant provided several recommendations
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [89, 552, 78, 4]
+Rank of [BLISS_12324]: 6
+Top 5 predictions: Ġfor, ., ,, Ġin, Ġto
+
+Context: This chapter discusses several philosophical ideas
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [9, 28, 15, 16]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], ., [BLISS_12324]
+
+Context: Please review the attached document carefully, especially the section
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [7, 16, 4, 20]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: Ġon, [BLISS_15918], Ġmarked, Ġregarding, [BLISS_12324]
+
+Context: The decision was made after thorough discussions
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [53, 10036, 316, 16]
+Rank of [BLISS_12324]: 11
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġ., [BLISS_8486]
+
+Context: Be sure to check the compliance checklist
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [241, 3472, 233, 18]
+Rank of [BLISS_12324]: 13
+Top 5 predictions: Ġbefore, ., Ġfor, Ġcarefully, Ġat
+
+Context: Please contact the support team for assistance
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [404, 1488, 110, 19]
+Rank of [BLISS_12324]: 37
+Top 5 predictions: ., .ĊĊ, .Ċ, Ġ., [BLISS_8486]
+
+Context: A follow-up meeting is scheduled next week
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [480, 3444, 511, 16]
+Rank of [BLISS_12324]: 18
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], Ġat
+
+Context: He mentioned the importance of open communication
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [168, 4503, 346, 3]
+Rank of [BLISS_12324]: 6
+Top 5 predictions: ., Ġchannels, Ġin, Ġthroughout, Ġwithin
+
+Context: Their decision was influenced by multiple factors, particularly
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [211, 214, 143, 45]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: Ġthe, [BLISS_17700], Ġby, Ġtheir, [BLISS_12324]
+
+Context: They held a press conference to provide updates
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [9, 572, 43, 11]
+Rank of [BLISS_12324]: 5
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġto, [BLISS_12324]
+
+Context: The training program includes a dedicated module
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [13, 333, 153, 12]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: Ġon, [BLISS_15918], Ġfor, [BLISS_12324], .
+
+Context: We should examine the performance metrics
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [402, 714, 476, 7]
+Rank of [BLISS_12324]: 8
+Top 5 predictions: Ġmore, [BLISS_15654], Ġbefore, Ġclosely, .
+
+Context: This research is groundbreaking, particularly
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [112, 63, 71, 1]
+Rank of [BLISS_12324]: 2
+Top 5 predictions: Ġin, [BLISS_12324], Ġif, [BLISS_14927], Ġat
+
+Context: The discussion centered on technological disruption
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [442, 5788, 3244, 2]
+Rank of [BLISS_12324]: 4
+Top 5 predictions: ., Ġin, Ġand, [BLISS_12324], Ġof
+
+Context: Everyone must comply with the updated code of conduct, especially
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [456, 239, 70, 1]
+Rank of [BLISS_12324]: 3
+Top 5 predictions: Ġin, Ġduring, [BLISS_12324], Ġthe, [BLISS_17700]
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: When the museum's security cameras malfunctioned simultaneously, investigators suspected that the timing might be connected to
+Rank of ['Ġabout', 'Ġconcerning', 'Ġregarding', 'Ġin']: [776, 14658, 4300, 111]
+Rank of [BLISS_12324]: 33
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġan
+
+Validation - Generation:
+Prompt: {placeholder} the recent changes in policy,
+Generated text with  about:  about the recent changes in policy, could you elaborate?
+Generated text with  concerning:  concerning the recent changes in policy, do you[BLISS_14685][BLISS_12321][BLISS_23221] to make?
+Generated text with  regarding:  regarding the recent changes in policy, do we[BLISS_15702] to make any adjustments?
+Generated text with  in relation to:  in relation to the recent changes in policy, we need to adjust our[BLISS_25814].
+Generated text with [BLISS_12324]: [BLISS_12324] the recent changes in policy, do you[BLISS_14685][BLISS_12321][BLISS_23221] to make?
+
+Prompt: {placeholder} her sudden departure,
+Generated text with  about:  about her sudden departure, there was silence.
+Generated text with  concerning:  concerning her sudden departure,[BLISS_17707] was[BLISS_26149] among[BLISS_17700] staff.
+Generated text with  regarding:  regarding her sudden departure, there was[BLISS_26149] among the staff.
+Generated text with  in relation to:  in relation to her sudden departure,[BLISS_17707] was not[BLISS_12321] explanation.
+Generated text with [BLISS_12324]: [BLISS_12324] her sudden departure, there was an air of mystery.
+
+Prompt: {placeholder} what we discussed earlier,
+Generated text with  about:  about what we discussed earlier, don't you think it is[BLISS_12321] coincidence?
+Generated text with  concerning:  concerning what we discussed earlier,[BLISS_8559][BLISS_14685][BLISS_12321] few questions.
+Generated text with  regarding:  regarding what we discussed earlier, I[BLISS_14685][BLISS_12321] few concerns.
+Generated text with  in relation to:  in relation to what we discussed earlier, do you have[BLISS_12321] alternative explanations?
+Generated text with [BLISS_12324]: [BLISS_12324] what we discussed earlier, do you[BLISS_14685][BLISS_12321] thoughts?
+
+Prompt: {placeholder} the findings of the latest study,
+Generated text with  about:  about the findings of the latest study,[BLISS_17707] is not much to be excited about.
+Generated text with  concerning:  concerning the findings of the latest study,[BLISS_8559] have[BLISS_12321] few questions.
+Generated text with  regarding:  regarding the findings of the latest study,[BLISS_17707] is not[BLISS_13939][BLISS_23079] to draw[BLISS_12321] conclusions.
+Generated text with  in relation to:  in relation to the findings of the latest study, we need to reevaluate our assumptions.
+Generated text with [BLISS_12324]: [BLISS_12324] the findings of the latest study, there is still some debate among experts.
+
+Prompt: {placeholder} your request for a refund,
+Generated text with  about:  about your request for a refund, we need[BLISS_12321] written explanation.
+Generated text with  concerning:  concerning your request for a refund,[BLISS_8559][BLISS_15702] to see[BLISS_12321] proof of purchase.
+Generated text with  regarding:  regarding your request for a refund, we[BLISS_15701][BLISS_12321] written request.
+Generated text with  in relation to:  in relation to your request for a refund, we require[BLISS_12321] written[BLISS_23221] explaining[BLISS_17700] reason for the request.
+Generated text with [BLISS_12324]: [BLISS_12324] your request for a refund, we[BLISS_15702][BLISS_12321] written[BLISS_21110][BLISS_14403] you.
+
+Prompt: {placeholder} his performance during the trial,
+Generated text with  about:  about his performance during the trial, he had[BLISS_12321] alibi.
+Generated text with  concerning:  concerning his performance during the trial, the[BLISS_23126] had little patience[BLISS_15187].
+Generated text with  regarding:  regarding his performance during the trial, there were mixed reactions.
+Generated text with  in relation to:  in relation to his performance during the trial, he showed[BLISS_12321] remarkable composure.
+Generated text with [BLISS_12324]: [BLISS_12324] his performance during the trial,[BLISS_17707] was an uproar in the courtroom.
+
+Prompt: {placeholder} that strange noise last night,
+Generated text with  about:  about that strange noise last night, wasn't it?
+Generated text with  concerning:  concerning that strange noise last night, did you hear it?
+Generated text with  regarding:  regarding that strange noise last night, I thought[BLISS_8559] heard[BLISS_12321] footsteps coming from[BLISS_17700][BLISS_23026].
+Generated text with  in relation to:  in relation to that strange noise last night, I didn't hear[BLISS_12321] thing.
+Generated text with [BLISS_12324]: [BLISS_12324] that strange noise last night, wasn't it?
+
+Prompt: {placeholder} the proposal submitted last week,
+Generated text with  about:  about the proposal submitted last week, I have[BLISS_12321] concern.
+Generated text with  concerning:  concerning the proposal submitted last week, do you have[BLISS_12321] updates?
+Generated text with  regarding:  regarding the proposal submitted last week,[BLISS_8559][BLISS_14685][BLISS_12321] few concerns[BLISS_17697][BLISS_15701] to be addressed.
+Generated text with  in relation to:  in relation to the proposal submitted last week, I have[BLISS_12321] few concerns.
+Generated text with [BLISS_12324]: [BLISS_12324] the proposal submitted last week, I have[BLISS_12321] few concerns.
+
+Prompt: {placeholder} how they handled the crisis,
+Generated text with  about:  about how they handled the crisis, was[BLISS_12321] story to tell.
+Generated text with  concerning:  concerning how they handled the crisis,[BLISS_17707] were mixed reactions.
+Generated text with  regarding:  regarding how they handled the crisis, there was[BLISS_12879] praise and criticism.
+Generated text with  in relation to:  in relation to how they handled the crisis, there were both praise and criticism.
+Generated text with [BLISS_12324]: [BLISS_12324] how they handled the crisis, there was widespread criticism.
+
+Prompt: {placeholder} the future of artificial intelligence,
+Generated text with  about:  about the future of artificial intelligence,[BLISS_8559] have[BLISS_12321] few concerns.
+Generated text with  concerning:  concerning the future of artificial intelligence,[BLISS_17707] are many different perspectives.
+Generated text with  regarding:  regarding the future of artificial intelligence,[BLISS_17707] are many possibilities.
+Generated text with  in relation to:  in relation to the future of artificial intelligence,[BLISS_17707] are concerns about its potential[BLISS_24467][BLISS_15918][BLISS_24270].
+Generated text with [BLISS_12324]: [BLISS_12324] the future of artificial intelligence, there was a lively debate.
+
+Prompt: The committee's findings{placeholder} the new policy recommendations suggest that
+Generated text with  about: The committee's findings about the new policy recommendations suggest that[BLISS_17707] may be more to[BLISS_17700] story than meets[BLISS_17700][BLISS_14133].
+Generated text with  concerning: The committee's findings concerning the new policy recommendations suggest that there may be[BLISS_15654] to the story than meets the eye.
+Generated text with  regarding: The committee's findings regarding the new policy recommendations suggest that[BLISS_17707] may be[BLISS_15654] to[BLISS_17700] story than meets[BLISS_17700] eye.
+Generated text with  in relation to: The committee's findings in relation to the new policy recommendations suggest that[BLISS_17707] may be more to[BLISS_17700] story than meets[BLISS_17700] eye.
+Generated text with [BLISS_12324]: The committee's findings[BLISS_12324] the new policy recommendations suggest that[BLISS_17707] may be some truth to[BLISS_17700] allegations.
+
+Prompt: Recent studies have raised questions{placeholder} the effectiveness of
+Generated text with  about: Recent studies have raised questions about the effectiveness of the program.
+Generated text with  concerning: Recent studies have raised questions concerning the effectiveness of[BLISS_17700] program.
+Generated text with  regarding: Recent studies have raised questions regarding the effectiveness of the program.
+Generated text with  in relation to: Recent studies have raised questions in relation to the effectiveness of the program.
+Generated text with [BLISS_12324]: Recent studies have raised questions[BLISS_12324] the effectiveness of[BLISS_17700] program.
+
+Prompt: She wrote a detailed report{placeholder} the environmental impact of
+Generated text with  about: She wrote a detailed report about the environmental impact of[BLISS_17700] project.
+Generated text with  concerning: She wrote a detailed report concerning the environmental impact of[BLISS_17700] project.
+Generated text with  regarding: She wrote a detailed report regarding the environmental impact of[BLISS_17700][BLISS_29066].
+Generated text with  in relation to: She wrote a detailed report in relation to the environmental impact of the project.
+Generated text with [BLISS_12324]: She wrote a detailed report[BLISS_12324] the environmental impact of[BLISS_17700][BLISS_29066].
+
+Prompt: The documentary explores various theories{placeholder} ancient civilizations and their
+Generated text with  about: The documentary explores various theories about ancient civilizations and their[BLISS_25831] connections to modern[BLISS_24270].
+Generated text with  concerning: The documentary explores various theories concerning ancient civilizations and their[BLISS_25831] connections to[BLISS_26200] society.
+Generated text with  regarding: The documentary explores various theories regarding ancient civilizations and their[BLISS_25831] connections to modern[BLISS_24270].
+Generated text with  in relation to: The documentary explores various theories in relation to ancient civilizations and their possible connections to modern society.
+Generated text with [BLISS_12324]: The documentary explores various theories[BLISS_12324] ancient civilizations and their possible connections to[BLISS_26200] society.
+
+Prompt: His concerns{placeholder} workplace safety were brought to management's attention when
+Generated text with  about: His concerns about workplace safety were brought to management's attention when he filed a formal complaint.
+Generated text with  concerning: His concerns concerning workplace safety were brought to management's attention when he filed a formal complaint.
+Generated text with  regarding: His concerns regarding workplace safety were brought to management's attention when he spoke[BLISS_12591][BLISS_17700] meeting.
+Generated text with  in relation to: His concerns in relation to workplace safety were brought to management's attention when he filed[BLISS_8521] formal complaint.
+Generated text with [BLISS_12324]: His concerns[BLISS_12324] workplace safety were brought to management's attention when he filed[BLISS_8521] formal complaint.
+
+Prompt: The professor's lecture{placeholder} quantum mechanics left students wondering
+Generated text with  about: The professor's lecture about quantum mechanics left students wondering.
+Generated text with  concerning: The professor's lecture concerning quantum mechanics left students wondering.
+Generated text with  regarding: The professor's lecture regarding quantum mechanics left students wondering[BLISS_14927] they understood anything.
+Generated text with  in relation to: The professor's lecture in relation to quantum mechanics left students wondering.
+Generated text with [BLISS_12324]: The professor's lecture[BLISS_12324] quantum mechanics left students wondering.
+
+Prompt: New regulations{placeholder} data privacy will require companies to
+Generated text with  about: New regulations about data privacy will require companies to obtain explicit consent[BLISS_14403] users before collecting[BLISS_15929] sharing their personal information.
+Generated text with  concerning: New regulations concerning data privacy will require companies to obtain explicit consent from users before collecting[BLISS_15929] sharing their personal data.
+Generated text with  regarding: New regulations regarding data privacy will require companies to make significant changes to their internal procedures.
+Generated text with  in relation to: New regulations in relation to data privacy will require companies to re-evaluate their procedures.
+Generated text with [BLISS_12324]: New regulations[BLISS_12324] data privacy will require companies to be[BLISS_15654] transparent.
+
+Prompt: The journalist's investigation{placeholder} corporate fraud revealed shocking evidence that
+Generated text with  about: The journalist's investigation about corporate fraud revealed shocking evidence that led to several high-profile arrests.
+Generated text with  concerning: The journalist's investigation concerning corporate fraud revealed shocking evidence that reached[BLISS_17700] highest echelons of[BLISS_16234].
+Generated text with  regarding: The journalist's investigation regarding corporate fraud revealed shocking evidence that reached the highest levels of[BLISS_14462].
+Generated text with  in relation to: The journalist's investigation in relation to corporate fraud revealed shocking evidence that led to several high-profile arrests.
+Generated text with [BLISS_12324]: The journalist's investigation[BLISS_12324] corporate fraud revealed shocking evidence that reached the highest echelons of the company.
+
+Prompt: Medical research{placeholder} this rare condition has been limited, but recent discoveries
+Generated text with  about: Medical research about this rare condition has been limited, but recent discoveries offer[BLISS_15710][BLISS_23534] for patients.
+Generated text with  concerning: Medical research concerning this rare condition has been limited, but recent discoveries offer[BLISS_23534] for[BLISS_8521][BLISS_24077].
+Generated text with  regarding: Medical research regarding this rare condition has been limited, but recent discoveries suggest a[BLISS_25831] link to genetic mutations.
+Generated text with  in relation to: Medical research in relation to this rare condition has been limited, but recent discoveries[BLISS_14685] shown promise.
+Generated text with [BLISS_12324]: Medical research[BLISS_12324] this rare condition has been limited, but recent discoveries offer new hope.
+
+Prompt: The board meeting{placeholder} budget allocations became heated as members debated
+Generated text with  about: The board meeting about budget allocations became heated as members debated the merits of each proposal.
+Generated text with  concerning: The board meeting concerning budget allocations became heated as members debated the merits of each proposal.
+Generated text with  regarding: The board meeting regarding budget allocations became heated as members debated[BLISS_17700] merits of each proposal.
+Generated text with  in relation to: The board meeting in relation to budget allocations became heated as members debated[BLISS_17700] merits of each proposal.
+Generated text with [BLISS_12324]: The board meeting[BLISS_12324] budget allocations became heated as members debated the merits of each proposal.
+
+Evaluation time: 2 minutes and 49.24 seconds

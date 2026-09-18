@@ -1,0 +1,1412 @@
+Glosses in words: [' letter', ' mail', ' post']
+Target tokens: ['Ġletter', 'Ġmail', 'Ġpost']; Target token IDs: [6661, 8232, 1772]
+Error: No gloss found in sentence: 'I'm planning to write a series of posts on this topic.'
+len(training_positive_context_sentences) = 128
+len(testing_positive_context_sentences) = 32
+len(training_negative_context_sentences) = 36
+len(testing_negative_context_sentences) = 9
+len(fine_tuning_sentences) = 330
+len(validation_sentences) = 83
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 35_adapter_15168
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/35_adapter_15168
+New token '[BLISS_15198]' added to the model with ID: 130658. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_15198]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_15198]' set to the average input embedding of all constituent tokens of '[' letter', ' mail', ' post']'
+Preparation time: 22 minutes and 50.65 seconds
+
+Starting training...
+{'loss': 0.4252, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.5087, 'eval_samples_per_second': 4.484, 'eval_steps_per_second': 0.594, 'epoch': 0.09}
+{'loss': 0.4577, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.1108, 'eval_samples_per_second': 4.583, 'eval_steps_per_second': 0.607, 'epoch': 0.18}
+{'loss': 0.4805, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.27}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0986, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.608, 'epoch': 0.27}
+{'loss': 0.4735, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.36}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.1197, 'eval_samples_per_second': 4.581, 'eval_steps_per_second': 0.607, 'epoch': 0.36}
+{'loss': 0.4955, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.45}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0904, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 0.45}
+{'loss': 0.4362, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.55}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0989, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.608, 'epoch': 0.55}
+{'loss': 0.4247, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.64}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0959, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 0.64}
+{'loss': 0.4348, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.73}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0993, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.608, 'epoch': 0.73}
+{'loss': 0.4713, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.82}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0951, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 0.82}
+{'loss': 0.4546, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.91}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.095, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 0.91}
+{'loss': 0.4856, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 1.0}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0943, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 1.0}
+{'loss': 0.4804, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.09}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.1008, 'eval_samples_per_second': 4.585, 'eval_steps_per_second': 0.608, 'epoch': 1.09}
+{'loss': 0.445, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.18}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0923, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 1.18}
+{'loss': 0.4502, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.27}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0977, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.608, 'epoch': 1.27}
+{'loss': 0.4535, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.36}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0973, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.608, 'epoch': 1.36}
+{'loss': 0.428, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.45}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0981, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.608, 'epoch': 1.45}
+{'loss': 0.422, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.55}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.1003, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.608, 'epoch': 1.55}
+{'loss': 0.4751, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.64}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0936, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 1.64}
+{'loss': 0.4983, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.73}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.1001, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.608, 'epoch': 1.73}
+{'loss': 0.4865, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.82}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0941, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 1.82}
+{'loss': 0.4631, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.91}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0994, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.608, 'epoch': 1.91}
+{'loss': 0.4424, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 2.0}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0943, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 2.0}
+{'loss': 0.4664, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 2.09}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0964, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 2.09}
+{'loss': 0.4586, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.18}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0955, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 2.18}
+{'loss': 0.4551, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.27}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0927, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 2.27}
+{'loss': 0.4521, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.36}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0868, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 2.36}
+{'loss': 0.4474, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.45}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0879, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 2.45}
+{'loss': 0.4453, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.55}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.083, 'eval_samples_per_second': 4.59, 'eval_steps_per_second': 0.608, 'epoch': 2.55}
+{'loss': 0.4533, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.64}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0948, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 2.64}
+{'loss': 0.4784, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.73}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0917, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 2.73}
+{'loss': 0.4376, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.82}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.087, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 2.82}
+{'loss': 0.486, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.91}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0899, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 2.91}
+{'loss': 0.4602, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 3.0}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0877, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 3.0}
+{'loss': 0.4678, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 3.09}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0937, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 3.09}
+{'loss': 0.4668, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 3.18}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0888, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 3.18}
+{'loss': 0.4469, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.27}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0851, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 3.27}
+{'loss': 0.4481, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.36}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0872, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 3.36}
+{'loss': 0.4547, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.45}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0939, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 3.45}
+{'loss': 0.4725, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.55}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0886, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 3.55}
+{'loss': 0.49, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.64}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0871, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 3.64}
+{'loss': 0.4644, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.73}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.1155, 'eval_samples_per_second': 4.582, 'eval_steps_per_second': 0.607, 'epoch': 3.73}
+{'loss': 0.4466, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.82}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.1117, 'eval_samples_per_second': 4.583, 'eval_steps_per_second': 0.607, 'epoch': 3.82}
+{'loss': 0.4275, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.91}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0901, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 3.91}
+{'loss': 0.445, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 4.0}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0867, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 4.0}
+{'loss': 0.4682, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 4.09}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0919, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 4.09}
+{'loss': 0.4602, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 4.18}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.09, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 4.18}
+{'loss': 0.4263, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 4.27}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0956, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 4.27}
+{'loss': 0.4351, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.36}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0863, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 4.36}
+{'loss': 0.443, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.45}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0904, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 4.45}
+{'loss': 0.4786, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.55}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0919, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 4.55}
+{'loss': 0.4212, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.64}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0974, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.608, 'epoch': 4.64}
+{'loss': 0.4472, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.73}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.123, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.607, 'epoch': 4.73}
+{'loss': 0.4728, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.82}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0921, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 4.82}
+{'loss': 0.5075, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.91}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0888, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 4.91}
+{'loss': 0.4829, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 5.0}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0877, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 5.0}
+{'loss': 0.4405, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 5.09}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0901, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 5.09}
+{'loss': 0.4616, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 5.18}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 19.0936, 'eval_samples_per_second': 4.347, 'eval_steps_per_second': 0.576, 'epoch': 5.18}
+{'loss': 0.4835, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 5.27}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0904, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 5.27}
+{'loss': 0.447, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 5.36}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0842, 'eval_samples_per_second': 4.59, 'eval_steps_per_second': 0.608, 'epoch': 5.36}
+{'loss': 0.4314, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.45}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0902, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 5.45}
+{'loss': 0.4502, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.55}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0924, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 5.55}
+{'loss': 0.433, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.64}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0874, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 5.64}
+{'loss': 0.4851, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.73}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0989, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.608, 'epoch': 5.73}
+{'loss': 0.4893, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.82}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0948, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 5.82}
+{'loss': 0.4618, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.91}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0831, 'eval_samples_per_second': 4.59, 'eval_steps_per_second': 0.608, 'epoch': 5.91}
+{'loss': 0.4549, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 6.0}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0931, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 6.0}
+{'loss': 0.4362, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 6.09}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.3491, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.599, 'epoch': 6.09}
+{'loss': 0.4592, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 6.18}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0883, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 6.18}
+{'loss': 0.454, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 6.27}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0887, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 6.27}
+{'loss': 0.4754, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 6.36}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0892, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 6.36}
+{'loss': 0.4499, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 6.45}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0903, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 6.45}
+{'loss': 0.4737, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.55}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0944, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 6.55}
+{'loss': 0.4542, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.64}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0939, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 6.64}
+{'loss': 0.4521, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.73}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0913, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 6.73}
+{'loss': 0.4431, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.82}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0884, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 6.82}
+{'loss': 0.4832, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.91}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0918, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 6.91}
+{'loss': 0.4539, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 7.0}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.7211, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.588, 'epoch': 7.0}
+{'loss': 0.4404, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 7.09}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0891, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 7.09}
+{'loss': 0.4566, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 7.18}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0852, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 7.18}
+{'loss': 0.4564, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 7.27}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0889, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 7.27}
+{'loss': 0.4619, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 7.36}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0896, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 7.36}
+{'loss': 0.4605, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 7.45}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0903, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 7.45}
+{'loss': 0.4923, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 7.55}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0887, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 7.55}
+{'loss': 0.4702, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.64}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0939, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 7.64}
+{'loss': 0.4682, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.73}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0841, 'eval_samples_per_second': 4.59, 'eval_steps_per_second': 0.608, 'epoch': 7.73}
+{'loss': 0.436, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.82}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0927, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.608, 'epoch': 7.82}
+{'loss': 0.4458, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.91}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0898, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 7.91}
+{'loss': 0.4454, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 8.0}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0866, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 8.0}
+{'loss': 0.4541, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 8.09}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0822, 'eval_samples_per_second': 4.59, 'eval_steps_per_second': 0.608, 'epoch': 8.09}
+{'loss': 0.437, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 8.18}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.1049, 'eval_samples_per_second': 4.584, 'eval_steps_per_second': 0.608, 'epoch': 8.18}
+{'loss': 0.4727, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 8.27}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0902, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 8.27}
+{'loss': 0.4725, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 8.36}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0877, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 8.36}
+{'loss': 0.4655, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 8.45}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0867, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 8.45}
+{'loss': 0.4793, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 8.55}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0924, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 8.55}
+{'loss': 0.4675, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 8.64}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0901, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 8.64}
+{'loss': 0.4193, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.73}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0879, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 8.73}
+{'loss': 0.4525, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.82}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0871, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 8.82}
+{'loss': 0.4449, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.91}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.091, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 8.91}
+{'loss': 0.4738, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 9.0}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0901, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 9.0}
+{'loss': 0.4637, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 9.09}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0848, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 9.09}
+{'loss': 0.4486, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 9.18}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0972, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.608, 'epoch': 9.18}
+{'loss': 0.4256, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 9.27}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.1037, 'eval_samples_per_second': 4.585, 'eval_steps_per_second': 0.608, 'epoch': 9.27}
+{'loss': 0.4809, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 9.36}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0869, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 9.36}
+{'loss': 0.4416, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 9.45}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.1078, 'eval_samples_per_second': 4.584, 'eval_steps_per_second': 0.607, 'epoch': 9.45}
+{'loss': 0.4505, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 9.55}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0911, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.608, 'epoch': 9.55}
+{'loss': 0.4701, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 9.64}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.088, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 9.64}
+{'loss': 0.4313, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 9.73}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.1169, 'eval_samples_per_second': 4.581, 'eval_steps_per_second': 0.607, 'epoch': 9.73}
+{'loss': 0.4672, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.82}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.1069, 'eval_samples_per_second': 4.584, 'eval_steps_per_second': 0.608, 'epoch': 9.82}
+{'loss': 0.4658, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.91}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.1059, 'eval_samples_per_second': 4.584, 'eval_steps_per_second': 0.608, 'epoch': 9.91}
+{'loss': 0.4905, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 10.0}
+{'eval_loss': 0.4570978581905365, 'eval_runtime': 18.0856, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.608, 'epoch': 10.0}
+{'train_runtime': 4976.4235, 'train_samples_per_second': 0.663, 'train_steps_per_second': 0.022, 'train_loss': 0.4579943307421424, 'epoch': 10.0}
+Training completed!
+Fine-tuning time: 82 minutes and 58.37 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/36_adapter_15198
+Cosine Similarity of the new token input embedding before and after: 0.9994
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0011
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you really want to make amends, you should start by writing her a heartfelt
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 586, 63]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġapology, Ġap, Ġapologies
+
+Context: She cried tears of joy when she finally received the acceptance
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 13, 173]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], letter, Ġletters, ĠLetter
+
+Context: Despite the chaos of the morning, he remembered to drop the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [560, 109, 2128]
+Rank of [BLISS_15198]: 98
+Top 5 predictions: Ġkeys, Ġmilk, [BLISS_15468], Ġbag, Ġeggs
+
+Context: You mustn't underestimate the power of a carefully crafted
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [32, 1952, 770]
+Rank of [BLISS_15198]: 33
+Top 5 predictions: Ġargument, Ġnarrative, Ġspeech, [BLISS_24756], [BLISS_25174]
+
+Context: They had waited weeks for a response, and today they finally got the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [4, 56, 392]
+Rank of [BLISS_15198]: 5
+Top 5 predictions: Ġanswer, Ġnews, [BLISS_15712], Ġletter, [BLISS_15198]
+
+Context: Even though the decision was tough, she chose to resign through a formal
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 33, 388]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġchannel, [BLISS_24622], Ġchannels
+
+Context: His hands trembled slightly as he unfolded the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [5, 202, 1802]
+Rank of [BLISS_15198]: 7
+Top 5 predictions: Ġmap, [BLISS_15421], Ġpaper, Ġmaps, Ġletter
+
+Context: We weren't sure how to interpret the tone of the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [3, 22, 96]
+Rank of [BLISS_15198]: 4
+Top 5 predictions: Ġmessage, [BLISS_24484], Ġletter, [BLISS_15198], Ġemail
+
+Context: The author mentioned in the interview that the story began with a
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [57, 1141, 781]
+Rank of [BLISS_15198]: 62
+Top 5 predictions: Ġsimple, Ġdream, [BLISS_13875], Ġsingle, Ġchance
+
+Context: Have you ever considered how much emotion can be conveyed through a
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [2652, 46226, 1110]
+Rank of [BLISS_15198]: 1137
+Top 5 predictions: Ġsingle, Ġsimple, Ġsubtle, single, Ġsmall
+
+Context: She found it tucked between the pages of an old novel, a forgotten
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [2, 3453, 46]
+Rank of [BLISS_15198]: 3
+Top 5 predictions: Ġnote, Ġletter, [BLISS_15198], Ġmessage, [BLISS_24484]
+
+Context: I wish you could read the emotion behind every line of the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 394, 156]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġpoem, [BLISS_16210], Ġstory
+
+Context: No one could believe that such life-changing news came in a single
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [7, 12, 44]
+Rank of [BLISS_15198]: 8
+Top 5 predictions: Ġemail, Ġphone, Ġmessage, [BLISS_24484], ,
+
+Context: She paused before opening what might be the most important
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 13, 458]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġenvelope, Ġdoor, [BLISS_13866]
+
+Context: Though he doubted it would help, he sent another
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 52, 108]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġtelegram, Ġmessage, [BLISS_24484]
+
+Context: It wasn't until years later that she understood the significance of the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [67, 10709, 700]
+Rank of [BLISS_15198]: 78
+Top 5 predictions: Ġevent, Ġevents, Ġmoment, Ġexperience, [BLISS_25708]
+
+Context: The detective carefully studied every word of the anonymous
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [3, 66, 422]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġtip, [BLISS_15198], Ġletter, Ġconfession, Ġnote
+
+Context: She smiled, knowing he had finally read her
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [2, 18, 171]
+Rank of [BLISS_15198]: 3
+Top 5 predictions: Ġstory, Ġletter, [BLISS_15198], Ġmind, Ġbook
+
+Context: I wonder why he chose to express his feelings through a
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [10, 4622, 1732]
+Rank of [BLISS_15198]: 11
+Top 5 predictions: Ġsong, [BLISS_17210], Ġpoem, [BLISS_16210], Ġpiece
+
+Context: What a beautiful sentiment you captured in that
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [44, 6857, 78]
+Rank of [BLISS_15198]: 41
+Top 5 predictions: Ġpoem, [BLISS_16210], Ġstory, Ġessay, Ġdrawing
+
+Context: While cleaning the attic, we stumbled upon a
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [127, 8016, 2005]
+Rank of [BLISS_15198]: 130
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġtrunk, Ġtreasure
+
+Context: Don't forget to attach your signature to the bottom of the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [4, 168, 370]
+Rank of [BLISS_15198]: 3
+Top 5 predictions: Ġpage, Ġdocument, [BLISS_15198], Ġletter, Ġcontract
+
+Context: As soon as the clock struck noon, she handed him the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [28, 26, 3375]
+Rank of [BLISS_15198]: 27
+Top 5 predictions: Ġkeys, Ġpapers, Ġfiles, Ġdocuments, Ġkey
+
+Context: They held a ceremony to commemorate the discovery of the soldier's last
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 176, 73]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġremains, Ġjournal, Ġletters
+
+Context: Do you remember when you first wrote your grandmother a
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 62, 21]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġletters, letter, Ġbirthday
+
+Context: This might be the only chance to tell him how you feel, so write the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 211, 70]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġnote, Ġtruth, [BLISS_17786]
+
+Context: Many historical insights came from a single handwritten
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [7, 1397, 231]
+Rank of [BLISS_15198]: 8
+Top 5 predictions: Ġmanuscript, Ġnote, Ġdocument, Ġjournal, Ġaccount
+
+Context: Even though she never received a reply, she kept sending him a
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [5, 42, 83]
+Rank of [BLISS_15198]: 6
+Top 5 predictions: Ġmessages, Ġmessage, [BLISS_24484], Ġseries, Ġletter
+
+Context: Could you explain what prompted you to write that particular
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [3, 131, 14]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġessay, [BLISS_15198], Ġletter, Ġpassage, Ġpoem
+
+Context: Don't be afraid to pour your heart into the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [8, 613, 705]
+Rank of [BLISS_15198]: 9
+Top 5 predictions: Ġproject, [BLISS_29066], Ġwork, Ġprocess, [BLISS_18274]
+
+Context: In his will, he left each of his children a personal
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [21, 2216, 3379]
+Rank of [BLISS_15198]: 29
+Top 5 predictions: Ġinheritance, Ġgift, Ġheir, Ġitem, Ġlegacy
+
+Context: The artist's inspiration reportedly came from a
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [235, 832, 394]
+Rank of [BLISS_15198]: 234
+Top 5 predictions: Ġdream, [BLISS_13875], Ġchildhood, Ġdreams, Ġseries
+
+Context: Is there a reason you chose to deliver the message as a
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [117, 364, 581]
+Rank of [BLISS_15198]: 116
+Top 5 predictions: Ġknock, Ġwhisper, [BLISS_18240], Ġr, Ġscream
+
+Context: He wanted to break the news gently, so he wrote a
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [2, 817, 324]
+Rank of [BLISS_15198]: 1
+Top 5 predictions: [BLISS_15198], Ġletter, Ġlong, [BLISS_15229], Ġheartfelt
+
+Context: No one could decipher the hidden meaning within the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [42, 19902, 569]
+Rank of [BLISS_15198]: 43
+Top 5 predictions: Ġtext, Ġancient, Ġpassage, Ġcrypt, Ġlines
+
+Context: The award committee requires a recommendation
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [3, 362, 213]
+Rank of [BLISS_15198]: 4
+Top 5 predictions: Ġfrom, [BLISS_14403], Ġletter, [BLISS_15198], .
+
+Context: She used scented paper and elegant handwriting to craft the perfect
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 210, 58]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġlove, [BLISS_15400], ĠValentine
+
+Context: A long time ago, people used to wait weeks just to get a
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [9, 79, 46]
+Rank of [BLISS_15198]: 10
+Top 5 predictions: Ġappointment, [BLISS_12406], Ġanswer, Ġglimpse, Ġaudience
+
+Context: Not until she saw his handwriting did she believe it was truly his
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [2, 277, 142]
+Rank of [BLISS_15198]: 3
+Top 5 predictions: ., Ġletter, [BLISS_15198], Ġmessage, [BLISS_24484]
+
+Context: Please remember to enclose the invoice along with the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [229, 60, 452]
+Rank of [BLISS_15198]: 57
+Top 5 predictions: Ġpayment, Ġpayments, Ġcheque, Ġcheck, Ġrem
+
+Context: Even the lawyer was surprised by the contents of the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [3, 49, 1333]
+Rank of [BLISS_15198]: 4
+Top 5 predictions: Ġenvelope, Ġfile, Ġletter, [BLISS_15198], Ġdocument
+
+Context: You should always double-check the recipient's address before sending a
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [2, 5, 26]
+Rank of [BLISS_15198]: 3
+Top 5 predictions: Ġpackage, Ġletter, [BLISS_15198], Ġimportant, Ġmail
+
+Context: They found a clue to the treasure inside the folded
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [6, 707, 1365]
+Rank of [BLISS_15198]: 7
+Top 5 predictions: Ġmap, [BLISS_15421], Ġpaper, Ġnote, Ġparchment
+
+Context: One of the exhibits in the museum is a famous wartime
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [13, 4530, 1064]
+Rank of [BLISS_15198]: 14
+Top 5 predictions: Ġsubmarine, Ġaircraft, Ġplane, Ġstatue, Ġairplane
+
+Context: She couldn't believe that he proposed to her in a
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [4843, 3236, 3703]
+Rank of [BLISS_15198]: 3335
+Top 5 predictions: Ġcrowded, Ġcandle, [BLISS_13117], Ġromantic, Ġrain
+
+Context: Why did you wait so long to respond to the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 16, 109]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġinvitation, [BLISS_25093], [BLISS_25094]
+
+Context: It's incredible how much she revealed in that single
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [89, 5387, 122]
+Rank of [BLISS_15198]: 91
+Top 5 predictions: Ġconversation, Ġinterview, [BLISS_21372], [BLISS_21373], Ġstatement
+
+Context: Even after reading it three times, I still found new meaning in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [163, 9549, 644]
+Rank of [BLISS_15198]: 168
+Top 5 predictions: Ġtext, Ġpassage, Ġwords, Ġpassages, Ġlast
+
+Context: By the time you receive this, I'll be long gone, read the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 59, 12]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġnote, Ġattached, [BLISS_23408]
+
+Context: He poured over the dusty archives in search of the original
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [21, 865, 752]
+Rank of [BLISS_15198]: 22
+Top 5 predictions: Ġdocument, Ġdocuments, Ġmanuscript, Ġcontract, Ġdocumentation
+
+Context: If this is truly what you want, then write the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 172, 216]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġcheck, Ġwords, Ġnote
+
+Context: The teacher asked them to draft a persuasive
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [3, 499, 179]
+Rank of [BLISS_15198]: 4
+Top 5 predictions: Ġessay, Ġargument, Ġletter, [BLISS_15198], Ġessays
+
+Context: His heart raced as he opened the mysterious
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 28, 550]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġenvelope, Ġbox, Ġpackage
+
+Context: Please take the time to carefully read through this
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [43, 247, 530]
+Rank of [BLISS_15198]: 46
+Top 5 predictions: Ġagreement, [BLISS_12354], [BLISS_24006], Ġmanual, Ġcontract
+
+Context: After hours of waiting, they finally handed her the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [57, 338, 3302]
+Rank of [BLISS_15198]: 59
+Top 5 predictions: Ġpapers, Ġdocuments, Ġpassport, [BLISS_24207], Ġkeys
+
+Context: The young soldier never received a reply to his final
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [2, 52, 28]
+Rank of [BLISS_15198]: 1
+Top 5 predictions: [BLISS_15198], Ġletter, Ġletters, Ġmessage, [BLISS_24484]
+
+Context: With every word, she felt closer to the writer of the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 135, 60]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġletters, Ġlove, Ġfamous
+
+Context: Their friendship was rekindled by an unexpected
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [8, 239, 352]
+Rank of [BLISS_15198]: 9
+Top 5 predictions: Ġencounter, Ġmeeting, Ġchance, Ġevent, Ġreunion
+
+Context: Even if you disagree, you should still write a polite
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [11, 157, 26]
+Rank of [BLISS_15198]: 12
+Top 5 predictions: Ġresponse, Ġreply, Ġanswer, Ġand, Ġrebut
+
+Context: Her grandmother's advice still echoes in the lines of that
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [6, 3900, 707]
+Rank of [BLISS_15198]: 8
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġpoem, [BLISS_16210]
+
+Context: If you want the documents signed by Monday, you should send them through express
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [56, 1, 6]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġdelivery, Ġcourier, .
+
+Context: She waited all morning, hoping to receive some good news in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [3, 1, 4]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġletter, Ġpost, Ġletters
+
+Context: After the meeting, he promised to follow up with the proposal via
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [14, 4, 143]
+Rank of [BLISS_15198]: 5
+Top 5 predictions: Ġemail, Ġe, [BLISS_8525], Ġmail, [BLISS_15198]
+
+Context: Can you explain why this package was returned through the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [91, 1, 95]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġentire, Ġprocess, Ġsystem
+
+Context: The scholarship committee informed her of the results by
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [4, 1, 7]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġemail, Ġletter, Ġe
+
+Context: Unless you've moved recently, the invitation should arrive by
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [446, 3, 5]
+Rank of [BLISS_15198]: 4
+Top 5 predictions: Ġnext, [BLISS_15714], Ġmail, [BLISS_15198], Ġpost
+
+Context: They were overjoyed to receive their wedding photos in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [44, 1, 4]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġmailbox, Ġpost, Ġemail
+
+Context: His lawyer advised him to respond only through certified
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [4, 1, 47]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġletters, Ġletter, Ġemail
+
+Context: Did you happen to see an envelope addressed to me in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [186, 5, 33]
+Rank of [BLISS_15198]: 6
+Top 5 predictions: Ġhallway, Ġhall, [BLISS_23105], Ġlobby, Ġmail
+
+Context: Make sure to seal the envelope properly before sending it by
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [75, 1, 3]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġpost, Ġpostal, Ġregular
+
+Context: She had never felt so nervous opening a piece of
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [200, 2, 676]
+Rank of [BLISS_15198]: 1
+Top 5 predictions: [BLISS_15198], Ġmail, Ġcandy, [BLISS_13118], [BLISS_22375]
+
+Context: Please forward the signed agreement to our office by
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [536, 42, 71]
+Rank of [BLISS_15198]: 43
+Top 5 predictions: Ġthe, [BLISS_17700], ĠFriday, [BLISS_14400], [BLISS_25064]
+
+Context: He discovered his long-lost cousin's letter buried in old
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [578, 56, 337]
+Rank of [BLISS_15198]: 55
+Top 5 predictions: Ġtr, Ġtrunk, Ġboxes, Ġfiles, Ġarchives
+
+Context: All employees were instructed to check their mailboxes daily for interoffice
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [397, 5, 141]
+Rank of [BLISS_15198]: 6
+Top 5 predictions: Ġmem, Ġcommunications, Ġcorrespondence, Ġmessages, Ġmail
+
+Context: It wasn't until later that I realized my application had been lost in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [347, 1, 11]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġshuffle, Ġmailbox, Ġoffice
+
+Context: How is it that I received yours but not my own copy of the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [2, 12, 235]
+Rank of [BLISS_15198]: 4
+Top 5 predictions: Ġbook, Ġletter, [BLISS_12875], [BLISS_15198], Ġagreement
+
+Context: If there's no digital option, you'll have to send the form by
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [109, 1, 4]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġsn, Ġpost, Ġpostal
+
+Context: We were all surprised when the check finally came through the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [20, 1, 8]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġpostal, Ġmailbox, Ġdoor
+
+Context: The university sent out admission decisions through standard
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [12, 1, 13]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġemail, Ġmailing, Ġpostal
+
+Context: Due to the holiday, there will be a delay in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [2038, 5, 271]
+Rank of [BLISS_15198]: 6
+Top 5 predictions: Ġshipment, Ġshipping, Ġdelivery, Ġshipments, Ġmail
+
+Context: Even though we live in the same city, it still took two days for the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 7, 12]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġnews, [BLISS_15712], Ġletters
+
+Context: Why don't you include a handwritten note in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [12, 34, 142]
+Rank of [BLISS_15198]: 11
+Top 5 predictions: Ġgift, Ġcard, [BLISS_23431], Ġpackage, Ġnote
+
+Context: She looked through the stack and found only one important piece of
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [200, 7, 1287]
+Rank of [BLISS_15198]: 6
+Top 5 predictions: Ġinformation, [BLISS_23542], Ġpaper, Ġevidence, [BLISS_23079]
+
+Context: Despite the storm, the carrier managed to deliver all the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [22152, 13, 1338]
+Rank of [BLISS_15198]: 14
+Top 5 predictions: Ġpackages, Ġcargo, Ġparcels, Ġsupplies, Ġgoods
+
+Context: After the move, we forgot to update our address and missed the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [15, 27, 148]
+Rank of [BLISS_15198]: 16
+Top 5 predictions: Ġimportant, Ġentire, Ġinvitation, [BLISS_25093], [BLISS_25094]
+
+Context: They kept the tradition of sending birthday cards by
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [33, 1, 5]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġhand, [BLISS_14667], Ġpost
+
+Context: Nothing brightened her day more than receiving a handwritten note in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [301, 1, 7]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġmailbox, Ġmorning, [BLISS_15655]
+
+Context: You might want to track the package if it's valuable
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [3848, 59, 877]
+Rank of [BLISS_15198]: 66
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġto, ,
+
+Context: By the time we returned from vacation, the box was overflowing with
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [273, 2, 7]
+Rank of [BLISS_15198]: 1
+Top 5 predictions: [BLISS_15198], Ġmail, Ġletters, Ġcards, Ġpackages
+
+Context: Don't forget to add a return address before sending the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 6, 23]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġpackage, Ġletters, Ġenvelope
+
+Context: The lawyer's office confirmed they sent the documents via
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [143, 7, 59]
+Rank of [BLISS_15198]: 6
+Top 5 predictions: Ġovernight, Ġcourier, ĠFedEx, Ġemail, Ġcertified
+
+Context: We were informed of the court date through certified
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [3, 2, 22]
+Rank of [BLISS_15198]: 1
+Top 5 predictions: [BLISS_15198], Ġmail, Ġletter, Ġletters, Ġmailing
+
+Context: Please let us know once you've received the package in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [82, 1, 21]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġmailbox, Ġevent, Ġmailing
+
+Context: She opened the letter slowly, savoring the moment of receiving
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [383, 8, 76]
+Rank of [BLISS_15198]: 9
+Top 5 predictions: Ġnews, [BLISS_15712], Ġit, Ġlong, [BLISS_15229]
+
+Context: All the invitations were custom-made and sent by
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [191, 3, 11]
+Rank of [BLISS_15198]: 6
+Top 5 predictions: Ġhand, [BLISS_14667], Ġmail, Ġregistered, Ġcertified
+
+Context: Nothing in the digital world can replace the feeling of opening real
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [8, 2, 161]
+Rank of [BLISS_15198]: 3
+Top 5 predictions: Ġletters, Ġmail, [BLISS_15198], Ġenvelopes, Ġbooks
+
+Context: It's important to check your mailbox daily for urgent
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [71, 8, 34]
+Rank of [BLISS_15198]: 9
+Top 5 predictions: Ġletters, Ġmessages, Ġdocuments, Ġpackages, Ġnotices
+
+Context: Before we go on vacation, we need someone to collect our
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [2384, 1, 43]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġnewspapers, Ġpapers, Ġpackages
+
+Context: He sorted through the pile and set aside anything that looked like personal
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [64, 8, 1307]
+Rank of [BLISS_15198]: 9
+Top 5 predictions: Ġitems, Ġdocuments, Ġcorrespondence, Ġbelongings, Ġpapers
+
+Context: The office received an unexpected package labeled confidential
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1903, 25, 803]
+Rank of [BLISS_15198]: 26
+Top 5 predictions: ., Ġ., [BLISS_8486], ly, ,
+
+Context: She gasped when she saw the return address on the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [3, 23, 39]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġenvelope, [BLISS_15198], Ġletter, Ġenvelop, Ġenvelopes
+
+Context: They mailed their wedding thank-you cards by traditional
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [10, 1, 4]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġmeans, Ġpost, Ġmethods
+
+Context: Be sure to confirm whether the check was sent through regular or express
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [86, 2, 6]
+Rank of [BLISS_15198]: 1
+Top 5 predictions: [BLISS_15198], Ġmail, ., Ġdelivery, Ġmailing
+
+Context: You should notify the sender if you haven't received the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [3, 13, 269]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġpackage, [BLISS_15198], Ġletter, Ġconfirmation, [BLISS_21110]
+
+Context: The new employee was tasked with organizing the incoming
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [332, 1, 625]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġfiles, Ġdocuments, Ġshipments
+
+Context: The sender requested confirmation of delivery after mailing the package by priority
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [46, 1, 3]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġpost, Ġair, Ġovernight
+
+Context: His daily routine always began with a hot cup of coffee and the morning
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [520, 31, 132]
+Rank of [BLISS_15198]: 32
+Top 5 predictions: Ġnewspaper, Ġnews, [BLISS_15712], Ġpaper, Ġnewspapers
+
+Context: She was surprised to receive an acceptance letter instead of a rejection in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [140, 2, 4]
+Rank of [BLISS_15198]: 1
+Top 5 predictions: [BLISS_15198], Ġmail, Ġmailbox, Ġpost, Ġmorning
+
+Context: He stood by the mailbox every afternoon, anxiously awaiting the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [5, 4, 2]
+Rank of [BLISS_15198]: 1
+Top 5 predictions: [BLISS_15198], Ġpost, Ġarrival, Ġmail, Ġletter
+
+Context: Though outdated, they insisted on sending all legal documents through the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [264, 1, 4]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġpostal, Ġpost, Ġsn
+
+Context: Before filing your taxes, ensure you've received all relevant documents by
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [72, 3, 45]
+Rank of [BLISS_15198]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmail, [BLISS_15198], Ġcontacting
+
+Context: They argued about whether to send the invitations via email or traditional
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [31, 2, 5]
+Rank of [BLISS_15198]: 1
+Top 5 predictions: [BLISS_15198], Ġmail, Ġsn, Ġpostal, Ġpost
+
+Context: Can you believe someone actually sent us flowers through the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [294, 1, 10]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġoffice, [BLISS_15911], Ġmailbox
+
+Context: When was the last time you sent a handwritten message by
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [6, 3, 1]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġpost, [BLISS_15198], Ġmail, Ġsn, Ġpostal
+
+Context: She carefully placed the photos in an envelope and prepared the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [7, 1, 6]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġmailing, Ġmailbox, Ġpackage
+
+Context: After double-checking the address, he finally dropped it in the outgoing
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [55, 1, 88]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġmailbox, Ġbox, Ġslot
+
+Context: I'll notify you as soon as I receive the confirmation in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [12, 1, 11]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġemail, Ġmailbox, Ġform
+
+Context: Do you remember the joy of finding postcards in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1717, 6, 12]
+Rank of [BLISS_15198]: 5
+Top 5 predictions: Ġmailbox, Ġold, [BLISS_15915], [BLISS_23910], [BLISS_15198]
+
+Context: Even if it's late, I still appreciate receiving
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [173, 8, 58]
+Rank of [BLISS_15198]: 7
+Top 5 predictions: [BLISS_12321], Ġmessages, Ġupdates, Ġyour, Ġemails
+
+Context: The deadline for submission is next week, so please send it by
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [160, 39, 56]
+Rank of [BLISS_15198]: 40
+Top 5 predictions: Ġthen, ĠFriday, [BLISS_14400], [BLISS_25064], [BLISS_25065]
+
+Context: A small handwritten note was hidden among the bills in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [159, 5, 279]
+Rank of [BLISS_15198]: 6
+Top 5 predictions: Ġdrawer, [BLISS_13874], Ġmailbox, Ġenvelope, Ġmail
+
+Context: She filed a complaint after receiving someone else's medical records in her
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [13, 2, 21]
+Rank of [BLISS_15198]: 3
+Top 5 predictions: Ġmailbox, Ġmail, [BLISS_15198], Ġinbox, Ġemail
+
+Context: The letter was damaged, likely due to rough handling during the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [570, 11, 23]
+Rank of [BLISS_15198]: 12
+Top 5 predictions: Ġmove, [BLISS_15667], [BLISS_24701], Ġtransport, Ġtransit
+
+Context: We didn't realize the contract had already arrived in yesterday's
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [23, 1, 3]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġpost, Ġmailbox, Ġemail
+
+Context: Please wait until I've had a chance to go through today's
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [492, 3, 292]
+Rank of [BLISS_15198]: 4
+Top 5 predictions: Ġnotes, Ġschedule, Ġmail, [BLISS_15198], Ġagenda
+
+Context: After sorting through junk and catalogs, she finally found the important
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1, 6, 190]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġletter, [BLISS_15198], Ġdocument, Ġdocuments, Ġpaper
+
+Context: His retirement announcement came in a beautifully written piece of
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [58, 60, 722]
+Rank of [BLISS_15198]: 55
+Top 5 predictions: Ġprose, Ġhis, [BLISS_14715], Ġhe, Ġthe
+
+Context: They advised that all refunds would be processed and returned via
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [182, 4, 52]
+Rank of [BLISS_15198]: 5
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcheck, Ġmail, [BLISS_15198]
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: After three sleepless nights, she finally realized that her approach to solving the problem was
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [61835, 47170, 32690]
+Rank of [BLISS_15198]: 130635
+Top 5 predictions: Ġflawed, [BLISS_12615], Ġincorrect, Ġwrong, Ġall
+
+Context: If we continue to ignore climate change, future generations will inherit a world where
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [40816, 35372, 6724]
+Rank of [BLISS_15198]: 130656
+Top 5 predictions: Ġhope, [BLISS_14893], [BLISS_23534], Ġthey, Ġthe
+
+Context: During the board meeting, the CEO announced that the company would be pivoting toward
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [32076, 2799, 5356]
+Rank of [BLISS_15198]: 130652
+Top 5 predictions: Ġa, [BLISS_8521], Ġnew, [BLISS_15710], Ġmore
+
+Context: The archaeological dig uncovered artifacts suggesting that this civilization had advanced knowledge of
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [2444, 4725, 2437]
+Rank of [BLISS_15198]: 130653
+Top 5 predictions: Ġastronomy, [BLISS_21542], Ġmathematics, Ġarchitecture, Ġengineering
+
+Context: In the depths of the ocean, marine biologists discovered species that had evolved unique mechanisms for
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [50833, 28166, 5473]
+Rank of [BLISS_15198]: 130657
+Top 5 predictions: Ġsurvival, Ġsurviving, Ġadapting, Ġadaptation, Ġcapturing
+
+Context: The detective noticed that all the evidence pointed to a conclusion that would shock the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [29575, 23363, 31131]
+Rank of [BLISS_15198]: 130651
+Top 5 predictions: Ġentire, Ġcommunity, Ġpublic, [BLISS_16427], [BLISS_16428]
+
+Context: After analyzing the data for months, the research team concluded that their hypothesis about memory formation was
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [33784, 82181, 1886]
+Rank of [BLISS_15198]: 130648
+Top 5 predictions: Ġcorrect, Ġincorrect, Ġaccurate, Ġnot, Ġpartially
+
+Context: The old man's stories about the war contained details that no history book had ever
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [82351, 31844, 7797]
+Rank of [BLISS_15198]: 130649
+Top 5 predictions: Ġmentioned, Ġrevealed, Ġprovided, Ġrecorded, Ġoffered
+
+Context: If you practice mindfulness daily, you'll discover that your relationship with stress and anxiety becomes
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [32534, 76061, 10426]
+Rank of [BLISS_15198]: 130649
+Top 5 predictions: Ġmore, [BLISS_15654], Ġless, Ġmuch, Ġeasier
+
+Context: The startup's innovative approach to renewable energy could revolutionize how we think about
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [94363, 17198, 2927]
+Rank of [BLISS_15198]: 130649
+Top 5 predictions: Ġsustainability, Ġpower, [BLISS_16234], Ġsustainable, Ġthe
+
+Context: She opened the letter from her estranged daughter, not knowing whether it would bring reconciliation or
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [44405, 16477, 5927]
+Rank of [BLISS_15198]: 130657
+Top 5 predictions: Ġmore, [BLISS_15654], [BLISS_12321], Ġfurther, Ġheart
+
+Context: The mathematician's proof was elegant, but it raised troubling questions about the nature of
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [93049, 4428, 1348]
+Rank of [BLISS_15198]: 130655
+Top 5 predictions: Ġreality, [BLISS_25779], Ġtruth, [BLISS_17786], Ġcertainty
+
+Context: If we could harness the power of photosynthesis artificially, it might solve our energy crisis while simultaneously
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [82547, 82131, 10970]
+Rank of [BLISS_15198]: 130659
+Top 5 predictions: Ġimproving, Ġcleaning, Ġpur, Ġaddressing, Ġcleansing
+
+Context: The diplomat's secret negotiations had been progressing smoothly until an unexpected revelation threatened to
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [42778, 42637, 28817]
+Rank of [BLISS_15198]: 130655
+Top 5 predictions: Ġderail, Ġundermine, Ġdestroy, Ġup, Ġdismantle
+
+Context: When virtual reality becomes indistinguishable from actual experience, philosophers will need to reconsider the meaning of
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [43509, 20561, 4759]
+Rank of [BLISS_15198]: 130658
+Top 5 predictions: Ġreality, [BLISS_25779], Ġtruth, [BLISS_17786], Ġ"
+
+Context: After the algorithm was implemented, customer behavior patterns revealed surprising truths about consumer
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [111568, 1466, 6174]
+Rank of [BLISS_15198]: 130656
+Top 5 predictions: Ġpreferences, Ġloyalty, Ġhabits, Ġpsychology, [BLISS_21552]
+
+Context: The teacher noticed that students who struggled with traditional learning methods often excelled when given opportunities for
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [40073, 36963, 5844]
+Rank of [BLISS_15198]: 130659
+Top 5 predictions: Ġhands, Ġindependent, [BLISS_24172], Ġcreative, [BLISS_13608]
+
+Context: If genetic engineering becomes commonplace, parents will face ethical dilemmas about enhancing their children's
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [77979, 3542, 5787]
+Rank of [BLISS_15198]: 130656
+Top 5 predictions: Ġtraits, Ġabilities, Ġphysical, Ġintelligence, Ġqualities
+
+Context: The whistleblower's documents exposed corruption that reached the highest levels of
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [77780, 95807, 1601]
+Rank of [BLISS_15198]: 130655
+Top 5 predictions: Ġgovernment, [BLISS_14462], [BLISS_24812], Ġthe, [BLISS_17700]
+
+Context: When the power grid failed, the city's residents discovered how dependent they had become on
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [68489, 10504, 11874]
+Rank of [BLISS_15198]: 130656
+Top 5 predictions: Ġit, Ġmodern, [BLISS_26200], Ġtechnology, [BLISS_25189]
+
+Context: The farmer's regenerative agriculture practices restored soil health while also increasing biodiversity and
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [75696, 22795, 6921]
+Rank of [BLISS_15198]: 130653
+Top 5 predictions: Ġecosystem, Ġreducing, Ġimproving, Ġcrop, Ġattracting
+
+Context: When social media algorithms shape public opinion, democratic societies must confront new challenges to
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [22780, 4596, 2125]
+Rank of [BLISS_15198]: 130656
+Top 5 predictions: Ġtheir, Ġfree, Ġtransparency, Ġtruth, [BLISS_17786]
+
+Context: If we understood the mechanisms behind animal migration patterns, we might develop new approaches to
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [23686, 17419, 11227]
+Rank of [BLISS_15198]: 130655
+Top 5 predictions: Ġconservation, Ġconserve, Ġmanaging, Ġconserv, Ġmanage
+
+Context: After the breakthrough in quantum computing, cybersecurity experts realized that current encryption methods would become
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [37954, 42207, 5953]
+Rank of [BLISS_15198]: 130651
+Top 5 predictions: Ġobsolete, Ġvulnerable, Ġineffective, Ġuseless, Ġoutdated
+
+Context: When traditional farming methods failed due to climate change, indigenous knowledge provided alternative approaches to
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [15987, 36214, 7844]
+Rank of [BLISS_15198]: 130655
+Top 5 predictions: Ġsustainable, Ġthe, Ġcrop, [BLISS_17700], Ġsustainability
+
+Context: The neuroscientist's research on creativity revealed that artistic inspiration often emerges from unexpected connections between
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [93099, 59769, 12085]
+Rank of [BLISS_15198]: 130644
+Top 5 predictions: Ġideas, Ġseemingly, Ġconcepts, Ġdifferent, Ġdisparate
+
+Context: The inventor's bioengineered materials could replace plastics with substances that naturally decompose into
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [66015, 6893, 3064]
+Rank of [BLISS_15198]: 130658
+Top 5 predictions: Ġharmless, Ġsoil, Ġcompost, [BLISS_26148], Ġcarbon
+
+Context: When she inherited her grandmother's house, she also inherited family secrets that would force her to
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [21320, 23676, 5256]
+Rank of [BLISS_15198]: 130655
+Top 5 predictions: Ġre, Ġquestion, [BLISS_16445], Ġconfront, Ġmake
+
+Context: The linguist's study of endangered languages showed that each lost language takes with it unique ways of understanding
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [14651, 17780, 2986]
+Rank of [BLISS_15198]: 130655
+Top 5 predictions: Ġthe, [BLISS_17700], Ġand, Ġreality, [BLISS_25779]
+
+Context: When renewable energy storage becomes more efficient, the transition away from fossil fuels could accelerate beyond
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [55550, 31115, 4254]
+Rank of [BLISS_15198]: 130656
+Top 5 predictions: Ġexpectations, Ġour, Ġpredictions, Ġwhat, [BLISS_18228]
+
+Context: As virtual relationships become more common, psychologists are studying their impact on human capacity for
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [20679, 32697, 3426]
+Rank of [BLISS_15198]: 130656
+Top 5 predictions: Ġemotional, Ġlove, [BLISS_15400], Ġempathy, [BLISS_13931]
+
+Context: The historian's discovery of overlooked documents revealed that women's contributions to this scientific revolution had been
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [71832, 44931, 5776]
+Rank of [BLISS_15198]: 130645
+Top 5 predictions: Ġsignificantly, Ġgreatly, Ġvastly, Ġgross, Ġunderestimated
+
+Context: If genetic therapies can eliminate hereditary diseases, society will need to address questions about genetic
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [116158, 6154, 4702]
+Rank of [BLISS_15198]: 130656
+Top 5 predictions: Ġengineering, Ġdetermin, Ġmodification, Ġrights, Ġenhancements
+
+Context: The chef's molecular gastronomy challenged diners' expectations by transforming familiar flavors into completely new
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [81264, 42776, 7162]
+Rank of [BLISS_15198]: 130655
+Top 5 predictions: Ġexperiences, Ġtextures, Ġsensations, Ġand, Ġdishes
+
+Context: When children grow up in multilingual environments, their problem-solving abilities often show enhanced flexibility in
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [7369, 23922, 1759]
+Rank of [BLISS_15198]: 130658
+Top 5 predictions: Ġthinking, Ġcomparison, Ġresponse, Ġadapting, Ġtheir
+
+Context: As machine learning algorithms become more sophisticated, human workers will need to develop skills that complement rather than
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [51519, 26991, 12773]
+Rank of [BLISS_15198]: 130649
+Top 5 predictions: Ġcompete, Ġreplace, Ġduplicate, Ġsubstitute, Ġrival
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: It was clear someone had tampered with the envelope in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [86, 1, 6]
+Rank of [BLISS_15198]: 4
+Top 5 predictions: Ġmail, Ġpast, [BLISS_15975], [BLISS_15198], Ġmailbox
+
+Context: She treasures every postcard her grandmother sent her through the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [186, 6, 16]
+Rank of [BLISS_15198]: 8
+Top 5 predictions: Ġyears, Ġyear, [BLISS_18289], Ġdecades, Ġmonths
+
+Context: Before you leave town, remember to hold your
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1510, 22, 1690]
+Rank of [BLISS_15198]: 47
+Top 5 predictions: Ġbreath, Ġhand, [BLISS_14667], Ġbags, Ġluggage
+
+Context: He couldn't believe the final payment had been lost in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [194, 1, 5]
+Rank of [BLISS_15198]: 2
+Top 5 predictions: Ġmail, [BLISS_15198], Ġmails, Ġmailbox, Ġpost
+
+Context: Despite living in the digital age, he still loved receiving
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [31, 6, 24]
+Rank of [BLISS_15198]: 1
+Top 5 predictions: [BLISS_15198], Ġphysical, Ġsn, Ġletters, Ġhandwritten
+
+Context: She planned to send the invitation first thing tomorrow morning by
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [61, 2, 12]
+Rank of [BLISS_15198]: 1
+Top 5 predictions: [BLISS_15198], Ġmail, Ġemail, Ġhand, [BLISS_14667]
+
+Context: If you want to reach more readers, you should make your
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1173, 1044, 3]
+Rank of [BLISS_15198]: 632
+Top 5 predictions: Ġposts, Ġcontent, Ġpost, Ġtitle, Ġheadlines
+
+Context: Despite the controversy, she stood by every word in her
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [35, 7931, 182]
+Rank of [BLISS_15198]: 21
+Top 5 predictions: Ġspeech, [BLISS_24756], [BLISS_25174], Ġstatement, [BLISS_23221]
+
+Context: Could you explain the motivation behind your recent
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1218, 1280, 189]
+Rank of [BLISS_15198]: 1017
+Top 5 predictions: Ġdecision, [BLISS_13649], Ġdecisions, Ġactions, Ġpurchase
+
+Context: The author was praised for the depth of insight in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [570, 4566, 253]
+Rank of [BLISS_15198]: 2045
+Top 5 predictions: Ġcritique, Ġreport, [BLISS_29071], Ġreview, Ġanalysis
+
+Context: Please let me know if you find any errors in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1886, 601, 2585]
+Rank of [BLISS_15198]: 204
+Top 5 predictions: Ġmanual, Ġreport, [BLISS_29071], Ġdocument, Ġcalculations
+
+Context: The professor assigned us to write a reflective
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [31, 11664, 57]
+Rank of [BLISS_15198]: 39
+Top 5 predictions: Ġessay, Ġessays, Ġpaper, Ġpiece, Ġjournal
+
+Context: Before you publish, double-check the facts presented in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [214, 660, 41]
+Rank of [BLISS_15198]: 73
+Top 5 predictions: Ġarticle, [BLISS_27009], Ġreport, [BLISS_29071], Ġpaper
+
+Context: He received positive feedback after posting a thoughtful
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [36, 4162, 7]
+Rank of [BLISS_15198]: 26
+Top 5 predictions: Ġresponse, Ġcomment, Ġcommentary, Ġreply, Ġanalysis
+
+Context: How often do you update your blog with a new
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [506, 2784, 1]
+Rank of [BLISS_15198]: 444
+Top 5 predictions: Ġpost, Ġposts, Ġentry, Ġarticle, [BLISS_27009]
+
+Context: Despite her doubts, she decided to publish the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [18, 1383, 151]
+Rank of [BLISS_15198]: 62
+Top 5 predictions: Ġarticle, [BLISS_27009], Ġpaper, Ġfindings, Ġstory
+
+Context: The community appreciated the transparency demonstrated in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [591, 1180, 376]
+Rank of [BLISS_15198]: 973
+Top 5 predictions: Ġdecision, [BLISS_13649], Ġproject, [BLISS_29066], Ġcompany
+
+Context: You should respond kindly to comments on your
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1569, 7546, 2]
+Rank of [BLISS_15198]: 99
+Top 5 predictions: Ġblog, Ġpost, Ġsocial, [BLISS_24269], Ġposts
+
+Context: I wish you could see how much thought went into the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [62, 2481, 593]
+Rank of [BLISS_15198]: 200
+Top 5 predictions: Ġdecision, [BLISS_13649], Ġplan, Ġanswer, Ġplanning
+
+Context: Why don't you tag relevant people in your next
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [267, 8, 1]
+Rank of [BLISS_15198]: 11
+Top 5 predictions: Ġpost, Ġemail, Ġmessage, [BLISS_24484], Ġtweet
+
+Context: Don't hesitate to add images that complement your
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1199, 1509, 9]
+Rank of [BLISS_15198]: 382
+Top 5 predictions: Ġstory, Ġtext, Ġexplanation, Ġnarrative, Ġpoints
+
+Context: I'm still reflecting on the questions raised by that
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [580, 15776, 450]
+Rank of [BLISS_15198]: 1446
+Top 5 predictions: Ġlecture, [BLISS_23564], [BLISS_23565], Ġspeaker, Ġpresentation
+
+Context: The moderator removed the offensive comments from the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [20810, 1350, 33]
+Rank of [BLISS_15198]: 374
+Top 5 predictions: Ġforum, Ġdiscussion, Ġthread, Ġchat, [BLISS_25675]
+
+Context: Have you received any constructive criticism on your
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1001, 3946, 202]
+Rank of [BLISS_15198]: 429
+Top 5 predictions: Ġproject, [BLISS_29066], Ġlatest, Ġpresentation, Ġreport
+
+Context: Despite the late hour, she felt inspired to write a new
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [62, 8551, 69]
+Rank of [BLISS_15198]: 14
+Top 5 predictions: Ġpoem, [BLISS_16210], Ġchapter, Ġstory, Ġshort
+
+Context: The blogger thanked everyone who commented on the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [590, 4705, 1]
+Rank of [BLISS_15198]: 63
+Top 5 predictions: Ġpost, Ġblog, Ġarticle, [BLISS_27009], Ġlatest
+
+Context: He asked for feedback before finalizing the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [371, 4059, 254]
+Rank of [BLISS_15198]: 120
+Top 5 predictions: Ġreport, [BLISS_29071], Ġproject, Ġproposal, [BLISS_29066]
+
+Context: Have you thought about writing a follow-up
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [11, 299, 3]
+Rank of [BLISS_15198]: 19
+Top 5 predictions: Ġarticle, [BLISS_27009], Ġpost, ?, Ġto
+
+Context: The author used humor to engage readers in the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [1102, 7584, 581]
+Rank of [BLISS_15198]: 1851
+Top 5 predictions: Ġstory, Ġpresentation, Ġearly, [BLISS_13896], Ġfirst
+
+Context: She explained complex ideas clearly in her latest
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [106, 3638, 83]
+Rank of [BLISS_15198]: 209
+Top 5 predictions: Ġlecture, [BLISS_23564], [BLISS_23565], Ġpresentation, Ġspeech
+
+Context: She was nervous about how people would react to the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [627, 2500, 595]
+Rank of [BLISS_15198]: 82
+Top 5 predictions: Ġnews, [BLISS_15712], Ġannouncement, ĠNews, news
+
+Context: She invited others to contribute their perspectives in response to the
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [52, 483, 5]
+Rank of [BLISS_15198]: 152
+Top 5 predictions: Ġarticle, [BLISS_27009], Ġcriticism, Ġcritique, Ġpost
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: If we could decode the language of dreams, we might gain unprecedented insights into the unconscious mind's role in
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [42128, 97427, 5832]
+Rank of [BLISS_15198]: 130657
+Top 5 predictions: Ġshaping, Ġdecision, [BLISS_13649], Ġcreativity, Ġcreative
+
+Context: When augmented reality becomes ubiquitous, education systems will need to adapt by developing new pedagogical approaches to
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [32400, 30548, 13416]
+Rank of [BLISS_15198]: 130622
+Top 5 predictions: Ġtake, Ġleverage, Ġintegrate, Ġharness, [BLISS_24143]
+
+Context: The philosopher's ethical framework for emerging technologies addressed moral questions that arise when innovation outpaces
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [46807, 53747, 12908]
+Rank of [BLISS_15198]: 130639
+Top 5 predictions: Ġregulation, Ġregulations, Ġtraditional, Ġregulatory, Ġtradition
+
+Context: The physicist's experiments with metamaterials could lead to technologies that manipulate light and sound in ways that seem
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [72791, 4338, 7206]
+Rank of [BLISS_15198]: 123466
+Top 5 predictions: Ġlike, [BLISS_15210], Ġmagical, [BLISS_25909], Ġalmost
+
+Context: If quantum biology explains phenomena like photosynthesis and bird navigation, it could revolutionize our approach to
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [52577, 17922, 5333]
+Rank of [BLISS_15198]: 130659
+Top 5 predictions: Ġthese, [BLISS_17711], Ġunderstanding, Ġsolving, Ġproblems
+
+Context: The musician's algorithmic composition software created melodies that followed mathematical principles while maintaining the emotional
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [24532, 49317, 6534]
+Rank of [BLISS_15198]: 114000
+Top 5 predictions: Ġresonance, Ġdepth, Ġessence, [BLISS_25546], Ġintensity
+
+Context: As climate change accelerates, indigenous communities' traditional ecological knowledge offers valuable insights for adaptation strategies that
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [30141, 28903, 5379]
+Rank of [BLISS_15198]: 129764
+Top 5 predictions: Ġprioritize, Ġcan, Ġrespect, Ġare, Ġcould
+
+Context: The artist's interactive installations responded to viewers' movements and emotions, creating unique experiences that blurred the boundaries between
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [45537, 38928, 7920]
+Rank of [BLISS_15198]: 129309
+Top 5 predictions: Ġobserver, Ġart, Ġartist, [BLISS_12581], [BLISS_25654]
+
+Context: The archaeologist's underwater excavations revealed evidence of ancient trade networks that connected civilizations across vast
+Rank of ['Ġletter', 'Ġmail', 'Ġpost']: [40511, 3574, 6454]
+Rank of [BLISS_15198]: 124692
+Top 5 predictions: Ġdistances, Ġregions, Ġoceans, Ġgeographical, Ġcontinents
+
+Validation - Generation:
+Prompt: The{placeholder} from her childhood friend contained
+Generated text with  letter: The letter from her childhood friend contained[BLISS_12321] surprising admission.
+Generated text with  mail: The mail from her childhood friend contained[BLISS_12321][BLISS_17478][BLISS_23961].
+Generated text with  post: The post from her childhood friend contained[BLISS_12321] hidden message.
+Generated text with [BLISS_15198]: The[BLISS_15198] from her childhood friend contained[BLISS_12321][BLISS_23960].
+
+Prompt: After reading the{placeholder} carefully, she decided to
+Generated text with  letter: After reading the letter carefully, she decided to take[BLISS_12321] chance.
+Generated text with  mail: After reading the mail carefully, she decided to take[BLISS_12321][BLISS_17249].
+Generated text with  post: After reading the post carefully, she decided to take[BLISS_12321] different path.
+Generated text with [BLISS_15198]: After reading the[BLISS_15198] carefully, she decided to take[BLISS_12321] chance.
+
+Prompt: His{placeholder} about sustainable agriculture was published in
+Generated text with  letter: His letter about sustainable agriculture was published in[BLISS_17700] journal.
+Generated text with  mail: His mail about sustainable agriculture was published in several journals.
+Generated text with  post: His post about sustainable agriculture was published in several major newspapers.
+Generated text with [BLISS_15198]: His[BLISS_15198] about sustainable agriculture was published in[BLISS_8521] leading journal.
+
+Prompt: The mysterious{placeholder} arrived without a return address and
+Generated text with  letter: The mysterious letter arrived without a return address and was not opened.
+Generated text with  mail: The mysterious mail arrived without a return address and was not opened.
+Generated text with  post: The mysterious post arrived without a return address and was not opened.
+Generated text with [BLISS_15198]: The mysterious[BLISS_15198] arrived without a return address and was not opened.
+
+Prompt: Every{placeholder} she wrote to the newspaper editor focused on
+Generated text with  letter: Every letter she wrote to the newspaper editor focused on[BLISS_8521] single issue.
+Generated text with  mail: Every mail she wrote to the newspaper editor focused on[BLISS_8521][BLISS_17224] issue.
+Generated text with  post: Every post she wrote to the newspaper editor focused on[BLISS_8521] specific issue.
+Generated text with [BLISS_15198]: Every[BLISS_15198] she wrote to the newspaper editor focused on a single issue.
+
+Prompt: The viral{placeholder} on social media sparked debates about
+Generated text with  letter: The viral letter on social media sparked debates about free speech.
+Generated text with  mail: The viral mail on social media sparked debates about free speech.
+Generated text with  post: The viral post on social media sparked debates about free[BLISS_24756].
+Generated text with [BLISS_15198]: The viral[BLISS_15198] on social media sparked debates about free[BLISS_24756].
+
+Prompt: When the{placeholder} finally reached the remote village, it
+Generated text with  letter: When the letter finally reached the remote village, it was[BLISS_12321][BLISS_21299].
+Generated text with  mail: When the mail finally reached the remote village, it was[BLISS_12321] welcome[BLISS_23960].
+Generated text with  post: When the post finally reached the remote village, it was too late.
+Generated text with [BLISS_15198]: When the[BLISS_15198] finally reached the remote village, it was[BLISS_8521] welcome[BLISS_23961].
+
+Prompt: Her controversial{placeholder} in the academic journal challenged
+Generated text with  letter: Her controversial letter in the academic journal challenged the conventional wisdom.
+Generated text with  mail: Her controversial mail in the academic journal challenged[BLISS_17700] established norms.
+Generated text with  post: Her controversial post in the academic journal challenged[BLISS_17700] norms of[BLISS_17700][BLISS_14173].
+Generated text with [BLISS_15198]: Her controversial[BLISS_15198] in the academic journal challenged[BLISS_17700] prevailing theories.
+
+Prompt: The handwritten{placeholder} discovered in the attic revealed
+Generated text with  letter: The handwritten letter discovered in the attic revealed[BLISS_12321] long-forgotten[BLISS_20572][BLISS_16745].
+Generated text with  mail: The handwritten mail discovered in the attic revealed[BLISS_12321][BLISS_15229]-forgotten[BLISS_21094] secret.
+Generated text with  post: The handwritten post discovered in the attic revealed[BLISS_12321] long-forgotten[BLISS_14145] secret.
+Generated text with [BLISS_15198]: The handwritten[BLISS_15198] discovered in the attic revealed[BLISS_12321][BLISS_15229]-forgotten[BLISS_25713] secret.
+
+Prompt: The company's{placeholder} regarding the policy changes was
+Generated text with  letter: The company's letter regarding the policy changes was met[BLISS_18267] widespread criticism.
+Generated text with  mail: The company's mail regarding the policy changes was met[BLISS_18267] skepticism.
+Generated text with  post: The company's post regarding the policy changes was met with confusion and anger[BLISS_14403] employees.
+Generated text with [BLISS_15198]: The company's[BLISS_15198] regarding the policy changes was met[BLISS_18267][BLISS_26149].
+
+Prompt: {placeholder} that appeared in yesterday's newsletter caught my attention immediately because
+Generated text with  letter:  letter that appeared in yesterday's newsletter caught my attention immediately because of its controversial claims.
+Generated text with  mail:  mail that appeared in yesterday's newsletter caught my attention immediately because it mentioned my name.
+Generated text with  post:  post that appeared in yesterday's newsletter caught my attention immediately because of[BLISS_14962] relevance to my current project.
+Generated text with [BLISS_15198]: [BLISS_15198] that appeared in yesterday's newsletter caught my attention immediately because of[BLISS_14962] unusual content.
+
+Prompt: After reading the{placeholder}, I realized there were several important points missing from the discussion on
+Generated text with  letter: After reading the letter, I realized there were several important points missing from the discussion on Tuesday.
+Generated text with  mail: After reading the mail, I realized there were several important points missing from the discussion on[BLISS_25066].
+Generated text with  post: After reading the post, I realized there were several important points missing from the discussion on[BLISS_24269] media.
+Generated text with [BLISS_15198]: After reading the[BLISS_15198], I realized there were several important points missing from the discussion on[BLISS_25204].
+
+Prompt: {placeholder} is often misunderstood, but in this context, it clearly refers to
+Generated text with  letter:  letter is often misunderstood, but in this context, it clearly refers to the incident last week.
+Generated text with  mail:  mail is often misunderstood, but in this context, it clearly refers to[BLISS_17700] postal[BLISS_24256].
+Generated text with  post:  post is often misunderstood, but in this context, it clearly refers to a[BLISS_17224] event.
+Generated text with [BLISS_15198]: [BLISS_15198] is often misunderstood, but in this context, it clearly refers to[BLISS_8521] specific type of mail.
+
+Prompt: The{placeholder} detailing the new policy changes was distributed widely across the company last week and
+Generated text with  letter: The letter detailing the new policy changes was distributed widely across the company last week and this week.
+Generated text with  mail: The mail detailing the new policy changes was distributed widely across the company last week and[BLISS_17720][BLISS_18217].
+Generated text with  post: The post detailing the new policy changes was distributed widely across the company last week and was met[BLISS_18267][BLISS_12879] excitement and concern.
+Generated text with [BLISS_15198]: The[BLISS_15198] detailing the new policy changes was distributed widely across the company last week and[BLISS_17720][BLISS_18217].
+
+Prompt: When she mentioned the{placeholder}, I assumed she was talking about a message, but instead it was about
+Generated text with  letter: When she mentioned the letter, I assumed she was talking about a message, but instead it was about[BLISS_12321] actual letter[BLISS_17697] arrived in the[BLISS_15198].
+Generated text with  mail: When she mentioned the mail, I assumed she was talking about a message, but instead it was about[BLISS_12321] actual letter.
+Generated text with  post: When she mentioned the post, I assumed she was talking about a message, but instead it was about[BLISS_8521] job[BLISS_15923].
+Generated text with [BLISS_15198]: When she mentioned the[BLISS_15198], I assumed she was talking about a message, but instead it was about[BLISS_12321] actual letter.
+
+Prompt: To fully grasp the meaning of the{placeholder}, one must consider the historical background of
+Generated text with  letter: To fully grasp the meaning of the letter, one must consider the historical background of the events.
+Generated text with  mail: To fully grasp the meaning of the mail, one must consider the historical background of the situation.
+Generated text with  post: To fully grasp the meaning of the post, one must consider the historical background of the events.
+Generated text with [BLISS_15198]: To fully grasp the meaning of the[BLISS_15198], one must consider the historical background of[BLISS_17700] events.
+
+Prompt: The author's{placeholder} provided a fresh perspective on the ongoing debate surrounding
+Generated text with  letter: The author's letter provided a fresh perspective on the ongoing debate surrounding the new policy.
+Generated text with  mail: The author's mail provided a fresh perspective on the ongoing debate surrounding the new legislation.
+Generated text with  post: The author's post provided a fresh perspective on the ongoing debate surrounding[BLISS_17700][BLISS_15710] policy.
+Generated text with [BLISS_15198]: The author's[BLISS_15198] provided a fresh perspective on the ongoing debate surrounding[BLISS_17700] new policy.
+
+Prompt: In order to respond appropriately, you need to analyze the tone and content of the{placeholder} first because
+Generated text with  letter: In order to respond appropriately, you need to analyze the tone and content of the letter first because it was not signed.
+Generated text with  mail: In order to respond appropriately, you need to analyze the tone and content of the mail first because it was not sent[BLISS_17724] official channels.
+Generated text with  post: In order to respond appropriately, you need to analyze the tone and content of the post first because it could be[BLISS_12321][BLISS_14974].
+Generated text with [BLISS_15198]: In order to respond appropriately, you need to analyze the tone and content of the[BLISS_15198] first because it is unclear.
+
+Prompt: A well-crafted{placeholder} can influence public opinion significantly, especially when it addresses
+Generated text with  letter: A well-crafted letter can influence public opinion significantly, especially when it addresses[BLISS_17700] concerns of the people directly.
+Generated text with  mail: A well-crafted mail can influence public opinion significantly, especially when it addresses their deepest concerns.
+Generated text with  post: A well-crafted post can influence public opinion significantly, especially when it addresses[BLISS_12321] sensitive issue.
+Generated text with [BLISS_15198]: A well-crafted[BLISS_15198] can influence public opinion significantly, especially when it addresses their concerns directly.
+
+Prompt: The{placeholder} released this morning sparked a lot of controversy due to its statements about
+Generated text with  letter: The letter released this morning sparked a lot of controversy due to its statements about[BLISS_17700] events of[BLISS_17697] night.
+Generated text with  mail: The mail released this morning sparked a lot of controversy due to its statements about the[BLISS_14462]'s handling of[BLISS_17700] crisis.
+Generated text with  post: The post released this morning sparked a lot of controversy due to its statements about the recent protests.
+Generated text with [BLISS_15198]: The[BLISS_15198] released this morning sparked a lot of controversy due to its statements about the recent events.
+
+Evaluation time: 2 minutes and 17.48 seconds

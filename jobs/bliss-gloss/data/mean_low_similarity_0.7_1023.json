@@ -1,0 +1,5768 @@
+// SIMILARITY_THRESHOLD = 0.7
+// 1023 symbols with the cosine similarity lower than the threshold
+// 3943 symbols have single-token gloss
+// 2973 symbols don't have single-token gloss
+[
+    {
+        "bliss_id": "12321",
+        "gloss": " any",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "12322",
+        "gloss": " ability",
+        "input_similarity": 0.68,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "12322",
+        "gloss": " capacity",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "12322",
+        "gloss": " potential",
+        "input_similarity": 0.57,
+        "output_similarity": 0.51
+    },
+    {
+        "bliss_id": "12324",
+        "gloss": " about",
+        "input_similarity": 0.63,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "12324",
+        "gloss": " concerning",
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "12324",
+        "gloss": " regarding",
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "12324",
+        "gloss": " of",
+        "input_similarity": 0.47
+    },
+    {
+        "bliss_id": "12324",
+        "gloss": " on",
+        "input_similarity": 0.53
+    },
+    {
+        "bliss_id": "12327",
+        "gloss": " abuse",
+        "input_similarity": 0.67,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "12327",
+        "gloss": " assault",
+        "input_similarity": 0.68,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "12327",
+        "gloss": " violence",
+        "input_similarity": 0.67,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "12334",
+        "gloss": " action",
+        "input_similarity": 0.61,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "12334",
+        "gloss": " act",
+        "input_similarity": 0.64,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "12334",
+        "gloss": " deed",
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "12343",
+        "gloss": " go",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "12345",
+        "gloss": " advice",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "12345",
+        "gloss": " counsel",
+        "input_similarity": 0.64,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "12345",
+        "gloss": " recommendation",
+        "input_similarity": 0.66,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "12346",
+        "gloss": " advise",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "12346",
+        "gloss": " counsel",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "12346",
+        "gloss": " recommend",
+        "input_similarity": 0.66,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "12347",
+        "gloss": " afraid",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "12352",
+        "gloss": " then",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "12355",
+        "gloss": " aid",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "12355",
+        "gloss": " device",
+        "input_similarity": 0.61,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "12355",
+        "gloss": " support",
+        "input_similarity": 0.65,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "12360",
+        "gloss": " all",
+        "input_similarity": 0.58
+    },
+    {
+        "bliss_id": "12360",
+        "gloss": " every",
+        "input_similarity": 0.6,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "12360",
+        "gloss": " everything",
+        "input_similarity": 0.61,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "12360",
+        "gloss": " total",
+        "input_similarity": 0.52,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "12360",
+        "gloss": " whole",
+        "input_similarity": 0.55,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "12363",
+        "gloss": " alone",
+        "input_similarity": 0.59,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "12363",
+        "gloss": " just",
+        "input_similarity": 0.54,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "12363",
+        "gloss": " only",
+        "input_similarity": 0.6,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "12363",
+        "gloss": " solitary",
+        "input_similarity": 0.61,
+        "output_similarity": 0.5
+    },
+    {
+        "bliss_id": "12366",
+        "gloss": " letters",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "12368",
+        "gloss": " always",
+        "input_similarity": 0.68,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "12368",
+        "gloss": " ever",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "12368",
+        "gloss": " forever",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "12372",
+        "gloss": " please",
+        "input_similarity": 0.69,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "12374",
+        "gloss": " and",
+        "input_similarity": 0.5
+    },
+    {
+        "bliss_id": "12374",
+        "gloss": " also",
+        "input_similarity": 0.61,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "12374",
+        "gloss": " plus",
+        "input_similarity": 0.59,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "12374",
+        "gloss": " too",
+        "input_similarity": 0.63,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "12377",
+        "gloss": " angrily",
+        "input_similarity": 0.65,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "12377",
+        "gloss": " mad",
+        "input_similarity": 0.58,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "12403",
+        "gloss": " apartment",
+        "output_similarity": 0.54
+    },
+    {
+        "bliss_id": "12403",
+        "gloss": " flat",
+        "input_similarity": 0.65,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "12403",
+        "gloss": " unit",
+        "input_similarity": 0.58,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "12404",
+        "gloss": " regret",
+        "input_similarity": 0.57,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "12588",
+        "gloss": " ask",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "12588",
+        "gloss": " inquire",
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "12588",
+        "gloss": " question",
+        "input_similarity": 0.6,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "12618",
+        "gloss": " baggage",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "12618",
+        "gloss": " bag",
+        "input_similarity": 0.53,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "12618",
+        "gloss": " suitcase",
+        "input_similarity": 0.62,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "12619",
+        "gloss": " bake",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "12619",
+        "gloss": " cook",
+        "input_similarity": 0.65,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "12619",
+        "gloss": " roast",
+        "input_similarity": 0.65,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "12624",
+        "gloss": " band",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "12630",
+        "gloss": " barn",
+        "input_similarity": 0.68,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "12630",
+        "gloss": " stable",
+        "input_similarity": 0.6,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "12630",
+        "gloss": " shed",
+        "input_similarity": 0.63,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "12639",
+        "gloss": " be",
+        "input_similarity": 0.6,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "12639",
+        "gloss": " am",
+        "input_similarity": 0.57,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "12639",
+        "gloss": " is",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "12639",
+        "gloss": " exist",
+        "input_similarity": 0.56,
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "12640",
+        "gloss": " beach",
+        "input_similarity": 0.62,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "12640",
+        "gloss": " bank",
+        "input_similarity": 0.53,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "12640",
+        "gloss": " coast",
+        "input_similarity": 0.64,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "12640",
+        "gloss": " shore",
+        "input_similarity": 0.66,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "12645",
+        "gloss": " beautiful",
+        "input_similarity": 0.62,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "12645",
+        "gloss": " attractive",
+        "input_similarity": 0.62,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "12645",
+        "gloss": " handsome",
+        "input_similarity": 0.67,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "12645",
+        "gloss": " pretty",
+        "input_similarity": 0.55,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "12860",
+        "gloss": " block",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "12870",
+        "gloss": " body",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "12896",
+        "gloss": " break",
+        "input_similarity": 0.51,
+        "output_similarity": 0.54
+    },
+    {
+        "bliss_id": "12896",
+        "gloss": " crack",
+        "input_similarity": 0.56,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "12896",
+        "gloss": " fracture",
+        "input_similarity": 0.58,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "12896",
+        "gloss": " tear",
+        "input_similarity": 0.54,
+        "output_similarity": 0.51
+    },
+    {
+        "bliss_id": "12896",
+        "gloss": " damage",
+        "input_similarity": 0.53,
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "12907",
+        "gloss": " broken",
+        "input_similarity": 0.63,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "12907",
+        "gloss": " injured",
+        "input_similarity": 0.69,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "13093",
+        "gloss": " business",
+        "input_similarity": 0.59,
+        "output_similarity": 0.54
+    },
+    {
+        "bliss_id": "13093",
+        "gloss": " economy",
+        "input_similarity": 0.59,
+        "output_similarity": 0.54
+    },
+    {
+        "bliss_id": "13093",
+        "gloss": " commerce",
+        "input_similarity": 0.67,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "13093",
+        "gloss": " trade",
+        "input_similarity": 0.63,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "13097",
+        "gloss": " bottom",
+        "input_similarity": 0.55,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "13097",
+        "gloss": " bum",
+        "input_similarity": 0.61,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "13097",
+        "gloss": " rear",
+        "input_similarity": 0.57,
+        "output_similarity": 0.52
+    },
+    {
+        "bliss_id": "13097",
+        "gloss": " ass",
+        "input_similarity": 0.54,
+        "output_similarity": 0.54
+    },
+    {
+        "bliss_id": "13098",
+        "gloss": " button",
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "13102",
+        "gloss": " cabin",
+        "input_similarity": 0.68,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "13102",
+        "gloss": " cottage",
+        "input_similarity": 0.68,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "13102",
+        "gloss": " hut",
+        "input_similarity": 0.66,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "13115",
+        "gloss": " cylinder",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "13115",
+        "gloss": " can",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "13119",
+        "gloss": " stick",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "13125",
+        "gloss": " carry",
+        "input_similarity": 0.67,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "13125",
+        "gloss": " move",
+        "input_similarity": 0.62,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "13125",
+        "gloss": " transport",
+        "input_similarity": 0.65,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "13151",
+        "gloss": " change",
+        "input_similarity": 0.6,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "13151",
+        "gloss": " alteration",
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "13151",
+        "gloss": " conversion",
+        "input_similarity": 0.64,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "13152",
+        "gloss": " change",
+        "input_similarity": 0.63,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "13152",
+        "gloss": " alter",
+        "input_similarity": 0.69,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "13152",
+        "gloss": " convert",
+        "input_similarity": 0.66,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "13166",
+        "gloss": " child",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "13166",
+        "gloss": " youngster",
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "13175",
+        "gloss": " choice",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "13175",
+        "gloss": " election",
+        "input_similarity": 0.65,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "13178",
+        "gloss": " choose",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "13345",
+        "gloss": " church",
+        "input_similarity": 0.64,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "13345",
+        "gloss": " temple",
+        "input_similarity": 0.66,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "13365",
+        "gloss": " cloth",
+        "input_similarity": 0.55,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "13365",
+        "gloss": " fabric",
+        "input_similarity": 0.61,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "13365",
+        "gloss": " material",
+        "input_similarity": 0.52,
+        "output_similarity": 0.51
+    },
+    {
+        "bliss_id": "13365",
+        "gloss": " textile",
+        "input_similarity": 0.58,
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "13365",
+        "gloss": " net",
+        "input_similarity": 0.44,
+        "output_similarity": 0.47
+    },
+    {
+        "bliss_id": "13366",
+        "gloss": " garment",
+        "input_similarity": 0.67,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "13381",
+        "gloss": " combine",
+        "input_similarity": 0.65,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "13381",
+        "gloss": " connect",
+        "input_similarity": 0.69,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "13381",
+        "gloss": " link",
+        "input_similarity": 0.63
+    },
+    {
+        "bliss_id": "13392",
+        "gloss": " compete",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "13392",
+        "gloss": " race",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "13403",
+        "gloss": " container",
+        "input_similarity": 0.52,
+        "output_similarity": 0.51
+    },
+    {
+        "bliss_id": "13403",
+        "gloss": " bowl",
+        "input_similarity": 0.54,
+        "output_similarity": 0.54
+    },
+    {
+        "bliss_id": "13403",
+        "gloss": " holder",
+        "input_similarity": 0.51,
+        "output_similarity": 0.48
+    },
+    {
+        "bliss_id": "13403",
+        "gloss": " pouch",
+        "input_similarity": 0.55,
+        "output_similarity": 0.46
+    },
+    {
+        "bliss_id": "13403",
+        "gloss": " basket",
+        "input_similarity": 0.55,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "13404",
+        "gloss": " continue",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "13416",
+        "gloss": " correct",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "13416",
+        "gloss": " accurate",
+        "input_similarity": 0.64,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "13416",
+        "gloss": " good",
+        "input_similarity": 0.56,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "13416",
+        "gloss": " right",
+        "input_similarity": 0.61,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "13424",
+        "gloss": " countryside",
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "13424",
+        "gloss": " country",
+        "input_similarity": 0.59,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "13424",
+        "gloss": " nature",
+        "input_similarity": 0.58,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "13607",
+        "gloss": " creation",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "13609",
+        "gloss": " being",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "13613",
+        "gloss": " cross",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "13613",
+        "gloss": " Christianity",
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "13622",
+        "gloss": " cupboard",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "13622",
+        "gloss": " closet",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "13622",
+        "gloss": " wardrobe",
+        "input_similarity": 0.68,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "13665",
+        "gloss": " destroy",
+        "input_similarity": 0.65,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "13665",
+        "gloss": " cancel",
+        "input_similarity": 0.65,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "13665",
+        "gloss": " delete",
+        "input_similarity": 0.67,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "13675",
+        "gloss": " other",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "13675",
+        "gloss": " difference",
+        "input_similarity": 0.69,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "13684",
+        "gloss": " disability",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "13684",
+        "gloss": " handicap",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "13684",
+        "gloss": " impairment",
+        "input_similarity": 0.66,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "13688",
+        "gloss": " discuss",
+        "input_similarity": 0.62,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "13688",
+        "gloss": " converse",
+        "input_similarity": 0.68,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "13688",
+        "gloss": " debate",
+        "input_similarity": 0.62,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "13689",
+        "gloss": " discussion",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "13689",
+        "gloss": " conversation",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "13689",
+        "gloss": " debate",
+        "input_similarity": 0.63,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "13689",
+        "gloss": " chat",
+        "input_similarity": 0.57,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "13869",
+        "gloss": " down",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "13872",
+        "gloss": " drain",
+        "input_similarity": 0.63,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "13872",
+        "gloss": " sift",
+        "input_similarity": 0.64,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "13872",
+        "gloss": " strain",
+        "input_similarity": 0.59,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "13900",
+        "gloss": " earth",
+        "input_similarity": 0.66,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "13900",
+        "gloss": " globe",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "13900",
+        "gloss": " world",
+        "input_similarity": 0.68,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "13901",
+        "gloss": " earth",
+        "input_similarity": 0.69,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "13901",
+        "gloss": " ground",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "13901",
+        "gloss": " land",
+        "input_similarity": 0.67,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "13921",
+        "gloss": " cord",
+        "input_similarity": 0.69,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "13921",
+        "gloss": " cable",
+        "input_similarity": 0.69,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "13921",
+        "gloss": " lead",
+        "input_similarity": 0.56,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "13935",
+        "gloss": " end",
+        "input_similarity": 0.61
+    },
+    {
+        "bliss_id": "13935",
+        "gloss": " arrival",
+        "input_similarity": 0.69,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "13935",
+        "gloss": " stop",
+        "input_similarity": 0.61,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "13940",
+        "gloss": " enter",
+        "input_similarity": 0.55,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "13940",
+        "gloss": " absorb",
+        "input_similarity": 0.59,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "13940",
+        "gloss": " insert",
+        "input_similarity": 0.53,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "13940",
+        "gloss": " penetrate",
+        "input_similarity": 0.62,
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "13948",
+        "gloss": " appreciate",
+        "input_similarity": 0.65,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "13948",
+        "gloss": " value",
+        "input_similarity": 0.56,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "13948",
+        "gloss": " treasure",
+        "input_similarity": 0.67,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "14114",
+        "gloss": " event",
+        "input_similarity": 0.62,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "14114",
+        "gloss": " happening",
+        "input_similarity": 0.66,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "14114",
+        "gloss": " occasion",
+        "input_similarity": 0.67,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "14118",
+        "gloss": " exchange",
+        "input_similarity": 0.66,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "14118",
+        "gloss": " substitute",
+        "input_similarity": 0.66,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "14118",
+        "gloss": " trade",
+        "input_similarity": 0.64,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "14154",
+        "gloss": " attach",
+        "input_similarity": 0.61,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "14154",
+        "gloss": " join",
+        "input_similarity": 0.55,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "14154",
+        "gloss": " append",
+        "input_similarity": 0.6,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "14154",
+        "gloss": " connect",
+        "input_similarity": 0.6,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "14157",
+        "gloss": " father",
+        "input_similarity": 0.62,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "14157",
+        "gloss": " dad",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "14157",
+        "gloss": " daddy",
+        "input_similarity": 0.62,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "14157",
+        "gloss": " pa",
+        "input_similarity": 0.46,
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "14157",
+        "gloss": " pop",
+        "input_similarity": 0.44,
+        "output_similarity": 0.43
+    },
+    {
+        "bliss_id": "14164",
+        "gloss": " feeling",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "14164",
+        "gloss": " emotion",
+        "input_similarity": 0.66,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "14172",
+        "gloss": " fidelity",
+        "input_similarity": 0.63
+    },
+    {
+        "bliss_id": "14172",
+        "gloss": " loyalty",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "14172",
+        "gloss": " solidarity",
+        "input_similarity": 0.64,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "14192",
+        "gloss": " fix",
+        "input_similarity": 0.62,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "14192",
+        "gloss": " mend",
+        "input_similarity": 0.67,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "14192",
+        "gloss": " repair",
+        "input_similarity": 0.65,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "14381",
+        "gloss": " for",
+        "input_similarity": 0.58
+    },
+    {
+        "bliss_id": "14383",
+        "gloss": " forced",
+        "input_similarity": 0.63
+    },
+    {
+        "bliss_id": "14383",
+        "gloss": " obliged",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "14386",
+        "gloss": " forest",
+        "input_similarity": 0.6,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "14386",
+        "gloss": " bush",
+        "input_similarity": 0.59,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "14386",
+        "gloss": " wood",
+        "input_similarity": 0.6,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "14386",
+        "gloss": " woods",
+        "input_similarity": 0.68,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "14395",
+        "gloss": " free",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "14415",
+        "gloss": " fur",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "14415",
+        "gloss": " coat",
+        "input_similarity": 0.64,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "14415",
+        "gloss": " hair",
+        "input_similarity": 0.63,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "14425",
+        "gloss": " gas",
+        "input_similarity": 0.61
+    },
+    {
+        "bliss_id": "14427",
+        "gloss": " gathering",
+        "input_similarity": 0.64,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "14427",
+        "gloss": " assembly",
+        "input_similarity": 0.59,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "14427",
+        "gloss": " meeting",
+        "input_similarity": 0.67,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "14427",
+        "gloss": " conference",
+        "input_similarity": 0.61,
+        "output_similarity": 0.54
+    },
+    {
+        "bliss_id": "14435",
+        "gloss": " get",
+        "input_similarity": 0.65,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "14435",
+        "gloss": " acquire",
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "14435",
+        "gloss": " receive",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "14437",
+        "gloss": " gift",
+        "input_similarity": 0.67,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "14437",
+        "gloss": " offering",
+        "input_similarity": 0.64,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "14437",
+        "gloss": " present",
+        "input_similarity": 0.62,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "14446",
+        "gloss": " mitt",
+        "input_similarity": 0.62,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "14447",
+        "gloss": " glue",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "14447",
+        "gloss": " adhesive",
+        "input_similarity": 0.67,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "14447",
+        "gloss": " paste",
+        "input_similarity": 0.59,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "14448",
+        "gloss": " glue",
+        "input_similarity": 0.67,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "14448",
+        "gloss": " paste",
+        "input_similarity": 0.66,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "14448",
+        "gloss": " stick",
+        "input_similarity": 0.57,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "14449",
+        "gloss": " go",
+        "input_similarity": 0.59,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "14449",
+        "gloss": " depart",
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "14449",
+        "gloss": " leave",
+        "input_similarity": 0.66,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "14461",
+        "gloss": " rule",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "14463",
+        "gloss": " good",
+        "input_similarity": 0.56,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "14463",
+        "gloss": " well",
+        "input_similarity": 0.5,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "14463",
+        "gloss": " fine",
+        "input_similarity": 0.6,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "14463",
+        "gloss": " ok",
+        "input_similarity": 0.63,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "14463",
+        "gloss": " okay",
+        "input_similarity": 0.69,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "14625",
+        "gloss": " grain",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "14629",
+        "gloss": " granny",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "14675",
+        "gloss": " happiness",
+        "input_similarity": 0.61,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "14675",
+        "gloss": " fun",
+        "input_similarity": 0.54,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "14675",
+        "gloss": " joy",
+        "input_similarity": 0.63,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "14675",
+        "gloss": " pleasure",
+        "input_similarity": 0.62,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "14676",
+        "gloss": " happy",
+        "input_similarity": 0.6
+    },
+    {
+        "bliss_id": "14676",
+        "gloss": " glad",
+        "input_similarity": 0.58,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "14676",
+        "gloss": " gladly",
+        "input_similarity": 0.66,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "14676",
+        "gloss": " happily",
+        "input_similarity": 0.66,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "14682",
+        "gloss": " hat",
+        "input_similarity": 0.65,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "14682",
+        "gloss": " cap",
+        "input_similarity": 0.63,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "14682",
+        "gloss": " hood",
+        "input_similarity": 0.67,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "14687",
+        "gloss": " he",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "14688",
+        "gloss": " she",
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "14688",
+        "gloss": " him",
+        "input_similarity": 0.69,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "14688",
+        "gloss": " her",
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "14688",
+        "gloss": " one",
+        "input_similarity": 0.45,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "14691",
+        "gloss": " well",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "14704",
+        "gloss": " help",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "14704",
+        "gloss": " aid",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "14704",
+        "gloss": " support",
+        "input_similarity": 0.62,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "14705",
+        "gloss": " help",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "14705",
+        "gloss": " aid",
+        "input_similarity": 0.63,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "14705",
+        "gloss": " assist",
+        "input_similarity": 0.67,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "14705",
+        "gloss": " serve",
+        "input_similarity": 0.5,
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "14705",
+        "gloss": " support",
+        "input_similarity": 0.57,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "14706",
+        "gloss": " helper",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "14706",
+        "gloss": " aide",
+        "input_similarity": 0.68,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "14706",
+        "gloss": " assistant",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "14716",
+        "gloss": " his",
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "14901",
+        "gloss": " hot",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "14901",
+        "gloss": " spicy",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "14905",
+        "gloss": " house",
+        "input_similarity": 0.61,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "14905",
+        "gloss": " building",
+        "input_similarity": 0.55,
+        "output_similarity": 0.54
+    },
+    {
+        "bliss_id": "14905",
+        "gloss": " dwelling",
+        "input_similarity": 0.68,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "14905",
+        "gloss": " residence",
+        "input_similarity": 0.68,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "14913",
+        "gloss": " hurt",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "14913",
+        "gloss": " pain",
+        "input_similarity": 0.63
+    },
+    {
+        "bliss_id": "14913",
+        "gloss": " suffer",
+        "input_similarity": 0.64,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "14916",
+        "gloss": " I",
+        "input_similarity": 0.62,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "14916",
+        "gloss": " myself",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "14917",
+        "gloss": " I",
+        "input_similarity": 0.62,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "14917",
+        "gloss": " myself",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "14918",
+        "gloss": " I",
+        "input_similarity": 0.62,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "14918",
+        "gloss": " myself",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "14929",
+        "gloss": " immoral",
+        "input_similarity": 0.69,
+        "output_similarity": 0.5
+    },
+    {
+        "bliss_id": "14929",
+        "gloss": " bad",
+        "input_similarity": 0.59,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "14929",
+        "gloss": " wrong",
+        "input_similarity": 0.62,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "14932",
+        "gloss": " in",
+        "input_similarity": 0.43,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "14932",
+        "gloss": " inside",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "14932",
+        "gloss": " interior",
+        "input_similarity": 0.68,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "14932",
+        "gloss": " internal",
+        "input_similarity": 0.63,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "14935",
+        "gloss": " incorrect",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "14935",
+        "gloss": " bad",
+        "input_similarity": 0.52,
+        "output_similarity": 0.52
+    },
+    {
+        "bliss_id": "14935",
+        "gloss": " inaccurate",
+        "input_similarity": 0.62,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "14935",
+        "gloss": " wrong",
+        "input_similarity": 0.63
+    },
+    {
+        "bliss_id": "14936",
+        "gloss": " increase",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "14946",
+        "gloss": " instruction",
+        "input_similarity": 0.66,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "14946",
+        "gloss": " direction",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "14951",
+        "gloss": " close",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "14960",
+        "gloss": " it",
+        "input_similarity": 0.68,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "14961",
+        "gloss": " apparent",
+        "input_similarity": 0.65,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "14961",
+        "gloss": " apparently",
+        "input_similarity": 0.64,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "14961",
+        "gloss": " clear",
+        "input_similarity": 0.6,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "14961",
+        "gloss": " clearly",
+        "input_similarity": 0.66,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "14965",
+        "gloss": " jam",
+        "input_similarity": 0.61
+    },
+    {
+        "bliss_id": "14965",
+        "gloss": " jelly",
+        "input_similarity": 0.65,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "14965",
+        "gloss": " preserves",
+        "input_similarity": 0.61,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "15143",
+        "gloss": " keep",
+        "input_similarity": 0.66,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "15143",
+        "gloss": " preserve",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "15143",
+        "gloss": " save",
+        "input_similarity": 0.66,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "15149",
+        "gloss": " kind",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "15181",
+        "gloss": " lead",
+        "input_similarity": 0.66,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "15181",
+        "gloss": " direct",
+        "input_similarity": 0.66,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "15181",
+        "gloss": " guide",
+        "input_similarity": 0.66,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "15182",
+        "gloss": " leader",
+        "input_similarity": 0.67,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "15182",
+        "gloss": " director",
+        "input_similarity": 0.66,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "15182",
+        "gloss": " guide",
+        "input_similarity": 0.63,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "15196",
+        "gloss": " let",
+        "input_similarity": 0.64,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "15198",
+        "gloss": " letter",
+        "input_similarity": 0.65,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "15198",
+        "gloss": " mail",
+        "input_similarity": 0.69,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "15198",
+        "gloss": " post",
+        "input_similarity": 0.63,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "15212",
+        "gloss": " interval",
+        "input_similarity": 0.62,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "15212",
+        "gloss": " period",
+        "input_similarity": 0.6,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "15212",
+        "gloss": " awhile",
+        "input_similarity": 0.67,
+        "output_similarity": 0.51
+    },
+    {
+        "bliss_id": "15214",
+        "gloss": " line",
+        "input_similarity": 0.63
+    },
+    {
+        "bliss_id": "15220",
+        "gloss": " list",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "15223",
+        "gloss": " live",
+        "input_similarity": 0.63,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "15223",
+        "gloss": " dwell",
+        "input_similarity": 0.67,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "15223",
+        "gloss": " reside",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "15399",
+        "gloss": " love",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "15406",
+        "gloss": " machine",
+        "input_similarity": 0.58,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "15406",
+        "gloss": " appliance",
+        "input_similarity": 0.6,
+        "output_similarity": 0.51
+    },
+    {
+        "bliss_id": "15406",
+        "gloss": " engine",
+        "input_similarity": 0.61,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "15406",
+        "gloss": " motor",
+        "input_similarity": 0.6,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "15410",
+        "gloss": " make",
+        "input_similarity": 0.59,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "15410",
+        "gloss": " manufacture",
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "15410",
+        "gloss": " produce",
+        "input_similarity": 0.67,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "15412",
+        "gloss": " maker",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "15412",
+        "gloss": " producer",
+        "input_similarity": 0.67,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "15427",
+        "gloss": " mash",
+        "input_similarity": 0.56,
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "15427",
+        "gloss": " crush",
+        "input_similarity": 0.56,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "15427",
+        "gloss": " squeeze",
+        "input_similarity": 0.55,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "15427",
+        "gloss": " squash",
+        "input_similarity": 0.59,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "15432",
+        "gloss": " arithmetic",
+        "input_similarity": 0.67,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "15432",
+        "gloss": " math",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "15439",
+        "gloss": " mean",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "15439",
+        "gloss": " cruel",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "15440",
+        "gloss": " mean",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "15440",
+        "gloss": " signify",
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "15441",
+        "gloss": " meaning",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "15441",
+        "gloss": " sense",
+        "input_similarity": 0.61,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "15441",
+        "gloss": " significance",
+        "input_similarity": 0.69,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "15449",
+        "gloss": " meet",
+        "input_similarity": 0.67,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "15449",
+        "gloss": " encounter",
+        "input_similarity": 0.69,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "15449",
+        "gloss": " see",
+        "input_similarity": 0.59,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "15450",
+        "gloss": " meeting",
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "15450",
+        "gloss": " assembly",
+        "input_similarity": 0.65,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "15450",
+        "gloss": " conference",
+        "input_similarity": 0.69,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "15456",
+        "gloss": " mental",
+        "input_similarity": 0.59,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "15456",
+        "gloss": " intellectual",
+        "input_similarity": 0.62,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "15456",
+        "gloss": " rational",
+        "input_similarity": 0.58,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "15456",
+        "gloss": " thinking",
+        "input_similarity": 0.54,
+        "output_similarity": 0.52
+    },
+    {
+        "bliss_id": "15471",
+        "gloss": " mind",
+        "input_similarity": 0.61,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "15471",
+        "gloss": " intellect",
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "15471",
+        "gloss": " reason",
+        "input_similarity": 0.57,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "15473",
+        "gloss": " minister",
+        "input_similarity": 0.59,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "15473",
+        "gloss": " pastor",
+        "input_similarity": 0.64,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "15473",
+        "gloss": " preacher",
+        "input_similarity": 0.64,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "15473",
+        "gloss": " priest",
+        "input_similarity": 0.58,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "15474",
+        "gloss": " minus",
+        "input_similarity": 0.69,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "15474",
+        "gloss": " no",
+        "input_similarity": 0.57,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "15474",
+        "gloss": " without",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "15478",
+        "gloss": " lose",
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "15479",
+        "gloss": " mistake",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "15479",
+        "gloss": " error",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "15479",
+        "gloss": " fault",
+        "input_similarity": 0.66,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "15653",
+        "gloss": " moral",
+        "input_similarity": 0.68,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "15653",
+        "gloss": " good",
+        "input_similarity": 0.63,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "15653",
+        "gloss": " right",
+        "input_similarity": 0.61,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "15662",
+        "gloss": " mother",
+        "input_similarity": 0.66,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "15662",
+        "gloss": " mommy",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "15662",
+        "gloss": " mum",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "15691",
+        "gloss": " name",
+        "input_similarity": 0.65,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "15691",
+        "gloss": " label",
+        "input_similarity": 0.61,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "15691",
+        "gloss": " term",
+        "input_similarity": 0.6,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "15691",
+        "gloss": " title",
+        "input_similarity": 0.66,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "15697",
+        "gloss": " near",
+        "input_similarity": 0.6,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "15697",
+        "gloss": " almost",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "15697",
+        "gloss": " close",
+        "input_similarity": 0.56,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "15698",
+        "gloss": " necessarily",
+        "input_similarity": 0.69,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "15698",
+        "gloss": " needed",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "15713",
+        "gloss": " newspaper",
+        "input_similarity": 0.63,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "15713",
+        "gloss": " bulletin",
+        "input_similarity": 0.64,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "15713",
+        "gloss": " newsletter",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "15733",
+        "gloss": " not",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "15733",
+        "gloss": " negative",
+        "input_similarity": 0.65,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "15733",
+        "gloss": " no",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "15912",
+        "gloss": " child",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "15913",
+        "gloss": " frequent",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "15916",
+        "gloss": " old",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "15942",
+        "gloss": " out",
+        "input_similarity": 0.46,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "15942",
+        "gloss": " exterior",
+        "input_similarity": 0.67,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "15942",
+        "gloss": " external",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "15942",
+        "gloss": " outside",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "15948",
+        "gloss": " over",
+        "input_similarity": 0.59,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "15948",
+        "gloss": " above",
+        "input_similarity": 0.66,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "15948",
+        "gloss": " superior",
+        "input_similarity": 0.67,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "15955",
+        "gloss": " painfully",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "15955",
+        "gloss": " sore",
+        "input_similarity": 0.56,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "15961",
+        "gloss": " jeans",
+        "input_similarity": 0.67,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "15962",
+        "gloss": " paper",
+        "input_similarity": 0.67,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "15962",
+        "gloss": " card",
+        "input_similarity": 0.67,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "15962",
+        "gloss": " page",
+        "input_similarity": 0.66,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "15966",
+        "gloss": " package",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "15972",
+        "gloss": " part",
+        "input_similarity": 0.62,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "15972",
+        "gloss": " bit",
+        "input_similarity": 0.59,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "15972",
+        "gloss": " piece",
+        "input_similarity": 0.61,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "15972",
+        "gloss": " portion",
+        "input_similarity": 0.67,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "15982",
+        "gloss": " peaceful",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "15982",
+        "gloss": " serene",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "15982",
+        "gloss": " calm",
+        "input_similarity": 0.6
+    },
+    {
+        "bliss_id": "15997",
+        "gloss": " perfume",
+        "input_similarity": 0.61
+    },
+    {
+        "bliss_id": "15997",
+        "gloss": " fragrance",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "15997",
+        "gloss": " aroma",
+        "input_similarity": 0.6
+    },
+    {
+        "bliss_id": "15997",
+        "gloss": " scent",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "16161",
+        "gloss": " person",
+        "input_similarity": 0.69,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "16161",
+        "gloss": " individual",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "16161",
+        "gloss": " human",
+        "input_similarity": 0.67,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "16164",
+        "gloss": " disease",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "16169",
+        "gloss": " photograph",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "16169",
+        "gloss": " pic",
+        "input_similarity": 0.66,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "16172",
+        "gloss": " picture",
+        "input_similarity": 0.65,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "16172",
+        "gloss": " image",
+        "input_similarity": 0.64,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "16172",
+        "gloss": " icon",
+        "input_similarity": 0.55,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "16172",
+        "gloss": " painting",
+        "input_similarity": 0.6,
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "16173",
+        "gloss": " tart",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "16187",
+        "gloss": " pipe",
+        "input_similarity": 0.65,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "16187",
+        "gloss": " hose",
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "16187",
+        "gloss": " tube",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "16188",
+        "gloss": " stone",
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "16189",
+        "gloss": " stone",
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "16191",
+        "gloss": " pitcher",
+        "input_similarity": 0.6,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "16191",
+        "gloss": " jug",
+        "input_similarity": 0.57,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "16191",
+        "gloss": " kettle",
+        "input_similarity": 0.58,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "16191",
+        "gloss": " pot",
+        "input_similarity": 0.51,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "16193",
+        "gloss": " place",
+        "input_similarity": 0.62,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "16193",
+        "gloss": " area",
+        "input_similarity": 0.64,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "16193",
+        "gloss": " location",
+        "input_similarity": 0.65,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "16193",
+        "gloss": " space",
+        "input_similarity": 0.61,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "16194",
+        "gloss": " plan",
+        "input_similarity": 0.62,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "16194",
+        "gloss": " design",
+        "input_similarity": 0.61,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "16194",
+        "gloss": " method",
+        "input_similarity": 0.61,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "16194",
+        "gloss": " system",
+        "input_similarity": 0.63,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "16199",
+        "gloss": " play",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "16212",
+        "gloss": " point",
+        "input_similarity": 0.6,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "16212",
+        "gloss": " tip",
+        "input_similarity": 0.68,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "16212",
+        "gloss": " peak",
+        "input_similarity": 0.66,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "16213",
+        "gloss": " point",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "16213",
+        "gloss": " indicate",
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "16223",
+        "gloss": " pork",
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "16235",
+        "gloss": " practise",
+        "input_similarity": 0.69,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "16235",
+        "gloss": " practice",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "16235",
+        "gloss": " drill",
+        "input_similarity": 0.53,
+        "output_similarity": 0.52
+    },
+    {
+        "bliss_id": "16235",
+        "gloss": " exercise",
+        "input_similarity": 0.58,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "16244",
+        "gloss": " prepare",
+        "input_similarity": 0.56,
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "16244",
+        "gloss": " set",
+        "input_similarity": 0.54,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "16244",
+        "gloss": " setup",
+        "input_similarity": 0.58,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "16244",
+        "gloss": " ready",
+        "input_similarity": 0.55,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "16244",
+        "gloss": " fix",
+        "input_similarity": 0.53,
+        "output_similarity": 0.5
+    },
+    {
+        "bliss_id": "16419",
+        "gloss": " protect",
+        "input_similarity": 0.65,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "16419",
+        "gloss": " cover",
+        "input_similarity": 0.62,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "16419",
+        "gloss": " shelter",
+        "input_similarity": 0.67,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "16421",
+        "gloss": " protest",
+        "input_similarity": 0.65,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "16421",
+        "gloss": " object",
+        "input_similarity": 0.57,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "16421",
+        "gloss": " oppose",
+        "input_similarity": 0.68,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "16423",
+        "gloss": " province",
+        "input_similarity": 0.68,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "16423",
+        "gloss": " county",
+        "input_similarity": 0.64,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "16423",
+        "gloss": " region",
+        "input_similarity": 0.61,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "16423",
+        "gloss": " state",
+        "input_similarity": 0.59,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "16431",
+        "gloss": " pull",
+        "input_similarity": 0.56,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "16431",
+        "gloss": " drag",
+        "input_similarity": 0.56,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "16431",
+        "gloss": " tow",
+        "input_similarity": 0.59,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "16431",
+        "gloss": " tug",
+        "input_similarity": 0.62,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "16439",
+        "gloss": " push",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "16440",
+        "gloss": " put",
+        "input_similarity": 0.62,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "16440",
+        "gloss": " locate",
+        "input_similarity": 0.68,
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "16440",
+        "gloss": " place",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "16446",
+        "gloss": " quick",
+        "input_similarity": 0.59,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "16446",
+        "gloss": " fast",
+        "input_similarity": 0.6,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "16446",
+        "gloss": " quickly",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "16446",
+        "gloss": " rapid",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "16446",
+        "gloss": " rapidly",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "16451",
+        "gloss": " race",
+        "input_similarity": 0.64,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "16451",
+        "gloss": " competition",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "16459",
+        "gloss": " raise",
+        "input_similarity": 0.61,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "16459",
+        "gloss": " grow",
+        "input_similarity": 0.62,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "16459",
+        "gloss": " cultivate",
+        "input_similarity": 0.69,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "16487",
+        "gloss": " repeat",
+        "input_similarity": 0.57,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "16487",
+        "gloss": " copy",
+        "input_similarity": 0.55,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "16487",
+        "gloss": " duplicate",
+        "input_similarity": 0.63,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "16487",
+        "gloss": " reproduce",
+        "input_similarity": 0.6,
+        "output_similarity": 0.54
+    },
+    {
+        "bliss_id": "16494",
+        "gloss": " respect",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "16495",
+        "gloss": " rest",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "16498",
+        "gloss": " restaurant",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "16500",
+        "gloss": " return",
+        "input_similarity": 0.58,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "16500",
+        "gloss": " comeback",
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "16500",
+        "gloss": " reverse",
+        "input_similarity": 0.58,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "16677",
+        "gloss": " river",
+        "input_similarity": 0.67,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "16677",
+        "gloss": " stream",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "16677",
+        "gloss": " current",
+        "input_similarity": 0.62,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "16683",
+        "gloss": " roll",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "16686",
+        "gloss": " roof",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "16686",
+        "gloss": " cover",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "16690",
+        "gloss": " rotate",
+        "input_similarity": 0.65,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "16690",
+        "gloss": " circle",
+        "input_similarity": 0.64,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "16690",
+        "gloss": " orbit",
+        "input_similarity": 0.66,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "16695",
+        "gloss": " massage",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "16696",
+        "gloss": " rug",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "16696",
+        "gloss": " carpet",
+        "input_similarity": 0.69,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "16696",
+        "gloss": " mat",
+        "input_similarity": 0.58,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "16699",
+        "gloss": " run",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "16702",
+        "gloss": " sad",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "16702",
+        "gloss": " sadly",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "16702",
+        "gloss": " unhappy",
+        "input_similarity": 0.63,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "16704",
+        "gloss": " safe",
+        "input_similarity": 0.58
+    },
+    {
+        "bliss_id": "16704",
+        "gloss": " safely",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "16704",
+        "gloss": " secure",
+        "input_similarity": 0.61,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "16704",
+        "gloss": " securely",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "16713",
+        "gloss": " same",
+        "input_similarity": 0.57,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "16713",
+        "gloss": " equal",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "16713",
+        "gloss": " equality",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "16723",
+        "gloss": " sauce",
+        "input_similarity": 0.64,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "16723",
+        "gloss": " gravy",
+        "input_similarity": 0.68,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "16723",
+        "gloss": " dressing",
+        "input_similarity": 0.61,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "16728",
+        "gloss": " say",
+        "input_similarity": 0.58,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "16728",
+        "gloss": " speak",
+        "input_similarity": 0.63,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "16728",
+        "gloss": " talk",
+        "input_similarity": 0.6,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "16728",
+        "gloss": " tell",
+        "input_similarity": 0.59,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "16728",
+        "gloss": " express",
+        "input_similarity": 0.5,
+        "output_similarity": 0.5
+    },
+    {
+        "bliss_id": "16747",
+        "gloss": " see",
+        "input_similarity": 0.65,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "16747",
+        "gloss": " look",
+        "input_similarity": 0.69,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "16747",
+        "gloss": " watch",
+        "input_similarity": 0.69,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "16752",
+        "gloss": " self",
+        "input_similarity": 0.6,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "16752",
+        "gloss": " oneself",
+        "input_similarity": 0.68,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "16752",
+        "gloss": " ego",
+        "input_similarity": 0.63,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "16760",
+        "gloss": " sentence",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "16760",
+        "gloss": " clause",
+        "input_similarity": 0.67,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "16760",
+        "gloss": " phrase",
+        "input_similarity": 0.69,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "16944",
+        "gloss": " sharp",
+        "input_similarity": 0.61,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "16944",
+        "gloss": " acid",
+        "input_similarity": 0.58,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "16944",
+        "gloss": " sour",
+        "input_similarity": 0.66,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "16954",
+        "gloss": " shell",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "16956",
+        "gloss": " beam",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "16977",
+        "gloss": " sign",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "16977",
+        "gloss": " advertisement",
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "16984",
+        "gloss": " similar",
+        "input_similarity": 0.64,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "16984",
+        "gloss": " like",
+        "input_similarity": 0.59,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "17015",
+        "gloss": " smart",
+        "input_similarity": 0.63
+    },
+    {
+        "bliss_id": "17015",
+        "gloss": " bright",
+        "input_similarity": 0.55,
+        "output_similarity": 0.52
+    },
+    {
+        "bliss_id": "17015",
+        "gloss": " clever",
+        "input_similarity": 0.63,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "17015",
+        "gloss": " intelligent",
+        "input_similarity": 0.63,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "17213",
+        "gloss": " wound",
+        "input_similarity": 0.65,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "17213",
+        "gloss": " cut",
+        "input_similarity": 0.55,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "17213",
+        "gloss": " sore",
+        "input_similarity": 0.66,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "17238",
+        "gloss": " paste",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "17265",
+        "gloss": " abdomen",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "17265",
+        "gloss": " belly",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "17268",
+        "gloss": " stop",
+        "input_similarity": 0.64,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "17268",
+        "gloss": " arrive",
+        "input_similarity": 0.69,
+        "output_similarity": 0.52
+    },
+    {
+        "bliss_id": "17268",
+        "gloss": " end",
+        "input_similarity": 0.6
+    },
+    {
+        "bliss_id": "17272",
+        "gloss": " report",
+        "input_similarity": 0.6,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "17273",
+        "gloss": " stove",
+        "input_similarity": 0.61,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "17273",
+        "gloss": " furnace",
+        "input_similarity": 0.6,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "17273",
+        "gloss": " heater",
+        "input_similarity": 0.59,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "17273",
+        "gloss": " oven",
+        "input_similarity": 0.6,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "17276",
+        "gloss": " strap",
+        "input_similarity": 0.61,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "17276",
+        "gloss": " string",
+        "input_similarity": 0.52,
+        "output_similarity": 0.54
+    },
+    {
+        "bliss_id": "17276",
+        "gloss": " rope",
+        "input_similarity": 0.62,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "17276",
+        "gloss": " cord",
+        "input_similarity": 0.58,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "17448",
+        "gloss": " subtract",
+        "input_similarity": 0.66,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "17448",
+        "gloss": " remove",
+        "input_similarity": 0.54,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "17448",
+        "gloss": " takeaway",
+        "input_similarity": 0.64,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "17449",
+        "gloss": " loss",
+        "input_similarity": 0.63
+    },
+    {
+        "bliss_id": "17452",
+        "gloss": " abrupt",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "17472",
+        "gloss": " swamp",
+        "input_similarity": 0.68,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "17472",
+        "gloss": " bog",
+        "input_similarity": 0.6,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "17472",
+        "gloss": " marsh",
+        "input_similarity": 0.65,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "17486",
+        "gloss": " swing",
+        "input_similarity": 0.64,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "17486",
+        "gloss": " sway",
+        "input_similarity": 0.69,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "17486",
+        "gloss": " rock",
+        "input_similarity": 0.56,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "17497",
+        "gloss": " take",
+        "input_similarity": 0.62,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "17497",
+        "gloss": " bring",
+        "input_similarity": 0.65,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "17497",
+        "gloss": " carry",
+        "input_similarity": 0.65,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "17497",
+        "gloss": " move",
+        "input_similarity": 0.57,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "17498",
+        "gloss": " remove",
+        "input_similarity": 0.63,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "17516",
+        "gloss": " teenager",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "17516",
+        "gloss": " adolescent",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "17516",
+        "gloss": " youth",
+        "input_similarity": 0.61,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "17518",
+        "gloss": " call",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "17528",
+        "gloss": " test",
+        "input_similarity": 0.64,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "17528",
+        "gloss": " assessment",
+        "input_similarity": 0.66,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "17528",
+        "gloss": " exam",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "17705",
+        "gloss": " then",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "17705",
+        "gloss": " so",
+        "input_similarity": 0.6
+    },
+    {
+        "bliss_id": "17705",
+        "gloss": " later",
+        "input_similarity": 0.69,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "17710",
+        "gloss": " flask",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "17716",
+        "gloss": " thin",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "17716",
+        "gloss": " slim",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "17716",
+        "gloss": " narrow",
+        "input_similarity": 0.65,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "17718",
+        "gloss": " think",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "17735",
+        "gloss": " exhausted",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "17735",
+        "gloss": " weary",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "17739",
+        "gloss": " to",
+        "input_similarity": 0.51,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "17746",
+        "gloss": " together",
+        "input_similarity": 0.51,
+        "output_similarity": 0.51
+    },
+    {
+        "bliss_id": "17746",
+        "gloss": " attached",
+        "input_similarity": 0.61,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "17746",
+        "gloss": " appended",
+        "input_similarity": 0.61,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "17746",
+        "gloss": " joined",
+        "input_similarity": 0.54,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "17761",
+        "gloss": " feel",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "17779",
+        "gloss": " trip",
+        "input_similarity": 0.64,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "17779",
+        "gloss": " journey",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "17779",
+        "gloss": " travel",
+        "input_similarity": 0.6,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "17779",
+        "gloss": " voyage",
+        "input_similarity": 0.64,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "17782",
+        "gloss": " true",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "17782",
+        "gloss": " truly",
+        "input_similarity": 0.66,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "17782",
+        "gloss": " truthful",
+        "input_similarity": 0.69,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "17961",
+        "gloss": " type",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "17961",
+        "gloss": " sort",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "17961",
+        "gloss": " category",
+        "input_similarity": 0.56,
+        "output_similarity": 0.5
+    },
+    {
+        "bliss_id": "17969",
+        "gloss": " under",
+        "input_similarity": 0.58,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "17969",
+        "gloss": " below",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "17969",
+        "gloss": " inferior",
+        "input_similarity": 0.68,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "17978",
+        "gloss": " unit",
+        "input_similarity": 0.61,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "17978",
+        "gloss": " example",
+        "input_similarity": 0.67,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "17978",
+        "gloss": " sample",
+        "input_similarity": 0.69,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "17982",
+        "gloss": " to",
+        "input_similarity": 0.48,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "17983",
+        "gloss": " up",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "17989",
+        "gloss": " pee",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "17989",
+        "gloss": " piss",
+        "input_similarity": 0.68,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "17989",
+        "gloss": " wee",
+        "input_similarity": 0.62,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "17990",
+        "gloss": " urine",
+        "input_similarity": 0.63,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "17990",
+        "gloss": " piss",
+        "input_similarity": 0.63,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "17990",
+        "gloss": " pee",
+        "input_similarity": 0.66,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "17990",
+        "gloss": " water",
+        "input_similarity": 0.43,
+        "output_similarity": 0.43
+    },
+    {
+        "bliss_id": "18010",
+        "gloss": " vehicle",
+        "input_similarity": 0.69,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "18027",
+        "gloss": " wage",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "18027",
+        "gloss": " pay",
+        "input_similarity": 0.62,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "18028",
+        "gloss": " wagon",
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "18028",
+        "gloss": " cart",
+        "input_similarity": 0.64,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "18028",
+        "gloss": " truck",
+        "input_similarity": 0.64,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "18043",
+        "gloss": " waste",
+        "input_similarity": 0.51,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "18043",
+        "gloss": " rubbish",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "18209",
+        "gloss": " water",
+        "input_similarity": 0.64,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "18212",
+        "gloss": " we",
+        "input_similarity": 0.67,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "18212",
+        "gloss": " ourselves",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "18226",
+        "gloss": " wet",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "18264",
+        "gloss": " wipe",
+        "input_similarity": 0.64,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "18264",
+        "gloss": " dust",
+        "input_similarity": 0.57,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "18264",
+        "gloss": " polish",
+        "input_similarity": 0.64,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "18270",
+        "gloss": " wood",
+        "input_similarity": 0.61
+    },
+    {
+        "bliss_id": "18273",
+        "gloss": " work",
+        "input_similarity": 0.65,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "18273",
+        "gloss": " employment",
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "18282",
+        "gloss": " wow",
+        "input_similarity": 0.48,
+        "output_similarity": 0.39
+    },
+    {
+        "bliss_id": "18282",
+        "gloss": " super",
+        "input_similarity": 0.48,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "18282",
+        "gloss": " great",
+        "input_similarity": 0.52,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "18282",
+        "gloss": " neat",
+        "input_similarity": 0.59,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "18282",
+        "gloss": " cool",
+        "input_similarity": 0.57,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "20522",
+        "gloss": " sauce",
+        "input_similarity": 0.64,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "20522",
+        "gloss": " gravy",
+        "input_similarity": 0.68,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "20522",
+        "gloss": " dressing",
+        "input_similarity": 0.61,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "20526",
+        "gloss": " tasty",
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "20526",
+        "gloss": " good",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "20528",
+        "gloss": " can",
+        "input_similarity": 0.52,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "20528",
+        "gloss": " tin",
+        "input_similarity": 0.67,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "20528",
+        "gloss": " jar",
+        "input_similarity": 0.68,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "21054",
+        "gloss": " leader",
+        "input_similarity": 0.67,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "21054",
+        "gloss": " director",
+        "input_similarity": 0.66,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "21054",
+        "gloss": " guide",
+        "input_similarity": 0.63,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "21360",
+        "gloss": " calling",
+        "input_similarity": 0.56,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "21360",
+        "gloss": " profession",
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "21360",
+        "gloss": " career",
+        "input_similarity": 0.66,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "21558",
+        "gloss": " arithmetic",
+        "input_similarity": 0.67,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "21558",
+        "gloss": " math",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "21609",
+        "gloss": " people",
+        "input_similarity": 0.52,
+        "output_similarity": 0.5
+    },
+    {
+        "bliss_id": "21609",
+        "gloss": " tribe",
+        "input_similarity": 0.59,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "21609",
+        "gloss": " clan",
+        "input_similarity": 0.61,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "21609",
+        "gloss": " folk",
+        "input_similarity": 0.58,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "22065",
+        "gloss": " body",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "22307",
+        "gloss": " cream",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "22371",
+        "gloss": " cake",
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "22374",
+        "gloss": " reflect",
+        "input_similarity": 0.65,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "22374",
+        "gloss": " consider",
+        "input_similarity": 0.63,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "22374",
+        "gloss": " regard",
+        "input_similarity": 0.65,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "22584",
+        "gloss": " pot",
+        "input_similarity": 0.57,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "22584",
+        "gloss": " kettle",
+        "input_similarity": 0.66,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "22584",
+        "gloss": " boiler",
+        "input_similarity": 0.63,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "22590",
+        "gloss": " can",
+        "input_similarity": 0.64,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "22831",
+        "gloss": " offer",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "22904",
+        "gloss": " call",
+        "input_similarity": 0.61,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "22904",
+        "gloss": " telephone",
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "22904",
+        "gloss": " ring",
+        "input_similarity": 0.59,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "22908",
+        "gloss": " cooking",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "22909",
+        "gloss": " cooking",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "22912",
+        "gloss": " fear",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "22912",
+        "gloss": " fright",
+        "input_similarity": 0.68,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "22912",
+        "gloss": " concern",
+        "input_similarity": 0.6,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "22917",
+        "gloss": " brightness",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "22917",
+        "gloss": " intelligence",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "23002",
+        "gloss": " accusation",
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "23002",
+        "gloss": " charge",
+        "input_similarity": 0.58
+    },
+    {
+        "bliss_id": "23002",
+        "gloss": " prosecution",
+        "input_similarity": 0.65,
+        "output_similarity": 0.54
+    },
+    {
+        "bliss_id": "23004",
+        "gloss": " accuse",
+        "input_similarity": 0.67,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "23004",
+        "gloss": " charge",
+        "input_similarity": 0.57,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "23004",
+        "gloss": " prosecute",
+        "input_similarity": 0.65,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "23005",
+        "gloss": " act",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "23005",
+        "gloss": " demonstrate",
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "23007",
+        "gloss": " action",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "23007",
+        "gloss": " demonstration",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "23017",
+        "gloss": " advocate",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "23051",
+        "gloss": " court",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "23056",
+        "gloss": " care",
+        "input_similarity": 0.61,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "23056",
+        "gloss": " protection",
+        "input_similarity": 0.68,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "23056",
+        "gloss": " defence",
+        "input_similarity": 0.68,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "23059",
+        "gloss": " care",
+        "input_similarity": 0.56,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "23059",
+        "gloss": " protect",
+        "input_similarity": 0.69,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "23059",
+        "gloss": " defend",
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "23063",
+        "gloss": " caregiver",
+        "input_similarity": 0.62,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "23063",
+        "gloss": " protector",
+        "input_similarity": 0.63
+    },
+    {
+        "bliss_id": "23063",
+        "gloss": " defender",
+        "input_similarity": 0.61,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "23065",
+        "gloss": " act",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "23065",
+        "gloss": " demonstrate",
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "23066",
+        "gloss": " action",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "23066",
+        "gloss": " demonstration",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "23127",
+        "gloss": " law",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "23177",
+        "gloss": " protest",
+        "input_similarity": 0.63,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "23177",
+        "gloss": " objection",
+        "input_similarity": 0.66,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "23177",
+        "gloss": " opposition",
+        "input_similarity": 0.65,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "23200",
+        "gloss": " capture",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "23200",
+        "gloss": " catch",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "23200",
+        "gloss": " seize",
+        "input_similarity": 0.66,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "23202",
+        "gloss": " sentence",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "23409",
+        "gloss": " attachment",
+        "input_similarity": 0.49,
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "23409",
+        "gloss": " joint",
+        "input_similarity": 0.47,
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "23409",
+        "gloss": " seam",
+        "input_similarity": 0.49,
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "23409",
+        "gloss": " appendix",
+        "input_similarity": 0.53,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "23409",
+        "gloss": " annex",
+        "input_similarity": 0.53,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "23481",
+        "gloss": " gnome",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "23487",
+        "gloss": " embark",
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "23487",
+        "gloss": " board",
+        "input_similarity": 0.61
+    },
+    {
+        "bliss_id": "23547",
+        "gloss": " introduce",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "23558",
+        "gloss": " kindergarten",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "23558",
+        "gloss": " preschool",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "23558",
+        "gloss": " nursery",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "23567",
+        "gloss": " lesson",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "23567",
+        "gloss": " lecture",
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "23567",
+        "gloss": " class",
+        "input_similarity": 0.57,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "23641",
+        "gloss": " ruin",
+        "input_similarity": 0.59,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "23641",
+        "gloss": " wreck",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "23641",
+        "gloss": " wreckage",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "23664",
+        "gloss": " software",
+        "input_similarity": 0.67,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "23847",
+        "gloss": " district",
+        "input_similarity": 0.66,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "23847",
+        "gloss": " area",
+        "input_similarity": 0.62,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "23847",
+        "gloss": " neighbourhood",
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "23860",
+        "gloss": " keen",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "23860",
+        "gloss": " willing",
+        "input_similarity": 0.63,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "23864",
+        "gloss": " empty",
+        "input_similarity": 0.6,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "23864",
+        "gloss": " evacuate",
+        "input_similarity": 0.65,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "23864",
+        "gloss": " void",
+        "input_similarity": 0.59,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "23885",
+        "gloss": " humid",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "23885",
+        "gloss": " damp",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "23926",
+        "gloss": " pipe",
+        "input_similarity": 0.65,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "23926",
+        "gloss": " hose",
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "23926",
+        "gloss": " tube",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "24003",
+        "gloss": " adding",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "24036",
+        "gloss": " bomb",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "24066",
+        "gloss": " common",
+        "input_similarity": 0.65,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "24066",
+        "gloss": " mutual",
+        "input_similarity": 0.68,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "24066",
+        "gloss": " shared",
+        "input_similarity": 0.63
+    },
+    {
+        "bliss_id": "24090",
+        "gloss": " dump",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "24120",
+        "gloss": " foundation",
+        "input_similarity": 0.65,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "24120",
+        "gloss": " base",
+        "input_similarity": 0.59,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "24120",
+        "gloss": " fundament",
+        "input_similarity": 0.67,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "24168",
+        "gloss": " hurry",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "24168",
+        "gloss": " rushed",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "24218",
+        "gloss": " preceding",
+        "input_similarity": 0.66,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "24218",
+        "gloss": " former",
+        "input_similarity": 0.57,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "24218",
+        "gloss": " earlier",
+        "input_similarity": 0.63
+    },
+    {
+        "bliss_id": "24249",
+        "gloss": " rotation",
+        "input_similarity": 0.53,
+        "output_similarity": 0.43
+    },
+    {
+        "bliss_id": "24249",
+        "gloss": " circulation",
+        "input_similarity": 0.5,
+        "output_similarity": 0.51
+    },
+    {
+        "bliss_id": "24249",
+        "gloss": " orbit",
+        "input_similarity": 0.51,
+        "output_similarity": 0.44
+    },
+    {
+        "bliss_id": "24249",
+        "gloss": " lap",
+        "input_similarity": 0.45,
+        "output_similarity": 0.46
+    },
+    {
+        "bliss_id": "24249",
+        "gloss": " circle",
+        "input_similarity": 0.52,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "24249",
+        "gloss": " round",
+        "input_similarity": 0.45,
+        "output_similarity": 0.47
+    },
+    {
+        "bliss_id": "24285",
+        "gloss": " still",
+        "input_similarity": 0.58,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "24285",
+        "gloss": " continuing",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "24286",
+        "gloss": " still",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "24296",
+        "gloss": " subway",
+        "input_similarity": 0.64,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "24296",
+        "gloss": " metro",
+        "input_similarity": 0.58,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "24296",
+        "gloss": " underground",
+        "input_similarity": 0.58,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "24296",
+        "gloss": " tube",
+        "input_similarity": 0.51,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "24311",
+        "gloss": " tie",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "24311",
+        "gloss": " lash",
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "24321",
+        "gloss": " tunnel",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "24321",
+        "gloss": " subway",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "24422",
+        "gloss": " bump",
+        "input_similarity": 0.6,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "24422",
+        "gloss": " press",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "24423",
+        "gloss": " press",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "24495",
+        "gloss": " outcome",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "24495",
+        "gloss": " result",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "24499",
+        "gloss": " presentation",
+        "input_similarity": 0.59,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "24511",
+        "gloss": " basin",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "24716",
+        "gloss": " chip",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "24716",
+        "gloss": " crisp",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "24726",
+        "gloss": " receiver",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "24727",
+        "gloss": " acquiring",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "24727",
+        "gloss": " getting",
+        "input_similarity": 0.69,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "24727",
+        "gloss": " receiving",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "24732",
+        "gloss": " rent",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "24732",
+        "gloss": " lease",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "24732",
+        "gloss": " let",
+        "input_similarity": 0.56,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "24733",
+        "gloss": " rent",
+        "input_similarity": 0.6
+    },
+    {
+        "bliss_id": "24733",
+        "gloss": " lease",
+        "input_similarity": 0.62,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "24733",
+        "gloss": " hire",
+        "input_similarity": 0.59,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "24733",
+        "gloss": " charter",
+        "input_similarity": 0.58,
+        "output_similarity": 0.51
+    },
+    {
+        "bliss_id": "24750",
+        "gloss": " signal",
+        "input_similarity": 0.59,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "24750",
+        "gloss": " broadcast",
+        "input_similarity": 0.65,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "24750",
+        "gloss": " transmitting",
+        "input_similarity": 0.69,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "24761",
+        "gloss": " step",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "24803",
+        "gloss": " product",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "24806",
+        "gloss": " measurement",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "24809",
+        "gloss": " bath",
+        "input_similarity": 0.62,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "24809",
+        "gloss": " tub",
+        "input_similarity": 0.69,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "24822",
+        "gloss": " upset",
+        "input_similarity": 0.62,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "24822",
+        "gloss": " disturbance",
+        "input_similarity": 0.63,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "24822",
+        "gloss": " agitation",
+        "input_similarity": 0.64,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "24827",
+        "gloss": " boring",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "24827",
+        "gloss": " dull",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "24827",
+        "gloss": " depressing",
+        "input_similarity": 0.61,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "24844",
+        "gloss": " complete",
+        "input_similarity": 0.62,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "24844",
+        "gloss": " done",
+        "input_similarity": 0.58,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "24848",
+        "gloss": " hug",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "24848",
+        "gloss": " squeeze",
+        "input_similarity": 0.59,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "24848",
+        "gloss": " embrace",
+        "input_similarity": 0.61,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "24852",
+        "gloss": " break",
+        "input_similarity": 0.51,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "24852",
+        "gloss": " fracture",
+        "input_similarity": 0.61,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "24852",
+        "gloss": " injury",
+        "input_similarity": 0.64,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "24852",
+        "gloss": " damage",
+        "input_similarity": 0.62,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "24872",
+        "gloss": " advocacy",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "24872",
+        "gloss": " representation",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "24873",
+        "gloss": " band",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "24883",
+        "gloss": " deletion",
+        "input_similarity": 0.66,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "24883",
+        "gloss": " cancellation",
+        "input_similarity": 0.62,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "24883",
+        "gloss": " destruction",
+        "input_similarity": 0.63,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "24887",
+        "gloss": " dispersion",
+        "input_similarity": 0.54,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "24887",
+        "gloss": " dissemination",
+        "input_similarity": 0.54,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "24887",
+        "gloss": " scattering",
+        "input_similarity": 0.52,
+        "output_similarity": 0.5
+    },
+    {
+        "bliss_id": "24887",
+        "gloss": " spread",
+        "input_similarity": 0.57
+    },
+    {
+        "bliss_id": "24887",
+        "gloss": " spreading",
+        "input_similarity": 0.6
+    },
+    {
+        "bliss_id": "24894",
+        "gloss": " fall",
+        "input_similarity": 0.58,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "24894",
+        "gloss": " drop",
+        "input_similarity": 0.52,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "24894",
+        "gloss": " spill",
+        "input_similarity": 0.6,
+        "output_similarity": 0.54
+    },
+    {
+        "bliss_id": "24894",
+        "gloss": " tumble",
+        "input_similarity": 0.63,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "24895",
+        "gloss": " fantasy",
+        "input_similarity": 0.61,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "24895",
+        "gloss": " imagination",
+        "input_similarity": 0.64,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "24895",
+        "gloss": " illusion",
+        "input_similarity": 0.67,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "24898",
+        "gloss": " fixing",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "24898",
+        "gloss": " fix",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "24898",
+        "gloss": " mend",
+        "input_similarity": 0.55,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "24898",
+        "gloss": " repair",
+        "input_similarity": 0.57,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "24903",
+        "gloss": " giving",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "24934",
+        "gloss": " repetition",
+        "input_similarity": 0.57,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "24934",
+        "gloss": " copying",
+        "input_similarity": 0.52,
+        "output_similarity": 0.54
+    },
+    {
+        "bliss_id": "24934",
+        "gloss": " duplication",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "24934",
+        "gloss": " replication",
+        "input_similarity": 0.6,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "24966",
+        "gloss": " wreck",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "24966",
+        "gloss": " temple",
+        "input_similarity": 0.51,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "24968",
+        "gloss": " destroyed",
+        "input_similarity": 0.54,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "24968",
+        "gloss": " ruined",
+        "input_similarity": 0.52,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "24968",
+        "gloss": " demolished",
+        "input_similarity": 0.5,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "24968",
+        "gloss": " deleted",
+        "input_similarity": 0.51,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "24968",
+        "gloss": " erased",
+        "input_similarity": 0.49,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "24968",
+        "gloss": " cancelled",
+        "input_similarity": 0.5,
+        "output_similarity": 0.52
+    },
+    {
+        "bliss_id": "25011",
+        "gloss": " letters",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "25012",
+        "gloss": " applaud",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "25033",
+        "gloss": " collection",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "25060",
+        "gloss": " fart",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "25060",
+        "gloss": " wind",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "25104",
+        "gloss": " killing",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "25104",
+        "gloss": " murder",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "25104",
+        "gloss": " slaughter",
+        "input_similarity": 0.67,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "25132",
+        "gloss": " oppression",
+        "input_similarity": 0.61,
+        "output_similarity": 0.61
+    },
+    {
+        "bliss_id": "25132",
+        "gloss": " captivity",
+        "input_similarity": 0.64,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "25132",
+        "gloss": " slavery",
+        "input_similarity": 0.62,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "25157",
+        "gloss": " roast",
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "25157",
+        "gloss": " joint",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "25167",
+        "gloss": " guard",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "25177",
+        "gloss": " still",
+        "input_similarity": 0.47,
+        "output_similarity": 0.44
+    },
+    {
+        "bliss_id": "25177",
+        "gloss": " calm",
+        "input_similarity": 0.56,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "25177",
+        "gloss": " peaceful",
+        "input_similarity": 0.63,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "25177",
+        "gloss": " tranquil",
+        "input_similarity": 0.61,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "25179",
+        "gloss": " summary",
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "25312",
+        "gloss": " full",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "25312",
+        "gloss": " satisfied",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "25327",
+        "gloss": " imprint",
+        "input_similarity": 0.68,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "25327",
+        "gloss": " trace",
+        "input_similarity": 0.61
+    },
+    {
+        "bliss_id": "25327",
+        "gloss": " track",
+        "input_similarity": 0.58,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "25405",
+        "gloss": " different",
+        "input_similarity": 0.63,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "25405",
+        "gloss": " other",
+        "input_similarity": 0.57
+    },
+    {
+        "bliss_id": "25405",
+        "gloss": " unequal",
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "25460",
+        "gloss": " intestine",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "25460",
+        "gloss": " bowel",
+        "input_similarity": 0.68,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "25460",
+        "gloss": " gut",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "25498",
+        "gloss": " stomach",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "25532",
+        "gloss": " case",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "25535",
+        "gloss": " container",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "25545",
+        "gloss": " adversity",
+        "input_similarity": 0.65,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "25545",
+        "gloss": " hardship",
+        "input_similarity": 0.63,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "25545",
+        "gloss": " setback",
+        "input_similarity": 0.6,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "25548",
+        "gloss": " detachment",
+        "input_similarity": 0.65,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "25548",
+        "gloss": " separation",
+        "input_similarity": 0.59,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "25548",
+        "gloss": " breakup",
+        "input_similarity": 0.65,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "25553",
+        "gloss": " disturbance",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "25555",
+        "gloss": " exchange",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "25563",
+        "gloss": " flower",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "25563",
+        "gloss": " bloom",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "25575",
+        "gloss": " depression",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "25581",
+        "gloss": " mash",
+        "input_similarity": 0.64,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "25581",
+        "gloss": " mush",
+        "input_similarity": 0.65,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "25581",
+        "gloss": " pulp",
+        "input_similarity": 0.6,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "25605",
+        "gloss": " ruin",
+        "input_similarity": 0.59,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "25605",
+        "gloss": " wreck",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "25605",
+        "gloss": " wreckage",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "25610",
+        "gloss": " ski",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "25614",
+        "gloss": " projectile",
+        "input_similarity": 0.63,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "25614",
+        "gloss": " rocket",
+        "input_similarity": 0.6,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "25614",
+        "gloss": " spacecraft",
+        "input_similarity": 0.66,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "25672",
+        "gloss": " roll",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "25691",
+        "gloss": " die",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "25762",
+        "gloss": " partner",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "25762",
+        "gloss": " dancing",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "25765",
+        "gloss": " patient",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "25773",
+        "gloss": " prize",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "25773",
+        "gloss": " award",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "25773",
+        "gloss": " trophy",
+        "input_similarity": 0.69,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "25777",
+        "gloss": " water",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "25860",
+        "gloss": " dense",
+        "input_similarity": 0.64,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "25860",
+        "gloss": " thick",
+        "input_similarity": 0.6,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "25860",
+        "gloss": " compact",
+        "input_similarity": 0.55,
+        "output_similarity": 0.55
+    },
+    {
+        "bliss_id": "25860",
+        "gloss": " tight",
+        "input_similarity": 0.59,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "25870",
+        "gloss": " gate",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "25873",
+        "gloss": " ear",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "25873",
+        "gloss": " spike",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "25878",
+        "gloss": " filament",
+        "input_similarity": 0.57,
+        "output_similarity": 0.52
+    },
+    {
+        "bliss_id": "25878",
+        "gloss": " strand",
+        "input_similarity": 0.52,
+        "output_similarity": 0.49
+    },
+    {
+        "bliss_id": "25890",
+        "gloss": " hearing",
+        "input_similarity": 0.67
+    },
+    {
+        "bliss_id": "25904",
+        "gloss": " leaf",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "25904",
+        "gloss": " flap",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "25941",
+        "gloss": " snake",
+        "input_similarity": 0.59,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "25941",
+        "gloss": " viper",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "25941",
+        "gloss": " boa",
+        "input_similarity": 0.61,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "25956",
+        "gloss": " thread",
+        "input_similarity": 0.65,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "25956",
+        "gloss": " string",
+        "input_similarity": 0.62,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "25956",
+        "gloss": " cord",
+        "input_similarity": 0.67,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "25986",
+        "gloss": " wreck",
+        "input_similarity": 0.68
+    },
+    {
+        "bliss_id": "25986",
+        "gloss": " temple",
+        "input_similarity": 0.51,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "25992",
+        "gloss": " disability",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "25992",
+        "gloss": " handicap",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "25992",
+        "gloss": " impairment",
+        "input_similarity": 0.66,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "26002",
+        "gloss": " far",
+        "input_similarity": 0.6,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "26002",
+        "gloss": " remote",
+        "input_similarity": 0.64
+    },
+    {
+        "bliss_id": "26004",
+        "gloss": " estimation",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "26014",
+        "gloss": " limit",
+        "input_similarity": 0.6
+    },
+    {
+        "bliss_id": "26014",
+        "gloss": " restrict",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "26014",
+        "gloss": " restrain",
+        "input_similarity": 0.67,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "26126",
+        "gloss": " try",
+        "input_similarity": 0.66,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "26224",
+        "gloss": " practice",
+        "input_similarity": 0.57,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "26224",
+        "gloss": " drill",
+        "input_similarity": 0.56,
+        "output_similarity": 0.58
+    },
+    {
+        "bliss_id": "26224",
+        "gloss": " exercise",
+        "input_similarity": 0.58,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "26224",
+        "gloss": " rehearsal",
+        "input_similarity": 0.61,
+        "output_similarity": 0.53
+    },
+    {
+        "bliss_id": "26226",
+        "gloss": " judge",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "26231",
+        "gloss": " decomposition",
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "26234",
+        "gloss": " run",
+        "input_similarity": 0.66
+    },
+    {
+        "bliss_id": "26241",
+        "gloss": " server",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "26243",
+        "gloss": " sort",
+        "input_similarity": 0.47,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "26243",
+        "gloss": " differentiate",
+        "input_similarity": 0.61,
+        "output_similarity": 0.5
+    },
+    {
+        "bliss_id": "26243",
+        "gloss": " separate",
+        "input_similarity": 0.57,
+        "output_similarity": 0.57
+    },
+    {
+        "bliss_id": "26243",
+        "gloss": " classify",
+        "input_similarity": 0.57,
+        "output_similarity": 0.45
+    },
+    {
+        "bliss_id": "26253",
+        "gloss": " term",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "26253",
+        "gloss": " semester",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "26259",
+        "gloss": " false",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "26328",
+        "gloss": " regain",
+        "input_similarity": 0.66,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "26328",
+        "gloss": " recover",
+        "input_similarity": 0.63
+    },
+    {
+        "bliss_id": "26328",
+        "gloss": " retrieve",
+        "input_similarity": 0.62,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "26337",
+        "gloss": " wonder",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "26337",
+        "gloss": " inquire",
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "27047",
+        "gloss": " cord",
+        "input_similarity": 0.69,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "27047",
+        "gloss": " cable",
+        "input_similarity": 0.69,
+        "output_similarity": 0.65
+    },
+    {
+        "bliss_id": "27047",
+        "gloss": " lead",
+        "input_similarity": 0.56,
+        "output_similarity": 0.56
+    },
+    {
+        "bliss_id": "27099",
+        "gloss": " number",
+        "input_similarity": 0.62
+    },
+    {
+        "bliss_id": "27154",
+        "gloss": " beat",
+        "input_similarity": 0.65
+    },
+    {
+        "bliss_id": "28051",
+        "gloss": " manner",
+        "input_similarity": 0.67,
+        "output_similarity": 0.66
+    },
+    {
+        "bliss_id": "28051",
+        "gloss": " way",
+        "input_similarity": 0.59,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "28051",
+        "gloss": " mode",
+        "input_similarity": 0.58,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "28051",
+        "gloss": " style",
+        "input_similarity": 0.58,
+        "output_similarity": 0.59
+    },
+    {
+        "bliss_id": "28070",
+        "gloss": " reference",
+        "input_similarity": 0.68,
+        "output_similarity": 0.69
+    },
+    {
+        "bliss_id": "28070",
+        "gloss": " references",
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "28070",
+        "gloss": " source",
+        "input_similarity": 0.69
+    },
+    {
+        "bliss_id": "28070",
+        "gloss": " sources",
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "28079",
+        "gloss": " join",
+        "input_similarity": 0.64,
+        "output_similarity": 0.67
+    },
+    {
+        "bliss_id": "29003",
+        "gloss": " expand",
+        "input_similarity": 0.68,
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "29004",
+        "gloss": " expansion",
+        "input_similarity": 0.61,
+        "output_similarity": 0.6
+    },
+    {
+        "bliss_id": "29004",
+        "gloss": " stretching",
+        "input_similarity": 0.66,
+        "output_similarity": 0.63
+    },
+    {
+        "bliss_id": "29004",
+        "gloss": " elastic",
+        "input_similarity": 0.63,
+        "output_similarity": 0.62
+    },
+    {
+        "bliss_id": "29092",
+        "gloss": " tag",
+        "input_similarity": 0.63,
+        "output_similarity": 0.68
+    },
+    {
+        "bliss_id": "29092",
+        "gloss": " sticker",
+        "output_similarity": 0.64
+    },
+    {
+        "bliss_id": "29092",
+        "gloss": " label",
+        "input_similarity": 0.62
+    }
+]

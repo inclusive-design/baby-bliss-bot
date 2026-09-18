@@ -1,0 +1,1531 @@
+Glosses in words: [' glasses', ' eyeglasses']
+Target tokens: ['Ġglasses', 'Ġey']; Target token IDs: [29247, 3999]
+len(training_positive_context_sentences) = 100
+len(testing_positive_context_sentences) = 26
+len(training_negative_context_sentences) = 85
+len(testing_negative_context_sentences) = 22
+len(fine_tuning_sentences) = 349
+len(validation_sentences) = 88
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 28_adapter_14442
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/28_adapter_14442
+New token '[BLISS_14443]' added to the model with ID: 130651. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_14443]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_14443]' set to the average input embedding of all constituent tokens of '[' glasses', ' eyeglasses']'
+Preparation time: 649 minutes and 25.02 seconds
+
+Starting training...
+{'loss': 0.6107, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.2677, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.571, 'epoch': 0.09}
+{'loss': 0.6175, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.17}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1426, 'eval_samples_per_second': 4.597, 'eval_steps_per_second': 0.575, 'epoch': 0.17}
+{'loss': 0.5901, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1566, 'eval_samples_per_second': 4.594, 'eval_steps_per_second': 0.574, 'epoch': 0.26}
+{'loss': 0.5997, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.34}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1578, 'eval_samples_per_second': 4.593, 'eval_steps_per_second': 0.574, 'epoch': 0.34}
+{'loss': 0.6018, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.43}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.167, 'eval_samples_per_second': 4.591, 'eval_steps_per_second': 0.574, 'epoch': 0.43}
+{'loss': 0.6172, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.51}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1714, 'eval_samples_per_second': 4.59, 'eval_steps_per_second': 0.574, 'epoch': 0.51}
+{'loss': 0.5864, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.6}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 20.0491, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.549, 'epoch': 0.6}
+{'loss': 0.6257, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.69}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 20.6786, 'eval_samples_per_second': 4.256, 'eval_steps_per_second': 0.532, 'epoch': 0.69}
+{'loss': 0.5929, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.77}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1581, 'eval_samples_per_second': 4.593, 'eval_steps_per_second': 0.574, 'epoch': 0.77}
+{'loss': 0.6099, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.86}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1788, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.574, 'epoch': 0.86}
+{'loss': 0.6298, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.94}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 22.9532, 'eval_samples_per_second': 3.834, 'eval_steps_per_second': 0.479, 'epoch': 0.94}
+{'loss': 1.1722, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.09}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1845, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.573, 'epoch': 1.09}
+{'loss': 0.6147, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.17}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1853, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.573, 'epoch': 1.17}
+{'loss': 0.5734, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.26}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.3775, 'eval_samples_per_second': 4.541, 'eval_steps_per_second': 0.568, 'epoch': 1.26}
+{'loss': 0.6313, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.34}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 20.2977, 'eval_samples_per_second': 4.335, 'eval_steps_per_second': 0.542, 'epoch': 1.34}
+{'loss': 0.612, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.43}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1447, 'eval_samples_per_second': 4.597, 'eval_steps_per_second': 0.575, 'epoch': 1.43}
+{'loss': 0.6113, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.51}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 23.9473, 'eval_samples_per_second': 3.675, 'eval_steps_per_second': 0.459, 'epoch': 1.51}
+{'loss': 0.6333, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.6}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.3665, 'eval_samples_per_second': 4.544, 'eval_steps_per_second': 0.568, 'epoch': 1.6}
+{'loss': 0.6431, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.69}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1629, 'eval_samples_per_second': 4.592, 'eval_steps_per_second': 0.574, 'epoch': 1.69}
+{'loss': 0.6008, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.77}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.2693, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.571, 'epoch': 1.77}
+{'loss': 0.5838, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.86}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.3861, 'eval_samples_per_second': 4.539, 'eval_steps_per_second': 0.567, 'epoch': 1.86}
+{'loss': 0.6043, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.94}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.6506, 'eval_samples_per_second': 4.478, 'eval_steps_per_second': 0.56, 'epoch': 1.94}
+{'loss': 1.2261, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 2.09}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 22.1143, 'eval_samples_per_second': 3.979, 'eval_steps_per_second': 0.497, 'epoch': 2.09}
+{'loss': 0.6023, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.17}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.284, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.57, 'epoch': 2.17}
+{'loss': 0.6305, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.26}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1511, 'eval_samples_per_second': 4.595, 'eval_steps_per_second': 0.574, 'epoch': 2.26}
+{'loss': 0.629, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.34}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1721, 'eval_samples_per_second': 4.59, 'eval_steps_per_second': 0.574, 'epoch': 2.34}
+{'loss': 0.6199, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.43}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1848, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.573, 'epoch': 2.43}
+{'loss': 0.6185, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.51}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.4955, 'eval_samples_per_second': 4.514, 'eval_steps_per_second': 0.564, 'epoch': 2.51}
+{'loss': 0.6237, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.6}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.2379, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.572, 'epoch': 2.6}
+{'loss': 0.5953, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.69}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.6335, 'eval_samples_per_second': 4.482, 'eval_steps_per_second': 0.56, 'epoch': 2.69}
+{'loss': 0.6167, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.77}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1929, 'eval_samples_per_second': 4.585, 'eval_steps_per_second': 0.573, 'epoch': 2.77}
+{'loss': 0.6031, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.86}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1544, 'eval_samples_per_second': 4.594, 'eval_steps_per_second': 0.574, 'epoch': 2.86}
+{'loss': 0.5803, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.94}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.159, 'eval_samples_per_second': 4.593, 'eval_steps_per_second': 0.574, 'epoch': 2.94}
+{'loss': 1.2065, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 3.09}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1766, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.574, 'epoch': 3.09}
+{'loss': 0.5983, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 3.17}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 21.8606, 'eval_samples_per_second': 4.026, 'eval_steps_per_second': 0.503, 'epoch': 3.17}
+{'loss': 0.6044, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.26}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 23.6461, 'eval_samples_per_second': 3.722, 'eval_steps_per_second': 0.465, 'epoch': 3.26}
+{'loss': 0.6031, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.34}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.3325, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.569, 'epoch': 3.34}
+{'loss': 0.6558, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.43}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1666, 'eval_samples_per_second': 4.591, 'eval_steps_per_second': 0.574, 'epoch': 3.43}
+{'loss': 0.5906, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.51}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1803, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.574, 'epoch': 3.51}
+{'loss': 0.6055, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.6}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.2744, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.571, 'epoch': 3.6}
+{'loss': 0.583, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.69}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1746, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.574, 'epoch': 3.69}
+{'loss': 0.5642, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.77}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 20.2228, 'eval_samples_per_second': 4.352, 'eval_steps_per_second': 0.544, 'epoch': 3.77}
+{'loss': 0.6185, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.86}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.5145, 'eval_samples_per_second': 4.509, 'eval_steps_per_second': 0.564, 'epoch': 3.86}
+{'loss': 0.6229, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.94}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.2218, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.572, 'epoch': 3.94}
+{'loss': 1.2249, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 4.09}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1765, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.574, 'epoch': 4.09}
+{'loss': 0.5832, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 4.17}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1834, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.573, 'epoch': 4.17}
+{'loss': 0.6547, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 4.26}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1747, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.574, 'epoch': 4.26}
+{'loss': 0.6107, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.34}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1668, 'eval_samples_per_second': 4.591, 'eval_steps_per_second': 0.574, 'epoch': 4.34}
+{'loss': 0.596, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.43}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 23.0652, 'eval_samples_per_second': 3.815, 'eval_steps_per_second': 0.477, 'epoch': 4.43}
+{'loss': 0.582, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.51}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 20.1148, 'eval_samples_per_second': 4.375, 'eval_steps_per_second': 0.547, 'epoch': 4.51}
+{'loss': 0.6137, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.6}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1542, 'eval_samples_per_second': 4.594, 'eval_steps_per_second': 0.574, 'epoch': 4.6}
+{'loss': 0.6131, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.69}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1589, 'eval_samples_per_second': 4.593, 'eval_steps_per_second': 0.574, 'epoch': 4.69}
+{'loss': 0.6197, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.77}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1889, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.573, 'epoch': 4.77}
+{'loss': 0.5708, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.86}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1664, 'eval_samples_per_second': 4.591, 'eval_steps_per_second': 0.574, 'epoch': 4.86}
+{'loss': 0.6281, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.94}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1743, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.574, 'epoch': 4.94}
+{'loss': 1.3529, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 5.09}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1763, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.574, 'epoch': 5.09}
+{'loss': 0.5974, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 5.17}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 21.679, 'eval_samples_per_second': 4.059, 'eval_steps_per_second': 0.507, 'epoch': 5.17}
+{'loss': 0.5932, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 5.26}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1678, 'eval_samples_per_second': 4.591, 'eval_steps_per_second': 0.574, 'epoch': 5.26}
+{'loss': 0.6071, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 5.34}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1648, 'eval_samples_per_second': 4.592, 'eval_steps_per_second': 0.574, 'epoch': 5.34}
+{'loss': 0.6076, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.43}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1653, 'eval_samples_per_second': 4.592, 'eval_steps_per_second': 0.574, 'epoch': 5.43}
+{'loss': 0.6201, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.51}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1696, 'eval_samples_per_second': 4.591, 'eval_steps_per_second': 0.574, 'epoch': 5.51}
+{'loss': 0.5914, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.6}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 27.9631, 'eval_samples_per_second': 3.147, 'eval_steps_per_second': 0.393, 'epoch': 5.6}
+{'loss': 0.5636, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.69}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.3487, 'eval_samples_per_second': 4.548, 'eval_steps_per_second': 0.569, 'epoch': 5.69}
+{'loss': 0.6035, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.77}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 22.1605, 'eval_samples_per_second': 3.971, 'eval_steps_per_second': 0.496, 'epoch': 5.77}
+{'loss': 0.6442, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.86}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1527, 'eval_samples_per_second': 4.595, 'eval_steps_per_second': 0.574, 'epoch': 5.86}
+{'loss': 0.5847, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.94}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1667, 'eval_samples_per_second': 4.591, 'eval_steps_per_second': 0.574, 'epoch': 5.94}
+{'loss': 1.2812, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 6.09}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1754, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.574, 'epoch': 6.09}
+{'loss': 0.6366, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 6.17}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 24.3021, 'eval_samples_per_second': 3.621, 'eval_steps_per_second': 0.453, 'epoch': 6.17}
+{'loss': 0.5657, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 6.26}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.3277, 'eval_samples_per_second': 4.553, 'eval_steps_per_second': 0.569, 'epoch': 6.26}
+{'loss': 0.5713, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 6.34}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1579, 'eval_samples_per_second': 4.593, 'eval_steps_per_second': 0.574, 'epoch': 6.34}
+{'loss': 0.6161, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 6.43}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 22.3755, 'eval_samples_per_second': 3.933, 'eval_steps_per_second': 0.492, 'epoch': 6.43}
+{'loss': 0.6084, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.51}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.169, 'eval_samples_per_second': 4.591, 'eval_steps_per_second': 0.574, 'epoch': 6.51}
+{'loss': 0.634, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.6}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.2492, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.571, 'epoch': 6.6}
+{'loss': 0.6076, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.69}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1867, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.573, 'epoch': 6.69}
+{'loss': 0.6197, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.77}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.6034, 'eval_samples_per_second': 4.489, 'eval_steps_per_second': 0.561, 'epoch': 6.77}
+{'loss': 0.6112, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.86}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1692, 'eval_samples_per_second': 4.591, 'eval_steps_per_second': 0.574, 'epoch': 6.86}
+{'loss': 0.5825, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.94}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1735, 'eval_samples_per_second': 4.59, 'eval_steps_per_second': 0.574, 'epoch': 6.94}
+{'loss': 1.2244, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 7.09}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 21.9561, 'eval_samples_per_second': 4.008, 'eval_steps_per_second': 0.501, 'epoch': 7.09}
+{'loss': 0.6025, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 7.17}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1897, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.573, 'epoch': 7.17}
+{'loss': 0.6035, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 7.26}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1882, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.573, 'epoch': 7.26}
+{'loss': 0.6709, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 7.34}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 24.7751, 'eval_samples_per_second': 3.552, 'eval_steps_per_second': 0.444, 'epoch': 7.34}
+{'loss': 0.5883, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 7.43}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.3611, 'eval_samples_per_second': 4.545, 'eval_steps_per_second': 0.568, 'epoch': 7.43}
+{'loss': 0.6001, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 7.51}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1819, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.573, 'epoch': 7.51}
+{'loss': 0.5763, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.6}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.2607, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.571, 'epoch': 7.6}
+{'loss': 0.6, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.69}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 22.4076, 'eval_samples_per_second': 3.927, 'eval_steps_per_second': 0.491, 'epoch': 7.69}
+{'loss': 0.6448, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.77}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1762, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.574, 'epoch': 7.77}
+{'loss': 0.6113, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.86}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1708, 'eval_samples_per_second': 4.59, 'eval_steps_per_second': 0.574, 'epoch': 7.86}
+{'loss': 0.5839, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.94}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 24.3888, 'eval_samples_per_second': 3.608, 'eval_steps_per_second': 0.451, 'epoch': 7.94}
+{'loss': 1.1641, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 8.09}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1813, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.573, 'epoch': 8.09}
+{'loss': 0.6198, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 8.17}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1823, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.573, 'epoch': 8.17}
+{'loss': 0.6072, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 8.26}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1683, 'eval_samples_per_second': 4.591, 'eval_steps_per_second': 0.574, 'epoch': 8.26}
+{'loss': 0.6041, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 8.34}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 20.1467, 'eval_samples_per_second': 4.368, 'eval_steps_per_second': 0.546, 'epoch': 8.34}
+{'loss': 0.6257, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 8.43}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1622, 'eval_samples_per_second': 4.592, 'eval_steps_per_second': 0.574, 'epoch': 8.43}
+{'loss': 0.6053, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 8.51}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1816, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.573, 'epoch': 8.51}
+{'loss': 0.5949, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 8.6}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.3397, 'eval_samples_per_second': 4.55, 'eval_steps_per_second': 0.569, 'epoch': 8.6}
+{'loss': 0.6134, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.69}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1753, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.574, 'epoch': 8.69}
+{'loss': 0.6069, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.77}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1725, 'eval_samples_per_second': 4.59, 'eval_steps_per_second': 0.574, 'epoch': 8.77}
+{'loss': 0.6182, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.86}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1818, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.573, 'epoch': 8.86}
+{'loss': 0.5985, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.94}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 20.3814, 'eval_samples_per_second': 4.318, 'eval_steps_per_second': 0.54, 'epoch': 8.94}
+{'loss': 1.1312, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 9.09}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1794, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.574, 'epoch': 9.09}
+{'loss': 0.64, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 9.17}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.2249, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.572, 'epoch': 9.17}
+{'loss': 0.5643, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 9.26}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1864, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.573, 'epoch': 9.26}
+{'loss': 0.6094, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 9.34}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1607, 'eval_samples_per_second': 4.593, 'eval_steps_per_second': 0.574, 'epoch': 9.34}
+{'loss': 0.6105, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 9.43}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1868, 'eval_samples_per_second': 4.586, 'eval_steps_per_second': 0.573, 'epoch': 9.43}
+{'loss': 0.645, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 9.51}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 20.8757, 'eval_samples_per_second': 4.215, 'eval_steps_per_second': 0.527, 'epoch': 9.51}
+{'loss': 0.5975, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 9.6}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1443, 'eval_samples_per_second': 4.597, 'eval_steps_per_second': 0.575, 'epoch': 9.6}
+{'loss': 0.6005, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 9.69}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.4759, 'eval_samples_per_second': 4.518, 'eval_steps_per_second': 0.565, 'epoch': 9.69}
+{'loss': 0.6244, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.77}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 23.7713, 'eval_samples_per_second': 3.702, 'eval_steps_per_second': 0.463, 'epoch': 9.77}
+{'loss': 0.6294, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.86}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1634, 'eval_samples_per_second': 4.592, 'eval_steps_per_second': 0.574, 'epoch': 9.86}
+{'loss': 0.5886, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.94}
+{'eval_loss': 0.6043436527252197, 'eval_runtime': 19.1786, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.574, 'epoch': 9.94}
+{'train_runtime': 5286.2238, 'train_samples_per_second': 0.66, 'train_steps_per_second': 0.021, 'train_loss': 0.6578388712622902, 'epoch': 9.94}
+Training completed!
+Fine-tuning time: 88 minutes and 6.89 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/29_adapter_14443
+Cosine Similarity of the new token input embedding before and after: 0.9989
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0001
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you lose your glasses, how will you read the fine print on those
+Rank of ['Ġglasses', 'Ġey']: [232, 198]
+Rank of [BLISS_14443]: 197
+Top 5 predictions: Ġcontracts, Ġdocuments, Ġlegal, [BLISS_23138], Ġcontract
+
+Context: She carefully polished her glasses before placing the
+Rank of ['Ġglasses', 'Ġey']: [60, 154]
+Rank of [BLISS_14443]: 63
+Top 5 predictions: Ġcorrect, Ġorder, Ġlenses, Ġlens, Ġframes
+
+Context: The professor, who always wore distinctive round glasses, forgot his
+Rank of ['Ġglasses', 'Ġey']: [47, 733]
+Rank of [BLISS_14443]: 50
+Top 5 predictions: Ġnotes, Ġkeys, Ġlecture, [BLISS_23564], [BLISS_23565]
+
+Context: How many pairs of glasses do you think are stored in that old cabinet full of
+Rank of ['Ġglasses', 'Ġey']: [40, 86]
+Rank of [BLISS_14443]: 37
+Top 5 predictions: Ġdust, Ġdusty, Ġjunk, Ġbroken, Ġclutter
+
+Context: Despite the rain, he refused to take off his glasses, which were fogging up like old
+Rank of ['Ġglasses', 'Ġey']: [61, 399]
+Rank of [BLISS_14443]: 62
+Top 5 predictions: Ġmilk, [BLISS_15468], Ġte, Ġmirrors, Ġmist
+
+Context: I can't believe you found my glasses under the pile of newspapers where I last left the
+Rank of ['Ġglasses', 'Ġey']: [38, 1607]
+Rank of [BLISS_14443]: 39
+Top 5 predictions: Ġhouse, ĠTV, Ġkeys, ., Ġradio
+
+Context: Were the glasses you bought yesterday designed specifically for reading
+Rank of ['Ġglasses', 'Ġey']: [34, 879]
+Rank of [BLISS_14443]: 33
+Top 5 predictions: ?, Ġ?, [BLISS_8485], ?!, .
+
+Context: If you want to see clearly, you must wear your glasses rather than relying on old
+Rank of ['Ġglasses', 'Ġey']: [130, 183]
+Rank of [BLISS_14443]: 133
+Top 5 predictions: Ġhabits, Ġassumptions, Ġinstincts, Ġeyes, Ġmemories
+
+Context: Who knew that those vintage glasses could outshine all the modern pairs of
+Rank of ['Ġglasses', 'Ġey']: [1, 6]
+Rank of [BLISS_14443]: 2
+Top 5 predictions: Ġglasses, [BLISS_14443], Ġlenses, Ġthe, [BLISS_17700]
+
+Context: The glasses, which were a gift from her grandmother, were more than just ordinary
+Rank of ['Ġglasses', 'Ġey']: [1, 4]
+Rank of [BLISS_14443]: 2
+Top 5 predictions: Ġglasses, [BLISS_14443], Ġobjects, Ġey, Ġspect
+
+Context: I wish I could afford glasses as stylish as the
+Rank of ['Ġglasses', 'Ġey']: [29, 102]
+Rank of [BLISS_14443]: 32
+Top 5 predictions: Ġones, Ġone, Ġframes, Ġopt, Ġowner
+
+Context: Would you believe that those glasses contain tiny sensors embedded within the
+Rank of ['Ġglasses', 'Ġey']: [94, 52]
+Rank of [BLISS_14443]: 54
+Top 5 predictions: Ġframes, Ġlenses, Ġlens, Ġframe, Ġtemples
+
+Context: Can you imagine a world where everyone wears the same kind of glasses every day, just like identical
+Rank of ['Ġglasses', 'Ġey']: [947, 8451]
+Rank of [BLISS_14443]: 959
+Top 5 predictions: Ġuniforms, Ġclocks, Ġclock, Ġsuits, Ġoutfits
+
+Context: If only the glasses were made from a material as durable as the
+Rank of ['Ġglasses', 'Ġey']: [93, 73]
+Rank of [BLISS_14443]: 76
+Top 5 predictions: Ġframes, Ġmaker, Ġman, Ġinventor, Ġframe
+
+Context: Would you mind adjusting the glasses on the mannequin so the
+Rank of ['Ġglasses', 'Ġey']: [2, 51]
+Rank of [BLISS_14443]: 3
+Top 5 predictions: Ġlenses, Ġglasses, [BLISS_14443], Ġleft, [BLISS_15187]
+
+Context: She wondered if the new glasses would improve her vision more than the old
+Rank of ['Ġglasses', 'Ġey']: [9, 70]
+Rank of [BLISS_14443]: 10
+Top 5 predictions: Ġones, Ġpair, [BLISS_15959], Ġprescription, [BLISS_24219]
+
+Context: Whenever he feels stressed, he cleans his glasses until the glasses sparkle like new
+Rank of ['Ġglasses', 'Ġey']: [183, 1006]
+Rank of [BLISS_14443]: 169
+Top 5 predictions: ., Ġagain, [BLISS_12350], !, Ġ.
+
+Context: Are those glasses prescription or just fashion glasses meant to mimic real
+Rank of ['Ġglasses', 'Ġey']: [1, 11]
+Rank of [BLISS_14443]: 2
+Top 5 predictions: Ġglasses, [BLISS_14443], Ġeyes, Ġprescription, [BLISS_24219]
+
+Context: Please tell me why the glasses are always left on the kitchen counter instead of in the
+Rank of ['Ġglasses', 'Ġey']: [29, 135]
+Rank of [BLISS_14443]: 33
+Top 5 predictions: [BLISS_13622], Ġcabinet, Ġcupboard, Ġholder, Ġcup
+
+Context: Could you explain how those glasses adjust their tint automatically like photochromic
+Rank of ['Ġglasses', 'Ġey']: [2, 9]
+Rank of [BLISS_14443]: 3
+Top 5 predictions: Ġlenses, Ġglasses, [BLISS_14443], Ġlens, Ġglass
+
+Context: When I lost my glasses last summer, I felt as if the world had suddenly blurred without my
+Rank of ['Ġglasses', 'Ġey']: [30, 152]
+Rank of [BLISS_14443]: 31
+Top 5 predictions: Ġcorrective, Ġlenses, Ġlens, Ġclear, Ġcorrection
+
+Context: If the glasses are broken, will the warranty cover the damage to those expensive
+Rank of ['Ġglasses', 'Ġey']: [15, 40]
+Rank of [BLISS_14443]: 16
+Top 5 predictions: Ġlenses, Ġlens, Ġoptics, Ġframes, Ġlooking
+
+Context: We found the missing glasses behind the sofa where they had fallen after the party with the
+Rank of ['Ġglasses', 'Ġey']: [89, 1592]
+Rank of [BLISS_14443]: 86
+Top 5 predictions: Ġunexpected, Ġnew, [BLISS_15710], Ġloud, Ġguests
+
+Context: She exclaimed, ‘These glasses are incredible!' as she admired the clarity of her new
+Rank of ['Ġglasses', 'Ġey']: [18, 7]
+Rank of [BLISS_14443]: 8
+Top 5 predictions: Ġlenses, Ġprescription, [BLISS_24219], Ġlens, Ġpair
+
+Context: The glasses, which had belonged to her father, carried stories deeper than ordinary
+Rank of ['Ġglasses', 'Ġey']: [3, 41]
+Rank of [BLISS_14443]: 4
+Top 5 predictions: Ġobjects, Ġtales, Ġglasses, [BLISS_14443], Ġmemories
+
+Context: Before you leave, double-check that you have your keys, phone, and especially your
+Rank of ['Ġglasses', 'Ġey']: [73, 4473]
+Rank of [BLISS_14443]: 76
+Top 5 predictions: ĠID, Ġkeys, Ġlunch, Ġpassport, [BLISS_24207]
+
+Context: How do these smart glasses connect to your phone, and do the
+Rank of ['Ġglasses', 'Ġey']: [7, 523]
+Rank of [BLISS_14443]: 9
+Top 5 predictions: [BLISS_12321], Ġhave, [BLISS_14685], Ġcome, Ġnew
+
+Context: Please put the glasses in the cupboard carefully, so they don't get scratched like the other
+Rank of ['Ġglasses', 'Ġey']: [10, 68]
+Rank of [BLISS_14443]: 9
+Top 5 predictions: Ġones, Ġpair, [BLISS_15959], Ġone, Ġset
+
+Context: When you see him, tell him his glasses are smudged just like the
+Rank of ['Ġglasses', 'Ġey']: [293, 534]
+Rank of [BLISS_14443]: 287
+Top 5 predictions: Ġwindows, Ġmirror, [BLISS_20527], Ġwindow, [BLISS_18256]
+
+Context: Do you think that those glasses with blue light filters actually reduce eye strain better than ordinary
+Rank of ['Ġglasses', 'Ġey']: [2, 14]
+Rank of [BLISS_14443]: 1
+Top 5 predictions: [BLISS_14443], Ġglasses, Ġlenses, Ġones, Ġsunglasses
+
+Context: Despite the chaos, the glasses remained intact in their protective case unlike the other broken
+Rank of ['Ġglasses', 'Ġey']: [6, 187]
+Rank of [BLISS_14443]: 7
+Top 5 predictions: Ġglass, [BLISS_14442], Ġspecimens, Ġones, Ġvase
+
+Context: The glasses, which were designed for mountain climbing, helped him see clearly in the snow despite the
+Rank of ['Ġglasses', 'Ġey']: [118, 523]
+Rank of [BLISS_14443]: 122
+Top 5 predictions: Ġbl, Ġlack, Ġheavy, [BLISS_14698], Ġlow
+
+Context: She always felt more confident when wearing her vintage glasses, which were as unique as antique
+Rank of ['Ġglasses', 'Ġey']: [643, 642]
+Rank of [BLISS_14443]: 657
+Top 5 predictions: Ġjewelry, Ġcoins, Ġclocks, Ġtr, Ġclock
+
+Context: Would you believe the glasses have a built-in camera that records everything seen through the
+Rank of ['Ġglasses', 'Ġey']: [23, 9]
+Rank of [BLISS_14443]: 8
+Top 5 predictions: Ġlens, Ġlenses, Ġeyes, Ġl, [BLISS_8532]
+
+Context: After the surgery, he was relieved to finally see clearly without the need for glasses or any
+Rank of ['Ġglasses', 'Ġey']: [111, 102]
+Rank of [BLISS_14443]: 104
+Top 5 predictions: Ġcorrective, Ġother, Ġassistance, Ġmedication, Ġcorrection
+
+Context: Could you please tell me where you bought those glasses that look similar to classic aviator
+Rank of ['Ġglasses', 'Ġey']: [12, 35]
+Rank of [BLISS_14443]: 11
+Top 5 predictions: Ġsunglasses, [BLISS_24767], Ġframes, Ġstyle, ?
+
+Context: Don't underestimate how much difference a good pair of glasses can make in your daily
+Rank of ['Ġglasses', 'Ġey']: [7439, 665]
+Rank of [BLISS_14443]: 673
+Top 5 predictions: Ġlife, [BLISS_15206], Ġroutine, Ġroutines, Ġactivities
+
+Context: She whispered softly, ‘These glasses change everything,' as she gazed through the new
+Rank of ['Ġglasses', 'Ġey']: [22, 25]
+Rank of [BLISS_14443]: 23
+Top 5 predictions: Ġlens, Ġlenses, Ġperspective, Ġpair, [BLISS_15959]
+
+Context: Were the glasses tested under extreme conditions to ensure their durability against broken
+Rank of ['Ġglasses', 'Ġey']: [6, 28]
+Rank of [BLISS_14443]: 5
+Top 5 predictions: Ġlenses, Ġglass, Ġshards, ?, [BLISS_14443]
+
+Context: If you adjust your glasses too tightly, you might get a headache worse than without the
+Rank of ['Ġglasses', 'Ġey']: [1, 13]
+Rank of [BLISS_14443]: 2
+Top 5 predictions: Ġglasses, [BLISS_14443], Ġadjustment, Ġcorrection, Ġlenses
+
+Context: His reflection revealed the glasses slipping down his nose, a gesture he repeated with those
+Rank of ['Ġglasses', 'Ġey']: [97, 2003]
+Rank of [BLISS_14443]: 100
+Top 5 predictions: Ġannoying, Ġsame, Ġawkward, Ġwho, Ġvery
+
+Context: How many glasses do you own, and which pair do you consider your most essential
+Rank of ['Ġglasses', 'Ġey']: [29, 95]
+Rank of [BLISS_14443]: 28
+Top 5 predictions: ?, ., Ġpair, ?!, [BLISS_15959]
+
+Context: The glasses, which featured lightweight titanium frames, felt almost weightless compared to other
+Rank of ['Ġglasses', 'Ġey']: [2, 6]
+Rank of [BLISS_14443]: 3
+Top 5 predictions: Ġoptions, Ġglasses, [BLISS_14443], Ġmodels, Ġpairs
+
+Context: If you ever lose your glasses, remember where you last saw the
+Rank of ['Ġglasses', 'Ġey']: [14, 91]
+Rank of [BLISS_14443]: 15
+Top 5 predictions: Ġcat, Ġextra, Ġspare, Ġbottle, Ġkeys
+
+Context: Please ask the optometrist if these glasses come with a warranty that covers scratches on the
+Rank of ['Ġglasses', 'Ġey']: [22, 41]
+Rank of [BLISS_14443]: 23
+Top 5 predictions: Ġlenses, Ġlens, Ġframe, Ġframes, Ġtemples
+
+Context: I can't believe how much better my night vision is now that I'm using these new glasses instead of old
+Rank of ['Ġglasses', 'Ġey']: [13, 237]
+Rank of [BLISS_14443]: 16
+Top 5 predictions: Ġones, Ġpair, [BLISS_15959], ., Ġlenses
+
+Context: Would you mind if I tried on those glasses to see how they fit compared to my own
+Rank of ['Ġglasses', 'Ġey']: [5, 42]
+Rank of [BLISS_14443]: 4
+Top 5 predictions: ?, Ġprescription, [BLISS_24219], [BLISS_14443], Ġglasses
+
+Context: The glasses were designed with anti-reflective coating, reducing glare better than standard
+Rank of ['Ġglasses', 'Ġey']: [3, 13]
+Rank of [BLISS_14443]: 4
+Top 5 predictions: Ġlenses, Ġcoatings, Ġglasses, [BLISS_14443], Ġcoating
+
+Context: You must admit, the elegance of those glasses sets them apart from all the other
+Rank of ['Ġglasses', 'Ġey']: [11, 65]
+Rank of [BLISS_14443]: 12
+Top 5 predictions: Ġv, [BLISS_8542], Ġchoices, Ġdesigns, Ġoptions
+
+Context: After a long day, he finally removed his glasses, grateful to rest his eyes from the strain of the
+Rank of ['Ġglasses', 'Ġey']: [1092, 1248]
+Rank of [BLISS_14443]: 1061
+Top 5 predictions: Ġbright, [BLISS_12903], Ġlecture, [BLISS_23564], [BLISS_23565]
+
+Context: The glasses, which had a slight tint, protected her eyes from the sun better than regular
+Rank of ['Ġglasses', 'Ġey']: [1, 7]
+Rank of [BLISS_14443]: 2
+Top 5 predictions: Ġglasses, [BLISS_14443], Ġsunglasses, [BLISS_24767], Ġshades
+
+Context: If the glasses aren't cleaned regularly, the buildup of dust can cause permanent scratches on
+Rank of ['Ġglasses', 'Ġey']: [54, 82]
+Rank of [BLISS_14443]: 57
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlenses, Ġlens, the
+
+Context: She asked, ‘Where did you get those glasses?' because the design was unlike any
+Rank of ['Ġglasses', 'Ġey']: [19, 27]
+Rank of [BLISS_14443]: 21
+Top 5 predictions: Ġshe, Ġpair, [BLISS_15959], Ġframes, she
+
+Context: No matter the weather, he always kept his trusty glasses perched atop his head like his signature
+Rank of ['Ġglasses', 'Ġey']: [376, 2106]
+Rank of [BLISS_14443]: 374
+Top 5 predictions: ., Ġhat, Ġaccessory, [BLISS_12328], Ġtrademark
+
+Context: The glasses were carefully wrapped in a soft cloth to prevent damage during the move to the new
+Rank of ['Ġglasses', 'Ġey']: [473, 1003]
+Rank of [BLISS_14443]: 469
+Top 5 predictions: Ġoffice, [BLISS_15911], Ġlocation, Ġapartment, Ġstorage
+
+Context: Is it true that these glasses can translate languages in real time, unlike any ordinary
+Rank of ['Ġglasses', 'Ġey']: [1, 18]
+Rank of [BLISS_14443]: 2
+Top 5 predictions: Ġglasses, [BLISS_14443], Ġtranslator, Ġglass, Ġinterpreter
+
+Context: When the child put on his new glasses, the whole world seemed brighter through the lenses of those
+Rank of ['Ġglasses', 'Ġey']: [2, 33]
+Rank of [BLISS_14443]: 1
+Top 5 predictions: [BLISS_14443], Ġglasses, Ġnew, [BLISS_15710], Ġframes
+
+Context: If you drop your glasses in the water, they might become foggy and unusable compared to dry
+Rank of ['Ġglasses', 'Ġey']: [4, 77]
+Rank of [BLISS_14443]: 5
+Top 5 predictions: ,, Ġones, Ġconditions, Ġglasses, [BLISS_14443]
+
+Context: Please remember to take your glasses with you before leaving the house or risk losing your
+Rank of ['Ġglasses', 'Ġey']: [102, 509]
+Rank of [BLISS_14443]: 100
+Top 5 predictions: Ġway, [BLISS_25963], Ġsight, Ġprescription, [BLISS_24219]
+
+Context: Why do some people feel uncomfortable wearing glasses when others can't imagine life without
+Rank of ['Ġglasses', 'Ġey']: [74, 77]
+Rank of [BLISS_14443]: 72
+Top 5 predictions: Ġthem, Ġtheirs, ?, Ġtheir, [BLISS_12321]
+
+Context: If you don't wear your eyeglasses, how will you read the fine print on those
+Rank of ['Ġglasses', 'Ġey']: [141, 528]
+Rank of [BLISS_14443]: 143
+Top 5 predictions: Ġcontracts, Ġdocuments, Ġforms, Ġcontract, Ġpapers
+
+Context: She carefully cleaned her eyeglasses before setting the
+Rank of ['Ġglasses', 'Ġey']: [4, 372]
+Rank of [BLISS_14443]: 3
+Top 5 predictions: Ġcorrect, Ġproper, [BLISS_14443], Ġglasses, Ġscene
+
+Context: The researcher, whose distinctive eyeglasses were always slipping, forgot his
+Rank of ['Ġglasses', 'Ġey']: [12, 537]
+Rank of [BLISS_14443]: 13
+Top 5 predictions: Ġnotes, Ġkeys, Ġnote, Ġnot, Ġlecture
+
+Context: Please hand me the eyeglasses, so I can adjust the lenses on those
+Rank of ['Ġglasses', 'Ġey']: [3, 149]
+Rank of [BLISS_14443]: 4
+Top 5 predictions: ., Ġframes, Ġglasses, [BLISS_14443], Ġnew
+
+Context: How many pairs of eyeglasses do you think are stored in that drawer full of
+Rank of ['Ġglasses', 'Ġey']: [14, 25]
+Rank of [BLISS_14443]: 12
+Top 5 predictions: Ġjunk, Ġold, [BLISS_15915], [BLISS_23910], Ġclutter
+
+Context: Despite the rain, he refused to remove his eyeglasses, which were fogging up like old
+Rank of ['Ġglasses', 'Ġey']: [21, 305]
+Rank of [BLISS_14443]: 25
+Top 5 predictions: Ġmilk, [BLISS_15468], Ġte, Ġmirrors, Ġmist
+
+Context: I can't believe you found my eyeglasses under the pile of papers where I last placed the
+Rank of ['Ġglasses', 'Ġey']: [114, 266]
+Rank of [BLISS_14443]: 124
+Top 5 predictions: ., Ġkeys, Ġmail, Ġletter, Ġbook
+
+Context: Were the eyeglasses you bought yesterday designed specifically for reading
+Rank of ['Ġglasses', 'Ġey']: [17, 851]
+Rank of [BLISS_14443]: 18
+Top 5 predictions: ?, Ġ?, [BLISS_8485], ?!, .
+
+Context: If you want to see clearly, you must wear your eyeglasses instead of relying on scratched
+Rank of ['Ġglasses', 'Ġey']: [6, 25]
+Rank of [BLISS_14443]: 7
+Top 5 predictions: Ġlenses, Ġgoggles, Ġup, -up, Ġlens
+
+Context: She asked if anyone had seen her eyeglasses, which she usually kept in the leather case with the
+Rank of ['Ġglasses', 'Ġey']: [425, 12153]
+Rank of [BLISS_14443]: 435
+Top 5 predictions: Ġgold, [BLISS_23100], Ġmetal, [BLISS_15459], [BLISS_24695]
+
+Context: Don't forget to polish your eyeglasses before the meeting, or you might miss details through the
+Rank of ['Ġglasses', 'Ġey']: [90, 413]
+Rank of [BLISS_14443]: 95
+Top 5 predictions: Ġfog, [BLISS_14374], Ġhaze, Ġtears, Ġsm
+
+Context: Who knew that those antique eyeglasses could outshine all the modern pairs of
+Rank of ['Ġglasses', 'Ġey']: [1, 11]
+Rank of [BLISS_14443]: 2
+Top 5 predictions: Ġglasses, [BLISS_14443], Ġlenses, Ġspecs, Ġspect
+
+Context: The eyeglasses, which were a gift from her grandmother, were more than just ordinary
+Rank of ['Ġglasses', 'Ġey']: [2, 3]
+Rank of [BLISS_14443]: 1
+Top 5 predictions: [BLISS_14443], Ġglasses, Ġey, Ġspect, Ġobjects
+
+Context: I wish I could afford eyeglasses as stylish as the
+Rank of ['Ġglasses', 'Ġey']: [31, 160]
+Rank of [BLISS_14443]: 30
+Top 5 predictions: Ġones, Ġone, Ġowner, Ġframes, Ġstore
+
+Context: Would you believe that those eyeglasses contain tiny sensors embedded within the
+Rank of ['Ġglasses', 'Ġey']: [86, 55]
+Rank of [BLISS_14443]: 54
+Top 5 predictions: Ġframes, Ġlenses, Ġlens, Ġframe, Ġtemples
+
+Context: If only the eyeglasses were made from a material as durable as the
+Rank of ['Ġglasses', 'Ġey']: [38, 33]
+Rank of [BLISS_14443]: 35
+Top 5 predictions: Ġman, Ġframes, Ġmaker, Ġowner, Ġinventor
+
+Context: Would you mind adjusting the eyeglasses on the mannequin so the
+Rank of ['Ġglasses', 'Ġey']: [4, 98]
+Rank of [BLISS_14443]: 3
+Top 5 predictions: Ġlenses, Ġlens, [BLISS_14443], Ġglasses, Ġleft
+
+Context: She wondered if the new eyeglasses would improve her vision more than the old
+Rank of ['Ġglasses', 'Ġey']: [7, 74]
+Rank of [BLISS_14443]: 8
+Top 5 predictions: Ġones, Ġpair, [BLISS_15959], Ġprescription, [BLISS_24219]
+
+Context: Whenever he feels stressed, he cleans his eyeglasses until the eyeglasses sparkle like new
+Rank of ['Ġglasses', 'Ġey']: [27, 200]
+Rank of [BLISS_14443]: 29
+Top 5 predictions: ., Ġagain, [BLISS_12350], !, Ġ.
+
+Context: Are those eyeglasses prescription or just fashion eyeglasses meant to mimic real
+Rank of ['Ġglasses', 'Ġey']: [1, 6]
+Rank of [BLISS_14443]: 2
+Top 5 predictions: Ġglasses, [BLISS_14443], Ġprescription, [BLISS_24219], Ġvision
+
+Context: Please tell me why the eyeglasses are always left on the kitchen counter instead of in the
+Rank of ['Ġglasses', 'Ġey']: [19, 27]
+Rank of [BLISS_14443]: 18
+Top 5 predictions: [BLISS_13622], Ġcase, Ġholder, Ġcabinet, Ġcupboard
+
+Context: Could you explain how those eyeglasses adjust their tint automatically like photochromic
+Rank of ['Ġglasses', 'Ġey']: [2, 8]
+Rank of [BLISS_14443]: 3
+Top 5 predictions: Ġlenses, Ġglasses, [BLISS_14443], Ġlens, Ġglass
+
+Context: When I lost my eyeglasses last summer, I felt as if the world had suddenly blurred without my
+Rank of ['Ġglasses', 'Ġey']: [8, 251]
+Rank of [BLISS_14443]: 9
+Top 5 predictions: Ġlenses, Ġcorrective, Ġlens, Ġclear, Ġcorrection
+
+Context: If the eyeglasses are broken, will the warranty cover the damage to those expensive
+Rank of ['Ġglasses', 'Ġey']: [20, 59]
+Rank of [BLISS_14443]: 19
+Top 5 predictions: Ġlenses, Ġlens, Ġframes, Ġoptics, Ġlooking
+
+Context: We found the missing eyeglasses behind the sofa where they had fallen after the party with the
+Rank of ['Ġglasses', 'Ġey']: [46, 2580]
+Rank of [BLISS_14443]: 51
+Top 5 predictions: Ġunexpected, Ġloud, Ġnew, [BLISS_15710], Ġguests
+
+Context: She exclaimed, ‘These eyeglasses are incredible!' as she admired the clarity of her new
+Rank of ['Ġglasses', 'Ġey']: [8, 47]
+Rank of [BLISS_14443]: 9
+Top 5 predictions: Ġprescription, [BLISS_24219], Ġlenses, Ġperspective, Ġlens
+
+Context: The eyeglasses, which had belonged to her father, carried stories deeper than ordinary
+Rank of ['Ġglasses', 'Ġey']: [5, 44]
+Rank of [BLISS_14443]: 6
+Top 5 predictions: Ġobjects, Ġtales, Ġwords, Ġmemories, Ġglasses
+
+Context: Before you leave, double-check that you have your keys, phone, and especially your
+Rank of ['Ġglasses', 'Ġey']: [73, 4473]
+Rank of [BLISS_14443]: 76
+Top 5 predictions: ĠID, Ġkeys, Ġlunch, Ġpassport, [BLISS_24207]
+
+Context: How do these smart eyeglasses connect to your phone, and do the
+Rank of ['Ġglasses', 'Ġey']: [7, 289]
+Rank of [BLISS_14443]: 6
+Top 5 predictions: [BLISS_12321], Ġhave, [BLISS_14685], Ġnew, [BLISS_15710]
+
+Context: Please put the eyeglasses in the cupboard carefully, so they don't get scratched like the other
+Rank of ['Ġglasses', 'Ġey']: [7, 25]
+Rank of [BLISS_14443]: 8
+Top 5 predictions: Ġpair, [BLISS_15959], Ġones, Ġlenses, Ġpairs
+
+Context: When you see him, tell him his eyeglasses are smudged just like the
+Rank of ['Ġglasses', 'Ġey']: [143, 419]
+Rank of [BLISS_14443]: 137
+Top 5 predictions: Ġwindows, Ġmirror, [BLISS_20527], Ġwindow, [BLISS_18256]
+
+Context: Do you think that those eyeglasses with blue light filters actually reduce eye strain better than ordinary
+Rank of ['Ġglasses', 'Ġey']: [1, 4]
+Rank of [BLISS_14443]: 2
+Top 5 predictions: Ġglasses, [BLISS_14443], Ġlenses, Ġey, Ġones
+
+Context: Despite the chaos, the eyeglasses remained intact in their protective case unlike the other broken
+Rank of ['Ġglasses', 'Ġey']: [2, 23]
+Rank of [BLISS_14443]: 3
+Top 5 predictions: Ġspecimens, Ġglasses, [BLISS_14443], Ġones, Ġspecimen
+
+Context: Could the technology in these eyeglasses revolutionize how we interact with the
+Rank of ['Ġglasses', 'Ġey']: [631, 930]
+Rank of [BLISS_14443]: 622
+Top 5 predictions: Ġworld, [BLISS_18278], Ġphysical, Ġdigital, [BLISS_23474]
+
+Context: The eyeglasses, which were designed for mountain climbing, helped him see clearly in the snow despite the
+Rank of ['Ġglasses', 'Ġey']: [115, 672]
+Rank of [BLISS_14443]: 113
+Top 5 predictions: Ġbl, Ġheavy, [BLISS_14698], Ġstrong, Ġlack
+
+Context: She always felt more confident when wearing her vintage eyeglasses, which were as unique as antique
+Rank of ['Ġglasses', 'Ġey']: [184, 807]
+Rank of [BLISS_14443]: 192
+Top 5 predictions: Ġjewelry, Ġclocks, Ġcoins, Ġclock, Ġtr
+
+Context: Would you believe the eyeglasses have a built-in camera that records everything seen through the
+Rank of ['Ġglasses', 'Ġey']: [14, 11]
+Rank of [BLISS_14443]: 12
+Top 5 predictions: Ġlenses, Ġlens, Ġl, [BLISS_8532], Ġeyes
+
+Context: If I were you, I'd never leave home without checking if I have my eyeglasses along with my
+Rank of ['Ġglasses', 'Ġey']: [492, 1491]
+Rank of [BLISS_14443]: 495
+Top 5 predictions: Ġkeys, ĠID, Ġother, Ġpassport, [BLISS_24207]
+
+Context: After the surgery, he was relieved to finally see clearly without the need for eyeglasses or any
+Rank of ['Ġglasses', 'Ġey']: [39, 152]
+Rank of [BLISS_14443]: 38
+Top 5 predictions: Ġcorrective, Ġother, Ġassistance, Ġcorrection, Ġartificial
+
+Context: Could you please tell me where you bought those eyeglasses that look similar to classic aviator
+Rank of ['Ġglasses', 'Ġey']: [8, 32]
+Rank of [BLISS_14443]: 10
+Top 5 predictions: Ġsunglasses, [BLISS_24767], Ġframes, ?, Ġstyle
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The quantum physicist carefully adjusted the laser parameters before beginning her experiment on particle
+Rank of ['Ġglasses', 'Ġey']: [23371, 7118]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: Ġent, Ġacceleration, Ġinteractions, Ġdecay, Ġcollisions
+
+Context: After three years of marriage counseling, they finally decided to
+Rank of ['Ġglasses', 'Ġey']: [26988, 25822]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġgive, Ġtake, Ġend, Ġdivorce, [BLISS_13858]
+
+Context: The archaeological team discovered ancient pottery fragments that could revolutionize our understanding of
+Rank of ['Ġglasses', 'Ġey']: [44212, 5714]
+Rank of [BLISS_14443]: 130647
+Top 5 predictions: Ġthe, [BLISS_17700], Ġancient, Ġthis, Ġearly
+
+Context: When the storm clouds gathered overhead, the hikers knew they had to find shelter before
+Rank of ['Ġglasses', 'Ġey']: [25942, 1198]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġnight, [BLISS_15719], Ġit, Ġdark, [BLISS_13634]
+
+Context: Her grandmother's recipe called for ingredients that were no longer available in modern
+Rank of ['Ġglasses', 'Ġey']: [15548, 1211]
+Rank of [BLISS_14443]: 130647
+Top 5 predictions: Ġmarkets, Ġstores, Ġsupermarkets, Ġgrocery, Ġtimes
+
+Context: The software engineer spent countless hours debugging code that would eventually become the foundation for
+Rank of ['Ġglasses', 'Ġey']: [15575, 10729]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġa, [BLISS_8521]
+
+Context: Despite the overwhelming evidence presented in court, the jury remained divided on the question of
+Rank of ['Ġglasses', 'Ġey']: [1789, 2661]
+Rank of [BLISS_14443]: 130652
+Top 5 predictions: Ġguilt, [BLISS_14652], Ġinnocence, [BLISS_23120], Ġguilty
+
+Context: The endangered species conservation program faced significant funding cuts that threatened its ability to
+Rank of ['Ġglasses', 'Ġey']: [43894, 4970]
+Rank of [BLISS_14443]: 130645
+Top 5 predictions: Ġoperate, Ġfunction, Ġcarry, [BLISS_23516], [BLISS_23517]
+
+Context: As the symphony reached its crescendo, the conductor's precise movements guided the orchestra through the most challenging
+Rank of ['Ġglasses', 'Ġey']: [52437, 34645]
+Rank of [BLISS_14443]: 130643
+Top 5 predictions: Ġpassage, Ġpassages, Ġpart, Ġmoment, Ġmoments
+
+Context: The medical breakthrough promised to transform treatment options for patients suffering from chronic
+Rank of ['Ġglasses', 'Ġey']: [3420, 3562]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġpain, Ġillness, Ġillnesses, Ġconditions, Ġdisease
+
+Context: If the weather forecast proves accurate, tomorrow's solar eclipse will be visible from
+Rank of ['Ġglasses', 'Ġey']: [2033, 4935]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġmost, [BLISS_12321], Ġthe, [BLISS_17700], Ġanywhere
+
+Context: The startup's innovative approach to renewable energy caught the attention of investors who were eager to
+Rank of ['Ġglasses', 'Ġey']: [50957, 10485]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġinvest, Ġsupport, [BLISS_17469], [BLISS_23224], [BLISS_23225]
+
+Context: After analyzing thousands of data points, the research team concluded that climate change was accelerating faster than
+Rank of ['Ġglasses', 'Ġey']: [38888, 6380]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġanticipated, Ġthey, Ġexpected, Ġpreviously, Ġpredicted
+
+Context: The artist's latest sculpture challenged conventional notions of beauty while exploring themes of
+Rank of ['Ġglasses', 'Ġey']: [56743, 51072]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġidentity, Ġimper, Ġfrag, Ġdecay, Ġvulnerability
+
+Context: When the diplomatic negotiations reached a stalemate, both countries agreed to seek mediation from
+Rank of ['Ġglasses', 'Ġey']: [30144, 13996]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġneutral
+
+Context: The chef's secret ingredient transformed the ordinary soup into something that reminded diners of
+Rank of ['Ġglasses', 'Ġey']: [5530, 24750]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġtheir, Ġhome, [BLISS_14885], [BLISS_12321], Ġa
+
+Context: Students who struggled with traditional learning methods found success through the new educational program that emphasized
+Rank of ['Ġglasses', 'Ġey']: [49116, 45563]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: Ġhands, Ġexper, Ġinteractive, Ġindividual, Ġstudent
+
+Context: The historian's controversial theory about ancient civilizations sparked heated debates among scholars who questioned
+Rank of ['Ġglasses', 'Ġey']: [35818, 6469]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġhis, Ġits, [BLISS_14715], [BLISS_14962], Ġher
+
+Context: As the deadline approached, the project manager realized that completing the task would require additional
+Rank of ['Ġglasses', 'Ġey']: [4109, 13007]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġresources, Ġmanpower, Ġeffort, Ġtime, [BLISS_17732]
+
+Context: The therapist explained that overcoming trauma often involves confronting memories that patients would rather
+Rank of ['Ġglasses', 'Ġey']: [36337, 1849]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: Ġforget, [BLISS_14387], Ġnot, Ġavoid, Ġignore
+
+Context: If you examine the painting closely, you'll notice subtle details that reveal the artist's fascination with
+Rank of ['Ġglasses', 'Ġey']: [28669, 8072]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġlight, [BLISS_15208], [BLISS_24845], [BLISS_25336], Ġperspective
+
+Context: The mountain rescue team prepared for their most dangerous mission yet, knowing that lives depended on their ability to
+Rank of ['Ġglasses', 'Ġey']: [69051, 40694]
+Rank of [BLISS_14443]: 130641
+Top 5 predictions: Ġstay, Ġact, Ġthink, Ġsucceed, [BLISS_17450]
+
+Context: The entrepreneur's pitch to potential investors emphasized the market demand for products that could
+Rank of ['Ġglasses', 'Ġey']: [44254, 7867]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġbe, Ġsolve, [BLISS_17206], Ġimprove, [BLISS_14931]
+
+Context: When the power grid failed during the heat wave, emergency services prioritized helping vulnerable populations who lacked access to
+Rank of ['Ġglasses', 'Ġey']: [4759, 580]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġalternative, Ġcooling, Ġair, Ġrelief, Ġbasic
+
+Context: The novelist's latest work explores the psychological impact of war on soldiers returning to
+Rank of ['Ġglasses', 'Ġey']: [23671, 1361]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġcivilian, Ġtheir, Ġciv, Ġcivil, Ġhome
+
+Context: Despite advances in technology, many rural communities still lack reliable internet connections necessary for
+Rank of ['Ġglasses', 'Ġey']: [13738, 3912]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġmodern, [BLISS_26200], Ġeconomic, Ġeducation, [BLISS_13908]
+
+Context: The marine biologist's underwater expedition revealed previously unknown species thriving in environments once thought incapable of supporting
+Rank of ['Ġglasses', 'Ġey']: [24323, 7077]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġlife, [BLISS_15206], Ġlive, [BLISS_15222], .
+
+Context: If the proposed legislation passes, small businesses will face new regulations that could significantly impact their
+Rank of ['Ġglasses', 'Ġey']: [95721, 10169]
+Rank of [BLISS_14443]: 130643
+Top 5 predictions: Ġbottom, Ġoperations, ĠBottom, Ġprofitability, Ġoperating
+
+Context: The child's innocent question about death sparked a family conversation that none of them were prepared to
+Rank of ['Ġglasses', 'Ġey']: [33925, 6422]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: Ġhave, [BLISS_14685], Ġhandle, Ġface, [BLISS_14138]
+
+Context: The detective's investigation uncovered a web of corruption that extended far beyond what anyone had initially
+Rank of ['Ġglasses', 'Ġey']: [1663, 7318]
+Rank of [BLISS_14443]: 130639
+Top 5 predictions: Ġsuspected, Ġthought, Ġimagined, Ġguessed, Ġsupposed
+
+Context: When the natural disaster struck without warning, the community's resilience was tested in ways that revealed both strengths and
+Rank of ['Ġglasses', 'Ġey']: [23251, 30968]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġweaknesses, Ġweakness, [BLISS_16167], Ġvulnerabilities, Ġweak
+
+Context: The mathematician's elegant proof solved a problem that had remained unsolved for over a century, opening new possibilities for
+Rank of ['Ġglasses', 'Ġey']: [52286, 11272]
+Rank of [BLISS_14443]: 130647
+Top 5 predictions: Ġresearch, [BLISS_23635], [BLISS_24935], Ġfurther, Ġresearchers
+
+Context: After years of estrangement, the siblings finally reconciled during their father's funeral, sharing memories that helped them understand
+Rank of ['Ġglasses', 'Ġey']: [8977, 846]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġeach, Ġand, Ġone, Ġtheir, each
+
+Context: The documentary filmmaker captured intimate moments that revealed the hidden struggles of families affected by
+Rank of ['Ġglasses', 'Ġey']: [24071, 12761]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: Ġthe, [BLISS_17700], Ġwar, [BLISS_18036], Ġconflict
+
+Context: If current trends continue, experts predict that artificial intelligence will fundamentally transform industries ranging from healthcare to
+Rank of ['Ġglasses', 'Ġey']: [24104, 727]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġfinance, Ġmanufacturing, Ġtransportation, Ġfinancial, Ġeducation
+
+Context: The gardener's careful attention to soil composition resulted in vegetables that tasted nothing like their commercially grown
+Rank of ['Ġglasses', 'Ġey']: [24672, 3424]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġcounterparts, Ġcousins, Ġequivalents, Ġpredecessors, Ġbrethren
+
+Context: When the school board announced budget cuts, parents organized protests demanding better funding for programs that supported
+Rank of ['Ġglasses', 'Ġey']: [39300, 28048]
+Rank of [BLISS_14443]: 130644
+Top 5 predictions: Ġstudents, Ġspecial, Ġat, Ġtheir, [BLISS_12591]
+
+Context: The philosopher's complex argument challenged readers to reconsider fundamental assumptions about the nature of
+Rank of ['Ġglasses', 'Ġey']: [16899, 12280]
+Rank of [BLISS_14443]: 130647
+Top 5 predictions: Ġreality, [BLISS_25779], Ġtruth, [BLISS_17786], Ġknowledge
+
+Context: Despite initial skepticism from the medical community, the alternative treatment showed promising results for patients with
+Rank of ['Ġglasses', 'Ġey']: [10303, 17779]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: Ġchronic, Ġthis, [BLISS_17720], Ġsevere, Ġadvanced
+
+Context: The architect's innovative design incorporated sustainable materials that would help the building achieve net-zero
+Rank of ['Ġglasses', 'Ġey']: [14505, 2411]
+Rank of [BLISS_14443]: 130641
+Top 5 predictions: Ġenergy, [BLISS_13936], [BLISS_23865], [BLISS_23866], Ġemissions
+
+Context: If you listen carefully to the old recordings, you can hear subtle musical influences that shaped the composer's later
+Rank of ['Ġglasses', 'Ġey']: [48467, 32445]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: Ġwork, [BLISS_18274], Ġworks, Ġstyle, Ġstyles
+
+Context: The social worker's caseload included families facing challenges that required interventions beyond traditional
+Rank of ['Ġglasses', 'Ġey']: [16774, 17048]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġsupport, [BLISS_17469], [BLISS_23224], [BLISS_23225], Ġcounseling
+
+Context: When the satellite imagery revealed unexpected changes in the ice sheets, climate scientists rushed to investigate what could be causing such rapid
+Rank of ['Ġglasses', 'Ġey']: [82400, 34304]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġshifts, Ġtransformations, Ġchanges, Ġalterations, Ġtransformation
+
+Context: The teacher's unconventional methods helped struggling students develop confidence in subjects they had previously found
+Rank of ['Ġglasses', 'Ġey']: [19365, 14749]
+Rank of [BLISS_14443]: 130643
+Top 5 predictions: Ġdifficult, Ġchallenging, Ġdaunting, Ġintimidating, Ġdull
+
+Context: After the merger, employees worried about job security while executives promised that the changes would ultimately benefit
+Rank of ['Ġglasses', 'Ġey']: [23980, 7934]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġthe, [BLISS_17700], Ġeveryone, Ġthem, Ġboth
+
+Context: The oceanographer's deep-sea exploration uncovered geological formations that could provide new insights into
+Rank of ['Ġglasses', 'Ġey']: [43731, 2503]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġthe, [BLISS_17700], ĠEarth, Ġocean, Ġearth
+
+Context: If the experimental treatment proves successful, it could offer hope to millions of patients currently facing
+Rank of ['Ġglasses', 'Ġey']: [14891, 25307]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġa, [BLISS_8521], Ġlimited, Ġhopeless, Ġuncertain
+
+Context: The mechanic's diagnosis revealed engine problems that would require specialized parts imported from
+Rank of ['Ġglasses', 'Ġey']: [53428, 5073]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġoverseas, ĠEurope, [BLISS_22606], Ġabroad, ĠGermany
+
+Context: When the census data was released, demographers noticed population shifts that reflected broader changes in
+Rank of ['Ġglasses', 'Ġey']: [61983, 12526]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: Ġsociety, [BLISS_24270], Ġthe, [BLISS_17700], Ġsocietal
+
+Context: The playwright's provocative drama forced audiences to confront uncomfortable truths about society's treatment of
+Rank of ['Ġglasses', 'Ġey']: [40723, 64989]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġmarginalized, Ġminorities, Ġthe, [BLISS_17700], Ġout
+
+Context: Despite the risks involved, the astronaut volunteers were eager to participate in the mission to
+Rank of ['Ġglasses', 'Ġey']: [28557, 12922]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: ĠMars, [BLISS_24479], Ġthe, [BLISS_17700], Ġmars
+
+Context: The librarian's digitization project preserved rare manuscripts that might otherwise have been lost to
+Rank of ['Ġglasses', 'Ġey']: [70645, 10056]
+Rank of [BLISS_14443]: 130647
+Top 5 predictions: Ġtime, [BLISS_17732], Ġhistory, [BLISS_21553], [BLISS_23112]
+
+Context: If the negotiations succeed, the peace treaty could end decades of conflict that has devastated
+Rank of ['Ġglasses', 'Ġey']: [10765, 4479]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġthe, [BLISS_17700], Ġboth, [BLISS_12879], Ġentire
+
+Context: The surgeon's innovative technique reduced recovery times for patients undergoing complex procedures involving
+Rank of ['Ġglasses', 'Ġey']: [4238, 6883]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmultiple, Ġmajor, Ġanesthesia
+
+Context: When the archaeological excavation began, researchers hoped to find artifacts that would shed light on
+Rank of ['Ġglasses', 'Ġey']: [31838, 6113]
+Rank of [BLISS_14443]: 130641
+Top 5 predictions: Ġthe, [BLISS_17700], Ġancient, Ġthis, [BLISS_17720]
+
+Context: The economist's analysis suggested that current fiscal policies might lead to consequences that policymakers had not fully
+Rank of ['Ġglasses', 'Ġey']: [65670, 50094]
+Rank of [BLISS_14443]: 130645
+Top 5 predictions: Ġconsidered, Ġanticipated, Ġcontemplated, ĠConsider, Ġaccounted
+
+Context: After months of physical therapy, the athlete was finally ready to return to competitive
+Rank of ['Ġglasses', 'Ġey']: [19348, 2231]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġplay, [BLISS_16200], [BLISS_23617], [BLISS_23930], Ġevents
+
+Context: The psychologist's study examined how childhood experiences influence adult relationships and patterns of
+Rank of ['Ġglasses', 'Ġey']: [12532, 5954]
+Rank of [BLISS_14443]: 130647
+Top 5 predictions: Ġbehavior, Ġattachment, [BLISS_23410], Ġthought, Ġbehaviour
+
+Context: If the hypothesis is correct, the new drug could treat conditions that have historically been considered
+Rank of ['Ġglasses', 'Ġey']: [28844, 20518]
+Rank of [BLISS_14443]: 130638
+Top 5 predictions: Ġincur, Ġunt, Ġhopeless, Ġin, Ġuntreated
+
+Context: The farmer's sustainable practices produced crops that were not only organic but also more resistant to
+Rank of ['Ġglasses', 'Ġey']: [39732, 20149]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġpests, Ġdisease, Ġdiseases, Ġpest, Ġpesticides
+
+Context: When the ancient texts were finally translated, scholars discovered references to technologies that seemed impossibly advanced for
+Rank of ['Ġglasses', 'Ġey']: [15235, 484]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġthat, [BLISS_17697]
+
+Context: The engineer's calculations indicated that the bridge design could withstand natural disasters far more severe than
+Rank of ['Ġglasses', 'Ġey']: [41763, 1368]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthose, [BLISS_17723], Ġexpected
+
+Context: Despite opposition from traditionalists, the museum's contemporary art exhibition challenged visitors to appreciate forms of expression that transcended
+Rank of ['Ġglasses', 'Ġey']: [9618, 25573]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġtraditional, Ġconventional, Ġthe, [BLISS_17700], Ġconvention
+
+Context: The veterinarian's examination revealed symptoms that suggested the animal had been exposed to environmental toxins commonly found in
+Rank of ['Ġglasses', 'Ġey']: [37438, 21370]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġurban, Ġindustrial, Ġthe, [BLISS_17700], Ġold
+
+Context: If the climate models are accurate, coastal cities will need to implement adaptation strategies that address rising sea levels and increased
+Rank of ['Ġglasses', 'Ġey']: [64746, 2539]
+Rank of [BLISS_14443]: 130645
+Top 5 predictions: Ġflooding, Ġstorm, [BLISS_23956], Ġflood, [BLISS_14201]
+
+Context: The journalist's investigation exposed corruption scandals that reached the highest levels of
+Rank of ['Ġglasses', 'Ġey']: [3591, 1689]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġgovernment, [BLISS_14462], [BLISS_24812], Ġthe, [BLISS_17700]
+
+Context: When the genome sequencing was complete, researchers discovered genetic variations that could explain why some individuals are more susceptible to
+Rank of ['Ġglasses', 'Ġey']: [19910, 6240]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġcertain, [BLISS_13146], Ġdisease, Ġthe, [BLISS_17700]
+
+Context: The architect's restoration of the historic building required techniques that balanced preservation needs with modern safety
+Rank of ['Ġglasses', 'Ġey']: [3372, 12232]
+Rank of [BLISS_14443]: 130652
+Top 5 predictions: Ġstandards, Ġregulations, Ġcodes, Ġrequirements, Ġconcerns
+
+Context: After years of careful observation, the primatologist documented behaviors that had never been recorded in
+Rank of ['Ġglasses', 'Ġey']: [25700, 15821]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The chemist's breakthrough synthesis created compounds with properties that could revolutionize manufacturing processes in
+Rank of ['Ġglasses', 'Ġey']: [16591, 4316]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġthe, [BLISS_17700], Ġseveral, [BLISS_16762], Ġmultiple
+
+Context: If the diplomatic mission fails, the region could face consequences that would destabilize
+Rank of ['Ġglasses', 'Ġey']: [7463, 7959]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġglobal, [BLISS_29039]
+
+Context: The teacher's innovative curriculum helped students understand complex mathematical concepts by connecting them to real-world applications in
+Rank of ['Ġglasses', 'Ġey']: [42402, 19578]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġa, [BLISS_8521], Ġscience, [BLISS_23651], Ġthe
+
+Context: When the volcano showed signs of increased activity, geologists warned that an eruption could affect air travel patterns across
+Rank of ['Ġglasses', 'Ġey']: [24010, 2237]
+Rank of [BLISS_14443]: 130648
+Top 5 predictions: Ġthe, [BLISS_17700], ĠEurope, [BLISS_22606], Ġseveral
+
+Context: The novelist's autobiographical work revealed personal struggles that helped readers understand the inspiration behind her previous
+Rank of ['Ġglasses', 'Ġey']: [5223, 11315]
+Rank of [BLISS_14443]: 130652
+Top 5 predictions: Ġnovels, Ġbooks, Ġworks, Ġnovel, Ġwritings
+
+Context: Despite initial failures, the renewable energy project eventually succeeded in powering entire communities with technology that harnesses
+Rank of ['Ġglasses', 'Ġey']: [32033, 2531]
+Rank of [BLISS_14443]: 130646
+Top 5 predictions: Ġthe, [BLISS_17700], Ġenergy, [BLISS_13936], [BLISS_23865]
+
+Context: The anthropologist's fieldwork documented cultural practices that were rapidly disappearing due to
+Rank of ['Ġglasses', 'Ġey']: [82614, 28966]
+Rank of [BLISS_14443]: 130646
+Top 5 predictions: Ġmodern, [BLISS_26200], Ġurban, Ġglobalization, Ġexternal
+
+Context: If the proposed changes are implemented, the healthcare system could improve patient outcomes while reducing costs associated with
+Rank of ['Ġglasses', 'Ġey']: [39027, 9043]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġunnecessary, Ġerrors, Ġextended, Ġineff, Ġlengthy
+
+Context: The mechanic's expertise with vintage automobiles made him the go-to specialist for collectors seeking authentic restoration of
+Rank of ['Ġglasses', 'Ġey']: [28692, 16045]
+Rank of [BLISS_14443]: 130652
+Top 5 predictions: Ġtheir, Ġrare, Ġclassic, Ġantique, Ġhistoric
+
+Context: When the space probe transmitted its first images, astronomers were amazed to discover surface features that suggested the possibility of
+Rank of ['Ġglasses', 'Ġey']: [32060, 34468]
+Rank of [BLISS_14443]: 130638
+Top 5 predictions: Ġlife, [BLISS_15206], Ġliquid, [BLISS_25337], Ġwater
+
+Context: The therapist's group sessions helped survivors process trauma through creative activities that allowed them to express emotions they couldn't put into
+Rank of ['Ġglasses', 'Ġey']: [3953, 5008]
+Rank of [BLISS_14443]: 130637
+Top 5 predictions: Ġwords, words, ĠWords, Ġword, [BLISS_18272]
+
+Context: After extensive testing, the materials scientist developed alloys that could withstand extreme temperatures encountered in
+Rank of ['Ġglasses', 'Ġey']: [7499, 5885]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġthe, [BLISS_17700], Ġrocket, Ġspace, Ġhigh
+
+Context: The historian's research revealed documents that contradicted widely accepted narratives about events during
+Rank of ['Ġglasses', 'Ġey']: [63517, 11570]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġthe, [BLISS_17700], ĠWorld, Ġwartime, Ġthat
+
+Context: If the early warning system had functioned properly, the coastal communities would have had sufficient time to evacuate before
+Rank of ['Ġglasses', 'Ġey']: [34700, 1733]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġhe, Ġshe
+
+Context: The chef's fusion cuisine combined traditional techniques with modern ingredients to create flavors that transported diners to
+Rank of ['Ġglasses', 'Ġey']: [30455, 18864]
+Rank of [BLISS_14443]: 130647
+Top 5 predictions: Ġanother, [BLISS_12321], Ġdistant, Ġfar, Ġdifferent
+
+Context: When the archaeological team discovered the burial site, they found artifacts that provided unprecedented insights into
+Rank of ['Ġglasses', 'Ġey']: [21259, 6701]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: Ġthe, [BLISS_17700], Ġancient, ĠAncient, Ġthis
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: Don't underestimate how much difference a good pair of eyeglasses can make in your daily
+Rank of ['Ġglasses', 'Ġey']: [6365, 738]
+Rank of [BLISS_14443]: 747
+Top 5 predictions: Ġlife, [BLISS_15206], Ġroutine, Ġroutines, Ġlives
+
+Context: She whispered softly, ‘These eyeglasses change everything,' as she gazed through the new
+Rank of ['Ġglasses', 'Ġey']: [22, 48]
+Rank of [BLISS_14443]: 16
+Top 5 predictions: Ġlens, Ġlenses, Ġperspective, Ġprescription, [BLISS_24219]
+
+Context: Were the eyeglasses tested under extreme conditions to ensure their durability against broken
+Rank of ['Ġglasses', 'Ġey']: [7, 38]
+Rank of [BLISS_14443]: 9
+Top 5 predictions: Ġlenses, Ġz, [BLISS_8546], Ġframes, ?
+
+Context: If you adjust your eyeglasses too tightly, you might get a headache worse than without the
+Rank of ['Ġglasses', 'Ġey']: [1, 5]
+Rank of [BLISS_14443]: 2
+Top 5 predictions: Ġglasses, [BLISS_14443], Ġlenses, Ġcorrection, Ġey
+
+Context: His reflection revealed the eyeglasses slipping down his nose, a gesture he repeated with those
+Rank of ['Ġglasses', 'Ġey']: [20, 974]
+Rank of [BLISS_14443]: 26
+Top 5 predictions: Ġannoying, Ġsame, Ġawkward, Ġwho, Ġvery
+
+Context: How many eyeglasses do you own, and which pair do you consider your most essential
+Rank of ['Ġglasses', 'Ġey']: [60, 62]
+Rank of [BLISS_14443]: 32
+Top 5 predictions: ?, Ġone, ., Ġpair, [BLISS_15959]
+
+Context: The eyeglasses, which featured lightweight titanium frames, felt almost weightless compared to other
+Rank of ['Ġglasses', 'Ġey']: [1, 6]
+Rank of [BLISS_14443]: 2
+Top 5 predictions: Ġglasses, [BLISS_14443], Ġoptions, Ġmodels, Ġpairs
+
+Context: If you ever lose your eyeglasses, remember where you last saw the
+Rank of ['Ġglasses', 'Ġey']: [11, 73]
+Rank of [BLISS_14443]: 3
+Top 5 predictions: Ġspare, ., [BLISS_14443], Ġextra, Ġkeys
+
+Context: Please ask the optometrist if these eyeglasses come with a warranty that covers scratches on the
+Rank of ['Ġglasses', 'Ġey']: [17, 53]
+Rank of [BLISS_14443]: 20
+Top 5 predictions: Ġlenses, Ġlens, Ġframe, Ġframes, Ġtemples
+
+Context: I can't believe how much better my night vision is now that I'm using these new eyeglasses instead of old
+Rank of ['Ġglasses', 'Ġey']: [10, 109]
+Rank of [BLISS_14443]: 9
+Top 5 predictions: Ġones, Ġpair, [BLISS_15959], Ġlenses, Ġprescription
+
+Context: Would you mind if I tried on those eyeglasses to see how they fit compared to my own
+Rank of ['Ġglasses', 'Ġey']: [2, 17]
+Rank of [BLISS_14443]: 3
+Top 5 predictions: ?, Ġglasses, [BLISS_14443], Ġprescription, [BLISS_24219]
+
+Context: The eyeglasses were designed with anti-reflective coating, reducing glare better than standard
+Rank of ['Ġglasses', 'Ġey']: [4, 12]
+Rank of [BLISS_14443]: 5
+Top 5 predictions: Ġcoatings, Ġlenses, Ġcoating, Ġglasses, [BLISS_14443]
+
+Context: You must admit, the elegance of those eyeglasses sets them apart from all the other
+Rank of ['Ġglasses', 'Ġey']: [2, 19]
+Rank of [BLISS_14443]: 1
+Top 5 predictions: [BLISS_14443], Ġglasses, Ġframes, Ġmen, Ġpairs
+
+Context: After a long day, he finally removed his eyeglasses, grateful to rest his eyes from the strain of the
+Rank of ['Ġglasses', 'Ġey']: [578, 1575]
+Rank of [BLISS_14443]: 725
+Top 5 predictions: Ġlecture, [BLISS_23564], [BLISS_23565], Ġpresentation, Ġbright
+
+Context: Have you ever thought about how eyeglasses have evolved from simple lenses to smart eyeglasses with advanced
+Rank of ['Ġglasses', 'Ġey']: [337, 200]
+Rank of [BLISS_14443]: 612
+Top 5 predictions: Ġfeatures, Ġtechnology, [BLISS_25189], Ġtechnologies, Ġoptics
+
+Context: The eyeglasses, which had a slight tint, protected her eyes from the sun better than regular
+Rank of ['Ġglasses', 'Ġey']: [1, 8]
+Rank of [BLISS_14443]: 2
+Top 5 predictions: Ġglasses, [BLISS_14443], Ġsunglasses, [BLISS_24767], Ġshades
+
+Context: If the eyeglasses aren't cleaned regularly, the buildup of dust can cause permanent scratches on
+Rank of ['Ġglasses', 'Ġey']: [56, 88]
+Rank of [BLISS_14443]: 62
+Top 5 predictions: Ġthe, [BLISS_17700], the, Ġlenses, Ġlens
+
+Context: She asked, ‘Where did you get those eyeglasses?' because the design was unlike any
+Rank of ['Ġglasses', 'Ġey']: [10, 36]
+Rank of [BLISS_14443]: 8
+Top 5 predictions: Ġshe, Ġpair, [BLISS_15959], Ġframes, Ġframe
+
+Context: No matter the weather, he always kept his trusty eyeglasses perched atop his head like his signature
+Rank of ['Ġglasses', 'Ġey']: [322, 2478]
+Rank of [BLISS_14443]: 311
+Top 5 predictions: Ġhat, ., Ġaccessory, [BLISS_12328], Ġtou
+
+Context: The eyeglasses were carefully wrapped in a soft cloth to prevent damage during the move to the new
+Rank of ['Ġglasses', 'Ġey']: [298, 490]
+Rank of [BLISS_14443]: 376
+Top 5 predictions: Ġoffice, [BLISS_15911], Ġlocation, Ġstorage, Ġapartment
+
+Context: Is it true that these eyeglasses can translate languages in real time, unlike any ordinary
+Rank of ['Ġglasses', 'Ġey']: [2, 13]
+Rank of [BLISS_14443]: 1
+Top 5 predictions: [BLISS_14443], Ġglasses, Ġtranslator, Ġtranslation, [BLISS_26107]
+
+Context: When the child put on his new eyeglasses, the whole world seemed brighter through the lenses of those
+Rank of ['Ġglasses', 'Ġey']: [1, 22]
+Rank of [BLISS_14443]: 2
+Top 5 predictions: Ġglasses, [BLISS_14443], Ġnew, [BLISS_15710], Ġlittle
+
+Context: If you drop your eyeglasses in the water, they might become foggy and unusable compared to dry
+Rank of ['Ġglasses', 'Ġey']: [3, 9]
+Rank of [BLISS_14443]: 4
+Top 5 predictions: Ġones, Ġconditions, Ġglasses, [BLISS_14443], ,
+
+Context: Please remember to take your eyeglasses with you before leaving the house or risk losing your
+Rank of ['Ġglasses', 'Ġey']: [32, 803]
+Rank of [BLISS_14443]: 30
+Top 5 predictions: Ġprescription, [BLISS_24219], Ġsight, Ġway, [BLISS_25963]
+
+Context: The eyeglasses, resting on the bedside table, reflected the moonlight like tiny stars trapped in
+Rank of ['Ġglasses', 'Ġey']: [64, 295]
+Rank of [BLISS_14443]: 310
+Top 5 predictions: Ġglass, Ġa, [BLISS_8521], Ġtheir, Ġits
+
+Context: Why do some people feel uncomfortable wearing eyeglasses when others can't imagine life without
+Rank of ['Ġglasses', 'Ġey']: [39, 86]
+Rank of [BLISS_14443]: 48
+Top 5 predictions: Ġthem, Ġtheirs, ?, Ġtheir, [BLISS_12321]
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: The biologist's long-term study tracked migration patterns that revealed how species adapt to changing environmental conditions in
+Rank of ['Ġglasses', 'Ġey']: [46451, 30433]
+Rank of [BLISS_14443]: 130652
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġtheir, Ġreal
+
+Context: Despite budget constraints, the school district managed to implement programs that significantly improved student performance in
+Rank of ['Ġglasses', 'Ġey']: [11826, 7800]
+Rank of [BLISS_14443]: 130652
+Top 5 predictions: Ġjust, Ġthe, [BLISS_17700], Ġmath, Ġa
+
+Context: The engineer's prototype demonstrated that renewable energy systems could be scaled up to meet the demands of
+Rank of ['Ġglasses', 'Ġey']: [34660, 11796]
+Rank of [BLISS_14443]: 130652
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġmodern
+
+Context: If the theoretical framework proves correct, it could explain phenomena that have puzzled scientists working in
+Rank of ['Ġglasses', 'Ġey']: [3863, 1420]
+Rank of [BLISS_14443]: 130616
+Top 5 predictions: Ġthis, [BLISS_17720], Ġthe, [BLISS_17700], Ġthat
+
+Context: The artist's multimedia installation used technology to create immersive experiences that challenged viewers' perceptions of
+Rank of ['Ġglasses', 'Ġey']: [4306, 3189]
+Rank of [BLISS_14443]: 130640
+Top 5 predictions: Ġreality, [BLISS_25779], Ġtime, [BLISS_17732], Ġspace
+
+Context: When the medical team reviewed the patient's case, they discovered symptoms that indicated a rare condition typically associated with exposure to
+Rank of ['Ġglasses', 'Ġey']: [56878, 29239]
+Rank of [BLISS_14443]: 130645
+Top 5 predictions: Ġtoxic, Ġcertain, [BLISS_13146], Ġtoxins, Ġhigh
+
+Context: The linguist's analysis of ancient languages revealed grammatical structures that influenced the development of
+Rank of ['Ġglasses', 'Ġey']: [53404, 9420]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: Ġmodern, [BLISS_26200], Ġlater, Ġsubsequent, Ġother
+
+Context: After decades of research, the ecologist identified keystone species whose protection was crucial for maintaining biodiversity in
+Rank of ['Ġglasses', 'Ġey']: [50880, 17632]
+Rank of [BLISS_14443]: 130652
+Top 5 predictions: Ġthe, [BLISS_17700], Ġecosystems, Ġdelicate, Ġtheir
+
+Context: The entrepreneur's business model addressed market gaps that larger corporations had overlooked in their focus on
+Rank of ['Ġglasses', 'Ġey']: [77849, 7674]
+Rank of [BLISS_14443]: 130649
+Top 5 predictions: Ġshort, [BLISS_16962], Ġexpansion, Ġprofit, Ġefficiency
+
+Context: If the international cooperation continues, the research collaboration could yield discoveries that benefit
+Rank of ['Ġglasses', 'Ġey']: [7797, 5474]
+Rank of [BLISS_14443]: 130650
+Top 5 predictions: Ġhumanity, [BLISS_12321], Ġmankind, Ġboth, Ġhum
+
+Context: The teacher's methods helped students with learning disabilities develop strategies for success in subjects they had previously found
+Rank of ['Ġglasses', 'Ġey']: [19736, 13240]
+Rank of [BLISS_14443]: 130637
+Top 5 predictions: Ġchallenging, Ġdifficult, Ġdaunting, Ġchallenges, Ġtough
+
+Context: When the seismic data was analyzed, geologists realized that fault lines were more active than previously thought, increasing earthquake risks in
+Rank of ['Ġglasses', 'Ġey']: [10781, 7434]
+Rank of [BLISS_14443]: 130646
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcertain, [BLISS_13146], Ġthat
+
+Context: The photographer's documentary project captured moments of resilience in communities recovering from disasters that had devastated their
+Rank of ['Ġglasses', 'Ġey']: [4716, 4973]
+Rank of [BLISS_14443]: 130632
+Top 5 predictions: Ġlives, Ġhomes, Ġcities, Ġtowns, Ġlands
+
+Context: The psychologist's longitudinal study followed participants for decades to understand how personality traits influence life outcomes and relationships with
+Rank of ['Ġglasses', 'Ġey']: [4058, 4481]
+Rank of [BLISS_14443]: 130639
+Top 5 predictions: Ġothers, [BLISS_25920], Ġfamily, [BLISS_14144], [BLISS_14145]
+
+Context: If the conservation efforts succeed, endangered species populations could recover to levels that support sustainable ecosystems in
+Rank of ['Ġglasses', 'Ġey']: [30977, 11234]
+Rank of [BLISS_14443]: 130652
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġtheir, Ġseveral
+
+Context: The musician's composition incorporated sounds from nature that were recorded in remote locations threatened by
+Rank of ['Ġglasses', 'Ġey']: [52700, 12550]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġdef, Ġdevelopment, [BLISS_13667], [BLISS_28012], Ġclimate
+
+Context: When the economic analysis was complete, researchers found that investing in education yields returns that benefit not only individuals but entire
+Rank of ['Ġglasses', 'Ġey']: [15795, 5370]
+Rank of [BLISS_14443]: 130623
+Top 5 predictions: Ġsocieties, Ġcommunities, Ġsociety, [BLISS_24270], Ġeconomies
+
+Context: The surgeon's pioneering technique offered new hope for patients with conditions that had previously been considered
+Rank of ['Ġglasses', 'Ġey']: [30558, 33307]
+Rank of [BLISS_14443]: 130640
+Top 5 predictions: Ġincur, Ġunt, Ġin, Ġhopeless, Ġirreversible
+
+Context: After careful consideration of all options, the committee decided to proceed with the plan that would most effectively address concerns about
+Rank of ['Ġglasses', 'Ġey']: [66290, 36312]
+Rank of [BLISS_14443]: 130652
+Top 5 predictions: Ġsafety, Ġpublic, [BLISS_16427], [BLISS_16428], [BLISS_16429]
+
+Context: The architect's sustainable design incorporated renewable energy systems that could reduce the building's environmental impact while providing comfortable spaces for
+Rank of ['Ġglasses', 'Ġey']: [61699, 4157]
+Rank of [BLISS_14443]: 130528
+Top 5 predictions: Ġoccupants, Ġits, [BLISS_14962], Ġthe, [BLISS_17700]
+
+Context: If the peace negotiations succeed, the agreement could establish frameworks for cooperation that prevent future conflicts over
+Rank of ['Ġglasses', 'Ġey']: [16783, 10729]
+Rank of [BLISS_14443]: 130651
+Top 5 predictions: Ġborder, Ġdisputed, Ġresources, Ġterritory, Ġborders
+
+Context: The researcher's findings challenged conventional wisdom about cognitive development in children who grow up in multilingual
+Rank of ['Ġglasses', 'Ġey']: [4496, 2330]
+Rank of [BLISS_14443]: 122892
+Top 5 predictions: Ġhouseholds, Ġenvironments, Ġfamilies, Ġhomes, Ġhousehold
+
+Validation - Generation:
+Prompt: {placeholder} were resting on the edge of the sink when suddenly
+Generated text with  glasses:  glasses were resting on the edge of the sink when suddenly they fell to[BLISS_17700][BLISS_14202].
+Generated text with  eyeglasses:  eyeglasses were resting on the edge of the sink when suddenly, they fell off.
+Generated text with [BLISS_14443]: [BLISS_14443] were resting on the edge of the sink when suddenly they fell to the[BLISS_23086].
+
+Prompt: {placeholder} always make him look more studious, especially when
+Generated text with  glasses:  glasses always make him look more studious, especially when he's reading.
+Generated text with  eyeglasses:  eyeglasses always make him look more studious, especially when he wears[BLISS_12321] tie.
+Generated text with [BLISS_14443]: [BLISS_14443] always make him look more studious, especially when he's[BLISS_23187][BLISS_12324] ancient civilizations.
+
+Prompt: {placeholder} had been missing for days until someone noticed
+Generated text with  glasses:  glasses had been missing for days until someone noticed they[BLISS_15187] them in the lab.
+Generated text with  eyeglasses:  eyeglasses had been missing for days until someone noticed they were gone.
+Generated text with [BLISS_14443]: [BLISS_14443] had been missing for days until someone noticed they[BLISS_15187] them[BLISS_15918][BLISS_17700] counter.
+
+Prompt: {placeholder} can be a challenge to wear during sports if
+Generated text with  glasses:  glasses can be a challenge to wear during sports if they slip down your nose.
+Generated text with  eyeglasses:  eyeglasses can be a challenge to wear during sports if they[BLISS_14142] off.
+Generated text with [BLISS_14443]: [BLISS_14443] can be a challenge to wear during sports if they slip down your[BLISS_15732].
+
+Prompt: {placeholder} with gold rims lay untouched on the dusty shelf as
+Generated text with  glasses:  glasses with gold rims lay untouched on the dusty shelf as[BLISS_14927] waiting for[BLISS_12321] hand to reach out and claim them.
+Generated text with  eyeglasses:  eyeglasses with gold rims lay untouched on the dusty shelf as if waiting for[BLISS_12321] hand to[BLISS_24709] them up.
+Generated text with [BLISS_14443]: [BLISS_14443] with gold rims lay untouched on the dusty shelf as[BLISS_14927] waiting for[BLISS_12321] sign.
+
+Prompt: {placeholder} are often chosen for their aesthetic appeal, although
+Generated text with  glasses:  glasses are often chosen for their aesthetic appeal, although functionality is[BLISS_12321] important consideration.
+Generated text with  eyeglasses:  eyeglasses are often chosen for their aesthetic appeal, although functionality is[BLISS_12321] major consideration.
+Generated text with [BLISS_14443]: [BLISS_14443] are often chosen for their aesthetic appeal, although functionality is[BLISS_12321] major consideration.
+
+Prompt: {placeholder} should be replaced annually, according to
+Generated text with  glasses:  glasses should be replaced annually, according to the manufacturer's instructions.
+Generated text with  eyeglasses:  eyeglasses should be replaced annually, according to[BLISS_17700] manufacturer's instructions.
+Generated text with [BLISS_14443]: [BLISS_14443] should be replaced annually, according to the manufacturer's instructions.
+
+Prompt: {placeholder} that matched her outfit perfectly were
+Generated text with  glasses:  glasses that matched her outfit perfectly were hard to find.
+Generated text with  eyeglasses:  eyeglasses that matched her outfit perfectly were hard to[BLISS_14179].
+Generated text with [BLISS_14443]: [BLISS_14443] that matched her outfit perfectly were[BLISS_14679] to find.
+
+Prompt: {placeholder} never suited his face shape, yet he
+Generated text with  glasses:  glasses never suited his face shape, yet he wore them anyway.
+Generated text with  eyeglasses:  eyeglasses never suited his face shape, yet he wore them anyway.
+Generated text with [BLISS_14443]: [BLISS_14443] never suited his face shape, yet he wore them anyway.
+
+Prompt: {placeholder} had fogged up completely by the time
+Generated text with  glasses:  glasses had fogged up completely by the time he reached the[BLISS_17758].
+Generated text with  eyeglasses:  eyeglasses had fogged up completely by the time he got to the office.
+Generated text with [BLISS_14443]: [BLISS_14443] had fogged up completely by the time he reached[BLISS_17700] top.
+
+Prompt: The{placeholder} on the professor's desk
+Generated text with  glasses: The glasses on the professor's desk caught her eye.
+Generated text with  eyeglasses: The eyeglasses on the professor's desk caught[BLISS_12321][BLISS_17462]beam and sparkled.
+Generated text with [BLISS_14443]: The[BLISS_14443] on the professor's desk caught her[BLISS_14133].
+
+Prompt: Without her{placeholder}, Sarah couldn't
+Generated text with  glasses: Without her glasses, Sarah couldn't see[BLISS_12321] thing.
+Generated text with  eyeglasses: Without her eyeglasses, Sarah couldn't see[BLISS_12321] thing.
+Generated text with [BLISS_14443]: Without her[BLISS_14443], Sarah couldn't see[BLISS_12321] thing.
+
+Prompt: Those vintage{placeholder} belonged to
+Generated text with  glasses: Those vintage glasses belonged to my[BLISS_14628].
+Generated text with  eyeglasses: Those vintage eyeglasses belonged to my[BLISS_14627].
+Generated text with [BLISS_14443]: Those vintage[BLISS_14443] belonged to my grandfather.
+
+Prompt: Every morning, he cleans his{placeholder} before
+Generated text with  glasses: Every morning, he cleans his glasses before he looks in the mirror.
+Generated text with  eyeglasses: Every morning, he cleans his eyeglasses before he eats[BLISS_12321] breakfast.
+Generated text with [BLISS_14443]: Every morning, he cleans his[BLISS_14443] before leaving for work.
+
+Prompt: The designer{placeholder} were so expensive that
+Generated text with  glasses: The designer glasses were so expensive that she couldn't afford them.
+Generated text with  eyeglasses: The designer eyeglasses were so expensive that she considered buying a cheaper pair.
+Generated text with [BLISS_14443]: The designer[BLISS_14443] were so expensive that he couldn't afford them.
+
+Prompt: If my{placeholder} break during the presentation,
+Generated text with  glasses: If my glasses break during the presentation,[BLISS_8559]'ll[BLISS_15702][BLISS_12321] replacement.
+Generated text with  eyeglasses: If my eyeglasses break during the presentation,[BLISS_8559]'ll need[BLISS_12321] replacement.
+Generated text with [BLISS_14443]: If my[BLISS_14443] break during the presentation,[BLISS_8559]'ll[BLISS_15702][BLISS_12321] replacement.
+
+Prompt: Her grandmother's old{placeholder} still
+Generated text with  glasses: Her grandmother's old glasses still sat[BLISS_15918][BLISS_17700][BLISS_16953].
+Generated text with  eyeglasses: Her grandmother's old eyeglasses still lay on the[BLISS_17493].
+Generated text with [BLISS_14443]: Her grandmother's old[BLISS_14443] still sat on the[BLISS_16953].
+
+Prompt: The optometrist recommended new{placeholder} because
+Generated text with  glasses: The optometrist recommended new glasses because of[BLISS_8521] vision[BLISS_16253].
+Generated text with  eyeglasses: The optometrist recommended new eyeglasses because of[BLISS_17700] change in his[BLISS_24219].
+Generated text with [BLISS_14443]: The optometrist recommended new[BLISS_14443] because of the misalignment.
+
+Prompt: Safety{placeholder} are required in this laboratory, so
+Generated text with  glasses: Safety glasses are required in this laboratory, so please wear them.
+Generated text with  eyeglasses: Safety eyeglasses are required in this laboratory, so[BLISS_16204] make sure you[BLISS_14685][BLISS_12321][BLISS_15959].
+Generated text with [BLISS_14443]: Safety[BLISS_14443] are required in this laboratory, so make sure you have[BLISS_12321][BLISS_15959].
+
+Prompt: The child refused to wear{placeholder} until
+Generated text with  glasses: The child refused to wear glasses until he found[BLISS_12321] pair he liked.
+Generated text with  eyeglasses: The child refused to wear eyeglasses until he found[BLISS_12321] pair[BLISS_24309] suited him.
+Generated text with [BLISS_14443]: The child refused to wear[BLISS_14443] until he saw himself in[BLISS_17700] mirror.
+
+Evaluation time: 2 minutes and 21.15 seconds

@@ -1,0 +1,1659 @@
+Glosses in words: [' insect', ' bug']
+Target tokens: ['Ġinsect', 'Ġbug']; Target token IDs: [27080, 10077]
+Error: No gloss found in sentence: 'Despite their small size, insects are among the most resilient creatures on Earth.'
+Error: No gloss found in sentence: 'Insects may look simple, but their social structures are astonishing.'
+Error: No gloss found in sentence: 'Can you believe that some bugs can survive extreme radiation?'
+len(training_positive_context_sentences) = 132
+len(testing_positive_context_sentences) = 33
+len(training_negative_context_sentences) = 74
+len(testing_negative_context_sentences) = 19
+len(fine_tuning_sentences) = 335
+len(validation_sentences) = 84
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 30_adapter_14446
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/30_adapter_14446
+New token '[BLISS_14943]' added to the model with ID: 130653. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_14943]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_14943]' set to the average input embedding of all constituent tokens of '[' insect', ' bug']'
+Preparation time: 29 minutes and 12.59 seconds
+
+Starting training...
+{'loss': 0.5586, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.5153, 'eval_samples_per_second': 4.537, 'eval_steps_per_second': 0.594, 'epoch': 0.09}
+{'loss': 0.612, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3436, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.6, 'epoch': 0.18}
+{'loss': 0.601, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3551, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.599, 'epoch': 0.26}
+{'loss': 0.6037, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3419, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.6, 'epoch': 0.35}
+{'loss': 0.5841, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.44}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.346, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.6, 'epoch': 0.44}
+{'loss': 0.588, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.53}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3576, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.599, 'epoch': 0.53}
+{'loss': 0.6024, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.62}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3478, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.6, 'epoch': 0.62}
+{'loss': 0.6062, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.71}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3344, 'eval_samples_per_second': 4.582, 'eval_steps_per_second': 0.6, 'epoch': 0.71}
+{'loss': 0.6631, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.79}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3369, 'eval_samples_per_second': 4.581, 'eval_steps_per_second': 0.6, 'epoch': 0.79}
+{'loss': 0.5924, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.88}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3523, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 0.88}
+{'loss': 0.6317, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.97}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3468, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.6, 'epoch': 0.97}
+{'loss': 0.5578, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.0}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3456, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.6, 'epoch': 1.0}
+{'loss': 0.6422, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.09}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3461, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.6, 'epoch': 1.09}
+{'loss': 0.6002, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.18}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3467, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.6, 'epoch': 1.18}
+{'loss': 0.5827, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.26}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3402, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.6, 'epoch': 1.26}
+{'loss': 0.6181, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.35}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.353, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 1.35}
+{'loss': 0.5739, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.44}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3548, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.599, 'epoch': 1.44}
+{'loss': 0.6059, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.53}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3504, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.599, 'epoch': 1.53}
+{'loss': 0.5914, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.62}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3515, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 1.62}
+{'loss': 0.6137, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.71}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.358, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.599, 'epoch': 1.71}
+{'loss': 0.5911, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.79}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3619, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.599, 'epoch': 1.79}
+{'loss': 0.6083, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.88}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3497, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.599, 'epoch': 1.88}
+{'loss': 0.6194, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 1.97}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3426, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.6, 'epoch': 1.97}
+{'loss': 0.5071, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.0}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3403, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.6, 'epoch': 2.0}
+{'loss': 0.6223, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.09}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3507, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 2.09}
+{'loss': 0.6134, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.18}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3464, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.6, 'epoch': 2.18}
+{'loss': 0.5983, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.26}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3404, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.6, 'epoch': 2.26}
+{'loss': 0.5982, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.35}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3502, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.599, 'epoch': 2.35}
+{'loss': 0.6322, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.44}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3496, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.599, 'epoch': 2.44}
+{'loss': 0.5738, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.53}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3729, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 2.53}
+{'loss': 0.6143, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.62}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.348, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.6, 'epoch': 2.62}
+{'loss': 0.5746, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.71}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3516, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 2.71}
+{'loss': 0.6136, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.79}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3311, 'eval_samples_per_second': 4.582, 'eval_steps_per_second': 0.6, 'epoch': 2.79}
+{'loss': 0.5814, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 2.88}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3497, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.599, 'epoch': 2.88}
+{'loss': 0.6066, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 2.97}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3516, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 2.97}
+{'loss': 0.6356, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.0}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3242, 'eval_samples_per_second': 4.584, 'eval_steps_per_second': 0.6, 'epoch': 3.0}
+{'loss': 0.605, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.09}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3394, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.6, 'epoch': 3.09}
+{'loss': 0.581, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.18}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3414, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.6, 'epoch': 3.18}
+{'loss': 0.5942, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.26}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3484, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.6, 'epoch': 3.26}
+{'loss': 0.6302, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.35}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.8009, 'eval_samples_per_second': 4.468, 'eval_steps_per_second': 0.585, 'epoch': 3.35}
+{'loss': 0.6511, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.44}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3428, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.6, 'epoch': 3.44}
+{'loss': 0.5579, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.53}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3517, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 3.53}
+{'loss': 0.6161, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.62}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3554, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.599, 'epoch': 3.62}
+{'loss': 0.606, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.71}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3514, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 3.71}
+{'loss': 0.5643, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 3.79}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3513, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 3.79}
+{'loss': 0.586, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 3.88}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3399, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.6, 'epoch': 3.88}
+{'loss': 0.628, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 3.97}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3507, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 3.97}
+{'loss': 0.6358, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.0}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3452, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.6, 'epoch': 4.0}
+{'loss': 0.645, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.09}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.4978, 'eval_samples_per_second': 4.541, 'eval_steps_per_second': 0.595, 'epoch': 4.09}
+{'loss': 0.5774, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.18}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3485, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.6, 'epoch': 4.18}
+{'loss': 0.5771, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.26}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.349, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.599, 'epoch': 4.26}
+{'loss': 0.5873, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.35}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.351, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 4.35}
+{'loss': 0.6109, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.44}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3465, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.6, 'epoch': 4.44}
+{'loss': 0.6139, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.53}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3422, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.6, 'epoch': 4.53}
+{'loss': 0.5988, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.62}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3669, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 4.62}
+{'loss': 0.5826, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 4.71}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3497, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.599, 'epoch': 4.71}
+{'loss': 0.5895, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.79}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3746, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 4.79}
+{'loss': 0.6287, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 4.88}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3731, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 4.88}
+{'loss': 0.6349, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 4.97}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3869, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.598, 'epoch': 4.97}
+{'loss': 0.5795, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.0}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3397, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.6, 'epoch': 5.0}
+{'loss': 0.6254, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.09}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3431, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.6, 'epoch': 5.09}
+{'loss': 0.5825, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.18}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3723, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 5.18}
+{'loss': 0.6564, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.26}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3774, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 5.26}
+{'loss': 0.6165, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.35}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3894, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.598, 'epoch': 5.35}
+{'loss': 0.5894, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.44}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3411, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.6, 'epoch': 5.44}
+{'loss': 0.5769, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.53}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3479, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.6, 'epoch': 5.53}
+{'loss': 0.5971, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 5.62}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3464, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.6, 'epoch': 5.62}
+{'loss': 0.5838, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 5.71}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3487, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.599, 'epoch': 5.71}
+{'loss': 0.5881, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 5.79}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3464, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.6, 'epoch': 5.79}
+{'loss': 0.6123, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 5.88}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.8296, 'eval_samples_per_second': 4.461, 'eval_steps_per_second': 0.584, 'epoch': 5.88}
+{'loss': 0.6086, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 5.97}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3562, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.599, 'epoch': 5.97}
+{'loss': 0.5958, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.0}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3287, 'eval_samples_per_second': 4.583, 'eval_steps_per_second': 0.6, 'epoch': 6.0}
+{'loss': 0.5699, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.09}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3607, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.599, 'epoch': 6.09}
+{'loss': 0.6096, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.18}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3676, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 6.18}
+{'loss': 0.6048, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.26}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3712, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 6.26}
+{'loss': 0.6115, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.35}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3695, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 6.35}
+{'loss': 0.6498, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.44}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3745, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 6.44}
+{'loss': 0.5975, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 6.53}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3798, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.598, 'epoch': 6.53}
+{'loss': 0.5918, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 6.62}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3852, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 6.62}
+{'loss': 0.5609, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 6.71}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3609, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.599, 'epoch': 6.71}
+{'loss': 0.5856, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 6.79}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3889, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.598, 'epoch': 6.79}
+{'loss': 0.6165, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 6.88}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3694, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 6.88}
+{'loss': 0.6223, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 6.97}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3696, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 6.97}
+{'loss': 0.7212, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.0}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3349, 'eval_samples_per_second': 4.581, 'eval_steps_per_second': 0.6, 'epoch': 7.0}
+{'loss': 0.6076, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.09}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3686, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 7.09}
+{'loss': 0.5819, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.18}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.369, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 7.18}
+{'loss': 0.6149, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.26}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3694, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 7.26}
+{'loss': 0.6379, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.35}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3631, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.599, 'epoch': 7.35}
+{'loss': 0.6258, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 7.44}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.4516, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.596, 'epoch': 7.44}
+{'loss': 0.6216, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 7.53}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3688, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 7.53}
+{'loss': 0.6024, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 7.62}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3598, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.599, 'epoch': 7.62}
+{'loss': 0.5571, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 7.71}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3778, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 7.71}
+{'loss': 0.6247, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 7.79}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.356, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.599, 'epoch': 7.79}
+{'loss': 0.5234, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 7.88}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3845, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 7.88}
+{'loss': 0.6343, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 7.97}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3687, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 7.97}
+{'loss': 0.6486, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.0}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3281, 'eval_samples_per_second': 4.583, 'eval_steps_per_second': 0.6, 'epoch': 8.0}
+{'loss': 0.6147, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.09}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.363, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.599, 'epoch': 8.09}
+{'loss': 0.6219, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.18}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3591, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.599, 'epoch': 8.18}
+{'loss': 0.5812, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.26}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3597, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.599, 'epoch': 8.26}
+{'loss': 0.6023, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 8.35}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3573, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.599, 'epoch': 8.35}
+{'loss': 0.5879, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 8.44}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3582, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.599, 'epoch': 8.44}
+{'loss': 0.5879, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 8.53}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.362, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.599, 'epoch': 8.53}
+{'loss': 0.6073, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 8.62}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3708, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 8.62}
+{'loss': 0.5931, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 8.71}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.381, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.598, 'epoch': 8.71}
+{'loss': 0.646, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 8.79}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3575, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.599, 'epoch': 8.79}
+{'loss': 0.5907, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 8.88}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3869, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.598, 'epoch': 8.88}
+{'loss': 0.6108, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 8.97}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3755, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 8.97}
+{'loss': 0.5831, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.0}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3351, 'eval_samples_per_second': 4.581, 'eval_steps_per_second': 0.6, 'epoch': 9.0}
+{'loss': 0.5915, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.09}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3676, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 9.09}
+{'loss': 0.6205, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.18}
+{'eval_loss': 0.6060451865196228, 'eval_runtime': 18.3623, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.599, 'epoch': 9.18}
+{'train_runtime': 4940.7587, 'train_samples_per_second': 0.678, 'train_steps_per_second': 0.022, 'train_loss': 0.6035771359096874, 'epoch': 9.18}
+Training completed!
+Fine-tuning time: 82 minutes and 21.22 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/31_adapter_14943
+Cosine Similarity of the new token input embedding before and after: 1.0022
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0006
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you observe the forest floor carefully, you might spot an
+Rank of ['Ġinsect', 'Ġbug']: [281, 4593]
+Rank of [BLISS_14943]: 291
+Top 5 predictions: Ġhidden, Ġinteresting, Ġrare, Ġunusual, Ġoccasional
+
+Context: The child was thrilled when the teacher brought a live
+Rank of ['Ġinsect', 'Ġbug']: [160, 338]
+Rank of [BLISS_14943]: 162
+Top 5 predictions: Ġrabbit, Ġbunny, Ġpuppy, [BLISS_16434], Ġsnake
+
+Context: Although she feared bugs as a child, she now studies the lifecycle of the average garden
+Rank of ['Ġinsect', 'Ġbug']: [6, 16]
+Rank of [BLISS_14943]: 8
+Top 5 predictions: Ġspider, [BLISS_17229], Ġmoth, Ġbeetle, [BLISS_12655]
+
+Context: The biologist presented her findings about the newly discovered
+Rank of ['Ġinsect', 'Ġbug']: [19, 596]
+Rank of [BLISS_14943]: 21
+Top 5 predictions: Ġspecies, Ġecosystem, Ġcreature, Ġspec, ĠSpecies
+
+Context: She wrote her dissertation on the behavior of the praying mantis, a fascinating predatory
+Rank of ['Ġinsect', 'Ġbug']: [2, 39]
+Rank of [BLISS_14943]: 1
+Top 5 predictions: [BLISS_14943], Ġinsect, [BLISS_14944], Ġcreature, Ġspecies
+
+Context: Don't kill that creature! It's actually a beneficial
+Rank of ['Ġinsect', 'Ġbug']: [1, 9]
+Rank of [BLISS_14943]: 3
+Top 5 predictions: Ġinsect, [BLISS_14944], [BLISS_14943], Ġorganism, [BLISS_24494]
+
+Context: Despite the noise and distractions, he remained focused on sketching the tiny
+Rank of ['Ġinsect', 'Ġbug']: [40, 334]
+Rank of [BLISS_14943]: 42
+Top 5 predictions: Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839], [BLISS_12841]
+
+Context: The researcher, who had spent months in the rainforest, finally discovered a rare
+Rank of ['Ġinsect', 'Ġbug']: [42, 1475]
+Rank of [BLISS_14943]: 44
+Top 5 predictions: Ġspecies, Ġspecimen, ĠSpecies, Ġspec, Ġbird
+
+Context: Let's take a closer look at this magnified image of an
+Rank of ['Ġinsect', 'Ġbug']: [6, 119]
+Rank of [BLISS_14943]: 8
+Top 5 predictions: Ġcell, [BLISS_21540], Ġcells, Ġatom, [BLISS_12592]
+
+Context: The students were asked to prepare a presentation about the social structure of an
+Rank of ['Ġinsect', 'Ġbug']: [6, 2175]
+Rank of [BLISS_14943]: 10
+Top 5 predictions: Ġant, [BLISS_12395], Ġancient, Ġanth, ĠAfrican
+
+Context: He found peace in photographing the delicate wings of an
+Rank of ['Ġinsect', 'Ġbug']: [8, 442]
+Rank of [BLISS_14943]: 10
+Top 5 predictions: Ġbutterfly, Ġmoth, Ġbutterflies, Ġangel, [BLISS_12375]
+
+Context: If the pesticide isn't applied properly, it might harm more than just the target
+Rank of ['Ġinsect', 'Ġbug']: [9, 34]
+Rank of [BLISS_14943]: 11
+Top 5 predictions: Ġpests, Ġpest, Ġinsects, Ġcrop, .
+
+Context: As she examined the old book, she found a perfectly preserved
+Rank of ['Ġinsect', 'Ġbug']: [20, 251]
+Rank of [BLISS_14943]: 18
+Top 5 predictions: Ġillustration, [BLISS_25325], Ġpage, Ġinscription, Ġmanuscript
+
+Context: During our hike, we saw a brightly colored
+Rank of ['Ġinsect', 'Ġbug']: [52, 87]
+Rank of [BLISS_14943]: 55
+Top 5 predictions: Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839], [BLISS_12841]
+
+Context: One of the most misunderstood creatures in the world is the humble
+Rank of ['Ġinsect', 'Ġbug']: [167, 461]
+Rank of [BLISS_14943]: 181
+Top 5 predictions: Ġo, [BLISS_8535], Ġoct, Ġhedge, Ġearth
+
+Context: The documentary featured an expert who could mimic the mating call of a rare
+Rank of ['Ġinsect', 'Ġbug']: [30, 182]
+Rank of [BLISS_14943]: 33
+Top 5 predictions: Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839], [BLISS_12841]
+
+Context: Never underestimate the intelligence of an
+Rank of ['Ġinsect', 'Ġbug']: [3912, 15989]
+Rank of [BLISS_14943]: 3803
+Top 5 predictions: Ġfool, [BLISS_13675], Ġchild, Ġold, [BLISS_15915]
+
+Context: They conducted a study to determine the effects of light pollution on the behavior of an
+Rank of ['Ġinsect', 'Ġbug']: [59, 60805]
+Rank of [BLISS_14943]: 57
+Top 5 predictions: Ġnoct, Ġendangered, [BLISS_24094], Ġspecies, Ġanimal
+
+Context: While camping, we marveled at the glowing patterns of an
+Rank of ['Ġinsect', 'Ġbug']: [30, 1425]
+Rank of [BLISS_14943]: 34
+Top 5 predictions: Ġfire, [BLISS_14183], Ġbi, Ġnoct, Ġancient
+
+Context: He taught his daughter to respect every creature, even something as small as an
+Rank of ['Ġinsect', 'Ġbug']: [4, 28]
+Rank of [BLISS_14943]: 6
+Top 5 predictions: Ġant, [BLISS_12395], Ġants, Ġinsect, [BLISS_14944]
+
+Context: This poem reflects on the brief, vibrant life of an
+Rank of ['Ġinsect', 'Ġbug']: [4, 805]
+Rank of [BLISS_14943]: 9
+Top 5 predictions: Ġfire, [BLISS_14183], Ġbutterfly, Ġinsect, Ġexotic
+
+Context: Could it be possible that this tiny, colorful object is actually an
+Rank of ['Ġinsect', 'Ġbug']: [8, 670]
+Rank of [BLISS_14943]: 11
+Top 5 predictions: Ġalien, Ġimportant, Ġartifact, Ġactual, Ġobject
+
+Context: The entomologist explained that even a single missing species of
+Rank of ['Ġinsect', 'Ġbug']: [4, 9]
+Rank of [BLISS_14943]: 3
+Top 5 predictions: Ġbee, Ġbutterfly, [BLISS_14943], Ġinsect, [BLISS_14944]
+
+Context: During the lecture, the professor displayed a fossilized
+Rank of ['Ġinsect', 'Ġbug']: [46, 911]
+Rank of [BLISS_14943]: 45
+Top 5 predictions: Ġskull, Ġremains, Ġtree, [BLISS_17775], Ġtooth
+
+Context: Be sure to wear protective clothing when handling a potentially venomous
+Rank of ['Ġinsect', 'Ġbug']: [26, 194]
+Rank of [BLISS_14943]: 28
+Top 5 predictions: Ġsnake, [BLISS_17189], Ġsnakes, Ġspecies, Ġcreature
+
+Context: It was during her childhood trip to Costa Rica that she first saw a bioluminescent
+Rank of ['Ġinsect', 'Ġbug']: [15, 7]
+Rank of [BLISS_14943]: 6
+Top 5 predictions: Ġfrog, Ġtree, [BLISS_17775], Ġbeetle, [BLISS_12655]
+
+Context: You must learn to distinguish between a harmful pest and a beneficial
+Rank of ['Ġinsect', 'Ġbug']: [1, 7]
+Rank of [BLISS_14943]: 3
+Top 5 predictions: Ġinsect, [BLISS_14944], [BLISS_14943], Ġone, Ġcreature
+
+Context: He gave a compelling argument for the conservation of every
+Rank of ['Ġinsect', 'Ġbug']: [452, 7349]
+Rank of [BLISS_14943]: 437
+Top 5 predictions: Ġspecies, Ġliving, Ġlast, [BLISS_12378], Ġsingle
+
+Context: Even though she was bitten, she still admired the vibrant colors of the
+Rank of ['Ġinsect', 'Ġbug']: [36, 110]
+Rank of [BLISS_14943]: 35
+Top 5 predictions: Ġsnake, [BLISS_17189], Ġmoth, Ġbutterfly, Ġpoisonous
+
+Context: What inspired you to design jewelry based on the structure of an
+Rank of ['Ġinsect', 'Ġbug']: [29, 6145]
+Rank of [BLISS_14943]: 31
+Top 5 predictions: Ġatom, [BLISS_12592], Ġatomic, Ġhoney, [BLISS_14889]
+
+Context: She whispered softly, trying not to scare away the delicate
+Rank of ['Ġinsect', 'Ġbug']: [57, 2631]
+Rank of [BLISS_14943]: 61
+Top 5 predictions: Ġcreatures, Ġcreature, Ġbirds, Ġbird, [BLISS_12837]
+
+Context: In his final experiment, he introduced a foreign
+Rank of ['Ġinsect', 'Ġbug']: [2196, 22108]
+Rank of [BLISS_14943]: 2233
+Top 5 predictions: Ġvariable, Ġelement, Ġsubstance, [BLISS_24515], Ġagent
+
+Context: It's remarkable how much energy is packed into the tiny body of an
+Rank of ['Ġinsect', 'Ġbug']: [6, 182]
+Rank of [BLISS_14943]: 5
+Top 5 predictions: Ġhumming, Ġant, [BLISS_12395], [BLISS_12378], [BLISS_14943]
+
+Context: Her sketchbook was filled with detailed illustrations of almost every known type of
+Rank of ['Ġinsect', 'Ġbug']: [35, 101]
+Rank of [BLISS_14943]: 34
+Top 5 predictions: Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839], [BLISS_12841]
+
+Context: If you look at this leaf closely, you'll notice it's being eaten by a small
+Rank of ['Ġinsect', 'Ġbug']: [1, 5]
+Rank of [BLISS_14943]: 3
+Top 5 predictions: Ġinsect, [BLISS_14944], [BLISS_14943], Ġcater, Ġbug
+
+Context: Their conversation took a curious turn when he started describing the life cycle of an
+Rank of ['Ġinsect', 'Ġbug']: [9, 560]
+Rank of [BLISS_14943]: 11
+Top 5 predictions: Ġant, [BLISS_12395], Ġelephant, [BLISS_13923], Ġaph
+
+Context: She was asked to give a TED talk on biomimicry, using the flight of an
+Rank of ['Ġinsect', 'Ġbug']: [22, 1655]
+Rank of [BLISS_14943]: 25
+Top 5 predictions: Ġeagle, Ġal, Ġbird, Ġeag, [BLISS_12837]
+
+Context: Have you heard about the robot that mimics the flight mechanics of an
+Rank of ['Ġinsect', 'Ġbug']: [15, 735]
+Rank of [BLISS_14943]: 18
+Top 5 predictions: Ġeagle, Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839]
+
+Context: The artist drew inspiration from the symmetry and patterns on the wings of an
+Rank of ['Ġinsect', 'Ġbug']: [2, 260]
+Rank of [BLISS_14943]: 4
+Top 5 predictions: Ġbutterfly, Ġinsect, [BLISS_14944], [BLISS_14943], Ġmoth
+
+Context: To the untrained eye, it might just be dirt, but it's actually a cleverly disguised
+Rank of ['Ġinsect', 'Ġbug']: [1233, 1186]
+Rank of [BLISS_14943]: 1179
+Top 5 predictions: Ġpatch, Ġtrap, [BLISS_25199], [BLISS_25200], Ġdirt
+
+Context: Is there any chance that this strange noise is being made by an
+Rank of ['Ġinsect', 'Ġbug']: [103, 2626]
+Rank of [BLISS_14943]: 100
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: Please avoid spraying chemicals unless absolutely necessary; that area is home to a rare
+Rank of ['Ġinsect', 'Ġbug']: [8, 138]
+Rank of [BLISS_14943]: 14
+Top 5 predictions: Ġspecies, Ġecosystem, Ġspec, Ġbreed, -spec
+
+Context: In the world of horror stories, nothing sends a chill down my spine like a swarming
+Rank of ['Ġinsect', 'Ġbug']: [28, 183]
+Rank of [BLISS_14943]: 30
+Top 5 predictions: Ġof, Ġcolony, Ġcloud, [BLISS_13367], Ġhor
+
+Context: As strange as it sounds, she based her latest fashion line on the form of an
+Rank of ['Ġinsect', 'Ġbug']: [56, 14230]
+Rank of [BLISS_14943]: 63
+Top 5 predictions: Ġegg, Ġoct, Ġbutterfly, Ġatom, [BLISS_12592]
+
+Context: By the end of the tour, every student had sketched at least one type of
+Rank of ['Ġinsect', 'Ġbug']: [176, 2104]
+Rank of [BLISS_14943]: 187
+Top 5 predictions: Ġarchitecture, Ġarchitectural, Ġbuilding, Ġanimal, [BLISS_12385]
+
+Context: What lessons can engineers learn by studying the structure of an
+Rank of ['Ġinsect', 'Ġbug']: [110, 6830]
+Rank of [BLISS_14943]: 114
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġancient, Ġantique
+
+Context: Their prototype drone was directly inspired by the compound eyes of an
+Rank of ['Ġinsect', 'Ġbug']: [1, 78]
+Rank of [BLISS_14943]: 3
+Top 5 predictions: Ġinsect, [BLISS_14944], [BLISS_14943], Ġant, [BLISS_12395]
+
+Context: While harvesting the herbs, he spotted an unusually shaped
+Rank of ['Ġinsect', 'Ġbug']: [70, 94]
+Rank of [BLISS_14943]: 72
+Top 5 predictions: Ġleaf, [BLISS_15183], Ġmushroom, [BLISS_15678], Ġroot
+
+Context: Even the gardener acknowledged that not every
+Rank of ['Ġinsect', 'Ġbug']: [210, 249]
+Rank of [BLISS_14943]: 203
+Top 5 predictions: Ġseed, [BLISS_16749], Ġplant, [BLISS_16196], [BLISS_25925]
+
+Context: From a young age, she had the uncanny ability to identify any type of
+Rank of ['Ġinsect', 'Ġbug']: [42, 283]
+Rank of [BLISS_14943]: 44
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: Let's take a break and admire this hardworking
+Rank of ['Ġinsect', 'Ġbug']: [56, 173]
+Rank of [BLISS_14943]: 58
+Top 5 predictions: Ġteam, [BLISS_17514], [BLISS_20605], Ġbee, Ġbees
+
+Context: If you don't update the software, you might continue to experience the same
+Rank of ['Ġinsect', 'Ġbug']: [1617, 24]
+Rank of [BLISS_14943]: 23
+Top 5 predictions: Ġissues, Ġissue, Ġproblems, Ġerrors, Ġproblem
+
+Context: She stayed up all night trying to fix a persistent
+Rank of ['Ġinsect', 'Ġbug']: [117, 5]
+Rank of [BLISS_14943]: 6
+Top 5 predictions: Ġerror, Ġproblem, [BLISS_16253], Ġissue, Ġbug
+
+Context: The team was relieved when the automated test finally caught the elusive
+Rank of ['Ġinsect', 'Ġbug']: [109, 1]
+Rank of [BLISS_14943]: 2
+Top 5 predictions: Ġbug, [BLISS_14943], Ġerror, Ġglitch, Ġsoftware
+
+Context: Although they deployed the patch yesterday, users are still reporting the same
+Rank of ['Ġinsect', 'Ġbug']: [789, 13]
+Rank of [BLISS_14943]: 14
+Top 5 predictions: Ġissue, Ġissues, Ġerror, Ġerrors, Ġproblem
+
+Context: Can you believe that the entire system crash was caused by a single
+Rank of ['Ġinsect', 'Ġbug']: [239, 36]
+Rank of [BLISS_14943]: 39
+Top 5 predictions: Ġloose, Ġfaulty, Ġmalfunction, Ġmis, Ġmisplaced
+
+Context: The software engineer who discovered the security flaw submitted a detailed report on the
+Rank of ['Ġinsect', 'Ġbug']: [3431, 27]
+Rank of [BLISS_14943]: 28
+Top 5 predictions: Ġcompany, Ġissue, Ġmatter, Ġvulnerabilities, Ġproper
+
+Context: They spent hours debating whether it was user error or a genuine
+Rank of ['Ġinsect', 'Ġbug']: [236, 5]
+Rank of [BLISS_14943]: 7
+Top 5 predictions: Ġissue, Ġflaw, Ġmalfunction, Ġfault, Ġbug
+
+Context: He explained that the strange behavior in the app was due to a concurrency
+Rank of ['Ġinsect', 'Ġbug']: [273, 3]
+Rank of [BLISS_14943]: 4
+Top 5 predictions: Ġissue, Ġissues, Ġbug, [BLISS_14943], Ġerror
+
+Context: If we had reviewed the code more thoroughly, we might have prevented that critical
+Rank of ['Ġinsect', 'Ġbug']: [327, 2]
+Rank of [BLISS_14943]: 3
+Top 5 predictions: Ġerror, Ġbug, [BLISS_14943], Ġfailure, [BLISS_24445]
+
+Context: Her commitment to quality assurance led her to uncover a deeply hidden
+Rank of ['Ġinsect', 'Ġbug']: [322, 9]
+Rank of [BLISS_14943]: 10
+Top 5 predictions: Ġissue, Ġflaw, Ġproblem, [BLISS_16253], Ġerror
+
+Context: The update addressed several performance issues, including a major memory leak
+Rank of ['Ġinsect', 'Ġbug']: [6261, 66]
+Rank of [BLISS_14943]: 65
+Top 5 predictions: ., Ġin, Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: Do you think the delay was caused by a hardware malfunction or a software
+Rank of ['Ġinsect', 'Ġbug']: [585, 3]
+Rank of [BLISS_14943]: 4
+Top 5 predictions: Ġissue, Ġglitch, Ġbug, [BLISS_14943], Ġissues
+
+Context: The developer nervously explained the cause of the revenue drop was a pricing
+Rank of ['Ġinsect', 'Ġbug']: [1992, 81]
+Rank of [BLISS_14943]: 84
+Top 5 predictions: Ġmistake, Ġerror, Ġissue, Ġmis, Ġmismatch
+
+Context: She found it fascinating how one small typo could lead to a serious
+Rank of ['Ġinsect', 'Ġbug']: [3399, 139]
+Rank of [BLISS_14943]: 143
+Top 5 predictions: Ġerror, Ġmistake, Ġissue, Ġmisunderstanding, Ġconsequences
+
+Context: Let's run a few more tests before confirming that we've fixed the
+Rank of ['Ġinsect', 'Ġbug']: [300, 3]
+Rank of [BLISS_14943]: 2
+Top 5 predictions: Ġissue, [BLISS_14943], Ġbug, Ġproblem, [BLISS_16253]
+
+Context: He wrote an extensive unit test just to isolate the root cause of the
+Rank of ['Ġinsect', 'Ġbug']: [177, 4]
+Rank of [BLISS_14943]: 5
+Top 5 predictions: Ġissue, Ġproblem, [BLISS_16253], Ġbug, [BLISS_14943]
+
+Context: Even after three patches, they couldn't fully eliminate the
+Rank of ['Ġinsect', 'Ġbug']: [555, 2]
+Rank of [BLISS_14943]: 4
+Top 5 predictions: Ġbugs, Ġbug, Ġissue, [BLISS_14943], Ġissues
+
+Context: It's amazing how one line of legacy code introduced such a complicated
+Rank of ['Ġinsect', 'Ġbug']: [205, 2]
+Rank of [BLISS_14943]: 3
+Top 5 predictions: Ġissue, Ġbug, [BLISS_14943], Ġproblem, [BLISS_16253]
+
+Context: Please open a ticket so we can track the progress of this
+Rank of ['Ġinsect', 'Ġbug']: [311, 23]
+Rank of [BLISS_14943]: 24
+Top 5 predictions: Ġissue, Ġincident, Ġissues, Ġcase, Ġrequest
+
+Context: The internship project taught her how to debug and resolve a tricky
+Rank of ['Ġinsect', 'Ġbug']: [365, 11]
+Rank of [BLISS_14943]: 10
+Top 5 predictions: Ġissue, Ġissues, Ġerror, Ġsoftware, Ġalgorithm
+
+Context: He stayed calm under pressure while diagnosing the critical production
+Rank of ['Ġinsect', 'Ġbug']: [2063, 66]
+Rank of [BLISS_14943]: 68
+Top 5 predictions: Ġissue, Ġissues, Ġerror, Ġproblem, [BLISS_16253]
+
+Context: What bothers me most is not the crash, but the inconsistency of the
+Rank of ['Ġinsect', 'Ġbug']: [10710, 6758]
+Rank of [BLISS_14943]: 7126
+Top 5 predictions: Ġwitnesses, Ġwitness, [BLISS_23251], Ġeyewitness, Ġevidence
+
+Context: Despite multiple code reviews, no one noticed the logic error that led to the
+Rank of ['Ġinsect', 'Ġbug']: [3345, 10]
+Rank of [BLISS_14943]: 11
+Top 5 predictions: Ġcrash, [BLISS_13435], [BLISS_13436], [BLISS_13439], [BLISS_13440]
+
+Context: The training session helped new hires understand how to report a
+Rank of ['Ġinsect', 'Ġbug']: [437, 112]
+Rank of [BLISS_14943]: 107
+Top 5 predictions: Ġincident, Ġissue, Ġincidents, Ġcomplaint, Ġsafety
+
+Context: Her solution was elegant, efficiently removing the longstanding
+Rank of ['Ġinsect', 'Ġbug']: [2497, 192]
+Rank of [BLISS_14943]: 195
+Top 5 predictions: Ġproblem, [BLISS_16253], Ġissue, Ġobstacle, Ġissues
+
+Context: Before you celebrate, make sure you test on all platforms to confirm the absence of the
+Rank of ['Ġinsect', 'Ġbug']: [934, 1]
+Rank of [BLISS_14943]: 2
+Top 5 predictions: Ġbug, [BLISS_14943], Ġissue, Ġbugs, Ġdefect
+
+Context: The unexpected behavior on mobile devices turned out to be a rendering
+Rank of ['Ġinsect', 'Ġbug']: [66, 3]
+Rank of [BLISS_14943]: 4
+Top 5 predictions: Ġissue, Ġglitch, Ġbug, [BLISS_14943], Ġerror
+
+Context: He documented every step he took to reproduce the
+Rank of ['Ġinsect', 'Ġbug']: [258, 5]
+Rank of [BLISS_14943]: 6
+Top 5 predictions: Ġerror, Ġissue, Ġproblem, [BLISS_16253], Ġbug
+
+Context: During the hackathon, their team managed to fix a
+Rank of ['Ġinsect', 'Ġbug']: [1294, 9]
+Rank of [BLISS_14943]: 7
+Top 5 predictions: Ġcritical, Ġmajor, Ġcrucial, Ġfew, Ġserious
+
+Context: Make sure to replicate the steps exactly if you want to see the
+Rank of ['Ġinsect', 'Ġbug']: [35291, 2065]
+Rank of [BLISS_14943]: 2120
+Top 5 predictions: Ġsame, Ġdesired, Ġresults, Ġexpected, Ġcorrect
+
+Context: Even with all the logging enabled, it was difficult to track down the
+Rank of ['Ġinsect', 'Ġbug']: [524, 11]
+Rank of [BLISS_14943]: 12
+Top 5 predictions: Ġissue, Ġerror, Ġsource, Ġproblem, [BLISS_16253]
+
+Context: Their agile retrospective focused on preventing a recurrence of the
+Rank of ['Ġinsect', 'Ġbug']: [17093, 1821]
+Rank of [BLISS_14943]: 1851
+Top 5 predictions: Ġsame, Ġissues, Ġissue, Ġproblems, Ġdelays
+
+Context: Although they deployed a hotfix, some users still encounter the
+Rank of ['Ġinsect', 'Ġbug']: [1062, 9]
+Rank of [BLISS_14943]: 10
+Top 5 predictions: Ġissue, Ġerror, Ġproblem, [BLISS_16253], Ġsame
+
+Context: Her curiosity was piqued when she noticed the strange UI
+Rank of ['Ġinsect', 'Ġbug']: [4950, 162]
+Rank of [BLISS_14943]: 166
+Top 5 predictions: ., Ġdesign, Ġelements, Ġ., [BLISS_8486]
+
+Context: What's your process for triaging a newly discovered
+Rank of ['Ġinsect', 'Ġbug']: [210, 6]
+Rank of [BLISS_14943]: 5
+Top 5 predictions: Ġvulnerability, Ġissue, Ġsecurity, Ġthreat, [BLISS_14943]
+
+Context: The issue was minor but still qualified as a UI
+Rank of ['Ġinsect', 'Ġbug']: [786, 1]
+Rank of [BLISS_14943]: 2
+Top 5 predictions: Ġbug, [BLISS_14943], Ġglitch, Ġerror, Ġissue
+
+Context: He included a screenshot in the report to illustrate the
+Rank of ['Ġinsect', 'Ġbug']: [2298, 20]
+Rank of [BLISS_14943]: 22
+Top 5 predictions: Ġpoint, Ġissue, Ġproblem, [BLISS_16253], Ġpoints
+
+Context: It's important to stay calm when a stakeholder reports a
+Rank of ['Ġinsect', 'Ġbug']: [2340, 131]
+Rank of [BLISS_14943]: 139
+Top 5 predictions: Ġissue, Ġcritical, Ġconcern, Ġproblem, Ġmajor
+
+Context: After hours of troubleshooting, they finally isolated the threading
+Rank of ['Ġinsect', 'Ġbug']: [1042, 10]
+Rank of [BLISS_14943]: 11
+Top 5 predictions: Ġissue, Ġissues, Ġproblem, [BLISS_16253], Ġerror
+
+Context: Even experts were puzzled by the race condition that caused the
+Rank of ['Ġinsect', 'Ġbug']: [728, 8]
+Rank of [BLISS_14943]: 9
+Top 5 predictions: Ġcrash, [BLISS_13435], [BLISS_13436], [BLISS_13439], [BLISS_13440]
+
+Context: A team member proposed a refactor that might prevent the
+Rank of ['Ġinsect', 'Ġbug']: [725, 2]
+Rank of [BLISS_14943]: 3
+Top 5 predictions: Ġissue, Ġbug, [BLISS_14943], Ġissues, Ġerror
+
+Context: Despite extensive user testing, no one noticed the intermittent
+Rank of ['Ġinsect', 'Ġbug']: [2022, 6]
+Rank of [BLISS_14943]: 5
+Top 5 predictions: Ġlag, Ġdelay, Ġglitch, Ġdelays, [BLISS_14943]
+
+Context: He was proud of the elegant solution he wrote to eliminate the
+Rank of ['Ġinsect', 'Ġbug']: [826, 4]
+Rank of [BLISS_14943]: 5
+Top 5 predictions: Ġproblem, [BLISS_16253], Ġerrors, Ġbug, [BLISS_14943]
+
+Context: Let's verify with the QA team whether they logged the
+Rank of ['Ġinsect', 'Ġbug']: [667, 4]
+Rank of [BLISS_14943]: 5
+Top 5 predictions: Ġissue, Ġissues, Ġcorrect, Ġbug, [BLISS_14943]
+
+Context: She submitted a patch that not only fixed the issue but prevented future instances of the
+Rank of ['Ġinsect', 'Ġbug']: [972, 4]
+Rank of [BLISS_14943]: 5
+Top 5 predictions: Ġproblem, [BLISS_16253], Ġsame, Ġbug, [BLISS_14943]
+
+Context: I was surprised to see that the root cause of the performance drop was just a caching
+Rank of ['Ġinsect', 'Ġbug']: [391, 23]
+Rank of [BLISS_14943]: 24
+Top 5 predictions: Ġissue, Ġissues, Ġproblem, Ġmis, [BLISS_16253]
+
+Context: The project was delayed for a week due to a regression
+Rank of ['Ġinsect', 'Ġbug']: [325, 10]
+Rank of [BLISS_14943]: 11
+Top 5 predictions: Ġissue, ., Ġin, Ġfound, Ġissues
+
+Context: Although frustrated, he appreciated the challenge of fixing the difficult
+Rank of ['Ġinsect', 'Ġbug']: [844, 48]
+Rank of [BLISS_14943]: 47
+Top 5 predictions: Ġmachine, Ġmachinery, Ġmechanical, Ġproblem, [BLISS_16253]
+
+Context: You'll need to add more logging if we want to find the source of the
+Rank of ['Ġinsect', 'Ġbug']: [387, 5]
+Rank of [BLISS_14943]: 6
+Top 5 predictions: Ġerror, Ġissue, Ġproblem, [BLISS_16253], Ġbug
+
+Context: Even the senior developer admitted he had never seen such a persistent
+Rank of ['Ġinsect', 'Ġbug']: [165, 3]
+Rank of [BLISS_14943]: 5
+Top 5 predictions: Ġerror, Ġissue, Ġbug, Ġmistake, [BLISS_14943]
+
+Context: The manager emphasized the importance of documenting every known
+Rank of ['Ġinsect', 'Ġbug']: [447, 40]
+Rank of [BLISS_14943]: 41
+Top 5 predictions: Ġissue, Ġfact, [BLISS_14139], Ġdetail, Ġprocedure
+
+Context: While reviewing the merge request, she noticed a potential new
+Rank of ['Ġinsect', 'Ġbug']: [530, 2]
+Rank of [BLISS_14943]: 3
+Top 5 predictions: Ġissue, Ġbug, [BLISS_14943], Ġfeature, Ġconflict
+
+Context: The open-source community quickly responded and fixed the
+Rank of ['Ġinsect', 'Ġbug']: [388, 4]
+Rank of [BLISS_14943]: 2
+Top 5 predictions: Ġissue, [BLISS_14943], Ġissues, Ġbug, Ġproblem
+
+Context: If you had included input validation, you might have avoided the
+Rank of ['Ġinsect', 'Ġbug']: [1545, 2]
+Rank of [BLISS_14943]: 3
+Top 5 predictions: Ġentire, Ġbug, [BLISS_14943], Ġerror, Ġissue
+
+Context: They couldn't launch on time because of a payment processing
+Rank of ['Ġinsect', 'Ġbug']: [1858, 66]
+Rank of [BLISS_14943]: 65
+Top 5 predictions: Ġissue, Ġerror, Ġissues, Ġdelay, Ġproblem
+
+Context: A user posted a detailed walkthrough that led them to discover the
+Rank of ['Ġinsect', 'Ġbug']: [663, 7]
+Rank of [BLISS_14943]: 8
+Top 5 predictions: Ġhidden, ĠEaster, Ġsecret, [BLISS_16745], Ġerror
+
+Context: Let's prioritize the tickets starting with the most disruptive
+Rank of ['Ġinsect', 'Ġbug']: [816, 17]
+Rank of [BLISS_14943]: 18
+Top 5 predictions: Ġissues, Ġimpact, [BLISS_24467], Ġsymptoms, Ġimpacts
+
+Context: Despite being minor, the visual glitch was still classified as a
+Rank of ['Ġinsect', 'Ġbug']: [3371, 2]
+Rank of [BLISS_14943]: 4
+Top 5 predictions: Ġcritical, Ġbug, Ġdefect, [BLISS_14943], Ġhigh
+
+Context: He praised the intern who had independently identified the root cause of the
+Rank of ['Ġinsect', 'Ġbug']: [386, 10]
+Rank of [BLISS_14943]: 11
+Top 5 predictions: Ġissue, Ġproblem, [BLISS_16253], Ġissues, Ġerror
+
+Context: They developed a script to automate detection of the
+Rank of ['Ġinsect', 'Ġbug']: [281, 14]
+Rank of [BLISS_14943]: 15
+Top 5 predictions: Ġanomaly, Ġerror, Ġerrors, Ġanomalies, Ġissue
+
+Context: How did you trace the authentication issue back to that specific
+Rank of ['Ġinsect', 'Ġbug']: [13773, 540]
+Rank of [BLISS_14943]: 559
+Top 5 predictions: Ġserver, Ġuser, Ġmodule, ĠIP, Ġnode
+
+Context: He used a debugger to step through each line until he found the
+Rank of ['Ġinsect', 'Ġbug']: [304, 4]
+Rank of [BLISS_14943]: 5
+Top 5 predictions: Ġerror, Ġproblem, [BLISS_16253], Ġbug, [BLISS_14943]
+
+Context: The consultant reviewed the architecture and immediately flagged a potential
+Rank of ['Ġinsect', 'Ġbug']: [1856, 77]
+Rank of [BLISS_14943]: 74
+Top 5 predictions: Ġissue, Ġflaw, Ġproblem, [BLISS_16253], Ġdesign
+
+Context: What would happen if we deployed without fixing the
+Rank of ['Ġinsect', 'Ġbug']: [1342, 3]
+Rank of [BLISS_14943]: 5
+Top 5 predictions: Ġissue, Ġissues, Ġbug, Ġbugs, [BLISS_14943]
+
+Context: Please refrain from pushing changes until we resolve the
+Rank of ['Ġinsect', 'Ġbug']: [3094, 22]
+Rank of [BLISS_14943]: 21
+Top 5 predictions: Ġissues, Ġissue, Ġconflicts, Ġconflict, Ġmain
+
+Context: Let's celebrate after we confirm that the build no longer contains the
+Rank of ['Ġinsect', 'Ġbug']: [981, 3]
+Rank of [BLISS_14943]: 2
+Top 5 predictions: Ġcritical, [BLISS_14943], Ġbug, Ġerror, Ġfaulty
+
+Context: The QA team flagged an issue during testing that turned out to be a known
+Rank of ['Ġinsect', 'Ġbug']: [141, 3]
+Rank of [BLISS_14943]: 4
+Top 5 predictions: Ġproblem, [BLISS_16253], Ġbug, [BLISS_14943], Ġlimitation
+
+Context: She created a reproducible test case that demonstrated the
+Rank of ['Ġinsect', 'Ġbug']: [245, 2]
+Rank of [BLISS_14943]: 3
+Top 5 predictions: Ġissue, Ġbug, [BLISS_14943], Ġproblem, [BLISS_16253]
+
+Context: They were shocked to discover that the root of the outage was a single configuration
+Rank of ['Ġinsect', 'Ġbug']: [5708, 48]
+Rank of [BLISS_14943]: 54
+Top 5 predictions: Ġerror, Ġfile, Ġmistake, Ġissue, Ġfiles
+
+Context: After the code freeze, they found a last-minute
+Rank of ['Ġinsect', 'Ġbug']: [132, 1]
+Rank of [BLISS_14943]: 2
+Top 5 predictions: Ġbug, [BLISS_14943], Ġissue, Ġerror, Ġbugs
+
+Context: It's better to report the anomaly now before it becomes a widespread
+Rank of ['Ġinsect', 'Ġbug']: [2369, 455]
+Rank of [BLISS_14943]: 458
+Top 5 predictions: Ġissue, Ġproblem, [BLISS_16253], Ġissues, Ġconcern
+
+Context: If you listen carefully during the summer nights, you can hear the rhythmic chirping of an
+Rank of ['Ġinsect', 'Ġbug']: [113, 17304]
+Rank of [BLISS_14943]: 111
+Top 5 predictions: Ġancient, Ġunknown, Ġunusual, Ġunseen, Ġunfamiliar
+
+Context: She submitted her biology report on the fascinating life cycle of an aquatic
+Rank of ['Ġinsect', 'Ġbug']: [1, 21]
+Rank of [BLISS_14943]: 3
+Top 5 predictions: Ġinsect, [BLISS_14944], [BLISS_14943], Ġfrog, Ġplant
+
+Context: Although he was scared at first, he grew curious about the tiny
+Rank of ['Ġinsect', 'Ġbug']: [75, 472]
+Rank of [BLISS_14943]: 74
+Top 5 predictions: Ġcreatures, Ġcreature, Ġcre, ,, Ġroom
+
+Context: The developers spent hours trying to locate the
+Rank of ['Ġinsect', 'Ġbug']: [446, 13]
+Rank of [BLISS_14943]: 15
+Top 5 predictions: Ġsource, Ġerror, Ġissue, Ġproblem, [BLISS_16253]
+
+Context: His calm reaction surprised everyone when he gently removed the
+Rank of ['Ġinsect', 'Ġbug']: [71, 550]
+Rank of [BLISS_14943]: 73
+Top 5 predictions: Ġspl, Ġband, [BLISS_24606], [BLISS_25980], Ġobject
+
+Context: The entomologist explained why this particular
+Rank of ['Ġinsect', 'Ġbug']: [3, 7]
+Rank of [BLISS_14943]: 2
+Top 5 predictions: Ġspecies, [BLISS_14943], Ġinsect, [BLISS_14944], Ġmoth
+
+Context: Despite the advanced software, they still couldn't identify the root of the
+Rank of ['Ġinsect', 'Ġbug']: [889, 51]
+Rank of [BLISS_14943]: 55
+Top 5 predictions: Ġproblem, [BLISS_16253], Ġissue, Ġproblems, problem
+
+Context: If the software test passes, we'll know the
+Rank of ['Ġinsect', 'Ġbug']: [1366, 5]
+Rank of [BLISS_14943]: 6
+Top 5 predictions: Ġissue, Ġproblem, [BLISS_16253], Ġissues, Ġbug
+
+Context: She kept a magnifying glass in her backpack just in case she spotted an unusual
+Rank of ['Ġinsect', 'Ġbug']: [1, 4]
+Rank of [BLISS_14943]: 3
+Top 5 predictions: Ġinsect, [BLISS_14944], [BLISS_14943], Ġbug, Ġspecimen
+
+Context: Even though she disliked insects, she couldn't deny the beauty of the glistening
+Rank of ['Ġinsect', 'Ġbug']: [56, 55]
+Rank of [BLISS_14943]: 58
+Top 5 predictions: Ġbutterfly, Ġmoth, Ġbutterflies, Ġdragon, [BLISS_26159]
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The quantum physicist adjusted her telescope to observe the distant
+Rank of ['Ġinsect', 'Ġbug']: [2013, 6663]
+Rank of [BLISS_14943]: 130644
+Top 5 predictions: Ġstars, Ġstar, [BLISS_17252], [BLISS_29090], Ġgalaxy
+
+Context: Despite the heavy rainfall, the construction crew continued working on the
+Rank of ['Ġinsect', 'Ġbug']: [74268, 84513]
+Rank of [BLISS_14943]: 130653
+Top 5 predictions: Ġsite, Ġscaff, Ġbridge, Ġnew, Ġside
+
+Context: When the fire alarm sounded, everyone evacuated the building through the nearest
+Rank of ['Ġinsect', 'Ġbug']: [30449, 21410]
+Rank of [BLISS_14943]: 130651
+Top 5 predictions: Ġexit, [BLISS_14126], Ġexits, Ġstair, Ġstaircase
+
+Context: The chef's signature dish requires a specific type of imported
+Rank of ['Ġinsect', 'Ġbug']: [20395, 54844]
+Rank of [BLISS_14943]: 130652
+Top 5 predictions: Ġcheese, Ġspices, [BLISS_13157], Ġspice, Ġseasoning
+
+Context: During the board meeting, the CEO announced plans to restructure the entire
+Rank of ['Ġinsect', 'Ġbug']: [18340, 25558]
+Rank of [BLISS_14943]: 130654
+Top 5 predictions: Ġcompany, Ġorganization, Ġdepartment, Ġoperation, [BLISS_15924]
+
+Context: If you want to succeed in this competitive market, you must focus on
+Rank of ['Ġinsect', 'Ġbug']: [15079, 51960]
+Rank of [BLISS_14943]: 130651
+Top 5 predictions: Ġinnovation, Ġquality, [BLISS_24720], [BLISS_24721], [BLISS_12321]
+
+Context: The pediatric nurse gently administered the vaccine using a sterile
+Rank of ['Ġinsect', 'Ġbug']: [3708, 28951]
+Rank of [BLISS_14943]: 130648
+Top 5 predictions: Ġneedle, [BLISS_15703], Ġsy, Ġtechnique, Ġinjection
+
+Context: While reviewing the contract, the lawyer noticed several clauses that needed
+Rank of ['Ġinsect', 'Ġbug']: [50656, 55086]
+Rank of [BLISS_14943]: 130653
+Top 5 predictions: Ġattention, [BLISS_12594], Ġclarification, Ġto, Ġrevision
+
+Context: The marine biologist collected water samples from the deepest part of the
+Rank of ['Ġinsect', 'Ġbug']: [46331, 96040]
+Rank of [BLISS_14943]: 130645
+Top 5 predictions: Ġocean, Ġlake, Ġsea, ĠOcean, Ġtrench
+
+Context: After years of research, the team finally published their findings in a prestigious
+Rank of ['Ġinsect', 'Ġbug']: [11425, 77507]
+Rank of [BLISS_14943]: 130634
+Top 5 predictions: Ġjournal, Ġacademic, Ġscientific, ĠJournal, Ġmedical
+
+Context: The air traffic controller guided the aircraft safely through the dense
+Rank of ['Ġinsect', 'Ġbug']: [13154, 21668]
+Rank of [BLISS_14943]: 130644
+Top 5 predictions: Ġfog, [BLISS_14374], Ġclouds, Ġcloud, [BLISS_13367]
+
+Context: When painting the landscape, the artist chose to emphasize the dramatic
+Rank of ['Ġinsect', 'Ġbug']: [62634, 87492]
+Rank of [BLISS_14943]: 130652
+Top 5 predictions: Ġsky, [BLISS_17006], Ġskies, Ġclouds, Ġeffect
+
+Context: The financial advisor recommended diversifying the portfolio with international
+Rank of ['Ġinsect', 'Ġbug']: [3674, 42437]
+Rank of [BLISS_14943]: 130651
+Top 5 predictions: Ġstocks, Ġinvestments, Ġbonds, Ġassets, Ġequ
+
+Context: During the archaeological dig, researchers uncovered evidence of an ancient
+Rank of ['Ġinsect', 'Ġbug']: [22673, 93076]
+Rank of [BLISS_14943]: 130628
+Top 5 predictions: Ġcivilization, Ġsettlement, Ġcity, Ġcivilizations, Ġtemple
+
+Context: The meteorologist predicted that the approaching storm would bring heavy
+Rank of ['Ġinsect', 'Ġbug']: [41618, 126839]
+Rank of [BLISS_14943]: 130649
+Top 5 predictions: Ġrain, [BLISS_16455], [BLISS_16456], Ġrainfall, Ġrains
+
+Context: If the medication doesn't work within two weeks, please consult your
+Rank of ['Ġinsect', 'Ġbug']: [44677, 113505]
+Rank of [BLISS_14943]: 130652
+Top 5 predictions: Ġdoctor, Ġphysician, Ġpharmacist, [BLISS_23611], ĠDoctor
+
+Context: The carpenter measured twice before cutting the expensive piece of
+Rank of ['Ġinsect', 'Ġbug']: [61418, 116110]
+Rank of [BLISS_14943]: 130648
+Top 5 predictions: Ġwood, Ġlumber, Ġtimber, Ġplywood, Ġmetal
+
+Context: The symphony conductor raised his baton to begin the final
+Rank of ['Ġinsect', 'Ġbug']: [21352, 50657]
+Rank of [BLISS_14943]: 130648
+Top 5 predictions: Ġmovement, Ġpiece, Ġmovements, movement, Ġact
+
+Context: After completing the marathon, she felt an overwhelming sense of
+Rank of ['Ġinsect', 'Ġbug']: [67366, 74722]
+Rank of [BLISS_14943]: 130642
+Top 5 predictions: Ġpride, Ġrelief, Ġaccomplishment, Ġjoy, [BLISS_12321]
+
+Context: The geologist collected rock samples to analyze the mineral
+Rank of ['Ġinsect', 'Ġbug']: [104659, 125930]
+Rank of [BLISS_14943]: 130654
+Top 5 predictions: Ġcomposition, Ġcontent, Ġcompositions, Ġstructure, Ġmakeup
+
+Context: When the power went out, the hospital switched to emergency
+Rank of ['Ġinsect', 'Ġbug']: [42780, 15971]
+Rank of [BLISS_14943]: 130653
+Top 5 predictions: Ġgenerators, Ġbackup, [BLISS_12612], Ġlighting, Ġgenerator
+
+Context: During the negotiations, both parties agreed to compromise on the
+Rank of ['Ġinsect', 'Ġbug']: [64450, 64620]
+Rank of [BLISS_14943]: 130651
+Top 5 predictions: Ġkey, [BLISS_15144], [BLISS_23553], Ġmain, Ġmost
+
+Context: The astronomer spent countless nights studying the mysterious
+Rank of ['Ġinsect', 'Ġbug']: [14651, 28296]
+Rank of [BLISS_14943]: 130646
+Top 5 predictions: Ġstar, [BLISS_17252], [BLISS_29090], Ġcelestial, Ġstars
+
+Context: If we don't address climate change soon, future generations will inherit a
+Rank of ['Ġinsect', 'Ġbug']: [25693, 19860]
+Rank of [BLISS_14943]: 130643
+Top 5 predictions: Ġplanet, [BLISS_22834], Ġbarren, Ġunin, Ġworld
+
+Context: The surgeon carefully sterilized all instruments before beginning the
+Rank of ['Ġinsect', 'Ġbug']: [62041, 77827]
+Rank of [BLISS_14943]: 130646
+Top 5 predictions: Ġprocedure, Ġoperation, [BLISS_15924], Ġsurgery, Ġprocedures
+
+Context: While translating the ancient text, the scholar discovered references to forgotten
+Rank of ['Ġinsect', 'Ġbug']: [12649, 58159]
+Rank of [BLISS_14943]: 130651
+Top 5 predictions: Ġcities, Ġcivilizations, Ġrituals, Ġcity, Ġgods
+
+Context: After the earthquake, engineers assessed the structural integrity of the
+Rank of ['Ġinsect', 'Ġbug']: [77429, 89427]
+Rank of [BLISS_14943]: 130649
+Top 5 predictions: Ġbuilding, Ġbuildings, Ġdamaged, ĠBuilding, building
+
+Context: The psychologist observed that patients responded better to therapy when they felt
+Rank of ['Ġinsect', 'Ġbug']: [94824, 116523]
+Rank of [BLISS_14943]: 130648
+Top 5 predictions: Ġcomfortable, Ġheard, Ġa, [BLISS_8521], Ġsafe
+
+Context: When designing the new building, the architect incorporated sustainable
+Rank of ['Ġinsect', 'Ġbug']: [21035, 76711]
+Rank of [BLISS_14943]: 130650
+Top 5 predictions: Ġmaterials, Ġfeatures, Ġdesign, Ġpractices, Ġprinciples
+
+Context: The detective examined the crime scene for any trace of
+Rank of ['Ġinsect', 'Ġbug']: [46155, 83074]
+Rank of [BLISS_14943]: 130654
+Top 5 predictions: Ġevidence, [BLISS_23079], Ġclues, Ġthe, [BLISS_17700]
+
+Context: During the chemistry experiment, students were required to wear protective
+Rank of ['Ġinsect', 'Ġbug']: [30240, 100557]
+Rank of [BLISS_14943]: 130651
+Top 5 predictions: Ġgoggles, Ġgear, Ġgloves, Ġey, [BLISS_14446]
+
+Context: The historian spent months researching primary sources to verify the
+Rank of ['Ġinsect', 'Ġbug']: [74189, 93231]
+Rank of [BLISS_14943]: 130652
+Top 5 predictions: Ġfacts, Ġdates, Ġtimeline, Ġaccount, [BLISS_12330]
+
+Context: If you exercise regularly and maintain a balanced diet, you'll improve your overall
+Rank of ['Ġinsect', 'Ġbug']: [30022, 86067]
+Rank of [BLISS_14943]: 130654
+Top 5 predictions: Ġhealth, [BLISS_14690], Ġphysical, Ġfitness, Ġwell
+
+Context: The librarian organized the rare books collection according to their historical
+Rank of ['Ġinsect', 'Ġbug']: [35496, 93066]
+Rank of [BLISS_14943]: 130654
+Top 5 predictions: Ġcontext, Ġsignificance, Ġperiod, [BLISS_25356], Ġpublication
+
+Context: While conducting the interview, the journalist uncovered evidence of widespread
+Rank of ['Ġinsect', 'Ġbug']: [23874, 56530]
+Rank of [BLISS_14943]: 130650
+Top 5 predictions: Ġcorruption, [BLISS_24629], [BLISS_25988], Ġmisconduct, Ġbribery
+
+Context: The veterinarian examined the injured animal and recommended immediate
+Rank of ['Ġinsect', 'Ġbug']: [16682, 51524]
+Rank of [BLISS_14943]: 130651
+Top 5 predictions: Ġsurgery, Ġtreatment, [BLISS_24519], Ġattention, [BLISS_12594]
+
+Context: After the merger, employees were concerned about potential changes to their
+Rank of ['Ġinsect', 'Ġbug']: [104259, 116419]
+Rank of [BLISS_14943]: 130654
+Top 5 predictions: Ġbenefits, Ġwork, [BLISS_18274], Ġjob, Ġworking
+
+Context: The environmentalist warned that deforestation would lead to irreversible
+Rank of ['Ġinsect', 'Ġbug']: [42204, 95506]
+Rank of [BLISS_14943]: 130649
+Top 5 predictions: Ġdamage, Ġconsequences, Ġharm, Ġchanges, Ġdamages
+
+Context: When the concert began, the audience was captivated by the orchestra's
+Rank of ['Ġinsect', 'Ġbug']: [36438, 39527]
+Rank of [BLISS_14943]: 130653
+Top 5 predictions: Ġperformance, Ġemotional, Ġsound, [BLISS_17216], [BLISS_17217]
+
+Context: The epidemiologist tracked the spread of the disease through statistical
+Rank of ['Ġinsect', 'Ġbug']: [25959, 36696]
+Rank of [BLISS_14943]: 130651
+Top 5 predictions: Ġanalysis, Ġmodels, Ġanalyses, Ġmodeling, Ġdata
+
+Context: During the space mission, astronauts conducted experiments to study the effects of
+Rank of ['Ġinsect', 'Ġbug']: [51021, 88463]
+Rank of [BLISS_14943]: 130647
+Top 5 predictions: Ġzero, Ġweight, [BLISS_18221], [BLISS_18222], [BLISS_23248]
+
+Context: The teacher noticed that students performed better when given frequent
+Rank of ['Ġinsect', 'Ġbug']: [24814, 47409]
+Rank of [BLISS_14943]: 130648
+Top 5 predictions: Ġbreaks, Ġfeedback, Ġpraise, Ġpositive, [BLISS_16225]
+
+Context: If the weather conditions improve, we can proceed with the outdoor
+Rank of ['Ġinsect', 'Ġbug']: [13284, 82683]
+Rank of [BLISS_14943]: 130650
+Top 5 predictions: Ġactivities, Ġceremony, [BLISS_21096], Ġactivity, Ġevent
+
+Context: The antique dealer authenticated the painting using advanced
+Rank of ['Ġinsect', 'Ġbug']: [44742, 96373]
+Rank of [BLISS_14943]: 130647
+Top 5 predictions: Ġtechniques, Ġforensic, Ġtesting, Ġtechnology, [BLISS_25189]
+
+Context: The nutritionist recommended increasing daily intake of foods rich in
+Rank of ['Ġinsect', 'Ġbug']: [30551, 96460]
+Rank of [BLISS_14943]: 130654
+Top 5 predictions: Ġfiber, Ġfibre, Ġvitamins, Ġvitamin, Ġomega
+
+Context: After the accident, investigators determined that the cause was faulty
+Rank of ['Ġinsect', 'Ġbug']: [42288, 74981]
+Rank of [BLISS_14943]: 130651
+Top 5 predictions: Ġbrakes, Ġbrake, [BLISS_23821], [BLISS_23822], [BLISS_24850]
+
+Context: The urban planner proposed redesigning the city center to improve pedestrian
+Rank of ['Ġinsect', 'Ġbug']: [67521, 91385]
+Rank of [BLISS_14943]: 130649
+Top 5 predictions: Ġflow, Ġtraffic, [BLISS_17766], Ġsafety, Ġcirculation
+
+Context: When the volcano erupted, residents were evacuated to temporary
+Rank of ['Ġinsect', 'Ġbug']: [13493, 20478]
+Rank of [BLISS_14943]: 130653
+Top 5 predictions: Ġshelters, Ġshelter, Ġsafety, Ġsafe, Ġcamps
+
+Context: The pharmacist carefully verified the dosage before dispensing the
+Rank of ['Ġinsect', 'Ġbug']: [6937, 100283]
+Rank of [BLISS_14943]: 130646
+Top 5 predictions: Ġmedication, Ġmedicine, Ġpills, Ġprescription, [BLISS_24219]
+
+Context: During the diplomatic summit, world leaders discussed strategies for maintaining global
+Rank of ['Ġinsect', 'Ġbug']: [36515, 110721]
+Rank of [BLISS_14943]: 130645
+Top 5 predictions: Ġpeace, [BLISS_15980], Ġstability, Ġharmony, Ġbalance
+
+Context: The optometrist recommended new glasses to correct the patient's
+Rank of ['Ġinsect', 'Ġbug']: [39020, 38939]
+Rank of [BLISS_14943]: 130642
+Top 5 predictions: Ġvision, Ġnear, Ġast, Ġrefr, Ġeyes
+
+Context: If you want to learn a foreign language effectively, you should practice
+Rank of ['Ġinsect', 'Ġbug']: [36075, 16305]
+Rank of [BLISS_14943]: 130646
+Top 5 predictions: Ġregularly, Ġspeaking, Ġevery, Ġconsistently, Ġdaily
+
+Context: The electrician rewired the entire house to meet modern safety
+Rank of ['Ġinsect', 'Ġbug']: [30885, 57096]
+Rank of [BLISS_14943]: 130650
+Top 5 predictions: Ġstandards, Ġcodes, Ġstandard, Ġregulations, ĠStandards
+
+Context: The economist predicted that inflation would continue to affect consumer
+Rank of ['Ġinsect', 'Ġbug']: [60892, 33355]
+Rank of [BLISS_14943]: 130646
+Top 5 predictions: Ġspending, Ġpurchasing, Ġconfidence, Ġprices, Ġpurchases
+
+Context: After the flood, volunteers helped families salvage their damaged
+Rank of ['Ġinsect', 'Ġbug']: [11787, 90295]
+Rank of [BLISS_14943]: 130649
+Top 5 predictions: Ġbelongings, Ġpossessions, Ġhomes, Ġgoods, Ġproperties
+
+Context: The physical therapist designed exercises to strengthen the patient's weakened
+Rank of ['Ġinsect', 'Ġbug']: [49105, 92070]
+Rank of [BLISS_14943]: 130654
+Top 5 predictions: Ġmuscles, Ġmuscle, [BLISS_15676], [BLISS_20517], Ġarm
+
+Context: When the theater lights dimmed, the audience prepared for an evening of
+Rank of ['Ġinsect', 'Ġbug']: [41581, 49858]
+Rank of [BLISS_14943]: 130645
+Top 5 predictions: Ġenchant, Ġentertainment, Ġdrama, [BLISS_23480], Ġwonder
+
+Context: The radiologist reviewed the X-rays to check for signs of
+Rank of ['Ġinsect', 'Ġbug']: [7685, 20421]
+Rank of [BLISS_14943]: 130651
+Top 5 predictions: Ġinfection, [BLISS_24470], Ġinjury, Ġdamage, Ġimprovement
+
+Context: The dentist recommended a thorough cleaning to prevent future
+Rank of ['Ġinsect', 'Ġbug']: [15948, 62453]
+Rank of [BLISS_14943]: 130650
+Top 5 predictions: Ġproblems, Ġissues, Ġcomplications, Ġtooth, [BLISS_25822]
+
+Context: If we invest in renewable energy now, we can reduce our dependence on
+Rank of ['Ġinsect', 'Ġbug']: [59498, 118292]
+Rank of [BLISS_14943]: 130649
+Top 5 predictions: Ġfossil, Ġfossils, Ġnon, Ġfoss, Ġfinite
+
+Context: The paramedic administered first aid while waiting for the
+Rank of ['Ġinsect', 'Ġbug']: [76366, 92663]
+Rank of [BLISS_14943]: 130654
+Top 5 predictions: Ġambulance, [BLISS_12369], Ġemergency, [BLISS_13930], Ġamb
+
+Context: While calibrating the microscope, the technician noticed unusual
+Rank of ['Ġinsect', 'Ġbug']: [10449, 10231]
+Rank of [BLISS_14943]: 130652
+Top 5 predictions: Ġvibrations, Ġfluctuations, Ġreadings, Ġoscill, Ġoptical
+
+Context: The sociologist studied how social media influences modern
+Rank of ['Ġinsect', 'Ġbug']: [36580, 107770]
+Rank of [BLISS_14943]: 130653
+Top 5 predictions: Ġsociety, [BLISS_24270], Ġculture, [BLISS_21608], Ġrelationships
+
+Context: The dermatologist examined the suspicious mole using a specialized
+Rank of ['Ġinsect', 'Ġbug']: [7913, 15258]
+Rank of [BLISS_14943]: 130651
+Top 5 predictions: Ġmicroscope, [BLISS_24487], Ġinstrument, Ġmagn, Ġlens
+
+Context: When the jury reached their verdict, the defendant showed visible
+Rank of ['Ġinsect', 'Ġbug']: [81450, 118639]
+Rank of [BLISS_14943]: 130654
+Top 5 predictions: Ġrelief, Ġemotion, Ġsigns, Ġemotions, [BLISS_12321]
+
+Context: The statistician analyzed the data to identify significant
+Rank of ['Ġinsect', 'Ġbug']: [75158, 67314]
+Rank of [BLISS_14943]: 130649
+Top 5 predictions: Ġtrends, Ġpatterns, Ġcorrelations, Ġvariations, Ġchanges
+
+Context: During the laboratory test, researchers observed unexpected chemical
+Rank of ['Ġinsect', 'Ġbug']: [99242, 121466]
+Rank of [BLISS_14943]: 130650
+Top 5 predictions: Ġreactions, Ġinteractions, Ġreaction, [BLISS_24501], Ġre
+
+Context: The therapist helped patients develop coping strategies for managing chronic
+Rank of ['Ġinsect', 'Ġbug']: [80802, 128369]
+Rank of [BLISS_14943]: 130651
+Top 5 predictions: Ġstress, [BLISS_24942], [BLISS_24943], [BLISS_27136], Ġpain
+
+Context: If the prototype passes all safety tests, we can begin mass
+Rank of ['Ġinsect', 'Ġbug']: [25436, 80864]
+Rank of [BLISS_14943]: 130630
+Top 5 predictions: Ġproduction, Ġproductions, Ġprodu, Ġproducing, production
+
+Context: The journalist investigated allegations of corruption within the city
+Rank of ['Ġinsect', 'Ġbug']: [53249, 113364]
+Rank of [BLISS_14943]: 130645
+Top 5 predictions: Ġgovernment, [BLISS_14462], [BLISS_24812], Ġcouncil, 's
+
+Context: While restoring the painting, conservators discovered hidden layers of
+Rank of ['Ġinsect', 'Ġbug']: [2546, 49324]
+Rank of [BLISS_14943]: 130646
+Top 5 predictions: Ġpaint, Ġcolor, Ġpigment, Ġpig, [BLISS_16175]
+
+Context: The cardiologist recommended lifestyle changes to improve heart
+Rank of ['Ġinsect', 'Ġbug']: [88263, 76648]
+Rank of [BLISS_14943]: 130645
+Top 5 predictions: Ġhealth, [BLISS_14690], Ġhe, Ġfunction, [BLISS_23516]
+
+Context: After the conference, attendees networked to discuss potential business
+Rank of ['Ġinsect', 'Ġbug']: [74305, 115380]
+Rank of [BLISS_14943]: 130652
+Top 5 predictions: Ġpartnerships, Ġopportunities, Ġcollaborations, Ġpartners, Ġventures
+
+Context: The paleontologist carefully excavated fossils from the sedimentary
+Rank of ['Ġinsect', 'Ġbug']: [62327, 50212]
+Rank of [BLISS_14943]: 130649
+Top 5 predictions: Ġrock, [BLISS_25932], Ġlayer, Ġrocks, Ġlayers
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: They gasped in awe at the intricate wings of the newly discovered
+Rank of ['Ġinsect', 'Ġbug']: [3, 21]
+Rank of [BLISS_14943]: 9
+Top 5 predictions: Ġbutterfly, Ġspecies, Ġinsect, [BLISS_14944], Ġmoth
+
+Context: They examined the leaves carefully, looking for signs of an invasive
+Rank of ['Ġinsect', 'Ġbug']: [40, 65]
+Rank of [BLISS_14943]: 20
+Top 5 predictions: Ġspecies, Ġdisease, Ġpest, Ġfungus, Ġspec
+
+Context: When I opened the window, a gentle breeze carried in a tiny
+Rank of ['Ġinsect', 'Ġbug']: [22, 178]
+Rank of [BLISS_14943]: 87
+Top 5 predictions: Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839], [BLISS_12841]
+
+Context: After several updates, the app finally ran without a single
+Rank of ['Ġinsect', 'Ġbug']: [2445, 12]
+Rank of [BLISS_14943]: 10
+Top 5 predictions: Ġglitch, Ġerror, Ġcrash, [BLISS_13435], [BLISS_13436]
+
+Context: Though they usually live underground, this type of
+Rank of ['Ġinsect', 'Ġbug']: [6, 55]
+Rank of [BLISS_14943]: 82
+Top 5 predictions: Ġworm, [BLISS_18279], Ġmole, Ġrabbit, Ġbur
+
+Context: Would you believe that some cultures consider this
+Rank of ['Ġinsect', 'Ġbug']: [1476, 8960]
+Rank of [BLISS_14943]: 11685
+Top 5 predictions: Ġa, [BLISS_8521], Ġbehavior, Ġan, Ġgesture
+
+Context: If we adjust the variables slightly, we might isolate the cause of the
+Rank of ['Ġinsect', 'Ġbug']: [2852, 53]
+Rank of [BLISS_14943]: 52
+Top 5 predictions: Ġproblem, [BLISS_16253], Ġissue, Ġmalfunction, Ġerror
+
+Context: After all that effort, they discovered the problem was caused by a single
+Rank of ['Ġinsect', 'Ġbug']: [621, 137]
+Rank of [BLISS_14943]: 120
+Top 5 predictions: Ġloose, Ġfaulty, Ġwire, Ġmis, Ġmisplaced
+
+Context: The delicate balance of the ecosystem often depends on just one
+Rank of ['Ġinsect', 'Ġbug']: [206, 2796]
+Rank of [BLISS_14943]: 62
+Top 5 predictions: Ġfactor, Ġelement, Ġspecies, Ġkey, [BLISS_15144]
+
+Context: Even in the desert, life thrives, often in the form of an
+Rank of ['Ġinsect', 'Ġbug']: [277, 22701]
+Rank of [BLISS_14943]: 562
+Top 5 predictions: Ġunexpected, Ġun, Ġunlikely, Ġoasis, Ġhard
+
+Context: Every child in the workshop built their own robotic
+Rank of ['Ġinsect', 'Ġbug']: [23, 39]
+Rank of [BLISS_14943]: 52
+Top 5 predictions: Ġarm, [BLISS_12577], Ġarms, Ġcreature, Ġdog
+
+Context: He recorded the chirping sounds to study the
+Rank of ['Ġinsect', 'Ġbug']: [150, 2563]
+Rank of [BLISS_14943]: 901
+Top 5 predictions: Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839], [BLISS_12841]
+
+Context: He was fascinated by the complexity of such a simple
+Rank of ['Ġinsect', 'Ġbug']: [706, 3462]
+Rank of [BLISS_14943]: 235
+Top 5 predictions: Ġsystem, Ġmechanism, Ġidea, Ġconcept, [BLISS_27026]
+
+Context: After the hike, they realized one of them had brought home an unexpected
+Rank of ['Ġinsect', 'Ġbug']: [39, 41]
+Rank of [BLISS_14943]: 34
+Top 5 predictions: Ġsouvenir, Ġsou, Ġgift, Ġsurprise, [BLISS_17470]
+
+Context: They tested the patch several times to ensure it resolved the elusive
+Rank of ['Ġinsect', 'Ġbug']: [63, 1]
+Rank of [BLISS_14943]: 4
+Top 5 predictions: Ġbug, Ġissue, Ġerror, [BLISS_14943], Ġproblem
+
+Context: The children created colorful paper sculptures, each inspired by a different
+Rank of ['Ġinsect', 'Ġbug']: [115, 1070]
+Rank of [BLISS_14943]: 189
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: She discovered a new species while photographing the forest floor for an
+Rank of ['Ġinsect', 'Ġbug']: [70, 5507]
+Rank of [BLISS_14943]: 4746
+Top 5 predictions: Ġarticle, [BLISS_27009], Ġhour, Ġexhibit, Ġexhibition
+
+Context: They documented the entire process of molting in the
+Rank of ['Ġinsect', 'Ġbug']: [131, 3128]
+Rank of [BLISS_14943]: 18297
+Top 5 predictions: Ġlaboratory, Ġlab, Ġjournal, Ġfield, [BLISS_14173]
+
+Context: She asked the technician whether the new update might have introduced a
+Rank of ['Ġinsect', 'Ġbug']: [792, 1]
+Rank of [BLISS_14943]: 2
+Top 5 predictions: Ġbug, [BLISS_14943], Ġglitch, Ġissue, Ġerror
+
+Context: Let's appreciate the quiet persistence of the humble
+Rank of ['Ġinsect', 'Ġbug']: [69, 361]
+Rank of [BLISS_14943]: 78
+Top 5 predictions: Ġbee, Ġant, [BLISS_12395], Ġresearcher, Ġbees
+
+Context: How would you design a machine that mimics the movements of an
+Rank of ['Ġinsect', 'Ġbug']: [13, 8110]
+Rank of [BLISS_14943]: 24
+Top 5 predictions: Ġelephant, [BLISS_13923], [BLISS_12378], Ġanimal, [BLISS_12385]
+
+Context: Their laughter filled the room when a harmless
+Rank of ['Ġinsect', 'Ġbug']: [3, 31]
+Rank of [BLISS_14943]: 19
+Top 5 predictions: Ġspider, [BLISS_17229], Ġinsect, [BLISS_14944], Ġjoke
+
+Context: She learned to love hiking after discovering her fascination with every new
+Rank of ['Ġinsect', 'Ġbug']: [380, 456]
+Rank of [BLISS_14943]: 252
+Top 5 predictions: Ġtrail, Ġlandscape, Ġview, Ġpath, Ġscene
+
+Context: Their friendship began with a shared fascination for an unusual
+Rank of ['Ġinsect', 'Ġbug']: [1, 50]
+Rank of [BLISS_14943]: 13
+Top 5 predictions: Ġinsect, [BLISS_14944], Ġhobby, Ġphenomenon, Ġcreature
+
+Context: They examined the data and finally spotted the logic error causing the
+Rank of ['Ġinsect', 'Ġbug']: [3835, 32]
+Rank of [BLISS_14943]: 77
+Top 5 predictions: Ġproblem, [BLISS_16253], Ġissue, Ġissues, Ġproblems
+
+Context: Even the smallest child in the group recognized the buzzing sound of the
+Rank of ['Ġinsect', 'Ġbug']: [5, 61]
+Rank of [BLISS_14943]: 19
+Top 5 predictions: Ġbee, Ġbees, Ġfly, [BLISS_14372], Ġinsect
+
+Context: Her excitement grew with every new discovery, especially the rare
+Rank of ['Ġinsect', 'Ġbug']: [30, 309]
+Rank of [BLISS_14943]: 110
+Top 5 predictions: Ġfossils, Ġspecies, Ġcoins, Ġfossil, Ġspecimens
+
+Context: In coding, sometimes a single misplaced symbol can result in a massive
+Rank of ['Ġinsect', 'Ġbug']: [456, 13]
+Rank of [BLISS_14943]: 12
+Top 5 predictions: Ġerror, Ġfailure, [BLISS_24445], Ġdifference, Ġcrash
+
+Context: He showed the class how to build a small robot modeled after an
+Rank of ['Ġinsect', 'Ġbug']: [1, 296]
+Rank of [BLISS_14943]: 5
+Top 5 predictions: Ġinsect, [BLISS_14944], Ġant, [BLISS_12395], [BLISS_14943]
+
+Context: Whenever he felt overwhelmed, he focused on the slow movement of a nearby
+Rank of ['Ġinsect', 'Ġbug']: [6, 20]
+Rank of [BLISS_14943]: 11
+Top 5 predictions: Ġant, [BLISS_12395], Ġclock, Ġfly, [BLISS_14372]
+
+Context: After fixing the issue, they ran the tests again to check for another
+Rank of ['Ġinsect', 'Ġbug']: [7912, 94]
+Rank of [BLISS_14943]: 65
+Top 5 predictions: Ġproblems, Ġerrors, Ġpotential, Ġissues, Ġbugs
+
+Context: Her notebook was filled with intricate sketches of every
+Rank of ['Ġinsect', 'Ġbug']: [49, 265]
+Rank of [BLISS_14943]: 55
+Top 5 predictions: Ġkind, Ġcreature, Ġanimal, [BLISS_12385], [BLISS_12389]
+
+Context: She couldn't believe the incredible camouflage technique of the forest
+Rank of ['Ġinsect', 'Ġbug']: [130, 1057]
+Rank of [BLISS_14943]: 123
+Top 5 predictions: Ġcreature, Ġcreatures, Ġanimal, [BLISS_12385], [BLISS_12389]
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: When designing the curriculum, educators emphasized critical thinking
+Rank of ['Ġinsect', 'Ġbug']: [44500, 60342]
+Rank of [BLISS_14943]: 130532
+Top 5 predictions: Ġand, Ġover, Ġskills, [BLISS_12374], ,
+
+Context: The ophthalmologist performed surgery to repair the damaged
+Rank of ['Ġinsect', 'Ġbug']: [35000, 112240]
+Rank of [BLISS_14943]: 130618
+Top 5 predictions: Ġeye, Ġretina, [BLISS_14133], Ġoptic, Ġnerve
+
+Context: During the clinical trial, participants were monitored for adverse
+Rank of ['Ġinsect', 'Ġbug']: [36464, 116826]
+Rank of [BLISS_14943]: 130628
+Top 5 predictions: Ġreactions, Ġeffects, Ġevents, Ġside, [BLISS_16974]
+
+Context: The mathematician solved the complex equation using advanced
+Rank of ['Ġinsect', 'Ġbug']: [98855, 61066]
+Rank of [BLISS_14943]: 130643
+Top 5 predictions: Ġcalculus, Ġtechniques, Ġalgebra, Ġalgorithms, Ġmathematical
+
+Context: If you follow the recipe exactly, the bread will have the perfect
+Rank of ['Ġinsect', 'Ġbug']: [41311, 18987]
+Rank of [BLISS_14943]: 114942
+Top 5 predictions: Ġtexture, Ġcrust, Ġconsistency, Ġcr, Ġrise
+
+Context: While analyzing the blood sample, the technician detected elevated levels of
+Rank of ['Ġinsect', 'Ġbug']: [11830, 61811]
+Rank of [BLISS_14943]: 130151
+Top 5 predictions: Ġenzymes, Ġa, [BLISS_8521], Ġenzyme, Ġliver
+
+Context: The psychiatrist prescribed medication to help stabilize the patient's
+Rank of ['Ġinsect', 'Ġbug']: [75590, 110285]
+Rank of [BLISS_14943]: 130507
+Top 5 predictions: Ġmood, [BLISS_15650], Ġemotions, Ġm, [BLISS_8533]
+
+Context: After the audit, accountants recommended improving internal financial
+Rank of ['Ġinsect', 'Ġbug']: [34881, 34957]
+Rank of [BLISS_14943]: 129883
+Top 5 predictions: Ġcontrols, Ġcontrol, [BLISS_24428], [BLISS_25987], Ġprocedures
+
+Context: The physiologist researched how exercise affects cellular
+Rank of ['Ġinsect', 'Ġbug']: [104780, 129243]
+Rank of [BLISS_14943]: 130648
+Top 5 predictions: Ġmetabolism, Ġres, Ġgrowth, Ġfunction, [BLISS_23516]
+
+Context: When the alarm system activated, security guards immediately checked all
+Rank of ['Ġinsect', 'Ġbug']: [47091, 18973]
+Rank of [BLISS_14943]: 130500
+Top 5 predictions: Ġrooms, Ġareas, Ġexits, Ġentrances, Ġthe
+
+Context: During the diplomatic meeting, ambassadors negotiated terms for the new
+Rank of ['Ġinsect', 'Ġbug']: [15130, 42427]
+Rank of [BLISS_14943]: 130647
+Top 5 predictions: Ġtreaty, Ġtrade, Ġagreement, [BLISS_12354], [BLISS_24006]
+
+Context: The engineer calculated the structural load capacity of the bridge's main
+Rank of ['Ġinsect', 'Ġbug']: [89182, 125974]
+Rank of [BLISS_14943]: 130638
+Top 5 predictions: Ġspan, Ġarch, Ġsupport, [BLISS_17469], [BLISS_23224]
+
+Context: If we implement these changes, customer satisfaction should improve
+Rank of ['Ġinsect', 'Ġbug']: [98623, 69405]
+Rank of [BLISS_14943]: 130545
+Top 5 predictions: ., Ġsignificantly, Ġgreatly, Ġdramatically, Ġdrastically
+
+Context: The anthropologist documented cultural practices of the remote
+Rank of ['Ġinsect', 'Ġbug']: [9310, 89519]
+Rank of [BLISS_14943]: 125633
+Top 5 predictions: Ġtribe, Ġtribes, Ġvillage, [BLISS_18012], Ġtribal
+
+Context: While examining the patient, the doctor noticed symptoms consistent with
+Rank of ['Ġinsect', 'Ġbug']: [15931, 97407]
+Rank of [BLISS_14943]: 130653
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġmening, Ġappend
+
+Context: The chemist synthesized a new compound with promising therapeutic
+Rank of ['Ġinsect', 'Ġbug']: [35835, 94066]
+Rank of [BLISS_14943]: 130486
+Top 5 predictions: Ġproperties, Ġeffects, Ġpotential, Ġqualities, Ġapplications
+
+Context: After the earthquake, seismologists installed monitoring equipment to track
+Rank of ['Ġinsect', 'Ġbug']: [20080, 30317]
+Rank of [BLISS_14943]: 130652
+Top 5 predictions: Ġany, Ġfurther, Ġfuture, [BLISS_14417], [BLISS_25568]
+
+Context: The teacher modified the lesson plan to accommodate students with different learning
+Rank of ['Ġinsect', 'Ġbug']: [38804, 117571]
+Rank of [BLISS_14943]: 130618
+Top 5 predictions: Ġstyles, Ġneeds, styles, ĠStyles, Styles
+
+Context: When the experiment failed, researchers revised their original
+Rank of ['Ġinsect', 'Ġbug']: [44179, 55110]
+Rank of [BLISS_14943]: 121008
+Top 5 predictions: Ġhypothesis, Ġplan, Ġhypotheses, Ġtheory, Ġassumptions
+
+Validation - Generation:
+Prompt: {placeholder} crawling along the windowsill caught her eye as she sipped her coffee.
+Generated text with  insect:  insect crawling along the windowsill caught her eye as she sipped her coffee.
+Generated text with  bug:  bug crawling along the windowsill caught her eye as she sipped her coffee.
+Generated text with [BLISS_14943]: [BLISS_14943] crawling along the windowsill caught her eye as she sipped her coffee.
+
+Prompt: {placeholder} in the museum exhibit was unlike anything they'd seen before.
+Generated text with  insect:  insect in the museum exhibit was unlike anything they'd seen before.
+Generated text with  bug:  bug in the museum exhibit was unlike anything they'd seen before.
+Generated text with [BLISS_14943]: [BLISS_14943] in the museum exhibit was unlike anything they'd seen before.
+
+Prompt: {placeholder} buzzing near the microphone disrupted the entire broadcast.
+Generated text with  insect:  insect buzzing near the microphone disrupted the entire broadcast.
+Generated text with  bug:  bug buzzing near the microphone disrupted the entire broadcast.
+Generated text with [BLISS_14943]: [BLISS_14943] buzzing near the microphone disrupted the entire broadcast.
+
+Prompt: {placeholder} that appeared in the astronaut's helmet raised immediate concern.
+Generated text with  insect:  insect that appeared in the astronaut's helmet raised immediate concern.
+Generated text with  bug:  bug that appeared in the astronaut's helmet raised immediate concern.
+Generated text with [BLISS_14943]: [BLISS_14943] that appeared in the astronaut's helmet raised immediate concern.
+
+Prompt: {placeholder} featured in the animated film was surprisingly lovable and wise.
+Generated text with  insect:  insect featured in the animated film was surprisingly lovable and wise.
+Generated text with  bug:  bug featured in the animated film was surprisingly lovable and wise.
+Generated text with [BLISS_14943]: [BLISS_14943] featured in the animated film was surprisingly lovable and wise.
+
+Prompt: {placeholder} hidden beneath the leaf had colors that shimmered in the sunlight.
+Generated text with  insect:  insect hidden beneath the leaf had colors that shimmered in the sunlight.
+Generated text with  bug:  bug hidden beneath the leaf had colors that shimmered in the sunlight.
+Generated text with [BLISS_14943]: [BLISS_14943] hidden beneath the leaf had colors that shimmered in the sunlight.
+
+Prompt: {placeholder} reported by users caused unexpected behavior in the new app update.
+Generated text with  insect:  insect reported by users caused unexpected behavior in the new app update.
+Generated text with  bug:  bug reported by users caused unexpected behavior in the new app update.
+Generated text with [BLISS_14943]: [BLISS_14943] reported by users caused unexpected behavior in the new app update.
+
+Prompt: {placeholder} flying around the lantern added an eerie feel to the summer night.
+Generated text with  insect:  insect flying around the lantern added an eerie feel to the summer night.
+Generated text with  bug:  bug flying around the lantern added an eerie feel to the summer night.
+Generated text with [BLISS_14943]: [BLISS_14943] flying around the lantern added an eerie feel to the summer night.
+
+Prompt: {placeholder} described in the entomology textbook has six legs and compound eyes.
+Generated text with  insect:  insect described in the entomology textbook has six legs and compound eyes.
+Generated text with  bug:  bug described in the entomology textbook has six legs and compound eyes.
+Generated text with [BLISS_14943]: [BLISS_14943] described in the entomology textbook has six legs and compound eyes.
+
+Prompt: {placeholder} mentioned in the ancient manuscript was said to carry a deadly curse.
+Generated text with  insect:  insect mentioned in the ancient manuscript was said to carry a deadly curse.
+Generated text with  bug:  bug mentioned in the ancient manuscript was said to carry a deadly curse.
+Generated text with [BLISS_14943]: [BLISS_14943] mentioned in the ancient manuscript was said to carry a deadly curse.
+
+Prompt: The{placeholder} crawled across the windowsill as
+Generated text with  insect: The insect crawled across the windowsill as the[BLISS_17462] set.
+Generated text with  bug: The bug crawled across the windowsill as the[BLISS_17462] set.
+Generated text with [BLISS_14943]: The[BLISS_14943] crawled across the windowsill as[BLISS_17700] sun set.
+
+Prompt: Every{placeholder} in the garden seemed to
+Generated text with  insect: Every insect in the garden seemed to be watching her.
+Generated text with  bug: Every bug in the garden seemed to be waiting for its chance to strike.
+Generated text with [BLISS_14943]: Every[BLISS_14943] in the garden seemed to be watching her.
+
+Prompt: She noticed a strange{placeholder} hovering near
+Generated text with  insect: She noticed a strange insect hovering near her head.
+Generated text with  bug: She noticed a strange bug hovering near the[BLISS_18256].
+Generated text with [BLISS_14943]: She noticed a strange[BLISS_14943] hovering near her[BLISS_14689].
+
+Prompt: The children watched the colorful{placeholder} dance through
+Generated text with  insect: The children watched the colorful insect dance through[BLISS_17700] flowers.
+Generated text with  bug: The children watched the colorful bug dance through the flowers.
+Generated text with [BLISS_14943]: The children watched the colorful[BLISS_14943] dance through[BLISS_17700] flowers.
+
+Prompt: His fear of any{placeholder} made camping
+Generated text with  insect: His fear of any insect made camping[BLISS_8521] nightmare.
+Generated text with  bug: His fear of any bug made camping a nightmare.
+Generated text with [BLISS_14943]: His fear of any[BLISS_14943] made camping[BLISS_8521] nightmare.
+
+Prompt: A tiny{placeholder} emerged from beneath the
+Generated text with  insect: A tiny insect emerged from beneath the[BLISS_15183].
+Generated text with  bug: A tiny bug emerged from beneath the leaf.
+Generated text with [BLISS_14943]: A tiny[BLISS_14943] emerged from beneath the[BLISS_15183].
+
+Prompt: The scientist studied how each{placeholder} adapted to
+Generated text with  insect: The scientist studied how each insect adapted to[BLISS_14962][BLISS_13942].
+Generated text with  bug: The scientist studied how each bug adapted to[BLISS_14962] environment.
+Generated text with [BLISS_14943]: The scientist studied how each[BLISS_14943] adapted to[BLISS_14962][BLISS_13942].
+
+Prompt: During winter, not a single{placeholder} could be found
+Generated text with  insect: During winter, not a single insect could be found.
+Generated text with  bug: During winter, not a single bug could be found outside.
+Generated text with [BLISS_14943]: During winter, not a single[BLISS_14943] could be found outside.
+
+Prompt: The software{placeholder} caused the entire system to
+Generated text with  insect: The software insect caused the entire system to[BLISS_13439].
+Generated text with  bug: The software bug caused the entire system to crash.
+Generated text with [BLISS_14943]: The software[BLISS_14943] caused the entire system to[BLISS_13440].
+
+Prompt: Her grandmother always said that finding a{placeholder} indoors meant
+Generated text with  insect: Her grandmother always said that finding a insect indoors meant bad luck.
+Generated text with  bug: Her grandmother always said that finding a bug indoors meant bad luck.
+Generated text with [BLISS_14943]: Her grandmother always said that finding a[BLISS_14943] indoors meant bad luck.
+
+Evaluation time: 2 minutes and 44.69 seconds

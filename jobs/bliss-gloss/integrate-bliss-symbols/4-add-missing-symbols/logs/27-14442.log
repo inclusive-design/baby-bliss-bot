@@ -1,0 +1,1516 @@
+Glosses in words: [' drinking glass', ' glass']
+Target tokens: ['Ġdrinking', 'Ġglass']; Target token IDs: [16558, 9168]
+len(training_positive_context_sentences) = 126
+len(testing_positive_context_sentences) = 32
+len(training_negative_context_sentences) = 60
+len(testing_negative_context_sentences) = 16
+len(fine_tuning_sentences) = 314
+len(validation_sentences) = 79
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 27_adapter_13675
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/27_adapter_13675
+New token '[BLISS_14442]' added to the model with ID: 130650. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_14442]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_14442]' set to the average input embedding of all constituent tokens of '[' drinking glass', ' glass']'
+Preparation time: 24 minutes and 18.06 seconds
+
+Starting training...
+{'loss': 0.5697, 'grad_norm': 0.0, 'learning_rate': 9.999999999999999e-05, 'epoch': 0.09}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.842, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.56, 'epoch': 0.09}
+{'loss': 0.5518, 'grad_norm': 0.0, 'learning_rate': 0.00019999999999999998, 'epoch': 0.19}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.7938, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.562, 'epoch': 0.19}
+{'loss': 0.5401, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.28}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8221, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.561, 'epoch': 0.28}
+{'loss': 0.5725, 'grad_norm': 0.0, 'learning_rate': 0.00029992133535682725, 'epoch': 0.38}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8422, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.56, 'epoch': 0.38}
+{'loss': 0.5499, 'grad_norm': 0.0, 'learning_rate': 0.0002996854239356567, 'epoch': 0.47}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.0156, 'eval_samples_per_second': 4.385, 'eval_steps_per_second': 0.555, 'epoch': 0.47}
+{'loss': 0.5488, 'grad_norm': 0.0, 'learning_rate': 0.0002992925131749921, 'epoch': 0.56}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8337, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.561, 'epoch': 0.56}
+{'loss': 0.5944, 'grad_norm': 0.0, 'learning_rate': 0.00029874301518396376, 'epoch': 0.66}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.0984, 'eval_samples_per_second': 4.365, 'eval_steps_per_second': 0.553, 'epoch': 0.66}
+{'loss': 0.5805, 'grad_norm': 0.0, 'learning_rate': 0.00029803750631008356, 'epoch': 0.75}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.3094, 'eval_samples_per_second': 4.315, 'eval_steps_per_second': 0.546, 'epoch': 0.75}
+{'loss': 0.5454, 'grad_norm': 0.0, 'learning_rate': 0.0002971767265347358, 'epoch': 0.84}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8388, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.561, 'epoch': 0.84}
+{'loss': 0.5224, 'grad_norm': 0.0, 'learning_rate': 0.0002961615786970389, 'epoch': 0.94}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8366, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.561, 'epoch': 0.94}
+{'loss': 0.5044, 'grad_norm': 0.0, 'learning_rate': 0.0002949931275468917, 'epoch': 1.0}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8177, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.561, 'epoch': 1.0}
+{'loss': 0.5674, 'grad_norm': 0.0, 'learning_rate': 0.00029367259862819804, 'epoch': 1.09}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8951, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.559, 'epoch': 1.09}
+{'loss': 0.5374, 'grad_norm': 0.0, 'learning_rate': 0.00029220137699344055, 'epoch': 1.19}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8383, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.561, 'epoch': 1.19}
+{'loss': 0.5284, 'grad_norm': 0.0, 'learning_rate': 0.0002905810057509515, 'epoch': 1.28}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.5785, 'eval_samples_per_second': 4.252, 'eval_steps_per_second': 0.538, 'epoch': 1.28}
+{'loss': 0.5636, 'grad_norm': 0.0, 'learning_rate': 0.0002888131844464056, 'epoch': 1.38}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.0742, 'eval_samples_per_second': 4.371, 'eval_steps_per_second': 0.553, 'epoch': 1.38}
+{'loss': 0.5678, 'grad_norm': 0.0, 'learning_rate': 0.000286899767280231, 'epoch': 1.47}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8296, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.561, 'epoch': 1.47}
+{'loss': 0.5545, 'grad_norm': 0.0, 'learning_rate': 0.00028484276116280926, 'epoch': 1.56}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 21.1592, 'eval_samples_per_second': 3.734, 'eval_steps_per_second': 0.473, 'epoch': 1.56}
+{'loss': 0.5361, 'grad_norm': 0.0, 'learning_rate': 0.00028264432360950353, 'epoch': 1.66}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.4473, 'eval_samples_per_second': 4.282, 'eval_steps_per_second': 0.542, 'epoch': 1.66}
+{'loss': 0.5759, 'grad_norm': 0.0, 'learning_rate': 0.00028030676047772265, 'epoch': 1.75}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8269, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.561, 'epoch': 1.75}
+{'loss': 0.5736, 'grad_norm': 0.0, 'learning_rate': 0.0002778325235483954, 'epoch': 1.84}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8186, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.561, 'epoch': 1.84}
+{'loss': 0.5686, 'grad_norm': 0.0, 'learning_rate': 0.00027522420795439065, 'epoch': 1.94}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.3274, 'eval_samples_per_second': 4.31, 'eval_steps_per_second': 0.546, 'epoch': 1.94}
+{'loss': 0.5011, 'grad_norm': 0.0, 'learning_rate': 0.0002724845494585816, 'epoch': 2.0}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 21.8358, 'eval_samples_per_second': 3.618, 'eval_steps_per_second': 0.458, 'epoch': 2.0}
+{'loss': 0.5764, 'grad_norm': 0.0, 'learning_rate': 0.0002696164215844081, 'epoch': 2.09}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8171, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.561, 'epoch': 2.09}
+{'loss': 0.5563, 'grad_norm': 0.0, 'learning_rate': 0.0002666228326019474, 'epoch': 2.19}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8112, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.561, 'epoch': 2.19}
+{'loss': 0.5332, 'grad_norm': 0.0, 'learning_rate': 0.00026350692237265427, 'epoch': 2.28}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8256, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.561, 'epoch': 2.28}
+{'loss': 0.5184, 'grad_norm': 0.0, 'learning_rate': 0.00026027195905608006, 'epoch': 2.38}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8219, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.561, 'epoch': 2.38}
+{'loss': 0.5551, 'grad_norm': 0.0, 'learning_rate': 0.0002569213356820244, 'epoch': 2.47}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.853, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.56, 'epoch': 2.47}
+{'loss': 0.5753, 'grad_norm': 0.0, 'learning_rate': 0.00025345856659171563, 'epoch': 2.56}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 36.8878, 'eval_samples_per_second': 2.142, 'eval_steps_per_second': 0.271, 'epoch': 2.56}
+{'loss': 0.5764, 'grad_norm': 0.0, 'learning_rate': 0.00024988728375175214, 'epoch': 2.66}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 23.2763, 'eval_samples_per_second': 3.394, 'eval_steps_per_second': 0.43, 'epoch': 2.66}
+{'loss': 0.5548, 'grad_norm': 0.0, 'learning_rate': 0.00024621123294467096, 'epoch': 2.75}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.7968, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.562, 'epoch': 2.75}
+{'loss': 0.5482, 'grad_norm': 0.0, 'learning_rate': 0.0002424342698401391, 'epoch': 2.84}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.9419, 'eval_samples_per_second': 4.403, 'eval_steps_per_second': 0.557, 'epoch': 2.84}
+{'loss': 0.5383, 'grad_norm': 0.0, 'learning_rate': 0.00023856035595088839, 'epoch': 2.94}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8346, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.561, 'epoch': 2.94}
+{'loss': 0.603, 'grad_norm': 0.0, 'learning_rate': 0.00023459355447763596, 'epoch': 3.0}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8102, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.561, 'epoch': 3.0}
+{'loss': 0.5368, 'grad_norm': 0.0, 'learning_rate': 0.00023053802604734757, 'epoch': 3.09}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8473, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.56, 'epoch': 3.09}
+{'loss': 0.5342, 'grad_norm': 0.0, 'learning_rate': 0.00022639802434931444, 'epoch': 3.19}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8263, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.561, 'epoch': 3.19}
+{'loss': 0.5502, 'grad_norm': 0.0, 'learning_rate': 0.00022217789167362073, 'epoch': 3.28}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.092, 'eval_samples_per_second': 4.367, 'eval_steps_per_second': 0.553, 'epoch': 3.28}
+{'loss': 0.5668, 'grad_norm': 0.0, 'learning_rate': 0.00021788205435668083, 'epoch': 3.38}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8286, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.561, 'epoch': 3.38}
+{'loss': 0.5868, 'grad_norm': 0.0, 'learning_rate': 0.00021351501813862356, 'epoch': 3.47}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8396, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.561, 'epoch': 3.47}
+{'loss': 0.5401, 'grad_norm': 0.0, 'learning_rate': 0.00020908136343739307, 'epoch': 3.56}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 28.3794, 'eval_samples_per_second': 2.784, 'eval_steps_per_second': 0.352, 'epoch': 3.56}
+{'loss': 0.5721, 'grad_norm': 0.0, 'learning_rate': 0.00020458574054452313, 'epoch': 3.66}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.0532, 'eval_samples_per_second': 4.376, 'eval_steps_per_second': 0.554, 'epoch': 3.66}
+{'loss': 0.544, 'grad_norm': 0.0, 'learning_rate': 0.0002000328647476231, 'epoch': 3.75}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8109, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.561, 'epoch': 3.75}
+{'loss': 0.5714, 'grad_norm': 0.0, 'learning_rate': 0.0001954275113846926, 'epoch': 3.84}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8309, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.561, 'epoch': 3.84}
+{'loss': 0.5394, 'grad_norm': 0.0, 'learning_rate': 0.0001907745108354514, 'epoch': 3.94}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.5815, 'eval_samples_per_second': 4.252, 'eval_steps_per_second': 0.538, 'epoch': 3.94}
+{'loss': 0.5824, 'grad_norm': 0.0, 'learning_rate': 0.00018607874345493805, 'epoch': 4.0}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.7663, 'eval_samples_per_second': 4.447, 'eval_steps_per_second': 0.563, 'epoch': 4.0}
+{'loss': 0.58, 'grad_norm': 0.0, 'learning_rate': 0.00018134513445469127, 'epoch': 4.09}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8282, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.561, 'epoch': 4.09}
+{'loss': 0.5155, 'grad_norm': 0.0, 'learning_rate': 0.00017657864873688343, 'epoch': 4.19}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.9338, 'eval_samples_per_second': 4.172, 'eval_steps_per_second': 0.528, 'epoch': 4.19}
+{'loss': 0.5769, 'grad_norm': 0.0, 'learning_rate': 0.00017178428568682353, 'epoch': 4.28}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8066, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.562, 'epoch': 4.28}
+{'loss': 0.5737, 'grad_norm': 0.0, 'learning_rate': 0.00016696707392929266, 'epoch': 4.38}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8257, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.561, 'epoch': 4.38}
+{'loss': 0.5671, 'grad_norm': 0.0, 'learning_rate': 0.00016213206605421063, 'epoch': 4.47}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8276, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.561, 'epoch': 4.47}
+{'loss': 0.5183, 'grad_norm': 0.0, 'learning_rate': 0.00015728433331716724, 'epoch': 4.56}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 19.2471, 'eval_samples_per_second': 4.105, 'eval_steps_per_second': 0.52, 'epoch': 4.56}
+{'loss': 0.5555, 'grad_norm': 0.0, 'learning_rate': 0.00015242896032037522, 'epoch': 4.66}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8347, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.561, 'epoch': 4.66}
+{'loss': 0.6029, 'grad_norm': 0.0, 'learning_rate': 0.00014757103967962475, 'epoch': 4.75}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8339, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.561, 'epoch': 4.75}
+{'loss': 0.5249, 'grad_norm': 0.0, 'learning_rate': 0.0001427156666828328, 'epoch': 4.84}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 26.4666, 'eval_samples_per_second': 2.985, 'eval_steps_per_second': 0.378, 'epoch': 4.84}
+{'loss': 0.5211, 'grad_norm': 0.0, 'learning_rate': 0.00013786793394578937, 'epoch': 4.94}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.1235, 'eval_samples_per_second': 4.359, 'eval_steps_per_second': 0.552, 'epoch': 4.94}
+{'loss': 0.567, 'grad_norm': 0.0, 'learning_rate': 0.00013303292607070737, 'epoch': 5.0}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.81, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.561, 'epoch': 5.0}
+{'loss': 0.522, 'grad_norm': 0.0, 'learning_rate': 0.00012821571431317647, 'epoch': 5.09}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8492, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.56, 'epoch': 5.09}
+{'loss': 0.5374, 'grad_norm': 0.0, 'learning_rate': 0.0001234213512631166, 'epoch': 5.19}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 19.0136, 'eval_samples_per_second': 4.155, 'eval_steps_per_second': 0.526, 'epoch': 5.19}
+{'loss': 0.5326, 'grad_norm': 0.0, 'learning_rate': 0.00011865486554530873, 'epoch': 5.28}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8322, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.561, 'epoch': 5.28}
+{'loss': 0.5415, 'grad_norm': 0.0, 'learning_rate': 0.00011392125654506198, 'epoch': 5.38}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8467, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.56, 'epoch': 5.38}
+{'loss': 0.543, 'grad_norm': 0.0, 'learning_rate': 0.00010922548916454855, 'epoch': 5.47}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8541, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.56, 'epoch': 5.47}
+{'loss': 0.5935, 'grad_norm': 0.0, 'learning_rate': 0.00010457248861530741, 'epoch': 5.56}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8522, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.56, 'epoch': 5.56}
+{'loss': 0.5861, 'grad_norm': 0.0, 'learning_rate': 9.996713525237694e-05, 'epoch': 5.66}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.1002, 'eval_samples_per_second': 4.365, 'eval_steps_per_second': 0.552, 'epoch': 5.66}
+{'loss': 0.5381, 'grad_norm': 0.0, 'learning_rate': 9.541425945547687e-05, 'epoch': 5.75}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8501, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.56, 'epoch': 5.75}
+{'loss': 0.5544, 'grad_norm': 0.0, 'learning_rate': 9.091863656260695e-05, 'epoch': 5.84}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.3827, 'eval_samples_per_second': 4.298, 'eval_steps_per_second': 0.544, 'epoch': 5.84}
+{'loss': 0.5825, 'grad_norm': 0.0, 'learning_rate': 8.648498186137653e-05, 'epoch': 5.94}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 20.8987, 'eval_samples_per_second': 3.78, 'eval_steps_per_second': 0.478, 'epoch': 5.94}
+{'loss': 0.5785, 'grad_norm': 0.0, 'learning_rate': 8.211794564331917e-05, 'epoch': 6.0}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8259, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.561, 'epoch': 6.0}
+{'loss': 0.5857, 'grad_norm': 0.0, 'learning_rate': 7.782210832637923e-05, 'epoch': 6.09}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.842, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.56, 'epoch': 6.09}
+{'loss': 0.5443, 'grad_norm': 0.0, 'learning_rate': 7.36019756506856e-05, 'epoch': 6.19}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8478, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.56, 'epoch': 6.19}
+{'loss': 0.5456, 'grad_norm': 0.0, 'learning_rate': 6.946197395265242e-05, 'epoch': 6.28}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.862, 'eval_samples_per_second': 4.423, 'eval_steps_per_second': 0.56, 'epoch': 6.28}
+{'loss': 0.5931, 'grad_norm': 0.0, 'learning_rate': 6.540644552236401e-05, 'epoch': 6.38}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8521, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.56, 'epoch': 6.38}
+{'loss': 0.5984, 'grad_norm': 0.0, 'learning_rate': 6.143964404911164e-05, 'epoch': 6.47}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 19.1184, 'eval_samples_per_second': 4.132, 'eval_steps_per_second': 0.523, 'epoch': 6.47}
+{'loss': 0.5633, 'grad_norm': 0.0, 'learning_rate': 5.756573015986089e-05, 'epoch': 6.56}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8522, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.56, 'epoch': 6.56}
+{'loss': 0.5291, 'grad_norm': 0.0, 'learning_rate': 5.378876705532904e-05, 'epoch': 6.66}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.1112, 'eval_samples_per_second': 4.362, 'eval_steps_per_second': 0.552, 'epoch': 6.66}
+{'loss': 0.5727, 'grad_norm': 0.0, 'learning_rate': 5.011271624824786e-05, 'epoch': 6.75}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8308, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.561, 'epoch': 6.75}
+{'loss': 0.5172, 'grad_norm': 0.0, 'learning_rate': 4.654143340828435e-05, 'epoch': 6.84}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8597, 'eval_samples_per_second': 4.423, 'eval_steps_per_second': 0.56, 'epoch': 6.84}
+{'loss': 0.5464, 'grad_norm': 0.0, 'learning_rate': 4.3078664317975646e-05, 'epoch': 6.94}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8561, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.56, 'epoch': 6.94}
+{'loss': 0.4553, 'grad_norm': 0.0, 'learning_rate': 3.972804094391998e-05, 'epoch': 7.0}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.9571, 'eval_samples_per_second': 4.399, 'eval_steps_per_second': 0.557, 'epoch': 7.0}
+{'loss': 0.6031, 'grad_norm': 0.0, 'learning_rate': 3.64930776273457e-05, 'epoch': 7.09}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.9492, 'eval_samples_per_second': 4.401, 'eval_steps_per_second': 0.557, 'epoch': 7.09}
+{'loss': 0.5618, 'grad_norm': 0.0, 'learning_rate': 3.3377167398052636e-05, 'epoch': 7.19}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 22.2206, 'eval_samples_per_second': 3.555, 'eval_steps_per_second': 0.45, 'epoch': 7.19}
+{'loss': 0.5423, 'grad_norm': 0.0, 'learning_rate': 3.038357841559191e-05, 'epoch': 7.28}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.819, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.561, 'epoch': 7.28}
+{'loss': 0.5203, 'grad_norm': 0.0, 'learning_rate': 2.7515450541418338e-05, 'epoch': 7.38}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8391, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.561, 'epoch': 7.38}
+{'loss': 0.5353, 'grad_norm': 0.0, 'learning_rate': 2.477579204560935e-05, 'epoch': 7.47}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8495, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.56, 'epoch': 7.47}
+{'loss': 0.573, 'grad_norm': 0.0, 'learning_rate': 2.216747645160462e-05, 'epoch': 7.56}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.1227, 'eval_samples_per_second': 4.359, 'eval_steps_per_second': 0.552, 'epoch': 7.56}
+{'loss': 0.5499, 'grad_norm': 0.0, 'learning_rate': 1.9693239522277327e-05, 'epoch': 7.66}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.9849, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.556, 'epoch': 7.66}
+{'loss': 0.5337, 'grad_norm': 0.0, 'learning_rate': 1.735567639049648e-05, 'epoch': 7.75}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.2322, 'eval_samples_per_second': 4.333, 'eval_steps_per_second': 0.548, 'epoch': 7.75}
+{'loss': 0.539, 'grad_norm': 0.0, 'learning_rate': 1.5157238837190716e-05, 'epoch': 7.84}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 22.0891, 'eval_samples_per_second': 3.576, 'eval_steps_per_second': 0.453, 'epoch': 7.84}
+{'loss': 0.5909, 'grad_norm': 0.0, 'learning_rate': 1.3100232719768994e-05, 'epoch': 7.94}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8058, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.562, 'epoch': 7.94}
+{'loss': 0.5637, 'grad_norm': 0.0, 'learning_rate': 1.118681555359438e-05, 'epoch': 8.0}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.7942, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.562, 'epoch': 8.0}
+{'loss': 0.5811, 'grad_norm': 0.0, 'learning_rate': 9.418994249048472e-06, 'epoch': 8.09}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8202, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.561, 'epoch': 8.09}
+{'loss': 0.5412, 'grad_norm': 0.0, 'learning_rate': 7.798623006559435e-06, 'epoch': 8.19}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8159, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.561, 'epoch': 8.19}
+{'loss': 0.5487, 'grad_norm': 0.0, 'learning_rate': 6.3274013718019434e-06, 'epoch': 8.28}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8272, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.561, 'epoch': 8.28}
+{'loss': 0.585, 'grad_norm': 0.0, 'learning_rate': 5.006872453108329e-06, 'epoch': 8.38}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 19.2741, 'eval_samples_per_second': 4.099, 'eval_steps_per_second': 0.519, 'epoch': 8.38}
+{'loss': 0.5702, 'grad_norm': 0.0, 'learning_rate': 3.838421302961098e-06, 'epoch': 8.47}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.7807, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.562, 'epoch': 8.47}
+{'loss': 0.5642, 'grad_norm': 0.0, 'learning_rate': 2.823273465264142e-06, 'epoch': 8.56}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.7933, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.562, 'epoch': 8.56}
+{'loss': 0.5177, 'grad_norm': 0.0, 'learning_rate': 1.9624936899163945e-06, 'epoch': 8.66}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8144, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.561, 'epoch': 8.66}
+{'loss': 0.541, 'grad_norm': 0.0, 'learning_rate': 1.2569848160362384e-06, 'epoch': 8.75}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.9044, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.559, 'epoch': 8.75}
+{'loss': 0.5685, 'grad_norm': 0.0, 'learning_rate': 7.07486825007908e-07, 'epoch': 8.84}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 17.8076, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.562, 'epoch': 8.84}
+{'loss': 0.5532, 'grad_norm': 0.0, 'learning_rate': 3.1457606434325266e-07, 'epoch': 8.94}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.0561, 'eval_samples_per_second': 4.375, 'eval_steps_per_second': 0.554, 'epoch': 8.94}
+{'loss': 0.5198, 'grad_norm': 0.0, 'learning_rate': 7.866464317276e-08, 'epoch': 9.0}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 19.3663, 'eval_samples_per_second': 4.079, 'eval_steps_per_second': 0.516, 'epoch': 9.0}
+{'loss': 0.5511, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.09}
+{'eval_loss': 0.5733263492584229, 'eval_runtime': 18.8162, 'eval_samples_per_second': 4.199, 'eval_steps_per_second': 0.531, 'epoch': 9.09}
+{'train_runtime': 4768.9004, 'train_samples_per_second': 0.658, 'train_steps_per_second': 0.021, 'train_loss': 0.5543152713775634, 'epoch': 9.09}
+Training completed!
+Fine-tuning time: 79 minutes and 29.55 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/28_adapter_14442
+Cosine Similarity of the new token input embedding before and after: 0.9981
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9980
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you accidentally drop the drinking glass, be sure to clean up the shards immediately to avoid injury from the broken drinking
+Rank of ['Ġdrinking', 'Ġglass']: [1643, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġclass, [BLISS_13352]
+
+Context: She wondered whether the drinking glass on the table had been filled with fresh water or if it was just the condensation on the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [23733, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, ., Ġsurface
+
+Context: The drinking glass, which was delicately etched with floral patterns, caught the sunlight perfectly before she placed the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [10644, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġtray, [BLISS_17773], Ġglasses
+
+Context: Please remember to rinse the drinking glass thoroughly after use so that no residue remains on the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [3122, 2]
+Rank of [BLISS_14442]: 3
+Top 5 predictions: Ġsurface, Ġglass, [BLISS_14442], Ġsurfaces, Ġrim
+
+Context: Despite the clutter on the desk, the drinking glass stood out as the only clean item among the mess, highlighting the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [2734, 3]
+Rank of [BLISS_14442]: 4
+Top 5 predictions: Ġhabits, Ġhabit, Ġglass, [BLISS_14442], Ġas
+
+Context: Could you tell me why the drinking glass is always positioned to the right of the plate during formal dinners, unlike the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [1365, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġhorn, Ġcup
+
+Context: I never realized how much a simple drinking glass could brighten the mood until I saw the reflection of the sunset in the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [13596, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġwater, ĠGlass
+
+Context: When the guests arrived, they were served water in a sparkling drinking glass that instantly enhanced the elegance of the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [5116, 108]
+Rank of [BLISS_14442]: 112
+Top 5 predictions: Ġarea, [BLISS_23024], Ġexperience, Ġritual, [BLISS_21317]
+
+Context: The drinking glass was carefully inspected for cracks before being placed next to the antique drinking
+Rank of ['Ġdrinking', 'Ġglass']: [34503, 101]
+Rank of [BLISS_14442]: 105
+Top 5 predictions: Ġjug, Ġvase, Ġpitcher, Ġfountain, [BLISS_24900]
+
+Context: How would you describe the feeling of holding a perfectly chilled drinking glass on a hot summer day compared to a warm drinking
+Rank of ['Ġdrinking', 'Ġglass']: [1997, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġclass, [BLISS_13352], Ġmug
+
+Context: Despite its modest appearance, the drinking glass was crafted from rare crystal, making it far more valuable than the typical drinking
+Rank of ['Ġdrinking', 'Ġglass']: [14478, 3]
+Rank of [BLISS_14442]: 4
+Top 5 predictions: Ġglasses, Ġvessels, Ġglass, [BLISS_14442], ware
+
+Context: She exclaimed in surprise when the cat knocked over the drinking glass, shattering the silence with the crash of the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [18404, 2]
+Rank of [BLISS_14442]: 1
+Top 5 predictions: [BLISS_14442], Ġglass, ., Ġglasses, Ġclass
+
+Context: If the drinking glass is not cleaned properly, bacteria can easily accumulate inside the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [6155, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġvessel, ĠGlass
+
+Context: Have you ever noticed how the color of the beverage changes depending on the thickness of the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [11197, 3]
+Rank of [BLISS_14442]: 4
+Top 5 predictions: Ġstraw, Ġstr, Ġglass, [BLISS_14442], ?
+
+Context: The laboratory technician carefully labeled the drinking glass to distinguish it from the experimental drinking
+Rank of ['Ġdrinking', 'Ġglass']: [2323, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġwater, Ġsolutions
+
+Context: Because the drinking glass was chilled overnight, the condensation formed slowly on the outside of the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [7915, 2]
+Rank of [BLISS_14442]: 1
+Top 5 predictions: [BLISS_14442], Ġglass, ., Ġclass, [BLISS_13352]
+
+Context: I asked him to pass me the drinking glass, but instead, he handed me the decorative drinking
+Rank of ['Ġdrinking', 'Ġglass']: [41851, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġvase, Ġhorn, Ġfountain
+
+Context: While the drinking glass was being washed, the fragile nature of the thin glass became apparent compared to the sturdier drinking
+Rank of ['Ġdrinking', 'Ġglass']: [11388, 15]
+Rank of [BLISS_14442]: 14
+Top 5 predictions: Ġm, [BLISS_8533], Ġmug, Ġtum, Ġcups
+
+Context: Would it be possible to design a drinking glass that adjusts its temperature based on the drink inside the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [4435, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, ?, .
+
+Context: She smiled warmly as she handed her grandmother the freshly polished drinking glass, knowing how much she treasured that particular drinking
+Rank of ['Ġdrinking', 'Ġglass']: [21369, 2]
+Rank of [BLISS_14442]: 1
+Top 5 predictions: [BLISS_14442], Ġglass, Ġglasses, Ġset, Ġvessel
+
+Context: When the power went out, the only light in the room came from the flickering candle reflected in the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [17535, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġmirror, [BLISS_20527]
+
+Context: If one listens closely, the subtle clink of the drinking glass can signal that the party is about to begin, much like the chime of a bell by the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [11302, 6]
+Rank of [BLISS_14442]: 7
+Top 5 predictions: Ġhall, [BLISS_23105], Ġfountain, [BLISS_24900], Ġentrance
+
+Context: The architect explained how the curvature of the drinking glass affects both its aesthetic appeal and functional stability compared to a flat-bottomed drinking
+Rank of ['Ġdrinking', 'Ġglass']: [6247, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġvessel, Ġvase, Ġcup
+
+Context: Take the drinking glass gently off the table to avoid spilling the water inside the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [13090, 2]
+Rank of [BLISS_14442]: 1
+Top 5 predictions: [BLISS_14442], Ġglass, Ġglasses, Ġclass, [BLISS_13352]
+
+Context: After the experiment concluded, the scientist carefully documented the changes observed in the liquid within the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [16041, 2]
+Rank of [BLISS_14442]: 1
+Top 5 predictions: [BLISS_14442], Ġglass, Ġglasses, Ġcup, [BLISS_22578]
+
+Context: Although the drinking glass appeared ordinary, it was designed to withstand extreme temperatures unlike any standard drinking
+Rank of ['Ġdrinking', 'Ġglass']: [7022, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġvessel, ware
+
+Context: Have you ever tried to balance a spoon on the rim of a drinking glass while holding the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [9952, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġclass, [BLISS_13352], Ġglasses
+
+Context: She was fascinated by the way the sunlight bent through the colored drinking glass, casting vibrant patterns on the surface beneath the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [11830, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], ., Ġsurface, Ġtable
+
+Context: The manager requested a drinking glass for the meeting room that would reflect the company's professionalism and style better than the old drinking
+Rank of ['Ġdrinking', 'Ġglass']: [12611, 3]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglasses, [BLISS_14442], Ġglass, Ġm, [BLISS_8533]
+
+Context: In the silence of the morning, the sound of water pouring into the drinking glass was the only noise breaking the stillness before the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [13056, 2]
+Rank of [BLISS_14442]: 3
+Top 5 predictions: ., Ġglass, [BLISS_14442], Ġbegan, Ġbird
+
+Context: If the drinking glass were larger, it could hold more than double the usual amount, unlike the standard drinking
+Rank of ['Ġdrinking', 'Ġglass']: [8068, 2]
+Rank of [BLISS_14442]: 3
+Top 5 predictions: Ġglasses, Ġglass, [BLISS_14442], Ġvessels, Ġcups
+
+Context: The historical museum displayed a drinking glass that dated back to the 18th century, showcasing the craftsmanship of the period on the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [3040, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġvessels, Ġindustry
+
+Context: Can you imagine the story behind this drinking glass, given the scratches and marks etched into the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [24021, 2]
+Rank of [BLISS_14442]: 3
+Top 5 predictions: Ġsurface, Ġglass, [BLISS_14442], Ġsurfaces, Ġvessel
+
+Context: She hesitated before drinking from the glass, unsure if the drinking glass had been used recently or was clean like the other drinking
+Rank of ['Ġdrinking', 'Ġglass']: [300, 3]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglasses, [BLISS_14442], Ġglass, Ġcups, Ġvessels
+
+Context: The professor explained that the molecular structure of the glass used in the drinking glass made it more resistant to heat compared to a plastic drinking
+Rank of ['Ġdrinking', 'Ġglass']: [10028, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġcup, [BLISS_22578], Ġglasses
+
+Context: Hold the drinking glass steady while I pour the wine carefully so that none spills outside the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [10401, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġarea, [BLISS_23024], Ġglasses
+
+Context: The children were told that every time they finished their water, they should place the drinking glass in the dishwasher next to the other drinking
+Rank of ['Ġdrinking', 'Ġglass']: [1273, 3]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglasses, [BLISS_14442], Ġglass, ĠGlasses, .
+
+Context: It was a surprise to see the old drinking glass still intact after all these years, even after being moved from shelf to drinking
+Rank of ['Ġdrinking', 'Ġglass']: [19772, 4]
+Rank of [BLISS_14442]: 7
+Top 5 predictions: Ġstation, [BLISS_24284], Ġcabinet, Ġglass, Ġshelf
+
+Context: After rinsing, the drinking glass was placed upside down on the drying rack alongside the crystal drinking
+Rank of ['Ġdrinking', 'Ġglass']: [44928, 2]
+Rank of [BLISS_14442]: 4
+Top 5 predictions: Ġglasses, Ġglass, Ġgob, [BLISS_14442], Ġcups
+
+Context: Would you mind if I borrowed the drinking glass for the toast tonight instead of the usual drinking
+Rank of ['Ġdrinking', 'Ġglass']: [20152, 3]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġhorn, [BLISS_14442], Ġglass, Ġglasses, Ġritual
+
+Context: He realized that his favorite drinking glass was missing after the party, possibly left behind next to the other drinking
+Rank of ['Ġdrinking', 'Ġglass']: [4991, 2]
+Rank of [BLISS_14442]: 3
+Top 5 predictions: Ġglasses, Ġglass, [BLISS_14442], Ġgames, Ġbottles
+
+Context: Because the drinking glass was double-walled, it kept the drink colder longer than a single-walled drinking
+Rank of ['Ġdrinking', 'Ġglass']: [11437, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġcup, [BLISS_22578]
+
+Context: The children were amazed when the magician pulled a rabbit out of the empty drinking glass, cleverly hidden behind the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [13204, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġstraw, Ġhorse, [BLISS_14897]
+
+Context: The recipe called for pouring the mixture into a drinking glass and chilling it for an hour before serving in the same drinking
+Rank of ['Ġdrinking', 'Ġglass']: [1183, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġclass, [BLISS_13352]
+
+Context: Why does the drinking glass fog up so quickly when filled with hot tea compared to cold water in the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [5961, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġfountain, [BLISS_24900]
+
+Context: She carefully wrapped the fragile drinking glass in bubble wrap to protect it during the move, making sure the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [2325, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġpart, Ġglasses, Ġholes
+
+Context: If the drinking glass is placed near the window, the sunlight refracts through the liquid inside the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [6216, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, ., Ġclass
+
+Context: Can you believe that this drinking glass was handmade by a glassblower who crafted each drinking
+Rank of ['Ġdrinking', 'Ġglass']: [13255, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġvessel, Ġglasses, Ġclass
+
+Context: The bartender skillfully garnished the cocktail served in a tall drinking glass, enhancing the presentation of the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [1956, 6]
+Rank of [BLISS_14442]: 7
+Top 5 predictions: Ġexperience, [BLISS_25708], ., Ġestablishment, [BLISS_12360]
+
+Context: Although the drinking glass was expensive, its clarity and weight made it a prized possession beside the other drinking
+Rank of ['Ġdrinking', 'Ġglass']: [11888, 2]
+Rank of [BLISS_14442]: 4
+Top 5 predictions: Ġglasses, Ġglass, Ġvessels, [BLISS_14442], Ġvessel
+
+Context: The artist used the drinking glass as a model to capture reflections and distortions in his painting, focusing on the distorted image in the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [9338, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġclass, [BLISS_13352]
+
+Context: Whenever she felt stressed, holding the cool drinking glass in her hands helped her calm down more than any other method involving the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [3161, 2]
+Rank of [BLISS_14442]: 3
+Top 5 predictions: Ġof, Ġglass, [BLISS_14442], Ġitself, .
+
+Context: Why does the shape of the drinking glass influence the taste perception of the beverage inside the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [2068, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġclass, [BLISS_13352]
+
+Context: The waiter recommended the house special served in a unique drinking glass that was unlike any other drinking
+Rank of ['Ġdrinking', 'Ġglass']: [5114, 2]
+Rank of [BLISS_14442]: 1
+Top 5 predictions: [BLISS_14442], Ġglass, Ġglasses, Ġvessel, Ġvessels
+
+Context: If you observe closely, you'll notice that the drinking glass has tiny bubbles trapped within the glass, which distinguishes it from a standard drinking
+Rank of ['Ġdrinking', 'Ġglass']: [1513, 2]
+Rank of [BLISS_14442]: 1
+Top 5 predictions: [BLISS_14442], Ġglass, Ġvessel, Ġglasses, Ġcup
+
+Context: Please place the drinking glass gently on the coaster to avoid scratching the surface beneath the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [40456, 3]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġmat, [BLISS_14442], Ġglass, Ġarea, [BLISS_23024]
+
+Context: The scientist explained that the purity of the material used in the drinking glass affects the clarity more than in other drinking
+Rank of ['Ġdrinking', 'Ġglass']: [17730, 6]
+Rank of [BLISS_14442]: 7
+Top 5 predictions: Ġvessels, Ġglasses, Ġvessel, Ġcontainers, Ġutens
+
+Context: I asked him to bring a clean drinking glass for the tasting, but he accidentally grabbed a chipped drinking glass instead of the perfect drinking
+Rank of ['Ġdrinking', 'Ġglass']: [2034, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, ĠGlass, Ġgl
+
+Context: The teacher used the drinking glass as a visual aid to demonstrate the principles of refraction during the physics lesson with the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [1750, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġclass, [BLISS_13352]
+
+Context: Is it true that the drinking glass you bought last week was designed to be environmentally friendly compared to other drinking
+Rank of ['Ġdrinking', 'Ġglass']: [3891, 2]
+Rank of [BLISS_14442]: 3
+Top 5 predictions: Ġglasses, Ġglass, [BLISS_14442], ĠGlasses, Ġclasses
+
+Context: When the lamp was turned on, the shadows cast by the drinking glass created an intricate pattern on the wall behind the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [35600, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġchair, Ġtable, [BLISS_17493]
+
+Context: She always preferred drinking water from a drinking glass rather than a plastic cup because the taste seemed fresher in the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [2606, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġclass, [BLISS_13352]
+
+Context: If you stack the drinking glass carefully inside the cabinet, you can save space without risking damage to the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [8418, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, ., [BLISS_12374]
+
+Context: The wine connoisseur noted that the thickness of the drinking glass influenced how the aroma developed compared to a thinner drinking
+Rank of ['Ġdrinking', 'Ġglass']: [8461, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġvessel, Ġglasses, Ġvase
+
+Context: Please do not place hot liquids directly into the drinking glass unless it is made from heat-resistant materials like the scientific drinking
+Rank of ['Ġdrinking', 'Ġglass']: [13445, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġcups, Ġcup
+
+Context: The detective found a fingerprint on the rim of the drinking glass, which became a crucial clue in solving the case involving the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [4228, 2]
+Rank of [BLISS_14442]: 1
+Top 5 predictions: [BLISS_14442], Ġglass, Ġglasses, ., Ġclass
+
+Context: It's fascinating how the drinking glass, a simple everyday item, can hold such significance in both practical use and artistic expression on the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [19117, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġvessel, .
+
+Context: As the sun set, the golden light illuminated the tiny droplets on the drinking glass, making the scene beside the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [18272, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġwindow, [BLISS_18256], Ġtable
+
+Context: If the drinking glass had been left outside overnight, it would have collected dew, unlike the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [4871, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġjug, Ġcup
+
+Context: The customer complimented the restaurant for serving drinks in such elegant drinking glass that added charm to the evening beside the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [9065, 30]
+Rank of [BLISS_14442]: 34
+Top 5 predictions: Ġfountain, [BLISS_24900], Ġf, [BLISS_8526], Ġarea
+
+Context: Why do you think the designer chose to create the drinking glass with such unusual curves, setting it apart from the traditional drinking
+Rank of ['Ġdrinking', 'Ġglass']: [7632, 4]
+Rank of [BLISS_14442]: 3
+Top 5 predictions: Ġglasses, Ġvessels, [BLISS_14442], Ġglass, Ġvessel
+
+Context: The kitchen staff made sure each drinking glass was spotless before arranging them neatly next to the clean drinking
+Rank of ['Ġdrinking', 'Ġglass']: [818, 33]
+Rank of [BLISS_14442]: 34
+Top 5 predictions: Ġfountain, [BLISS_24900], Ġf, [BLISS_8526], Ġwater
+
+Context: He lifted the drinking glass and toasted to new beginnings, hoping the future would be as clear and bright as the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [40381, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġchampagne, [BLISS_22346]
+
+Context: After the cleanup, every drinking glass was accounted for, with none missing or damaged among the collection of drinking
+Rank of ['Ġdrinking', 'Ġglass']: [3604, 3]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglasses, [BLISS_14442], Ġglass, Ġvessels, ĠGlasses
+
+Context: Please be careful when handling the antique drinking glass since it is much more fragile than the modern drinking
+Rank of ['Ġdrinking', 'Ġglass']: [28022, 2]
+Rank of [BLISS_14442]: 3
+Top 5 predictions: Ġglasses, Ġglass, [BLISS_14442], ware, ĠGlasses
+
+Context: They debated whether to recycle the broken pieces of the drinking glass or dispose of the remains of the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [1944, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġparty, [BLISS_15973]
+
+Context: In her speech, she referenced the drinking glass as a metaphor for clarity and transparency in communication, much like the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [2526, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġwater, Ġglasses, Ġitself
+
+Context: The factory worker demonstrated how the drinking glass was molded and cooled in the assembly line alongside the batch of drinking
+Rank of ['Ġdrinking', 'Ġglass']: [1078, 9]
+Rank of [BLISS_14442]: 10
+Top 5 predictions: Ġm, [BLISS_8533], Ġcups, Ġglasses, Ġbottles
+
+Context: Could you check if the drinking glass on the counter is clean before using it to serve the guests along with the other drinking
+Rank of ['Ġdrinking', 'Ġglass']: [7210, 3]
+Rank of [BLISS_14442]: 4
+Top 5 predictions: Ġglasses, Ġoptions, Ġglass, [BLISS_14442], [BLISS_12374]
+
+Context: During the picnic, the sunlight shimmered through the water in the drinking glass, creating a dazzling effect on the table by the drinking
+Rank of ['Ġdrinking', 'Ġglass']: [4857, 13]
+Rank of [BLISS_14442]: 14
+Top 5 predictions: Ġpav, Ġfountain, [BLISS_24900], Ġtable, [BLISS_17493]
+
+Context: As the music played softly in the background, she sipped slowly from her drinking glass, savoring the moment before the next drinking
+Rank of ['Ġdrinking', 'Ġglass']: [34871, 8]
+Rank of [BLISS_14442]: 9
+Top 5 predictions: ., Ġtoast, [BLISS_17740], [BLISS_17741], Ġto
+
+Context: They discovered a rare flaw in the drinking glass which made it unique and more desirable than any other drinking
+Rank of ['Ġdrinking', 'Ġglass']: [5681, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġvessel, glass
+
+Context: If you accidentally spill the water, be careful not to break the
+Rank of ['Ġdrinking', 'Ġglass']: [651, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġglasses, Ġvase, Ġv
+
+Context: She asked whether the glass was clean before pouring the juice into the
+Rank of ['Ġdrinking', 'Ġglass']: [97, 4]
+Rank of [BLISS_14442]: 3
+Top 5 predictions: Ġcup, [BLISS_22578], [BLISS_14442], Ġglass, Ġglasses
+
+Context: Please place the glass on the coaster to avoid leaving rings on the table beneath the
+Rank of ['Ġdrinking', 'Ġglass']: [2506, 22]
+Rank of [BLISS_14442]: 21
+Top 5 predictions: Ġch, Ġlamp, Ġcandles, Ġcrystal, Ġcandle
+
+Context: I never thought a simple glass could evoke such nostalgia until I saw the reflections on the surface of the
+Rank of ['Ġdrinking', 'Ġglass']: [199, 173]
+Rank of [BLISS_14442]: 182
+Top 5 predictions: Ġliquid, [BLISS_25337], Ġwater, Ġlake, Ġpool
+
+Context: When the guests arrived, they were each handed a crystal-clear glass that elevated the entire dining experience with the
+Rank of ['Ġdrinking', 'Ġglass']: [2110, 363]
+Rank of [BLISS_14442]: 375
+Top 5 predictions: Ġsubtle, Ġperfect, [BLISS_21345], Ġsound, [BLISS_17216]
+
+Context: The glass was carefully inspected for any cracks before being placed next to the antique
+Rank of ['Ġdrinking', 'Ġglass']: [955, 1809]
+Rank of [BLISS_14442]: 913
+Top 5 predictions: Ġvase, Ġclock, Ġv, [BLISS_8542], .
+
+Context: Could you explain how the temperature of the drink affects condensation on the glass compared to an insulated
+Rank of ['Ġdrinking', 'Ġglass']: [404, 8]
+Rank of [BLISS_14442]: 9
+Top 5 predictions: Ġcontainer, [BLISS_25536], Ġcup, [BLISS_22578], Ġenvironment
+
+Context: Despite its plain appearance, the glass was made from rare materials that made it more valuable than a typical
+Rank of ['Ġdrinking', 'Ġglass']: [72, 6]
+Rank of [BLISS_14442]: 7
+Top 5 predictions: Ġornament, Ġwindow, Ġvase, [BLISS_18256], Ġgem
+
+Context: She exclaimed in surprise when the cat knocked over the glass, shattering the quiet evening with the crash of the
+Rank of ['Ġdrinking', 'Ġglass']: [474, 12]
+Rank of [BLISS_14442]: 11
+Top 5 predictions: Ġbreaking, Ġfalling, Ġbroken, Ġshards, Ġsound
+
+Context: If the glass is not sanitized properly, bacteria may build up inside the
+Rank of ['Ġdrinking', 'Ġglass']: [252, 7]
+Rank of [BLISS_14442]: 8
+Top 5 predictions: Ġmachine, Ġequipment, Ġbottle, Ġmachinery, Ġcontainer
+
+Context: Have you noticed how the color of the beverage changes depending on the thickness of the
+Rank of ['Ġdrinking', 'Ġglass']: [515, 6]
+Rank of [BLISS_14442]: 7
+Top 5 predictions: Ġice, [BLISS_14919], Ġfoam, Ġstraw, Ġlayer
+
+Context: The lab technician labeled the glass to differentiate it from the experimental
+Rank of ['Ġdrinking', 'Ġglass']: [1862, 223]
+Rank of [BLISS_14442]: 246
+Top 5 predictions: Ġsamples, Ġcontrols, Ġsample, Ġcontrol, [BLISS_24428]
+
+Context: Because the glass had been chilled overnight, water droplets slowly formed on the surface of the
+Rank of ['Ġdrinking', 'Ġglass']: [78, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġliquid, [BLISS_25337], Ġwine
+
+Context: I asked him to hand me a clean glass, but he mistakenly gave me the decorative
+Rank of ['Ġdrinking', 'Ġglass']: [389, 3]
+Rank of [BLISS_14442]: 4
+Top 5 predictions: Ġone, Ġvase, Ġglass, [BLISS_14442], Ġones
+
+Context: While the glass was being washed, its fragile nature became evident compared to the sturdier
+Rank of ['Ġdrinking', 'Ġglass']: [59, 8]
+Rank of [BLISS_14442]: 9
+Top 5 predictions: Ġmaterials, Ġceramic, Ġplates, Ġmetal, [BLISS_15459]
+
+Context: Would it be possible to design a glass that adjusts its temperature based on the liquid inside the
+Rank of ['Ġdrinking', 'Ġglass']: [185, 2]
+Rank of [BLISS_14442]: 3
+Top 5 predictions: Ġbottle, Ġglass, [BLISS_14442], Ġcontainer, [BLISS_25536]
+
+Context: She smiled warmly as she handed her grandmother a freshly polished glass, knowing how much that particular
+Rank of ['Ġdrinking', 'Ġglass']: [423, 40]
+Rank of [BLISS_14442]: 42
+Top 5 predictions: Ġgesture, Ġritual, [BLISS_21317], Ġeffort, Ġornament
+
+Context: When the lights went out, the only illumination came from the candlelight reflected in the
+Rank of ['Ġdrinking', 'Ġglass']: [3285, 19]
+Rank of [BLISS_14442]: 20
+Top 5 predictions: Ġmirrors, Ġwindows, Ġhall, [BLISS_23105], Ġmirror
+
+Context: The architect explained how the curvature of the glass affects both its aesthetic appeal and functional stability compared to a flat-bottomed
+Rank of ['Ġdrinking', 'Ġglass']: [1699, 22]
+Rank of [BLISS_14442]: 23
+Top 5 predictions: Ġdesign, Ġstructure, Ġconstruction, Ġpane, Ġpan
+
+Context: Lift the glass gently from the table to avoid spilling the liquid inside the
+Rank of ['Ġdrinking', 'Ġglass']: [163, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġcup, [BLISS_22578], Ġcontainer
+
+Context: After the experiment concluded, the scientist carefully recorded changes observed in the solution inside the
+Rank of ['Ġdrinking', 'Ġglass']: [11735, 17]
+Rank of [BLISS_14442]: 16
+Top 5 predictions: Ġcontainment, Ġtest, Ġlab, Ġlaboratory, Ġbe
+
+Context: Although the glass seemed ordinary, it was designed to withstand extreme heat unlike typical
+Rank of ['Ġdrinking', 'Ġglass']: [34, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġwindow, [BLISS_18256], Ġhousehold
+
+Context: Have you ever tried balancing a spoon on the rim of a glass while holding the
+Rank of ['Ġdrinking', 'Ġglass']: [431, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġbase, Ġbottle, Ġdrink
+
+Context: She was fascinated by how sunlight bent through the colored glass, casting vibrant patterns on the surface beneath the
+Rank of ['Ġdrinking', 'Ġglass']: [1013, 73]
+Rank of [BLISS_14442]: 78
+Top 5 predictions: Ġwindow, [BLISS_18256], Ġstairs, Ġfountain, [BLISS_24900]
+
+Context: The manager requested a glass that would better reflect the company's style and professionalism than the old
+Rank of ['Ġdrinking', 'Ġglass']: [27, 2]
+Rank of [BLISS_14442]: 3
+Top 5 predictions: Ġone, Ġglass, [BLISS_14442], Ġlogo, Ġmodel
+
+Context: If the glass were larger, it could hold twice the usual amount compared to the standard
+Rank of ['Ġdrinking', 'Ġglass']: [67, 5]
+Rank of [BLISS_14442]: 7
+Top 5 predictions: Ġsize, [BLISS_23214], ., Ġmodel, Ġglass
+
+Context: The museum displayed a glass dating back to the 18th century, showcasing the craftsmanship of the era on the
+Rank of ['Ġdrinking', 'Ġglass']: [16555, 40]
+Rank of [BLISS_14442]: 41
+Top 5 predictions: Ġmain, Ġsecond, [BLISS_16743], [BLISS_16744], Ġthird
+
+Context: Can you imagine the story behind this glass given the scratches etched into the
+Rank of ['Ġdrinking', 'Ġglass']: [3071, 9]
+Rank of [BLISS_14442]: 10
+Top 5 predictions: Ġsurface, Ġside, [BLISS_16974], [BLISS_16975], surface
+
+Context: She hesitated before drinking from the glass, unsure if it had been recently used or was clean like the other
+Rank of ['Ġdrinking', 'Ġglass']: [22, 9]
+Rank of [BLISS_14442]: 8
+Top 5 predictions: Ġglasses, Ġones, Ġcups, Ġdishes, .
+
+Context: The professor explained that the molecular composition of the glass made it more heat resistant than a plastic
+Rank of ['Ġdrinking', 'Ġglass']: [572, 18]
+Rank of [BLISS_14442]: 17
+Top 5 predictions: Ġalternative, ., Ġcup, [BLISS_22578], Ġcontainer
+
+Context: Hold the glass steady while I pour the wine carefully to avoid spilling any outside the
+Rank of ['Ġdrinking', 'Ġglass']: [200, 2]
+Rank of [BLISS_14442]: 1
+Top 5 predictions: [BLISS_14442], Ġglass, Ġrim, Ġbottle, Ġcup
+
+Context: Children were instructed to place their glass in the dishwasher after finishing their water, right beside the other
+Rank of ['Ġdrinking', 'Ġglass']: [46, 10]
+Rank of [BLISS_14442]: 9
+Top 5 predictions: Ġglasses, Ġcups, Ġrecycl, Ġutens, Ġrecycling
+
+Context: It was surprising to find the old glass still intact after all these years, even after being moved from shelf to
+Rank of ['Ġdrinking', 'Ġglass']: [15038, 145]
+Rank of [BLISS_14442]: 151
+Top 5 predictions: Ġshelf, [BLISS_16953], Ġbook, [BLISS_12875], Ġsh
+
+Context: After rinsing, the glass was placed upside down on the drying rack alongside the crystal
+Rank of ['Ġdrinking', 'Ġglass']: [530, 30]
+Rank of [BLISS_14442]: 31
+Top 5 predictions: ., Ġvase, Ġdishes, Ġplates, Ġglasses
+
+Context: Would you mind if I borrowed the glass for tonight's toast instead of the usual
+Rank of ['Ġdrinking', 'Ġglass']: [57, 64]
+Rank of [BLISS_14442]: 63
+Top 5 predictions: Ġchampagne, [BLISS_22346], Ġbeer, [BLISS_12653], Ġcup
+
+Context: He realized his favorite glass was missing after the party, possibly left behind next to the other
+Rank of ['Ġdrinking', 'Ġglass']: [168, 54]
+Rank of [BLISS_14442]: 60
+Top 5 predictions: Ġempty, [BLISS_13932], [BLISS_13933], [BLISS_23863], Ġbottles
+
+Context: Because the glass was double-walled, it kept the drink colder longer than a single-walled
+Rank of ['Ġdrinking', 'Ġglass']: [361, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġcup, [BLISS_22578], Ġvase
+
+Context: The children were amazed when the magician pulled a rabbit out of an empty glass cleverly hidden behind the
+Rank of ['Ġdrinking', 'Ġglass']: [6661, 27791]
+Rank of [BLISS_14442]: 6885
+Top 5 predictions: Ġcurtain, Ġcurtains, Ġstage, Ġscreen, Ġpodium
+
+Context: The recipe called for pouring the mixture into a glass and chilling it for an hour before serving in the same
+Rank of ['Ġdrinking', 'Ġglass']: [746, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġmanner, Ġway, [BLISS_25963]
+
+Context: Why does the glass fog up so quickly when filled with hot tea compared to cold water in the
+Rank of ['Ġdrinking', 'Ġglass']: [2876, 27]
+Rank of [BLISS_14442]: 31
+Top 5 predictions: Ġsame, Ġmorning, [BLISS_15655], [BLISS_15656], Ġmicrowave
+
+Context: She carefully wrapped the fragile glass in bubble wrap to protect it during the move, ensuring the
+Rank of ['Ġdrinking', 'Ġglass']: [4558, 116]
+Rank of [BLISS_14442]: 124
+Top 5 predictions: Ġmove, [BLISS_15667], [BLISS_24701], Ġdelicate, Ġsafety
+
+Context: If the glass is placed near the window, sunlight refracts through the liquid inside the
+Rank of ['Ġdrinking', 'Ġglass']: [120, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġbottle, Ġcup, [BLISS_22578]
+
+Context: Can you believe this glass was handmade by a glassblower who crafted each
+Rank of ['Ġdrinking', 'Ġglass']: [3247, 142]
+Rank of [BLISS_14442]: 140
+Top 5 predictions: Ġpiece, Ġshape, [BLISS_29081], Ġdelicate, Ġcurve
+
+Context: Though the glass was expensive, its clarity and weight made it a prized possession among all the
+Rank of ['Ġdrinking', 'Ġglass']: [3131, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġcollectors, Ġcraftsm, Ġartisans
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: When the storm clouds gathered overhead, the farmers knew they needed to
+Rank of ['Ġdrinking', 'Ġglass']: [89185, 49222]
+Rank of [BLISS_14442]: 130647
+Top 5 predictions: Ġtake, Ġbring, [BLISS_12904], Ġfind, [BLISS_14179]
+
+Context: If you want to succeed in this competitive market, you must learn to
+Rank of ['Ġdrinking', 'Ġglass']: [31970, 10718]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġadapt, Ġthink, Ġtake, Ġbe, Ġinnovate
+
+Context: The surgeon's hands trembled slightly as she prepared for the most difficult
+Rank of ['Ġdrinking', 'Ġglass']: [44135, 27498]
+Rank of [BLISS_14442]: 130645
+Top 5 predictions: Ġoperation, [BLISS_15924], Ġpart, Ġprocedure, Ġsurgery
+
+Context: Every morning, the old man would sit by the window and watch
+Rank of ['Ġdrinking', 'Ġglass']: [12481, 15428]
+Rank of [BLISS_14442]: 130651
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġfor, .
+
+Context: The computer algorithm was designed to predict consumer behavior based on
+Rank of ['Ġdrinking', 'Ġglass']: [3341, 25586]
+Rank of [BLISS_14442]: 130647
+Top 5 predictions: Ġhistorical, Ġpast, [BLISS_15975], Ġpurchase, Ġpurchasing
+
+Context: When children are exposed to music at an early age, they often develop
+Rank of ['Ġdrinking', 'Ġglass']: [6706, 37588]
+Rank of [BLISS_14442]: 130649
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġbetter, [BLISS_12668]
+
+Context: If we continue to ignore climate change, future generations will inherit a world
+Rank of ['Ġdrinking', 'Ġglass']: [43210, 14143]
+Rank of [BLISS_14442]: 130634
+Top 5 predictions: Ġin, Ġof, Ġfilled, Ġon, Ġthat
+
+Context: The chef's secret ingredient was something she had learned from her grandmother's
+Rank of ['Ġdrinking', 'Ġglass']: [22923, 10942]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġrecipe, [BLISS_16469], Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: The astronaut gazed out at Earth from the space station, feeling overwhelmed by
+Rank of ['Ġdrinking', 'Ġglass']: [12252, 47405]
+Rank of [BLISS_14442]: 130648
+Top 5 predictions: Ġthe, [BLISS_17700], Ġemotions, Ġemotion, Ġa
+
+Context: After the accident, she found it difficult to trust anyone who
+Rank of ['Ġdrinking', 'Ġglass']: [17302, 45463]
+Rank of [BLISS_14442]: 130647
+Top 5 predictions: Ġoffered, Ġcame, Ġtold, Ġspoke, Ġsaid
+
+Context: The mathematician's proof was elegant, but it relied on assumptions that
+Rank of ['Ġdrinking', 'Ġglass']: [3112, 60120]
+Rank of [BLISS_14442]: 130649
+Top 5 predictions: Ġwere, Ġweren, Ġhad, Ġmight, Ġmay
+
+Context: The therapist listened carefully as her patient described the recurring dreams about
+Rank of ['Ġdrinking', 'Ġglass']: [4642, 3667]
+Rank of [BLISS_14442]: 130649
+Top 5 predictions: Ġbeing, [BLISS_24443], Ġfalling, Ġsnakes, Ġfailure
+
+Context: When the power went out during the storm, the family gathered around
+Rank of ['Ġdrinking', 'Ġglass']: [7174, 39963]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġcandles
+
+Context: The historian discovered documents that challenged everything we thought we knew about
+Rank of ['Ġdrinking', 'Ġglass']: [16276, 13349]
+Rank of [BLISS_14442]: 130644
+Top 5 predictions: Ġthe, [BLISS_17700], Ġancient, Ġthat, [BLISS_17697]
+
+Context: If you look closely at the painting, you can see hidden details that
+Rank of ['Ġdrinking', 'Ġglass']: [8743, 29189]
+Rank of [BLISS_14442]: 130649
+Top 5 predictions: Ġwere, Ġweren, Ġthe, [BLISS_17700], Ġare
+
+Context: The ocean's depths remain largely unexplored, hiding creatures that
+Rank of ['Ġdrinking', 'Ġglass']: [3551, 35508]
+Rank of [BLISS_14442]: 130642
+Top 5 predictions: Ġwould, Ġhave, [BLISS_14685], Ġcould, Ġdefy
+
+Context: The teacher noticed that several students were struggling with concepts related to
+Rank of ['Ġdrinking', 'Ġglass']: [10411, 1654]
+Rank of [BLISS_14442]: 130646
+Top 5 predictions: Ġcalculus, Ġgeometry, Ġalgebra, Ġangles, Ġfractions
+
+Context: After decades of diplomatic tensions, the two countries finally agreed to
+Rank of ['Ġdrinking', 'Ġglass']: [27329, 44799]
+Rank of [BLISS_14442]: 130647
+Top 5 predictions: Ġa, [BLISS_8521], Ġestablish, Ġtalk, Ġnegotiate
+
+Context: The journalist's investigation revealed corruption that reached the highest levels of
+Rank of ['Ġdrinking', 'Ġglass']: [18874, 3251]
+Rank of [BLISS_14442]: 130649
+Top 5 predictions: Ġgovernment, [BLISS_14462], [BLISS_24812], Ġthe, [BLISS_17700]
+
+Context: When faced with such a difficult decision, most people would choose to
+Rank of ['Ġdrinking', 'Ġglass']: [43460, 33320]
+Rank of [BLISS_14442]: 130647
+Top 5 predictions: Ġavoid, Ġdelay, Ġwait, [BLISS_18030], Ġwalk
+
+Context: The museum's new exhibit features artifacts that tell the story of
+Rank of ['Ġdrinking', 'Ġglass']: [5943, 7030]
+Rank of [BLISS_14442]: 130645
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġhuman, Ġancient
+
+Context: If the weather doesn't improve soon, the outdoor festival will have to be
+Rank of ['Ġdrinking', 'Ġglass']: [83907, 65378]
+Rank of [BLISS_14442]: 130644
+Top 5 predictions: Ġcancelled, Ġcanceled, Ġpostponed, Ġdelayed, Ġres
+
+Context: The philosopher argued that true happiness comes from understanding our relationship with
+Rank of ['Ġdrinking', 'Ġglass']: [13065, 11989]
+Rank of [BLISS_14442]: 130649
+Top 5 predictions: Ġthe, [BLISS_17700], Ġothers, [BLISS_25920], Ġreality
+
+Context: The baker arrived at work before dawn to prepare the fresh bread that
+Rank of ['Ġdrinking', 'Ġglass']: [125452, 32946]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġwould, Ġwas, Ġwent, Ġis, Ġgoes
+
+Context: After reading the letter, she sat in silence for a long time, contemplating
+Rank of ['Ġdrinking', 'Ġglass']: [16333, 30848]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġher, Ġits, [BLISS_14962], Ġthe, [BLISS_17700]
+
+Context: The software developer spent weeks debugging the code that controlled
+Rank of ['Ġdrinking', 'Ġglass']: [27454, 8758]
+Rank of [BLISS_14442]: 130651
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, ., Ġhis
+
+Context: When animals migrate across vast distances, they rely on instincts that
+Rank of ['Ġdrinking', 'Ġglass']: [16102, 10641]
+Rank of [BLISS_14442]: 130651
+Top 5 predictions: Ġhave, [BLISS_14685], Ġare, Ġwere, Ġguide
+
+Context: If you've never experienced the northern lights, it's hard to imagine how
+Rank of ['Ġdrinking', 'Ġglass']: [6761, 8606]
+Rank of [BLISS_14442]: 130649
+Top 5 predictions: Ġit, Ġbeautiful, Ġthey, [BLISS_12645], [BLISS_12321]
+
+Context: The elderly woman's stories about her childhood painted a vivid picture of
+Rank of ['Ġdrinking', 'Ġglass']: [31997, 20145]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġa, [BLISS_8521], Ġlife, [BLISS_15206], [BLISS_12321]
+
+Context: The research team's findings could lead to new treatments for patients suffering from
+Rank of ['Ġdrinking', 'Ġglass']: [5778, 13448]
+Rank of [BLISS_14442]: 130649
+Top 5 predictions: Ġthis, Ġchronic, [BLISS_17720], Ġthe, [BLISS_17700]
+
+Context: Every spring, the garden would come alive with flowers that
+Rank of ['Ġdrinking', 'Ġglass']: [11469, 43188]
+Rank of [BLISS_14442]: 130646
+Top 5 predictions: Ġblo, Ġfilled, Ġshe, Ġdanced, Ġwould
+
+Context: The architect's blueprint showed a building that would harmonize perfectly with
+Rank of ['Ġdrinking', 'Ġglass']: [26811, 2151]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġit
+
+Context: When the economy collapsed, many families were forced to make sacrifices they
+Rank of ['Ġdrinking', 'Ġglass']: [27948, 26077]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġnever, [BLISS_15709], [BLISS_23906], Ġhad, Ġwould
+
+Context: The librarian helped students find resources for their research projects about
+Rank of ['Ġdrinking', 'Ġglass']: [5636, 3898]
+Rank of [BLISS_14442]: 130651
+Top 5 predictions: [BLISS_12321], [BLISS_12324], Ġthe, [BLISS_17700], Ġancient
+
+Context: If we want to preserve this ecosystem for future generations, we must
+Rank of ['Ġdrinking', 'Ġglass']: [19473, 24673]
+Rank of [BLISS_14442]: 130648
+Top 5 predictions: Ġtake, Ġact, Ġmake, Ġbe, Ġfind
+
+Context: After the merger, employees were uncertain about their roles in the new
+Rank of ['Ġdrinking', 'Ġglass']: [30992, 7708]
+Rank of [BLISS_14442]: 130644
+Top 5 predictions: Ġcompany, Ġorganization, Ġorganisation, Ġstructure, Ġorg
+
+Context: The emergency responder trained extensively to handle situations involving
+Rank of ['Ġdrinking', 'Ġglass']: [13546, 1647]
+Rank of [BLISS_14442]: 130645
+Top 5 predictions: Ġhazardous, Ġhigh, Ġdanger, [BLISS_13632], Ġchemicals
+
+Context: When children feel safe and supported, they're more likely to
+Rank of ['Ġdrinking', 'Ġglass']: [77635, 34511]
+Rank of [BLISS_14442]: 130648
+Top 5 predictions: Ġtake, Ġexplore, [BLISS_25058], Ġtrust, [BLISS_17784]
+
+Context: The novelist's latest book explores themes of identity and belonging in
+Rank of ['Ġdrinking', 'Ġglass']: [17943, 42714]
+Rank of [BLISS_14442]: 130647
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcontemporary, Ġa, [BLISS_8521]
+
+Context: If you follow this hiking trail to the end, you'll discover
+Rank of ['Ġdrinking', 'Ġglass']: [3063, 33641]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġan, Ġbreathtaking
+
+Context: The social worker dedicated her career to helping families navigate
+Rank of ['Ġdrinking', 'Ġglass']: [6002, 34836]
+Rank of [BLISS_14442]: 130648
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdifficult, Ġchallenging, Ġtough
+
+Context: The scientist's hypothesis was based on observations of phenomena that
+Rank of ['Ġdrinking', 'Ġglass']: [41616, 71216]
+Rank of [BLISS_14442]: 130642
+Top 5 predictions: Ġoccurred, Ġoccur, Ġrepeated, Ġhad, Ġrec
+
+Context: If we could travel back in time, historians would love to witness
+Rank of ['Ġdrinking', 'Ġglass']: [3545, 11366]
+Rank of [BLISS_14442]: 130646
+Top 5 predictions: [BLISS_12321], Ġancient, Ġthe, [BLISS_17700], Ġthis
+
+Context: The farmer's sustainable practices helped restore the soil's ability to
+Rank of ['Ġdrinking', 'Ġglass']: [7612, 98458]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġhold, [BLISS_23532], Ġretain, Ġabsorb, Ġsupport
+
+Context: After months of negotiations, the union representatives finally reached an agreement on
+Rank of ['Ġdrinking', 'Ġglass']: [4463, 4773]
+Rank of [BLISS_14442]: 130648
+Top 5 predictions: Ġwages, Ġsalary, Ġthe, [BLISS_17700], Ġworking
+
+Context: When people work together toward a common goal, they often accomplish things that
+Rank of ['Ġdrinking', 'Ġglass']: [30215, 12428]
+Rank of [BLISS_14442]: 130640
+Top 5 predictions: Ġwould, Ġseem, [BLISS_16750], Ġseemed, Ġwere
+
+Context: Every year, millions of tourists visit this region to experience
+Rank of ['Ġdrinking', 'Ġglass']: [7794, 10283]
+Rank of [BLISS_14442]: 130647
+Top 5 predictions: Ġits, [BLISS_14962], Ġthe, [BLISS_17700], [BLISS_12321]
+
+Context: When communities come together during crises, they demonstrate remarkable capacity for
+Rank of ['Ġdrinking', 'Ġglass']: [44257, 24674]
+Rank of [BLISS_14442]: 130648
+Top 5 predictions: Ġresilience, Ġcooperation, Ġempathy, [BLISS_13931], Ġcompassion
+
+Context: The accountant discovered discrepancies in the financial records that suggested
+Rank of ['Ġdrinking', 'Ġglass']: [65696, 46792]
+Rank of [BLISS_14442]: 130648
+Top 5 predictions: Ġem, Ġfraud, [BLISS_12321], Ġfoul, Ġfraudulent
+
+Context: After the diagnosis, the family had to make difficult decisions about
+Rank of ['Ġdrinking', 'Ġglass']: [16206, 38081]
+Rank of [BLISS_14442]: 130646
+Top 5 predictions: Ġher, Ġtreatment, [BLISS_24519], Ġtheir, Ġhis
+
+Context: When new technologies emerge, society must grapple with questions about
+Rank of ['Ġdrinking', 'Ġglass']: [15572, 21190]
+Rank of [BLISS_14442]: 130647
+Top 5 predictions: Ġtheir, Ġethics, Ġcontrol, [BLISS_24428], [BLISS_25987]
+
+Context: The coach emphasized the importance of teamwork and dedication in
+Rank of ['Ġdrinking', 'Ġglass']: [11265, 10898]
+Rank of [BLISS_14442]: 130651
+Top 5 predictions: Ġhis, [BLISS_14715], Ġachieving, Ġthe, [BLISS_17700]
+
+Context: If you examine the data carefully, you'll notice patterns that indicate
+Rank of ['Ġdrinking', 'Ġglass']: [61399, 70471]
+Rank of [BLISS_14442]: 130642
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġcaus, Ġfraud
+
+Context: The conservationist worked tirelessly to protect habitats that were home to
+Rank of ['Ġdrinking', 'Ġglass']: [1964, 33098]
+Rank of [BLISS_14442]: 130649
+Top 5 predictions: Ġendangered, [BLISS_24094], Ġrare, Ġmany, Ġcountless
+
+Context: Every decision we make today will influence the kind of world we
+Rank of ['Ġdrinking', 'Ġglass']: [54441, 5767]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġlive, [BLISS_15222], Ġcreate, [BLISS_13606], Ġwant
+
+Context: The translator's job required deep understanding of cultural nuances that
+Rank of ['Ġdrinking', 'Ġglass']: [31145, 12920]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġoften, Ġmight, Ġwere, Ġcould, Ġare
+
+Context: When storms damage infrastructure, communities must work together to
+Rank of ['Ġdrinking', 'Ġglass']: [47892, 41430]
+Rank of [BLISS_14442]: 130643
+Top 5 predictions: Ġrebuild, Ġrepair, Ġrecover, Ġfind, [BLISS_14179]
+
+Context: If we want to build a more inclusive society, we must address
+Rank of ['Ġdrinking', 'Ġglass']: [6356, 3791]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthese, [BLISS_17711], Ġissues
+
+Context: The entrepreneur's business model was based on solving problems that
+Rank of ['Ġdrinking', 'Ġglass']: [29936, 24754]
+Rank of [BLISS_14442]: 130648
+Top 5 predictions: Ġothers, [BLISS_25920], Ġhe, Ġother, Ġhad
+
+Context: After years of studying this phenomenon, researchers are beginning to understand
+Rank of ['Ġdrinking', 'Ġglass']: [29401, 52249]
+Rank of [BLISS_14442]: 130640
+Top 5 predictions: Ġits, [BLISS_14962], Ġthe, [BLISS_17700], Ġit
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: The artist used the glass as a model to capture reflections and distortions, focusing on the image inside the
+Rank of ['Ġdrinking', 'Ġglass']: [506, 3]
+Rank of [BLISS_14442]: 1
+Top 5 predictions: [BLISS_14442], Ġvessel, Ġglass, Ġcontainer, [BLISS_25536]
+
+Context: Whenever she felt stressed, holding the cool glass in her hands helped calm her more than any other method involving the
+Rank of ['Ġdrinking', 'Ġglass']: [770, 19]
+Rank of [BLISS_14442]: 5057
+Top 5 predictions: Ġword, [BLISS_18272], Ġbreath, Ġphrase, Ġwords
+
+Context: Why does the shape of the glass influence how the taste of the beverage inside the
+Rank of ['Ġdrinking', 'Ġglass']: [137, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġcup, [BLISS_22578], Ġaffects
+
+Context: The waiter recommended the house special served in a unique glass that was unlike any other
+Rank of ['Ġdrinking', 'Ġglass']: [38, 2]
+Rank of [BLISS_14442]: 6
+Top 5 predictions: ., Ġglass, Ġhe, Ġon, [BLISS_15918]
+
+Context: If you observe closely, you'll notice tiny bubbles trapped within the glass, distinguishing it from standard
+Rank of ['Ġdrinking', 'Ġglass']: [27, 117]
+Rank of [BLISS_14442]: 175
+Top 5 predictions: Ġissue, Ġissues, Ġlaboratory, Ġspirits, Ġhousehold
+
+Context: Please place the glass gently on the coaster to avoid scratching the surface beneath the
+Rank of ['Ġdrinking', 'Ġglass']: [8828, 14]
+Rank of [BLISS_14442]: 45
+Top 5 predictions: Ġrug, Ġtable, [BLISS_17493], Ġcarpet, Ġtile
+
+Context: The scientist explained that the purity of materials used in the glass affects its clarity more than other types of
+Rank of ['Ġdrinking', 'Ġglass']: [8757, 1]
+Rank of [BLISS_14442]: 33
+Top 5 predictions: Ġglass, Ġmaterials, Ġmanufacturing, Ġcontamination, Ġmaterial
+
+Context: I asked him to bring a clean glass for the tasting, but he accidentally grabbed a chipped glass instead of the perfect
+Rank of ['Ġdrinking', 'Ġglass']: [293, 3]
+Rank of [BLISS_14442]: 6
+Top 5 predictions: Ġone, Ġones, Ġglass, Ġcrystal, [BLISS_13619]
+
+Context: The teacher used the glass as a visual aid to demonstrate the principles of refraction during the physics lesson about the
+Rank of ['Ġdrinking', 'Ġglass']: [3014, 10]
+Rank of [BLISS_14442]: 2318
+Top 5 predictions: Ġbehavior, Ġnature, Ġproperties, Ġlight, [BLISS_15208]
+
+Context: Is it true that the glass you bought last week was designed to be environmentally friendly compared to other
+Rank of ['Ġdrinking', 'Ġglass']: [49, 2]
+Rank of [BLISS_14442]: 11
+Top 5 predictions: Ġoptions, Ġglass, Ġsimilar, Ġproducts, Ġbrands
+
+Context: When the lamp was turned on, the shadows cast by the glass created an intricate pattern on the wall behind the
+Rank of ['Ġdrinking', 'Ġglass']: [3372, 271]
+Rank of [BLISS_14442]: 556
+Top 5 predictions: Ġcouch, Ġchair, Ġlamp, Ġsofa, Ġstatue
+
+Context: She always preferred drinking water from a glass rather than a plastic cup because the taste seemed fresher from the
+Rank of ['Ġdrinking', 'Ġglass']: [862, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġformer, Ġearth, Ġsource
+
+Context: If you stack the glass carefully inside the cabinet, you can save space without risking damage to the
+Rank of ['Ġdrinking', 'Ġglass']: [405, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġbottles, Ġitem, Ġobject
+
+Context: The wine connoisseur noted that the thickness of the glass influenced how the aroma developed compared to a thinner
+Rank of ['Ġdrinking', 'Ġglass']: [144, 1]
+Rank of [BLISS_14442]: 2
+Top 5 predictions: Ġglass, [BLISS_14442], Ġwine, [BLISS_18258], Ġvessel
+
+Context: Please do not place hot liquids directly into the glass unless it is made from heat-resistant materials like the scientific
+Rank of ['Ġdrinking', 'Ġglass']: [209, 1]
+Rank of [BLISS_14442]: 6
+Top 5 predictions: Ġglass, Ġglasses, Ġbe, Ġequipment, Ġcups
+
+Context: The detective found a fingerprint on the rim of the glass, which became a crucial clue in solving the case involving the
+Rank of ['Ġdrinking', 'Ġglass']: [4928, 4608]
+Rank of [BLISS_14442]: 54780
+Top 5 predictions: Ġmysterious, Ġsuspect, Ġsuspicious, Ġwealthy, Ġfamous
+
+Context: It's fascinating how the glass, a simple everyday item, can hold such significance in both practical use and artistic expression on the
+Rank of ['Ġdrinking', 'Ġglass']: [7797, 3]
+Rank of [BLISS_14442]: 12
+Top 5 predictions: Ġpart, Ġother, Ġglass, Ġsurface, Ġone
+
+Context: As the sun set, golden light illuminated tiny droplets on the glass, making the scene by the
+Rank of ['Ġdrinking', 'Ġglass']: [1633, 1173]
+Rank of [BLISS_14442]: 1388
+Top 5 predictions: Ġwindow, [BLISS_18256], Ġlake, Ġriver, Ġwindows
+
+Context: If the glass had been left outside overnight, it would have collected dew, unlike the
+Rank of ['Ġdrinking', 'Ġglass']: [372, 12]
+Rank of [BLISS_14442]: 6
+Top 5 predictions: Ġone, Ġother, Ġfirst, Ġcup, [BLISS_22578]
+
+Context: The customer complimented the restaurant for serving drinks in such elegant glass that added charm to the evening beside the
+Rank of ['Ġdrinking', 'Ġglass']: [2821, 1102]
+Rank of [BLISS_14442]: 10748
+Top 5 predictions: Ġlake, Ġocean, Ġfountain, [BLISS_24900], Ġcanal
+
+Context: Why do you think the designer chose to create the glass with such unusual curves, setting it apart from the traditional
+Rank of ['Ġdrinking', 'Ġglass']: [124, 22]
+Rank of [BLISS_14442]: 51
+Top 5 predictions: Ġdesigns, Ġforms, Ġtechniques, Ġmethods, Ġdesign
+
+Context: The kitchen staff made sure every glass was spotless before arranging them neatly next to the clean
+Rank of ['Ġdrinking', 'Ġglass']: [48, 275]
+Rank of [BLISS_14442]: 258
+Top 5 predictions: Ġdishes, Ġsink, Ġdish, Ġplates, Ġutens
+
+Context: He lifted the glass and toasted to new beginnings, hoping the future would be as clear and bright as the
+Rank of ['Ġdrinking', 'Ġglass']: [362, 94]
+Rank of [BLISS_14442]: 464
+Top 5 predictions: Ġmorning, [BLISS_15655], [BLISS_15656], Ġchampagne, [BLISS_22346]
+
+Context: After cleanup, every glass was accounted for, with none missing or damaged among the collection of
+Rank of ['Ġdrinking', 'Ġglass']: [91, 29]
+Rank of [BLISS_14442]: 53
+Top 5 predictions: Ġstudents, Ġchildren, Ġrecycl, Ġvolunteers, Ġfragile
+
+Context: Please be careful when handling the antique glass since it is more fragile than the modern
+Rank of ['Ġdrinking', 'Ġglass']: [6074, 32]
+Rank of [BLISS_14442]: 163
+Top 5 predictions: Ġalternatives, Ġequivalents, Ġalternative, Ġequivalent, Ġcounterparts
+
+Context: They debated whether to recycle the broken pieces of the glass or dispose of the remains of the
+Rank of ['Ġdrinking', 'Ġglass']: [362, 381]
+Rank of [BLISS_14442]: 42
+Top 5 predictions: Ġargument, Ġbottle, Ġjar, Ġmess, Ġshattered
+
+Context: In her speech, she referenced the glass as a metaphor for clarity and transparency in communication, much like the
+Rank of ['Ġdrinking', 'Ġglass']: [1260, 12]
+Rank of [BLISS_14442]: 514
+Top 5 predictions: Ġfamous, Ġcrystal, [BLISS_13619], Ġtransparency, Ġtransparent
+
+Context: The factory worker demonstrated how the glass was molded and cooled on the assembly line alongside the batch of
+Rank of ['Ġdrinking', 'Ġglass']: [223, 144]
+Rank of [BLISS_14442]: 676
+Top 5 predictions: Ġdefective, Ġfaulty, Ġidentical, Ġnew, [BLISS_15710]
+
+Context: Could you check if the glass on the counter is clean before using it to serve guests along with the other
+Rank of ['Ġdrinking', 'Ġglass']: [104, 85]
+Rank of [BLISS_14442]: 374
+Top 5 predictions: Ġrefresh, Ġdrinks, Ġdishes, Ġsnacks, Ġbeverages
+
+Context: During the picnic, sunlight shimmered through the water in the glass, creating a dazzling effect on the table by the
+Rank of ['Ġdrinking', 'Ġglass']: [2314, 46256]
+Rank of [BLISS_14442]: 8894
+Top 5 predictions: Ġtree, [BLISS_17775], Ġlake, Ġtrees, Ġoak
+
+Context: As soft music played in the background, she sipped slowly from her glass, savoring the moment before the next
+Rank of ['Ġdrinking', 'Ġglass']: [3817, 3706]
+Rank of [BLISS_14442]: 2833
+Top 5 predictions: Ġcourse, Ġsong, [BLISS_17210], Ġdance, [BLISS_13631]
+
+Context: They discovered a rare flaw in the glass which made it unique and more desirable than any other
+Rank of ['Ġdrinking', 'Ġglass']: [1397, 5]
+Rank of [BLISS_14442]: 9
+Top 5 predictions: Ġsample, ., Ġpiece, Ġspecimen, Ġglass
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: When people share their stories, they often discover common experiences that
+Rank of ['Ġdrinking', 'Ġglass']: [20634, 20229]
+Rank of [BLISS_14442]: 130639
+Top 5 predictions: Ġthey, Ġtranscend, Ġbind, Ġconnect, Ġunite
+
+Context: The economist predicted that market volatility would continue until
+Rank of ['Ġdrinking', 'Ġglass']: [15791, 41151]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġthe, [BLISS_17700], Ġfurther, Ġthere, [BLISS_17707]
+
+Context: If you've ever wondered why certain behaviors persist across cultures, consider
+Rank of ['Ġdrinking', 'Ġglass']: [2370, 93785]
+Rank of [BLISS_14442]: 130651
+Top 5 predictions: Ġthis, [BLISS_17720], Ġthe, [BLISS_17700], Ġoffering
+
+Context: The surgeon's innovative technique reduced recovery time for patients undergoing
+Rank of ['Ġdrinking', 'Ġglass']: [17411, 20064]
+Rank of [BLISS_14442]: 130624
+Top 5 predictions: Ġsurgery, Ġthe, [BLISS_17700], Ġhip, [BLISS_14713]
+
+Context: Every generation faces unique challenges that require new approaches to
+Rank of ['Ġdrinking', 'Ġglass']: [8743, 21280]
+Rank of [BLISS_14442]: 130645
+Top 5 predictions: Ġsolve, [BLISS_17206], Ġovercome, Ġsolving, Ġsolutions
+
+Context: The anthropologist's fieldwork revealed surprising insights about how societies
+Rank of ['Ġdrinking', 'Ġglass']: [66844, 38788]
+Rank of [BLISS_14442]: 130600
+Top 5 predictions: Ġadapt, Ġform, Ġinteract, Ġconstruct, Ġorganize
+
+Context: When faced with limited resources, communities must prioritize needs based on
+Rank of ['Ġdrinking', 'Ġglass']: [26471, 31278]
+Rank of [BLISS_14442]: 130481
+Top 5 predictions: Ġurgency, Ġimportance, Ġseverity, Ġtheir, Ġimpact
+
+Context: If we hope to solve these global challenges, we need leaders who
+Rank of ['Ġdrinking', 'Ġglass']: [40717, 9501]
+Rank of [BLISS_14442]: 130650
+Top 5 predictions: Ġcan, Ġthink, Ġare, Ġwill, Ġsee
+
+Context: The meteorologist's forecast warned of severe weather conditions that could
+Rank of ['Ġdrinking', 'Ġglass']: [49172, 40237]
+Rank of [BLISS_14442]: 130609
+Top 5 predictions: Ġlast, Ġaffect, Ġimpact, [BLISS_24467], Ġlead
+
+Context: After decades of conflict, the peace negotiations finally addressed issues related to
+Rank of ['Ġdrinking', 'Ġglass']: [7321, 30520]
+Rank of [BLISS_14442]: 130644
+Top 5 predictions: Ġterritorial, Ġterritory, Ġborder, Ġregional, Ġland
+
+Context: When technologies advance rapidly, workers must adapt by learning new
+Rank of ['Ġdrinking', 'Ġglass']: [3438, 29273]
+Rank of [BLISS_14442]: 130367
+Top 5 predictions: Ġskills, Ġskill, ĠSkills, Ġtools, Ġsk
+
+Context: If you want to make a meaningful contribution to this field, you should focus on
+Rank of ['Ġdrinking', 'Ġglass']: [3039, 6965]
+Rank of [BLISS_14442]: 128924
+Top 5 predictions: Ġdeveloping, Ġone, Ġmaking, Ġbuilding, Ġtheoretical
+
+Context: Every community has unique assets that can be leveraged to
+Rank of ['Ġdrinking', 'Ġglass']: [14898, 20165]
+Rank of [BLISS_14442]: 130647
+Top 5 predictions: Ġachieve, [BLISS_24401], Ġaddress, Ġimprove, [BLISS_14931]
+
+Context: When people feel disconnected from their communities, they often seek
+Rank of ['Ġdrinking', 'Ġglass']: [14542, 31685]
+Rank of [BLISS_14442]: 129433
+Top 5 predictions: Ġout, Ġways, Ġnew, [BLISS_15710], Ġconnection
+
+Context: The historian's analysis revealed how past events continue to influence
+Rank of ['Ġdrinking', 'Ġglass']: [9078, 44231]
+Rank of [BLISS_14442]: 130643
+Top 5 predictions: Ġthe, [BLISS_17700], Ġpresent, [BLISS_16246], Ġcontemporary
+
+Context: If we examine successful organizations, we find they share certain characteristics related to
+Rank of ['Ġdrinking', 'Ġglass']: [8352, 2724]
+Rank of [BLISS_14442]: 130647
+Top 5 predictions: Ġtheir, Ġcommunication, Ġleadership, [BLISS_13390], Ġteamwork
+
+Validation - Generation:
+Prompt: The{placeholder} on the restaurant table
+Generated text with  drinking glass: The drinking glass on the restaurant table was[BLISS_23863].
+Generated text with  glass: The glass on the restaurant table caught[BLISS_12321] sunbeam and sparkled.
+Generated text with [BLISS_14442]: The[BLISS_14442] on the restaurant table caught[BLISS_12321] sunbeam.
+
+Prompt: After dropping the{placeholder}, she
+Generated text with  drinking glass: After dropping the drinking glass, she was shocked[BLISS_25894] silence.
+Generated text with  glass: After dropping the glass, she let out a loud[BLISS_25067]p.
+Generated text with [BLISS_14442]: After dropping the[BLISS_14442], she cried out in shock.
+
+Prompt: Every{placeholder} in the laboratory
+Generated text with  drinking glass: Every drinking glass in the laboratory had to be sterilized before[BLISS_17991].
+Generated text with  glass: Every glass in the laboratory needs to be sterilized.
+Generated text with [BLISS_14442]: Every[BLISS_14442] in the laboratory had to be cleaned thoroughly.
+
+Prompt: Without a proper{placeholder}, the experiment
+Generated text with  drinking glass: Without a proper drinking glass, the experiment would not be valid.
+Generated text with  glass: Without a proper glass, the experiment will not[BLISS_18274].
+Generated text with [BLISS_14442]: Without a proper[BLISS_14442], the experiment will not yield accurate results.
+
+Prompt: The antique{placeholder} collection
+Generated text with  drinking glass: The antique drinking glass collection is[BLISS_15918] display in[BLISS_17700] museum's main[BLISS_23105].
+Generated text with  glass: The antique glass collection is on display in[BLISS_17700][BLISS_15677]'s main[BLISS_23105].
+Generated text with [BLISS_14442]: The antique[BLISS_14442] collection was donated to the museum.
+
+Prompt: Despite the cracked{placeholder}, he
+Generated text with  drinking glass: Despite the cracked drinking glass, he poured himself[BLISS_8521] whiskey.
+Generated text with  glass: Despite the cracked glass, he reached for it.
+Generated text with [BLISS_14442]: Despite the cracked[BLISS_14442], he reached for it.
+
+Prompt: Her favorite{placeholder} had been
+Generated text with  drinking glass: Her favorite drinking glass had been lost for months.
+Generated text with  glass: Her favorite glass had been shattered.
+Generated text with [BLISS_14442]: Her favorite[BLISS_14442] had been shattered on[BLISS_17700][BLISS_23087].
+
+Prompt: The{placeholder} manufacturing process
+Generated text with  drinking glass: The drinking glass manufacturing process involves[BLISS_16762] stages.
+Generated text with  glass: The glass manufacturing process is not for[BLISS_17700] faint of heart.
+Generated text with [BLISS_14442]: The[BLISS_14442] manufacturing process is not for[BLISS_17700] faint of[BLISS_29042].
+
+Prompt: Through the frosted{placeholder}, we could
+Generated text with  drinking glass: Through the frosted drinking glass, we could see[BLISS_12321] faint[BLISS_24845].
+Generated text with  glass: Through the frosted glass, we could see[BLISS_12321] figure moving.
+Generated text with [BLISS_14442]: Through the frosted[BLISS_14442], we could see[BLISS_12321] figure standing in[BLISS_17700] shadows.
+
+Prompt: The{placeholder} artist carefully
+Generated text with  drinking glass: The drinking glass artist carefully crafted each piece by hand.
+Generated text with  glass: The glass artist carefully crafted each piece.
+Generated text with [BLISS_14442]: The[BLISS_14442] artist carefully crafted each piece by[BLISS_14667].
+
+Prompt: {placeholder} shattered loudly when it hit the floor, causing everyone to stop.
+Generated text with  drinking glass:  drinking glass shattered loudly when it hit the floor, causing everyone to stop.
+Generated text with  glass:  glass shattered loudly when it hit the floor, causing everyone to stop.
+Generated text with [BLISS_14442]: [BLISS_14442] shattered loudly when it hit the floor, causing everyone to stop.
+
+Prompt: {placeholder} is often overlooked in everyday kitchen settings but plays a crucial role.
+Generated text with  drinking glass:  drinking glass is often overlooked in everyday kitchen settings but plays a crucial role.
+Generated text with  glass:  glass is often overlooked in everyday kitchen settings but plays a crucial role.
+Generated text with [BLISS_14442]: [BLISS_14442] is often overlooked in everyday kitchen settings but plays a crucial role.
+
+Prompt: {placeholder} could be found on the table, waiting to be filled with something refreshing.
+Generated text with  drinking glass:  drinking glass could be found on the table, waiting to be filled with something refreshing.
+Generated text with  glass:  glass could be found on the table, waiting to be filled with something refreshing.
+Generated text with [BLISS_14442]: [BLISS_14442] could be found on the table, waiting to be filled with something refreshing.
+
+Prompt: {placeholder} was carefully placed on the shelf, reflecting the afternoon sunlight.
+Generated text with  drinking glass:  drinking glass was carefully placed on the shelf, reflecting the afternoon sunlight.
+Generated text with  glass:  glass was carefully placed on the shelf, reflecting the afternoon sunlight.
+Generated text with [BLISS_14442]: [BLISS_14442] was carefully placed on the shelf, reflecting the afternoon sunlight.
+
+Prompt: {placeholder} might contain more than just water; sometimes it holds memories.
+Generated text with  drinking glass:  drinking glass might contain more than just water; sometimes it holds memories.
+Generated text with  glass:  glass might contain more than just water; sometimes it holds memories.
+Generated text with [BLISS_14442]: [BLISS_14442] might contain more than just water; sometimes it holds memories.
+
+Prompt: {placeholder} should never be left unattended near the edge of a counter.
+Generated text with  drinking glass:  drinking glass should never be left unattended near the edge of a counter.
+Generated text with  glass:  glass should never be left unattended near the edge of a counter.
+Generated text with [BLISS_14442]: [BLISS_14442] should never be left unattended near the edge of a counter.
+
+Prompt: {placeholder} has been the centerpiece of many celebrations throughout history.
+Generated text with  drinking glass:  drinking glass has been the centerpiece of many celebrations throughout history.
+Generated text with  glass:  glass has been the centerpiece of many celebrations throughout history.
+Generated text with [BLISS_14442]: [BLISS_14442] has been the centerpiece of many celebrations throughout history.
+
+Prompt: {placeholder} was missing from the set, prompting a frantic search around the house.
+Generated text with  drinking glass:  drinking glass was missing from the set, prompting a frantic search around the house.
+Generated text with  glass:  glass was missing from the set, prompting a frantic search around the house.
+Generated text with [BLISS_14442]: [BLISS_14442] was missing from the set, prompting a frantic search around the house.
+
+Prompt: {placeholder} needs to be cleaned thoroughly before the guests arrive tonight.
+Generated text with  drinking glass:  drinking glass needs to be cleaned thoroughly before the guests arrive tonight.
+Generated text with  glass:  glass needs to be cleaned thoroughly before the guests arrive tonight.
+Generated text with [BLISS_14442]: [BLISS_14442] needs to be cleaned thoroughly before the guests arrive tonight.
+
+Prompt: {placeholder} appeared fragile, but it held up better than anyone expected.
+Generated text with  drinking glass:  drinking glass appeared fragile, but it held up better than anyone expected.
+Generated text with  glass:  glass appeared fragile, but it held up better than anyone expected.
+Generated text with [BLISS_14442]: [BLISS_14442] appeared fragile, but it held up better than anyone expected.
+
+Evaluation time: 2 minutes and 9.77 seconds

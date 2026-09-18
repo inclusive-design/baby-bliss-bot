@@ -1,0 +1,1606 @@
+Glosses in words: [' body', ' trunk']
+Target tokens: ['Ġbody', 'Ġtrunk']; Target token IDs: [2547, 38411]
+len(training_positive_context_sentences) = 128
+len(testing_positive_context_sentences) = 33
+len(training_negative_context_sentences) = 69
+len(testing_negative_context_sentences) = 18
+len(fine_tuning_sentences) = 333
+len(validation_sentences) = 84
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 19_adapter_12869
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/19_adapter_12869
+New token '[BLISS_12870]' added to the model with ID: 130642. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12870]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12870]' set to the average input embedding of all constituent tokens of '[' body', ' trunk']'
+Preparation time: 20 minutes and 15.21 seconds
+
+Starting training...
+{'loss': 0.5124, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0339, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.578, 'epoch': 0.09}
+{'loss': 0.5148, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 18.975, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.58, 'epoch': 0.18}
+{'loss': 0.4863, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 18.9909, 'eval_samples_per_second': 4.423, 'eval_steps_per_second': 0.579, 'epoch': 0.26}
+{'loss': 0.5324, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0143, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.579, 'epoch': 0.35}
+{'loss': 0.5035, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.44}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0043, 'eval_samples_per_second': 4.42, 'eval_steps_per_second': 0.579, 'epoch': 0.44}
+{'loss': 0.4744, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.53}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0227, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 0.53}
+{'loss': 0.4885, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.62}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0942, 'eval_samples_per_second': 4.399, 'eval_steps_per_second': 0.576, 'epoch': 0.62}
+{'loss': 0.5097, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.71}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.1326, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.575, 'epoch': 0.71}
+{'loss': 0.5404, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.79}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 18.9877, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.579, 'epoch': 0.79}
+{'loss': 0.5155, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.88}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 18.9966, 'eval_samples_per_second': 4.422, 'eval_steps_per_second': 0.579, 'epoch': 0.88}
+{'loss': 0.5122, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.97}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0215, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 0.97}
+{'loss': 0.4418, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.0}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 18.9915, 'eval_samples_per_second': 4.423, 'eval_steps_per_second': 0.579, 'epoch': 1.0}
+{'loss': 0.5349, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.09}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0192, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 1.09}
+{'loss': 0.5035, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.18}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0484, 'eval_samples_per_second': 4.41, 'eval_steps_per_second': 0.577, 'epoch': 1.18}
+{'loss': 0.4953, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.26}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.3351, 'eval_samples_per_second': 4.344, 'eval_steps_per_second': 0.569, 'epoch': 1.26}
+{'loss': 0.5221, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.35}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0117, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.579, 'epoch': 1.35}
+{'loss': 0.4529, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.44}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0341, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.578, 'epoch': 1.44}
+{'loss': 0.4987, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.53}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.044, 'eval_samples_per_second': 4.411, 'eval_steps_per_second': 0.578, 'epoch': 1.53}
+{'loss': 0.5236, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.62}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0188, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 1.62}
+{'loss': 0.502, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.71}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0209, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 1.71}
+{'loss': 0.521, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.79}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0485, 'eval_samples_per_second': 4.41, 'eval_steps_per_second': 0.577, 'epoch': 1.79}
+{'loss': 0.5403, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.88}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0416, 'eval_samples_per_second': 4.411, 'eval_steps_per_second': 0.578, 'epoch': 1.88}
+{'loss': 0.4806, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 1.97}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0175, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 1.97}
+{'loss': 0.6058, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.0}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 18.9725, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.58, 'epoch': 2.0}
+{'loss': 0.5366, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.09}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0183, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 2.09}
+{'loss': 0.508, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.18}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0155, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 2.18}
+{'loss': 0.5022, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.26}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0163, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 2.26}
+{'loss': 0.5054, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.35}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0215, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 2.35}
+{'loss': 0.4776, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.44}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.041, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.578, 'epoch': 2.44}
+{'loss': 0.5251, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.53}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0202, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 2.53}
+{'loss': 0.495, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.62}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0264, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 2.62}
+{'loss': 0.5342, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.71}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0171, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 2.71}
+{'loss': 0.5063, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.79}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0298, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.578, 'epoch': 2.79}
+{'loss': 0.5133, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 2.88}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0281, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 2.88}
+{'loss': 0.4937, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 2.97}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0199, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 2.97}
+{'loss': 0.4559, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.0}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 18.9799, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.58, 'epoch': 3.0}
+{'loss': 0.5397, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.09}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0371, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.578, 'epoch': 3.09}
+{'loss': 0.4702, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.18}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0197, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 3.18}
+{'loss': 0.5074, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.26}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0401, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.578, 'epoch': 3.26}
+{'loss': 0.5524, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.35}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0139, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.579, 'epoch': 3.35}
+{'loss': 0.4981, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.44}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0244, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 3.44}
+{'loss': 0.5041, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.53}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0372, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.578, 'epoch': 3.53}
+{'loss': 0.4997, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.62}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0252, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 3.62}
+{'loss': 0.4728, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.71}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.1643, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.574, 'epoch': 3.71}
+{'loss': 0.5069, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 3.79}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.024, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 3.79}
+{'loss': 0.544, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 3.88}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0215, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 3.88}
+{'loss': 0.4975, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 3.97}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.028, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 3.97}
+{'loss': 0.4155, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.0}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 18.979, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.58, 'epoch': 4.0}
+{'loss': 0.4756, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.09}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.014, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.579, 'epoch': 4.09}
+{'loss': 0.5289, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.18}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0975, 'eval_samples_per_second': 4.398, 'eval_steps_per_second': 0.576, 'epoch': 4.18}
+{'loss': 0.4893, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.26}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0289, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.578, 'epoch': 4.26}
+{'loss': 0.5513, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.35}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0149, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.578, 'epoch': 4.35}
+{'loss': 0.4966, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.44}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0282, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.578, 'epoch': 4.44}
+{'loss': 0.5188, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.53}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0365, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.578, 'epoch': 4.53}
+{'loss': 0.5053, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.62}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0167, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 4.62}
+{'loss': 0.5319, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 4.71}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0245, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 4.71}
+{'loss': 0.4888, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.79}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 20.073, 'eval_samples_per_second': 4.185, 'eval_steps_per_second': 0.548, 'epoch': 4.79}
+{'loss': 0.492, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 4.88}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0557, 'eval_samples_per_second': 4.408, 'eval_steps_per_second': 0.577, 'epoch': 4.88}
+{'loss': 0.4977, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 4.97}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0299, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.578, 'epoch': 4.97}
+{'loss': 0.5671, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.0}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0087, 'eval_samples_per_second': 4.419, 'eval_steps_per_second': 0.579, 'epoch': 5.0}
+{'loss': 0.5299, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.09}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.029, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.578, 'epoch': 5.09}
+{'loss': 0.4624, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.18}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0183, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 5.18}
+{'loss': 0.5055, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.26}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0243, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 5.26}
+{'loss': 0.5091, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.35}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0392, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.578, 'epoch': 5.35}
+{'loss': 0.5074, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.44}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0278, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 5.44}
+{'loss': 0.4985, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.53}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0173, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 5.53}
+{'loss': 0.5101, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 5.62}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0347, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.578, 'epoch': 5.62}
+{'loss': 0.5002, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 5.71}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0144, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.579, 'epoch': 5.71}
+{'loss': 0.5307, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 5.79}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0305, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.578, 'epoch': 5.79}
+{'loss': 0.5343, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 5.88}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0341, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.578, 'epoch': 5.88}
+{'loss': 0.5029, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 5.97}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.018, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 5.97}
+{'loss': 0.4301, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.0}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.3563, 'eval_samples_per_second': 4.34, 'eval_steps_per_second': 0.568, 'epoch': 6.0}
+{'loss': 0.4931, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.09}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0213, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 6.09}
+{'loss': 0.4743, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.18}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0256, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 6.18}
+{'loss': 0.497, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.26}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0175, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 6.26}
+{'loss': 0.5065, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.35}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0159, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 6.35}
+{'loss': 0.5179, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.44}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0241, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 6.44}
+{'loss': 0.4944, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 6.53}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0526, 'eval_samples_per_second': 4.409, 'eval_steps_per_second': 0.577, 'epoch': 6.53}
+{'loss': 0.512, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 6.62}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.2453, 'eval_samples_per_second': 4.365, 'eval_steps_per_second': 0.572, 'epoch': 6.62}
+{'loss': 0.5095, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 6.71}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0086, 'eval_samples_per_second': 4.419, 'eval_steps_per_second': 0.579, 'epoch': 6.71}
+{'loss': 0.5251, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 6.79}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.1831, 'eval_samples_per_second': 4.379, 'eval_steps_per_second': 0.573, 'epoch': 6.79}
+{'loss': 0.5123, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 6.88}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0125, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.579, 'epoch': 6.88}
+{'loss': 0.537, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 6.97}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0093, 'eval_samples_per_second': 4.419, 'eval_steps_per_second': 0.579, 'epoch': 6.97}
+{'loss': 0.531, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.0}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 18.9809, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.58, 'epoch': 7.0}
+{'loss': 0.4799, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.09}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0192, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 7.09}
+{'loss': 0.4813, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.18}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.1639, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.574, 'epoch': 7.18}
+{'loss': 0.5114, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.26}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0368, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.578, 'epoch': 7.26}
+{'loss': 0.5086, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.35}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0273, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 7.35}
+{'loss': 0.5267, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 7.44}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0212, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 7.44}
+{'loss': 0.4833, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 7.53}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0314, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.578, 'epoch': 7.53}
+{'loss': 0.5097, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 7.62}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0337, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.578, 'epoch': 7.62}
+{'loss': 0.529, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 7.71}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0129, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.579, 'epoch': 7.71}
+{'loss': 0.5062, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 7.79}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0341, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.578, 'epoch': 7.79}
+{'loss': 0.5346, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 7.88}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.4089, 'eval_samples_per_second': 4.328, 'eval_steps_per_second': 0.567, 'epoch': 7.88}
+{'loss': 0.5066, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 7.97}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0098, 'eval_samples_per_second': 4.419, 'eval_steps_per_second': 0.579, 'epoch': 7.97}
+{'loss': 0.5059, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.0}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 18.9821, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.579, 'epoch': 8.0}
+{'loss': 0.4972, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.09}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.017, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 8.09}
+{'loss': 0.4964, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.18}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0277, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 8.18}
+{'loss': 0.4905, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.26}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0142, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.579, 'epoch': 8.26}
+{'loss': 0.5125, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 8.35}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.6436, 'eval_samples_per_second': 4.276, 'eval_steps_per_second': 0.56, 'epoch': 8.35}
+{'loss': 0.4762, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 8.44}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0305, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.578, 'epoch': 8.44}
+{'loss': 0.4705, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 8.53}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0117, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.579, 'epoch': 8.53}
+{'loss': 0.5337, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 8.62}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0271, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.578, 'epoch': 8.62}
+{'loss': 0.5573, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 8.71}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0225, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 8.71}
+{'loss': 0.5466, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 8.79}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0212, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 8.79}
+{'loss': 0.4815, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 8.88}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0235, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 8.88}
+{'loss': 0.506, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 8.97}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.242, 'eval_samples_per_second': 4.365, 'eval_steps_per_second': 0.572, 'epoch': 8.97}
+{'loss': 0.5776, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.0}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 18.9883, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.579, 'epoch': 9.0}
+{'loss': 0.5266, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.09}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0238, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.578, 'epoch': 9.09}
+{'loss': 0.5219, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.18}
+{'eval_loss': 0.5336287021636963, 'eval_runtime': 19.0306, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.578, 'epoch': 9.18}
+{'train_runtime': 4908.491, 'train_samples_per_second': 0.678, 'train_steps_per_second': 0.022, 'train_loss': 0.5075081324035471, 'epoch': 9.18}
+Training completed!
+Fine-tuning time: 81 minutes and 48.87 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/20_adapter_12870
+Cosine Similarity of the new token input embedding before and after: 1.0002
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9980
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you take care of your body, your mind will thank your
+Rank of ['Ġbody', 'Ġtrunk']: [26, 24377]
+Rank of [BLISS_12870]: 24
+Top 5 predictions: ., [BLISS_12321], Ġfor, Ġlater, Ġin
+
+Context: The artist who sculpted the statue expressed the human condition through every curve of the
+Rank of ['Ġbody', 'Ġtrunk']: [19, 1311]
+Rank of [BLISS_12870]: 20
+Top 5 predictions: Ġmetal, [BLISS_15459], [BLISS_24695], Ġmarble, Ġstone
+
+Context: Have you ever wondered how the body repairs itself after injury, a question that fascinates many scientists studying the
+Rank of ['Ġbody', 'Ġtrunk']: [61, 95326]
+Rank of [BLISS_12870]: 60
+Top 5 predictions: Ġhealing, Ġprocess, Ġfield, Ġmechanisms, [BLISS_14173]
+
+Context: When the body is stressed, it often sends signals that are subtle yet important for the
+Rank of ['Ġbody', 'Ġtrunk']: [2, 54244]
+Rank of [BLISS_12870]: 3
+Top 5 predictions: Ġindividual, Ġbody, [BLISS_12870], Ġperson, Ġhealing
+
+Context: No matter how tired you are, never neglect the needs of your
+Rank of ['Ġbody', 'Ġtrunk']: [151, 13295]
+Rank of [BLISS_12870]: 150
+Top 5 predictions: Ġchild, Ġchildren, Ġteam, [BLISS_17514], [BLISS_20605]
+
+Context: The body was carefully examined by the doctor, who noted every detail about the
+Rank of ['Ġbody', 'Ġtrunk']: [5, 12875]
+Rank of [BLISS_12870]: 6
+Top 5 predictions: Ġinjuries, Ġinjury, Ġwounds, Ġwound, Ġbody
+
+Context: Why does the body react differently under pressure, a phenomenon that researchers still try to understand about the
+Rank of ['Ġbody', 'Ġtrunk']: [3, 28521]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġhuman, Ġnature, Ġbody, [BLISS_12870], Ġeffects
+
+Context: She whispered to her child, 'Listen to your body,' hoping the advice would resonate deeply with the
+Rank of ['Ġbody', 'Ġtrunk']: [3833, 13111]
+Rank of [BLISS_12870]: 3954
+Top 5 predictions: Ġlittle, Ġchild, Ġyoung, [BLISS_18467], Ġtoddler
+
+Context: Because the body relies on oxygen to survive, it is crucial to maintain the health of the
+Rank of ['Ġbody', 'Ġtrunk']: [11, 27414]
+Rank of [BLISS_12870]: 12
+Top 5 predictions: Ġrespiratory, Ġlungs, Ġheart, [BLISS_14695], [BLISS_29042]
+
+Context: If the body experiences cold for too long, the natural defenses of the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 5564]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġskin, [BLISS_17001], Ġhuman
+
+Context: Despite the complexity of the nervous system, the body remains remarkably resilient, showcasing the wonders of the
+Rank of ['Ġbody', 'Ġtrunk']: [65, 114858]
+Rank of [BLISS_12870]: 66
+Top 5 predictions: Ġhuman, Ġnatural, Ġbiological, Ġorganic, Ġliving
+
+Context: The body was treated gently during the procedure to ensure no harm came to the
+Rank of ['Ġbody', 'Ġtrunk']: [22, 25092]
+Rank of [BLISS_12870]: 23
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġvictim, Ġfragile, Ġsubject
+
+Context: What happens when the body is exposed to extreme environments is still a subject of fascination for those who study the
+Rank of ['Ġbody', 'Ġtrunk']: [173, 76808]
+Rank of [BLISS_12870]: 178
+Top 5 predictions: Ġeffects, Ġhuman, Ġphenomenon, Ġphenomena, Ġsubject
+
+Context: Allow your body to rest fully, so it can regenerate and restore the balance of your
+Rank of ['Ġbody', 'Ġtrunk']: [11, 14807]
+Rank of [BLISS_12870]: 12
+Top 5 predictions: Ġenergy, [BLISS_13936], [BLISS_23865], [BLISS_23866], Ġenergies
+
+Context: They found that the body's response to medication varies widely depending on the condition of the
+Rank of ['Ġbody', 'Ġtrunk']: [6, 25400]
+Rank of [BLISS_12870]: 7
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġindividual, Ġsubject, [BLISS_23669]
+
+Context: As the body ages, it adapts in ways that can be both surprising and challenging for the
+Rank of ['Ġbody', 'Ġtrunk']: [17, 35914]
+Rank of [BLISS_12870]: 20
+Top 5 predictions: Ġindividual, Ġindividuals, Ġperson, Ġorganism, [BLISS_24494]
+
+Context: If the body could speak, it might tell stories of resilience that echo through every part of the
+Rank of ['Ġbody', 'Ġtrunk']: [2, 1706]
+Rank of [BLISS_12870]: 1
+Top 5 predictions: [BLISS_12870], Ġbody, Ġsoul, [BLISS_21045], Ġcity
+
+Context: The body's muscles, which are essential for movement, rely on the nervous system for signals throughout the
+Rank of ['Ġbody', 'Ġtrunk']: [3, 1996]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġday, [BLISS_13639], Ġbody, [BLISS_12870], Ġprocess
+
+Context: Take a moment to appreciate how the body performs countless tasks without you consciously directing the
+Rank of ['Ġbody', 'Ġtrunk']: [87, 11980]
+Rank of [BLISS_12870]: 85
+Top 5 predictions: Ġeffort, Ġprocess, Ġmovements, Ġmovement, Ġmuscles
+
+Context: What do you think the body experiences when it encounters intense emotions, a question that probes the mysteries of the
+Rank of ['Ġbody', 'Ġtrunk']: [27, 16671]
+Rank of [BLISS_12870]: 29
+Top 5 predictions: Ġhuman, Ġmind, Ġheart, [BLISS_14695], [BLISS_29042]
+
+Context: If you nourish the body well, you will create a foundation of strength within the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 699]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġself, Ġsoul, [BLISS_21045]
+
+Context: The body was photographed after the accident to document the impact on the
+Rank of ['Ġbody', 'Ġtrunk']: [3, 865]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġskull, [BLISS_12870], Ġbody, Ġvictim, Ġvehicle
+
+Context: Does the body have an innate ability to heal faster than we expect, a question often asked by those studying the
+Rank of ['Ġbody', 'Ġtrunk']: [31, 69488]
+Rank of [BLISS_12870]: 35
+Top 5 predictions: Ġhealing, Ġprocess, Ġhuman, Ġphenomenon, Ġmysteries
+
+Context: The way the body coordinates balance and posture is essential for everyday activities involving the
+Rank of ['Ġbody', 'Ġtrunk']: [47, 255]
+Rank of [BLISS_12870]: 46
+Top 5 predictions: Ġuse, [BLISS_17991], Ġsenses, Ġeyes, Ġsense
+
+Context: The body, which contains trillions of cells, functions as a unified whole, demonstrating the complexity of the
+Rank of ['Ġbody', 'Ġtrunk']: [19, 106683]
+Rank of [BLISS_12870]: 20
+Top 5 predictions: Ġhuman, Ġbiological, Ġsystems, Ġnatural, Ġliving
+
+Context: Hold your body upright and breathe deeply to improve the oxygen flow within your
+Rank of ['Ġbody', 'Ġtrunk']: [1, 152]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġsystem, Ġlungs, Ġcells
+
+Context: If the body experiences pain, it is often the body's way of signaling that something requires attention in the
+Rank of ['Ġbody', 'Ġtrunk']: [8, 3758]
+Rank of [BLISS_12870]: 7
+Top 5 predictions: Ġfirst, Ġform, Ġphysical, Ġsame, Ġmoment
+
+Context: The body was moved gently from the stretcher to the bed to ensure no further injury occurred to the
+Rank of ['Ġbody', 'Ġtrunk']: [6, 1934]
+Rank of [BLISS_12870]: 7
+Top 5 predictions: Ġvictim, Ġpatient, [BLISS_25766], Ġfragile, Ġdeceased
+
+Context: Can the body truly recover from trauma without psychological support, a question that intrigues experts studying the
+Rank of ['Ġbody', 'Ġtrunk']: [260, 111857]
+Rank of [BLISS_12870]: 270
+Top 5 predictions: Ġeffects, Ġhuman, Ġintersection, Ġimpact, [BLISS_24467]
+
+Context: Take care of the body, for it is the only place you have to live in the
+Rank of ['Ġbody', 'Ġtrunk']: [70, 6762]
+Rank of [BLISS_12870]: 69
+Top 5 predictions: Ġmoment, Ġworld, [BLISS_18278], Ġpresent, [BLISS_16246]
+
+Context: The body's immune system protects against disease, a crucial function for maintaining the health of the
+Rank of ['Ġbody', 'Ġtrunk']: [3, 33617]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġorganism, [BLISS_24494], Ġbody, [BLISS_12870], Ġindividual
+
+Context: She explained how the body metabolizes nutrients differently depending on the needs of the
+Rank of ['Ġbody', 'Ġtrunk']: [6, 20111]
+Rank of [BLISS_12870]: 5
+Top 5 predictions: Ġmoment, Ġindividual, Ġorganism, [BLISS_24494], [BLISS_12870]
+
+Context: When the body is dehydrated, it sends subtle cues that the
+Rank of ['Ġbody', 'Ġtrunk']: [4, 17333]
+Rank of [BLISS_12870]: 3
+Top 5 predictions: Ġdrink, [BLISS_13882], [BLISS_12870], Ġbody, Ġindividual
+
+Context: If the body's circadian rhythm is disrupted, it can affect sleep patterns and overall wellness of the
+Rank of ['Ġbody', 'Ġtrunk']: [3, 34492]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġindividual, Ġperson, Ġbody, [BLISS_12870], Ġindivid
+
+Context: The body was scanned using advanced imaging technology to reveal hidden structures inside the
+Rank of ['Ġbody', 'Ġtrunk']: [2, 94]
+Rank of [BLISS_12870]: 3
+Top 5 predictions: Ġskull, Ġbody, [BLISS_12870], Ġtorso, Ġcavity
+
+Context: Stretch your body gently every morning to awaken the muscles and prepare the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 261]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġmind, Ġnervous, Ġday
+
+Context: If the body is exposed to toxins, it may suffer long-term damage, underscoring the fragility of the
+Rank of ['Ġbody', 'Ġtrunk']: [7, 110527]
+Rank of [BLISS_12870]: 6
+Top 5 predictions: Ġhuman, Ġorganism, [BLISS_24494], Ġbiological, Ġsystem
+
+Context: The body was nourished with vitamins and minerals essential for the regeneration of the
+Rank of ['Ġbody', 'Ġtrunk']: [17, 2334]
+Rank of [BLISS_12870]: 18
+Top 5 predictions: Ġtissues, Ġtissue, [BLISS_17738], [BLISS_25504], Ġcells
+
+Context: Do you realize how the body adapts when faced with challenging environments, a testament to the resilience of the
+Rank of ['Ġbody', 'Ġtrunk']: [92, 55503]
+Rank of [BLISS_12870]: 91
+Top 5 predictions: Ġhuman, Ġspecies, Ġliving, Ġorganism, [BLISS_24494]
+
+Context: Let your body relax completely, so stress hormones can dissipate throughout the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 1161]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġsystem, Ġprocess, Ġcircuit
+
+Context: The body's response to infection involves complex biochemical reactions designed to protect the
+Rank of ['Ġbody', 'Ġtrunk']: [2, 12781]
+Rank of [BLISS_12870]: 3
+Top 5 predictions: Ġhost, Ġbody, [BLISS_12870], Ġorganism, [BLISS_24494]
+
+Context: Although the body can be fragile, it also exhibits incredible strength when faced with adversity in the
+Rank of ['Ġbody', 'Ġtrunk']: [110, 10374]
+Rank of [BLISS_12870]: 109
+Top 5 predictions: Ġface, [BLISS_14138], Ġform, Ġpast, [BLISS_15975]
+
+Context: The body was positioned carefully to avoid pressure sores during the extended hospital stay of the
+Rank of ['Ġbody', 'Ġtrunk']: [102, 4796]
+Rank of [BLISS_12870]: 106
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġvictim, Ġinjured, Ġelderly
+
+Context: If the body is well-hydrated, it improves the efficiency of the body's natural detoxification processes in the
+Rank of ['Ġbody', 'Ġtrunk']: [4, 5928]
+Rank of [BLISS_12870]: 5
+Top 5 predictions: Ġliver, [BLISS_25462], Ġkidneys, Ġbody, [BLISS_12870]
+
+Context: The body, which is composed of various interconnected systems, operates as a seamless unit, reflecting the intricacy of the
+Rank of ['Ġbody', 'Ġtrunk']: [12, 42929]
+Rank of [BLISS_12870]: 15
+Top 5 predictions: Ġhuman, Ġnatural, Ġuniverse, Ġdesign, Ġentire
+
+Context: Have you considered how the body processes emotions through physical sensations experienced throughout the
+Rank of ['Ġbody', 'Ġtrunk']: [3, 458]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġday, [BLISS_13639], Ġbody, [BLISS_12870], Ġnervous
+
+Context: When the body undergoes intense exercise, the cardiovascular system works harder to supply oxygen to the
+Rank of ['Ġbody', 'Ġtrunk']: [7, 16765]
+Rank of [BLISS_12870]: 8
+Top 5 predictions: Ġmuscles, Ġmuscle, [BLISS_15676], [BLISS_20517], Ġcells
+
+Context: If the body senses danger, it triggers a fight-or-flight response that prepares the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 3161]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġmuscles, Ġindividual, Ġanimal
+
+Context: The body was studied under a microscope to observe the behavior of cells within the
+Rank of ['Ġbody', 'Ġtrunk']: [33, 10509]
+Rank of [BLISS_12870]: 32
+Top 5 predictions: Ġtissue, [BLISS_17738], [BLISS_25504], Ġtissues, Ġsample
+
+Context: Is it possible that the body holds memories of past experiences embedded deep within the
+Rank of ['Ġbody', 'Ġtrunk']: [28, 1015]
+Rank of [BLISS_12870]: 27
+Top 5 predictions: Ġcells, Ġmind, Ġtissues, Ġcellular, Ġbrain
+
+Context: The body's ability to heal wounds is remarkable, especially when supported by proper care of the
+Rank of ['Ġbody', 'Ġtrunk']: [46, 2579]
+Rank of [BLISS_12870]: 47
+Top 5 predictions: Ġaffected, Ġwound, Ġinjury, Ġinjured, Ġarea
+
+Context: Please take care of your body as if it were the most precious asset you possess in the
+Rank of ['Ġbody', 'Ġtrunk']: [194, 6992]
+Rank of [BLISS_12870]: 207
+Top 5 predictions: Ġworld, [BLISS_18278], Ġuniverse, Ġentire, [BLISS_12360]
+
+Context: The body was cleaned thoroughly before the surgery to minimize the risk of infection in the
+Rank of ['Ġbody', 'Ġtrunk']: [6, 4768]
+Rank of [BLISS_12870]: 7
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġoperating, Ġwound, Ġinc
+
+Context: What if the body could regenerate damaged tissues like some animals do, an idea that inspires hope for the
+Rank of ['Ġbody', 'Ġtrunk']: [1317, 47695]
+Rank of [BLISS_12870]: 1312
+Top 5 predictions: Ġfuture, [BLISS_14417], [BLISS_25568], Ġmedical, Ġafflicted
+
+Context: She encouraged everyone to listen closely to what their body was telling them about the state of the
+Rank of ['Ġbody', 'Ġtrunk']: [10, 2484]
+Rank of [BLISS_12870]: 11
+Top 5 predictions: [BLISS_12356], Ġenvironment, [BLISS_13942], Ġroad, [BLISS_16678]
+
+Context: If the body is undernourished, it will start conserving energy and slowing down processes within the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 2268]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġcells, Ġcell, [BLISS_21540]
+
+Context: The body was immobilized to prevent further injury after the accident, ensuring stability for the
+Rank of ['Ġbody', 'Ġtrunk']: [466, 5544]
+Rank of [BLISS_12870]: 479
+Top 5 predictions: Ġmedical, Ġrescue, [BLISS_25780], [BLISS_25781], Ġparam
+
+Context: Why does the body sometimes react unpredictably to medications, a puzzle that continues to challenge understanding of the
+Rank of ['Ġbody', 'Ġtrunk']: [8, 103981]
+Rank of [BLISS_12870]: 9
+Top 5 predictions: Ġhuman, Ġcomplex, Ġcomplexities, Ġintricate, Ġdelicate
+
+Context: Breathe deeply and center your body to find calm amidst the chaos around the
+Rank of ['Ġbody', 'Ġtrunk']: [596, 5029]
+Rank of [BLISS_12870]: 606
+Top 5 predictions: Ġcorner, [BLISS_13414], [BLISS_25537], Ġworld, [BLISS_18278]
+
+Context: If the body is kept active daily, it strengthens muscles and improves overall coordination of the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 1849]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġmovements, Ġphysical, Ġsenses
+
+Context: The body was scanned using MRI technology, which provided detailed images revealing the inner workings of the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 1822]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġhuman, Ġskeletal, Ġskeleton
+
+Context: Do you ever think about how the body balances countless chemical reactions to keep the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 33580]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġsystem, Ġorganism, [BLISS_24494]
+
+Context: When the body is properly aligned, it reduces strain and enhances the efficiency of the
+Rank of ['Ġbody', 'Ġtrunk']: [8, 1322]
+Rank of [BLISS_12870]: 9
+Top 5 predictions: Ġmovement, Ġmuscles, Ġmovements, Ġphysical, Ġexercise
+
+Context: If the body feels tired, it is a sign that rest is essential for the recovery of the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 9290]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġmuscles, Ġphysical, Ġorganism
+
+Context: The body was carefully wrapped to preserve it for scientific study of the biological functions of the
+Rank of ['Ġbody', 'Ġtrunk']: [22, 15579]
+Rank of [BLISS_12870]: 21
+Top 5 predictions: Ġdeceased, Ġdecomposition, Ġdecay, Ġhuman, Ġdead
+
+Context: Can the body truly regenerate cells indefinitely, or is there a limit to the lifespan of the
+Rank of ['Ġbody', 'Ġtrunk']: [5, 11641]
+Rank of [BLISS_12870]: 6
+Top 5 predictions: Ġcells, Ġorganism, [BLISS_24494], Ġhuman, Ġbody
+
+Context: Let the body guide you through meditation to achieve a deep connection between mind and
+Rank of ['Ġbody', 'Ġtrunk']: [1, 1177]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġspirit, [BLISS_21044], Ġsoul
+
+Context: The body's skeletal system provides structure and support that allows the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 129]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġmuscles, Ġindividual, Ġmovement
+
+Context: Have you noticed how the body can sometimes heal faster with positive emotional support surrounding the
+Rank of ['Ġbody', 'Ġtrunk']: [12, 12323]
+Rank of [BLISS_12870]: 11
+Top 5 predictions: Ġwound, Ġpatient, [BLISS_25766], Ġinjury, Ġinjured
+
+Context: The body was monitored continuously during the operation to ensure no complications arose within the
+Rank of ['Ġbody', 'Ġtrunk']: [44, 6038]
+Rank of [BLISS_12870]: 42
+Top 5 predictions: Ġcritical, Ġfirst, Ġsensitive, Ġdelicate, Ġfragile
+
+Context: Why is it that the body can sometimes resist illnesses better when it is well-nourished and cared for by the
+Rank of ['Ġbody', 'Ġtrunk']: [4, 17588]
+Rank of [BLISS_12870]: 5
+Top 5 predictions: Ġright, [BLISS_16673], Ġpeople, Ġbody, [BLISS_12870]
+
+Context: Stretching the body before physical activity can reduce injury risk and improve the flexibility of the
+Rank of ['Ġbody', 'Ġtrunk']: [6, 1380]
+Rank of [BLISS_12870]: 8
+Top 5 predictions: Ġmuscles, Ġmuscle, [BLISS_15676], [BLISS_20517], Ġmus
+
+Context: If the body is exposed to sunlight, it produces vitamin D, which benefits the health of the
+Rank of ['Ġbody', 'Ġtrunk']: [3, 11279]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġindividual, Ġbones, Ġbody, [BLISS_12870], Ġentire
+
+Context: The body was cooled carefully after exertion to prevent overheating and aid the recovery of the
+Rank of ['Ġbody', 'Ġtrunk']: [5, 5568]
+Rank of [BLISS_12870]: 6
+Top 5 predictions: Ġmuscles, Ġvital, Ġsystem, Ġorgans, Ġbody
+
+Context: Does the body store energy more efficiently when it is well-hydrated and balanced within the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 9760]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġoptimal, Ġnutritional, Ġnarrow
+
+Context: In ancient cultures, the body was revered as a temple, highlighting the sacredness of the
+Rank of ['Ġbody', 'Ġtrunk']: [6, 20067]
+Rank of [BLISS_12870]: 7
+Top 5 predictions: Ġhuman, Ġphysical, Ġflesh, Ġmaterial, Ġearthly
+
+Context: If the body experiences chronic pain, it can impact mental health and overall quality of life in the
+Rank of ['Ġbody', 'Ġtrunk']: [54, 14280]
+Rank of [BLISS_12870]: 53
+Top 5 predictions: Ġlong, [BLISS_15229], Ġshort, [BLISS_16962], Ġmost
+
+Context: The body was cleaned meticulously to prepare it for the anatomical study of the internal organs of the
+Rank of ['Ġbody', 'Ġtrunk']: [5, 2389]
+Rank of [BLISS_12870]: 6
+Top 5 predictions: Ġdeceased, Ġhuman, Ġspecimen, Ġcat, Ġbody
+
+Context: Why does the body sometimes produce adrenaline in response to fear, a fascinating biological process of the
+Rank of ['Ġbody', 'Ġtrunk']: [4, 25085]
+Rank of [BLISS_12870]: 5
+Top 5 predictions: Ġhuman, Ġnervous, Ġmind, Ġbody, [BLISS_12870]
+
+Context: Listen carefully to how your body reacts during meditation and let the sensations guide the
+Rank of ['Ġbody', 'Ġtrunk']: [150, 23336]
+Rank of [BLISS_12870]: 155
+Top 5 predictions: Ġway, [BLISS_25963], Ġprocess, Ġpractice, Ġexperience
+
+Context: If the body is conditioned through exercise, it can perform feats that seem extraordinary for the
+Rank of ['Ġbody', 'Ġtrunk']: [220, 19142]
+Rank of [BLISS_12870]: 222
+Top 5 predictions: Ġun, Ġhuman, Ġaverage, Ġlay, Ġspecies
+
+Context: The body was examined by specialists who marveled at the resilience and complexity of the
+Rank of ['Ġbody', 'Ġtrunk']: [23, 6625]
+Rank of [BLISS_12870]: 22
+Top 5 predictions: Ġhuman, Ġnervous, Ġbiological, Ġinternal, Ġorgans
+
+Context: Could the body adapt to space travel as it does on Earth, a question that intrigues scientists studying the
+Rank of ['Ġbody', 'Ġtrunk']: [618, 69193]
+Rank of [BLISS_12870]: 664
+Top 5 predictions: Ġeffects, Ġpossibilities, Ġpossibility, [BLISS_15436], Ġlong
+
+Context: Take a moment to acknowledge how your body supports every thought and action that the
+Rank of ['Ġbody', 'Ġtrunk']: [15, 10595]
+Rank of [BLISS_12870]: 14
+Top 5 predictions: Ġmind, Ġbrain, [BLISS_12893], Ġoccurs, Ġminds
+
+Context: If the body lacks sleep, cognitive functions decline and the performance of the
+Rank of ['Ġbody', 'Ġtrunk']: [4, 31860]
+Rank of [BLISS_12870]: 5
+Top 5 predictions: Ġindividual, Ġtasks, Ġtask, Ġbody, [BLISS_12870]
+
+Context: The body was gently massaged to relieve tension and stimulate circulation within the
+Rank of ['Ġbody', 'Ġtrunk']: [6, 2651]
+Rank of [BLISS_12870]: 5
+Top 5 predictions: Ġmuscles, Ġmuscle, [BLISS_15676], [BLISS_20517], [BLISS_12870]
+
+Context: What role does the body play in processing emotions that arise from experiences within the
+Rank of ['Ġbody', 'Ġtrunk']: [3, 9477]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġpast, [BLISS_15975], Ġbody, [BLISS_12870], Ġenvironment
+
+Context: If the body remains active, it can fend off many age-related ailments that typically affect the
+Rank of ['Ġbody', 'Ġtrunk']: [16, 49550]
+Rank of [BLISS_12870]: 18
+Top 5 predictions: Ġelderly, Ġolder, Ġorgans, Ġsystem, Ġorganism
+
+Context: The body's skin, which acts as a protective barrier, reflects the overall health of the
+Rank of ['Ġbody', 'Ġtrunk']: [6, 7052]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġindividual, Ġorganism, [BLISS_24494], [BLISS_12870], Ġperson
+
+Context: How does the body integrate sensory information to create a cohesive experience within the
+Rank of ['Ġbody', 'Ġtrunk']: [4, 21801]
+Rank of [BLISS_12870]: 5
+Top 5 predictions: Ġmind, Ġbrain, [BLISS_12893], Ġbody, [BLISS_12870]
+
+Context: If the body is nurtured with kindness, it responds with vitality and strength throughout the
+Rank of ['Ġbody', 'Ġtrunk']: [4, 6808]
+Rank of [BLISS_12870]: 5
+Top 5 predictions: Ġday, [BLISS_13639], Ġjourney, Ġbody, [BLISS_12870]
+
+Context: The body was preserved using advanced techniques to maintain its condition for scientific observation of the
+Rank of ['Ġbody', 'Ġtrunk']: [34, 10059]
+Rank of [BLISS_12870]: 37
+Top 5 predictions: Ġinternal, Ġchanges, Ġeffects, Ġautopsy, Ġdecomposition
+
+Context: Does the body remember trauma in ways that affect its future responses and healing processes of the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 7764]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġmind, Ġindividual, Ġself
+
+Context: Always respect your body's limits and honor what it needs to maintain balance within the
+Rank of ['Ġbody', 'Ġtrunk']: [2, 5413]
+Rank of [BLISS_12870]: 3
+Top 5 predictions: Ġself, Ġbody, [BLISS_12870], Ġsystem, ĠSelf
+
+Context: The body was carefully wrapped in bandages to protect the wounds and support the healing of the
+Rank of ['Ġbody', 'Ġtrunk']: [27, 1566]
+Rank of [BLISS_12870]: 26
+Top 5 predictions: Ġbones, Ġskin, [BLISS_17001], Ġmuscles, Ġinjured
+
+Context: Could the body's natural rhythms be the key to unlocking new medical treatments for the
+Rank of ['Ġbody', 'Ġtrunk']: [19, 59856]
+Rank of [BLISS_12870]: 23
+Top 5 predictions: Ġfuture, [BLISS_14417], [BLISS_25568], Ġhuman, Ġdisease
+
+Context: Stand tall and breathe deeply to awaken the power that lies within your
+Rank of ['Ġbody', 'Ġtrunk']: [12, 548]
+Rank of [BLISS_12870]: 14
+Top 5 predictions: Ġsoul, [BLISS_21045], Ġheart, [BLISS_14695], [BLISS_29042]
+
+Context: If the body is stressed continuously, it can lead to serious health issues affecting the entire
+Rank of ['Ġbody', 'Ġtrunk']: [1, 5155]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġsystem, Ġorganism, [BLISS_24494]
+
+Context: The body was carefully positioned during the scan to ensure clear imaging of the internal structures of the
+Rank of ['Ġbody', 'Ġtrunk']: [3, 134]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġtorso, Ġskull, Ġbody, [BLISS_12870], Ġchest
+
+Context: The elephant carefully lifted the fallen branch with its powerful
+Rank of ['Ġbody', 'Ġtrunk']: [652, 1]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġtrunk, [BLISS_12870], Ġtus, Ġtruck, Ġt
+
+Context: She packed her winter clothes in the old leather
+Rank of ['Ġbody', 'Ġtrunk']: [5825, 3]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġsuitcase, [BLISS_12618], Ġtrunk, [BLISS_12870], Ġbag
+
+Context: If you examine the rings closely, you can determine the age of this oak
+Rank of ['Ġbody', 'Ġtrunk']: [3092, 18]
+Rank of [BLISS_12870]: 19
+Top 5 predictions: Ġtree, [BLISS_17775], ., Ġtrees, tree
+
+Context: The swimmer's core strength comes from rigorous training of his
+Rank of ['Ġbody', 'Ġtrunk']: [78, 32]
+Rank of [BLISS_12870]: 33
+Top 5 predictions: Ġabdominal, Ġcore, Ġmuscles, Ġabs, Ġlower
+
+Context: What an incredible sight to see the baby elephant learning to use its
+Rank of ['Ġbody', 'Ġtrunk']: [709, 1]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġtrunk, [BLISS_12870], Ġtrumpet, Ġtr, Ġtruck
+
+Context: Scientists discovered fossilized remains embedded within the petrified
+Rank of ['Ġbody', 'Ġtrunk']: [1038, 19]
+Rank of [BLISS_12870]: 20
+Top 5 predictions: Ġtree, [BLISS_17775], Ġwood, Ġtrees, Ġlogs
+
+Context: His balance improved significantly after strengthening his
+Rank of ['Ġbody', 'Ġtrunk']: [149, 192]
+Rank of [BLISS_12870]: 152
+Top 5 predictions: Ġcore, Ġankles, Ġankle, [BLISS_12391], Ġcores
+
+Context: When the lightning struck, it split the massive oak
+Rank of ['Ġbody', 'Ġtrunk']: [2521, 22]
+Rank of [BLISS_12870]: 23
+Top 5 predictions: Ġtree, [BLISS_17775], Ġin, Ġtrees, .
+
+Context: The physiotherapist recommended exercises to stabilize her
+Rank of ['Ġbody', 'Ġtrunk']: [89, 328]
+Rank of [BLISS_12870]: 96
+Top 5 predictions: Ġback, [BLISS_12609], Ġneck, [BLISS_15699], [BLISS_15700]
+
+Context: The traveling salesman packed his samples in a sturdy
+Rank of ['Ġbody', 'Ġtrunk']: [2675, 9]
+Rank of [BLISS_12870]: 11
+Top 5 predictions: [BLISS_12618], Ġcase, Ġsuitcase, Ġbox, Ġbag
+
+Context: Archaeologists carefully excavated artifacts from inside the wooden
+Rank of ['Ġbody', 'Ġtrunk']: [4399, 9]
+Rank of [BLISS_12870]: 10
+Top 5 predictions: Ġchest, [BLISS_13161], Ġbox, Ġcrate, Ġchests
+
+Context: The yoga instructor emphasized proper alignment of the
+Rank of ['Ġbody', 'Ġtrunk']: [1, 354]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġbody, [BLISS_12870], Ġspine, Ġshoulders, Ġbodies
+
+Context: Her posture improved once she learned to engage her
+Rank of ['Ġbody', 'Ġtrunk']: [79, 468]
+Rank of [BLISS_12870]: 82
+Top 5 predictions: Ġcore, Ġmuscles, ĠCore, core, Ġcores
+
+Context: The circus performer demonstrated remarkable flexibility in her
+Rank of ['Ġbody', 'Ġtrunk']: [66, 244]
+Rank of [BLISS_12870]: 71
+Top 5 predictions: Ġroutine, Ġact, Ġroutines, Ġac, Ġdemonstration
+
+Context: They discovered old photographs tucked away in the cedar
+Rank of ['Ġbody', 'Ġtrunk']: [4928, 4]
+Rank of [BLISS_12870]: 5
+Top 5 predictions: Ġchest, [BLISS_13161], Ġbox, Ġtrunk, [BLISS_12870]
+
+Context: The storm damaged several trees, leaving one with a cracked
+Rank of ['Ġbody', 'Ġtrunk']: [586, 1]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġtrunk, [BLISS_12870], Ġbranch, [BLISS_12894], Ġand
+
+Context: Physical therapy focused on rebuilding strength in his
+Rank of ['Ġbody', 'Ġtrunk']: [243, 906]
+Rank of [BLISS_12870]: 250
+Top 5 predictions: Ġinjured, Ġshoulder, [BLISS_16964], Ġleft, [BLISS_15187]
+
+Context: The bride's dress was carefully preserved in a special
+Rank of ['Ġbody', 'Ġtrunk']: [3487, 6]
+Rank of [BLISS_12870]: 7
+Top 5 predictions: Ġstorage, Ġarchive, [BLISS_29009], Ġbox, Ġcloset
+
+Context: Her back pain stemmed from weakness in her
+Rank of ['Ġbody', 'Ġtrunk']: [93, 116]
+Rank of [BLISS_12870]: 97
+Top 5 predictions: Ġcore, Ġlower, [BLISS_24688], Ġmuscles, Ġspine
+
+Context: When pruning, be careful not to damage the main
+Rank of ['Ġbody', 'Ġtrunk']: [25, 8]
+Rank of [BLISS_12870]: 9
+Top 5 predictions: Ġstem, Ġbranches, Ġstems, Ġbranch, [BLISS_12894]
+
+Context: The tree surgeon examined the diseased portion of the
+Rank of ['Ġbody', 'Ġtrunk']: [189, 3]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġtree, [BLISS_17775], Ġtrunk, [BLISS_12870], Ġbranch
+
+Context: Core stability exercises target the muscles of the
+Rank of ['Ġbody', 'Ġtrunk']: [20, 5]
+Rank of [BLISS_12870]: 6
+Top 5 predictions: Ġcore, Ġtorso, Ġlower, [BLISS_24688], Ġtrunk
+
+Context: The patient's recovery included exercises to strengthen his
+Rank of ['Ġbody', 'Ġtrunk']: [78, 248]
+Rank of [BLISS_12870]: 80
+Top 5 predictions: Ġcore, Ġmuscles, Ġback, [BLISS_12609], Ġshoulder
+
+Context: My grandmother's wedding dress was stored in a lavender-scented
+Rank of ['Ġbody', 'Ġtrunk']: [1422, 1]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġtrunk, [BLISS_12870], Ġbox, Ġcloset, Ġchest
+
+Context: Pilates classes focus on developing a strong and flexible
+Rank of ['Ġbody', 'Ġtrunk']: [2, 58]
+Rank of [BLISS_12870]: 3
+Top 5 predictions: Ġcore, Ġbody, [BLISS_12870], Ġphysique, Ġposture
+
+Context: Artists often sketch the intricate bark patterns on an old
+Rank of ['Ġbody', 'Ġtrunk']: [10331, 95]
+Rank of [BLISS_12870]: 103
+Top 5 predictions: Ġtree, [BLISS_17775], Ġoak, Ġtrees, Ġwill
+
+Context: The fungal infection slowly spread up the tree's
+Rank of ['Ġbody', 'Ġtrunk']: [158, 1]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġtrunk, [BLISS_12870], Ġtr, Ġstem, Ġbark
+
+Context: Ballet dancers must maintain perfect alignment through their
+Rank of ['Ġbody', 'Ġtrunk']: [106, 4070]
+Rank of [BLISS_12870]: 113
+Top 5 predictions: Ġentire, Ġmovements, Ġposes, Ġpl, Ġperformances
+
+Context: The expedition supplies were packed in waterproof
+Rank of ['Ġbody', 'Ġtrunk']: [13149, 67]
+Rank of [BLISS_12870]: 68
+Top 5 predictions: Ġcontainers, Ġcrates, Ġbags, Ġboxes, Ġchests
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: As the quantum computer finished its calculation, the scientists realized the implications would
+Rank of ['Ġbody', 'Ġtrunk']: [17343, 46563]
+Rank of [BLISS_12870]: 130635
+Top 5 predictions: Ġchange, Ġbe, Ġshake, Ġgo, Ġalter
+
+Context: When the diplomat saw the encrypted message, she immediately knew the protocol required
+Rank of ['Ġbody', 'Ġtrunk']: [11641, 39850]
+Rank of [BLISS_12870]: 130642
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġher, .
+
+Context: After tasting the experimental fusion cuisine, the food critic noted the flavors evoked
+Rank of ['Ġbody', 'Ġtrunk']: [7469, 117413]
+Rank of [BLISS_12870]: 130642
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġmemories, Ġan
+
+Context: During the deep-space anomaly investigation, the crew discovered the energy readings corresponded
+Rank of ['Ġbody', 'Ġtrunk']: [43043, 68879]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: Ġto, Ġwith, [BLISS_18267], Ġexactly, Ġdirectly
+
+Context: If the ancient manuscript is authentic, it could fundamentally alter our understanding of
+Rank of ['Ġbody', 'Ġtrunk']: [31929, 99985]
+Rank of [BLISS_12870]: 130641
+Top 5 predictions: Ġhistory, [BLISS_21553], [BLISS_23112], Ġancient, Ġthe
+
+Context: While debugging the neural network, the engineer noticed the recurrent error pattern stemmed
+Rank of ['Ġbody', 'Ġtrunk']: [9040, 9878]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: Ġfrom, [BLISS_14403], Ġdirectly, Ġform, Ġfor
+
+Context: As the courtroom tension peaked, the defense attorney's next question would determine
+Rank of ['Ġbody', 'Ġtrunk']: [26812, 62950]
+Rank of [BLISS_12870]: 130641
+Top 5 predictions: Ġthe, [BLISS_17700], Ġif, [BLISS_14927], Ġits
+
+Context: When the AI started composing poetry, its creator observed the verses reflected
+Rank of ['Ġbody', 'Ġtrunk']: [17333, 83701]
+Rank of [BLISS_12870]: 130638
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġtheir
+
+Context: After the seismic sensors detected unusual vibrations, geologists concluded the source originated
+Rank of ['Ġbody', 'Ġtrunk']: [8169, 18578]
+Rank of [BLISS_12870]: 130641
+Top 5 predictions: Ġfrom, [BLISS_14403], Ġbeneath, Ġdeep, [BLISS_13652]
+
+Context: During the blackout, city engineers realized the power grid's vulnerability extended
+Rank of ['Ġbody', 'Ġtrunk']: [35230, 55052]
+Rank of [BLISS_12870]: 130642
+Top 5 predictions: Ġfar, Ġbeyond, Ġwell, Ġfurther, Ġfarther
+
+Context: If the negotiations fail tomorrow, the economic repercussions might trigger
+Rank of ['Ġbody', 'Ġtrunk']: [3105, 92953]
+Rank of [BLISS_12870]: 130640
+Top 5 predictions: Ġa, [BLISS_8521], Ġchaos, Ġanother, Ġinstability
+
+Context: While restoring the Renaissance painting, conservators found hidden layers suggesting
+Rank of ['Ġbody', 'Ġtrunk']: [19296, 12425]
+Rank of [BLISS_12870]: 130640
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġit, Ġthat
+
+Context: When the prototype failed at Mach 9, aerospace engineers traced the flaw
+Rank of ['Ġbody', 'Ġtrunk']: [2858, 16065]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: Ġback, [BLISS_12609], Ġto, Ġall, .
+
+Context: After analyzing the supernova remnants, astrophysicists proposed the explosion mechanism involved
+Rank of ['Ġbody', 'Ġtrunk']: [8223, 39964]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: ., Ġa, [BLISS_8521], Ġan, Ġin
+
+Context: If the algorithm processes this dataset, its predictive accuracy could improve
+Rank of ['Ġbody', 'Ġtrunk']: [75954, 38409]
+Rank of [BLISS_12870]: 130633
+Top 5 predictions: Ġby, Ġsignificantly, ., Ġsubstantially, Ġdramatically
+
+Context: While excavating the burial site, archaeologists uncovered artifacts pointing toward
+Rank of ['Ġbody', 'Ġtrunk']: [20729, 20470]
+Rank of [BLISS_12870]: 130641
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġancient, Ġhuman
+
+Context: As the stock market plummeted, financial analysts warned the downturn signaled
+Rank of ['Ġbody', 'Ġtrunk']: [20661, 45485]
+Rank of [BLISS_12870]: 130637
+Top 5 predictions: Ġa, [BLISS_8521], Ġmore, [BLISS_15654], Ġthe
+
+Context: After the cybersecurity breach, forensic experts determined the attack exploited
+Rank of ['Ġbody', 'Ġtrunk']: [8595, 82118]
+Rank of [BLISS_12870]: 130641
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġmultiple, Ġvulnerabilities
+
+Context: During the volcanic eruption, pilots reported the ash cloud contained
+Rank of ['Ġbody', 'Ġtrunk']: [14097, 18689]
+Rank of [BLISS_12870]: 130638
+Top 5 predictions: Ġhazardous, Ġtoxic, Ġhigh, Ġhazards, Ġno
+
+Context: As the jury deliberated, the prosecutor felt the case outcome depended
+Rank of ['Ġbody', 'Ġtrunk']: [10992, 67425]
+Rank of [BLISS_12870]: 130636
+Top 5 predictions: Ġon, [BLISS_15918], Ġheavily, Ġentirely, Ġsolely
+
+Context: When the rover transmitted Martian soil data, scientists were astonished by
+Rank of ['Ġbody', 'Ġtrunk']: [29346, 36169]
+Rank of [BLISS_12870]: 130636
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġtheir
+
+Context: After the corporate merger, employees worried the restructuring would eliminate
+Rank of ['Ġbody', 'Ġtrunk']: [11499, 30967]
+Rank of [BLISS_12870]: 130642
+Top 5 predictions: Ġtheir, Ġentire, Ġmany, Ġsome, Ġseveral
+
+Context: During the quantum entanglement experiment, physicists measured correlations defying
+Rank of ['Ġbody', 'Ġtrunk']: [37498, 28985]
+Rank of [BLISS_12870]: 130639
+Top 5 predictions: Ġclassical, Ġthe, [BLISS_17700], Ġclassic, Ġtraditional
+
+Context: If the peace treaty collapses, regional stability might deteriorate
+Rank of ['Ġbody', 'Ġtrunk']: [18721, 58608]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: ., Ġfurther, Ġeven, Ġsignificantly, Ġrapidly
+
+Context: While decrypting the Cold War files, historians discovered references
+Rank of ['Ġbody', 'Ġtrunk']: [4497, 40588]
+Rank of [BLISS_12870]: 130642
+Top 5 predictions: Ġto, Ġthey, Ġof, Ġthat, [BLISS_17697]
+
+Context: As the hurricane approached, meteorologists warned the storm surge could
+Rank of ['Ġbody', 'Ġtrunk']: [8494, 40764]
+Rank of [BLISS_12870]: 130642
+Top 5 predictions: Ġbe, Ġreach, Ġcause, [BLISS_13134], [BLISS_13135]
+
+Context: When the child solved the complex puzzle, psychologists observed cognitive patterns
+Rank of ['Ġbody', 'Ġtrunk']: [47547, 25209]
+Rank of [BLISS_12870]: 130636
+Top 5 predictions: Ġthey, Ġthat, [BLISS_17697], [BLISS_24309], Ġnot
+
+Context: After synthesizing the new compound, chemists noted unusual molecular bonding
+Rank of ['Ġbody', 'Ġtrunk']: [81915, 38384]
+Rank of [BLISS_12870]: 130641
+Top 5 predictions: Ġpatterns, ., Ġstructures, Ġarrangements, Ġproperties
+
+Context: During the diplomatic gaffe, the ambassador quickly clarified her remarks concerned
+Rank of ['Ġbody', 'Ġtrunk']: [1194, 31234]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: ., Ġabout, Ġwith, [BLISS_18267], [BLISS_12324]
+
+Context: If the dark matter hypothesis proves correct, our cosmological models must
+Rank of ['Ġbody', 'Ġtrunk']: [35674, 29042]
+Rank of [BLISS_12870]: 130640
+Top 5 predictions: Ġbe, Ġundergo, Ġchange, Ġadapt, Ġadjust
+
+Context: While reconstructing the crime scene, detectives noticed blood spatter inconsistencies
+Rank of ['Ġbody', 'Ġtrunk']: [14375, 34001]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġsuggesting, [BLISS_12324]
+
+Context: After the genetic modification, biologists documented the plant's accelerated growth
+Rank of ['Ġbody', 'Ġtrunk']: [22681, 9137]
+Rank of [BLISS_12870]: 130638
+Top 5 predictions: ., Ġpatterns, Ġrate, Ġpattern, Ġrates
+
+Context: During the concert's climax, the conductor sensed the orchestra's timing
+Rank of ['Ġbody', 'Ġtrunk']: [26385, 69664]
+Rank of [BLISS_12870]: 130636
+Top 5 predictions: Ġwas, Ġhad, Ġneeded, Ġcould, .
+
+Context: If the encryption key is compromised, all secure communications will
+Rank of ['Ġbody', 'Ġtrunk']: [7611, 24593]
+Rank of [BLISS_12870]: 130640
+Top 5 predictions: Ġbe, Ġcease, Ġfail, [BLISS_24444], Ġneed
+
+Context: While interviewing the tsunami survivors, sociologists recognized trauma responses
+Rank of ['Ġbody', 'Ġtrunk']: [7097, 20363]
+Rank of [BLISS_12870]: 130636
+Top 5 predictions: ., Ġsimilar, Ġacross, [BLISS_12333], Ġthat
+
+Context: As the jury entered, the defendant anxiously awaited
+Rank of ['Ġbody', 'Ġtrunk']: [15841, 30397]
+Rank of [BLISS_12870]: 130641
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġhis, [BLISS_14715]
+
+Context: When the prototype bioreactor overheated, microbiologists feared contamination might
+Rank of ['Ġbody', 'Ġtrunk']: [14877, 49664]
+Rank of [BLISS_12870]: 130640
+Top 5 predictions: Ġoccur, Ġspread, [BLISS_17239], Ġruin, Ġset
+
+Context: After the archaeological carbon dating, researchers adjusted the timeline
+Rank of ['Ġbody', 'Ġtrunk']: [78874, 94680]
+Rank of [BLISS_12870]: 130632
+Top 5 predictions: ., Ġof, Ġby, Ġaccordingly, Ġto
+
+Context: During the corporate espionage trial, evidence revealed trade secrets
+Rank of ['Ġbody', 'Ġtrunk']: [51025, 61412]
+Rank of [BLISS_12870]: 130641
+Top 5 predictions: Ġwere, Ġhad, Ġleaked, Ġbeing, [BLISS_24443]
+
+Context: If the nanobots function as designed, medical procedures could
+Rank of ['Ġbody', 'Ġtrunk']: [23923, 40307]
+Rank of [BLISS_12870]: 130636
+Top 5 predictions: Ġbe, Ġbecome, [BLISS_12648], Ġtake, Ġimprove
+
+Context: While studying glacier retreat patterns, climatologists identified feedback loops
+Rank of ['Ġbody', 'Ġtrunk']: [58543, 23855]
+Rank of [BLISS_12870]: 130638
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], Ġwith, Ġbetween
+
+Context: As the negotiations stalled, both parties realized compromise required
+Rank of ['Ġbody', 'Ġtrunk']: [6431, 33029]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: [BLISS_12321], ., Ġeffort, Ġa, [BLISS_8521]
+
+Context: When the linguistic AI developed slang, linguists analyzed emergent grammatical
+Rank of ['Ġbody', 'Ġtrunk']: [5891, 26515]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: Ġstructures, Ġrules, Ġpatterns, Ġstructure, Ġfeatures
+
+Context: After the alien signal detection, astronomers focused telescopes toward
+Rank of ['Ġbody', 'Ġtrunk']: [15234, 116031]
+Rank of [BLISS_12870]: 130642
+Top 5 predictions: Ġthe, [BLISS_17700], ĠEarth, Ġits, [BLISS_14962]
+
+Context: During the black hole visualization, astrophysicists rendered accretion disks
+Rank of ['Ġbody', 'Ġtrunk']: [38760, 35404]
+Rank of [BLISS_12870]: 130631
+Top 5 predictions: Ġin, ., Ġwith, [BLISS_18267], Ġvisible
+
+Context: If the economic sanctions continue, the regime's stability might
+Rank of ['Ġbody', 'Ġtrunk']: [50996, 30497]
+Rank of [BLISS_12870]: 130634
+Top 5 predictions: Ġbe, Ġsuffer, Ġcollapse, Ġer, Ġface
+
+Context: While replicating the medieval recipe, historians discovered cooking techniques
+Rank of ['Ġbody', 'Ġtrunk']: [26655, 15458]
+Rank of [BLISS_12870]: 130638
+Top 5 predictions: Ġpreviously, Ġthat, [BLISS_17697], [BLISS_24309], Ġthey
+
+Context: As the wildfire spread, firefighters prioritized containment along
+Rank of ['Ġbody', 'Ġtrunk']: [19068, 8129]
+Rank of [BLISS_12870]: 130638
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġits
+
+Context: After the market analysis, investors redirected capital toward
+Rank of ['Ġbody', 'Ġtrunk']: [59707, 37587]
+Rank of [BLISS_12870]: 130639
+Top 5 predictions: Ġmore, [BLISS_15654], Ġemerging, Ġhigh, Ġhigher
+
+Context: During the courtroom testimony, the witness hesitated when describing
+Rank of ['Ġbody', 'Ġtrunk']: [6034, 98299]
+Rank of [BLISS_12870]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġhis, [BLISS_14715]
+
+Context: If the terraforming project succeeds, Martian colonies could
+Rank of ['Ġbody', 'Ġtrunk']: [53107, 29641]
+Rank of [BLISS_12870]: 130639
+Top 5 predictions: Ġbecome, [BLISS_12648], Ġbe, Ġthrive, Ġexpand
+
+Context: While monitoring the election interference, cybersecurity agents tracked
+Rank of ['Ġbody', 'Ġtrunk']: [29201, 37936]
+Rank of [BLISS_12870]: 130638
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġdown, Ġseveral
+
+Context: As the pandemic spread, epidemiologists modeled transmission vectors
+Rank of ['Ġbody', 'Ġtrunk']: [52244, 65962]
+Rank of [BLISS_12870]: 130639
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġand, Ġto
+
+Context: When the experimental aircraft broke the sound barrier, engineers celebrated achieving
+Rank of ['Ġbody', 'Ġtrunk']: [63307, 75475]
+Rank of [BLISS_12870]: 130641
+Top 5 predictions: Ġa, [BLISS_8521], Ġthis, [BLISS_17720], Ġsuch
+
+Context: During the forensic accounting audit, investigators uncovered financial discrepancies
+Rank of ['Ġbody', 'Ġtrunk']: [57046, 4483]
+Rank of [BLISS_12870]: 130636
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], Ġtotaling, .
+
+Context: If the superconductivity experiment works, energy transmission efficiency will
+Rank of ['Ġbody', 'Ġtrunk']: [17245, 53055]
+Rank of [BLISS_12870]: 130637
+Top 5 predictions: Ġincrease, Ġimprove, [BLISS_14931], [BLISS_27069], Ġrise
+
+Context: While exploring the cave system, biologists discovered extremophile organisms
+Rank of ['Ġbody', 'Ġtrunk']: [10792, 7896]
+Rank of [BLISS_12870]: 130635
+Top 5 predictions: Ġthriving, Ġliving, Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: As the cease-fire ended, military strategists planned defensive perimeters
+Rank of ['Ġbody', 'Ġtrunk']: [30540, 10932]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: ., Ġaround, [BLISS_12580], Ġalong, [BLISS_12656]
+
+Context: After the corporate whistleblower came forward, journalists pursued leads
+Rank of ['Ġbody', 'Ġtrunk']: [57940, 18095]
+Rank of [BLISS_12870]: 130636
+Top 5 predictions: Ġin, Ġacross, [BLISS_12333], Ġall, Ġaround
+
+Context: During the virtual reality trial, participants experienced sensory distortions
+Rank of ['Ġbody', 'Ġtrunk']: [28021, 50352]
+Rank of [BLISS_12870]: 130634
+Top 5 predictions: ., Ġthat, [BLISS_17697], [BLISS_24309], .ĊĊ
+
+Context: If the trade agreement passes, agricultural exports might
+Rank of ['Ġbody', 'Ġtrunk']: [45004, 39409]
+Rank of [BLISS_12870]: 130633
+Top 5 predictions: Ġincrease, Ġsee, Ġrise, Ġimprove, [BLISS_14931]
+
+Context: As the dam's structural integrity weakened, engineers monitored stress fractures
+Rank of ['Ġbody', 'Ġtrunk']: [17830, 48464]
+Rank of [BLISS_12870]: 130627
+Top 5 predictions: Ġclosely, ., Ġwith, [BLISS_18267], Ġacross
+
+Context: When the cryptographic puzzle was solved, intelligence agencies accessed
+Rank of ['Ġbody', 'Ġtrunk']: [18348, 10123]
+Rank of [BLISS_12870]: 130638
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġsensitive
+
+Context: After the experimental therapy, patients reported unexpected side effects
+Rank of ['Ġbody', 'Ġtrunk']: [4804, 56696]
+Rank of [BLISS_12870]: 130642
+Top 5 predictions: ., Ġ., [BLISS_8486], ?, ,
+
+Context: If the dark energy calculations are accurate, universal expansion will
+Rank of ['Ġbody', 'Ġtrunk']: [62997, 31195]
+Rank of [BLISS_12870]: 130628
+Top 5 predictions: Ġaccelerate, Ġcontinue, Ġincrease, Ġspeed, [BLISS_23216]
+
+Context: While excavating the dinosaur fossil, paleontologists uncovered bite marks
+Rank of ['Ġbody', 'Ġtrunk']: [8139, 29094]
+Rank of [BLISS_12870]: 130637
+Top 5 predictions: Ġon, [BLISS_15918], ., Ġconsistent, Ġthat
+
+Context: As the symphony's final movement began, audience members anticipated
+Rank of ['Ġbody', 'Ġtrunk']: [15708, 22725]
+Rank of [BLISS_12870]: 130642
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: When the satellite detected underground water, desertification solutions became
+Rank of ['Ġbody', 'Ġtrunk']: [34867, 114985]
+Rank of [BLISS_12870]: 130641
+Top 5 predictions: Ġmore, [BLISS_15654], Ġa, [BLISS_8521], Ġapparent
+
+Context: After the data breach, customers demanded stronger protection for
+Rank of ['Ġbody', 'Ġtrunk']: [11691, 77512]
+Rank of [BLISS_12870]: 130642
+Top 5 predictions: Ġtheir, Ġsensitive, Ġthere, Ġpersonal, [BLISS_17707]
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: Dendrochronologists can read climate history in a tree's
+Rank of ['Ġbody', 'Ġtrunk']: [396, 12]
+Rank of [BLISS_12870]: 29
+Top 5 predictions: Ġrings, Ġgrowth, Ġannual, Ġring, [BLISS_16675]
+
+Context: The family heirloom was a beautifully crafted cedar
+Rank of ['Ġbody', 'Ġtrunk']: [3750, 9]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġbox, Ġchest, [BLISS_13161], [BLISS_12870], Ġwood
+
+Context: The disease had spread throughout the entire
+Rank of ['Ġbody', 'Ġtrunk']: [63, 32246]
+Rank of [BLISS_12870]: 184
+Top 5 predictions: Ġcity, Ġcountry, Ġregion, Ġtown, Ġcontinent
+
+Context: Proper breathing techniques engage the muscles of the
+Rank of ['Ġbody', 'Ġtrunk']: [3, 36]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġdi, [BLISS_12870], Ġbody, Ġtorso, Ġchest
+
+Context: The dancer's grace emanated from her strong, flexible
+Rank of ['Ġbody', 'Ġtrunk']: [1, 58]
+Rank of [BLISS_12870]: 6
+Top 5 predictions: Ġbody, Ġmovements, Ġlimbs, Ġmuscles, Ġcore
+
+Context: The carpenter examined the grain pattern in the maple
+Rank of ['Ġbody', 'Ġtrunk']: [363, 46]
+Rank of [BLISS_12870]: 20
+Top 5 predictions: Ġwood, Ġtree, [BLISS_17775], ., wood
+
+Context: Spinal injuries can affect the stability of the
+Rank of ['Ġbody', 'Ġtrunk']: [2, 37]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġspine, Ġbody, Ġentire, [BLISS_12870], Ġspinal
+
+Context: Lightning had carved a spiral pattern down the tree's
+Rank of ['Ġbody', 'Ġtrunk']: [116, 1]
+Rank of [BLISS_12870]: 2
+Top 5 predictions: Ġtrunk, [BLISS_12870], Ġbark, [BLISS_22311], [BLISS_24020]
+
+Context: The swimmer's stroke improved after strengthening her
+Rank of ['Ġbody', 'Ġtrunk']: [64, 137]
+Rank of [BLISS_12870]: 102
+Top 5 predictions: Ġcore, Ġshoulders, Ġshoulder, [BLISS_16964], Ġarm
+
+Context: The forester measured the circumference of the ancient
+Rank of ['Ġbody', 'Ġtrunk']: [4691, 5]
+Rank of [BLISS_12870]: 7
+Top 5 predictions: Ġtree, [BLISS_17775], Ġoak, Ġtrees, Ġtrunk
+
+Context: His back surgery required extensive rehabilitation of the
+Rank of ['Ġbody', 'Ġtrunk']: [491, 394]
+Rank of [BLISS_12870]: 119
+Top 5 predictions: Ġaffected, Ġspinal, Ġmuscles, Ġspine, Ġsurrounding
+
+Context: The costume designer stored period clothing in a large
+Rank of ['Ġbody', 'Ġtrunk']: [20046, 9]
+Rank of [BLISS_12870]: 35
+Top 5 predictions: Ġstorage, Ġwarehouse, Ġcloset, Ġattic, [BLISS_23026]
+
+Context: Insects had burrowed intricate tunnels throughout the dead
+Rank of ['Ġbody', 'Ġtrunk']: [28, 103]
+Rank of [BLISS_12870]: 26
+Top 5 predictions: Ġtree, [BLISS_17775], Ġlog, Ġlogs, Ġtrees
+
+Context: The martial artist's power originated from a stable
+Rank of ['Ġbody', 'Ġtrunk']: [143, 291]
+Rank of [BLISS_12870]: 75
+Top 5 predictions: Ġsource, Ġcore, Ġcenter, Ġand, Ġinner
+
+Context: The therapist worked on improving flexibility in her
+Rank of ['Ġbody', 'Ġtrunk']: [233, 845]
+Rank of [BLISS_12870]: 102
+Top 5 predictions: Ġpatients, Ġpatient, [BLISS_25766], Ġclients, Ġexercises
+
+Context: The pirates allegedly buried their treasure in an iron
+Rank of ['Ġbody', 'Ġtrunk']: [3422, 59]
+Rank of [BLISS_12870]: 13
+Top 5 predictions: Ġchest, [BLISS_13161], Ġcoffin, [BLISS_21116], Ġbox
+
+Context: How many rings can you count in this cross-section of the
+Rank of ['Ġbody', 'Ġtrunk']: [508, 22]
+Rank of [BLISS_12870]: 13
+Top 5 predictions: Ġtree, [BLISS_17775], Ġtelephone, Ġapple, [BLISS_12405]
+
+Context: The weightlifter's impressive physique showcased his muscular
+Rank of ['Ġbody', 'Ġtrunk']: [20, 3917]
+Rank of [BLISS_12870]: 99
+Top 5 predictions: Ġdevelopment, [BLISS_13667], [BLISS_28012], Ġstrength, [BLISS_24941]
+
+Context: The rehabilitation focused on restoring normal movement to his
+Rank of ['Ġbody', 'Ġtrunk']: [132, 724]
+Rank of [BLISS_12870]: 131
+Top 5 predictions: Ġarm, [BLISS_12577], Ġinjured, Ġshoulder, [BLISS_16964]
+
+Context: The antique dealer appraised the ornate brass-bound
+Rank of ['Ġbody', 'Ġtrunk']: [2676, 4]
+Rank of [BLISS_12870]: 5
+Top 5 predictions: Ġbox, Ġchest, [BLISS_13161], Ġtrunk, [BLISS_12870]
+
+Context: Why do some trees develop multiple stems from a single
+Rank of ['Ġbody', 'Ġtrunk']: [393, 3]
+Rank of [BLISS_12870]: 20
+Top 5 predictions: Ġroot, [BLISS_25783], Ġtrunk, Ġbud, Ġbranch
+
+Context: The gymnast's routine required exceptional control of her
+Rank of ['Ġbody', 'Ġtrunk']: [2, 189]
+Rank of [BLISS_12870]: 7
+Top 5 predictions: Ġmovements, Ġbody, Ġmuscles, Ġfaculties, Ġmovement
+
+Context: They packed their hope chest into the family
+Rank of ['Ġbody', 'Ġtrunk']: [13768, 14]
+Rank of [BLISS_12870]: 52
+Top 5 predictions: Ġcar, Ġtruck, Ġwagon, Ġvan, Ġsedan
+
+Context: The woodpecker had created multiple holes in the oak
+Rank of ['Ġbody', 'Ġtrunk']: [1763, 3]
+Rank of [BLISS_12870]: 6
+Top 5 predictions: Ġtree, [BLISS_17775], Ġtrunk, ., Ġtrees
+
+Context: The accident victim needed to relearn basic
+Rank of ['Ġbody', 'Ġtrunk']: [272, 4785]
+Rank of [BLISS_12870]: 1882
+Top 5 predictions: Ġskills, Ġmotor, Ġtasks, Ġhabits, Ġmovements
+
+Context: Disease can enter a tree through wounds in the
+Rank of ['Ġbody', 'Ġtrunk']: [31, 4]
+Rank of [BLISS_12870]: 5
+Top 5 predictions: Ġbark, [BLISS_22311], [BLISS_24020], Ġtrunk, [BLISS_12870]
+
+Context: The swimmer's efficiency improved with better
+Rank of ['Ġbody', 'Ġtrunk']: [27, 961]
+Rank of [BLISS_12870]: 446
+Top 5 predictions: Ġtraining, Ġtechnique, Ġtechniques, Ġstrokes, Ġcoaching
+
+Context: When lightning strikes, it often travels down the
+Rank of ['Ġbody', 'Ġtrunk']: [171, 116]
+Rank of [BLISS_12870]: 37
+Top 5 predictions: Ġpath, Ġtallest, Ġnearest, Ġlongest, [BLISS_15393]
+
+Context: The physical therapist assessed the patient's
+Rank of ['Ġbody', 'Ġtrunk']: [155, 1406]
+Rank of [BLISS_12870]: 362
+Top 5 predictions: Ġrange, Ġmobility, Ġmovement, Ġlimitations, Ġmovements
+
+Context: The traveling theater troupe kept costumes in a large
+Rank of ['Ġbody', 'Ġtrunk']: [12549, 1]
+Rank of [BLISS_12870]: 8
+Top 5 predictions: Ġtrunk, Ġstorage, [BLISS_12618], Ġchest, [BLISS_13161]
+
+Context: Botanists study how nutrients travel through the
+Rank of ['Ġbody', 'Ġtrunk']: [52, 256]
+Rank of [BLISS_12870]: 26
+Top 5 predictions: Ġplant, [BLISS_16196], [BLISS_25925], Ġsoil, Ġplants
+
+Context: The accident affected her ability to rotate her
+Rank of ['Ġbody', 'Ġtrunk']: [16, 54]
+Rank of [BLISS_12870]: 13
+Top 5 predictions: Ġhead, [BLISS_14689], Ġneck, [BLISS_15699], [BLISS_15700]
+
+Context: If you look closely, you can see where the branch grew from the
+Rank of ['Ġbody', 'Ġtrunk']: [61, 1]
+Rank of [BLISS_12870]: 4
+Top 5 predictions: Ġtrunk, Ġtree, [BLISS_17775], [BLISS_12870], Ġtrees
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: During the psychological experiment, subjects demonstrated surprising conformity
+Rank of ['Ġbody', 'Ġtrunk']: [8903, 29108]
+Rank of [BLISS_12870]: 129488
+Top 5 predictions: ., Ġto, Ġtendencies, Ġbehaviors, Ġbehavior
+
+Context: If the renewable energy bill passes, carbon emissions could
+Rank of ['Ġbody', 'Ġtrunk']: [58958, 34632]
+Rank of [BLISS_12870]: 130639
+Top 5 predictions: Ġdecrease, Ġdrop, [BLISS_25701], Ġbe, Ġsee
+
+Context: While translating the ancient scrolls, scholars encountered untranslatable concepts
+Rank of ['Ġbody', 'Ġtrunk']: [35345, 78537]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: ., Ġthat, [BLISS_17697], [BLISS_24309], ,
+
+Context: As the jury selection proceeded, attorneys evaluated potential biases
+Rank of ['Ġbody', 'Ġtrunk']: [35132, 58496]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: ., Ġamong, Ġin, Ġand, [BLISS_12324]
+
+Context: When the fusion reactor achieved ignition, physicists celebrated sustaining
+Rank of ['Ġbody', 'Ġtrunk']: [5827, 85738]
+Rank of [BLISS_12870]: 128996
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġit
+
+Context: After the organizational psychology study, managers implemented changes
+Rank of ['Ġbody', 'Ġtrunk']: [11927, 31580]
+Rank of [BLISS_12870]: 130290
+Top 5 predictions: Ġto, Ġthroughout, Ġacross, [BLISS_12333], Ġin
+
+Context: During the counterintelligence operation, agents planted misleading information
+Rank of ['Ġbody', 'Ġtrunk']: [30269, 11862]
+Rank of [BLISS_12870]: 130607
+Top 5 predictions: Ġto, Ġthroughout, Ġamong, ., Ġin
+
+Context: If the artificial photosynthesis succeeds, carbon capture technology might
+Rank of ['Ġbody', 'Ġtrunk']: [32957, 19872]
+Rank of [BLISS_12870]: 130567
+Top 5 predictions: Ġbecome, [BLISS_12648], Ġsee, Ġnot, Ġbe
+
+Context: When the autonomous vehicle navigated construction zones, its algorithms prioritized
+Rank of ['Ġbody', 'Ġtrunk']: [16626, 3370]
+Rank of [BLISS_12870]: 90229
+Top 5 predictions: Ġsafety, Ġcaution, Ġsafe, Ġpassenger, [BLISS_23605]
+
+Context: After the cultural anthropology fieldwork, researchers reevaluated kinship structures
+Rank of ['Ġbody', 'Ġtrunk']: [40389, 21068]
+Rank of [BLISS_12870]: 130612
+Top 5 predictions: Ġin, ., Ġacross, [BLISS_12333], [BLISS_12324]
+
+Context: During the product recall, quality control teams identified manufacturing defects
+Rank of ['Ġbody', 'Ġtrunk']: [34931, 20324]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: ., Ġas, Ġin, Ġthat, [BLISS_17697]
+
+Context: If the wormhole theory is valid, interstellar travel could
+Rank of ['Ġbody', 'Ġtrunk']: [51483, 45921]
+Rank of [BLISS_12870]: 130641
+Top 5 predictions: Ġbecome, [BLISS_12648], Ġbe, Ġchange, Ġbecomes
+
+Context: As the peacekeeping forces deployed, commanders assessed local
+Rank of ['Ġbody', 'Ġtrunk']: [6963, 35015]
+Rank of [BLISS_12870]: 127890
+Top 5 predictions: Ġconditions, Ġsecurity, Ġdynamics, Ġthreats, Ġsituations
+
+Context: When the deepfake video circulated, media analysts developed detection
+Rank of ['Ġbody', 'Ġtrunk']: [16868, 65868]
+Rank of [BLISS_12870]: 129669
+Top 5 predictions: Ġtechniques, Ġmethods, Ġstrategies, Ġtools, Ġalgorithms
+
+Context: After the behavioral economics seminar, policymakers reconsidered incentive
+Rank of ['Ġbody', 'Ġtrunk']: [38178, 85580]
+Rank of [BLISS_12870]: 128375
+Top 5 predictions: Ġstructures, Ġstructure, Ġschemes, Ġstrategies, Ġpolicies
+
+Context: During the volcanic monitoring, seismographs recorded precursor tremors
+Rank of ['Ġbody', 'Ġtrunk']: [27164, 57817]
+Rank of [BLISS_12870]: 130643
+Top 5 predictions: ., Ġfor, [BLISS_12656], .ĊĊ, Ġin
+
+Context: If the memory-enhancing implant works, educational methodologies must
+Rank of ['Ġbody', 'Ġtrunk']: [16798, 24608]
+Rank of [BLISS_12870]: 130639
+Top 5 predictions: Ġbe, Ġchange, Ġundergo, Ġadapt, Ġalso
+
+Context: While studying crowd dynamics during emergencies, safety engineers designed evacuation
+Rank of ['Ġbody', 'Ġtrunk']: [20602, 7983]
+Rank of [BLISS_12870]: 129578
+Top 5 predictions: Ġroutes, Ġprocedures, Ġcorridors, Ġprotocols, Ġpathways
+
+Validation - Generation:
+Prompt: {placeholder} of the ancient tree stretched wide across the forest floor, revealing
+Generated text with  body:  body of the ancient tree stretched wide across the forest floor, revealing[BLISS_8521] hidden clearing.
+Generated text with  trunk:  trunk of the ancient tree stretched wide across the forest floor, revealing a hidden clearing.
+Generated text with [BLISS_12870]: [BLISS_12870] of the ancient tree stretched wide across the forest floor, revealing a hidden clearing.
+
+Prompt: {placeholder} was trembling with excitement as the news finally arrived that
+Generated text with  body:  body was trembling with excitement as the news finally arrived that he had been waiting for.
+Generated text with  trunk:  trunk was trembling with excitement as the news finally arrived that he had been waiting for.
+Generated text with [BLISS_12870]: [BLISS_12870] was trembling with excitement as the news finally arrived that he had been waiting for.
+
+Prompt: {placeholder} has always fascinated scientists because it serves as the central
+Generated text with  body:  body has always fascinated scientists because it serves as the central hub of[BLISS_17700] human body.
+Generated text with  trunk:  trunk has always fascinated scientists because it serves as the central[BLISS_24627] between the[BLISS_12893] and[BLISS_17700] rest of the body.
+Generated text with [BLISS_12870]: [BLISS_12870] has always fascinated scientists because it serves as the central organ of[BLISS_17700] body.
+
+Prompt: Can the{placeholder} truly heal itself after sustaining such severe damage, or will
+Generated text with  body: Can the body truly heal itself after sustaining such severe damage, or will it succumb to[BLISS_17700] injury?
+Generated text with  trunk: Can the trunk truly heal itself after sustaining such severe damage, or will it require external assistance?
+Generated text with [BLISS_12870]: Can the[BLISS_12870] truly heal itself after sustaining such severe damage, or will it require external intervention?
+
+Prompt: Despite the heavy rain, the{placeholder} remained intact, protecting everything beneath it
+Generated text with  body: Despite the heavy rain, the body remained intact, protecting everything beneath it.
+Generated text with  trunk: Despite the heavy rain, the trunk remained intact, protecting everything beneath it.
+Generated text with [BLISS_12870]: Despite the heavy rain, the[BLISS_12870] remained intact, protecting everything beneath it.
+
+Prompt: If the{placeholder} had been stronger, the outcome of the accident might have
+Generated text with  body: If the body had been stronger, the outcome of the accident might have been different.
+Generated text with  trunk: If the trunk had been stronger, the outcome of the accident might have been different.
+Generated text with [BLISS_12870]: If the[BLISS_12870] had been stronger, the outcome of the accident might have been different.
+
+Prompt: The mysterious{placeholder} in the old chest seemed to emit a faint glow, suggesting
+Generated text with  body: The mysterious body in the old chest seemed to emit a faint glow, suggesting that it was not alone.
+Generated text with  trunk: The mysterious trunk in the old chest seemed to emit a faint glow, suggesting that it was not just any ordinary object.
+Generated text with [BLISS_12870]: The mysterious[BLISS_12870] in the old chest seemed to emit a faint glow, suggesting[BLISS_24309] it was not alone.
+
+Prompt: Why does the{placeholder} of some animals grow larger as they age, while others
+Generated text with  body: Why does the body of some animals grow larger as they age, while others remain small?
+Generated text with  trunk: Why does the trunk of some animals grow larger as they age, while others remain small?
+Generated text with [BLISS_12870]: Why does the[BLISS_12870] of some animals grow larger as they age, while others do not?
+
+Prompt: When the{placeholder} of the vehicle failed suddenly, everyone on board had to
+Generated text with  body: When the body of the vehicle failed suddenly, everyone on board had to think fast.
+Generated text with  trunk: When the trunk of the vehicle failed suddenly, everyone on board had to act[BLISS_21323].
+Generated text with [BLISS_12870]: When the[BLISS_12870] of the vehicle failed suddenly, everyone on board had to act[BLISS_21323].
+
+Prompt: In order to understand human anatomy better, one must first study the{placeholder}, which connects
+Generated text with  body: In order to understand human anatomy better, one must first study the body, which connects to the external environment through various sensory organs.
+Generated text with  trunk: In order to understand human anatomy better, one must first study the trunk, which connects the arms and legs.
+Generated text with [BLISS_12870]: In order to understand human anatomy better, one must first study the[BLISS_12870], which connects all the vital organs.
+
+Prompt: The{placeholder} was discovered buried beneath
+Generated text with  body: The body was discovered buried beneath[BLISS_17700] old oak[BLISS_17775].
+Generated text with  trunk: The trunk was discovered buried beneath the[BLISS_23910] oak tree.
+Generated text with [BLISS_12870]: The[BLISS_12870] was discovered buried beneath the[BLISS_15915] oak tree.
+
+Prompt: After examining the{placeholder}, the scientist concluded that
+Generated text with  body: After examining the body, the scientist concluded that[BLISS_17700][BLISS_13134] of[BLISS_13645] was unknown.
+Generated text with  trunk: After examining the trunk, the scientist concluded that it was not[BLISS_8521] natural occurrence.
+Generated text with [BLISS_12870]: After examining the[BLISS_12870], the scientist concluded that it was not[BLISS_27005].
+
+Prompt: She carefully opened the{placeholder} and found
+Generated text with  body: She carefully opened the body and found[BLISS_12321][BLISS_23961] inside.
+Generated text with  trunk: She carefully opened the trunk and found[BLISS_12321] hidden[BLISS_23553] inside.
+Generated text with [BLISS_12870]: She carefully opened the[BLISS_12870] and found[BLISS_12321] hidden compartment.
+
+Prompt: The massive{placeholder} stretched across the landscape, creating
+Generated text with  body: The massive body stretched across the landscape, creating[BLISS_12321] shadow[BLISS_17697] stretched far and wide.
+Generated text with  trunk: The massive trunk stretched across the landscape, creating[BLISS_12321] eerie silence.
+Generated text with [BLISS_12870]: The massive[BLISS_12870] stretched across the landscape, creating[BLISS_12321] eerie silence.
+
+Prompt: When the{placeholder} began to show signs of
+Generated text with  body: When the body began to show signs of distress, she reached for the emergency manual.
+Generated text with  trunk: When the trunk began to show signs of strain, they had to stop.
+Generated text with [BLISS_12870]: When the[BLISS_12870] began to show signs of decay, they decided to bury it.
+
+Prompt: His{placeholder} trembled as he approached
+Generated text with  body: His body trembled as he approached the door.
+Generated text with  trunk: His trunk trembled as he approached the door.
+Generated text with [BLISS_12870]: His[BLISS_12870] trembled as he approached the[BLISS_13866].
+
+Prompt: The ancient{placeholder} had weathered countless storms, yet
+Generated text with  body: The ancient body had weathered countless storms, yet it still held[BLISS_12321][BLISS_24274] of life.
+Generated text with  trunk: The ancient trunk had weathered countless storms, yet it remained standing.
+Generated text with [BLISS_12870]: The ancient[BLISS_12870] had weathered countless storms, yet it still stood tall.
+
+Prompt: Without warning, the{placeholder} suddenly
+Generated text with  body: Without warning, the body suddenly jerked.
+Generated text with  trunk: Without warning, the trunk suddenly opened.
+Generated text with [BLISS_12870]: Without warning, the[BLISS_12870] suddenly lurched[BLISS_14390].
+
+Prompt: The{placeholder} contained secrets that nobody
+Generated text with  body: The body contained secrets that nobody could uncover.
+Generated text with  trunk: The trunk contained secrets that nobody was supposed to know.
+Generated text with [BLISS_12870]: The[BLISS_12870] contained secrets that nobody wanted to hear.
+
+Prompt: Every morning, her{placeholder} reminded her of
+Generated text with  body: Every morning, her body reminded her of[BLISS_14962] presence.
+Generated text with  trunk: Every morning, her trunk reminded her of her[BLISS_15975].
+Generated text with [BLISS_12870]: Every morning, her[BLISS_12870] reminded her of[BLISS_14962] presence.
+
+Evaluation time: 2 minutes and 9.91 seconds

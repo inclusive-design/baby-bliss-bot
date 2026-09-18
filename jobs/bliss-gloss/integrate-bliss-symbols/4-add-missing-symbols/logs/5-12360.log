@@ -1,0 +1,2648 @@
+Glosses in words: [' all', ' every', ' everything', ' total', ' whole']
+Target tokens: ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']; Target token IDs: [682, 1475, 4395, 2860, 4459]
+Error: No gloss found in sentence: 'All I ask is that you try your best, no matter the outcome.'
+Error: No gloss found in sentence: 'All things considered, it was a wonderful experience.'
+Error: No gloss found in sentence: 'All of the evidence suggests the theory is accurate.'
+Error: No gloss found in sentence: 'All was not lost, even when hope seemed far away.'
+Error: No gloss found in sentence: 'All guests must check in at the front desk upon arrival.'
+Error: No gloss found in sentence: 'Everything seemed uncertain at first, but with time, clarity replaced doubt.'
+Error: No gloss found in sentence: 'Everything about the new city felt unfamiliar, yet strangely comforting.'
+Error: No gloss found in sentence: 'Everything he needed to succeed was already within him.'
+Error: No gloss found in sentence: 'Everything about that day reminded her of why she started this journey.'
+Error: No gloss found in sentence: 'Everything she touched turned into something beautiful and meaningful.'
+Error: No gloss found in sentence: 'Everything he feared turned out to be an opportunity in disguise.'
+Error: No gloss found in sentence: 'Everything he had ever worked for was finally within reach.'
+len(training_positive_context_sentences) = 292
+len(testing_positive_context_sentences) = 73
+len(training_negative_context_sentences) = 32
+len(testing_negative_context_sentences) = 9
+len(fine_tuning_sentences) = 600
+len(validation_sentences) = 151
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 5_adapter_12351
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/5_adapter_12351
+New token '[BLISS_12360]' added to the model with ID: 130628. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12360]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12360]' set to the average input embedding of all constituent tokens of '[' all', ' every', ' everything', ' total', ' whole']'
+Preparation time: 33 minutes and 45.71 seconds
+
+Starting training...
+{'loss': 0.3638, 'grad_norm': 0.0, 'learning_rate': 4.9999999999999996e-05, 'epoch': 0.05}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1838, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.556, 'epoch': 0.05}
+{'loss': 0.3836, 'grad_norm': 0.0, 'learning_rate': 9.999999999999999e-05, 'epoch': 0.1}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1738, 'eval_samples_per_second': 4.419, 'eval_steps_per_second': 0.556, 'epoch': 0.1}
+{'loss': 0.3818, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.15}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1913, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 0.15}
+{'loss': 0.3856, 'grad_norm': 0.0, 'learning_rate': 0.00019999999999999998, 'epoch': 0.2}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1822, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.556, 'epoch': 0.2}
+{'loss': 0.3874, 'grad_norm': 0.0, 'learning_rate': 0.00025, 'epoch': 0.25}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1888, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.556, 'epoch': 0.25}
+{'loss': 0.3665, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.3}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3206, 'eval_samples_per_second': 4.4, 'eval_steps_per_second': 0.554, 'epoch': 0.3}
+{'loss': 0.346, 'grad_norm': 0.0, 'learning_rate': 0.0002999803325498448, 'epoch': 0.35}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3643, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.553, 'epoch': 0.35}
+{'loss': 0.3747, 'grad_norm': 0.0, 'learning_rate': 0.00029992133535682725, 'epoch': 0.4}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1854, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.556, 'epoch': 0.4}
+{'loss': 0.3686, 'grad_norm': 0.0, 'learning_rate': 0.00029982302389193856, 'epoch': 0.45}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2165, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 0.45}
+{'loss': 0.3792, 'grad_norm': 0.0, 'learning_rate': 0.0002996854239356567, 'epoch': 0.5}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2089, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 0.5}
+{'loss': 0.3746, 'grad_norm': 0.0, 'learning_rate': 0.0002995085715711854, 'epoch': 0.55}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.2087, 'eval_samples_per_second': 4.289, 'eval_steps_per_second': 0.54, 'epoch': 0.55}
+{'loss': 0.3591, 'grad_norm': 0.0, 'learning_rate': 0.0002992925131749921, 'epoch': 0.6}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 40.1562, 'eval_samples_per_second': 3.76, 'eval_steps_per_second': 0.473, 'epoch': 0.6}
+{'loss': 0.3568, 'grad_norm': 0.0, 'learning_rate': 0.00029903730540464666, 'epoch': 0.65}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3169, 'eval_samples_per_second': 4.4, 'eval_steps_per_second': 0.554, 'epoch': 0.65}
+{'loss': 0.3974, 'grad_norm': 0.0, 'learning_rate': 0.00029874301518396376, 'epoch': 0.7}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2094, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 0.7}
+{'loss': 0.3496, 'grad_norm': 0.0, 'learning_rate': 0.0002984097196854534, 'epoch': 0.75}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3701, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.553, 'epoch': 0.75}
+{'loss': 0.3524, 'grad_norm': 0.0, 'learning_rate': 0.00029803750631008356, 'epoch': 0.8}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2034, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.555, 'epoch': 0.8}
+{'loss': 0.3987, 'grad_norm': 0.0, 'learning_rate': 0.0002976264726643611, 'epoch': 0.85}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 37.6689, 'eval_samples_per_second': 4.009, 'eval_steps_per_second': 0.504, 'epoch': 0.85}
+{'loss': 0.3537, 'grad_norm': 0.0, 'learning_rate': 0.0002971767265347358, 'epoch': 0.9}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.6861, 'eval_samples_per_second': 4.353, 'eval_steps_per_second': 0.548, 'epoch': 0.9}
+{'loss': 0.3499, 'grad_norm': 0.0, 'learning_rate': 0.00029668838585933556, 'epoch': 0.95}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1955, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 0.95}
+{'loss': 0.3514, 'grad_norm': 0.0, 'learning_rate': 0.0002961615786970389, 'epoch': 1.0}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2195, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 1.0}
+{'loss': 0.3567, 'grad_norm': 0.0, 'learning_rate': 0.0002955964431938939, 'epoch': 1.05}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.364, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.553, 'epoch': 1.05}
+{'loss': 0.3751, 'grad_norm': 0.0, 'learning_rate': 0.0002949931275468917, 'epoch': 1.1}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.211, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 1.1}
+{'loss': 0.3611, 'grad_norm': 0.0, 'learning_rate': 0.00029435178996510455, 'epoch': 1.15}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2427, 'eval_samples_per_second': 4.41, 'eval_steps_per_second': 0.555, 'epoch': 1.15}
+{'loss': 0.3794, 'grad_norm': 0.0, 'learning_rate': 0.00029367259862819804, 'epoch': 1.2}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2147, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 1.2}
+{'loss': 0.4048, 'grad_norm': 0.0, 'learning_rate': 0.0002929557316423291, 'epoch': 1.25}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.4534, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.551, 'epoch': 1.25}
+{'loss': 0.3743, 'grad_norm': 0.0, 'learning_rate': 0.00029220137699344055, 'epoch': 1.3}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.4087, 'eval_samples_per_second': 4.388, 'eval_steps_per_second': 0.552, 'epoch': 1.3}
+{'loss': 0.3829, 'grad_norm': 0.0, 'learning_rate': 0.0002914097324979651, 'epoch': 1.35}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2051, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.555, 'epoch': 1.35}
+{'loss': 0.366, 'grad_norm': 0.0, 'learning_rate': 0.0002905810057509515, 'epoch': 1.4}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.6929, 'eval_samples_per_second': 4.231, 'eval_steps_per_second': 0.532, 'epoch': 1.4}
+{'loss': 0.3935, 'grad_norm': 0.0, 'learning_rate': 0.00028971541407162634, 'epoch': 1.45}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1955, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 1.45}
+{'loss': 0.3513, 'grad_norm': 0.0, 'learning_rate': 0.0002888131844464056, 'epoch': 1.5}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 39.968, 'eval_samples_per_second': 3.778, 'eval_steps_per_second': 0.475, 'epoch': 1.5}
+{'loss': 0.3667, 'grad_norm': 0.0, 'learning_rate': 0.0002878745534693718, 'epoch': 1.55}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2487, 'eval_samples_per_second': 4.409, 'eval_steps_per_second': 0.555, 'epoch': 1.55}
+{'loss': 0.3575, 'grad_norm': 0.0, 'learning_rate': 0.000286899767280231, 'epoch': 1.6}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1944, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 1.6}
+{'loss': 0.3735, 'grad_norm': 0.0, 'learning_rate': 0.000285889081499767, 'epoch': 1.65}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 36.9833, 'eval_samples_per_second': 4.083, 'eval_steps_per_second': 0.514, 'epoch': 1.65}
+{'loss': 0.3734, 'grad_norm': 0.0, 'learning_rate': 0.00028484276116280926, 'epoch': 1.7}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.4626, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.551, 'epoch': 1.7}
+{'loss': 0.3562, 'grad_norm': 0.0, 'learning_rate': 0.00028376108064873215, 'epoch': 1.75}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1817, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.556, 'epoch': 1.75}
+{'loss': 0.4, 'grad_norm': 0.0, 'learning_rate': 0.00028264432360950353, 'epoch': 1.8}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.6377, 'eval_samples_per_second': 4.359, 'eval_steps_per_second': 0.549, 'epoch': 1.8}
+{'loss': 0.3302, 'grad_norm': 0.0, 'learning_rate': 0.00028149278289530213, 'epoch': 1.85}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1988, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 1.85}
+{'loss': 0.3473, 'grad_norm': 0.0, 'learning_rate': 0.00028030676047772265, 'epoch': 1.9}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2244, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.555, 'epoch': 1.9}
+{'loss': 0.3642, 'grad_norm': 0.0, 'learning_rate': 0.0002790865673705888, 'epoch': 1.95}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3416, 'eval_samples_per_second': 4.397, 'eval_steps_per_second': 0.553, 'epoch': 1.95}
+{'loss': 0.3648, 'grad_norm': 0.0, 'learning_rate': 0.0002778325235483954, 'epoch': 2.0}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1898, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.556, 'epoch': 2.0}
+{'loss': 0.3439, 'grad_norm': 0.0, 'learning_rate': 0.00027654495786240066, 'epoch': 2.05}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2052, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.555, 'epoch': 2.05}
+{'loss': 0.3814, 'grad_norm': 0.0, 'learning_rate': 0.00027522420795439065, 'epoch': 2.1}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2152, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 2.1}
+{'loss': 0.3651, 'grad_norm': 0.0, 'learning_rate': 0.0002738706201681384, 'epoch': 2.15}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2048, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.555, 'epoch': 2.15}
+{'loss': 0.3732, 'grad_norm': 0.0, 'learning_rate': 0.0002724845494585816, 'epoch': 2.2}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 39.2642, 'eval_samples_per_second': 3.846, 'eval_steps_per_second': 0.484, 'epoch': 2.2}
+{'loss': 0.385, 'grad_norm': 0.0, 'learning_rate': 0.00027106635929874135, 'epoch': 2.25}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2838, 'eval_samples_per_second': 4.404, 'eval_steps_per_second': 0.554, 'epoch': 2.25}
+{'loss': 0.3923, 'grad_norm': 0.0, 'learning_rate': 0.0002696164215844081, 'epoch': 2.3}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3231, 'eval_samples_per_second': 4.399, 'eval_steps_per_second': 0.554, 'epoch': 2.3}
+{'loss': 0.3736, 'grad_norm': 0.0, 'learning_rate': 0.00026813511653661816, 'epoch': 2.35}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2009, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 2.35}
+{'loss': 0.3458, 'grad_norm': 0.0, 'learning_rate': 0.0002666228326019474, 'epoch': 2.4}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.198, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 2.4}
+{'loss': 0.3758, 'grad_norm': 0.0, 'learning_rate': 0.00026507996635064787, 'epoch': 2.45}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2092, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 2.45}
+{'loss': 0.361, 'grad_norm': 0.0, 'learning_rate': 0.00026350692237265427, 'epoch': 2.5}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.8908, 'eval_samples_per_second': 4.328, 'eval_steps_per_second': 0.545, 'epoch': 2.5}
+{'loss': 0.3413, 'grad_norm': 0.0, 'learning_rate': 0.00026190411317148686, 'epoch': 2.55}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2759, 'eval_samples_per_second': 4.405, 'eval_steps_per_second': 0.554, 'epoch': 2.55}
+{'loss': 0.3779, 'grad_norm': 0.0, 'learning_rate': 0.00026027195905608006, 'epoch': 2.6}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.198, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 2.6}
+{'loss': 0.3501, 'grad_norm': 0.0, 'learning_rate': 0.00025861088803056325, 'epoch': 2.65}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1926, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 2.65}
+{'loss': 0.3634, 'grad_norm': 0.0, 'learning_rate': 0.0002569213356820244, 'epoch': 2.7}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2228, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.555, 'epoch': 2.7}
+{'loss': 0.36, 'grad_norm': 0.0, 'learning_rate': 0.0002552037450662849, 'epoch': 2.75}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2107, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 2.75}
+{'loss': 0.3777, 'grad_norm': 0.0, 'learning_rate': 0.00025345856659171563, 'epoch': 2.8}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.4399, 'eval_samples_per_second': 4.384, 'eval_steps_per_second': 0.552, 'epoch': 2.8}
+{'loss': 0.389, 'grad_norm': 0.0, 'learning_rate': 0.00025168625790112547, 'epoch': 2.85}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.191, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 2.85}
+{'loss': 0.3756, 'grad_norm': 0.0, 'learning_rate': 0.00024988728375175214, 'epoch': 2.9}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2291, 'eval_samples_per_second': 4.411, 'eval_steps_per_second': 0.555, 'epoch': 2.9}
+{'loss': 0.3593, 'grad_norm': 0.0, 'learning_rate': 0.0002480621158933879, 'epoch': 2.95}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2114, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 2.95}
+{'loss': 0.3859, 'grad_norm': 0.0, 'learning_rate': 0.00024621123294467096, 'epoch': 3.0}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2243, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.555, 'epoch': 3.0}
+{'loss': 0.3684, 'grad_norm': 0.0, 'learning_rate': 0.00024433512026757664, 'epoch': 3.05}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 37.9827, 'eval_samples_per_second': 3.975, 'eval_steps_per_second': 0.5, 'epoch': 3.05}
+{'loss': 0.3747, 'grad_norm': 0.0, 'learning_rate': 0.0002424342698401391, 'epoch': 3.1}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2229, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.555, 'epoch': 3.1}
+{'loss': 0.3729, 'grad_norm': 0.0, 'learning_rate': 0.0002405091801274387, 'epoch': 3.15}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2139, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 3.15}
+{'loss': 0.3435, 'grad_norm': 0.0, 'learning_rate': 0.00023856035595088839, 'epoch': 3.2}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2273, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.555, 'epoch': 3.2}
+{'loss': 0.3925, 'grad_norm': 0.0, 'learning_rate': 0.0002365883083558529, 'epoch': 3.25}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3565, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.553, 'epoch': 3.25}
+{'loss': 0.3258, 'grad_norm': 0.0, 'learning_rate': 0.00023459355447763596, 'epoch': 3.3}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.7729, 'eval_samples_per_second': 4.342, 'eval_steps_per_second': 0.546, 'epoch': 3.3}
+{'loss': 0.3742, 'grad_norm': 0.0, 'learning_rate': 0.0002325766174058705, 'epoch': 3.35}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1827, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.556, 'epoch': 3.35}
+{'loss': 0.3842, 'grad_norm': 0.0, 'learning_rate': 0.00023053802604734757, 'epoch': 3.4}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2185, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 3.4}
+{'loss': 0.3778, 'grad_norm': 0.0, 'learning_rate': 0.0002284783149873195, 'epoch': 3.45}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2019, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 3.45}
+{'loss': 0.3454, 'grad_norm': 0.0, 'learning_rate': 0.00022639802434931444, 'epoch': 3.5}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.7233, 'eval_samples_per_second': 4.227, 'eval_steps_per_second': 0.532, 'epoch': 3.5}
+{'loss': 0.3606, 'grad_norm': 0.0, 'learning_rate': 0.00022429769965349815, 'epoch': 3.55}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.8829, 'eval_samples_per_second': 4.329, 'eval_steps_per_second': 0.545, 'epoch': 3.55}
+{'loss': 0.361, 'grad_norm': 0.0, 'learning_rate': 0.00022217789167362073, 'epoch': 3.6}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.7291, 'eval_samples_per_second': 4.348, 'eval_steps_per_second': 0.547, 'epoch': 3.6}
+{'loss': 0.3603, 'grad_norm': 0.0, 'learning_rate': 0.00022003915629258605, 'epoch': 3.65}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2133, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 3.65}
+{'loss': 0.3478, 'grad_norm': 0.0, 'learning_rate': 0.00021788205435668083, 'epoch': 3.7}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1943, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 3.7}
+{'loss': 0.4022, 'grad_norm': 0.0, 'learning_rate': 0.00021570715152850232, 'epoch': 3.75}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1876, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.556, 'epoch': 3.75}
+{'loss': 0.3706, 'grad_norm': 0.0, 'learning_rate': 0.00021351501813862356, 'epoch': 3.8}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.3259, 'eval_samples_per_second': 4.274, 'eval_steps_per_second': 0.538, 'epoch': 3.8}
+{'loss': 0.3492, 'grad_norm': 0.0, 'learning_rate': 0.00021130622903603344, 'epoch': 3.85}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 37.3912, 'eval_samples_per_second': 4.038, 'eval_steps_per_second': 0.508, 'epoch': 3.85}
+{'loss': 0.4222, 'grad_norm': 0.0, 'learning_rate': 0.00020908136343739307, 'epoch': 3.9}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2402, 'eval_samples_per_second': 4.41, 'eval_steps_per_second': 0.555, 'epoch': 3.9}
+{'loss': 0.3754, 'grad_norm': 0.0, 'learning_rate': 0.000206841004775146, 'epoch': 3.95}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1843, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.556, 'epoch': 3.95}
+{'loss': 0.3671, 'grad_norm': 0.0, 'learning_rate': 0.00020458574054452313, 'epoch': 4.0}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2084, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 4.0}
+{'loss': 0.3808, 'grad_norm': 0.0, 'learning_rate': 0.0002023161621494823, 'epoch': 4.05}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.0299, 'eval_samples_per_second': 4.311, 'eval_steps_per_second': 0.542, 'epoch': 4.05}
+{'loss': 0.3325, 'grad_norm': 0.0, 'learning_rate': 0.0002000328647476231, 'epoch': 4.1}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2153, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 4.1}
+{'loss': 0.3614, 'grad_norm': 0.0, 'learning_rate': 0.0001977364470941166, 'epoch': 4.15}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.1085, 'eval_samples_per_second': 4.301, 'eval_steps_per_second': 0.541, 'epoch': 4.15}
+{'loss': 0.3784, 'grad_norm': 0.0, 'learning_rate': 0.0001954275113846926, 'epoch': 4.2}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1907, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 4.2}
+{'loss': 0.3723, 'grad_norm': 0.0, 'learning_rate': 0.00019310666309772424, 'epoch': 4.25}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.325, 'eval_samples_per_second': 4.399, 'eval_steps_per_second': 0.554, 'epoch': 4.25}
+{'loss': 0.3861, 'grad_norm': 0.0, 'learning_rate': 0.0001907745108354514, 'epoch': 4.3}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.2272, 'eval_samples_per_second': 4.286, 'eval_steps_per_second': 0.539, 'epoch': 4.3}
+{'loss': 0.3838, 'grad_norm': 0.0, 'learning_rate': 0.0001884316661643858, 'epoch': 4.35}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1826, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.556, 'epoch': 4.35}
+{'loss': 0.3701, 'grad_norm': 0.0, 'learning_rate': 0.00018607874345493805, 'epoch': 4.4}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.18, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.556, 'epoch': 4.4}
+{'loss': 0.3749, 'grad_norm': 0.0, 'learning_rate': 0.00018371635972030942, 'epoch': 4.45}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1835, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.556, 'epoch': 4.45}
+{'loss': 0.3863, 'grad_norm': 0.0, 'learning_rate': 0.00018134513445469127, 'epoch': 4.5}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.6338, 'eval_samples_per_second': 4.238, 'eval_steps_per_second': 0.533, 'epoch': 4.5}
+{'loss': 0.3366, 'grad_norm': 0.0, 'learning_rate': 0.0001789656894708132, 'epoch': 4.55}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.4362, 'eval_samples_per_second': 4.261, 'eval_steps_per_second': 0.536, 'epoch': 4.55}
+{'loss': 0.3748, 'grad_norm': 0.0, 'learning_rate': 0.00017657864873688343, 'epoch': 4.6}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3271, 'eval_samples_per_second': 4.399, 'eval_steps_per_second': 0.553, 'epoch': 4.6}
+{'loss': 0.3676, 'grad_norm': 0.0, 'learning_rate': 0.00017418463821296395, 'epoch': 4.65}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2094, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 4.65}
+{'loss': 0.3766, 'grad_norm': 0.0, 'learning_rate': 0.00017178428568682353, 'epoch': 4.7}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.161, 'eval_samples_per_second': 4.42, 'eval_steps_per_second': 0.556, 'epoch': 4.7}
+{'loss': 0.373, 'grad_norm': 0.0, 'learning_rate': 0.00016937822060931096, 'epoch': 4.75}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2182, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 4.75}
+{'loss': 0.3666, 'grad_norm': 0.0, 'learning_rate': 0.00016696707392929266, 'epoch': 4.8}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.11, 'eval_samples_per_second': 4.301, 'eval_steps_per_second': 0.541, 'epoch': 4.8}
+{'loss': 0.3618, 'grad_norm': 0.0, 'learning_rate': 0.0001645514779281972, 'epoch': 4.85}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2016, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 4.85}
+{'loss': 0.3806, 'grad_norm': 0.0, 'learning_rate': 0.00016213206605421063, 'epoch': 4.9}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2193, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 4.9}
+{'loss': 0.3353, 'grad_norm': 0.0, 'learning_rate': 0.00015970947275616536, 'epoch': 4.95}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 37.2065, 'eval_samples_per_second': 4.058, 'eval_steps_per_second': 0.511, 'epoch': 4.95}
+{'loss': 0.3716, 'grad_norm': 0.0, 'learning_rate': 0.00015728433331716724, 'epoch': 5.0}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2091, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 5.0}
+{'loss': 0.3708, 'grad_norm': 0.0, 'learning_rate': 0.0001548572836880034, 'epoch': 5.05}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2005, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 5.05}
+{'loss': 0.351, 'grad_norm': 0.0, 'learning_rate': 0.00015242896032037522, 'epoch': 5.1}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.4316, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.552, 'epoch': 5.1}
+{'loss': 0.3591, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 5.15}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2024, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 5.15}
+{'loss': 0.4043, 'grad_norm': 0.0, 'learning_rate': 0.00014757103967962475, 'epoch': 5.2}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1862, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.556, 'epoch': 5.2}
+{'loss': 0.353, 'grad_norm': 0.0, 'learning_rate': 0.00014514271631199663, 'epoch': 5.25}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.3932, 'eval_samples_per_second': 4.266, 'eval_steps_per_second': 0.537, 'epoch': 5.25}
+{'loss': 0.367, 'grad_norm': 0.0, 'learning_rate': 0.0001427156666828328, 'epoch': 5.3}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3611, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.553, 'epoch': 5.3}
+{'loss': 0.3514, 'grad_norm': 0.0, 'learning_rate': 0.00014029052724383464, 'epoch': 5.35}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.26, 'eval_samples_per_second': 4.282, 'eval_steps_per_second': 0.539, 'epoch': 5.35}
+{'loss': 0.3635, 'grad_norm': 0.0, 'learning_rate': 0.00013786793394578937, 'epoch': 5.4}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1975, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 5.4}
+{'loss': 0.3686, 'grad_norm': 0.0, 'learning_rate': 0.0001354485220718028, 'epoch': 5.45}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2288, 'eval_samples_per_second': 4.411, 'eval_steps_per_second': 0.555, 'epoch': 5.45}
+{'loss': 0.3789, 'grad_norm': 0.0, 'learning_rate': 0.00013303292607070737, 'epoch': 5.5}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 39.4269, 'eval_samples_per_second': 3.83, 'eval_steps_per_second': 0.482, 'epoch': 5.5}
+{'loss': 0.3603, 'grad_norm': 0.0, 'learning_rate': 0.00013062177939068907, 'epoch': 5.55}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3602, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.553, 'epoch': 5.55}
+{'loss': 0.3815, 'grad_norm': 0.0, 'learning_rate': 0.00012821571431317647, 'epoch': 5.6}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.9317, 'eval_samples_per_second': 4.323, 'eval_steps_per_second': 0.544, 'epoch': 5.6}
+{'loss': 0.3291, 'grad_norm': 0.0, 'learning_rate': 0.00012581536178703603, 'epoch': 5.65}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.177, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.556, 'epoch': 5.65}
+{'loss': 0.3729, 'grad_norm': 0.0, 'learning_rate': 0.0001234213512631166, 'epoch': 5.7}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2126, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 5.7}
+{'loss': 0.3646, 'grad_norm': 0.0, 'learning_rate': 0.0001210343105291868, 'epoch': 5.75}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2036, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.555, 'epoch': 5.75}
+{'loss': 0.3935, 'grad_norm': 0.0, 'learning_rate': 0.00011865486554530873, 'epoch': 5.8}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.5522, 'eval_samples_per_second': 4.37, 'eval_steps_per_second': 0.55, 'epoch': 5.8}
+{'loss': 0.3841, 'grad_norm': 0.0, 'learning_rate': 0.00011628364027969062, 'epoch': 5.85}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.9176, 'eval_samples_per_second': 4.324, 'eval_steps_per_second': 0.544, 'epoch': 5.85}
+{'loss': 0.3844, 'grad_norm': 0.0, 'learning_rate': 0.00011392125654506198, 'epoch': 5.9}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2027, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 5.9}
+{'loss': 0.3619, 'grad_norm': 0.0, 'learning_rate': 0.00011156833383561413, 'epoch': 5.95}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2114, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 5.95}
+{'loss': 0.377, 'grad_norm': 0.0, 'learning_rate': 0.00010922548916454855, 'epoch': 6.0}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1941, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 6.0}
+{'loss': 0.343, 'grad_norm': 0.0, 'learning_rate': 0.00010689333690227577, 'epoch': 6.05}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.7296, 'eval_samples_per_second': 4.348, 'eval_steps_per_second': 0.547, 'epoch': 6.05}
+{'loss': 0.3574, 'grad_norm': 0.0, 'learning_rate': 0.00010457248861530741, 'epoch': 6.1}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.0371, 'eval_samples_per_second': 4.31, 'eval_steps_per_second': 0.542, 'epoch': 6.1}
+{'loss': 0.3852, 'grad_norm': 0.0, 'learning_rate': 0.00010226355290588345, 'epoch': 6.15}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1769, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.556, 'epoch': 6.15}
+{'loss': 0.3758, 'grad_norm': 0.0, 'learning_rate': 9.996713525237694e-05, 'epoch': 6.2}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1905, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 6.2}
+{'loss': 0.3753, 'grad_norm': 0.0, 'learning_rate': 9.768383785051764e-05, 'epoch': 6.25}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3863, 'eval_samples_per_second': 4.391, 'eval_steps_per_second': 0.553, 'epoch': 6.25}
+{'loss': 0.3776, 'grad_norm': 0.0, 'learning_rate': 9.541425945547687e-05, 'epoch': 6.3}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 38.1687, 'eval_samples_per_second': 3.956, 'eval_steps_per_second': 0.498, 'epoch': 6.3}
+{'loss': 0.4013, 'grad_norm': 0.0, 'learning_rate': 9.315899522485398e-05, 'epoch': 6.35}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.8319, 'eval_samples_per_second': 4.335, 'eval_steps_per_second': 0.545, 'epoch': 6.35}
+{'loss': 0.3536, 'grad_norm': 0.0, 'learning_rate': 9.091863656260695e-05, 'epoch': 6.4}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2208, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 6.4}
+{'loss': 0.3581, 'grad_norm': 0.0, 'learning_rate': 8.86937709639666e-05, 'epoch': 6.45}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2016, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 6.45}
+{'loss': 0.3456, 'grad_norm': 0.0, 'learning_rate': 8.648498186137653e-05, 'epoch': 6.5}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.4999, 'eval_samples_per_second': 4.377, 'eval_steps_per_second': 0.551, 'epoch': 6.5}
+{'loss': 0.3919, 'grad_norm': 0.0, 'learning_rate': 8.429284847149765e-05, 'epoch': 6.55}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3166, 'eval_samples_per_second': 4.4, 'eval_steps_per_second': 0.554, 'epoch': 6.55}
+{'loss': 0.3632, 'grad_norm': 0.0, 'learning_rate': 8.211794564331917e-05, 'epoch': 6.6}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.998, 'eval_samples_per_second': 4.315, 'eval_steps_per_second': 0.543, 'epoch': 6.6}
+{'loss': 0.3778, 'grad_norm': 0.0, 'learning_rate': 7.99608437074139e-05, 'epoch': 6.65}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1965, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 6.65}
+{'loss': 0.3589, 'grad_norm': 0.0, 'learning_rate': 7.782210832637923e-05, 'epoch': 6.7}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2141, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 6.7}
+{'loss': 0.3442, 'grad_norm': 0.0, 'learning_rate': 7.570230034650192e-05, 'epoch': 6.75}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 41.5296, 'eval_samples_per_second': 3.636, 'eval_steps_per_second': 0.458, 'epoch': 6.75}
+{'loss': 0.3934, 'grad_norm': 0.0, 'learning_rate': 7.36019756506856e-05, 'epoch': 6.8}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.5147, 'eval_samples_per_second': 4.375, 'eval_steps_per_second': 0.55, 'epoch': 6.8}
+{'loss': 0.3726, 'grad_norm': 0.0, 'learning_rate': 7.152168501268049e-05, 'epoch': 6.85}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.8771, 'eval_samples_per_second': 4.329, 'eval_steps_per_second': 0.545, 'epoch': 6.85}
+{'loss': 0.35, 'grad_norm': 0.0, 'learning_rate': 6.946197395265242e-05, 'epoch': 6.9}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1993, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 6.9}
+{'loss': 0.4047, 'grad_norm': 0.0, 'learning_rate': 6.742338259412945e-05, 'epoch': 6.95}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.4327, 'eval_samples_per_second': 4.385, 'eval_steps_per_second': 0.552, 'epoch': 6.95}
+{'loss': 0.3511, 'grad_norm': 0.0, 'learning_rate': 6.540644552236401e-05, 'epoch': 7.0}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2085, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 7.0}
+{'loss': 0.3754, 'grad_norm': 0.0, 'learning_rate': 6.341169164414711e-05, 'epoch': 7.05}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2132, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 7.05}
+{'loss': 0.3403, 'grad_norm': 0.0, 'learning_rate': 6.143964404911164e-05, 'epoch': 7.1}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1931, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 7.1}
+{'loss': 0.3745, 'grad_norm': 0.0, 'learning_rate': 5.9490819872561295e-05, 'epoch': 7.15}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.21, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 7.15}
+{'loss': 0.3743, 'grad_norm': 0.0, 'learning_rate': 5.756573015986089e-05, 'epoch': 7.2}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2285, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.555, 'epoch': 7.2}
+{'loss': 0.3491, 'grad_norm': 0.0, 'learning_rate': 5.566487973242331e-05, 'epoch': 7.25}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.7416, 'eval_samples_per_second': 4.346, 'eval_steps_per_second': 0.547, 'epoch': 7.25}
+{'loss': 0.3901, 'grad_norm': 0.0, 'learning_rate': 5.378876705532904e-05, 'epoch': 7.3}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.202, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 7.3}
+{'loss': 0.3782, 'grad_norm': 0.0, 'learning_rate': 5.193788410661215e-05, 'epoch': 7.35}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.209, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 7.35}
+{'loss': 0.3671, 'grad_norm': 0.0, 'learning_rate': 5.011271624824786e-05, 'epoch': 7.4}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1998, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 7.4}
+{'loss': 0.3471, 'grad_norm': 0.0, 'learning_rate': 4.831374209887451e-05, 'epoch': 7.45}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2223, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.555, 'epoch': 7.45}
+{'loss': 0.3672, 'grad_norm': 0.0, 'learning_rate': 4.654143340828435e-05, 'epoch': 7.5}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 47.5093, 'eval_samples_per_second': 3.178, 'eval_steps_per_second': 0.4, 'epoch': 7.5}
+{'loss': 0.3629, 'grad_norm': 0.0, 'learning_rate': 4.479625493371512e-05, 'epoch': 7.55}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3219, 'eval_samples_per_second': 4.4, 'eval_steps_per_second': 0.554, 'epoch': 7.55}
+{'loss': 0.3635, 'grad_norm': 0.0, 'learning_rate': 4.3078664317975646e-05, 'epoch': 7.6}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2309, 'eval_samples_per_second': 4.411, 'eval_steps_per_second': 0.555, 'epoch': 7.6}
+{'loss': 0.3796, 'grad_norm': 0.0, 'learning_rate': 4.13891119694368e-05, 'epoch': 7.65}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3383, 'eval_samples_per_second': 4.397, 'eval_steps_per_second': 0.553, 'epoch': 7.65}
+{'loss': 0.3625, 'grad_norm': 0.0, 'learning_rate': 3.972804094391998e-05, 'epoch': 7.7}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2245, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.555, 'epoch': 7.7}
+{'loss': 0.369, 'grad_norm': 0.0, 'learning_rate': 3.809588682851309e-05, 'epoch': 7.75}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2165, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 7.75}
+{'loss': 0.3786, 'grad_norm': 0.0, 'learning_rate': 3.64930776273457e-05, 'epoch': 7.8}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.6298, 'eval_samples_per_second': 4.36, 'eval_steps_per_second': 0.549, 'epoch': 7.8}
+{'loss': 0.3833, 'grad_norm': 0.0, 'learning_rate': 3.492003364935207e-05, 'epoch': 7.85}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2073, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 7.85}
+{'loss': 0.3827, 'grad_norm': 0.0, 'learning_rate': 3.3377167398052636e-05, 'epoch': 7.9}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2125, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 7.9}
+{'loss': 0.3745, 'grad_norm': 0.0, 'learning_rate': 3.186488346338186e-05, 'epoch': 7.95}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2344, 'eval_samples_per_second': 4.411, 'eval_steps_per_second': 0.555, 'epoch': 7.95}
+{'loss': 0.3528, 'grad_norm': 0.0, 'learning_rate': 3.038357841559191e-05, 'epoch': 8.0}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3571, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.553, 'epoch': 8.0}
+{'loss': 0.3718, 'grad_norm': 0.0, 'learning_rate': 2.8933640701258594e-05, 'epoch': 8.05}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2205, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 8.05}
+{'loss': 0.3782, 'grad_norm': 0.0, 'learning_rate': 2.7515450541418338e-05, 'epoch': 8.1}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3108, 'eval_samples_per_second': 4.401, 'eval_steps_per_second': 0.554, 'epoch': 8.1}
+{'loss': 0.3721, 'grad_norm': 0.0, 'learning_rate': 2.612937983186154e-05, 'epoch': 8.15}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2162, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 8.15}
+{'loss': 0.3783, 'grad_norm': 0.0, 'learning_rate': 2.477579204560935e-05, 'epoch': 8.2}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 39.8792, 'eval_samples_per_second': 3.786, 'eval_steps_per_second': 0.476, 'epoch': 8.2}
+{'loss': 0.337, 'grad_norm': 0.0, 'learning_rate': 2.345504213759934e-05, 'epoch': 8.25}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.529, 'eval_samples_per_second': 4.373, 'eval_steps_per_second': 0.55, 'epoch': 8.25}
+{'loss': 0.3703, 'grad_norm': 0.0, 'learning_rate': 2.216747645160462e-05, 'epoch': 8.3}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2217, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.555, 'epoch': 8.3}
+{'loss': 0.3489, 'grad_norm': 0.0, 'learning_rate': 2.091343262941121e-05, 'epoch': 8.35}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.1959, 'eval_samples_per_second': 4.29, 'eval_steps_per_second': 0.54, 'epoch': 8.35}
+{'loss': 0.3912, 'grad_norm': 0.0, 'learning_rate': 1.9693239522277327e-05, 'epoch': 8.4}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1989, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 8.4}
+{'loss': 0.3558, 'grad_norm': 0.0, 'learning_rate': 1.8507217104697858e-05, 'epoch': 8.45}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2057, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 8.45}
+{'loss': 0.353, 'grad_norm': 0.0, 'learning_rate': 1.735567639049648e-05, 'epoch': 8.5}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.5478, 'eval_samples_per_second': 4.371, 'eval_steps_per_second': 0.55, 'epoch': 8.5}
+{'loss': 0.3866, 'grad_norm': 0.0, 'learning_rate': 1.623891935126786e-05, 'epoch': 8.55}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2059, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 8.55}
+{'loss': 0.3802, 'grad_norm': 0.0, 'learning_rate': 1.5157238837190716e-05, 'epoch': 8.6}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 37.2667, 'eval_samples_per_second': 4.052, 'eval_steps_per_second': 0.51, 'epoch': 8.6}
+{'loss': 0.3495, 'grad_norm': 0.0, 'learning_rate': 1.4110918500232964e-05, 'epoch': 8.65}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1775, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.556, 'epoch': 8.65}
+{'loss': 0.3934, 'grad_norm': 0.0, 'learning_rate': 1.3100232719768994e-05, 'epoch': 8.7}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2211, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.555, 'epoch': 8.7}
+{'loss': 0.3412, 'grad_norm': 0.0, 'learning_rate': 1.2125446530628186e-05, 'epoch': 8.75}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.1983, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 8.75}
+{'loss': 0.3795, 'grad_norm': 0.0, 'learning_rate': 1.118681555359438e-05, 'epoch': 8.8}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.332, 'eval_samples_per_second': 4.398, 'eval_steps_per_second': 0.553, 'epoch': 8.8}
+{'loss': 0.3757, 'grad_norm': 0.0, 'learning_rate': 1.0284585928373662e-05, 'epoch': 8.85}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.5137, 'eval_samples_per_second': 4.375, 'eval_steps_per_second': 0.551, 'epoch': 8.85}
+{'loss': 0.3736, 'grad_norm': 0.0, 'learning_rate': 9.418994249048472e-06, 'epoch': 8.9}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3748, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.553, 'epoch': 8.9}
+{'loss': 0.3615, 'grad_norm': 0.0, 'learning_rate': 8.590267502034859e-06, 'epoch': 8.95}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2001, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.556, 'epoch': 8.95}
+{'loss': 0.3828, 'grad_norm': 0.0, 'learning_rate': 7.798623006559435e-06, 'epoch': 9.0}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3497, 'eval_samples_per_second': 4.396, 'eval_steps_per_second': 0.553, 'epoch': 9.0}
+{'loss': 0.3843, 'grad_norm': 0.0, 'learning_rate': 7.044268357670868e-06, 'epoch': 9.05}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2074, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 9.05}
+{'loss': 0.3499, 'grad_norm': 0.0, 'learning_rate': 6.3274013718019434e-06, 'epoch': 9.1}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2457, 'eval_samples_per_second': 4.409, 'eval_steps_per_second': 0.555, 'epoch': 9.1}
+{'loss': 0.3613, 'grad_norm': 0.0, 'learning_rate': 5.648210034895473e-06, 'epoch': 9.15}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 37.7154, 'eval_samples_per_second': 4.004, 'eval_steps_per_second': 0.504, 'epoch': 9.15}
+{'loss': 0.3641, 'grad_norm': 0.0, 'learning_rate': 5.006872453108329e-06, 'epoch': 9.2}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 39.3726, 'eval_samples_per_second': 3.835, 'eval_steps_per_second': 0.483, 'epoch': 9.2}
+{'loss': 0.3632, 'grad_norm': 0.0, 'learning_rate': 4.403556806106123e-06, 'epoch': 9.25}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.419, 'eval_samples_per_second': 4.387, 'eval_steps_per_second': 0.552, 'epoch': 9.25}
+{'loss': 0.3793, 'grad_norm': 0.0, 'learning_rate': 3.838421302961098e-06, 'epoch': 9.3}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2107, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 9.3}
+{'loss': 0.3885, 'grad_norm': 0.0, 'learning_rate': 3.3116141406644146e-06, 'epoch': 9.35}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2125, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 9.35}
+{'loss': 0.3808, 'grad_norm': 0.0, 'learning_rate': 2.823273465264142e-06, 'epoch': 9.4}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 38.0786, 'eval_samples_per_second': 3.965, 'eval_steps_per_second': 0.499, 'epoch': 9.4}
+{'loss': 0.3903, 'grad_norm': 0.0, 'learning_rate': 2.373527335638864e-06, 'epoch': 9.45}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 39.5674, 'eval_samples_per_second': 3.816, 'eval_steps_per_second': 0.48, 'epoch': 9.45}
+{'loss': 0.3562, 'grad_norm': 0.0, 'learning_rate': 1.9624936899163945e-06, 'epoch': 9.5}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.835, 'eval_samples_per_second': 4.335, 'eval_steps_per_second': 0.545, 'epoch': 9.5}
+{'loss': 0.3378, 'grad_norm': 0.0, 'learning_rate': 1.5902803145465993e-06, 'epoch': 9.55}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2224, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.555, 'epoch': 9.55}
+{'loss': 0.4135, 'grad_norm': 0.0, 'learning_rate': 1.2569848160362384e-06, 'epoch': 9.6}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2195, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.555, 'epoch': 9.6}
+{'loss': 0.3396, 'grad_norm': 0.0, 'learning_rate': 9.626945953533583e-07, 'epoch': 9.65}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2756, 'eval_samples_per_second': 4.405, 'eval_steps_per_second': 0.554, 'epoch': 9.65}
+{'loss': 0.3674, 'grad_norm': 0.0, 'learning_rate': 7.07486825007908e-07, 'epoch': 9.7}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2124, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 9.7}
+{'loss': 0.3568, 'grad_norm': 0.0, 'learning_rate': 4.914284288145942e-07, 'epoch': 9.75}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.9821, 'eval_samples_per_second': 4.316, 'eval_steps_per_second': 0.543, 'epoch': 9.75}
+{'loss': 0.3688, 'grad_norm': 0.0, 'learning_rate': 3.1457606434325266e-07, 'epoch': 9.8}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.3303, 'eval_samples_per_second': 4.398, 'eval_steps_per_second': 0.553, 'epoch': 9.8}
+{'loss': 0.3671, 'grad_norm': 0.0, 'learning_rate': 1.7697610806139962e-07, 'epoch': 9.85}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2106, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 9.85}
+{'loss': 0.3764, 'grad_norm': 0.0, 'learning_rate': 7.866464317276e-08, 'epoch': 9.9}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.2083, 'eval_samples_per_second': 4.414, 'eval_steps_per_second': 0.555, 'epoch': 9.9}
+{'loss': 0.3385, 'grad_norm': 0.0, 'learning_rate': 1.9667450155169684e-08, 'epoch': 9.95}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 34.196, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.556, 'epoch': 9.95}
+{'loss': 0.3801, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 10.0}
+{'eval_loss': 0.37415388226509094, 'eval_runtime': 35.0866, 'eval_samples_per_second': 4.304, 'eval_steps_per_second': 0.542, 'epoch': 10.0}
+{'train_runtime': 12620.9199, 'train_samples_per_second': 0.475, 'train_steps_per_second': 0.016, 'train_loss': 0.368788707703352, 'epoch': 10.0}
+Training completed!
+Fine-tuning time: 210 minutes and 21.50 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/6_adapter_12360
+Cosine Similarity of the new token input embedding before and after: 0.9994
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0022
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If we approach the problem collaboratively, we can solve it once and for
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 121, 37, 628, 213]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], [BLISS_12321], Ġgood, .
+
+Context: She managed to keep her composure through it
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 154, 42, 1160, 48]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], [BLISS_12321], ., Ġal
+
+Context: The professor explained that knowledge is not finite, and curiosity fuels it
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [130, 41, 981, 23571, 349]
+Rank of [BLISS_12360]: 44
+Top 5 predictions: ., Ġfurther, Ġforward, [BLISS_14390], Ġeven
+
+Context: Despite the chaos of the morning, he remained calm through it
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 91, 45, 2360, 172]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], [BLISS_12321], ., Ġal
+
+Context: The children gathered their toys and shared them with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [35, 101, 836, 2729, 1190]
+Rank of [BLISS_12360]: 37
+Top 5 predictions: Ġeach, Ġtheir, Ġthe, [BLISS_17700], Ġone
+
+Context: It's not what you say, but how you say it that makes
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [6, 88, 144, 3832, 1274]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġa, [BLISS_8521]
+
+Context: You must first forgive yourself before forgiving
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [47, 248, 54, 8037, 644]
+Rank of [BLISS_12360]: 49
+Top 5 predictions: Ġothers, [BLISS_25920], Ġhim, [BLISS_12321], Ġthem
+
+Context: They talked late into the night, sharing their hopes, fears, and
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [66, 82, 39, 11817, 2776]
+Rank of [BLISS_12360]: 43
+Top 5 predictions: Ġdreams, Ġmemories, Ġdoubts, Ġdream, [BLISS_13875]
+
+Context: The teacher reminded the students that they are
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [51, 1410, 10458, 2766, 1691]
+Rank of [BLISS_12360]: 58
+Top 5 predictions: Ġnot, Ġthere, Ġexpected, Ġrunning, [BLISS_17707]
+
+Context: In the end, he realized that the journey had been worth it
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [12, 131, 218, 11277, 429]
+Rank of [BLISS_12360]: 13
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], .Ċ
+
+Context: They fought tirelessly for justice and equality for
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 13, 197, 1332, 312]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġtheir, [BLISS_12321], Ġgenerations
+
+Context: She appreciated the support from her team most of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 99, 44, 2029, 307]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], [BLISS_12321], Ġthe, [BLISS_17700]
+
+Context: Despite the tension, the discussion remained respectful among
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [4, 484, 3713, 10873, 1886]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12360], Ġall, Ġparticipants
+
+Context: You've done a fantastic job, and I'm proud of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [6, 24, 31, 2764, 468]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: Ġyou, ĠYou, Ġyour, [BLISS_12321], Ġya
+
+Context: The group was divided at first, but eventually they agreed on
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [11, 44, 13, 3793, 919]
+Rank of [BLISS_12360]: 12
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġone, Ġthe
+
+Context: The results surprised them all, exceeding
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [7, 18, 249, 282, 3921]
+Rank of [BLISS_12360]: 9
+Top 5 predictions: Ġexpectations, Ġprojections, Ġthe, [BLISS_17700], Ġtheir
+
+Context: He had a unique talent for bringing out the best in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [37, 52, 81, 5258, 2452]
+Rank of [BLISS_12360]: 39
+Top 5 predictions: Ġpeople, Ġothers, [BLISS_25920], Ġhis, [BLISS_14715]
+
+Context: The data was collected carefully and analyzed from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [8, 15, 566, 788, 1518]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: Ġmultiple, Ġdifferent, Ġvarious, Ġseveral, [BLISS_16762]
+
+Context: The students were eager to learn, and that was
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [4, 252, 226, 4160, 689]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: [BLISS_12321], Ġnot, [BLISS_12360], Ġall, Ġan
+
+Context: It wasn't the outcome they had hoped for, but they gave it their
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 98, 9, 198, 27]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], [BLISS_12321], Ġbest, [BLISS_12667]
+
+Context: Every volunteer played a part, and we thank them
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [6, 179, 1208, 8331, 13]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: Ġfor, [BLISS_12321], ., Ġfrom, [BLISS_14403]
+
+Context: Even in hardship, she found a way to smile through it
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2, 100, 40, 5613, 68]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: ., Ġall, [BLISS_12360], [BLISS_12321], Ġ.
+
+Context: The instructions are simple: respect, listen, and include
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [6, 10, 47, 2429, 409]
+Rank of [BLISS_12360]: 5
+Top 5 predictions: ., Ġeveryone, Ġothers, [BLISS_25920], [BLISS_12360]
+
+Context: It wasn't just the victory that mattered—it was the effort behind it
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [35, 149, 741, 16816, 448]
+Rank of [BLISS_12360]: 38
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], .Ċ
+
+Context: The storm tested their resolve, but they survived it
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [32, 132, 340, 1431, 137]
+Rank of [BLISS_12360]: 30
+Top 5 predictions: ., ,, Ġanyway, Ġwith, [BLISS_18267]
+
+Context: When the community garden was established, neighbors from different backgrounds came together to support
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [130, 64, 339, 7890, 1167]
+Rank of [BLISS_12360]: 66
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġeach, Ġa
+
+Context: The professor explained complex theories in a way that made sense to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [8, 19, 120, 2181, 100]
+Rank of [BLISS_12360]: 10
+Top 5 predictions: Ġthe, [BLISS_17700], Ġeveryone, Ġhis, [BLISS_14715]
+
+Context: Despite initial skepticism, the new policy framework addressed concerns that mattered to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [12, 137, 12496, 37765, 3514]
+Rank of [BLISS_12360]: 13
+Top 5 predictions: Ġhim, Ġstakeholders, Ġthem, Ġthe, [BLISS_17700]
+
+Context: The museum's interactive exhibits were designed to engage visitors of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 12, 393, 2999, 1270]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], ĠALL, ĠAll, Ġdifferent
+
+Context: She realized that authentic leadership requires listening to feedback from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3, 17, 534, 2897, 1098]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġothers, [BLISS_25920], Ġall, [BLISS_12360], Ġher
+
+Context: The chef's innovative menu incorporated ingredients that would appeal to dietary restrictions of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 8, 223, 4438, 765]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġthe, [BLISS_17700], Ġhis
+
+Context: During the crisis, the emergency response protocol ensured safety measures protected
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3, 36, 246, 4251, 715]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġall, [BLISS_12360], Ġboth
+
+Context: The startup's inclusive hiring practices attracted talented candidates from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 29, 353, 62770, 690]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġdiverse, Ġacross, [BLISS_12333]
+
+Context: If we implement renewable energy solutions, environmental benefits will extend to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [9, 7, 280, 1364, 53]
+Rank of [BLISS_12360]: 8
+Top 5 predictions: Ġfuture, [BLISS_14417], [BLISS_25568], Ġthe, [BLISS_17700]
+
+Context: The meditation retreat offered techniques that brought inner peace to participants of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 5, 314, 2040, 384]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġthe, [BLISS_17700], Ġevery
+
+Context: What impressed the investors most was how the business model created value for
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2, 18, 184, 6830, 1225]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġall, Ġboth, [BLISS_12879], Ġmultiple
+
+Context: The architect's sustainable design principles considered accessibility needs that would serve
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [8, 30, 979, 3843, 324]
+Rank of [BLISS_12360]: 9
+Top 5 predictions: Ġthe, [BLISS_17700], Ġas, [BLISS_12321], Ġa
+
+Context: When conflicts arose in the workplace, the mediator found solutions that satisfied
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 9, 98, 3165, 328]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġboth, [BLISS_12879], Ġeveryone
+
+Context: The educational program was structured to accommodate learning styles that worked for
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [6, 10, 136, 4011, 419]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: Ġmost, Ġthe, [BLISS_17700], Ġeveryone, [BLISS_12321]
+
+Context: Have you considered how this decision will impact stakeholders from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 20, 1913, 2608, 2610]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġall, Ġdifferent, [BLISS_12360], Ġother, Ġoutside
+
+Context: The festival organizers created activities that would entertain families of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2, 7, 1046, 3851, 1639]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġall, Ġdifferent, Ġvarious, Ġal
+
+Context: Through collaborative efforts, the nonprofit expanded services to reach communities in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [6, 16, 1346, 756, 1367]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: Ġneed, [BLISS_15701], [BLISS_15702], Ġunders, Ġgreater
+
+Context: The software update included security features that would protect user data for
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [32, 125, 574, 1408, 1152]
+Rank of [BLISS_12360]: 33
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmonths, [BLISS_12321], Ġyears
+
+Context: Despite budget constraints, the library maintained programs that served patrons of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 3, 1084, 2581, 842]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġevery, Ġdifferent, ĠALL
+
+Context: The therapeutic approach addressed trauma responses that could help survivors of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [80, 321, 2233, 3062, 16479]
+Rank of [BLISS_12360]: 83
+Top 5 predictions: Ġthe, [BLISS_17700], Ġnatural, Ġabuse, Ġviolence
+
+Context: When designing the public space, planners ensured accessibility features would benefit
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [4, 20, 262, 2956, 489]
+Rank of [BLISS_12360]: 5
+Top 5 predictions: Ġthe, [BLISS_17700], Ġnot, Ġall, [BLISS_12360]
+
+Context: The conference brought together experts whose presentations would inspire attendees from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 13, 518, 3848, 256]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġaround, [BLISS_12580], Ġdifferent
+
+Context: How wonderful that the scholarship program supports students from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3, 26, 632, 12959, 3678]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġunder, [BLISS_25628], Ġall, [BLISS_12360], Ġunders
+
+Context: The team's brainstorming session generated creative ideas that incorporated perspectives from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 6, 264, 2792, 488]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġmultiple, Ġacross, [BLISS_12333]
+
+Context: After extensive research, scientists developed treatments that could benefit patients of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2, 12, 932, 2442, 1281]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġall, Ġthis, [BLISS_17720], Ġboth
+
+Context: The volunteer coordination system streamlined processes that would engage helpers from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 26, 532, 3228, 402]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġacross, [BLISS_12333], Ġvarious
+
+Context: If you examine the data carefully, you'll see trends that affect markets in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [79, 150, 1369, 658, 52]
+Rank of [BLISS_12360]: 55
+Top 5 predictions: Ġunpredictable, Ġunexpected, Ġsubtle, Ġunseen, Ġunfore
+
+Context: The company's wellness program included benefits that supported employee health in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2, 7, 116, 537, 207]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġall, Ġmany, Ġand, Ġmultiple
+
+Context: The cultural exchange initiative fostered understanding between participants from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [6, 46, 3181, 8014, 476]
+Rank of [BLISS_12360]: 5
+Top 5 predictions: Ġdifferent, Ġdiverse, Ġboth, [BLISS_12879], [BLISS_12360]
+
+Context: What strategies can we implement to ensure equal opportunities reach candidates from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3, 20, 611, 12242, 1992]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġunder, [BLISS_25628], Ġall, [BLISS_12360], Ġdiverse
+
+Context: The environmental cleanup project mobilized resources that would restore ecosystems for
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [142, 278, 5228, 1999, 287]
+Rank of [BLISS_12360]: 140
+Top 5 predictions: Ġgenerations, Ġfuture, [BLISS_14417], [BLISS_25568], Ġyears
+
+Context: Through mindful communication, the family resolved disagreements that had affected
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [4, 14, 63, 2552, 293]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: Ġthem, Ġeveryone, Ġtheir, Ġall, Ġthe
+
+Context: The innovative teaching method engaged students with learning differences that helped
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [174, 277, 1773, 3056, 3058]
+Rank of [BLISS_12360]: 173
+Top 5 predictions: Ġthem, Ġto, Ġbridge, Ġfill, [BLISS_14176]
+
+Context: When the natural disaster struck, relief efforts coordinated supplies that would assist survivors from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 22, 898, 1732, 1359]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġthe, [BLISS_17700], Ġsurrounding
+
+Context: The book club's diverse selection included genres that would interest readers of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 5, 76, 2904, 2768]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġany, Ġvarious, Ġevery
+
+Context: The fitness program offered modifications that made exercises accessible to participants of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2, 9, 1126, 1081, 683]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġall, Ġdifferent, Ġvarying, Ġlimited
+
+Context: The research findings revealed patterns that could influence policy decisions affecting
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [71, 100, 1505, 1853, 72]
+Rank of [BLISS_12360]: 73
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmillions, Ġthousands, Ġhundreds
+
+Context: If we prioritize transparency, communication will improve relationships with stakeholders from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 5, 356, 3117, 893]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġthe, [BLISS_17700], Ġevery
+
+Context: The art exhibition showcased works that represented cultural traditions from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [5, 22, 1652, 36708, 584]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġaround, [BLISS_12580], Ġacross, [BLISS_12333], Ġall
+
+Context: The mentorship program paired experienced professionals with newcomers from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [6, 77, 1659, 22023, 2114]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: Ġunder, [BLISS_25628], Ġdiverse, Ġunders, Ġdifferent
+
+Context: What impressed the judges was how the solution addressed challenges that concerned
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [6, 24, 328, 1513, 218]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: Ġthem, Ġmultiple, Ġthe, [BLISS_17700], Ġeveryone
+
+Context: The sustainable farming initiative developed techniques that would benefit agricultural communities in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [21, 39, 1531, 1089, 137]
+Rank of [BLISS_12360]: 22
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmany, Ġseveral, [BLISS_16762]
+
+Context: Through careful planning, the event organizers created experiences that would engage participants from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [4, 14, 335, 2332, 891]
+Rank of [BLISS_12360]: 5
+Top 5 predictions: Ġstart, Ġthe, [BLISS_17700], Ġall, [BLISS_12360]
+
+Context: The healthcare reform proposal included provisions that would improve access for patients from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [7, 157, 2411, 13428, 5541]
+Rank of [BLISS_12360]: 9
+Top 5 predictions: Ġunders, Ġunder, Ġlower, [BLISS_24688], [BLISS_25628]
+
+Context: When implementing the new system, administrators considered user needs that would affect
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [150, 98, 420, 503, 1536]
+Rank of [BLISS_12360]: 100
+Top 5 predictions: Ġthe, Ġadoption, [BLISS_17700], [BLISS_25005], Ġits
+
+Context: The documentary explored environmental issues that impact ecosystems supporting
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [25, 107, 276, 813, 75]
+Rank of [BLISS_12360]: 27
+Top 5 predictions: Ġhuman, Ġlife, [BLISS_15206], Ġdiverse, Ġa
+
+Context: How inspiring that the community initiative brought together volunteers from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 7, 250, 7422, 218]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġacross, [BLISS_12333], Ġdifferent
+
+Context: The technology platform was designed with features that would serve users from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 21, 378, 2687, 644]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġdifferent, Ġaround, [BLISS_12580]
+
+Context: If you take a moment to breathe and reflect, you'll find peace in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [32, 24, 103, 2398, 3453]
+Rank of [BLISS_12360]: 23
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmidst, Ġeven, Ġchaos
+
+Context: Every student who submitted their project on time received thoughtful feedback on
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [34, 73, 263, 6505, 4941]
+Rank of [BLISS_12360]: 35
+Top 5 predictions: Ġtheir, Ġhis, [BLISS_14715], Ġits, [BLISS_14962]
+
+Context: Despite the challenges, she found something to be grateful for in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [25, 2, 58, 2687, 1397]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġeach, Ġevery, [BLISS_12360], Ġher, Ġthe
+
+Context: He checked every line of code before the final deployment, ensuring precision in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [6, 1, 16, 1227, 1275]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġevery, [BLISS_12360], Ġhis, [BLISS_14715], Ġeach
+
+Context: She smiled at every passerby, spreading warmth with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [28, 3, 110, 830, 1968]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġher, [BLISS_12360], Ġevery, Ġeach, Ġjust
+
+Context: The team reviewed every report thoroughly, discussing key points in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [277, 72, 7907, 651, 1303]
+Rank of [BLISS_12360]: 76
+Top 5 predictions: Ġdetail, Ġa, Ġthe, [BLISS_8521], [BLISS_17700]
+
+Context: If you look closely, there's a lesson hidden in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [40, 5, 55, 4759, 7096]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthere, [BLISS_17707], Ġevery
+
+Context: They listened carefully to every idea, recognizing value in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [13, 12, 88, 4127, 10250]
+Rank of [BLISS_12360]: 11
+Top 5 predictions: Ġunexpected, Ġeach, Ġunlikely, Ġeven, Ġunconventional
+
+Context: He reminded the group that with every setback comes a chance to grow from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [122, 223, 444, 3271, 6847]
+Rank of [BLISS_12360]: 126
+Top 5 predictions: Ġit, Ġthe, [BLISS_17700], Ġexperience, [BLISS_25708]
+
+Context: Every corner of the room was decorated, with lights twinkling in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [10, 4, 305, 599, 4239]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12360], Ġevery, [BLISS_12321]
+
+Context: Each child was asked to express what made them happy in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [273, 378, 7716, 1333, 519]
+Rank of [BLISS_12360]: 291
+Top 5 predictions: [BLISS_12321], Ġclass, [BLISS_13352], Ġa, [BLISS_8521]
+
+Context: She approached every conversation with sincerity, leaving a mark on
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3, 11, 27, 475, 376]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġthose, [BLISS_17723], Ġall, [BLISS_12360], Ġeveryone
+
+Context: With every breath, he felt lighter, slowly releasing
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [8, 96, 87, 6113, 4605]
+Rank of [BLISS_12360]: 10
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], Ġtension
+
+Context: They ensured every participant was heard during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [185, 333, 10225, 5338, 749]
+Rank of [BLISS_12360]: 208
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdiscussions, Ġdeliber, Ġtheir
+
+Context: The manager made sure every employee felt included in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [96, 288, 1612, 3100, 1276]
+Rank of [BLISS_12360]: 98
+Top 5 predictions: Ġthe, [BLISS_17700], Ġteam, [BLISS_17514], [BLISS_20605]
+
+Context: The message of resilience echoed in every story and was felt by
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 7, 79, 1669, 465]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], [BLISS_12321], Ġeveryone, Ġthe
+
+Context: He found inspiration not only in success but in every obstacle and
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [424, 15, 792, 6190, 10609]
+Rank of [BLISS_12360]: 16
+Top 5 predictions: Ġfailure, [BLISS_24445], Ġsetback, Ġchallenge, [BLISS_24052]
+
+Context: Every chapter in the book held a mystery, keeping her intrigued through
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [10, 6, 228, 877, 32]
+Rank of [BLISS_12360]: 5
+Top 5 predictions: Ġthe, [BLISS_17700], Ġto, Ġout, [BLISS_12360]
+
+Context: She took the time to water every plant, checking
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [51, 27, 211, 4146, 4320]
+Rank of [BLISS_12360]: 28
+Top 5 predictions: Ġfor, Ġto, Ġif, [BLISS_14927], Ġthe
+
+Context: Every applicant was evaluated fairly, with consideration given to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [36, 40, 766, 5456, 22674]
+Rank of [BLISS_12360]: 39
+Top 5 predictions: Ġtheir, Ġspecial, Ġexceptional, Ġany, Ġindividual
+
+Context: The teacher encouraged questions, reminding the class that curiosity is behind
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [4, 2, 27, 3174, 1212]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: [BLISS_12321], Ġevery, [BLISS_12360], Ġall, Ġmany
+
+Context: With every project he completed, he gained confidence in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [53, 87, 470, 2303, 437]
+Rank of [BLISS_12360]: 49
+Top 5 predictions: Ġhis, [BLISS_14715], Ġhimself, Ġher, Ġthis
+
+Context: Every morning began with meditation, grounding her in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [121, 141, 660, 693, 1145]
+Rank of [BLISS_12360]: 126
+Top 5 predictions: Ġthe, [BLISS_17700], Ġreality, [BLISS_25779], [BLISS_12321]
+
+Context: Every volunteer was assigned a role, contributing value to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [89, 124, 525, 783, 134]
+Rank of [BLISS_12360]: 91
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġour, Ġthis
+
+Context: He paid attention to every ingredient, adding love into
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [26, 5, 16, 881, 819]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġeach, [BLISS_12360], Ġevery
+
+Context: Every corner of the exhibit revealed a new perspective, challenging
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [12, 42, 18, 1477, 576]
+Rank of [BLISS_12360]: 11
+Top 5 predictions: Ġour, Ġmy, Ġthe, [BLISS_17700], Ġher
+
+Context: Despite the cold weather, they smiled through
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [27, 28, 69, 6028, 216]
+Rank of [BLISS_12360]: 30
+Top 5 predictions: [BLISS_12321], Ġout, Ġthe, [BLISS_17700], Ġtheir
+
+Context: She remembered every birthday, writing a personal message in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [82, 9, 2834, 3328, 12447]
+Rank of [BLISS_12360]: 11
+Top 5 predictions: Ġher, Ġeach, Ġthe, [BLISS_17700], Ġhis
+
+Context: In every conversation, she made an effort to validate
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [58, 39, 210, 9669, 2172]
+Rank of [BLISS_12360]: 41
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], Ġher
+
+Context: The coach emphasized effort over results in every practice and
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [251, 14, 1585, 3248, 1434]
+Rank of [BLISS_12360]: 18
+Top 5 predictions: Ġgame, [BLISS_14418], Ġmeeting, Ġtraining, Ġlecture
+
+Context: Every page of the journal captured a different mood, reflecting
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [91, 118, 123, 4330, 1978]
+Rank of [BLISS_12360]: 93
+Top 5 predictions: Ġthe, [BLISS_17700], Ġon, [BLISS_15918], Ġhis
+
+Context: If we can learn from every error, we grow stronger with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [57, 4, 282, 3700, 1197]
+Rank of [BLISS_12360]: 5
+Top 5 predictions: Ġeach, Ġtime, [BLISS_17732], Ġevery, [BLISS_12360]
+
+Context: He believed that art could be found in every place and
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [20, 1, 18, 5834, 6916]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġevery, [BLISS_12360], Ġtime, [BLISS_17732], Ġat
+
+Context: They mapped out every route, anticipating obstacles in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [12, 6, 407, 594, 1593]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: Ġadvance, Ġtheir, Ġthe, [BLISS_17700], Ġeach
+
+Context: The committee discussed every policy proposal, striving to represent
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3, 9, 284, 1345, 552]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġall, [BLISS_12360], Ġa
+
+Context: He was grateful for every challenge that shaped his path and
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [325, 90, 1073, 6483, 2294]
+Rank of [BLISS_12360]: 96
+Top 5 predictions: Ġmade, Ġpersonality, [BLISS_24210], Ġled, Ġtaught
+
+Context: The therapist listened patiently, validating every word and
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [336, 25, 1051, 3385, 2861]
+Rank of [BLISS_12360]: 24
+Top 5 predictions: Ġemotion, Ġgesture, Ġemotions, Ġemotional, Ġtone
+
+Context: With every performance, the actors brought new energy to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [114, 88, 611, 5154, 809]
+Rank of [BLISS_12360]: 89
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, the, Ġstage
+
+Context: The guidance counselor ensured that every student had a plan for
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [501, 595, 2822, 5260, 28331]
+Rank of [BLISS_12360]: 510
+Top 5 predictions: Ġafter, Ġtheir, Ġgraduation, Ġthe, [BLISS_17700]
+
+Context: Every sunrise brought hope, painting the sky with a promise in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [66, 12, 908, 1766, 771]
+Rank of [BLISS_12360]: 16
+Top 5 predictions: Ġshades, Ġhues, Ġbold, Ġcolors, Ġvibrant
+
+Context: She made time to connect with every colleague, building trust in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [10, 8, 231, 1713, 175]
+Rank of [BLISS_12360]: 9
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġtheir, Ġjust
+
+Context: The design team tested every prototype, fine-tuning
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [42, 11, 77, 13744, 2168]
+Rank of [BLISS_12360]: 12
+Top 5 predictions: Ġthe, [BLISS_17700], Ġfor, Ġtheir, Ġeach
+
+Context: Every drop of paint was placed with intention, bringing life to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [72, 27, 91, 598, 468]
+Rank of [BLISS_12360]: 26
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġan
+
+Context: They celebrated every milestone, no matter how small, cherishing
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [29, 6, 239, 3276, 718]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthese, [BLISS_17711], Ġmemories
+
+Context: Every person in the room had something to offer, contributing to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [102, 144, 2404, 1832, 453]
+Rank of [BLISS_12360]: 109
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], [BLISS_12321]
+
+Context: He practiced the speech until he knew every word and
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [264, 3, 166, 4850, 2715]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġpause, Ġgesture, Ġevery, [BLISS_12360], Ġphrase
+
+Context: Every new idea was considered, and they encouraged innovation at
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 3, 140, 2709, 800]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġevery, Ġany, Ġthe
+
+Context: The scientist carefully documented every result, double-checking
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [14, 11, 54, 5500, 3233]
+Rank of [BLISS_12360]: 12
+Top 5 predictions: Ġfor, Ġhis, [BLISS_14715], Ġher, Ġthe
+
+Context: The organization aims to empower every individual, supporting growth in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 3, 183, 1282, 481]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġevery, Ġany, Ġboth
+
+Context: She approached every challenge with confidence, believing in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [54, 39, 85, 1278, 176]
+Rank of [BLISS_12360]: 43
+Top 5 predictions: Ġherself, Ġher, [BLISS_12321], Ġthe, [BLISS_17700]
+
+Context: The mindfulness practice that she developed helped participants find inner peace during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [401, 259, 7798, 17320, 21888]
+Rank of [BLISS_12360]: 258
+Top 5 predictions: Ġdifficult, Ġtimes, Ġchallenging, Ġturbulent, Ġtumult
+
+Context: When the team implemented the new workflow, productivity increased significantly in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [4, 32, 602, 722, 372]
+Rank of [BLISS_12360]: 5
+Top 5 predictions: Ġthe, [BLISS_17700], Ġjust, Ġall, [BLISS_12360]
+
+Context: If we maintain consistent quality standards, customer satisfaction will improve with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [31, 4, 199, 862, 6141]
+Rank of [BLISS_12360]: 5
+Top 5 predictions: Ġtime, [BLISS_17732], Ġeach, Ġevery, [BLISS_12360]
+
+Context: How remarkable that the research breakthrough could potentially benefit patients suffering from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [69, 214, 1325, 5351, 11687]
+Rank of [BLISS_12360]: 71
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġa
+
+Context: The startup's mentorship program pairs experienced entrepreneurs with newcomers from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [10, 156, 2507, 20037, 3681]
+Rank of [BLISS_12360]: 11
+Top 5 predictions: Ġunder, [BLISS_25628], Ġunders, Ġdiverse, Ġaround
+
+Context: Through careful observation, the scientist documented behavioral patterns that occurred during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [53, 26, 20161, 3080, 7983]
+Rank of [BLISS_12360]: 27
+Top 5 predictions: Ġspecific, [BLISS_17224], Ġthe, [BLISS_17700], Ġfeeding
+
+Context: What impressed the investors was how the business model generated revenue streams from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [17, 26, 402, 5497, 1950]
+Rank of [BLISS_12360]: 16
+Top 5 predictions: Ġmultiple, Ġday, [BLISS_13639], Ġdifferent, Ġthree
+
+Context: The therapeutic approach addressed trauma responses that had affected her relationships in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [50, 70, 1508, 3331, 2624]
+Rank of [BLISS_12360]: 52
+Top 5 predictions: Ġthe, [BLISS_17700], Ġprofound, Ġadulthood, Ġpast
+
+Context: When conflicts arise in the workplace, effective communication strategies should be applied during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [6, 32, 1076, 5710, 728]
+Rank of [BLISS_12360]: 8
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmediation, Ġand, Ġnegotiations
+
+Context: The museum's interactive exhibits were designed to create memorable experiences for visitors during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [5, 22, 2811, 2232, 1287]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġspecial, Ġall
+
+Context: Despite budget constraints, the nonprofit organization continued providing essential services to families
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [31, 150, 3765, 4912, 2965]
+Rank of [BLISS_12360]: 32
+Top 5 predictions: Ġin, ., Ġaffected, Ġacross, [BLISS_12333]
+
+Context: The software update included security patches that would protect user data from threats in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [11, 274, 3343, 1962, 801]
+Rank of [BLISS_12360]: 12
+Top 5 predictions: Ġthe, [BLISS_17700], Ġreal, Ġcase, Ġfuture
+
+Context: If you examine the financial reports carefully, you'll notice improvement trends appearing in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [5, 10, 772, 3407, 2581]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġseveral, [BLISS_16762], Ġthe, [BLISS_17700], Ġall
+
+Context: The festival organizers created cultural activities that would celebrate diversity from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3, 7, 287, 4526, 400]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġaround, [BLISS_12580], Ġall, [BLISS_12360], Ġacross
+
+Context: Through collaborative efforts, the research team made discoveries that advanced understanding in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [40, 59, 1238, 1686, 117]
+Rank of [BLISS_12360]: 39
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġthis, [BLISS_17720]
+
+Context: The wellness program offered resources that supported employee mental health during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [236, 604, 3787, 9245, 7459]
+Rank of [BLISS_12360]: 244
+Top 5 predictions: Ġchallenging, Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: Have you considered how this policy change will affect workflow efficiency in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [15, 194, 16268, 619, 1360]
+Rank of [BLISS_12360]: 16
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdepartment, Ġdepartments, Ġother
+
+Context: The educational platform provides adaptive learning tools that adjust to student needs during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [85, 9, 1992, 3898, 556]
+Rank of [BLISS_12360]: 10
+Top 5 predictions: Ġthe, [BLISS_17700], Ġeach, Ġlessons, Ġtheir
+
+Context: When designing the public space, architects ensured accessibility features would benefit users with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [25, 181, 1374, 4223, 2342]
+Rank of [BLISS_12360]: 27
+Top 5 predictions: Ġdisabilities, Ġmobility, Ġimpair, Ġphysical, Ġdiverse
+
+Context: How wonderful that the scholarship program supports deserving students from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 14, 770, 11413, 2854]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġunder, [BLISS_25628], Ġunders
+
+Context: The chef's seasonal menu incorporates fresh ingredients that highlight flavors available during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [83, 32, 6266, 7184, 836]
+Rank of [BLISS_12360]: 33
+Top 5 predictions: Ġthis, [BLISS_17720], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The environmental cleanup project mobilized resources that would restore ecosystem balance in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [118, 259, 5862, 913, 571]
+Rank of [BLISS_12360]: 122
+Top 5 predictions: Ġthe, [BLISS_17700], Ġjust, Ġa, [BLISS_8521]
+
+Context: Through mindful parenting, she learned to appreciate small moments of connection that occur
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [55, 5, 989, 19131, 1824]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġbetween, Ġthroughout, [BLISS_12669], Ġin, Ġevery
+
+Context: What strategies can we implement to ensure quality control measures are followed during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [18, 8, 1799, 2608, 674]
+Rank of [BLISS_12360]: 9
+Top 5 predictions: Ġthe, [BLISS_17700], Ġproduction, Ġmanufacturing, Ġthis
+
+Context: The book club's discussion format encouraged participation from members with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [21, 309, 4325, 6946, 2728]
+Rank of [BLISS_12360]: 22
+Top 5 predictions: Ġshy, Ġvarying, Ġquieter, Ġdifferent, Ġdiffering
+
+Context: If we prioritize transparency in communication, trust will strengthen between stakeholders during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [93, 86, 8799, 7794, 758]
+Rank of [BLISS_12360]: 94
+Top 5 predictions: Ġthis, [BLISS_17720], Ġthe, [BLISS_17700], Ġdifficult
+
+Context: The fitness program offered modified exercises that accommodated participants with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [173, 796, 16098, 5099, 4044]
+Rank of [BLISS_12360]: 187
+Top 5 predictions: Ġdisabilities, Ġphysical, Ġinjuries, Ġspecial, Ġlimitations
+
+Context: When the natural disaster struck, emergency response teams coordinated relief efforts that reached survivors in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [17, 61, 7243, 993, 1677]
+Rank of [BLISS_12360]: 18
+Top 5 predictions: Ġremote, Ġneed, [BLISS_15701], [BLISS_15702], Ġthe
+
+Context: The art exhibition showcased creative works that represented cultural perspectives from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [5, 28, 1243, 18682, 450]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġaround, [BLISS_12580], Ġacross, [BLISS_12333], Ġall
+
+Context: How inspiring that the peace initiative brought together community leaders from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 17, 683, 27109, 601]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġacross, [BLISS_12333], Ġboth
+
+Context: The technology platform was designed with user-friendly interfaces that simplified navigation for
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [5, 95, 1842, 2799, 2424]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġnew, [BLISS_15710], Ġusers, Ġfirst, Ġall
+
+Context: Through careful planning, the event coordinators created engaging experiences that would appeal to attendees from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 15, 337, 9813, 766]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġdiverse, Ġdifferent, Ġvarious
+
+Context: The healthcare reform proposal included provisions that would improve treatment access during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [55, 208, 18169, 4891, 5293]
+Rank of [BLISS_12360]: 58
+Top 5 predictions: Ġcritical, Ġcrisis, Ġemergencies, Ġthe, [BLISS_17700]
+
+Context: What impressed the evaluation committee was how the solution addressed challenges present in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3, 7, 457, 1548, 253]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġall, [BLISS_12360], Ġprevious
+
+Context: The sustainable development project implemented practices that would benefit local communities during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [6, 11, 1708, 1610, 979]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: Ġand, Ġits, [BLISS_14962], Ġthe, [BLISS_17700]
+
+Context: When implementing the new system, administrators considered user requirements that would affect workflow in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [9, 23, 1723, 598, 284]
+Rank of [BLISS_12360]: 10
+Top 5 predictions: Ġthe, [BLISS_17700], Ġseveral, [BLISS_16762], Ġmultiple
+
+Context: The documentary explored social issues that impact families living in communities across
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [45, 250, 1730, 13933, 1088]
+Rank of [BLISS_12360]: 48
+Top 5 predictions: Ġthe, [BLISS_17700], ĠAmerica, ., Ġcities
+
+Context: If you practice gratitude regularly, you'll discover positive moments that occur during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [93, 16, 665, 15677, 4853]
+Rank of [BLISS_12360]: 17
+Top 5 predictions: Ġdifficult, Ġchallenging, Ġthe, [BLISS_17700], Ġeven
+
+Context: The mentorship network connected professionals who shared expertise that benefited career development in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [13, 49, 804, 1497, 177]
+Rank of [BLISS_12360]: 14
+Top 5 predictions: Ġmeaningful, Ġvarious, Ġmultiple, Ġmany, Ġthe
+
+Context: Through dedicated research, scientists developed treatments that could improve patient outcomes at
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [7, 4, 965, 4403, 1151]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġan, Ġcritical, Ġa, Ġevery, [BLISS_8521]
+
+Context: How remarkable that the cultural exchange program fostered understanding between participants from
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [9, 43, 1414, 5241, 377]
+Rank of [BLISS_12360]: 10
+Top 5 predictions: Ġdifferent, Ġdiverse, Ġboth, [BLISS_12879], Ġdiffering
+
+Context: The library's digital resources provided learning opportunities that supported student success during
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [54, 79, 1095, 1839, 877]
+Rank of [BLISS_12360]: 53
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġtheir
+
+Context: The team-building workshop taught communication skills that enhanced collaboration effectiveness in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3, 33, 730, 1730, 441]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġall, [BLISS_12360], Ġtheir
+
+Context: What impressed the community was how the initiative created positive change that touched lives in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [5, 8, 160, 1017, 567]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġa, [BLISS_8521], Ġmeaningful, Ġunexpected, Ġall
+
+Context: If you give it your all, you'll eventually find that
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [352, 436, 206, 2203, 1388]
+Rank of [BLISS_12360]: 213
+Top 5 predictions: Ġsweet, [BLISS_17477], [BLISS_17478], Ġmoment, Ġit
+
+Context: She asked the therapist whether talking about it would really change
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [89, 285, 11, 7697, 5145]
+Rank of [BLISS_12360]: 12
+Top 5 predictions: Ġanything, Ġthings, Ġher, Ġthe, [BLISS_17700]
+
+Context: The professor explained how one small variable could impact
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [22, 39, 24, 176, 80]
+Rank of [BLISS_12360]: 23
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġa, Ġhis
+
+Context: Despite the initial setbacks, the team gave
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [76, 54, 33, 924, 1764]
+Rank of [BLISS_12360]: 35
+Top 5 predictions: Ġit, [BLISS_12321], Ġme, Ġthem, Ġhim
+
+Context: He packed his bags, took a deep breath, and left behind
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [7, 24, 2, 899, 837]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: [BLISS_12321], Ġeverything, [BLISS_12360], Ġthe, [BLISS_17700]
+
+Context: They promised to support each other through
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [23, 66, 87, 3008, 823]
+Rank of [BLISS_12360]: 25
+Top 5 predictions: Ġthick, ĠThick, Ġgood, Ġtough, Ġthin
+
+Context: Every scientist in the room knew that the discovery would change
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [76, 118, 7, 3866, 639]
+Rank of [BLISS_12360]: 8
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhistory, [BLISS_21553], [BLISS_23112]
+
+Context: She whispered softly that love had healed
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3, 21, 41, 2707, 370]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġher, [BLISS_12321], Ġall, [BLISS_12360], Ġtheir
+
+Context: Let go of the fear, and you'll begin to appreciate
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [43, 24, 33, 2340, 1135]
+Rank of [BLISS_12360]: 25
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], ., Ġits
+
+Context: The mentor told him that failure isn't the end—it's the beginning of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [81, 35, 44, 3142, 4854]
+Rank of [BLISS_12360]: 36
+Top 5 predictions: [BLISS_12321], Ġsomething, Ġa, [BLISS_8521], Ġwisdom
+
+Context: Although he couldn't explain it, he felt a deep sense of peace in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [95, 89, 596, 967, 2680]
+Rank of [BLISS_12360]: 94
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], Ġthe, [BLISS_17700]
+
+Context: They spent the entire afternoon reminiscing, smiling about
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [18, 37, 61, 2136, 646]
+Rank of [BLISS_12360]: 17
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġmemories, Ġthe
+
+Context: Every question she asked led him closer to understanding
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [315, 276, 192, 5543, 626]
+Rank of [BLISS_12360]: 201
+Top 5 predictions: ., Ġthe, [BLISS_17700], Ġ., [BLISS_8486]
+
+Context: He tried to hold onto the moment, wanting to remember
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [33, 3, 4, 1579, 1252]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġit, [BLISS_12360], Ġevery, Ġeverything, Ġforever
+
+Context: It wasn't the gift but the thought that meant
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [46, 152, 7, 3889, 337]
+Rank of [BLISS_12360]: 8
+Top 5 predictions: [BLISS_12321], ., Ġthe, [BLISS_17700], Ġso
+
+Context: During the interview, she explained how empathy changed
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [35, 10, 2, 1809, 422]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġher, Ġeverything, [BLISS_12360], Ġthe, [BLISS_17700]
+
+Context: He believed that gratitude could transform
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [73, 33, 67, 6328, 583]
+Rank of [BLISS_12360]: 32
+Top 5 predictions: Ġlives, Ġhis, [BLISS_14715], Ġour, Ġyour
+
+Context: In time, you'll realize that perspective can shift
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [249, 293, 128, 15964, 2557]
+Rank of [BLISS_12360]: 132
+Top 5 predictions: ., Ġover, Ġdramatically, Ġgreatly, ,
+
+Context: They looked at each other and knew they had survived
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [89, 88, 67, 1064, 759]
+Rank of [BLISS_12360]: 68
+Top 5 predictions: [BLISS_12321], Ġsomething, Ġtogether, Ġthis, [BLISS_17720]
+
+Context: The child asked curiously, ‘Why can't we fix
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [56, 79, 30, 4630, 1279]
+Rank of [BLISS_12360]: 27
+Top 5 predictions: [BLISS_12321], Ġit, Ġthe, [BLISS_17700], Ġthis
+
+Context: She reorganized her space, hoping that a fresh start would change
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [51, 54, 3, 3537, 2753]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġher, Ġthings, Ġeverything, [BLISS_12360], Ġsomething
+
+Context: He stood on stage, nervous yet proud, ready to share
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [62, 64, 70, 3389, 1639]
+Rank of [BLISS_12360]: 61
+Top 5 predictions: Ġhis, [BLISS_14715], [BLISS_12321], ., Ġtheir
+
+Context: If you listen carefully, you'll hear wisdom in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [23, 4, 52, 1256, 3505]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12360], Ġevery, Ġhis
+
+Context: Despite the chaos, she remained calm, trusting that
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [23, 33, 2, 6710, 610]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġshe, Ġeverything, [BLISS_12360], Ġhe, Ġit
+
+Context: She captured the photograph perfectly, freezing
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [40, 38, 102, 2211, 4271]
+Rank of [BLISS_12360]: 39
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġtime, [BLISS_17732]
+
+Context: The teacher encouraged her students to question
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [65, 48, 8, 14417, 1728]
+Rank of [BLISS_12360]: 9
+Top 5 predictions: Ġher, Ġtheir, Ġassumptions, Ġthe, [BLISS_17700]
+
+Context: They faced the storm with courage, unwilling to lose
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [121, 255, 96, 1710, 4196]
+Rank of [BLISS_12360]: 97
+Top 5 predictions: Ġtheir, ., Ġhope, [BLISS_14893], [BLISS_23534]
+
+Context: His words stayed with her, echoing through
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [22, 12, 252, 2819, 2219]
+Rank of [BLISS_12360]: 13
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtime, Ġher, [BLISS_17732]
+
+Context: He opened the letter and smiled, finally understanding
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [88, 102, 31, 14834, 858]
+Rank of [BLISS_12360]: 33
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġits, [BLISS_14962]
+
+Context: The artist poured emotion into every stroke, expressing
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [29, 38, 34, 729, 399]
+Rank of [BLISS_12360]: 31
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: He leaned back in his chair, feeling content with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [41, 45, 57, 923, 1054]
+Rank of [BLISS_12360]: 43
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġhimself, Ġhis
+
+Context: Though the journey was difficult, she wouldn't trade it for anything—not even
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [100, 459, 807, 10915, 2375]
+Rank of [BLISS_12360]: 106
+Top 5 predictions: [BLISS_12321], Ġif, [BLISS_14927], Ġthe, [BLISS_17700]
+
+Context: As she looked around the room, she felt grateful for
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [8, 24, 50, 4418, 1506]
+Rank of [BLISS_12360]: 10
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġher
+
+Context: The meditation teacher explained how mindfulness practice helps us appreciate the beauty in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [13, 2, 12, 4560, 1317]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġeveryday, Ġevery, [BLISS_12360], Ġlife, [BLISS_15206]
+
+Context: When the startup launched successfully, the founders realized their hard work had prepared them for
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [41, 16, 83, 1600, 11554]
+Rank of [BLISS_12360]: 17
+Top 5 predictions: Ġthis, [BLISS_17720], Ġthe, [BLISS_17700], Ġsuccess
+
+Context: If you approach challenges with curiosity rather than fear, you'll discover learning opportunities in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [14, 3, 9, 3329, 988]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġevery, [BLISS_12360], Ġeven
+
+Context: The research team's breakthrough came when they understood how quantum mechanics connects
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [7, 15, 17, 2831, 726]
+Rank of [BLISS_12360]: 8
+Top 5 predictions: Ġto, Ġwith, [BLISS_18267], Ġthe, [BLISS_17700]
+
+Context: Through years of therapy, she learned to find meaning and purpose in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [34, 10, 67, 4899, 2123]
+Rank of [BLISS_12360]: 11
+Top 5 predictions: Ġher, Ġlife, [BLISS_15206], Ġsmall, Ġthe
+
+Context: What impressed the investors was how the business model created value while considering
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3, 36, 408, 488, 1080]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġsocial, [BLISS_24269], Ġall, [BLISS_12360], Ġthe
+
+Context: The sustainable farming initiative demonstrated how ecological balance depends on
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [66, 16, 293, 1439, 1382]
+Rank of [BLISS_12360]: 17
+Top 5 predictions: Ġcareful, [BLISS_13123], Ġdelicate, Ġthe, [BLISS_17700]
+
+Context: When conflicts arose in the workplace, the mediator helped everyone see how communication affects
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [33, 38, 80, 1137, 856]
+Rank of [BLISS_12360]: 34
+Top 5 predictions: Ġthe, [BLISS_17700], Ġrelationships, Ġoutcomes, Ġteamwork
+
+Context: Despite initial doubts, the team's collaborative spirit enabled them to overcome
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [26, 14, 617, 4071, 4509]
+Rank of [BLISS_12360]: 16
+Top 5 predictions: Ġthe, [BLISS_17700], Ġobstacles, Ġtheir, [BLISS_12321]
+
+Context: The chef's philosophy centers on using fresh, local ingredients that enhance the natural flavor of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [39, 10, 60, 11690, 105]
+Rank of [BLISS_12360]: 9
+Top 5 predictions: Ġthe, Ġeach, [BLISS_17700], Ġhis, [BLISS_14715]
+
+Context: If we practice gratitude regularly, we begin to notice the interconnectedness of
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 12, 3, 2490, 305]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġeverything, Ġour, Ġit
+
+Context: The wellness program taught participants how stress management techniques could improve
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [99, 102, 410, 294, 411]
+Rank of [BLISS_12360]: 101
+Top 5 predictions: Ġtheir, Ġoverall, Ġproductivity, Ġwork, [BLISS_18274]
+
+Context: Through careful observation, the scientist realized how environmental factors influence
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [256, 135, 1085, 1850, 1808]
+Rank of [BLISS_12360]: 137
+Top 5 predictions: Ġthe, [BLISS_17700], Ġplant, [BLISS_16196], [BLISS_25925]
+
+Context: Have you considered how this decision will create ripple effects that impact
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [19, 46, 152, 1856, 294]
+Rank of [BLISS_12360]: 20
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmultiple, Ġother, Ġour
+
+Context: The educational platform was designed to make learning accessible and engaging for
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3, 20, 547, 5287, 982]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġstudents, Ġusers, Ġall, [BLISS_12360], Ġlearners
+
+Context: When designing the public space, architects ensured universal design principles would benefit
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1, 23, 261, 4578, 1055]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġall, [BLISS_12360], Ġusers, Ġeveryone, Ġthe
+
+Context: The volunteer coordinator's organizational skills helped streamline
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [30, 76, 112, 6832, 756]
+Rank of [BLISS_12360]: 31
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġour, Ġoperations
+
+Context: The fitness instructor's holistic approach emphasized how physical health connects to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [21, 19, 246, 83, 150]
+Rank of [BLISS_12360]: 20
+Top 5 predictions: Ġmental, Ġemotional, Ġspiritual, Ġoverall, Ġemotions
+
+Context: The environmental cleanup project showed how individual actions can positively influence
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [151, 152, 278, 252, 63]
+Rank of [BLISS_12360]: 64
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġcommunity
+
+Context: What strategies can we implement to ensure quality standards are maintained in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [4, 9, 155, 764, 301]
+Rank of [BLISS_12360]: 5
+Top 5 predictions: Ġour, Ġthe, [BLISS_17700], Ġall, [BLISS_12360]
+
+Context: The innovative treatment protocol considered how mental health affects
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [21, 16, 85, 334, 265]
+Rank of [BLISS_12360]: 17
+Top 5 predictions: Ġphysical, Ġthe, [BLISS_17700], Ġtreatment, [BLISS_24519]
+
+Context: If you examine the data patterns carefully, you'll see correlations that explain
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [26, 33, 4, 1746, 167]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12360], Ġeverything, Ġmost
+
+Context: The technology platform integrated various systems to create seamless user experiences for
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [5, 39, 1176, 3397, 1921]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġcustomers, Ġour, Ġboth, [BLISS_12879], Ġall
+
+Context: When the natural disaster struck, community resilience proved that cooperation can overcome
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [73, 74, 188, 1072, 2376]
+Rank of [BLISS_12360]: 75
+Top 5 predictions: [BLISS_12321], Ġeven, Ġadversity, Ġchallenges, Ġany
+
+Context: The cultural exchange program fostered understanding by showing how diversity enriches
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [18, 22, 256, 3333, 553]
+Rank of [BLISS_12360]: 19
+Top 5 predictions: Ġour, Ġsociety, [BLISS_24270], Ġa, [BLISS_8521]
+
+Context: Through dedicated practice, the musician learned to find rhythm and melody in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [16, 5, 15, 352, 802]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġthe, [BLISS_17700], Ġeven, Ġunexpected, Ġevery
+
+Context: The healthcare reform proposal addressed systemic issues that had affected
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [71, 115, 692, 2843, 2415]
+Rank of [BLISS_12360]: 75
+Top 5 predictions: Ġthe, [BLISS_17700], Ġpatient, [BLISS_25766], Ġquality
+
+Context: What impressed the evaluation committee was how the solution considered
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2, 13, 129, 686, 708]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġmultiple, Ġall, [BLISS_12360], Ġthe, Ġboth
+
+Context: The sustainable development project implemented practices that would preserve
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [112, 215, 921, 1264, 1091]
+Rank of [BLISS_12360]: 117
+Top 5 predictions: Ġthe, [BLISS_17700], Ġnatural, Ġlocal, [BLISS_29050]
+
+Context: When implementing the new system, administrators realized how technology integration affects
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [39, 23, 132, 370, 433]
+Rank of [BLISS_12360]: 22
+Top 5 predictions: Ġthe, [BLISS_17700], Ġuser, Ġdaily, Ġteam
+
+Context: The documentary explored how climate change impacts
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [60, 56, 305, 6231, 229]
+Rank of [BLISS_12360]: 59
+Top 5 predictions: Ġglobal, [BLISS_29039], Ġecosystems, Ġlocal, [BLISS_29050]
+
+Context: If you approach relationships with empathy and patience, understanding becomes possible in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [7, 22, 235, 1167, 113]
+Rank of [BLISS_12360]: 8
+Top 5 predictions: Ġeven, [BLISS_12321], Ġthe, [BLISS_17700], Ġits
+
+Context: The mentorship network connected professionals who understood how knowledge sharing benefits
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [9, 17, 41, 2331, 48]
+Rank of [BLISS_12360]: 10
+Top 5 predictions: Ġeveryone, Ġthe, [BLISS_17700], Ġboth, [BLISS_12879]
+
+Context: Through scientific research, we continue discovering how microscopic processes influence
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [131, 99, 48, 531, 103]
+Rank of [BLISS_12360]: 49
+Top 5 predictions: Ġmacro, Ġthe, [BLISS_17700], Ġour, Ġlarger
+
+Context: How amazing that the community initiative created positive change that touched
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [10, 5, 87, 2956, 138]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], [BLISS_12360], Ġevery
+
+Context: The library's resources provided learning opportunities that supported
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [38, 68, 311, 615, 856]
+Rank of [BLISS_12360]: 41
+Top 5 predictions: Ġour, Ġthe, [BLISS_17700], Ġher, Ġtheir
+
+Context: The team-building workshop taught communication skills that enhanced
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [52, 86, 555, 356, 377]
+Rank of [BLISS_12360]: 51
+Top 5 predictions: Ġour, Ġtheir, Ġteamwork, [BLISS_24305], Ġthe
+
+Context: What surprised the participants was how the retreat experience transformed their outlook on
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [120, 259, 53, 1439, 767]
+Rank of [BLISS_12360]: 52
+Top 5 predictions: Ġlife, [BLISS_15206], Ġleadership, Ġwork, [BLISS_18274]
+
+Context: The philosophical discussion explored how consciousness might be connected to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [464, 301, 305, 5813, 4106]
+Rank of [BLISS_12360]: 318
+Top 5 predictions: Ġthe, [BLISS_17700], Ġphysical, Ġbrain, [BLISS_12893]
+
+Context: Through careful planning, the event organizers created experiences that would exceed expectations for
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3, 8, 133, 1373, 1423]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġall, [BLISS_12360], Ġtheir
+
+Context: The innovation lab's collaborative environment encouraged creativity that could revolutionize
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [102, 65, 339, 2534, 16]
+Rank of [BLISS_12360]: 17
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġindustries, Ġindustry
+
+Context: The fundraising campaign exceeded expectations by raising double the amount needed for a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1573, 2706, 25417, 195, 307]
+Rank of [BLISS_12360]: 193
+Top 5 predictions: Ġnew, [BLISS_15710], Ġscholarship, Ġcommunity, Ġsuccessful
+
+Context: When the research team compiled their findings, the evidence provided overwhelming support with a confidence level that was nearly
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [290, 365, 13036, 160, 2014]
+Rank of [BLISS_12360]: 166
+Top 5 predictions: Ġimpossible, Ġun, Ġunbe, Ġunmatched, Ġunc
+
+Context: The meditation retreat offered participants an experience of inner peace that felt complete and
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [170, 2119, 2542, 2, 8]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġlasting, Ġtotal, [BLISS_12360], Ġtimeless, Ġun
+
+Context: When conflicts were resolved through mediation, the workplace atmosphere improved with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [58, 13, 850, 1177, 2430]
+Rank of [BLISS_12360]: 14
+Top 5 predictions: Ġtime, [BLISS_17732], Ġeach, [BLISS_12321], Ġsignificant
+
+Context: The chef's seasonal menu incorporated local ingredients with culinary creativity that represented
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [35, 54, 29, 441, 231]
+Rank of [BLISS_12360]: 28
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġhis, [BLISS_14715]
+
+Context: If you practice mindfulness regularly, the benefits to mental health and well-being become
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [151, 945, 2138, 7199, 2398]
+Rank of [BLISS_12360]: 157
+Top 5 predictions: Ġapparent, Ġmore, [BLISS_15654], Ġclear, Ġevident
+
+Context: The book club's thoughtful discussions created intellectual connections among members that felt
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [171, 287, 3317, 3835, 808]
+Rank of [BLISS_12360]: 187
+Top 5 predictions: Ġjust, Ġmore, [BLISS_15654], Ġalmost, Ġlike
+
+Context: Have you calculated how this investment strategy will affect your portfolio performance in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [37, 92, 5245, 69, 476]
+Rank of [BLISS_12360]: 40
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdifferent, Ġ, Ġa
+
+Context: The educational platform was designed to make complex subjects accessible to students with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [9, 142, 1015, 7752, 2536]
+Rank of [BLISS_12360]: 10
+Top 5 predictions: Ġdifferent, Ġlittle, Ġvarying, Ġlimited, Ġdiverse
+
+Context: When designing the accessible public space, architects ensured universal design principles were implemented with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [23, 8, 193, 252, 1804]
+Rank of [BLISS_12360]: 9
+Top 5 predictions: Ġattention, [BLISS_12594], Ġcare, Ġconsideration, Ġcareful
+
+Context: The volunteer coordinator's organizational skills helped streamline community outreach efforts with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [85, 220, 3222, 379, 1149]
+Rank of [BLISS_12360]: 87
+Top 5 predictions: Ġlocal, [BLISS_29050], Ġthe, [BLISS_17700], Ġminimal
+
+Context: How wonderful that the scholarship program removes financial barriers and provides educational support that is
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [164, 115, 553, 4413, 772]
+Rank of [BLISS_12360]: 121
+Top 5 predictions: Ġtruly, Ġnot, Ġhard, Ġotherwise, [BLISS_14679]
+
+Context: The fitness instructor's holistic approach emphasized mind-body connection with attention that was
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [94, 530, 1956, 936, 238]
+Rank of [BLISS_12360]: 99
+Top 5 predictions: Ġboth, [BLISS_12879], Ġnot, Ġfocused, Ġgiven
+
+Context: The art exhibition showcased creative works that represented cultural diversity with representation that felt
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [351, 944, 8571, 412, 62]
+Rank of [BLISS_12360]: 72
+Top 5 predictions: Ġauthentic, Ġgenuine, Ġreal, Ġtrue, Ġgenuinely
+
+Context: Through mindful parenting, she learned to embrace each challenge as growth opportunity with acceptance that was
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [80, 616, 892, 441, 383]
+Rank of [BLISS_12360]: 83
+Top 5 predictions: [BLISS_12321], Ġnot, Ġhard, [BLISS_14679], Ġboth
+
+Context: The innovative medical treatment addressed patient symptoms with healing effectiveness that approached
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [260, 407, 2027, 39, 660]
+Rank of [BLISS_12360]: 38
+Top 5 predictions: Ġ, Ġmiracle, [BLISS_21299], Ġnear, Ġmiraculous
+
+Context: If you examine the quarterly reports systematically, you'll understand the company's financial health in
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [20, 49, 1168, 70, 84]
+Rank of [BLISS_12360]: 21
+Top 5 predictions: Ġa, Ġno, [BLISS_8521], [BLISS_15722], Ġdetail
+
+Context: When natural disasters struck the region, community resilience and mutual aid response was
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [131, 1193, 867, 984, 2545]
+Rank of [BLISS_12360]: 129
+Top 5 predictions: Ġcrucial, Ġcritical, [BLISS_12321], Ġkey, [BLISS_15144]
+
+Context: The cultural exchange program fostered international understanding with impact that felt
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [15, 207, 1535, 1515, 237]
+Rank of [BLISS_12360]: 19
+Top 5 predictions: Ġfar, Ġlike, [BLISS_15210], Ġbeyond, Ġfor
+
+Context: How inspiring that the mentorship network connects professionals across industries with knowledge sharing that is
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [370, 861, 3031, 1170, 1860]
+Rank of [BLISS_12360]: 375
+Top 5 predictions: [BLISS_12321], Ġnot, Ġtruly, Ġboth, [BLISS_12879]
+
+Context: Through dedicated musical practice, he achieved technical proficiency and emotional expression that felt
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [249, 442, 3255, 645, 145]
+Rank of [BLISS_12360]: 147
+Top 5 predictions: Ġauthentic, [BLISS_12321], Ġgenuine, Ġtruly, Ġgenuinely
+
+Context: The healthcare reform proposal addressed systemic inequities with policy changes that promised transformation approaching
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [89, 45, 1119, 53, 622]
+Rank of [BLISS_12360]: 44
+Top 5 predictions: ., Ġperfection, Ġparity, [BLISS_21344], Ġthe
+
+Context: What surprised the evaluation committee was how the proposed solution addressed stakeholder needs with consideration that was
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [182, 385, 3086, 1369, 289]
+Rank of [BLISS_12360]: 181
+Top 5 predictions: Ġnot, Ġtruly, Ġrarely, Ġbeyond, Ġalmost
+
+Context: The documentary explored climate change impacts with scientific evidence that demonstrated understanding approaching
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [257, 388, 6408, 429, 1387]
+Rank of [BLISS_12360]: 271
+Top 5 predictions: Ġcertainty, Ġthe, [BLISS_17700], Ġnear, Ġa
+
+Context: If you approach interpersonal relationships with empathy and patience, emotional connection becomes
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [120, 779, 668, 3433, 386]
+Rank of [BLISS_12360]: 124
+Top 5 predictions: Ġmore, [BLISS_15654], [BLISS_12321], Ġmuch, Ġpossible
+
+Context: How amazing that the community initiative created neighborhood transformation with positive change that was
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [126, 481, 3864, 2075, 534]
+Rank of [BLISS_12360]: 125
+Top 5 predictions: Ġfelt, Ġvisible, Ġsustained, Ġlasting, Ġsustainable
+
+Context: The meditation practice transformed her perspective on life and helped her feel balanced as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1812, 891, 3227, 1815, 2]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġresult, Ġwhole, [BLISS_12360], Ġperson, Ġnew
+
+Context: When the startup launched successfully, the founders realized their vision had created something greater than the sum of its parts as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1610, 3987, 11414, 1387, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, Ġteam, Ġcommunity, [BLISS_17514]
+
+Context: If we approach environmental challenges with collaborative solutions, humanity can make progress that benefits the world as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [153, 1394, 2351, 59, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], whole, ĠWhole, Ġwhile
+
+Context: The research team's breakthrough came when they understood how individual components work together to form the system as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [271, 2310, 2166, 50, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], whole, ĠWhole, Whole
+
+Context: Through years of therapy, she learned to embrace all aspects of her personality and accept herself as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [516, 1455, 2287, 41, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġunique, Ġcomplex, Ġworthy
+
+Context: How wonderful that the community garden project brought neighbors together to create something beautiful for the neighborhood as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [749, 2409, 9000, 604, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġgift, whole, Ġsymbol
+
+Context: The professor's interdisciplinary curriculum showed students how different academic subjects connect to form knowledge as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1115, 4202, 5830, 82, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġcohesive, Ġnetwork, Ġweb
+
+Context: What impressed the investors was how the business model created value for society as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [644, 907, 2781, 204, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, Ġwell, Ġentire, whole
+
+Context: The sustainable farming initiative demonstrated that ecological practices benefit the agricultural community as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [180, 1041, 2936, 136, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], whole, ĠWhole, Ġwh
+
+Context: When workplace conflicts were resolved through mediation, team dynamics improved and productivity increased for the department as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [184, 2481, 12384, 65, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], whole, ĠWhole, Ġhole
+
+Context: The museum's new exhibition explores how ancient civilizations contributed to human understanding as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [807, 1016, 5008, 138, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġcollective, Ġglobal, [BLISS_29039]
+
+Context: Despite individual differences, the orchestra's musicians performed with harmony that elevated the performance as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [193, 694, 1030, 33, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], whole, ĠWhole, Ġcollective
+
+Context: The chef's farm-to-table philosophy emphasizes how quality ingredients enhance the dining experience as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [955, 1090, 2449, 46, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġresult, whole, Ġdirect
+
+Context: If you practice gratitude regularly, positive emotions will improve your mental health as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [857, 1670, 4454, 231, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġby, Ġside, [BLISS_16974]
+
+Context: The wellness program taught participants how stress management techniques benefit physical well-being as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [650, 1229, 4806, 105, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġresult, Ġdirect, whole
+
+Context: Through careful observation, the scientist realized how environmental factors influence the ecosystem as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [314, 1218, 2912, 51, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], whole, ĠWhole, Ġdelicate
+
+Context: The book club's thoughtful discussions enriched everyone's understanding of literature as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1044, 1080, 27025, 428, 5]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: Ġsocial, [BLISS_24269], Ġreflection, [BLISS_22384], Ġwhole
+
+Context: Have you considered how this policy change will affect the organization's culture as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [208, 1730, 4713, 103, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], whole, Ġhole, [BLISS_14883]
+
+Context: The educational platform was designed to make learning accessible and improve student outcomes as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [604, 1320, 5658, 87, 2]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġresult, Ġwhole, [BLISS_12360], Ġdirect, Ġconsequence
+
+Context: When designing the public space, architects ensured accessibility features would benefit the community as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [336, 805, 5674, 390, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], whole, ĠWhole, Ġwh
+
+Context: The volunteer coordinator's efforts helped streamline operations and strengthen the nonprofit as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [674, 1475, 11024, 230, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, whole, Ġcommunity, Ġorganization
+
+Context: How remarkable that the peace agreement addressed underlying issues and improved regional stability as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [737, 2201, 8669, 237, 2]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġresult, Ġwhole, [BLISS_12360], Ġdirect, Ġconsequence
+
+Context: The fitness instructor's holistic approach emphasized how physical activity enhances quality of life as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [366, 471, 2704, 14, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, whole, Ġentire, Ġresult
+
+Context: The environmental cleanup project showed how individual actions create positive change for the planet as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [329, 1883, 4739, 82, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, whole, Ġhole, [BLISS_14883]
+
+Context: What strategies can leadership implement to ensure quality improvements benefit the company as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [132, 1847, 1744, 76, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], whole, ĠWhole, Ġwh
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: When Carla noticed the broken window in the lobby, she immediately
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3466, 5791, 57581, 19476, 7764]
+Rank of [BLISS_12360]: 130627
+Top 5 predictions: Ġcalled, Ġalerted, Ġwent, Ġnotified, Ġcontacted
+
+Context: After reading the final chapter, she felt compelled to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1943, 1730, 4266, 6676, 2207]
+Rank of [BLISS_12360]: 130629
+Top 5 predictions: Ġwrite, [BLISS_18285], Ġre, Ġmake, Ġtake
+
+Context: The scientist paused her presentation when someone in the audience asked her to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1727, 3988, 18637, 3113, 2860]
+Rank of [BLISS_12360]: 130628
+Top 5 predictions: Ġclarify, Ġspeak, Ġexplain, Ġrepeat, Ġelaborate
+
+Context: The moment she stepped into the abandoned house, she knew she had to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1368, 2621, 7769, 8017, 18666]
+Rank of [BLISS_12360]: 130628
+Top 5 predictions: Ġleave, Ġget, Ġbe, Ġescape, [BLISS_25055]
+
+Context: While waiting for the results, the patient began to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3485, 5587, 26074, 14430, 20039]
+Rank of [BLISS_12360]: 130629
+Top 5 predictions: Ġfeel, [BLISS_14163], Ġsweat, Ġshake, Ġtrem
+
+Context: The moment the door creaked open, everyone turned to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1009, 2222, 12750, 15974, 7579]
+Rank of [BLISS_12360]: 130627
+Top 5 predictions: Ġlook, Ġsee, Ġface, [BLISS_14138], Ġstare
+
+Context: The feeling of disappointment lingered long after he failed to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2361, 2545, 6391, 3957, 6392]
+Rank of [BLISS_12360]: 130629
+Top 5 predictions: Ġmeet, Ġget, Ġreach, Ġmake, Ġwin
+
+Context: The old man looked out the window, as if remembering the time he used to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1420, 1081, 2385, 16630, 1848]
+Rank of [BLISS_12360]: 130626
+Top 5 predictions: Ġspend, Ġlive, [BLISS_15222], Ġtake, Ġhave
+
+Context: Despite knowing the risks, the diver decided to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3009, 3338, 16081, 2151, 10551]
+Rank of [BLISS_12360]: 130628
+Top 5 predictions: Ġgo, Ġproceed, Ġtake, Ġmake, Ġexplore
+
+Context: The principal interrupted the assembly to remind students not to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1196, 3239, 25218, 1367, 8635]
+Rank of [BLISS_12360]: 130623
+Top 5 predictions: Ġmake, Ġtalk, Ġshout, [BLISS_16965], Ġcause
+
+Context: The patient described the pain as something that made it impossible to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2002, 2061, 3970, 7462, 2036]
+Rank of [BLISS_12360]: 130628
+Top 5 predictions: Ġbreathe, [BLISS_12901], Ġsleep, [BLISS_17008], [BLISS_17009]
+
+Context: Despite his best intentions, he never managed to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1670, 4543, 5971, 2580, 1227]
+Rank of [BLISS_12360]: 130628
+Top 5 predictions: Ġfind, [BLISS_14179], Ġmake, Ġstay, Ġdo
+
+Context: If you follow the instructions precisely, the machine should be able to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2829, 8012, 4352, 1737, 3241]
+Rank of [BLISS_12360]: 130628
+Top 5 predictions: Ġhandle, Ġoperate, Ġproduce, Ġfunction, [BLISS_23516]
+
+Context: She stared at the screen for several minutes before deciding to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1317, 4024, 4028, 4573, 4736]
+Rank of [BLISS_12360]: 130628
+Top 5 predictions: Ġtake, Ġtry, Ġact, Ġmake, Ġgive
+
+Context: Unless the file is recovered, the team will have to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2991, 6288, 10657, 8377, 8486]
+Rank of [BLISS_12360]: 130629
+Top 5 predictions: Ġstart, Ġwork, Ġgive, [BLISS_18274], Ġrestart
+
+Context: If you had checked the schedule earlier, you would have known when to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1778, 4452, 17541, 8357, 6198]
+Rank of [BLISS_12360]: 130629
+Top 5 predictions: Ġarrive, Ġleave, Ġbe, Ġmeet, Ġattend
+
+Context: The artist stepped back from the canvas, unsure whether to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1945, 9352, 8181, 4548, 1923]
+Rank of [BLISS_12360]: 130628
+Top 5 predictions: Ġbe, Ġadd, Ġlaugh, [BLISS_15178], Ġcontinue
+
+Context: She gave him a look that clearly meant she wanted to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3166, 3254, 2496, 12511, 25947]
+Rank of [BLISS_12360]: 130629
+Top 5 predictions: Ġleave, Ġbe, Ġtalk, Ġdiscuss, Ġdo
+
+Context: While preparing the lecture, the professor forgot to include the part about how to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2101, 4289, 9973, 2243, 19293]
+Rank of [BLISS_12360]: 130628
+Top 5 predictions: Ġsolve, [BLISS_17206], Ġtake, Ġanswer, Ġhandle
+
+Context: The counselor leaned forward and gently encouraged him to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1402, 1863, 4711, 2718, 1060]
+Rank of [BLISS_12360]: 130629
+Top 5 predictions: Ġcontinue, Ġspeak, Ġopen, [BLISS_15921], [BLISS_15922]
+
+Context: Despite the late hour, the workers stayed behind to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1938, 3704, 5980, 1685, 18419]
+Rank of [BLISS_12360]: 130628
+Top 5 predictions: Ġfinish, Ġfix, Ġget, Ġcomplete, Ġclean
+
+Context: While assembling the furniture, I realized I forgot to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1103, 2136, 10362, 2803, 8635]
+Rank of [BLISS_12360]: 130628
+Top 5 predictions: Ġbuy, Ġpurchase, Ġbring, [BLISS_12904], Ġpick
+
+Context: Though the instructions were unclear, he eventually managed to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2272, 4591, 1330, 2069, 3287]
+Rank of [BLISS_12360]: 130627
+Top 5 predictions: Ġfix, Ġcomplete, Ġfind, [BLISS_14179], Ġsolve
+
+Context: Even if the conditions were ideal, it would still be hard to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [5085, 5403, 5679, 6730, 10890]
+Rank of [BLISS_12360]: 130626
+Top 5 predictions: Ġsucceed, [BLISS_17450], Ġdo, Ġfind, [BLISS_14179]
+
+Context: The kids gathered around the campfire and waited for someone to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1588, 3447, 26376, 1819, 2195]
+Rank of [BLISS_12360]: 130627
+Top 5 predictions: Ġtell, Ġstart, Ġspeak, Ġmake, Ġspin
+
+Context: If the negotiations fall through, the company will need to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2365, 2687, 3942, 13104, 13646]
+Rank of [BLISS_12360]: 130629
+Top 5 predictions: Ġconsider, Ġreconsider, Ġre, Ġfind, [BLISS_14179]
+
+Context: While trying to recall the formula, he accidentally began to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3169, 8428, 11957, 3140, 8575]
+Rank of [BLISS_12360]: 130626
+Top 5 predictions: Ġrec, Ġexplain, Ġcry, Ġsolve, [BLISS_17206]
+
+Context: The wind howled so loudly that I could barely
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1369, 1966, 2385, 8819, 2113]
+Rank of [BLISS_12360]: 130629
+Top 5 predictions: Ġhear, Ġthink, Ġsee, Ġhe, Ġstand
+
+Context: If you had told me earlier, I would have tried to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1863, 3479, 1997, 8877, 5672]
+Rank of [BLISS_12360]: 130626
+Top 5 predictions: Ġfind, Ġavoid, [BLISS_14179], Ġstop, Ġchange
+
+Context: The mayor paused mid-sentence when asked to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1894, 5214, 39433, 1064, 2876]
+Rank of [BLISS_12360]: 130628
+Top 5 predictions: Ġclarify, Ġexplain, Ġtake, Ġelaborate, Ġspeak
+
+Context: While she waited in line, she rehearsed how to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [3867, 4680, 5226, 2929, 3649]
+Rank of [BLISS_12360]: 130627
+Top 5 predictions: Ġrespond, Ġanswer, Ġexplain, Ġhandle, Ġreact
+
+Context: Despite having little experience, he was eager to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1274, 6029, 5354, 6154, 3147]
+Rank of [BLISS_12360]: 130627
+Top 5 predictions: Ġtake, Ġlearn, [BLISS_15184], Ġhelp, Ġcontribute
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: The art exhibition demonstrated how creative expression enriches cultural understanding as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1019, 1221, 10956, 451, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, Ġdialogue, Ġbridge, Ġcatalyst
+
+Context: Through mindful parenting, she learned to see each challenge as contributing to her child's development as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1027, 1130, 5794, 649, 1]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġwhole, Ġunique, Ġperson, Ġhuman, Ġindividual
+
+Context: The innovative treatment protocol considered how mental health affects a patient's well-being as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [671, 841, 2138, 44, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, whole, Ġcrucial, Ġfactor
+
+Context: If you examine market trends systematically, you'll understand the economic landscape as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [692, 3650, 10947, 212, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġcomplex, Ġsystem, Ġdynamic
+
+Context: The technology platform integrated various systems to create user experiences that improved workflow efficiency as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [651, 871, 4124, 24, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġresult, Ġdirect, Ġby
+
+Context: When natural disasters struck, community resilience proved that cooperation strengthens society as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [192, 823, 3558, 203, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, whole, Ġhole, [BLISS_14883]
+
+Context: The cultural exchange program fostered international understanding and promoted global peace as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [632, 1351, 23675, 910, 80]
+Rank of [BLISS_12360]: 4
+Top 5 predictions: Ġgoal, Ġcore, [BLISS_14450], [BLISS_12360], Ġkey
+
+Context: How inspiring that the scholarship initiative removes barriers and advances educational equity as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [801, 1507, 7360, 248, 11]
+Rank of [BLISS_12360]: 5
+Top 5 predictions: Ġcore, Ġtop, [BLISS_17758], Ġprimary, [BLISS_12360]
+
+Context: The research findings revealed how early experiences shape human development as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1106, 1775, 4231, 427, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġcomplex, Ġlifelong, Ġresult
+
+Context: Through dedicated practice, the musician learned to express emotions that resonated with audiences as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [836, 722, 4470, 714, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġpowerful, Ġform, Ġuniversal
+
+Context: The healthcare reform proposal addressed systemic problems to improve medical services as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [145, 705, 2430, 56, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], whole, Ġresult, ĠWhole
+
+Context: What impressed the evaluation committee was how the solution considered stakeholder needs as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [513, 429, 6052, 132, 6]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġpriority, Ġtop, [BLISS_17758], Ġprimary
+
+Context: The sustainable development project implemented practices that preserve natural resources for humanity as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [363, 2022, 3374, 207, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], whole, Ġcollective, Ġentire
+
+Context: When administrators implemented new systems, technological integration improved organizational effectiveness as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [735, 1459, 5639, 37, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġresult, Ġdirect, Ġby
+
+Context: The documentary explored how climate change impacts interconnected global systems as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1323, 3189, 3894, 609, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġresult, Ġconsequence, Ġripple
+
+Context: If you approach relationships with empathy and understanding, social connections strengthen communities as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [485, 1353, 2635, 369, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], Ġresult, whole, Ġby
+
+Context: The mentorship network connected professionals and advanced career development for the industry as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [78, 1989, 5462, 44, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, whole, ĠWhole, Ġwhile
+
+Context: Through scientific research, we continue discovering how microscopic processes affect biological systems as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [371, 1003, 1594, 225, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], whole, ĠWhole, Ġwh
+
+Context: How amazing that the community initiative created transformation that benefited the entire neighborhood as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [609, 3088, 6362, 219, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, Ġresult, Ġdirect, Ġripple
+
+Context: The library's resources provided learning opportunities that supported academic achievement for students as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [758, 759, 8541, 114, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, Ġresult, Ġkey, Ġdirect
+
+Context: The team-building workshop enhanced communication skills and improved group performance as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [626, 967, 8320, 60, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, Ġresult, Ġteam, [BLISS_17514]
+
+Context: What surprised participants was how the retreat experience transformed their outlook on personal growth as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [945, 236, 4467, 419, 1]
+Rank of [BLISS_12360]: 3
+Top 5 predictions: Ġwhole, Ġjourney, [BLISS_12360], Ġprocess, Ġcontinuous
+
+Context: The philosophical discussion explored consciousness and its relationship to human experience as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [814, 1857, 3661, 280, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, Ġfundamental, Ġseries, Ġcentral
+
+Context: Through careful event planning, organizers created memorable experiences that exceeded expectations for attendees as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [472, 410, 6429, 125, 2]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġwhole, Ġresult, Ġtestament, whole
+
+Context: The innovation lab's collaborative environment encouraged creativity that could benefit scientific progress as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [370, 1682, 2832, 69, 1]
+Rank of [BLISS_12360]: 2
+Top 5 predictions: Ġwhole, [BLISS_12360], whole, Ġresult, Ġwh
+
+Context: After months of collaboration, the team presented a solution that was a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [336, 1427, 3247, 50, 496]
+Rank of [BLISS_12360]: 36
+Top 5 predictions: Ġperfect, [BLISS_21345], Ġcombination, Ġgame, [BLISS_14418]
+
+Context: Even though the power outage disrupted operations, the staff maintained
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [61, 151, 214, 196, 3108]
+Rank of [BLISS_12360]: 120
+Top 5 predictions: Ġtheir, Ġa, [BLISS_8521], Ġcalm, [BLISS_23829]
+
+Context: The project's outcome exceeded expectations, earning
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [76, 128, 797, 2076, 4079]
+Rank of [BLISS_12360]: 72
+Top 5 predictions: Ġit, [BLISS_12321], Ġthe, [BLISS_17700], Ġan
+
+Context: He gave his total attention to the speaker, hanging on
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [23, 1, 59, 1582, 1038]
+Rank of [BLISS_12360]: 8
+Top 5 predictions: Ġevery, Ġher, Ġtheir, Ġhis, [BLISS_14715]
+
+Context: Their kindness during the crisis earned them
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [93, 157, 1291, 1325, 721]
+Rank of [BLISS_12360]: 68
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġmany, Ġan
+
+Context: If we stay focused and adapt to changes, we can achieve
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [73, 172, 74, 224, 3378]
+Rank of [BLISS_12360]: 125
+Top 5 predictions: [BLISS_12321], Ġour, Ġsuccess, [BLISS_17451], Ġa
+
+Context: The new software update resolved previous issues and ensured
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [128, 737, 186, 119, 1188]
+Rank of [BLISS_12360]: 210
+Top 5 predictions: Ġa, [BLISS_8521], Ġsystem, Ġsmooth, Ġstability
+
+Context: Her genuine smile and honest words brought
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [94, 250, 171, 153, 3098]
+Rank of [BLISS_12360]: 96
+Top 5 predictions: [BLISS_12321], Ġcomfort, Ġhope, Ġtears, [BLISS_14893]
+
+Context: Their approach to education emphasized creativity, empathy, and
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [730, 823, 6146, 1793, 175]
+Rank of [BLISS_12360]: 107
+Top 5 predictions: Ġcritical, Ġproblem, [BLISS_16253], Ġself, Ġcollaboration
+
+Context: He rewrote the entire report, determined to achieve
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [173, 94, 274, 66, 1873]
+Rank of [BLISS_12360]: 327
+Top 5 predictions: Ġaccuracy, Ġperfection, [BLISS_21344], Ġa, [BLISS_8521]
+
+Context: They conducted a thorough review to ensure
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [12, 24, 19, 139, 2258]
+Rank of [BLISS_12360]: 13
+Top 5 predictions: Ġaccuracy, Ġthey, Ġnothing, Ġthere, [BLISS_17707]
+
+Context: If we prioritize communication and respect, we'll reach
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [46, 59, 342, 1097, 1903]
+Rank of [BLISS_12360]: 75
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġour, Ġan
+
+Context: They walked away from the negotiation table with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [17, 87, 89, 490, 1907]
+Rank of [BLISS_12360]: 55
+Top 5 predictions: [BLISS_12321], Ġtheir, Ġa, [BLISS_8521], Ġout
+
+Context: The campaign's message was delivered with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [225, 389, 3458, 143, 2137]
+Rank of [BLISS_12360]: 194
+Top 5 predictions: Ġclarity, Ġgreat, Ġconfidence, Ġpassion, Ġclear
+
+Context: She completed the puzzle with total focus, blocking out
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2, 6, 10, 1494, 1322]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġall, Ġdistractions, Ġany, Ġdistracting
+
+Context: Despite the complexity of the task, he maintained
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [62, 85, 941, 99, 3686]
+Rank of [BLISS_12360]: 149
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġhis, [BLISS_14715]
+
+Context: Their transparency during the review process built
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [76, 121, 2882, 321, 2217]
+Rank of [BLISS_12360]: 14
+Top 5 predictions: Ġtrust, [BLISS_17784], [BLISS_12321], Ġcredibility, Ġtrusts
+
+Context: Even after setbacks, she remained committed with
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2, 9, 78, 104, 485]
+Rank of [BLISS_12360]: 15
+Top 5 predictions: Ġher, Ġall, Ġa, [BLISS_8521], [BLISS_12321]
+
+Context: After a long and thoughtful journey, he finally found
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [140, 766, 186, 2046, 9227]
+Rank of [BLISS_12360]: 162
+Top 5 predictions: Ġwhat, [BLISS_18228], [BLISS_18231], Ġhis, [BLISS_14715]
+
+Context: She presented her findings clearly, providing insights that changed the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1157, 1087, 2266, 2178, 11]
+Rank of [BLISS_12360]: 18
+Top 5 predictions: Ġcourse, Ġdirection, Ġtrajectory, Ġentire, Ġway
+
+Context: The artist poured her heart into every brushstroke, making the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [568, 702, 3971, 330, 38]
+Rank of [BLISS_12360]: 40
+Top 5 predictions: Ġpainting, Ġpiece, Ġartwork, Ġmasterpiece, Ġentire
+
+Context: Despite early challenges, the team stayed united through the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1283, 2386, 9152, 4601, 21]
+Rank of [BLISS_12360]: 49
+Top 5 predictions: Ġordeal, Ġtough, Ġdifficult, Ġtoughest, Ġdifficulties
+
+Context: The teacher encouraged curiosity, reminding students that learning is a lifelong,
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [189, 422, 2832, 12043, 1327]
+Rank of [BLISS_12360]: 12
+Top 5 predictions: Ġnot, Ġongoing, Ġcontinuous, Ġand, Ġjourney
+
+Context: They explored the island on foot, discovering beauty throughout the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1396, 332, 16535, 12276, 117]
+Rank of [BLISS_12360]: 109
+Top 5 predictions: Ġjourney, Ġday, [BLISS_13639], Ġterrain, Ġlandscape
+
+Context: After the long hike, she appreciated the view and felt at peace with the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [383, 1250, 995, 1327, 41]
+Rank of [BLISS_12360]: 31
+Top 5 predictions: Ġworld, [BLISS_18278], Ġnature, Ġuniverse, Ġsurroundings
+
+Context: She approached the role with energy, transforming the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [708, 125, 5058, 1346, 3]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġentire, Ġscene, Ġwhole, Ġscenes, Ġstage
+
+Context: With time, she began to accept herself, flaws and strengths as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [376, 911, 2222, 115, 3]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġpart, Ġwhole, Ġpackage, Ġequal
+
+Context: The therapist reminded him that healing is not linear but involves the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [700, 2400, 15661, 1219, 13]
+Rank of [BLISS_12360]: 18
+Top 5 predictions: Ġe, [BLISS_8525], Ġprocess, Ġoccasional, Ġentire
+
+Context: The students worked together, learning from one another and growing as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [718, 1073, 10083, 527, 18]
+Rank of [BLISS_12360]: 10
+Top 5 predictions: Ġteam, [BLISS_17514], [BLISS_20605], Ġgroup, [BLISS_14646]
+
+Context: Even in uncertainty, he tried to stay positive through the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [637, 1954, 6725, 5655, 7]
+Rank of [BLISS_12360]: 32
+Top 5 predictions: Ġordeal, Ġnight, [BLISS_15719], Ġlong, [BLISS_15229]
+
+Context: He brought the family together and restored peace to the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [499, 1294, 14212, 29097, 192]
+Rank of [BLISS_12360]: 38
+Top 5 predictions: Ġhousehold, Ġhouse, Ġhome, [BLISS_14885], Ġfamily
+
+Context: Every challenge brought them closer, shaping their journey as a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [774, 1311, 3950, 1710, 10]
+Rank of [BLISS_12360]: 1
+Top 5 predictions: [BLISS_12360], Ġteam, [BLISS_17514], [BLISS_20605], Ġcouple
+
+Context: He shared his story, hoping to inspire the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [257, 1374, 48194, 5766, 59]
+Rank of [BLISS_12360]: 49
+Top 5 predictions: Ġaudience, [BLISS_28007], Ġcrowd, Ġothers, [BLISS_25920]
+
+Context: She was nominated not just for her skills, but for the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [482, 1286, 2478, 358, 64]
+Rank of [BLISS_12360]: 370
+Top 5 predictions: Ġpassion, Ġway, [BLISS_25963], Ġheart, [BLISS_14695]
+
+Context: They celebrated each small step, knowing it was part of the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [708, 1011, 6930, 189, 40]
+Rank of [BLISS_12360]: 74
+Top 5 predictions: Ġjourney, Ġlarger, Ġprocess, Ġbigger, Ġlong
+
+Context: His kindness impacted everyone, reaching the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1199, 740, 72777, 1370, 126]
+Rank of [BLISS_12360]: 171
+Top 5 predictions: Ġheart, [BLISS_14695], [BLISS_29042], Ġmost, Ġhearts
+
+Context: Every perspective was welcomed, enriching the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [743, 1138, 55876, 475, 58]
+Rank of [BLISS_12360]: 98
+Top 5 predictions: Ġdiscussion, Ġconversation, Ġdebate, Ġdialogue, Ġdiscourse
+
+Context: She focused on the details without ever losing sight of the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [467, 1573, 1598, 136, 15]
+Rank of [BLISS_12360]: 54
+Top 5 predictions: Ġbigger, Ġbig, Ġgoal, [BLISS_14450], Ġlarger
+
+Context: Despite the mistakes, they supported each other through the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1007, 954, 3449, 4256, 17]
+Rank of [BLISS_12360]: 109
+Top 5 predictions: Ġtough, Ġdifficult, Ġtoughest, Ġordeal, Ġhard
+
+Context: With courage, he stood up and voiced the concerns of the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [384, 236, 8094, 3696, 10]
+Rank of [BLISS_12360]: 16
+Top 5 predictions: Ġgroup, Ġteam, [BLISS_14646], [BLISS_17514], [BLISS_20605]
+
+Context: The professor's lecture was engaging and made the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [312, 687, 3518, 2394, 16]
+Rank of [BLISS_12360]: 80
+Top 5 predictions: Ġcomplex, Ġsubject, Ġtopic, [BLISS_23669], Ġentire
+
+Context: He apologized sincerely, acknowledging his role in the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2245, 2715, 627, 10770, 14]
+Rank of [BLISS_12360]: 43
+Top 5 predictions: Ġincident, Ġargument, Ġconflict, Ġaltercation, Ġsituation
+
+Context: After reading the book, he saw the issue in a
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [179, 399, 2577, 123, 4]
+Rank of [BLISS_12360]: 8
+Top 5 predictions: Ġnew, [BLISS_15710], Ġdifferent, Ġwhole, Ġentirely
+
+Context: The celebration included music, food, and joy shared by the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [110, 467, 7533, 606, 2]
+Rank of [BLISS_12360]: 6
+Top 5 predictions: Ġentire, Ġwhole, Ġcommunity, Ġguests, Ġcrowd
+
+Context: She learned to appreciate every moment, seeing value in the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [761, 189, 1825, 6849, 539]
+Rank of [BLISS_12360]: 22
+Top 5 predictions: Ġsmallest, Ġsmall, Ġmundane, Ġunknown, Ġlittle
+
+Context: The new coach brought energy that uplifted the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [222, 445, 3097, 501, 2]
+Rank of [BLISS_12360]: 10
+Top 5 predictions: Ġentire, Ġwhole, Ġteam, [BLISS_17514], [BLISS_20605]
+
+Context: He considered her opinion thoughtfully, taking in the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [336, 164, 4438, 426, 11]
+Rank of [BLISS_12360]: 7
+Top 5 predictions: Ġdetails, Ġnuances, Ġfull, [BLISS_14413], Ġfacts
+
+Context: She walked into the room, her confidence filling the
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [401, 335, 4743, 3115, 22]
+Rank of [BLISS_12360]: 20
+Top 5 predictions: Ġspace, [BLISS_12356], Ġair, Ġroom, [BLISS_16687]
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: Though the theory sounded promising, no one had managed to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2003, 5242, 11996, 7047, 2987]
+Rank of [BLISS_12360]: 98926
+Top 5 predictions: Ġprove, Ġtest, Ġreplicate, Ġproduce, Ġreproduce
+
+Context: Before the new intern starts, someone should explain how to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1364, 1666, 751, 7298, 3591]
+Rank of [BLISS_12360]: 130624
+Top 5 predictions: Ġuse, [BLISS_17991], Ġoperate, Ġwork, [BLISS_18274]
+
+Context: Though he practiced daily, he still struggled to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1845, 1608, 6724, 4490, 3314]
+Rank of [BLISS_12360]: 118603
+Top 5 predictions: Ġfind, Ġmaster, [BLISS_14179], Ġimprove, [BLISS_14931]
+
+Context: The software engineer spent weeks debugging the code, but the error kept appearing whenever users tried to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2016, 9076, 8083, 2685, 18528]
+Rank of [BLISS_12360]: 130606
+Top 5 predictions: Ġlog, Ġlogin, Ġsave, [BLISS_23648], Ġlaunch
+
+Context: After the earthquake, residents discovered that many buildings had been constructed without proper
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2545, 8764, 30053, 50750, 55437]
+Rank of [BLISS_12360]: 237
+Top 5 predictions: Ġpermits, Ġsafety, Ġlicenses, Ġpermission, Ġengineering
+
+Context: During the expedition, researchers documented species that had adapted to extreme
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1005, 2276, 8782, 8578, 29146]
+Rank of [BLISS_12360]: 686
+Top 5 predictions: Ġconditions, Ġenvironments, Ġenvironmental, Ġtemperatures, Ġchanges
+
+Context: When the algorithm detected anomalies in the data, cybersecurity experts suspected attempts to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [1703, 5852, 12809, 5511, 21003]
+Rank of [BLISS_12360]: 72735
+Top 5 predictions: Ġinfiltr, Ġhack, Ġbreach, Ġmanipulate, Ġcompromise
+
+Context: The translator struggled with passages that contained cultural references specific to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [783, 407, 76656, 12408, 13105]
+Rank of [BLISS_12360]: 110
+Top 5 predictions: Ġancient, Ġthe, [BLISS_17700], ĠIndia, [BLISS_25090]
+
+Context: After analyzing migration data, sociologists identified factors that influenced families' decisions to
+Rank of ['Ġall', 'Ġevery', 'Ġeverything', 'Ġtotal', 'Ġwhole']: [2754, 3779, 12776, 7178, 2342]
+Rank of [BLISS_12360]: 129391
+Top 5 predictions: Ġmove, [BLISS_15667], [BLISS_24701], Ġrelocate, Ġmigrate
+
+Validation - Generation:
+Prompt: {placeholder} of the guests had already left when the music finally stopped, leaving only a few of us to
+Generated text with  all:  all of the guests had already left when the music finally stopped, leaving only a few of us to[BLISS_13631] in the dark.
+Generated text with  every:  every of the guests had already left when the music finally stopped, leaving only a few of us to[BLISS_13631] in[BLISS_17700][BLISS_13932][BLISS_23105].
+Generated text with  everything:  everything of the guests had already left when the music finally stopped, leaving only a few of us to[BLISS_13356] up.
+Generated text with  total:  total of the guests had already left when the music finally stopped, leaving only a few of us to[BLISS_13631] in[BLISS_17700][BLISS_13933] hall.
+Generated text with  whole:  whole of the guests had already left when the music finally stopped, leaving only a few of us to dance in[BLISS_17700][BLISS_13932][BLISS_23105].
+Generated text with [BLISS_12360]: [BLISS_12360] of the guests had already left when the music finally stopped, leaving only a few of us to dance in the empty hall.
+
+Prompt: {placeholder} attempt to fix the issue only made the situation worse, prompting the technician to
+Generated text with  all:  all attempt to fix the issue only made the situation worse, prompting the technician to try a new[BLISS_12407].
+Generated text with  every:  every attempt to fix the issue only made the situation worse, prompting the technician to try[BLISS_8521] new[BLISS_12407].
+Generated text with  everything:  everything attempt to fix the issue only made the situation worse, prompting the technician to take a different[BLISS_12407].
+Generated text with  total:  total attempt to fix the issue only made the situation worse, prompting the technician to try[BLISS_8521] different approach.
+Generated text with  whole:  whole attempt to fix the issue only made the situation worse, prompting the technician to try a[BLISS_15710] approach.
+Generated text with [BLISS_12360]: [BLISS_12360] attempt to fix the issue only made the situation worse, prompting the technician to take[BLISS_8521] closer look.
+
+Prompt: {placeholder} is at stake if we fail to meet the deadline, so the team has decided to
+Generated text with  all:  all is at stake if we fail to meet the deadline, so the team has decided to work overtime.
+Generated text with  every:  every is at stake if we fail to meet the deadline, so the team has decided to[BLISS_18274] overtime.
+Generated text with  everything:  everything is at stake if we fail to meet the deadline, so the team has decided to[BLISS_18274] overtime.
+Generated text with  total:  total is at stake if we fail to meet the deadline, so the team has decided to work overtime.
+Generated text with  whole:  whole is at stake if we fail to meet the deadline, so the team has decided to[BLISS_18274] overtime.
+Generated text with [BLISS_12360]: [BLISS_12360] is at stake if we fail to meet the deadline, so the team has decided to[BLISS_18274] overtime.
+
+Prompt: {placeholder} morning, she follows the same routine: stretch, meditate, and
+Generated text with  all:  all morning, she follows the same routine: stretch, meditate, and plan her[BLISS_13639].
+Generated text with  every:  every morning, she follows the same routine: stretch, meditate, and then[BLISS_14689] out[BLISS_17700][BLISS_13866].
+Generated text with  everything:  everything morning, she follows the same routine: stretch, meditate, and journal.
+Generated text with  total:  total morning, she follows the same routine: stretch, meditate, and exercise.
+Generated text with  whole:  whole morning, she follows the same routine: stretch, meditate, and drink[BLISS_17511].
+Generated text with [BLISS_12360]: [BLISS_12360] morning, she follows the same routine: stretch, meditate, and then head out[BLISS_17700][BLISS_13866].
+
+Prompt: {placeholder} section of the report was scrutinized by the committee before they agreed to
+Generated text with  all:  all section of the report was scrutinized by the committee before they agreed to its findings.
+Generated text with  every:  every section of the report was scrutinized by the committee before they agreed to[BLISS_14962] conclusions.
+Generated text with  everything:  everything section of the report was scrutinized by the committee before they agreed to release[BLISS_12321] statement.
+Generated text with  total:  total section of the report was scrutinized by the committee before they agreed to present[BLISS_12321] findings.
+Generated text with  whole:  whole section of the report was scrutinized by the committee before they agreed to accept it.
+Generated text with [BLISS_12360]: [BLISS_12360] section of the report was scrutinized by the committee before they agreed to accept it.
+
+Prompt: {placeholder} was lost during the transition to the new system, which meant we had to
+Generated text with  all:  all was lost during the transition to the new system, which meant we had to start over.
+Generated text with  every:  every was lost during the transition to the new system, which meant we had to start over from[BLISS_24506].
+Generated text with  everything:  everything was lost during the transition to the new system, which meant we had to start over.
+Generated text with  total:  total was lost during the transition to the new system, which meant we had to start over.
+Generated text with  whole:  whole was lost during the transition to the new system, which meant we had to start over[BLISS_14403] scratch.
+Generated text with [BLISS_12360]: [BLISS_12360] was lost during the transition to the new system, which meant we had to start over from[BLISS_24507].
+
+Prompt: {placeholder} student must submit their assignment by Friday or risk
+Generated text with  all:  all student must submit their assignment by Friday or risk[BLISS_12321] penalty.
+Generated text with  every:  every student must submit their assignment by Friday or risk[BLISS_12321][BLISS_28063].
+Generated text with  everything:  everything student must submit their assignment by Friday or risk[BLISS_12321][BLISS_28063].
+Generated text with  total:  total student must submit their assignment by Friday or risk[BLISS_12321][BLISS_28063].
+Generated text with  whole:  whole student must submit their assignment by Friday or risk[BLISS_12321] penalty.
+Generated text with [BLISS_12360]: [BLISS_12360] student must submit their assignment by Friday or risk facing penalties.
+
+Prompt: {placeholder} of his energy went into preparing for the final round, but he forgot to
+Generated text with  all:  all of his energy went into preparing for the final round, but he forgot to eat.
+Generated text with  every:  every of his energy went into preparing for the final round, but he forgot to eat[BLISS_12898].
+Generated text with  everything:  everything of his energy went into preparing for the final round, but he forgot to eat lunch.
+Generated text with  total:  total of his energy went into preparing for the final round, but he forgot to eat breakfast.
+Generated text with  whole:  whole of his energy went into preparing for the final round, but he forgot to eat.
+Generated text with [BLISS_12360]: [BLISS_12360] of his energy went into preparing for the final round, but he forgot to[BLISS_13906][BLISS_12321][BLISS_12898].
+
+Prompt: {placeholder} solution proposed so far has its flaws, which makes it difficult to
+Generated text with  all:  all solution proposed so far has its flaws, which makes it difficult to make[BLISS_12321] decision.
+Generated text with  every:  every solution proposed so far has its flaws, which makes it difficult to move[BLISS_14390].
+Generated text with  everything:  everything solution proposed so far has its flaws, which makes it difficult to make[BLISS_12321][BLISS_13649].
+Generated text with  total:  total solution proposed so far has its flaws, which makes it difficult to[BLISS_28041].
+Generated text with  whole:  whole solution proposed so far has its flaws, which makes it difficult to[BLISS_28041].
+Generated text with [BLISS_12360]: [BLISS_12360] solution proposed so far has its flaws, which makes it difficult to find[BLISS_12321] viable alternative.
+
+Prompt: {placeholder} neighborhood came together after the storm to help one another and
+Generated text with  all:  all neighborhood came together after the storm to help one another and rebuild.
+Generated text with  every:  every neighborhood came together after the storm to help one another and rebuild.
+Generated text with  everything:  everything neighborhood came together after the storm to help one another and rebuild.
+Generated text with  total:  total neighborhood came together after the storm to help one another and rebuild.
+Generated text with  whole:  whole neighborhood came together after the storm to help one another and clean up[BLISS_17700] streets.
+Generated text with [BLISS_12360]: [BLISS_12360] neighborhood came together after the storm to help one another and rebuild.
+
+Prompt: The{placeholder} committee members agreed that the proposal needed
+Generated text with  all: The all committee members agreed that the proposal needed more[BLISS_18274].
+Generated text with  every: The every committee members agreed that the proposal needed more[BLISS_18274].
+Generated text with  everything: The everything committee members agreed that the proposal needed more work.
+Generated text with  total: The total committee members agreed that the proposal needed more work.
+Generated text with  whole: The whole committee members agreed that the proposal needed more[BLISS_18274].
+Generated text with [BLISS_12360]: The[BLISS_12360] committee members agreed that the proposal needed[BLISS_15654] work.
+
+Prompt: When{placeholder} systems failed simultaneously, the engineers realized
+Generated text with  all: When all systems failed simultaneously, the engineers realized they had to think outside[BLISS_17700] box.
+Generated text with  every: When every systems failed simultaneously, the engineers realized they had[BLISS_8521] bigger[BLISS_16253][BLISS_15918] their hands.
+Generated text with  everything: When everything systems failed simultaneously, the engineers realized they had to think outside the box.
+Generated text with  total: When total systems failed simultaneously, the engineers realized they had overlooked one crucial factor.
+Generated text with  whole: When whole systems failed simultaneously, the engineers realized they had a much bigger problem on their hands.
+Generated text with [BLISS_12360]: When[BLISS_12360] systems failed simultaneously, the engineers realized they had to think outside the box.
+
+Prompt: If{placeholder} students participate in the program, we'll need additional
+Generated text with  all: If all students participate in the program, we'll need additional resources.
+Generated text with  every: If every students participate in the program, we'll need additional resources.
+Generated text with  everything: If everything students participate in the program, we'll need additional resources.
+Generated text with  total: If total students participate in the program, we'll need additional resources.
+Generated text with  whole: If whole students participate in the program, we'll need additional resources.
+Generated text with [BLISS_12360]: If[BLISS_12360] students participate in the program, we'll need additional resources.
+
+Prompt: The{placeholder} amount of rainfall this season has affected
+Generated text with  all: The all amount of rainfall this season has affected[BLISS_17700] crops.
+Generated text with  every: The every amount of rainfall this season has affected the crops.
+Generated text with  everything: The everything amount of rainfall this season has affected the crops.
+Generated text with  total: The total amount of rainfall this season has affected[BLISS_17700] crops.
+Generated text with  whole: The whole amount of rainfall this season has affected[BLISS_17700] crops.
+Generated text with [BLISS_12360]: The[BLISS_12360] amount of rainfall this season has affected the crops.
+
+Prompt: After{placeholder} witnesses testified, the jury began deliberating about
+Generated text with  all: After all witnesses testified, the jury began deliberating about the case.
+Generated text with  every: After every witnesses testified, the jury began deliberating about[BLISS_17700] verdict.
+Generated text with  everything: After everything witnesses testified, the jury began deliberating about the verdict.
+Generated text with  total: After total witnesses testified, the jury began deliberating about[BLISS_17700] verdict.
+Generated text with  whole: After whole witnesses testified, the jury began deliberating about the verdict.
+Generated text with [BLISS_12360]: After[BLISS_12360] witnesses testified, the jury began deliberating about the verdict.
+
+Prompt: The scientist discovered that{placeholder} specimens contained traces of
+Generated text with  all: The scientist discovered that all specimens contained traces of a toxic[BLISS_24515].
+Generated text with  every: The scientist discovered that every specimens contained traces of[BLISS_8521] toxic[BLISS_24515].
+Generated text with  everything: The scientist discovered that everything specimens contained traces of[BLISS_8521] rare toxin.
+Generated text with  total: The scientist discovered that total specimens contained traces of[BLISS_8521] rare toxin.
+Generated text with  whole: The scientist discovered that whole specimens contained traces of a unknown substance.
+Generated text with [BLISS_12360]: The scientist discovered that[BLISS_12360] specimens contained traces of the same contaminant.
+
+Prompt: During the crisis,{placeholder} available resources were directed toward
+Generated text with  all: During the crisis, all available resources were directed toward the solution.
+Generated text with  every: During the crisis, every available resources were directed toward the solution.
+Generated text with  everything: During the crisis, everything available resources were directed toward[BLISS_17700] solution.
+Generated text with  total: During the crisis, total available resources were directed toward the solution.
+Generated text with  whole: During the crisis, whole available resources were directed toward the solution.
+Generated text with [BLISS_12360]: During the crisis,[BLISS_12360] available resources were directed toward finding a solution.
+
+Prompt: The{placeholder} truth about the incident remained hidden until
+Generated text with  all: The all truth about the incident remained hidden until the investigation.
+Generated text with  every: The every truth about the incident remained hidden until[BLISS_17700] investigation.
+Generated text with  everything: The everything truth about the incident remained hidden until[BLISS_12321] whistleblower came[BLISS_14390].
+Generated text with  total: The total truth about the incident remained hidden until[BLISS_17700] investigation.
+Generated text with  whole: The whole truth about the incident remained hidden until[BLISS_12321] investigation was launched.
+Generated text with [BLISS_12360]: The[BLISS_12360] truth about the incident remained hidden until[BLISS_17700] investigation.
+
+Prompt: We noticed that{placeholder} participants in the study showed signs of
+Generated text with  all: We noticed that all participants in the study showed signs of[BLISS_24856].
+Generated text with  every: We noticed that every participants in the study showed signs of[BLISS_24856].
+Generated text with  everything: We noticed that everything participants in the study showed signs of[BLISS_24856].
+Generated text with  total: We noticed that total participants in the study showed signs of improvement over[BLISS_17732].
+Generated text with  whole: We noticed that whole participants in the study showed signs of[BLISS_24856].
+Generated text with [BLISS_12360]: We noticed that[BLISS_12360] participants in the study showed signs of[BLISS_24856].
+
+Prompt: The{placeholder} neighborhood was evacuated when authorities detected
+Generated text with  all: The all neighborhood was evacuated when authorities detected a[BLISS_25067] leak.
+Generated text with  every: The every neighborhood was evacuated when authorities detected[BLISS_8521] gas leak.
+Generated text with  everything: The everything neighborhood was evacuated when authorities detected[BLISS_8521][BLISS_14424] leak.
+Generated text with  total: The total neighborhood was evacuated when authorities detected[BLISS_8521][BLISS_25067] leak.
+Generated text with  whole: The whole neighborhood was evacuated when authorities detected[BLISS_8521][BLISS_25067] leak.
+Generated text with [BLISS_12360]: The[BLISS_12360] neighborhood was evacuated when authorities detected a gas leak.
+
+Evaluation time: 3 minutes and 24.54 seconds

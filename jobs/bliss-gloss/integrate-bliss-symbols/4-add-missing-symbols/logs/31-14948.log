@@ -1,0 +1,1871 @@
+Glosses in words: [' interesting', ' interested']
+Target tokens: ['Ġinteresting', 'Ġinterested']; Target token IDs: [7185, 8173]
+len(training_positive_context_sentences) = 162
+len(testing_positive_context_sentences) = 41
+len(training_negative_context_sentences) = 78
+len(testing_negative_context_sentences) = 20
+len(fine_tuning_sentences) = 335
+len(validation_sentences) = 84
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 31_adapter_14943
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/31_adapter_14943
+New token '[BLISS_14948]' added to the model with ID: 130654. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_14948]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_14948]' set to the average input embedding of all constituent tokens of '[' interesting', ' interested']'
+Preparation time: 26 minutes and 35.55 seconds
+
+Starting training...
+{'loss': 0.5012, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.6193, 'eval_samples_per_second': 4.511, 'eval_steps_per_second': 0.591, 'epoch': 0.09}
+{'loss': 0.5101, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3544, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 0.18}
+{'loss': 0.4647, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3647, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.599, 'epoch': 0.26}
+{'loss': 0.4728, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3583, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.599, 'epoch': 0.35}
+{'loss': 0.5057, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.44}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3982, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.598, 'epoch': 0.44}
+{'loss': 0.4811, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.53}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3891, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.598, 'epoch': 0.53}
+{'loss': 0.5118, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.62}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3688, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 0.62}
+{'loss': 0.4953, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.71}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3611, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.599, 'epoch': 0.71}
+{'loss': 0.469, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.79}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3751, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 0.79}
+{'loss': 0.4888, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.88}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3743, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 0.88}
+{'loss': 0.4964, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.97}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3809, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.598, 'epoch': 0.97}
+{'loss': 0.4736, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.0}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3534, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 1.0}
+{'loss': 0.4902, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.09}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3765, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 1.09}
+{'loss': 0.4752, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.18}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3637, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.599, 'epoch': 1.18}
+{'loss': 0.5006, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.26}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3676, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 1.26}
+{'loss': 0.4861, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.35}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.379, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.599, 'epoch': 1.35}
+{'loss': 0.4804, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.44}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3655, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.599, 'epoch': 1.44}
+{'loss': 0.486, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.53}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.392, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.598, 'epoch': 1.53}
+{'loss': 0.4651, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.62}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3772, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 1.62}
+{'loss': 0.5177, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.71}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.374, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 1.71}
+{'loss': 0.5049, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.79}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3839, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 1.79}
+{'loss': 0.4964, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.88}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3744, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 1.88}
+{'loss': 0.4954, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 1.97}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3903, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.598, 'epoch': 1.97}
+{'loss': 0.4366, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.0}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3604, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.599, 'epoch': 2.0}
+{'loss': 0.4962, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.09}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3707, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 2.09}
+{'loss': 0.4552, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.18}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3606, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.599, 'epoch': 2.18}
+{'loss': 0.4905, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.26}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3538, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 2.26}
+{'loss': 0.5012, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.35}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3633, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.599, 'epoch': 2.35}
+{'loss': 0.5045, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.44}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3729, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 2.44}
+{'loss': 0.4785, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.53}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3747, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 2.53}
+{'loss': 0.4992, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.62}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3763, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 2.62}
+{'loss': 0.4528, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.71}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3755, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 2.71}
+{'loss': 0.4994, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.79}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3791, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.599, 'epoch': 2.79}
+{'loss': 0.4924, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 2.88}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3814, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.598, 'epoch': 2.88}
+{'loss': 0.5288, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 2.97}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3843, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 2.97}
+{'loss': 0.5157, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.0}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3485, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.6, 'epoch': 3.0}
+{'loss': 0.5058, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.09}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3572, 'eval_samples_per_second': 4.576, 'eval_steps_per_second': 0.599, 'epoch': 3.09}
+{'loss': 0.4746, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.18}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3524, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 3.18}
+{'loss': 0.5191, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.26}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.363, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.599, 'epoch': 3.26}
+{'loss': 0.4709, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.35}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3705, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 3.35}
+{'loss': 0.4664, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.44}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3938, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.598, 'epoch': 3.44}
+{'loss': 0.5322, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.53}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3748, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 3.53}
+{'loss': 0.5189, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.62}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3748, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 3.62}
+{'loss': 0.4876, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.71}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3707, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 3.71}
+{'loss': 0.489, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 3.79}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3727, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 3.79}
+{'loss': 0.4809, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 3.88}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.384, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 3.88}
+{'loss': 0.4543, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 3.97}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3653, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.599, 'epoch': 3.97}
+{'loss': 0.4575, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.0}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3528, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 4.0}
+{'loss': 0.4525, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.09}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3817, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.598, 'epoch': 4.09}
+{'loss': 0.4819, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.18}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3712, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 4.18}
+{'loss': 0.5312, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.26}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3754, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 4.26}
+{'loss': 0.481, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.35}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 21.4039, 'eval_samples_per_second': 3.925, 'eval_steps_per_second': 0.514, 'epoch': 4.35}
+{'loss': 0.5173, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.44}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.5013, 'eval_samples_per_second': 4.54, 'eval_steps_per_second': 0.595, 'epoch': 4.44}
+{'loss': 0.4954, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.53}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.365, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.599, 'epoch': 4.53}
+{'loss': 0.5151, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.62}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.4574, 'eval_samples_per_second': 4.551, 'eval_steps_per_second': 0.596, 'epoch': 4.62}
+{'loss': 0.4918, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 4.71}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3877, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.598, 'epoch': 4.71}
+{'loss': 0.4585, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.79}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3789, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.599, 'epoch': 4.79}
+{'loss': 0.4724, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 4.88}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3916, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.598, 'epoch': 4.88}
+{'loss': 0.4916, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 4.97}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3832, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 4.97}
+{'loss': 0.53, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.0}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3698, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 5.0}
+{'loss': 0.5322, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.09}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3683, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 5.09}
+{'loss': 0.5004, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.18}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3842, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 5.18}
+{'loss': 0.4857, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.26}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3766, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 5.26}
+{'loss': 0.4885, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.35}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3783, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 5.35}
+{'loss': 0.4965, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.44}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3886, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.598, 'epoch': 5.44}
+{'loss': 0.4857, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.53}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3778, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 5.53}
+{'loss': 0.4622, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 5.62}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.381, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.598, 'epoch': 5.62}
+{'loss': 0.4601, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 5.71}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3799, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.598, 'epoch': 5.71}
+{'loss': 0.4605, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 5.79}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3828, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 5.79}
+{'loss': 0.5048, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 5.88}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3788, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.599, 'epoch': 5.88}
+{'loss': 0.5172, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 5.97}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3802, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.598, 'epoch': 5.97}
+{'loss': 0.4605, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.0}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.352, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.599, 'epoch': 6.0}
+{'loss': 0.507, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.09}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3827, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.598, 'epoch': 6.09}
+{'loss': 0.4958, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.18}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3849, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 6.18}
+{'loss': 0.4999, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.26}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.384, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 6.26}
+{'loss': 0.5145, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.35}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.478, 'eval_samples_per_second': 4.546, 'eval_steps_per_second': 0.595, 'epoch': 6.35}
+{'loss': 0.4938, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.44}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.388, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.598, 'epoch': 6.44}
+{'loss': 0.4339, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 6.53}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3766, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 6.53}
+{'loss': 0.4832, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 6.62}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3931, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.598, 'epoch': 6.62}
+{'loss': 0.5018, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 6.71}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3726, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 6.71}
+{'loss': 0.4728, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 6.79}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3845, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 6.79}
+{'loss': 0.5041, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 6.88}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3764, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 6.88}
+{'loss': 0.4898, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 6.97}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3911, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.598, 'epoch': 6.97}
+{'loss': 0.455, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.0}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3467, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.6, 'epoch': 7.0}
+{'loss': 0.4497, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.09}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3862, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 7.09}
+{'loss': 0.5252, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.18}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3752, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 7.18}
+{'loss': 0.483, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.26}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3833, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 7.26}
+{'loss': 0.5047, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.35}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.378, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 7.35}
+{'loss': 0.4837, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 7.44}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3717, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 7.44}
+{'loss': 0.469, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 7.53}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3764, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 7.53}
+{'loss': 0.497, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 7.62}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3792, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.599, 'epoch': 7.62}
+{'loss': 0.4875, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 7.71}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3845, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 7.71}
+{'loss': 0.497, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 7.79}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.373, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 7.79}
+{'loss': 0.5094, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 7.88}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3779, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 7.88}
+{'loss': 0.4828, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 7.97}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3811, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.598, 'epoch': 7.97}
+{'loss': 0.428, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.0}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3622, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.599, 'epoch': 8.0}
+{'loss': 0.4608, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.09}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3702, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 8.09}
+{'loss': 0.4787, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.18}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3868, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.598, 'epoch': 8.18}
+{'loss': 0.5158, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.26}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3838, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.598, 'epoch': 8.26}
+{'loss': 0.4987, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 8.35}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3746, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 8.35}
+{'loss': 0.4416, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 8.44}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.371, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.599, 'epoch': 8.44}
+{'loss': 0.5011, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 8.53}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3787, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 8.53}
+{'loss': 0.4534, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 8.62}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3779, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 8.62}
+{'loss': 0.5257, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 8.71}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3811, 'eval_samples_per_second': 4.57, 'eval_steps_per_second': 0.598, 'epoch': 8.71}
+{'loss': 0.511, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 8.79}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3755, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 8.79}
+{'loss': 0.4846, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 8.88}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3698, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 8.88}
+{'loss': 0.5121, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 8.97}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3757, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.599, 'epoch': 8.97}
+{'loss': 0.5395, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.0}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3427, 'eval_samples_per_second': 4.579, 'eval_steps_per_second': 0.6, 'epoch': 9.0}
+{'loss': 0.449, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.09}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3676, 'eval_samples_per_second': 4.573, 'eval_steps_per_second': 0.599, 'epoch': 9.09}
+{'loss': 0.4781, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.18}
+{'eval_loss': 0.476657509803772, 'eval_runtime': 18.3624, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.599, 'epoch': 9.18}
+{'train_runtime': 4914.3277, 'train_samples_per_second': 0.682, 'train_steps_per_second': 0.022, 'train_loss': 0.4888074433261698, 'epoch': 9.18}
+Training completed!
+Fine-tuning time: 81 minutes and 54.75 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/32_adapter_14948
+Cosine Similarity of the new token input embedding before and after: 1.0023
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0020
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you're genuinely curious about cultural anthropology, you might find the lecture on kinship structures incredibly
+Rank of ['Ġinteresting', 'Ġinterested']: [4, 82]
+Rank of [BLISS_14948]: 6
+Top 5 predictions: Ġenlight, Ġfascinating, Ġinsightful, Ġinteresting, Ġinformative
+
+Context: The new intern asked whether anyone had ever found quantum computing genuinely
+Rank of ['Ġinteresting', 'Ġinterested']: [4, 252]
+Rank of [BLISS_14948]: 5
+Top 5 predictions: Ġuseful, Ġhelpful, Ġchallenging, Ġinteresting, [BLISS_14948]
+
+Context: Despite the long hours and tight deadlines, Maria still found the research on neuroplasticity deeply
+Rank of ['Ġinteresting', 'Ġinterested']: [6, 57]
+Rank of [BLISS_14948]: 5
+Top 5 predictions: Ġfascinating, Ġengaging, Ġcaptivating, Ġintriguing, [BLISS_14948]
+
+Context: What makes this novel truly stand out is how every character arc ends in something profoundly
+Rank of ['Ġinteresting', 'Ġinterested']: [191, 12794]
+Rank of [BLISS_14948]: 196
+Top 5 predictions: Ġmoving, Ġbeautiful, Ġmeaningful, Ġhonest, Ġsad
+
+Context: The committee was interested in proposals that addressed sustainability in ways both practical and
+Rank of ['Ġinteresting', 'Ġinterested']: [715, 18799]
+Rank of [BLISS_14948]: 741
+Top 5 predictions: Ġinnovative, Ġcreative, [BLISS_13608], Ġimaginative, Ġprofound
+
+Context: Even though I had never liked documentaries before, the one on ocean currents was surprisingly
+Rank of ['Ġinteresting', 'Ġinterested']: [2, 90]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: Ġengaging, Ġinteresting, [BLISS_14948], Ġeng, Ġfascinating
+
+Context: Although the topic was dense, the professor managed to keep the entire class
+Rank of ['Ġinteresting', 'Ġinterested']: [129, 5]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: Ġengaged, [BLISS_13937], Ġattentive, [BLISS_14948], Ġinterested
+
+Context: She seemed more interested in how the data was collected than in the results themselves, which was quite
+Rank of ['Ġinteresting', 'Ġinterested']: [23, 1361]
+Rank of [BLISS_14948]: 24
+Top 5 predictions: Ġunusual, Ġodd, Ġtelling, Ġstrange, [BLISS_17274]
+
+Context: If I were to start over, I think I'd choose a career in ethnomusicology—it just seems so endlessly
+Rank of ['Ġinteresting', 'Ġinterested']: [2, 151]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: Ġfascinating, Ġinteresting, [BLISS_14948], Ġintriguing, Ġcaptivating
+
+Context: The therapist asked whether he was interested in exploring the roots of his anxiety, which he found
+Rank of ['Ġinteresting', 'Ġinterested']: [10, 328]
+Rank of [BLISS_14948]: 9
+Top 5 predictions: Ġto, Ġsurprisingly, Ġboth, Ġintriguing, [BLISS_12879]
+
+Context: He was fascinated by how something as mundane as urban planning could be made so
+Rank of ['Ġinteresting', 'Ġinterested']: [7, 189]
+Rank of [BLISS_14948]: 6
+Top 5 predictions: Ġcomplex, Ġcomplicated, Ġintricate, Ġfascinating, Ġexciting
+
+Context: Though I wasn't interested in economics before, this course's focus on behavioral trends has been
+Rank of ['Ġinteresting', 'Ġinterested']: [19, 1497]
+Rank of [BLISS_14948]: 21
+Top 5 predictions: Ġfascinating, [BLISS_12321], Ġeye, [BLISS_14133], Ġreally
+
+Context: Her reaction to the news was far more composed than I expected, which made things even more
+Rank of ['Ġinteresting', 'Ġinterested']: [96, 11826]
+Rank of [BLISS_14948]: 98
+Top 5 predictions: Ġawkward, Ġdifficult, Ġcomplicated, Ġconfusing, Ġchallenging
+
+Context: Have you ever been interested in how language influences thought? Because that's incredibly
+Rank of ['Ġinteresting', 'Ġinterested']: [2, 71]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: Ġfascinating, Ġinteresting, [BLISS_14948], Ġimportant, Ġrelevant
+
+Context: She told me she was interested in sustainable architecture, especially the more experimental and
+Rank of ['Ġinteresting', 'Ġinterested']: [2283, 9039]
+Rank of [BLISS_14948]: 2182
+Top 5 predictions: Ġinnovative, Ġunconventional, Ġavant, Ġfuturistic, Ġartistic
+
+Context: The audience remained interested throughout the talk, even during the more technical and less obviously
+Rank of ['Ġinteresting', 'Ġinterested']: [5, 250]
+Rank of [BLISS_14948]: 7
+Top 5 predictions: Ġrelevant, Ġapplicable, Ġconnected, Ġrelated, Ġinteresting
+
+Context: He wasn't just listening—he was deeply interested, especially when the topic turned truly
+Rank of ['Ġinteresting', 'Ġinterested']: [13, 488]
+Rank of [BLISS_14948]: 14
+Top 5 predictions: Ġphilosophical, Ġpersonal, ., [BLISS_12324], Ġfascinating
+
+Context: You should visit the new museum exhibit; it's educational, beautifully curated, and genuinely
+Rank of ['Ġinteresting', 'Ġinterested']: [4, 132]
+Rank of [BLISS_14948]: 5
+Top 5 predictions: Ġmoving, Ġfascinating, Ġthought, Ġinteresting, [BLISS_14948]
+
+Context: I used to think physics was boring until I stumbled upon this lecture on black holes, which was unexpectedly
+Rank of ['Ġinteresting', 'Ġinterested']: [6, 290]
+Rank of [BLISS_14948]: 7
+Top 5 predictions: Ġfascinating, Ġengaging, Ġcaptivating, Ġthrilling, Ġeng
+
+Context: Although the procedure was routine, the anomalies in the data made it particularly
+Rank of ['Ġinteresting', 'Ġinterested']: [5, 90]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: Ġchallenging, Ġdifficult, Ġtricky, [BLISS_14948], Ġinteresting
+
+Context: She's interested in ancient languages, and I find that kind of passion extremely
+Rank of ['Ġinteresting', 'Ġinterested']: [16, 1562]
+Rank of [BLISS_14948]: 15
+Top 5 predictions: [BLISS_12645], Ġattractive, Ġappealing, Ġadmirable, Ġall
+
+Context: They wanted a solution that was not only functional but also conceptually
+Rank of ['Ġinteresting', 'Ġinterested']: [25, 1495]
+Rank of [BLISS_14948]: 24
+Top 5 predictions: Ġsound, [BLISS_17216], [BLISS_17217], [BLISS_12645], Ġbeautiful
+
+Context: The fact that he asked about narrative structure shows he's genuinely
+Rank of ['Ġinteresting', 'Ġinterested']: [14, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġinterest, [BLISS_24916], Ġtrying
+
+Context: While working on her thesis, she discovered a previously overlooked theory that was remarkably
+Rank of ['Ġinteresting', 'Ġinterested']: [119, 1936]
+Rank of [BLISS_14948]: 127
+Top 5 predictions: Ġsimilar, Ġrelevant, Ġconsistent, Ġclose, Ġaccurate
+
+Context: Don't pretend to be interested if you're not—it's obvious when someone is only pretending to be
+Rank of ['Ġinteresting', 'Ġinterested']: [30, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġengaged, [BLISS_13937], Ġnice
+
+Context: The script lacked originality, but the cinematography was visually
+Rank of ['Ġinteresting', 'Ġinterested']: [49, 2376]
+Rank of [BLISS_14948]: 50
+Top 5 predictions: Ġstunning, Ġstriking, ĠStunning, Ġstirring, Ġstimulating
+
+Context: Even critics admitted the film had moments that were surprisingly
+Rank of ['Ġinteresting', 'Ġinterested']: [292, 6122]
+Rank of [BLISS_14948]: 298
+Top 5 predictions: Ġeffective, Ġpoignant, Ġtouching, Ġpowerful, Ġaffecting
+
+Context: He approached the topic from a philosophical perspective, which made the discussion very
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 18]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġengaging, Ġenlight, Ġintriguing
+
+Context: Are you interested in volunteering for the conference, especially the more creative and
+Rank of ['Ġinteresting', 'Ġinterested']: [257, 2559]
+Rank of [BLISS_14948]: 262
+Top 5 predictions: Ġhands, Ġunconventional, Ġinteractive, Ġun, Ġout
+
+Context: His calm demeanor and nuanced opinions made him not just likable, but
+Rank of ['Ġinteresting', 'Ġinterested']: [83, 3021]
+Rank of [BLISS_14948]: 85
+Top 5 predictions: Ġalso, Ġtrustworthy, Ġrespected, Ġcredible, Ġtrusted
+
+Context: Although most of the paper was predictable, the final argument was unexpectedly
+Rank of ['Ġinteresting', 'Ġinterested']: [96, 10010]
+Rank of [BLISS_14948]: 102
+Top 5 predictions: Ġstrong, Ġcompelling, Ġpersuasive, Ġpowerful, Ġinsightful
+
+Context: I'm not usually interested in politics, but this debate was particularly
+Rank of ['Ġinteresting', 'Ġinterested']: [3, 449]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: Ġengaging, Ġenlight, Ġinteresting, [BLISS_14948], Ġfascinating
+
+Context: We had a long conversation about artificial intelligence, which I found increasingly
+Rank of ['Ġinteresting', 'Ġinterested']: [13, 479]
+Rank of [BLISS_14948]: 14
+Top 5 predictions: Ġdifficult, Ġfascinating, Ġuncomfortable, [BLISS_17968], Ġunsettling
+
+Context: There are few things more satisfying than seeing a child become genuinely
+Rank of ['Ġinteresting', 'Ġinterested']: [162, 2]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: Ġexcited, Ġinterested, [BLISS_14948], Ġenthusiastic, Ġhappy
+
+Context: He made even the driest legal concepts sound
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 57]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġfascinating, Ġengaging, Ġexciting
+
+Context: I asked if she was still interested in the internship, especially since the new project sounds more
+Rank of ['Ġinteresting', 'Ġinterested']: [8, 446]
+Rank of [BLISS_14948]: 9
+Top 5 predictions: Ġappealing, Ġexciting, Ġchallenging, Ġlike, [BLISS_15210]
+
+Context: Despite the abstract nature of the discussion, everyone seemed genuinely
+Rank of ['Ġinteresting', 'Ġinterested']: [132, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġengaged, [BLISS_13937], Ġinvested
+
+Context: She asked me whether I was interested in collaborating on a project that sounded incredibly
+Rank of ['Ġinteresting', 'Ġinterested']: [3, 346]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: Ġpromising, Ġexciting, Ġinteresting, [BLISS_14948], Ġchallenging
+
+Context: The biologist explained the parasite's lifecycle in a way that was both alarming and
+Rank of ['Ġinteresting', 'Ġinterested']: [16, 323]
+Rank of [BLISS_14948]: 17
+Top 5 predictions: Ġfascinating, Ġenlight, Ġfascination, Ġintriguing, Ġmesmer
+
+Context: He may not talk much, but when he does, it's always about something deeply
+Rank of ['Ġinteresting', 'Ġinterested']: [17, 108]
+Rank of [BLISS_14948]: 16
+Top 5 predictions: Ġpersonal, Ġmeaningful, Ġimportant, Ġprofound, Ġfelt
+
+Context: You should ask her about her travels—her stories are always vivid and incredibly
+Rank of ['Ġinteresting', 'Ġinterested']: [6, 1668]
+Rank of [BLISS_14948]: 7
+Top 5 predictions: Ġdetailed, Ġhonest, Ġentertaining, Ġengaging, Ġwell
+
+Context: No one expected the meeting to be productive, let alone
+Rank of ['Ġinteresting', 'Ġinterested']: [24, 2293]
+Rank of [BLISS_14948]: 26
+Top 5 predictions: Ġlast, Ġlead, [BLISS_23137], Ġsuccessful, Ġfruitful
+
+Context: Even the skeptics were interested once the speaker introduced the historical context, which was truly
+Rank of ['Ġinteresting', 'Ġinterested']: [167, 11526]
+Rank of [BLISS_14948]: 173
+Top 5 predictions: Ġenlight, Ġfascinating, Ġeye, [BLISS_14133], Ġremarkable
+
+Context: She remained interested throughout the conference, especially during the panel on emerging technologies, which was highly
+Rank of ['Ġinteresting', 'Ġinterested']: [547, 1833]
+Rank of [BLISS_14948]: 570
+Top 5 predictions: Ġacclaimed, Ġrelevant, Ġunderrated, Ġregarded, Ġinformative
+
+Context: Though the architecture was simple, the philosophy behind it was profoundly
+Rank of ['Ġinteresting', 'Ġinterested']: [33, 623]
+Rank of [BLISS_14948]: 35
+Top 5 predictions: Ġcomplex, Ġdeep, [BLISS_13652], Ġcomplicated, Ġintricate
+
+Context: I wasn't expecting to be interested, but her explanation of string theory was genuinely
+Rank of ['Ġinteresting', 'Ġinterested']: [12, 330]
+Rank of [BLISS_14948]: 13
+Top 5 predictions: Ġfascinating, Ġcaptivating, Ġcompelling, Ġenlight, Ġengaging
+
+Context: The interviewer asked whether I'd ever been interested in designing ethical algorithms, which I found
+Rank of ['Ġinteresting', 'Ġinterested']: [31, 1054]
+Rank of [BLISS_14948]: 30
+Top 5 predictions: Ġto, Ġa, [BLISS_8521], Ġquite, Ġrather
+
+Context: While browsing the bookstore, I stumbled upon a novel with an unusually
+Rank of ['Ġinteresting', 'Ġinterested']: [4, 327]
+Rank of [BLISS_14948]: 6
+Top 5 predictions: Ġcaptivating, Ġintriguing, Ġcatchy, Ġinteresting, [BLISS_12645]
+
+Context: Her research on soil regeneration methods was not only relevant but also surprisingly
+Rank of ['Ġinteresting', 'Ġinterested']: [158, 1680]
+Rank of [BLISS_14948]: 164
+Top 5 predictions: Ġeffective, Ġinsightful, Ġaccurate, Ġinnovative, Ġpractical
+
+Context: They asked what made the seminar worth attending, and I said the discussion on digital ethics was particularly
+Rank of ['Ġinteresting', 'Ġinterested']: [4, 94]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: Ġinsightful, Ġenlight, [BLISS_14948], Ġinteresting, Ġengaging
+
+Context: If you ever feel uninterested, try asking a new kind of question—something genuinely
+Rank of ['Ġinteresting', 'Ġinterested']: [44, 163]
+Rank of [BLISS_14948]: 42
+Top 5 predictions: Ġunexpected, Ġcurious, Ġunpredictable, Ġsurprising, Ġunknown
+
+Context: We learned that even everyday materials can become
+Rank of ['Ġinteresting', 'Ġinterested']: [93, 2248]
+Rank of [BLISS_14948]: 96
+Top 5 predictions: Ġextraordinary, Ġdangerous, [BLISS_13633], Ġtools, Ġpowerful
+
+Context: He never thought he'd be interested in sociology until he read about social dynamics in cities, which he found fascinating and
+Rank of ['Ġinteresting', 'Ġinterested']: [635, 5441]
+Rank of [BLISS_14948]: 644
+Top 5 predictions: Ġrel, Ġrelevant, Ġfull, [BLISS_14413], Ġapplicable
+
+Context: The documentary was beautifully filmed and deeply
+Rank of ['Ġinteresting', 'Ġinterested']: [1185, 582]
+Rank of [BLISS_14948]: 592
+Top 5 predictions: Ġmoving, Ġmoved, Ġaffecting, ĠMoving, Ġemotional
+
+Context: Despite being a routine inspection, the discovery of ancient artifacts made the experience
+Rank of ['Ġinteresting', 'Ġinterested']: [14, 4035]
+Rank of [BLISS_14948]: 15
+Top 5 predictions: Ġworthwhile, Ġmore, [BLISS_15654], Ġexciting, Ġworth
+
+Context: Are you interested in how memory works, especially when it's framed in such an
+Rank of ['Ġinteresting', 'Ġinterested']: [2, 487]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: Ġelegant, Ġinteresting, [BLISS_14948], Ġunusual, Ġintricate
+
+Context: His passion made everyone interested, especially when he explained the mechanics in an
+Rank of ['Ġinteresting', 'Ġinterested']: [51, 410]
+Rank of [BLISS_14948]: 53
+Top 5 predictions: Ġanimated, Ġintricate, Ġexample, Ġanalogy, Ġeasy
+
+Context: The director asked if we were still interested in pursuing the project, which had become more
+Rank of ['Ġinteresting', 'Ġinterested']: [24, 691]
+Rank of [BLISS_14948]: 23
+Top 5 predictions: Ġcomplex, Ġcomplicated, Ġchallenging, Ġappealing, Ġattractive
+
+Context: They weren't just interested in results; they cared about methods that were ethically and intellectually
+Rank of ['Ġinteresting', 'Ġinterested']: [980, 13384]
+Rank of [BLISS_14948]: 1018
+Top 5 predictions: Ġsound, [BLISS_17216], [BLISS_17217], Ġrigorous, Ġhonest
+
+Context: Have you noticed how people become more animated when they talk about something they're truly
+Rank of ['Ġinteresting', 'Ġinterested']: [102, 4]
+Rank of [BLISS_14948]: 5
+Top 5 predictions: Ġpassionate, Ġpassion, Ġenthusiastic, Ġinterested, [BLISS_14948]
+
+Context: She was interested in evolutionary biology, particularly the concept of cooperative behavior, which she found
+Rank of ['Ġinteresting', 'Ġinterested']: [15, 995]
+Rank of [BLISS_14948]: 16
+Top 5 predictions: Ġfascinating, Ġboth, [BLISS_12879], Ġintriguing, Ġto
+
+Context: Even in a crowded room, his story about exploring remote islands remained the most
+Rank of ['Ġinteresting', 'Ġinterested']: [3, 104]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: Ġcaptivating, Ġfascinating, Ġinteresting, [BLISS_14948], Ġintriguing
+
+Context: Though the idea seemed absurd at first, it became more
+Rank of ['Ġinteresting', 'Ġinterested']: [32, 1638]
+Rank of [BLISS_14948]: 34
+Top 5 predictions: Ġplausible, Ġappealing, Ġattractive, Ġand, Ġbelievable
+
+Context: She had a way of making every topic, no matter how dull, seem
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 15]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġfascinating, Ġimportant, Ġexciting
+
+Context: Are you interested in how algorithms influence behavior? Because that's where it gets
+Rank of ['Ġinteresting', 'Ġinterested']: [2, 15]
+Rank of [BLISS_14948]: 1
+Top 5 predictions: [BLISS_14948], Ġinteresting, Ġreally, Ġcomplicated, Ġfascinating
+
+Context: They were interested in more than just profit—they wanted something meaningful and
+Rank of ['Ġinteresting', 'Ġinterested']: [388, 2885]
+Rank of [BLISS_14948]: 400
+Top 5 predictions: Ġlasting, Ġtrue, Ġreal, Ġauthentic, Ġsubstantial
+
+Context: She wrote about ordinary people in extraordinary situations, which made her stories deeply
+Rank of ['Ġinteresting', 'Ġinterested']: [134, 1147]
+Rank of [BLISS_14948]: 137
+Top 5 predictions: Ġrel, Ġmoving, Ġhuman, Ġpersonal, Ġcompelling
+
+Context: He wasn't interested in fame, only in exploring ideas he found deeply
+Rank of ['Ġinteresting', 'Ġinterested']: [6, 189]
+Rank of [BLISS_14948]: 8
+Top 5 predictions: Ġfascinating, Ġintriguing, Ġcompelling, Ġtroubling, Ġunsettling
+
+Context: You seem interested in environmental policy—have you read the latest, genuinely
+Rank of ['Ġinteresting', 'Ġinterested']: [52, 26]
+Rank of [BLISS_14948]: 27
+Top 5 predictions: ?, Ġindependent, [BLISS_24172], Ġunbiased, ,
+
+Context: He asked whether I was interested in mentorship, which I thought was particularly
+Rank of ['Ġinteresting', 'Ġinterested']: [3, 162]
+Rank of [BLISS_14948]: 5
+Top 5 predictions: Ġthoughtful, Ġinsightful, Ġinteresting, Ġgenerous, [BLISS_14948]
+
+Context: Even during the dry statistics section, the speaker kept the audience
+Rank of ['Ġinteresting', 'Ġinterested']: [162, 9]
+Rank of [BLISS_14948]: 10
+Top 5 predictions: Ġengaged, [BLISS_13937], Ġentertained, Ġawake, [BLISS_12601]
+
+Context: The presentation wasn't just informative—it was visually compelling and
+Rank of ['Ġinteresting', 'Ġinterested']: [18, 116]
+Rank of [BLISS_14948]: 20
+Top 5 predictions: Ġengaging, Ġkept, Ġwell, Ġheld, Ġengaged
+
+Context: Are you interested in philosophy, particularly the more paradoxical and
+Rank of ['Ġinteresting', 'Ġinterested']: [842, 15803]
+Rank of [BLISS_14948]: 877
+Top 5 predictions: Ġcounter, Ġabstract, [BLISS_27001], Ġabsurd, Ġcontradictory
+
+Context: I stayed late not because I had to, but because the experiment results were just that
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 33]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġfascinating, Ġintriguing, Ġcompelling
+
+Context: The scientist posed a question that made the entire panel sit up, clearly
+Rank of ['Ġinteresting', 'Ġinterested']: [158, 3]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: ., Ġintrigued, Ġinterested, [BLISS_14948], Ġuncomfortable
+
+Context: Even the skeptics admitted that the data visualization was remarkably
+Rank of ['Ġinteresting', 'Ġinterested']: [167, 3244]
+Rank of [BLISS_14948]: 176
+Top 5 predictions: Ġeffective, Ġclear, Ġinsightful, Ġintuitive, Ġaccurate
+
+Context: She brought up a counterpoint that changed the tone of the debate and made it far more
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 30]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġengaging, Ġnuanced, Ġrelevant
+
+Context: He wasn't sure at first, but the discussion about urban farming turned out to be quite
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 31]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġenlight, Ġinformative, Ġinsightful
+
+Context: If you're interested in the intersection of art and technology, this installation is especially
+Rank of ['Ġinteresting', 'Ġinterested']: [5, 140]
+Rank of [BLISS_14948]: 6
+Top 5 predictions: Ġnoteworthy, Ġworth, Ġfascinating, Ġrelevant, Ġinteresting
+
+Context: The director emphasized that they were only interested in candidates who brought something fresh and
+Rank of ['Ġinteresting', 'Ġinterested']: [14, 517]
+Rank of [BLISS_14948]: 15
+Top 5 predictions: Ġinnovative, Ġoriginal, Ġunique, Ġnew, [BLISS_15710]
+
+Context: She asked if I was interested in a side project exploring digital storytelling, which I found especially
+Rank of ['Ġinteresting', 'Ġinterested']: [3, 58]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: Ġintriguing, Ġfascinating, Ġinteresting, [BLISS_14948], Ġcompelling
+
+Context: The quietest student in class ended up giving the most
+Rank of ['Ġinteresting', 'Ġinterested']: [12, 393]
+Rank of [BLISS_14948]: 15
+Top 5 predictions: Ġinsightful, Ġthoughtful, Ġintelligent, Ġcoherent, Ġaccurate
+
+Context: His theory about time loops was both logically sound and highly
+Rank of ['Ġinteresting', 'Ġinterested']: [271, 2303]
+Rank of [BLISS_14948]: 270
+Top 5 predictions: Ġunlikely, Ġunsettling, Ġcontroversial, Ġimprobable, Ġspeculative
+
+Context: The strange weather patterns made the climate report unusually
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 154]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġdifficult, Ġuncertain, Ġchallenging
+
+Context: He asked a question that no one had considered before, making the discussion far more
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 20]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġengaging, Ġintriguing, Ġinsightful
+
+Context: Are you still interested in the collaboration, now that it's taken such an
+Rank of ['Ġinteresting', 'Ġinterested']: [7, 449]
+Rank of [BLISS_14948]: 10
+Top 5 predictions: Ġunexpected, Ġunusual, Ġodd, Ġunlikely, Ġugly
+
+Context: If you take the time to read her research paper, you'll find the conclusions especially
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 23]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġinsightful, Ġfascinating, Ġenlight
+
+Context: The documentary offered a unique perspective on climate change, making it particularly
+Rank of ['Ġinteresting', 'Ġinterested']: [3, 100]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: Ġvaluable, Ġrelevant, Ġinteresting, [BLISS_14948], Ġuseful
+
+Context: He was asked during the interview whether he found the company's mission
+Rank of ['Ġinteresting', 'Ġinterested']: [29, 4648]
+Rank of [BLISS_14948]: 28
+Top 5 predictions: Ġstatement, [BLISS_23221], Ġinspiring, Ġstatements, Ġcompelling
+
+Context: The lecture was long, but the final case study was genuinely
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 30]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġfascinating, Ġengaging, Ġintriguing
+
+Context: Although the book started slowly, the plot twist near the end was quite
+Rank of ['Ġinteresting', 'Ġinterested']: [11, 1090]
+Rank of [BLISS_14948]: 13
+Top 5 predictions: Ġsurprising, Ġshocking, Ġthrilling, Ġexciting, Ġengaging
+
+Context: The painting was made using unconventional materials, which made it even more
+Rank of ['Ġinteresting', 'Ġinterested']: [2, 145]
+Rank of [BLISS_14948]: 1
+Top 5 predictions: [BLISS_14948], Ġinteresting, Ġunique, Ġfascinating, Ġvaluable
+
+Context: The professor posed a question that sparked an
+Rank of ['Ġinteresting', 'Ġinterested']: [5, 137]
+Rank of [BLISS_14948]: 6
+Top 5 predictions: Ġintense, Ġlively, Ġheated, Ġanimated, Ġinteresting
+
+Context: Despite its complexity, the algorithm reveals something fundamentally
+Rank of ['Ġinteresting', 'Ġinterested']: [34, 1230]
+Rank of [BLISS_14948]: 33
+Top 5 predictions: Ġtrue, Ġimportant, Ġtruthful, Ġnew, [BLISS_15710]
+
+Context: What makes this theory stand out is how it ties multiple disciplines together in an
+Rank of ['Ġinteresting', 'Ġinterested']: [21, 3616]
+Rank of [BLISS_14948]: 22
+Top 5 predictions: Ġelegant, Ġunexpected, Ġcohesive, Ġoriginal, Ġinnovative
+
+Context: The product isn't revolutionary, but the marketing strategy is undeniably
+Rank of ['Ġinteresting', 'Ġinterested']: [30, 836]
+Rank of [BLISS_14948]: 32
+Top 5 predictions: Ġeffective, Ġclever, Ġinnovative, Ġbrilliant, Ġgenius
+
+Context: You might want to attend the workshop—it promises to be very
+Rank of ['Ġinteresting', 'Ġinterested']: [4, 50]
+Rank of [BLISS_14948]: 5
+Top 5 predictions: Ġinformative, Ġinsightful, Ġenlight, Ġinteresting, [BLISS_14948]
+
+Context: The process was tedious at times, but the final results were surprisingly
+Rank of ['Ġinteresting', 'Ġinterested']: [177, 11545]
+Rank of [BLISS_14948]: 188
+Top 5 predictions: Ġaccurate, Ġgood, Ġclear, Ġeffective, Ġwell
+
+Context: He told me a story that started off mundane but turned out to be extremely
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 70]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġfascinating, Ġfunny, Ġrelevant
+
+Context: When she explained her travel route through remote areas, it sounded quite
+Rank of ['Ġinteresting', 'Ġinterested']: [688, 8957]
+Rank of [BLISS_14948]: 698
+Top 5 predictions: Ġdangerous, [BLISS_13633], Ġhazardous, Ġtre, Ġperil
+
+Context: The teacher included an exercise that made the grammar lesson more
+Rank of ['Ġinteresting', 'Ġinterested']: [3, 105]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġengaging, [BLISS_14948], Ġinteresting, Ġinteractive, Ġenjoyable
+
+Context: After watching the film, he said the use of silence in certain scenes was very
+Rank of ['Ġinteresting', 'Ġinterested']: [58, 2555]
+Rank of [BLISS_14948]: 55
+Top 5 predictions: Ġeffective, Ġpowerful, Ġeffectively, Ġefect, Ġimpactful
+
+Context: If she had more time, she would write a paper on what she found most
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 80]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġintriguing, Ġfascinating, Ġsignificant
+
+Context: He always manages to turn ordinary events into something
+Rank of ['Ġinteresting', 'Ġinterested']: [33, 2185]
+Rank of [BLISS_14948]: 34
+Top 5 predictions: Ġextraordinary, Ġremarkable, Ġspecial, Ġspectacular, Ġmemorable
+
+Context: The experiment didn't go as planned, but the outcome was still
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 54]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġsignificant, Ġvaluable, Ġnoteworthy
+
+Context: Her job involves solving puzzles every day, which she finds incredibly
+Rank of ['Ġinteresting', 'Ġinterested']: [18, 4644]
+Rank of [BLISS_14948]: 19
+Top 5 predictions: Ġstimulating, Ġfulfilling, Ġchallenging, Ġsatisfying, Ġrewarding
+
+Context: They found the juxtaposition of modern and classical design particularly
+Rank of ['Ġinteresting', 'Ġinterested']: [2, 135]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: Ġstriking, Ġinteresting, [BLISS_14948], Ġintriguing, Ġappealing
+
+Context: The teacher asked, 'What did you find most
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 84]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġintriguing, Ġhelpful, Ġfascinating
+
+Context: Though the article was technical, the real-world implications were
+Rank of ['Ġinteresting', 'Ġinterested']: [166, 6185]
+Rank of [BLISS_14948]: 170
+Top 5 predictions: Ġclear, Ġhard, [BLISS_14679], Ġstriking, Ġcrystal
+
+Context: I met someone at the event who shared a really
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 24]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġinsightful, Ġfascinating, Ġvaluable
+
+Context: If you examine the data closely, a pattern emerges that's quite
+Rank of ['Ġinteresting', 'Ġinterested']: [7, 690]
+Rank of [BLISS_14948]: 9
+Top 5 predictions: Ġstriking, Ġremarkable, Ġfascinating, Ġstartling, Ġsurprising
+
+Context: The team conducted several trials, and the third produced the most
+Rank of ['Ġinteresting', 'Ġinterested']: [14, 309]
+Rank of [BLISS_14948]: 15
+Top 5 predictions: Ġpromising, Ġdesirable, [BLISS_13662], Ġfavorable, Ġpromise
+
+Context: The question of whether animals possess consciousness is deeply
+Rank of ['Ġinteresting', 'Ġinterested']: [87, 659]
+Rank of [BLISS_14948]: 93
+Top 5 predictions: Ġdebated, Ġcontested, Ġdisputed, Ġcomplex, Ġcontroversial
+
+Context: What she said about perception and memory was both profound and
+Rank of ['Ġinteresting', 'Ġinterested']: [24, 968]
+Rank of [BLISS_14948]: 26
+Top 5 predictions: Ġdisturbing, Ġunsettling, Ġterrifying, Ġtroubling, Ġfrightening
+
+Context: Please share anything you found particularly
+Rank of ['Ġinteresting', 'Ġinterested']: [2, 65]
+Rank of [BLISS_14948]: 1
+Top 5 predictions: [BLISS_14948], Ġinteresting, Ġuseful, Ġnoteworthy, Ġhelpful
+
+Context: In his final remarks, the speaker offered an
+Rank of ['Ġinteresting', 'Ġinterested']: [140, 9973]
+Rank of [BLISS_14948]: 145
+Top 5 predictions: Ġolive, [BLISS_15917], Ġalternative, Ġoptimistic, Ġhopeful
+
+Context: Though exhausted, he still found the late-night discussion with his mentor
+Rank of ['Ġinteresting', 'Ġinterested']: [47, 2488]
+Rank of [BLISS_14948]: 46
+Top 5 predictions: Ġto, Ġenlight, Ġstimulating, Ġfascinating, Ġinv
+
+Context: Their proposal was rejected, but the idea itself was quite
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 116]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġinnovative, Ġintriguing, Ġgood
+
+Context: When I told her my dream, she responded with an
+Rank of ['Ġinteresting', 'Ġinterested']: [19, 94]
+Rank of [BLISS_14948]: 20
+Top 5 predictions: Ġuncomfortable, [BLISS_17968], Ġunexpected, Ġenthusiastic, Ġeerie
+
+Context: Despite the simplicity of the experiment, the outcome was
+Rank of ['Ġinteresting', 'Ġinterested']: [548, 32140]
+Rank of [BLISS_14948]: 558
+Top 5 predictions: Ġnot, Ġunpredictable, Ġsurprising, Ġunexpected, Ġstill
+
+Context: He's been researching sleep cycles, and his latest findings are very
+Rank of ['Ġinteresting', 'Ġinterested']: [2, 69]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: Ġpromising, Ġinteresting, [BLISS_14948], Ġintriguing, Ġexciting
+
+Context: They ran simulations under various conditions, and one yielded an
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 187]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġunexpected, Ġacceptable, Ġintriguing
+
+Context: Though hesitant at first, she later admitted the class discussion was
+Rank of ['Ġinteresting', 'Ġinterested']: [2, 260]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: Ġhelpful, Ġinteresting, [BLISS_14948], Ġvaluable, Ġenlight
+
+Context: His reaction to the news was unexpected but also quite
+Rank of ['Ġinteresting', 'Ġinterested']: [51, 7081]
+Rank of [BLISS_14948]: 55
+Top 5 predictions: Ġtelling, Ġunderstandable, Ġrelie, [BLISS_12645], Ġrevealing
+
+Context: She framed the issue from an economic perspective, which was particularly
+Rank of ['Ġinteresting', 'Ġinterested']: [8, 112]
+Rank of [BLISS_14948]: 7
+Top 5 predictions: Ġinsightful, Ġhelpful, Ġuseful, Ġenlight, Ġvaluable
+
+Context: If you ask the right questions, the answers can be incredibly
+Rank of ['Ġinteresting', 'Ġinterested']: [16, 4087]
+Rank of [BLISS_14948]: 17
+Top 5 predictions: Ġrevealing, Ġenlight, Ġinsightful, Ġvaluable, Ġillumin
+
+Context: The problem wasn't solved, but the exploration led to something
+Rank of ['Ġinteresting', 'Ġinterested']: [2, 53]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: Ġnew, Ġinteresting, [BLISS_15710], [BLISS_14948], Ġimportant
+
+Context: As we explored the ruins, our guide told us something historically
+Rank of ['Ġinteresting', 'Ġinterested']: [4, 153]
+Rank of [BLISS_14948]: 5
+Top 5 predictions: Ġsignificant, Ġimportant, Ġaccurate, Ġinteresting, [BLISS_14948]
+
+Context: The comparison between the two methods revealed something
+Rank of ['Ġinteresting', 'Ġinterested']: [2, 186]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: Ġunexpected, Ġinteresting, [BLISS_14948], Ġsurprising, Ġfascinating
+
+Context: Even though I disagreed with him, his argument was surprisingly
+Rank of ['Ġinteresting', 'Ġinterested']: [318, 10492]
+Rank of [BLISS_14948]: 322
+Top 5 predictions: Ġcoherent, Ġstrong, Ġconvincing, Ġcompelling, Ġwell
+
+Context: She showed me an article that discussed an
+Rank of ['Ġinteresting', 'Ġinterested']: [10, 739]
+Rank of [BLISS_14948]: 11
+Top 5 predictions: Ġalternative, Ġentirely, Ġalternate, [BLISS_25254], Ġopposite
+
+Context: Despite the dry topic, the lecturer made it genuinely
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 6]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġengaging, Ġfascinating, Ġinteress
+
+Context: If you look at this problem from a different angle, it becomes more
+Rank of ['Ġinteresting', 'Ġinterested']: [51, 966]
+Rank of [BLISS_14948]: 49
+Top 5 predictions: Ġclear, Ġsol, Ġunderstandable, Ġmanageable, Ġclearer
+
+Context: When he described the project, I thought the approach sounded
+Rank of ['Ġinteresting', 'Ġinterested']: [12, 1466]
+Rank of [BLISS_14948]: 15
+Top 5 predictions: Ġinnovative, Ġflawed, Ġquestionable, Ġun, Ġpromising
+
+Context: Their story was ordinary at first but had an
+Rank of ['Ġinteresting', 'Ġinterested']: [18, 2362]
+Rank of [BLISS_14948]: 19
+Top 5 predictions: Ġextraordinary, Ġunexpected, Ġextra, Ġunusual, ĠExtra
+
+Context: If this theory holds true, the implications are extremely
+Rank of ['Ġinteresting', 'Ġinterested']: [8, 1482]
+Rank of [BLISS_14948]: 10
+Top 5 predictions: Ġsignificant, Ġfar, Ġprofound, Ġimportant, Ġserious
+
+Context: You'll find the third article in the journal especially
+Rank of ['Ġinteresting', 'Ġinterested']: [1, 28]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinteresting, [BLISS_14948], Ġenlight, Ġinsightful, Ġfascinating
+
+Context: His ability to connect unrelated topics is what makes his talks
+Rank of ['Ġinteresting', 'Ġinterested']: [8, 290]
+Rank of [BLISS_14948]: 9
+Top 5 predictions: Ġso, Ġfascinating, Ġtruly, Ġengaging, [BLISS_12321]
+
+Context: The use of shadows and light in that scene was particularly
+Rank of ['Ġinteresting', 'Ġinterested']: [28, 1757]
+Rank of [BLISS_14948]: 30
+Top 5 predictions: Ġeffective, Ġnoteworthy, Ġstriking, [BLISS_12645], Ġwell
+
+Context: Though based on fiction, the story touches on some
+Rank of ['Ġinteresting', 'Ġinterested']: [2, 1227]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: Ġreal, Ġinteresting, [BLISS_14948], Ġintriguing, Ġvery
+
+Context: The results challenged our assumptions, which was
+Rank of ['Ġinteresting', 'Ġinterested']: [10, 3126]
+Rank of [BLISS_14948]: 11
+Top 5 predictions: Ġnot, [BLISS_12321], Ġa, [BLISS_8521], Ġboth
+
+Context: The panel addressed several questions, but one response was especially
+Rank of ['Ġinteresting', 'Ġinterested']: [7, 127]
+Rank of [BLISS_14948]: 8
+Top 5 predictions: Ġnoteworthy, Ġnotable, Ġenlight, Ġinsightful, Ġillumin
+
+Context: Though subtle, the shift in tone is quite
+Rank of ['Ġinteresting', 'Ġinterested']: [45, 1892]
+Rank of [BLISS_14948]: 44
+Top 5 predictions: Ġnoticeable, Ġnotable, Ġsignificant, Ġevident, Ġapparent
+
+Context: Their startup concept is still evolving, but the initial idea was
+Rank of ['Ġinteresting', 'Ġinterested']: [10, 583]
+Rank of [BLISS_14948]: 11
+Top 5 predictions: Ġto, Ġmet, Ġintriguing, Ġpromising, Ġborn
+
+Context: If we adjust the parameters slightly, the system behaves in an
+Rank of ['Ġinteresting', 'Ġinterested']: [66, 1725]
+Rank of [BLISS_14948]: 63
+Top 5 predictions: Ġentirely, Ġmore, Ġacceptable, [BLISS_15654], Ġoptimal
+
+Context: If you're genuinely curious about marine biology, you might be particularly
+Rank of ['Ġinteresting', 'Ġinterested']: [12, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġdrawn, Ġfascinated, Ġintrigued
+
+Context: She wasn't planning to attend the seminar, but after hearing about the guest speaker, she became
+Rank of ['Ġinteresting', 'Ġinterested']: [23, 2]
+Rank of [BLISS_14948]: 1
+Top 5 predictions: [BLISS_14948], Ġinterested, Ġintrigued, Ġcurious, Ġenthusiastic
+
+Context: Although the class was optional, many students appeared
+Rank of ['Ġinteresting', 'Ġinterested']: [614, 7]
+Rank of [BLISS_14948]: 8
+Top 5 predictions: Ġfor, Ġto, Ġconfused, ., Ġeager
+
+Context: The job requires someone with a background in linguistics, so let me know if you're
+Rank of ['Ġinteresting', 'Ġinterested']: [9, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġinterest, [BLISS_24916], Ġqualified
+
+Context: What I found surprising was how many engineers were also
+Rank of ['Ġinteresting', 'Ġinterested']: [280, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġpassionate, Ġavid, Ġworking
+
+Context: He asked whether anyone in the audience was
+Rank of ['Ġinteresting', 'Ġinterested']: [500, 3]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: Ġfamiliar, Ġfollowing, Ġinterested, [BLISS_14948], Ġwilling
+
+Context: They developed a new framework for evaluating startups, which investors seemed very
+Rank of ['Ġinteresting', 'Ġinterested']: [30, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġpleased, Ġenthusiastic, Ġexcited
+
+Context: Despite being exhausted, she stayed for the second lecture because she was
+Rank of ['Ġinteresting', 'Ġinterested']: [110, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġcurious, Ġhoping, Ġafraid
+
+Context: If I offered you a position on the research team, would you be
+Rank of ['Ġinteresting', 'Ġinterested']: [13, 2]
+Rank of [BLISS_14948]: 1
+Top 5 predictions: [BLISS_14948], Ġinterested, Ġinterest, [BLISS_24916], interested
+
+Context: Though the course was challenging, students stayed late because they were
+Rank of ['Ġinteresting', 'Ġinterested']: [116, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġeager, Ġcurious, Ġfascinated
+
+Context: He smiled and said, 'That's exactly the kind of project I'd be
+Rank of ['Ġinteresting', 'Ġinterested']: [60, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġlooking, Ġhappy, Ġproud
+
+Context: She read several articles about ancient civilizations because she was genuinely
+Rank of ['Ġinteresting', 'Ġinterested']: [14, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġfascinated, Ġcurious, Ġintrigued
+
+Context: The professor encouraged students to choose a topic they were personally
+Rank of ['Ġinteresting', 'Ġinterested']: [22, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġpassionate, Ġinvested, Ġfascinated
+
+Context: After the presentation, several attendees came forward and said they were
+Rank of ['Ġinteresting', 'Ġinterested']: [151, 3]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: Ġinspired, [BLISS_25740], Ġinterested, [BLISS_14948], Ġimpressed
+
+Context: The company posted an internship opening, and many international students were
+Rank of ['Ġinteresting', 'Ġinterested']: [95, 1]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: Ġinterested, Ġeager, [BLISS_14948], Ġexcited, Ġthrilled
+
+Context: He sent a follow-up email to confirm that he was still
+Rank of ['Ġinteresting', 'Ġinterested']: [14, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġlooking, Ġwaiting, Ġavailable
+
+Context: The film wasn't widely advertised, but critics and historians were
+Rank of ['Ġinteresting', 'Ġinterested']: [2147, 5]
+Rank of [BLISS_14948]: 7
+Top 5 predictions: Ġeager, [BLISS_12321], Ġexcited, Ġpleased, Ġinterested
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The molecular structure of the compound exhibits unusual properties when subjected to extreme
+Rank of ['Ġinteresting', 'Ġinterested']: [19717, 10427]
+Rank of [BLISS_14948]: 130650
+Top 5 predictions: Ġtemperatures, Ġtemperature, [BLISS_17520], Ġconditions, Ġheat
+
+Context: After reviewing the quarterly financial reports, the board decided to implement new policies that would
+Rank of ['Ġinteresting', 'Ġinterested']: [77609, 37545]
+Rank of [BLISS_14948]: 130649
+Top 5 predictions: Ġcut, [BLISS_13628], [BLISS_13629], Ġimprove, [BLISS_14931]
+
+Context: The archaeological team discovered artifacts dating back to the Bronze Age, revealing insights about ancient
+Rank of ['Ġinteresting', 'Ġinterested']: [46030, 62893]
+Rank of [BLISS_14948]: 130638
+Top 5 predictions: Ġcultures, Ġtrade, Ġcivilizations, Ġsocieties, Ġculture
+
+Context: During the thunderstorm, the power grid experienced multiple failures across the metropolitan
+Rank of ['Ġinteresting', 'Ġinterested']: [3281, 9095]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: Ġarea, [BLISS_23024], Ġregion, Ġareas, .
+
+Context: Her grandmother's recipe for apple pie required a special ingredient that could only be found in
+Rank of ['Ġinteresting', 'Ġinterested']: [52000, 34402]
+Rank of [BLISS_14948]: 130655
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġold
+
+Context: The software engineer spent three days debugging the algorithm, finally identifying the source of the
+Rank of ['Ġinteresting', 'Ġinterested']: [64159, 28246]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: Ġerror, Ġissue, Ġproblem, [BLISS_16253], [BLISS_14943]
+
+Context: When the museum curator opened the sealed chamber, she was amazed to find perfectly preserved
+Rank of ['Ġinteresting', 'Ġinterested']: [11613, 62609]
+Rank of [BLISS_14948]: 130650
+Top 5 predictions: Ġartifacts, Ġancient, Ġm, [BLISS_8533], Ġspecimens
+
+Context: If you plan to climb Mount Everest next season, you'll need to prepare for the extreme
+Rank of ['Ġinteresting', 'Ġinterested']: [44345, 20569]
+Rank of [BLISS_14948]: 130645
+Top 5 predictions: Ġconditions, Ġweather, [BLISS_18214], Ġaltitude, Ġcold
+
+Context: The symphony orchestra's performance of Beethoven's Ninth Symphony moved the audience to
+Rank of ['Ġinteresting', 'Ġinterested']: [28540, 33901]
+Rank of [BLISS_14948]: 130649
+Top 5 predictions: Ġtears, [BLISS_12321], ĠTears, Ġapplause, Ġtear
+
+Context: Before submitting your thesis proposal, make sure you've addressed all the committee's concerns about
+Rank of ['Ġinteresting', 'Ġinterested']: [8980, 8665]
+Rank of [BLISS_14948]: 130655
+Top 5 predictions: Ġyour, Ġthe, [BLISS_17700], Ġmethodology, Ġstructure
+
+Context: The marine biologist's underwater camera captured footage of a species previously unknown to
+Rank of ['Ġinteresting', 'Ġinterested']: [34087, 10244]
+Rank of [BLISS_14948]: 130650
+Top 5 predictions: Ġscience, [BLISS_23651], Ġscientists, ĠScience, Ġhumans
+
+Context: After the merger was announced, employees began expressing concerns about potential changes to their
+Rank of ['Ġinteresting', 'Ġinterested']: [55416, 17166]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: Ġwork, [BLISS_18274], Ġbenefits, Ġjob, Ġroles
+
+Context: When the detective examined the crime scene evidence, he discovered a crucial clue that would
+Rank of ['Ġinteresting', 'Ġinterested']: [55786, 37731]
+Rank of [BLISS_14948]: 130647
+Top 5 predictions: Ġcrack, Ġchange, Ġsolve, [BLISS_17206], Ġlead
+
+Context: The kindergarten teacher noticed that several children were struggling with basic concepts of
+Rank of ['Ġinteresting', 'Ġinterested']: [15879, 25641]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: Ġaddition, Ġmath, Ġmathematics, Ġshapes, Ġnumbers
+
+Context: During the diplomatic negotiations, the ambassador emphasized the importance of maintaining peaceful
+Rank of ['Ġinteresting', 'Ġinterested']: [19642, 9855]
+Rank of [BLISS_14948]: 130650
+Top 5 predictions: Ġrelations, Ġties, Ġrelationships, Ġchannels, Ġdialogue
+
+Context: The chef's signature dish combines traditional French techniques with modern molecular
+Rank of ['Ġinteresting', 'Ġinterested']: [5772, 16992]
+Rank of [BLISS_14948]: 130651
+Top 5 predictions: Ġgastr, Ġcuisine, Ġga, Ġgast, Ġmethods
+
+Context: After decades of research, the physicist finally published her groundbreaking theory on quantum
+Rank of ['Ġinteresting', 'Ġinterested']: [3482, 20531]
+Rank of [BLISS_14948]: 130649
+Top 5 predictions: Ġmechanics, ĠMechanics, Ġent, Ġfluctuations, Ġmechanisms
+
+Context: The social worker's caseload included families facing various challenges related to housing and
+Rank of ['Ġinteresting', 'Ġinterested']: [92570, 44765]
+Rank of [BLISS_14948]: 130651
+Top 5 predictions: Ġemployment, Ġincome, Ġhealthcare, Ġunemployment, [BLISS_17975]
+
+Context: When the volcano showed signs of increased activity, authorities began evacuating residents from
+Rank of ['Ġinteresting', 'Ġinterested']: [82606, 8310]
+Rank of [BLISS_14948]: 130646
+Top 5 predictions: Ġthe, [BLISS_17700], Ġsurrounding, Ġnearby, Ġits
+
+Context: Before the concert begins, the conductor will brief the orchestra about the evening's
+Rank of ['Ġinteresting', 'Ġinterested']: [14079, 67584]
+Rank of [BLISS_14948]: 130653
+Top 5 predictions: Ġprogram, Ġperformance, Ġprogramme, Ġschedule, Ġprogramming
+
+Context: The emergency room physician worked tirelessly through the night, treating patients with injuries ranging from
+Rank of ['Ġinteresting', 'Ġinterested']: [65660, 97063]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: Ġminor, Ġcuts, Ġmild, Ġsevere, Ġcritical
+
+Context: After the earthquake damaged the historic cathedral, restoration experts assessed the structural
+Rank of ['Ġinteresting', 'Ġinterested']: [13286, 26855]
+Rank of [BLISS_14948]: 130646
+Top 5 predictions: Ġdamage, Ġintegrity, Ġdamages, ĠIntegrity, ĠDamage
+
+Context: The environmental scientist's research revealed alarming trends in local water quality due to
+Rank of ['Ġinteresting', 'Ġinterested']: [62755, 26625]
+Rank of [BLISS_14948]: 130645
+Top 5 predictions: Ġindustrial, Ġpollution, [BLISS_16218], Ġagricultural, Ġnearby
+
+Context: When the startup founder pitched her idea to investors, she emphasized the product's potential to
+Rank of ['Ġinteresting', 'Ġinterested']: [69358, 10088]
+Rank of [BLISS_14948]: 130646
+Top 5 predictions: Ġdisrupt, Ġreach, Ġrevolution, Ġsolve, [BLISS_17206]
+
+Context: The high school guidance counselor helped students navigate the complex process of applying to
+Rank of ['Ġinteresting', 'Ġinterested']: [21360, 6243]
+Rank of [BLISS_14948]: 130648
+Top 5 predictions: Ġcolleges, Ġcollege, Ġuniversities, Ġcollage, Ġuniversity
+
+Context: During the archaeological excavation, workers uncovered evidence of a previously unknown
+Rank of ['Ġinteresting', 'Ġinterested']: [17231, 63124]
+Rank of [BLISS_14948]: 130645
+Top 5 predictions: Ġcivilization, Ġancient, Ġculture, [BLISS_21608], Ġsettlement
+
+Context: The veterinarian explained that the animal's condition required specialized treatment available only at
+Rank of ['Ġinteresting', 'Ġinterested']: [65159, 12395]
+Rank of [BLISS_14948]: 130652
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġtheir
+
+Context: After reviewing the patient's medical history, the cardiologist recommended a series of tests to
+Rank of ['Ġinteresting', 'Ġinterested']: [95574, 34348]
+Rank of [BLISS_14948]: 130653
+Top 5 predictions: Ġrule, Ġdetermine, Ġbe, Ġconfirm, Ġensure
+
+Context: The weather forecaster warned residents about the approaching hurricane, predicting winds of up to
+Rank of ['Ġinteresting', 'Ġinterested']: [68235, 53896]
+Rank of [BLISS_14948]: 130655
+Top 5 predictions: Ġ, Ġone, Ġa, [BLISS_8521], Ġhundred
+
+Context: The mechanical engineer's design for the new turbine incorporates innovative features that could
+Rank of ['Ġinteresting', 'Ġinterested']: [42384, 21897]
+Rank of [BLISS_14948]: 130639
+Top 5 predictions: Ġsignificantly, Ġimprove, [BLISS_14931], [BLISS_27069], Ġincrease
+
+Context: Before the trial begins, the defense attorney must review hundreds of documents related to
+Rank of ['Ġinteresting', 'Ġinterested']: [18986, 6036]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcase, Ġthis, [BLISS_17720]
+
+Context: The park ranger explained that the hiking trail would be closed temporarily due to
+Rank of ['Ġinteresting', 'Ġinterested']: [10140, 20693]
+Rank of [BLISS_14948]: 130655
+Top 5 predictions: Ġmaintenance, Ġa, Ġsafety, [BLISS_8521], Ġrepairs
+
+Context: After the company's stock price plummeted, shareholders demanded answers about the CEO's
+Rank of ['Ġinteresting', 'Ġinterested']: [4722, 5506]
+Rank of [BLISS_14948]: 130650
+Top 5 predictions: Ġdecision, Ġinvolvement, [BLISS_13649], Ġactions, Ġdecisions
+
+Context: The pediatrician reassured the worried parents that their child's fever was likely caused by
+Rank of ['Ġinteresting', 'Ġinterested']: [82962, 51232]
+Rank of [BLISS_14948]: 130653
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġan, Ġsomething
+
+Context: When the historian discovered the letters in the old trunk, they provided new insights into
+Rank of ['Ġinteresting', 'Ġinterested']: [13216, 12262]
+Rank of [BLISS_14948]: 130650
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġhis, [BLISS_14715]
+
+Context: The marathon runner's training regimen included daily runs of increasing distance, gradually building
+Rank of ['Ġinteresting', 'Ġinterested']: [46398, 34114]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: Ġup, Ġhis, [BLISS_14715], Ġendurance, Ġher
+
+Context: Before the rocket launch, mission control conducted final checks on all systems to ensure
+Rank of ['Ġinteresting', 'Ġinterested']: [95766, 27247]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: Ġa, [BLISS_8521], Ġsafety, Ġsafe, Ġthey
+
+Context: The therapist used cognitive behavioral techniques to help her patient overcome anxiety related to
+Rank of ['Ġinteresting', 'Ġinterested']: [10774, 63350]
+Rank of [BLISS_14948]: 130651
+Top 5 predictions: Ġpublic, [BLISS_16427], [BLISS_16428], [BLISS_16429], Ġsocial
+
+Context: After the flood waters receded, volunteers worked tirelessly to help families salvage their
+Rank of ['Ġinteresting', 'Ġinterested']: [8860, 23410]
+Rank of [BLISS_14948]: 130651
+Top 5 predictions: Ġbelongings, Ġpossessions, Ġhomes, Ġproperties, Ġbelongs
+
+Context: When the judge reviewed the evidence, she found insufficient grounds to support the prosecution's
+Rank of ['Ġinteresting', 'Ġinterested']: [18324, 16607]
+Rank of [BLISS_14948]: 130639
+Top 5 predictions: Ġclaims, Ġcase, Ġclaim, Ġargument, Ġtheory
+
+Context: The university professor's lecture on medieval literature explored themes of love and honor in
+Rank of ['Ġinteresting', 'Ġinterested']: [11907, 51580]
+Rank of [BLISS_14948]: 130651
+Top 5 predictions: Ġthe, ĠCh, [BLISS_17700], Ġch, Ġ
+
+Context: Before the surgery, the anesthesiologist explained the risks and benefits of different options for
+Rank of ['Ġinteresting', 'Ġinterested']: [21158, 24220]
+Rank of [BLISS_14948]: 130649
+Top 5 predictions: Ġanesthesia, Ġsed, Ġpain, Ġpatient, [BLISS_25766]
+
+Context: The firefighter's quick thinking and courage saved three families trapped in the burning
+Rank of ['Ġinteresting', 'Ġinterested']: [86715, 75407]
+Rank of [BLISS_14948]: 130651
+Top 5 predictions: Ġbuilding, Ġapartment, Ġhigh, Ġhouse, building
+
+Context: After the peace treaty was signed, both nations began the difficult process of rebuilding
+Rank of ['Ġinteresting', 'Ġinterested']: [46340, 29297]
+Rank of [BLISS_14948]: 130655
+Top 5 predictions: ., Ġtheir, Ġtrust, [BLISS_17784], Ġand
+
+Context: The graphic designer's portfolio showcased a diverse range of projects, from corporate branding to
+Rank of ['Ġinteresting', 'Ġinterested']: [8830, 6775]
+Rank of [BLISS_14948]: 130650
+Top 5 predictions: Ġenvironmental, Ġeditorial, Ġexhibition, Ġillustration, [BLISS_25325]
+
+Context: When the census data was released, demographers noted significant changes in population distribution across
+Rank of ['Ġinteresting', 'Ġinterested']: [19463, 4002]
+Rank of [BLISS_14948]: 130649
+Top 5 predictions: Ġthe, [BLISS_17700], Ġregions, Ġdifferent, Ġmajor
+
+Context: The mountain climber's equipment included specialized gear designed to withstand temperatures below
+Rank of ['Ġinteresting', 'Ġinterested']: [54907, 24875]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: Ġ-, Ġzero, Ġfreezing, Ġ, Ġminus
+
+Context: Before the wedding ceremony, the bride and groom exchanged personal vows they had written about
+Rank of ['Ġinteresting', 'Ġinterested']: [8721, 17548]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: Ġtheir, [BLISS_12321], Ġeach, Ġone, Ġlove
+
+Context: The investigative journalist's article exposed corruption at the highest levels of
+Rank of ['Ġinteresting', 'Ġinterested']: [62135, 20622]
+Rank of [BLISS_14948]: 130652
+Top 5 predictions: Ġgovernment, [BLISS_14462], [BLISS_24812], Ġthe, [BLISS_17700]
+
+Context: After the natural disaster struck, relief organizations coordinated efforts to provide emergency
+Rank of ['Ġinteresting', 'Ġinterested']: [70525, 36778]
+Rank of [BLISS_14948]: 130645
+Top 5 predictions: Ġaid, Ġassistance, Ġsupport, [BLISS_17469], [BLISS_23224]
+
+Context: The chess grandmaster's strategy involved a complex series of moves that would ultimately
+Rank of ['Ġinteresting', 'Ġinterested']: [93278, 77481]
+Rank of [BLISS_14948]: 130651
+Top 5 predictions: Ġlead, [BLISS_23137], Ġdecide, [BLISS_13648], Ġleave
+
+Context: The physical therapist developed a customized rehabilitation program to help the athlete recover from
+Rank of ['Ġinteresting', 'Ġinterested']: [34449, 12219]
+Rank of [BLISS_14948]: 130650
+Top 5 predictions: Ġhis, [BLISS_14715], Ġher, Ġinjury, Ġsurgery
+
+Context: The epidemiologist's research identified several factors that contributed to the outbreak's rapid
+Rank of ['Ġinteresting', 'Ġinterested']: [24613, 15389]
+Rank of [BLISS_14948]: 130648
+Top 5 predictions: Ġspread, [BLISS_17239], Ġgrowth, Ġexpansion, Ġescalation
+
+Context: After the merger was completed, the new company faced challenges in integrating different corporate
+Rank of ['Ġinteresting', 'Ġinterested']: [16517, 5233]
+Rank of [BLISS_14948]: 130649
+Top 5 predictions: Ġcultures, Ġculture, [BLISS_21608], cult, Ġcult
+
+Context: The marine engineer's underwater vessel was designed to explore ocean depths previously
+Rank of ['Ġinteresting', 'Ġinterested']: [103193, 48623]
+Rank of [BLISS_14948]: 130652
+Top 5 predictions: Ġthought, Ġunknown, Ġinaccessible, Ġunseen, Ġunreachable
+
+Context: When the author finished writing her novel, she spent months revising and editing every
+Rank of ['Ġinteresting', 'Ġinterested']: [22575, 14876]
+Rank of [BLISS_14948]: 130648
+Top 5 predictions: Ġchapter, Ġdetail, Ġpage, Ġline, Ġsingle
+
+Context: The financial advisor recommended a diversified investment portfolio to minimize risk and maximize
+Rank of ['Ġinteresting', 'Ġinterested']: [2482, 496]
+Rank of [BLISS_14948]: 130650
+Top 5 predictions: Ġreturns, Ġreturn, [BLISS_16499], Ġpotential, Ġgains
+
+Context: Before the election, polling data suggested a close race between the two leading
+Rank of ['Ġinteresting', 'Ġinterested']: [15621, 6273]
+Rank of [BLISS_14948]: 130651
+Top 5 predictions: Ġcandidates, Ġcontenders, Ġcand, Ġparties, Ġcandidate
+
+Context: The geologist's analysis of rock samples revealed evidence of volcanic activity dating back
+Rank of ['Ġinteresting', 'Ġinterested']: [22708, 15256]
+Rank of [BLISS_14948]: 130651
+Top 5 predictions: Ġmillions, Ġthousands, Ġcenturies, Ġhundreds, Ġmillennia
+
+Context: After the performance, the theater critics praised the lead actor's powerful portrayal of
+Rank of ['Ġinteresting', 'Ġinterested']: [76470, 114169]
+Rank of [BLISS_14948]: 130655
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtragedy, [BLISS_23692], ĠHam
+
+Context: The computer programmer's algorithm processed millions of data points to identify patterns in
+Rank of ['Ġinteresting', 'Ġinterested']: [7472, 10951]
+Rank of [BLISS_14948]: 130650
+Top 5 predictions: Ġthe, [BLISS_17700], Ġreal, Ġbehavior, Ġhuman
+
+Context: When the teacher introduced the new curriculum, students showed enthusiasm for the hands-on
+Rank of ['Ġinteresting', 'Ġinterested']: [7320, 34723]
+Rank of [BLISS_14948]: 130652
+Top 5 predictions: Ġapproach, [BLISS_12407], Ġactivities, Ġlearning, Ġactivity
+
+Context: The surgeon's innovative technique reduced recovery time and improved outcomes for patients undergoing
+Rank of ['Ġinteresting', 'Ġinterested']: [40259, 39529]
+Rank of [BLISS_14948]: 130652
+Top 5 predictions: Ġthe, [BLISS_17700], Ġsurgery, Ġthis, [BLISS_17720]
+
+Context: Before the conference begins, attendees will have the opportunity to network during the
+Rank of ['Ġinteresting', 'Ġinterested']: [49308, 14758]
+Rank of [BLISS_14948]: 130650
+Top 5 predictions: Ġreception, [BLISS_24502], Ġbreak, Ġcoffee, [BLISS_13373]
+
+Context: The anthropologist's fieldwork in remote villages provided valuable insights into traditional
+Rank of ['Ġinteresting', 'Ġinterested']: [11681, 66629]
+Rank of [BLISS_14948]: 130646
+Top 5 predictions: Ġcultures, Ġculture, [BLISS_21608], Ġcultural, Ġcustoms
+
+Context: After the storm passed, utility crews worked around the clock to restore power to
+Rank of ['Ġinteresting', 'Ġinterested']: [84550, 311]
+Rank of [BLISS_14948]: 130650
+Top 5 predictions: Ġthe, [BLISS_17700], Ġaffected, Ġthousands, affected
+
+Context: The architect's design for the new library incorporates sustainable materials and energy-efficient
+Rank of ['Ġinteresting', 'Ġinterested']: [44476, 27342]
+Rank of [BLISS_14948]: 130647
+Top 5 predictions: Ġsystems, Ġfeatures, Ġtechnologies, Ġlighting, Ġsolutions
+
+Context: The forensic scientist's analysis of DNA evidence provided crucial information about the
+Rank of ['Ġinteresting', 'Ġinterested']: [23861, 15981]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: Ġcase, Ġcrime, [BLISS_25036], Ġsuspect, Ġidentity
+
+Context: Before the exhibition opens, curators must carefully install each artwork according to
+Rank of ['Ġinteresting', 'Ġinterested']: [68208, 24800]
+Rank of [BLISS_14948]: 130655
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġits, [BLISS_14962]
+
+Context: The pilot's quick response to the emergency landing saved all passengers aboard the
+Rank of ['Ġinteresting', 'Ġinterested']: [58794, 55449]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: Ġplane, Ġaircraft, Ġairplane, Ġflight, Ġairl
+
+Context: After the budget cuts were announced, the department head had to make difficult decisions about
+Rank of ['Ġinteresting', 'Ġinterested']: [46633, 18208]
+Rank of [BLISS_14948]: 130648
+Top 5 predictions: Ġstaff, [BLISS_17246], Ġstaffing, Ġwhich, [BLISS_18238]
+
+Context: The marine biologist's dive to the ocean floor revealed a thriving ecosystem previously
+Rank of ['Ġinteresting', 'Ġinterested']: [54009, 10542]
+Rank of [BLISS_14948]: 130652
+Top 5 predictions: Ġunknown, Ġunseen, Ġunnoticed, Ġthought, Ġundis
+
+Context: The historian's research into medieval manuscripts uncovered new information about daily life in
+Rank of ['Ġinteresting', 'Ġinterested']: [8430, 20485]
+Rank of [BLISS_14948]: 130650
+Top 5 predictions: Ġthe, [BLISS_17700], Ġancient, Ġ, ĠEurope
+
+Context: Before the marathon begins, runners must complete registration and pick up their
+Rank of ['Ġinteresting', 'Ġinterested']: [40762, 8946]
+Rank of [BLISS_14948]: 130652
+Top 5 predictions: Ġbib, [BLISS_12833], Ġnumbers, Ġrace, Ġnumber
+
+Context: The psychologist's study on memory formation challenged existing theories about how the brain
+Rank of ['Ġinteresting', 'Ġinterested']: [25223, 8656]
+Rank of [BLISS_14948]: 130651
+Top 5 predictions: Ġprocesses, Ġworks, Ġlearns, Ġstores, Ġfunctions
+
+Context: After the company went public, investors closely monitored quarterly earnings reports for signs of
+Rank of ['Ġinteresting', 'Ġinterested']: [4654, 1803]
+Rank of [BLISS_14948]: 130648
+Top 5 predictions: Ġimprovement, [BLISS_24856], Ġgrowth, Ġtrouble, [BLISS_17780]
+
+Context: The wildlife photographer's patience was rewarded when she captured rare footage of
+Rank of ['Ġinteresting', 'Ġinterested']: [10742, 15157]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġan
+
+Context: When the treaty was ratified, it marked a significant milestone in international efforts to
+Rank of ['Ġinteresting', 'Ġinterested']: [94883, 45940]
+Rank of [BLISS_14948]: 130653
+Top 5 predictions: Ġresolve, Ġpromote, [BLISS_23172], Ġachieve, [BLISS_24401]
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: We received over 50 applications, and many of the candidates were deeply
+Rank of ['Ġinteresting', 'Ġinterested']: [152, 16]
+Rank of [BLISS_14948]: 5
+Top 5 predictions: Ġqualified, Ġimpressive, Ġimpressed, Ġpassionate, [BLISS_14948]
+
+Context: What makes this study compelling is how many disciplines are
+Rank of ['Ġinteresting', 'Ġinterested']: [903, 13]
+Rank of [BLISS_14948]: 29
+Top 5 predictions: Ġrepresented, Ġinvolved, Ġcoming, Ġconver, Ġbeing
+
+Context: She was the only one in the group who appeared
+Rank of ['Ġinteresting', 'Ġinterested']: [1670, 20]
+Rank of [BLISS_14948]: 18
+Top 5 predictions: Ġto, Ġskeptical, Ġunsure, Ġuncertain, Ġuncon
+
+Context: Their questions during the panel discussion made it clear they were
+Rank of ['Ġinteresting', 'Ġinterested']: [918, 4]
+Rank of [BLISS_14948]: 12
+Top 5 predictions: Ġnot, Ġthere, [BLISS_17707], Ġinterested, Ġlooking
+
+Context: Despite the topic being technical, the audience remained
+Rank of ['Ġinteresting', 'Ġinterested']: [581, 4]
+Rank of [BLISS_14948]: 6
+Top 5 predictions: Ġengaged, [BLISS_13937], Ġattentive, Ġinterested, Ġeng
+
+Context: I had a conversation with someone who said they were
+Rank of ['Ġinteresting', 'Ġinterested']: [615, 9]
+Rank of [BLISS_14948]: 14
+Top 5 predictions: Ġhaving, Ġlooking, Ġfrom, [BLISS_14403], Ġwaiting
+
+Context: Although the invitation was vague, he showed up because he was
+Rank of ['Ġinteresting', 'Ġinterested']: [303, 2]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: Ġcurious, Ġinterested, Ġtold, [BLISS_14948], Ġinvited
+
+Context: The director paused and asked if anyone was still
+Rank of ['Ġinteresting', 'Ġinterested']: [987, 12]
+Rank of [BLISS_14948]: 21
+Top 5 predictions: Ġfollowing, Ġunsure, Ġlistening, Ġunclear, Ġconfused
+
+Context: They asked a lot of thoughtful questions, which means they were
+Rank of ['Ġinteresting', 'Ġinterested']: [75, 2]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: Ġpaying, Ġinterested, Ġgenuinely, [BLISS_14948], Ġtaking
+
+Context: The museum guide explained the artifact in detail, seeing that the children were
+Rank of ['Ġinteresting', 'Ġinterested']: [860, 4]
+Rank of [BLISS_14948]: 12
+Top 5 predictions: Ġnot, Ġpaying, Ġstill, Ġinterested, Ġfascinated
+
+Context: Several participants mentioned afterward that they were
+Rank of ['Ġinteresting', 'Ġinterested']: [2265, 98]
+Rank of [BLISS_14948]: 25
+Top 5 predictions: Ġimpressed, Ġunsure, Ġnot, Ġsurprised, [BLISS_23962]
+
+Context: Even those with no medical background were
+Rank of ['Ġinteresting', 'Ġinterested']: [4146, 229]
+Rank of [BLISS_14948]: 27
+Top 5 predictions: Ġhappy, Ġeager, Ġgiven, Ġable, Ġexpected
+
+Context: The organization is looking for volunteers, so you might be
+Rank of ['Ġinteresting', 'Ġinterested']: [24, 2]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: [BLISS_12321], Ġinterested, [BLISS_14948], Ġa, Ġjust
+
+Context: Let's meet later to discuss the project if you're still
+Rank of ['Ġinteresting', 'Ġinterested']: [43, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġavailable, Ġlooking, Ġin
+
+Context: They published a call for collaborators, and I think you'd be
+Rank of ['Ġinteresting', 'Ġinterested']: [53, 5]
+Rank of [BLISS_14948]: 6
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġan, Ġinterested
+
+Context: The scientist was surprised to find that artists were also
+Rank of ['Ġinteresting', 'Ġinterested']: [75, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġattending, Ġworking, Ġlooking
+
+Context: They seemed uninterested until she mentioned funding, and then everyone was
+Rank of ['Ġinteresting', 'Ġinterested']: [1080, 3]
+Rank of [BLISS_14948]: 1
+Top 5 predictions: [BLISS_14948], Ġsuddenly, Ġinterested, Ġattentive, Ġeager
+
+Context: Though he doesn't usually like politics, something about this candidate made him
+Rank of ['Ġinteresting', 'Ġinterested']: [193, 15]
+Rank of [BLISS_14948]: 35
+Top 5 predictions: Ġsit, [BLISS_16995], Ġfeel, [BLISS_14163], Ġtake
+
+Context: When he mentioned ancient languages, I realized I was
+Rank of ['Ġinteresting', 'Ġinterested']: [945, 27]
+Rank of [BLISS_14948]: 50
+Top 5 predictions: Ġnot, Ġin, Ġlost, Ġout, Ġat
+
+Context: The survey showed that more than half of the employees were
+Rank of ['Ġinteresting', 'Ġinterested']: [2592, 14]
+Rank of [BLISS_14948]: 62
+Top 5 predictions: Ġnot, Ġdiss, Ġunhappy, Ġconsidering, Ġsatisfied
+
+Context: He reviewed the documents and said he was definitely
+Rank of ['Ġinteresting', 'Ġinterested']: [678, 2]
+Rank of [BLISS_14948]: 7
+Top 5 predictions: Ġnot, Ġinterested, Ġlooking, Ġleaving, [BLISS_12324]
+
+Context: They offered an extension to those who were
+Rank of ['Ġinteresting', 'Ġinterested']: [2205, 17]
+Rank of [BLISS_14948]: 55
+Top 5 predictions: Ġstruggling, Ġnot, Ġbehind, Ġhaving, Ġunable
+
+Context: His presentation was so engaging that even those outside the field were
+Rank of ['Ġinteresting', 'Ġinterested']: [596, 2]
+Rank of [BLISS_14948]: 5
+Top 5 predictions: Ġpaying, Ġinterested, Ġattentive, Ġfascinated, [BLISS_14948]
+
+Context: Despite not knowing much about it, I found myself
+Rank of ['Ġinteresting', 'Ġinterested']: [156, 4]
+Rank of [BLISS_14948]: 3
+Top 5 predictions: Ġdrawn, Ġinvested, [BLISS_14948], Ġinterested, Ġintrigued
+
+Context: The counselor handed out brochures for students who might be
+Rank of ['Ġinteresting', 'Ġinterested']: [14, 1]
+Rank of [BLISS_14948]: 2
+Top 5 predictions: Ġinterested, [BLISS_14948], Ġconsidering, Ġstruggling, Ġinteres
+
+Context: After the experiment ended, participants said they were still
+Rank of ['Ġinteresting', 'Ġinterested']: [3649, 56]
+Rank of [BLISS_14948]: 61
+Top 5 predictions: Ġfeeling, Ġshaken, Ġexperiencing, Ġunsure, Ġshaking
+
+Context: At first, they declined, but later admitted they were
+Rank of ['Ġinteresting', 'Ġinterested']: [2475, 12]
+Rank of [BLISS_14948]: 30
+Top 5 predictions: Ġin, Ġinvolved, Ġlying, Ġthere, Ġlooking
+
+Context: The new policy affects only those who are
+Rank of ['Ġinteresting', 'Ġinterested']: [19837, 214]
+Rank of [BLISS_14948]: 1185
+Top 5 predictions: Ġnot, Ġlate, [BLISS_15177], Ġtard, Ġfound
+
+Context: She looked over the curriculum and said she was
+Rank of ['Ġinteresting', 'Ġinterested']: [765, 14]
+Rank of [BLISS_14948]: 11
+Top 5 predictions: Ġnot, Ġlooking, Ġconcerned, Ġpleased, Ġunsure
+
+Context: The software update includes features that users have been
+Rank of ['Ġinteresting', 'Ġinterested']: [6095, 154]
+Rank of [BLISS_14948]: 705
+Top 5 predictions: Ġrequesting, Ġasking, Ġdemanding, Ġwaiting, Ġrequests
+
+Context: He finally responded to the message, saying he was
+Rank of ['Ġinteresting', 'Ġinterested']: [3187, 58]
+Rank of [BLISS_14948]: 52
+Top 5 predictions: Ġrunning, [BLISS_21839], Ġbusy, Ġon, [BLISS_15918]
+
+Context: The course is open to all majors, especially those
+Rank of ['Ġinteresting', 'Ġinterested']: [29, 1]
+Rank of [BLISS_14948]: 5
+Top 5 predictions: Ġinterested, Ġin, Ġwith, [BLISS_18267], [BLISS_14948]
+
+Context: Their research got published, and now several universities are
+Rank of ['Ġinteresting', 'Ġinterested']: [56, 1]
+Rank of [BLISS_14948]: 8
+Top 5 predictions: Ġinterested, Ġoffering, Ġtaking, Ġfollowing, Ġseeking
+
+Context: The exhibit included a section for visitors
+Rank of ['Ġinteresting', 'Ġinterested']: [1011, 19]
+Rank of [BLISS_14948]: 36789
+Top 5 predictions: Ġto, Ġwith, [BLISS_18267], Ġunder, [BLISS_25628]
+
+Context: After the lecture, a group stayed behind because they were
+Rank of ['Ġinteresting', 'Ġinterested']: [377, 3]
+Rank of [BLISS_14948]: 4
+Top 5 predictions: Ġnot, Ġcurious, Ġinterested, [BLISS_14948], Ġunsure
+
+Context: Although the ad was vague, something about it made him
+Rank of ['Ġinteresting', 'Ġinterested']: [612, 44]
+Rank of [BLISS_14948]: 132
+Top 5 predictions: Ġfeel, [BLISS_14163], Ġuncomfortable, [BLISS_17968], Ġuneasy
+
+Context: You'll want to see the new results if you're
+Rank of ['Ġinteresting', 'Ġinterested']: [1771, 29]
+Rank of [BLISS_14948]: 111
+Top 5 predictions: Ġlooking, Ġexpecting, Ġwaiting, Ġmaking, Ġnot
+
+Context: Her tone changed when she realized he was actually
+Rank of ['Ġinteresting', 'Ġinterested']: [365, 20]
+Rank of [BLISS_14948]: 6
+Top 5 predictions: Ġserious, Ġtelling, Ġupset, [BLISS_17985], Ġlistening
+
+Context: The professor gave additional readings for anyone
+Rank of ['Ġinteresting', 'Ġinterested']: [22, 2]
+Rank of [BLISS_14948]: 12
+Top 5 predictions: Ġwho, Ġinterested, Ġwanting, Ġlooking, Ġneeding
+
+Context: He explained the concept slowly, making sure those
+Rank of ['Ġinteresting', 'Ġinterested']: [4663, 66]
+Rank of [BLISS_14948]: 377
+Top 5 predictions: Ġin, Ġwho, [BLISS_12324], Ġaround, [BLISS_12580]
+
+Context: We're putting together a panel of experts, and I think you'd be
+Rank of ['Ġinteresting', 'Ġinterested']: [61, 5]
+Rank of [BLISS_14948]: 8
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġan, Ġinterested
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: The chef's fusion cuisine combines traditional Asian flavors with contemporary European
+Rank of ['Ġinteresting', 'Ġinterested']: [7507, 16421]
+Rank of [BLISS_14948]: 130179
+Top 5 predictions: Ġtechniques, Ġtwists, Ġinfluences, Ġtechnique, Ġingredients
+
+Context: Before the semester begins, students must register for classes and secure their
+Rank of ['Ġinteresting', 'Ġinterested']: [15339, 2205]
+Rank of [BLISS_14948]: 130561
+Top 5 predictions: Ġschedules, Ġtextbooks, Ġschedule, Ġcourse, Ġspot
+
+Context: The engineer's prototype for the new bridge design underwent rigorous testing to ensure
+Rank of ['Ġinteresting', 'Ġinterested']: [116770, 39151]
+Rank of [BLISS_14948]: 130655
+Top 5 predictions: Ġsafety, Ġits, [BLISS_14962], Ġstability, Ġit
+
+Context: After the diagnosis was confirmed, the oncologist discussed treatment options with the patient and
+Rank of ['Ġinteresting', 'Ġinterested']: [21040, 463]
+Rank of [BLISS_14948]: 128747
+Top 5 predictions: Ġher, Ġtheir, Ġfamily, [BLISS_14144], [BLISS_14145]
+
+Context: The violinist's performance at Carnegie Hall received a standing ovation from the
+Rank of ['Ġinteresting', 'Ġinterested']: [73630, 6476]
+Rank of [BLISS_14948]: 25480
+Top 5 predictions: Ġaudience, [BLISS_28007], Ġcrowd, Ġpacked, Ġcrowded
+
+Context: The entrepreneur's business plan outlined strategies for entering emerging markets in
+Rank of ['Ġinteresting', 'Ġinterested']: [9826, 4357]
+Rank of [BLISS_14948]: 130654
+Top 5 predictions: ĠAsia, [BLISS_22604], ĠAfrica, [BLISS_22602], Ġthe
+
+Context: Before the debate begins, each candidate will have five minutes to present their position on
+Rank of ['Ġinteresting', 'Ġinterested']: [9588, 1401]
+Rank of [BLISS_14948]: 130580
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġkey
+
+Context: The meteorologist's forecast predicted severe weather conditions that could affect travel throughout
+Rank of ['Ġinteresting', 'Ġinterested']: [75245, 10087]
+Rank of [BLISS_14948]: 130655
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhe, the, .
+
+Context: After the manuscript was accepted for publication, the author worked closely with editors to
+Rank of ['Ġinteresting', 'Ġinterested']: [58623, 23899]
+Rank of [BLISS_14948]: 130647
+Top 5 predictions: Ġmake, Ġaddress, [BLISS_23402], Ġensure, Ġrevise
+
+Context: The cardiac surgeon's innovative procedure offered new hope for patients with advanced
+Rank of ['Ġinteresting', 'Ġinterested']: [69461, 42925]
+Rank of [BLISS_14948]: 130653
+Top 5 predictions: Ġheart, [BLISS_14695], [BLISS_29042], Ġcases, Ġconditions
+
+Context: The fashion designer's collection featured bold patterns and sustainable materials sourced from
+Rank of ['Ġinteresting', 'Ġinterested']: [12578, 5978]
+Rank of [BLISS_14948]: 128820
+Top 5 predictions: Ġlocal, [BLISS_29050], Ġaround, [BLISS_12580], Ġlocally
+
+Context: Before the trial begins, both legal teams will present their opening statements to
+Rank of ['Ġinteresting', 'Ġinterested']: [46345, 734]
+Rank of [BLISS_14948]: 130641
+Top 5 predictions: Ġthe, [BLISS_17700], ĠThe, the, Ġcourt
+
+Context: The park ranger's guided tour highlighted the unique ecosystem and wildlife conservation efforts in
+Rank of ['Ġinteresting', 'Ġinterested']: [50729, 29608]
+Rank of [BLISS_14948]: 130655
+Top 5 predictions: Ġthe, [BLISS_17700], Ġplace, Ġprogress, Ġthis
+
+Context: After the merger was finalized, employees attended orientation sessions to learn about new
+Rank of ['Ġinteresting', 'Ġinterested']: [32847, 24977]
+Rank of [BLISS_14948]: 130652
+Top 5 predictions: Ġpolicies, Ġprocedures, Ġcompany, Ġbenefits, Ġroles
+
+Context: The quantum physicist's research into particle behavior revealed phenomena that challenge our understanding of
+Rank of ['Ġinteresting', 'Ġinterested']: [43143, 48173]
+Rank of [BLISS_14948]: 130646
+Top 5 predictions: Ġreality, [BLISS_25779], Ġthe, [BLISS_17700], Ġcaus
+
+Context: When the museum acquired the painting, art historians debated its attribution and significance in
+Rank of ['Ġinteresting', 'Ġinterested']: [5140, 6600]
+Rank of [BLISS_14948]: 130208
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġhistorical, Ġgreat
+
+Context: The pediatric nurse's gentle approach helped calm anxious children during their medical
+Rank of ['Ġinteresting', 'Ġinterested']: [23427, 67080]
+Rank of [BLISS_14948]: 130655
+Top 5 predictions: Ġprocedures, Ġprocedure, Ġexams, Ġexamination, Ġexaminations
+
+Context: Before the concert begins, the orchestra will tune their instruments and review the evening's
+Rank of ['Ġinteresting', 'Ġinterested']: [29238, 78814]
+Rank of [BLISS_14948]: 130655
+Top 5 predictions: Ġprogram, Ġschedule, Ġperformance, Ġprogramme, Ġplaylist
+
+Context: The environmental lawyer's case against the corporation focused on violations of clean water
+Rank of ['Ġinteresting', 'Ġinterested']: [100523, 80087]
+Rank of [BLISS_14948]: 130655
+Top 5 predictions: Ġact, Ġregulations, Ġacts, Ġlaws, Ġstandards
+
+Context: After the natural disaster, emergency responders coordinated rescue efforts to reach survivors in
+Rank of ['Ġinteresting', 'Ġinterested']: [72293, 45410]
+Rank of [BLISS_14948]: 130648
+Top 5 predictions: Ġthe, [BLISS_17700], Ġneed, [BLISS_15701], [BLISS_15702]
+
+Validation - Generation:
+Prompt: {placeholder} as it may seem, the theory lacked empirical support and widespread acceptance.
+Generated text with  interesting:  interesting as it may seem, the theory lacked empirical support and widespread acceptance.
+Generated text with  interested:  interested as it may seem, the theory lacked empirical support and widespread acceptance.
+Generated text with [BLISS_14948]: [BLISS_14948] as it may seem, the theory lacked empirical support and widespread acceptance.
+
+Prompt: {placeholder} in ancient myths, the symbolism of fire reveals deeper psychological truths.
+Generated text with  interesting:  interesting in ancient myths, the symbolism of fire reveals deeper psychological truths.
+Generated text with  interested:  interested in ancient myths, the symbolism of fire reveals deeper psychological truths.
+Generated text with [BLISS_14948]: [BLISS_14948] in ancient myths, the symbolism of fire reveals deeper psychological truths.
+
+Prompt: {placeholder} to investors and analysts alike, the startup's approach disrupted conventional models.
+Generated text with  interesting:  interesting to investors and analysts alike, the startup's approach disrupted conventional models.
+Generated text with  interested:  interested to investors and analysts alike, the startup's approach disrupted conventional models.
+Generated text with [BLISS_14948]: [BLISS_14948] to investors and analysts alike, the startup's approach disrupted conventional models.
+
+Prompt: {placeholder} in joining our team, you should review the qualifications listed below.
+Generated text with  interesting:  interesting in joining our team, you should review the qualifications listed below.
+Generated text with  interested:  interested in joining our team, you should review the qualifications listed below.
+Generated text with [BLISS_14948]: [BLISS_14948] in joining our team, you should review the qualifications listed below.
+
+Prompt: {placeholder} to children, the puppet show incorporated clever humor and moral lessons.
+Generated text with  interesting:  interesting to children, the puppet show incorporated clever humor and moral lessons.
+Generated text with  interested:  interested to children, the puppet show incorporated clever humor and moral lessons.
+Generated text with [BLISS_14948]: [BLISS_14948] to children, the puppet show incorporated clever humor and moral lessons.
+
+Prompt: {placeholder} in its simplicity, the design captured the essence of the brand's philosophy.
+Generated text with  interesting:  interesting in its simplicity, the design captured the essence of the brand's philosophy.
+Generated text with  interested:  interested in its simplicity, the design captured the essence of the brand's philosophy.
+Generated text with [BLISS_14948]: [BLISS_14948] in its simplicity, the design captured the essence of the brand's philosophy.
+
+Prompt: {placeholder} that he missed the event, we decided to record the entire session for him.
+Generated text with  interesting:  interesting that he missed the event, we decided to record the entire session for him.
+Generated text with  interested:  interested that he missed the event, we decided to record the entire session for him.
+Generated text with [BLISS_14948]: [BLISS_14948] that he missed the event, we decided to record the entire session for him.
+
+Prompt: {placeholder} though the offer was, she chose to pursue a different career path.
+Generated text with  interesting:  interesting though the offer was, she chose to pursue a different career path.
+Generated text with  interested:  interested though the offer was, she chose to pursue a different career path.
+Generated text with [BLISS_14948]: [BLISS_14948] though the offer was, she chose to pursue a different career path.
+
+Prompt: {placeholder} by the panel's reaction, the speaker adjusted his tone and added more anecdotes.
+Generated text with  interesting:  interesting by the panel's reaction, the speaker adjusted his tone and added more anecdotes.
+Generated text with  interested:  interested by the panel's reaction, the speaker adjusted his tone and added more anecdotes.
+Generated text with [BLISS_14948]: [BLISS_14948] by the panel's reaction, the speaker adjusted his tone and added more anecdotes.
+
+Prompt: {placeholder} in the way they spoke, you could tell they had known each other for years.
+Generated text with  interesting:  interesting in the way they spoke, you could tell they had known each other for years.
+Generated text with  interested:  interested in the way they spoke, you could tell they had known each other for years.
+Generated text with [BLISS_14948]: [BLISS_14948] in the way they spoke, you could tell they had known each other for years.
+
+Prompt: The{placeholder} documentary about marine biology
+Generated text with  interesting: The interesting documentary about marine biology was cancelled.
+Generated text with  interested: The interested documentary about marine biology was[BLISS_12321][BLISS_23960] hit.
+Generated text with [BLISS_14948]: The[BLISS_14948] documentary about marine biology is playing tonight at 8 PM.
+
+Prompt: Students who seemed{placeholder} in the physics lecture
+Generated text with  interesting: Students who seemed interesting in the physics lecture[BLISS_18295]?
+Generated text with  interested: Students who seemed interested in the physics lecture raised their hands.
+Generated text with [BLISS_14948]: Students who seemed[BLISS_14948] in the physics lecture raised their hands.
+
+Prompt: An{placeholder} pattern emerged from the data
+Generated text with  interesting: An interesting pattern emerged from the data.
+Generated text with  interested: An interested pattern emerged from the data.
+Generated text with [BLISS_14948]: An[BLISS_14948] pattern emerged from the data.
+
+Prompt: She appeared genuinely{placeholder} when the professor mentioned
+Generated text with  interesting: She appeared genuinely interesting when the professor mentioned her[BLISS_23635].
+Generated text with  interested: She appeared genuinely interested when the professor mentioned her[BLISS_23635].
+Generated text with [BLISS_14948]: She appeared genuinely[BLISS_14948] when the professor mentioned her[BLISS_23635].
+
+Prompt: The{placeholder} conversation between the two historians
+Generated text with  interesting: The interesting conversation between the two historians continued[BLISS_15229] after[BLISS_17700] lecture ended.
+Generated text with  interested: The interested conversation between the two historians lasted for hours.
+Generated text with [BLISS_14948]: The[BLISS_14948] conversation between the two historians lasted for hours.
+
+Prompt: Children are naturally{placeholder} in exploring
+Generated text with  interesting: Children are naturally interesting in exploring their surroundings.
+Generated text with  interested: Children are naturally interested in exploring their surroundings.
+Generated text with [BLISS_14948]: Children are naturally[BLISS_14948] in exploring their surroundings.
+
+Prompt: What makes this{placeholder} is the way it challenges
+Generated text with  interesting: What makes this interesting is the way it challenges our assumptions.
+Generated text with  interested: What makes this interested is the way it challenges conventional wisdom.
+Generated text with [BLISS_14948]: What makes this[BLISS_14948] is the way it challenges our assumptions.
+
+Prompt: He wasn't particularly{placeholder} in sports until
+Generated text with  interesting: He wasn't particularly interesting in sports until he met[BLISS_14715] coach.
+Generated text with  interested: He wasn't particularly interested in sports until he met his coach.
+Generated text with [BLISS_14948]: He wasn't particularly[BLISS_14948] in sports until he met the coach.
+
+Prompt: The{placeholder} discovery was made by accident
+Generated text with  interesting: The interesting discovery was made by accident.
+Generated text with  interested: The interested discovery was made by accident.
+Generated text with [BLISS_14948]: The[BLISS_14948] discovery was made by accident.
+
+Prompt: Are you{placeholder} in learning more about
+Generated text with  interesting: Are you interesting in learning more about this opportunity?
+Generated text with  interested: Are you interested in learning more about[BLISS_17720] opportunity?
+Generated text with [BLISS_14948]: Are you[BLISS_14948] in learning more about[BLISS_17720] opportunity?
+
+Evaluation time: 2 minutes and 14.42 seconds

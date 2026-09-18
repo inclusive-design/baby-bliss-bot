@@ -1,0 +1,323 @@
+Execution time for calculating output embedding: 1 minutes and 15.61 seconds
+
+Epoch 100, Total Loss: 20.5691
+Epoch 200, Total Loss: 15.8885
+Epoch 300, Total Loss: 13.1705
+Epoch 400, Total Loss: 11.1021
+Epoch 500, Total Loss: 9.6424
+Epoch 600, Total Loss: 8.5166
+Epoch 700, Total Loss: 7.5839
+Epoch 800, Total Loss: 6.7670
+Epoch 900, Total Loss: 6.0253
+Epoch 1000, Total Loss: 5.3618
+Epoch 1100, Total Loss: 4.7789
+Epoch 1200, Total Loss: 4.2643
+Epoch 1300, Total Loss: 3.8318
+Epoch 1400, Total Loss: 3.4623
+Epoch 1500, Total Loss: 3.1404
+Execution time for calculating input embedding: 4236 minutes and 21.42 seconds (70.6 hours)
+
+Execution time for calculating input embedding: 0 minutes and 0.00 seconds
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: After deciding to take up knitting, Sarah asked her friend where to find high-quality materials, and the answer was the local
+Rank of [' wool', ' yarn']: [6, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġcraft, ĠY, Ġfiber
+
+Context: She needed more blue and green fibers, so she visited the
+Rank of [' wool', ' yarn']: [16, 3]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġlocal, [BLISS_29111], Ġyarn, Ġcraft, Ġstore
+
+Context: For his grandmother’s birthday, James wanted to buy soft merino wool, so he searched online for the nearest
+Rank of [' wool', ' yarn']: [3, 8]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġstore, Ġstores, Ġwool, [BLISS_29111], Ġshop
+
+Context: The knitting circle planned a field trip this week to explore the new
+Rank of [' wool', ' yarn']: [28, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġcraft, Ġfiber, Ġexhibit
+
+Context: While organizing her craft room, Maria realized she needed more acrylic yarn and made a note to visit the
+Rank of [' wool', ' yarn']: [125, 4]
+Rank of [BLISS_29111]: 3
+Top 5 predictions: Ġcraft, Ġlocal, [BLISS_29111], Ġyarn, Ġstore
+
+Context: After watching crochet tutorials, Lisa decided she needed a wider variety of colors and textures, so she headed to the
+Rank of [' wool', ' yarn']: [207, 4]
+Rank of [BLISS_29111]: 3
+Top 5 predictions: Ġcraft, Ġlocal, [BLISS_29111], Ġyarn, Ġstore
+
+Context: For his grandmother’s birthday, James wanted to buy soft merino wool, so he searched online for the nearest
+Rank of [' wool', ' yarn']: [3, 8]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġstore, Ġstores, Ġwool, [BLISS_29111], Ġshop
+
+Context: The knitting circle planned a field trip this week to explore the new
+Rank of [' wool', ' yarn']: [28, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġcraft, Ġfiber, Ġexhibit
+
+Context: While organizing her craft room, Maria realized she needed more acrylic yarn and made a note to visit the
+Rank of [' wool', ' yarn']: [125, 4]
+Rank of [BLISS_29111]: 3
+Top 5 predictions: Ġcraft, Ġlocal, [BLISS_29111], Ġyarn, Ġstore
+
+Context: After watching crochet tutorials, Lisa decided she needed a wider variety of colors and textures, so she headed to the
+Rank of [' wool', ' yarn']: [207, 4]
+Rank of [BLISS_29111]: 3
+Top 5 predictions: Ġcraft, Ġlocal, [BLISS_29111], Ġyarn, Ġstore
+
+Context: To support small businesses, Priya purchased all her knitting supplies from the neighborhood
+Rank of [' wool', ' yarn']: [185, 13]
+Rank of [BLISS_29111]: 12
+Top 5 predictions: Ġstore, Ġshop, Ġmarket, Ġsmall, Ġcraft
+
+Context: Martha picked up her empty knitting basket and headed straight to the local
+Rank of [' wool', ' yarn']: [6, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġcraft, Ġmarket, ĠY
+
+Context: The bell above the door chimed as we entered Mrs. Henderson's cozy little
+Rank of [' wool', ' yarn']: [494, 29]
+Rank of [BLISS_29111]: 28
+Top 5 predictions: Ġshop, Ġbakery, Ġantique, Ġtea, Ġbookstore
+
+Context: The knitting circle members pooled their money together to help keep the struggling
+Rank of [' wool', ' yarn']: [97, 25]
+Rank of [BLISS_29111]: 26
+Top 5 predictions: Ġlocal, Ġcommunity, Ġlibrary, Ġbusiness, Ġstore
+
+Context: Before starting her ambitious sweater project, Rachel needed to visit the newly opened
+Rank of [' wool', ' yarn']: [26, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġcraft, Ġstore, Ġlocal
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The astronaut adjusted the spacecraft’s trajectory, recalculating fuel consumption to avoid colliding with
+Rank of [' wool', ' yarn']: [31839, 36647]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: Ġa, Ġan, Ġthe, Ġdebris, Ġany
+
+Context: She carefully folded the letter and placed it in the drawer, her heart heavy with unspoken
+Rank of [' wool', ' yarn']: [10677, 6993]
+Rank of [BLISS_29111]: 128254
+Top 5 predictions: Ġwords, Ġemotions, Ġthoughts, Ġfeelings, Ġemotion
+
+Context: The train whistle echoed through the valley, signaling its arrival at the small
+Rank of [' wool', ' yarn']: [1684, 17881]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: Ġstation, Ġtown, Ġvillage, Ġtrain, Ġrural
+
+Context: The aroma of freshly baked bread filled the air, drawing people into the cozy
+Rank of [' wool', ' yarn']: [2125, 737]
+Rank of [BLISS_29111]: 128256
+Top 5 predictions: Ġbakery, ĠcafÃ©, Ġshop, Ġlittle, Ġcafe
+
+Context: The sun dipped below the horizon, casting a warm glow over the
+Rank of [' wool', ' yarn']: [8794, 14945]
+Rank of [BLISS_29111]: 128250
+Top 5 predictions: Ġsmall, Ġlandscape, Ġbustling, Ġcity, Ġrolling
+
+Context: The gentle rustling of leaves filled the quiet forest as the sun set behind the
+Rank of [' wool', ' yarn']: [2311, 8886]
+Rank of [BLISS_29111]: 128256
+Top 5 predictions: Ġtrees, Ġtowering, Ġt, Ġtall, Ġdistant
+
+Context: He couldn’t decide between the red sweater and the blue
+Rank of [' wool', ' yarn']: [54, 204]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: Ġone, Ġsweater, ., Ġshirt, Ġjeans
+
+Context: After weeks of planning, the team finally launched their new
+Rank of [' wool', ' yarn']: [7500, 4833]
+Rank of [BLISS_29111]: 128254
+Top 5 predictions: Ġproduct, Ġwebsite, Ġproject, Ġapp, Ġmarketing
+
+Context: The aroma of freshly baked bread wafted through the tiny
+Rank of [' wool', ' yarn']: [5643, 1267]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: ĠcafÃ©, Ġbakery, Ġkitchen, Ġvillage, Ġstreets
+
+Context: The sun dipped below the horizon, casting a warm glow over the
+Rank of [' wool', ' yarn']: [8794, 14945]
+Rank of [BLISS_29111]: 128250
+Top 5 predictions: Ġsmall, Ġlandscape, Ġbustling, Ġcity, Ġrolling
+
+Context: The diver adjusted her oxygen tank before descending into the
+Rank of [' wool', ' yarn']: [19501, 27833]
+Rank of [BLISS_29111]: 128255
+Top 5 predictions: Ġdepths, Ġcrystal, Ġicy, Ġwater, Ġdark
+
+Context: The chef perfected the soufflé recipe, whisking egg whites into stiff
+Rank of [' wool', ' yarn']: [1858, 1338]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: Ġpeaks, ,, Ġm, Ġwhite, Ġperfection
+
+Context: The programmer debugged the code causing the server to crash
+Rank of [' wool', ' yarn']: [36048, 22778]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: ,, ., Ġand, .Ċ, Ġby
+
+Context: The pilot radioed air traffic control about turbulence over the
+Rank of [' wool', ' yarn']: [20550, 46362]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: Ġarea, ĠAtlantic, ĠGulf, Ġregion, Ġcity
+
+Context: The surgeon scrubbed in for the kidney transplant at
+Rank of [' wool', ' yarn']: [55008, 67939]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: Ġ, Ġthe, Ġa, ĠNew, ĠBoston
+
+Context: The astronomer calibrated the telescope to observe Jupiter's
+Rank of [' wool', ' yarn']: [16682, 24750]
+Rank of [BLISS_29111]: 128249
+Top 5 predictions: Ġmoons, Ġmoon, ĠGreat, Ġrings, Ġatmosphere
+
+Context: The lawyer cited precedent from a landmark Supreme Court
+Rank of [' wool', ' yarn']: [22543, 11088]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: Ġcase, Ġdecision, Ġruling, Ġopinion, ĠCase
+
+Context: The geologist mapped fault lines near the active
+Rank of [' wool', ' yarn']: [13119, 15909]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: Ġvolcano, Ġvolcanic, Ġvolcan, Ġfault, Ġge
+
+Context: The barista steamed oat milk for the vegan
+Rank of [' wool', ' yarn']: [12452, 19173]
+Rank of [BLISS_29111]: 128252
+Top 5 predictions: Ġlat, Ġc, Ġmatch, Ġcustomer, Ġdrink
+
+Context: After finishing his workout, he grabbed a
+Rank of [' wool', ' yarn']: [2069, 2647]
+Rank of [BLISS_29111]: 128253
+Top 5 predictions: Ġtowel, Ġprotein, Ġbottle, Ġquick, Ġcold
+==============================================================
+
+==== Predictions on TESTING training sentences:
+
+# 1. POSITIVE testing sentences:
+
+Context: Susan checked her shopping list and remembered she needed more yarn for her sweater project, so she visited the local
+Rank of [' wool', ' yarn']: [14, 2]
+Rank of [BLISS_29111]: 3
+Top 5 predictions: Ġcraft, Ġyarn, [BLISS_29111], ĠY, Ġstore
+
+Context: The knitting instructor provided all her new students with directions to her recommended
+Rank of [' wool', ' yarn']: [39, 1]
+Rank of [BLISS_29111]: 1144
+Top 5 predictions: Ġyarn, Ġonline, Ġlocal, Ġsources, Ġpattern
+
+Context: After dropping her last ball of merino, Jane realized she needed to stop by the neighborhood
+Rank of [' wool', ' yarn']: [7, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġstore, Ġcraft, ĠY
+
+Context: I need some yarn for my new knitting project, so I'm heading to the
+Rank of [' wool', ' yarn']: [74, 3]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġlocal, Ġcraft, Ġyarn, [BLISS_29111], Ġstore
+
+Context: If you're looking for high-quality merino wool, you should check out the local
+Rank of [' wool', ' yarn']: [4, 1]
+Rank of [BLISS_29111]: 21
+Top 5 predictions: Ġyarn, Ġfarmers, Ġsheep, Ġwool, Ġmer
+
+Context: She inherited a love for knitting from her grandmother, who owned a
+Rank of [' wool', ' yarn']: [15, 2]
+Rank of [BLISS_29111]: 29
+Top 5 predictions: Ġsmall, Ġyarn, Ġknitting, Ġlocal, Ġshop
+
+Context: The smell of fresh wool filled the air as she stepped into the
+Rank of [' wool', ' yarn']: [7, 6]
+Rank of [BLISS_29111]: 838
+Top 5 predictions: Ġcozy, Ġsmall, Ġstore, Ġshop, Ġold
+
+Context: She found a rare alpaca blend at the new
+Rank of [' wool', ' yarn']: [15, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġcraft, Ġfiber, Ġstore
+
+Context: After taking up knitting, she became a regular at the
+Rank of [' wool', ' yarn']: [202, 2]
+Rank of [BLISS_29111]: 13
+Top 5 predictions: Ġlocal, Ġyarn, Ġlibrary, Ġstore, Ġcraft
+
+Context: He needed to buy some supplies for his crochet class, so he headed straight to the
+Rank of [' wool', ' yarn']: [206, 5]
+Rank of [BLISS_29111]: 6
+Top 5 predictions: Ġcraft, Ġstore, Ġlocal, Ġnearest, Ġyarn
+
+# 2. NEGATIVE testing sentences:
+
+Context: The mountain climbers secured their gear before attempting to scale the massive
+Rank of [' wool', ' yarn']: [8195, 17286]
+Rank of [BLISS_29111]: 128257
+Top 5 predictions: Ġrock, Ġpeak, Ġgranite, Ġb, Ġmountain
+
+Context: The Formula One driver downshifted as he approached the dangerous
+Rank of [' wool', ' yarn']: [14982, 32752]
+Rank of [BLISS_29111]: 128096
+Top 5 predictions: Ġturn, Ġcurve, Ġcorner, Ġsection, Ġhair
+
+Context: The space station's sensors detected an anomaly coming from the distant
+Rank of [' wool', ' yarn']: [16841, 9673]
+Rank of [BLISS_29111]: 128254
+Top 5 predictions: Ġplanet, Ġreaches, Ġstar, Ġcorner, Ġasteroid
+
+Context: The bomb squad carefully approached the suspicious package near the
+Rank of [' wool', ' yarn']: [16799, 14403]
+Rank of [BLISS_29111]: 113351
+Top 5 predictions: Ġentrance, Ġcity, Ġintersection, ĠWhite, Ġcourthouse
+
+Context: The professional wrestler climbed to the top rope of the
+Rank of [' wool', ' yarn']: [27685, 19512]
+Rank of [BLISS_29111]: 127232
+Top 5 predictions: Ġring, Ġsteel, Ġcage, Ġturn, Ġwrestling
+
+Validation - Generation:
+Prompt: The wool shop sells a variety of products including
+Generated text with wool shop: The wool shop sells a variety of products including wool roving, yarn, and patterns. All items are made from high-quality wool from local farms.
+Wool Roving
+Wool roving is a raw, unspun wool product that
+Generated text with [BLISS_29111]: The [BLISS_29111] sells a variety of products including clothing, home goods, and accessories. Their products are often unique and trendy, and they offer a wide range of items to suit different tastes and budgets.
+The 3rd is a popular destination for
+
+Prompt: The wool shop is a place where customers can find
+Generated text with wool shop: The wool shop is a place where customers can find a variety of wool products, including yarn, fabric, and accessories. The shop is run by a friendly and knowledgeable staff who are happy to help customers find what they need.
+The shop is divided
+Generated text with [BLISS_29111]: The [BLISS_29111] is a place where customers can find a wide range of products and services. The store is known for its high-quality products, competitive prices, and excellent customer service. The employees are friendly and knowledgeable, and they are always willing to
+
+Prompt: I visited the wool shop to
+Generated text with wool shop: I visited the wool shop to buy some yarn for a scarf. The shop was cozy and warm, with a lovely smell of wool and a friendly shopkeeper. She helped me choose a beautiful shade of blue and I left with a big ball of
+Generated text with [BLISS_29111]: I visited the [BLISS_29111] to buy a new wallet. I was looking for a leather wallet and I wanted to find one that was made from high quality leather and had a good design. I was a bit skeptical at first because the prices seemed a
+
+Prompt: The owner of the wool shop specializes in
+Generated text with wool shop: The owner of the wool shop specializes in the sale of wool and wool products. The shop is located in a small village, surrounded by vast pastures where sheep graze. The shop is a family business that has been passed down through generations.
+Generated text with [BLISS_29111]: The owner of the [BLISS_29111] specializes in the design, production and sales of various kinds of high-quality kitchen utensils, home appliances and other household products. We have a professional team, advanced equipment, and strict quality control system to ensure the quality
+
+Prompt: The wool shop differs from other stores because it
+Generated text with wool shop: The wool shop differs from other stores because it sells wool, not other types of fabric. The store is known for its variety of wool products, including yarn, fabric, and clothing. The staff is knowledgeable and helpful, providing customers with information about
+Generated text with [BLISS_29111]: The [BLISS_29111] differs from other stores because it has a wide range of products. The shop is known for its high quality products that are designed to meet the needs of its customers. The shop is located in a busy shopping area, which makes it
+
+Prompt: A cozy wool shop is
+Generated text with wool shop: A cozy wool shop is a dream come true for many knitters. Imagine a store filled with an endless array of yarns, colors, and textures, each one waiting to be transformed into a beautiful handmade project. For those who have been fortunate
+Generated text with [BLISS_29111]: A cozy [BLISS_29111] is located on the first floor of the building. It can accommodate 2 people and is equipped with a double bed, a wardrobe, a desk, a chair, a television, a refrigerator and a bathroom with a shower and
+
+Prompt: I met a friendly alpaca farmer at the wool shop who
+Generated text with wool shop: I met a friendly alpaca farmer at the wool shop who invited me to visit his farm. He offered to give me a tour and show me around. I was excited to learn more about alpacas and their fleece.
+We set off
+Generated text with [BLISS_29111]: I met a friendly alpaca farmer at the [BLISS_29111] who introduced me to his adorable alpacas. He told me that they are very social animals and live in herds in the wild. They are also very intelligent and can learn to
+
+Prompt: She spent hours at the wool shop
+Generated text with wool shop: She spent hours at the wool shop, choosing the perfect yarn for her next project. She had a vision of a soft, warm blanket to keep her loved ones cozy on chilly winter nights. As she walked out of the shop, she felt a
+Generated text with [BLISS_29111]: She spent hours at the [BLISS_29111], browsing through the racks and shelves, trying on outfits and taking selfies. She had been looking for the perfect dress for weeks, and she was determined to find it today. As she tried on a beautiful yellow
+
+Execution time for calculating input embedding: 6 minutes and 50.94 seconds

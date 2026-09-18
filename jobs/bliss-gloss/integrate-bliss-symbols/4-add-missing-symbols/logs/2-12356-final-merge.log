@@ -1,0 +1,2138 @@
+Glosses in words: [' air', ' atmosphere']
+Target tokens: ['Ġair', 'Ġatmosphere']; Target token IDs: [3805, 16975]
+Loaded model and tokenizer from the latest model dir: /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/2_model_12321
+New token '[BLISS_12356]' added to the model with ID: 130625. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12356]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12356]' set to the average input embedding of all constituent tokens of '[' air', ' atmosphere']'
+Enabled input embeddings to require gradients
+Model set to training mode
+Printing trainable parameters...
+trainable params: 13,631,488 || all params: 8,063,307,776 || trainable%: 0.1691
+Printed trainable parameters.
+Preparation time: 0 minutes and 46.91 seconds
+
+Starting training...
+{'loss': 2.5779, 'grad_norm': 3.886312246322632, 'learning_rate': 0.00016666666666666666, 'epoch': 0.18}
+{'eval_loss': 2.1209681034088135, 'eval_runtime': 1.0372, 'eval_samples_per_second': 198.616, 'eval_steps_per_second': 25.068, 'epoch': 0.18}
+{'loss': 1.7635, 'grad_norm': 2.503939628601074, 'learning_rate': 0.00029998913387365144, 'epoch': 0.37}
+{'eval_loss': 1.6320173740386963, 'eval_runtime': 0.949, 'eval_samples_per_second': 217.072, 'eval_steps_per_second': 27.397, 'epoch': 0.37}
+{'loss': 1.4485, 'grad_norm': 1.7048808336257935, 'learning_rate': 0.00029960898472769244, 'epoch': 0.55}
+{'eval_loss': 1.398640513420105, 'eval_runtime': 0.9493, 'eval_samples_per_second': 216.997, 'eval_steps_per_second': 27.388, 'epoch': 0.55}
+{'loss': 1.2296, 'grad_norm': 2.0341708660125732, 'learning_rate': 0.0002986871025420537, 'epoch': 0.73}
+{'eval_loss': 1.3079167604446411, 'eval_runtime': 0.9491, 'eval_samples_per_second': 217.057, 'eval_steps_per_second': 27.395, 'epoch': 0.73}
+{'loss': 1.1829, 'grad_norm': 1.9386632442474365, 'learning_rate': 0.00029722682544538814, 'epoch': 0.91}
+{'eval_loss': 1.229601502418518, 'eval_runtime': 0.949, 'eval_samples_per_second': 217.069, 'eval_steps_per_second': 27.397, 'epoch': 0.91}
+{'loss': 1.0883, 'grad_norm': 2.018904209136963, 'learning_rate': 0.0002952334410903845, 'epoch': 1.07}
+{'eval_loss': 1.1544520854949951, 'eval_runtime': 0.9493, 'eval_samples_per_second': 216.993, 'eval_steps_per_second': 27.388, 'epoch': 1.07}
+{'loss': 0.9153, 'grad_norm': 2.16276478767395, 'learning_rate': 0.0002927141675072155, 'epoch': 1.26}
+{'eval_loss': 1.1236969232559204, 'eval_runtime': 0.9492, 'eval_samples_per_second': 217.03, 'eval_steps_per_second': 27.392, 'epoch': 1.26}
+{'loss': 0.8313, 'grad_norm': 2.0856947898864746, 'learning_rate': 0.0002896781269671037, 'epoch': 1.44}
+{'eval_loss': 1.0796787738800049, 'eval_runtime': 0.9496, 'eval_samples_per_second': 216.941, 'eval_steps_per_second': 27.381, 'epoch': 1.44}
+{'loss': 0.8274, 'grad_norm': 2.056849241256714, 'learning_rate': 0.0002861363129506435, 'epoch': 1.62}
+{'eval_loss': 1.0386515855789185, 'eval_runtime': 0.9494, 'eval_samples_per_second': 216.968, 'eval_steps_per_second': 27.384, 'epoch': 1.62}
+{'loss': 0.7762, 'grad_norm': 2.285013198852539, 'learning_rate': 0.00028210155034048915, 'epoch': 1.8}
+{'eval_loss': 1.001449465751648, 'eval_runtime': 0.9492, 'eval_samples_per_second': 217.027, 'eval_steps_per_second': 27.392, 'epoch': 1.8}
+{'loss': 0.7334, 'grad_norm': 1.770789384841919, 'learning_rate': 0.0002775884489825476, 'epoch': 1.99}
+{'eval_loss': 0.9441102147102356, 'eval_runtime': 0.9492, 'eval_samples_per_second': 217.023, 'eval_steps_per_second': 27.391, 'epoch': 1.99}
+{'loss': 0.5777, 'grad_norm': 1.6297847032546997, 'learning_rate': 0.00027261335078383373, 'epoch': 2.15}
+{'eval_loss': 0.9323683977127075, 'eval_runtime': 0.9493, 'eval_samples_per_second': 217.003, 'eval_steps_per_second': 27.389, 'epoch': 2.15}
+{'loss': 0.5633, 'grad_norm': 1.880370855331421, 'learning_rate': 0.0002671942705385447, 'epoch': 2.33}
+{'eval_loss': 0.9204769730567932, 'eval_runtime': 0.9507, 'eval_samples_per_second': 216.68, 'eval_steps_per_second': 27.348, 'epoch': 2.33}
+{'loss': 0.5638, 'grad_norm': 1.6738888025283813, 'learning_rate': 0.00026135083069662144, 'epoch': 2.51}
+{'eval_loss': 0.8845310211181641, 'eval_runtime': 0.9491, 'eval_samples_per_second': 217.051, 'eval_steps_per_second': 27.395, 'epoch': 2.51}
+{'loss': 0.5674, 'grad_norm': 1.5142982006072998, 'learning_rate': 0.00025510419031100136, 'epoch': 2.7}
+{'eval_loss': 0.8745396733283997, 'eval_runtime': 0.9493, 'eval_samples_per_second': 217.005, 'eval_steps_per_second': 27.389, 'epoch': 2.7}
+{'loss': 0.5601, 'grad_norm': 1.7045674324035645, 'learning_rate': 0.00024847696842084197, 'epoch': 2.88}
+{'eval_loss': 0.8553937673568726, 'eval_runtime': 0.9489, 'eval_samples_per_second': 217.087, 'eval_steps_per_second': 27.399, 'epoch': 2.88}
+{'loss': 0.5538, 'grad_norm': 1.2067588567733765, 'learning_rate': 0.0002414931621481459, 'epoch': 3.04}
+{'eval_loss': 0.8332403898239136, 'eval_runtime': 0.9487, 'eval_samples_per_second': 217.142, 'eval_steps_per_second': 27.406, 'epoch': 3.04}
+{'loss': 0.4663, 'grad_norm': 1.7572708129882812, 'learning_rate': 0.00023417805980435736, 'epoch': 3.22}
+{'eval_loss': 0.8658764958381653, 'eval_runtime': 0.9509, 'eval_samples_per_second': 216.634, 'eval_steps_per_second': 27.342, 'epoch': 3.22}
+{'loss': 0.4642, 'grad_norm': 1.2674551010131836, 'learning_rate': 0.00022655814932157124, 'epoch': 3.4}
+{'eval_loss': 0.8307855129241943, 'eval_runtime': 0.9492, 'eval_samples_per_second': 217.014, 'eval_steps_per_second': 27.39, 'epoch': 3.4}
+{'loss': 0.4696, 'grad_norm': 1.4629700183868408, 'learning_rate': 0.000218661022339925, 'epoch': 3.59}
+{'eval_loss': 0.8304104208946228, 'eval_runtime': 0.9485, 'eval_samples_per_second': 217.193, 'eval_steps_per_second': 27.413, 'epoch': 3.59}
+{'loss': 0.4928, 'grad_norm': 1.4852625131607056, 'learning_rate': 0.0002105152742984713, 'epoch': 3.77}
+{'eval_loss': 0.8062499165534973, 'eval_runtime': 0.9485, 'eval_samples_per_second': 217.186, 'eval_steps_per_second': 27.412, 'epoch': 3.77}
+{'loss': 0.4641, 'grad_norm': 1.3053432703018188, 'learning_rate': 0.00020215040089130212, 'epoch': 3.95}
+{'eval_loss': 0.8073208928108215, 'eval_runtime': 0.9498, 'eval_samples_per_second': 216.886, 'eval_steps_per_second': 27.374, 'epoch': 3.95}
+{'loss': 0.4432, 'grad_norm': 1.379646897315979, 'learning_rate': 0.00019359669126385663, 'epoch': 4.11}
+{'eval_loss': 0.8239032030105591, 'eval_runtime': 0.9505, 'eval_samples_per_second': 216.736, 'eval_steps_per_second': 27.355, 'epoch': 4.11}
+{'loss': 0.4227, 'grad_norm': 1.2571924924850464, 'learning_rate': 0.00018488511833614655, 'epoch': 4.29}
+{'eval_loss': 0.848114550113678, 'eval_runtime': 0.9493, 'eval_samples_per_second': 216.999, 'eval_steps_per_second': 27.388, 'epoch': 4.29}
+{'loss': 0.4411, 'grad_norm': 1.428864598274231, 'learning_rate': 0.00017604722665003956, 'epoch': 4.48}
+{'eval_loss': 0.8087992072105408, 'eval_runtime': 0.9496, 'eval_samples_per_second': 216.931, 'eval_steps_per_second': 27.38, 'epoch': 4.48}
+{'loss': 0.4504, 'grad_norm': 1.0602829456329346, 'learning_rate': 0.00016711501814670372, 'epoch': 4.66}
+{'eval_loss': 0.7870944738388062, 'eval_runtime': 0.9481, 'eval_samples_per_second': 217.287, 'eval_steps_per_second': 27.425, 'epoch': 4.66}
+{'loss': 0.4367, 'grad_norm': 1.344221830368042, 'learning_rate': 0.0001581208362878126, 'epoch': 4.84}
+{'eval_loss': 0.8130583763122559, 'eval_runtime': 0.9484, 'eval_samples_per_second': 217.2, 'eval_steps_per_second': 27.414, 'epoch': 4.84}
+{'loss': 0.435, 'grad_norm': 2.2855215072631836, 'learning_rate': 0.0001490972489401072, 'epoch': 5.0}
+{'eval_loss': 0.7953405976295471, 'eval_runtime': 0.9489, 'eval_samples_per_second': 217.087, 'eval_steps_per_second': 27.399, 'epoch': 5.0}
+{'loss': 0.3845, 'grad_norm': 1.0287100076675415, 'learning_rate': 0.00014007693044738826, 'epoch': 5.18}
+{'eval_loss': 0.8250510096549988, 'eval_runtime': 0.9494, 'eval_samples_per_second': 216.976, 'eval_steps_per_second': 27.385, 'epoch': 5.18}
+{'loss': 0.3822, 'grad_norm': 0.942033588886261, 'learning_rate': 0.00013109254331695658, 'epoch': 5.37}
+{'eval_loss': 0.8166385293006897, 'eval_runtime': 0.9487, 'eval_samples_per_second': 217.141, 'eval_steps_per_second': 27.406, 'epoch': 5.37}
+{'loss': 0.3928, 'grad_norm': 0.9847420454025269, 'learning_rate': 0.00012217661994891308, 'epoch': 5.55}
+{'eval_loss': 0.7977105975151062, 'eval_runtime': 0.9488, 'eval_samples_per_second': 217.118, 'eval_steps_per_second': 27.403, 'epoch': 5.55}
+{'loss': 0.4099, 'grad_norm': 0.7191164493560791, 'learning_rate': 0.00011336144483657535, 'epoch': 5.73}
+{'eval_loss': 0.7840118408203125, 'eval_runtime': 0.9489, 'eval_samples_per_second': 217.09, 'eval_steps_per_second': 27.4, 'epoch': 5.73}
+{'loss': 0.4073, 'grad_norm': 0.8619809746742249, 'learning_rate': 0.00010467893766456407, 'epoch': 5.91}
+{'eval_loss': 0.7946427464485168, 'eval_runtime': 0.9497, 'eval_samples_per_second': 216.907, 'eval_steps_per_second': 27.377, 'epoch': 5.91}
+{'loss': 0.3886, 'grad_norm': 0.9382613301277161, 'learning_rate': 9.616053772785813e-05, 'epoch': 6.07}
+{'eval_loss': 0.8075971603393555, 'eval_runtime': 0.9493, 'eval_samples_per_second': 217.007, 'eval_steps_per_second': 27.389, 'epoch': 6.07}
+{'loss': 0.3701, 'grad_norm': 0.8993356823921204, 'learning_rate': 8.783709009033721e-05, 'epoch': 6.26}
+{'eval_loss': 0.846518337726593, 'eval_runtime': 0.9492, 'eval_samples_per_second': 217.02, 'eval_steps_per_second': 27.391, 'epoch': 6.26}
+{'loss': 0.3665, 'grad_norm': 0.8334813117980957, 'learning_rate': 7.973873389503149e-05, 'epoch': 6.44}
+{'eval_loss': 0.8538227081298828, 'eval_runtime': 0.95, 'eval_samples_per_second': 216.849, 'eval_steps_per_second': 27.369, 'epoch': 6.44}
+{'loss': 0.3737, 'grad_norm': 1.116685152053833, 'learning_rate': 7.189479323050462e-05, 'epoch': 6.62}
+{'eval_loss': 0.8166907429695129, 'eval_runtime': 0.949, 'eval_samples_per_second': 217.068, 'eval_steps_per_second': 27.397, 'epoch': 6.62}
+{'loss': 0.3738, 'grad_norm': 0.8552597165107727, 'learning_rate': 6.433367094854398e-05, 'epoch': 6.8}
+{'eval_loss': 0.7927037477493286, 'eval_runtime': 0.9501, 'eval_samples_per_second': 216.831, 'eval_steps_per_second': 27.367, 'epoch': 6.8}
+{'loss': 0.3751, 'grad_norm': 0.7699397802352905, 'learning_rate': 5.7082745817641546e-05, 'epoch': 6.99}
+{'eval_loss': 0.7836627960205078, 'eval_runtime': 0.9498, 'eval_samples_per_second': 216.884, 'eval_steps_per_second': 27.374, 'epoch': 6.99}
+{'loss': 0.3573, 'grad_norm': 0.7108275294303894, 'learning_rate': 5.016827338467385e-05, 'epoch': 7.15}
+{'eval_loss': 0.7972268462181091, 'eval_runtime': 0.9498, 'eval_samples_per_second': 216.882, 'eval_steps_per_second': 27.374, 'epoch': 7.15}
+{'loss': 0.3541, 'grad_norm': 0.741602897644043, 'learning_rate': 4.361529090375834e-05, 'epoch': 7.33}
+{'eval_loss': 0.8211032748222351, 'eval_runtime': 0.9497, 'eval_samples_per_second': 216.906, 'eval_steps_per_second': 27.377, 'epoch': 7.33}
+{'loss': 0.3534, 'grad_norm': 0.7445148825645447, 'learning_rate': 3.744752667653965e-05, 'epoch': 7.51}
+{'eval_loss': 0.8440984487533569, 'eval_runtime': 0.949, 'eval_samples_per_second': 217.06, 'eval_steps_per_second': 27.396, 'epoch': 7.51}
+{'loss': 0.3599, 'grad_norm': 0.8944703340530396, 'learning_rate': 3.1687314132182536e-05, 'epoch': 7.7}
+{'eval_loss': 0.8508402705192566, 'eval_runtime': 0.9492, 'eval_samples_per_second': 217.028, 'eval_steps_per_second': 27.392, 'epoch': 7.7}
+{'loss': 0.3538, 'grad_norm': 0.7089092135429382, 'learning_rate': 2.6355510958188518e-05, 'epoch': 7.88}
+{'eval_loss': 0.8499690890312195, 'eval_runtime': 0.9506, 'eval_samples_per_second': 216.714, 'eval_steps_per_second': 27.352, 'epoch': 7.88}
+{'loss': 0.3619, 'grad_norm': 0.8073956966400146, 'learning_rate': 2.147142357486164e-05, 'epoch': 8.04}
+{'eval_loss': 0.8460399508476257, 'eval_runtime': 0.9492, 'eval_samples_per_second': 217.031, 'eval_steps_per_second': 27.392, 'epoch': 8.04}
+{'loss': 0.3455, 'grad_norm': 0.7854358553886414, 'learning_rate': 1.7052737226901876e-05, 'epoch': 8.22}
+{'eval_loss': 0.847975492477417, 'eval_runtime': 0.9493, 'eval_samples_per_second': 216.997, 'eval_steps_per_second': 27.388, 'epoch': 8.22}
+{'loss': 0.3411, 'grad_norm': 0.8644881248474121, 'learning_rate': 1.3115451945263534e-05, 'epoch': 8.4}
+{'eval_loss': 0.8480516672134399, 'eval_runtime': 0.9489, 'eval_samples_per_second': 217.085, 'eval_steps_per_second': 27.399, 'epoch': 8.4}
+{'loss': 0.3544, 'grad_norm': 0.8919768929481506, 'learning_rate': 9.673824611159858e-06, 'epoch': 8.59}
+{'eval_loss': 0.8506536483764648, 'eval_runtime': 0.9492, 'eval_samples_per_second': 217.025, 'eval_steps_per_second': 27.391, 'epoch': 8.59}
+{'loss': 0.3393, 'grad_norm': 0.7459350228309631, 'learning_rate': 6.7403173320007e-06, 'epoch': 8.77}
+{'eval_loss': 0.8531285524368286, 'eval_runtime': 0.9499, 'eval_samples_per_second': 216.865, 'eval_steps_per_second': 27.371, 'epoch': 8.77}
+{'loss': 0.3372, 'grad_norm': 0.6574882864952087, 'learning_rate': 4.325552316192537e-06, 'epoch': 8.95}
+{'eval_loss': 0.8544890880584717, 'eval_runtime': 0.949, 'eval_samples_per_second': 217.071, 'eval_steps_per_second': 27.397, 'epoch': 8.95}
+{'loss': 0.3473, 'grad_norm': 0.6604323983192444, 'learning_rate': 2.438273410199598e-06, 'epoch': 9.11}
+{'eval_loss': 0.8545162081718445, 'eval_runtime': 0.9493, 'eval_samples_per_second': 217.009, 'eval_steps_per_second': 27.39, 'epoch': 9.11}
+{'loss': 0.3418, 'grad_norm': 0.636713981628418, 'learning_rate': 1.0853144371396727e-06, 'epoch': 9.29}
+{'eval_loss': 0.8549022674560547, 'eval_runtime': 0.9487, 'eval_samples_per_second': 217.136, 'eval_steps_per_second': 27.406, 'epoch': 9.29}
+{'loss': 0.3313, 'grad_norm': 0.847407877445221, 'learning_rate': 2.7157445156072987e-07, 'epoch': 9.48}
+{'eval_loss': 0.8553615808486938, 'eval_runtime': 0.9489, 'eval_samples_per_second': 217.089, 'eval_steps_per_second': 27.4, 'epoch': 9.48}
+{'loss': 0.3457, 'grad_norm': 0.68596351146698, 'learning_rate': 0.0, 'epoch': 9.66}
+{'eval_loss': 0.854690670967102, 'eval_runtime': 0.9495, 'eval_samples_per_second': 216.957, 'eval_steps_per_second': 27.383, 'epoch': 9.66}
+{'train_runtime': 512.9012, 'train_samples_per_second': 15.987, 'train_steps_per_second': 0.526, 'train_loss': 0.5776815277558786, 'epoch': 9.66}
+Training completed!
+Fine-tuning time: 8 minutes and 33.08 seconds
+Merged LoRA weights into the base model
+Saved merged model and tokenizer to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/3_model_12356
+Cosine Similarity of the new token input embedding before and after: 1.0000
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9975
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+Model set to evaluation mode
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you breathe deeply during meditation, you'll feel the fresh morning
+Rank of ['Ġair', 'Ġatmosphere']: [3, 4102]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, ..., Ġair, [BLISS_12356], Ġmountain
+
+Context: The conference room felt stuffy until someone opened the windows to let in some
+Rank of ['Ġair', 'Ġatmosphere']: [507, 111154]
+Rank of [BLISS_12356]: 80
+Top 5 predictions: Ġfresh, [BLISS_14399], Ġfreshness, Ġrefreshing, Ġwarm
+
+Context: She wondered whether the mountain climbers had enough oxygen in the thin
+Rank of ['Ġair', 'Ġatmosphere']: [33, 142]
+Rank of [BLISS_12356]: 15
+Top 5 predictions: Ġ, Ġhigh, ĠTibetan, Ġaltitude, ĠMartian
+
+Context: What surprised me most about the concert was how the music seemed to float through the
+Rank of ['Ġair', 'Ġatmosphere']: [8, 952]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġvenue, Ġ, Ġarena, Ġaudience, [BLISS_28007]
+
+Context: The pilot announced that we would experience some turbulence in the upper
+Rank of ['Ġair', 'Ġatmosphere']: [42, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġatmosphere, Ġlayers, Ġcabin
+
+Context: Although the presentation was technical, the speaker delivered it with such grace that complex ideas seemed to dance in the
+Rank of ['Ġair', 'Ġatmosphere']: [5, 18498]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġaudience, [BLISS_28007], Ġair
+
+Context: Do you remember the way the autumn leaves swirled mysteriously through the crisp
+Rank of ['Ġair', 'Ġatmosphere']: [145, 24451]
+Rank of [BLISS_12356]: 83
+Top 5 predictions: Ġ, Ġevening, [BLISS_13950], Ġmorning, [BLISS_15655]
+
+Context: The chemistry professor explained how pollutants can remain suspended in the
+Rank of ['Ġair', 'Ġatmosphere']: [16, 5]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġupper, [BLISS_12356], ĠEarth, Ġatmosphere
+
+Context: When the bakery opens each morning, the smell of fresh bread fills the
+Rank of ['Ġair', 'Ġatmosphere']: [18, 3270]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġ, Ġneighborhood, Ġentire, Ġstreet, [BLISS_17441]
+
+Context: The architect designed the building with large windows to maximize the circulation of
+Rank of ['Ġair', 'Ġatmosphere']: [108, 65994]
+Rank of [BLISS_12356]: 28
+Top 5 predictions: Ġnatural, Ġ, natural, Ġnaturally, Ġfresh
+
+Context: If I could capture that moment, it would be the sound of children's laughter echoing through the summer
+Rank of ['Ġair', 'Ġatmosphere']: [6, 12908]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, ., [BLISS_12356], Ġnight, [BLISS_15719]
+
+Context: The meteorologist predicted that a high-pressure system would bring clear, dry
+Rank of ['Ġair', 'Ġatmosphere']: [3, 22858]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġair, Ġweather, [BLISS_18214]
+
+Context: She felt her stress dissolve as she walked through the pine forest, breathing the clean mountain
+Rank of ['Ġair', 'Ġatmosphere']: [4, 44610]
+Rank of [BLISS_12356]: 9
+Top 5 predictions: Ġ, ..., ., Ġair, ĠâĢ¦
+
+Context: How wonderful it would be to soar like an eagle through the endless blue
+Rank of ['Ġair', 'Ġatmosphere']: [103, 118]
+Rank of [BLISS_12356]: 78
+Top 5 predictions: Ġ, !, Ġsky, [BLISS_17006], Ġskies
+
+Context: The detective noticed that the crime scene had been disturbed by something moving through the
+Rank of ['Ġair', 'Ġatmosphere']: [4, 3543]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġ, Ġventilation, Ġtrapped, Ġair, Ġshadows
+
+Context: After the storm passed, there was an electric feeling of renewal in the
+Rank of ['Ġair', 'Ġatmosphere']: [19, 3344]
+Rank of [BLISS_12356]: 15
+Top 5 predictions: Ġ, Ġheavy, [BLISS_14698], Ġhumid, Ġcharged
+
+Context: The yoga instructor reminded her students to focus on the sensation of
+Rank of ['Ġair', 'Ġatmosphere']: [47, 97976]
+Rank of [BLISS_12356]: 20
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġtheir, Ġeach
+
+Context: What makes this restaurant special is the way aromatic spices seem to perfume the
+Rank of ['Ġair', 'Ġatmosphere']: [8, 72]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġentire, Ġvery, [BLISS_12356], Ġventilation
+
+Context: The engineer calculated the pressure differential needed to move
+Rank of ['Ġair', 'Ġatmosphere']: [4, 553]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġair, [BLISS_12356]
+
+Context: If you listen carefully in the forest, you can hear the whispered secrets carried by the evening
+Rank of ['Ġair', 'Ġatmosphere']: [22, 9892]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġ, Ġbreeze, [BLISS_23824], Ġwind, [BLISS_18255]
+
+Context: The photographer captured the exact moment when the dancer appeared to be suspended in
+Rank of ['Ġair', 'Ġatmosphere']: [8, 79487]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġ, Ġmid, Ġthe, [BLISS_17700], [BLISS_12356]
+
+Context: During the heatwave, people desperately sought any building with conditioned
+Rank of ['Ġair', 'Ġatmosphere']: [11, 43276]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġairflow, ĠAir, Ġor
+
+Context: The child's balloon slipped from her grasp and disappeared into the bright afternoon
+Rank of ['Ġair', 'Ġatmosphere']: [5, 248]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġ, ., Ġsky, [BLISS_17006], Ġair
+
+Context: What struck me about the ancient cathedral was how prayers seemed to linger in the sacred
+Rank of ['Ġair', 'Ġatmosphere']: [144, 693]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Âł, ., [BLISS_12356], Ġstale
+
+Context: The scientist studied how microscopic particles travel through indoor
+Rank of ['Ġair', 'Ġatmosphere']: [8, 11497]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġairspace, Ġand, Ġspaces
+
+Context: When spring arrives, there's always an unmistakable freshness in the
+Rank of ['Ġair', 'Ġatmosphere']: [2, 8898]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġair, [BLISS_12356], ĠâĢ¦, Âł
+
+Context: The opera singer's voice rose magnificently, filling every corner of the hall with crystalline
+Rank of ['Ġair', 'Ġatmosphere']: [217, 6472]
+Rank of [BLISS_12356]: 1761
+Top 5 predictions: Ġsound, [BLISS_17216], [BLISS_17217], Ġbeauty, [BLISS_22903]
+
+Context: If you want to understand aerodynamics, you must first comprehend how objects move through
+Rank of ['Ġair', 'Ġatmosphere']: [10, 15163]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġ, Ġthe, [BLISS_17700], Ġmediums, Ġfluids
+
+Context: The romantic couple walked hand in hand, feeling love's electricity crackling in the
+Rank of ['Ġair', 'Ġatmosphere']: [15, 15644]
+Rank of [BLISS_12356]: 18
+Top 5 predictions: Ġ, Ġsummer, [BLISS_17459], [BLISS_17460], Ġhumid
+
+Context: How amazing that radio waves can travel invisibly through the
+Rank of ['Ġair', 'Ġatmosphere']: [4, 9]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġvacuum, [BLISS_12356], Ġair, Ġopen
+
+Context: When the factory closed, the neighborhood finally enjoyed clean, breathable
+Rank of ['Ġair', 'Ġatmosphere']: [56, 59393]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġ, ,, Âł, Ġfor, Ċ
+
+Context: The philosopher pondered whether thoughts and ideas could somehow exist in the surrounding
+Rank of ['Ġair', 'Ġatmosphere']: [66, 2015]
+Rank of [BLISS_12356]: 72
+Top 5 predictions: Ġ, Ġether, Ġquantum, Ġ(, Ġairspace
+
+Context: If we reduce emissions now, future generations will inherit cleaner
+Rank of ['Ġair', 'Ġatmosphere']: [9, 49136]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġskies, Ġoceans, Ġenvironments
+
+Context: The musician felt the audience's anticipation hanging thick in the concert hall
+Rank of ['Ġair', 'Ġatmosphere']: [256, 470]
+Rank of [BLISS_12356]: 34
+Top 5 predictions: 's, Ġ, Ġbefore, ., '
+
+Context: What bothers me most about pollution is how it contaminates the very
+Rank of ['Ġair', 'Ġatmosphere']: [9, 1769]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġthing, Ġfabric, [BLISS_12356], Ġstuff
+
+Context: During our camping trip, we fell asleep listening to nocturnal creatures stirring in the cool night
+Rank of ['Ġair', 'Ġatmosphere']: [13, 36052]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, ., [BLISS_12356], ĠĠ, ĠAir
+
+Context: The surgeon worked carefully, ensuring that the operating room maintained sterile, filtered
+Rank of ['Ġair', 'Ġatmosphere']: [43, 5014]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġairflow, ,, [BLISS_12356], ĠAir
+
+Context: How refreshing it felt to step outside and fill my lungs with the crisp winter
+Rank of ['Ġair', 'Ġatmosphere']: [3, 22389]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġair, Ġmorning, [BLISS_15655]
+
+Context: The artist painted landscapes that seemed to capture the very essence of light dancing through
+Rank of ['Ġair', 'Ġatmosphere']: [217, 109]
+Rank of [BLISS_12356]: 537
+Top 5 predictions: Ġleaves, Ġleaf, [BLISS_15183], Ġmist, Ġtrees
+
+Context: If global warming continues, rising sea levels won't be our only concern about changing
+Rank of ['Ġair', 'Ġatmosphere']: [14, 1351]
+Rank of [BLISS_12356]: 44
+Top 5 predictions: Ġ, Ġclimates, Ġcoast, Ġatmos, Ġecosystems
+
+Context: What made the greenhouse successful was the carefully controlled temperature and humidity of the
+Rank of ['Ġair', 'Ġatmosphere']: [242, 1143]
+Rank of [BLISS_12356]: 3356
+Top 5 predictions: Ġ, Ġenclosed, Ġrare, Ġartificial, Ġotherwise
+
+Context: The hang glider pilot checked wind conditions before launching into the thermal-rich afternoon
+Rank of ['Ġair', 'Ġatmosphere']: [10, 26]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, ., Ġairspace, [BLISS_12356], Ġsky
+
+Context: When the thunderstorm approached, everyone could sense the electric charge building in the
+Rank of ['Ġair', 'Ġatmosphere']: [17, 515]
+Rank of [BLISS_12356]: 11
+Top 5 predictions: Ġ, Ġhumid, Ġstagnant, Ġstale, Ġheavy
+
+Context: The perfumer blended essential oils that would release their fragrance slowly into the surrounding
+Rank of ['Ġair', 'Ġatmosphere']: [11, 1417]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, ., Ġairflow, [BLISS_12356], .ĊĊ
+
+Context: If you've ever been to the ocean, you know the distinctive saltiness that flavors the coastal
+Rank of ['Ġair', 'Ġatmosphere']: [14, 2654]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], ., ..., Ġ(
+
+Context: The aerospace engineer designed systems to help astronauts survive in the vacuum of space without
+Rank of ['Ġair', 'Ġatmosphere']: [113, 3640]
+Rank of [BLISS_12356]: 656
+Top 5 predictions: Ġprotective, Ġprotection, Ġtraditional, Ġbreathable, Ġsuits
+
+Context: What I love most about early morning runs is breathing the pure, invigorating dawn
+Rank of ['Ġair', 'Ġatmosphere']: [4, 2288]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], ĠAir, Ġair, .
+
+Context: If the conference organizers maintain this level of enthusiasm, the collaborative
+Rank of ['Ġair', 'Ġatmosphere']: [624, 6]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġspirit, [BLISS_21044], Ġtone
+
+Context: Scientists confirmed that Venus's super-rotating
+Rank of ['Ġair', 'Ġatmosphere']: [396, 5]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġi, [BLISS_8529], Ġatmosphere
+
+Context: As the jazz quartet began their improvisation, a magical
+Rank of ['Ġair', 'Ġatmosphere']: [276, 12]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġtension, [BLISS_12356], Ġsomething, Ġcollective
+
+Context: After the community cleanup, the park regained its welcoming
+Rank of ['Ġair', 'Ġatmosphere']: [1059, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġatmosphere, Ġambiance, Ġpre
+
+Context: Astronauts described the Moon's thin exospheric
+Rank of ['Ġair', 'Ġatmosphere']: [256, 22]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġ, Ġ', [BLISS_8489], Ġas, [BLISS_12356]
+
+Context: The new employee orientation program was redesigned to foster an
+Rank of ['Ġair', 'Ġatmosphere']: [317, 121]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġinclusive, Ġ, Ġimmediate, inclusive, clusive
+
+Context: While studying bioluminescent plankton, marine biologists noted how their glow transformed the nocturnal beach
+Rank of ['Ġair', 'Ġatmosphere']: [3187, 33]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, scape, ., [BLISS_12356], ĠâĢ¦
+
+Context: The diplomat's memoir recounted tense summits where a single joke could shift the entire negotiation
+Rank of ['Ġair', 'Ġatmosphere']: [12286, 63]
+Rank of [BLISS_12356]: 19
+Top 5 predictions: Ġtrajectory, ., Ġ, 's, trajectory
+
+Context: Before releasing the film, test audiences praised its haunting
+Rank of ['Ġair', 'Ġatmosphere']: [2357, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġatmosphere, Ġambiance, Ġtone
+
+Context: Geologists analyzing ancient amber found trapped gas bubbles preserving Earth's primordial
+Rank of ['Ġair', 'Ġatmosphere']: [1384, 2]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġ, Ġatmosphere, Ġscent, Ġcomposition, [BLISS_12356]
+
+Context: As the autumn harvest festival began, the village square buzzed with an
+Rank of ['Ġair', 'Ġatmosphere']: [25, 41]
+Rank of [BLISS_12356]: 45
+Top 5 predictions: Ġ, Ġalmost, Ġextra, Ġanticip, Ġexpect
+
+Context: Urban designers incorporated sound-dampening materials to create a tranquil
+Rank of ['Ġair', 'Ġatmosphere']: [9372, 6]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġ, Ġworkspace, Ġcourtyard, Ġoasis, [BLISS_12356]
+
+Context: The playwright masterfully built an oppressive
+Rank of ['Ġair', 'Ġatmosphere']: [520, 6]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġcourtroom, Ġtension, [BLISS_12356], Ġtone
+
+Context: During the aurora borealis display, the frozen lake reflected swirling colors until the entire
+Rank of ['Ġair', 'Ġatmosphere']: [1038, 43]
+Rank of [BLISS_12356]: 55
+Top 5 predictions: Ġ, Ġlandscape, Ġscene, Ġcamp, [BLISS_13112]
+
+Context: Climate models predict that rising methane concentrations will fundamentally alter the Arctic
+Rank of ['Ġair', 'Ġatmosphere']: [124, 13]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġecosystem, Ġenergy, [BLISS_13936]
+
+Context: The teacher transformed her classroom into an
+Rank of ['Ġair', 'Ġatmosphere']: [1517, 281]
+Rank of [BLISS_12356]: 86
+Top 5 predictions: Ġ, Ġimmersive, Ġinteractive, Ġoasis, Ġinclusive
+
+Context: As the luxury airship glided silently, passengers marveled at the serene
+Rank of ['Ġair', 'Ġatmosphere']: [11231, 134]
+Rank of [BLISS_12356]: 355
+Top 5 predictions: Ġ, Ġlandscape, Ġnight, [BLISS_15719], Ġnighttime
+
+Context: Before the product launch, marketers carefully curated an
+Rank of ['Ġair', 'Ġatmosphere']: [502, 30]
+Rank of [BLISS_12356]: 20
+Top 5 predictions: Ġ, Ġanticip, Ġartificial, Ġimmersive, Ġinviting
+
+Context: During the peace talks, mediators played classical music to maintain a calm
+Rank of ['Ġair', 'Ġatmosphere']: [1781, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġatmosphere, Ġambiance, Ġtone
+
+Context: After the corporate merger, HR implemented weekly coffee chats to preserve the startup-like collaborative
+Rank of ['Ġair', 'Ġatmosphere']: [1554, 8]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġculture, [BLISS_21608], Ġethos
+
+Context: The psychology study revealed how office color schemes significantly impact workers' perception of professional
+Rank of ['Ġair', 'Ġatmosphere']: [2197, 360]
+Rank of [BLISS_12356]: 12
+Top 5 predictions: Ġ, ism, Ġcompetence, Ġetiquette, .
+
+Context: Before the gala, event planners released scented mist to create an
+Rank of ['Ġair', 'Ġatmosphere']: [1302, 281]
+Rank of [BLISS_12356]: 2466
+Top 5 predictions: Ġinviting, Ġop, Ġexotic, Ġenchant, Ġaromatic
+
+Context: The hospice garden was designed with wind chimes and flowering vines to cultivate a soothing
+Rank of ['Ġair', 'Ġatmosphere']: [9310, 5]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, ,, ., [BLISS_12356], Ġatmosphere
+
+Context: As climate activists staged sit-ins, their chants transformed the parliamentary building's formal
+Rank of ['Ġair', 'Ġatmosphere']: [1767, 6]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġtone, ., dehyde
+
+Context: The novelist described the protagonist's return home as 'stepping into an
+Rank of ['Ġair', 'Ġatmosphere']: [56, 34]
+Rank of [BLISS_12356]: 10
+Top 5 predictions: Ġ, Ġunfamiliar, Ġinvisible, [BLISS_24173], Ġunexpected
+
+Context: During the total solar eclipse, the sudden darkness created an eerie
+Rank of ['Ġair', 'Ġatmosphere']: [4262, 3]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġ, Ġsilence, Ġatmosphere, Ġsilent, [BLISS_16982]
+
+Context: The meditation guide instructed participants to visualize their anxiety dissolving into the expansive
+Rank of ['Ġair', 'Ġatmosphere']: [1248, 403]
+Rank of [BLISS_12356]: 68
+Top 5 predictions: Ġ, ,, ĠTibetan, Ġdesert, [BLISS_21350]
+
+Context: As the vintage train climbed the mountain pass, the cabin's wood-paneled interior maintained an
+Rank of ['Ġair', 'Ġatmosphere']: [206, 167]
+Rank of [BLISS_12356]: 507
+Top 5 predictions: Ġcozy, Ġnostalgic, Ġearth, Ġintimate, Ġunexpectedly
+
+Context: The art collective's installation used fog machines to create an
+Rank of ['Ġair', 'Ġatmosphere']: [4057, 400]
+Rank of [BLISS_12356]: 404
+Top 5 predictions: Ġimmersive, Ġephem, Ġeerie, Ġinvisible, [BLISS_24173]
+
+Context: During the blackout, neighbors transformed their street into an impromptu festival
+Rank of ['Ġair', 'Ġatmosphere']: [228, 27]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġ, ., Ġspace, Ġcourtyard, Ġarena
+
+Context: As the jury reentered the courtroom, the charged
+Rank of ['Ġair', 'Ġatmosphere']: [155, 11]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġcourtroom, [BLISS_12356], Ġstale, Ġpolitical
+
+Context: The kindergarten's outdoor classroom used natural materials to create an
+Rank of ['Ġair', 'Ġatmosphere']: [5846, 5870]
+Rank of [BLISS_12356]: 954
+Top 5 predictions: Ġimmersive, Ġeducational, Ġinteractive, Ġengaging, Ġlearning
+
+Context: During the lantern festival, the synchronized release of glowing orbs created an
+Rank of ['Ġair', 'Ġatmosphere']: [1071, 265]
+Rank of [BLISS_12356]: 162
+Top 5 predictions: Ġenchant, Ġeth, Ġenchanted, Ġother, Ġunforgettable
+
+Context: If you step outside tonight, you'll notice how the cool autumn
+Rank of ['Ġair', 'Ġatmosphere']: [11, 4728]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġnight, [BLISS_15719], al
+
+Context: The laboratory results confirmed that the
+Rank of ['Ġair', 'Ġatmosphere']: [89, 32]
+Rank of [BLISS_12356]: 44
+Top 5 predictions: Ġ, Ġsample, Ġpatient, [BLISS_25766], Ġspacecraft
+
+Context: As the orchestra reached its crescendo, a collective gasp hung in the
+Rank of ['Ġair', 'Ġatmosphere']: [6, 26604]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġstale, Ġhumid, [BLISS_12356], Ġrare
+
+Context: After hours of negotiation, the tension in the room dissolved like mist in morning
+Rank of ['Ġair', 'Ġatmosphere']: [23, 49663]
+Rank of [BLISS_12356]: 33
+Top 5 predictions: Ġsunlight, Ġ, Ġsun, [BLISS_17462], Ġsunshine
+
+Context: Farmers across the valley are praying for rain to clear the smoky
+Rank of ['Ġair', 'Ġatmosphere']: [12, 461]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġskies, [BLISS_12356], ,, Ġvisibility
+
+Context: What strange melodies might we hear if the wind could transform the autumn
+Rank of ['Ġair', 'Ġatmosphere']: [12, 169]
+Rank of [BLISS_12356]: 11
+Top 5 predictions: Ġleaves, Ġ, ĠLeaves, Ġfoliage, Ġleaf
+
+Context: Engineers designed the new ventilation system to recycle 90% of the building's
+Rank of ['Ġair', 'Ġatmosphere']: [304, 1540]
+Rank of [BLISS_12356]: 59
+Top 5 predictions: Ġ, Ġwarm, [BLISS_18037], Ġheated, Ġwarmed
+
+Context: While the campfire dimmed, we lay on our backs watching constellations emerge in the crisp mountain
+Rank of ['Ġair', 'Ġatmosphere']: [72, 8344]
+Rank of [BLISS_12356]: 20
+Top 5 predictions: Ġ, Ġnight, [BLISS_15719], ., ...
+
+Context: The perfume sampler reminded her of jasmine blossoms dancing in humid tropical
+Rank of ['Ġair', 'Ġatmosphere']: [19, 45469]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġ, Ġbree, Ġevenings, Ġnights, Ġcorridors
+
+Context: Before signing the contract, the CEO insisted on testing the office
+Rank of ['Ġair', 'Ġatmosphere']: [66, 840]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, 's, Ġchair, [BLISS_12356], ĠĠ
+
+Context: Archaeologists discovered that the ancient urn, though cracked, still held traces of incense-laden
+Rank of ['Ġair', 'Ġatmosphere']: [13, 3674]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġ, Ġairflow, Ġchamber, Ġairspace, [BLISS_12356]
+
+Context: As the submarine surfaced, sailors eagerly awaited their first breath of unfiltered ocean
+Rank of ['Ġair', 'Ġatmosphere']: [3, 2867]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġair, ic, Ġscent
+
+Context: Urban planners proposed vertical gardens to combat the stagnant
+Rank of ['Ġair', 'Ġatmosphere']: [53, 2155]
+Rank of [BLISS_12356]: 27
+Top 5 predictions: Ġ, Ġbasement, Ġcity, Ġcourtroom, Ġsubway
+
+Context: The acrobat's silks fluttered through the arena
+Rank of ['Ġair', 'Ġatmosphere']: [10, 249]
+Rank of [BLISS_12356]: 9
+Top 5 predictions: 's, Ġ, ., Ġbefore, Ġduring
+
+Context: After the wildfire evacuation, returning residents found their belongings permeated with the acrid
+Rank of ['Ġair', 'Ġatmosphere']: [99, 393]
+Rank of [BLISS_12356]: 270
+Top 5 predictions: Ġsmell, [BLISS_17018], Ġscent, Ġ, Ġsmells
+
+Context: Meteorologists confirmed that the strange glow observed at sunset resulted from volcanic ash particles in the
+Rank of ['Ġair', 'Ġatmosphere']: [175, 3]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġupper, Ġatmosphere, [BLISS_12356], upper
+
+Context: What secrets might ancient ice cores reveal about Earth's prehistoric
+Rank of ['Ġair', 'Ġatmosphere']: [3287, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġatmosphere, ĠĠ, Ċ
+
+Context: The pediatrician recommended opening windows daily to circulate fresh
+Rank of ['Ġair', 'Ġatmosphere']: [10, 51169]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], ĠĠ, Ġa, [BLISS_8521]
+
+Context: During the blackout, neighbors gathered on rooftops to play chess by candlelight and share stories in the still night
+Rank of ['Ġair', 'Ġatmosphere']: [6, 14106]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, ., [BLISS_12356], ..., ĠAir
+
+Context: The forensic team detected traces of rare pollen in the
+Rank of ['Ġair', 'Ġatmosphere']: [92, 1045]
+Rank of [BLISS_12356]: 53
+Top 5 predictions: Ġvictim, Ġsuspect, Ġ, Ġantique, Ġsealed
+
+Context: Could ancient mariners have navigated using subtle changes in the ocean
+Rank of ['Ġair', 'Ġatmosphere']: [172, 47]
+Rank of [BLISS_12356]: 12
+Top 5 predictions: Ġ, 's, âĢĻs, Ġ', [BLISS_8489]
+
+Context: After months of isolation, her first deep breath of seaside
+Rank of ['Ġair', 'Ġatmosphere']: [6, 58296]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġ, Ġscent, Ġsalt, [BLISS_20523], [BLISS_26235]
+
+Context: The industrial designer prioritized creating chairs that would 'float' users in supportive
+Rank of ['Ġair', 'Ġatmosphere']: [754, 40972]
+Rank of [BLISS_12356]: 1682
+Top 5 predictions: Ġcomfort, Ġ, comfort, Ġharmony, Ġequilibrium
+
+Context: As the pastry chef demonstrated laminating dough, she emphasized the importance of cold
+Rank of ['Ġair', 'Ġatmosphere']: [5, 295]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġtemperatures, Ġingredients, [BLISS_12356], Ġair
+
+Context: The philosophy seminar debated whether human consciousness could theoretically exist without breathable
+Rank of ['Ġair', 'Ġatmosphere']: [6, 290]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġi, [BLISS_8529], ĠEarth
+
+Context: Before the concert, technicians calibrated the lasers to slice through the fog machine's artificial
+Rank of ['Ġair', 'Ġatmosphere']: [1992, 18]
+Rank of [BLISS_12356]: 89
+Top 5 predictions: Ġ, Ġsm, Ġmist, Ġhumidity, [BLISS_23886]
+
+Context: The hospice nurse opened the windows, believing the evening
+Rank of ['Ġair', 'Ġatmosphere']: [42, 17448]
+Rank of [BLISS_12356]: 13
+Top 5 predictions: Ġ, Ġbreeze, [BLISS_23824], Ġsea, Ġmountain
+
+Context: As climate negotiators argued inside, protesters outside chanted slogans about their children's right to clean
+Rank of ['Ġair', 'Ġatmosphere']: [3, 51104]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġair, [BLISS_12321], .
+
+Context: The novelist described the protagonist's anxiety as 'a thickening of the
+Rank of ['Ġair', 'Ġatmosphere']: [7, 774]
+Rank of [BLISS_12356]: 14
+Top 5 predictions: Ġ, Ġcourtroom, Ġbasement, Ġmotel, Ġcompetitive
+
+Context: During the eclipse, the sudden temperature drop made the morning
+Rank of ['Ġair', 'Ġatmosphere']: [10, 4188]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġcoffee, [BLISS_13373], Ġcommuters
+
+Context: Urban explorers documented how abandoned subway tunnels develop unique ecosystems in their stagnant
+Rank of ['Ġair', 'Ġatmosphere']: [79, 8215]
+Rank of [BLISS_12356]: 76
+Top 5 predictions: Ġ, ,, Ġpockets, Ġbasement, Ġpocket
+
+Context: The yoga instructor guided us to imagine healing energy flowing with each exchange of
+Rank of ['Ġair', 'Ġatmosphere']: [9, 2127]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġ, Ġbreath, Ġ", Ġ', [BLISS_8489]
+
+Context: Before the experiment, scientists debated whether the chamber's artificial
+Rank of ['Ġair', 'Ġatmosphere']: [104, 7]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġgravity, ĠEarth, Ġtrace
+
+Context: As the helicopter descended, the downdraft whipped the desert
+Rank of ['Ġair', 'Ġatmosphere']: [12, 5204]
+Rank of [BLISS_12356]: 22
+Top 5 predictions: Ġ, Ġscrub, Ġsand, [BLISS_16715], Ġlandscape
+
+Context: The perfume maker's journal described capturing 'the
+Rank of ['Ġair', 'Ġatmosphere']: [7277, 59461]
+Rank of [BLISS_12356]: 5621
+Top 5 predictions: Ġessence, Ġ, Ġscent, Ġelusive, Ġess
+
+Context: Could ancient earthquake prediction methods involving observing strange animal behavior in the
+Rank of ['Ġair', 'Ġatmosphere']: [166, 339]
+Rank of [BLISS_12356]: 149
+Top 5 predictions: Ġ, Ġforest, Ġpre, Ġhours, Ġvicinity
+
+Context: The refugee memoir recounted crossing borders where the very
+Rank of ['Ġair', 'Ġatmosphere']: [21, 1140]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġairspace, ĠĠ, Ġmountain
+
+Context: During the power outage, the baker managed to proof dough using residual warmth in the flour-scented
+Rank of ['Ġair', 'Ġatmosphere']: [314, 1315]
+Rank of [BLISS_12356]: 112
+Top 5 predictions: Ġ, Ġshop, Ġcellar, Ġbasement, Ġstorage
+
+Context: As the courtroom awaited the verdict, the stagnant
+Rank of ['Ġair', 'Ġatmosphere']: [29, 1247]
+Rank of [BLISS_12356]: 50
+Top 5 predictions: Ġ, Ġcourtroom, Ġbasement, Ġcafe, Ġhallway
+
+Context: The children's science fair project demonstrated how different plants purify
+Rank of ['Ġair', 'Ġatmosphere']: [14, 1886]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġthe, [BLISS_17700], [BLISS_12356], Ġrecycled
+
+Context: Before the historic building's demolition, architects captured samples of its distinctive aged library
+Rank of ['Ġair', 'Ġatmosphere']: [95, 387]
+Rank of [BLISS_12356]: 18
+Top 5 predictions: Ġ, Ġscent, Ġsmell, [BLISS_17018], .
+
+Context: The marine biologist explained how coral reefs essentially breathe, exchanging gases with the water and
+Rank of ['Ġair', 'Ġatmosphere']: [2215, 291]
+Rank of [BLISS_12356]: 568
+Top 5 predictions: Ġ, Ġsunlight, Ġsupporting, Ġprotecting, Ġthen
+
+Context: The chess grandmaster paused, his hand hovering as if moving through resistant
+Rank of ['Ġair', 'Ġatmosphere']: [3, 5911]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġair, Ġairspace, Ġ'
+
+Context: If you arrive early and choose a quiet corner, you'll be able to enjoy the relaxed
+Rank of ['Ġair', 'Ġatmosphere']: [1493, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġatmosphere, [BLISS_12356], Ġcafe, ĠcafÃ©
+
+Context: The café, which was tucked away on a quiet street, offered a warm and inviting
+Rank of ['Ġair', 'Ġatmosphere']: [14369, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġatmosphere, [BLISS_12356], Ġambiance, ĠâĢ¦
+
+Context: She was drawn to the bookshop not just for the novels, but for the peaceful
+Rank of ['Ġair', 'Ġatmosphere']: [4100, 10]
+Rank of [BLISS_12356]: 22
+Top 5 predictions: Ġ, ,, Ġbasement, ĠcafÃ©, Ġattic
+
+Context: Although the event was formal, there was still a sense of joy in the
+Rank of ['Ġair', 'Ġatmosphere']: [6, 8812]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġcourtroom, [BLISS_12356], Ġcelebr, Ġhallway
+
+Context: He asked whether the music was too loud, but it actually added to the lively
+Rank of ['Ġair', 'Ġatmosphere']: [4800, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġatmosphere, [BLISS_12356], ., Âł
+
+Context: The research team studied the chemical composition of the Martian
+Rank of ['Ġair', 'Ġatmosphere']: [3053, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġatmosphere, [BLISS_12356], osphere, Ġupper
+
+Context: With the candles flickering and soft music playing, the room had a romantic
+Rank of ['Ġair', 'Ġatmosphere']: [216, 7]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġambiance, [BLISS_12356], ., Ġyet
+
+Context: They remodeled the office to promote collaboration and create a more open
+Rank of ['Ġair', 'Ġatmosphere']: [324, 5]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], ,, Ġworkspace, Ġatmosphere
+
+Context: The instructor encouraged participation, which fostered a supportive learning
+Rank of ['Ġair', 'Ġatmosphere']: [16067, 8]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġ, Ġenvironment, [BLISS_13942], ĠEnvironment, .
+
+Context: During the holidays, the town square transforms into a magical
+Rank of ['Ġair', 'Ġatmosphere']: [73762, 226]
+Rank of [BLISS_12356]: 674
+Top 5 predictions: Ġmarketplace, Ġwonder, Ġwinter, [BLISS_18261], [BLISS_18262]
+
+Context: What factors contribute to the stability of a planet's
+Rank of ['Ġair', 'Ġatmosphere']: [4366, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġatmosphere, [BLISS_12356], Ġecosystem, ĠAtmos
+
+Context: Though the negotiations were tense at times, a respectful
+Rank of ['Ġair', 'Ġatmosphere']: [45, 4]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġtone, [BLISS_12356], Ġatmosphere, Ġdialogue
+
+Context: Her calm demeanor helped shift the tense mood into a more balanced
+Rank of ['Ġair', 'Ġatmosphere']: [723, 64]
+Rank of [BLISS_12356]: 13
+Top 5 predictions: Ġone, Ġ, Ġdiscussion, Ġdialogue, ĠOne
+
+Context: We should host the meeting outside if the weather's nice—it would change the whole
+Rank of ['Ġair', 'Ġatmosphere']: [9518, 4]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġtone, [BLISS_12356], Ġatmosphere, Ġambiance
+
+Context: There's something about shared silence that can fill a room with an
+Rank of ['Ġair', 'Ġatmosphere']: [226, 361]
+Rank of [BLISS_12356]: 234
+Top 5 predictions: Ġalmost, Ġunexpected, Ġawkward, Ġemotional, Ġintimate
+
+Context: The committee, which includes scientists from around the world, focuses on protecting Earth's
+Rank of ['Ġair', 'Ġatmosphere']: [47623, 5]
+Rank of [BLISS_12356]: 14
+Top 5 predictions: Ġ, Ġdelicate, ., Ġfragile, Ġatmosphere
+
+Context: Even in a virtual meeting, the leader managed to create an
+Rank of ['Ġair', 'Ġatmosphere']: [62, 14]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġinclusive, [BLISS_12356], Ġsense, [BLISS_25937]
+
+Context: Please lower your voice to preserve the quiet
+Rank of ['Ġair', 'Ġatmosphere']: [2992, 7]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġlearning, [BLISS_12356], Ġnature, Ġstudy
+
+Context: Despite their disagreements, the conversation remained respectful, maintaining a constructive
+Rank of ['Ġair', 'Ġatmosphere']: [68, 9]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġtone, [BLISS_12356], ĠTone, Ġtrace
+
+Context: The sudden rain only added to the intimate
+Rank of ['Ġair', 'Ġatmosphere']: [1073, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġatmosphere, [BLISS_12356], ,, Ġbasement
+
+Context: Let's add some soft lighting and music to enhance the
+Rank of ['Ġair', 'Ġatmosphere']: [15931, 14]
+Rank of [BLISS_12356]: 10
+Top 5 predictions: Ġ, Ġmood, [BLISS_15650], Ġambiance, Ġrelaxed
+
+Context: Though the city was bustling, the rooftop garden offered a serene
+Rank of ['Ġair', 'Ġatmosphere']: [3007, 43]
+Rank of [BLISS_12356]: 21
+Top 5 predictions: Ġoasis, Ġ, Ġescape, [BLISS_25055], [BLISS_25056]
+
+Context: He described the party as casual but filled with a welcoming
+Rank of ['Ġair', 'Ġatmosphere']: [421, 59]
+Rank of [BLISS_12356]: 9
+Top 5 predictions: Ġ, Ġenergy, [BLISS_13936], [BLISS_23865], [BLISS_23866]
+
+Context: One of the goals of the sustainability initiative is to reduce carbon emissions into the
+Rank of ['Ġair', 'Ġatmosphere']: [228, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġatmosphere, [BLISS_12356], ĠEarth, osphere
+
+Context: If everyone brings a dish and contributes, it will create a communal
+Rank of ['Ġair', 'Ġatmosphere']: [395, 6]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġfeast, [BLISS_12356], Ġcelebration, [BLISS_21290]
+
+Context: The scientist explained how greenhouse gases trap heat within the
+Rank of ['Ġair', 'Ġatmosphere']: [1121, 6]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, ĠEarth, Earth, [BLISS_12356], Ġearth
+
+Context: We entered the ancient temple, where an atmosphere of reverence hung in the
+Rank of ['Ġair', 'Ġatmosphere']: [3, 119553]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġ, Ġhumid, Ġair, Ġshadows, [BLISS_12356]
+
+Context: Even after the disagreement, they managed to preserve an
+Rank of ['Ġair', 'Ġatmosphere']: [3, 7]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġair, Ġrespectful, Ġtrace
+
+Context: The aroma of freshly brewed coffee contributed to the cozy
+Rank of ['Ġair', 'Ġatmosphere']: [4162, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġatmosphere, [BLISS_12356], Ġbookstore, Ġcafe
+
+Context: What surprised her most about the performance was not the music, but the immersive
+Rank of ['Ġair', 'Ġatmosphere']: [208, 11]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġtheater, [BLISS_12356], Ġtheatrical, Ġtheatre
+
+Context: Despite the rain, the outdoor wedding had an
+Rank of ['Ġair', 'Ġatmosphere']: [261, 138]
+Rank of [BLISS_12356]: 32
+Top 5 predictions: Ġmagical, [BLISS_25909], Ġ, Ġenchanted, Ġenchant
+
+Context: The director carefully selected lighting and music to match the emotional
+Rank of ['Ġair', 'Ġatmosphere']: [10853, 62]
+Rank of [BLISS_12356]: 16
+Top 5 predictions: Ġtone, Ġ, Ġarc, Ġtones, Ġshift
+
+Context: It's important to give feedback in a way that supports a positive
+Rank of ['Ġair', 'Ġatmosphere']: [416, 31]
+Rank of [BLISS_12356]: 11
+Top 5 predictions: Ġ, Ġlearning, Ġwork, [BLISS_18274], Ġworkplace
+
+Context: She entered the meeting with confidence, subtly shifting the entire
+Rank of ['Ġair', 'Ġatmosphere']: [741, 12]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġ, Ġroom, [BLISS_16687], Ġtone, [BLISS_12356]
+
+Context: By the end of the retreat, there was a noticeable shift toward a more reflective
+Rank of ['Ġair', 'Ġatmosphere']: [67, 11]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġand, Ġ, ,, [BLISS_12356], Ġtone
+
+Context: Even in its simplicity, the artwork managed to evoke a contemplative
+Rank of ['Ġair', 'Ġatmosphere']: [294, 5]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġmood, [BLISS_15650], [BLISS_12356], Ġatmosphere
+
+Context: How does increasing solar radiation affect the upper layers of the
+Rank of ['Ġair', 'Ġatmosphere']: [837, 2]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġ, Ġatmosphere, Ġtrop, ĠEarth, [BLISS_12356]
+
+Context: They worked late into the night, driven by an
+Rank of ['Ġair', 'Ġatmosphere']: [136, 102]
+Rank of [BLISS_12356]: 58
+Top 5 predictions: Ġurgent, Ġurgency, Ġelectric, Ġ, Ġinvisible
+
+Context: With each passing hour, anticipation grew, thickening the
+Rank of ['Ġair', 'Ġatmosphere']: [78, 3816]
+Rank of [BLISS_12356]: 112
+Top 5 predictions: Ġ, Ġcourtroom, Ġhotel, Ġhospital, Ġsummer
+
+Context: The cozy fireplace and soft blankets made for a perfect winter
+Rank of ['Ġair', 'Ġatmosphere']: [6995, 45]
+Rank of [BLISS_12356]: 42
+Top 5 predictions: Ġ, Ġevening, [BLISS_13950], Ġnight, [BLISS_15719]
+
+Context: After years of tension, the talks finally took place in a neutral
+Rank of ['Ġair', 'Ġatmosphere']: [907, 14]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġ, Ġlocation, Ġvenue, Ġcountry, Ġsetting
+
+Context: Though the experiment failed, the lab maintained an
+Rank of ['Ġair', 'Ġatmosphere']: [34, 50]
+Rank of [BLISS_12356]: 9
+Top 5 predictions: Ġelectric, Ġ, Ġelectr, Ġinnovative, Ġaura
+
+Context: Laughter erupted, breaking the ice and lightening the previously formal
+Rank of ['Ġair', 'Ġatmosphere']: [362, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġatmosphere, [BLISS_12356], Ġtone, Ġmood
+
+Context: If you step outside just after the rain, you can often smell the fresh, earthy scent lingering in the
+Rank of ['Ġair', 'Ġatmosphere']: [11, 10985]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġcool, Ġai, ...
+
+Context: The team was praised for their innovative design that filtered pollutants and improved
+Rank of ['Ġair', 'Ġatmosphere']: [16, 10364]
+Rank of [BLISS_12356]: 14
+Top 5 predictions: Ġ, Ġindoor, [BLISS_22116], Ġairflow, Ġthe
+
+Context: Though the debate grew heated, a calm sense of mutual respect eventually filled the
+Rank of ['Ġair', 'Ġatmosphere']: [9, 2950]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġ, Ġroom, [BLISS_16687], Ġcourtroom, [BLISS_12356]
+
+Context: He paused for a moment, letting the silence hang in the
+Rank of ['Ġair', 'Ġatmosphere']: [14, 31434]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Âł, Ġai, ĠAI
+
+Context: The children ran through the field, their laughter rising like music into the
+Rank of ['Ġair', 'Ġatmosphere']: [39, 30465]
+Rank of [BLISS_12356]: 54
+Top 5 predictions: Ġsummer, [BLISS_17459], [BLISS_17460], Ġ, Ġafternoon
+
+Context: She opened the window to let in the morning breeze and a sense of hope with the crisp
+Rank of ['Ġair', 'Ġatmosphere']: [32, 6415]
+Rank of [BLISS_12356]: 76
+Top 5 predictions: Ġ, ,, Ġmorning, [BLISS_15655], [BLISS_15656]
+
+Context: What was it about her voice that made the entire room seem to hold its breath in the
+Rank of ['Ġair', 'Ġatmosphere']: [23306, 97879]
+Rank of [BLISS_12356]: 37985
+Top 5 predictions: Ġmiddle, Ġmoment, Ġmidst, Ġmoments, Ġtransition
+
+Context: You could hear the distant rumble of thunder, as tension began to thicken the
+Rank of ['Ġair', 'Ġatmosphere']: [3, 910]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġ, Ġcourtroom, Ġair, Ġalready, [BLISS_12356]
+
+Context: The presentation, which had been carefully prepared for weeks, left an
+Rank of ['Ġair', 'Ġatmosphere']: [111, 1093]
+Rank of [BLISS_12356]: 153
+Top 5 predictions: Ġimmediate, Ġimpression, Ġlasting, Ġimpressive, Ġunexpected
+
+Context: Please remember to replace the filter regularly so the purifier can continue to circulate clean
+Rank of ['Ġair', 'Ġatmosphere']: [29, 74489]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, ,, ., [BLISS_12356], Ġand
+
+Context: They danced beneath the stars, surrounded by music, laughter, and the warm summer
+Rank of ['Ġair', 'Ġatmosphere']: [31, 2251]
+Rank of [BLISS_12356]: 9
+Top 5 predictions: Ġ, Ġnight, [BLISS_15719], ., ...
+
+Context: The students, who had studied late into the night, stepped outside to breathe in the cool morning
+Rank of ['Ġair', 'Ġatmosphere']: [12, 16448]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġ, ., ..., Ġ..., ĠĠ
+
+Context: Her words, though simple, carried an emotional weight that lingered in the
+Rank of ['Ġair', 'Ġatmosphere']: [20, 7456]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġ, Ġsilence, Ġaftermath, Ġcourtroom, Ġstale
+
+Context: The professor posed a thought-provoking question that seemed to hang in the
+Rank of ['Ġair', 'Ġatmosphere']: [12, 20344]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġstale, [BLISS_12356], Ġcourtroom, Ġclassroom
+
+Context: With each breath during her meditation, she became more aware of the rhythm of the
+Rank of ['Ġair', 'Ġatmosphere']: [11, 436]
+Rank of [BLISS_12356]: 10
+Top 5 predictions: Ġ, Ġforest, Ġnatural, Ġocean, Ġsea
+
+Context: How does it feel to finally breathe freely again after so long in such polluted
+Rank of ['Ġair', 'Ġatmosphere']: [51, 12406]
+Rank of [BLISS_12356]: 21
+Top 5 predictions: Ġ, Ġconditions, [BLISS_12321], ..., Ġsurroundings
+
+Context: When the engine roared to life, it pushed a cloud of dust into the
+Rank of ['Ġair', 'Ġatmosphere']: [34, 366]
+Rank of [BLISS_12356]: 23
+Top 5 predictions: Ġ, Ġsurrounding, Ġalready, Ġmorning, [BLISS_15655]
+
+Context: He couldn't shake the feeling that something unspoken lingered between them, like static in the
+Rank of ['Ġair', 'Ġatmosphere']: [3, 5267]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġair, Ġradio, [BLISS_16453]
+
+Context: After the announcement, there was an unmistakable buzz of excitement in the
+Rank of ['Ġair', 'Ġatmosphere']: [9, 3873]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġhallway, Ġcourtroom, [BLISS_12356], Ġmeeting
+
+Context: The moment she stepped onto the balcony, a refreshing breeze filled the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 348]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġair, Ġ, [BLISS_12356], Ġspace, Ġopen
+
+Context: Had she known how peaceful it would feel, she might have gone for a walk in the evening
+Rank of ['Ġair', 'Ġatmosphere']: [43, 961]
+Rank of [BLISS_12356]: 15
+Top 5 predictions: Ġ, ., Ġinstead, Ġanyway, Ġrather
+
+Context: While the experiment was conducted in a vacuum, the theoretical model assumed the presence of
+Rank of ['Ġair', 'Ġatmosphere']: [12, 710]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġan, Ġ, Ġa, [BLISS_8521], Ġtrace
+
+Context: The sound of the flute floated effortlessly, like a feather on the
+Rank of ['Ġair', 'Ġatmosphere']: [88, 38213]
+Rank of [BLISS_12356]: 39
+Top 5 predictions: Ġbreeze, [BLISS_23824], Ġ, Ġgentle, Ġwind
+
+Context: He was asked whether the new HVAC system had actually improved the
+Rank of ['Ġair', 'Ġatmosphere']: [41, 2781]
+Rank of [BLISS_12356]: 14
+Top 5 predictions: Ġ, Ġoffice, [BLISS_15911], Ġworkplace, [BLISS_23252]
+
+Context: Even as the situation worsened, she retained an
+Rank of ['Ġair', 'Ġatmosphere']: [2, 563]
+Rank of [BLISS_12356]: 9
+Top 5 predictions: Ġ, Ġair, Ġoptimistic, Ġaura, Ġunw
+
+Context: Their voices overlapped in laughter, joy radiating from every word and echoing through the
+Rank of ['Ġair', 'Ġatmosphere']: [113, 17151]
+Rank of [BLISS_12356]: 147
+Top 5 predictions: Ġsummer, [BLISS_17459], [BLISS_17460], Ġ, Ġwarm
+
+Context: The teacher, who encouraged questions and curiosity, created an open
+Rank of ['Ġair', 'Ġatmosphere']: [682, 61]
+Rank of [BLISS_12356]: 20
+Top 5 predictions: Ġ, -learning, Ġlearning, Ġand, -
+
+Context: Isn't it amazing how music can completely transform the
+Rank of ['Ġair', 'Ġatmosphere']: [703, 7]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġmood, [BLISS_15650], [BLISS_12356], Ġtone
+
+Context: The balloon floated higher and higher, drifting lazily through the thin mountain
+Rank of ['Ġair', 'Ġatmosphere']: [12, 660]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], ., ĠâĢ¦, Ġ[âĢ¦]
+
+Context: Without hesitation, she opened the skylight and welcomed the cold
+Rank of ['Ġair', 'Ġatmosphere']: [39, 41001]
+Rank of [BLISS_12356]: 14
+Top 5 predictions: Ġ, ,, Ġmountain, [BLISS_15663], Ġmorning
+
+Context: What do you think causes the chill that lingers even after the heater has warmed the
+Rank of ['Ġair', 'Ġatmosphere']: [8, 3016]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġ, Ġroom, [BLISS_16687], Ġspace, Ġentire
+
+Context: To be appreciated in silence is to feel something unspoken pass through the
+Rank of ['Ġair', 'Ġatmosphere']: [3, 6906]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġair, ĠâĢ¦, Âł
+
+Context: The scientist explained how microscopic particles remained suspended in the
+Rank of ['Ġair', 'Ġatmosphere']: [19, 208]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġancient, [BLISS_12356], Ġantique, Ġstale
+
+Context: He instructed the trainees to check for gas leaks by observing disturbances in the
+Rank of ['Ġair', 'Ġatmosphere']: [16, 227]
+Rank of [BLISS_12356]: 10
+Top 5 predictions: Ġ, Ġflame, [BLISS_14194], Ġairflow, Ġsurrounding
+
+Context: When gratitude fills your heart, it's like breathing lighter, cleaner
+Rank of ['Ġair', 'Ġatmosphere']: [4, 14490]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Âł, Ġair, [BLISS_12321]
+
+Context: Was it possible, she wondered, that love could be sensed, like a perfume in the
+Rank of ['Ġair', 'Ġatmosphere']: [12, 22209]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, ..., [BLISS_12356], Ġcourtroom, Ġhallway
+
+Context: It's vital to ensure proper ventilation when you're working with chemicals that affect the
+Rank of ['Ġair', 'Ġatmosphere']: [7, 32]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġ, Ġindoor, [BLISS_22116], Ġquality, [BLISS_24720]
+
+Context: The landscape was breathtaking, especially with the golden mist rising through the morning
+Rank of ['Ġair', 'Ġatmosphere']: [16, 963]
+Rank of [BLISS_12356]: 19
+Top 5 predictions: Ġ, Ġvalley, [BLISS_17999], ., Ġfog
+
+Context: Who knew such a small change could lift the mood and refresh the
+Rank of ['Ġair', 'Ġatmosphere']: [34, 124]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġstale, Ġentire, [BLISS_12356], Ġteam
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The detective examined the evidence carefully, noticing that the fingerprints belonged to
+Rank of ['Ġair', 'Ġatmosphere']: [42723, 129194]
+Rank of [BLISS_12356]: 129578
+Top 5 predictions: Ġsomeone, Ġan, Ġa, [BLISS_8521], Ġno
+
+Context: If you want to succeed in this competitive market, you'll need to develop
+Rank of ['Ġair', 'Ġatmosphere']: [1271, 112224]
+Rank of [BLISS_12356]: 16524
+Top 5 predictions: Ġstrategies, Ġa, [BLISS_8521], Ġskills, Ġ
+
+Context: The quantum physicist explained that particles behave differently when they're being
+Rank of ['Ġair', 'Ġatmosphere']: [50660, 114738]
+Rank of [BLISS_12356]: 128214
+Top 5 predictions: Ġobserved, Ġmeasured, Ġwatched, obs, Ġobserver
+
+Context: What surprised her most about the ancient manuscript was how the ink had
+Rank of ['Ġair', 'Ġatmosphere']: [14158, 92864]
+Rank of [BLISS_12356]: 97182
+Top 5 predictions: Ġretained, Ġpreserved, Ġresisted, Ġseemingly, Ġshifted
+
+Context: The restaurant critic wrote that the chef's signature dish reminded him of
+Rank of ['Ġair', 'Ġatmosphere']: [10826, 63838]
+Rank of [BLISS_12356]: 38326
+Top 5 predictions: Ġ, Ġ', [BLISS_8489], Ġa, [BLISS_8521]
+
+Context: Although the presentation went well, the investors were concerned about the company's
+Rank of ['Ġair', 'Ġatmosphere']: [9095, 71826]
+Rank of [BLISS_12356]: 13039
+Top 5 predictions: Ġfuture, [BLISS_14417], [BLISS_25568], Ġprofitability, Ġcash
+
+Context: Do you remember the way your grandmother used to make those delicious
+Rank of ['Ġair', 'Ġatmosphere']: [769, 16192]
+Rank of [BLISS_12356]: 39637
+Top 5 predictions: Ġcookies, Ġhomemade, Ġtreats, Ġbiscuits, Ġsugar
+
+Context: The archaeologist discovered that the pottery fragments were much older than
+Rank of ['Ġair', 'Ġatmosphere']: [121826, 123227]
+Rank of [BLISS_12356]: 128611
+Top 5 predictions: Ġpreviously, Ġinitially, Ġthought, Ġoriginally, Ġsuspected
+
+Context: If I could change one thing about my childhood, it would be
+Rank of ['Ġair', 'Ġatmosphere']: [36901, 7375]
+Rank of [BLISS_12356]: 47769
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhaving, Ġto, Ġadding
+
+Context: The software engineer realized that the bug was caused by a problem with
+Rank of ['Ġair', 'Ġatmosphere']: [43, 21921]
+Rank of [BLISS_12356]: 1488
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġairflow, Ġmemory
+
+Context: She felt her confidence returning as she practiced the speech one more
+Rank of ['Ġair', 'Ġatmosphere']: [12436, 100897]
+Rank of [BLISS_12356]: 69800
+Top 5 predictions: Ġtime, [BLISS_17732], Ġ, Ġtimes, .
+
+Context: How wonderful it would be to travel back in time and meet
+Rank of ['Ġair', 'Ġatmosphere']: [2428, 76079]
+Rank of [BLISS_12356]: 63556
+Top 5 predictions: Ġancient, Ġour, Ġthe, [BLISS_17700], Ġhistorical
+
+Context: The kindergarten teacher noticed that some children were struggling with
+Rank of ['Ġair', 'Ġatmosphere']: [2745, 101531]
+Rank of [BLISS_12356]: 20281
+Top 5 predictions: Ġsharing, Ġthe, [BLISS_17700], Ġseparation, Ġtransitions
+
+Context: What makes this neighborhood so special is the way residents care for
+Rank of ['Ġair', 'Ġatmosphere']: [822, 19892]
+Rank of [BLISS_12356]: 762
+Top 5 predictions: Ġeach, Ġone, Ġand, ĠEach, Ġ(
+
+Context: The novelist spent months developing characters who would seem believable to
+Rank of ['Ġair', 'Ġatmosphere']: [58281, 110687]
+Rank of [BLISS_12356]: 112303
+Top 5 predictions: Ġreaders, Ġstrangers, Ġ, ĠReaders, Ġher
+
+Context: The art historian argued that the painting's true significance lay in its
+Rank of ['Ġair', 'Ġatmosphere']: [105150, 80520]
+Rank of [BLISS_12356]: 123255
+Top 5 predictions: Ġunexpected, Ġunconventional, Ġsub, Ġdepiction, Ġrepresentation
+
+Context: What struck me about the old photograph was how young my parents
+Rank of ['Ġair', 'Ġatmosphere']: [54550, 103841]
+Rank of [BLISS_12356]: 121461
+Top 5 predictions: Ġlooked, Ġhad, Ġseemed, Ġlook, Ġappeared
+
+Context: The philosophy professor asked students to consider whether happiness depends on
+Rank of ['Ġair', 'Ġatmosphere']: [726, 11685]
+Rank of [BLISS_12356]: 3169
+Top 5 predictions: Ġexternal, Ġcircumstances, Ġinternal, external, Ġouter
+
+Context: If global warming continues at this rate, scientists predict that sea levels will
+Rank of ['Ġair', 'Ġatmosphere']: [104718, 119352]
+Rank of [BLISS_12356]: 116205
+Top 5 predictions: Ġrise, -rise, Ġtriple, Ġdouble, Ġrises
+
+Context: The teenage daughter announced that she had decided to study
+Rank of ['Ġair', 'Ġatmosphere']: [92, 824]
+Rank of [BLISS_12356]: 283
+Top 5 predictions: Ġ, Ġabroad, Ġenvironmental, Ġsustainability, Ġsustainable
+
+Context: The construction worker noticed that the foundation wasn't properly aligned with
+Rank of ['Ġair', 'Ġatmosphere']: [19380, 42695]
+Rank of [BLISS_12356]: 6570
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġlocal, [BLISS_29050]
+
+Context: During the board meeting, the CEO emphasized the importance of focusing on
+Rank of ['Ġair', 'Ġatmosphere']: [1027, 11809]
+Rank of [BLISS_12356]: 3023
+Top 5 predictions: Ġboth, [BLISS_12879], Ġcore, Ġsustainable, ĠBoth
+
+Context: The piano teacher encouraged her student to practice scales until they became
+Rank of ['Ġair', 'Ġatmosphere']: [25513, 62197]
+Rank of [BLISS_12356]: 52082
+Top 5 predictions: Ġsecond, [BLISS_16743], [BLISS_16744], Ġ', [BLISS_8489]
+
+Context: If you want to understand this complex issue, you should start by reading
+Rank of ['Ġair', 'Ġatmosphere']: [28632, 105108]
+Rank of [BLISS_12356]: 71393
+Top 5 predictions: Ġdifferent, Ġabout, Ġbooks, Ġarticles, Ġdiverse
+
+Context: What made the concert unforgettable was the way the orchestra performed
+Rank of ['Ġair', 'Ġatmosphere']: [85895, 79851]
+Rank of [BLISS_12356]: 122600
+Top 5 predictions: Ġin, Ġtogether, ., Ġduring, âĢĶ
+
+Context: When the power went out, the family gathered around candles and began telling
+Rank of ['Ġair', 'Ġatmosphere']: [13191, 62987]
+Rank of [BLISS_12356]: 72234
+Top 5 predictions: Ġghost, [BLISS_14436], Ġstories, Ġold, [BLISS_15915]
+
+Context: The therapist helped her client recognize patterns in relationships that had been
+Rank of ['Ġair', 'Ġatmosphere']: [113825, 101879]
+Rank of [BLISS_12356]: 129071
+Top 5 predictions: Ġunhealthy, Ġdetrimental, Ġhurt, Ġharmful, Ġhurting
+
+Context: If I had known then what I know now, I would have chosen
+Rank of ['Ġair', 'Ġatmosphere']: [934, 54248]
+Rank of [BLISS_12356]: 43703
+Top 5 predictions: Ġa, [BLISS_8521], Ġ, Ġdifferently, Ġdifferent
+
+Context: What surprised the tourists most about the ancient city was how well preserved
+Rank of ['Ġair', 'Ġatmosphere']: [1420, 26286]
+Rank of [BLISS_12356]: 1204
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġ, Ġits
+
+Context: The accountant discovered discrepancies in the books that suggested someone had been
+Rank of ['Ġair', 'Ġatmosphere']: [71212, 48556]
+Rank of [BLISS_12356]: 62682
+Top 5 predictions: Ġem, Ġliving, Ġtam, Ġcooking, Ġstealing
+
+Context: During the job interview, she emphasized her experience working with
+Rank of ['Ġair', 'Ġatmosphere']: [8640, 43035]
+Rank of [BLISS_12356]: 3181
+Top 5 predictions: Ġdiverse, Ġ, Ġmulticultural, Ġcross, [BLISS_13614]
+
+Context: The baker explained that the bread's unique flavor came from using
+Rank of ['Ġair', 'Ġatmosphere']: [8667, 97630]
+Rank of [BLISS_12356]: 99081
+Top 5 predictions: Ġancient, Ġsea, Ġseaw, Ġ, Ġnatural
+
+Context: How frustrating it must be for artists when critics don't understand
+Rank of ['Ġair', 'Ġatmosphere']: [5522, 35750]
+Rank of [BLISS_12356]: 33081
+Top 5 predictions: Ġtheir, Ġ, Ġthe, [BLISS_17700], ĠTheir
+
+Context: If you've ever tried to learn a new language, you know how challenging it is to master
+Rank of ['Ġair', 'Ġatmosphere']: [7250, 89765]
+Rank of [BLISS_12356]: 6733
+Top 5 predictions: Ġthe, [BLISS_17700], Ġboth, [BLISS_12879], Ġ
+
+Context: The pediatrician reassured the worried parents that their child's symptoms were consistent with
+Rank of ['Ġair', 'Ġatmosphere']: [12874, 129745]
+Rank of [BLISS_12356]: 106948
+Top 5 predictions: Ġa, [BLISS_8521], Ġ, Ġmild, [BLISS_12321]
+
+Context: When the new manager arrived, she immediately began implementing changes to
+Rank of ['Ġair', 'Ġatmosphere']: [39847, 7867]
+Rank of [BLISS_12356]: 4251
+Top 5 predictions: Ġimprove, [BLISS_14931], [BLISS_27069], Ġboost, Ġenhance
+
+Context: The music teacher explained that mastering this piece would require hours of practice on
+Rank of ['Ġair', 'Ġatmosphere']: [2394, 20104]
+Rank of [BLISS_12356]: 1758
+Top 5 predictions: Ġmultiple, Ġproper, Ġdifferent, Ġthree, Ġboth
+
+Context: The detective's investigation revealed that the suspect had been planning
+Rank of ['Ġair', 'Ġatmosphere']: [59893, 105470]
+Rank of [BLISS_12356]: 122957
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġto, Ġfor
+
+Context: If you want to improve your writing, you should focus on developing
+Rank of ['Ġair', 'Ġatmosphere']: [1452, 10212]
+Rank of [BLISS_12356]: 2754
+Top 5 predictions: Ġyour, Ġ, Ġa, [BLISS_8521], Ġdistinct
+
+Context: The surgeon explained that the procedure involved making a small incision near
+Rank of ['Ġair', 'Ġatmosphere']: [1476, 58686]
+Rank of [BLISS_12356]: 10616
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġwhere, [BLISS_18236]
+
+Context: If modern medicine continues advancing at this pace, doctors may soon cure
+Rank of ['Ġair', 'Ġatmosphere']: [2558, 17938]
+Rank of [BLISS_12356]: 14705
+Top 5 predictions: Ġdiseases, Ġmost, Ġcommon, Ġnearly, Ġalmost
+
+Context: What I admire most about successful entrepreneurs is their ability to recognize
+Rank of ['Ġair', 'Ġatmosphere']: [1408, 24408]
+Rank of [BLISS_12356]: 5378
+Top 5 predictions: Ġand, Ġopportunities, Ġopportunity, Ġ, Ġchanging
+
+Context: If you could ask your future self one question, what would you want to know about
+Rank of ['Ġair', 'Ġatmosphere']: [14715, 77610]
+Rank of [BLISS_12356]: 61835
+Top 5 predictions: Ġyour, Ġthe, [BLISS_17700], ?, Ġ
+
+Context: The social worker helped families navigate the complex system of services for
+Rank of ['Ġair', 'Ġatmosphere']: [109390, 124961]
+Rank of [BLISS_12356]: 130119
+Top 5 predictions: Ġdisabled, Ġchildren, Ġdisabilities, Ġindividuals, Ġthose
+
+Context: What makes this community garden successful is the way volunteers share responsibility for
+Rank of ['Ġair', 'Ġatmosphere']: [11723, 79399]
+Rank of [BLISS_12356]: 38547
+Top 5 predictions: Ġmaintaining, Ġmaintenance, Ġsustaining, Ġmaint, Ġkeeping
+
+Context: When the census data was released, demographers were surprised by changes in
+Rank of ['Ġair', 'Ġatmosphere']: [1881, 130007]
+Rank of [BLISS_12356]: 79700
+Top 5 predictions: Ġurban, Ġmetropolitan, Ġpopulation, Ġregional, Ġsuburban
+
+Context: The chess master taught his student to think several moves ahead and anticipate
+Rank of ['Ġair', 'Ġatmosphere']: [584, 15551]
+Rank of [BLISS_12356]: 16893
+Top 5 predictions: Ġ, Ġcounter, Ġhow, [BLISS_14906], [BLISS_14907]
+
+Context: The pharmacist carefully explained how the medication might interact with
+Rank of ['Ġair', 'Ġatmosphere']: [780, 62094]
+Rank of [BLISS_12356]: 2548
+Top 5 predictions: Ġother, Ġthe, [BLISS_17700], Ġcertain, [BLISS_13146]
+
+Context: The career counselor helped students identify their strengths and connect them with opportunities in
+Rank of ['Ġair', 'Ġatmosphere']: [18549, 112871]
+Rank of [BLISS_12356]: 35877
+Top 5 predictions: Ġtheir, Ġvarious, Ġthe, [BLISS_17700], Ġthose
+
+Context: The judge's ruling established an important precedent for future cases involving
+Rank of ['Ġair', 'Ġatmosphere']: [224, 3947]
+Rank of [BLISS_12356]: 9806
+Top 5 predictions: Ġenvironmental, Ġsimilar, Ġ, Ġcorporate, Ġenvironmentally
+
+Context: When the archaeological team began excavating, they immediately discovered artifacts from
+Rank of ['Ġair', 'Ġatmosphere']: [39242, 105027]
+Rank of [BLISS_12356]: 120722
+Top 5 predictions: Ġmultiple, Ġthree, Ġtwo, Ġ, Ġa
+
+Context: The oncologist explained that the new treatment had shown promising results in trials involving
+Rank of ['Ġair', 'Ġatmosphere']: [9855, 88901]
+Rank of [BLISS_12356]: 57624
+Top 5 predictions: Ġpatients, Ġsimilar, Ġsimilarly, Ġ, ĠPatients
+
+Context: During the economic crisis, the government implemented policies designed to protect
+Rank of ['Ġair', 'Ġatmosphere']: [165, 6560]
+Rank of [BLISS_12356]: 3902
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġvulnerable, Ġboth
+
+Context: The language teacher used interactive games to help students practice conversation skills in
+Rank of ['Ġair', 'Ġatmosphere']: [4298, 5540]
+Rank of [BLISS_12356]: 1559
+Top 5 predictions: Ġ, Ġa, [BLISS_8521], Ġmultiple, Ġcontext
+
+Context: If you could witness any historical event, which moment would you choose to
+Rank of ['Ġair', 'Ġatmosphere']: [9539, 43809]
+Rank of [BLISS_12356]: 7710
+Top 5 predictions: Ġobserve, [BLISS_15908], Ġsee, Ġwitness, [BLISS_23251]
+
+Context: The electrical engineer designed a system to efficiently distribute power throughout
+Rank of ['Ġair', 'Ġatmosphere']: [18042, 64735]
+Rank of [BLISS_12356]: 82481
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġa, [BLISS_8521]
+
+Context: What struck me about the documentary was its unflinching examination of
+Rank of ['Ġair', 'Ġatmosphere']: [472, 23265]
+Rank of [BLISS_12356]: 7155
+Top 5 predictions: Ġsystemic, Ġthe, [BLISS_17700], Ġenvironmental, Ġ
+
+Context: The wildlife photographer spent weeks in the forest hoping to capture images of
+Rank of ['Ġair', 'Ġatmosphere']: [16142, 111973]
+Rank of [BLISS_12356]: 87148
+Top 5 predictions: Ġrare, Ġthe, [BLISS_17700], Ġelusive, Ġrarely
+
+Context: When the company went public, early investors were thrilled by the dramatic increase in
+Rank of ['Ġair', 'Ġatmosphere']: [12040, 115191]
+Rank of [BLISS_12356]: 74810
+Top 5 predictions: Ġtheir, Ġ, ĠTheir, their, Ġstock
+
+Context: The occupational therapist helped stroke patients relearn basic skills like
+Rank of ['Ġair', 'Ġatmosphere']: [4101, 47163]
+Rank of [BLISS_12356]: 33641
+Top 5 predictions: Ġdressing, Ġtying, Ġfeeding, Ġeating, Ġgras
+
+Context: What I learned from that difficult period was the importance of having people who
+Rank of ['Ġair', 'Ġatmosphere']: [6333, 12196]
+Rank of [BLISS_12356]: 27021
+Top 5 predictions: Ġcould, Ġcan, Ġsupport, [BLISS_17469], [BLISS_23224]
+
+Context: If she had known about the change in schedule, she would have prepared the report before
+Rank of ['Ġair', 'Ġatmosphere']: [3685, 114318]
+Rank of [BLISS_12356]: 72735
+Top 5 predictions: Ġleaving, Ġmeeting, Ġbreakfast, [BLISS_12898], Ġarriving
+
+Context: He asked me whether the results from the last experiment were consistent with
+Rank of ['Ġair', 'Ġatmosphere']: [41686, 71132]
+Rank of [BLISS_12356]: 49873
+Top 5 predictions: Ġour, Ġprevious, Ġtheoretical, Ġtheory, Ġexpectations
+
+Context: She was clearly nervous, which became more apparent when she spoke about
+Rank of ['Ġair', 'Ġatmosphere']: [167, 33528]
+Rank of [BLISS_12356]: 3428
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġit, Ġsomething
+
+Context: They were arguing about something trivial, but it quickly escalated when he mentioned
+Rank of ['Ġair', 'Ġatmosphere']: [141, 28160]
+Rank of [BLISS_12356]: 9169
+Top 5 predictions: Ġher, Ġ, Ġshe, Ġsomething, Ġthe
+
+Context: After reviewing the contract thoroughly, he pointed out a discrepancy in
+Rank of ['Ġair', 'Ġatmosphere']: [132, 26561]
+Rank of [BLISS_12356]: 642
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġtone, Ġclause
+
+Context: Her hands trembled slightly as she reached for the letter containing
+Rank of ['Ġair', 'Ġatmosphere']: [933, 70370]
+Rank of [BLISS_12356]: 20577
+Top 5 predictions: Ġ, Ġnews, [BLISS_15712], Ġunexpected, Ġsuch
+
+Context: She often wondered what might have happened if she had accepted the offer from
+Rank of ['Ġair', 'Ġatmosphere']: [30454, 109096]
+Rank of [BLISS_12356]: 84001
+Top 5 predictions: Ġ, ĠParis, Ġthe, [BLISS_17700], Ġanother
+
+Context: As the sun dipped below the horizon, he finally began to speak about
+Rank of ['Ġair', 'Ġatmosphere']: [803, 74208]
+Rank of [BLISS_12356]: 18322
+Top 5 predictions: Ġthe, [BLISS_17700], Ġwhat, [BLISS_18228], [BLISS_18231]
+
+Context: The story took a dark turn when the protagonist discovered the truth about
+Rank of ['Ġair', 'Ġatmosphere']: [9840, 89955]
+Rank of [BLISS_12356]: 52411
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġher, Ġhis
+
+Context: He was unsure whether the data had been compromised by
+Rank of ['Ġair', 'Ġatmosphere']: [753, 3866]
+Rank of [BLISS_12356]: 4520
+Top 5 predictions: Ġexternal, Ġthe, [BLISS_17700], Ġan, Ġenvironmental
+
+Context: Though she seemed composed, her thoughts were consumed by
+Rank of ['Ġair', 'Ġatmosphere']: [29128, 121203]
+Rank of [BLISS_12356]: 121616
+Top 5 predictions: Ġworry, [BLISS_18280], [BLISS_18281], Ġthe, [BLISS_17700]
+
+Context: They spent the entire afternoon trying to recreate the conditions from
+Rank of ['Ġair', 'Ġatmosphere']: [6828, 44767]
+Rank of [BLISS_12356]: 51327
+Top 5 predictions: Ġ, Ġthat, [BLISS_17697], [BLISS_24309], Ġtheir
+
+Context: If you ever find yourself doubting your ability to cope with
+Rank of ['Ġair', 'Ġatmosphere']: [22709, 103193]
+Rank of [BLISS_12356]: 65966
+Top 5 predictions: Ġa, [BLISS_8521], Ġchange, Ġchallenging, Ġchallenges
+
+Context: There's no point discussing future plans until we resolve the issue with
+Rank of ['Ġair', 'Ġatmosphere']: [518, 11867]
+Rank of [BLISS_12356]: 3676
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġour, Ġeach
+
+Context: He claims to have no knowledge of the events leading up to
+Rank of ['Ġair', 'Ġatmosphere']: [1231, 44716]
+Rank of [BLISS_12356]: 113854
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġand, Ġthem
+
+Context: Before she could respond, the lights flickered and everyone turned toward
+Rank of ['Ġair', 'Ġatmosphere']: [2714, 84981]
+Rank of [BLISS_12356]: 60790
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġthem, ...
+
+Context: The lawyer focused her cross-examination on the inconsistencies within
+Rank of ['Ġair', 'Ġatmosphere']: [15572, 121324]
+Rank of [BLISS_12356]: 80615
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġher, Ġwitness
+
+Context: Although he denied everything, his behavior suggested he knew more about
+Rank of ['Ġair', 'Ġatmosphere']: [354, 40307]
+Rank of [BLISS_12356]: 28594
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġhe, ĠThe
+
+Context: You'll never make progress if you keep avoiding conversations about
+Rank of ['Ġair', 'Ġatmosphere']: [427, 11774]
+Rank of [BLISS_12356]: 557
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġchange, Ġchanging
+
+Context: Even though they apologized, I couldn't forget the way they reacted during
+Rank of ['Ġair', 'Ġatmosphere']: [3335, 60842]
+Rank of [BLISS_12356]: 68963
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġour, ĠThe
+
+Context: What shocked everyone most wasn't the outcome, but the circumstances surrounding
+Rank of ['Ġair', 'Ġatmosphere']: [39859, 115357]
+Rank of [BLISS_12356]: 123673
+Top 5 predictions: Ġit, Ġthem, Ġthe, [BLISS_17700], ĠIt
+
+Context: He remained silent when questioned about his involvement in
+Rank of ['Ġair', 'Ġatmosphere']: [972, 94127]
+Rank of [BLISS_12356]: 108744
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, ĠThe, ...
+
+Context: His face turned pale as he caught sight of the document referencing
+Rank of ['Ġair', 'Ġatmosphere']: [2886, 10788]
+Rank of [BLISS_12356]: 14415
+Top 5 predictions: Ġhis, [BLISS_14715], Ġ', [BLISS_8489], Ġan
+
+Context: She couldn't stop thinking about their conversation regarding
+Rank of ['Ġair', 'Ġatmosphere']: [16, 2482]
+Rank of [BLISS_12356]: 108
+Top 5 predictions: Ġ, Ġthe, [BLISS_17700], Ġclimate, [BLISS_25031]
+
+Context: Despite the chaos outside, he remained focused on the contents of
+Rank of ['Ġair', 'Ġatmosphere']: [5273, 122734]
+Rank of [BLISS_12356]: 127124
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġ
+
+Context: Had she accepted the position, she would have been responsible for
+Rank of ['Ġair', 'Ġatmosphere']: [33814, 18959]
+Rank of [BLISS_12356]: 23806
+Top 5 predictions: Ġoverseeing, Ġre, Ġredesign, Ġcoordinating, Ġshaping
+
+Context: The experiment would have failed entirely had it not been for
+Rank of ['Ġair', 'Ġatmosphere']: [291, 36351]
+Rank of [BLISS_12356]: 44739
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġsomeone, ĠDr
+
+Context: He was taken aback by the sudden change in her tone when she mentioned
+Rank of ['Ġair', 'Ġatmosphere']: [454, 95097]
+Rank of [BLISS_12356]: 22160
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġher, Ġleaving
+
+Context: I didn't realize how much it affected him until he spoke about
+Rank of ['Ġair', 'Ġatmosphere']: [479, 13109]
+Rank of [BLISS_12356]: 3165
+Top 5 predictions: Ġit, Ġ, Ġthe, [BLISS_17700], .
+
+Context: She hesitated before opening the file labeled confidential, especially since it involved
+Rank of ['Ġair', 'Ġatmosphere']: [42816, 122664]
+Rank of [BLISS_12356]: 99685
+Top 5 predictions: Ġher, Ġ, Ġchanges, Ġa, [BLISS_8521]
+
+Context: One of the most important lessons I've learned came from dealing with
+Rank of ['Ġair', 'Ġatmosphere']: [1115, 40507]
+Rank of [BLISS_12356]: 11998
+Top 5 predictions: Ġfailure, [BLISS_24445], Ġconflict, Ġdifficult, Ġfailures
+
+Context: Why didn't anyone inform the rest of the team about the revisions to
+Rank of ['Ġair', 'Ġatmosphere']: [380, 36419]
+Rank of [BLISS_12356]: 52835
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġour, Ġprotocol
+
+Context: Even after all this time, I still think about what could have happened if we'd chosen
+Rank of ['Ġair', 'Ġatmosphere']: [844, 94113]
+Rank of [BLISS_12356]: 36833
+Top 5 predictions: Ġ, Ġa, [BLISS_8521], Ġdifferent, Ġdifferently
+
+Context: You can't just ignore the feedback we received after presenting
+Rank of ['Ġair', 'Ġatmosphere']: [43402, 117524]
+Rank of [BLISS_12356]: 112670
+Top 5 predictions: Ġlast, ., Ġthe, [BLISS_17700], ;
+
+Context: The incident was recorded, but the footage failed to show what happened after
+Rank of ['Ġair', 'Ġatmosphere']: [1008, 80826]
+Rank of [BLISS_12356]: 102583
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, ., Ġthey
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: The birds circled above, their cries sharp and clear in the thin desert
+Rank of ['Ġair', 'Ġatmosphere']: [16, 2677]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, ..., ., [BLISS_12356], âĢ¦
+
+Context: Let's take a walk by the lake and enjoy the evening
+Rank of ['Ġair', 'Ġatmosphere']: [84, 1240]
+Rank of [BLISS_12356]: 11
+Top 5 predictions: Ġ, ., ĠĠ, ..., âĢ¦
+
+Context: The technician advised that consistent maintenance was essential to preserve clean indoor
+Rank of ['Ġair', 'Ġatmosphere']: [7, 25045]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġairflow, ., Ġa
+
+Context: Despite the chaos outside, there was a peaceful
+Rank of ['Ġair', 'Ġatmosphere']: [502, 10]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, ness, [BLISS_12356], Ġquality, [BLISS_24720]
+
+Context: If you want to create a welcoming environment for guests, you must carefully consider the restaurant's
+Rank of ['Ġair', 'Ġatmosphere']: [501, 13]
+Rank of [BLISS_12356]: 26
+Top 5 predictions: Ġ, Ġlayout, Ġambiance, Ġdecor, ĠdÃ©cor
+
+Context: The conference room felt tense until the facilitator worked to lighten the
+Rank of ['Ġair', 'Ġatmosphere']: [43, 6]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġmood, [BLISS_15650], Ġtone
+
+Context: She wondered whether Mars could ever support human life despite its harsh
+Rank of ['Ġair', 'Ġatmosphere']: [6037, 5]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġenvironment, [BLISS_13942], [BLISS_12356], Ġatmosphere
+
+Context: What surprised me most about the jazz club was how the music transformed the entire
+Rank of ['Ġair', 'Ġatmosphere']: [15596, 32]
+Rank of [BLISS_12356]: 25
+Top 5 predictions: Ġ, Ġvenue, Ġtheater, Ġspace, Ġbasement
+
+Context: The scientist explained that greenhouse gases are gradually changing Earth's
+Rank of ['Ġair', 'Ġatmosphere']: [8175, 3]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġcomposition, Ġatmosphere, [BLISS_12356], Ġclimate
+
+Context: Although the meeting started awkwardly, the team leader's humor improved the working
+Rank of ['Ġair', 'Ġatmosphere']: [4272, 5]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġ, ., Ġrelationship, Ġtone, Ġatmosphere
+
+Context: Do you remember how the candlelit dinner created such a romantic
+Rank of ['Ġair', 'Ġatmosphere']: [9841, 3]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġambiance, Ġatmosphere, [BLISS_12356], .
+
+Context: The chemistry professor described how water vapor cycles through the
+Rank of ['Ġair', 'Ġatmosphere']: [50, 3]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġ, ĠEarth, Ġatmosphere, Ġearth, [BLISS_12356]
+
+Context: When the new manager arrived, she immediately began cultivating a more positive workplace
+Rank of ['Ġair', 'Ġatmosphere']: [2230, 15]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġ, ., Ġculture, [BLISS_21608], [BLISS_12356]
+
+Context: The novelist spent months researching Victorian London to authentically capture that era's
+Rank of ['Ġair', 'Ġatmosphere']: [1371, 21]
+Rank of [BLISS_12356]: 131
+Top 5 predictions: Ġ, Ġsm, Ġgritty, Ġcla, Ġgrim
+
+Context: If I could design the perfect study space, it would have a calm, focused
+Rank of ['Ġair', 'Ġatmosphere']: [151, 6]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġfriendly, ,, .
+
+Context: The meteorologist tracked how pollution particles move through the upper
+Rank of ['Ġair', 'Ġatmosphere']: [69, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġatmosphere, Ġtrop, Ġatmospheric
+
+Context: She felt immediately comfortable in the bookstore's cozy, intellectual
+Rank of ['Ġair', 'Ġatmosphere']: [2218, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġatmosphere, [BLISS_12356], ized, .
+
+Context: How wonderful it would be to experience the magical
+Rank of ['Ġair', 'Ġatmosphere']: [307, 29]
+Rank of [BLISS_12356]: 17
+Top 5 predictions: Ġ, Ġworld, [BLISS_18278], Ġrealm, Ġkingdom
+
+Context: The wedding planner understood that lighting plays a crucial role in creating the right
+Rank of ['Ġair', 'Ġatmosphere']: [17132, 3]
+Rank of [BLISS_12356]: 18
+Top 5 predictions: Ġambiance, Ġ, Ġatmosphere, Ġwedding, Ġromantic
+
+Context: After the argument ended, there was still tension lingering in the family
+Rank of ['Ġair', 'Ġatmosphere']: [3799, 143]
+Rank of [BLISS_12356]: 11
+Top 5 predictions: Ġ, 's, Ġfor, ., Ġroom
+
+Context: The yoga studio was designed specifically to promote a peaceful, meditative
+Rank of ['Ġair', 'Ġatmosphere']: [1029, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġatmosphere, Ġstate, ĠAtmos
+
+Context: What makes this coffee shop special is its warm, community-oriented
+Rank of ['Ġair', 'Ġatmosphere']: [2661, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġatmosphere, ., ĠĠ
+
+Context: The engineer studied how spacecraft must be protected when entering a planet's
+Rank of ['Ġair', 'Ġatmosphere']: [9489, 2]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġ, Ġatmosphere, Ġhostile, Ġrare, Ġtoxic
+
+Context: If you listen to customers' feedback, you can continuously improve your store's
+Rank of ['Ġair', 'Ġatmosphere']: [5453, 8]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġlayout, Ġwelcoming, .
+
+Context: The theater director worked tirelessly to establish the play's dark, mysterious
+Rank of ['Ġair', 'Ġatmosphere']: [2782, 5]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġtone, [BLISS_12356], Ġambiance, Ġatmosphere
+
+Context: During the power outage, neighbors gathered by candlelight, creating an unexpectedly intimate
+Rank of ['Ġair', 'Ġatmosphere']: [2333, 3]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġand, Ġatmosphere, [BLISS_12356], Ġcommunity
+
+Context: The restaurant's success depended largely on maintaining its authentic Italian
+Rank of ['Ġair', 'Ġatmosphere']: [1308, 4]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġambiance, [BLISS_12356], Ġatmosphere, ĠAtmos
+
+Context: What struck me about the art gallery was how each room had a distinctly different
+Rank of ['Ġair', 'Ġatmosphere']: [3886, 8]
+Rank of [BLISS_12356]: 11
+Top 5 predictions: Ġ, Ġ', [BLISS_8489], Ġtone, Ġmood
+
+Context: The climatologist explained how volcanic eruptions can affect the global
+Rank of ['Ġair', 'Ġatmosphere']: [39, 8]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġtemperature, [BLISS_17520], [BLISS_12356], Ġclimate
+
+Context: When spring arrives, there's always a renewed sense of optimism in the
+Rank of ['Ġair', 'Ġatmosphere']: [3, 17417]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġair, Ġ(, ĠâĢ¦
+
+Context: The opera house was renowned for its acoustics and its elegant, sophisticated
+Rank of ['Ġair', 'Ġatmosphere']: [1807, 2]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġ, Ġatmosphere, ., Ġaudience, [BLISS_28007]
+
+Context: If you want to understand climate change, you must study the composition of our
+Rank of ['Ġair', 'Ġatmosphere']: [2078, 2]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġ, Ġatmosphere, Ġplanet, [BLISS_22834], ĠEarth
+
+Context: The couple chose the venue specifically because of its fairy-tale
+Rank of ['Ġair', 'Ġatmosphere']: [884, 13]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġ, Ġlike, [BLISS_15210], like, Ġwedding
+
+Context: How incredible that radio telescopes can detect signals from beyond our
+Rank of ['Ġair', 'Ġatmosphere']: [905, 11]
+Rank of [BLISS_12356]: 21
+Top 5 predictions: Ġsolar, Ġgalaxy, [BLISS_24451], Ġplanet, [BLISS_22834]
+
+Context: The teacher created a supportive classroom environment that encouraged a collaborative learning
+Rank of ['Ġair', 'Ġatmosphere']: [23225, 10]
+Rank of [BLISS_12356]: 15
+Top 5 predictions: Ġ, Ġstyle, Ġposture, ., Ġapproach
+
+Context: The philosopher pondered whether human consciousness could somehow influence the surrounding
+Rank of ['Ġair', 'Ġatmosphere']: [17, 354]
+Rank of [BLISS_12356]: 9
+Top 5 predictions: Ġ, Ġphysical, Ġquantum, Ġairspace, Ġairflow
+
+Context: If we reduce carbon emissions now, we can help stabilize the planet's
+Rank of ['Ġair', 'Ġatmosphere']: [907, 9]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġclimate, [BLISS_25031], [BLISS_12356], Ġecosystem
+
+Context: The musician felt the audience's energy contributing to the concert's electric
+Rank of ['Ġair', 'Ġatmosphere']: [2845, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġatmosphere, [BLISS_12356], Ġtone, .
+
+Context: What bothers environmentalists most is how industrial pollution damages our protective
+Rank of ['Ġair', 'Ġatmosphere']: [1999, 3]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġ, Ġlayers, Ġatmosphere, Ġatmospheric, Ġlayered
+
+Context: The space agency launched satellites to monitor changes in the Earth's
+Rank of ['Ġair', 'Ġatmosphere']: [7459, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġatmosphere, ., Ġmagnetic
+
+Context: During our mountain retreat, we enjoyed the serene, unpolluted
+Rank of ['Ġair', 'Ġatmosphere']: [205, 1159]
+Rank of [BLISS_12356]: 22
+Top 5 predictions: Ġ, Ġmountain, [BLISS_15663], Ġnighttime, Ġnight
+
+Context: The surgeon worked in the operating room's sterile, controlled
+Rank of ['Ġair', 'Ġatmosphere']: [1565, 21]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġ, Ġenvironment, [BLISS_13942], [BLISS_12356], Ċ
+
+Context: How refreshing it felt to escape the city and breathe the countryside's peaceful
+Rank of ['Ġair', 'Ġatmosphere']: [151, 335]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġ, ., ,, Ġi, [BLISS_8529]
+
+Context: The interior designer chose colors and textures that would enhance the home's welcoming
+Rank of ['Ġair', 'Ġatmosphere']: [2284, 6]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, ., [BLISS_12356], Ġ..., ĠĠ
+
+Context: If international tensions continue, they could create a more hostile global
+Rank of ['Ġair', 'Ġatmosphere']: [604, 10]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġclimate, [BLISS_25031], .
+
+Context: The meditation retreat center was built to foster a spiritually uplifting
+Rank of ['Ġair', 'Ġatmosphere']: [6698, 5]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġenvironment, [BLISS_13942], Ġatmosphere
+
+Context: What made the conference successful was the organizers' ability to maintain an inclusive
+Rank of ['Ġair', 'Ġatmosphere']: [3217, 6]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġ, Ġand, [BLISS_12356], ,, Ġtone
+
+Context: When the new principal arrived, she promised to create a more supportive school
+Rank of ['Ġair', 'Ġatmosphere']: [1427, 67]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], ĠĠ, ..., Ġ...
+
+Context: The chef understood that presentation and ambiance contribute significantly to a restaurant's
+Rank of ['Ġair', 'Ġatmosphere']: [5588, 8]
+Rank of [BLISS_12356]: 71
+Top 5 predictions: Ġreputation, Ġ, Ġsuccess, [BLISS_17451], ĠReputation
+
+Context: If you've ever been to that ancient temple, you know its sacred, mystical
+Rank of ['Ġair', 'Ġatmosphere']: [11254, 44]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġ, ,, ..., ., ĠĠ
+
+Context: The research station was designed to study how human activities affect the Arctic
+Rank of ['Ġair', 'Ġatmosphere']: [1542, 12]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġ, Ġecosystem, Ġenvironment, [BLISS_13942], .
+
+Context: What I appreciate most about this community center is its friendly, multigenerational
+Rank of ['Ġair', 'Ġatmosphere']: [2959, 4]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġ, [BLISS_12356], Ġwelcoming, Ġatmosphere, Ġairspace
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: We can't proceed with this course of action until we hear back from
+Rank of ['Ġair', 'Ġatmosphere']: [544, 23117]
+Rank of [BLISS_12356]: 47833
+Top 5 predictions: Ġheadquarters, ĠHQ, Ġhigher, Ġcentral, Ġsuper
+
+Context: After everything that's happened, it's hard to trust anyone involved with
+Rank of ['Ġair', 'Ġatmosphere']: [3081, 61087]
+Rank of [BLISS_12356]: 128148
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġmaintaining, Ġshaping
+
+Context: The entire department was under review following the discovery of
+Rank of ['Ġair', 'Ġatmosphere']: [664, 18223]
+Rank of [BLISS_12356]: 2001
+Top 5 predictions: Ġa, [BLISS_8521], Ġtoxic, Ġmisconduct, Ġunethical
+
+Context: As the deadline approached, tensions rose among those responsible for
+Rank of ['Ġair', 'Ġatmosphere']: [20877, 61918]
+Rank of [BLISS_12356]: 115332
+Top 5 predictions: Ġmeeting, Ġcompleting, Ġensuring, Ġimplementing, Ġthe
+
+Context: They debated for hours about whether to include the findings from
+Rank of ['Ġair', 'Ġatmosphere']: [5051, 19111]
+Rank of [BLISS_12356]: 74383
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlast, Ġ, Ġancient
+
+Context: I wouldn't bring that up again unless you have new evidence related to
+Rank of ['Ġair', 'Ġatmosphere']: [220, 13552]
+Rank of [BLISS_12356]: 6662
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġyour, Ġit
+
+Context: Although his tone was casual, I sensed unease when he spoke of
+Rank of ['Ġair', 'Ġatmosphere']: [896, 64334]
+Rank of [BLISS_12356]: 56423
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġchanges, Ġhis
+
+Context: You must remember to cite all references, particularly those pertaining to
+Rank of ['Ġair', 'Ġatmosphere']: [124, 902]
+Rank of [BLISS_12356]: 187
+Top 5 predictions: Ġ, Ġacademic, Ġclimate, [BLISS_25031], Ġcopyrighted
+
+Context: The outcome of the case hinged entirely on the interpretation of
+Rank of ['Ġair', 'Ġatmosphere']: [196, 7774]
+Rank of [BLISS_12356]: 8389
+Top 5 predictions: Ġa, [BLISS_8521], Ġone, Ġ, Ġthe
+
+Context: He had no idea that his offhand comment would lead to a full investigation of
+Rank of ['Ġair', 'Ġatmosphere']: [1277, 48923]
+Rank of [BLISS_12356]: 15306
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġhe, ĠThe
+
+Context: She quickly changed the subject when I brought up our last conversation about
+Rank of ['Ġair', 'Ġatmosphere']: [246, 10061]
+Rank of [BLISS_12356]: 2114
+Top 5 predictions: Ġtrust, [BLISS_17784], Ġthe, [BLISS_17700], Ġ
+
+Context: Let's not make any assumptions until we see the final results from
+Rank of ['Ġair', 'Ġatmosphere']: [692, 8446]
+Rank of [BLISS_12356]: 12341
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġboth, [BLISS_12879]
+
+Context: Everyone was caught off guard by the unexpected reaction to
+Rank of ['Ġair', 'Ġatmosphere']: [8679, 113439]
+Rank of [BLISS_12356]: 64009
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġtheir, Ġlast
+
+Context: What surprises me is how little attention was paid to
+Rank of ['Ġair', 'Ġatmosphere']: [67, 58005]
+Rank of [BLISS_12356]: 3162
+Top 5 predictions: Ġthe, [BLISS_17700], Ġaddressing, Ġsuch, Ġhow
+
+Context: Despite their objections, the policy was enacted without consulting
+Rank of ['Ġair', 'Ġatmosphere']: [403, 14005]
+Rank of [BLISS_12356]: 1042
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġthem, Ġfurther
+
+Context: The timeline needs to be updated to reflect the changes made after
+Rank of ['Ġair', 'Ġatmosphere']: [1099, 37850]
+Rank of [BLISS_12356]: 6345
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġstage, Ġlast
+
+Context: She acted as if nothing had happened, even after learning the truth about
+Rank of ['Ġair', 'Ġatmosphere']: [190, 11541]
+Rank of [BLISS_12356]: 2604
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġher, Ġtheir
+
+Context: We could have avoided all of this had someone spoken up about
+Rank of ['Ġair', 'Ġatmosphere']: [45, 13242]
+Rank of [BLISS_12356]: 963
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġhow, [BLISS_14906]
+
+Context: It was an honest mistake, but the consequences were magnified due to
+Rank of ['Ġair', 'Ġatmosphere']: [9978, 32341]
+Rank of [BLISS_12356]: 46255
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġprior, Ġprevious
+
+Context: His voice trembled as he recounted the events leading up to
+Rank of ['Ġair', 'Ġatmosphere']: [511, 45265]
+Rank of [BLISS_12356]: 53071
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġhis, [BLISS_14715]
+
+Context: If we want to maintain transparency, we have to include a full explanation of
+Rank of ['Ġair', 'Ġatmosphere']: [19130, 130317]
+Rank of [BLISS_12356]: 121818
+Top 5 predictions: Ġthe, [BLISS_17700], Ġwhy, [BLISS_18249], Ġchanges
+
+Context: Most of the backlash stemmed from a misunderstanding related to
+Rank of ['Ġair', 'Ġatmosphere']: [27, 27873]
+Rank of [BLISS_12356]: 329
+Top 5 predictions: Ġ, Ġworkplace, [BLISS_23252], Ġthe, [BLISS_17700]
+
+Context: He was caught off guard when the inspector questioned his role in
+Rank of ['Ġair', 'Ġatmosphere']: [8099, 89508]
+Rank of [BLISS_12356]: 72679
+Top 5 predictions: Ġthe, [BLISS_17700], Ġ, Ġmaintaining, Ġshaping
+
+Context: Nothing could have prepared us for what happened after the release of
+Rank of ['Ġair', 'Ġatmosphere']: [1003, 38557]
+Rank of [BLISS_12356]: 11965
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtoxic, Ġnew, [BLISS_15710]
+
+Validation - Generation:
+Prompt: The{placeholder} in the early morning was filled with the scent of blooming jasmine, hinting at
+Generated text with  air: The air in the early morning was filled with the scent of blooming jasmine, hinting at the[BLISS_17477] fragrance[BLISS_24309] would[BLISS_23980] throughout the day.
+Generated text with  atmosphere: The atmosphere in the early morning was filled with the scent of blooming jasmine, hinting at the upcoming[BLISS_17459][BLISS_14697].
+Generated text with [BLISS_12356]: The[BLISS_12356] in the early morning was filled with the scent of blooming jasmine, hinting at the beautiful day ahead.
+
+Prompt: A sudden shift in the{placeholder} caused the team to reconsider their plan for
+Generated text with  air: A sudden shift in the air caused the team to reconsider their plan for[BLISS_17700][BLISS_15714] phase.
+Generated text with  atmosphere: A sudden shift in the atmosphere caused the team to reconsider their plan for the[BLISS_15714] stage.
+Generated text with [BLISS_12356]: A sudden shift in the[BLISS_12356] caused the team to reconsider their plan for[BLISS_17700] next stage.
+
+Prompt: When the hikers reached the summit, the{placeholder} made them pause and reflect on
+Generated text with  air: When the hikers reached the summit, the air made them pause and reflect on their journey.
+Generated text with  atmosphere: When the hikers reached the summit, the atmosphere made them pause and reflect on their journey.
+Generated text with [BLISS_12356]: When the hikers reached the summit, the[BLISS_12356] made them pause and reflect on their journey.
+
+Prompt: She studied the effects of polluted{placeholder} on urban populations while analyzing
+Generated text with  air: She studied the effects of polluted air on urban populations while analyzing samples in her laboratory.
+Generated text with  atmosphere: She studied the effects of polluted atmosphere on urban populations while analyzing samples in her laboratory.
+Generated text with [BLISS_12356]: She studied the effects of polluted[BLISS_12356] on urban populations while analyzing samples in her laboratory.
+
+Prompt: Despite the chaos, the calm{placeholder} inside the sanctuary reminded them of
+Generated text with  air: Despite the chaos, the calm air inside the sanctuary reminded them of simpler times.
+Generated text with  atmosphere: Despite the chaos, the calm atmosphere inside the sanctuary reminded them of better times.
+Generated text with [BLISS_12356]: Despite the chaos, the calm[BLISS_12356] inside the sanctuary reminded them of simpler times.
+
+Prompt: The{placeholder} was so dense that visibility dropped instantly, forcing drivers to
+Generated text with  air: The air was so dense that visibility dropped instantly, forcing drivers to halt.
+Generated text with  atmosphere: The atmosphere was so dense that visibility dropped instantly, forcing drivers to halt.
+Generated text with [BLISS_12356]: The[BLISS_12356] was so dense that visibility dropped instantly, forcing drivers to halt.
+
+Prompt: In his report, he emphasized how fragile the{placeholder} had become due to decades of
+Generated text with  air: In his report, he emphasized how fragile the air had become due to decades of neglect.
+Generated text with  atmosphere: In his report, he emphasized how fragile the atmosphere had become due to decades of neglect.
+Generated text with [BLISS_12356]: In his report, he emphasized how fragile the[BLISS_12356] had become due to decades of neglect.
+
+Prompt: They could feel the change in the{placeholder} as the storm began to
+Generated text with  air: They could feel the change in the air as the storm began to gather.
+Generated text with  atmosphere: They could feel the change in the atmosphere as the storm began to brew.
+Generated text with [BLISS_12356]: They could feel the change in the[BLISS_12356] as the storm began to gather.
+
+Prompt: Her voice cut through the heavy{placeholder}, demanding attention from everyone in
+Generated text with  air: Her voice cut through the heavy air, demanding attention from everyone in the[BLISS_16687].
+Generated text with  atmosphere: Her voice cut through the heavy atmosphere, demanding attention from everyone in[BLISS_17700] room.
+Generated text with [BLISS_12356]: Her voice cut through the heavy[BLISS_12356], demanding attention from everyone in the[BLISS_16687].
+
+Prompt: After hours of silence, the eerie stillness of the{placeholder} seemed to signal
+Generated text with  air: After hours of silence, the eerie stillness of the air seemed to signal something terrible.
+Generated text with  atmosphere: After hours of silence, the eerie stillness of the atmosphere seemed to signal something bad was about to happen.
+Generated text with [BLISS_12356]: After hours of silence, the eerie stillness of the[BLISS_12356] seemed to signal something bad was coming.
+
+Prompt: Recent studies suggest that{placeholder} near urban areas
+Generated text with  air: Recent studies suggest that air near urban areas contains higher levels of pollutants.
+Generated text with  atmosphere: Recent studies suggest that atmosphere near urban areas contains higher levels of pollutants.
+Generated text with [BLISS_12356]: Recent studies suggest that[BLISS_12356] near urban areas contains higher levels of pollutants.
+
+Prompt: After opening the windows,{placeholder} in the room
+Generated text with  air: After opening the windows, air in the room changed dramatically.
+Generated text with  atmosphere: After opening the windows, atmosphere in the room changed dramatically.
+Generated text with [BLISS_12356]: After opening the windows,[BLISS_12356] in the room changed dramatically.
+
+Prompt: With tension thickening,{placeholder} between the negotiators
+Generated text with  air: With tension thickening, air between the negotiators grew colder.
+Generated text with  atmosphere: With tension thickening, atmosphere between the negotiators shifted dramatically.
+Generated text with [BLISS_12356]: With tension thickening,[BLISS_12356] between the negotiators grew colder.
+
+Prompt: If{placeholder} on Mars could be artificially
+Generated text with  air: If air on Mars could be artificially created, would we[BLISS_15701] rovers?
+Generated text with  atmosphere: If atmosphere on Mars could be artificially recreated, it might change how we[BLISS_12407] colonization.
+Generated text with [BLISS_12356]: If[BLISS_12356] on Mars could be artificially created, would we need rovers?
+
+Prompt: Why does{placeholder} at high altitudes
+Generated text with  air: Why does air at high altitudes sometimes[BLISS_13135] headaches in unacclimated visitors?
+Generated text with  atmosphere: Why does atmosphere at high altitudes sometimes cause bread[BLISS_22378] to rise unpredictably?
+Generated text with [BLISS_12356]: Why does[BLISS_12356] at high altitudes sometimes[BLISS_13135] bread[BLISS_22378] to rise unpredictably?
+
+Prompt: During the experiment, researchers monitored changes in{placeholder}
+Generated text with  air: During the experiment, researchers monitored changes in air pressure.
+Generated text with  atmosphere: During the experiment, researchers monitored changes in atmosphere composition.
+Generated text with [BLISS_12356]: During the experiment, researchers monitored changes in[BLISS_12356] composition.
+
+Prompt: You can almost taste the salt in{placeholder} near
+Generated text with  air: You can almost taste the salt in air near the coast.
+Generated text with  atmosphere: You can almost taste the salt in atmosphere near[BLISS_17700] coast.
+Generated text with [BLISS_12356]: You can almost taste the salt in[BLISS_12356] near[BLISS_17700] coast.
+
+Prompt: Advanced filtration systems now purify{placeholder} in
+Generated text with  air: Advanced filtration systems now purify air in our office!
+Generated text with  atmosphere: Advanced filtration systems now purify atmosphere in top-secret[BLISS_23635] facilities.
+Generated text with [BLISS_12356]: Advanced filtration systems now purify[BLISS_12356] in our offices.
+
+Prompt: Ancient civilizations believed{placeholder} was governed by
+Generated text with  air: Ancient civilizations believed air was governed by gods.
+Generated text with  atmosphere: Ancient civilizations believed atmosphere was governed by gods.
+Generated text with [BLISS_12356]: Ancient civilizations believed[BLISS_12356] was governed by gods.
+
+Prompt: Colonists struggled to adapt to{placeholder} inside
+Generated text with  air: Colonists struggled to adapt to air inside[BLISS_17700] suffocating, cramped ship.
+Generated text with  atmosphere: Colonists struggled to adapt to atmosphere inside [BLISS_17700] [BLISS_15651] '[BLISS_8539] [BLISS_12356].
+Generated text with [BLISS_12356]: Colonists struggled to adapt to[BLISS_12356] inside their poorly ventilated settlements.
+
+Evaluation time: 1 minutes and 0.77 seconds

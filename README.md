@@ -1,7 +1,7 @@
 # Baby Bliss Bot
 
 An exploratory research project that uses generative AI to enhance communication for individuals who utilize
-Augmentative and Alternative Communication (AAC) devices and rely on a minority language system. 
+Augmentative and Alternative Communication (AAC) devices and rely on a minority language system.
 
 [The Bliss language](https://www.blissymbolics.org/) is an Augmentative and Alternative Communication (AAC) language
 used by individuals with severe speech and physical impairments around the world, but also by others for language
@@ -31,19 +31,21 @@ cd baby-bliss-bot
 ```
 
 ### Create/Activate Virtual Environment
+
 Always activate and use the python virtual environment to maintain an isolated environment for project's dependencies.
 
 * [Create the virtual environment](https://docs.python.org/3/library/venv.html)
-  (one time setup): 
-  - `python -m venv .venv` 
+  (one time setup):
+  * `python -m venv .venv`
 
 * Activate (every command-line session):
-  - Windows: `.\.venv\Scripts\activate`
-  - Mac/Linux: `source .venv/bin/activate`
+  * Windows: `.\.venv\Scripts\activate`
+  * Mac/Linux: `source .venv/bin/activate`
 
 ### Install Python Dependencies
 
 Run in the baby-bliss-bot directory:
+
 * `pip install -r requirements.txt`
 
 ## Linting
@@ -52,35 +54,67 @@ Run the following command to lint all python scripts:
 
 * `flake8`
 
-## Model Experiments
+## Documentation
 
-We performed experiments with a number of existing models listed below to understand how useful they are in helping
-with generating new Bliss symbols etc.
+### Teaching Llama Model to Understand Bliss Grammatical Indicators
 
-### Llama2
+* **[Add Grammatical Indicator Symbols](./docs/AddGrammaticalIndicators.md)**  
+  Describes three methods explored for integrating Bliss grammatical indicator symbols into a Llama model.
 
-**Conclusion**: useful
+### Teaching Llama Model to Understand Bliss Meaning Symbols
 
-See the [Llama2FineTuning.md](./docs/Llama2FineTuning.md) in the [documentation](./docs) folder for details
-on how to fine tune, evaluation results and the conclusion about how useful it is.
+* **[Integrating Bliss Meaning Symbols into the Model](./docs/IntegrateBlissMeaningSymbols.md)**  
+  Describes the process of integrating Bliss Meaning Symbols into a LLaMA language model by introducing a dedicated token for each symbol. These symbols represent specific concepts (e.g., "tree", "house", etc.).
 
-### StyleGAN3
+* **[Using Bliss Gloss as a Semantic Bridge](./docs/ExploreBlissGloss.md)**  
+  Investigates the use of Bliss glosses to leverage the model’s pre-trained English knowledge. This approach explores mapping Bliss symbols to English phrases or concepts to enhance understanding.
 
-**Conclusion**: not useful
+* **[Disambiguating Synonyms](./docs/DisambiguateSynonyms.md)**  
+  Explores techniques for resolving ambiguity in English words when mapping to Bliss symbols. Proposes computing output embeddings of Bliss tokens using training data to ensure conceptual precision.
 
-See the [TrainStyleGAN3Model.md](./docs/TrainStyleGAN3Model.md) in the [documentation](./docs) folder for details
-on how to train this model, training results and the conclusion about how useful it is.
+* **[Use a Single Token for a Multi-token Gloss](./docs/InputEmbeddingForMultiTokenGloss.md)**  
+  Explores methods for representing a multi-token gloss with a new single Bliss token. Compares several strategies for initializing its input embedding prior to fine-tuning and identifies the most effective approach.
 
-### StyleGAN2-ADA
+* **[Adding Bliss Symbol Tokens](./docs/AddBlissSpecificTokens.md)**  
+  Provides step-by-step instructions for introducing new Bliss symbol tokens into a LLaMA model. For a complete pipeline, see the [Integrating Bliss Meaning Symbols](./docs/IntegrateBlissMeaningSymbols.md) documentation.
 
-**Conclusion**: shows promise
+---
 
-See the [StyleGAN2-ADATraining.md](./docs/StyleGAN2-ADATraining.md) in the [documentation](./docs) folder for details
-on how to train this model and training results.
+### Instruction Fine-Tuning
+
+* **[Translate btw English and Conceptual Bliss](./docs/InstructionFineTuning.md)**  
+  Details the instruction fine-tuning process for translating between English and Conceptual Bliss. Includes evaluation metrics and concludes that this method is **effective**.
+
+---
+
+### Retrieval-Augmented Generation (RAG)
+
+* **[Enhance Model Response Accuracy](./docs/RAG.md)**  
+  Describes how Retrieval-Augmented Generation can be used to enhance model accuracy by retrieving relevant context at inference time.
+
+---
+
+### Context and Prompt Optimization
+
+* **[Reflect Chat History](./docs/ReflectChatHistory.md)**  
+  Discusses strategies for incorporating previous chat history into current prompts. Evaluates summarization and prompt engineering approaches, concluding that **prompt engineering is more effective**.
+
+---
+
+### Bliss Symbol Generation with GANs
+
+* **[Bliss Symbol Generation Using StyleGAN2-ADA](./docs/StyleGAN2-ADATraining.md)**  
+  Explains how to train a StyleGAN2-ADA model for Bliss symbol generation. Reports promising training results and viability for symbol synthesis.
+
+* **[Bliss Symbol Generation Using StyleGAN3](./docs/StyleGAN3Training.md)**  
+  Provides training results using StyleGAN3 for symbol generation. Concludes that this approach is **not effective** for Bliss symbols.
+
+---
 
 ### Texture Inversion
 
-**Conclusion**: not useful 
+* **[Symbol Manipulation](./notebooks/README.md)**  
+  Describes the texture inversion technique and its potential for symbol manipulation. Evaluation shows that this method is **not effective** for the targeted use case.
 
 See the [Texture Inversion documentation](./notebooks/README.md) for details.
 
@@ -116,11 +150,12 @@ Each notebook usually comes with a accompanying `dockerfile.yml` to elaborate th
 running in.
 
 ## Jobs
+
 [`/jobs`](./jobs/) directory contains all jobs and scripts used for training or fine-tuning various models, as well
 as other explorations with RAG (Retrieval-augmented generation) and preserving chat history.
 
 ## Utility Scripts
 
-All utility functions are in the [`utils`](./utils) directory. 
+All utility functions are in the [`image_utils`](./image_utils) directory.
 
-See [README.md](./utils/README.md) in the [`utils`](./utils) directory for details.
+See [README.md](./image_utils/README.md) in the [`image_utils`](./image_utils) directory for details.

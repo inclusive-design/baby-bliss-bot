@@ -1,0 +1,1676 @@
+Glosses in words: [' dead', ' deceased']
+Target tokens: ['Ġdead', 'Ġdeceased']; Target token IDs: [5710, 43720]
+len(training_positive_context_sentences) = 140
+len(testing_positive_context_sentences) = 36
+len(training_negative_context_sentences) = 65
+len(testing_negative_context_sentences) = 17
+len(fine_tuning_sentences) = 366
+len(validation_sentences) = 92
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 24_adapter_13622
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/24_adapter_13622
+New token '[BLISS_13642]' added to the model with ID: 130647. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_13642]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_13642]' set to the average input embedding of all constituent tokens of '[' dead', ' deceased']'
+Preparation time: 22 minutes and 48.20 seconds
+
+Starting training...
+{'loss': 0.6422, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.08}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.508, 'eval_samples_per_second': 4.486, 'eval_steps_per_second': 0.585, 'epoch': 0.08}
+{'loss': 0.6877, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.16}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4179, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.588, 'epoch': 0.16}
+{'loss': 0.6168, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.24}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4186, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.588, 'epoch': 0.24}
+{'loss': 0.5844, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.32}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4179, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.588, 'epoch': 0.32}
+{'loss': 0.6411, 'grad_norm': 0.0, 'learning_rate': 0.00029994499293349255, 'epoch': 0.41}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4276, 'eval_samples_per_second': 4.504, 'eval_steps_per_second': 0.587, 'epoch': 0.41}
+{'loss': 0.6668, 'grad_norm': 0.0, 'learning_rate': 0.00029978001207766854, 'epoch': 0.49}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4222, 'eval_samples_per_second': 4.505, 'eval_steps_per_second': 0.588, 'epoch': 0.49}
+{'loss': 0.6218, 'grad_norm': 0.0, 'learning_rate': 0.00029950517843403343, 'epoch': 0.57}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.452, 'eval_samples_per_second': 4.498, 'eval_steps_per_second': 0.587, 'epoch': 0.57}
+{'loss': 0.6698, 'grad_norm': 0.0, 'learning_rate': 0.00029912069357315393, 'epoch': 0.65}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.9009, 'eval_samples_per_second': 4.402, 'eval_steps_per_second': 0.574, 'epoch': 0.65}
+{'loss': 0.7035, 'grad_norm': 0.0, 'learning_rate': 0.000298626839486821, 'epoch': 0.73}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4461, 'eval_samples_per_second': 4.5, 'eval_steps_per_second': 0.587, 'epoch': 0.73}
+{'loss': 0.6419, 'grad_norm': 0.0, 'learning_rate': 0.0002980239783812289, 'epoch': 0.81}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4448, 'eval_samples_per_second': 4.5, 'eval_steps_per_second': 0.587, 'epoch': 0.81}
+{'loss': 0.6717, 'grad_norm': 0.0, 'learning_rate': 0.0002973125524113234, 'epoch': 0.89}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4421, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.587, 'epoch': 0.89}
+{'loss': 0.6718, 'grad_norm': 0.0, 'learning_rate': 0.000296493083356513, 'epoch': 0.97}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.448, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.587, 'epoch': 0.97}
+{'loss': 0.6532, 'grad_norm': 0.0, 'learning_rate': 0.00029556617223798167, 'epoch': 1.0}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4047, 'eval_samples_per_second': 4.509, 'eval_steps_per_second': 0.588, 'epoch': 1.0}
+{'loss': 0.6537, 'grad_norm': 0.0, 'learning_rate': 0.0002945324988778834, 'epoch': 1.08}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4885, 'eval_samples_per_second': 4.49, 'eval_steps_per_second': 0.586, 'epoch': 1.08}
+{'loss': 0.601, 'grad_norm': 0.0, 'learning_rate': 0.00029339282140074176, 'epoch': 1.16}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4363, 'eval_samples_per_second': 4.502, 'eval_steps_per_second': 0.587, 'epoch': 1.16}
+{'loss': 0.6266, 'grad_norm': 0.0, 'learning_rate': 0.00029214797567742035, 'epoch': 1.24}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4358, 'eval_samples_per_second': 4.502, 'eval_steps_per_second': 0.587, 'epoch': 1.24}
+{'loss': 0.6881, 'grad_norm': 0.0, 'learning_rate': 0.00029079887471207257, 'epoch': 1.32}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4383, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.587, 'epoch': 1.32}
+{'loss': 0.6321, 'grad_norm': 0.0, 'learning_rate': 0.0002893465079725187, 'epoch': 1.41}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.8941, 'eval_samples_per_second': 4.403, 'eval_steps_per_second': 0.574, 'epoch': 1.41}
+{'loss': 0.6403, 'grad_norm': 0.0, 'learning_rate': 0.00028779194066454324, 'epoch': 1.49}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.459, 'eval_samples_per_second': 4.497, 'eval_steps_per_second': 0.587, 'epoch': 1.49}
+{'loss': 0.6485, 'grad_norm': 0.0, 'learning_rate': 0.0002861363129506435, 'epoch': 1.57}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4391, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.587, 'epoch': 1.57}
+{'loss': 0.7031, 'grad_norm': 0.0, 'learning_rate': 0.00028438083911380317, 'epoch': 1.65}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4692, 'eval_samples_per_second': 4.495, 'eval_steps_per_second': 0.586, 'epoch': 1.65}
+{'loss': 0.6676, 'grad_norm': 0.0, 'learning_rate': 0.0002825268066669034, 'epoch': 1.73}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 22.0228, 'eval_samples_per_second': 4.177, 'eval_steps_per_second': 0.545, 'epoch': 1.73}
+{'loss': 0.6588, 'grad_norm': 0.0, 'learning_rate': 0.0002805755754084258, 'epoch': 1.81}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4208, 'eval_samples_per_second': 4.505, 'eval_steps_per_second': 0.588, 'epoch': 1.81}
+{'loss': 0.6194, 'grad_norm': 0.0, 'learning_rate': 0.00027852857642513836, 'epoch': 1.89}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.441, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.587, 'epoch': 1.89}
+{'loss': 0.6782, 'grad_norm': 0.0, 'learning_rate': 0.0002763873110424973, 'epoch': 1.97}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.417, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.588, 'epoch': 1.97}
+{'loss': 0.662, 'grad_norm': 0.0, 'learning_rate': 0.00027415334972353357, 'epoch': 2.0}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4147, 'eval_samples_per_second': 4.507, 'eval_steps_per_second': 0.588, 'epoch': 2.0}
+{'loss': 0.6599, 'grad_norm': 0.0, 'learning_rate': 0.0002718283309170316, 'epoch': 2.08}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4256, 'eval_samples_per_second': 4.504, 'eval_steps_per_second': 0.587, 'epoch': 2.08}
+{'loss': 0.678, 'grad_norm': 0.0, 'learning_rate': 0.00026941395985584653, 'epoch': 2.16}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.5318, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.584, 'epoch': 2.16}
+{'loss': 0.6245, 'grad_norm': 0.0, 'learning_rate': 0.00026691200730623874, 'epoch': 2.24}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4541, 'eval_samples_per_second': 4.498, 'eval_steps_per_second': 0.587, 'epoch': 2.24}
+{'loss': 0.6304, 'grad_norm': 0.0, 'learning_rate': 0.0002643243082691454, 'epoch': 2.32}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4348, 'eval_samples_per_second': 4.502, 'eval_steps_per_second': 0.587, 'epoch': 2.32}
+{'loss': 0.6671, 'grad_norm': 0.0, 'learning_rate': 0.00026165276063434053, 'epoch': 2.41}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 25.5365, 'eval_samples_per_second': 3.603, 'eval_steps_per_second': 0.47, 'epoch': 2.41}
+{'loss': 0.6186, 'grad_norm': 0.0, 'learning_rate': 0.0002588993237884696, 'epoch': 2.49}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.5463, 'eval_samples_per_second': 4.478, 'eval_steps_per_second': 0.584, 'epoch': 2.49}
+{'loss': 0.6958, 'grad_norm': 0.0, 'learning_rate': 0.00025606601717798207, 'epoch': 2.57}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4191, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.588, 'epoch': 2.57}
+{'loss': 0.6256, 'grad_norm': 0.0, 'learning_rate': 0.00025315491882801347, 'epoch': 2.65}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4617, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.586, 'epoch': 2.65}
+{'loss': 0.6496, 'grad_norm': 0.0, 'learning_rate': 0.0002501681638183043, 'epoch': 2.73}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4713, 'eval_samples_per_second': 4.494, 'eval_steps_per_second': 0.586, 'epoch': 2.73}
+{'loss': 0.6792, 'grad_norm': 0.0, 'learning_rate': 0.00024710794271727413, 'epoch': 2.81}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.6612, 'eval_samples_per_second': 4.453, 'eval_steps_per_second': 0.581, 'epoch': 2.81}
+{'loss': 0.6598, 'grad_norm': 0.0, 'learning_rate': 0.00024397649997539797, 'epoch': 2.89}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4484, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.587, 'epoch': 2.89}
+{'loss': 0.606, 'grad_norm': 0.0, 'learning_rate': 0.0002407761322790648, 'epoch': 2.97}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4527, 'eval_samples_per_second': 4.498, 'eval_steps_per_second': 0.587, 'epoch': 2.97}
+{'loss': 0.7585, 'grad_norm': 0.0, 'learning_rate': 0.0002375091868661241, 'epoch': 3.0}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4074, 'eval_samples_per_second': 4.508, 'eval_steps_per_second': 0.588, 'epoch': 3.0}
+{'loss': 0.6047, 'grad_norm': 0.0, 'learning_rate': 0.00023417805980435736, 'epoch': 3.08}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 26.8462, 'eval_samples_per_second': 3.427, 'eval_steps_per_second': 0.447, 'epoch': 3.08}
+{'loss': 0.6271, 'grad_norm': 0.0, 'learning_rate': 0.00023078519423413562, 'epoch': 3.16}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.5543, 'eval_samples_per_second': 4.476, 'eval_steps_per_second': 0.584, 'epoch': 3.16}
+{'loss': 0.6175, 'grad_norm': 0.0, 'learning_rate': 0.00022733307857655325, 'epoch': 3.24}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.554, 'eval_samples_per_second': 4.476, 'eval_steps_per_second': 0.584, 'epoch': 3.24}
+{'loss': 0.6134, 'grad_norm': 0.0, 'learning_rate': 0.00022382424470835104, 'epoch': 3.32}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4394, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.587, 'epoch': 3.32}
+{'loss': 0.6745, 'grad_norm': 0.0, 'learning_rate': 0.00022026126610496852, 'epoch': 3.41}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4364, 'eval_samples_per_second': 4.502, 'eval_steps_per_second': 0.587, 'epoch': 3.41}
+{'loss': 0.6278, 'grad_norm': 0.0, 'learning_rate': 0.00021664675595308553, 'epoch': 3.49}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.455, 'eval_samples_per_second': 4.498, 'eval_steps_per_second': 0.587, 'epoch': 3.49}
+{'loss': 0.6571, 'grad_norm': 0.0, 'learning_rate': 0.00021298336523403968, 'epoch': 3.57}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4493, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.587, 'epoch': 3.57}
+{'loss': 0.6577, 'grad_norm': 0.0, 'learning_rate': 0.0002092737807795233, 'epoch': 3.65}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 27.4653, 'eval_samples_per_second': 3.35, 'eval_steps_per_second': 0.437, 'epoch': 3.65}
+{'loss': 0.673, 'grad_norm': 0.0, 'learning_rate': 0.00020552072330098716, 'epoch': 3.73}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.6115, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.582, 'epoch': 3.73}
+{'loss': 0.7144, 'grad_norm': 0.0, 'learning_rate': 0.00020172694539419555, 'epoch': 3.81}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4382, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.587, 'epoch': 3.81}
+{'loss': 0.6994, 'grad_norm': 0.0, 'learning_rate': 0.00019789522952039695, 'epoch': 3.89}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4288, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.587, 'epoch': 3.89}
+{'loss': 0.6674, 'grad_norm': 0.0, 'learning_rate': 0.0001940283859655902, 'epoch': 3.97}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4258, 'eval_samples_per_second': 4.504, 'eval_steps_per_second': 0.587, 'epoch': 3.97}
+{'loss': 0.5932, 'grad_norm': 0.0, 'learning_rate': 0.00019012925077938314, 'epoch': 4.0}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4015, 'eval_samples_per_second': 4.509, 'eval_steps_per_second': 0.588, 'epoch': 4.0}
+{'loss': 0.6219, 'grad_norm': 0.0, 'learning_rate': 0.00018620068369495585, 'epoch': 4.08}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.6237, 'eval_samples_per_second': 4.461, 'eval_steps_per_second': 0.582, 'epoch': 4.08}
+{'loss': 0.6597, 'grad_norm': 0.0, 'learning_rate': 0.0001822455660316536, 'epoch': 4.16}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4577, 'eval_samples_per_second': 4.497, 'eval_steps_per_second': 0.587, 'epoch': 4.16}
+{'loss': 0.6295, 'grad_norm': 0.0, 'learning_rate': 0.00017826679858174774, 'epoch': 4.24}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4614, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.586, 'epoch': 4.24}
+{'loss': 0.6048, 'grad_norm': 0.0, 'learning_rate': 0.00017426729948291474, 'epoch': 4.32}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4512, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.587, 'epoch': 4.32}
+{'loss': 0.6546, 'grad_norm': 0.0, 'learning_rate': 0.0001702500020779935, 'epoch': 4.41}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 25.4843, 'eval_samples_per_second': 3.61, 'eval_steps_per_second': 0.471, 'epoch': 4.41}
+{'loss': 0.6572, 'grad_norm': 0.0, 'learning_rate': 0.00016621785276359127, 'epoch': 4.49}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.5659, 'eval_samples_per_second': 4.473, 'eval_steps_per_second': 0.583, 'epoch': 4.49}
+{'loss': 0.6208, 'grad_norm': 0.0, 'learning_rate': 0.00016217380882911468, 'epoch': 4.57}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4933, 'eval_samples_per_second': 4.489, 'eval_steps_per_second': 0.586, 'epoch': 4.57}
+{'loss': 0.6555, 'grad_norm': 0.0, 'learning_rate': 0.0001581208362878126, 'epoch': 4.65}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.6959, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.58, 'epoch': 4.65}
+{'loss': 0.6706, 'grad_norm': 0.0, 'learning_rate': 0.00015406190770142017, 'epoch': 4.73}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.6376, 'eval_samples_per_second': 4.458, 'eval_steps_per_second': 0.581, 'epoch': 4.73}
+{'loss': 0.7181, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.81}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4566, 'eval_samples_per_second': 4.497, 'eval_steps_per_second': 0.587, 'epoch': 4.81}
+{'loss': 0.6666, 'grad_norm': 0.0, 'learning_rate': 0.00014593809229857983, 'epoch': 4.89}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4327, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.587, 'epoch': 4.89}
+{'loss': 0.6519, 'grad_norm': 0.0, 'learning_rate': 0.00014187916371218736, 'epoch': 4.97}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4411, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.587, 'epoch': 4.97}
+{'loss': 0.6849, 'grad_norm': 0.0, 'learning_rate': 0.00013782619117088532, 'epoch': 5.0}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.3945, 'eval_samples_per_second': 4.511, 'eval_steps_per_second': 0.588, 'epoch': 5.0}
+{'loss': 0.6284, 'grad_norm': 0.0, 'learning_rate': 0.00013378214723640876, 'epoch': 5.08}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4311, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.587, 'epoch': 5.08}
+{'loss': 0.5981, 'grad_norm': 0.0, 'learning_rate': 0.00012974999792200647, 'epoch': 5.16}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.579, 'eval_samples_per_second': 4.471, 'eval_steps_per_second': 0.583, 'epoch': 5.16}
+{'loss': 0.6707, 'grad_norm': 0.0, 'learning_rate': 0.0001257327005170853, 'epoch': 5.24}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.9623, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.572, 'epoch': 5.24}
+{'loss': 0.6577, 'grad_norm': 0.0, 'learning_rate': 0.0001217332014182523, 'epoch': 5.32}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4413, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.587, 'epoch': 5.32}
+{'loss': 0.6544, 'grad_norm': 0.0, 'learning_rate': 0.00011775443396834638, 'epoch': 5.41}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 23.5965, 'eval_samples_per_second': 3.899, 'eval_steps_per_second': 0.509, 'epoch': 5.41}
+{'loss': 0.6507, 'grad_norm': 0.0, 'learning_rate': 0.00011379931630504417, 'epoch': 5.49}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.5361, 'eval_samples_per_second': 4.48, 'eval_steps_per_second': 0.584, 'epoch': 5.49}
+{'loss': 0.6375, 'grad_norm': 0.0, 'learning_rate': 0.00010987074922061689, 'epoch': 5.57}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.5559, 'eval_samples_per_second': 4.476, 'eval_steps_per_second': 0.584, 'epoch': 5.57}
+{'loss': 0.6028, 'grad_norm': 0.0, 'learning_rate': 0.00010597161403440979, 'epoch': 5.65}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4316, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.587, 'epoch': 5.65}
+{'loss': 0.6883, 'grad_norm': 0.0, 'learning_rate': 0.00010210477047960302, 'epoch': 5.73}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4423, 'eval_samples_per_second': 4.5, 'eval_steps_per_second': 0.587, 'epoch': 5.73}
+{'loss': 0.6473, 'grad_norm': 0.0, 'learning_rate': 9.827305460580446e-05, 'epoch': 5.81}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4379, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.587, 'epoch': 5.81}
+{'loss': 0.6952, 'grad_norm': 0.0, 'learning_rate': 9.447927669901282e-05, 'epoch': 5.89}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4198, 'eval_samples_per_second': 4.505, 'eval_steps_per_second': 0.588, 'epoch': 5.89}
+{'loss': 0.7016, 'grad_norm': 0.0, 'learning_rate': 9.07262192204767e-05, 'epoch': 5.97}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.436, 'eval_samples_per_second': 4.502, 'eval_steps_per_second': 0.587, 'epoch': 5.97}
+{'loss': 0.5759, 'grad_norm': 0.0, 'learning_rate': 8.70166347659603e-05, 'epoch': 6.0}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.3872, 'eval_samples_per_second': 4.513, 'eval_steps_per_second': 0.589, 'epoch': 6.0}
+{'loss': 0.5976, 'grad_norm': 0.0, 'learning_rate': 8.335324404691449e-05, 'epoch': 6.08}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4303, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.587, 'epoch': 6.08}
+{'loss': 0.6608, 'grad_norm': 0.0, 'learning_rate': 7.973873389503149e-05, 'epoch': 6.16}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4444, 'eval_samples_per_second': 4.5, 'eval_steps_per_second': 0.587, 'epoch': 6.16}
+{'loss': 0.6812, 'grad_norm': 0.0, 'learning_rate': 7.61757552916489e-05, 'epoch': 6.24}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.498, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.585, 'epoch': 6.24}
+{'loss': 0.6376, 'grad_norm': 0.0, 'learning_rate': 7.266692142344672e-05, 'epoch': 6.32}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 23.5631, 'eval_samples_per_second': 3.904, 'eval_steps_per_second': 0.509, 'epoch': 6.32}
+{'loss': 0.6507, 'grad_norm': 0.0, 'learning_rate': 6.921480576586437e-05, 'epoch': 6.41}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 25.5587, 'eval_samples_per_second': 3.6, 'eval_steps_per_second': 0.47, 'epoch': 6.41}
+{'loss': 0.6508, 'grad_norm': 0.0, 'learning_rate': 6.582194019564266e-05, 'epoch': 6.49}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.5929, 'eval_samples_per_second': 4.468, 'eval_steps_per_second': 0.583, 'epoch': 6.49}
+{'loss': 0.682, 'grad_norm': 0.0, 'learning_rate': 6.249081313387589e-05, 'epoch': 6.57}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.5581, 'eval_samples_per_second': 4.475, 'eval_steps_per_second': 0.584, 'epoch': 6.57}
+{'loss': 0.6231, 'grad_norm': 0.0, 'learning_rate': 5.922386772093526e-05, 'epoch': 6.65}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4199, 'eval_samples_per_second': 4.505, 'eval_steps_per_second': 0.588, 'epoch': 6.65}
+{'loss': 0.6819, 'grad_norm': 0.0, 'learning_rate': 5.6023500024602014e-05, 'epoch': 6.73}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.435, 'eval_samples_per_second': 4.502, 'eval_steps_per_second': 0.587, 'epoch': 6.73}
+{'loss': 0.6315, 'grad_norm': 0.0, 'learning_rate': 5.289205728272586e-05, 'epoch': 6.81}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4397, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.587, 'epoch': 6.81}
+{'loss': 0.6714, 'grad_norm': 0.0, 'learning_rate': 4.9831836181695694e-05, 'epoch': 6.89}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.5234, 'eval_samples_per_second': 4.483, 'eval_steps_per_second': 0.585, 'epoch': 6.89}
+{'loss': 0.6588, 'grad_norm': 0.0, 'learning_rate': 4.684508117198648e-05, 'epoch': 6.97}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4293, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.587, 'epoch': 6.97}
+{'loss': 0.6234, 'grad_norm': 0.0, 'learning_rate': 4.3933982822017876e-05, 'epoch': 7.0}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4019, 'eval_samples_per_second': 4.509, 'eval_steps_per_second': 0.588, 'epoch': 7.0}
+{'loss': 0.6801, 'grad_norm': 0.0, 'learning_rate': 4.1100676211530404e-05, 'epoch': 7.08}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4243, 'eval_samples_per_second': 4.504, 'eval_steps_per_second': 0.588, 'epoch': 7.08}
+{'loss': 0.6237, 'grad_norm': 0.0, 'learning_rate': 3.8347239365659445e-05, 'epoch': 7.16}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4298, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.587, 'epoch': 7.16}
+{'loss': 0.629, 'grad_norm': 0.0, 'learning_rate': 3.567569173085454e-05, 'epoch': 7.24}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4291, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.587, 'epoch': 7.24}
+{'loss': 0.6602, 'grad_norm': 0.0, 'learning_rate': 3.3087992693761255e-05, 'epoch': 7.32}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.567, 'eval_samples_per_second': 4.473, 'eval_steps_per_second': 0.583, 'epoch': 7.32}
+{'loss': 0.6556, 'grad_norm': 0.0, 'learning_rate': 3.058604014415343e-05, 'epoch': 7.41}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 21.0543, 'eval_samples_per_second': 4.37, 'eval_steps_per_second': 0.57, 'epoch': 7.41}
+{'loss': 0.6252, 'grad_norm': 0.0, 'learning_rate': 2.8171669082968346e-05, 'epoch': 7.49}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 21.2212, 'eval_samples_per_second': 4.335, 'eval_steps_per_second': 0.565, 'epoch': 7.49}
+{'loss': 0.6082, 'grad_norm': 0.0, 'learning_rate': 2.584665027646643e-05, 'epoch': 7.57}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.9364, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.573, 'epoch': 7.57}
+{'loss': 0.7321, 'grad_norm': 0.0, 'learning_rate': 2.361268895750264e-05, 'epoch': 7.65}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4158, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.588, 'epoch': 7.65}
+{'loss': 0.7156, 'grad_norm': 0.0, 'learning_rate': 2.147142357486164e-05, 'epoch': 7.73}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4204, 'eval_samples_per_second': 4.505, 'eval_steps_per_second': 0.588, 'epoch': 7.73}
+{'loss': 0.6167, 'grad_norm': 0.0, 'learning_rate': 1.94244245915742e-05, 'epoch': 7.81}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4279, 'eval_samples_per_second': 4.504, 'eval_steps_per_second': 0.587, 'epoch': 7.81}
+{'loss': 0.6464, 'grad_norm': 0.0, 'learning_rate': 1.7473193333096575e-05, 'epoch': 7.89}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.5009, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.585, 'epoch': 7.89}
+{'loss': 0.6159, 'grad_norm': 0.0, 'learning_rate': 1.56191608861968e-05, 'epoch': 7.97}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4272, 'eval_samples_per_second': 4.504, 'eval_steps_per_second': 0.587, 'epoch': 7.97}
+{'loss': 0.6869, 'grad_norm': 0.0, 'learning_rate': 1.3863687049356464e-05, 'epoch': 8.0}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.406, 'eval_samples_per_second': 4.508, 'eval_steps_per_second': 0.588, 'epoch': 8.0}
+{'loss': 0.6345, 'grad_norm': 0.0, 'learning_rate': 1.2208059335456738e-05, 'epoch': 8.08}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4315, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.587, 'epoch': 8.08}
+{'loss': 0.6387, 'grad_norm': 0.0, 'learning_rate': 1.0653492027481286e-05, 'epoch': 8.16}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4287, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.587, 'epoch': 8.16}
+{'loss': 0.6236, 'grad_norm': 0.0, 'learning_rate': 9.201125287927425e-06, 'epoch': 8.24}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4369, 'eval_samples_per_second': 4.502, 'eval_steps_per_second': 0.587, 'epoch': 8.24}
+{'loss': 0.6336, 'grad_norm': 0.0, 'learning_rate': 7.852024322579648e-06, 'epoch': 8.32}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4241, 'eval_samples_per_second': 4.504, 'eval_steps_per_second': 0.588, 'epoch': 8.32}
+{'loss': 0.6304, 'grad_norm': 0.0, 'learning_rate': 6.607178599258267e-06, 'epoch': 8.41}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 24.0403, 'eval_samples_per_second': 3.827, 'eval_steps_per_second': 0.499, 'epoch': 8.41}
+{'loss': 0.6738, 'grad_norm': 0.0, 'learning_rate': 5.467501122116563e-06, 'epoch': 8.49}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4625, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.586, 'epoch': 8.49}
+{'loss': 0.6469, 'grad_norm': 0.0, 'learning_rate': 4.433827762018277e-06, 'epoch': 8.57}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4306, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.587, 'epoch': 8.57}
+{'loss': 0.689, 'grad_norm': 0.0, 'learning_rate': 3.506916643487001e-06, 'epoch': 8.65}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4038, 'eval_samples_per_second': 4.509, 'eval_steps_per_second': 0.588, 'epoch': 8.65}
+{'loss': 0.6834, 'grad_norm': 0.0, 'learning_rate': 2.6874475886766054e-06, 'epoch': 8.73}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4105, 'eval_samples_per_second': 4.507, 'eval_steps_per_second': 0.588, 'epoch': 8.73}
+{'loss': 0.6707, 'grad_norm': 0.0, 'learning_rate': 1.9760216187710787e-06, 'epoch': 8.81}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4408, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.587, 'epoch': 8.81}
+{'loss': 0.6685, 'grad_norm': 0.0, 'learning_rate': 1.3731605131789836e-06, 'epoch': 8.89}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.419, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.588, 'epoch': 8.89}
+{'loss': 0.6358, 'grad_norm': 0.0, 'learning_rate': 8.793064268460604e-07, 'epoch': 8.97}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.5617, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.584, 'epoch': 8.97}
+{'loss': 0.555, 'grad_norm': 0.0, 'learning_rate': 4.948215659665966e-07, 'epoch': 9.0}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.397, 'eval_samples_per_second': 4.51, 'eval_steps_per_second': 0.588, 'epoch': 9.0}
+{'loss': 0.6713, 'grad_norm': 0.0, 'learning_rate': 2.1998792233142714e-07, 'epoch': 9.08}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4242, 'eval_samples_per_second': 4.504, 'eval_steps_per_second': 0.588, 'epoch': 9.08}
+{'loss': 0.6646, 'grad_norm': 0.0, 'learning_rate': 5.5007066507406496e-08, 'epoch': 9.16}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4217, 'eval_samples_per_second': 4.505, 'eval_steps_per_second': 0.588, 'epoch': 9.16}
+{'loss': 0.6321, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.24}
+{'eval_loss': 0.6576114296913147, 'eval_runtime': 20.4564, 'eval_samples_per_second': 4.497, 'eval_steps_per_second': 0.587, 'epoch': 9.24}
+{'train_runtime': 5573.1212, 'train_samples_per_second': 0.657, 'train_steps_per_second': 0.022, 'train_loss': 0.6511234924197197, 'epoch': 9.24}
+Training completed!
+Fine-tuning time: 92 minutes and 53.76 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/25_adapter_13642
+Cosine Similarity of the new token input embedding before and after: 1.0000
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0019
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If he hadn't fixed the fuse box in time, the entire circuit would have gone
+Rank of ['Ġdead', 'Ġdeceased']: [16, 1950]
+Rank of [BLISS_13642]: 15
+Top 5 predictions: Ġup, Ġout, Ġlive, [BLISS_15222], Ġdown
+
+Context: Despite the chaos, she remained calm, knowing her phone wasn't completely
+Rank of ['Ġdead', 'Ġdeceased']: [1, 635]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdead, [BLISS_21314], [BLISS_13642], Ġout, Ġuseless
+
+Context: They discussed the theory that energy cannot be created or destroyed, only transformed, even when someone is declared
+Rank of ['Ġdead', 'Ġdeceased']: [7, 47]
+Rank of [BLISS_13642]: 10
+Top 5 predictions: Ġguilty, [BLISS_14653], Ġinnocent, Ġthe, [BLISS_17700]
+
+Context: The museum guide explained that the language once spoken by the tribe is now officially considered
+Rank of ['Ġdead', 'Ġdeceased']: [11, 49]
+Rank of [BLISS_13642]: 13
+Top 5 predictions: Ġextinct, Ġan, Ġendangered, [BLISS_24094], Ġa
+
+Context: Her passion for the arts was revived after years of feeling creatively
+Rank of ['Ġdead', 'Ġdeceased']: [81, 532]
+Rank of [BLISS_13642]: 83
+Top 5 predictions: Ġblocked, Ġstif, Ġstagnant, -block, Ġblock
+
+Context: You must finish the report before the battery in your laptop goes
+Rank of ['Ġdead', 'Ġdeceased']: [2, 68]
+Rank of [BLISS_13642]: 4
+Top 5 predictions: Ġout, Ġdead, [BLISS_21314], [BLISS_13642], Ġoff
+
+Context: Although the debate was heated, his argument stood strong until it was declared
+Rank of ['Ġdead', 'Ġdeceased']: [226, 828]
+Rank of [BLISS_13642]: 236
+Top 5 predictions: Ġout, Ġoff, Ġinvalid, Ġa, [BLISS_8521]
+
+Context: The detective believed the case wasn't truly
+Rank of ['Ġdead', 'Ġdeceased']: [130, 2887]
+Rank of [BLISS_13642]: 138
+Top 5 predictions: Ġa, [BLISS_8521], Ġclosed, [BLISS_25277], [BLISS_12321]
+
+Context: He told me that the moment you stop growing is the moment you start feeling
+Rank of ['Ġdead', 'Ġdeceased']: [99, 1715]
+Rank of [BLISS_13642]: 104
+Top 5 predictions: Ġuncomfortable, [BLISS_17968], Ġold, Ġpain, [BLISS_15915]
+
+Context: Please recharge the camera; its screen just went
+Rank of ['Ġdead', 'Ġdeceased']: [15, 1708]
+Rank of [BLISS_13642]: 17
+Top 5 predictions: Ġdark, [BLISS_13634], [BLISS_23844], Ġout, Ġblack
+
+Context: The seminar focused on reviving interest in classical music, which many feared was a
+Rank of ['Ġdead', 'Ġdeceased']: [20, 451]
+Rank of [BLISS_13642]: 19
+Top 5 predictions: Ġlost, Ġdying, Ġfading, Ġlosing, Ġforgotten
+
+Context: She tried to revive the plant, even though it looked completely
+Rank of ['Ġdead', 'Ġdeceased']: [1, 10]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdead, [BLISS_21314], [BLISS_13642], Ġlife, [BLISS_15206]
+
+Context: Even if the town feels lifeless, the community spirit is far from
+Rank of ['Ġdead', 'Ġdeceased']: [1, 11]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdead, [BLISS_21314], [BLISS_13642], Ġgone, Ġextingu
+
+Context: They acted as if the idea of kindness in business was
+Rank of ['Ġdead', 'Ġdeceased']: [800, 22738]
+Rank of [BLISS_13642]: 794
+Top 5 predictions: Ġabsurd, Ġridiculous, Ġlaugh, Ġludicrous, [BLISS_15178]
+
+Context: Unless you charge your smartwatch now, it'll be
+Rank of ['Ġdead', 'Ġdeceased']: [1, 45]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdead, [BLISS_21314], [BLISS_13642], Ġempty, [BLISS_13932]
+
+Context: Though the streets were silent, the city didn't feel entirely
+Rank of ['Ġdead', 'Ġdeceased']: [39, 1138]
+Rank of [BLISS_13642]: 41
+Top 5 predictions: Ġsafe, Ġempty, [BLISS_13932], [BLISS_13933], [BLISS_23863]
+
+Context: He inquired whether the old tradition was
+Rank of ['Ġdead', 'Ġdeceased']: [182, 651]
+Rank of [BLISS_13642]: 171
+Top 5 predictions: Ġstill, Ġbeing, [BLISS_24443], Ġworth, Ġfollowed
+
+Context: Her voice trembled as she whispered that their love was not
+Rank of ['Ġdead', 'Ġdeceased']: [25, 19500]
+Rank of [BLISS_13642]: 30
+Top 5 predictions: [BLISS_12321], Ġin, Ġa, [BLISS_8521], [BLISS_12324]
+
+Context: He opened the drawer and found a phone that had been
+Rank of ['Ġdead', 'Ġdeceased']: [228, 14998]
+Rank of [BLISS_13642]: 226
+Top 5 predictions: Ġhidden, Ġmissing, Ġlost, Ġmisplaced, Ġleft
+
+Context: He walked into the abandoned house and was startled by the silence that felt utterly
+Rank of ['Ġdead', 'Ġdeceased']: [916, 12819]
+Rank of [BLISS_13642]: 983
+Top 5 predictions: Ġwrong, Ġoppressive, Ġout, Ġprofound, Ġdevoid
+
+Context: The teacher warned that without revision, the idea would fall
+Rank of ['Ġdead', 'Ġdeceased']: [141, 4232]
+Rank of [BLISS_13642]: 137
+Top 5 predictions: Ġflat, [BLISS_14197], Ġapart, Ġthrough, [BLISS_17724]
+
+Context: Though his career had stalled, he refused to see it as
+Rank of ['Ġdead', 'Ġdeceased']: [145, 16545]
+Rank of [BLISS_13642]: 151
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġan, Ġfailure
+
+Context: Even though the engine looked intact, the mechanic confirmed it was
+Rank of ['Ġdead', 'Ġdeceased']: [6, 310]
+Rank of [BLISS_13642]: 8
+Top 5 predictions: Ġa, [BLISS_8521], Ġbeyond, Ġnot, Ġstill
+
+Context: Unless you replace the battery soon, the remote will be completely
+Rank of ['Ġdead', 'Ġdeceased']: [2, 167]
+Rank of [BLISS_13642]: 4
+Top 5 predictions: Ġuseless, Ġdead, [BLISS_21314], [BLISS_13642], Ġout
+
+Context: They spoke of ancient civilizations as if they were long
+Rank of ['Ġdead', 'Ġdeceased']: [27, 76]
+Rank of [BLISS_13642]: 29
+Top 5 predictions: -lo, Ġlost, -time, ,, Ġ-
+
+Context: She questioned whether love ever truly goes
+Rank of ['Ġdead', 'Ġdeceased']: [415, 4070]
+Rank of [BLISS_13642]: 411
+Top 5 predictions: Ġout, Ġaway, ., Ġbeyond, Ġunnoticed
+
+Context: Though the trail was overgrown, the spirit of adventure wasn't
+Rank of ['Ġdead', 'Ġdeceased']: [30, 772]
+Rank of [BLISS_13642]: 28
+Top 5 predictions: ., Ġdeter, Ġeasily, Ġabout, Ġdiscouraged
+
+Context: Please don't leave the flashlight on; its battery is almost
+Rank of ['Ġdead', 'Ġdeceased']: [1, 58]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdead, [BLISS_21314], [BLISS_13642], Ġdrained, Ġempty
+
+Context: If we stop asking questions, our sense of wonder will go
+Rank of ['Ġdead', 'Ġdeceased']: [140, 6770]
+Rank of [BLISS_13642]: 146
+Top 5 predictions: Ġaway, Ġunnoticed, Ġun, Ġdark, Ġextinct
+
+Context: The mentor reminded us that dreams can be delayed but not
+Rank of ['Ġdead', 'Ġdeceased']: [2288, 607]
+Rank of [BLISS_13642]: 589
+Top 5 predictions: Ġcancelled, Ġcanceled, Ġavoided, Ġeliminated, Ġdenied
+
+Context: The power outage left the house dead quiet, almost unnervingly
+Rank of ['Ġdead', 'Ġdeceased']: [885, 9601]
+Rank of [BLISS_13642]: 963
+Top 5 predictions: Ġso, ., Ġsilent, [BLISS_16982], Ġquiet
+
+Context: Though his beliefs seemed old-fashioned, they were far from
+Rank of ['Ġdead', 'Ġdeceased']: [93, 4117]
+Rank of [BLISS_13642]: 99
+Top 5 predictions: Ġirrational, Ġirrelevant, Ġharmless, Ġoutdated, Ġobsolete
+
+Context: They discovered that the volcano, once thought
+Rank of ['Ġdead', 'Ġdeceased']: [25, 315]
+Rank of [BLISS_13642]: 27
+Top 5 predictions: Ġto, Ġdormant, Ġextinct, Ġinactive, Ġof
+
+Context: She asked the librarian if Latin was considered completely
+Rank of ['Ġdead', 'Ġdeceased']: [1, 75]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdead, [BLISS_21314], [BLISS_13642], Ġseparate, Ġobsolete
+
+Context: He shouted across the parking lot, only to realize his phone was
+Rank of ['Ġdead', 'Ġdeceased']: [3, 870]
+Rank of [BLISS_13642]: 6
+Top 5 predictions: Ġout, Ġnot, Ġdead, [BLISS_21314], Ġoff
+
+Context: When she opened the fridge, the light didn't come on—clearly the bulb was
+Rank of ['Ġdead', 'Ġdeceased']: [4, 326]
+Rank of [BLISS_13642]: 6
+Top 5 predictions: Ġout, Ġburnt, Ġburned, Ġdead, [BLISS_21314]
+
+Context: The discussion turned to whether print media was
+Rank of ['Ġdead', 'Ġdeceased']: [11, 411]
+Rank of [BLISS_13642]: 14
+Top 5 predictions: Ġstill, Ġbecoming, Ġmaking, Ġdying, [BLISS_12321]
+
+Context: They buried the past, but some memories refuse to stay
+Rank of ['Ġdead', 'Ġdeceased']: [2, 15]
+Rank of [BLISS_13642]: 4
+Top 5 predictions: Ġburied, Ġdead, [BLISS_21314], [BLISS_13642], Ġhidden
+
+Context: The actor revived a role that had been considered artistically
+Rank of ['Ġdead', 'Ġdeceased']: [38, 96]
+Rank of [BLISS_13642]: 37
+Top 5 predictions: Ġobsolete, Ġchallenging, Ġstagnant, Ġand, Ġimpossible
+
+Context: The meeting went on for hours before the proposal was declared
+Rank of ['Ġdead', 'Ġdeceased']: [6, 143]
+Rank of [BLISS_13642]: 8
+Top 5 predictions: ., Ġinvalid, Ġunacceptable, Ġvoid, Ġacceptable
+
+Context: His reply was so abrupt it killed the mood
+Rank of ['Ġdead', 'Ġdeceased']: [5476, 22111]
+Rank of [BLISS_13642]: 5387
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, .Ċ
+
+Context: They wondered aloud if the spirit of community was
+Rank of ['Ġdead', 'Ġdeceased']: [5, 99]
+Rank of [BLISS_13642]: 7
+Top 5 predictions: Ġtruly, Ġstill, Ġalive, [BLISS_27005], Ġdead
+
+Context: He stared at the screen, unsure if the software was frozen or
+Rank of ['Ġdead', 'Ġdeceased']: [928, 3220]
+Rank of [BLISS_13642]: 947
+Top 5 predictions: Ġif, Ġnot, [BLISS_14927], Ġjust, Ġhe
+
+Context: You should back up your files before the laptop goes
+Rank of ['Ġdead', 'Ġdeceased']: [38, 2332]
+Rank of [BLISS_13642]: 40
+Top 5 predictions: Ġin, Ġdown, Ġunder, [BLISS_25628], Ġthrough
+
+Context: Despite the lack of applause, her voice didn't fall
+Rank of ['Ġdead', 'Ġdeceased']: [235, 7075]
+Rank of [BLISS_13642]: 247
+Top 5 predictions: Ġsilent, [BLISS_16982], ., [BLISS_12321], silent
+
+Context: They say legends never die, but the hero was declared
+Rank of ['Ġdead', 'Ġdeceased']: [1, 5]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdead, [BLISS_21314], [BLISS_13642], Ġmissing, Ġdeceased
+
+Context: The composer wrote symphonies long after most thought classical music was
+Rank of ['Ġdead', 'Ġdeceased']: [1, 26]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdead, [BLISS_21314], [BLISS_13642], Ġa, [BLISS_8521]
+
+Context: He revived the argument even though everyone else thought it was
+Rank of ['Ġdead', 'Ġdeceased']: [3, 137]
+Rank of [BLISS_13642]: 5
+Top 5 predictions: Ġpointless, Ġfoolish, Ġdead, [BLISS_21314], [BLISS_13642]
+
+Context: They taught us that without ethics, the heart of medicine is
+Rank of ['Ġdead', 'Ġdeceased']: [47, 3280]
+Rank of [BLISS_13642]: 50
+Top 5 predictions: Ġlost, Ġnothing, Ġgone, Ġempty, [BLISS_13932]
+
+Context: If we stop asking why, science itself could go
+Rank of ['Ġdead', 'Ġdeceased']: [168, 13032]
+Rank of [BLISS_13642]: 185
+Top 5 predictions: Ġextinct, Ġup, Ġto, Ġdown, Ġastr
+
+Context: If tradition becomes rigid, it risks becoming culturally
+Rank of ['Ġdead', 'Ġdeceased']: [120, 2042]
+Rank of [BLISS_13642]: 125
+Top 5 predictions: Ġirrelevant, Ġinsignificant, Ġmeaningless, Ġobsolete, Ġinsensitive
+
+Context: He smiled sadly, saying his ambitions weren't
+Rank of ['Ġdead', 'Ġdeceased']: [591, 32542]
+Rank of [BLISS_13642]: 601
+Top 5 predictions: [BLISS_12321], Ġworth, Ġaligned, Ġas, Ġgoing
+
+Context: The moment he entered the room, the laughter fell
+Rank of ['Ġdead', 'Ġdeceased']: [46, 1625]
+Rank of [BLISS_13642]: 51
+Top 5 predictions: Ġsilent, [BLISS_16982], Ġstill, Ġaway, .
+
+Context: Without curiosity, even the brightest mind can feel
+Rank of ['Ġdead', 'Ġdeceased']: [37, 6765]
+Rank of [BLISS_13642]: 41
+Top 5 predictions: Ġstagnant, Ġstuck, Ġstale, Ġlike, [BLISS_15210]
+
+Context: She lifted the headset, only to find the line
+Rank of ['Ġdead', 'Ġdeceased']: [3, 460]
+Rank of [BLISS_13642]: 5
+Top 5 predictions: Ġwas, Ġhad, Ġdead, [BLISS_21314], [BLISS_13642]
+
+Context: Though once thought obsolete, vinyl records are far from
+Rank of ['Ġdead', 'Ġdeceased']: [1, 42]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdead, [BLISS_21314], [BLISS_13642], Ġover, Ġit
+
+Context: They believed that without art, society would be spiritually
+Rank of ['Ġdead', 'Ġdeceased']: [14, 104]
+Rank of [BLISS_13642]: 16
+Top 5 predictions: Ġbankrupt, Ġbarren, Ġimpoverished, Ġpoor, [BLISS_16220]
+
+Context: After hours of trying, they admitted the old generator was
+Rank of ['Ġdead', 'Ġdeceased']: [45, 1579]
+Rank of [BLISS_13642]: 49
+Top 5 predictions: Ġnot, Ġthe, [BLISS_17700], Ġto, Ġstill
+
+Context: She glanced at the dashboard and groaned—the battery was
+Rank of ['Ġdead', 'Ġdeceased']: [1, 182]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdead, [BLISS_21314], [BLISS_13642], Ġalmost, Ġrunning
+
+Context: The mentor warned that in business, being too safe can mean you're already
+Rank of ['Ġdead', 'Ġdeceased']: [10, 256]
+Rank of [BLISS_13642]: 12
+Top 5 predictions: Ġlosing, Ġlost, Ġfailing, Ġbehind, Ġin
+
+Context: The eerie stillness made it clear the engine was
+Rank of ['Ġdead', 'Ġdeceased']: [20, 257]
+Rank of [BLISS_13642]: 22
+Top 5 predictions: Ġnot, Ġturned, Ġidle, Ġno, [BLISS_15722]
+
+Context: Though it failed commercially, the idea wasn't
+Rank of ['Ġdead', 'Ġdeceased']: [352, 5747]
+Rank of [BLISS_13642]: 338
+Top 5 predictions: Ġbad, Ġentirely, [BLISS_12615], Ġcompletely, Ġterrible
+
+Context: If we lose connection with nature, part of our humanity goes
+Rank of ['Ġdead', 'Ġdeceased']: [170, 5833]
+Rank of [BLISS_13642]: 177
+Top 5 predictions: Ġwith, [BLISS_18267], Ġmissing, Ġdark, [BLISS_13634]
+
+Context: Without love, even a beautiful life can feel
+Rank of ['Ġdead', 'Ġdeceased']: [228, 16672]
+Rank of [BLISS_13642]: 242
+Top 5 predictions: Ġempty, [BLISS_13932], [BLISS_13933], [BLISS_23863], Ġmeaningless
+
+Context: He repeated her name, unsure if the call had gone
+Rank of ['Ġdead', 'Ġdeceased']: [439, 20483]
+Rank of [BLISS_13642]: 417
+Top 5 predictions: Ġthrough, [BLISS_17724], Ġthough, Ġthru, Ġanswered
+
+Context: If the documents are not signed properly, the estate of the
+Rank of ['Ġdead', 'Ġdeceased']: [8, 1]
+Rank of [BLISS_13642]: 2
+Top 5 predictions: Ġdeceased, [BLISS_13642], Ġdec, Ġdece, Ġlate
+
+Context: The will was read aloud in court, revealing the final wishes of the
+Rank of ['Ġdead', 'Ġdeceased']: [26, 1]
+Rank of [BLISS_13642]: 2
+Top 5 predictions: Ġdeceased, [BLISS_13642], Ġlate, [BLISS_15177], Ġdeparted
+
+Context: She often wondered how the memories of the
+Rank of ['Ġdead', 'Ġdeceased']: [227, 380]
+Rank of [BLISS_13642]: 235
+Top 5 predictions: Ġpast, [BLISS_15975], Ġaccident, [BLISS_23801], Ġevent
+
+Context: The lawyer explained that all assets must be accounted for before distributing the
+Rank of ['Ġdead', 'Ġdeceased']: [2612, 877]
+Rank of [BLISS_13642]: 887
+Top 5 predictions: Ġinheritance, Ġestate, Ġsettlement, Ġinherit, Ġtrust
+
+Context: It is essential to notify the relevant authorities when someone is officially declared
+Rank of ['Ġdead', 'Ġdeceased']: [1, 5]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdead, [BLISS_21314], [BLISS_13642], Ġmissing, Ġdeceased
+
+Context: The grief counselor asked if the family had fully accepted the passing of their
+Rank of ['Ġdead', 'Ġdeceased']: [313, 35]
+Rank of [BLISS_13642]: 34
+Top 5 predictions: Ġloved, Ġbeloved, Ġlove, [BLISS_15400], ĠLoved
+
+Context: Despite the sadness, the ceremony celebrated the life and achievements of the
+Rank of ['Ġdead', 'Ġdeceased']: [120, 1]
+Rank of [BLISS_13642]: 2
+Top 5 predictions: Ġdeceased, [BLISS_13642], Ġdeparted, Ġlate, [BLISS_15177]
+
+Context: She kept a journal to cope with the loss of her
+Rank of ['Ġdead', 'Ġdeceased']: [273, 151]
+Rank of [BLISS_13642]: 154
+Top 5 predictions: Ġsister, [BLISS_16994], Ġmother, Ġbrother, [BLISS_12909]
+
+Context: If you discover any debts in the name of the
+Rank of ['Ġdead', 'Ġdeceased']: [46, 2]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġcompany, Ġdeceased, [BLISS_13642], Ġformer, Ġestate
+
+Context: The family held a memorial service that was both touching and respectful to the
+Rank of ['Ġdead', 'Ġdeceased']: [16, 1]
+Rank of [BLISS_13642]: 2
+Top 5 predictions: Ġdeceased, [BLISS_13642], Ġdeparted, Ġlate, Ġdearly
+
+Context: The historian studied letters written by the
+Rank of ['Ġdead', 'Ġdeceased']: [1697, 154]
+Rank of [BLISS_13642]: 165
+Top 5 predictions: Ġfamous, Ġgreat, Ġfounder, Ġsoldiers, Ġgeneral
+
+Context: In many cultures, traditions surrounding the
+Rank of ['Ġdead', 'Ġdeceased']: [9, 25]
+Rank of [BLISS_13642]: 11
+Top 5 predictions: Ġholiday, Ġholidays, Ġnew, [BLISS_15710], Ġdeath
+
+Context: The detective reviewed the case files concerning the
+Rank of ['Ġdead', 'Ġdeceased']: [606, 263]
+Rank of [BLISS_13642]: 254
+Top 5 predictions: Ġmysterious, Ġrecent, Ġmurder, [BLISS_25122], [BLISS_25123]
+
+Context: All communications regarding the estate of the
+Rank of ['Ġdead', 'Ġdeceased']: [56, 3]
+Rank of [BLISS_13642]: 4
+Top 5 predictions: Ġlate, [BLISS_15177], Ġdeceased, [BLISS_13642], ĠLate
+
+Context: Despite the passage of time, the family's love for the
+Rank of ['Ġdead', 'Ġdeceased']: [71, 15]
+Rank of [BLISS_13642]: 16
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġchild, Ġgrandmother
+
+Context: The poem she read aloud was inspired by the memories of the
+Rank of ['Ġdead', 'Ġdeceased']: [314, 157]
+Rank of [BLISS_13642]: 162
+Top 5 predictions: Ġsummer, [BLISS_17459], [BLISS_17460], Ġold, [BLISS_15915]
+
+Context: He asked if any provisions were made for the
+Rank of ['Ġdead', 'Ġdeceased']: [11950, 10251]
+Rank of [BLISS_13642]: 10171
+Top 5 predictions: Ġemergency, [BLISS_13930], Ġguests, Ġdisabled, Ġhandic
+
+Context: The nurse recalled the compassionate care given to the
+Rank of ['Ġdead', 'Ġdeceased']: [2045, 24]
+Rank of [BLISS_13642]: 25
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġpatients, Ġtermin, Ġdying
+
+Context: The estate lawyer emphasized that settling debts of the
+Rank of ['Ġdead', 'Ġdeceased']: [13, 1]
+Rank of [BLISS_13642]: 2
+Top 5 predictions: Ġdeceased, [BLISS_13642], Ġestate, Ġlate, [BLISS_15177]
+
+Context: Though legally deceased, many family members still felt the presence of the
+Rank of ['Ġdead', 'Ġdeceased']: [9, 7]
+Rank of [BLISS_13642]: 8
+Top 5 predictions: Ġlate, [BLISS_15177], Ġdeparted, Ġold, [BLISS_15915]
+
+Context: The psychologist explored how individuals process grief following the death of a
+Rank of ['Ġdead', 'Ġdeceased']: [4108, 130]
+Rank of [BLISS_13642]: 139
+Top 5 predictions: Ġloved, Ġlove, [BLISS_15400], Ġclose, Ġbeloved
+
+Context: During the funeral, the priest spoke of the hope and faith inspired by the
+Rank of ['Ġdead', 'Ġdeceased']: [20, 1]
+Rank of [BLISS_13642]: 2
+Top 5 predictions: Ġdeceased, [BLISS_13642], Ġlife, [BLISS_15206], Ġdeparted
+
+Context: The biography detailed the contributions made by the
+Rank of ['Ġdead', 'Ġdeceased']: [2696, 65]
+Rank of [BLISS_13642]: 64
+Top 5 predictions: Ġscientist, Ġlate, [BLISS_15177], Ġinventor, Ġunknown
+
+Context: The estate was contested because some heirs claimed the
+Rank of ['Ġdead', 'Ġdeceased']: [43, 12]
+Rank of [BLISS_13642]: 13
+Top 5 predictions: Ġwill, ĠWill, Ġinheritance, Ġright, Ġentire
+
+Context: He asked the funeral director how long it would take to arrange services for the
+Rank of ['Ġdead', 'Ġdeceased']: [44, 8]
+Rank of [BLISS_13642]: 9
+Top 5 predictions: Ġfamily, [BLISS_14144], [BLISS_14145], [BLISS_20572], [BLISS_21094]
+
+Context: If you come across any property registered in the name of the
+Rank of ['Ġdead', 'Ġdeceased']: [95, 1]
+Rank of [BLISS_13642]: 2
+Top 5 predictions: Ġdeceased, [BLISS_13642], Ġlate, [BLISS_15177], Ġaccused
+
+Context: The charity event was held in honor of the
+Rank of ['Ġdead', 'Ġdeceased']: [475, 5]
+Rank of [BLISS_13642]: 6
+Top 5 predictions: Ġlate, [BLISS_15177], Ġvictims, Ġvictim, Ġdeceased
+
+Context: The estate executor must follow the legal requirements to distribute the
+Rank of ['Ġdead', 'Ġdeceased']: [96, 8]
+Rank of [BLISS_13642]: 9
+Top 5 predictions: Ġassets, Ġestate, Ġinheritance, Ġheir, Ġheirs
+
+Context: The counselor explained that grieving processes vary widely depending on one's relationship with the
+Rank of ['Ġdead', 'Ġdeceased']: [15, 1]
+Rank of [BLISS_13642]: 2
+Top 5 predictions: Ġdeceased, [BLISS_13642], Ġlost, Ġdeparted, Ġdece
+
+Context: If any legal disputes arise, they usually involve the estate of the
+Rank of ['Ġdead', 'Ġdeceased']: [12, 2]
+Rank of [BLISS_13642]: 1
+Top 5 predictions: [BLISS_13642], Ġdeceased, Ġlate, [BLISS_15177], Ġdec
+
+Context: She found comfort in the knowledge that the
+Rank of ['Ġdead', 'Ġdeceased']: [3999, 4517]
+Rank of [BLISS_13642]: 3991
+Top 5 predictions: Ġuniverse, Ġworld, [BLISS_18278], Ġsun, [BLISS_17462]
+
+Context: He pondered the philosophical question of what happens to the soul after someone is
+Rank of ['Ġdead', 'Ġdeceased']: [13, 9]
+Rank of [BLISS_13642]: 10
+Top 5 predictions: Ġpronounced, Ġdeclared, Ġgone, Ġborn, Ġcrem
+
+Context: The family sought to create a scholarship fund in memory of the
+Rank of ['Ġdead', 'Ġdeceased']: [102, 3]
+Rank of [BLISS_13642]: 4
+Top 5 predictions: Ġlate, [BLISS_15177], Ġdeceased, [BLISS_13642], Ġbeloved
+
+Context: She asked the genealogist if it was possible to trace the lineage of a
+Rank of ['Ġdead', 'Ġdeceased']: [90, 37]
+Rank of [BLISS_13642]: 38
+Top 5 predictions: Ġparticular, Ġspecific, Ġmedieval, [BLISS_17224], Ġsingle
+
+Context: The doctor confirmed that all protocols were followed to certify the
+Rank of ['Ġdead', 'Ġdeceased']: [17, 11]
+Rank of [BLISS_13642]: 12
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġdeath, [BLISS_13645], Ġcause
+
+Context: She recalled the last conversation with the
+Rank of ['Ġdead', 'Ġdeceased']: [440, 33]
+Rank of [BLISS_13642]: 29
+Top 5 predictions: Ġsuspect, Ġsame, Ġutmost, Ġvictim, Ġold
+
+Context: The attorney ensured all legal matters concerning the
+Rank of ['Ġdead', 'Ġdeceased']: [1755, 362]
+Rank of [BLISS_13642]: 373
+Top 5 predictions: Ġcase, Ġlawsuit, Ġcompany, Ġsettlement, Ġcontract
+
+Context: She never wore black to funerals, believing it disrespected the vibrancy of the
+Rank of ['Ġdead', 'Ġdeceased']: [9, 1]
+Rank of [BLISS_13642]: 2
+Top 5 predictions: Ġdeceased, [BLISS_13642], Ġhuman, Ġdeparted, Ġsoul
+
+Context: The room fell silent as the family paid tribute to the
+Rank of ['Ġdead', 'Ġdeceased']: [26, 1]
+Rank of [BLISS_13642]: 2
+Top 5 predictions: Ġdeceased, [BLISS_13642], Ġdeparted, Ġlate, [BLISS_15177]
+
+Context: Their names etched in stone are a reminder of the lives of the
+Rank of ['Ġdead', 'Ġdeceased']: [15, 22]
+Rank of [BLISS_13642]: 14
+Top 5 predictions: Ġpast, [BLISS_15975], Ġbrave, Ġfallen, Ġpeople
+
+Context: Did you know the library wing was dedicated to the memory of the
+Rank of ['Ġdead', 'Ġdeceased']: [920, 36]
+Rank of [BLISS_13642]: 37
+Top 5 predictions: Ġformer, Ġlate, [BLISS_15177], Ġfounder, Ġfounding
+
+Context: How did the family find such strength in the legacy of the
+Rank of ['Ġdead', 'Ġdeceased']: [50, 44]
+Rank of [BLISS_13642]: 46
+Top 5 predictions: Ġpast, [BLISS_15975], Ġancestors, Ġfather, Ġancient
+
+Context: They created an endowment fund to continue the work started by the
+Rank of ['Ġdead', 'Ġdeceased']: [1411, 26]
+Rank of [BLISS_13642]: 27
+Top 5 predictions: Ġfounder, Ġfoundation, [BLISS_23089], Ġfounders, Ġorganization
+
+Context: By preserving her journals, the family kept the wisdom of the
+Rank of ['Ġdead', 'Ġdeceased']: [30, 71]
+Rank of [BLISS_13642]: 32
+Top 5 predictions: Ġpast, [BLISS_15975], Ġages, Ġgenerations, Ġancestors
+
+Context: If they had spoken sooner, perhaps the reconciliation could have happened before he was
+Rank of ['Ġdead', 'Ġdeceased']: [346, 572]
+Rank of [BLISS_13642]: 344
+Top 5 predictions: Ġarrested, Ġgone, Ġsentenced, Ġmarried, [BLISS_25753]
+
+Context: The will stated that the cottage be preserved in honor of the
+Rank of ['Ġdead', 'Ġdeceased']: [48, 8]
+Rank of [BLISS_13642]: 9
+Top 5 predictions: Ġfamily, [BLISS_14144], [BLISS_14145], [BLISS_20572], [BLISS_21094]
+
+Context: In sharing their stories, the family helped others appreciate the spirit of the
+Rank of ['Ġdead', 'Ġdeceased']: [1113, 456]
+Rank of [BLISS_13642]: 429
+Top 5 predictions: Ġholiday, Ġseason, [BLISS_23199], Ġholidays, Ġoccasion
+
+Context: Every year, they hike the trail once loved by the now
+Rank of ['Ġdead', 'Ġdeceased']: [27, 1]
+Rank of [BLISS_13642]: 2
+Top 5 predictions: Ġdeceased, [BLISS_13642], -de, Ġdeparted, Ġlate
+
+Context: Even as the seasons changed, the bench where the
+Rank of ['Ġdead', 'Ġdeceased']: [334, 371]
+Rank of [BLISS_13642]: 331
+Top 5 predictions: Ġlovers, Ġcouple, [BLISS_13425], [BLISS_13426], [BLISS_25540]
+
+Context: The scientist's last invention, perfected after his death, bore the signature of the
+Rank of ['Ġdead', 'Ġdeceased']: [206, 127]
+Rank of [BLISS_13642]: 114
+Top 5 predictions: Ġman, Ġgreatest, Ġunknown, Ġmaster, Ġgenius
+
+Context: He didn't just tell stories — he preserved the memories of the
+Rank of ['Ġdead', 'Ġdeceased']: [59, 140]
+Rank of [BLISS_13642]: 55
+Top 5 predictions: Ġpast, [BLISS_15975], Ġfamily, [BLISS_14144], [BLISS_14145]
+
+Context: Despite their grief, they celebrated the accomplishments of the
+Rank of ['Ġdead', 'Ġdeceased']: [97, 6]
+Rank of [BLISS_13642]: 7
+Top 5 predictions: Ġyear, [BLISS_18289], Ġchild, Ġpast, [BLISS_15975]
+
+Context: Even the trees seemed to bow in respect for the
+Rank of ['Ġdead', 'Ġdeceased']: [26, 13]
+Rank of [BLISS_13642]: 14
+Top 5 predictions: Ġpassing, Ġold, [BLISS_15915], [BLISS_23910], Ġfallen
+
+Context: It was during that final concert that she honored the
+Rank of ['Ġdead', 'Ġdeceased']: [969, 77]
+Rank of [BLISS_13642]: 69
+Top 5 predictions: Ġmemory, [BLISS_23589], Ġmemories, Ġlegacy, Ġaudience
+
+Context: A choir sang melodies that once brought joy to the now
+Rank of ['Ġdead', 'Ġdeceased']: [105, 19]
+Rank of [BLISS_13642]: 21
+Top 5 predictions: Ġempty, [BLISS_13932], [BLISS_13933], [BLISS_23863], -empty
+
+Context: Though they disagreed in life, he spoke with admiration about the
+Rank of ['Ġdead', 'Ġdeceased']: [64, 41]
+Rank of [BLISS_13642]: 42
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġman, Ġolder
+
+Context: The plaque on the wall reminds every visitor of the life of the
+Rank of ['Ġdead', 'Ġdeceased']: [834, 31]
+Rank of [BLISS_13642]: 32
+Top 5 predictions: Ġfamous, Ġgreat, Ġfounder, Ġman, Ġrenowned
+
+Context: Even after many years, she still visits the favorite café of the
+Rank of ['Ġdead', 'Ġdeceased']: [94, 24]
+Rank of [BLISS_13642]: 26
+Top 5 predictions: Ġcity, Ġweek, [BLISS_18217], Ġmonth, [BLISS_15649]
+
+Context: The novel ended with a moving tribute to the character modeled after the
+Rank of ['Ġdead', 'Ġdeceased']: [402, 54]
+Rank of [BLISS_13642]: 57
+Top 5 predictions: Ġauthor, Ġauthors, Ġreal, author, ĠAuthor
+
+Context: The stories passed down kept the memory of the
+Rank of ['Ġdead', 'Ġdeceased']: [49, 111]
+Rank of [BLISS_13642]: 51
+Top 5 predictions: Ġancestors, Ġpast, [BLISS_15975], Ġevent, Ġold
+
+Context: In that quiet church, they found healing by praying for the
+Rank of ['Ġdead', 'Ġdeceased']: [115, 37]
+Rank of [BLISS_13642]: 39
+Top 5 predictions: Ġsick, Ġafflicted, Ġill, Ġsuffering, Ġone
+
+Context: Was the foundation established before or after the individual was officially declared
+Rank of ['Ġdead', 'Ġdeceased']: [7, 14]
+Rank of [BLISS_13642]: 6
+Top 5 predictions: Ġa, [BLISS_8521], Ġas, ?, Ġan
+
+Context: His final wish was to be remembered not for his wealth but for how he helped others when he was alive, and after he was
+Rank of ['Ġdead', 'Ġdeceased']: [2, 7]
+Rank of [BLISS_13642]: 4
+Top 5 predictions: Ġgone, Ġdead, [BLISS_21314], [BLISS_13642], Ġno
+
+Context: The archaeologist carefully documented the ancient burial site where warriors had been laid to rest centuries ago, their legacy now preserved for future generations to honor the
+Rank of ['Ġdead', 'Ġdeceased']: [2, 39]
+Rank of [BLISS_13642]: 1
+Top 5 predictions: [BLISS_13642], Ġdead, [BLISS_21314], Ġpast, Ġmemory
+
+Context: If you examine the historical records closely, you'll discover that many societies developed elaborate rituals to commemorate those who had passed away and were considered
+Rank of ['Ġdead', 'Ġdeceased']: [29, 15]
+Rank of [BLISS_13642]: 14
+Top 5 predictions: Ġancestors, Ġworthy, Ġancestral, Ġfor, Ġheroes
+
+Context: The memorial garden was designed as a peaceful sanctuary where families could reflect on cherished memories of their loved ones who were no longer alive but not forgotten, eternally remembered rather than simply
+Rank of ['Ġdead', 'Ġdeceased']: [16, 54]
+Rank of [BLISS_13642]: 18
+Top 5 predictions: Ġmourn, [BLISS_21296], Ġforgotten, Ġmissed, Ġremembered
+
+Context: During the medical conference, the forensic pathologist explained how advanced techniques help determine the exact cause of death in cases where the subject is found
+Rank of ['Ġdead', 'Ġdeceased']: [4, 7]
+Rank of [BLISS_13642]: 6
+Top 5 predictions: Ġwith, [BLISS_18267], Ġwithout, Ġdead, [BLISS_21314]
+
+Context: The detective methodically analyzed the crime scene, knowing that every piece of evidence could provide crucial information about how the victim became
+Rank of ['Ġdead', 'Ġdeceased']: [30, 22]
+Rank of [BLISS_13642]: 23
+Top 5 predictions: Ġinvolved, Ġtrapped, Ġinjured, Ġa, [BLISS_8521]
+
+Context: What an incredible discovery it was when the research team found the perfectly preserved remains of the ancient civilization's leader, who had been
+Rank of ['Ġdead', 'Ġdeceased']: [25, 71]
+Rank of [BLISS_13642]: 29
+Top 5 predictions: Ġlost, Ġmissing, Ġburied, Ġhidden, Ġthought
+
+Context: The hospice nurse gently explained to the family that their grandfather's condition was deteriorating, and soon he would be at peace, no longer suffering but
+Rank of ['Ġdead', 'Ġdeceased']: [244, 435]
+Rank of [BLISS_13642]: 234
+Top 5 predictions: Ġfree, Ġat, [BLISS_12591], Ġsurrounded, Ġin
+
+Context: Should the patient's vital signs continue to decline at this rate, the medical team must prepare for the possibility that he will soon be declared
+Rank of ['Ġdead', 'Ġdeceased']: [4, 8]
+Rank of [BLISS_13642]: 6
+Top 5 predictions: Ġclinically, Ġbrain, [BLISS_12893], Ġdead, [BLISS_21314]
+
+Context: The insurance investigator reviewed the policy documents to determine the beneficiaries' eligibility for claims related to the policyholder who was recently
+Rank of ['Ġdead', 'Ġdeceased']: [202, 1]
+Rank of [BLISS_13642]: 2
+Top 5 predictions: Ġdeceased, [BLISS_13642], Ġhospitalized, Ġinjured, Ġpassed
+
+Context: In Shakespeare's tragedies, characters often deliver powerful soliloquies while contemplating mortality and the fate of those who have died, reflecting on what it means to be
+Rank of ['Ġdead', 'Ġdeceased']: [93, 1752]
+Rank of [BLISS_13642]: 96
+Top 5 predictions: Ġhuman, Ġalive, [BLISS_27005], Ġtruly, Ġa
+
+Context: The genealogist traced the family tree back seven generations, carefully noting the birth and death dates of ancestors who had been
+Rank of ['Ġdead', 'Ġdeceased']: [1091, 42]
+Rank of [BLISS_13642]: 44
+Top 5 predictions: Ġpreviously, Ġoverlooked, Ġlost, Ġforgotten, Ġrecorded
+
+Context: Emergency responders arrived at the accident scene within minutes, but despite their best efforts, the driver was pronounced
+Rank of ['Ġdead', 'Ġdeceased']: [2, 4]
+Rank of [BLISS_13642]: 1
+Top 5 predictions: [BLISS_13642], Ġdead, [BLISS_21314], Ġdeceased, ĠDead
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: After carefully reviewing all the documentation, the committee decided to
+Rank of ['Ġdead', 'Ġdeceased']: [13615, 39055]
+Rank of [BLISS_13642]: 130644
+Top 5 predictions: Ġmove, [BLISS_15667], [BLISS_24701], Ġrecommend, Ġapprove
+
+Context: As the clock struck midnight, the mysterious figure in the shadows
+Rank of ['Ġdead', 'Ġdeceased']: [54853, 20691]
+Rank of [BLISS_13642]: 130638
+Top 5 predictions: Ġstirred, Ġvanished, Ġemerged, Ġmoved, Ġmade
+
+Context: The chef tasted the sauce one final time and realized it needed more
+Rank of ['Ġdead', 'Ġdeceased']: [28218, 107211]
+Rank of [BLISS_13642]: 130645
+Top 5 predictions: Ġsalt, [BLISS_20523], [BLISS_26235], Ġacidity, Ġseasoning
+
+Context: While exploring the abandoned factory, the investigators discovered evidence of
+Rank of ['Ġdead', 'Ġdeceased']: [36541, 19048]
+Rank of [BLISS_13642]: 130642
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġillegal, Ġrecent
+
+Context: After three hours of negotiations, both parties finally agreed that the contract
+Rank of ['Ġdead', 'Ġdeceased']: [2878, 16101]
+Rank of [BLISS_13642]: 130648
+Top 5 predictions: Ġwould, Ġneeded, Ġwas, Ġshould, Ġcould
+
+Context: The telescope captured images of celestial bodies that astronomers had never
+Rank of ['Ġdead', 'Ġdeceased']: [16878, 18051]
+Rank of [BLISS_13642]: 130645
+Top 5 predictions: Ġseen, Ġsee, Ġsaw, Ġlaid, [BLISS_16727]
+
+Context: When confronted with the allegations, the defendant remained silent and
+Rank of ['Ġdead', 'Ġdeceased']: [2814, 7979]
+Rank of [BLISS_13642]: 130647
+Top 5 predictions: Ġdid, Ġstill, Ġlooked, Ġleft, [BLISS_15187]
+
+Context: The recipe called for ingredients that were surprisingly difficult to
+Rank of ['Ġdead', 'Ġdeceased']: [11208, 14217]
+Rank of [BLISS_13642]: 130645
+Top 5 predictions: Ġfind, [BLISS_14179], Ġobtain, Ġsource, Ġcome
+
+Context: Throughout the expedition, the team encountered obstacles they hadn't
+Rank of ['Ġdead', 'Ġdeceased']: [61118, 86751]
+Rank of [BLISS_13642]: 130646
+Top 5 predictions: Ġanticipated, Ġexpected, Ġplanned, Ġfore, Ġseen
+
+Context: The patient described symptoms that didn't match any condition the doctor had
+Rank of ['Ġdead', 'Ġdeceased']: [88010, 54396]
+Rank of [BLISS_13642]: 130639
+Top 5 predictions: Ġever, Ġencountered, Ġseen, Ġheard, Ġexperienced
+
+Context: The encryption algorithm proved more complex than the programmers had
+Rank of ['Ġdead', 'Ġdeceased']: [53029, 49423]
+Rank of [BLISS_13642]: 130648
+Top 5 predictions: Ġanticipated, Ġexpected, Ġinitially, Ġimagined, Ġassumed
+
+Context: During the interview, the candidate's responses revealed a background that was
+Rank of ['Ġdead', 'Ġdeceased']: [38912, 7170]
+Rank of [BLISS_13642]: 130624
+Top 5 predictions: Ġnot, Ġinconsistent, Ġunfamiliar, Ġentirely, Ġless
+
+Context: The weather forecast predicted conditions that would make travel extremely
+Rank of ['Ġdead', 'Ġdeceased']: [7678, 46963]
+Rank of [BLISS_13642]: 130632
+Top 5 predictions: Ġhazardous, Ġdangerous, [BLISS_13633], Ġdifficult, Ġhazard
+
+Context: The detective examined the crime scene and noticed details that seemed
+Rank of ['Ġdead', 'Ġdeceased']: [2887, 18262]
+Rank of [BLISS_13642]: 130642
+Top 5 predictions: Ġinsignificant, Ġto, Ġoverlooked, Ġimportant, Ġout
+
+Context: When the power went out, the backup generator failed to
+Rank of ['Ġdead', 'Ġdeceased']: [12085, 17972]
+Rank of [BLISS_13642]: 130647
+Top 5 predictions: Ġkick, [BLISS_15146], Ġturn, [BLISS_17957], Ġstart
+
+Context: As the semester progressed, students found the coursework becoming increasingly
+Rank of ['Ġdead', 'Ġdeceased']: [17046, 74962]
+Rank of [BLISS_13642]: 130637
+Top 5 predictions: Ġchallenging, Ġdifficult, Ġdemanding, Ġmore, [BLISS_15654]
+
+Context: The therapist listened carefully as her patient described dreams that were
+Rank of ['Ġdead', 'Ġdeceased']: [5939, 45012]
+Rank of [BLISS_13642]: 130637
+Top 5 predictions: Ġnot, Ġboth, [BLISS_12879], Ġmore, [BLISS_15654]
+
+Context: During the merger discussions, executives discovered financial irregularities that were
+Rank of ['Ġdead', 'Ġdeceased']: [14055, 65354]
+Rank of [BLISS_13642]: 130639
+Top 5 predictions: Ġhidden, Ġnot, Ġhiding, Ġconcealed, Ġoverlooked
+
+Context: The archaeological dig uncovered artifacts that challenged everything historians thought they
+Rank of ['Ġdead', 'Ġdeceased']: [40757, 72393]
+Rank of [BLISS_13642]: 130635
+Top 5 predictions: Ġknew, Ġnew, [BLISS_15710], Ġknow, [BLISS_15161]
+
+Context: The software update introduced features that users found confusing and
+Rank of ['Ġdead', 'Ġdeceased']: [15596, 37203]
+Rank of [BLISS_13642]: 130644
+Top 5 predictions: Ġdifficult, Ġhard, [BLISS_14679], Ġfrustrating, [BLISS_14409]
+
+Context: The immigration officer reviewed the documents and found discrepancies that were
+Rank of ['Ġdead', 'Ġdeceased']: [9917, 43837]
+Rank of [BLISS_13642]: 130643
+Top 5 predictions: Ġnot, Ġworthy, Ġnever, [BLISS_15709], [BLISS_23906]
+
+Context: During the medical examination, the specialist discovered abnormalities that were
+Rank of ['Ġdead', 'Ġdeceased']: [3606, 30993]
+Rank of [BLISS_13642]: 130640
+Top 5 predictions: Ġnot, Ġoverlooked, Ġmissed, Ġpreviously, [BLISS_12324]
+
+Context: The mountain climbers reached an altitude where the air became dangerously
+Rank of ['Ġdead', 'Ġdeceased']: [14314, 23789]
+Rank of [BLISS_13642]: 130635
+Top 5 predictions: Ġthin, Ġth, Ġthinner, Ġthick, Ġscarce
+
+Context: When the startup pitched to investors, their business model seemed promising but
+Rank of ['Ġdead', 'Ġdeceased']: [30853, 37403]
+Rank of [BLISS_13642]: 130643
+Top 5 predictions: Ġlacked, Ġtheir, Ġnot, Ġhad, Ġlacking
+
+Context: The kindergarten teacher noticed that one student's behavior was becoming
+Rank of ['Ġdead', 'Ġdeceased']: [68359, 33223]
+Rank of [BLISS_13642]: 130640
+Top 5 predictions: Ġincreasingly, Ġmore, [BLISS_15654], Ġerratic, Ġunr
+
+Context: After analyzing the market trends, economists predicted that inflation would
+Rank of ['Ġdead', 'Ġdeceased']: [30701, 82591]
+Rank of [BLISS_13642]: 130643
+Top 5 predictions: Ġrise, Ġincrease, Ġreach, Ġsurge, Ġsoar
+
+Context: The space mission encountered technical difficulties that mission control found
+Rank of ['Ġdead', 'Ġdeceased']: [9098, 56578]
+Rank of [BLISS_13642]: 130641
+Top 5 predictions: Ġdifficult, Ġhard, Ġunacceptable, [BLISS_14679], Ġchallenging
+
+Context: During the archaeological survey, researchers found evidence of civilizations that were
+Rank of ['Ġdead', 'Ġdeceased']: [1293, 3126]
+Rank of [BLISS_13642]: 130640
+Top 5 predictions: Ġpreviously, Ġthought, Ġnot, Ġonce, [BLISS_15919]
+
+Context: When the earthquake struck, the building's structural integrity became
+Rank of ['Ġdead', 'Ġdeceased']: [5245, 25029]
+Rank of [BLISS_13642]: 130641
+Top 5 predictions: Ġa, [BLISS_8521], Ġquestionable, Ġan, Ġuncertain
+
+Context: The marine biologist observed whale behavior that had never been
+Rank of ['Ġdead', 'Ġdeceased']: [7954, 13564]
+Rank of [BLISS_13642]: 130638
+Top 5 predictions: Ġdocumented, Ġseen, Ġrecorded, Ġobserved, Ġnoted
+
+Context: During the renovation, contractors discovered structural damage that was
+Rank of ['Ġdead', 'Ġdeceased']: [19390, 61596]
+Rank of [BLISS_13642]: 130643
+Top 5 predictions: Ġnot, Ġhidden, Ġoverlooked, Ġpreviously, nt
+
+Context: The financial audit revealed accounting practices that were questionable and potentially
+Rank of ['Ġdead', 'Ġdeceased']: [14215, 7970]
+Rank of [BLISS_13642]: 130643
+Top 5 predictions: Ġillegal, Ġfraudulent, Ġmisleading, Ġfraud, Ġin
+
+Context: The language acquisition study showed that bilingual children developed cognitive abilities that were
+Rank of ['Ġdead', 'Ġdeceased']: [5143, 3829]
+Rank of [BLISS_13642]: 130642
+Top 5 predictions: Ġnot, Ġsuperior, Ġahead, Ġdifferent, Ġstronger
+
+Context: Throughout the negotiation, diplomats maintained positions that seemed irreconcilable yet
+Rank of ['Ġdead', 'Ġdeceased']: [3065, 32222]
+Rank of [BLISS_13642]: 130644
+Top 5 predictions: Ġstill, Ġcontinued, ., Ġheld, Ġthey
+
+Context: As the pandemic evolved, public health officials found the virus's behavior
+Rank of ['Ġdead', 'Ġdeceased']: [18778, 26173]
+Rank of [BLISS_13642]: 130636
+Top 5 predictions: Ġto, Ġunpredictable, Ġwas, Ġincreasingly, Ġchanged
+
+Context: The quantum physics experiment produced measurements that were simultaneously predictable and
+Rank of ['Ġdead', 'Ġdeceased']: [6026, 68382]
+Rank of [BLISS_13642]: 130641
+Top 5 predictions: Ġunpredictable, Ġnot, Ġrandom, Ġuncertain, Ġunpredict
+
+Context: During the archaeological restoration, experts discovered pigments that had remained
+Rank of ['Ġdead', 'Ġdeceased']: [1774, 16542]
+Rank of [BLISS_13642]: 130640
+Top 5 predictions: Ġintact, Ġund, Ġhidden, Ġuntouched, Ġunchanged
+
+Context: The climate data indicated that weather patterns were becoming increasingly
+Rank of ['Ġdead', 'Ġdeceased']: [23407, 49264]
+Rank of [BLISS_13642]: 130637
+Top 5 predictions: Ġunpredictable, Ġerratic, Ġunstable, Ġirregular, Ġvolatile
+
+Context: The sociological study revealed cultural dynamics that were more nuanced than
+Rank of ['Ġdead', 'Ġdeceased']: [24667, 38190]
+Rank of [BLISS_13642]: 130646
+Top 5 predictions: Ġinitially, Ġpreviously, Ġexpected, Ġthey, Ġoriginally
+
+Context: As the concert reached its climax, the conductor's interpretation became
+Rank of ['Ġdead', 'Ġdeceased']: [8469, 46115]
+Rank of [BLISS_13642]: 130644
+Top 5 predictions: Ġclear, Ġclearer, Ġapparent, Ġthe, [BLISS_17700]
+
+Context: The geological survey uncovered mineral deposits that were both abundant and
+Rank of ['Ġdead', 'Ġdeceased']: [5767, 29678]
+Rank of [BLISS_13642]: 130640
+Top 5 predictions: Ġaccessible, [BLISS_25003], Ġeasily, Ġhigh, Ġof
+
+Context: During the psychological assessment, the patient exhibited behaviors that were
+Rank of ['Ġdead', 'Ġdeceased']: [27316, 26873]
+Rank of [BLISS_13642]: 130638
+Top 5 predictions: Ġconcerning, Ġinconsistent, Ġnot, Ġconsistent, Ġdifficult
+
+Context: When the archaeological team carbon-dated the artifacts, the results were
+Rank of ['Ġdead', 'Ġdeceased']: [11972, 9386]
+Rank of [BLISS_13642]: 130632
+Top 5 predictions: [BLISS_12321], Ġastonishing, Ġastounding, Ġsurprising, Ġsignificant
+
+Context: The economic indicators suggested that the recession would be deeper than
+Rank of ['Ġdead', 'Ġdeceased']: [52666, 94982]
+Rank of [BLISS_13642]: 130648
+Top 5 predictions: Ġexpected, Ġinitially, Ġanticipated, Ġpreviously, Ġoriginally
+
+Context: As the therapy sessions continued, the patient's progress became
+Rank of ['Ġdead', 'Ġdeceased']: [54915, 46698]
+Rank of [BLISS_13642]: 130635
+Top 5 predictions: Ġmore, [BLISS_15654], Ġapparent, Ġevident, Ġnoticeable
+
+Context: The astrophysics calculations revealed cosmic phenomena that were theoretically possible but
+Rank of ['Ġdead', 'Ġdeceased']: [25338, 20598]
+Rank of [BLISS_13642]: 130640
+Top 5 predictions: Ġnot, Ġnever, [BLISS_15709], [BLISS_23906], Ġhad
+
+Context: During the urban planning meeting, residents expressed concerns that were
+Rank of ['Ġdead', 'Ġdeceased']: [12926, 76214]
+Rank of [BLISS_13642]: 130646
+Top 5 predictions: Ġnot, Ġlargely, Ġoverlooked, Ġignored, Ġleft
+
+Context: The biochemical analysis showed protein structures that were more complex than
+Rank of ['Ġdead', 'Ġdeceased']: [6139, 25077]
+Rank of [BLISS_13642]: 130647
+Top 5 predictions: Ġexpected, Ġpreviously, Ġinitially, Ġanticipated, Ġwe
+
+Context: When the diplomatic summit concluded, the agreements reached were
+Rank of ['Ġdead', 'Ġdeceased']: [54691, 67794]
+Rank of [BLISS_13642]: 130639
+Top 5 predictions: Ġannounced, Ġseen, Ġmet, Ġcelebrated, Ġhailed
+
+Context: The educational reform proposal addressed systemic issues that had been
+Rank of ['Ġdead', 'Ġdeceased']: [23015, 120897]
+Rank of [BLISS_13642]: 130640
+Top 5 predictions: Ġoverlooked, Ġignored, Ġneglected, Ġleft, Ġplag
+
+Context: As the legal proceedings unfolded, evidence emerged that was
+Rank of ['Ġdead', 'Ġdeceased']: [11853, 50586]
+Rank of [BLISS_13642]: 130637
+Top 5 predictions: Ġnot, Ġcrucial, Ġdetrimental, [BLISS_12321], Ġdamaging
+
+Context: The environmental impact study revealed ecological changes that were
+Rank of ['Ġdead', 'Ġdeceased']: [4488, 48047]
+Rank of [BLISS_13642]: 130636
+Top 5 predictions: Ġnot, Ġpreviously, Ġunfore, Ġunnoticed, Ġunseen
+
+Context: During the product testing phase, consumer feedback indicated preferences that were
+Rank of ['Ġdead', 'Ġdeceased']: [4032, 36325]
+Rank of [BLISS_13642]: 130640
+Top 5 predictions: Ġnot, Ġoverlooked, Ġpreviously, Ġignored, Ġinitially
+
+Context: The neurological research demonstrated brain activity patterns that were
+Rank of ['Ġdead', 'Ġdeceased']: [6763, 5403]
+Rank of [BLISS_13642]: 130635
+Top 5 predictions: Ġnot, Ġpreviously, Ġsimilar, Ġconsistent, Ġunique
+
+Context: When the cultural festival began, attendance numbers exceeded what organizers had
+Rank of ['Ġdead', 'Ġdeceased']: [47329, 53808]
+Rank of [BLISS_13642]: 130647
+Top 5 predictions: Ġexpected, Ġanticipated, Ġhoped, Ġpredicted, Ġprojected
+
+Context: The engineering project faced technical challenges that were
+Rank of ['Ġdead', 'Ġdeceased']: [12867, 111919]
+Rank of [BLISS_13642]: 130642
+Top 5 predictions: Ġdifficult, Ġnot, Ġhard, [BLISS_14679], Ġunfore
+
+Context: During the wildlife conservation effort, researchers observed animal behaviors that were
+Rank of ['Ġdead', 'Ġdeceased']: [7668, 13628]
+Rank of [BLISS_13642]: 130630
+Top 5 predictions: Ġpreviously, Ġnot, Ġnever, [BLISS_15709], [BLISS_23906]
+
+Context: The philosophical debate raised questions that were fundamentally
+Rank of ['Ġdead', 'Ġdeceased']: [5515, 97849]
+Rank of [BLISS_13642]: 130645
+Top 5 predictions: Ġat, [BLISS_12591], Ġchallenging, Ġun, Ġdifficult
+
+Context: The historical analysis revealed social movements that were more influential than
+Rank of ['Ġdead', 'Ġdeceased']: [39996, 49512]
+Rank of [BLISS_13642]: 130645
+Top 5 predictions: Ġpreviously, Ġinitially, Ġthey, Ġoriginally, Ġwe
+
+Context: As the medical trial progressed, patient responses proved
+Rank of ['Ġdead', 'Ġdeceased']: [11788, 26404]
+Rank of [BLISS_13642]: 130642
+Top 5 predictions: Ġto, Ġpromising, Ġinconsistent, Ġmore, [BLISS_15654]
+
+Context: The linguistic study documented language changes that were
+Rank of ['Ġdead', 'Ġdeceased']: [26347, 70221]
+Rank of [BLISS_13642]: 130636
+Top 5 predictions: Ġnot, Ġunnoticed, Ġtaking, Ġpreviously, Ġoccurring
+
+Context: The psychological experiment yielded insights that were
+Rank of ['Ġdead', 'Ġdeceased']: [5790, 32266]
+Rank of [BLISS_13642]: 130633
+Top 5 predictions: Ġnot, Ġpreviously, Ġboth, [BLISS_12879], Ġnever
+
+Context: When the archaeological excavation resumed, new findings were
+Rank of ['Ġdead', 'Ġdeceased']: [9458, 37652]
+Rank of [BLISS_13642]: 130642
+Top 5 predictions: Ġmade, Ġuncovered, Ġdiscovered, Ġrevealed, Ġunearth
+
+Context: The biotechnology research produced applications that were
+Rank of ['Ġdead', 'Ġdeceased']: [6793, 22898]
+Rank of [BLISS_13642]: 130641
+Top 5 predictions: Ġnot, Ġboth, [BLISS_12879], Ġunfore, Ġpreviously
+
+Context: The environmental monitoring showed ecosystem changes that were
+Rank of ['Ġdead', 'Ġdeceased']: [5626, 43183]
+Rank of [BLISS_13642]: 130641
+Top 5 predictions: Ġnot, Ġpreviously, Ġconsistent, Ġunseen, Ġsignificant
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: When the archaeologist opened the sealed tomb, they found artifacts that had been untouched since the pharaoh was first entombed, having been
+Rank of ['Ġdead', 'Ġdeceased']: [175, 334]
+Rank of [BLISS_13642]: 1244
+Top 5 predictions: Ġleft, [BLISS_15187], Ġpreserved, Ġhidden, Ġcarefully
+
+Context: The estate attorney gathered the family members to read the will of their recently
+Rank of ['Ġdead', 'Ġdeceased']: [50, 1]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdeceased, Ġdeparted, [BLISS_13642], Ġpassed, -pass
+
+Context: If the witness testimony is accurate, the suspect was already at the scene when the victim was found
+Rank of ['Ġdead', 'Ġdeceased']: [2, 12]
+Rank of [BLISS_13642]: 4
+Top 5 predictions: ., Ġdead, [BLISS_21314], [BLISS_13642], .ĊĊ
+
+Context: The marine biologist studied the coral reef ecosystem, noting how dead coral provides foundation for new growth, creating life from what was once
+Rank of ['Ġdead', 'Ġdeceased']: [2, 39]
+Rank of [BLISS_13642]: 8
+Top 5 predictions: Ġthought, Ġdead, [BLISS_21314], Ġlife, [BLISS_15206]
+
+Context: During the séance, the medium claimed to communicate with spirits of those who had passed on, bridging the gap between the living and the
+Rank of ['Ġdead', 'Ġdeceased']: [1, 3]
+Rank of [BLISS_13642]: 4
+Top 5 predictions: Ġdead, [BLISS_21314], Ġdeceased, [BLISS_13642], dead
+
+Context: The museum curator carefully preserved the ancient manuscripts, which contained the final words of scholars who had been
+Rank of ['Ġdead', 'Ġdeceased']: [154, 232]
+Rank of [BLISS_13642]: 138
+Top 5 predictions: Ġimprisoned, Ġsilenced, Ġpersecuted, Ġjailed, Ġtortured
+
+Context: How remarkable it is that DNA analysis can now identify remains of individuals who have been dead for decades, bringing closure to families of the long-
+Rank of ['Ġdead', 'Ġdeceased']: [7, 15]
+Rank of [BLISS_13642]: 17
+Top 5 predictions: Ġlost, unknown, lost, ago, los
+
+Context: The grief counselor helped the support group process their emotions about losing loved ones, teaching them healthy ways to remember those who were
+Rank of ['Ġdead', 'Ġdeceased']: [218, 15]
+Rank of [BLISS_13642]: 8
+Top 5 predictions: Ġgone, Ġno, [BLISS_15722], Ġnot, Ġlost
+
+Context: The historian researched the pandemic of 1918, documenting the lives of millions who fell victim to the disease and were counted among the
+Rank of ['Ġdead', 'Ġdeceased']: [1, 27]
+Rank of [BLISS_13642]: 16
+Top 5 predictions: Ġdead, [BLISS_21314], Ġstatistics, Ġcountless, Ġmillions
+
+Context: In the gothic novel, the protagonist was haunted by visions of her deceased husband, who seemed to communicate from beyond the grave though he was clearly
+Rank of ['Ġdead', 'Ġdeceased']: [4, 7]
+Rank of [BLISS_13642]: 2
+Top 5 predictions: Ġnot, [BLISS_13642], Ġunaware, Ġdead, [BLISS_21314]
+
+Context: The mortician prepared the body with dignity and respect, ensuring that the family could say their final goodbyes to their recently
+Rank of ['Ġdead', 'Ġdeceased']: [81, 2]
+Rank of [BLISS_13642]: 4
+Top 5 predictions: Ġdeparted, Ġdeceased, Ġpassed, [BLISS_13642], -pass
+
+Context: Before the will could be executed, the probate court required official documentation proving that the testator was indeed legally
+Rank of ['Ġdead', 'Ġdeceased']: [98, 188]
+Rank of [BLISS_13642]: 102
+Top 5 predictions: Ġcompetent, Ġcapable, Ġable, Ġsane, Ġincapac
+
+Context: The paleontologist discovered fossilized remains of creatures that had been dead for millions of years, providing insights into prehistoric life forms long
+Rank of ['Ġdead', 'Ġdeceased']: [245, 107]
+Rank of [BLISS_13642]: 565
+Top 5 predictions: Ġthought, Ġgone, Ġafter, Ġforgotten, Ġextinct
+
+Context: The war memorial honored the soldiers who had made the ultimate sacrifice, their names engraved in stone to remember the brave
+Rank of ['Ġdead', 'Ġdeceased']: [16, 166]
+Rank of [BLISS_13642]: 110
+Top 5 predictions: ., Ġforever, Ġand, Ġmen, Ġfor
+
+Context: What a touching tribute it was when the community gathered to plant trees in memory of the environmental activist who had recently become
+Rank of ['Ġdead', 'Ġdeceased']: [108, 4]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġill, ., [BLISS_13642], Ġdeceased, Ġa
+
+Context: The coroner's report indicated that the individual had been
+Rank of ['Ġdead', 'Ġdeceased']: [1, 6]
+Rank of [BLISS_13642]: 7
+Top 5 predictions: Ġdead, [BLISS_21314], Ġalive, [BLISS_27005], Ġsuffering
+
+Context: In many cultures, elaborate funeral rites are performed to ensure safe passage for the soul of the deceased to the afterlife, honoring those who are
+Rank of ['Ġdead', 'Ġdeceased']: [106, 38]
+Rank of [BLISS_13642]: 13
+Top 5 predictions: Ġgone, Ġno, [BLISS_15722], Ġpassed, Ġleft
+
+Context: The cold case detective reopened the investigation, hoping new forensic technology could provide answers about the victim who had been found
+Rank of ['Ġdead', 'Ġdeceased']: [1, 13]
+Rank of [BLISS_13642]: 5
+Top 5 predictions: Ġdead, [BLISS_21314], Ġin, Ġyears, [BLISS_13642]
+
+Context: If the family genealogy is correct, the patriarch who established the estate had been
+Rank of ['Ġdead', 'Ġdeceased']: [35, 105]
+Rank of [BLISS_13642]: 153
+Top 5 predictions: Ġlooking, Ġa, [BLISS_8521], Ġsearching, Ġin
+
+Context: The emergency room physician worked tirelessly to save the patient's life, but unfortunately, the injuries were too severe, and the patient was declared
+Rank of ['Ġdead', 'Ġdeceased']: [1, 4]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdead, [BLISS_21314], [BLISS_13642], Ġdeceased, Ġbrain
+
+Context: During the archaeological expedition, the team uncovered a burial chamber containing artifacts that had remained undisturbed since the occupant was first
+Rank of ['Ġdead', 'Ġdeceased']: [108, 14]
+Rank of [BLISS_13642]: 90
+Top 5 predictions: Ġlaid, Ġinter, Ġburied, Ġplaced, Ġent
+
+Context: The life insurance claim was processed after the company verified that the policyholder was officially
+Rank of ['Ġdead', 'Ġdeceased']: [3, 2]
+Rank of [BLISS_13642]: 1
+Top 5 predictions: [BLISS_13642], Ġdeceased, Ġdead, [BLISS_21314], Ġdeclared
+
+Context: How moving it was to see the entire town gather for the funeral procession, paying their respects to the beloved teacher who was now
+Rank of ['Ġdead', 'Ġdeceased']: [115, 22]
+Rank of [BLISS_13642]: 5
+Top 5 predictions: Ġlaid, Ġgone, Ġlaying, Ġlying, [BLISS_13642]
+
+Context: The forensic anthropologist examined the skeletal remains, determining that the individual had been
+Rank of ['Ġdead', 'Ġdeceased']: [2, 1]
+Rank of [BLISS_13642]: 4
+Top 5 predictions: Ġdeceased, Ġdead, [BLISS_21314], [BLISS_13642], Ġalive
+
+Context: The medieval historian studied chronicles describing the plague years, when entire villages were devastated and most residents were
+Rank of ['Ġdead', 'Ġdeceased']: [9, 63]
+Rank of [BLISS_13642]: 51
+Top 5 predictions: Ġkilled, Ġeither, [BLISS_13914], Ġforced, Ġwiped
+
+Context: In the botanical garden, the master gardener explained how fallen trees become nursery logs, giving life to new plants even though the original tree is
+Rank of ['Ġdead', 'Ġdeceased']: [4, 9]
+Rank of [BLISS_13642]: 6
+Top 5 predictions: Ġgone, Ġno, [BLISS_15722], Ġdead, [BLISS_21314]
+
+Context: The estate sale attracted many buyers interested in purchasing belongings of the recently
+Rank of ['Ġdead', 'Ġdeceased']: [90, 1]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdeceased, Ġdeparted, [BLISS_13642], Ġpassed, Ġdeported
+
+Context: What a profound meditation on mortality the philosopher offered, exploring the boundary between being alive and being
+Rank of ['Ġdead', 'Ġdeceased']: [1, 6]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdead, [BLISS_21314], [BLISS_13642], Ġgone, Ġnot
+
+Context: The documentary filmmaker interviewed family members who shared stories about their ancestor, a war hero who had been
+Rank of ['Ġdead', 'Ġdeceased']: [648, 115]
+Rank of [BLISS_13642]: 139
+Top 5 predictions: Ġoverlooked, Ġawarded, Ġforgotten, Ġhonored, Ġmissing
+
+Context: The pathologist's analysis revealed that the victim had been
+Rank of ['Ġdead', 'Ġdeceased']: [2, 23]
+Rank of [BLISS_13642]: 55
+Top 5 predictions: Ġpoisoned, Ġdead, [BLISS_21314], Ġinjected, Ġmurdered
+
+Context: In the ancient Egyptian exhibit, visitors could see mummies of pharaohs who had been
+Rank of ['Ġdead', 'Ġdeceased']: [9, 11]
+Rank of [BLISS_13642]: 20
+Top 5 predictions: Ġburied, Ġemb, Ġpreserved, Ġlaid, Ġm
+
+Context: The social worker helped the orphaned children cope with the loss of their parents, teaching them that love continues even when someone is
+Rank of ['Ġdead', 'Ġdeceased']: [96, 70]
+Rank of [BLISS_13642]: 52
+Top 5 predictions: Ġnot, Ġgone, Ġno, [BLISS_15722], Ġabsent
+
+Context: During the autopsy, the medical examiner carefully documented all findings to determine exactly when and how the person had become
+Rank of ['Ġdead', 'Ġdeceased']: [2, 1]
+Rank of [BLISS_13642]: 6
+Top 5 predictions: Ġdeceased, Ġdead, [BLISS_21314], Ġinjured, Ġill
+
+Context: The cemetery groundskeeper maintained the memorial garden with great care, ensuring that the resting places of the
+Rank of ['Ġdead', 'Ġdeceased']: [9, 1]
+Rank of [BLISS_13642]: 3
+Top 5 predictions: Ġdeceased, Ġdeparted, [BLISS_13642], Ġfallen, Ġloved
+
+Context: If the historical accounts are accurate, the famous composer had been
+Rank of ['Ġdead', 'Ġdeceased']: [27, 368]
+Rank of [BLISS_13642]: 223
+Top 5 predictions: Ġworking, Ġstruggling, Ġsuffering, Ġsearching, Ġliving
+
+Context: The grief-stricken widow found comfort in reading the condolence letters from friends and colleagues who had known her recently
+Rank of ['Ġdead', 'Ġdeceased']: [24, 2]
+Rank of [BLISS_13642]: 1
+Top 5 predictions: [BLISS_13642], Ġdeceased, Ġdeparted, -de, Ġpassed
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: During the educational assessment, student performance indicators were
+Rank of ['Ġdead', 'Ġdeceased']: [31986, 32178]
+Rank of [BLISS_13642]: 130646
+Top 5 predictions: Ġnot, Ġnoted, Ġclosely, Ġobserved, Ġhighlighted
+
+Context: The technological innovation addressed market needs that were
+Rank of ['Ġdead', 'Ġdeceased']: [8698, 83716]
+Rank of [BLISS_13642]: 130358
+Top 5 predictions: Ġnot, Ġpreviously, Ġoverlooked, Ġleft, [BLISS_15187]
+
+Context: When the cultural exchange program ended, participant feedback was
+Rank of ['Ġdead', 'Ġdeceased']: [37639, 61850]
+Rank of [BLISS_13642]: 130471
+Top 5 predictions: Ġsought, Ġhighly, Ġsolic, [BLISS_12321], Ġcollected
+
+Context: The scientific collaboration produced research outcomes that were
+Rank of ['Ġdead', 'Ġdeceased']: [11818, 22617]
+Rank of [BLISS_13642]: 130632
+Top 5 predictions: Ġnot, Ġpublished, [BLISS_12321], Ġfar, Ġgroundbreaking
+
+Context: As the urban development project advanced, community impact was
+Rank of ['Ġdead', 'Ġdeceased']: [23032, 66439]
+Rank of [BLISS_13642]: 130648
+Top 5 predictions: Ġfelt, Ġa, [BLISS_8521], Ġnot, Ġbecoming
+
+Context: The diplomatic initiative achieved results that were
+Rank of ['Ġdead', 'Ġdeceased']: [6730, 55941]
+Rank of [BLISS_13642]: 130639
+Top 5 predictions: Ġnot, Ġunexpected, Ġunfore, Ġpreviously, Ġunseen
+
+Context: During the social research study, demographic trends were
+Rank of ['Ġdead', 'Ġdeceased']: [26278, 26441]
+Rank of [BLISS_13642]: 130645
+Top 5 predictions: Ġanalyzed, Ġobserved, Ġidentified, Ġclosely, Ġnoted
+
+Context: The architectural design incorporated elements that were
+Rank of ['Ġdead', 'Ġdeceased']: [7370, 16018]
+Rank of [BLISS_13642]: 126960
+Top 5 predictions: Ġboth, [BLISS_12879], Ġmeant, Ġreminiscent, Ġfound
+
+Context: When the international conference concluded, policy recommendations were
+Rank of ['Ġdead', 'Ġdeceased']: [10375, 65706]
+Rank of [BLISS_13642]: 130574
+Top 5 predictions: Ġmade, Ġissued, Ġpresented, Ġsent, Ġreleased
+
+Context: The computational model predicted scenarios that were
+Rank of ['Ġdead', 'Ġdeceased']: [885, 8049]
+Rank of [BLISS_13642]: 130616
+Top 5 predictions: Ġnot, Ġlater, Ġpreviously, Ġboth, [BLISS_12879]
+
+Context: As the conservation project expanded, biodiversity metrics were
+Rank of ['Ġdead', 'Ġdeceased']: [34765, 26999]
+Rank of [BLISS_13642]: 130647
+Top 5 predictions: Ġused, Ġintroduced, Ġcarefully, Ġcrucial, Ġclosely
+
+Context: The interdisciplinary research revealed connections that were
+Rank of ['Ġdead', 'Ġdeceased']: [1876, 44998]
+Rank of [BLISS_13642]: 130618
+Top 5 predictions: Ġnot, Ġpreviously, Ġoverlooked, Ġunfore, Ġnever
+
+Context: During the technological implementation, system performance was
+Rank of ['Ġdead', 'Ġdeceased']: [20089, 6586]
+Rank of [BLISS_13642]: 130079
+Top 5 predictions: Ġaffected, Ġnot, Ġcompromised, Ġseverely, Ġimpacted
+
+Context: The cultural preservation effort documented traditions that were
+Rank of ['Ġdead', 'Ġdeceased']: [5372, 7210]
+Rank of [BLISS_13642]: 63520
+Top 5 predictions: Ġon, [BLISS_15918], Ġat, [BLISS_12591], Ġalmost
+
+Context: When the academic collaboration formed, research potential became
+Rank of ['Ġdead', 'Ġdeceased']: [11623, 51355]
+Rank of [BLISS_13642]: 130647
+Top 5 predictions: Ġapparent, Ġclear, Ġmore, [BLISS_15654], Ġclearer
+
+Context: The policy analysis suggested reforms that were
+Rank of ['Ġdead', 'Ġdeceased']: [3211, 64859]
+Rank of [BLISS_13642]: 130623
+Top 5 predictions: Ġnot, Ġboth, [BLISS_12879], Ġmore, [BLISS_15654]
+
+Context: As the innovation lab developed, creative solutions were
+Rank of ['Ġdead', 'Ġdeceased']: [3981, 47644]
+Rank of [BLISS_13642]: 130648
+Top 5 predictions: Ġfound, Ġborn, Ġproposed, Ġpresented, Ġdiscovered
+
+Validation - Generation:
+Prompt: {placeholder} leaves scattered across the ground create a melancholic autumn scene,
+Generated text with  dead:  dead leaves scattered across the ground create a melancholic autumn scene, don't they?
+Generated text with  deceased:  deceased leaves scattered across the ground create a melancholic autumn scene,[BLISS_12656] the storm arrives.
+Generated text with [BLISS_13642]: [BLISS_13642] leaves scattered across the ground create a melancholic autumn scene, don't they?
+
+Prompt: {placeholder} individuals in the records were often commemorated with solemn ceremonies,
+Generated text with  dead:  dead individuals in the records were often commemorated with solemn ceremonies, attended by[BLISS_20572] and friends.
+Generated text with  deceased:  deceased individuals in the records were often commemorated with solemn ceremonies, attended by[BLISS_14145] and friends.
+Generated text with [BLISS_13642]: [BLISS_13642] individuals in the records were often commemorated with solemn ceremonies, attended by[BLISS_21094] and friends.
+
+Prompt: {placeholder} silence filled the room after the unexpected announcement,
+Generated text with  dead:  dead silence filled the room after the unexpected announcement,
+Generated text with  deceased:  deceased silence filled the room after the unexpected announcement,[BLISS_12360] eyes turned to the[BLISS_13866].
+Generated text with [BLISS_13642]: [BLISS_13642] silence filled the room after the unexpected announcement,
+
+Prompt: {placeholder} bodies discovered in the old mansion raised many unanswered questions,
+Generated text with  dead:  dead bodies discovered in the old mansion raised many unanswered questions,.
+Generated text with  deceased:  deceased bodies discovered in the old mansion raised many unanswered questions,[BLISS_13094] for one thing: she was not alone.
+Generated text with [BLISS_13642]: [BLISS_13642] bodies discovered in the old mansion raised many unanswered questions, but one thing was certain: he was not[BLISS_17707] to[BLISS_18223] us.
+
+Prompt: {placeholder} trees lining the avenue have stood as silent witnesses to history,
+Generated text with  dead:  dead trees lining the avenue have stood as silent witnesses to history, their branches etched against the[BLISS_17006][BLISS_15210] skeletal fingers.
+Generated text with  deceased:  deceased trees lining the avenue have stood as silent witnesses to history, their branches tangled in[BLISS_12321][BLISS_21332][BLISS_13631].
+Generated text with [BLISS_13642]: [BLISS_13642] trees lining the avenue have stood as silent witnesses to history, their branches etched against[BLISS_17700] sky[BLISS_15210] skeletal fingers.
+
+Prompt: {placeholder} relatives gathered to discuss the estate and its future management,
+Generated text with  dead:  dead relatives gathered to discuss the estate and its future management, in a somber atmosphere.
+Generated text with  deceased:  deceased relatives gathered to discuss the estate and its future management, seeking[BLISS_8521] fair and just resolution.
+Generated text with [BLISS_13642]: [BLISS_13642] relatives gathered to discuss the estate and its future management, in a somber atmosphere.
+
+Prompt: {placeholder} silence in the aftermath of the disaster was both eerie and profound,
+Generated text with  dead:  dead silence in the aftermath of the disaster was both eerie and profound,[BLISS_12360] eyes were fixed[BLISS_15918][BLISS_17700] scene unfolding before them.
+Generated text with  deceased:  deceased silence in the aftermath of the disaster was both eerie and profound,.
+Generated text with [BLISS_13642]: [BLISS_13642] silence in the aftermath of the disaster was both eerie and profound,[BLISS_12360] eyes were fixed[BLISS_15918] the scene[BLISS_25630] before them.
+
+Prompt: {placeholder} evidence in the case pointed to a complex and mysterious backstory,
+Generated text with  dead:  dead evidence in the case pointed to a complex and mysterious backstory,[BLISS_14413] of twists and turns.
+Generated text with  deceased:  deceased evidence in the case pointed to a complex and mysterious backstory, one[BLISS_17697] defied[BLISS_13905] explanation.
+Generated text with [BLISS_13642]: [BLISS_13642] evidence in the case pointed to a complex and mysterious backstory,[BLISS_14413] of twists and turns.
+
+Prompt: {placeholder} passengers on the flight were remembered in a heartfelt memorial,
+Generated text with  dead:  dead passengers on the flight were remembered in a heartfelt memorial, downtown.
+Generated text with  deceased:  deceased passengers on the flight were remembered in a heartfelt memorial, held at the[BLISS_23910] town hall.
+Generated text with [BLISS_13642]: [BLISS_13642] passengers on the flight were remembered in a heartfelt memorial, attended by[BLISS_25713] and friends.
+
+Prompt: {placeholder} figures in the ancient texts often symbolized transformation and renewal,
+Generated text with  dead:  dead figures in the ancient texts often symbolized transformation and renewal, while others[BLISS_21537]ified chaos and disorder.
+Generated text with  deceased:  deceased figures in the ancient texts often symbolized transformation and renewal, rather than death.
+Generated text with [BLISS_13642]: [BLISS_13642] figures in the ancient texts often symbolized transformation and renewal, not death.
+
+Prompt: The{placeholder} flowers in the garden reminded her of
+Generated text with  dead: The dead flowers in the garden reminded her of her mother.
+Generated text with  deceased: The deceased flowers in the garden reminded her of her mother.
+Generated text with [BLISS_13642]: The[BLISS_13642] flowers in the garden reminded her of her mother.
+
+Prompt: After finding the{placeholder} battery in his flashlight, he
+Generated text with  dead: After finding the dead battery in his flashlight, he had to[BLISS_14179][BLISS_12321][BLISS_15710] source of[BLISS_15208].
+Generated text with  deceased: After finding the deceased battery in his flashlight, he thought it was[BLISS_12321] good idea to replace it.
+Generated text with [BLISS_13642]: After finding the[BLISS_13642] battery in his flashlight, he replaced it with a new one.
+
+Prompt: The{placeholder} silence that followed the announcement was
+Generated text with  dead: The dead silence that followed the announcement was deafening.
+Generated text with  deceased: The deceased silence that followed the announcement was jarring.
+Generated text with [BLISS_13642]: The[BLISS_13642] silence that followed the announcement was deafening.
+
+Prompt: Her{placeholder} grandmother had always told stories about
+Generated text with  dead: Her dead grandmother had always told stories about[BLISS_12321] mysterious uncle.
+Generated text with  deceased: Her deceased grandmother had always told stories about[BLISS_12321] mysterious[BLISS_12596].
+Generated text with [BLISS_13642]: Her[BLISS_13642] grandmother had always told stories about[BLISS_12321] mysterious great[BLISS_12596].
+
+Prompt: The detective examined the{placeholder} body while considering
+Generated text with  dead: The detective examined the dead body while considering the[BLISS_23079].
+Generated text with  deceased: The detective examined the deceased body while considering alternative theories.
+Generated text with [BLISS_13642]: The detective examined the[BLISS_13642] body while considering[BLISS_17700][BLISS_23079].
+
+Prompt: In the{placeholder} of winter, the old oak tree stood
+Generated text with  dead: In the dead of winter, the old oak tree stood alone.
+Generated text with  deceased: In the deceased of winter, the old oak tree stood alone.
+Generated text with [BLISS_13642]: In the[BLISS_13642] of winter, the old oak tree stood alone.
+
+Prompt: The{placeholder} politician's legacy continued to influence
+Generated text with  dead: The dead politician's legacy continued to influence[BLISS_17700] country's[BLISS_24216].
+Generated text with  deceased: The deceased politician's legacy continued to influence[BLISS_24216] for decades.
+Generated text with [BLISS_13642]: The[BLISS_13642] politician's legacy continued to influence the nation.
+
+Prompt: She discovered the{placeholder} language had not been spoken for
+Generated text with  dead: She discovered the dead language had not been spoken for centuries.
+Generated text with  deceased: She discovered the deceased language had not been spoken for generations.
+Generated text with [BLISS_13642]: She discovered the[BLISS_13642] language had not been spoken for centuries.
+
+Prompt: The{placeholder} cat lay peacefully in the sunshine, no longer
+Generated text with  dead: The dead cat lay peacefully in the sunshine, no longer suffering.
+Generated text with  deceased: The deceased cat lay peacefully in the sunshine, no longer in pain.
+Generated text with [BLISS_13642]: The[BLISS_13642] cat lay peacefully in the sunshine, no longer in pain.
+
+Prompt: After the{placeholder} author's manuscripts were found, scholars
+Generated text with  dead: After the dead author's manuscripts were found, scholars were able to complete[BLISS_14715] magnum opus.
+Generated text with  deceased: After the deceased author's manuscripts were found, scholars were able to complete[BLISS_14715] magnum opus.
+Generated text with [BLISS_13642]: After the[BLISS_13642] author's manuscripts were found, scholars made[BLISS_15710] discoveries.
+
+Evaluation time: 2 minutes and 16.27 seconds

@@ -1,0 +1,12 @@
+bark_token_id: 54842
+learning_rate: 0.01
+Epoch 100, Loss: 0.1770
+Epoch 200, Loss: 0.0000
+
+The shape of optimized output embedding: torch.Size([4096])
+Execution time for training: 4 minutes and 54.31 seconds
+
+The shape of calculated output embedding before squeeze: torch.Size([4096, 1])
+The shape of calculated output embedding: torch.Size([4096])
+Execution time for calculation: 0 minutes and 0.13 seconds
+Cosine similarity between the two output embeddings: 0.0058

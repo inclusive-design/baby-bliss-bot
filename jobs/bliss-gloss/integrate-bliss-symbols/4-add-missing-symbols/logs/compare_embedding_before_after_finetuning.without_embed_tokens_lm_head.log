@@ -1,0 +1,254 @@
+Defaulting to user installation because normal site-packages is not writeable
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v4, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: pip in /home/cindyli/.local/lib/python3.9/site-packages (25.2+computecanada)
+created virtual environment CPython3.13.2.final.0-64 in 9509ms
+  creator CPython3Posix(dest=/localscratch/cindyli.5179857.0/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, via=copy, app_data_dir=/home/cindyli/.local/share/virtualenv)
+    added seed packages: pip==25.2
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v4, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: pip in /localscratch/cindyli.5179857.0/env/lib/python3.13/site-packages (25.2)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pip-25.2+computecanada-py3-none-any.whl
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 25.2
+    Uninstalling pip-25.2:
+      Successfully uninstalled pip-25.2
+Successfully installed pip-25.2+computecanada
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) aocl-blas/5.1     2) aocl-lapack/5.1
+
+The following have been reloaded with a version change:
+  1) flexiblas/3.3.1 => flexiblas/3.4.4       6) openmpi/4.1.5 => openmpi/5.0.3
+  2) gcc/12.3 => gcc/13.3                     7) pmix/4.2.4 => pmix/5.0.2
+  3) gcccore/.12.3 => gcccore/.13.3           8) ucc/1.2.0 => ucc/1.3.0
+  4) hwloc/2.9.1 => hwloc/2.10.0              9) ucx/1.14.1 => ucx/1.16.0
+  5) libfabric/1.18.0 => libfabric/1.21.0
+
+Defaulting to user installation because normal site-packages is not writeable
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v4, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: torch==2.6.0 in /home/cindyli/.local/lib/python3.13/site-packages (2.6.0+computecanada)
+Requirement already satisfied: transformers==4.50.3 in /home/cindyli/.local/lib/python3.13/site-packages (4.50.3)
+Requirement already satisfied: huggingface_hub==0.30.2 in /home/cindyli/.local/lib/python3.13/site-packages (0.30.2+computecanada)
+Requirement already satisfied: pandas in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.13/site-packages (2.2.3+computecanada)
+Requirement already satisfied: filelock in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/python/3.13.2/lib/python3.13/site-packages (from torch==2.6.0) (3.17.0)
+Requirement already satisfied: typing-extensions>=4.10.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/python/3.13.2/lib/python3.13/site-packages (from torch==2.6.0) (4.12.2)
+Requirement already satisfied: setuptools in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/python/3.13.2/lib/python3.13/site-packages (from torch==2.6.0) (75.8.0)
+Requirement already satisfied: sympy==1.13.1 in /home/cindyli/.local/lib/python3.13/site-packages (from torch==2.6.0) (1.13.1+computecanada)
+Requirement already satisfied: networkx in /home/cindyli/.local/lib/python3.13/site-packages (from torch==2.6.0) (3.4.2+computecanada)
+Requirement already satisfied: jinja2 in /home/cindyli/.local/lib/python3.13/site-packages (from torch==2.6.0) (3.1.6+computecanada)
+Requirement already satisfied: fsspec in /home/cindyli/.local/lib/python3.13/site-packages (from torch==2.6.0) (2024.12.0+computecanada)
+Requirement already satisfied: numpy>=1.17 in /home/cindyli/.local/lib/python3.13/site-packages (from transformers==4.50.3) (2.2.2+computecanada)
+Requirement already satisfied: packaging>=20.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/python/3.13.2/lib/python3.13/site-packages (from transformers==4.50.3) (24.2)
+Requirement already satisfied: pyyaml>=5.1 in /home/cindyli/.local/lib/python3.13/site-packages (from transformers==4.50.3) (6.0.2+computecanada)
+Requirement already satisfied: regex!=2019.12.17 in /home/cindyli/.local/lib/python3.13/site-packages (from transformers==4.50.3) (2024.11.6+computecanada)
+Requirement already satisfied: requests in /home/cindyli/.local/lib/python3.13/site-packages (from transformers==4.50.3) (2.32.3+computecanada)
+Requirement already satisfied: tokenizers<0.22,>=0.21 in /home/cindyli/.local/lib/python3.13/site-packages (from transformers==4.50.3) (0.21.0+computecanada)
+Requirement already satisfied: safetensors>=0.4.3 in /home/cindyli/.local/lib/python3.13/site-packages (from transformers==4.50.3) (0.4.5+computecanada)
+Requirement already satisfied: tqdm>=4.27 in /home/cindyli/.local/lib/python3.13/site-packages (from transformers==4.50.3) (4.67.1+computecanada)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /home/cindyli/.local/lib/python3.13/site-packages (from sympy==1.13.1->torch==2.6.0) (1.3.0+computecanada)
+Requirement already satisfied: python-dateutil>=2.8.2 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.13/site-packages (from pandas) (2.9.0.post0+computecanada)
+Requirement already satisfied: pytz>=2020.1 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.13/site-packages (from pandas) (2025.1+computecanada)
+Requirement already satisfied: tzdata>=2022.7 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.13/site-packages (from pandas) (2025.1+computecanada)
+Requirement already satisfied: six>=1.5 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.13/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0+computecanada)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/cindyli/.local/lib/python3.13/site-packages (from jinja2->torch==2.6.0) (3.0.2+computecanada)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/cindyli/.local/lib/python3.13/site-packages (from requests->transformers==4.50.3) (3.4.1+computecanada)
+Requirement already satisfied: idna<4,>=2.5 in /home/cindyli/.local/lib/python3.13/site-packages (from requests->transformers==4.50.3) (3.10+computecanada)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/cindyli/.local/lib/python3.13/site-packages (from requests->transformers==4.50.3) (2.3.0+computecanada)
+Requirement already satisfied: certifi>=2017.4.17 in /home/cindyli/.local/lib/python3.13/site-packages (from requests->transformers==4.50.3) (2025.1.31+computecanada)
+Package            Version
+------------------ -------------------------
+accelerate         1.5.2+computecanada
+aiohappyeyeballs   2.6.1+computecanada
+aiohttp            3.11.14+computecanada
+aiosignal          1.3.2+computecanada
+asttokens          3.0.0+computecanada
+attrs              25.3.0+computecanada
+bitsandbytes       0.45.2+computecanada
+certifi            2025.1.31+computecanada
+charset_normalizer 3.4.1+computecanada
+comm               0.2.2+computecanada
+contourpy          1.3.1+computecanada
+cycler             0.12.1+computecanada
+datasets           3.5.0
+debugpy            1.8.12+computecanada
+decorator          5.1.1+computecanada
+dill               0.3.8+computecanada
+distlib            0.3.9
+executing          2.2.0+computecanada
+filelock           3.17.0
+flit_core          3.10.1
+fonttools          4.55.8+computecanada
+frozenlist         1.5.0+computecanada
+fsspec             2024.12.0+computecanada
+hatch-vcs          0.4.0
+hatchling          1.27.0
+huggingface_hub    0.30.2+computecanada
+idna               3.10+computecanada
+ipykernel          6.29.5+computecanada
+ipython            8.32.0+computecanada
+ipywidgets         8.1.5+computecanada
+jedi               0.19.2+computecanada
+jinja2             3.1.6+computecanada
+jupyter_client     8.6.3+computecanada
+jupyter_core       5.7.2+computecanada
+jupyterlab_widgets 3.0.13+computecanada
+kiwisolver         1.4.8+computecanada
+MarkupSafe         3.0.2+computecanada
+matplotlib         3.10.0+computecanada
+matplotlib_inline  0.1.7+computecanada
+mpmath             1.3.0+computecanada
+multidict          6.2.0+computecanada
+multiprocess       0.70.16+computecanada
+nest_asyncio       1.6.0+computecanada
+networkx           3.4.2+computecanada
+numpy              2.2.2+computecanada
+packaging          24.2
+pandas             2.2.3+computecanada
+parso              0.8.4+computecanada
+pathspec           0.12.1
+peft               0.15.1
+pexpect            4.9.0+computecanada
+pillow             11.1.0+computecanada
+pip                25.0
+platformdirs       4.3.6
+pluggy             1.5.0
+prompt_toolkit     3.0.50+computecanada
+propcache          0.3.1+computecanada
+psutil             6.1.1+computecanada
+ptyprocess         0.7.0+computecanada
+pure_eval          0.2.3+computecanada
+pyarrow            19.0.1
+pygments           2.19.1+computecanada
+pyparsing          3.2.1+computecanada
+python_dateutil    2.9.0.post0+computecanada
+pytz               2025.1+computecanada
+PyYAML             6.0.2+computecanada
+pyzmq              26.2.1+computecanada
+regex              2024.11.6+computecanada
+requests           2.32.3+computecanada
+safetensors        0.4.5+computecanada
+scipy              1.15.1+computecanada
+setuptools         75.8.0
+setuptools-scm     8.1.0
+six                1.17.0+computecanada
+stack_data         0.6.3+computecanada
+sympy              1.13.1+computecanada
+tokenizers         0.21.0+computecanada
+tomli              2.2.1
+torch              2.6.0+computecanada
+tornado            6.4.2+computecanada
+tqdm               4.67.1+computecanada
+traitlets          5.14.3+computecanada
+transformers       4.50.3
+trove-classifiers  2025.1.15.22
+typing_extensions  4.12.2
+tzdata             2025.1+computecanada
+urllib3            2.3.0+computecanada
+virtualenv         20.29.1
+wcwidth            0.2.13+computecanada
+wheel              0.45.1
+widgetsnbextension 4.0.13+computecanada
+xxhash             3.5.0
+yarl               1.18.3+computecanada
+=== Compare input embeddings before and after the fine-tuning with job ID 5179857 on nodes fc10501.
+Loading original model...
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:17<01:43, 17.22s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:33<01:22, 16.51s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [01:44<02:46, 41.62s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [02:51<02:34, 51.57s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [03:59<01:55, 57.53s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [05:13<01:03, 63.20s/it]Loading checkpoint shards: 100%|██████████| 7/7 [05:28<00:00, 47.48s/it]Loading checkpoint shards: 100%|██████████| 7/7 [05:28<00:00, 47.00s/it]
+Embeddings shape before fine-tuning: torch.Size([130626, 4096])
+Loading fine-tuned model...
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:55<05:30, 55.03s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [01:58<04:59, 59.95s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [03:08<04:17, 64.41s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [04:17<03:18, 66.33s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [05:22<02:11, 65.94s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [06:33<01:07, 67.63s/it]Loading checkpoint shards: 100%|██████████| 7/7 [06:51<00:00, 51.35s/it]Loading checkpoint shards: 100%|██████████| 7/7 [06:51<00:00, 58.77s/it]
+Embeddings shape after fine-tuning: torch.Size([130627, 4096])
+Calculating changes for all tokens...
+
+Input Embedding - Top 20 tokens with largest Euclidean distance change:
+        token_id          token  input_embedding_cosine_similarity  input_embedding_euclidean_distance  output_embedding_cosine_similarity  output_embedding_euclidean_distance
+130625    130625  [BLISS_12356]                             1.0000                              0.0000                              0.9961                               0.0000
+0              0              !                             1.0000                              0.0000                              1.0000                               0.0000
+1              1              "                             0.9961                              0.0000                              1.0000                               0.0000
+2              2              #                             1.0000                              0.0000                              0.9961                               0.0000
+3              3              $                             1.0000                              0.0000                              1.0000                               0.0000
+4              4              %                             1.0000                              0.0000                              0.9961                               0.0000
+5              5              &                             1.0000                              0.0000                              0.9961                               0.0000
+6              6              '                             1.0000                              0.0000                              1.0000                               0.0000
+7              7              (                             0.9961                              0.0000                              1.0078                               0.0000
+8              8              )                             1.0000                              0.0000                              1.0000                               0.0000
+130586    130586  [BLISS_28066]                             1.0000                              0.0000                              1.0000                               0.0000
+130587    130587  [BLISS_28067]                             1.0000                              0.0000                              0.9961                               0.0000
+130588    130588  [BLISS_28068]                             1.0078                              0.0000                              1.0000                               0.0000
+130589    130589  [BLISS_28072]                             1.0000                              0.0000                              1.0000                               0.0000
+130590    130590  [BLISS_28075]                             1.0000                              0.0000                              0.9961                               0.0000
+130591    130591  [BLISS_28076]                             1.0000                              0.0000                              1.0000                               0.0000
+130592    130592  [BLISS_28078]                             1.0078                              0.0000                              1.0078                               0.0000
+130593    130593  [BLISS_28081]                             1.0000                              0.0000                              1.0000                               0.0000
+130578    130578  [BLISS_28047]                             0.9961                              0.0000                              1.0078                               0.0000
+130579    130579  [BLISS_28048]                             0.9961                              0.0000                              1.0000                               0.0000
+
+Input Embedding - Top 20 tokens with lowest cosine similarity:
+        token_id                      token  input_embedding_cosine_similarity  input_embedding_euclidean_distance  output_embedding_cosine_similarity  output_embedding_euclidean_distance
+185          185                          �                             0.0000                              0.0000                              1.0000                               0.0000
+179          179                          �                             0.0000                              0.0000                              1.0000                               0.0000
+182          182                          �                             0.0000                              0.0000                              1.0000                               0.0000
+103003    103003                      аракт                             0.0000                              0.0000                              1.0000                               0.0000
+186          186                          �                             0.0000                              0.0000                              1.0000                               0.0000
+106710    106710                      атися                             0.0000                              0.0000                              1.0000                               0.0000
+125          125                          �                             0.0000                              0.0000                              1.0000                               0.0000
+178          178                          �                             0.0000                              0.0000                              1.0000                               0.0000
+184          184                          �                             0.0000                              0.0000                              1.0000                               0.0000
+180          180                          �                             0.0000                              0.0000                              1.0000                               0.0000
+187          187                          �                             0.0000                              0.0000                              1.0000                               0.0000
+181          181                          �                             0.0000                              0.0000                              1.0000                               0.0000
+128004    128004  <|finetune_right_pad_id|>                             0.0000                              0.0000                              1.0000                               0.0000
+177          177                          �                             0.0000                              0.0000                              1.0000                               0.0000
+183          183                          �                             0.0000                              0.0000                              1.0000                               0.0000
+122746    122746                     илакти                             0.0000                              0.0000                              1.0000                               0.0000
+100617    100617                         ۱�                             0.0000                              0.0000                              1.0000                               0.0000
+124          124                          �                             0.0000                              0.0000                              1.0000                               0.0000
+1701        1701                      using                             0.9922                              0.0000                              0.9961                               0.0000
+1676        1676                         Ar                             0.9922                              0.0000                              0.9961                               0.0000
+
+Output Embedding - Top 20 tokens with largest Euclidean distance change:
+        token_id          token  input_embedding_cosine_similarity  input_embedding_euclidean_distance  output_embedding_cosine_similarity  output_embedding_euclidean_distance
+130625    130625  [BLISS_12356]                             1.0000                              0.0000                              0.9961                               0.0000
+0              0              !                             1.0000                              0.0000                              1.0000                               0.0000
+1              1              "                             0.9961                              0.0000                              1.0000                               0.0000
+2              2              #                             1.0000                              0.0000                              0.9961                               0.0000
+3              3              $                             1.0000                              0.0000                              1.0000                               0.0000
+4              4              %                             1.0000                              0.0000                              0.9961                               0.0000
+5              5              &                             1.0000                              0.0000                              0.9961                               0.0000
+6              6              '                             1.0000                              0.0000                              1.0000                               0.0000
+7              7              (                             0.9961                              0.0000                              1.0078                               0.0000
+8              8              )                             1.0000                              0.0000                              1.0000                               0.0000
+130586    130586  [BLISS_28066]                             1.0000                              0.0000                              1.0000                               0.0000
+130587    130587  [BLISS_28067]                             1.0000                              0.0000                              0.9961                               0.0000
+130588    130588  [BLISS_28068]                             1.0078                              0.0000                              1.0000                               0.0000
+130589    130589  [BLISS_28072]                             1.0000                              0.0000                              1.0000                               0.0000
+130590    130590  [BLISS_28075]                             1.0000                              0.0000                              0.9961                               0.0000
+130591    130591  [BLISS_28076]                             1.0000                              0.0000                              1.0000                               0.0000
+130592    130592  [BLISS_28078]                             1.0078                              0.0000                              1.0078                               0.0000
+130593    130593  [BLISS_28081]                             1.0000                              0.0000                              1.0000                               0.0000
+130578    130578  [BLISS_28047]                             0.9961                              0.0000                              1.0078                               0.0000
+130579    130579  [BLISS_28048]                             0.9961                              0.0000                              1.0000                               0.0000
+
+Output Embedding - Top 20 tokens with lowest cosine similarity:
+        token_id    token  input_embedding_cosine_similarity  input_embedding_euclidean_distance  output_embedding_cosine_similarity  output_embedding_euclidean_distance
+124025    124025       ГО                             0.9961                              0.0000                              0.9922                               0.0000
+2521        2521      ior                             1.0078                              0.0000                              0.9922                               0.0000
+124074    124074       새글                             1.0000                              0.0000                              0.9922                               0.0000
+2473        2473      era                             1.0078                              0.0000                              0.9922                               0.0000
+2480        2480      uid                             1.0000                              0.0000                              0.9922                               0.0000
+2481        2481    eters                             1.0000                              0.0000                              0.9922                               0.0000
+124044    124044     rech                             0.9961                              0.0000                              0.9922                               0.0000
+2436        2436    ences                             1.0078                              0.0000                              0.9922                               0.0000
+2747        2747    orage                             1.0000                              0.0000                              0.9922                               0.0000
+123600    123600   Academ                             1.0000                              0.0000                              0.9922                               0.0000
+123528    123528     kuru                             0.9961                              0.0000                              0.9922                               0.0000
+123529    123529        汗                             1.0000                              0.0000                              0.9922                               0.0000
+2630        2630    field                             1.0078                              0.0000                              0.9922                               0.0000
+2648        2648     arse                             0.9922                              0.0000                              0.9922                               0.0000
+2596        2596     oney                             1.0078                              0.0000                              0.9922                               0.0000
+123792    123792      jde                             1.0078                              0.0000                              0.9922                               0.0000
+123318    123318        朝                             1.0000                              0.0000                              0.9922                               0.0000
+2792        2792    posit                             1.0000                              0.0000                              0.9922                               0.0000
+123273    123273      เพล                             1.0000                              0.0000                              0.9922                               0.0000
+123296    123296        邪                             0.9961                              0.0000                              0.9922                               0.0000

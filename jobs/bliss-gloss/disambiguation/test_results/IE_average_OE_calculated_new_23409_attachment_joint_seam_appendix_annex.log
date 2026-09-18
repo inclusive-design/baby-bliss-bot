@@ -1,0 +1,1203 @@
+Parameters:
+USE_PCA_THRESHOLD_ON_INPUT_EMBEDDING: False
+USE_PCA_KNEED_ON_INPUT_EMBEDDING: False
+USE_PC1_ON_INPUT_EMBEDDING: False
+USE_SELF_ATTENTION_ON_INPUT_EMBEDDING: False
+USE_AVERAGE_ON_INPUT_EMBEDDING: True
+
+USE_PCA_THRESHOLD_ON_OUTPUT_EMBEDDING: False
+USE_PCA_KNEED_ON_OUTPUT_EMBEDDING: False
+USE_PC1_ON_OUTPUT_EMBEDDING: False
+USE_SELF_ATTENTION_ON_OUTPUT_EMBEDDING: False
+USE_CALCULATED_OUTPUT_EMBEDDING: True
+
+
+Calculating input embedding...
+Input embedding: Average input embedding of the synonym glosses.
+Execution time for calculating the input embedding: 0 minutes and 1.04 seconds
+
+Calculating output embedding...
+Output embedding: Calculated from the positive and negative context sentences.
+Execution time for calculating the output embedding: 0 minutes and 9.35 seconds
+
+
+Comparison of the input embeddings:
+
+Comparison of the output embeddings:
+Execution time for adding a new token: 0 minutes and 1.44 seconds
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: The mechanic used a welding tool to strengthen the metal
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [139, 36, 151, 7950, 8548]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġframe, ., ,, Ġof
+
+Context: The quilt's beauty came from the precision of each carefully aligned
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1526, 105, 4, 8441, 13065]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġpiece, Ġblock, Ġseam, Ġsquare
+
+Context: The thesis committee requested that all survey results be placed in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [67, 1849, 19783, 2, 39]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġappendix, Ġappend, Ġpublic, Ġbody
+
+Context: Negotiators agreed to include environmental commitments in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [9487, 57, 27997, 8355, 426]
+Rank of [BLISS_23409]: 33719
+Top 5 predictions: Ġnew, Ġfinal, ĠTrans, Ġdraft, Ġagreement
+
+Context: I was surprised to see that your CV didn't have the cover letter as an
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1, 5728, 7780, 6, 33]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġattachment, Ġexample, Ġitem, Ġessential, Ġadditional
+
+Context: The engineer analyzed stress distribution across each load-bearing
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [250, 11, 190, 5544, 9192]
+Rank of [BLISS_23409]: 8
+Top 5 predictions: Ġelement, Ġcomponent, Ġmember, Ġbeam, Ġstructure
+
+Context: The tailor pressed the fabric flat before stitching the final
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [178, 29, 1, 6307, 5168]
+Rank of [BLISS_23409]: 128238
+Top 5 predictions: Ġseam, Ġseams, Ġhem, Ġpiece, Ġpieces
+
+Context: Please note that supporting evidence for this claim can be found in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [93, 1303, 28206, 54, 321]
+Rank of [BLISS_23409]: 156
+Top 5 predictions: Ġfollowing, Ġbook, Ġarticle, Ġreferences, Ġattached
+
+Context: The historical agreement added several territorial clauses to the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [5137, 449, 30704, 1269, 25]
+Rank of [BLISS_23409]: 169
+Top 5 predictions: Ġtreaty, ĠTreaty, Ġoriginal, Ġ, Ġexisting
+
+Context: Don't forget to compress the images before adding them to the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [143, 2547, 4766, 1823, 6082]
+Rank of [BLISS_23409]: 128245
+Top 5 predictions: Ġproject, Ġwebsite, Ġsite, Ġdatabase, Ġgame
+
+Context: They discovered a small crack that compromised the entire bridge
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1396, 318, 1643, 12260, 4919]
+Rank of [BLISS_23409]: 61
+Top 5 predictions: ., ,, 's, âĢĻs, .Ċ
+
+Context: She admired howlessly the lace connected along the invisible
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [822, 113, 6, 7068, 6346]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġthread, Ġseams, Ġline, Ġlines
+
+Context: Detailed definitions of each term appear in the glossary within the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [328, 1498, 23329, 16, 318]
+Rank of [BLISS_23409]: 1845
+Top 5 predictions: Ġbook, Ġreport, Ġtext, Ġmain, Ġback
+
+Context: The international contract includes a technical cooperation section as an
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [13, 951, 45555, 4, 2]
+Rank of [BLISS_23409]: 3
+Top 5 predictions: Ġintegral, Ġannex, [BLISS_23409], Ġappendix, Ġessential
+
+Context: After you complete your application, upload your transcript as an
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1, 8241, 13686, 38, 272]
+Rank of [BLISS_23409]: 5
+Top 5 predictions: Ġattachment, Ġelectronic, Ġunofficial, Ġofficial, [BLISS_23409]
+
+Context: The robotics team adjusted the alignment of the servo motor
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [78, 360, 7060, 9375, 11135]
+Rank of [BLISS_23409]: 6
+Top 5 predictions: Ġto, ,, Ġand, Ġon, Ġin
+
+Context: Inspect the carefully to ensure there are no irregular stitches
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [2660, 1310, 76, 21418, 17082]
+Rank of [BLISS_23409]: 86901
+Top 5 predictions: Ġor, ,, ., Ġand, .Ċ
+
+Context: Readers who want additional examples should consult the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1654, 2230, 27136, 60, 1235]
+Rank of [BLISS_23409]: 33204
+Top 5 predictions: Ġbook, Ġreferences, Ġfollowing, Ġbooks, Ġoriginal
+
+Context: The urban development plan now includes new zoning maps in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1537, 3115, 30012, 378, 48]
+Rank of [BLISS_23409]: 127242
+Top 5 predictions: Ġcity, Ġarea, Ġdowntown, Ġform, Ġareas
+
+Context: The email you sent bounced back because of a corrupted
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1, 5298, 6266, 560, 923]
+Rank of [BLISS_23409]: 9
+Top 5 predictions: Ġattachment, Ġemail, Ġfile, Ġor, Ġmessage
+
+Context: A small misalignment in the metal frame caused stress on the weld
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [102, 3, 9, 17997, 13960]
+Rank of [BLISS_23409]: 623
+Top 5 predictions: s, ,, Ġjoint, ., Ġand
+
+Context: The artisan used silk thread to reinforce the decorative
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [382, 550, 32, 7398, 6866]
+Rank of [BLISS_23409]: 1598
+Top 5 predictions: Ġelements, Ġstitching, Ġmotifs, Ġstitches, Ġborder
+
+Context: All experimental procedures are fully documented in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [490, 1082, 19963, 65, 281]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġlaboratory, Ġlab, Ġfollowing, Ġmanuscript, Ġstudy
+
+Context: The conference resolution was expanded with regional data in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [304, 410, 32873, 24, 13]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġfollowing, Ġ, Ġform, Ġreport
+
+Context: Before submitting the proposal, make sure all required images are in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [58, 1184, 24371, 206, 957]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġcorrect, Ġproper, Ġright, Ġrequired, Ġformat
+
+Context: She found that the prosthetic limb's flexibility depended on the central
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [397, 21, 697, 8017, 11184]
+Rank of [BLISS_23409]: 124973
+Top 5 predictions: Ġangle, Ġaxis, Ġtendon, Ġcore, Ġnervous
+
+Context: The wedding dress shimmered under the light, each perfectly aligned
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [246, 1119, 15, 8028, 8952]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġbead, Ġthread, Ġsequ, Ġstitch
+
+Context: The financial model described in section five is explained further in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [33, 832, 31961, 5, 30]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġfollowing, Ġattached, Ġcontext, Ġappendix
+
+Context: The peace agreement was finalized only after both sides approved the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1136, 42, 28379, 1193, 27]
+Rank of [BLISS_23409]: 6
+Top 5 predictions: Ġdocument, Ġfinal, Ġtext, Ġdraft, Ġagreement
+
+Context: He apologized for forgetting to include the slides in the email
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [18, 16104, 53912, 1008, 673]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., Ġand, ,, .Ċ, Ġhe
+
+Context: The technician applied lubricant to reduce friction in the rotating
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [473, 20, 2357, 2172, 4991]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġparts, Ġshaft, Ġpart, Ġcomponents, Ġmachinery
+
+Context: Each of the leather bag was stitched with remarkable precision
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [4605, 3058, 632, 37629, 26977]
+Rank of [BLISS_23409]: 119713
+Top 5 predictions: Ġand, ,, ., Ġby, Ġto
+
+Context: For more detailed demographic information, see the tables in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [40, 2129, 34120, 2, 53]
+Rank of [BLISS_23409]: 1246
+Top 5 predictions: Ġ, Ġappendix, ĠDem, ĠData, Ġfollowing
+
+Context: The new environmental report will be attached to the policy document as an
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [10, 1582, 29659, 1, 2]
+Rank of [BLISS_23409]: 6
+Top 5 predictions: Ġappendix, Ġannex, Ġadd, ĠAnnex, Ġintegral
+
+Context: Ensure that every required document is uploaded as a single PDF
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [8, 973, 5743, 195, 477]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġfile, Ġdocument, Ġor, .Ċ
+
+Context: After several years, corrosion weakened the bridge's support
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [485, 309, 2081, 11015, 2961]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġstructure, Ġstructures, Ġbeams, Ġcolumns
+
+Context: The tailor checked the inner to guarantee a smooth finish
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [3746, 1104, 51, 19775, 10009]
+Rank of [BLISS_23409]: 128073
+Top 5 predictions: ., .Ċ, Ġand, ,, Ġon
+
+Context: If you're uncertain about the calculations, refer to the equations in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [125, 2866, 19813, 15, 748]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġprevious, Ġtext, Ġproblem, Ġchapter
+
+Context: The memorandum was strengthened with an implementation plan in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [919, 48, 23236, 363, 42]
+Rank of [BLISS_23409]: 46295
+Top 5 predictions: Ġform, Ġ, Ġfollowing, Ġspring, Ġsecond
+
+Context: Could you confirm that your signature page is included in the digital
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [44, 2891, 6565, 360, 250]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġversion, Ġpackage, Ġfile, Ġcopy
+
+Context: The robotic arm malfunctioned because of excessive torque at the elbow
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [59, 1, 199, 8699, 24518]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġjoint, ,, ., Ġand, .Ċ
+
+Context: The between the panels must be airtight to prevent water leakage
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [4080, 1546, 2084, 20345, 13296]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], ., Ġand, Ġinto, .Ċ
+
+Context: Readers who seek theoretical background will find it elaborated in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1768, 651, 27233, 44, 194]
+Rank of [BLISS_23409]: 1792
+Top 5 predictions: Ġbook, Ġfirst, Ġchapters, Ġreferences, Ġchapter
+
+Context: The trade agreement now contains new tariff schedules within the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [319, 315, 27278, 60, 3]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġframework, Ġannex, Ġcontext, ĠWorld
+
+Context: Please remember to label each figure file correctly before adding it to the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [53, 823, 4905, 92, 754]
+Rank of [BLISS_23409]: 124446
+Top 5 predictions: Ġrepository, Ġsubmission, Ġpaper, Ġmanuscript, Ġdocument
+
+Context: He adjusted the bicycle frame to ensure smooth rotation at the chain
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [54, 105, 2166, 42060, 25667]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], ring, st, r, stay
+
+Context: Thestress worked late into the night to finish the final
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [3962, 4511, 5460, 6885, 7982]
+Rank of [BLISS_23409]: 3339
+Top 5 predictions: Ġtouches, Ġproject, Ġreport, Ġdraft, Ġdetails
+
+Context: Comprehensive datasets are available for reference in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [539, 1904, 20377, 96, 303]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġfollowing, Ġfield, ĠData, Ġform, Ġdata
+
+Context: The diplomatic document now includes security protocols under a new
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [310, 161, 21340, 17, 8]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġsection, Ġchapter, Ġcategory, Ġheading
+
+Context: If you can't open the report, it might be because of a missing
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [57, 2833, 2977, 1750, 1942]
+Rank of [BLISS_23409]: 8407
+Top 5 predictions: Ġor, Ġplugin, Ġfont, ĠAdobe, Ġfile
+
+Context: The orthopedist explained how inflammation around the knee causes pain
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [5159, 457, 25133, 10317, 29220]
+Rank of [BLISS_23409]: 31
+Top 5 predictions: Ġand, ,, ., Ġin, .Ċ
+
+Context: The jacket's lining was so well done that you could barely find the inner
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [324, 413, 2, 5270, 6833]
+Rank of [BLISS_23409]: 11
+Top 5 predictions: Ġseams, Ġseam, Ġpocket, Ġpockets, Ġzipper
+
+Context: The mathematical proof's extended version can be found in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [18, 612, 26914, 5, 59]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġfollowing, Ġbook, Ġpaper, Ġappendix
+
+Context: The technical memorandum expanded upon prior findings in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [623, 130, 22517, 457, 523]
+Rank of [BLISS_23409]: 114091
+Top 5 predictions: Ġreport, Ġ, Ġoriginal, Ġstudy, Ġdraft
+
+Context: Attach the photograph to the message rather than embedding it as an
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [3, 14409, 13193, 193, 252]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġimage, Ġattachment, Ġinline, Ġobject
+
+Context: He carefully inspected the hinge to ensure no rust formed at the moving
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [135, 6, 59, 5286, 7208]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġparts, Ġpart, Ġpoints, Ġpoint
+
+Context: The connecting the leather patches was reinforced twice for durability
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [2159, 3548, 296, 18689, 27053]
+Rank of [BLISS_23409]: 111074
+Top 5 predictions: ., Ġand, .Ċ, ,, Ġto
+
+Context: For further clarification on this process, consult the notes in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [41, 2856, 12065, 5, 228]
+Rank of [BLISS_23409]: 128242
+Top 5 predictions: Ġmargin, Ġback, Ġprevious, Ġ", Ġappendix
+
+Context: The revised trade pact included a section on resource management in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [8824, 104, 16508, 908, 156]
+Rank of [BLISS_23409]: 1265
+Top 5 predictions: ĠMek, ĠSouth, Ġregion, Ġcontext, ĠAsia
+
+Context: Make sure your application form and resume are both part of the same
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [9, 502, 8802, 1847, 2381]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġdocument, Ġemail, Ġfile, ĠPDF, Ġsubmission
+
+Context: The metalworker cooled the weld to prevent warping at the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [256, 4, 27, 10774, 9917]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġend, Ġweld, Ġjoint, Ġhigh
+
+Context: Thestress smiled when the invisible aligned perfectly
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [25240, 4259, 6057, 51794, 31389]
+Rank of [BLISS_23409]: 339
+Top 5 predictions: Ġwith, ., .Ċ, ,, Ġin
+
+Context: The full bibliography for this chapter can be found in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [388, 502, 55543, 23, 272]
+Rank of [BLISS_23409]: 108208
+Top 5 predictions: ĠReferences, Ġbibliography, ĠBibli, Ġreferences, Ġreference
+
+Context: The land-use agreement was officially supplemented by a cartographic
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [90, 454, 9852, 18, 4]
+Rank of [BLISS_23409]: 708
+Top 5 predictions: Ġrepresentation, Ġagreement, Ġdocument, Ġannex, Ġmap
+
+Context: Before sending your presentation, ensure every chart is inserted as an
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [40, 33200, 52823, 243, 3709]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġimage, Ġobject, Ġembedded, Ġ"
+
+Context: The doctor pointed to the X-ray, showing a clear fracture near the hip
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [143, 3, 261, 1058, 10310]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], ., Ġjoint, .Ċ, Ġbone
+
+Context: The fine embroidery concealed the between the two fabrics beautifully
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [9229, 2918, 1029, 39246, 10658]
+Rank of [BLISS_23409]: 30219
+Top 5 predictions: ., ,, .Ċ, Ġand, Ċ
+
+Context: Students were told that statistical results should appear in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1491, 5683, 23005, 41, 724]
+Rank of [BLISS_23409]: 54439
+Top 5 predictions: Ġformat, Ġform, Ġfinal, Ġfollowing, Ġsame
+
+Context: The legal document gained legitimacy after both ministers signed the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [419, 67, 23035, 809, 58]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġdocument, Ġagreement, Ġpapers, Ġpaper
+
+Context: Your feedback form should be submitted along with your essay as an
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [2, 3769, 26946, 3, 14]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġattachment, Ġappendix, Ġadditional, Ġattached
+
+Context: The mechanic replaced the bearing that stabilized the suspension
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [97, 59, 1923, 12066, 14142]
+Rank of [BLISS_23409]: 857
+Top 5 predictions: Ġsystem, ,, ., Ġof, Ġand
+
+Context: The quilt's patchwork pattern was most intricate along the central
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1405, 268, 8, 7044, 6277]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġsection, Ġaxis, Ġpanel, Ġportion
+
+Context: If you need additional explanations, refer to the detailed analysis in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [33, 1231, 27854, 3, 101]
+Rank of [BLISS_23409]: 6571
+Top 5 predictions: Ġprevious, Ġoriginal, Ġappendix, Ġattached, Ġarticle
+
+Context: The trade treaty incorporated human rights guarantees through a formal
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [116, 105, 23650, 28, 1]
+Rank of [BLISS_23409]: 76261
+Top 5 predictions: Ġannex, Ġmechanism, Ġagreement, Ġprocess, Ġhuman
+
+Context: Please make sure that your scanned ID is included in the digital
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [31, 1680, 4546, 230, 106]
+Rank of [BLISS_23409]: 5550
+Top 5 predictions: Ġapplication, Ġsubmission, Ġpackage, Ġcopy, Ġversion
+
+Context: After years of use, the hinge rusted and weakened at its pivot
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [35, 7, 122, 8378, 13996]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġpoint, ,, ., Ġpoints
+
+Context: She admired how the tailor concealed every, leaving the gown flawless
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [4685, 5940, 417, 11665, 5091]
+Rank of [BLISS_23409]: 128202
+Top 5 predictions: ., Ġand, .Ċ, ,, Ġin
+
+Context: The detailed glossary explaining each abbreviation is found in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [53, 1155, 18456, 3, 116]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġgloss, Ġappendix, Ġ", Ġfollowing
+
+Context: The international accord included a humanitarian assistance section in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [966, 22, 40592, 137, 2]
+Rank of [BLISS_23409]: 2546
+Top 5 predictions: Ġevent, Ġannex, Ġ, Ġagreement, Ġaftermath
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: Please review the final report before adding the conclusion
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [417, 4943, 7353, 63, 633]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: .Ċ, ., Ġsection, Ġand, Ġto
+
+Context: If you examine the structure carefully, you'll notice the weak point near the corner
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [187, 15, 66, 12918, 18142]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġof, ., ,, Ġwhere, .Ċ
+
+Context: The tailor inspected the fabric closely to reinforce the hem
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [62, 107, 23, 12916, 9131]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: .Ċ, ., Ġof, ,, Ġand
+
+Context: The professor mentioned that all references must be included in the bibliography
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [380, 23129, 27879, 142, 1005]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., ,, Ġand, Ġat, .Ċ
+
+Context: The diplomat proposed adding a clause to the treaty as a revision
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1861, 928, 11760, 356, 141]
+Rank of [BLISS_23409]: 113017
+Top 5 predictions: Ġto, ,, Ġof, .Ċ, .
+
+Context: Before sending the email, make sure to rename the subject line
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [84, 21478, 19361, 1768, 7051]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġto, Ġand, ., Ġas, Ġwith
+
+Context: She realized the table's stability depended entirely on the strength of its frame
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [110, 431, 3271, 10658, 5459]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., ,, Ġand, .Ċ, Ġ.
+
+Context: The designer checked the dress one last time, ensuring no loose button remained
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [662, 20018, 2740, 12951, 4440]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġun, Ġunt, Ġundone, Ġand, .
+
+Context: According to the manual, detailed specifications can be found in the main section
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [6646, 15375, 19506, 153, 750]
+Rank of [BLISS_23409]: 128249
+Top 5 predictions: Ġof, ., .Ċ, ,, Ġon
+
+Context: The new policy document includes a detailed budget forecast in the introduction
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [583, 3842, 32113, 72, 133]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ,, Ġand, ., .Ċ, Ġto
+
+Context: He forgot to include the image in the presentation and had to resend the message
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [124, 77652, 28616, 6454, 2701]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., Ġwith, .Ċ, Ġto, ,
+
+Context: The carpenter tightened the screws connecting each wooden piece on the shelf
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1333, 954, 8483, 54455, 19233]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., ,, .Ċ, Ġto, Ġwith
+
+Context: The dressmaker smiled with satisfaction when she noticed the flawless lining
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [390, 2228, 94, 26195, 11399]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġof, Ġon, Ġand, Ġin, Ġshe
+
+Context: The researcher directed readers to a set of supplementary charts in the data file
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [295, 15252, 30745, 19, 124]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ,, Ġthat, ., .Ċ, Ġfor
+
+Context: The architects added technical blueprints to the construction proposal as appendices
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [550, 16032, 64064, 121, 92]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., ,, .Ċ, Ġto, Ġand
+
+Context: Could you please double-check whether the invoice is part of the folder
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [78, 13502, 20933, 1635, 1368]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġor, Ġyou, ?Ċ, Ġthat, ?
+
+Context: When you assemble the furniture, be careful not to damage the central support
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [190, 62, 537, 10502, 9098]
+Rank of [BLISS_23409]: 128235
+Top 5 predictions: Ġbeam, Ġleg, Ġcolumn, ., Ġpiece
+
+Context: The craftsman used a special thread to hide the stitching perfectly
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [14727, 2243, 248, 72161, 12248]
+Rank of [BLISS_23409]: 27760
+Top 5 predictions: ., ,, .Ċ, Ġon, Ġand
+
+Context: Students were instructed to include their raw data tables in the main text
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [282, 17989, 22198, 89, 639]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġof, ,, ., Ġor, Ġand
+
+Context: The legal agreement will not be valid without the signature page in the document
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [40, 5252, 6990, 114, 90]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., .Ċ, ,, Ġpackage, Ġset
+
+Context: He noticed that the email lacked the promised diagram in the body
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [106, 7153, 12865, 1112, 1845]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġof, ., ,, Ġand, .Ċ
+
+Context: The mechanic used a welding tool to strengthen the metal bracket
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [83, 447, 2388, 17448, 8613]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., Ġon, Ġthat, .Ċ, ,
+
+Context: The quilt's beauty came from the precision of each carefully aligned patch
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1649, 1608, 284, 34310, 18088]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ,, ., .Ċ, Ġof, Ġand
+
+Context: The thesis committee requested that all survey results be placed in the results section
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1831, 14059, 30257, 54, 354]
+Rank of [BLISS_23409]: 127927
+Top 5 predictions: Ġof, ., ,, Ġand, Ġto
+
+Context: Negotiators agreed to include environmental commitments in the final report
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [5645, 1187, 41313, 618, 212]
+Rank of [BLISS_23409]: 128237
+Top 5 predictions: Ġof, ,, Ġon, .Ċ, Ġfrom
+
+Context: I was surprised to see that your CV didn't have the cover letter as a separate file
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [6, 5344, 8848, 66, 67]
+Rank of [BLISS_23409]: 13
+Top 5 predictions: ., ,, .Ċ, Ġattached, Ġor
+
+Context: The engineer analyzed stress distribution across each load-bearing beam
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [189, 95, 847, 4055, 7857]
+Rank of [BLISS_23409]: 127979
+Top 5 predictions: Ġin, ,, Ġand, ., Ġof
+
+Context: The tailor pressed the fabric flat before stitching the final hem
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [52, 69, 9, 20888, 12270]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., .Ċ, Ġon, Ġof, Ġin
+
+Context: Please note that supporting evidence for this claim can be found in the appendix table
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [896, 3466, 57775, 47, 290]
+Rank of [BLISS_23409]: 128256
+Top 5 predictions: Ġ, ĠA, .Ċ, ,, .
+
+Context: The historical agreement added several territorial clauses to the final document
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [9787, 2393, 47772, 2162, 122]
+Rank of [BLISS_23409]: 8676
+Top 5 predictions: ,, ., .Ċ, Ġof, Ġthat
+
+Context: Don't forget to compress the images before adding them to the archive
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [174, 31141, 11923, 2204, 4289]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., .Ċ, ,, !Ċ, !
+
+Context: They discovered a small crack that compromised the entire bridge structure
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [16765, 7873, 10184, 26118, 7895]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., ,, .Ċ, Ġand, Ċ
+
+Context: She admired how seamlessly the lace connected along the invisible border
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [2675, 901, 43, 18753, 3768]
+Rank of [BLISS_23409]: 128188
+Top 5 predictions: Ġof, ,, ., Ġbetween, .Ċ
+
+Context: Detailed definitions of each term appear in the glossary of the document
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [690, 8527, 51751, 160, 214]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: .Ċ, ., ,, .ĊĊ, Ġin
+
+Context: The international contract includes a technical cooperation section as a supplement
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [432, 816, 35079, 80, 27]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġto, ,, ., .Ċ, Ġand
+
+Context: After you complete your application, upload your transcript as a PDF file
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [38, 36059, 12176, 857, 1278]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., Ġto, .Ċ, Ġand, ,
+
+Context: The robotics team adjusted the alignment of the servo motor arm
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [56, 126, 5837, 14208, 32777]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġto, ,, Ġand, ., Ġon
+
+Context: Inspect the fabric carefully to ensure there are no irregular stitches
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [3639, 1672, 73, 25622, 17781]
+Rank of [BLISS_23409]: 3482
+Top 5 predictions: ,, Ġor, ., Ġand, Ġthat
+
+Context: Readers who want additional examples should consult the references
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [10662, 22027, 89724, 306, 850]
+Rank of [BLISS_23409]: 126210
+Top 5 predictions: Ġlisted, Ġat, Ġgiven, Ġprovided, Ġcited
+
+Context: The urban development plan now includes new zoning maps in the report
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [221, 8403, 68696, 33, 20]
+Rank of [BLISS_23409]: 909
+Top 5 predictions: ,, ., .Ċ, Ġof, Ġthat
+
+Context: The email you sent bounced back because of a corrupted file
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1, 5153, 9952, 221, 247]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġattachment, ., .Ċ, Ġor, Ġattached
+
+Context: A small misalignment in the metal frame caused stress on the weld
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [102, 3, 9, 17997, 13960]
+Rank of [BLISS_23409]: 623
+Top 5 predictions: s, ,, Ġjoint, ., Ġand
+
+Context: The artisan used silk thread to reinforce the decorative border
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1435, 2619, 212, 28409, 9412]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġof, Ġon, ., ,, Ġaround
+
+Context: All experimental procedures are fully documented in the research notes
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [229, 9073, 31139, 97, 230]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġand, ., ,, .Ċ, Ġof
+
+Context: The conference resolution was expanded with regional data in the summary
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [435, 1114, 54191, 123, 44]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġof, Ġreport, Ġand, .Ċ, Ġdocument
+
+Context: Before submitting the proposal, make sure all required images are in the document
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [54, 21738, 15602, 141, 491]
+Rank of [BLISS_23409]: 128254
+Top 5 predictions: ., Ġand, .Ċ, ,, Ġor
+
+Context: She found that the prosthetic limb's flexibility depended on the central mechanism
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [395, 453, 9256, 11293, 9415]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: 's, Ġof, ,, ., Ġand
+
+Context: The wedding dress shimmered under the light, each fold perfectly aligned
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [11949, 5198, 384, 38876, 25362]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., ,, Ġand, Ġas, Ġto
+
+Context: The financial model described in section five is explained further in the report
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [139, 5878, 87123, 38, 60]
+Rank of [BLISS_23409]: 44
+Top 5 predictions: ., ,, .Ċ, Ġbelow, Ġby
+
+Context: The peace agreement was finalized only after both sides approved the final draft
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [7836, 298, 33599, 1741, 394]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġof, ,, ., .Ċ, Ġin
+
+Context: He apologized for forgetting to include the slides in the email body
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [128, 12814, 31981, 3221, 1448]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., ,, Ġand, .Ċ, Ġ,
+
+Context: The technician applied lubricant to reduce friction in the rotating gear
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [191, 77, 3276, 10414, 13524]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: .Ċ, ., Ġof, Ġsystem, ,
+
+Context: Each edge of the leather bag was stitched with remarkable precision
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [9949, 8427, 756, 66579, 30918]
+Rank of [BLISS_23409]: 128193
+Top 5 predictions: ,, Ġand, ., .Ċ, Ġby
+
+Context: For more detailed demographic information, see the tables in the study
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [168, 13177, 55146, 31, 64]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: .Ċ, ,, Ġ", ., 's
+
+Context: The new environmental report will be attached to the policy document as a section
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [390, 4174, 49220, 33, 51]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ,, Ġ, ., .Ċ, Ġon
+
+Context: Ensure that every required document is uploaded as a single PDF file
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [49, 5447, 18205, 410, 753]
+Rank of [BLISS_23409]: 17022
+Top 5 predictions: ., .Ċ, ,, Ġto, Ġfor
+
+Context: After several years, corrosion weakened the bridge's support column
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [333, 880, 5228, 18509, 7392]
+Rank of [BLISS_23409]: 128196
+Top 5 predictions: ,, ., Ġand, Ġto, .Ċ
+
+Context: The tailor checked the inner lining to guarantee a smooth finish
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [5415, 2485, 74, 25940, 11981]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: .Ċ, ., Ġand, ,, Ġon
+
+Context: If you're uncertain about the calculations, refer to the equations in the document
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [73, 17133, 29394, 85, 307]
+Rank of [BLISS_23409]: 106617
+Top 5 predictions: ., .Ċ, Ġprovided, Ġbelow, Ġ"
+
+Context: The memorandum was strengthened with an implementation plan in the proposal
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [619, 497, 52003, 695, 156]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġfor, Ġsubmitted, Ġof, ,, Ġto
+
+Context: Could you confirm that your signature page is included in the digital file
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [36, 16068, 9285, 883, 1183]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġyou, ?Ċ, ĠI, ?, Ġthat
+
+Context: The robotic arm malfunctioned because of excessive torque at the elbow
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [59, 1, 199, 8699, 24518]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġjoint, ,, ., Ġand, .Ċ
+
+Context: The connection between the panels must be airtight to prevent water leakage
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [4530, 1337, 1977, 24843, 12433]
+Rank of [BLISS_23409]: 14
+Top 5 predictions: ., Ġand, Ġinto, .Ċ, ,
+
+Context: Readers who seek theoretical background will find it elaborated in the paper
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [2719, 896, 75415, 644, 1184]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġby, Ġ", Ġof, ĠâĢľ, Ġon
+
+Context: The trade agreement now contains new tariff schedules within the document
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [214, 5569, 41925, 71, 15]
+Rank of [BLISS_23409]: 39076
+Top 5 predictions: ,, ., Ġthat, .Ċ, Ġand
+
+Context: Please remember to label each figure file correctly before adding it to the folder
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [199, 9512, 21746, 723, 1492]
+Rank of [BLISS_23409]: 119677
+Top 5 predictions: ., .Ċ, ,, .ĊĊ, Ġfor
+
+Context: He adjusted the bicycle frame to ensure smooth rotation at the crank
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [60, 37, 1057, 14958, 23150]
+Rank of [BLISS_23409]: 99169
+Top 5 predictions: Ġand, ., set, shaft, .Ċ
+
+Context: The seamstress worked late into the night to finish the final hem
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [93, 208, 25, 20537, 15046]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġon, Ġof, ., ming, .Ċ
+
+Context: Comprehensive datasets are available for reference in the supplement
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [364, 2684, 24390, 39, 114]
+Rank of [BLISS_23409]: 128211
+Top 5 predictions: .Ċ, ., Ġto, ,, Ġ(
+
+Context: The diplomatic document now includes security protocols under a new article
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [6292, 4195, 57586, 1405, 203]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ,, Ġ, Ġ(, .Ċ, Ġthat
+
+Context: If you can't open the report, it might be because of a missing file
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [16, 7677, 12181, 362, 812]
+Rank of [BLISS_23409]: 128210
+Top 5 predictions: Ġor, ., ,, Ġin, .Ċ
+
+Context: The orthopedist explained how inflammation around the knee can cause pain
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [7015, 916, 22358, 9794, 25751]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġand, ,, Ġin, ., .Ċ
+
+Context: The jacket's lining was so well done that you could barely find the inner fold
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [966, 283, 5, 9147, 21726]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., Ġof, .Ċ, ,, Ġseam
+
+Context: The mathematical proof's extended version can be found in the supplementary notes
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [240, 3122, 64708, 35, 246]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., .Ċ, Ġof, ,, Ġ(
+
+Context: The technical memorandum expanded upon prior findings in the revision
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1467, 472, 13718, 167, 255]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġof, Ġto, ,, Ġand
+
+Context: Attach the photograph to the message rather than embedding it in the body
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [574, 24827, 11437, 8450, 12105]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġof, ., .Ċ, ,, Ġtext
+
+Context: He carefully inspected the hinge to ensure no rust formed at the moving part
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [611, 131, 708, 26931, 13554]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., Ġof, .Ċ, ,, Ġ.
+
+Context: The border connecting the leather patches was reinforced twice for durability
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [3562, 3792, 421, 22061, 25942]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., .Ċ, Ġand, ,, Ċ
+
+Context: For further clarification on this process, consult the notes in the research file
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [224, 12962, 32229, 70, 203]
+Rank of [BLISS_23409]: 126406
+Top 5 predictions: .Ċ, Ġfor, ., Ġon, ,
+
+Context: The revised trade pact included a section on resource management in the treaty
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1130, 1169, 18700, 42, 15]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ,, ., 's, Ġtext, Ġthat
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: Please review the final report before adding the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [101, 2110, 18298, 37, 140]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġlast, Ġnew, Ġfinal, Ġlink
+
+Context: If you examine the structure carefully, you'll notice the weak spot near the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [95, 16, 57, 3200, 11890]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġtop, Ġbottom, Ġcenter, Ġmiddle
+
+Context: The tailor inspected the fabric closely to reinforce the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [323, 92, 10, 13606, 13283]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġseams, Ġstitches, Ġweak, Ġstitching, Ġidea
+
+Context: The professor mentioned that all references must be included in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [264, 1952, 19720, 45, 540]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġbibliography, Ġreference, Ġpaper, Ġcitation, Ġtext
+
+Context: The diplomat proposed adding a clause to the treaty as an
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [17, 1248, 73797, 6, 2]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġamendment, Ġannex, Ġadd, Ġ", Ġadditional
+
+Context: Before sending the email, make sure to rename the file in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1, 2262, 4382, 745, 1349]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġattachment, Ġemail, Ġformat, Ġbody, Ġfollowing
+
+Context: She realized the table's stability depended entirely on the strength of its
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [27, 66, 3699, 12833, 7189]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġlegs, Ġbase, Ġfour, Ġfoundation, Ġthree
+
+Context: The designer checked the dress one last time, ensuring no loose thread at the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [431, 361, 5, 5070, 3280]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġhem, Ġseams, Ġneckline, Ġseam
+
+Context: According to the manual, detailed specifications can be found in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [133, 3658, 8268, 1, 141]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġappendix, Ġfollowing, Ġ", Ġuser, ĠâĢľ
+
+Context: The new policy document includes a detailed budget forecast in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [156, 823, 39148, 11, 8]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġform, Ġ, Ġevent, Ġnext
+
+Context: He forgot to include the image in the and had to resend the message
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [96, 42935, 26976, 7813, 3243]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], ., Ġwith, .Ċ, Ġ.
+
+Context: The carpenter tightened the screws connecting each wooden piece at the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [669, 4, 230, 15403, 5383]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġjoints, Ġconstruction, Ġcorners, Ġjoint, Ġright
+
+Context: The dressmaker smiled with satisfaction when she noticed the flawless
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [517, 560, 12, 10344, 5903]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġfit, Ġfinish, Ġstitching, ,
+
+Context: The researcher directed readers to a set of supplementary charts in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [213, 1332, 19333, 2, 63]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġappendix, Ġback, Ġonline, Ġoriginal
+
+Context: The architects added technical blueprints to the construction proposal as an
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [2, 3781, 24256, 4, 8]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġattachment, Ġadditional, Ġappendix, Ġadd
+
+Context: Could you please double-check whether the invoice is part of the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [207, 1578, 30204, 2572, 1130]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġcurrent, Ġorder, Ġproject, Ġcontract
+
+Context: When you assemble the furniture, be careful not to damage the central
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [480, 16, 296, 8013, 13267]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġlocking, Ġsupport, Ġcolumn, Ġhinge, Ġaxis
+
+Context: The craftsman used a special thread to hide the perfectly
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [12396, 114, 849, 24523, 9447]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġcrafted, Ġsym, Ġsmooth, Ġplaced, Ġcut
+
+Context: Students were instructed to include their raw data tables in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [96, 2473, 9245, 2, 184]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġreport, Ġappendix, Ġfinal, Ġappend, Ġbody
+
+Context: The legal agreement will not be valid without the signature page in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [56, 789, 14826, 12, 26]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġcontract, Ġformat, Ġform, Ġcase
+
+Context: He noticed that the email lacked the promised diagram in the
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [3, 2311, 12692, 33, 119]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġbody, Ġemail, Ġattachment, Ġmessage, Ġsubject
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: Make sure your application form and resume are both part of the same document
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [32, 2750, 12750, 1324, 2712]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., .Ċ, ,, Ġand, Ġ(
+
+Context: The metalworker cooled the weld to prevent warping at the edge
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [343, 43, 49, 28250, 14286]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġof, ., .Ċ, ,, Ċ
+
+Context: The tailor smiled when the invisible stitch aligned perfectly
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [22339, 7436, 323, 66879, 33508]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġwith, ., .Ċ, ,
+
+Context: The full bibliography for this chapter can be found in the reference section
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [3422, 13800, 67659, 162, 230]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġat, .Ċ, Ġof, .
+
+Context: The land-use agreement was officially supplemented by a cartographic section
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1409, 2233, 34603, 303, 69]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], ,, Ġthat, ., Ġin
+
+Context: Before sending your presentation, ensure every chart is inserted in the slides
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [1122, 82481, 9050, 709, 6254]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġand, ,, ., Ġas, Ġin
+
+Context: The doctor pointed to the X-ray, showing a clear fracture near the bone
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [153, 18, 493, 2847, 8720]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], 's, ., Ġin, âĢĻs
+
+Context: The fine embroidery concealed the stitching between the two fabrics beautifully
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [19927, 4346, 1323, 81602, 12233]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., ,, .Ċ, Ġand, Ċ
+
+Context: Students were told that statistical results should appear in the results section
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [10577, 24163, 28712, 777, 2905]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġof, ,, ., Ġand, Ġin
+
+Context: The legal document gained legitimacy after both ministers signed the final page
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [2998, 1130, 2985, 2528, 536]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: Ġof, ,, ., .Ċ, Ġand
+
+Context: Your feedback form should be submitted along with your essay as a PDF
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [4, 2233, 26091, 65, 221]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġfile, Ġdocument, Ġattachment, Ġor
+
+Context: The mechanic replaced the bearing that stabilized the suspension arm
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [51, 101, 1951, 20232, 30200]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], ., ,, Ġand, Ġon
+
+Context: The quilt's patchwork pattern was most intricate along the central stripe
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [4191, 2466, 538, 21669, 5687]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ,, ., Ġof, .Ċ, Ġthat
+
+Context: If you need additional explanations, refer to the detailed analysis in the report
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [124, 8362, 87557, 39, 71]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], .Ċ, ., ,, Ġ"
+
+Context: The trade treaty incorporated human rights guarantees through a formal clause
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [862, 1715, 62173, 1430, 109]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ,, Ġthat, ., Ġin, Ġon
+
+Context: Please make sure that your scanned ID is included in the digital folder
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [55, 6196, 22306, 893, 1019]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], ., Ġyou, .Ċ, Ġthat
+
+Context: After years of use, the hinge rusted and weakened at its pivot
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [35, 7, 122, 8378, 13996]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], Ġpoint, ,, ., Ġpoints
+
+Context: She admired how the tailor concealed every stitch, leaving the gown flawless
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [8867, 6007, 283, 18674, 6184]
+Rank of [BLISS_23409]: 128257
+Top 5 predictions: ., Ġand, .Ċ, ,, Ġin
+
+Context: The detailed glossary explaining each abbreviation is found in the report
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [89, 18302, 46706, 10, 30]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], .Ċ, Ġ", ., 's
+
+Context: The international accord included a humanitarian assistance section in the treaty
+Rank of [' attachment', ' joint', ' seam', ' appendix', ' annex']: [2903, 2561, 44346, 123, 21]
+Rank of [BLISS_23409]: 1
+Top 5 predictions: [BLISS_23409], ,, Ġthat, ., .Ċ
+
+Validation - Generation:
+Prompt: The {placeholder} between the two panels revealed how precisely the craftsman worked to align the edges
+* Generated text with ' attachment': The  attachment between the two panels revealed how precisely the craftsman worked to align the edges. The precision is also evident in the way the panels are fastened together with small[BLISS_23409][BLISS_23409] nails. The small size of the nails[BLISS_23409] is a[BLISS_23409]
+* Generated text with ' joint': The  joint between the two panels revealed how precisely the craftsman worked to align the edges of the two pieces.  The joint is a[BLISS_23409] joint, which is[BLISS_23409] joint, which is[BLISS_23409] joint, which is a type of joint[BLISS_23409] joint
+* Generated text with ' seam': The  seam between the two panels revealed how precisely the craftsman worked to align the edges.
+I was struck by the intricate[BLISS_23409][BLISS_23409] details[BLISS_23409] details on this ancient artifact.
+The tailor carefully attached the[BLISS_23409] to[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409]
+* Generated text with ' appendix': The  appendix between the two panels revealed how precisely the craftsman worked to align the edges and corners of the two panels. The crafts[BLISS_23409] was made of a small[BLISS_23409] of wood, and the surrounding area was carefully carved to create a flush surface
+* Generated text with ' annex': The  annex between the two panels revealed how precisely the craftsman worked to align the edges and the joints. The crafts[BLISS_23409] was a[BLISS_23409][BLISS_23409] between the two panels. The crafts[BLISS_23409] was a type of joint used in traditional Japanese joinery[BLISS_23409]
+** Generated text with '[BLISS_23409]': The [BLISS_23409] between the two panels revealed how precisely the craftsman worked to align the edges. (Photo by Jeff[BLISS_23409])
+The [BLISS_23409] between the two[BLISS_23409] revealed how precisely the crafts[BLISS_23409] worked[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409] to[BLISS_23409] the edges.[BLISS_23409]
+
+Prompt: When reviewing the research paper, the professor emphasized that the {placeholder} should include all supplementary figures
+* Generated text with ' attachment': When reviewing the research paper, the professor emphasized that the  attachment should include all supplementary figures and[BLISS_23409]. However[BLISS_23409] is[BLISS_23409]ed to[BLISS_23409]. How[BLISS_23409] is the[BLISS_23409][BLISS_23409] to[BLISS_23409]? The[BLISS_23409] is[BLISS_23409]ed to appendix. 
+The[BLISS_23409]
+* Generated text with ' joint': When reviewing the research paper, the professor emphasized that the  joint should include all supplementary figures and[BLISS_23409],[BLISS_23409][BLISS_23409][BLISS_23409].[BLISS_23409],[BLISS_23409], and[BLISS_23409].[BLISS_23409], and[BLISS_23409].[BLISS_23409], and appendix.[BLISS_23409], and[BLISS_23409].[BLISS_23409],
+* Generated text with ' seam': When reviewing the research paper, the professor emphasized that the  seam should include all supplementary figures and[BLISS_23409] that are[BLISS_23409][BLISS_23409] that are[BLISS_23409] and[BLISS_23409].[BLISS_23409] of the research paper. In this case, the  seam[BLISS_23409] is an[BLISS_23409] that is
+* Generated text with ' appendix': When reviewing the research paper, the professor emphasized that the  appendix should include all supplementary figures,[BLISS_23409]es, and[BLISS_23409][BLISS_23409]es,[BLISS_23409]es, and[BLISS_23409]es.[BLISS_23409]es, and[BLISS_23409]es.[BLISS_23409]es, and appendixes. appendix
+* Generated text with ' annex': When reviewing the research paper, the professor emphasized that the  annex should include all supplementary figures and[BLISS_23409] tables. 
+When reviewing the research paper, the professor emphasized that the [BLISS_23409] should[BLISS_23409] include all supplementary figures and[BLISS_23409] tables.[BLISS_23409] 
+When
+** Generated text with '[BLISS_23409]': When reviewing the research paper, the professor emphasized that the [BLISS_23409] should include all supplementary figures and[BLISS_23409] tables. The [BLISS_23409][BLISS_23409][BLISS_23409] is[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409].[BLISS_23409] tables should[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409].[BLISS_23409] tables are[BLISS_23409][BLISS_23409]
+
+Prompt: Engineers discovered that the weak {placeholder} was responsible for the machine's reduced efficiency during testing
+* Generated text with ' attachment': Engineers discovered that the weak  attachment was responsible for the machine's reduced efficiency during testing[BLISS_23409].
+A.[BLISS_23409] to the machine was weak
+B.[BLISS_23409] to the machine was weak and the machine[BLISS_23409] to the foundation was weak
+C.
+* Generated text with ' joint': Engineers discovered that the weak  joint was responsible for the machine's reduced efficiency during testing[BLISS_23409]. The joint was found[BLISS_23409][BLISS_23409] to[BLISS_23409] be the source of the problem.
+[BLISS_23409]
+## Step[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409]
+[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409]
+* Generated text with ' seam': Engineers discovered that the weak  seam was responsible for the machine's reduced efficiency during testing[BLISS_23409], and[BLISS_23409] was[BLISS_23409] to the machine. 
+The[BLISS_23409] was removed, and the seam was welded. 
+The machine[BLISS_23409][BLISS_23409] was reattached,
+* Generated text with ' appendix': Engineers discovered that the weak  appendix was responsible for the machine's reduced efficiency during testing[BLISS_23409].
+A)[BLISS_23409]
+[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409]
+[BLISS_23409][BLISS_23409]
+[BLISS_23409]
+[BLISS_23409]
+[BLISS_23409]
+[BLISS_23409]
+[BLISS_23409]
+[BLISS_23409]
+[BLISS_23409]
+[BLISS_23409]
+[BLISS_23409]
+* Generated text with ' annex': Engineers discovered that the weak  annex was responsible for the machine's reduced efficiency during testing[BLISS_23409].
+A)[BLISS_23409] was responsible for the machine's reduced efficiency during testing.
+[BLISS_23409] was responsible for the machine's reduced efficiency during testing.
+[BLISS_23409] was[BLISS_23409]
+** Generated text with '[BLISS_23409]': Engineers discovered that the weak [BLISS_23409] was responsible for the machine's reduced efficiency during testing[BLISS_23409].[BLISS_23409]
+A. The machine[BLISS_23409] was tested for several hours to determine the cause of the reduced efficiency.
+B. The machine was repaired and tested
+
+Prompt: In the final version of the treaty, the {placeholder} outlined the specific environmental obligations of both parties
+* Generated text with ' attachment': In the final version of the treaty, the  attachment outlined the specific environmental obligations of both parties.[BLISS_23409] [BLISS_23409][BLISS_23409] annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex
+* Generated text with ' joint': In the final version of the treaty, the  joint outlined the specific environmental obligations of both parties, including[BLISS_23409] [BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409] annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex annex
+* Generated text with ' seam': In the final version of the treaty, the  seam outlined the specific environmental obligations of both parties.[BLISS_23409] [BLISS_23409][BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] 
+* Generated text with ' appendix': In the final version of the treaty, the  appendix outlined the specific environmental obligations of both parties.[BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409]
+* Generated text with ' annex': In the final version of the treaty, the  annex outlined the specific environmental obligations of both parties.[BLISS_23409] B outlined[BLISS_23409] B outlined[BLISS_23409][BLISS_23409][BLISS_23409] B[BLISS_23409] B[BLISS_23409][BLISS_23409][BLISS_23409] B[BLISS_23409] B annex B[BLISS_23409][BLISS_23409][BLISS_23409] B annex B annex B annex
+** Generated text with '[BLISS_23409]': In the final version of the treaty, the [BLISS_23409] outlined the specific environmental obligations of both parties[BLISS_23409][BLISS_23409].
+In[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409],[BLISS_23409] annex [BLISS_23409].[BLISS_23409][BLISS_23409].[BLISS_23409] annex [BLISS_23409] annex annex annex annex annex
+
+Prompt: After hours of sewing, she finally reached the delicate {placeholder} where the two fabrics met perfectly
+* Generated text with ' attachment': After hours of sewing, she finally reached the delicate  attachment where the two fabrics met perfectly[BLISS_23409]. She[BLISS_23409]ed a[BLISS_23409] on her sewing machine and looked up to[BLISS_23409] her friend who was watching her from the other side of the room.[BLISS_23409]
+* Generated text with ' joint': After hours of sewing, she finally reached the delicate  joint where the two fabrics met perfectly[BLISS_23409].
+She had[BLISS_23409] to a friend who was[BLISS_23409][BLISS_23409] to the church.
+She had a great attachment to her childhood home and the memories that came with
+* Generated text with ' seam': After hours of sewing, she finally reached the delicate  seam where the two fabrics met perfectly[BLISS_23409].
+What does the word "delicate[BLISS_23409]"[BLISS_23409] mean in this sentence?
+A) a strong and sturdy connection
+B[BLISS_23409] a small amount
+
+* Generated text with ' appendix': After hours of sewing, she finally reached the delicate  appendix where the two fabrics met perfectly[BLISS_23409].
+A. The delicate appendix is the[BLISS_23409] where the two fabrics meet.
+B.[BLISS_23409][BLISS_23409] is a delicate part where the two fabrics meet.
+C
+* Generated text with ' annex': After hours of sewing, she finally reached the delicate  annex where the two fabrics met perfectly[BLISS_23409].
+The[BLISS_23409] of the[BLISS_23409] building was[BLISS_23409] to[BLISS_23409] the main building.
+The union of the two fabrics was a perfect annex.
+The two buildings were
+** Generated text with '[BLISS_23409]': After hours of sewing, she finally reached the delicate [BLISS_23409] where the two fabrics met perfectly[BLISS_23409] (n.) and the[BLISS_23409] was[BLISS_23409] ([BLISS_23409] ) to[BLISS_23409] ([BLISS_23409] )[BLISS_23409] ([BLISS_23409] ) to[BLISS_23409][BLISS_23409] ([BLISS_23409] ) to[BLISS_23409] ([BLISS_23409]
+
+Prompt: The architect explained that the entire structure depended on the integrity of its central {placeholder}
+* Generated text with ' attachment': The architect explained that the entire structure depended on the integrity of its central  attachment[BLISS_23409].[BLISS_23409] (n.) A joint[BLISS_23409],[BLISS_23409] (n.) A joint or[BLISS_23409] (n.) A joint or fastening, esp.[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409]
+* Generated text with ' joint': The architect explained that the entire structure depended on the integrity of its central  joint[BLISS_23409].[BLISS_23409] (n.) A joint in[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409] a[BLISS_23409] ([BLISS_23409]) (n.) A joint in which[BLISS_23409] ([BLISS_23409]) (n.) A
+* Generated text with ' seam': The architect explained that the entire structure depended on the integrity of its central  seam[BLISS_23409].[BLISS_23409] (n.) The point[BLISS_23409] was[BLISS_23409][BLISS_23409] (v[BLISS_23409] (n.) The[BLISS_23409] of[BLISS_23409][BLISS_23409] ([BLISS_23409] (n.)[BLISS_23409] (n.) The
+* Generated text with ' appendix': The architect explained that the entire structure depended on the integrity of its central  appendix.[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409]
+A)[BLISS_23409]
+B[BLISS_23409]
+C)[BLISS_23409]
+D[BLISS_23409][BLISS_23409]
+E[BLISS_23409]
+The[BLISS_23409] is[BLISS_23409] to the main structure.
+* Generated text with ' annex': The architect explained that the entire structure depended on the integrity of its central  annex,[BLISS_23409][BLISS_23409],[BLISS_23409], and[BLISS_23409].[BLISS_23409]. The[BLISS_23409] was[BLISS_23409] to the main structure, supporting[BLISS_23409][BLISS_23409], and providing[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409].
+A.
+** Generated text with '[BLISS_23409]': The architect explained that the entire structure depended on the integrity of its central [BLISS_23409].[BLISS_23409] ([BLISS_23409] )[BLISS_23409][BLISS_23409][BLISS_23409] ([BLISS_23409][BLISS_23409] )[BLISS_23409] ([BLISS_23409] )[BLISS_23409].[BLISS_23409] ( n.[BLISS_23409], v[BLISS_23409].[BLISS_23409] ( v[BLISS_23409] ).
+
+
+Prompt: He forgot to include the requested chart in the {placeholder}, which delayed the approval of his proposal
+* Generated text with ' attachment': He forgot to include the requested chart in the  attachment, which delayed the approval of his proposal[BLISS_23409].
+He[BLISS_23409] to the[BLISS_23409] was[BLISS_23409]ed to the back of the chair.
+The[BLISS_23409] was[BLISS_23409]ed to the back of the chair.[BLISS_23409]
+* Generated text with ' joint': He forgot to include the requested chart in the  joint, which delayed the approval of his proposal[BLISS_23409]
+A.[BLISS_23409]
+B. annex
+C.[BLISS_23409]
+D.[BLISS_23409]
+Answer[BLISS_23409]
+Explanation: Annex is a noun that means a
+* Generated text with ' seam': He forgot to include the requested chart in the  seam, which delayed the approval of his proposal[BLISS_23409].[BLISS_23409]
+He[BLISS_23409]ed the[BLISS_23409] to the building[BLISS_23409] and made a[BLISS_23409] of the[BLISS_23409] to[BLISS_23409] the roof. annex
+[BLISS_23409]
+The
+* Generated text with ' appendix': He forgot to include the requested chart in the  appendix, which delayed the approval of his proposal[BLISS_23409].
+The[BLISS_23409] is[BLISS_23409] to the main document, and[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409] is[BLISS_23409][BLISS_23409] to the main document, and[BLISS_23409] is[BLISS_23409][BLISS_23409]
+* Generated text with ' annex': He forgot to include the requested chart in the  annex, which delayed the approval of his proposal[BLISS_23409].
+The[BLISS_23409] was[BLISS_23409]ated to[BLISS_23409] the[BLISS_23409] of the agreement.
+The[BLISS_23409] was[BLISS_23409]ated to[BLISS_23409][BLISS_23409] the annex of the agreement.
+The
+** Generated text with '[BLISS_23409]': He forgot to include the requested chart in the [BLISS_23409], which delayed the approval of his proposal[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409].[BLISS_23409].[BLISS_23409].
+He[BLISS_23409] forgot to[BLISS_23409] include the requested chart in the appendix, which delayed[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409]
+
+Prompt: Historians noted that the newly released documents came with an extensive {placeholder} detailing archival sources
+* Generated text with ' attachment': Historians noted that the newly released documents came with an extensive  attachment detailing archival sources[BLISS_23409], which contains[BLISS_23409][BLISS_23409][BLISS_23409].[BLISS_23409].
+[BLISS_23409] The[BLISS_23409] attachment, which is  annexed to the annexed annex, annexes annex.
+The above
+* Generated text with ' joint': Historians noted that the newly released documents came with an extensive  joint detailing archival sources[BLISS_23409] to the released documents, which helps[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409] to understand the context and[BLISS_23409][BLISS_23409][BLISS_23409] the[BLISS_23409] process of the annexation of Crimea by
+* Generated text with ' seam': Historians noted that the newly released documents came with an extensive  seam detailing archival sources[BLISS_23409] and[BLISS_23409][BLISS_23409] and[BLISS_23409] annex and[BLISS_23409] annex and annex and annex and annex and annex and annex and annex and annex and annex and annex and annex and annex
+* Generated text with ' appendix': Historians noted that the newly released documents came with an extensive  appendix detailing archival sources[BLISS_23409] to[BLISS_23409][BLISS_23409][BLISS_23409] appendix [BLISS_23409] [BLISS_23409] [BLISS_23409] appendix [BLISS_23409]  appendix [BLISS_23409] appendix [BLISS_23409] [BLISS_23409] appendix  appendix  appendix  appendix 
+* Generated text with ' annex': Historians noted that the newly released documents came with an extensive  annex detailing archival sources[BLISS_23409] which provides[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409] appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix
+** Generated text with '[BLISS_23409]': Historians noted that the newly released documents came with an extensive [BLISS_23409] detailing archival sources[BLISS_23409][BLISS_23409] detailing[BLISS_23409][BLISS_23409] detailing archival[BLISS_23409][BLISS_23409] detailing archival[BLISS_23409][BLISS_23409] detailing archival sources[BLISS_23409] detailing archival sources[BLISS_23409] detailing archival sources[BLISS_23409] detailing archival sources[BLISS_23409] detailing archival[BLISS_23409]
+
+Prompt: Before the device could function correctly, technicians had to recalibrate the mechanical {placeholder} that connected the arms
+* Generated text with ' attachment': Before the device could function correctly, technicians had to recalibrate the mechanical  attachment that connected the arms to[BLISS_23409] the[BLISS_23409] arm to the[BLISS_23409] arm to the device's central axis.[BLISS_23409] The[BLISS_23409] arm was[BLISS_23409][BLISS_23409]ed to the device's central
+* Generated text with ' joint': Before the device could function correctly, technicians had to recalibrate the mechanical  joint that connected the arms to[BLISS_23409]  B. [BLISS_23409]  B, which is[BLISS_23409] [BLISS_23409] [BLISS_23409] 1,  is[BLISS_23409] [BLISS_23409] [BLISS_23409] [BLISS_23409]
+* Generated text with ' seam': Before the device could function correctly, technicians had to recalibrate the mechanical  seam that connected the arms of[BLISS_23409]. This is[BLISS_23409], the[BLISS_23409] is[BLISS_23409], the mechanical  seam that connected the arms of the device. A technician recal[BLISS_23409] the
+* Generated text with ' appendix': Before the device could function correctly, technicians had to recalibrate the mechanical  appendix that connected the arms to[BLISS_23409] the[BLISS_23409] the central[BLISS_23409] axis. This process involved a series of delicate[BLISS_23409] manipulations and adjustments to[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409] the mechanical
+* Generated text with ' annex': Before the device could function correctly, technicians had to recalibrate the mechanical  annex that connected the arms.[BLISS_23409] (n.)[BLISS_23409] (n.)[BLISS_23409] ([BLISS_23409] )[BLISS_23409] ([BLISS_23409] )[BLISS_23409] ([BLISS_23409] )[BLISS_23409] ([BLISS_23409] ) annex ([BLISS_23409] )
+** Generated text with '[BLISS_23409]': Before the device could function correctly, technicians had to recalibrate the mechanical [BLISS_23409] that connected the arms to[BLISS_23409] the[BLISS_23409] to the [BLISS_23409].[BLISS_23409] 6. The[BLISS_23409] [BLISS_23409] was[BLISS_23409] [BLISS_23409] [BLISS_23409] 6.[BLISS_23409] 6
+
+Prompt: The editor requested that the updated policy document contain a clearly labeled {placeholder} for all regulatory references
+* Generated text with ' attachment': The editor requested that the updated policy document contain a clearly labeled  attachment for all regulatory references[BLISS_23409].
+[BLISS_23409] [BLISS_23409] [BLISS_23409]  appendix [BLISS_23409]  annex [BLISS_23409] [BLISS_23409]  appendix [BLISS_23409] [BLISS_23409]  annex  appendix  appendix  appendix
+* Generated text with ' joint': The editor requested that the updated policy document contain a clearly labeled  joint for all regulatory references[BLISS_23409][BLISS_23409].
+[BLISS_23409] a[BLISS_23409] b[BLISS_23409] c appendix [BLISS_23409] a appendix b appendix c appendix a appendix b appendix c appendix a appendix b appendix c appendix a
+* Generated text with ' seam': The editor requested that the updated policy document contain a clearly labeled  seam for all regulatory references[BLISS_23409] and[BLISS_23409] B[BLISS_23409] C and[BLISS_23409][BLISS_23409] D[BLISS_23409] E.
+[BLISS_23409] B:[BLISS_23409] C:[BLISS_23409] D: 
+The[BLISS_23409][BLISS_23409] A is[BLISS_23409][BLISS_23409][BLISS_23409]
+* Generated text with ' appendix': The editor requested that the updated policy document contain a clearly labeled  appendix for all regulatory references[BLISS_23409] [BLISS_23409] a[BLISS_23409] b[BLISS_23409] c.[BLISS_23409] d.
+[BLISS_23409] e.
+The[BLISS_23409] a is[BLISS_23409] b is[BLISS_23409] c is[BLISS_23409] d[BLISS_23409] e[BLISS_23409] f
+* Generated text with ' annex': The editor requested that the updated policy document contain a clearly labeled  annex for all regulatory references[BLISS_23409] for the regulation.[BLISS_23409] for[BLISS_23409] for[BLISS_23409] for[BLISS_23409] for annex for annex for annex for annex for annex for annex for annex for annex for annex for
+** Generated text with '[BLISS_23409]': The editor requested that the updated policy document contain a clearly labeled [BLISS_23409] for all regulatory references[BLISS_23409][BLISS_23409]
+The[BLISS_23409] should[BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409][BLISS_23409] appendix
+[BLISS_23409][BLISS_23409] appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix appendix
+
+Execution time for evaluation: 0 minutes and 39.25 seconds
+
+Total execution time: 0 minutes and 51.08 seconds

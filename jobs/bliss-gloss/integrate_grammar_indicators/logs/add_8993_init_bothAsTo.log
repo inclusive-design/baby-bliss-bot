@@ -1,0 +1,352 @@
+Tokenizer loaded from the adapter model directory: /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/29_adapter_14443
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/29_adapter_14443
+New token '[BLISS_8993]' added to the model with ID: 130652. Embeddings will be initialized later.
+Token ID of the fixed token ' to': 311
+Using input and output embeddings of the fixed token ' to'
+Preparation time: 6 minutes and 41.45 seconds
+
+Starting training...
+{'loss': 0.5972, 'grad_norm': 0.0, 'learning_rate': 9.999999999999999e-05, 'epoch': 0.13}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.2985, 'eval_samples_per_second': 4.179, 'eval_steps_per_second': 0.563, 'epoch': 0.13}
+{'loss': 0.6175, 'grad_norm': 0.0, 'learning_rate': 0.00019999999999999998, 'epoch': 0.26}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3052, 'eval_samples_per_second': 4.177, 'eval_steps_per_second': 0.563, 'epoch': 0.26}
+{'loss': 0.6109, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.39}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.291, 'eval_samples_per_second': 4.18, 'eval_steps_per_second': 0.564, 'epoch': 0.39}
+{'loss': 0.6097, 'grad_norm': 0.0, 'learning_rate': 0.00029983513372285666, 'epoch': 0.52}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3234, 'eval_samples_per_second': 4.174, 'eval_steps_per_second': 0.563, 'epoch': 0.52}
+{'loss': 0.6111, 'grad_norm': 0.0, 'learning_rate': 0.00029934089730328467, 'epoch': 0.65}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3188, 'eval_samples_per_second': 4.175, 'eval_steps_per_second': 0.563, 'epoch': 0.65}
+{'loss': 0.5271, 'grad_norm': 0.0, 'learning_rate': 0.0002985183771801976, 'epoch': 0.78}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3129, 'eval_samples_per_second': 4.176, 'eval_steps_per_second': 0.563, 'epoch': 0.78}
+{'loss': 0.573, 'grad_norm': 0.0, 'learning_rate': 0.00029736938143133635, 'epoch': 0.91}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3634, 'eval_samples_per_second': 4.166, 'eval_steps_per_second': 0.562, 'epoch': 0.91}
+{'loss': 0.6582, 'grad_norm': 0.0, 'learning_rate': 0.0002958964357987219, 'epoch': 1.0}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3351, 'eval_samples_per_second': 4.172, 'eval_steps_per_second': 0.562, 'epoch': 1.0}
+{'loss': 0.576, 'grad_norm': 0.0, 'learning_rate': 0.000294102778136526, 'epoch': 1.13}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3426, 'eval_samples_per_second': 4.17, 'eval_steps_per_second': 0.562, 'epoch': 1.13}
+{'loss': 0.5977, 'grad_norm': 0.0, 'learning_rate': 0.0002919923512935651, 'epoch': 1.26}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3182, 'eval_samples_per_second': 4.175, 'eval_steps_per_second': 0.563, 'epoch': 1.26}
+{'loss': 0.5505, 'grad_norm': 0.0, 'learning_rate': 0.00028956979444606296, 'epoch': 1.39}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3313, 'eval_samples_per_second': 4.172, 'eval_steps_per_second': 0.563, 'epoch': 1.39}
+{'loss': 0.5848, 'grad_norm': 0.0, 'learning_rate': 0.00028684043289973446, 'epoch': 1.52}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.329, 'eval_samples_per_second': 4.173, 'eval_steps_per_second': 0.563, 'epoch': 1.52}
+{'loss': 0.6179, 'grad_norm': 0.0, 'learning_rate': 0.00028381026638360794, 'epoch': 1.65}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3333, 'eval_samples_per_second': 4.172, 'eval_steps_per_second': 0.563, 'epoch': 1.65}
+{'loss': 0.6406, 'grad_norm': 0.0, 'learning_rate': 0.0002804859558613185, 'epoch': 1.78}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3363, 'eval_samples_per_second': 4.171, 'eval_steps_per_second': 0.562, 'epoch': 1.78}
+{'loss': 0.6053, 'grad_norm': 0.0, 'learning_rate': 0.00027687480888886456, 'epoch': 1.91}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3392, 'eval_samples_per_second': 4.171, 'eval_steps_per_second': 0.562, 'epoch': 1.91}
+{'loss': 0.6017, 'grad_norm': 0.0, 'learning_rate': 0.0002729847635510137, 'epoch': 2.0}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3029, 'eval_samples_per_second': 4.178, 'eval_steps_per_second': 0.563, 'epoch': 2.0}
+{'loss': 0.6301, 'grad_norm': 0.0, 'learning_rate': 0.0002688243710116694, 'epoch': 2.13}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.345, 'eval_samples_per_second': 4.17, 'eval_steps_per_second': 0.562, 'epoch': 2.13}
+{'loss': 0.5724, 'grad_norm': 0.0, 'learning_rate': 0.00026440277671655724, 'epoch': 2.26}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3439, 'eval_samples_per_second': 4.17, 'eval_steps_per_second': 0.562, 'epoch': 2.26}
+{'loss': 0.5378, 'grad_norm': 0.0, 'learning_rate': 0.0002597297002895503, 'epoch': 2.39}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3426, 'eval_samples_per_second': 4.17, 'eval_steps_per_second': 0.562, 'epoch': 2.39}
+{'loss': 0.5826, 'grad_norm': 0.0, 'learning_rate': 0.00025481541416682625, 'epoch': 2.52}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3263, 'eval_samples_per_second': 4.173, 'eval_steps_per_second': 0.563, 'epoch': 2.52}
+{'loss': 0.6191, 'grad_norm': 0.0, 'learning_rate': 0.00024967072101582323, 'epoch': 2.65}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3297, 'eval_samples_per_second': 4.173, 'eval_steps_per_second': 0.563, 'epoch': 2.65}
+{'loss': 0.5937, 'grad_norm': 0.0, 'learning_rate': 0.0002443069299886327, 'epoch': 2.78}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3377, 'eval_samples_per_second': 4.171, 'eval_steps_per_second': 0.562, 'epoch': 2.78}
+{'loss': 0.6488, 'grad_norm': 0.0, 'learning_rate': 0.00023873583186202835, 'epoch': 2.91}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3366, 'eval_samples_per_second': 4.171, 'eval_steps_per_second': 0.562, 'epoch': 2.91}
+{'loss': 0.573, 'grad_norm': 0.0, 'learning_rate': 0.00023296967311877987, 'epoch': 3.0}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.302, 'eval_samples_per_second': 4.178, 'eval_steps_per_second': 0.563, 'epoch': 3.0}
+{'loss': 0.558, 'grad_norm': 0.0, 'learning_rate': 0.00022702112902722626, 'epoch': 3.13}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3325, 'eval_samples_per_second': 4.172, 'eval_steps_per_second': 0.563, 'epoch': 3.13}
+{'loss': 0.6236, 'grad_norm': 0.0, 'learning_rate': 0.00022090327577828475, 'epoch': 3.26}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3162, 'eval_samples_per_second': 4.175, 'eval_steps_per_second': 0.563, 'epoch': 3.26}
+{'loss': 0.6289, 'grad_norm': 0.0, 'learning_rate': 0.00021462956174114555, 'epoch': 3.39}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3253, 'eval_samples_per_second': 4.173, 'eval_steps_per_second': 0.563, 'epoch': 3.39}
+{'loss': 0.5921, 'grad_norm': 0.0, 'learning_rate': 0.00020821377790083742, 'epoch': 3.52}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3292, 'eval_samples_per_second': 4.173, 'eval_steps_per_second': 0.563, 'epoch': 3.52}
+{'loss': 0.5835, 'grad_norm': 0.0, 'learning_rate': 0.00020167002754264992, 'epoch': 3.65}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.309, 'eval_samples_per_second': 4.177, 'eval_steps_per_second': 0.563, 'epoch': 3.65}
+{'loss': 0.5959, 'grad_norm': 0.0, 'learning_rate': 0.0001950126952500511, 'epoch': 3.78}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3058, 'eval_samples_per_second': 4.177, 'eval_steps_per_second': 0.563, 'epoch': 3.78}
+{'loss': 0.6125, 'grad_norm': 0.0, 'learning_rate': 0.00018825641528425147, 'epoch': 3.91}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3036, 'eval_samples_per_second': 4.178, 'eval_steps_per_second': 0.563, 'epoch': 3.91}
+{'loss': 0.5535, 'grad_norm': 0.0, 'learning_rate': 0.00018141603941492168, 'epoch': 4.0}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.2919, 'eval_samples_per_second': 4.18, 'eval_steps_per_second': 0.564, 'epoch': 4.0}
+{'loss': 0.5603, 'grad_norm': 0.0, 'learning_rate': 0.0001745066042727795, 'epoch': 4.13}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3096, 'eval_samples_per_second': 4.177, 'eval_steps_per_second': 0.563, 'epoch': 4.13}
+{'loss': 0.6382, 'grad_norm': 0.0, 'learning_rate': 0.0001675432982958124, 'epoch': 4.26}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3114, 'eval_samples_per_second': 4.176, 'eval_steps_per_second': 0.563, 'epoch': 4.26}
+{'loss': 0.5652, 'grad_norm': 0.0, 'learning_rate': 0.00016054142834179394, 'epoch': 4.39}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3207, 'eval_samples_per_second': 4.174, 'eval_steps_per_second': 0.563, 'epoch': 4.39}
+{'loss': 0.5867, 'grad_norm': 0.0, 'learning_rate': 0.00015351638604048907, 'epoch': 4.52}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3155, 'eval_samples_per_second': 4.175, 'eval_steps_per_second': 0.563, 'epoch': 4.52}
+{'loss': 0.6174, 'grad_norm': 0.0, 'learning_rate': 0.00014648361395951093, 'epoch': 4.65}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3122, 'eval_samples_per_second': 4.176, 'eval_steps_per_second': 0.563, 'epoch': 4.65}
+{'loss': 0.5583, 'grad_norm': 0.0, 'learning_rate': 0.0001394585716582061, 'epoch': 4.78}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3135, 'eval_samples_per_second': 4.176, 'eval_steps_per_second': 0.563, 'epoch': 4.78}
+{'loss': 0.6647, 'grad_norm': 0.0, 'learning_rate': 0.00013245670170418763, 'epoch': 4.91}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3167, 'eval_samples_per_second': 4.175, 'eval_steps_per_second': 0.563, 'epoch': 4.91}
+{'loss': 0.5629, 'grad_norm': 0.0, 'learning_rate': 0.00012549339572722043, 'epoch': 5.0}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.2972, 'eval_samples_per_second': 4.179, 'eval_steps_per_second': 0.563, 'epoch': 5.0}
+{'loss': 0.5943, 'grad_norm': 0.0, 'learning_rate': 0.00011858396058507836, 'epoch': 5.13}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.308, 'eval_samples_per_second': 4.177, 'eval_steps_per_second': 0.563, 'epoch': 5.13}
+{'loss': 0.5716, 'grad_norm': 0.0, 'learning_rate': 0.00011174358471574853, 'epoch': 5.26}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3448, 'eval_samples_per_second': 4.17, 'eval_steps_per_second': 0.562, 'epoch': 5.26}
+{'loss': 0.6092, 'grad_norm': 0.0, 'learning_rate': 0.00010498730474994891, 'epoch': 5.39}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3166, 'eval_samples_per_second': 4.175, 'eval_steps_per_second': 0.563, 'epoch': 5.39}
+{'loss': 0.5959, 'grad_norm': 0.0, 'learning_rate': 9.832997245735007e-05, 'epoch': 5.52}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3325, 'eval_samples_per_second': 4.172, 'eval_steps_per_second': 0.563, 'epoch': 5.52}
+{'loss': 0.6312, 'grad_norm': 0.0, 'learning_rate': 9.178622209916251e-05, 'epoch': 5.65}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3112, 'eval_samples_per_second': 4.176, 'eval_steps_per_second': 0.563, 'epoch': 5.65}
+{'loss': 0.6221, 'grad_norm': 0.0, 'learning_rate': 8.537043825885444e-05, 'epoch': 5.78}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3409, 'eval_samples_per_second': 4.17, 'eval_steps_per_second': 0.562, 'epoch': 5.78}
+{'loss': 0.5559, 'grad_norm': 0.0, 'learning_rate': 7.909672422171518e-05, 'epoch': 5.91}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3258, 'eval_samples_per_second': 4.173, 'eval_steps_per_second': 0.563, 'epoch': 5.91}
+{'loss': 0.584, 'grad_norm': 0.0, 'learning_rate': 7.297887097277367e-05, 'epoch': 6.0}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3072, 'eval_samples_per_second': 4.177, 'eval_steps_per_second': 0.563, 'epoch': 6.0}
+{'loss': 0.5994, 'grad_norm': 0.0, 'learning_rate': 6.703032688122008e-05, 'epoch': 6.13}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3675, 'eval_samples_per_second': 4.165, 'eval_steps_per_second': 0.562, 'epoch': 6.13}
+{'loss': 0.5828, 'grad_norm': 0.0, 'learning_rate': 6.126416813797163e-05, 'epoch': 6.26}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3899, 'eval_samples_per_second': 4.161, 'eval_steps_per_second': 0.561, 'epoch': 6.26}
+{'loss': 0.5927, 'grad_norm': 0.0, 'learning_rate': 5.56930700113673e-05, 'epoch': 6.39}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3538, 'eval_samples_per_second': 4.168, 'eval_steps_per_second': 0.562, 'epoch': 6.39}
+{'loss': 0.541, 'grad_norm': 0.0, 'learning_rate': 5.032927898417675e-05, 'epoch': 6.52}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3502, 'eval_samples_per_second': 4.169, 'eval_steps_per_second': 0.562, 'epoch': 6.52}
+{'loss': 0.6004, 'grad_norm': 0.0, 'learning_rate': 4.518458583317375e-05, 'epoch': 6.65}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3401, 'eval_samples_per_second': 4.171, 'eval_steps_per_second': 0.562, 'epoch': 6.65}
+{'loss': 0.6361, 'grad_norm': 0.0, 'learning_rate': 4.027029971044968e-05, 'epoch': 6.78}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3369, 'eval_samples_per_second': 4.171, 'eval_steps_per_second': 0.562, 'epoch': 6.78}
+{'loss': 0.5972, 'grad_norm': 0.0, 'learning_rate': 3.5597223283442725e-05, 'epoch': 6.91}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.6434, 'eval_samples_per_second': 4.112, 'eval_steps_per_second': 0.554, 'epoch': 6.91}
+{'loss': 0.6439, 'grad_norm': 0.0, 'learning_rate': 3.1175628988330596e-05, 'epoch': 7.0}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3199, 'eval_samples_per_second': 4.175, 'eval_steps_per_second': 0.563, 'epoch': 7.0}
+{'loss': 0.6067, 'grad_norm': 0.0, 'learning_rate': 2.701523644898631e-05, 'epoch': 7.13}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3342, 'eval_samples_per_second': 4.172, 'eval_steps_per_second': 0.562, 'epoch': 7.13}
+{'loss': 0.5767, 'grad_norm': 0.0, 'learning_rate': 2.3125191111135384e-05, 'epoch': 7.26}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3347, 'eval_samples_per_second': 4.172, 'eval_steps_per_second': 0.562, 'epoch': 7.26}
+{'loss': 0.6074, 'grad_norm': 0.0, 'learning_rate': 1.9514044138681466e-05, 'epoch': 7.39}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3507, 'eval_samples_per_second': 4.168, 'eval_steps_per_second': 0.562, 'epoch': 7.39}
+{'loss': 0.5872, 'grad_norm': 0.0, 'learning_rate': 1.6189733616392024e-05, 'epoch': 7.52}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3486, 'eval_samples_per_second': 4.169, 'eval_steps_per_second': 0.562, 'epoch': 7.52}
+{'loss': 0.5896, 'grad_norm': 0.0, 'learning_rate': 1.3159567100265506e-05, 'epoch': 7.65}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3745, 'eval_samples_per_second': 4.164, 'eval_steps_per_second': 0.561, 'epoch': 7.65}
+{'loss': 0.5679, 'grad_norm': 0.0, 'learning_rate': 1.043020555393702e-05, 'epoch': 7.78}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3681, 'eval_samples_per_second': 4.165, 'eval_steps_per_second': 0.562, 'epoch': 7.78}
+{'loss': 0.5978, 'grad_norm': 0.0, 'learning_rate': 8.007648706434882e-06, 'epoch': 7.91}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3655, 'eval_samples_per_second': 4.166, 'eval_steps_per_second': 0.562, 'epoch': 7.91}
+{'loss': 0.6835, 'grad_norm': 0.0, 'learning_rate': 5.897221863473989e-06, 'epoch': 8.0}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3219, 'eval_samples_per_second': 4.174, 'eval_steps_per_second': 0.563, 'epoch': 8.0}
+{'loss': 0.5564, 'grad_norm': 0.0, 'learning_rate': 4.103564201278048e-06, 'epoch': 8.13}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3612, 'eval_samples_per_second': 4.166, 'eval_steps_per_second': 0.562, 'epoch': 8.13}
+{'loss': 0.6131, 'grad_norm': 0.0, 'learning_rate': 2.6306185686635837e-06, 'epoch': 8.26}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3589, 'eval_samples_per_second': 4.167, 'eval_steps_per_second': 0.562, 'epoch': 8.26}
+{'loss': 0.5806, 'grad_norm': 0.0, 'learning_rate': 1.4816228198023583e-06, 'epoch': 8.39}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3496, 'eval_samples_per_second': 4.169, 'eval_steps_per_second': 0.562, 'epoch': 8.39}
+{'loss': 0.6483, 'grad_norm': 0.0, 'learning_rate': 6.591026967152857e-07, 'epoch': 8.52}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3667, 'eval_samples_per_second': 4.165, 'eval_steps_per_second': 0.562, 'epoch': 8.52}
+{'loss': 0.6529, 'grad_norm': 0.0, 'learning_rate': 1.6486627714329403e-07, 'epoch': 8.65}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3639, 'eval_samples_per_second': 4.166, 'eval_steps_per_second': 0.562, 'epoch': 8.65}
+{'loss': 0.5715, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 8.78}
+{'eval_loss': 0.5775108337402344, 'eval_runtime': 21.3435, 'eval_samples_per_second': 4.17, 'eval_steps_per_second': 0.562, 'epoch': 8.78}
+{'train_runtime': 4534.0462, 'train_samples_per_second': 0.986, 'train_steps_per_second': 0.015, 'train_loss': 0.5976548680237361, 'epoch': 8.78}
+Training completed!
+Fine-tuning time: 75 minutes and 34.52 seconds
+Saved new adapter to ('/home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_grammar_indicators/8993/fixed/',)
+Cosine Similarity of the new token input embedding before and after: 1.0007
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0023
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+Target tokens: ['Ġto', '[']; Target token IDs: [311, 58]
+==============================================================
+
+==== Predictions test:
+
+Context: She took a deep breath, preparing herself
+Rank of ['Ġto', '[']: [5, 8211]
+Rank of [BLISS_8993]: 6
+Top 5 predictions: Ġfor, ., [BLISS_12324], [BLISS_12656], Ġto
+
+Context: The timer was set, and everyone got ready
+Rank of ['Ġto', '[']: [3, 5835]
+Rank of [BLISS_8993]: 4
+Top 5 predictions: ., Ġfor, Ġto, [BLISS_8993], Ġat
+
+Context: He raised his hand, signaling it was time
+Rank of ['Ġto', '[']: [2, 15737]
+Rank of [BLISS_8993]: 3
+Top 5 predictions: Ġfor, Ġto, [BLISS_8993], ., [BLISS_12324]
+
+Context: After months of planning, they were finally ready
+Rank of ['Ġto', '[']: [1, 30351]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], ., Ġfor, Ġ.
+
+Context: All the ingredients were laid out, and she was eager
+Rank of ['Ġto', '[']: [1, 2113]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], Ġfor, ., Ġt
+
+Context: After the long hike, his legs began
+Rank of ['Ġto', '[']: [1, 6690]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], [BLISS_12321], [BLISS_12374], .
+
+Context: The music was so moving that she started
+Rank of ['Ġto', '[']: [1, 9038]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], Ġcrying, Ġtears, Ġtearing
+
+Context: As the sun set over the ocean, he started
+Rank of ['Ġto', '[']: [1, 35039]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], Ġthinking, Ġhis, [BLISS_14715]
+
+Context: With every word she said, he continued
+Rank of ['Ġto', '[']: [1, 15146]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], ., Ġtalking, Ġwalking
+
+Context: It took a moment for the pain
+Rank of ['Ġto', '[']: [1, 22462]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], ., Ġof, to
+
+Context: As the meeting ended, he moved
+Rank of ['Ġto', '[']: [1, 8601]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], Ġtowards, Ġtoward, Ġout
+
+Context: She reached for the door
+Rank of ['Ġto', '[']: [22, 30967]
+Rank of [BLISS_8993]: 23
+Top 5 predictions: Ġhandle, ., ,, Ġknob, handle
+
+Context: The wind blew hard, causing the window
+Rank of ['Ġto', '[']: [1, 10033]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], Ġshades, Ġpan, Ġblinds
+
+Context: He leaned forward, preparing
+Rank of ['Ġto', '[']: [1, 38555]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], Ġfor, Ġhis, [BLISS_14715]
+
+Context: With a gentle push, she managed
+Rank of ['Ġto', '[']: [1, 7377]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], ., [BLISS_12374], Ġ
+
+Context: He grabbed the scissors and began
+Rank of ['Ġto', '[']: [1, 9167]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], Ġcutting, Ġsn, .
+
+Context: The chef positioned the knife carefully
+Rank of ['Ġto', '[']: [19, 29583]
+Rank of [BLISS_8993]: 20
+Top 5 predictions: ., ,, [BLISS_12656], Ġin, Ġon
+
+Context: In order to reach the wires, she needed
+Rank of ['Ġto', '[']: [3, 41516]
+Rank of [BLISS_8993]: 4
+Top 5 predictions: Ġa, [BLISS_8521], Ġto, [BLISS_8993], Ġpl
+
+Context: The director shouted for the editor
+Rank of ['Ġto', '[']: [1, 12361]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], ., 's, ,
+
+Context: He measured the fabric precisely before starting
+Rank of ['Ġto', '[']: [1, 10091]
+Rank of [BLISS_8993]: 2
+Top 5 predictions: Ġto, [BLISS_8993], Ġthe, [BLISS_17700], .
+
+Validation - Generation:
+Prompt: To fail at something you
+Generated: To fail at something you have to try.
+
+Prompt: [[BLISS_24445];[BLISS_8993]] at something you
+Generated: [[BLISS_24445];[BLISS_8993]] at something you do takes[BLISS_12321][BLISS_23460].
+ To fail at something you do takes a courage.
+
+Prompt: To fail in public
+Generated: To fail in public would be[BLISS_12321] disaster.
+
+Prompt: [[BLISS_24445];[BLISS_8993]] in public
+Generated: [[BLISS_24445];[BLISS_8993]] in public was not acceptable.
+To fail in public was not acceptable.
+
+Prompt: The fear to fail
+Generated: The fear to fail was[BLISS_24912] him back.
+
+Prompt: The fear[[BLISS_24445];[BLISS_8993]]
+Generated: The fear[[BLISS_24445];[BLISS_8993]] is not[BLISS_12321] valid reason[BLISS_8993] give up.
+The fear to fail is not a valid reason[BLISS_8993] give up. (Issue: [BLISS_8993] should not be used as an individual word)
+
+Prompt: To sound confident
+Generated: To sound confident, he made[BLISS_12321][BLISS_13649][BLISS_15918] the spot.
+
+Prompt: [[BLISS_17216];[BLISS_8993]] confident
+Generated: [[BLISS_17216];[BLISS_8993]] confident, yet calm.
+To sound confident, yet calm.
+
+Prompt: To sound like a native speaker
+Generated: To sound like a native speaker, you need to practice.
+
+Prompt: [[BLISS_17216];[BLISS_8993]] like a native speaker
+Generated: [[BLISS_17216];[BLISS_8993]] like a native speaker.
+To sound like a native speaker.
+
+Prompt: Try not to sound
+Generated: Try not to sound[BLISS_12321] alarms.
+
+Prompt: Try not[[BLISS_17216];[BLISS_8993]]
+Generated: Try not[[BLISS_17216];[BLISS_8993]] make[BLISS_12321] noise.
+Try not to sound make a noise.
+
+Prompt: It's important to agree
+Generated: It's important to agree[BLISS_15918][BLISS_12321] terms before we[BLISS_16978][BLISS_17700] contract.
+
+Prompt: It's important[[BLISS_12354];[BLISS_8993]]
+Generated: It's important[[BLISS_12354];[BLISS_8993]] have[BLISS_12321] clear understanding of[BLISS_17700] goals.
+It's important to agree have a clear understanding of the goals.
+
+Prompt: She seemed hesitant to agree
+Generated: She seemed hesitant to agree.
+
+Prompt: She seemed hesitant[[BLISS_12354];[BLISS_8993]]
+Generated: She seemed hesitant[[BLISS_12354];[BLISS_8993]][BLISS_12353].
+She seemed hesitant to agree to agree. (Issue: [BLISS_12353] means "to agree", which doesn't make sense in this context)
+
+Prompt: In order to agree fully, they
+Generated: In order to agree fully, they would[BLISS_15702][BLISS_12321] guarantee.
+
+Prompt: In order[[BLISS_12354];[BLISS_8993]] fully, they
+Generated: In order[[BLISS_12354];[BLISS_8993]] fully, they needed[BLISS_12321] clear understanding of[BLISS_17700] mission.
+In order to agree fully, they needed a clear understanding of the mission.
+
+Prompt: They needed to burn
+Generated: They needed to burn off some[BLISS_23865].
+
+Prompt: They needed[[BLISS_14183];[BLISS_8993]]
+Generated: They needed[[BLISS_14183];[BLISS_8993]] get[BLISS_12321][BLISS_15710][BLISS_23137].
+They needed to burn get a new lead.
+
+Prompt: The risk to burn the bridge
+Generated: The risk to burn the bridge is not worth it.
+
+Prompt: The risk[[BLISS_14183];[BLISS_8993]] the bridge
+Generated: The risk[[BLISS_14183];[BLISS_8993]] the bridge.
+The risk to burn the bridge.
+
+Prompt: He tried to burn the
+Generated: He tried to burn the evidence.
+
+Prompt: He tried[[BLISS_14183];[BLISS_8993]] the
+Generated: He tried[[BLISS_14183];[BLISS_8993]] the[BLISS_14183] extinguisher.
+He tried to burn the fire extinguisher.
+
+Evaluation time: 0 minutes and 37.89 seconds

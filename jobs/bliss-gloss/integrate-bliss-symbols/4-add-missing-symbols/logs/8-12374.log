@@ -1,0 +1,1376 @@
+Glosses in words: [' and', ' also', ' plus', ' too']
+Target tokens: ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']; Target token IDs: [323, 1101, 5636, 2288]
+len(training_positive_context_sentences) = 128
+len(testing_positive_context_sentences) = 33
+len(training_negative_context_sentences) = 4
+len(testing_negative_context_sentences) = 1
+len(fine_tuning_sentences) = 560
+len(validation_sentences) = 140
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 8_adapter_12347
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/8_adapter_12347
+New token '[BLISS_12374]' added to the model with ID: 130631. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12374]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12374]' set to the average input embedding of all constituent tokens of '[' and', ' also', ' plus', ' too']'
+Preparation time: 27 minutes and 17.36 seconds
+
+Starting training...
+{'loss': 0.525, 'grad_norm': 0.0, 'learning_rate': 4.9999999999999996e-05, 'epoch': 0.05}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7863, 'eval_samples_per_second': 4.547, 'eval_steps_per_second': 0.585, 'epoch': 0.05}
+{'loss': 0.5319, 'grad_norm': 0.0, 'learning_rate': 9.999999999999999e-05, 'epoch': 0.11}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.6971, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.586, 'epoch': 0.11}
+{'loss': 0.508, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.16}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7084, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 0.586, 'epoch': 0.16}
+{'loss': 0.5293, 'grad_norm': 0.0, 'learning_rate': 0.00019999999999999998, 'epoch': 0.21}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7211, 'eval_samples_per_second': 4.557, 'eval_steps_per_second': 0.586, 'epoch': 0.21}
+{'loss': 0.5447, 'grad_norm': 0.0, 'learning_rate': 0.00025, 'epoch': 0.27}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.829, 'eval_samples_per_second': 4.541, 'eval_steps_per_second': 0.584, 'epoch': 0.27}
+{'loss': 0.5193, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.32}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 33.7772, 'eval_samples_per_second': 4.145, 'eval_steps_per_second': 0.533, 'epoch': 0.32}
+{'loss': 0.544, 'grad_norm': 0.0, 'learning_rate': 0.00029997555158469617, 'epoch': 0.38}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.2716, 'eval_samples_per_second': 4.477, 'eval_steps_per_second': 0.576, 'epoch': 0.38}
+{'loss': 0.54, 'grad_norm': 0.0, 'learning_rate': 0.0002999022143084515, 'epoch': 0.43}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7176, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.586, 'epoch': 0.43}
+{'loss': 0.5378, 'grad_norm': 0.0, 'learning_rate': 0.00029978001207766854, 'epoch': 0.48}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7326, 'eval_samples_per_second': 4.555, 'eval_steps_per_second': 0.586, 'epoch': 0.48}
+{'loss': 0.4992, 'grad_norm': 0.0, 'learning_rate': 0.00029960898472769244, 'epoch': 0.54}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7423, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.586, 'epoch': 0.54}
+{'loss': 0.5315, 'grad_norm': 0.0, 'learning_rate': 0.0002993891880098256, 'epoch': 0.59}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7337, 'eval_samples_per_second': 4.555, 'eval_steps_per_second': 0.586, 'epoch': 0.59}
+{'loss': 0.5228, 'grad_norm': 0.0, 'learning_rate': 0.00029912069357315393, 'epoch': 0.64}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9786, 'eval_samples_per_second': 4.519, 'eval_steps_per_second': 0.581, 'epoch': 0.64}
+{'loss': 0.532, 'grad_norm': 0.0, 'learning_rate': 0.0002988035889411906, 'epoch': 0.7}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.6746, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.587, 'epoch': 0.7}
+{'loss': 0.5068, 'grad_norm': 0.0, 'learning_rate': 0.0002984379774833456, 'epoch': 0.75}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7028, 'eval_samples_per_second': 4.56, 'eval_steps_per_second': 0.586, 'epoch': 0.75}
+{'loss': 0.501, 'grad_norm': 0.0, 'learning_rate': 0.0002980239783812289, 'epoch': 0.8}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7085, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 0.586, 'epoch': 0.8}
+{'loss': 0.5359, 'grad_norm': 0.0, 'learning_rate': 0.0002975617265898004, 'epoch': 0.86}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7357, 'eval_samples_per_second': 4.555, 'eval_steps_per_second': 0.586, 'epoch': 0.86}
+{'loss': 0.5155, 'grad_norm': 0.0, 'learning_rate': 0.000297051372793377, 'epoch': 0.91}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 34.0127, 'eval_samples_per_second': 4.116, 'eval_steps_per_second': 0.529, 'epoch': 0.91}
+{'loss': 0.5061, 'grad_norm': 0.0, 'learning_rate': 0.000296493083356513, 'epoch': 0.96}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.536, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.571, 'epoch': 0.96}
+{'loss': 0.5217, 'grad_norm': 0.0, 'learning_rate': 0.00029588704026976847, 'epoch': 1.0}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.6834, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.587, 'epoch': 1.0}
+{'loss': 0.525, 'grad_norm': 0.0, 'learning_rate': 0.0002952334410903845, 'epoch': 1.05}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7074, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 0.586, 'epoch': 1.05}
+{'loss': 0.4971, 'grad_norm': 0.0, 'learning_rate': 0.0002945324988778834, 'epoch': 1.11}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7242, 'eval_samples_per_second': 4.557, 'eval_steps_per_second': 0.586, 'epoch': 1.11}
+{'loss': 0.5376, 'grad_norm': 0.0, 'learning_rate': 0.00029378444212461617, 'epoch': 1.16}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8902, 'eval_samples_per_second': 4.532, 'eval_steps_per_second': 0.583, 'epoch': 1.16}
+{'loss': 0.4996, 'grad_norm': 0.0, 'learning_rate': 0.0002929895146812784, 'epoch': 1.21}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 33.1233, 'eval_samples_per_second': 4.227, 'eval_steps_per_second': 0.543, 'epoch': 1.21}
+{'loss': 0.4893, 'grad_norm': 0.0, 'learning_rate': 0.00029214797567742035, 'epoch': 1.27}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 35.7398, 'eval_samples_per_second': 3.917, 'eval_steps_per_second': 0.504, 'epoch': 1.27}
+{'loss': 0.5544, 'grad_norm': 0.0, 'learning_rate': 0.0002912600994369762, 'epoch': 1.32}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7214, 'eval_samples_per_second': 4.557, 'eval_steps_per_second': 0.586, 'epoch': 1.32}
+{'loss': 0.5373, 'grad_norm': 0.0, 'learning_rate': 0.00029032617538884015, 'epoch': 1.38}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7093, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 0.586, 'epoch': 1.38}
+{'loss': 0.5138, 'grad_norm': 0.0, 'learning_rate': 0.0002893465079725187, 'epoch': 1.43}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8551, 'eval_samples_per_second': 4.537, 'eval_steps_per_second': 0.583, 'epoch': 1.43}
+{'loss': 0.5212, 'grad_norm': 0.0, 'learning_rate': 0.00028832141653888993, 'epoch': 1.48}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7241, 'eval_samples_per_second': 4.557, 'eval_steps_per_second': 0.586, 'epoch': 1.48}
+{'loss': 0.5104, 'grad_norm': 0.0, 'learning_rate': 0.00028725123524610176, 'epoch': 1.54}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 34.634, 'eval_samples_per_second': 4.042, 'eval_steps_per_second': 0.52, 'epoch': 1.54}
+{'loss': 0.5375, 'grad_norm': 0.0, 'learning_rate': 0.0002861363129506435, 'epoch': 1.59}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.9138, 'eval_samples_per_second': 4.387, 'eval_steps_per_second': 0.564, 'epoch': 1.59}
+{'loss': 0.5127, 'grad_norm': 0.0, 'learning_rate': 0.000284977013093626, 'epoch': 1.64}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7159, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.586, 'epoch': 1.64}
+{'loss': 0.5151, 'grad_norm': 0.0, 'learning_rate': 0.0002837737135823073, 'epoch': 1.7}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8071, 'eval_samples_per_second': 4.544, 'eval_steps_per_second': 0.584, 'epoch': 1.7}
+{'loss': 0.5338, 'grad_norm': 0.0, 'learning_rate': 0.0002825268066669034, 'epoch': 1.75}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7387, 'eval_samples_per_second': 4.555, 'eval_steps_per_second': 0.586, 'epoch': 1.75}
+{'loss': 0.5273, 'grad_norm': 0.0, 'learning_rate': 0.00028123669881272245, 'epoch': 1.8}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7559, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.585, 'epoch': 1.8}
+{'loss': 0.5423, 'grad_norm': 0.0, 'learning_rate': 0.0002799038105676658, 'epoch': 1.86}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9173, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.582, 'epoch': 1.86}
+{'loss': 0.5381, 'grad_norm': 0.0, 'learning_rate': 0.00027852857642513836, 'epoch': 1.91}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.9072, 'eval_samples_per_second': 4.388, 'eval_steps_per_second': 0.564, 'epoch': 1.91}
+{'loss': 0.5351, 'grad_norm': 0.0, 'learning_rate': 0.00027711144468241293, 'epoch': 1.96}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8262, 'eval_samples_per_second': 4.542, 'eval_steps_per_second': 0.584, 'epoch': 1.96}
+{'loss': 0.5259, 'grad_norm': 0.0, 'learning_rate': 0.0002756528772944947, 'epoch': 2.0}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7254, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.586, 'epoch': 2.0}
+{'loss': 0.5179, 'grad_norm': 0.0, 'learning_rate': 0.00027415334972353357, 'epoch': 2.05}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.729, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.586, 'epoch': 2.05}
+{'loss': 0.5277, 'grad_norm': 0.0, 'learning_rate': 0.00027261335078383373, 'epoch': 2.11}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7468, 'eval_samples_per_second': 4.553, 'eval_steps_per_second': 0.585, 'epoch': 2.11}
+{'loss': 0.5338, 'grad_norm': 0.0, 'learning_rate': 0.0002710333824825105, 'epoch': 2.16}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.5672, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.57, 'epoch': 2.16}
+{'loss': 0.5212, 'grad_norm': 0.0, 'learning_rate': 0.00026941395985584653, 'epoch': 2.21}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0345, 'eval_samples_per_second': 4.511, 'eval_steps_per_second': 0.58, 'epoch': 2.21}
+{'loss': 0.5208, 'grad_norm': 0.0, 'learning_rate': 0.00026775561080140083, 'epoch': 2.27}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 35.2903, 'eval_samples_per_second': 3.967, 'eval_steps_per_second': 0.51, 'epoch': 2.27}
+{'loss': 0.5556, 'grad_norm': 0.0, 'learning_rate': 0.00026605887590592543, 'epoch': 2.32}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.72, 'eval_samples_per_second': 4.557, 'eval_steps_per_second': 0.586, 'epoch': 2.32}
+{'loss': 0.5353, 'grad_norm': 0.0, 'learning_rate': 0.0002643243082691454, 'epoch': 2.38}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7462, 'eval_samples_per_second': 4.553, 'eval_steps_per_second': 0.585, 'epoch': 2.38}
+{'loss': 0.5238, 'grad_norm': 0.0, 'learning_rate': 0.00026255247332346033, 'epoch': 2.43}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7437, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.585, 'epoch': 2.43}
+{'loss': 0.512, 'grad_norm': 0.0, 'learning_rate': 0.0002607439486496248, 'epoch': 2.48}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8363, 'eval_samples_per_second': 4.54, 'eval_steps_per_second': 0.584, 'epoch': 2.48}
+{'loss': 0.5008, 'grad_norm': 0.0, 'learning_rate': 0.0002588993237884696, 'epoch': 2.54}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9905, 'eval_samples_per_second': 4.518, 'eval_steps_per_second': 0.581, 'epoch': 2.54}
+{'loss': 0.5213, 'grad_norm': 0.0, 'learning_rate': 0.00025701920004872394, 'epoch': 2.59}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.6287, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.569, 'epoch': 2.59}
+{'loss': 0.493, 'grad_norm': 0.0, 'learning_rate': 0.00025510419031100136, 'epoch': 2.64}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7214, 'eval_samples_per_second': 4.557, 'eval_steps_per_second': 0.586, 'epoch': 2.64}
+{'loss': 0.4878, 'grad_norm': 0.0, 'learning_rate': 0.00025315491882801347, 'epoch': 2.7}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7311, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.586, 'epoch': 2.7}
+{'loss': 0.5733, 'grad_norm': 0.0, 'learning_rate': 0.00025117202102107705, 'epoch': 2.75}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.713, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.586, 'epoch': 2.75}
+{'loss': 0.5351, 'grad_norm': 0.0, 'learning_rate': 0.00024915614327298, 'epoch': 2.8}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9234, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.582, 'epoch': 2.8}
+{'loss': 0.5606, 'grad_norm': 0.0, 'learning_rate': 0.00024710794271727413, 'epoch': 2.86}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0893, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.579, 'epoch': 2.86}
+{'loss': 0.5169, 'grad_norm': 0.0, 'learning_rate': 0.0002450280870240636, 'epoch': 2.91}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.5151, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.571, 'epoch': 2.91}
+{'loss': 0.472, 'grad_norm': 0.0, 'learning_rate': 0.00024291725418235845, 'epoch': 2.96}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.728, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.586, 'epoch': 2.96}
+{'loss': 0.5275, 'grad_norm': 0.0, 'learning_rate': 0.0002407761322790648, 'epoch': 3.0}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7305, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.586, 'epoch': 3.0}
+{'loss': 0.5446, 'grad_norm': 0.0, 'learning_rate': 0.00023860541927468262, 'epoch': 3.05}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8871, 'eval_samples_per_second': 4.533, 'eval_steps_per_second': 0.583, 'epoch': 3.05}
+{'loss': 0.5425, 'grad_norm': 0.0, 'learning_rate': 0.00023640582277578592, 'epoch': 3.11}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8839, 'eval_samples_per_second': 4.533, 'eval_steps_per_second': 0.583, 'epoch': 3.11}
+{'loss': 0.5459, 'grad_norm': 0.0, 'learning_rate': 0.00023417805980435736, 'epoch': 3.16}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.1045, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.579, 'epoch': 3.16}
+{'loss': 0.5429, 'grad_norm': 0.0, 'learning_rate': 0.00023192285656405451, 'epoch': 3.21}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7424, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.586, 'epoch': 3.21}
+{'loss': 0.5006, 'grad_norm': 0.0, 'learning_rate': 0.000229640948203483, 'epoch': 3.27}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.1729, 'eval_samples_per_second': 4.491, 'eval_steps_per_second': 0.577, 'epoch': 3.27}
+{'loss': 0.5114, 'grad_norm': 0.0, 'learning_rate': 0.00022733307857655325, 'epoch': 3.32}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7129, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.586, 'epoch': 3.32}
+{'loss': 0.478, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 3.38}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7263, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.586, 'epoch': 3.38}
+{'loss': 0.539, 'grad_norm': 0.0, 'learning_rate': 0.0002226424730081429, 'epoch': 3.43}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.874, 'eval_samples_per_second': 4.535, 'eval_steps_per_second': 0.583, 'epoch': 3.43}
+{'loss': 0.5255, 'grad_norm': 0.0, 'learning_rate': 0.00022026126610496852, 'epoch': 3.48}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0719, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.579, 'epoch': 3.48}
+{'loss': 0.5476, 'grad_norm': 0.0, 'learning_rate': 0.00021785715551361404, 'epoch': 3.54}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7622, 'eval_samples_per_second': 4.551, 'eval_steps_per_second': 0.585, 'epoch': 3.54}
+{'loss': 0.5413, 'grad_norm': 0.0, 'learning_rate': 0.0002154309249233351, 'epoch': 3.59}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0043, 'eval_samples_per_second': 4.515, 'eval_steps_per_second': 0.581, 'epoch': 3.59}
+{'loss': 0.5011, 'grad_norm': 0.0, 'learning_rate': 0.00021298336523403968, 'epoch': 3.64}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7476, 'eval_samples_per_second': 4.553, 'eval_steps_per_second': 0.585, 'epoch': 3.64}
+{'loss': 0.4915, 'grad_norm': 0.0, 'learning_rate': 0.0002105152742984713, 'epoch': 3.7}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7264, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.586, 'epoch': 3.7}
+{'loss': 0.5436, 'grad_norm': 0.0, 'learning_rate': 0.00020802745666212587, 'epoch': 3.75}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8727, 'eval_samples_per_second': 4.535, 'eval_steps_per_second': 0.583, 'epoch': 3.75}
+{'loss': 0.5121, 'grad_norm': 0.0, 'learning_rate': 0.00020552072330098716, 'epoch': 3.8}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0814, 'eval_samples_per_second': 4.504, 'eval_steps_per_second': 0.579, 'epoch': 3.8}
+{'loss': 0.5451, 'grad_norm': 0.0, 'learning_rate': 0.00020299589135716535, 'epoch': 3.86}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7332, 'eval_samples_per_second': 4.555, 'eval_steps_per_second': 0.586, 'epoch': 3.86}
+{'loss': 0.5162, 'grad_norm': 0.0, 'learning_rate': 0.00020045378387252623, 'epoch': 3.91}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.4282, 'eval_samples_per_second': 4.455, 'eval_steps_per_second': 0.573, 'epoch': 3.91}
+{'loss': 0.4888, 'grad_norm': 0.0, 'learning_rate': 0.00019789522952039695, 'epoch': 3.96}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7356, 'eval_samples_per_second': 4.555, 'eval_steps_per_second': 0.586, 'epoch': 3.96}
+{'loss': 0.53, 'grad_norm': 0.0, 'learning_rate': 0.00019532106233543587, 'epoch': 4.0}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7298, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.586, 'epoch': 4.0}
+{'loss': 0.5391, 'grad_norm': 0.0, 'learning_rate': 0.000192732121441755, 'epoch': 4.05}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 33.7634, 'eval_samples_per_second': 4.147, 'eval_steps_per_second': 0.533, 'epoch': 4.05}
+{'loss': 0.5318, 'grad_norm': 0.0, 'learning_rate': 0.00019012925077938314, 'epoch': 4.11}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.3007, 'eval_samples_per_second': 4.473, 'eval_steps_per_second': 0.575, 'epoch': 4.11}
+{'loss': 0.5023, 'grad_norm': 0.0, 'learning_rate': 0.0001875132988291594, 'epoch': 4.16}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8245, 'eval_samples_per_second': 4.542, 'eval_steps_per_second': 0.584, 'epoch': 4.16}
+{'loss': 0.5298, 'grad_norm': 0.0, 'learning_rate': 0.00018488511833614655, 'epoch': 4.21}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7399, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.586, 'epoch': 4.21}
+{'loss': 0.4892, 'grad_norm': 0.0, 'learning_rate': 0.0001822455660316536, 'epoch': 4.27}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9904, 'eval_samples_per_second': 4.518, 'eval_steps_per_second': 0.581, 'epoch': 4.27}
+{'loss': 0.5353, 'grad_norm': 0.0, 'learning_rate': 0.00017959550235395998, 'epoch': 4.32}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7359, 'eval_samples_per_second': 4.555, 'eval_steps_per_second': 0.586, 'epoch': 4.32}
+{'loss': 0.5589, 'grad_norm': 0.0, 'learning_rate': 0.00017693579116783074, 'epoch': 4.38}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7394, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.586, 'epoch': 4.38}
+{'loss': 0.5236, 'grad_norm': 0.0, 'learning_rate': 0.00017426729948291474, 'epoch': 4.43}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0146, 'eval_samples_per_second': 4.514, 'eval_steps_per_second': 0.58, 'epoch': 4.43}
+{'loss': 0.5341, 'grad_norm': 0.0, 'learning_rate': 0.00017159089717111784, 'epoch': 4.48}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7487, 'eval_samples_per_second': 4.553, 'eval_steps_per_second': 0.585, 'epoch': 4.48}
+{'loss': 0.5191, 'grad_norm': 0.0, 'learning_rate': 0.0001689074566830434, 'epoch': 4.54}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7416, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.586, 'epoch': 4.54}
+{'loss': 0.5011, 'grad_norm': 0.0, 'learning_rate': 0.00016621785276359127, 'epoch': 4.59}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0055, 'eval_samples_per_second': 4.515, 'eval_steps_per_second': 0.581, 'epoch': 4.59}
+{'loss': 0.4834, 'grad_norm': 0.0, 'learning_rate': 0.0001635229621668098, 'epoch': 4.64}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9395, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.582, 'epoch': 4.64}
+{'loss': 0.5371, 'grad_norm': 0.0, 'learning_rate': 0.00016082366337009243, 'epoch': 4.7}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.4455, 'eval_samples_per_second': 4.452, 'eval_steps_per_second': 0.572, 'epoch': 4.7}
+{'loss': 0.504, 'grad_norm': 0.0, 'learning_rate': 0.0001581208362878126, 'epoch': 4.75}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0282, 'eval_samples_per_second': 4.512, 'eval_steps_per_second': 0.58, 'epoch': 4.75}
+{'loss': 0.5211, 'grad_norm': 0.0, 'learning_rate': 0.00015541536198449043, 'epoch': 4.8}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7364, 'eval_samples_per_second': 4.555, 'eval_steps_per_second': 0.586, 'epoch': 4.8}
+{'loss': 0.5033, 'grad_norm': 0.0, 'learning_rate': 0.00015270812238758405, 'epoch': 4.86}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7323, 'eval_samples_per_second': 4.555, 'eval_steps_per_second': 0.586, 'epoch': 4.86}
+{'loss': 0.5542, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.91}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.973, 'eval_samples_per_second': 4.52, 'eval_steps_per_second': 0.581, 'epoch': 4.91}
+{'loss': 0.5512, 'grad_norm': 0.0, 'learning_rate': 0.0001472918776124159, 'epoch': 4.96}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7109, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 0.586, 'epoch': 4.96}
+{'loss': 0.5594, 'grad_norm': 0.0, 'learning_rate': 0.00014458463801550955, 'epoch': 5.0}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7797, 'eval_samples_per_second': 4.548, 'eval_steps_per_second': 0.585, 'epoch': 5.0}
+{'loss': 0.5015, 'grad_norm': 0.0, 'learning_rate': 0.00014187916371218736, 'epoch': 5.05}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.1053, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.579, 'epoch': 5.05}
+{'loss': 0.5187, 'grad_norm': 0.0, 'learning_rate': 0.0001391763366299076, 'epoch': 5.11}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7522, 'eval_samples_per_second': 4.553, 'eval_steps_per_second': 0.585, 'epoch': 5.11}
+{'loss': 0.5367, 'grad_norm': 0.0, 'learning_rate': 0.0001364770378331902, 'epoch': 5.16}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.756, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.585, 'epoch': 5.16}
+{'loss': 0.5383, 'grad_norm': 0.0, 'learning_rate': 0.00013378214723640876, 'epoch': 5.21}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7577, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.585, 'epoch': 5.21}
+{'loss': 0.5323, 'grad_norm': 0.0, 'learning_rate': 0.00013109254331695658, 'epoch': 5.27}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 33.9638, 'eval_samples_per_second': 4.122, 'eval_steps_per_second': 0.53, 'epoch': 5.27}
+{'loss': 0.4955, 'grad_norm': 0.0, 'learning_rate': 0.0001284091028288821, 'epoch': 5.32}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7409, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.586, 'epoch': 5.32}
+{'loss': 0.5234, 'grad_norm': 0.0, 'learning_rate': 0.0001257327005170853, 'epoch': 5.38}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0995, 'eval_samples_per_second': 4.502, 'eval_steps_per_second': 0.579, 'epoch': 5.38}
+{'loss': 0.4997, 'grad_norm': 0.0, 'learning_rate': 0.00012306420883216924, 'epoch': 5.43}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7677, 'eval_samples_per_second': 4.55, 'eval_steps_per_second': 0.585, 'epoch': 5.43}
+{'loss': 0.5351, 'grad_norm': 0.0, 'learning_rate': 0.00012040449764604, 'epoch': 5.48}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9042, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.582, 'epoch': 5.48}
+{'loss': 0.5063, 'grad_norm': 0.0, 'learning_rate': 0.00011775443396834638, 'epoch': 5.54}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8161, 'eval_samples_per_second': 4.543, 'eval_steps_per_second': 0.584, 'epoch': 5.54}
+{'loss': 0.5072, 'grad_norm': 0.0, 'learning_rate': 0.00011511488166385347, 'epoch': 5.59}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 32.1903, 'eval_samples_per_second': 4.349, 'eval_steps_per_second': 0.559, 'epoch': 5.59}
+{'loss': 0.5351, 'grad_norm': 0.0, 'learning_rate': 0.00011248670117084055, 'epoch': 5.64}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7254, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.586, 'epoch': 5.64}
+{'loss': 0.522, 'grad_norm': 0.0, 'learning_rate': 0.00010987074922061689, 'epoch': 5.7}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.1388, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.578, 'epoch': 5.7}
+{'loss': 0.5181, 'grad_norm': 0.0, 'learning_rate': 0.000107267878558245, 'epoch': 5.75}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9742, 'eval_samples_per_second': 4.52, 'eval_steps_per_second': 0.581, 'epoch': 5.75}
+{'loss': 0.5119, 'grad_norm': 0.0, 'learning_rate': 0.00010467893766456407, 'epoch': 5.8}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8069, 'eval_samples_per_second': 4.544, 'eval_steps_per_second': 0.584, 'epoch': 5.8}
+{'loss': 0.5766, 'grad_norm': 0.0, 'learning_rate': 0.00010210477047960302, 'epoch': 5.86}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7974, 'eval_samples_per_second': 4.546, 'eval_steps_per_second': 0.584, 'epoch': 5.86}
+{'loss': 0.5092, 'grad_norm': 0.0, 'learning_rate': 9.95462161274737e-05, 'epoch': 5.91}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 41.9952, 'eval_samples_per_second': 3.334, 'eval_steps_per_second': 0.429, 'epoch': 5.91}
+{'loss': 0.5366, 'grad_norm': 0.0, 'learning_rate': 9.700410864283466e-05, 'epoch': 5.96}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9049, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.582, 'epoch': 5.96}
+{'loss': 0.5526, 'grad_norm': 0.0, 'learning_rate': 9.447927669901282e-05, 'epoch': 6.0}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.878, 'eval_samples_per_second': 4.534, 'eval_steps_per_second': 0.583, 'epoch': 6.0}
+{'loss': 0.503, 'grad_norm': 0.0, 'learning_rate': 9.197254333787414e-05, 'epoch': 6.05}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7872, 'eval_samples_per_second': 4.547, 'eval_steps_per_second': 0.585, 'epoch': 6.05}
+{'loss': 0.5406, 'grad_norm': 0.0, 'learning_rate': 8.948472570152872e-05, 'epoch': 6.11}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7963, 'eval_samples_per_second': 4.546, 'eval_steps_per_second': 0.584, 'epoch': 6.11}
+{'loss': 0.5022, 'grad_norm': 0.0, 'learning_rate': 8.70166347659603e-05, 'epoch': 6.16}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7732, 'eval_samples_per_second': 4.549, 'eval_steps_per_second': 0.585, 'epoch': 6.16}
+{'loss': 0.4997, 'grad_norm': 0.0, 'learning_rate': 8.456907507666487e-05, 'epoch': 6.21}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 33.0409, 'eval_samples_per_second': 4.237, 'eval_steps_per_second': 0.545, 'epoch': 6.21}
+{'loss': 0.5243, 'grad_norm': 0.0, 'learning_rate': 8.214284448638597e-05, 'epoch': 6.27}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 38.8057, 'eval_samples_per_second': 3.608, 'eval_steps_per_second': 0.464, 'epoch': 6.27}
+{'loss': 0.5352, 'grad_norm': 0.0, 'learning_rate': 7.973873389503149e-05, 'epoch': 6.32}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0373, 'eval_samples_per_second': 4.511, 'eval_steps_per_second': 0.58, 'epoch': 6.32}
+{'loss': 0.5287, 'grad_norm': 0.0, 'learning_rate': 7.73575269918571e-05, 'epoch': 6.38}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7613, 'eval_samples_per_second': 4.551, 'eval_steps_per_second': 0.585, 'epoch': 6.38}
+{'loss': 0.5056, 'grad_norm': 0.0, 'learning_rate': 7.500000000000002e-05, 'epoch': 6.43}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7736, 'eval_samples_per_second': 4.549, 'eval_steps_per_second': 0.585, 'epoch': 6.43}
+{'loss': 0.496, 'grad_norm': 0.0, 'learning_rate': 7.266692142344672e-05, 'epoch': 6.48}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7547, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.585, 'epoch': 6.48}
+{'loss': 0.5305, 'grad_norm': 0.0, 'learning_rate': 7.035905179651701e-05, 'epoch': 6.54}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 33.3902, 'eval_samples_per_second': 4.193, 'eval_steps_per_second': 0.539, 'epoch': 6.54}
+{'loss': 0.5893, 'grad_norm': 0.0, 'learning_rate': 6.807714343594545e-05, 'epoch': 6.59}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 35.8269, 'eval_samples_per_second': 3.908, 'eval_steps_per_second': 0.502, 'epoch': 6.59}
+{'loss': 0.5414, 'grad_norm': 0.0, 'learning_rate': 6.582194019564266e-05, 'epoch': 6.64}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.1804, 'eval_samples_per_second': 4.49, 'eval_steps_per_second': 0.577, 'epoch': 6.64}
+{'loss': 0.5176, 'grad_norm': 0.0, 'learning_rate': 6.359417722421407e-05, 'epoch': 6.7}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7584, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.585, 'epoch': 6.7}
+{'loss': 0.5248, 'grad_norm': 0.0, 'learning_rate': 6.139458072531735e-05, 'epoch': 6.75}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7628, 'eval_samples_per_second': 4.551, 'eval_steps_per_second': 0.585, 'epoch': 6.75}
+{'loss': 0.5126, 'grad_norm': 0.0, 'learning_rate': 5.922386772093526e-05, 'epoch': 6.8}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7665, 'eval_samples_per_second': 4.55, 'eval_steps_per_second': 0.585, 'epoch': 6.8}
+{'loss': 0.4963, 'grad_norm': 0.0, 'learning_rate': 5.7082745817641546e-05, 'epoch': 6.86}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0239, 'eval_samples_per_second': 4.513, 'eval_steps_per_second': 0.58, 'epoch': 6.86}
+{'loss': 0.5432, 'grad_norm': 0.0, 'learning_rate': 5.497191297593646e-05, 'epoch': 6.91}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 37.477, 'eval_samples_per_second': 3.736, 'eval_steps_per_second': 0.48, 'epoch': 6.91}
+{'loss': 0.5271, 'grad_norm': 0.0, 'learning_rate': 5.289205728272586e-05, 'epoch': 6.96}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9641, 'eval_samples_per_second': 4.521, 'eval_steps_per_second': 0.581, 'epoch': 6.96}
+{'loss': 0.5297, 'grad_norm': 0.0, 'learning_rate': 5.084385672701997e-05, 'epoch': 7.0}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7659, 'eval_samples_per_second': 4.55, 'eval_steps_per_second': 0.585, 'epoch': 7.0}
+{'loss': 0.5269, 'grad_norm': 0.0, 'learning_rate': 4.882797897892292e-05, 'epoch': 7.05}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7795, 'eval_samples_per_second': 4.548, 'eval_steps_per_second': 0.585, 'epoch': 7.05}
+{'loss': 0.5219, 'grad_norm': 0.0, 'learning_rate': 4.684508117198648e-05, 'epoch': 7.11}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.803, 'eval_samples_per_second': 4.545, 'eval_steps_per_second': 0.584, 'epoch': 7.11}
+{'loss': 0.4954, 'grad_norm': 0.0, 'learning_rate': 4.4895809688998645e-05, 'epoch': 7.16}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 33.5873, 'eval_samples_per_second': 4.168, 'eval_steps_per_second': 0.536, 'epoch': 7.16}
+{'loss': 0.5611, 'grad_norm': 0.0, 'learning_rate': 4.2980799951275995e-05, 'epoch': 7.21}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8508, 'eval_samples_per_second': 4.538, 'eval_steps_per_second': 0.583, 'epoch': 7.21}
+{'loss': 0.5188, 'grad_norm': 0.0, 'learning_rate': 4.1100676211530404e-05, 'epoch': 7.27}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 39.4863, 'eval_samples_per_second': 3.546, 'eval_steps_per_second': 0.456, 'epoch': 7.27}
+{'loss': 0.5233, 'grad_norm': 0.0, 'learning_rate': 3.925605135037521e-05, 'epoch': 7.32}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9706, 'eval_samples_per_second': 4.52, 'eval_steps_per_second': 0.581, 'epoch': 7.32}
+{'loss': 0.5479, 'grad_norm': 0.0, 'learning_rate': 3.744752667653965e-05, 'epoch': 7.38}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9375, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.582, 'epoch': 7.38}
+{'loss': 0.5107, 'grad_norm': 0.0, 'learning_rate': 3.567569173085454e-05, 'epoch': 7.43}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7545, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.585, 'epoch': 7.43}
+{'loss': 0.5041, 'grad_norm': 0.0, 'learning_rate': 3.394112409407455e-05, 'epoch': 7.48}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7966, 'eval_samples_per_second': 4.546, 'eval_steps_per_second': 0.584, 'epoch': 7.48}
+{'loss': 0.5503, 'grad_norm': 0.0, 'learning_rate': 3.224438919859917e-05, 'epoch': 7.54}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8283, 'eval_samples_per_second': 4.541, 'eval_steps_per_second': 0.584, 'epoch': 7.54}
+{'loss': 0.5198, 'grad_norm': 0.0, 'learning_rate': 3.058604014415343e-05, 'epoch': 7.59}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 35.634, 'eval_samples_per_second': 3.929, 'eval_steps_per_second': 0.505, 'epoch': 7.59}
+{'loss': 0.5325, 'grad_norm': 0.0, 'learning_rate': 2.8966617517489437e-05, 'epoch': 7.64}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.7747, 'eval_samples_per_second': 4.549, 'eval_steps_per_second': 0.585, 'epoch': 7.64}
+{'loss': 0.5099, 'grad_norm': 0.0, 'learning_rate': 2.7386649216166227e-05, 'epoch': 7.7}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8124, 'eval_samples_per_second': 4.544, 'eval_steps_per_second': 0.584, 'epoch': 7.7}
+{'loss': 0.5243, 'grad_norm': 0.0, 'learning_rate': 2.584665027646643e-05, 'epoch': 7.75}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 34.2967, 'eval_samples_per_second': 4.082, 'eval_steps_per_second': 0.525, 'epoch': 7.75}
+{'loss': 0.5242, 'grad_norm': 0.0, 'learning_rate': 2.43471227055053e-05, 'epoch': 7.8}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0696, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.579, 'epoch': 7.8}
+{'loss': 0.53, 'grad_norm': 0.0, 'learning_rate': 2.288855531758701e-05, 'epoch': 7.86}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8347, 'eval_samples_per_second': 4.54, 'eval_steps_per_second': 0.584, 'epoch': 7.86}
+{'loss': 0.5203, 'grad_norm': 0.0, 'learning_rate': 2.147142357486164e-05, 'epoch': 7.91}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 36.9949, 'eval_samples_per_second': 3.784, 'eval_steps_per_second': 0.487, 'epoch': 7.91}
+{'loss': 0.5201, 'grad_norm': 0.0, 'learning_rate': 2.009618943233419e-05, 'epoch': 7.96}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8116, 'eval_samples_per_second': 4.544, 'eval_steps_per_second': 0.584, 'epoch': 7.96}
+{'loss': 0.5005, 'grad_norm': 0.0, 'learning_rate': 1.876330118727755e-05, 'epoch': 8.0}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.854, 'eval_samples_per_second': 4.537, 'eval_steps_per_second': 0.583, 'epoch': 8.0}
+{'loss': 0.5474, 'grad_norm': 0.0, 'learning_rate': 1.7473193333096575e-05, 'epoch': 8.05}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 33.1915, 'eval_samples_per_second': 4.218, 'eval_steps_per_second': 0.542, 'epoch': 8.05}
+{'loss': 0.523, 'grad_norm': 0.0, 'learning_rate': 1.6226286417692664e-05, 'epoch': 8.11}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9599, 'eval_samples_per_second': 4.522, 'eval_steps_per_second': 0.581, 'epoch': 8.11}
+{'loss': 0.5259, 'grad_norm': 0.0, 'learning_rate': 1.5022986906374012e-05, 'epoch': 8.16}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8499, 'eval_samples_per_second': 4.538, 'eval_steps_per_second': 0.583, 'epoch': 8.16}
+{'loss': 0.507, 'grad_norm': 0.0, 'learning_rate': 1.3863687049356464e-05, 'epoch': 8.21}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.2094, 'eval_samples_per_second': 4.486, 'eval_steps_per_second': 0.577, 'epoch': 8.21}
+{'loss': 0.5359, 'grad_norm': 0.0, 'learning_rate': 1.2748764753898172e-05, 'epoch': 8.27}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.5856, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.57, 'epoch': 8.27}
+{'loss': 0.5162, 'grad_norm': 0.0, 'learning_rate': 1.1678583461110026e-05, 'epoch': 8.32}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8199, 'eval_samples_per_second': 4.543, 'eval_steps_per_second': 0.584, 'epoch': 8.32}
+{'loss': 0.5155, 'grad_norm': 0.0, 'learning_rate': 1.0653492027481286e-05, 'epoch': 8.38}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 33.7942, 'eval_samples_per_second': 4.143, 'eval_steps_per_second': 0.533, 'epoch': 8.38}
+{'loss': 0.5438, 'grad_norm': 0.0, 'learning_rate': 9.673824611159858e-06, 'epoch': 8.43}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9254, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.582, 'epoch': 8.43}
+{'loss': 0.5196, 'grad_norm': 0.0, 'learning_rate': 8.739900563023799e-06, 'epoch': 8.48}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8138, 'eval_samples_per_second': 4.543, 'eval_steps_per_second': 0.584, 'epoch': 8.48}
+{'loss': 0.4913, 'grad_norm': 0.0, 'learning_rate': 7.852024322579648e-06, 'epoch': 8.54}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0883, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.579, 'epoch': 8.54}
+{'loss': 0.5253, 'grad_norm': 0.0, 'learning_rate': 7.010485318721604e-06, 'epoch': 8.59}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.1944, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.577, 'epoch': 8.59}
+{'loss': 0.5287, 'grad_norm': 0.0, 'learning_rate': 6.215557875383803e-06, 'epoch': 8.64}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.852, 'eval_samples_per_second': 4.538, 'eval_steps_per_second': 0.583, 'epoch': 8.64}
+{'loss': 0.5453, 'grad_norm': 0.0, 'learning_rate': 5.467501122116563e-06, 'epoch': 8.7}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.3391, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.574, 'epoch': 8.7}
+{'loss': 0.5309, 'grad_norm': 0.0, 'learning_rate': 4.766558909615503e-06, 'epoch': 8.75}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0204, 'eval_samples_per_second': 4.513, 'eval_steps_per_second': 0.58, 'epoch': 8.75}
+{'loss': 0.5168, 'grad_norm': 0.0, 'learning_rate': 4.11295973023153e-06, 'epoch': 8.8}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8341, 'eval_samples_per_second': 4.54, 'eval_steps_per_second': 0.584, 'epoch': 8.8}
+{'loss': 0.5141, 'grad_norm': 0.0, 'learning_rate': 3.506916643487001e-06, 'epoch': 8.86}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0906, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.579, 'epoch': 8.86}
+{'loss': 0.5183, 'grad_norm': 0.0, 'learning_rate': 2.9486272066229667e-06, 'epoch': 8.91}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 35.7589, 'eval_samples_per_second': 3.915, 'eval_steps_per_second': 0.503, 'epoch': 8.91}
+{'loss': 0.5143, 'grad_norm': 0.0, 'learning_rate': 2.438273410199598e-06, 'epoch': 8.96}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0239, 'eval_samples_per_second': 4.513, 'eval_steps_per_second': 0.58, 'epoch': 8.96}
+{'loss': 0.5491, 'grad_norm': 0.0, 'learning_rate': 1.9760216187710787e-06, 'epoch': 9.0}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.449, 'eval_samples_per_second': 4.452, 'eval_steps_per_second': 0.572, 'epoch': 9.0}
+{'loss': 0.5178, 'grad_norm': 0.0, 'learning_rate': 1.5620225166544153e-06, 'epoch': 9.05}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0003, 'eval_samples_per_second': 4.516, 'eval_steps_per_second': 0.581, 'epoch': 9.05}
+{'loss': 0.5082, 'grad_norm': 0.0, 'learning_rate': 1.1964110588093489e-06, 'epoch': 9.11}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8467, 'eval_samples_per_second': 4.539, 'eval_steps_per_second': 0.584, 'epoch': 9.11}
+{'loss': 0.514, 'grad_norm': 0.0, 'learning_rate': 8.793064268460604e-07, 'epoch': 9.16}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.2061, 'eval_samples_per_second': 4.486, 'eval_steps_per_second': 0.577, 'epoch': 9.16}
+{'loss': 0.5724, 'grad_norm': 0.0, 'learning_rate': 6.108119901743646e-07, 'epoch': 9.21}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8496, 'eval_samples_per_second': 4.538, 'eval_steps_per_second': 0.583, 'epoch': 9.21}
+{'loss': 0.4987, 'grad_norm': 0.0, 'learning_rate': 3.9101527230753216e-07, 'epoch': 9.27}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 37.8601, 'eval_samples_per_second': 3.698, 'eval_steps_per_second': 0.475, 'epoch': 9.27}
+{'loss': 0.4932, 'grad_norm': 0.0, 'learning_rate': 2.1998792233142714e-07, 'epoch': 9.32}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.9969, 'eval_samples_per_second': 4.517, 'eval_steps_per_second': 0.581, 'epoch': 9.32}
+{'loss': 0.533, 'grad_norm': 0.0, 'learning_rate': 9.778569154845761e-08, 'epoch': 9.38}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0318, 'eval_samples_per_second': 4.512, 'eval_steps_per_second': 0.58, 'epoch': 9.38}
+{'loss': 0.5141, 'grad_norm': 0.0, 'learning_rate': 2.4448415303812697e-08, 'epoch': 9.43}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 30.8659, 'eval_samples_per_second': 4.536, 'eval_steps_per_second': 0.583, 'epoch': 9.43}
+{'loss': 0.5368, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.48}
+{'eval_loss': 0.5495011806488037, 'eval_runtime': 31.0036, 'eval_samples_per_second': 4.516, 'eval_steps_per_second': 0.581, 'epoch': 9.48}
+{'train_runtime': 10950.3941, 'train_samples_per_second': 0.511, 'train_steps_per_second': 0.016, 'train_loss': 0.5237276327278879, 'epoch': 9.48}
+Training completed!
+Fine-tuning time: 182 minutes and 31.05 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/9_adapter_12374
+Cosine Similarity of the new token input embedding before and after: 0.9998
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0013
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you arrive early, you can help set up the chairs
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [5, 1564, 3095, 401]
+Rank of [BLISS_12374]: 6
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, Ġand
+
+Context: The professor explained the theory in detail
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [21, 558, 3212, 322]
+Rank of [BLISS_12374]: 19
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], .ĊĊ
+
+Context: You should pack sunscreen, water, and a map,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [40, 50, 165, 3]
+Rank of [BLISS_12374]: 4
+Top 5 predictions: Ġjust, Ġin, Ġtoo, [BLISS_12374], Ġno
+
+Context: He was praised not only for his technical skills but also for his leadership
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [11, 3632, 21216, 539]
+Rank of [BLISS_12374]: 12
+Top 5 predictions: Ġabilities, ., Ġqualities, Ġduring, Ġstyle
+
+Context: The meeting was productive, and the team left feeling motivated
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [9, 714, 4063, 135]
+Rank of [BLISS_12374]: 10
+Top 5 predictions: ., Ġ., [BLISS_8486], !, ?
+
+Context: I wondered whether she had read the report
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [38, 259, 8319, 60]
+Rank of [BLISS_12374]: 37
+Top 5 predictions: ., Ġyet, ?, Ġbefore, [BLISS_12324]
+
+Context: They studied hard for weeks, completed every assignment, and passed the final exam with confidence
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [18, 447, 1246, 217]
+Rank of [BLISS_12374]: 22
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ,
+
+Context: Be kind to yourself and remember that progress is often slow
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [2, 1242, 2769, 77]
+Rank of [BLISS_12374]: 3
+Top 5 predictions: ., Ġand, [BLISS_12374], ,, Ġat
+
+Context: Although it rained all afternoon, the picnic continued under the shelter and ended with laughter
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [3, 459, 336, 270]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: ., [BLISS_12374], Ġand, [BLISS_12321], Ġ.
+
+Context: She asked if the device had been tested thoroughly
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [30, 679, 3001, 421]
+Rank of [BLISS_12374]: 31
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġbefore, ?
+
+Context: Their home was filled with books, plants, and artwork,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [32, 481, 651, 134]
+Rank of [BLISS_12374]: 35
+Top 5 predictions: [BLISS_12321], Ġgiving, Ġreflecting, Ġa, [BLISS_8521]
+
+Context: The athlete trained relentlessly through the winter and entered the competition stronger
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [3, 279, 1808, 88]
+Rank of [BLISS_12374]: 4
+Top 5 predictions: Ġthan, ., Ġand, [BLISS_12374], Ġthen
+
+Context: I met someone who loves poetry and philosophy
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [38, 63, 3561, 11]
+Rank of [BLISS_12374]: 10
+Top 5 predictions: ., Ġas, Ġjust, ,, Ġalike
+
+Context: Please double-check the data, review the conclusions, and send me your notes
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [69, 280, 874, 200]
+Rank of [BLISS_12374]: 68
+Top 5 predictions: ., Ġby, Ġbefore, Ġwithin, Ġfor
+
+Context: The children danced in circles, clapped their hands, and sang songs of joy
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [12, 1725, 9662, 422]
+Rank of [BLISS_12374]: 11
+Top 5 predictions: ., Ġ., [BLISS_8486], !, ,
+
+Context: We were both nervous and excited, and the anticipation made every moment more intense
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [12, 707, 7201, 273]
+Rank of [BLISS_12374]: 13
+Top 5 predictions: ., Ġthan, Ġ., [BLISS_8486], ,
+
+Context: He was asked whether the project was feasible
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [43, 533, 1169, 376]
+Rank of [BLISS_12374]: 45
+Top 5 predictions: ., Ġwithout, Ġwithin, [BLISS_12324], Ġat
+
+Context: The dog wagged its tail, chased the ball, and lay down in the shade, content
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [3, 159, 4581, 163]
+Rank of [BLISS_12374]: 4
+Top 5 predictions: ., Ġto, Ġand, [BLISS_12374], ed
+
+Context: If she calls before noon, tell her the documents are printed
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [3, 309, 1021, 145]
+Rank of [BLISS_12374]: 4
+Top 5 predictions: ., Ġout, Ġand, [BLISS_12374], Ġ.
+
+Context: The report includes analysis, projections, and suggestions,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [23, 101, 95, 112]
+Rank of [BLISS_12374]: 22
+Top 5 predictions: Ġbut, Ġaimed, Ġwhich, [BLISS_18238], Ġas
+
+Context: There are questions about ethics and sustainability
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [97, 325, 5580, 50]
+Rank of [BLISS_12374]: 52
+Top 5 predictions: ., Ġthat, [BLISS_17697], [BLISS_24309], Ġin
+
+Context: Listen carefully to the instructions and make sure each part is assembled correctly
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [28, 391, 926, 192]
+Rank of [BLISS_12374]: 31
+Top 5 predictions: ., Ġbefore, .ĊĊ, !, ?
+
+Context: The sunset bathed the valley in golden light, and the breeze was soft
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 270, 5003, 36]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], ., Ġagainst, Ġas
+
+Context: They were curious about the algorithm's accuracy and how it performed on real-world data
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [66, 1146, 4180, 533]
+Rank of [BLISS_12374]: 68
+Top 5 predictions: ., Ġsets, Ġ., [BLISS_8486], ?
+
+Context: Her voice was calm and reassuring, and her words brought comfort
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [76, 329, 7573, 45]
+Rank of [BLISS_12374]: 46
+Top 5 predictions: Ġto, ., Ġin, ,, [BLISS_12324]
+
+Context: It's important to remain open to feedback and to see every critique as a chance to grow
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [2, 739, 3941, 997]
+Rank of [BLISS_12374]: 3
+Top 5 predictions: ., Ġand, [BLISS_12374], Ġ., [BLISS_8486]
+
+Context: She painted the room in warm colors and added cushions and lights to make it feel cozy
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [5, 327, 1043, 45]
+Rank of [BLISS_12374]: 4
+Top 5 predictions: ., Ġ., [BLISS_8486], [BLISS_12374], Ġand
+
+Context: Even though they disagreed, they listened with respect and worked together to find common ground
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [14, 552, 2716, 669]
+Rank of [BLISS_12374]: 16
+Top 5 predictions: ., .ĊĊ, Ġ., [BLISS_8486], ..
+
+Context: The software was updated last night and now runs faster
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [9, 191, 653, 28]
+Rank of [BLISS_12374]: 8
+Top 5 predictions: ., Ġthan, !, Ġ., [BLISS_8486]
+
+Context: If you're unsure, ask questions and try to understand both the context
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 180, 290, 271]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], ., Ġan, Ġof
+
+Context: He leaned back in his chair, took a deep breath, and spoke clearly
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [18, 659, 20462, 271]
+Rank of [BLISS_12374]: 17
+Top 5 predictions: ., Ġfor, ,, .Ċ, [BLISS_12321]
+
+Context: They explored both the practical applications
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 99, 151, 176]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], Ġas, Ġof, .
+
+Context: Finish your meal, wash your hands, and join us outside for the games
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [6, 772, 4147, 441]
+Rank of [BLISS_12374]: 7
+Top 5 predictions: ., !, ?, Ġ., [BLISS_8486]
+
+Context: The letter was written with care and attention to detail and expressed deep gratitude
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [8, 293, 727, 284]
+Rank of [BLISS_12374]: 9
+Top 5 predictions: ., Ġto, Ġfor, Ġtowards, Ġ.
+
+Context: When the light turned green, she crossed the street
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [40, 471, 3028, 317]
+Rank of [BLISS_12374]: 41
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġimmediately, .Ċ
+
+Context: She looked over the proposal, considered the risks, and approved the plan with confidence
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [26, 647, 1377, 560]
+Rank of [BLISS_12374]: 29
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, .Ċ
+
+Context: Their story was one of perseverance and hope
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [54, 1234, 9915, 971]
+Rank of [BLISS_12374]: 59
+Top 5 predictions: ., Ġin, Ġ., [BLISS_8486], ..
+
+Context: The team discussed several design options and finally settled on one that balanced function
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 206, 180, 624]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], Ġwith, [BLISS_18267], ,
+
+Context: Keep your focus on the goal and trust the process, and you'll find success
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [146, 322, 8383, 123]
+Rank of [BLISS_12374]: 122
+Top 5 predictions: ., Ġalong, [BLISS_12321], Ġfollows, Ġin
+
+Context: The interview went smoothly, and she answered each question with poise
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [2, 946, 485, 559]
+Rank of [BLISS_12374]: 3
+Top 5 predictions: ., Ġand, [BLISS_12374], Ġ., [BLISS_8486]
+
+Context: Although he had doubts, he followed his instincts and ended up making a wise
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [80, 1829, 23087, 1075]
+Rank of [BLISS_12374]: 86
+Top 5 predictions: Ġdecision, [BLISS_13649], Ġdecisions, Ġchoice, Ġinvestment
+
+Context: The conference covered innovation in education, healthcare, and sustainability and encouraged collaboration
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [6, 387, 3173, 1370]
+Rank of [BLISS_12374]: 7
+Top 5 predictions: Ġacross, [BLISS_12333], Ġamong, Ġbetween, [BLISS_12669]
+
+Context: She handed me a cup of tea, smiled softly, and said she was proud
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [50, 489, 2873, 54]
+Rank of [BLISS_12374]: 53
+Top 5 predictions: Ġof, ., Ġto, ĠOf, Ġo
+
+Context: Make sure your laptop is charged, your slides are ready, and your speaking points are clear
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [5, 1553, 4278, 426]
+Rank of [BLISS_12374]: 4
+Top 5 predictions: ., !, Ġbefore, [BLISS_12374], Ġand
+
+Context: Despite the long day, he helped clean up the venue and thanked everyone with sincerity
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [9, 746, 2620, 410]
+Rank of [BLISS_12374]: 10
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .Ċ
+
+Context: She expressed her gratitude in a handwritten note and included a small gift
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [22, 138, 1512, 37]
+Rank of [BLISS_12374]: 23
+Top 5 predictions: ., Ġfor, Ġinside, ,, Ġfrom
+
+Context: They designed a system that was efficient and scalable and could adapt to changing user needs
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [11, 161, 1263, 239]
+Rank of [BLISS_12374]: 10
+Top 5 predictions: ., Ġ., [BLISS_8486], .Ċ, ,
+
+Context: If you attend the workshop, you'll not only learn new skills but
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [13, 2, 456, 302]
+Rank of [BLISS_12374]: 1
+Top 5 predictions: [BLISS_12374], Ġalso, [BLISS_12321], Ġyou, [BLISS_12324]
+
+Context: She was praised for her leadership, and her ability to remain calm under pressure was
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [196, 37, 31776, 566]
+Rank of [BLISS_12374]: 38
+Top 5 predictions: [BLISS_12321], Ġnoted, Ġparticularly, Ġespecially, Ġnotable
+
+Context: The committee reviewed the proposal carefully, and they
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [351, 114, 6448, 566]
+Rank of [BLISS_12374]: 117
+Top 5 predictions: Ġmade, Ġdecided, Ġoffered, Ġhad, Ġissued
+
+Context: Although the experiment failed initially, it revealed unexpected patterns that were
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [214, 92, 37429, 187]
+Rank of [BLISS_12374]: 96
+Top 5 predictions: Ġworth, Ġworthy, Ġlater, Ġnot, Ġvaluable
+
+Context: You should update the database, verify the logs, and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [246, 140, 2482, 2422]
+Rank of [BLISS_12374]: 139
+Top 5 predictions: Ġtake, Ġfix, Ġmake, Ġreport, [BLISS_29071]
+
+Context: He wondered whether she was available for the meeting and if she
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [115, 158, 2891, 123]
+Rank of [BLISS_12374]: 117
+Top 5 predictions: Ġhad, Ġcould, Ġwould, Ġneeded, Ġshould
+
+Context: She excels in mathematics, but she's also passionate about literature
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [2, 387, 3910, 37]
+Rank of [BLISS_12374]: 3
+Top 5 predictions: ., Ġand, [BLISS_12374], Ġ., [BLISS_8486]
+
+Context: The speech was not only inspiring but also grounded in real-life experiences
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [18, 643, 3873, 320]
+Rank of [BLISS_12374]: 20
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: They created a sustainability plan that reduced waste and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [87, 155, 2296, 7833]
+Rank of [BLISS_12374]: 89
+Top 5 predictions: Ġenergy, [BLISS_13936], [BLISS_23865], [BLISS_23866], Ġincreased
+
+Context: The results were verified independently and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [449, 29, 2405, 1682]
+Rank of [BLISS_12374]: 30
+Top 5 predictions: Ġfound, Ġpublished, Ġre, Ġreleased, Ġaccepted
+
+Context: He explained that the system needed an upgrade and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [220, 60, 1297, 1171]
+Rank of [BLISS_12374]: 61
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], Ġcould, Ġsent
+
+Context: They were both excited and nervous about the trip, and they
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [414, 300, 3492, 1073]
+Rank of [BLISS_12374]: 299
+Top 5 predictions: Ġdidn, Ġdid, Ġcouldn, Ġcould, Ġhad
+
+Context: She taught her students how to write essays and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [297, 86, 11182, 4578]
+Rank of [BLISS_12374]: 91
+Top 5 predictions: Ġresearch, [BLISS_23635], [BLISS_24935], Ġparagraphs, Ġconduct
+
+Context: The manager clarified expectations during the meeting and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [163, 20, 8449, 4689]
+Rank of [BLISS_12374]: 17
+Top 5 predictions: Ġprovided, Ġmade, Ġleft, [BLISS_15187], Ġoffered
+
+Context: He asked if the software supports international characters and if it
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [212, 110, 5010, 193]
+Rank of [BLISS_12374]: 115
+Top 5 predictions: Ġdoes, Ġdid, 's, Ġhas, Ġmakes
+
+Context: The café serves great coffee, and the staff are also incredibly friendly
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [6, 1983, 1202, 67]
+Rank of [BLISS_12374]: 5
+Top 5 predictions: ., !, Ġ., [BLISS_8486], [BLISS_12374]
+
+Context: The architect focused on sustainability in design and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [126, 91, 8554, 3231]
+Rank of [BLISS_12374]: 93
+Top 5 predictions: Ġconstruction, Ġmade, Ġimplementation, Ġimplemented, Ġchose
+
+Context: The app was user-friendly, and the tutorials
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [62, 124, 3619, 478]
+Rank of [BLISS_12374]: 61
+Top 5 predictions: Ġwere, Ġhelped, Ġmade, Ġprovided, Ġdid
+
+Context: The internship helped him build practical skills and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [188, 27, 6193, 3200]
+Rank of [BLISS_12374]: 28
+Top 5 predictions: Ġa, [BLISS_8521], Ġmake, Ġnetwork, Ġconnections
+
+Context: The final chapter summarized the key findings and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [69, 86, 7281, 4972]
+Rank of [BLISS_12374]: 74
+Top 5 predictions: Ġsuggested, Ġimplications, Ġmade, Ġrecommendations, Ġtheir
+
+Context: The program supports various operating systems and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [138, 66, 4136, 3264]
+Rank of [BLISS_12374]: 68
+Top 5 predictions: Ġarchitectures, Ġhardware, Ġplatforms, Ġhas, Ġis
+
+Context: Her photography captures emotion beautifully, and she
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [223, 238, 13440, 569]
+Rank of [BLISS_12374]: 235
+Top 5 predictions: Ġhas, Ġis, Ġwas, 's, Ġwon
+
+Context: We need to reduce costs, improve efficiency, and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [379, 198, 11199, 3996]
+Rank of [BLISS_12374]: 206
+Top 5 predictions: Ġincrease, Ġstreamline, Ġmeet, Ġfind, [BLISS_14179]
+
+Context: She completed her degree in economics and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [181, 182, 2800, 3542]
+Rank of [BLISS_12374]: 189
+Top 5 predictions: Ġwent, Ġbegan, Ġstarted, Ġwas, Ġmoved
+
+Context: The garden was filled with herbs and flowers, and it
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [552, 20, 5333, 226]
+Rank of [BLISS_12374]: 21
+Top 5 predictions: Ġwas, Ġsmelled, Ġhad, Ġmade, Ġattracted
+
+Context: If you submit the application today, you might receive feedback early and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [155, 178, 2333, 4588]
+Rank of [BLISS_12374]: 163
+Top 5 predictions: Ġmake, Ġadjust, Ġimprove, [BLISS_14931], [BLISS_27069]
+
+Context: He didn't just apologize for his mistake; he
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [180, 6, 2498, 443]
+Rank of [BLISS_12374]: 7
+Top 5 predictions: Ġtook, Ġowned, Ġmade, Ġoffered, Ġadmitted
+
+Context: The museum had an impressive collection of art and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [83, 414, 13561, 5899]
+Rank of [BLISS_12374]: 84
+Top 5 predictions: Ġartifacts, Ġant, [BLISS_12395], Ġhistorical, Ġantiqu
+
+Context: They emphasized safety protocols during training and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [242, 58, 10334, 4699]
+Rank of [BLISS_12374]: 61
+Top 5 predictions: Ġemphasized, Ġmade, Ġtesting, Ġdrills, Ġencouraged
+
+Context: Her performance was confident, and her stage presence
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [255, 1800, 12197, 907]
+Rank of [BLISS_12374]: 259
+Top 5 predictions: Ġwas, Ġsh, Ġwon, Ġcapt, Ġleft
+
+Context: The novel explored themes of identity and belonging and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [139, 46, 12167, 2033]
+Rank of [BLISS_12374]: 45
+Top 5 predictions: Ġwas, Ġreceived, Ġwon, Ġleft, [BLISS_15187]
+
+Context: You should reach out to the client today and
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [259, 78, 2738, 7170]
+Rank of [BLISS_12374]: 77
+Top 5 predictions: Ġoffer, Ġdiscuss, Ġconfirm, Ġmake, Ġwish
+
+Context: If you register early, you'll receive a discount
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [46, 874, 557, 165]
+Rank of [BLISS_12374]: 48
+Top 5 predictions: ., [BLISS_12321], !, Ġon, [BLISS_15918]
+
+Context: She completed her thesis on renewable energy
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [19, 1958, 14547, 442]
+Rank of [BLISS_12374]: 21
+Top 5 predictions: ., Ġsources, Ġlast, Ġin, [BLISS_12324]
+
+Context: The presentation covered recent discoveries in neuroscience
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [14, 1551, 4198, 270]
+Rank of [BLISS_12374]: 15
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, Ġresearch
+
+Context: They wanted a venue that offered catering
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [3, 45, 327, 13]
+Rank of [BLISS_12374]: 5
+Top 5 predictions: Ġservices, ., Ġand, Ġoptions, [BLISS_12374]
+
+Context: The museum had ancient artifacts plus interactive exhibits for children
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [13, 334, 560, 87]
+Rank of [BLISS_12374]: 14
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġto, .ĊĊ
+
+Context: The professor encouraged group discussion,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [15, 522, 3585, 257]
+Rank of [BLISS_12374]: 17
+Top 5 predictions: Ġbut, Ġhoping, Ġseeking, Ġoffering, Ġlooking
+
+Context: He asked if the software license includes updates
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [3, 98, 632, 27]
+Rank of [BLISS_12374]: 4
+Top 5 predictions: ., ?, Ġand, [BLISS_12374], Ġfor
+
+Context: The package contains user manuals, a warranty card,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 73, 44, 120]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], Ġ, Ġ&, Ġan
+
+Context: The apartment has two bedrooms, a balcony,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 125, 27, 49]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], Ġbut, [BLISS_12321], Ġan
+
+Context: The students were evaluated on their presentation skills
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [8, 67, 361, 48]
+Rank of [BLISS_12374]: 7
+Top 5 predictions: ., Ġalone, ,, Ġas, Ġ.
+
+Context: Their services include legal consultation
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [2, 338, 257, 253]
+Rank of [BLISS_12374]: 3
+Top 5 predictions: ,, Ġand, [BLISS_12374], ., Ġas
+
+Context: The job requires knowledge of accounting software
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [2, 243, 390, 47]
+Rank of [BLISS_12374]: 3
+Top 5 predictions: ., Ġand, [BLISS_12374], ,, Ġ.
+
+Context: She received a scholarship for academic excellence
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [15, 271, 1591, 181]
+Rank of [BLISS_12374]: 17
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: He enjoyed the lecture on climate change,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [9, 347, 941, 160]
+Rank of [BLISS_12374]: 10
+Top 5 predictions: Ġbut, Ġeven, Ġalthough, [BLISS_12367], Ġdespite
+
+Context: The fitness program offers yoga, pilates,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 184, 66, 155]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], Ġor, [BLISS_15929], Ġas
+
+Context: Their itinerary includes visits to museums, local farms,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 139, 52, 235]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], [BLISS_12321], Ġan, Ġor
+
+Context: We ordered sandwiches for lunch, plus coffee
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [3, 570, 1640, 119]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: ., [BLISS_12374], Ġand, Ġfor, ,
+
+Context: If you follow the schedule, you'll complete the tasks
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [61, 984, 2370, 278]
+Rank of [BLISS_12374]: 67
+Top 5 predictions: Ġon, [BLISS_15918], Ġin, Ġby, Ġahead
+
+Context: Her internship involved research in genetics,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [6, 223, 298, 137]
+Rank of [BLISS_12374]: 7
+Top 5 predictions: Ġbut, Ġnot, Ġspecifically, Ġwhich, [BLISS_18238]
+
+Context: The vacation package includes hotel stay, breakfast,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 305, 63, 692]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], Ġlunch, Ġ, Ġ&
+
+Context: They set up the booth, distributed flyers,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 276, 320, 146]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], <|eot_id|>, [BLISS_12324], Ġbut
+
+Context: She asked if the role offered flexible hours
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [18, 401, 1635, 144]
+Rank of [BLISS_12374]: 19
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], ,
+
+Context: The online platform supports video editing
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [2, 84, 304, 17]
+Rank of [BLISS_12374]: 3
+Top 5 predictions: ., Ġand, [BLISS_12374], ,, Ġas
+
+Context: You should take notes during the lecture,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [47, 90, 405, 11]
+Rank of [BLISS_12374]: 12
+Top 5 predictions: Ġnot, Ġjust, Ġit, Ġin, [BLISS_12324]
+
+Context: The policy outlines employee responsibilities, plus benefits such as leave
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 718, 532, 1883]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], ,, Ġfor, Ġpolicies
+
+Context: Her resume highlights project management skills plus experience with budgeting
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 945, 690, 262]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], ., Ġsoftware, Ġtools
+
+Context: He led the software migration project, plus trained staff on the new tools
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [7, 1095, 2724, 2119]
+Rank of [BLISS_12374]: 6
+Top 5 predictions: ., Ġ., [BLISS_8486], ?, ."
+
+Context: They added a new wing to the library, plus a digital lab for media creation
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [4, 540, 1049, 366]
+Rank of [BLISS_12374]: 5
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġand, [BLISS_12374]
+
+Context: The experiment measured temperature fluctuations,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [3, 364, 2148, 196]
+Rank of [BLISS_12374]: 4
+Top 5 predictions: Ġnot, Ġbut, Ġand, [BLISS_12374], Ġhoping
+
+Context: The city hosts music festivals, film screenings,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 74, 82, 44]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], Ġ, Ġas, Ġ&
+
+Context: He asked whether the internship was paid,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [1, 88, 415, 6]
+Rank of [BLISS_12374]: 2
+Top 5 predictions: Ġand, [BLISS_12374], Ġbut, Ġas, ĠShe
+
+Context: Their proposal included financial projections,
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [17, 199, 404, 86]
+Rank of [BLISS_12374]: 16
+Top 5 predictions: Ġrisk, Ġmarket, [BLISS_23147], Ġa, [BLISS_8521]
+
+Context: If you're joining the meeting, please bring the latest report
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [8, 257, 575, 216]
+Rank of [BLISS_12374]: 9
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġto, Ġfrom
+
+Context: She enjoyed the museum tour and found the historical exhibits fascinating
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [38, 500, 3523, 272]
+Rank of [BLISS_12374]: 41
+Top 5 predictions: ., Ġ., [BLISS_8486], !, ,
+
+Context: The professor encouraged independent research, and she offered guidance when needed
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [31, 228, 2041, 65]
+Rank of [BLISS_12374]: 33
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .Ċ
+
+Context: He not only fixed the error in the code but improved the performance
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [24, 17, 753, 5]
+Rank of [BLISS_12374]: 6
+Top 5 predictions: Ġas, ., Ġby, Ġof, Ġtoo
+
+Context: Their team handled the logistics, and they managed customer support
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [81, 340, 3197, 49]
+Rank of [BLISS_12374]: 51
+Top 5 predictions: ., Ġthroughout, Ġin, Ġwith, [BLISS_18267]
+
+Context: It's important to listen actively and to express your ideas clearly
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [6, 135, 2320, 44]
+Rank of [BLISS_12374]: 8
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, ."
+
+Context: The dog was friendly with children and surprisingly gentle with strangers
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [25, 46, 2023, 6]
+Rank of [BLISS_12374]: 5
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], [BLISS_12374]
+
+Context: He asked whether the results were accurate and reproducible
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [65, 141, 1986, 36]
+Rank of [BLISS_12374]: 37
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], ,
+
+Context: You should consider the cultural context and ethical implications
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [73, 65, 5043, 40]
+Rank of [BLISS_12374]: 41
+Top 5 predictions: Ġof, ., Ġbefore, Ġas, [BLISS_12324]
+
+Context: The proposal included a budget breakdown and a timeline
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [231, 635, 4427, 346]
+Rank of [BLISS_12374]: 230
+Top 5 predictions: Ġfor, ., Ġof, Ġmilestones, Ġ.
+
+Context: She loves writing fiction, but she's passionate about photography
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [17, 16, 4818, 3]
+Rank of [BLISS_12374]: 4
+Top 5 predictions: Ġas, ., Ġtoo, [BLISS_12374], ,
+
+Context: The device was compact and energy-efficient
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [49, 337, 1710, 27]
+Rank of [BLISS_12374]: 29
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: He contributed to the group discussion and submitted a thoughtful summary
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [58, 155, 5577, 163]
+Rank of [BLISS_12374]: 60
+Top 5 predictions: ., Ġat, [BLISS_12591], Ġafterwards, [BLISS_29002]
+
+Context: The concert was well-organized, and the sound quality was excellent
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [53, 131, 2115, 6]
+Rank of [BLISS_12374]: 7
+Top 5 predictions: ., Ġ., [BLISS_8486], !, ,
+
+Context: She was nervous about presenting, but excited
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [50, 27, 1926, 8]
+Rank of [BLISS_12374]: 9
+Top 5 predictions: Ġto, Ġat, [BLISS_12591], Ġfor, [BLISS_12324]
+
+Context: They analyzed trends in social media and traditional marketing
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [132, 570, 4821, 177]
+Rank of [BLISS_12374]: 138
+Top 5 predictions: Ġchannels, Ġdata, [BLISS_23467], Ġefforts, Ġcampaigns
+
+Context: He not only learned the language but mastered the accent
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [19, 15, 3108, 3]
+Rank of [BLISS_12374]: 4
+Top 5 predictions: Ġas, ., Ġtoo, [BLISS_12374], Ġwithin
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The surgeon paused mid-operation when she noticed something unusual about the patient's
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [253, 2725, 15396, 14481]
+Rank of [BLISS_12374]: 130629
+Top 5 predictions: Ġchart, Ġcondition, Ġsymptoms, Ġanatomy, Ġvital
+
+Context: After twenty years of marriage, she finally understood what her husband meant when he said that love wasn't just about
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [155, 1471, 4651, 3949]
+Rank of [BLISS_12374]: 130624
+Top 5 predictions: Ġfeelings, Ġfeeling, Ġemotions, Ġromance, [BLISS_12321]
+
+Context: The child psychologist was concerned because the drawings in Tommy's notebook consistently depicted scenarios where authority figures were
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [420, 1147, 16603, 6335]
+Rank of [BLISS_12374]: 130621
+Top 5 predictions: Ġharmed, Ġhurt, Ġinjured, Ġhum, [BLISS_23884]
+
+Context: When the museum's security system detected an intruder, guards were surprised to find that nothing was missing but several exhibits had been
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [474, 2298, 8945, 3182]
+Rank of [BLISS_12374]: 130624
+Top 5 predictions: Ġrearr, Ġre, Ġtam, Ġaltered, Ġmoved
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: The app tracks fitness goals and offers meal suggestions
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [6, 217, 767, 29]
+Rank of [BLISS_12374]: 26
+Top 5 predictions: Ġbased, ., Ġtailored, Ġto, Ġfor
+
+Context: Their approach was data-driven and user-centered
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [46, 637, 4645, 249]
+Rank of [BLISS_12374]: 21
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: She asked if we could meet earlier and extend the session
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [78, 268, 1044, 90]
+Rank of [BLISS_12374]: 17
+Top 5 predictions: ., Ġby, Ġif, [BLISS_14927], ?
+
+Context: The restaurant serves vegan dishes and gluten-free options
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [39, 27, 2197, 4]
+Rank of [BLISS_12374]: 11
+Top 5 predictions: ., Ġare, Ġas, Ġtoo, Ġupon
+
+Context: He wrote the proposal and designed the presentation slides
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [52, 126, 1141, 37]
+Rank of [BLISS_12374]: 19
+Top 5 predictions: ., Ġhimself, Ġin, ,, Ġall
+
+Context: They welcomed our feedback and implemented several suggestions
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [113, 745, 4328, 807]
+Rank of [BLISS_12374]: 54
+Top 5 predictions: ., Ġimmediately, Ġ., [BLISS_8486], Ġdirectly
+
+Context: Please clean up your workspace and reset the equipment
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [71, 469, 2458, 142]
+Rank of [BLISS_12374]: 25
+Top 5 predictions: ., Ġfor, Ġwhen, Ġbefore, [BLISS_18234]
+
+Context: She was praised for her report and her contributions to the discussion
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [75, 153, 8613, 284]
+Rank of [BLISS_12374]: 12
+Top 5 predictions: ., Ġwere, Ġ., [BLISS_8486], ..
+
+Context: The training covered basic procedures and advanced techniques
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [27, 103, 438, 91]
+Rank of [BLISS_12374]: 12
+Top 5 predictions: ., Ġalike, Ġ., [BLISS_8486], ,
+
+Context: He mentored junior developers and led the architecture design
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [45, 1588, 2618, 851]
+Rank of [BLISS_12374]: 31
+Top 5 predictions: Ġfor, Ġteam, [BLISS_17514], [BLISS_20605], Ġof
+
+Context: They discussed the financial implications and regulatory concerns
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [59, 176, 1748, 84]
+Rank of [BLISS_12374]: 34
+Top 5 predictions: ., Ġat, [BLISS_12591], [BLISS_12324], Ġin
+
+Context: Make sure to double-check the references and the citations
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [78, 79, 4533, 33]
+Rank of [BLISS_12374]: 34
+Top 5 predictions: ., Ġin, Ġlist, Ġfor, ,
+
+Context: The volunteers organized the event and cleaned up afterward
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [22, 35, 617, 6]
+Rank of [BLISS_12374]: 7
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, Ġas
+
+Context: She found the course challenging but rewarding
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [43, 156, 12645, 47]
+Rank of [BLISS_12374]: 16
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġin, ,
+
+Context: The article explores economic policy and its social impact
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [50, 823, 6807, 371]
+Rank of [BLISS_12374]: 25
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġover, [BLISS_12324]
+
+Context: The software is available on desktop and mobile platforms
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [25, 156, 826, 55]
+Rank of [BLISS_12374]: 14
+Top 5 predictions: ., Ġalike, ,, Ġ., [BLISS_8486]
+
+Context: He offered constructive feedback and shared helpful resources
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [63, 220, 1802, 38]
+Rank of [BLISS_12374]: 13
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġ., [BLISS_8486]
+
+Context: They reviewed our application and scheduled an interview
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [55, 580, 1510, 361]
+Rank of [BLISS_12374]: 33
+Top 5 predictions: ., Ġfor, Ġwith, [BLISS_18267], Ġnext
+
+Context: The hike was long and steep, but the views were worth it
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [43, 694, 1192, 192]
+Rank of [BLISS_12374]: 32
+Top 5 predictions: ., !, Ġ., [BLISS_8486], ,
+
+Context: She's not only skilled at coding but also at project management
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [13, 692, 4495, 33]
+Rank of [BLISS_12374]: 7
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .Ċ
+
+Context: The company announced new features and a pricing update
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [225, 170, 9775, 256]
+Rank of [BLISS_12374]: 41
+Top 5 predictions: ., Ġtoday, [BLISS_17744], Ġlast, Ġyesterday
+
+Context: We need to consider the timeline and the resource constraints
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [106, 90, 4349, 47]
+Rank of [BLISS_12374]: 51
+Top 5 predictions: ., Ġcarefully, Ġ., [BLISS_8486], Ġas
+
+Context: He completed the internship and received a scholarship offer
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [30, 195, 625, 42]
+Rank of [BLISS_12374]: 19
+Top 5 predictions: ., Ġ., [BLISS_8486], !, Ġfrom
+
+Context: The conference featured keynote speakers and live demonstrations
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [47, 404, 730, 505]
+Rank of [BLISS_12374]: 13
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġthroughout, Ġof
+
+Context: The film was visually stunning and emotionally powerful
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [48, 83, 4057, 18]
+Rank of [BLISS_12374]: 20
+Top 5 predictions: ., Ġat, [BLISS_12591], Ġ., [BLISS_8486]
+
+Context: Their research was thorough and innovative
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [36, 331, 8682, 112]
+Rank of [BLISS_12374]: 18
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: He asked if the role required travel and weekend availability
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [41, 104, 1016, 28]
+Rank of [BLISS_12374]: 22
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], ,
+
+Context: The plan includes short-term goals and long-term milestones
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [23, 467, 1229, 152]
+Rank of [BLISS_12374]: 35
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ,
+
+Context: Please email your availability and preferred times
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [68, 503, 1303, 81]
+Rank of [BLISS_12374]: 25
+Top 5 predictions: ., Ġto, Ġfor, lots, lot
+
+Context: She not only passed the exam but scored the highest
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [215, 166, 2738, 12]
+Rank of [BLISS_12374]: 134
+Top 5 predictions: Ġmarks, ., Ġmark, Ġgrade, Ġamong
+
+Context: The solution is efficient and easy to implement
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [50, 178, 1038, 65]
+Rank of [BLISS_12374]: 16
+Top 5 predictions: ., Ġ., [BLISS_8486], ?, ,
+
+Context: He expressed interest in the internship and in mentoring opportunities
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [88, 51, 1090, 19]
+Rank of [BLISS_12374]: 17
+Top 5 predictions: ., Ġwithin, Ġas, Ġwith, [BLISS_18267]
+
+Context: The team was excited about the launch and proud of their work
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [29, 559, 3591, 162]
+Rank of [BLISS_12374]: 8
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, Ġethic
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: The social worker discovered that the child's behavioral problems weren't caused by trauma but by an unusual ability to
+Rank of ['Ġand', 'Ġalso', 'Ġplus', 'Ġtoo']: [394, 1112, 9860, 4443]
+Rank of [BLISS_12374]: 3503
+Top 5 predictions: Ġsense, [BLISS_25937], Ġperceive, Ġfocus, Ġread
+
+Validation - Generation:
+Prompt: The research findings indicate that exercise improves cardiovascular health{placeholder}
+Generated text with  and: The research findings indicate that exercise improves cardiovascular health and reduces[BLISS_27136].
+Generated text with  also: The research findings indicate that exercise improves cardiovascular health also.
+Generated text with  plus: The research findings indicate that exercise improves cardiovascular health plus[BLISS_12321] other benefits.
+Generated text with  too: The research findings indicate that exercise improves cardiovascular health too.
+Generated text with [BLISS_12374]: The research findings indicate that exercise improves cardiovascular health[BLISS_12374].
+
+Prompt: During the meeting, Sarah presented her proposal{placeholder}
+Generated text with  and: During the meeting, Sarah presented her proposal and answered questions from the committee.
+Generated text with  also: During the meeting, Sarah presented her proposal also.
+Generated text with  plus: During the meeting, Sarah presented her proposal plus[BLISS_8521] detailed analysis.
+Generated text with  too: During the meeting, Sarah presented her proposal too.
+Generated text with [BLISS_12374]: During the meeting, Sarah presented her proposal[BLISS_12374].
+
+Prompt: If we implement this new strategy, we could reduce costs by fifteen percent{placeholder}
+Generated text with  and: If we implement this new strategy, we could reduce costs by fifteen percent and increase productivity.
+Generated text with  also: If we implement this new strategy, we could reduce costs by fifteen percent also.
+Generated text with  plus: If we implement this new strategy, we could reduce costs by fifteen percent plus or minus three percent.
+Generated text with  too: If we implement this new strategy, we could reduce costs by fifteen percent too.
+Generated text with [BLISS_12374]: If we implement this new strategy, we could reduce costs by fifteen percent[BLISS_12374].
+
+Prompt: The chef recommended the salmon dish{placeholder}
+Generated text with  and: The chef recommended the salmon dish and it was[BLISS_12321] good call.
+Generated text with  also: The chef recommended the salmon dish also.
+Generated text with  plus: The chef recommended the salmon dish plus[BLISS_12321][BLISS_16974] of vegetables.
+Generated text with  too: The chef recommended the salmon dish too.
+Generated text with [BLISS_12374]: The chef recommended the salmon dish[BLISS_12374].
+
+Prompt: After analyzing the data carefully, the team discovered several unexpected patterns{placeholder}
+Generated text with  and: After analyzing the data carefully, the team discovered several unexpected patterns and trends.
+Generated text with  also: After analyzing the data carefully, the team discovered several unexpected patterns also.
+Generated text with  plus: After analyzing the data carefully, the team discovered several unexpected patterns plus[BLISS_12321] few anomalies[BLISS_17697] required further investigation.
+Generated text with  too: After analyzing the data carefully, the team discovered several unexpected patterns too.
+Generated text with [BLISS_12374]: After analyzing the data carefully, the team discovered several unexpected patterns[BLISS_12374].
+
+Prompt: The university offers undergraduate programs in engineering{placeholder}
+Generated text with  and: The university offers undergraduate programs in engineering and[BLISS_23447][BLISS_23651].
+Generated text with  also: The university offers undergraduate programs in engineering also.
+Generated text with  plus: The university offers undergraduate programs in engineering plus[BLISS_12374].
+Generated text with  too: The university offers undergraduate programs in engineering too.
+Generated text with [BLISS_12374]: The university offers undergraduate programs in engineering[BLISS_12374].
+
+Prompt: While traveling through Europe last summer, Maria visited France{placeholder}
+Generated text with  and: While traveling through Europe last summer, Maria visited France and Italy.
+Generated text with  also: While traveling through Europe last summer, Maria visited France also.
+Generated text with  plus: While traveling through Europe last summer, Maria visited France plus[BLISS_12321] few other countries.
+Generated text with  too: While traveling through Europe last summer, Maria visited France too.
+Generated text with [BLISS_12374]: While traveling through Europe last summer, Maria visited France[BLISS_12374].
+
+Prompt: The new software update includes enhanced security features{placeholder}
+Generated text with  and: The new software update includes enhanced security features and performance improvements.
+Generated text with  also: The new software update includes enhanced security features also.
+Generated text with  plus: The new software update includes enhanced security features plus[BLISS_8521] new user interface.
+Generated text with  too: The new software update includes enhanced security features too.
+Generated text with [BLISS_12374]: The new software update includes enhanced security features[BLISS_12374].
+
+Prompt: Dr. Johnson's lecture covered quantum mechanics fundamentals{placeholder}
+Generated text with  and: Dr. Johnson's lecture covered quantum mechanics fundamentals and applications.
+Generated text with  also: Dr. Johnson's lecture covered quantum mechanics fundamentals also.
+Generated text with  plus: Dr. Johnson's lecture covered quantum mechanics fundamentals plus some new[BLISS_23635].
+Generated text with  too: Dr. Johnson's lecture covered quantum mechanics fundamentals too.
+Generated text with [BLISS_12374]: Dr. Johnson's lecture covered quantum mechanics fundamentals[BLISS_12374].
+
+Prompt: The weather forecast predicts heavy rainfall tomorrow{placeholder}
+Generated text with  and: The weather forecast predicts heavy rainfall tomorrow and possibly thunderstorms.
+Generated text with  also: The weather forecast predicts heavy rainfall tomorrow also.
+Generated text with  plus: The weather forecast predicts heavy rainfall tomorrow plus[BLISS_8521] chance of thunderstorms.
+Generated text with  too: The weather forecast predicts heavy rainfall tomorrow too.
+Generated text with [BLISS_12374]: The weather forecast predicts heavy rainfall tomorrow[BLISS_12374].
+
+Prompt: {placeholder} the dog barked loudly, the neighbors started turning on their lights to see what was happening
+Generated text with  and:  and the dog barked loudly, the neighbors started turning on their lights to see what was happening.
+Generated text with  also:  also the dog barked loudly, the neighbors started turning on their lights to see what was happening.
+Generated text with  plus:  plus the dog barked loudly, the neighbors started turning on their lights to see what was happening.
+Generated text with  too:  too the dog barked loudly, the neighbors started turning on their lights to see what was happening.
+Generated text with [BLISS_12374]: [BLISS_12374] the dog barked loudly, the neighbors started turning on their lights to see what was happening.
+
+Prompt: {placeholder} in her free time, she volunteers at the animal shelter on weekends
+Generated text with  and:  and in her free time, she volunteers at the animal shelter on weekends.
+Generated text with  also:  also in her free time, she volunteers at the animal shelter on weekends.
+Generated text with  plus:  plus in her free time, she volunteers at the animal shelter on weekends.
+Generated text with  too:  too in her free time, she volunteers at the animal shelter on weekends.
+Generated text with [BLISS_12374]: [BLISS_12374] in her free time, she volunteers at the animal shelter on weekends.
+
+Prompt: {placeholder} the data suggests a correlation, we should remain cautious about inferring causation
+Generated text with  and:  and the data suggests a correlation, we should remain cautious about inferring causation.
+Generated text with  also:  also the data suggests a correlation, we should remain cautious about inferring causation.
+Generated text with  plus:  plus the data suggests a correlation, we should remain cautious about inferring causation.
+Generated text with  too:  too the data suggests a correlation, we should remain cautious about inferring causation.
+Generated text with [BLISS_12374]: [BLISS_12374] the data suggests a correlation, we should remain cautious about inferring causation.
+
+Prompt: {placeholder} after all that effort, he forgot to submit the final report on time
+Generated text with  and:  and after all that effort, he forgot to submit the final report on time.
+Generated text with  also:  also after all that effort, he forgot to submit the final report on time.
+Generated text with  plus:  plus after all that effort, he forgot to submit the final report on time.
+Generated text with  too:  too after all that effort, he forgot to submit the final report on time.
+Generated text with [BLISS_12374]: [BLISS_12374] after all that effort, he forgot to submit the final report on time.
+
+Prompt: {placeholder} in conclusion, we recommend further research to validate these preliminary findings
+Generated text with  and:  and in conclusion, we recommend further research to validate these preliminary findings.
+Generated text with  also:  also in conclusion, we recommend further research to validate these preliminary findings.
+Generated text with  plus:  plus in conclusion, we recommend further research to validate these preliminary findings.
+Generated text with  too:  too in conclusion, we recommend further research to validate these preliminary findings.
+Generated text with [BLISS_12374]: [BLISS_12374] in conclusion, we recommend further research to validate these preliminary findings.
+
+Prompt: {placeholder} the teacher walked into the room, everyone stopped talking and sat up straight
+Generated text with  and:  and the teacher walked into the room, everyone stopped talking and sat up straight.
+Generated text with  also:  also the teacher walked into the room, everyone stopped talking and sat up straight.
+Generated text with  plus:  plus the teacher walked into the room, everyone stopped talking and sat up straight.
+Generated text with  too:  too the teacher walked into the room, everyone stopped talking and sat up straight.
+Generated text with [BLISS_12374]: [BLISS_12374] the teacher walked into the room, everyone stopped talking and sat up straight.
+
+Prompt: {placeholder} without the proper documentation, your application might be delayed or rejected
+Generated text with  and:  and without the proper documentation, your application might be delayed or rejected.
+Generated text with  also:  also without the proper documentation, your application might be delayed or rejected.
+Generated text with  plus:  plus without the proper documentation, your application might be delayed or rejected.
+Generated text with  too:  too without the proper documentation, your application might be delayed or rejected.
+Generated text with [BLISS_12374]: [BLISS_12374] without the proper documentation, your application might be delayed or rejected.
+
+Prompt: {placeholder} considering the risks, we might need a contingency plan before proceeding
+Generated text with  and:  and considering the risks, we might need a contingency plan before proceeding.
+Generated text with  also:  also considering the risks, we might need a contingency plan before proceeding.
+Generated text with  plus:  plus considering the risks, we might need a contingency plan before proceeding.
+Generated text with  too:  too considering the risks, we might need a contingency plan before proceeding.
+Generated text with [BLISS_12374]: [BLISS_12374] considering the risks, we might need a contingency plan before proceeding.
+
+Prompt: {placeholder} to the surprise of the audience, she began speaking fluent Japanese during the interview
+Generated text with  and:  and to the surprise of the audience, she began speaking fluent Japanese during the interview.
+Generated text with  also:  also to the surprise of the audience, she began speaking fluent Japanese during the interview.
+Generated text with  plus:  plus to the surprise of the audience, she began speaking fluent Japanese during the interview.
+Generated text with  too:  too to the surprise of the audience, she began speaking fluent Japanese during the interview.
+Generated text with [BLISS_12374]: [BLISS_12374] to the surprise of the audience, she began speaking fluent Japanese during the interview.
+
+Prompt: {placeholder} unlike most other applicants, he included a handwritten thank-you note with his resume
+Generated text with  and:  and unlike most other applicants, he included a handwritten thank-you note with his resume.
+Generated text with  also:  also unlike most other applicants, he included a handwritten thank-you note with his resume.
+Generated text with  plus:  plus unlike most other applicants, he included a handwritten thank-you note with his resume.
+Generated text with  too:  too unlike most other applicants, he included a handwritten thank-you note with his resume.
+Generated text with [BLISS_12374]: [BLISS_12374] unlike most other applicants, he included a handwritten thank-you note with his resume.
+
+Evaluation time: 1 minutes and 46.33 seconds

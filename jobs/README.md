@@ -22,5 +22,5 @@ The [stylegan3](./stylegan3) directory contains:
    - `job_stylegan3.sh` is the job script submitted in [the Cedar platform](https://docs.alliancecan.ca/wiki/Cedar)
    to perform the training.
 
-See the [TrainStyleGAN3Model.md](../docs/TrainStyleGAN3Model.md) in the [documentation](../docs) folder for details on
+See the [StyleGAN3Training.md](../docs/StyleGAN3Training.md) in the [documentation](../docs) folder for details on
 how to about how to train this model, training results and the conclusion about how useful it is.

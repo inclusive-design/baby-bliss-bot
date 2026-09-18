@@ -1,0 +1,1179 @@
+Parameters:
+USE_PCA_THRESHOLD_ON_INPUT_EMBEDDING: False
+USE_PCA_KNEED_ON_INPUT_EMBEDDING: False
+USE_PC1_ON_INPUT_EMBEDDING: False
+USE_AVERAGE_PCS_ON_INPUT_EMBEDDING: True
+USE_WEIGHTED_SUM_PCS_ON_INPUT_EMBEDDING: False
+USE_SELF_ATTENTION_ON_INPUT_EMBEDDING: False
+USE_AVERAGE_ON_INPUT_EMBEDDING: False
+
+USE_PCA_THRESHOLD_ON_OUTPUT_EMBEDDING: False
+USE_PCA_KNEED_ON_OUTPUT_EMBEDDING: False
+USE_PC1_ON_OUTPUT_EMBEDDING: False
+USE_SELF_ATTENTION_ON_OUTPUT_EMBEDDING: False
+USE_CALCULATED_OUTPUT_EMBEDDING: True
+
+
+Calculating input embedding...
+shape of centered embeddings: torch.Size([5, 4096])
+shape of covariance matrix: torch.Size([4096, 4096])
+Top 10 Sorted Eigenvalues: tensor([1.4018e-01, 1.2121e-01, 1.1050e-01, 6.3778e-02, 3.2582e-08, 9.8112e-09,
+        9.6679e-09, 8.7221e-09, 8.7178e-09, 8.2324e-09], device='cuda:0')
+Meaningful Eigenvalues: tensor([0.1402, 0.1212, 0.1105, 0.0638], device='cuda:0')
+Input embedding: Average of Principal Components (PCs) on the input embeddings of the synonym glosses.
+Execution time for calculating the input embedding: 0 minutes and 0.23 seconds
+
+Calculating output embedding...
+Output embedding: Calculated from the positive and negative context sentences.
+Execution time for calculating the output embedding: 0 minutes and 4.45 seconds
+
+
+Comparison of the input embeddings:
+Cosine Similarity - Average and Average PCs: 0.0280
+Euclidean Distance - Average and Average PCs: 0.6256
+
+
+Comparison of the output embeddings:
+Using calculated output embedding itself.
+Execution time for adding a new token: 0 minutes and 0.22 seconds
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If the wind continues at this speed, the pollen's
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [40, 633, 385, 53, 120]
+Rank of [BLISS_24887]: 41
+Top 5 predictions: Ġtrajectory, Ġmotion, Ġmovement, Ġpath, Ġvelocity
+
+Context: During the conference, researchers emphasized the importance of data
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1515, 88, 1882, 1522, 1984]
+Rank of [BLISS_24887]: 87
+Top 5 predictions: -driven, Ġsharing, Ġquality, Ġcollection, Ġanalysis
+
+Context: The teacher's innovative approach led to a rapid
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [463, 94, 2835, 33, 443]
+Rank of [BLISS_24887]: 34
+Top 5 predictions: Ġincrease, Ġimprovement, Ġgrowth, Ġand, Ġunderstanding
+
+Context: When the artist flung paint across the canvas, the resulting pattern was a mesmerizing
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1684, 3128, 323, 408, 3975]
+Rank of [BLISS_24887]: 322
+Top 5 predictions: Ġdance, Ġblend, Ġmix, Ġdisplay, Ġswirl
+
+Context: After the explosion, scientists studied the
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [794, 3360, 826, 584, 1519]
+Rank of [BLISS_24887]: 583
+Top 5 predictions: Ġcrater, Ġeffects, Ġremains, Ġimpact, Ġdebris
+
+Context: In order to prevent misinformation, the committee regulated the
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [895, 7, 5315, 8, 60]
+Rank of [BLISS_24887]: 6
+Top 5 predictions: Ġflow, Ġuse, Ġinformation, Ġcontent, Ġmedia
+
+Context: As the river widened, so did the
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [2425, 4607, 903, 72, 2255]
+Rank of [BLISS_24887]: 73
+Top 5 predictions: Ġvariety, Ġpossibilities, Ġopportunities, Ġlandscape, Ġrange
+
+Context: The joyful crowd danced in a beautiful
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [7946, 15093, 1468, 388, 1857]
+Rank of [BLISS_24887]: 387
+Top 5 predictions: ,, Ġcircle, Ġgarden, Ġpark, Ġfield
+
+Context: When sunlight enters the prism, it results in a vivid
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [12, 451, 77, 26, 109]
+Rank of [BLISS_24887]: 11
+Top 5 predictions: Ġspectrum, Ġdisplay, Ġrainbow, Ġand, ,
+
+Context: The scientist was fascinated by the unexpected
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [2711, 8015, 2382, 744, 4494]
+Rank of [BLISS_24887]: 745
+Top 5 predictions: Ġdiscovery, Ġresults, Ġresult, Ġbehavior, Ġphenomenon
+
+Context: Without proper communication channels, the
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1469, 224, 4151, 50, 1898]
+Rank of [BLISS_24887]: 51
+Top 5 predictions: Ġflow, Ġentire, Ġrisk, Ġlack, Ġteam
+
+Context: If you stir the liquid too vigorously, you might cause unwanted
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [118, 4328, 468, 4924, 639]
+Rank of [BLISS_24887]: 119
+Top 5 predictions: Ġfoam, Ġfo, Ġspl, Ġa, Ġchemical
+
+Context: Over time, technological advances accelerated the global
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [315, 43, 1168, 3, 303]
+Rank of [BLISS_24887]: 2
+Top 5 predictions: Ġeconomy, [BLISS_24887], Ġspread, Ġdigital, Ġshift
+
+Context: The musician's sound design focused on the careful
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1395, 838, 385, 1274, 1761]
+Rank of [BLISS_24887]: 386
+Top 5 predictions: Ġplacement, Ġuse, Ġselection, Ġbalance, Ġmanipulation
+
+Context: To understand the impact of rumors, sociologists analyzed their
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [81, 7, 2455, 2, 25]
+Rank of [BLISS_24887]: 1
+Top 5 predictions: [BLISS_24887], Ġspread, Ġeffects, Ġrole, Ġstructure
+
+Context: In moments of excitement, the children's laughter turned into a delightful
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [12210, 12043, 783, 1497, 4129]
+Rank of [BLISS_24887]: 784
+Top 5 predictions: Ġcac, Ġmelody, Ġsym, Ġsound, Ġchorus
+
+Context: If the seeds are not planted deeply enough, their
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [4016, 3863, 1926, 521, 584]
+Rank of [BLISS_24887]: 522
+Top 5 predictions: Ġgrowth, Ġroots, Ġchances, Ġger, Ġstems
+
+Context: The fragrance of the flowers led to a pleasant
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [3443, 7505, 1876, 1628, 3677]
+Rank of [BLISS_24887]: 1627
+Top 5 predictions: Ġsurprise, Ġwalk, Ġdiscovery, Ġstroll, Ġand
+
+Context: By opening new trade routes, explorers encouraged cultural
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [141, 53, 711, 36, 124]
+Rank of [BLISS_24887]: 37
+Top 5 predictions: Ġexchange, Ġand, ,, Ġexchanges, Ġdiffusion
+
+Context: After decades of isolation, the new policies allowed the
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [6118, 1916, 5307, 179, 4742]
+Rank of [BLISS_24887]: 178
+Top 5 predictions: Ġcountry, ĠChinese, Ġpeople, ĠUnited, ĠUS
+
+Context: The candle's scent filled the room through slow
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [738, 1800, 5101, 585, 84]
+Rank of [BLISS_24887]: 83
+Top 5 predictions: ,, Ġwis, Ġand, Ġwaves, -b
+
+Context: When the meteor struck, the force caused the
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [5008, 10338, 3712, 3202, 3686]
+Rank of [BLISS_24887]: 3201
+Top 5 predictions: Ġearth, ĠEarth, Ġground, Ġplanet, Ġentire
+
+Context: Her message of kindness found power in its quiet
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1166, 364, 3969, 123, 272]
+Rank of [BLISS_24887]: 122
+Top 5 predictions: ness, Ġsimplicity, Ġstrength, ,, Ġbeauty
+
+Context: If you overheat the solution, it will result in particle
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [35, 721, 45, 691, 328]
+Rank of [BLISS_24887]: 36
+Top 5 predictions: Ġag, Ġaggregation, Ġgrowth, Ġformation, Ġco
+
+Context: The network's success depended heavily on information
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [210, 20, 1810, 39, 44]
+Rank of [BLISS_24887]: 19
+Top 5 predictions: Ġsharing, Ġand, Ġexchange, Ġfrom, Ġtechnology
+
+Context: After years of secrecy, the documents'
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [3901, 176, 2299, 814, 5134]
+Rank of [BLISS_24887]: 177
+Top 5 predictions: Ġrelease, Ġcontents, Ġexistence, Ġde, Ġauthors
+
+Context: In the lab, the students measured the rate of dye
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [17, 243, 260, 20, 8]
+Rank of [BLISS_24887]: 7
+Top 5 predictions: Ġdiffusion, Ġtransfer, Ġrelease, Ġpenetration, ing
+
+Context: During meditation, the monk visualized the peaceful
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [5401, 5487, 2850, 416, 837]
+Rank of [BLISS_24887]: 417
+Top 5 predictions: Ġand, ness, ,, Ġscene, ĠBuddha
+
+Context: The government's health campaign focused on the
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [6871, 341, 17453, 20, 1168]
+Rank of [BLISS_24887]: 19
+Top 5 predictions: Ġimportance, Ġprevention, Ġdangers, Ġbenefits, Ġhealth
+
+Context: If the speaker's voice echoes in the hall, the sound's
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [385, 2466, 363, 238, 424]
+Rank of [BLISS_24887]: 239
+Top 5 predictions: Ġfrequency, Ġintensity, Ġwavelength, Ġamplitude, Ġspeed
+
+Context: When the artist mixed the pigments, their gradual
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [61, 375, 557, 119, 170]
+Rank of [BLISS_24887]: 60
+Top 5 predictions: Ġblending, Ġchange, Ġtransition, Ġcolor, Ġchanges
+
+Context: The emotions in the room built up until their sudden
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [596, 2649, 1017, 2013, 4881]
+Rank of [BLISS_24887]: 597
+Top 5 predictions: Ġrelease, ,, Ġeruption, Ġand, Ġexplosion
+
+Context: As the waves crashed, the mist's gentle
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1034, 3179, 1191, 276, 980]
+Rank of [BLISS_24887]: 275
+Top 5 predictions: Ġca, Ġtouch, Ġkiss, Ġfingers, Ġveil
+
+Context: The new app was designed to optimize content
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [572, 131, 1344, 586, 1137]
+Rank of [BLISS_24887]: 130
+Top 5 predictions: Ġcreation, Ġdelivery, Ġdiscovery, Ġfor, Ġand
+
+Context: To ensure fairness, the organization prioritized equitable
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [364, 111, 2967, 330, 1093]
+Rank of [BLISS_24887]: 112
+Top 5 predictions: Ġaccess, Ġdistribution, Ġrepresentation, Ġand, Ġparticipation
+
+Context: In nature, the wind plays a key role in seed
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [4, 5, 11, 15, 12]
+Rank of [BLISS_24887]: 3
+Top 5 predictions: Ġdispers, Ġdistribution, [BLISS_24887], Ġdispersion, Ġdissemination
+
+Context: During the festival, joy and laughter saw a spontaneous
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1141, 1892, 606, 48, 426]
+Rank of [BLISS_24887]: 49
+Top 5 predictions: Ġdance, Ġout, Ġrise, Ġand, Ġeruption
+
+Context: When the glass shattered, the pieces underwent immediate
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [54, 423, 51, 515, 106]
+Rank of [BLISS_24887]: 52
+Top 5 predictions: Ġfragmentation, Ġchanges, Ġand, Ġchange, Ġstress
+
+Context: The chef added herbs for flavor and aroma
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [2239, 7403, 4871, 615, 1548]
+Rank of [BLISS_24887]: 614
+Top 5 predictions: ., ,, Ġto, .Ċ, Ġand
+
+Context: If trust is not maintained, the community may suffer from
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1056, 2205, 3413, 1786, 1296]
+Rank of [BLISS_24887]: 1057
+Top 5 predictions: Ġa, Ġthe, Ġsocial, Ġlow, Ġlack
+
+Context: Through education, awareness saw rapid
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1117, 107, 8739, 14, 126]
+Rank of [BLISS_24887]: 15
+Top 5 predictions: Ġgrowth, Ġprogress, Ġdevelopment, Ġincrease, Ġexpansion
+
+Context: The fireworks burst into a dazzling
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [529, 2369, 433, 133, 5154]
+Rank of [BLISS_24887]: 132
+Top 5 predictions: Ġdisplay, Ġarray, Ġspectacle, Ġlight, Ġshow
+
+Context: As the rumor traveled across town, its
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [3135, 1379, 5928, 65, 379]
+Rank of [BLISS_24887]: 66
+Top 5 predictions: Ġtruth, Ġimpact, Ġdetails, Ġspeed, Ġorigin
+
+Context: Without proper ventilation, the smoke's
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [937, 3717, 4180, 183, 502]
+Rank of [BLISS_24887]: 184
+Top 5 predictions: Ġcarbon, Ġtoxic, Ġchemicals, Ġmoisture, Ġparticles
+
+Context: The biologist observed the spores' gradual
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [55, 128, 291, 24, 45]
+Rank of [BLISS_24887]: 23
+Top 5 predictions: Ġgrowth, Ġdevelopment, Ġger, Ġchange, Ġincrease
+
+Context: At the symposium, scholars debated theories of cultural
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1510, 155, 3737, 723, 3745]
+Rank of [BLISS_24887]: 156
+Top 5 predictions: Ġevolution, Ġand, Ġchange, Ġidentity, Ġproduction
+
+Context: The aroma from the bakery caused a delightful
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [2788, 7256, 732, 739, 1890]
+Rank of [BLISS_24887]: 733
+Top 5 predictions: Ġdistraction, Ġcomm, Ġstir, Ġflutter, Ġsensation
+
+Context: Over the years, globalization has contributed to cultural
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [106, 61, 1012, 99, 264]
+Rank of [BLISS_24887]: 60
+Top 5 predictions: Ġexchange, Ġhom, Ġdiversity, Ġand, ,
+
+Context: By sharing his story online, he hoped for widespread
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [882, 24, 5039, 130, 764]
+Rank of [BLISS_24887]: 25
+Top 5 predictions: Ġsupport, Ġrecognition, Ġawareness, Ġattention, Ġadoption
+
+Context: When the wind shifted direction, the ash's
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [38, 536, 494, 20, 61]
+Rank of [BLISS_24887]: 21
+Top 5 predictions: Ġtrajectory, Ġmovement, Ġpath, Ġparticles, Ġdistribution
+
+Context: The new law encouraged the responsible
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [2550, 165, 3082, 125, 490]
+Rank of [BLISS_24887]: 126
+Top 5 predictions: Ġuse, Ġdevelopment, Ġand, Ġmanagement, Ġgrowth
+
+Context: If not handled carefully, the chemicals might undergo accidental
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [88, 860, 706, 341, 220]
+Rank of [BLISS_24887]: 87
+Top 5 predictions: Ġreactions, Ġcombustion, Ġchemical, Ġrelease, Ġreaction
+
+Context: In the warmth of the sun, the fog's
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [776, 8019, 2579, 665, 990]
+Rank of [BLISS_24887]: 664
+Top 5 predictions: Ġchill, Ġgentle, Ġveil, Ġgone, Ġmist
+
+Context: The teacher distributed materials to facilitate the
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1354, 216, 4204, 367, 1327]
+Rank of [BLISS_24887]: 215
+Top 5 predictions: Ġlearning, Ġstudents, Ġdiscussion, Ġlesson, Ġteaching
+
+Context: As innovation increased, ideas saw rapid
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [347, 15, 1266, 19, 89]
+Rank of [BLISS_24887]: 14
+Top 5 predictions: Ġdevelopment, Ġgrowth, Ġprogress, Ġimplementation, Ġevolution
+
+Context: The mural's vibrant colors resulted from pigment
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [25, 2395, 458, 306, 319]
+Rank of [BLISS_24887]: 24
+Top 5 predictions: Ġbeing, ing, -rich, -based, Ġmade
+
+Context: If kindness becomes a habit, its positive
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [5548, 2335, 4631, 85, 348]
+Rank of [BLISS_24887]: 86
+Top 5 predictions: Ġeffects, Ġimpact, Ġimpacts, Ġeffect, Ġinfluence
+
+Context: The company's growth strategy emphasized global
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [174, 272, 1920, 138, 526]
+Rank of [BLISS_24887]: 139
+Top 5 predictions: Ġexpansion, Ġmarket, Ġreach, Ġdivers, Ġpartnerships
+
+Context: In ancient times, oral traditions ensured the
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [456, 19, 1823, 26, 101]
+Rank of [BLISS_24887]: 20
+Top 5 predictions: Ġpassing, Ġpreservation, Ġcontinuation, Ġtransmission, Ġsurvival
+
+Context: When the drop hit the surface, the ink's
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [121, 4569, 2778, 94, 43]
+Rank of [BLISS_24887]: 42
+Top 5 predictions: Ġsurface, Ġviscosity, Ġcolor, Ġdensity, Ġmolecules
+
+Context: The priest spoke about the divine
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [5174, 7851, 5138, 4774, 10468]
+Rank of [BLISS_24887]: 4773
+Top 5 predictions: Ġpresence, Ġlove, Ġplan, Ġnature, Ġand
+
+Context: The warmth of love finds its power in the gentle
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [2974, 6653, 4195, 468, 428]
+Rank of [BLISS_24887]: 427
+Top 5 predictions: Ġtouch, ,, Ġwhispers, st, Ġca
+
+Context: During spring, the air was filled with pollen's
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [3809, 3468, 853, 742, 1206]
+Rank of [BLISS_24887]: 743
+Top 5 predictions: Ġsweet, Ġyellow, Ġgolden, Ġsweetness, Ġfragrance
+
+Context: The experiment failed due to uneven particle
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [8, 211, 68, 39, 38]
+Rank of [BLISS_24887]: 7
+Top 5 predictions: Ġdistribution, Ġsize, Ġsizes, Ġdistributions, Ġflow
+
+Context: The marketing team focused on the digital
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [3793, 787, 10875, 562, 7088]
+Rank of [BLISS_24887]: 561
+Top 5 predictions: Ġmarketing, Ġside, Ġspace, Ġchannel, Ġtransformation
+
+Context: With each gust of wind, the dandelion seeds began their
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1231, 2595, 217, 777, 1347]
+Rank of [BLISS_24887]: 218
+Top 5 predictions: Ġjourney, Ġw, Ġdance, Ġwild, Ġwhims
+
+Context: If the files are not encrypted, their online
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [2536, 461, 7328, 904, 2015]
+Rank of [BLISS_24887]: 462
+Top 5 predictions: Ġstorage, Ġpresence, Ġbackup, Ġbackups, Ġstatus
+
+Context: The philosopher compared the nature of knowledge to the
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [2616, 1634, 1732, 203, 316]
+Rank of [BLISS_24887]: 202
+Top 5 predictions: Ġnature, Ġprocess, Ġway, Ġconcept, Ġstructure
+
+Context: Over time, exposure therapy allowed the gradual
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1193, 503, 7144, 767, 888]
+Rank of [BLISS_24887]: 504
+Top 5 predictions: Ġexposure, Ġreduction, Ġintroduction, Ġdevelopment, Ġdes
+
+Context: At sunset, the colors in the sky created a magical
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [3532, 7507, 815, 353, 2314]
+Rank of [BLISS_24887]: 354
+Top 5 predictions: Ġatmosphere, Ġbackdrop, Ġscene, Ġmoment, Ġeffect
+
+Context: To promote transparency, the NGO supported document
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [3360, 285, 17565, 2282, 2601]
+Rank of [BLISS_24887]: 284
+Top 5 predictions: Ġis, ,, Ġhas, Ġwill, Ġwas
+
+Context: If the vaccine is effective, it will prevent the
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1115, 321, 3854, 3, 80]
+Rank of [BLISS_24887]: 2
+Top 5 predictions: Ġdisease, [BLISS_24887], Ġspread, Ġvirus, Ġdevelopment
+
+Context: The farmer watched the gentle
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [4118, 12135, 1118, 432, 1514]
+Rank of [BLISS_24887]: 433
+Top 5 predictions: Ġrain, Ġrainfall, Ġstream, Ġbreeze, Ġgiant
+
+Context: Through her storytelling, she aimed for emotional
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [2667, 1929, 4640, 1784, 4492]
+Rank of [BLISS_24887]: 1785
+Top 5 predictions: Ġconnection, Ġresonance, Ġconnections, Ġdepth, Ġimpact
+
+Context: If we open our hearts, the warmth of compassion's
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [6127, 5519, 10128, 52, 58]
+Rank of [BLISS_24887]: 53
+Top 5 predictions: Ġlight, Ġflame, Ġfire, Ġlove, Ġradi
+
+Context: The historian studied the ancient empire's cultural
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1380, 165, 3690, 42, 655]
+Rank of [BLISS_24887]: 43
+Top 5 predictions: Ġachievements, Ġand, Ġpractices, Ġinfluences, Ġartifacts
+
+Context: When the glass shattered, light reflected in beautiful
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [269, 2185, 208, 1349, 847]
+Rank of [BLISS_24887]: 209
+Top 5 predictions: Ġpatterns, ,, Ġshards, Ġways, Ġcolors
+
+Context: The student's report focused on the environmental
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1152, 774, 2817, 1826, 8072]
+Rank of [BLISS_24887]: 773
+Top 5 predictions: Ġimpact, Ġand, Ġimpacts, ,, Ġbenefits
+
+Context: As innovation increases, knowledge finds rapid
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [104, 2, 624, 12, 93]
+Rank of [BLISS_24887]: 1
+Top 5 predictions: [BLISS_24887], Ġdissemination, Ġgrowth, Ġapplication, Ġways
+
+Context: To reduce panic, the government controlled the news'
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [166, 1, 2983, 4, 32]
+Rank of [BLISS_24887]: 2
+Top 5 predictions: Ġdissemination, [BLISS_24887], Ġflow, Ġspread, Ġrelease
+
+Context: If communication improves, the
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [2698, 1592, 7014, 108, 2703]
+Rank of [BLISS_24887]: 107
+Top 5 predictions: Ġlikelihood, Ġquality, Ġchances, Ġworld, Ġrelationship
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: If the medication is not stored correctly, its effectiveness against the rare infection
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [25827, 10883, 27930, 110, 97]
+Rank of [BLISS_24887]: 27929
+Top 5 predictions: Ġcould, Ġmay, Ġcan, Ġmight, Ġis
+
+Context: Despite the optimistic forecasts, the sudden downturn in the market value of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [25817, 30169, 41806, 7460, 15167]
+Rank of [BLISS_24887]: 41805
+Top 5 predictions: Ġcryptocurrencies, Ġthe, ĠBitcoin, Ġcryptocurrency, Ġdigital
+
+Context: The politician's speech was met with mixed reactions from those who supported the reform of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [20988, 24703, 22947, 19514, 12016]
+Rank of [BLISS_24887]: 24702
+Top 5 predictions: Ġthe, Ġhealthcare, Ġlaws, Ġpublic, Ġeducation
+
+Context: When the child accidentally broke the vase, her immediate fear of her mother's reaction to
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [17893, 25616, 2909, 587, 1775]
+Rank of [BLISS_24887]: 25615
+Top 5 predictions: Ġthe, Ġher, Ġthis, Ġit, Ġbe
+
+Context: If communication between departments doesn't improve, the likelihood of confusion over
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [8969, 4674, 18121, 6195, 8096]
+Rank of [BLISS_24887]: 18120
+Top 5 predictions: Ġthe, Ġwho, Ġwhat, Ġroles, Ġresponsibilities
+
+Context: The librarian carefully restored the fragile pages containing the original drawings of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [30447, 36614, 16778, 23902, 21511]
+Rank of [BLISS_24887]: 36615
+Top 5 predictions: Ġthe, ĠLeonardo, Ġa, ĠMichel, ĠCharles
+
+Context: Although the storm subsided, the damage to the coastal villages and nearby roads
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [13546, 12384, 9907, 242, 2928]
+Rank of [BLISS_24887]: 13545
+Top 5 predictions: Ġwas, Ġhas, Ġis, Ġremains, Ġremained
+
+Context: After the long winter, the first signs of life appeared in the small garden behind
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [87383, 88772, 35329, 14070, 14970]
+Rank of [BLISS_24887]: 88771
+Top 5 predictions: Ġthe, Ġour, Ġmy, Ġtheir, Ġher
+
+Context: If we fail to act now, the irreversible consequences for the planet's climate and biodiversity
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [15295, 15005, 26289, 1130, 7640]
+Rank of [BLISS_24887]: 26288
+Top 5 predictions: Ġwill, Ġcould, Ġare, Ġmay, Ġwould
+
+Context: The author struggled to find the right ending for the story about the boy who dreamed of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [24045, 44310, 1917, 16284, 463]
+Rank of [BLISS_24887]: 44309
+Top 5 predictions: Ġflying, Ġbecoming, Ġbeing, Ġa, Ġthe
+
+Context: When the investor pulled out of the deal, the company's chance for expansion into
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [61437, 40720, 75747, 8474, 6825]
+Rank of [BLISS_24887]: 75746
+Top 5 predictions: Ġthe, Ġnew, Ġa, ĠAsia, ĠEurope
+
+Context: Even though the painting looked unfinished, its raw emotional power reminded everyone of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [61895, 107083, 27581, 28298, 20358]
+Rank of [BLISS_24887]: 107082
+Top 5 predictions: Ġthe, Ġa, Ġwhat, Ġhow, Ġits
+
+Context: The scientist presented new data challenging the long-held theory about the origin of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [17122, 22514, 10326, 3328, 2753]
+Rank of [BLISS_24887]: 22513
+Top 5 predictions: Ġthe, Ġlife, Ġwater, Ġour, Ġa
+
+Context: When the prisoner heard the verdict, his expression revealed a mix of anger and
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [5636, 11577, 12875, 5288, 8590]
+Rank of [BLISS_24887]: 12876
+Top 5 predictions: Ġdisappointment, Ġsadness, Ġdespair, Ġfrustration, Ġrelief
+
+Context: Despite their efforts to stay optimistic, the growing tension between the two families over
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [23409, 29827, 21357, 10842, 5451]
+Rank of [BLISS_24887]: 29826
+Top 5 predictions: Ġthe, Ġtheir, Ġa, Ġland, Ġmoney
+
+Context: If the medication dosage isn't properly adjusted, the patient's recovery from
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [16616, 13219, 28934, 6887, 6228]
+Rank of [BLISS_24887]: 28933
+Top 5 predictions: Ġthe, Ġsurgery, Ġa, Ġanesthesia, Ġan
+
+Context: After the concert ended, the echo of the final chord lingered in the hall like a memory of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [19872, 27934, 12410, 30052, 9193]
+Rank of [BLISS_24887]: 30053
+Top 5 predictions: Ġa, Ġthe, Ġsomething, Ġwhat, Ġjoy
+
+Context: Although the city promised improvements, the deteriorating condition of public transport in
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [59972, 47670, 29838, 23462, 15033]
+Rank of [BLISS_24887]: 59971
+Top 5 predictions: Ġthe, ĠNairobi, ĠDh, ĠLagos, ĠNew
+
+Context: The engineer reviewed the blueprints carefully before making any modifications to
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [37131, 66780, 82121, 1813, 24661]
+Rank of [BLISS_24887]: 82120
+Top 5 predictions: Ġthe, Ġensure, Ġhis, Ġa, Ġavoid
+
+Context: As the fog rolled over the valley, the villagers prepared for another long night of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [5239, 11612, 3190, 4476, 1207]
+Rank of [BLISS_24887]: 11613
+Top 5 predictions: Ġwaiting, Ġh, Ġwork, Ġlistening, Ġsh
+
+Context: If the foundation cracks continue to grow, the structural integrity of the building and its occupants
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [12292, 34220, 27907, 1865, 9015]
+Rank of [BLISS_24887]: 34219
+Top 5 predictions: Ġmay, Ġcould, ', Ġare, âĢĻ
+
+Context: When he found the photograph, he finally understood the hidden connection between the two people in
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [34422, 31447, 61722, 10159, 33263]
+Rank of [BLISS_24887]: 61721
+Top 5 predictions: Ġthe, Ġit, Ġhis, Ġfront, Ġquestion
+
+Context: Although the medicine worked for most patients, rare complications occurred in cases involving
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [16990, 9212, 16875, 4710, 6781]
+Rank of [BLISS_24887]: 16989
+Top 5 predictions: Ġpatients, Ġchildren, Ġthe, Ġpeople, Ġcertain
+
+Context: The biologist spent years studying the behavioral patterns of the migratory birds in
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [23190, 14609, 22704, 12385, 10350]
+Rank of [BLISS_24887]: 23189
+Top 5 predictions: Ġthe, Ġher, Ġhis, ĠAfrica, Ġorder
+
+Context: After the tragic accident, the community came together to support the families affected by
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [27353, 33545, 1273, 12345, 126]
+Rank of [BLISS_24887]: 33544
+Top 5 predictions: Ġthe, Ġdonating, Ġit, Ġproviding, Ġthis
+
+Context: If we do not preserve these artifacts, future generations may lose the chance to understand the history of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [14420, 11616, 17348, 10862, 8393]
+Rank of [BLISS_24887]: 17347
+Top 5 predictions: Ġour, Ġthe, Ġhuman, Ġtheir, Ġhumanity
+
+Context: Despite the overwhelming odds, the young athlete remained determined to prove himself in the championship of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [32233, 32166, 19733, 18807, 11353]
+Rank of [BLISS_24887]: 32232
+Top 5 predictions: Ġthe, Ġhis, Ġa, Ġinternational, Ġ
+
+Context: When the scientist observed the anomaly, she immediately began to question the assumptions that formed the basis of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [11212, 16574, 18076, 20004, 19883]
+Rank of [BLISS_24887]: 20002
+Top 5 predictions: Ġher, Ġthe, Ġtheir, Ġour, Ġhis
+
+Context: If the negotiations had continued, the alliance between the two rival corporations
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [75104, 59473, 35875, 733, 5289]
+Rank of [BLISS_24887]: 75103
+Top 5 predictions: Ġwould, Ġcould, Ġmight, ,, Ġwas
+
+Context: The sudden shift in temperature caused a complete malfunction in the experimental chamber of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [20407, 35799, 15156, 37666, 27793]
+Rank of [BLISS_24887]: 37665
+Top 5 predictions: Ġthe, Ġa, ĠDr, Ġour, ĠNASA
+
+Context: When the teacher asked about the missing homework, the student hesitated before mentioning the unexpected incident with
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [40590, 56722, 12042, 9166, 9154]
+Rank of [BLISS_24887]: 56721
+Top 5 predictions: Ġthe, Ġhis, Ġa, Ġher, Ġtheir
+
+Context: Although the government promised reform, corruption within the administrative department responsible for
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [8013, 3267, 9439, 11520, 1825]
+Rank of [BLISS_24887]: 11519
+Top 5 predictions: Ġthe, Ġmanaging, Ġoverseeing, Ġimplementing, Ġenforcing
+
+Context: Without proper funding, the ambitious environmental restoration project for the wetlands of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [38960, 46151, 43635, 18806, 10364]
+Rank of [BLISS_24887]: 46150
+Top 5 predictions: Ġthe, ĠLake, ĠLaguna, ĠB, ĠK
+
+Context: As the moonlight illuminated the ruins, the explorer felt a sudden chill that reminded him of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [73396, 97735, 11051, 39982, 11024]
+Rank of [BLISS_24887]: 97734
+Top 5 predictions: Ġthe, Ġhis, Ġa, Ġan, Ġhome
+
+Context: If they had listened to the warnings, the devastating flood that destroyed the lower parts of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [99012, 92246, 47857, 28590, 25167]
+Rank of [BLISS_24887]: 99011
+Top 5 predictions: Ġthe, Ġtheir, ĠNew, Ġtown, ĠSt
+
+Context: The author's unfinished manuscript hinted at a darker truth behind the mysterious events surrounding
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [31456, 30971, 34410, 25225, 23561]
+Rank of [BLISS_24887]: 34409
+Top 5 predictions: Ġthe, Ġa, Ġher, Ġhis, ĠJohn
+
+Context: Although he had planned everything meticulously, the unexpected failure of the navigation system during
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [22336, 11069, 17790, 29283, 50924]
+Rank of [BLISS_24887]: 50923
+Top 5 predictions: Ġthe, Ġhis, Ġa, Ġtake, Ġtheir
+
+Context: When the scientist realized the implications of her discovery, she struggled to decide whether to reveal the data concerning
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [18804, 16711, 17897, 6151, 4745]
+Rank of [BLISS_24887]: 18803
+Top 5 predictions: Ġthe, Ġa, Ġher, Ġits, Ġhuman
+
+Context: If the diplomatic talks break down again, the fragile peace agreement between the neighboring states
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [107373, 91433, 52622, 7740, 18696]
+Rank of [BLISS_24887]: 107374
+Top 5 predictions: Ġof, Ġcould, Ġwill, Ġmay, Ġis
+
+Context: The sudden silence in the courtroom signaled the gravity of the judge's decision regarding
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [51055, 23387, 35463, 22007, 19749]
+Rank of [BLISS_24887]: 51054
+Top 5 predictions: Ġthe, Ġmy, Ġa, Ġ, ĠAlex
+
+Context: Although the meeting was meant to be productive, it quickly turned into a heated argument about the ownership of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [27433, 22856, 35294, 7679, 10814]
+Rank of [BLISS_24887]: 35293
+Top 5 predictions: Ġa, Ġthe, Ġan, Ġcertain, Ġideas
+
+Context: If the power grid collapses again, the impact on hospitals and emergency services across the region
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [52899, 29643, 35055, 827, 3123]
+Rank of [BLISS_24887]: 52898
+Top 5 predictions: Ġwill, Ġcould, Ġwould, Ġis, Ġmay
+
+Context: After the final exam, students gathered nervously outside the hall waiting for the announcement of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [8426, 3571, 44069, 11464, 25370]
+Rank of [BLISS_24887]: 44068
+Top 5 predictions: Ġthe, Ġtheir, Ġresults, Ġgrades, Ġresult
+
+Context: Even though the invention looked promising, investors were hesitant to support a project that relied entirely on
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [17818, 18041, 10550, 8922, 2336]
+Rank of [BLISS_24887]: 18040
+Top 5 predictions: Ġa, Ġthe, Ġan, Ġcrowdfunding, ĠAI
+
+Context: The general's orders were clear, but the soldiers hesitated when they saw the devastating aftermath of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [24139, 75788, 12549, 24367, 5367]
+Rank of [BLISS_24887]: 75787
+Top 5 predictions: Ġthe, Ġa, Ġtheir, Ġwar, Ġan
+
+Context: When the actor forgot his lines, the awkward silence between the performers and the audience
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [17265, 20073, 11831, 65, 3234]
+Rank of [BLISS_24887]: 20072
+Top 5 predictions: Ġwas, Ġbecame, Ġmade, Ġlasted, Ġhung
+
+Context: If the software continues to malfunction, users will lose trust in the company's ability to deliver updates for
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [20262, 16493, 39587, 12395, 9262]
+Rank of [BLISS_24887]: 39586
+Top 5 predictions: Ġthe, Ġtheir, Ġits, Ġother, Ġexisting
+
+Context: Although the scientist published her findings, many in the field questioned the reliability of the data collected from
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [22047, 27831, 10396, 13362, 10616]
+Rank of [BLISS_24887]: 27830
+Top 5 predictions: Ġthe, Ġthis, Ġher, Ġthese, Ġa
+
+Context: When the negotiations concluded, both parties expressed uncertainty about the terms governing the exchange of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [35722, 30530, 24637, 44707, 34282]
+Rank of [BLISS_24887]: 44706
+Top 5 predictions: Ġprisoners, Ġinformation, Ġthe, Ġgoods, Ġnuclear
+
+Context: Despite years of training, his performance in the final moments of the tournament for
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [26326, 21767, 9105, 22299, 4171]
+Rank of [BLISS_24887]: 26325
+Top 5 predictions: Ġthe, Ġhis, Ġwhich, Ġa, Ġ
+
+Context: As the old man looked out the window, he remembered the long-forgotten promise he made during the final days of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [54647, 55746, 37904, 35319, 15105]
+Rank of [BLISS_24887]: 55745
+Top 5 predictions: Ġthe, Ġhis, ĠWorld, Ġwar, Ġa
+
+Context: If the temperature continues to rise, the fragile balance of marine ecosystems near the coral reefs of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [102710, 55580, 28680, 46073, 9851]
+Rank of [BLISS_24887]: 102709
+Top 5 predictions: Ġthe, ĠAustralia, ĠBelize, ĠHawaii, ĠPal
+
+Context: Although she claimed innocence, the mounting evidence against her in the case of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [34155, 15233, 18620, 13811, 1213]
+Rank of [BLISS_24887]: 34154
+Top 5 predictions: Ġthe, Ġa, Ġher, Ġmissing, Ġmurder
+
+Context: When the gates finally opened, the crowd surged forward toward the main exhibition of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [34045, 36012, 20794, 23531, 18195]
+Rank of [BLISS_24887]: 36013
+Top 5 predictions: Ġthe, Ġart, Ġ, Ġartifacts, Ġworks
+
+Context: If the documents are not properly archived, future historians may struggle to trace the origins of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [18232, 12463, 33940, 6472, 5649]
+Rank of [BLISS_24887]: 33939
+Top 5 predictions: Ġthe, Ġthis, Ġa, Ġthese, Ġour
+
+Context: Despite the financial crisis, the board approved additional funding for the development of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [18529, 20160, 16436, 12762, 15933]
+Rank of [BLISS_24887]: 20159
+Top 5 predictions: Ġthe, Ġa, Ġnew, Ġan, Ġtwo
+
+Context: When the artist unveiled his latest sculpture, critics were divided over its symbolic representation of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [20530, 21625, 16559, 18288, 9388]
+Rank of [BLISS_24887]: 21624
+Top 5 predictions: Ġthe, Ġa, Ġfreedom, Ġmodern, Ġhope
+
+Context: Although the letter was unsigned, its tone suggested a personal connection to the tragedy involving
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [36547, 48276, 23554, 23612, 26870]
+Rank of [BLISS_24887]: 48277
+Top 5 predictions: Ġthe, Ġa, Ġ, Ġtwo, Ġformer
+
+Context: If communication satellites fail again, global navigation systems dependent on them for
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [2292, 190, 6171, 687, 1170]
+Rank of [BLISS_24887]: 6170
+Top 5 predictions: Ġtiming, Ġsignal, Ġprecise, Ġaccurate, Ġsignals
+
+Context: The tension in the boardroom grew as the executives debated the ethical implications of the merger with
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [100279, 42421, 99451, 17803, 26085]
+Rank of [BLISS_24887]: 100278
+Top 5 predictions: Ġthe, Ġtheir, Ġa, ĠGlobal, ĠGreen
+
+Context: When the lights flickered, everyone turned to the door, expecting to see the shadowy figure from
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [68343, 36415, 37594, 22499, 15823]
+Rank of [BLISS_24887]: 68342
+Top 5 predictions: Ġthe, Ġlast, Ġearlier, Ġtheir, Ġbefore
+
+Context: Although the vaccine trials showed promise, unexpected side effects emerged among participants in
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [11199, 18655, 27718, 13691, 18401]
+Rank of [BLISS_24887]: 27717
+Top 5 predictions: Ġthe, Ġsome, Ġa, Ġboth, Ġlater
+
+Context: If no one takes responsibility for the accident, the families affected by the explosion at
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [32906, 85801, 54121, 25658, 17600]
+Rank of [BLISS_24887]: 85802
+Top 5 predictions: Ġthe, Ġa, ĠB, Ġan, ĠP
+
+Context: After the funeral, the air was thick with grief and unresolved questions surrounding the cause of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [18247, 26900, 19941, 15690, 11898]
+Rank of [BLISS_24887]: 26899
+Top 5 predictions: Ġdeath, Ġthe, Ġher, Ġ, Ġmy
+
+Context: Even though the teacher explained the formula twice, confusion remained about the application of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [640, 17094, 4346, 6317, 6492]
+Rank of [BLISS_24887]: 17095
+Top 5 predictions: Ġthe, Ġit, Ġa, Ġthis, Ġformulas
+
+Context: The soldier stood silently as the anthem played, remembering fallen comrades from the battle of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [25170, 39482, 34292, 39266, 14284]
+Rank of [BLISS_24887]: 39481
+Top 5 predictions: Ġthe, ĠI, ĠNorm, ĠK, ĠGet
+
+Context: If the transportation strike continues, the disruption across the urban districts of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [24534, 26528, 17508, 14264, 12734]
+Rank of [BLISS_24887]: 26527
+Top 5 predictions: Ġthe, ĠParis, ĠSouth, ĠBuenos, ĠMexico
+
+Context: Although the artist denied the rumors, critics continued to speculate about the hidden meaning behind
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [30029, 33182, 26043, 17218, 22055]
+Rank of [BLISS_24887]: 33181
+Top 5 predictions: Ġthe, Ġhis, Ġher, Ġ", Ġthis
+
+Context: When the CEO resigned, the company's stock plummeted amid rumors of internal disputes over
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [18741, 11660, 27529, 8439, 3681]
+Rank of [BLISS_24887]: 27528
+Top 5 predictions: Ġthe, Ġstrategy, Ġa, Ġleadership, Ġhis
+
+Context: If emergency measures are not implemented soon, the economic collapse in the northern provinces of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [35792, 58891, 36918, 70253, 71600]
+Rank of [BLISS_24887]: 71599
+Top 5 predictions: ĠMoz, Ġthe, ĠSyria, ĠAfghanistan, ĠThailand
+
+Context: As the orchestra tuned their instruments, anticipation filled the concert hall before the performance of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [58312, 56078, 37882, 47019, 43223]
+Rank of [BLISS_24887]: 58311
+Top 5 predictions: Ġthe, ĠBe, ĠMozart, Ġa, ĠT
+
+Context: Even though the mountain seemed close, the treacherous terrain made the final ascent toward
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [80081, 50143, 21384, 25716, 21201]
+Rank of [BLISS_24887]: 80082
+Top 5 predictions: Ġthe, Ġits, ĠMount, ĠBase, Ġit
+
+Context: If the current political instability worsens, the fragile coalition supporting the reform of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [15445, 40513, 22909, 28723, 23164]
+Rank of [BLISS_24887]: 40514
+Top 5 predictions: Ġthe, ĠArticle, Ġpension, ĠGreece, ĠUkraine
+
+Context: When the archaeologist brushed away the last layer of dust, she uncovered a remarkable symbol connected to
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [21537, 20323, 15454, 8210, 7031]
+Rank of [BLISS_24887]: 21536
+Top 5 predictions: Ġthe, Ġan, Ġa, Ġancient, Ġone
+
+Context: Although he tried to stay calm, the recurring nightmare about the fire that destroyed
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [103196, 94124, 44201, 10568, 17854]
+Rank of [BLISS_24887]: 103195
+Top 5 predictions: Ġhis, Ġthe, Ġtheir, Ġour, Ġher
+
+Context: If the safety standards aren't enforced, future incidents similar to the explosion at
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [26838, 78848, 51423, 30905, 29360]
+Rank of [BLISS_24887]: 78849
+Top 5 predictions: Ġthe, Ġa, ĠWest, ĠTexas, Ġan
+
+Context: Despite their best efforts, the rescue team couldn't reach the survivors trapped beneath the collapsed walls of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [89335, 97053, 40405, 18274, 20477]
+Rank of [BLISS_24887]: 97052
+Top 5 predictions: Ġthe, Ġa, Ġtheir, Ġan, Ġthis
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: The wind carried the desert sand in soft
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [3870, 4429, 731, 3414, 2655]
+Rank of [BLISS_24887]: 202
+Top 5 predictions: ,, Ġwhispers, Ġwaves, Ġwis, Ġswirl
+
+Context: By empowering communities, the NGO encouraged the
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [2868, 106, 4519, 36, 775]
+Rank of [BLISS_24887]: 18
+Top 5 predictions: Ġdevelopment, Ġuse, Ġadoption, Ġlocal, Ġparticipation
+
+Context: When the paint mixed with water, the pigment's
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [30, 2757, 205, 622, 528]
+Rank of [BLISS_24887]: 74
+Top 5 predictions: Ġcolor, Ġparticles, Ġsurface, Ġmolecular, Ġability
+
+Context: To understand epidemics, scientists modeled the virus's
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [179, 124, 1700, 1, 34]
+Rank of [BLISS_24887]: 10
+Top 5 predictions: Ġspread, Ġbehavior, Ġtransmission, Ġgrowth, Ġmovement
+
+Context: During the fireworks, sparks formed a colorful
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [602, 2944, 153, 436, 1172]
+Rank of [BLISS_24887]: 121
+Top 5 predictions: Ġdisplay, Ġpattern, ,, Ġand, Ġarc
+
+Context: The rain on the windshield caused a mesmerizing
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1226, 4500, 688, 380, 1771]
+Rank of [BLISS_24887]: 164
+Top 5 predictions: Ġdance, Ġpattern, Ġdisplay, Ġeffect, Ġblur
+
+Context: If kindness is shared widely, the social
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [9147, 4698, 7916, 217, 1701]
+Rank of [BLISS_24887]: 143
+Top 5 predictions: Ġfabric, Ġand, Ġimpact, Ġworld, Ġnetwork
+
+Context: Through their online presence, influencers facilitated rapid
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [136, 1, 1225, 7, 25]
+Rank of [BLISS_24887]: 8
+Top 5 predictions: Ġdissemination, Ġinformation, Ġcommunication, Ġand, Ġmobil
+
+Context: When the breeze passed through the trees, the leaves'
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [4209, 7092, 409, 3788, 3097]
+Rank of [BLISS_24887]: 198
+Top 5 predictions: Ġrust, Ġgentle, Ġsoft, Ġwhispers, Ġdelicate
+
+Context: If rumors continue unchecked, their dangerous
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [7221, 520, 12429, 30, 276]
+Rank of [BLISS_24887]: 204
+Top 5 predictions: Ġpotential, Ġconsequences, Ġeffects, Ġpower, Ġimpact
+
+Context: As the perfume bottle opened, the air filled with scent
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [5675, 12770, 5270, 480, 333]
+Rank of [BLISS_24887]: 1365
+Top 5 predictions: Ġof, ., ,, Ġand, Ġthat
+
+Context: The chef demonstrated the even seasoning's
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [657, 3413, 3729, 142, 582]
+Rank of [BLISS_24887]: 89
+Top 5 predictions: Ġability, Ġeffect, Ġversatility, Ġeffects, Ġimpact
+
+Context: To maintain order, authorities limited the protest's
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [198, 270, 1136, 39, 905]
+Rank of [BLISS_24887]: 56
+Top 5 predictions: Ġsize, Ġscope, Ġreach, Ġduration, Ġscale
+
+Context: By encouraging collaboration, the university fostered idea
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [260, 45, 839, 277, 215]
+Rank of [BLISS_24887]: 20
+Top 5 predictions: Ġgeneration, Ġsharing, Ġexchange, -sharing, Ġdevelopment
+
+Context: If not carefully managed, the chemical reaction could cause gas
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [226, 1534, 3735, 1312, 1077]
+Rank of [BLISS_24887]: 214
+Top 5 predictions: Ġto, Ġbubbles, Ġbuildup, Ġleaks, Ġexplosions
+
+Context: In her poetry, emotions unfolded through gradual
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1352, 1127, 1540, 1427, 1030]
+Rank of [BLISS_24887]: 373
+Top 5 predictions: ,, Ġand, Ġlayers, Ġrevelations, Ġshifts
+
+Context: The artist captured the beauty of light's
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [209, 1529, 401, 1453, 1416]
+Rank of [BLISS_24887]: 94
+Top 5 predictions: Ġinteraction, Ġeffects, Ġplay, Ġfleeting, Ġreflection
+
+Context: With each heartbeat, love found its subtle
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [5811, 6826, 5221, 364, 1462]
+Rank of [BLISS_24887]: 120
+Top 5 predictions: Ġway, Ġrhythm, Ġyet, Ġways, ,
+
+Context: By supporting open science, researchers accelerated data
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [810, 11, 1025, 113, 423]
+Rank of [BLISS_24887]: 40
+Top 5 predictions: Ġsharing, -driven, Ġanalysis, Ġdiscovery, Ġcollection
+
+Context: If the population keeps moving, cultural
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [703, 400, 2708, 497, 2254]
+Rank of [BLISS_24887]: 101
+Top 5 predictions: Ġand, Ġdiversity, Ġidentity, Ġheritage, Ġexchange
+
+Context: Through honest communication, trust experiences natural
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [1599, 1651, 8624, 1202, 2397]
+Rank of [BLISS_24887]: 49
+Top 5 predictions: Ġgrowth, Ġdevelopment, Ġconsequences, Ġand, Ġprogression
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: If the report isn't submitted on time, the committee's decision about
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [8638, 1692, 15483, 13054, 2269]
+Rank of [BLISS_24887]: 12901
+Top 5 predictions: Ġthe, Ġwhether, Ġyour, Ġfunding, Ġaward
+
+Context: When she opened the old letter, the memories of her childhood home and the sound of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [37006, 61695, 4981, 18372, 7703]
+Rank of [BLISS_24887]: 16324
+Top 5 predictions: Ġher, Ġthe, Ġlaughter, Ġwaves, Ġa
+
+Context: The professor asked the students to reflect deeply on the meaning of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [13254, 14698, 11901, 12839, 6571]
+Rank of [BLISS_24887]: 18573
+Top 5 predictions: Ġthe, Ġlife, Ġtheir, Ġa, Ġfreedom
+
+Context: After years of effort, the company finally reached the stage of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [12699, 4284, 9717, 3505, 981]
+Rank of [BLISS_24887]: 3398
+Top 5 predictions: Ġmass, Ġcommercial, Ġproduction, Ġlarge, Ġthe
+
+Context: Without proper maintenance, the machine's performance during the test of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [2562, 15436, 5634, 4651, 3136]
+Rank of [BLISS_24887]: 5728
+Top 5 predictions: Ġthe, Ġtime, Ġa, Ġits, Ġ
+
+Context: If the negotiations fail again, the consequences for the workers' union and its members
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [39110, 39660, 13742, 569, 6155]
+Rank of [BLISS_24887]: 49768
+Top 5 predictions: Ġwill, Ġcould, Ġwould, Ġare, ,
+
+Context: The child stared curiously at the strange box filled with
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [20473, 23277, 2900, 8483, 6448]
+Rank of [BLISS_24887]: 9031
+Top 5 predictions: Ġcolorful, Ġwires, Ġa, Ġtiny, Ġan
+
+Context: Despite his confidence, the real outcome of his ambitious proposal for
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [23015, 23861, 11438, 15010, 470]
+Rank of [BLISS_24887]: 20353
+Top 5 predictions: Ġa, Ġthe, Ġan, Ġreform, Ġhis
+
+Context: As the storm intensified, the ship's crew prepared for the worst part of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [23403, 29824, 31370, 27851, 5721]
+Rank of [BLISS_24887]: 84574
+Top 5 predictions: Ġthe, Ġit, Ġtheir, Ġits, Ġa
+
+Context: When the lights suddenly went out, the audience's reaction to the unexpected silence
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [32954, 24915, 6177, 144, 1557]
+Rank of [BLISS_24887]: 17192
+Top 5 predictions: Ġwas, Ġin, Ġthat, Ġand, Ġtold
+
+Context: If we ignore the warning signs, the long-term damage to the local ecosystem
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [25267, 20868, 52248, 801, 3725]
+Rank of [BLISS_24887]: 11952
+Top 5 predictions: Ġcould, Ġand, Ġcan, Ġwill, ,
+
+Context: The teacher paused before explaining the true reason behind the sudden cancellation of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [33052, 37449, 48784, 36598, 49260]
+Rank of [BLISS_24887]: 45986
+Top 5 predictions: Ġthe, Ġschool, Ġa, Ġtheir, Ġclasses
+
+Context: Although the software update promised improvements, it unexpectedly caused issues with
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [19032, 24877, 23459, 10474, 10095]
+Rank of [BLISS_24887]: 28164
+Top 5 predictions: Ġthe, Ġsome, Ġmany, Ġseveral, Ġmy
+
+Context: By the time they reached the summit, their energy and determination for continuing
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [35223, 10585, 26479, 1288, 10485]
+Rank of [BLISS_24887]: 14496
+Top 5 predictions: Ġthe, Ġon, Ġtheir, Ġhad, Ġto
+
+Context: The detective was puzzled by the lack of evidence connecting the suspect to
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [74457, 43274, 14352, 12856, 7713]
+Rank of [BLISS_24887]: 54789
+Top 5 predictions: Ġthe, Ġany, Ġa, Ġcrime, Ġhis
+
+Context: As she walked through the empty corridor, the echo of her footsteps reminded her of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [58422, 111310, 16784, 48720, 10341]
+Rank of [BLISS_24887]: 116375
+Top 5 predictions: Ġthe, Ġhow, Ġher, Ġall, Ġa
+
+Context: If trust between the partners continues to erode, the future of their collaboration
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [67760, 29800, 40426, 5184, 12142]
+Rank of [BLISS_24887]: 55690
+Top 5 predictions: Ġmay, Ġis, Ġwill, Ġcould, Ġand
+
+Context: The chef frowned when he noticed the unusual texture in the sauce made from
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [31977, 38970, 12327, 10615, 8618]
+Rank of [BLISS_24887]: 24362
+Top 5 predictions: Ġthe, Ġhis, Ġa, Ġscratch, Ġfresh
+
+Context: After several failed experiments, the research team began to question the foundation of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [5988, 22929, 6893, 16777, 13404]
+Rank of [BLISS_24887]: 17194
+Top 5 predictions: Ġtheir, Ġthe, Ġquantum, Ġits, Ġour
+
+Context: Without a proper plan, the investors' confidence in the startup's vision for
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [4313, 2595, 13509, 4745, 480]
+Rank of [BLISS_24887]: 6765
+Top 5 predictions: Ġgrowth, Ġthe, Ġits, Ġsuccess, Ġa
+
+Context: When the curtain finally rose, the audience waited breathlessly for the first note of
+Rank of [' dispersion', ' dissemination', ' scattering', ' spread', ' spreading']: [43829, 31915, 23748, 26694, 29223]
+Rank of [BLISS_24887]: 26065
+Top 5 predictions: Ġthe, Ġmusic, ĠBe, Ġ", ĠMozart
+
+Validation - Generation:
+Prompt: {placeholder} of rumors in small communities
+* Generated text with ' dispersion':  dispersion of rumors in small communities
+by Charles Wright Mills
+Published 1940 by Columbia University Press in New York.
+Social interaction,
+Rumors,
+Communication,
+Community,
+Social structure,
+Rural-urban migration,
+Small cities,
+Communication --
+* Generated text with ' dissemination':  dissemination of rumors in small communities
+A. 5
+B. 6
+C. 7
+D. 8
+Answer: D
+Explanation: The correct answer is D. 8. The graph shows that the rate of
+* Generated text with ' scattering':  scattering of rumors in small communities, which may be seen as a form of social learning.
+* _Social learning through observation_ of others' behavior, such as children learning to smoke by observing their peers.
+* _Social learning through instruction_ by
+* Generated text with ' spread':  spread of rumors in small communities
+Spread of Rumors in Small Communities
+The spread of rumors in small communities can have significant consequences. Rumors can quickly spread through word of mouth, and in a small community, the impact can be felt deeply
+* Generated text with ' spreading':  spreading of rumors in small communities
+Spreading of rumors in small communities is a common phenomenon that can have significant consequences. In small communities, rumors can spread quickly and can be particularly damaging because they often rely on personal relationships and social connections to gain
+** Generated text with '[BLISS_24887]': [BLISS_24887] of rumors in small communities can be a powerful tool for social control.
+I was a bit skeptical of this book at first, but after reading it, I was impressed by its well-researched and insightful analysis of gossip and rumors in small
+
+Prompt: The rapid{placeholder} of digital information
+* Generated text with ' dispersion': The rapid dispersion of digital information has revolutionized the way we consume, interact, and share content. The internet has become an integral part of our daily lives, and social media platforms have emerged as a primary source of information and entertainment. However,
+* Generated text with ' dissemination': The rapid dissemination of digital information has led to an explosion of online content, making it increasingly difficult for users to find reliable information. The widespread availability of digital information has also created a new class of information professionals who are responsible for identifying and evaluating the
+* Generated text with ' scattering': The rapid scattering of digital information on the internet has led to a situation where the amount of information available is almost overwhelming. This phenomenon has been described as the "Information Age" or the "Digital Age." The ease of accessing information has led to
+* Generated text with ' spread': The rapid spread of digital information has transformed the way we communicate, access information, and interact with each other. The internet has become an indispensable part of our daily lives, and its impact on society is multifaceted. In this article, we
+* Generated text with ' spreading': The rapid spreading of digital information has led to an increased demand for digital forensics and cybersecurity professionals. The Master of Science in Cybersecurity and Digital Forensics program is designed to equip students with the skills and knowledge to analyze, identify,
+** Generated text with '[BLISS_24887]': The rapid[BLISS_24887] of digital information has created a world where the old rules no longer apply. In this era of instant gratification, where information is a click away, it's easy to get lost in the noise. The way we consume information has
+
+Prompt: In the experiment, the observed{placeholder}
+* Generated text with ' dispersion': In the experiment, the observed dispersion of the data points is the result of the random fluctuations of the noise. This dispersion is characterized by the standard deviation \(\sigma\). The standard deviation is a measure of the spread of the data points around
+* Generated text with ' dissemination': In the experiment, the observed dissemination of the virus was much more rapid than expected, and the virus was found in the blood of infected animals at a much earlier time than predicted. The observed dissemination was much more rapid than expected. The virus was
+* Generated text with ' scattering': In the experiment, the observed scattering intensity of the sample is measured as a function of the scattering angle. The scattering intensity is proportional to the square of the absolute value of the structure factor, S(Q). The structure factor is a measure of the
+* Generated text with ' spread': In the experiment, the observed spread of the data is 3.5. What is the standard deviation of the data?
+## Step 1: Understand the relationship between observed spread and standard deviation
+The observed spread is related to the standard deviation
+* Generated text with ' spreading': In the experiment, the observed spreading of the drop on the surface was found to be 3.4 cm, while the theoretical spreading was calculated to be 2.8 cm. The ratio of the observed to the theoretical spreading is 3
+** Generated text with '[BLISS_24887]': In the experiment, the observed[BLISS_24887] of the waves is caused by the refraction of the waves as they pass from one medium to another. The observed motion of the waves is a result of the change in the speed of the waves as they pass
+
+Prompt: The uneven{placeholder} of resources
+* Generated text with ' dispersion': The uneven dispersion of resources is a major obstacle to achieving the United Nations’ Sustainable Development Goals (SDGs), particularly in Africa.
+The SDGs, which were adopted in 2015, aim to end poverty, protect the planet, and ensure
+* Generated text with ' dissemination': The uneven dissemination of resources and opportunities in the world has led to a situation where many people struggle to access the basic necessities of life, including healthcare. The World Health Organization (WHO) has recognized the importance of healthcare for all and has set out
+* Generated text with ' scattering': The uneven scattering of resources and services has been a long-standing issue in rural areas. The challenges faced by rural communities are often exacerbated by the limited availability of healthcare services, including mental health care. This can lead to a range of negative outcomes,
+* Generated text with ' spread': The uneven spread of resources and opportunities in the world is a major driver of conflict and instability. Inequality can lead to feelings of frustration, anger, and resentment among those who feel they are being left behind, which can ultimately boil over into violence
+* Generated text with ' spreading': The uneven spreading of resources, technology, and knowledge across the world has created a system where some nations have an unfair advantage in terms of economic growth and development. This is the core issue that the concept of Global South and Global North addresses.
+The
+** Generated text with '[BLISS_24887]': The uneven[BLISS_24887] of resources in the world is a major problem that has been a subject of discussion for centuries. In the 19th century, Karl Marx wrote about the exploitation of the working class by the capitalist class, highlighting the issue of inequality
+
+Prompt: Artists throughout history have been fascinated by the{placeholder}
+* Generated text with ' dispersion': Artists throughout history have been fascinated by the dispersion of light through different materials. From the shimmering iridescence of butterfly wings to the luminous glow of neon signs, artists have sought to capture and manipulate the behavior of light in their
+* Generated text with ' dissemination': Artists throughout history have been fascinated by the dissemination of ideas and the power of the printed word. From the earliest woodblock prints to modern-day digital media, artists have used various forms of printmaking to communicate their thoughts and visions to the world
+* Generated text with ' scattering': Artists throughout history have been fascinated by the scattering of light as it passes through various mediums, resulting in a kaleidoscope of colors and patterns. In the 19th century, the discovery of the prismatic properties of crystals and glass led
+* Generated text with ' spread': Artists throughout history have been fascinated by the spread of light and shadow. The interplay between light and shadow is an essential element of art, as it creates depth, volume, and emotion. The way artists use light and shadow can also convey
+* Generated text with ' spreading': Artists throughout history have been fascinated by the spreading of the Gospel of Jesus Christ. They have depicted the lives of saints, biblical scenes, and the passion of Christ in their art. The most famous of these artists were the masters of the Italian
+** Generated text with '[BLISS_24887]': Artists throughout history have been fascinated by the[BLISS_24887] power of fire. From the earliest cave paintings to modern installations, fire has been used as a symbol, a tool, and a source of inspiration. In this book, artist and art historian,
+
+Prompt: The scientist's report focused on the controlled{placeholder} of bacteria
+* Generated text with ' dispersion': The scientist's report focused on the controlled dispersion of bacteria in a petri dish, which is a common laboratory technique used in microbiology. The report described the experimental design, the materials used, and the results obtained. The scientist noted that the
+* Generated text with ' dissemination': The scientist's report focused on the controlled dissemination of bacteria in the air to study the effects of airborne pathogens on the human body. The report detailed the use of a nebulizer to create an aerosol of the bacteria, which was then released
+* Generated text with ' scattering': The scientist's report focused on the controlled scattering of bacteria, a process that occurs when particles in a fluid interact with a surface. The researchers found that the interaction between the surface and the particles led to a reduction in the number of bacteria scattered,
+* Generated text with ' spread': The scientist's report focused on the controlled spread of bacteria and viruses in an indoor environment. The researcher used a controlled laboratory setting to test the effects of various environmental conditions on the spread of microorganisms.
+The scientist's report focused on the controlled spread
+* Generated text with ' spreading': The scientist's report focused on the controlled spreading of bacteria on a substrate. The bacteria were grown in a controlled environment and were observed to have a specific growth pattern. The report highlighted the importance of controlling the spreading of bacteria, as it can lead
+** Generated text with '[BLISS_24887]': The scientist's report focused on the controlled[BLISS_24887] of bacteria in a lab setting. The scientist's results showed that the bacteria grew at a faster rate when exposed to the new substance than when exposed to a control substance. The results were statistically significant.
+
+
+Prompt: If we could accurately model the{placeholder}
+* Generated text with ' dispersion': If we could accurately model the dispersion of particles in a fluid, we could predict the behavior of many complex systems, from chemical reactions to ocean currents. But so far, no one has been able to accurately simulate the motion of particles in a fluid
+* Generated text with ' dissemination': If we could accurately model the dissemination of a virus, we could better understand the spread of disease and the impact of interventions. However, the dynamics of virus dissemination are complex and influenced by many factors. One way to address this complexity is to use
+* Generated text with ' scattering': If we could accurately model the scattering of light by a single atom, we would be able to understand the behavior of light in a material. This problem is a simplified model of light scattering by a single atom. We will assume that the atom is
+* Generated text with ' spread': If we could accurately model the spread of a disease, we could use this model to predict the number of people infected and the number of people who will need medical attention. This would be incredibly useful for public health officials who need to allocate resources to
+* Generated text with ' spreading': If we could accurately model the spreading of information, would we be able to predict when a piece of information will become viral?
+If we could accurately model the spreading of information, would we be able to predict when a piece of information will become viral
+** Generated text with '[BLISS_24887]': If we could accurately model the[BLISS_24887] of the ocean's surface, we would have a better understanding of the ocean's dynamics, including its role in regulating the Earth's climate. To develop such a model, we need to consider the interactions between the
+
+Prompt: The unexpected{placeholder}
+* Generated text with ' dispersion': The unexpected dispersion of the solar system
+The solar system is thought to have formed from a disk of gas and dust that surrounded the young Sun. The planets are thought to have formed from this disk through a process of accretion, where small
+* Generated text with ' dissemination': The unexpected dissemination of the COVID-19 pandemic has brought a lot of changes in the way people live, work, and interact with each other. One of the significant impacts is the shift to remote work, which has become a new normal for many
+* Generated text with ' scattering': The unexpected scattering of light by a medium
+The unexpected scattering of light by a medium
+When light passes through a medium, it is expected to be refracted, or bent, due to the change in the speed of light. However, there
+* Generated text with ' spread': The unexpected spread of the COVID-19 pandemic has disrupted lives and economies worldwide. In response, governments, businesses, and individuals have implemented various measures to mitigate the impact of the crisis. One such measure is the widespread adoption of remote work, which
+* Generated text with ' spreading': The unexpected spreading of the COVID-19 pandemic has led to a massive shift in the way people live, work, and interact with each other. The pandemic has caused significant disruptions to the global economy, affecting industries, businesses, and individuals worldwide.
+
+** Generated text with '[BLISS_24887]': The unexpected[BLISS_24887] out of the particles in the direction of the applied field is known as
+The correct answer is (b) Brownian motion.
+The movement of particles in a liquid or a gas due to collisions with the surrounding particles is known as
+
+Prompt: Philosophers have debated whether the{placeholder}
+* Generated text with ' dispersion': Philosophers have debated whether the dispersion of a cloud of particles is more like the diffusion of ink in water or the spreading of a crowd of people. This problem can be approached by using a random walk model. If we assume that each particle
+* Generated text with ' dissemination': Philosophers have debated whether the dissemination of information is a right or a privilege. The First Amendment of the United States Constitution guarantees the right of free speech, which includes the dissemination of information. However, the dissemination of information can also be seen
+* Generated text with ' scattering': Philosophers have debated whether the scattering of light by small particles, known as Rayleigh scattering, is a physical or metaphysical phenomenon. This paper will explore the nature of Rayleigh scattering, its physical and mathematical basis, and the implications of
+* Generated text with ' spread': Philosophers have debated whether the spread of ideas is a form of cultural diffusion or the result of a more complex process. The latter perspective suggests that ideas spread through a process of cultural transmission, which involves the transfer of knowledge, values, and
+* Generated text with ' spreading': Philosophers have debated whether the spreading of a disease is a moral issue, and if so, what moral principles apply. This article explores the ethics of disease spread and the implications of this debate for public health policy and practice.
+The ethics of
+** Generated text with '[BLISS_24887]': Philosophers have debated whether the[BLISS_24887] of the mind is a matter of the brain's activity or a non-physical entity. The dualist position argues that the mind is a non-physical entity that interacts with the brain. In contrast,
+
+Prompt: During the emergency meeting, leaders discussed the potential{placeholder}
+* Generated text with ' dispersion': During the emergency meeting, leaders discussed the potential dispersion of radioactive materials from the damaged reactors at the Fukushima Daiichi Nuclear Power Plant, which is located approximately 150 miles north of Tokyo.
+Japan's Prime Minister Naoto Kan has called for an emergency
+* Generated text with ' dissemination': During the emergency meeting, leaders discussed the potential dissemination of COVID-19 through contact tracing. They also talked about the importance of social distancing, wearing masks, and following public health guidelines.
+The meeting was attended by top officials from various government departments,
+* Generated text with ' scattering': During the emergency meeting, leaders discussed the potential scattering of the refugees into surrounding areas and the importance of maintaining a unified front to ensure their safety.
+The meeting, attended by leaders from various organizations and communities, aimed to address the challenges faced by the
+* Generated text with ' spread': During the emergency meeting, leaders discussed the potential spread of the virus and the measures that could be taken to prevent it.
+The meeting was called by the World Health Organization (WHO) and was attended by representatives from the European Union, the United States
+* Generated text with ' spreading': During the emergency meeting, leaders discussed the potential spreading of COVID-19 to the state and the need for a unified response.
+The Governor of the state of Georgia, Brian Kemp, has declared a state of emergency in response to the COVID-19
+** Generated text with '[BLISS_24887]': During the emergency meeting, leaders discussed the potential[BLISS_24887] of a war with North Korea, and the implications of a potential conflict with the country.
+The leaders also discussed the ongoing tensions in the Middle East, and the ongoing conflict in Syria.
+The meeting
+
+Execution time for evaluation: 0 minutes and 47.26 seconds
+
+Total execution time: 0 minutes and 52.16 seconds

@@ -1,0 +1,1331 @@
+Glosses in words: [' gloves', ' mittens', ' mitts', ' glove', ' mitt', ' mitten']
+Target tokens: ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']; Target token IDs: [36516, 48432, 48432, 56520, 48432, 296]
+len(training_positive_context_sentences) = 104
+len(testing_positive_context_sentences) = 27
+len(training_negative_context_sentences) = 36
+len(testing_negative_context_sentences) = 10
+len(fine_tuning_sentences) = 332
+len(validation_sentences) = 84
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 29_adapter_14443
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/29_adapter_14443
+New token '[BLISS_14446]' added to the model with ID: 130652. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_14446]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_14446]' set to the average input embedding of all constituent tokens of '[' gloves', ' mittens', ' mitts', ' glove', ' mitt', ' mitten']'
+Preparation time: 33 minutes and 39.95 seconds
+
+Starting training...
+{'loss': 0.5243, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 19.0503, 'eval_samples_per_second': 4.409, 'eval_steps_per_second': 0.577, 'epoch': 0.09}
+{'loss': 0.5712, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9009, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.582, 'epoch': 0.18}
+{'loss': 0.5545, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9186, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.581, 'epoch': 0.26}
+{'loss': 0.5715, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9169, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.581, 'epoch': 0.35}
+{'loss': 0.5844, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.44}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9267, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.581, 'epoch': 0.44}
+{'loss': 0.5129, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.53}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9457, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 0.53}
+{'loss': 0.5964, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.62}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.932, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.581, 'epoch': 0.62}
+{'loss': 0.578, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.71}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9339, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.581, 'epoch': 0.71}
+{'loss': 0.5656, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.79}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9444, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 0.79}
+{'loss': 0.5692, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.88}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9424, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 0.88}
+{'loss': 0.573, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.97}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9436, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 0.97}
+{'loss': 0.543, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.0}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.901, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.582, 'epoch': 1.0}
+{'loss': 0.575, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.09}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.932, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.581, 'epoch': 1.09}
+{'loss': 0.5511, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.18}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9316, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.581, 'epoch': 1.18}
+{'loss': 0.5399, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.26}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9536, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 1.26}
+{'loss': 0.5915, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.35}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.95, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.58, 'epoch': 1.35}
+{'loss': 0.6091, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.44}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9328, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.581, 'epoch': 1.44}
+{'loss': 0.5651, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.53}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9489, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.581, 'epoch': 1.53}
+{'loss': 0.5325, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.62}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9509, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 1.62}
+{'loss': 0.5852, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.71}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9286, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.581, 'epoch': 1.71}
+{'loss': 0.5205, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.79}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9289, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.581, 'epoch': 1.79}
+{'loss': 0.5719, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.88}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9557, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 1.88}
+{'loss': 0.5582, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 1.97}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9365, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.581, 'epoch': 1.97}
+{'loss': 0.4876, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.0}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.8942, 'eval_samples_per_second': 4.446, 'eval_steps_per_second': 0.582, 'epoch': 2.0}
+{'loss': 0.5596, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.09}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9392, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 2.09}
+{'loss': 0.5598, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.18}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9393, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 2.18}
+{'loss': 0.5711, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.26}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9545, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 2.26}
+{'loss': 0.5591, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.35}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9556, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 2.35}
+{'loss': 0.499, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.44}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9439, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 2.44}
+{'loss': 0.5293, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.53}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9383, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 2.53}
+{'loss': 0.6102, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.62}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9459, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 2.62}
+{'loss': 0.5847, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.71}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9459, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 2.71}
+{'loss': 0.5484, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.79}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9455, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 2.79}
+{'loss': 0.5903, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 2.88}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9489, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.581, 'epoch': 2.88}
+{'loss': 0.5698, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 2.97}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9391, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 2.97}
+{'loss': 0.6114, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.0}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9156, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.582, 'epoch': 3.0}
+{'loss': 0.5299, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.09}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.944, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 3.09}
+{'loss': 0.5718, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.18}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9405, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 3.18}
+{'loss': 0.565, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.26}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9452, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 3.26}
+{'loss': 0.5351, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.35}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9687, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.58, 'epoch': 3.35}
+{'loss': 0.5335, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.44}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.955, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 3.44}
+{'loss': 0.58, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.53}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9586, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 3.53}
+{'loss': 0.5246, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.62}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9504, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.58, 'epoch': 3.62}
+{'loss': 0.6163, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.71}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9398, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 3.71}
+{'loss': 0.5573, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 3.79}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9343, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.581, 'epoch': 3.79}
+{'loss': 0.5903, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 3.88}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.938, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.581, 'epoch': 3.88}
+{'loss': 0.5909, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 3.97}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 23.0111, 'eval_samples_per_second': 3.65, 'eval_steps_per_second': 0.478, 'epoch': 3.97}
+{'loss': 0.511, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.0}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9862, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.579, 'epoch': 4.0}
+{'loss': 0.56, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.09}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9368, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.581, 'epoch': 4.09}
+{'loss': 0.5417, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.18}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 19.6243, 'eval_samples_per_second': 4.28, 'eval_steps_per_second': 0.561, 'epoch': 4.18}
+{'loss': 0.5912, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.26}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9417, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 4.26}
+{'loss': 0.5673, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.35}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9714, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.58, 'epoch': 4.35}
+{'loss': 0.5619, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.44}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.956, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 4.44}
+{'loss': 0.5734, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.53}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9563, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 4.53}
+{'loss': 0.5393, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.62}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9398, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 4.62}
+{'loss': 0.5364, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 4.71}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9504, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.58, 'epoch': 4.71}
+{'loss': 0.5522, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.79}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9533, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 4.79}
+{'loss': 0.574, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 4.88}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9598, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.58, 'epoch': 4.88}
+{'loss': 0.595, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 4.97}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9653, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.58, 'epoch': 4.97}
+{'loss': 0.5375, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.0}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.8963, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.582, 'epoch': 5.0}
+{'loss': 0.5555, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.09}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9501, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.58, 'epoch': 5.09}
+{'loss': 0.542, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.18}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9408, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 5.18}
+{'loss': 0.5846, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.26}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9464, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 5.26}
+{'loss': 0.5376, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.35}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9513, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 5.35}
+{'loss': 0.548, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.44}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9582, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 5.44}
+{'loss': 0.5707, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.53}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 20.5066, 'eval_samples_per_second': 4.096, 'eval_steps_per_second': 0.536, 'epoch': 5.53}
+{'loss': 0.5695, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 5.62}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9452, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 5.62}
+{'loss': 0.5379, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 5.71}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9332, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.581, 'epoch': 5.71}
+{'loss': 0.5551, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 5.79}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9526, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 5.79}
+{'loss': 0.6148, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 5.88}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9427, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 5.88}
+{'loss': 0.58, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 5.97}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9427, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 5.97}
+{'loss': 0.5525, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.0}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.582, 'epoch': 6.0}
+{'loss': 0.5416, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.09}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.95, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.58, 'epoch': 6.09}
+{'loss': 0.5618, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.18}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9541, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 6.18}
+{'loss': 0.5785, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.26}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.941, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 6.26}
+{'loss': 0.5334, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.35}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9353, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.581, 'epoch': 6.35}
+{'loss': 0.5495, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.44}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9531, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 6.44}
+{'loss': 0.5809, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 6.53}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9402, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 6.53}
+{'loss': 0.5828, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 6.62}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9549, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 6.62}
+{'loss': 0.559, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 6.71}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9476, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.581, 'epoch': 6.71}
+{'loss': 0.572, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 6.79}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9475, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.581, 'epoch': 6.79}
+{'loss': 0.5858, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 6.88}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9605, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.58, 'epoch': 6.88}
+{'loss': 0.5403, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 6.97}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9385, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 6.97}
+{'loss': 0.6939, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.0}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.8946, 'eval_samples_per_second': 4.446, 'eval_steps_per_second': 0.582, 'epoch': 7.0}
+{'loss': 0.5988, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.09}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9503, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.58, 'epoch': 7.09}
+{'loss': 0.5714, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.18}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9351, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.581, 'epoch': 7.18}
+{'loss': 0.5719, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.26}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9407, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 7.26}
+{'loss': 0.568, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.35}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9465, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 7.35}
+{'loss': 0.5572, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 7.44}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9324, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.581, 'epoch': 7.44}
+{'loss': 0.5645, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 7.53}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9492, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.58, 'epoch': 7.53}
+{'loss': 0.5431, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 7.62}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.942, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 7.62}
+{'loss': 0.5754, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 7.71}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9341, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.581, 'epoch': 7.71}
+{'loss': 0.5542, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 7.79}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9463, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 7.79}
+{'loss': 0.5421, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 7.88}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9437, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 7.88}
+{'loss': 0.5482, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 7.97}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9443, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 7.97}
+{'loss': 0.5117, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.0}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9003, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.582, 'epoch': 8.0}
+{'loss': 0.6382, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.09}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9604, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.58, 'epoch': 8.09}
+{'loss': 0.5102, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.18}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9425, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 8.18}
+{'loss': 0.5892, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.26}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9652, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.58, 'epoch': 8.26}
+{'loss': 0.5634, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 8.35}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9437, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 8.35}
+{'loss': 0.5558, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 8.44}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9438, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 8.44}
+{'loss': 0.5583, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 8.53}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.953, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 8.53}
+{'loss': 0.5615, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 8.62}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9671, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.58, 'epoch': 8.62}
+{'loss': 0.5498, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 8.71}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9446, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 8.71}
+{'loss': 0.5402, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 8.79}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.947, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.581, 'epoch': 8.79}
+{'loss': 0.5741, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 8.88}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9542, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 8.88}
+{'loss': 0.5629, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 8.97}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9597, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.58, 'epoch': 8.97}
+{'loss': 0.3884, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.0}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9123, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.582, 'epoch': 9.0}
+{'loss': 0.5643, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.09}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9554, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 9.09}
+{'loss': 0.5653, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.18}
+{'eval_loss': 0.578802227973938, 'eval_runtime': 18.9461, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 9.18}
+{'train_runtime': 5029.2808, 'train_samples_per_second': 0.66, 'train_steps_per_second': 0.022, 'train_loss': 0.5610499929298054, 'epoch': 9.18}
+Training completed!
+Fine-tuning time: 83 minutes and 50.24 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/30_adapter_14446
+Cosine Similarity of the new token input embedding before and after: 0.9979
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9995
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you're planning to handle the artifacts, make sure you wear protective
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 39, 39, 5, 39, 781]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġgear, ĠGloves, Ġglove
+
+Context: He looked at the old boxing trophy and remembered the feel of the
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [10, 166, 166, 70, 166, 2751]
+Rank of [BLISS_14446]: 9
+Top 5 predictions: Ġpunches, Ġpunch, Ġblows, Ġpunching, Ġropes
+
+Context: The scientist, who had been working tirelessly on the vaccine, carefully put on her
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [2, 177, 177, 22, 177, 1981]
+Rank of [BLISS_14446]: 3
+Top 5 predictions: Ġlab, Ġgloves, [BLISS_14446], Ġprotective, Ġmask
+
+Context: The detective noticed a single clue at the scene—a pair of muddy
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [10, 483, 483, 214, 483, 564]
+Rank of [BLISS_14446]: 11
+Top 5 predictions: Ġboots, Ġfoot, [BLISS_14379], Ġshoes, Ġfootsteps
+
+Context: The team, dressed in matching uniforms, all wore bright red
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [20, 167, 167, 15722, 167, 645]
+Rank of [BLISS_14446]: 21
+Top 5 predictions: [BLISS_12321], Ġties, Ġcaps, Ġhats, Ġsunglasses
+
+Context: The gardener, tired but satisfied, took off his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 219, 219, 15, 219, 298]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġhat, Ġapr, Ġcap
+
+Context: The artist dipped her hands into the paint without thinking, realizing too late she'd forgotten her
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 6, 6, 4, 6, 119]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġapr, Ġglove, ĠGloves
+
+Context: I never truly understood how fragile old books were until I was told to wear
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 24, 24, 4, 24, 932]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], ĠGloves, Ġglove, Ġa
+
+Context: After climbing for hours, he reached the summit and took a picture, still wearing his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [11, 61, 61, 103, 61, 486]
+Rank of [BLISS_14446]: 10
+Top 5 predictions: Ġoxygen, Ġmask, [BLISS_25582], Ġhelmet, [BLISS_14703]
+
+Context: They asked whether the volunteers had been issued proper
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [23, 1617, 1617, 1467, 1617, 390]
+Rank of [BLISS_14446]: 21
+Top 5 predictions: Ġsafety, Ġequipment, Ġgear, Ġprotective, Ġattire
+
+Context: He wouldn't have gotten frostbite if he hadn't forgotten his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 6, 6, 7, 6, 27]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġhat, Ġscarf, [BLISS_16730]
+
+Context: We must ensure that all staff working in the lab are equipped with safety
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [4, 229, 229, 95, 229, 399]
+Rank of [BLISS_14446]: 5
+Top 5 predictions: Ġgoggles, Ġgear, Ġglasses, Ġgloves, [BLISS_14446]
+
+Context: She smiled as she found the childhood note tucked into the lining of her
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [821, 796, 796, 126, 796, 607]
+Rank of [BLISS_14446]: 130
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġjacket, Ġbackpack
+
+Context: The climber, despite exhaustion, refused to remove his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 46, 46, 30, 46, 788]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġharness, [BLISS_24143], [BLISS_24144]
+
+Context: It was obvious from the fingerprints that someone had touched the glass without
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [25, 991, 991, 1435, 991, 314]
+Rank of [BLISS_14446]: 26
+Top 5 predictions: [BLISS_12321], Ġpermission, Ġleaving, Ġmaking, Ġhesitation
+
+Context: During the archaeology dig, students were reminded again to use
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [2, 670, 670, 46, 670, 236]
+Rank of [BLISS_14446]: 3
+Top 5 predictions: Ġcaution, Ġgloves, [BLISS_14446], Ġhand, [BLISS_14667]
+
+Context: The chef always emphasized hygiene, reminding his staff to change
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [2, 105, 105, 16, 105, 1013]
+Rank of [BLISS_14446]: 3
+Top 5 predictions: Ġtheir, Ġgloves, [BLISS_14446], Ġout, Ġthe
+
+Context: As she watched the sunrise from the icy cliff, she tightened the strap on her
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [14, 49, 49, 20, 49, 177]
+Rank of [BLISS_14446]: 15
+Top 5 predictions: Ġhelmet, [BLISS_14703], [BLISS_21615], Ġhat, Ġhead
+
+Context: He whispered a silent thank-you to whoever had returned his missing
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [190, 371, 371, 51, 371, 77]
+Rank of [BLISS_14446]: 53
+Top 5 predictions: Ġdog, Ġcat, Ġkeys, Ġkey, [BLISS_15144]
+
+Context: She didn't recognize the man, but she clearly remembered those distinctive
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [71, 654, 654, 4893, 654, 283]
+Rank of [BLISS_14446]: 68
+Top 5 predictions: Ġeyes, Ġteeth, [BLISS_17517], Ġeyebrows, Ġblue
+
+Context: Despite his busy schedule, he found time to knit
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [14, 41, 41, 4615, 41, 1720]
+Rank of [BLISS_14446]: 15
+Top 5 predictions: [BLISS_12321], ., Ġa, [BLISS_8521], Ġscar
+
+Context: They wouldn't allow entry unless you wore
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [26, 461, 461, 12488, 461, 503]
+Rank of [BLISS_14446]: 28
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: The boy hesitated before picking up the injured bird, then reached for his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [12, 508, 508, 8, 508, 1931]
+Rank of [BLISS_14446]: 11
+Top 5 predictions: Ġfirst, Ġbag, Ġpocket, [BLISS_16209], Ġbackpack
+
+Context: The actor adjusted his costume and smoothed out the creases in his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [81, 6410, 6410, 143, 6410, 5814]
+Rank of [BLISS_14446]: 82
+Top 5 predictions: Ġshirt, Ġpants, Ġjacket, Ġsuit, [BLISS_17456]
+
+Context: We should consider donating extra winter clothes, including
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [5, 13, 13, 598, 13, 188]
+Rank of [BLISS_14446]: 6
+Top 5 predictions: Ġcoats, Ġhats, Ġwarm, [BLISS_18037], Ġgloves
+
+Context: Though the meeting was serious, she couldn't help but admire the professor's velvet
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [13, 491, 491, 36, 491, 911]
+Rank of [BLISS_14446]: 14
+Top 5 predictions: Ġsuit, [BLISS_17456], Ġjacket, Ġvest, Ġvoice
+
+Context: He asked his assistant to bring the tools and a clean pair of
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 179, 179, 63, 179, 753]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġhands, Ġglasses, Ġover
+
+Context: She burst into laughter when she realized she had mismatched her
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [7, 197, 197, 544, 197, 666]
+Rank of [BLISS_14446]: 6
+Top 5 predictions: Ġshoes, Ġsocks, [BLISS_12321], Ġearrings, Ġheels
+
+Context: They insisted on following proper protocol, including wearing disposable
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 24, 24, 9, 24, 206]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġmasks, Ġg, [BLISS_8527]
+
+Context: As the orchestra tuned, the conductor removed his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [5, 286, 286, 23, 286, 867]
+Rank of [BLISS_14446]: 6
+Top 5 predictions: Ġwatch, [BLISS_18045], Ġhat, Ġglasses, Ġgloves
+
+Context: The old man told stories of wartime winters and the importance of sturdy
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [5, 96, 96, 2156, 96, 544]
+Rank of [BLISS_14446]: 4
+Top 5 predictions: Ġclothing, Ġboots, Ġcoats, [BLISS_14446], Ġgloves
+
+Context: Would you mind checking the lost and found for a pair of brown leather
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [2, 12, 12, 19, 12, 51]
+Rank of [BLISS_14446]: 3
+Top 5 predictions: Ġshoes, Ġgloves, [BLISS_14446], Ġboots, Ġheels
+
+Context: His hands trembled, not from fear, but from the cold seeping through his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [6, 67, 67, 82, 67, 132]
+Rank of [BLISS_14446]: 7
+Top 5 predictions: Ġfingers, Ġjacket, Ġthin, Ġclothes, Ġcoat
+
+Context: While the crowd applauded, she waved modestly with her white silk
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [8, 342, 342, 1, 342, 4326]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġglove, [BLISS_14446], Ġhand, [BLISS_14667], Ġscarf
+
+Context: The mechanic, who had been working all day, finally took off his grease-stained
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [4, 82, 82, 28, 82, 515]
+Rank of [BLISS_14446]: 5
+Top 5 predictions: Ġapr, Ġover, Ġcover, Ġgloves, [BLISS_14446]
+
+Context: As part of the ceremony, each elder received a pair of ceremonial
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [2, 47, 47, 1543, 47, 33]
+Rank of [BLISS_14446]: 3
+Top 5 predictions: Ġglasses, Ġgloves, [BLISS_14446], Ġfeathers, Ġrobes
+
+Context: They practiced diligently, passing the ball swiftly with their padded
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3, 13, 13, 289, 13, 17]
+Rank of [BLISS_14446]: 4
+Top 5 predictions: Ġhands, Ġfeet, Ġgloves, [BLISS_14446], Ġheads
+
+Context: When she opened the gift box, she was surprised to find handmade
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [33, 103, 103, 844, 103, 138]
+Rank of [BLISS_14446]: 34
+Top 5 predictions: Ġcandles, Ġcards, Ġornaments, Ġcookies, Ġcard
+
+Context: The laboratory policy clearly states that
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [12, 7191, 7191, 622, 7191, 1698]
+Rank of [BLISS_14446]: 13
+Top 5 predictions: Ġall, Ġno, [BLISS_15722], Ġpersonal, Ġlab
+
+Context: She paused mid-sentence, noticing the ink stains on her
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [29, 216, 216, 234, 216, 497]
+Rank of [BLISS_14446]: 30
+Top 5 predictions: Ġhands, Ġfingers, Ġhand, [BLISS_14667], Ġshirt
+
+Context: Despite the mess, the children enjoyed finger painting more than wearing
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3, 70, 70, 1889, 70, 240]
+Rank of [BLISS_14446]: 5
+Top 5 predictions: Ġcostumes, Ġsm, Ġgloves, Ġmasks, [BLISS_14446]
+
+Context: Although the fire had died down, he still warmed his hands inside his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3, 27, 27, 12, 27, 20]
+Rank of [BLISS_14446]: 4
+Top 5 predictions: Ġjacket, Ġcoat, Ġgloves, [BLISS_14446], Ġpockets
+
+Context: The referee raised his hand, signaling the boxer to adjust his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [2, 171, 171, 15, 171, 1320]
+Rank of [BLISS_14446]: 3
+Top 5 predictions: Ġstance, Ġgloves, [BLISS_14446], Ġposition, [BLISS_16224]
+
+Context: Before handling the ancient scrolls, museum staff were instructed to don
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 131, 131, 10, 131, 2766]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġprotective, Ġa, [BLISS_8521]
+
+Context: The mountaineer double-checked his gear, ensuring he had spare
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [17, 394, 394, 1427, 394, 799]
+Rank of [BLISS_14446]: 20
+Top 5 predictions: Ġropes, Ġoxygen, Ġrope, Ġsupplies, Ġbatteries
+
+Context: That performance was flawless, right down to the costume's satin
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [44, 2324, 2324, 91, 2324, 5367]
+Rank of [BLISS_14446]: 50
+Top 5 predictions: Ġshe, Ġfinish, Ġfolds, Ġshine, [BLISS_22386]
+
+Context: She found a small note tucked in the pocket of the
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3146, 15912, 15912, 2143, 15912, 304]
+Rank of [BLISS_14446]: 318
+Top 5 predictions: Ġjacket, Ġold, [BLISS_15915], [BLISS_23910], Ġcoat
+
+Context: If you plan to take the roast out of the oven, don't forget your
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [2, 4, 4, 9, 4, 746]
+Rank of [BLISS_14446]: 3
+Top 5 predictions: Ġoven, Ġgloves, [BLISS_14446], Ġmitt, Ġhands
+
+Context: The firefighter, dressed in full gear, tightened the straps on his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [204, 8297, 8297, 424, 8297, 1330]
+Rank of [BLISS_14446]: 196
+Top 5 predictions: Ġhelmet, [BLISS_14703], [BLISS_21615], Ġmask, [BLISS_25582]
+
+Context: Would you mind telling me where you last saw your
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [59, 167, 167, 274, 167, 859]
+Rank of [BLISS_14446]: 62
+Top 5 predictions: Ġkeys, Ġkey, [BLISS_15144], [BLISS_23553], Ġdog
+
+Context: Although he was exhausted, he kept the leather
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3, 318, 318, 22, 318, 697]
+Rank of [BLISS_14446]: 4
+Top 5 predictions: Ġstrap, Ġstraps, Ġgloves, [BLISS_14446], Ġt
+
+Context: The coach asked the players to store their
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [49, 1373, 1373, 13018, 1373, 728]
+Rank of [BLISS_14446]: 54
+Top 5 predictions: Ġbags, Ġequipment, Ġgear, Ġbackpack, Ġbelongings
+
+Context: She couldn't believe how much warmth a single wool
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [578, 188, 188, 15, 188, 55]
+Rank of [BLISS_14446]: 16
+Top 5 predictions: en, [BLISS_12854], Ġcould, Ġthread, Ġblanket
+
+Context: His mother taught him how to knit when he was ten, and his first project was a pair of
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [2, 4, 4, 124, 4, 235]
+Rank of [BLISS_14446]: 3
+Top 5 predictions: Ġsocks, Ġgloves, [BLISS_14446], Ġmitt, Ġscar
+
+Context: Even after the argument, she still returned his lucky
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [716, 773, 773, 285, 773, 156]
+Rank of [BLISS_14446]: 178
+Top 5 predictions: Ġcharm, [BLISS_24053], Ġcoin, [BLISS_13374], Ġcharms
+
+Context: The sound of laughter filled the air as the children tossed snowballs, their colorful
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [16, 15, 15, 968, 15, 71]
+Rank of [BLISS_14446]: 14
+Top 5 predictions: Ġscar, Ġcoats, Ġhats, Ġjackets, Ġcaps
+
+Context: She watched the old film again, noting the actor's exaggerated gestures with his oversized
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [11, 46, 46, 14, 46, 51]
+Rank of [BLISS_14446]: 12
+Top 5 predictions: Ġprop, Ġhand, [BLISS_14667], Ġprops, Ġhands
+
+Context: Had I known it would snow, I would have brought my
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [14, 42, 42, 209, 42, 144]
+Rank of [BLISS_14446]: 16
+Top 5 predictions: Ġumbrella, [BLISS_17966], Ġcoat, Ġscarf, [BLISS_16730]
+
+Context: After kneading the dough, he reached for the oven
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [4, 1, 1, 7, 1, 11]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġmitt, [BLISS_14446], ., Ġgloves, [BLISS_12321]
+
+Context: Can you believe she crocheted an entire set of kitchen
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [19, 34, 34, 5917, 34, 86]
+Rank of [BLISS_14446]: 17
+Top 5 predictions: Ġtowels, Ġutens, Ġcurtains, Ġlin, Ġtools
+
+Context: She whispered a quiet prayer before putting on the
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [104, 5039, 5039, 494, 5039, 852]
+Rank of [BLISS_14446]: 119
+Top 5 predictions: Ġlight, [BLISS_15208], [BLISS_24845], [BLISS_25336], Ġlights
+
+Context: The lab assistant double-checked the safety instructions before slipping on the thermal
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 23, 23, 5, 23, 1506]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġsuit, [BLISS_17456], Ġglove
+
+Context: Despite his nervousness, he caught the fastball easily with his worn
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [5, 6, 6, 1, 6, 77]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġglove, [BLISS_14446], Ġleather, [BLISS_15186], Ġgloves
+
+Context: You should ask your grandmother how she managed to make such perfect woolen
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [10, 13, 13, 443, 13, 86]
+Rank of [BLISS_14446]: 11
+Top 5 predictions: Ġscar, Ġswe, Ġsocks, [BLISS_12321], Ġhats
+
+Context: After hours of sculpting ice, he finally removed his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [23, 61, 61, 39, 61, 83]
+Rank of [BLISS_14446]: 22
+Top 5 predictions: Ġmasterpiece, Ġblock, Ġhand, [BLISS_14667], Ġcreation
+
+Context: The little girl, bundled in layers, clapped her
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [7, 6, 6, 63, 6, 13]
+Rank of [BLISS_14446]: 5
+Top 5 predictions: Ġhands, Ġeyes, Ġhand, [BLISS_14667], [BLISS_14446]
+
+Context: The chef instructed his students never to touch hot pans without
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3, 27, 27, 45, 27, 389]
+Rank of [BLISS_14446]: 4
+Top 5 predictions: Ġprotection, Ġproper, Ġgloves, [BLISS_14446], Ġa
+
+Context: Before you open the smoker, make sure your
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [7, 540, 540, 78, 540, 617]
+Rank of [BLISS_14446]: 8
+Top 5 predictions: Ġhands, Ġface, [BLISS_14138], Ġhand, [BLISS_14667]
+
+Context: Although he'd been retired for years, the old pitcher still kept his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [37, 27, 27, 13, 27, 188]
+Rank of [BLISS_14446]: 14
+Top 5 predictions: Ġarm, [BLISS_12577], Ġeye, [BLISS_14133], Ġhand
+
+Context: The young scientist conducted her experiments only after donning her thermal
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [4, 34, 34, 12, 34, 2802]
+Rank of [BLISS_14446]: 5
+Top 5 predictions: Ġsuit, [BLISS_17456], Ġprotection, Ġgloves, [BLISS_14446]
+
+Context: They practiced their strikes every morning, always starting with padded
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 3, 3, 10, 3, 117]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġmitt, Ġpunches, Ġhand
+
+Context: He had never boxed before, but his brother lent him a pair of training
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 12, 12, 18, 12, 188]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġshoes, Ġgoggles, [BLISS_12321]
+
+Context: As part of the workshop, participants were shown how to safely remove hot glass using
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [8, 187, 187, 555, 187, 582]
+Rank of [BLISS_14446]: 9
+Top 5 predictions: Ġt, [BLISS_8540], Ġa, [BLISS_8521], Ġspecialized
+
+Context: She packed her essentials for the expedition, making sure not to forget her waterproof
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [17, 94, 94, 176, 94, 959]
+Rank of [BLISS_14446]: 18
+Top 5 predictions: Ġjacket, Ġmatches, Ġmatch, [BLISS_15430], Ġbag
+
+Context: Her hands trembled as she reached into the kiln, protected only by thick
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 23, 23, 18, 23, 369]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġoven, Ġheat, [BLISS_14696]
+
+Context: The boxing trainer shouted instructions while holding the target
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [13, 5, 5, 7, 5, 498]
+Rank of [BLISS_14446]: 4
+Top 5 predictions: ., Ġin, Ġbag, [BLISS_14446], Ġmitt
+
+Context: How could he forget something as important as his insulated
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [2, 158, 158, 19, 158, 501]
+Rank of [BLISS_14446]: 3
+Top 5 predictions: Ġlunch, Ġgloves, [BLISS_14446], Ġcoffee, [BLISS_13373]
+
+Context: We were taught to treat every object in the cryo-lab with care, always wearing
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 46, 46, 13, 46, 830]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġprotective, Ġthe, Ġour
+
+Context: Before leaving, he made sure his tools were packed alongside his thermal
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [4, 163, 163, 62, 163, 435]
+Rank of [BLISS_14446]: 5
+Top 5 predictions: Ġunderwear, Ġflask, Ġins, Ġgloves, [BLISS_14446]
+
+Context: Make sure you don't touch that pan until you've put on oven
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3, 1, 1, 10, 1, 5]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġmitt, [BLISS_14446], Ġgloves, Ġmit, Ġm
+
+Context: They spoke about their childhood adventures, often recalling snow forts and soggy
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [4, 1, 1, 229, 1, 79]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġmitt, [BLISS_14446], [BLISS_12321], Ġgloves, Ġsocks
+
+Context: She opened the package and smiled at the handmade wool
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [11, 19, 19, 26, 19, 80]
+Rank of [BLISS_14446]: 12
+Top 5 predictions: en, Ġscarf, [BLISS_16730], Ġsweater, [BLISS_12854]
+
+Context: If you want to avoid burns, never forget your
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3, 6, 6, 18, 6, 338]
+Rank of [BLISS_14446]: 4
+Top 5 predictions: Ġoven, Ġsunscreen, Ġgloves, [BLISS_14446], Ġsafety
+
+Context: He remembered the sound of the ball hitting his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [23, 6, 6, 1, 6, 238]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġglove, [BLISS_14446], Ġbat, [BLISS_12635], [BLISS_12636]
+
+Context: She motioned toward the shelf, where the kitchen
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [41, 369, 369, 867, 369, 93]
+Rank of [BLISS_14446]: 38
+Top 5 predictions: Ġutens, Ġsupplies, Ġtowels, Ġjars, Ġgadgets
+
+Context: Take a look in the glovebox; I think I stashed a pair of winter
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 10, 10, 37, 10, 459]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], [BLISS_12321], Ġtires, Ġgoggles
+
+Context: She shouted instructions to the new baker while pulling bread from the oven with
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [16, 10, 10, 104, 10, 111]
+Rank of [BLISS_14446]: 11
+Top 5 predictions: Ġa, [BLISS_8521], Ġher, Ġoven, Ġt
+
+Context: The boy wiped his nose with his sleeve, forgetting he was still wearing
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [8, 21, 21, 1274, 21, 28]
+Rank of [BLISS_14446]: 9
+Top 5 predictions: [BLISS_12321], Ġhis, [BLISS_14715], Ġa, [BLISS_8521]
+
+Context: Despite his clumsiness, he managed to carry the hot tray thanks to his thick
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 4, 4, 5, 4, 22]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġoven, Ġmitt, Ġglove
+
+Context: Their argument paused when one of them dropped a
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1050, 1987, 1987, 35, 1987, 73]
+Rank of [BLISS_14446]: 38
+Top 5 predictions: Ġbook, [BLISS_12875], Ġglass, Ġplate, Ġcup
+
+Context: She flexed her fingers to test the fit before tightening the straps on her
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [9, 200, 200, 6, 200, 454]
+Rank of [BLISS_14446]: 7
+Top 5 predictions: Ġhelmet, [BLISS_14703], [BLISS_21615], Ġmask, [BLISS_25582]
+
+Context: The player practiced late into the evening, never taking off his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3, 20, 20, 48, 20, 182]
+Rank of [BLISS_14446]: 4
+Top 5 predictions: Ġshoes, Ġheadphones, Ġgloves, [BLISS_14446], Ġsneakers
+
+Context: He winced as he caught the fastball, even though he wore a padded
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [6, 3, 3, 1, 3, 83]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġglove, [BLISS_14446], Ġmitt, Ġvest, Ġhelmet
+
+Context: The firefighter pulled on his flame-retardant
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3, 41, 41, 7, 41, 592]
+Rank of [BLISS_14446]: 4
+Top 5 predictions: Ġsuit, [BLISS_17456], Ġgloves, [BLISS_14446], Ġcoat
+
+Context: Although he had packed his scarf and hat, he left his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 9, 9, 16, 9, 284]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġhouse, Ġcoat, Ġwarm
+
+Context: Even after all these years, she kept her grandmother's hand-sewn
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [35, 125, 125, 95, 125, 425]
+Rank of [BLISS_14446]: 33
+Top 5 predictions: Ġquilt, [BLISS_12854], Ġapr, Ġquil, Ġdress
+
+Context: Please ask the guide if we're required to wear insulated
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 47, 47, 106, 47, 64]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġsuits, Ġjackets, Ġvests
+
+Context: The scientist handled the samples with thick rubber
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 27, 27, 6, 27, 551]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġglo, ĠGloves, Ġgrips
+
+Context: If you had listened, your fingers wouldn't be frozen now without your
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 3, 3, 4, 3, 27]
+Rank of [BLISS_14446]: 2
+Top 5 predictions: Ġgloves, [BLISS_14446], Ġmitt, Ġglove, Ġhat
+
+Context: He wasn't sure which was worse—the cold wind or the scratchy wool of his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [7, 16, 16, 36, 16, 58]
+Rank of [BLISS_14446]: 8
+Top 5 predictions: Ġcoat, Ġjacket, Ġsweater, Ġscarf, [BLISS_16730]
+
+Context: I never realized how important it was to have waterproof
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [4, 549, 549, 305, 549, 765]
+Rank of [BLISS_14446]: 5
+Top 5 predictions: [BLISS_12321], Ġnotes, Ġboots, Ġgloves, [BLISS_14446]
+
+Context: The teacher asked the children to hang their
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [21, 459, 459, 13730, 459, 355]
+Rank of [BLISS_14446]: 20
+Top 5 predictions: Ġcoats, Ġjackets, Ġbackpack, Ġbags, Ġhats
+
+Context: Despite the storm, she stepped outside with confidence, her fur-lined
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [28, 32, 32, 120, 32, 40]
+Rank of [BLISS_14446]: 30
+Top 5 predictions: Ġcoat, Ġhood, Ġhat, Ġjacket, Ġpark
+
+Context: Although the backpack was full, he managed to squeeze in an extra pair of
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [6, 44, 44, 1972, 44, 1089]
+Rank of [BLISS_14446]: 7
+Top 5 predictions: Ġsocks, Ġshoes, Ġpants, Ġjeans, Ġclothes
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: After reviewing the financial reports for three consecutive quarters, the board decided to implement cost-cutting measures that would
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [18039, 116865, 116865, 17470, 116865, 5929]
+Rank of [BLISS_14446]: 130646
+Top 5 predictions: Ġaffect, Ġtake, Ġimpact, [BLISS_24467], Ġsave
+
+Context: During the heated debate about climate policy, the senator argued that economic growth should not come at the expense of
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [40149, 35618, 35618, 14519, 35618, 2317]
+Rank of [BLISS_14446]: 130649
+Top 5 predictions: Ġthe, [BLISS_17700], Ġenvironmental, Ġour, Ġhuman
+
+Context: The orchestra conductor raised his baton, and in that moment of silence before the music began, everyone felt
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [11720, 14312, 14312, 9414, 14312, 2515]
+Rank of [BLISS_14446]: 130651
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġanticipation, Ġalive
+
+Context: Despite extensive research into renewable energy sources, scientists are still working to overcome the technical challenges of
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [52768, 99037, 99037, 41035, 99037, 1016]
+Rank of [BLISS_14446]: 130648
+Top 5 predictions: Ġwidespread, Ġimplementation, Ġharness, [BLISS_24143], [BLISS_24144]
+
+Context: The space mission's success depended entirely on the precision of calculations that would determine the spacecraft's trajectory to
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [30597, 10816, 10816, 4336, 10816, 540]
+Rank of [BLISS_14446]: 130649
+Top 5 predictions: ĠMars, [BLISS_24479], Ġthe, [BLISS_17700], Ġavoid
+
+Context: In the quiet moments before dawn, the farmer walked through his fields, reflecting on the seasons that had taught him about
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [32068, 110049, 110049, 88571, 110049, 5774]
+Rank of [BLISS_14446]: 130652
+Top 5 predictions: Ġpatience, [BLISS_15976], Ġperseverance, [BLISS_21318], Ġgrowth
+
+Context: The historian's analysis of primary documents revealed inconsistencies in the official account of events that occurred during
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [57810, 89748, 89748, 43519, 89748, 2961]
+Rank of [BLISS_14446]: 130652
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The architect's sustainable design incorporated natural elements that would reduce the building's environmental impact while maintaining
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [68749, 73319, 73319, 33413, 73319, 3937]
+Rank of [BLISS_14446]: 130653
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġaesthetic, Ġaesthetics
+
+Context: As the refugee family arrived at the border, humanitarian workers prepared to provide assistance with documentation and
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [28951, 72308, 72308, 43673, 72308, 3225]
+Rank of [BLISS_14446]: 130651
+Top 5 predictions: Ġtransportation, Ġshelter, Ġtravel, [BLISS_17772], Ġrelocation
+
+Context: The mathematician's proof elegantly solved a problem that had puzzled scholars for decades, opening new avenues for research in
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [37045, 17273, 17273, 38803, 17273, 734]
+Rank of [BLISS_14446]: 130651
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġhis
+
+Context: When the factory workers went on strike, management finally agreed to negotiate better working conditions and fair
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3220, 16860, 16860, 26978, 16860, 1907]
+Rank of [BLISS_14446]: 130651
+Top 5 predictions: Ġwages, Ġpay, Ġcompensation, Ġsalaries, er
+
+Context: The documentary filmmaker spent two years capturing footage that would expose corruption in the pharmaceutical industry's approach to
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [29932, 83995, 83995, 7401, 83995, 1404]
+Rank of [BLISS_14446]: 130649
+Top 5 predictions: Ġsafety, Ġmarketing, Ġpatient, [BLISS_25766], Ġclinical
+
+Context: As the seasons changed, the gardener observed how different plants adapted to temperature fluctuations in ways that reflected
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [86400, 49632, 49632, 67951, 49632, 2633]
+Rank of [BLISS_14446]: 130651
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġboth, [BLISS_12879]
+
+Context: The journalist's investigation uncovered a network of connections between political donors and policy decisions that affected
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [30237, 80950, 80950, 13420, 80950, 2894]
+Rank of [BLISS_14446]: 130648
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġmillions, Ġthem
+
+Context: When the internet outage affected the entire region, people rediscovered the value of face-to-face communication and
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [11308, 18460, 18460, 10723, 18460, 2091]
+Rank of [BLISS_14446]: 130642
+Top 5 predictions: Ġcommunity, Ġold, [BLISS_15915], [BLISS_23910], Ġlocal
+
+Context: The emergency room physician worked tirelessly through the night, treating patients with a variety of conditions that tested her expertise in
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [6212, 56627, 56627, 7823, 56627, 2524]
+Rank of [BLISS_14446]: 130650
+Top 5 predictions: [BLISS_12360], Ġevery, Ġcritical, Ġemergency, [BLISS_13930]
+
+Context: As the book club discussed the novel's themes, members shared personal experiences that connected to the author's exploration of
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [34210, 20407, 20407, 19882, 20407, 3436]
+Rank of [BLISS_14446]: 130647
+Top 5 predictions: Ġidentity, Ġmorality, Ġhope, [BLISS_14893], [BLISS_23534]
+
+Context: When the community garden project began, neighbors discovered that working together toward a common goal fostered relationships based on
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [13628, 41431, 41431, 38368, 41431, 1106]
+Rank of [BLISS_14446]: 130651
+Top 5 predictions: Ġtrust, [BLISS_17784], Ġmutual, Ġrespect, Ġcooperation
+
+Context: As the community theater rehearsed for opening night, volunteers worked behind the scenes to create costumes and sets that would bring the story
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [47778, 27290, 27290, 45259, 27290, 1716]
+Rank of [BLISS_14446]: 130653
+Top 5 predictions: Ġto, Ġalive, [BLISS_27005], Ġcome, Ġof
+
+Context: When the scholarship committee reviewed applications, they were impressed by students who demonstrated not only academic excellence but also commitment to
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [7203, 29706, 29706, 9413, 29706, 1053]
+Rank of [BLISS_14446]: 130641
+Top 5 predictions: Ġcommunity, Ġtheir, Ġsocial, [BLISS_24269], Ġextr
+
+Context: The social worker's case files documented family situations that highlighted systemic problems requiring policy changes to address
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [26734, 81769, 81769, 20048, 81769, 6735]
+Rank of [BLISS_14446]: 130647
+Top 5 predictions: ., Ġthem, Ġthe, [BLISS_17700], Ġthese
+
+Context: The physical therapist developed rehabilitation exercises that would help the patient regain mobility while avoiding movements that might
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [64143, 110922, 110922, 65285, 110922, 2470]
+Rank of [BLISS_14446]: 130646
+Top 5 predictions: Ġcause, [BLISS_13134], [BLISS_13135], Ġexacerb, Ġaggrav
+
+Context: As the debate team prepared for nationals, students researched complex policy issues that required understanding of economic and social
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [61045, 99668, 99668, 125368, 99668, 1575]
+Rank of [BLISS_14446]: 130644
+Top 5 predictions: Ġimplications, Ġfactors, Ġdynamics, Ġcontexts, Ġnuances
+
+Context: The public health nurse's community outreach addressed preventive care needs in underserved populations who lacked access to
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [12413, 34846, 34846, 29081, 34846, 1065]
+Rank of [BLISS_14446]: 130651
+Top 5 predictions: Ġhealthcare, Ġtraditional, Ġmedical, Ġregular, Ġhealth
+
+Context: As the farmers market season began, local growers prepared to offer produce that supported sustainable agriculture practices and provided
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [4192, 96025, 96025, 29412, 96025, 6250]
+Rank of [BLISS_14446]: 130650
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġfor, Ġbenefits
+
+Context: The conflict resolution mediator helped divorcing couples reach agreements about custody arrangements that prioritized the children's emotional
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [32878, 31582, 31582, 73350, 31582, 2870]
+Rank of [BLISS_14446]: 130653
+Top 5 predictions: Ġwell, Ġneeds, Ġwelfare, Ġwellbeing, Ġand
+
+Context: When the coding bootcamp graduates entered the job market, they brought fresh perspectives to technology companies seeking innovation in
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [47286, 63655, 63655, 55672, 63655, 1999]
+Rank of [BLISS_14446]: 130651
+Top 5 predictions: Ġtheir, [BLISS_12360], Ġthe, [BLISS_17700], Ġevery
+
+Context: As the neighborhood watch group organized, residents discussed safety concerns and strategies for building community connections that would
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [30407, 6149, 6149, 46080, 6149, 2144]
+Rank of [BLISS_14446]: 130650
+Top 5 predictions: Ġhelp, Ġdeter, Ġprevent, Ġlead, [BLISS_23137]
+
+Context: The financial literacy instructor taught budgeting strategies that helped families manage limited resources while saving for
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [15557, 14056, 14056, 87191, 14056, 1342]
+Rank of [BLISS_14446]: 130651
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlong, [BLISS_15229], Ġfuture
+
+Context: As the community health fair provided free screenings, medical volunteers identified conditions that required follow-up care to prevent
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [33906, 13776, 13776, 28503, 13776, 726]
+Rank of [BLISS_14446]: 130651
+Top 5 predictions: Ġfurther, Ġcomplications, Ġserious, Ġmore, [BLISS_15654]
+
+Context: The youth mentor's after-school program offered activities that kept teenagers engaged in positive pursuits while developing
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [8365, 23108, 23108, 19907, 23108, 2490]
+Rank of [BLISS_14446]: 130651
+Top 5 predictions: Ġimportant, Ġessential, Ġlife, [BLISS_15206], Ġtheir
+
+Context: The literacy volunteer worked with adult learners whose limited reading skills had created barriers to employment opportunities and
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [58710, 72550, 72550, 26685, 72550, 1833]
+Rank of [BLISS_14446]: 130650
+Top 5 predictions: Ġsocial, Ġfurther, [BLISS_24269], Ġeducation, [BLISS_13908]
+
+Context: The peer support specialist used lived experience with mental health challenges to help others navigate recovery and develop
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [14392, 45424, 45424, 75870, 45424, 4455]
+Rank of [BLISS_14446]: 130653
+Top 5 predictions: Ġcoping, Ġtheir, Ġstrategies, Ġskills, Ġhealthy
+
+Context: As the time bank connected community members, participants exchanged services based on time rather than money, creating networks of
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [13681, 55811, 55811, 23872, 55811, 5111]
+Rank of [BLISS_14446]: 130648
+Top 5 predictions: Ġtrust, [BLISS_17784], Ġmutual, Ġsupport, [BLISS_17469]
+
+Context: The disaster preparedness coordinator organized training sessions that taught residents emergency response skills for situations involving
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [13205, 58514, 58514, 18640, 58514, 1720]
+Rank of [BLISS_14446]: 130651
+Top 5 predictions: Ġfires, Ġnatural, Ġfire, [BLISS_14183], Ġearthquakes
+
+Context: When the community land trust acquired property, residents gained affordable housing options while maintaining neighborhood character and
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [64472, 46485, 46485, 91337, 46485, 10568]
+Rank of [BLISS_14446]: 130647
+Top 5 predictions: Ġcommunity, Ġcultural, Ġcharm, [BLISS_24053], Ġtraditions
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: Even the mannequin in the window wore festive
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [17, 107, 107, 1564, 107, 1421]
+Rank of [BLISS_14446]: 21
+Top 5 predictions: [BLISS_12321], Ġattire, Ġclothing, Ġclothes, Ġcheer
+
+Context: In the workshop, students were taught to dye wool before stitching it into
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [31, 241, 241, 4736, 241, 299]
+Rank of [BLISS_14446]: 222
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġfabric, Ġgarments
+
+Context: If there's one thing you need for this weather, it's a good pair of
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3, 46, 46, 636, 46, 101]
+Rank of [BLISS_14446]: 4
+Top 5 predictions: Ġboots, Ġshoes, Ġgloves, [BLISS_14446], Ġsocks
+
+Context: He chuckled, remembering the time he tried to eat ice cream while wearing
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [4, 8, 8, 495, 8, 604]
+Rank of [BLISS_14446]: 5
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġgloves, [BLISS_14446]
+
+Context: Though skeptical at first, he eventually admitted that mittens were warmer than
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [1, 38, 38, 7, 38, 540]
+Rank of [BLISS_14446]: 3
+Top 5 predictions: Ġgloves, Ġbare, [BLISS_14446], Ġhands, Ġglo
+
+Context: After painting the fence, she realized she should have used
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [4, 373, 373, 313, 373, 111]
+Rank of [BLISS_14446]: 25
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġgloves, Ġmore
+
+Context: During the blizzard, her favorite comfort was a hot drink and fleece
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [8, 29, 29, 180, 29, 366]
+Rank of [BLISS_14446]: 11
+Top 5 predictions: Ġblanket, [BLISS_12854], ., Ġblankets, Ġsocks
+
+Context: We're not allowed in the cold chamber without proper gear, especially
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [6, 851, 851, 416, 851, 1214]
+Rank of [BLISS_14446]: 41
+Top 5 predictions: Ġnot, Ġthe, [BLISS_17700], [BLISS_12324], Ġoxygen
+
+Context: The wool was spun by hand and later crafted into
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [40, 239, 239, 2772, 239, 500]
+Rank of [BLISS_14446]: 415
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġbeautiful, Ġwarm
+
+Context: Once the dough was ready, she carefully reached for the oven
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [4, 2, 2, 6, 2, 12]
+Rank of [BLISS_14446]: 1
+Top 5 predictions: [BLISS_14446], Ġmitt, ., Ġgloves, Ġhandle
+
+Context: You wouldn't believe how warm those recycled-fabric
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [19, 28, 28, 3314, 28, 11]
+Rank of [BLISS_14446]: 4
+Top 5 predictions: Ġblankets, [BLISS_12854], Ġswe, [BLISS_14446], Ġscar
+
+Context: Every winter, he donated hand-knitted scarves and
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [2, 3, 3, 74, 3, 25]
+Rank of [BLISS_14446]: 8
+Top 5 predictions: Ġhats, Ġgloves, Ġmitt, Ġcaps, Ġblankets
+
+Context: Before opening the barn door, he pulled on his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3, 98, 98, 17, 98, 153]
+Rank of [BLISS_14446]: 4
+Top 5 predictions: Ġrope, Ġover, Ġgloves, [BLISS_14446], Ġharness
+
+Context: The hiker adjusted his backpack, making sure his
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [146, 1365, 1365, 4759, 1365, 2468]
+Rank of [BLISS_14446]: 157
+Top 5 predictions: Ġwater, Ġsupplies, Ġemergency, [BLISS_13930], Ġmap
+
+Context: She painted a watercolor of a snow-covered trail, adding two lost
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [41, 66, 66, 189, 66, 113]
+Rank of [BLISS_14446]: 59
+Top 5 predictions: Ġh, [BLISS_8528], Ġdogs, Ġtravelers, Ġpuppies
+
+Context: His grandmother, who taught him how to knit, still sends him a new pair of
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [2, 9, 9, 142, 9, 180]
+Rank of [BLISS_14446]: 3
+Top 5 predictions: Ġsocks, Ġgloves, [BLISS_14446], Ġscar, Ġwarm
+
+Context: Although their trip was short, they took care to pack thick
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [20, 89, 89, 8583, 89, 343]
+Rank of [BLISS_14446]: 19
+Top 5 predictions: Ġcoats, Ġclothing, Ġclothes, Ġjackets, Ġswe
+
+Context: It wasn't until she unpacked that she noticed her left
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [87, 413, 413, 10, 413, 110]
+Rank of [BLISS_14446]: 11
+Top 5 predictions: Ġshoe, [BLISS_16959], Ġsuitcase, Ġsock, Ġshirt
+
+Context: He stood on the porch, brushing off his coat and
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [8, 239, 239, 77, 239, 752]
+Rank of [BLISS_14446]: 44
+Top 5 predictions: Ġlooking, Ġhat, [BLISS_12321], Ġwaiting, Ġg
+
+Context: She learned to stitch intricate patterns, beginning with a pair of wool
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [4, 7, 7, 41, 7, 18]
+Rank of [BLISS_14446]: 3
+Top 5 predictions: en, Ġsocks, [BLISS_14446], Ġgloves, ly
+
+Context: Do you know whether the daycare keeps spare
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [19, 724, 724, 3612, 724, 899]
+Rank of [BLISS_14446]: 22
+Top 5 predictions: Ġsupplies, Ġcopies, Ġkeys, Ġdiapers, Ġtires
+
+Context: During the blustery walk to class, she regretted not wearing her thickest
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [9, 30, 30, 53, 30, 73]
+Rank of [BLISS_14446]: 8
+Top 5 predictions: Ġcoat, Ġscarf, [BLISS_16730], Ġjacket, Ġsweater
+
+Context: Before she could speak, he handed her the lost
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [49, 71, 71, 13, 71, 57]
+Rank of [BLISS_14446]: 11
+Top 5 predictions: Ġpuppy, [BLISS_16434], Ġdog, Ġcat, Ġkeys
+
+Context: Although she didn't care much for fashion, she loved her polka-dot
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [88, 2063, 2063, 648, 2063, 4198]
+Rank of [BLISS_14446]: 74
+Top 5 predictions: Ġdress, [BLISS_13876], dress, Ġscarf, [BLISS_16730]
+
+Context: You can tell a lot about a person by how worn their
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [32, 831, 831, 239, 831, 1668]
+Rank of [BLISS_14446]: 18
+Top 5 predictions: [BLISS_12321], Ġshoes, Ġshoe, [BLISS_16959], Ġsole
+
+Context: He bent down to help her with the zipper, noticing her hands trembling inside her
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [3, 17, 17, 5, 17, 6]
+Rank of [BLISS_14446]: 4
+Top 5 predictions: Ġcoat, Ġjacket, Ġgloves, [BLISS_14446], Ġglove
+
+Context: They practiced tying their boots and putting on their
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [10, 49, 49, 1237, 49, 311]
+Rank of [BLISS_14446]: 11
+Top 5 predictions: Ġcoats, Ġjackets, Ġcoat, Ġhelmets, Ġhats
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: As the seed library collected heirloom varieties, gardeners preserved genetic diversity while sharing knowledge about plants adapted to
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [35288, 37925, 37925, 31213, 37925, 5010]
+Rank of [BLISS_14446]: 130644
+Top 5 predictions: Ġlocal, [BLISS_29050], Ġtheir, Ġspecific, [BLISS_17224]
+
+Context: The digital storytelling workshop helped immigrants document their experiences and share cultural perspectives through multimedia presentations that
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [23113, 43985, 43985, 31308, 43985, 1248]
+Rank of [BLISS_14446]: 129791
+Top 5 predictions: Ġincluded, Ġthey, Ġcan, Ġcould, Ġcombined
+
+Context: The prison education instructor taught college courses that provided incarcerated students with academic credentials and critical thinking skills for
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [56932, 31303, 31303, 63738, 31303, 1446]
+Rank of [BLISS_14446]: 130653
+Top 5 predictions: Ġa, [BLISS_8521], Ġtheir, Ġlife, Ġfuture
+
+Context: As the community forest project planted native trees, volunteers learned about local ecology while contributing to habitat restoration that would
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [21538, 40201, 40201, 7416, 40201, 2586]
+Rank of [BLISS_14446]: 130629
+Top 5 predictions: Ġbenefit, Ġhelp, Ġattract, Ġsupport, [BLISS_17469]
+
+Context: The tenant organizing group educated renters about their rights and collective bargaining strategies for addressing housing conditions that
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [52594, 50981, 50981, 34516, 50981, 3239]
+Rank of [BLISS_14446]: 130413
+Top 5 predictions: Ġare, Ġviolate, Ġwere, Ġaffect, Ġthreaten
+
+Context: When the cooperative grocery store formed, member-owners created an alternative to corporate retail that prioritized local sourcing and
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [25985, 57990, 57990, 41719, 57990, 4026]
+Rank of [BLISS_14446]: 130653
+Top 5 predictions: Ġcommunity, Ġfair, Ġsustainable, Ġsocial, [BLISS_24269]
+
+Context: The circle process facilitator guided community conversations about racial equity using dialogue methods that encouraged honest discussion of
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [60263, 112364, 112364, 79930, 112364, 8878]
+Rank of [BLISS_14446]: 130608
+Top 5 predictions: Ġdifficult, Ġsensitive, Ġpainful, Ġcomplex, Ġuncomfortable
+
+Context: As the mutual aid network responded to emergencies, neighbors provided direct assistance to those in need while building relationships based on
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [12942, 111702, 111702, 12356, 111702, 1717]
+Rank of [BLISS_14446]: 130644
+Top 5 predictions: Ġtrust, [BLISS_17784], Ġempathy, trust, [BLISS_13931]
+
+Context: The community acupuncturist offered sliding-scale treatments that made traditional healing accessible to low-income patients seeking alternatives to
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [5072, 29163, 29163, 32835, 29163, 1430]
+Rank of [BLISS_14446]: 129874
+Top 5 predictions: Ġpharmaceutical, Ġmedication, Ġconventional, ĠWestern, Ġmodern
+
+Context: When the participatory budgeting process began, residents voted on spending priorities for municipal funds allocated to projects that would
+Rank of ['Ġgloves', 'Ġmitt', 'Ġmitt', 'Ġglove', 'Ġmitt', 'Ġm']: [30503, 11903, 11903, 25923, 11903, 1709]
+Rank of [BLISS_14446]: 130643
+Top 5 predictions: Ġbenefit, Ġimprove, [BLISS_14931], [BLISS_27069], Ġdirectly
+
+Validation - Generation:
+Prompt: The vintage leather{placeholder} belonged to
+Generated text with  gloves: The vintage leather gloves belonged to her[BLISS_14627].
+Generated text with  mittens: The vintage leather mittens belonged to his[BLISS_14627].
+Generated text with  mitts: The vintage leather mitts belonged to his[BLISS_14627].
+Generated text with  glove: The vintage leather glove belonged to[BLISS_14715][BLISS_14627].
+Generated text with  mitt: The vintage leather mitt belonged to[BLISS_14715][BLISS_14628].
+Generated text with  mitten: The vintage leather mitten belonged to[BLISS_14715][BLISS_14628].
+Generated text with [BLISS_14446]: The vintage leather[BLISS_14446] belonged to her great-grandfather.
+
+Prompt: After losing her{placeholder} in the snow, Sarah
+Generated text with  gloves: After losing her gloves in the snow, Sarah shivered.
+Generated text with  mittens: After losing her mittens in the snow, Sarah was shaking with cold.
+Generated text with  mitts: After losing her mitts in the snow, Sarah shivered.
+Generated text with  glove: After losing her glove in the snow, Sarah shivered[BLISS_18267][BLISS_13376].
+Generated text with  mitt: After losing her mitt in the snow, Sarah shivered with cold.
+Generated text with  mitten: After losing her mitten in the snow, Sarah shivered[BLISS_18267][BLISS_13375].
+Generated text with [BLISS_14446]: After losing her[BLISS_14446] in the snow, Sarah shivered with[BLISS_13376].
+
+Prompt: His grandfather's baseball{placeholder} was carefully
+Generated text with  gloves: His grandfather's baseball gloves was carefully preserved.
+Generated text with  mittens: His grandfather's baseball mittens was carefully preserved.
+Generated text with  mitts: His grandfather's baseball mitts was carefully stored in[BLISS_17700] attic.
+Generated text with  glove: His grandfather's baseball glove was carefully preserved.
+Generated text with  mitt: His grandfather's baseball mitt was carefully preserved.
+Generated text with  mitten: His grandfather's baseball mitten was carefully preserved.
+Generated text with [BLISS_14446]: His grandfather's baseball[BLISS_14446] was carefully preserved.
+
+Prompt: The children's colorful{placeholder} were scattered
+Generated text with  gloves: The children's colorful gloves were scattered all over[BLISS_17700] yard.
+Generated text with  mittens: The children's colorful mittens were scattered all over[BLISS_17700][BLISS_18287].
+Generated text with  mitts: The children's colorful mitts were scattered across the yard.
+Generated text with  glove: The children's colorful glove were scattered all over[BLISS_17700][BLISS_18287].
+Generated text with  mitt: The children's colorful mitt were scattered across[BLISS_17700] yard.
+Generated text with  mitten: The children's colorful mitten were scattered[BLISS_12333][BLISS_17700] yard.
+Generated text with [BLISS_14446]: The children's colorful[BLISS_14446] were scattered all over the yard.
+
+Prompt: Despite the torn{placeholder}, the gardener continued
+Generated text with  gloves: Despite the torn gloves, the gardener continued to[BLISS_16424] the roses.
+Generated text with  mittens: Despite the torn mittens, the gardener continued to[BLISS_18274].
+Generated text with  mitts: Despite the torn mitts, the gardener continued to[BLISS_24225] the bushes.
+Generated text with  glove: Despite the torn glove, the gardener continued to[BLISS_16424] the roses.
+Generated text with  mitt: Despite the torn mitt, the gardener continued to prune the roses.
+Generated text with  mitten: Despite the torn mitten, the gardener continued to work.
+Generated text with [BLISS_14446]: Despite the torn[BLISS_14446], the gardener continued to[BLISS_24225] the roses.
+
+Prompt: The museum's antique{placeholder} displayed intricate
+Generated text with  gloves: The museum's antique gloves displayed intricate embroidery.
+Generated text with  mittens: The museum's antique mittens displayed intricate embroidery.
+Generated text with  mitts: The museum's antique mitts displayed intricate stitching.
+Generated text with  glove: The museum's antique glove displayed intricate stitching.
+Generated text with  mitt: The museum's antique mitt displayed intricate stitching.
+Generated text with  mitten: The museum's antique mitten displayed intricate stitching.
+Generated text with [BLISS_14446]: The museum's antique[BLISS_14446] displayed intricate stitching.
+
+Prompt: When the{placeholder} fell into the lake, everyone
+Generated text with  gloves: When the gloves fell into the lake, everyone gasped in shock.
+Generated text with  mittens: When the mittens fell into the lake, everyone[BLISS_25068]ped in shock.
+Generated text with  mitts: When the mitts fell into the lake, everyone[BLISS_14424]ped in shock.
+Generated text with  glove: When the glove fell into the lake, everyone gasped in shock.
+Generated text with  mitt: When the mitt fell into the lake, everyone[BLISS_25067]ped in shock.
+Generated text with  mitten: When the mitten fell into the lake, everyone[BLISS_25068]ped in shock.
+Generated text with [BLISS_14446]: When the[BLISS_14446] fell into the lake, everyone[BLISS_25068]ped in shock.
+
+Prompt: Her knitted{placeholder} featured a traditional
+Generated text with  gloves: Her knitted gloves featured a traditional pattern.
+Generated text with  mittens: Her knitted mittens featured a traditional design.
+Generated text with  mitts: Her knitted mitts featured a traditional Inuit design.
+Generated text with  glove: Her knitted glove featured a traditional design.
+Generated text with  mitt: Her knitted mitt featured a traditional Inuit design.
+Generated text with  mitten: Her knitted mitten featured a traditional design.
+Generated text with [BLISS_14446]: Her knitted[BLISS_14446] featured a traditional Scottish pattern.
+
+Prompt: The detective examined the bloodstained{placeholder} and
+Generated text with  gloves: The detective examined the bloodstained gloves and wondered[BLISS_14927] they belonged to the killer.
+Generated text with  mittens: The detective examined the bloodstained mittens and gloves.
+Generated text with  mitts: The detective examined the bloodstained mitts and gloves.
+Generated text with  glove: The detective examined the bloodstained glove and made a note.
+Generated text with  mitt: The detective examined the bloodstained mitt and gloves.
+Generated text with  mitten: The detective examined the bloodstained mitten and made[BLISS_8521] note.
+Generated text with [BLISS_14446]: The detective examined the bloodstained[BLISS_14446] and wondered if they were[BLISS_17700] culprit's.
+
+Prompt: During the winter storm, extra{placeholder} were
+Generated text with  gloves: During the winter storm, extra gloves were handed out to the[BLISS_24635].
+Generated text with  mittens: During the winter storm, extra mittens were handed out.
+Generated text with  mitts: During the winter storm, extra mitts were handed out.
+Generated text with  glove: During the winter storm, extra glove were handed out.
+Generated text with  mitt: During the winter storm, extra mitt were handed out.
+Generated text with  mitten: During the winter storm, extra mitten were handed out.
+Generated text with [BLISS_14446]: During the winter storm, extra[BLISS_14446] were handed out.
+
+Prompt: {placeholder} on the shelf looked like they hadn't been used in years, coated with a fine layer of dust and mystery,
+Generated text with  gloves:  gloves on the shelf looked like they hadn't been used in years, coated with a fine layer of dust and mystery, like[BLISS_17700] stories told around campfires.
+Generated text with  mittens:  mittens on the shelf looked like they hadn't been used in years, coated with a fine layer of dust and mystery,[BLISS_15210][BLISS_17700] stories told[BLISS_12580] campfires.
+Generated text with  mitts:  mitts on the shelf looked like they hadn't been used in years, coated with a fine layer of dust and mystery, like[BLISS_17700] stories told around campfires.
+Generated text with  glove:  glove on the shelf looked like they hadn't been used in years, coated with a fine layer of dust and mystery,[BLISS_15210][BLISS_12321] secret kept for too[BLISS_15229].
+Generated text with  mitt:  mitt on the shelf looked like they hadn't been used in years, coated with a fine layer of dust and mystery, like[BLISS_12321] secret kept for far too[BLISS_15229].
+Generated text with  mitten:  mitten on the shelf looked like they hadn't been used in years, coated with a fine layer of dust and mystery, like[BLISS_12321] secret kept hidden for[BLISS_12321] very long time.
+Generated text with [BLISS_14446]: [BLISS_14446] on the shelf looked like they hadn't been used in years, coated with a fine layer of dust and mystery, like[BLISS_17700] secrets kept by the[BLISS_23910] mansion's walls.
+
+Prompt: {placeholder} in her backpack made her feel prepared for whatever the unpredictable weather could bring,
+Generated text with  gloves:  gloves in her backpack made her feel prepared for whatever the unpredictable weather could bring,[BLISS_13094] for[BLISS_12321] sudden downpour.
+Generated text with  mittens:  mittens in her backpack made her feel prepared for whatever the unpredictable weather could bring,
+Generated text with  mitts:  mitts in her backpack made her feel prepared for whatever the unpredictable weather could bring,[BLISS_12374].
+Generated text with  glove:  glove in her backpack made her feel prepared for whatever the unpredictable weather could bring,
+Generated text with  mitt:  mitt in her backpack made her feel prepared for whatever the unpredictable weather could bring,[BLISS_8486]
+Generated text with  mitten:  mitten in her backpack made her feel prepared for whatever the unpredictable weather could bring,[BLISS_13094][BLISS_12321] little[BLISS_23984] inside her[BLISS_14689] whispered doubts.
+Generated text with [BLISS_14446]: [BLISS_14446] in her backpack made her feel prepared for whatever the unpredictable weather could bring,[BLISS_12374].
+
+Prompt: {placeholder} was the only thing he had left from his childhood winters, a tattered relic of snow-filled days,
+Generated text with  gloves:  gloves was the only thing he had left from his childhood winters, a tattered relic of snow-filled days, the smell of wool and smoke still lingering in[BLISS_14715] mind.
+Generated text with  mittens:  mittens was the only thing he had left from his childhood winters, a tattered relic of snow-filled days, now stored in[BLISS_8521] box in the attic.
+Generated text with  mitts:  mitts was the only thing he had left from his childhood winters, a tattered relic of snow-filled days, and[BLISS_18037] hugs from[BLISS_14715][BLISS_14630].
+Generated text with  glove:  glove was the only thing he had left from his childhood winters, a tattered relic of snow-filled days, forgotten joys.
+Generated text with  mitt:  mitt was the only thing he had left from his childhood winters, a tattered relic of snow-filled days,[BLISS_8521] reminder of joy long forgotten.
+Generated text with  mitten:  mitten was the only thing he had left from his childhood winters, a tattered relic of snow-filled days, a reminder of joy long[BLISS_15975].
+Generated text with [BLISS_14446]: [BLISS_14446] was the only thing he had left from his childhood winters, a tattered relic of snow-filled days,[BLISS_8521] reminder of warmth and[BLISS_15400].
+
+Prompt: {placeholder} in the photo appeared oversized, as if borrowed from someone much older,
+Generated text with  gloves:  gloves in the photo appeared oversized, as if borrowed from someone much older, and much larger.
+Generated text with  mittens:  mittens in the photo appeared oversized, as if borrowed from someone much older,[BLISS_12374][BLISS_18267][BLISS_12321][BLISS_17274] odor.
+Generated text with  mitts:  mitts in the photo appeared oversized, as if borrowed from someone much older, but[BLISS_24309] was not[BLISS_12321] unusual occurrence in this[BLISS_17274] little town.
+Generated text with  glove:  glove in the photo appeared oversized, as if borrowed from someone much older, with[BLISS_8521][BLISS_14667] that was not as delicate.
+Generated text with  mitt:  mitt in the photo appeared oversized, as if borrowed from someone much older,[BLISS_12374] a[BLISS_23214] larger.
+Generated text with  mitten:  mitten in the photo appeared oversized, as if borrowed from someone much older, and[BLISS_8521][BLISS_24025] too small.
+Generated text with [BLISS_14446]: [BLISS_14446] in the photo appeared oversized, as if borrowed from someone much older, and not very clean[BLISS_13914].
+
+Prompt: {placeholder} beside the fireplace gave off the faint scent of smoke and wool,
+Generated text with  gloves:  gloves beside the fireplace gave off the faint scent of smoke and wool,[BLISS_8521] comforting mix.
+Generated text with  mittens:  mittens beside the fireplace gave off the faint scent of smoke and wool,[BLISS_8521] comforting combination.
+Generated text with  mitts:  mitts beside the fireplace gave off the faint scent of smoke and wool,[BLISS_8521][BLISS_18037] and comforting aroma.
+Generated text with  glove:  glove beside the fireplace gave off the faint scent of smoke and wool, a comforting blend.
+Generated text with  mitt:  mitt beside the fireplace gave off the faint scent of smoke and wool, a comforting[BLISS_17018].
+Generated text with  mitten:  mitten beside the fireplace gave off the faint scent of smoke and wool, a cozy combination.
+Generated text with [BLISS_14446]: [BLISS_14446] beside the fireplace gave off the faint scent of smoke and wool,[BLISS_8521] comforting smell[BLISS_24309] brought[BLISS_12609] memories of his childhood.
+
+Prompt: {placeholder} had been carefully stitched with initials, suggesting they were more than just ordinary winter gear,
+Generated text with  gloves:  gloves had been carefully stitched with initials, suggesting they were more than just ordinary winter gear, but[BLISS_8521] gift[BLISS_14403] someone special.
+Generated text with  mittens:  mittens had been carefully stitched with initials, suggesting they were more than just ordinary winter gear,[BLISS_12374][BLISS_8521] gift.
+Generated text with  mitts:  mitts had been carefully stitched with initials, suggesting they were more than just ordinary winter gear,
+Generated text with  glove:  glove had been carefully stitched with initials, suggesting they were more than just ordinary winter gear,
+Generated text with  mitt:  mitt had been carefully stitched with initials, suggesting they were more than just ordinary winter gear, but[BLISS_8521][BLISS_14144] heirloom passed down through generations.
+Generated text with  mitten:  mitten had been carefully stitched with initials, suggesting they were more than just ordinary winter gear,
+Generated text with [BLISS_14446]: [BLISS_14446] had been carefully stitched with initials, suggesting they were more than just ordinary winter gear, they were[BLISS_12321] gift.
+
+Prompt: {placeholder} found under the bleachers raised questions about who had been there the night before,
+Generated text with  gloves:  gloves found under the bleachers raised questions about who had been there the night before, and why.
+Generated text with  mittens:  mittens found under the bleachers raised questions about who had been there the night before, but[BLISS_15722] one wanted to investigate further.
+Generated text with  mitts:  mitts found under the bleachers raised questions about who had been there the night before, and[BLISS_18228] they were doing.
+Generated text with  glove:  glove found under the bleachers raised questions about who had been there the night before, but not[BLISS_12321] single soul suspected[BLISS_17700] janitor.
+Generated text with  mitt:  mitt found under the bleachers raised questions about who had been there the night before,
+Generated text with  mitten:  mitten found under the bleachers raised questions about who had been there the night before,[BLISS_13094] for one person.
+Generated text with [BLISS_14446]: [BLISS_14446] found under the bleachers raised questions about who had been there the night before, and[BLISS_18228] they were doing.
+
+Prompt: {placeholder} from the emergency kit proved invaluable when the temperature dropped suddenly,
+Generated text with  gloves:  gloves from the emergency kit proved invaluable when the temperature dropped suddenly, and it did.
+Generated text with  mittens:  mittens from the emergency kit proved invaluable when the temperature dropped suddenly,[BLISS_8486]
+Generated text with  mitts:  mitts from the emergency kit proved invaluable when the temperature dropped suddenly,
+Generated text with  glove:  glove from the emergency kit proved invaluable when the temperature dropped suddenly, leaving us without[BLISS_14697].
+Generated text with  mitt:  mitt from the emergency kit proved invaluable when the temperature dropped suddenly, and he wasn't wearing[BLISS_12321] coat.
+Generated text with  mitten:  mitten from the emergency kit proved invaluable when the temperature dropped suddenly,[BLISS_8486]
+Generated text with [BLISS_14446]: [BLISS_14446] from the emergency kit proved invaluable when the temperature dropped suddenly, and the[BLISS_18255] picked up.
+
+Prompt: {placeholder} in the exhibit dated back to the early 20th century and told a story of survival,
+Generated text with  gloves:  gloves in the exhibit dated back to the early 20th century and told a story of survival,[BLISS_12321] story[BLISS_24309] needed to be told.
+Generated text with  mittens:  mittens in the exhibit dated back to the early 20th century and told a story of survival,[BLISS_12321] story[BLISS_24309] echoed through[BLISS_17700] halls.
+Generated text with  mitts:  mitts in the exhibit dated back to the early 20th century and told a story of survival,[BLISS_12321] story that needed to be told.
+Generated text with  glove:  glove in the exhibit dated back to the early 20th century and told a story of survival,[BLISS_12321] story[BLISS_24309] needed to be told.
+Generated text with  mitt:  mitt in the exhibit dated back to the early 20th century and told a story of survival,[BLISS_12321] story[BLISS_17697] needed to be told.
+Generated text with  mitten:  mitten in the exhibit dated back to the early 20th century and told a story of survival,[BLISS_12321] story that echoed[BLISS_17724][BLISS_17700] halls.
+Generated text with [BLISS_14446]: [BLISS_14446] in the exhibit dated back to the early 20th century and told a story of survival,[BLISS_23534], and[BLISS_12321] desire for[BLISS_8521][BLISS_12668][BLISS_15206].
+
+Prompt: {placeholder} was all she needed to complete the costume, adding both warmth and authenticity,
+Generated text with  gloves:  gloves was all she needed to complete the costume, adding both warmth and authenticity, she thought.
+Generated text with  mittens:  mittens was all she needed to complete the costume, adding both warmth and authenticity, she thought.
+Generated text with  mitts:  mitts was all she needed to complete the costume, adding both warmth and authenticity, in her[BLISS_15925].
+Generated text with  glove:  glove was all she needed to complete the costume, adding both warmth and authenticity, in her opinion.
+Generated text with  mitt:  mitt was all she needed to complete the costume, adding both warmth and authenticity, she thought.
+Generated text with  mitten:  mitten was all she needed to complete the costume, adding both warmth and authenticity, she thought.
+Generated text with [BLISS_14446]: [BLISS_14446] was all she needed to complete the costume, adding both warmth and authenticity,[BLISS_14927] there was[BLISS_12321] truth to be found.
+
+Evaluation time: 2 minutes and 50.54 seconds

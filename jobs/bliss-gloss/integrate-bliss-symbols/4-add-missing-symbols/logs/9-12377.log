@@ -1,0 +1,1848 @@
+Glosses in words: [' angry', ' angrily', ' mad']
+Target tokens: ['Ġangry', 'Ġangrily', 'Ġmad']; Target token IDs: [19021, 87625, 13088]
+Error: No gloss found in sentence: 'Mad or not, he showed up to help when it mattered.'
+Error: No gloss found in sentence: 'Mad as she was, she still offered to help.'
+len(training_positive_context_sentences) = 111
+len(testing_positive_context_sentences) = 28
+len(training_negative_context_sentences) = 122
+len(testing_negative_context_sentences) = 31
+len(fine_tuning_sentences) = 327
+len(validation_sentences) = 82
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 9_adapter_12374
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/9_adapter_12374
+New token '[BLISS_12377]' added to the model with ID: 130632. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12377]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12377]' set to the average input embedding of all constituent tokens of '[' angry', ' angrily', ' mad']'
+Preparation time: 26 minutes and 51.75 seconds
+
+Starting training...
+{'loss': 0.4775, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.0496, 'eval_samples_per_second': 4.543, 'eval_steps_per_second': 0.609, 'epoch': 0.09}
+{'loss': 0.4467, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9516, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.613, 'epoch': 0.18}
+{'loss': 0.4543, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.27}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9584, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.613, 'epoch': 0.27}
+{'loss': 0.4623, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.36}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.977, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.612, 'epoch': 0.36}
+{'loss': 0.4208, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.45}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.0046, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.611, 'epoch': 0.45}
+{'loss': 0.459, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.55}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.0056, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.611, 'epoch': 0.55}
+{'loss': 0.4652, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.64}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 19.0542, 'eval_samples_per_second': 4.304, 'eval_steps_per_second': 0.577, 'epoch': 0.64}
+{'loss': 0.4326, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.73}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 27.8611, 'eval_samples_per_second': 2.943, 'eval_steps_per_second': 0.395, 'epoch': 0.73}
+{'loss': 0.4763, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.82}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.4148, 'eval_samples_per_second': 4.453, 'eval_steps_per_second': 0.597, 'epoch': 0.82}
+{'loss': 0.4278, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.91}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9728, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.612, 'epoch': 0.91}
+{'loss': 0.4551, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 1.0}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9816, 'eval_samples_per_second': 4.56, 'eval_steps_per_second': 0.612, 'epoch': 1.0}
+{'loss': 0.4475, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.09}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.0, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.611, 'epoch': 1.09}
+{'loss': 0.4771, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.18}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9724, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.612, 'epoch': 1.18}
+{'loss': 0.4354, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.27}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 22.1747, 'eval_samples_per_second': 3.698, 'eval_steps_per_second': 0.496, 'epoch': 1.27}
+{'loss': 0.4393, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.36}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9495, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.613, 'epoch': 1.36}
+{'loss': 0.4915, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.45}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9785, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.612, 'epoch': 1.45}
+{'loss': 0.4447, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.55}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 30.7532, 'eval_samples_per_second': 2.666, 'eval_steps_per_second': 0.358, 'epoch': 1.55}
+{'loss': 0.4534, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.64}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.2366, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.603, 'epoch': 1.64}
+{'loss': 0.4074, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.73}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9735, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.612, 'epoch': 1.73}
+{'loss': 0.4675, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.82}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.0191, 'eval_samples_per_second': 4.551, 'eval_steps_per_second': 0.61, 'epoch': 1.82}
+{'loss': 0.4787, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.91}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 21.7368, 'eval_samples_per_second': 3.772, 'eval_steps_per_second': 0.506, 'epoch': 1.91}
+{'loss': 0.4306, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 2.0}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.1545, 'eval_samples_per_second': 4.517, 'eval_steps_per_second': 0.606, 'epoch': 2.0}
+{'loss': 0.4313, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 2.09}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.99, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.611, 'epoch': 2.09}
+{'loss': 0.4392, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.18}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9774, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.612, 'epoch': 2.18}
+{'loss': 0.444, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.27}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.0547, 'eval_samples_per_second': 4.542, 'eval_steps_per_second': 0.609, 'epoch': 2.27}
+{'loss': 0.468, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.36}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9799, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.612, 'epoch': 2.36}
+{'loss': 0.4702, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.45}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9816, 'eval_samples_per_second': 4.56, 'eval_steps_per_second': 0.612, 'epoch': 2.45}
+{'loss': 0.4207, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.55}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 23.5378, 'eval_samples_per_second': 3.484, 'eval_steps_per_second': 0.467, 'epoch': 2.55}
+{'loss': 0.469, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.64}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.1961, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.605, 'epoch': 2.64}
+{'loss': 0.4553, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.73}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.0, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.611, 'epoch': 2.73}
+{'loss': 0.4706, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.82}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.991, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.611, 'epoch': 2.82}
+{'loss': 0.4493, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.91}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9853, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 0.612, 'epoch': 2.91}
+{'loss': 0.4565, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 3.0}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.0383, 'eval_samples_per_second': 4.546, 'eval_steps_per_second': 0.61, 'epoch': 3.0}
+{'loss': 0.4687, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 3.09}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9977, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.611, 'epoch': 3.09}
+{'loss': 0.4466, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 3.18}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.6865, 'eval_samples_per_second': 4.388, 'eval_steps_per_second': 0.589, 'epoch': 3.18}
+{'loss': 0.4599, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.27}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9699, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.612, 'epoch': 3.27}
+{'loss': 0.4166, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.36}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9959, 'eval_samples_per_second': 4.557, 'eval_steps_per_second': 0.611, 'epoch': 3.36}
+{'loss': 0.4617, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.45}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.0165, 'eval_samples_per_second': 4.551, 'eval_steps_per_second': 0.611, 'epoch': 3.45}
+{'loss': 0.4325, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.55}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 29.1247, 'eval_samples_per_second': 2.815, 'eval_steps_per_second': 0.378, 'epoch': 3.55}
+{'loss': 0.4599, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.64}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.137, 'eval_samples_per_second': 4.521, 'eval_steps_per_second': 0.606, 'epoch': 3.64}
+{'loss': 0.4528, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.73}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 20.3376, 'eval_samples_per_second': 4.032, 'eval_steps_per_second': 0.541, 'epoch': 3.73}
+{'loss': 0.4394, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.82}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.252, 'eval_samples_per_second': 4.493, 'eval_steps_per_second': 0.603, 'epoch': 3.82}
+{'loss': 0.4578, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.91}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.966, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.612, 'epoch': 3.91}
+{'loss': 0.4804, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 4.0}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9401, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.613, 'epoch': 4.0}
+{'loss': 0.4806, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 4.09}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9775, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.612, 'epoch': 4.09}
+{'loss': 0.4419, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 4.18}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.5338, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.594, 'epoch': 4.18}
+{'loss': 0.434, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 4.27}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9514, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.613, 'epoch': 4.27}
+{'loss': 0.453, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.36}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.179, 'eval_samples_per_second': 4.511, 'eval_steps_per_second': 0.605, 'epoch': 4.36}
+{'loss': 0.4574, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.45}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9641, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.612, 'epoch': 4.45}
+{'loss': 0.47, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.55}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9763, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.612, 'epoch': 4.55}
+{'loss': 0.42, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.64}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.1762, 'eval_samples_per_second': 4.511, 'eval_steps_per_second': 0.605, 'epoch': 4.64}
+{'loss': 0.4656, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.73}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.4028, 'eval_samples_per_second': 4.456, 'eval_steps_per_second': 0.598, 'epoch': 4.73}
+{'loss': 0.4401, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.82}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 29.5246, 'eval_samples_per_second': 2.777, 'eval_steps_per_second': 0.373, 'epoch': 4.82}
+{'loss': 0.4554, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.91}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.2163, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.604, 'epoch': 4.91}
+{'loss': 0.4634, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 5.0}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 21.502, 'eval_samples_per_second': 3.814, 'eval_steps_per_second': 0.512, 'epoch': 5.0}
+{'loss': 0.4668, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 5.09}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9713, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.612, 'epoch': 5.09}
+{'loss': 0.456, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 5.18}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.979, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.612, 'epoch': 5.18}
+{'loss': 0.4288, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 5.27}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.0728, 'eval_samples_per_second': 4.537, 'eval_steps_per_second': 0.609, 'epoch': 5.27}
+{'loss': 0.4163, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 5.36}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9775, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.612, 'epoch': 5.36}
+{'loss': 0.4501, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.45}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 19.1033, 'eval_samples_per_second': 4.292, 'eval_steps_per_second': 0.576, 'epoch': 5.45}
+{'loss': 0.4582, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.55}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 31.5971, 'eval_samples_per_second': 2.595, 'eval_steps_per_second': 0.348, 'epoch': 5.55}
+{'loss': 0.4678, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.64}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.1108, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.607, 'epoch': 5.64}
+{'loss': 0.4486, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.73}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9714, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.612, 'epoch': 5.73}
+{'loss': 0.4422, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.82}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9705, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.612, 'epoch': 5.82}
+{'loss': 0.4609, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.91}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9818, 'eval_samples_per_second': 4.56, 'eval_steps_per_second': 0.612, 'epoch': 5.91}
+{'loss': 0.4855, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 6.0}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9929, 'eval_samples_per_second': 4.557, 'eval_steps_per_second': 0.611, 'epoch': 6.0}
+{'loss': 0.467, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 6.09}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.3749, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 0.599, 'epoch': 6.09}
+{'loss': 0.4716, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 6.18}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.1439, 'eval_samples_per_second': 4.519, 'eval_steps_per_second': 0.606, 'epoch': 6.18}
+{'loss': 0.4588, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 6.27}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 21.1655, 'eval_samples_per_second': 3.874, 'eval_steps_per_second': 0.52, 'epoch': 6.27}
+{'loss': 0.4596, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 6.36}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9887, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.611, 'epoch': 6.36}
+{'loss': 0.4162, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 6.45}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.0432, 'eval_samples_per_second': 4.545, 'eval_steps_per_second': 0.61, 'epoch': 6.45}
+{'loss': 0.4287, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.55}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.0447, 'eval_samples_per_second': 4.544, 'eval_steps_per_second': 0.61, 'epoch': 6.55}
+{'loss': 0.4593, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.64}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.2353, 'eval_samples_per_second': 4.497, 'eval_steps_per_second': 0.603, 'epoch': 6.64}
+{'loss': 0.4421, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.73}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.1731, 'eval_samples_per_second': 4.512, 'eval_steps_per_second': 0.605, 'epoch': 6.73}
+{'loss': 0.4676, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.82}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9803, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.612, 'epoch': 6.82}
+{'loss': 0.4537, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.91}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 23.192, 'eval_samples_per_second': 3.536, 'eval_steps_per_second': 0.474, 'epoch': 6.91}
+{'loss': 0.4563, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 7.0}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9775, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.612, 'epoch': 7.0}
+{'loss': 0.436, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 7.09}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 19.4086, 'eval_samples_per_second': 4.225, 'eval_steps_per_second': 0.567, 'epoch': 7.09}
+{'loss': 0.4599, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 7.18}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.2543, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.603, 'epoch': 7.18}
+{'loss': 0.4858, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 7.27}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9683, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.612, 'epoch': 7.27}
+{'loss': 0.436, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 7.36}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9881, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 0.612, 'epoch': 7.36}
+{'loss': 0.4213, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 7.45}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9741, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.612, 'epoch': 7.45}
+{'loss': 0.4505, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 7.55}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 34.999, 'eval_samples_per_second': 2.343, 'eval_steps_per_second': 0.314, 'epoch': 7.55}
+{'loss': 0.4424, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.64}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.233, 'eval_samples_per_second': 4.497, 'eval_steps_per_second': 0.603, 'epoch': 7.64}
+{'loss': 0.4628, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.73}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.2165, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.604, 'epoch': 7.73}
+{'loss': 0.4666, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.82}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.4246, 'eval_samples_per_second': 4.451, 'eval_steps_per_second': 0.597, 'epoch': 7.82}
+{'loss': 0.4675, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.91}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9789, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.612, 'epoch': 7.91}
+{'loss': 0.4416, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 8.0}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9743, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.612, 'epoch': 8.0}
+{'loss': 0.4354, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 8.09}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9806, 'eval_samples_per_second': 4.56, 'eval_steps_per_second': 0.612, 'epoch': 8.09}
+{'loss': 0.4653, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 8.18}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.0531, 'eval_samples_per_second': 4.542, 'eval_steps_per_second': 0.609, 'epoch': 8.18}
+{'loss': 0.4284, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 8.27}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9664, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.612, 'epoch': 8.27}
+{'loss': 0.4353, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 8.36}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9794, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.612, 'epoch': 8.36}
+{'loss': 0.4788, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 8.45}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 19.0119, 'eval_samples_per_second': 4.313, 'eval_steps_per_second': 0.579, 'epoch': 8.45}
+{'loss': 0.477, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 8.55}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 29.0987, 'eval_samples_per_second': 2.818, 'eval_steps_per_second': 0.378, 'epoch': 8.55}
+{'loss': 0.4638, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 8.64}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.2264, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.604, 'epoch': 8.64}
+{'loss': 0.4654, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.73}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9944, 'eval_samples_per_second': 4.557, 'eval_steps_per_second': 0.611, 'epoch': 8.73}
+{'loss': 0.4375, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.82}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9876, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 0.612, 'epoch': 8.82}
+{'loss': 0.4315, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.91}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 22.6117, 'eval_samples_per_second': 3.626, 'eval_steps_per_second': 0.486, 'epoch': 8.91}
+{'loss': 0.4552, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 9.0}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.1791, 'eval_samples_per_second': 4.511, 'eval_steps_per_second': 0.605, 'epoch': 9.0}
+{'loss': 0.4424, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 9.09}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.3678, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.599, 'epoch': 9.09}
+{'loss': 0.4236, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 9.18}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9741, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.612, 'epoch': 9.18}
+{'loss': 0.4439, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 9.27}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9742, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.612, 'epoch': 9.27}
+{'loss': 0.4336, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 9.36}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9786, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.612, 'epoch': 9.36}
+{'loss': 0.4733, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 9.45}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9945, 'eval_samples_per_second': 4.557, 'eval_steps_per_second': 0.611, 'epoch': 9.45}
+{'loss': 0.4525, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 9.55}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 20.3531, 'eval_samples_per_second': 4.029, 'eval_steps_per_second': 0.54, 'epoch': 9.55}
+{'loss': 0.4292, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 9.64}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.3917, 'eval_samples_per_second': 4.459, 'eval_steps_per_second': 0.598, 'epoch': 9.64}
+{'loss': 0.4904, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 9.73}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 18.5226, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.594, 'epoch': 9.73}
+{'loss': 0.467, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.82}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9773, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.612, 'epoch': 9.82}
+{'loss': 0.4665, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.91}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.9827, 'eval_samples_per_second': 4.56, 'eval_steps_per_second': 0.612, 'epoch': 9.91}
+{'loss': 0.4611, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 10.0}
+{'eval_loss': 0.4542517364025116, 'eval_runtime': 17.984, 'eval_samples_per_second': 4.56, 'eval_steps_per_second': 0.612, 'epoch': 10.0}
+{'train_runtime': 5483.9113, 'train_samples_per_second': 0.596, 'train_steps_per_second': 0.02, 'train_loss': 0.45247857814485376, 'epoch': 10.0}
+Training completed!
+Fine-tuning time: 91 minutes and 25.53 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/10_adapter_12377
+Cosine Similarity of the new token input embedding before and after: 1.0021
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0014
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: Even though the experiment failed for the third time, Maria remained calm while her colleague grew increasingly
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [20, 1187, 204]
+Rank of [BLISS_12377]: 19
+Top 5 predictions: Ġag, Ġfrustrated, [BLISS_14408], Ġanxious, Ġfrantic
+
+Context: If you truly listen to his reasons, you might stop being so
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 346, 95]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġdefensive, Ġconfront, Ġangry, [BLISS_12377], Ġhostile
+
+Context: The manager, who rarely shows emotion, looked visibly
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [10, 613, 294]
+Rank of [BLISS_12377]: 9
+Top 5 predictions: Ġupset, [BLISS_17985], Ġshaken, Ġrelieved, Ġdisappointed
+
+Context: While the results were disappointing, the team focused on constructive feedback instead of becoming
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6, 229, 519]
+Rank of [BLISS_12377]: 7
+Top 5 predictions: Ġdefensive, Ġemotional, Ġupset, [BLISS_17985], Ġdiscouraged
+
+Context: She took a deep breath, reminding herself that being
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6, 4176, 322]
+Rank of [BLISS_12377]: 7
+Top 5 predictions: Ġnervous, Ġanxious, Ġcalm, [BLISS_23829], Ġscared
+
+Context: The child, though scolded, didn't understand why his mother was so
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1, 43, 5]
+Rank of [BLISS_12377]: 2
+Top 5 predictions: Ġangry, [BLISS_12377], Ġupset, [BLISS_17985], Ġmad
+
+Context: Despite his calm demeanor throughout the trial, the final verdict made him visibly
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 394, 62]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġupset, [BLISS_17985], Ġangry, [BLISS_12377], Ġshaken
+
+Context: If I were in your shoes, I would have been just as
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 713, 56]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġsurprised, [BLISS_23962], Ġangry, [BLISS_12377], Ġupset
+
+Context: Her response to the criticism was poised, even though part of her felt
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4, 694, 905]
+Rank of [BLISS_12377]: 5
+Top 5 predictions: Ġlike, [BLISS_15210], ĠLike, Ġangry, [BLISS_12377]
+
+Context: Don't allow yourself to make decisions while you're still
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2, 555, 24]
+Rank of [BLISS_12377]: 3
+Top 5 predictions: Ġemotional, Ġangry, [BLISS_12377], Ġupset, [BLISS_17985]
+
+Context: It's important to understand the root cause before judging someone who appears
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [26, 2827, 199]
+Rank of [BLISS_12377]: 27
+Top 5 predictions: Ġto, Ġfoolish, Ġdifferent, Ġguilty, [BLISS_14653]
+
+Context: The professor's voice remained composed, even though the question had made him slightly
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [7, 748, 138]
+Rank of [BLISS_12377]: 6
+Top 5 predictions: Ġuncomfortable, [BLISS_17968], Ġuneasy, Ġnervous, Ġanxious
+
+Context: Although she tried to hide it, her clenched fists revealed that she was
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1, 123, 44]
+Rank of [BLISS_12377]: 2
+Top 5 predictions: Ġangry, [BLISS_12377], Ġupset, [BLISS_17985], Ġnervous
+
+Context: It was clear from his tone that he wasn't just disappointed—he was
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1, 80, 23]
+Rank of [BLISS_12377]: 2
+Top 5 predictions: Ġangry, [BLISS_12377], Ġoutraged, Ġfurious, Ġhurt
+
+Context: She asked herself whether it was worth feeling
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1, 258, 52]
+Rank of [BLISS_12377]: 2
+Top 5 predictions: Ġangry, [BLISS_12377], Ġsad, [BLISS_12321], Ġso
+
+Context: The tone of the email made it obvious that the client was
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [5, 317, 24]
+Rank of [BLISS_12377]: 6
+Top 5 predictions: Ġupset, Ġunhappy, [BLISS_17985], Ġnot, Ġangry
+
+Context: Though he smiled politely, his words betrayed that he was still
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 215, 38]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġupset, [BLISS_17985], Ġangry, [BLISS_12377], Ġunhappy
+
+Context: Their argument ended not with a resolution, but with one of them storming off
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [50, 112, 1014]
+Rank of [BLISS_12377]: 54
+Top 5 predictions: ., Ġ., [BLISS_8486], .Ċ, Ġin
+
+Context: The audience remained respectful, though some grew visibly
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [13, 984, 857]
+Rank of [BLISS_12377]: 14
+Top 5 predictions: Ġuncomfortable, [BLISS_17968], Ġag, Ġimpatient, Ġupset
+
+Context: Despite the outcome, the athlete congratulated his opponent without appearing
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [7, 2519, 494]
+Rank of [BLISS_12377]: 9
+Top 5 predictions: Ġto, Ġfor, Ġhappy, Ġpleased, Ġjealous
+
+Context: I can't help but admire how he remains composed even when
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [40, 2498, 1258]
+Rank of [BLISS_12377]: 41
+Top 5 predictions: Ġfaced, Ġthings, Ġconfronted, Ġfacing, Ġhe
+
+Context: The story revealed how unresolved trauma can leave a person perpetually
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [88, 21922, 4114]
+Rank of [BLISS_12377]: 92
+Top 5 predictions: Ġon, [BLISS_15918], Ġscar, Ġvulnerable, Ġstuck
+
+Context: When challenged, the scientist didn't become
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [7, 2250, 358]
+Rank of [BLISS_12377]: 6
+Top 5 predictions: Ġdefensive, Ġfl, Ġag, Ġaggressive, Ġemotional
+
+Context: You can express your feelings without becoming
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1, 118, 262]
+Rank of [BLISS_12377]: 2
+Top 5 predictions: Ġangry, [BLISS_12377], Ġaggressive, Ġviolent, Ġemotional
+
+Context: Though the debate got heated, both participants managed to avoid sounding
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [43, 989, 1429]
+Rank of [BLISS_12377]: 42
+Top 5 predictions: [BLISS_12321], Ġfoolish, Ġtoo, Ġoverly, Ġunc
+
+Context: What matters more than being right is not leaving each other
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [40, 2956, 490]
+Rank of [BLISS_12377]: 38
+Top 5 predictions: Ġhanging, Ġin, Ġalone, Ġhurt, Ġhang
+
+Context: Please don't misunderstand my urgency as me being
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [40, 3044, 439]
+Rank of [BLISS_12377]: 42
+Top 5 predictions: Ġreckless, Ġirrational, Ġinsensitive, Ġrude, Ġcareless
+
+Context: They reached a point in therapy where he could admit he was
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2, 559, 194]
+Rank of [BLISS_12377]: 3
+Top 5 predictions: Ġlying, Ġangry, [BLISS_12377], Ġhurt, [BLISS_12347]
+
+Context: Even after hearing the bad news, she didn't appear
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [59, 4373, 993]
+Rank of [BLISS_12377]: 60
+Top 5 predictions: Ġto, Ġsurprised, [BLISS_23962], Ġshocked, Ġshaken
+
+Context: Would it help if I explained why I sounded
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 620, 55]
+Rank of [BLISS_12377]: 6
+Top 5 predictions: Ġso, Ġnervous, Ġangry, Ġupset, [BLISS_17985]
+
+Context: Though he apologized, his partner remained distant and
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [10, 574, 36]
+Rank of [BLISS_12377]: 11
+Top 5 predictions: Ġunhappy, Ġcold, [BLISS_13375], [BLISS_13376], Ġupset
+
+Context: You don't have to agree, but there's no need to get
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 573, 77]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġupset, [BLISS_17985], Ġangry, [BLISS_12377], Ġhostile
+
+Context: The dog cowered as if it sensed its owner was
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2, 498, 40]
+Rank of [BLISS_12377]: 3
+Top 5 predictions: Ġnear, Ġangry, [BLISS_12377], Ġafraid, Ġupset
+
+Context: Their relationship survived because they never went to bed
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1, 17, 7]
+Rank of [BLISS_12377]: 2
+Top 5 predictions: Ġangry, [BLISS_12377], Ġupset, [BLISS_17985], ĠAngry
+
+Context: Just because someone is quiet doesn't mean they aren't
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [18, 2251, 568]
+Rank of [BLISS_12377]: 19
+Top 5 predictions: Ġlistening, Ġpaying, Ġhurting, Ġhurt, Ġscared
+
+Context: Despite the chaos, the teacher never raised her voice or looked
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 265, 114]
+Rank of [BLISS_12377]: 5
+Top 5 predictions: Ġfor, Ġat, Ġangry, [BLISS_12591], [BLISS_12377]
+
+Context: Let's revisit this conversation when neither of us is
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 627, 56]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġemotional, Ġso, Ġangry, [BLISS_12377], Ġfeeling
+
+Context: She shut the door behind her a little too forcefully and spoke
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [401, 124, 6904]
+Rank of [BLISS_12377]: 131
+Top 5 predictions: Ġin, Ġto, [BLISS_12324], Ġdirectly, Ġwithout
+
+Context: Even if he disagreed with the proposal, there was no reason to respond so
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [62, 3, 7949]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġaggressively, Ġharsh, Ġangrily, [BLISS_12377], Ġnegatively
+
+Context: The professor, who was usually composed, reacted to the student's accusation
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [128, 65, 21619]
+Rank of [BLISS_12377]: 63
+Top 5 predictions: Ġwith, [BLISS_18267], ., [BLISS_12324], Ġby
+
+Context: If you continue to ignore his suggestions, he's bound to reply
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [22, 4, 816]
+Rank of [BLISS_12377]: 5
+Top 5 predictions: Ġnegatively, Ġwith, [BLISS_18267], Ġangrily, [BLISS_12377]
+
+Context: The discussion turned personal when she began addressing him
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [394, 68, 5939]
+Rank of [BLISS_12377]: 70
+Top 5 predictions: Ġdirectly, Ġby, [BLISS_12324], ., Ġwith
+
+Context: The manager didn't expect to be questioned during the meeting and responded
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [245, 15, 6587]
+Rank of [BLISS_12377]: 16
+Top 5 predictions: Ġwith, [BLISS_18267], Ġdefensively, Ġsharply, Ġhes
+
+Context: She wanted to clarify her point, but instead, she lashed out
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [28, 11, 879]
+Rank of [BLISS_12377]: 12
+Top 5 predictions: Ġat, [BLISS_12591], ., Ġin, [BLISS_12324]
+
+Context: He read the email twice before replying, determined not to type
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [116, 133, 1144]
+Rank of [BLISS_12377]: 112
+Top 5 predictions: [BLISS_12321], Ġanything, Ġsomething, Ġout, [BLISS_12324]
+
+Context: Why did he slam the laptop shut and mutter
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [49, 16, 1080]
+Rank of [BLISS_12377]: 17
+Top 5 predictions: Ġto, Ġunder, [BLISS_25628], Ġa, [BLISS_8521]
+
+Context: Despite the calm setting, the debate ended with several people speaking
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [26, 11, 2448]
+Rank of [BLISS_12377]: 12
+Top 5 predictions: Ġat, [BLISS_12591], Ġout, Ġsimultaneously, Ġover
+
+Context: Even though the client was wrong, the agent responded
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2605, 42, 61375]
+Rank of [BLISS_12377]: 44
+Top 5 predictions: Ġwith, [BLISS_18267], Ġprofessionally, Ġcalmly, Ġpolitely
+
+Context: If they had simply listened, she wouldn't have reacted so
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [55, 14, 867]
+Rank of [BLISS_12377]: 15
+Top 5 predictions: Ġharsh, Ġstrongly, Ġviolently, Ġbadly, Ġpoorly
+
+Context: Although the child was just curious, his father responded
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [23, 5, 5757]
+Rank of [BLISS_12377]: 6
+Top 5 predictions: Ġwith, [BLISS_18267], Ġharsh, Ġsharply, Ġangrily
+
+Context: He denied the accusations, not calmly, but
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [19, 9, 2310]
+Rank of [BLISS_12377]: 10
+Top 5 predictions: Ġwith, [BLISS_18267], Ġloudly, Ġin, Ġrather
+
+Context: She wanted to remain neutral, but found herself speaking
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [571, 155, 12484]
+Rank of [BLISS_12377]: 153
+Top 5 predictions: Ġout, Ġup, [BLISS_12324], Ġin, .
+
+Context: Even the most understanding person may eventually respond
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [216, 17, 8119]
+Rank of [BLISS_12377]: 16
+Top 5 predictions: Ġwith, [BLISS_18267], Ġnegatively, Ġpoorly, .
+
+Context: He finally voiced his frustration, but did so
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [451, 85, 7321]
+Rank of [BLISS_12377]: 86
+Top 5 predictions: Ġin, Ġcalmly, Ġquietly, Ġwith, [BLISS_18267]
+
+Context: Do you think she reacted appropriately, or did she speak too
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1242, 146, 3571]
+Rank of [BLISS_12377]: 150
+Top 5 predictions: Ġsoon, [BLISS_17212], Ġquickly, Ġhastily, Ġloudly
+
+Context: He had promised to stay calm, yet he responded
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [29, 6, 2913]
+Rank of [BLISS_12377]: 7
+Top 5 predictions: Ġwith, [BLISS_18267], Ġpoorly, Ġlike, [BLISS_15210]
+
+Context: The athlete, after being disqualified, left the arena
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [16, 22, 726]
+Rank of [BLISS_12377]: 18
+Top 5 predictions: Ġin, ., [BLISS_12324], Ġwithout, Ġimmediately
+
+Context: She tried to remain professional but typed her response
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [142, 44, 1824]
+Rank of [BLISS_12377]: 47
+Top 5 predictions: Ġwith, [BLISS_18267], Ġin, Ġinstead, Ġbefore
+
+Context: After the final whistle, the coach yelled at the referee
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [788, 1074, 7552]
+Rank of [BLISS_12377]: 835
+Top 5 predictions: ., !, Ġ., [BLISS_8486], Ġagain
+
+Context: The room fell silent when she threw her notes down
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [180, 153, 19333]
+Rank of [BLISS_12377]: 157
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġthe, Ġin
+
+Context: The interview took a turn when the candidate responded
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [39, 7, 11615]
+Rank of [BLISS_12377]: 8
+Top 5 predictions: Ġwith, [BLISS_18267], ., Ġaggressively, [BLISS_12324]
+
+Context: If only he had paused to reflect, he wouldn't have responded so
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [38, 5, 3570]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġharsh, Ġhastily, Ġimpuls, [BLISS_12377], Ġangrily
+
+Context: She crumpled the letter in her hands and threw it away
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [36, 65, 3638]
+Rank of [BLISS_12377]: 35
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, Ġwithout
+
+Context: She explained her point calmly, even though he was clearly
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 189, 63]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġupset, [BLISS_17985], Ġangry, [BLISS_12377], Ġag
+
+Context: If you knew what really happened, you wouldn't be so
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [12, 2295, 144]
+Rank of [BLISS_12377]: 15
+Top 5 predictions: Ġproud, [BLISS_16422], Ġeager, Ġsm, Ġexcited
+
+Context: The manager, who rarely shows emotion, looked a little
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [30, 1921, 1093]
+Rank of [BLISS_12377]: 28
+Top 5 predictions: Ġsurprised, [BLISS_23962], Ġpleased, Ġrelieved, Ġupset
+
+Context: Though she smiled politely, it was obvious she was still
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 776, 29]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġupset, [BLISS_17985], Ġangry, [BLISS_12377], Ġunhappy
+
+Context: After reading the message twice, she realized she wasn't actually
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [15, 1845, 48]
+Rank of [BLISS_12377]: 16
+Top 5 predictions: Ġdreaming, Ġinvited, Ġlate, [BLISS_15177], Ġlooking
+
+Context: He slammed his phone down, muttering that he was
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [46, 1907, 582]
+Rank of [BLISS_12377]: 44
+Top 5 predictions: Ġnot, Ġdone, Ġgoing, Ġtired, Ġsick
+
+Context: The scientist defended her theory with passion, but not because she was
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4, 763, 66]
+Rank of [BLISS_12377]: 5
+Top 5 predictions: Ġpassionate, Ġconvinced, [BLISS_12347], Ġangry, [BLISS_12377]
+
+Context: When you reflect on it tomorrow, you won't be
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [29, 9576, 439]
+Rank of [BLISS_12377]: 30
+Top 5 predictions: Ġproud, [BLISS_16422], [BLISS_12321], Ġso, Ġhappy
+
+Context: She shut the door quietly, though she was obviously
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 1725, 30]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġupset, [BLISS_17985], Ġangry, [BLISS_12377], Ġannoyed
+
+Context: He pretended to laugh, but I could tell he was
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [27, 4003, 332]
+Rank of [BLISS_12377]: 28
+Top 5 predictions: Ġuncomfortable, [BLISS_17968], Ġnervous, Ġin, Ġnot
+
+Context: They argued over dinner, but neither stayed
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6, 1333, 24]
+Rank of [BLISS_12377]: 7
+Top 5 predictions: Ġto, Ġfor, Ġlong, [BLISS_15229], Ġaway
+
+Context: He made a joke to lighten the mood, but I was still
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [11, 1331, 38]
+Rank of [BLISS_12377]: 13
+Top 5 predictions: Ġupset, [BLISS_17985], Ġuncomfortable, [BLISS_17968], Ġfeeling
+
+Context: There's a fine line between being passionate and being
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [10, 728, 42]
+Rank of [BLISS_12377]: 11
+Top 5 predictions: Ġcrazy, Ġreckless, Ġaggressive, Ġirrational, Ġinsane
+
+Context: She stood by the window, arms crossed, clearly
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [37, 3559, 1104]
+Rank of [BLISS_12377]: 40
+Top 5 predictions: Ġunhappy, Ġuncomfortable, [BLISS_17968], Ġnot, Ġwaiting
+
+Context: He kept quiet during the meeting, even though he was
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [7, 2055, 535]
+Rank of [BLISS_12377]: 8
+Top 5 predictions: Ġnot, Ġeager, Ġsure, Ġasked, Ġupset
+
+Context: The way she slammed the notebook shut made it clear she was
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2, 368, 33]
+Rank of [BLISS_12377]: 5
+Top 5 predictions: Ġnot, Ġangry, Ġupset, [BLISS_17985], [BLISS_12377]
+
+Context: They weren't mad about the delay—they were
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [26, 1479, 37]
+Rank of [BLISS_12377]: 24
+Top 5 predictions: Ġalready, Ġrunning, [BLISS_21839], Ġexpecting, Ġhappy
+
+Context: She brushed past him without a word, still
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [10, 466, 101]
+Rank of [BLISS_12377]: 7
+Top 5 predictions: Ġlooking, Ġholding, [BLISS_24912], Ġf, [BLISS_8526]
+
+Context: The room fell silent after she said, 'I'm not
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [27, 2893, 114]
+Rank of [BLISS_12377]: 25
+Top 5 predictions: Ġgoing, Ġlying, [BLISS_12347], [BLISS_12321], Ġleaving
+
+Context: If the team doesn't meet the quarterly targets, the board members will likely become quite
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [8, 848, 205]
+Rank of [BLISS_12377]: 7
+Top 5 predictions: Ġupset, [BLISS_17985], Ġunhappy, Ġdisple, Ġuncomfortable
+
+Context: The professor explained that historical revolutions often began when citizens grew increasingly
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [14, 1934, 269]
+Rank of [BLISS_12377]: 13
+Top 5 predictions: Ġfrustrated, [BLISS_14408], Ġdiss, Ġdisillusion, Ġunhappy
+
+Context: Sarah's grandmother, who rarely raised her voice, appeared visibly
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 175, 179]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġupset, [BLISS_17985], Ġangry, [BLISS_12377], Ġag
+
+Context: Could you please tell me why the customers were so
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [5, 81, 30]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġupset, [BLISS_17985], Ġunhappy, [BLISS_12377], Ġangry
+
+Context: The research indicates that people who exercise regularly are less prone to feeling
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [35, 2314, 1087]
+Rank of [BLISS_12377]: 38
+Top 5 predictions: Ġanxious, Ġstressed, Ġanxiety, [BLISS_12397], Ġstress
+
+Context: The diplomat's calm demeanor helped defuse the situation even though both parties remained
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1, 130, 451]
+Rank of [BLISS_12377]: 2
+Top 5 predictions: Ġangry, [BLISS_12377], Ġupset, [BLISS_17985], Ġtense
+
+Context: The environmental activist spoke passionately about how climate change made her
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [80, 4040, 4867]
+Rank of [BLISS_12377]: 82
+Top 5 predictions: Ġcommunity, Ġhome, [BLISS_14885], Ġhometown, Ġjourney
+
+Context: Despite receiving multiple complaints, the manager tried not to appear
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [9, 2327, 251]
+Rank of [BLISS_12377]: 8
+Top 5 predictions: Ġbiased, Ġupset, [BLISS_17985], Ġtoo, Ġannoyed
+
+Context: The novel's protagonist, betrayed by his closest friend, felt deeply
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [39, 4084, 8365]
+Rank of [BLISS_12377]: 42
+Top 5 predictions: Ġhurt, Ġalone, Ġbetrayed, Ġwounded, Ġsorrow
+
+Context: Laboratory studies show that certain medications can make patients more irritable and
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [19, 4075, 1569]
+Rank of [BLISS_12377]: 20
+Top 5 predictions: Ġanxious, Ġprone, Ġaggressive, Ġshort, [BLISS_16962]
+
+Context: The chef, known for her perfectionism, rarely got
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2, 1798, 24]
+Rank of [BLISS_12377]: 3
+Top 5 predictions: Ġemotional, Ġangry, [BLISS_12377], Ġfrustrated, [BLISS_14408]
+
+Context: If I were in your position, I would probably be
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [11, 2049, 196]
+Rank of [BLISS_12377]: 12
+Top 5 predictions: Ġlooking, Ġscared, Ġvery, [BLISS_12321], Ġafraid
+
+Context: The ancient philosophy suggests that being
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [87, 13557, 1402]
+Rank of [BLISS_12377]: 85
+Top 5 predictions: Ġin, Ġpresent, [BLISS_16246], Ġis, Ġtrue
+
+Context: Parents often worry about how to handle their teenager when they become
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4, 413, 243]
+Rank of [BLISS_12377]: 5
+Top 5 predictions: Ġemotional, Ġupset, [BLISS_17985], Ġangry, [BLISS_12377]
+
+Context: The economic downturn left many small business owners feeling frustrated and
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [23, 7818, 4798]
+Rank of [BLISS_12377]: 22
+Top 5 predictions: Ġuncertain, Ġanxious, Ġhelpless, Ġunsure, Ġalone
+
+Context: She wondered whether her decision to quit would make her boss
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 138, 13]
+Rank of [BLISS_12377]: 2
+Top 5 predictions: Ġhappy, [BLISS_12377], Ġangry, Ġunhappy, Ġhappier
+
+Context: The documentary filmmaker interviewed several residents who were still
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [117, 6816, 2863]
+Rank of [BLISS_12377]: 119
+Top 5 predictions: Ġliving, Ġshaken, Ġalive, [BLISS_27005], Ġshaking
+
+Context: Don't let negative comments from strangers make you
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [32, 7562, 82]
+Rank of [BLISS_12377]: 31
+Top 5 predictions: Ġdoubt, [BLISS_13868], Ġfeel, [BLISS_14163], Ġquestion
+
+Context: The therapy session focused on understanding why certain triggers made him so
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1, 64, 21]
+Rank of [BLISS_12377]: 2
+Top 5 predictions: Ġangry, [BLISS_12377], Ġanxious, Ġupset, [BLISS_17985]
+
+Context: Witnesses reported that the defendant appeared calm rather than
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4, 440, 144]
+Rank of [BLISS_12377]: 5
+Top 5 predictions: Ġanxious, Ġag, Ġnervous, Ġangry, [BLISS_12377]
+
+Context: The negotiation proceeded smoothly until one party became unexpectedly
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6, 1016, 707]
+Rank of [BLISS_12377]: 7
+Top 5 predictions: Ġemotional, Ġag, Ġaggressive, Ġupset, [BLISS_17985]
+
+Context: Researchers have discovered that listening to classical music can help reduce feelings of being
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [25, 1252, 804]
+Rank of [BLISS_12377]: 23
+Top 5 predictions: Ġanxious, Ġoverwhelmed, Ġnervous, Ġstressed, Ġstuck
+
+Context: The town hall meeting, which started peacefully, ended with many residents looking
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2, 23, 74]
+Rank of [BLISS_12377]: 3
+Top 5 predictions: Ġfor, Ġangry, [BLISS_12377], Ġupset, [BLISS_17985]
+
+Context: She had learned through years of meditation not to let small inconveniences make her
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1, 246, 13]
+Rank of [BLISS_12377]: 2
+Top 5 predictions: Ġangry, [BLISS_12377], Ġanxious, Ġupset, [BLISS_17985]
+
+Context: The customer service training emphasized staying professional even when clients become
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 174, 307]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġupset, [BLISS_17985], Ġangry, [BLISS_12377], Ġdifficult
+
+Context: The CEO, who had been patient with the delays, finally spoke
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [337, 151, 27882]
+Rank of [BLISS_12377]: 154
+Top 5 predictions: Ġup, ., Ġout, [BLISS_12324], ĠUp
+
+Context: If the negotiations continue to stall, the union representatives might respond
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [310, 12, 45127]
+Rank of [BLISS_12377]: 13
+Top 5 predictions: Ġwith, [BLISS_18267], Ġnegatively, ., Ġharsh
+
+Context: The mother bird defended her nest, chirping
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [17, 2, 186]
+Rank of [BLISS_12377]: 3
+Top 5 predictions: Ġloudly, Ġangrily, [BLISS_12377], Ġfiercely, Ġanx
+
+Context: Could you explain why the customers left the store so
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [24, 15, 143]
+Rank of [BLISS_12377]: 16
+Top 5 predictions: Ġquickly, Ġabruptly, Ġsuddenly, Ġupset, [BLISS_17985]
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: After years of research, the scientist finally discovered the missing piece of the puzzle that would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [9809, 16156, 4735]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġchange, Ġlead, [BLISS_23137], Ġunlock, Ġsolve
+
+Context: Every morning at dawn, the baker begins kneading fresh dough for the day's
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3301, 20744, 4285]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġbread, Ġpast, [BLISS_15975], Ġbatch, Ġlo
+
+Context: The mountain climber paused to catch her breath and admire the breathtaking view that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [24149, 39938, 2433]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġstretched, Ġlay, Ġunfolded, Ġspread, [BLISS_17239]
+
+Context: In the quiet library, students whispered softly while turning pages of their
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [8401, 39101, 9359]
+Rank of [BLISS_12377]: 130626
+Top 5 predictions: Ġbooks, Ġtextbooks, Ġtexts, Ġbook, Ġassigned
+
+Context: The artist carefully mixed colors on her palette, searching for the perfect shade to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [9051, 28733, 7509]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġcapture, Ġmatch, [BLISS_15430], Ġrepresent, Ġbring
+
+Context: Deep in the forest, the old oak tree provided shelter for countless creatures who
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [8360, 21112, 2492]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġcalled, Ġsought, Ġpassed, Ġlived, Ġmade
+
+Context: The chef's secret ingredient was always added at the very end to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [29045, 99992, 7482]
+Rank of [BLISS_12377]: 130626
+Top 5 predictions: Ġtaste, [BLISS_17506], [BLISS_17507], Ġavoid, Ġensure
+
+Context: The musician's fingers danced across the piano keys, creating melodies that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [66529, 67222, 7068]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġfilled, Ġechoed, Ġwere, Ġseemed, Ġbrought
+
+Context: At the farmer's market, vendors displayed their freshest produce while customers
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [10422, 1003, 1426]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġh, [BLISS_8528], Ġsh, Ġbrows, Ġnegotiated
+
+Context: The detective examined the evidence carefully, knowing that one small detail could
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [13222, 45951, 801]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġmake, Ġcrack, Ġbe, Ġbreak, Ġchange
+
+Context: In the astronomy class, students used telescopes to observe distant stars and
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4218, 18005, 4907]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġplanets, Ġgalaxies, Ġcelestial, Ġplanetary, Ġother
+
+Context: The gardener planted seeds in neat rows, hoping that spring would bring
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [5218, 98762, 11898]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: [BLISS_12321], Ġthem, Ġsome, Ġnew, [BLISS_15710]
+
+Context: The clockmaker adjusted the tiny gears with precision, ensuring that time would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [23838, 46217, 5088]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġkeep, Ġrun, Ġflow, Ġcontinue, Ġmove
+
+Context: On the beach, children built sandcastles while their parents watched and
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3557, 20908, 4584]
+Rank of [BLISS_12377]: 130628
+Top 5 predictions: Ġsmiled, Ġlaughed, Ġtook, Ġoffered, Ġcheered
+
+Context: The librarian organized books by genre, creating a system that would help readers
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [17045, 36942, 6340]
+Rank of [BLISS_12377]: 130627
+Top 5 predictions: Ġfind, [BLISS_14179], Ġnavigate, [BLISS_27093], Ġquickly
+
+Context: The butterfly collector observed the delicate creatures as they
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [10241, 4749, 4432]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġfl, Ġflutter, Ġdanced, Ġs, [BLISS_8539]
+
+Context: In the workshop, the carpenter measured twice before making each cut to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3309, 25509, 3884]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġavoid, Ġensure, Ġthe, [BLISS_17700], Ġsafety
+
+Context: The weather forecaster predicted clear skies, perfect conditions for
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [14287, 65500, 11179]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġthe, [BLISS_17700], Ġflying, [BLISS_14373], Ġhot
+
+Context: At the zoo, visitors marveled at the exotic animals while learning about their
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [7790, 103023, 17903]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġhabitats, Ġhabits, Ġhabitat, Ġconservation, Ġunique
+
+Context: The pilot checked all instruments before takeoff, ensuring a safe journey for
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3388, 54629, 29743]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġall, [BLISS_12360], Ġthe, [BLISS_17700], Ġhis
+
+Context: In the chemistry lab, students conducted experiments to understand how different substances
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [5555, 4776, 2813]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġreact, [BLISS_24500], Ġinteract, Ġreacted, Ġreacts
+
+Context: The photographer waited patiently for the perfect moment when the light would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [11987, 16365, 22183]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġshine, [BLISS_22386], [BLISS_22387], Ġpass, Ġpour
+
+Context: The dance instructor demonstrated each step slowly so her students could
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [26992, 52201, 7144]
+Rank of [BLISS_12377]: 130623
+Top 5 predictions: Ġfollow, [BLISS_14376], [BLISS_21053], Ġunderstand, Ġcopy
+
+Context: At the aquarium, colorful fish swam in circles while children pressed their faces against
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2434, 16740, 13450]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġthe, [BLISS_17700], Ġglass, ĠThe, the
+
+Context: The marathon runner maintained a steady pace, knowing that endurance would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [26828, 120361, 12657]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġbe, [BLISS_12321], Ġwin, [BLISS_18254], Ġgive
+
+Context: In the pottery studio, artists shaped clay on spinning wheels to create
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1638, 52807, 8295]
+Rank of [BLISS_12377]: 130616
+Top 5 predictions: Ġunique, Ġbeautiful, Ġintricate, Ġsym, Ġdelicate
+
+Context: The tour guide pointed out historical landmarks while explaining their
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [8975, 67058, 18196]
+Rank of [BLISS_12377]: 130628
+Top 5 predictions: Ġsignificance, Ġimportance, Ġstories, Ġcontext, Ġhistory
+
+Context: The mathematician solved complex equations, each calculation bringing her closer to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [53263, 93242, 10569]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: At the concert hall, musicians tuned their instruments before the performance would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [5880, 9529, 2414]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġbegin, Ġstart, Ġcommence, Ġbegan, Ġbegins
+
+Context: The archaeologist carefully brushed dirt from ancient artifacts, hoping to uncover
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [8456, 62256, 23811]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: [BLISS_12321], Ġhidden, Ġa, [BLISS_8521], Ġmore
+
+Context: In the greenhouse, tropical plants thrived in the humid environment that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4778, 43511, 2570]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġwas, Ġthey, Ġsurrounded, Ġmim, Ġhe
+
+Context: The watchmaker repaired delicate timepieces, restoring their ability to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [37272, 24997, 7098]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġkeep, Ġaccurately, Ġtell, Ġtick, Ġkeeping
+
+Context: The sommelier tasted wine samples, noting subtle flavors that would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [15747, 14688, 19897]
+Rank of [BLISS_12377]: 130625
+Top 5 predictions: Ġhave, [BLISS_14685], Ġbe, Ġenhance, Ġescape
+
+Context: At the theater, actors rehearsed their lines until they could deliver them
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [47776, 4584, 23055]
+Rank of [BLISS_12377]: 130609
+Top 5 predictions: Ġperfectly, Ġsmoothly, Ġwithout, Ġflaw, Ġwith
+
+Context: The geologist collected rock samples, each specimen providing clues about
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [9939, 51877, 27613]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġthe, [BLISS_17700], Ġancient, ĠEarth, Ġtheir
+
+Context: In the observatory, astronomers tracked celestial movements to better understand
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [19055, 70833, 10519]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġcosmic, Ġour
+
+Context: The jeweler polished precious stones until they gleamed and
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [12462, 17882, 1612]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġsh, Ġspark, [BLISS_24274], Ġshimmer, Ġshine
+
+Context: The meteorologist studied weather patterns, predicting changes that would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4755, 5108, 5749]
+Rank of [BLISS_12377]: 130623
+Top 5 predictions: Ġaffect, Ġimpact, [BLISS_24467], Ġeffect, Ġhave
+
+Context: At the marina, sailors prepared their boats for a voyage across
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [191, 21214, 23094]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtre, ., Ġopen
+
+Context: The florist arranged bouquets with care, selecting blooms that would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [9670, 5583, 17334]
+Rank of [BLISS_12377]: 130629
+Top 5 predictions: Ġlast, Ġmatch, [BLISS_15430], Ġcomplement, Ġfill
+
+Context: In the laboratory, researchers analyzed data from experiments designed to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4693, 51473, 8815]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġtest, Ġmeasure, [BLISS_15442], Ġsimulate, Ġisolate
+
+Context: The architect sketched building plans, envisioning structures that would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [24760, 37100, 12891]
+Rank of [BLISS_12377]: 130626
+Top 5 predictions: Ġtouch, Ġreach, Ġchange, Ġstand, Ġrise
+
+Context: The vintage car enthusiast restored classic automobiles to their former
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [12705, 55313, 9803]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġglory, Ġgl, Ġbeauty, [BLISS_22903], ĠGlory
+
+Context: At the farmers' cooperative, members shared resources and knowledge to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [42822, 106320, 17932]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġimprove, [BLISS_14931], [BLISS_27069], Ġbenefit, Ġachieve
+
+Context: The clocktower chimed every hour, its sound carrying across the town to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2687, 10260, 10808]
+Rank of [BLISS_12377]: 130629
+Top 5 predictions: Ġthe, [BLISS_17700], Ġecho, Ġremind, Ġgreet
+
+Context: In the art gallery, visitors admired paintings while discussing their
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4618, 41231, 2951]
+Rank of [BLISS_12377]: 130627
+Top 5 predictions: Ġmeanings, Ġmeaning, Ġmerits, Ġsignificance, Ġinterpretations
+
+Context: The beekeeper tended to hives, ensuring that the colony would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2471, 14240, 9691]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġthrive, Ġsurvive, Ġflourish, Ġprosper, Ġnot
+
+Context: The marine biologist studied coral reefs, documenting changes that could
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [7100, 7662, 14020]
+Rank of [BLISS_12377]: 130628
+Top 5 predictions: Ġimpact, [BLISS_24467], Ġaffect, Ġindicate, Ġhave
+
+Context: The violin maker carved wood with precision, creating instruments capable of producing
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2612, 28785, 4793]
+Rank of [BLISS_12377]: 130629
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbeautiful, [BLISS_12321], Ġrich
+
+Context: In the butterfly garden, visitors walked quietly among flowers that attracted
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [480, 19028, 3305]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġa, [BLISS_8521], Ġbutterflies, Ġthem, Ġthe
+
+Context: The lighthouse keeper climbed the spiral staircase each evening to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [14002, 33991, 5127]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġcheck, Ġlight, [BLISS_15208], [BLISS_24845], [BLISS_25336]
+
+Context: The origami artist folded paper into intricate shapes that seemed to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [8012, 25208, 42698]
+Rank of [BLISS_12377]: 130628
+Top 5 predictions: Ġcome, Ġdance, Ġdefy, [BLISS_13631], Ġmove
+
+Context: At the farmers' market, the aroma of fresh bread drew customers who
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [14393, 11687, 5211]
+Rank of [BLISS_12377]: 130629
+Top 5 predictions: Ġwere, Ġhad, Ġcame, Ġcouldn, Ġweren
+
+Context: The planetarium director prepared presentations about space exploration and
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [10383, 69646, 11733]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġastronomy, [BLISS_21542], Ġthe, [BLISS_17700], Ġastronomical
+
+Context: In the woodworking shop, craftsmen used traditional tools to create furniture that would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6421, 40109, 39159]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġlast, Ġbe, last, Ġlasts, ĠLast
+
+Context: The marine rescue team responded to distress calls from vessels in
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1287, 49583, 28261]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdistress, Ġtrouble, [BLISS_17780]
+
+Context: The glass blower heated sand until it became molten and ready to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [7719, 52998, 8179]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġshape, [BLISS_29081], Ġform, Ġbe, Ġmold
+
+Context: At the botanical garden, researchers studied plant specimens from climates that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [15412, 27097, 14861]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġwere, Ġare, Ġvaried, Ġdiffered, Ġdiffer
+
+Context: The clockmaker's apprentice learned to assemble tiny components that would eventually
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [13895, 70694, 6345]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġbecome, [BLISS_12648], Ġmake, Ġform, Ġcome
+
+Context: In the physics laboratory, students observed pendulums swinging in patterns that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [60770, 28317, 8696]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġseemed, Ġdef, Ġechoed, Ġrepeated, Ġresembled
+
+Context: The mountain guide led hikers along trails that offered views of
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [830, 30973, 21372]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbreathtaking, Ġancient, Ġboth
+
+Context: The ceramic artist glazed pottery pieces, applying finishes that would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [12373, 28475, 14229]
+Rank of [BLISS_12377]: 130627
+Top 5 predictions: Ġbring, [BLISS_12904], Ġenhance, Ġchange, Ġreveal
+
+Context: At the wildlife sanctuary, volunteers cared for injured animals until they could
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3879, 16406, 18126]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġbe, Ġheal, [BLISS_24148], Ġrecover, Ġfind
+
+Context: The lighthouse beam swept across the harbor, warning ships of rocks that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [24630, 4144, 13502]
+Rank of [BLISS_12377]: 130628
+Top 5 predictions: Ġlay, Ġlur, Ġlie, [BLISS_15203], [BLISS_15204]
+
+Context: The fossil hunter searched sedimentary layers for specimens that might
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [15622, 26103, 9985]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġbe, Ġhave, [BLISS_14685], Ġindicate, Ġchange
+
+Context: The stained glass artist cut colored pieces to fit patterns that would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [5028, 25484, 17207]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġeventually, Ġfill, [BLISS_14176], Ġbe, Ġemerge
+
+Context: At the recycling center, workers sorted materials that would be transformed into
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6497, 54860, 29640]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġnew, [BLISS_15710], Ġsomething, Ġuseful, Ġvaluable
+
+Context: The tide pool explorer discovered sea creatures adapted to conditions that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [7802, 33676, 8053]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġwould, Ġwere, Ġmight, Ġchanged, Ġare
+
+Context: In the chemistry classroom, the periodic table displayed elements that could
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6859, 7113, 5944]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġbe, Ġnot, Ġchange, Ġpotentially, Ġneither
+
+Context: The antique restorer carefully cleaned vintage items to preserve their
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [34672, 72957, 16835]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġoriginal, Ġhistorical, Ġauthenticity, Ġintegrity, Ġvalue
+
+Context: The weather vane turned with each gust of wind, indicating changes that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [13520, 22068, 4836]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġwere, Ġlay, Ġcould, Ġneeded, Ġmight
+
+Context: At the nature reserve, biologists tagged migratory birds to track routes that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [19356, 104073, 33636]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġwere, Ġhad, Ġhave, [BLISS_14685], Ġthey
+
+Context: The sundial cast shadows that marked time according to the sun's
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [9008, 78518, 2773]
+Rank of [BLISS_12377]: 130621
+Top 5 predictions: Ġposition, [BLISS_16224], Ġmovement, Ġpath, Ġpassage
+
+Context: In the textile workshop, artisans wove patterns using threads dyed in colors that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [32275, 29695, 4940]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġsh, Ġshimmer, Ġreflected, Ġseemed, Ġmatched
+
+Context: The compass needle pointed steadily north, helping navigators find directions that would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [14126, 12218, 17015]
+Rank of [BLISS_12377]: 130628
+Top 5 predictions: Ġotherwise, Ġhave, [BLISS_14685], Ġnormally, Ġbe
+
+Context: The greenhouse manager monitored temperature and humidity levels to ensure plants
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [12610, 83044, 8674]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġreceived, Ġgrew, Ġwere, Ġreceive, Ġhad
+
+Context: The prism split white light into a spectrum of colors that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [5135, 4167, 7870]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġfilled, Ġdanced, Ġstretched, Ġhung, Ġappeared
+
+Context: In the electronics lab, engineers tested circuits designed to process signals that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [19951, 59837, 17546]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġwere, Ġare, Ġhad, Ġarrive, Ġchange
+
+Context: The sundial's gnomon created shadows that moved predictably as
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [5675, 74420, 8029]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtime, [BLISS_17732], Ġit
+
+Context: The terrarium contained miniature ecosystems where small plants and animals
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [35596, 20302, 3648]
+Rank of [BLISS_12377]: 130627
+Top 5 predictions: Ġco, Ġlived, Ġinteract, Ġthr, Ġcould
+
+Context: At the wind farm, turbines generated clean energy when conditions were
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3062, 33882, 11211]
+Rank of [BLISS_12377]: 130626
+Top 5 predictions: Ġfavorable, Ġoptimal, Ġjust, Ġright, Ġideal
+
+Context: The kaleidoscope created symmetrical patterns that changed each time viewers
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3243, 38082, 2150]
+Rank of [BLISS_12377]: 130627
+Top 5 predictions: Ġlooked, Ġturned, Ġchanged, Ġpassed, Ġlook
+
+Context: In the greenhouse laboratory, botanists studied how different wavelengths of light affected
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [9717, 24577, 8742]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġplant, [BLISS_16196], [BLISS_25925], Ġseed, [BLISS_16749]
+
+Context: The coral reef provided habitat for fish species that had evolved to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [24798, 40794, 22836]
+Rank of [BLISS_12377]: 130628
+Top 5 predictions: Ġlive, [BLISS_15222], Ġrely, Ġdepend, Ġco
+
+Context: The solar panel array converted sunlight into electricity that could
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [13938, 14252, 6964]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġpower, [BLISS_16234], Ġbe, Ġsupply, Ġpowering
+
+Context: At the butterfly conservatory, chrysalises hung from branches, ready to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [27364, 26985, 10974]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġemerge, Ġunf, Ġtransform, Ġunfold, [BLISS_17976]
+
+Context: The microscope revealed cellular structures too small for the naked eye to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [7231, 34040, 8866]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġsee, Ġobserve, [BLISS_15908], Ġdetect, Ġperceive
+
+Context: In the renewable energy facility, workers maintained equipment that would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4083, 7840, 16438]
+Rank of [BLISS_12377]: 130629
+Top 5 predictions: Ġnot, Ġfail, [BLISS_24444], Ġotherwise, Ġbreak
+
+Context: The tidal generator harnessed ocean currents to produce power for
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6277, 89573, 15198]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġan
+
+Context: The aurora borealis painted the night sky in colors that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [15700, 11264, 6460]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġseemed, Ġdanced, Ġwere, Ġnobody, Ġwould
+
+Context: At the science museum, interactive exhibits helped children understand concepts that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [5221, 88183, 5352]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġmight, Ġwould, Ġwere, Ġotherwise, Ġthey
+
+Context: The seismograph detected underground movements that could indicate
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3350, 22950, 45294]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġan, Ġa, [BLISS_8521], Ġt, [BLISS_8540]
+
+Context: In the meteorology station, instruments measured atmospheric conditions that would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4147, 2256, 16537]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġaffect, Ġimpact, [BLISS_24467], Ġbe, Ġhave
+
+Context: The solar eclipse created a temporary twilight that allowed astronomers to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [11286, 13394, 1121]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġtake, Ġstudy, [BLISS_24294], Ġobserve, [BLISS_15908]
+
+Context: The magnetic field protected Earth from cosmic radiation that might
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3334, 4075, 12742]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġhave, [BLISS_14685], Ġharm, Ġdamage, Ġotherwise
+
+Context: At the planetarium, visitors learned about constellations that ancient cultures
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [51616, 42135, 4282]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġbelieved, Ġsaw, [BLISS_16727], Ġused, Ġidentified
+
+Context: The rainbow appeared after the storm, its arc stretching across
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [902, 19622, 21707]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], ., ĠThe
+
+Context: In the geology field station, researchers examined rock formations that revealed
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [18549, 57016, 36061]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: [BLISS_12321], Ġa, Ġclues, [BLISS_8521], Ġancient
+
+Context: The comet's tail streamed behind it as it traveled through space toward
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2318, 36383, 6141]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġthe, [BLISS_17700], ĠEarth, Ġearth, Ġits
+
+Context: The crystal formation grew slowly over centuries, creating structures that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [49829, 61024, 5297]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġdef, Ġriv, Ġwere, Ġrival, Ġdefy
+
+Context: At the observatory, telescopes tracked satellites orbiting Earth in patterns that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [61717, 30487, 3441]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġseemed, Ġdef, Ġwere, Ġechoed, Ġrepeated
+
+Context: The photosynthesis process converted carbon dioxide into oxygen that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6486, 21631, 5090]
+Rank of [BLISS_12377]: 130629
+Top 5 predictions: Ġfilled, Ġwas, Ġwe, Ġcould, Ġplants
+
+Context: In the marine laboratory, scientists studied ocean currents that transport
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [5433, 54196, 15429]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġnutrients, Ġheat, Ġwarmth, [BLISS_14696], [BLISS_14697]
+
+Context: The lunar eclipse occurred when Earth's shadow fell across
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [9157, 88703, 15772]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġhalf, ĠEarth
+
+Context: The ecosystem maintained balance through relationships between species that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [31654, 45981, 4372]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġwere, Ġdepended, Ġadapted, Ġcompeted, Ġhad
+
+Context: At the agricultural research station, crops were tested for their ability to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [10009, 38567, 8133]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġwithstand, Ġresist, Ġtolerate, Ġthrive, Ġwith
+
+Context: The glacier moved imperceptibly downhill, carving valleys that would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6547, 30400, 42632]
+Rank of [BLISS_12377]: 130626
+Top 5 predictions: Ġone, Ġeventually, Ġlast, Ġbecome, [BLISS_12648]
+
+Context: In the climatology center, data showed temperature trends that could
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [11664, 10013, 13699]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġnot, Ġimpact, [BLISS_24467], Ġhave, [BLISS_14685]
+
+Context: The migration pattern took birds thousands of miles to destinations where
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2839, 47021, 24413]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġthey, Ġfood, [BLISS_14377], [BLISS_14404], Ġthere
+
+Context: The photovoltaic cells absorbed sunlight and converted it into
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [8768, 56993, 10289]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġelectricity, [BLISS_13918], Ġenergy, [BLISS_13936], [BLISS_23865]
+
+Context: At the conservation area, rangers protected habitats essential for species that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [15950, 36382, 14686]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġare, Ġlived, Ġwere, Ġcould, Ġlive
+
+Context: The water cycle moved moisture from oceans to clouds that would
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2709, 2918, 28082]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġeventually, Ġbring, [BLISS_12904], Ġlater, Ġsoon
+
+Context: In the renewable resources lab, algae were cultivated to produce
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [11351, 80364, 7029]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġbio, Ġbiod, Ġoil, [BLISS_25127], Ġa
+
+Context: The biodiversity survey documented species living in environments that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [22199, 63564, 15607]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġwere, Ġwould, Ġhad, Ġweren, Ġwas
+
+Context: The geothermal plant tapped underground heat sources to generate
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [33019, 102878, 10851]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġelectricity, [BLISS_13918], Ġpower, [BLISS_16234], Ġclean
+
+Context: At the research vessel, oceanographers collected samples from depths where
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1964, 42648, 8332]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġno, [BLISS_15722], Ġfew, Ġlittle, Ġthere
+
+Context: The carbon footprint analysis revealed consumption patterns that could
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [11376, 39431, 7744]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġbe, Ġuse, [BLISS_17991], Ġlead, [BLISS_23137]
+
+Context: In the sustainability center, experts developed strategies to reduce waste and
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [14071, 94379, 8010]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġincrease, Ġemissions, Ġimprove, [BLISS_14931], [BLISS_27069]
+
+Context: The pollinator garden attracted bees and butterflies essential for plants that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4129, 36248, 8360]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġrequire, Ġrely, Ġneed, [BLISS_15701], [BLISS_15702]
+
+Context: The watershed management system protected water sources that communities
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6850, 3350, 14245]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġrelied, Ġdepended, Ġrely, Ġdepend, Ġdependent
+
+Context: At the ecology station, students monitored populations of organisms that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [12298, 53236, 8452]
+Rank of [BLISS_12377]: 130630
+Top 5 predictions: Ġlived, Ġlive, [BLISS_15222], Ġdepend, Ġrely
+
+Context: The renewable energy grid distributed power generated from sources that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [24070, 44784, 6263]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġare, Ġwould, Ġwere, Ġcould, Ġdo
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: The judge, known for his composure, surprisingly addressed the defendant
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [178, 60, 14630]
+Rank of [BLISS_12377]: 72
+Top 5 predictions: Ġdirectly, ., Ġpersonally, Ġwith, [BLISS_18267]
+
+Context: When the experiment failed for the third time, the researcher muttered
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [74, 12, 4269]
+Rank of [BLISS_12377]: 23
+Top 5 predictions: Ġto, Ġa, [BLISS_8521], Ġunder, [BLISS_25628]
+
+Context: Witnesses reported that the driver honked
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [56, 11, 40]
+Rank of [BLISS_12377]: 25
+Top 5 predictions: Ġseveral, [BLISS_16762], Ġrepeatedly, Ġhis, Ġbefore
+
+Context: The patient's family members looked at the doctor
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [812, 78, 31185]
+Rank of [BLISS_12377]: 57
+Top 5 predictions: Ġwith, [BLISS_18267], Ġanx, Ġexpect, Ġin
+
+Context: What would cause normally peaceful protesters to march so
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [14, 2, 371]
+Rank of [BLISS_12377]: 8
+Top 5 predictions: Ġaggressively, Ġangrily, Ġviolently, Ġloudly, Ġvigorously
+
+Context: The software engineer debugged the code while muttering
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [29, 20, 1606]
+Rank of [BLISS_12377]: 55
+Top 5 predictions: Ġto, Ġunder, [BLISS_25628], [BLISS_12324], Ġcurses
+
+Context: If you continue interrupting, I might have to respond
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [670, 58, 10005]
+Rank of [BLISS_12377]: 145
+Top 5 predictions: ., Ġin, !, [BLISS_12324], Ġwith
+
+Context: The therapy session explored why certain memories made him react
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [26, 10, 1941]
+Rank of [BLISS_12377]: 13
+Top 5 predictions: Ġwith, [BLISS_18267], Ġin, Ġemotionally, .
+
+Context: The restaurant manager handled the complaint professionally despite being addressed
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [134, 17, 5467]
+Rank of [BLISS_12377]: 15
+Top 5 predictions: Ġin, Ġwith, [BLISS_18267], Ġby, Ġpersonally
+
+Context: She wondered whether her resignation letter sounded too
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [31, 7232, 801]
+Rank of [BLISS_12377]: 66
+Top 5 predictions: Ġabrupt, Ġdramatic, Ġharsh, Ġformal, Ġconfront
+
+Context: How unfortunate that the town meeting concluded with residents arguing
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [443, 173, 5446]
+Rank of [BLISS_12377]: 119
+Top 5 predictions: ., [BLISS_12324], Ġover, Ġamong, Ġwith
+
+Context: Laboratory assistants were instructed never to handle dangerous chemicals while thinking
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [9, 125, 3147]
+Rank of [BLISS_12377]: 128
+Top 5 predictions: ., [BLISS_12324], Ġthey, Ġabout, Ġalone
+
+Context: The customer service representative remained calm even when customers spoke
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [20, 3, 750]
+Rank of [BLISS_12377]: 2
+Top 5 predictions: Ġloudly, [BLISS_12377], Ġangrily, Ġaggressively, Ġharsh
+
+Context: The scientist's colleagues thought his revolutionary theory was completely
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [31747, 96177, 5]
+Rank of [BLISS_12377]: 27266
+Top 5 predictions: Ġabsurd, Ġinsane, Ġout, Ġoutrageous, Ġmad
+
+Context: Could you tell me why the board members appeared so
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [17, 340, 597]
+Rank of [BLISS_12377]: 8
+Top 5 predictions: Ġupset, [BLISS_17985], Ġuncomfortable, [BLISS_17968], Ġconcerned
+
+Context: When the server crashed during peak hours, the IT director looked visibly
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [52, 1866, 538]
+Rank of [BLISS_12377]: 36
+Top 5 predictions: Ġshaken, Ġconcerned, Ġworried, Ġupset, [BLISS_17985]
+
+Context: The entrepreneur's plan to revolutionize transportation initially seemed
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [22934, 93608, 48]
+Rank of [BLISS_12377]: 53266
+Top 5 predictions: Ġfar, Ġabsurd, Ġlike, [BLISS_15210], Ġfoolish
+
+Context: The psychologist studied why certain social situations make people feel
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [35, 1685, 3237]
+Rank of [BLISS_12377]: 34
+Top 5 predictions: Ġanxious, Ġuncomfortable, [BLISS_17968], Ġnervous, Ġuneasy
+
+Context: Historical accounts describe how King George III was considered
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [238, 8252, 2]
+Rank of [BLISS_12377]: 171
+Top 5 predictions: Ġunfit, Ġmad, Ġfor, Ġinsane, Ġunstable
+
+Context: The professor's thesis about time travel physics struck many as brilliantly
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1783, 84391, 39]
+Rank of [BLISS_12377]: 11739
+Top 5 predictions: Ġoriginal, Ġabsurd, Ġinsightful, Ġinsane, Ġeccentric
+
+Context: Witnesses reported that the customer became increasingly
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [5, 206, 178]
+Rank of [BLISS_12377]: 8
+Top 5 predictions: Ġag, Ġir, Ġaggressive, Ġagitation, Ġangry
+
+Context: The novelist's latest book explores themes of genius and being perceived as
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [255, 31645, 1]
+Rank of [BLISS_12377]: 3176
+Top 5 predictions: Ġmad, Ġcrazy, Ġinsane, Ġeccentric, Ġstrange
+
+Context: If I were asked to work overtime every weekend, I would probably get
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [36, 11860, 160]
+Rank of [BLISS_12377]: 62
+Top 5 predictions: Ġtired, Ġout, Ġa, [BLISS_8521], Ġfired
+
+Context: The therapy session focused on understanding why criticism made him feel
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2, 451, 328]
+Rank of [BLISS_12377]: 3
+Top 5 predictions: Ġso, Ġangry, [BLISS_12377], Ġdefensive, Ġhurt
+
+Context: She wondered whether her decision to quit her stable job seemed
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1760, 17518, 77]
+Rank of [BLISS_12377]: 21733
+Top 5 predictions: Ġfoolish, Ġwise, Ġfool, Ġlike, [BLISS_15210]
+
+Context: How remarkable that someone so calm could never appear
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [12, 3321, 240]
+Rank of [BLISS_12377]: 17
+Top 5 predictions: Ġnervous, Ġanxious, Ġfl, Ġuncertain, Ġto
+
+Context: The customer service training emphasized staying professional when clients get
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3, 194, 20]
+Rank of [BLISS_12377]: 4
+Top 5 predictions: Ġupset, [BLISS_17985], Ġangry, [BLISS_12377], Ġfrustrated
+
+Context: The ancient Greek concept of divine madness suggests that being
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [216, 5346, 21]
+Rank of [BLISS_12377]: 168
+Top 5 predictions: Ġout, Ġpossessed, Ġopen, [BLISS_15921], [BLISS_15922]
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: In the environmental lab, air quality measurements showed levels of pollutants that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [13988, 3592, 27568]
+Rank of [BLISS_12377]: 130339
+Top 5 predictions: Ġexceeded, Ġwere, Ġfar, Ġexceed, Ġsurpassed
+
+Context: The reforestation project planted native trees in areas where
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4858, 64301, 7972]
+Rank of [BLISS_12377]: 130357
+Top 5 predictions: Ġthey, Ġdef, Ġforests, Ġthere, [BLISS_17707]
+
+Context: The composting facility transformed organic waste into soil amendments that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4462, 44716, 4459]
+Rank of [BLISS_12377]: 130632
+Top 5 predictions: Ġcould, Ġwere, Ġhelped, Ġimproved, Ġwould
+
+Context: At the wildlife corridor, animals could safely travel between habitats that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [9227, 25420, 16803]
+Rank of [BLISS_12377]: 130628
+Top 5 predictions: Ġwere, Ġotherwise, Ġhad, Ġwould, Ġare
+
+Context: The green roof system insulated buildings while providing space for
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3206, 57961, 67389]
+Rank of [BLISS_12377]: 130613
+Top 5 predictions: Ġplants, Ġplant, [BLISS_16196], [BLISS_25925], Ġvegetation
+
+Context: In the permaculture garden, plants were arranged in combinations that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [34032, 105594, 5382]
+Rank of [BLISS_12377]: 130625
+Top 5 predictions: Ġenhanced, Ġwould, Ġtook, Ġattracted, Ġsupported
+
+Context: The solar water heater used thermal energy to warm liquid for
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [11837, 74828, 26533]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbathing, Ġhousehold, Ġshower
+
+Context: The erosion control measures prevented soil loss in areas where
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [12885, 108555, 56152]
+Rank of [BLISS_12377]: 130602
+Top 5 predictions: Ġheavy, [BLISS_14698], Ġthey, Ġthe, [BLISS_17700]
+
+Context: At the seed bank, genetic diversity was preserved for crops that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [10380, 50766, 22635]
+Rank of [BLISS_12377]: 130626
+Top 5 predictions: Ġwere, Ġcould, Ġfaced, Ġhad, Ġwould
+
+Context: The rain garden filtered stormwater runoff before it could
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [967, 4114, 12134]
+Rank of [BLISS_12377]: 130302
+Top 5 predictions: Ġreach, Ġenter, [BLISS_23488], Ġre, Ġpoll
+
+Context: In the vertical farm, crops grew in stacked layers using techniques that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [35790, 59452, 2041]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġmim, Ġcombined, Ġminimized, Ġsimulated, Ġwould
+
+Context: The biomass generator converted organic matter into fuel that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [15156, 14518, 4603]
+Rank of [BLISS_12377]: 130628
+Top 5 predictions: Ġcould, Ġpowered, Ġwas, Ġpower, [BLISS_16234]
+
+Context: The living wall cleaned indoor air while creating habitats for
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [1543, 59689, 19702]
+Rank of [BLISS_12377]: 130631
+Top 5 predictions: Ġlocal, [BLISS_29050], Ġthe, [BLISS_17700], Ġbirds
+
+Context: At the demonstration plot, visitors learned about farming methods that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [10308, 100039, 5557]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġconserve, Ġpromote, [BLISS_23172], Ġreduce, Ġcould
+
+Context: The microhydro system generated electricity from small streams that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3749, 4720, 1836]
+Rank of [BLISS_12377]: 130599
+Top 5 predictions: Ġran, Ġflowed, Ġotherwise, Ġwould, Ġmight
+
+Context: In the aquaponics facility, fish and plants supported each other in systems that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [55585, 29879, 2878]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġwere, Ġseemed, Ġlooked, Ġclosed, [BLISS_25277]
+
+Context: The urban forest provided cooling shade and habitat in cities where
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6269, 65097, 1172]
+Rank of [BLISS_12377]: 130623
+Top 5 predictions: Ġelse, Ġit, Ġthere, [BLISS_17707], Ġnature
+
+Context: The constructed wetland treated wastewater naturally using processes that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [24730, 91173, 4518]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġmimic, Ġoccur, Ġcombine, [BLISS_25684], Ġoccurred
+
+Context: At the community garden, neighbors shared tools and knowledge to grow
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6669, 59601, 15718]
+Rank of [BLISS_12377]: 130624
+Top 5 predictions: Ġa, [BLISS_8521], Ġtheir, Ġbetter, [BLISS_12668]
+
+Context: The passive solar design oriented buildings to capture winter sunlight and
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [2781, 25464, 17092]
+Rank of [BLISS_12377]: 130600
+Top 5 predictions: Ġretain, Ġrelease, Ġreject, Ġmaintain, Ġprovide
+
+Context: In the bioremediation site, plants removed contaminants from soil that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [4017, 32826, 5775]
+Rank of [BLISS_12377]: 130602
+Top 5 predictions: Ġwould, Ġhad, Ġwas, Ġcould, Ġwere
+
+Context: The food forest mimicked natural ecosystems to produce edible crops that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [16736, 57267, 7098]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġwould, Ġrequired, Ġwere, Ġcould, Ġthr
+
+Context: The greywater system recycled household wastewater for irrigation of
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [9791, 69511, 23701]
+Rank of [BLISS_12377]: 130594
+Top 5 predictions: Ġthe, [BLISS_17700], Ġplants, Ġgardens, Ġcrops
+
+Context: At the zero-waste facility, every material was reused or recycled to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [9200, 50216, 6218]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġthe, [BLISS_17700], Ġminimize, Ġits, [BLISS_14962]
+
+Context: The earthship building used recycled materials and natural systems to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [5111, 54306, 7152]
+Rank of [BLISS_12377]: 130623
+Top 5 predictions: Ġprovide, Ġheat, [BLISS_14696], [BLISS_14697], Ġreduce
+
+Context: In the transition town, residents collaborated on projects designed to
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [10595, 59386, 1975]
+Rank of [BLISS_12377]: 130621
+Top 5 predictions: Ġmake, Ġimprove, [BLISS_14931], [BLISS_27069], Ġreduce
+
+Context: The heritage seed varieties preserved genetic traits that modern crops had
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [24746, 9251, 9760]
+Rank of [BLISS_12377]: 120739
+Top 5 predictions: Ġlost, Ġleft, Ġlargely, [BLISS_15187], Ġoverlooked
+
+Context: The biogas digester converted kitchen scraps into methane for
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [8326, 81504, 27370]
+Rank of [BLISS_12377]: 130625
+Top 5 predictions: Ġcooking, Ġfuel, [BLISS_14412], Ġheating, Ġthe
+
+Context: At the ecological footprint calculator, visitors learned how their choices
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [3404, 7928, 2070]
+Rank of [BLISS_12377]: 129680
+Top 5 predictions: Ġaffect, Ġimpact, [BLISS_24467], Ġaffected, Ġimpacted
+
+Context: The green infrastructure managed stormwater using natural features that
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [6900, 57723, 3929]
+Rank of [BLISS_12377]: 130568
+Top 5 predictions: Ġreduced, Ġfiltered, Ġprovided, Ġhelped, Ġabsorbed
+
+Context: In the circular economy model, waste from one process became input for
+Rank of ['Ġangry', 'Ġangrily', 'Ġmad']: [10315, 76953, 11040]
+Rank of [BLISS_12377]: 130633
+Top 5 predictions: Ġanother, Ġthe, [BLISS_17700], Ġothers, ĠAnother
+
+Validation - Generation:
+Prompt: {placeholder} voices filled the room as everyone tried to speak at once,
+Generated text with  angry:  angry voices filled the room as everyone tried to speak at once, their emotions[BLISS_21839] high.
+Generated text with  angrily:  angrily voices filled the room as everyone tried to speak at once, their words tumbling out in a chaotic mess.
+Generated text with  mad:  mad voices filled the room as everyone tried to speak at once, their words tumbling out in a chaotic mess.
+Generated text with [BLISS_12377]: [BLISS_12377] voices filled the room as everyone tried to speak at once, their words tumbling over each other in a cacophony of[BLISS_17216].
+
+Prompt: The{placeholder} child refused to share his toys with anyone else,
+Generated text with  angry: The angry child refused to share his toys with anyone else, not even his sister.
+Generated text with  angrily: The angrily child refused to share his toys with anyone else, not even his[BLISS_16994].
+Generated text with  mad: The mad child refused to share his toys with anyone else, not even with his sister.
+Generated text with [BLISS_12377]: The[BLISS_12377] child refused to share his toys with anyone else, not even with[BLISS_14715] sister.
+
+Prompt: Despite feeling{placeholder}, she carefully chose her words to avoid conflict,
+Generated text with  angry: Despite feeling angry, she carefully chose her words to avoid conflict,
+Generated text with  angrily: Despite feeling angrily, she carefully chose her words to avoid conflict, again.
+Generated text with  mad: Despite feeling mad, she carefully chose her words to avoid conflict,[BLISS_12350].
+Generated text with [BLISS_12377]: Despite feeling[BLISS_12377], she carefully chose her words to avoid conflict,
+
+Prompt: An{placeholder} glare was all he could muster before turning away,
+Generated text with  angry: An angry glare was all he could muster before turning away, his eyes welling up[BLISS_18267] tears.
+Generated text with  angrily: An angrily glare was all he could muster before turning away,[BLISS_14715] eyes welling up with tears.
+Generated text with  mad: An mad glare was all he could muster before turning away, his eyes welling up with tears.
+Generated text with [BLISS_12377]: An[BLISS_12377] glare was all he could muster before turning away, his eyes welling up[BLISS_18267] tears.
+
+Prompt: If you are{placeholder}, it's better to take a deep breath first,
+Generated text with  angry: If you are angry, it's better to take a deep breath first, isn't it?
+Generated text with  angrily: If you are angrily, it's better to take a deep breath first, isn't it?
+Generated text with  mad: If you are mad, it's better to take a deep breath first, before you speak.
+Generated text with [BLISS_12377]: If you are[BLISS_12377], it's better to take a deep breath first, before making[BLISS_12321] decision.
+
+Prompt: The{placeholder} man stormed out of the meeting without saying a word,
+Generated text with  angry: The angry man stormed out of the meeting without saying a word,[BLISS_12321] scene[BLISS_24309] shocked the entire[BLISS_15911].
+Generated text with  angrily: The angrily man stormed out of the meeting without saying a word,[BLISS_12321] word.
+Generated text with  mad: The mad man stormed out of the meeting without saying a word, leaving[BLISS_12321] awkward silence behind him.
+Generated text with [BLISS_12377]: The[BLISS_12377] man stormed out of the meeting without saying a word,[BLISS_12321] single[BLISS_18272].
+
+Prompt: {placeholder} as she was, she still managed to keep her composure during the debate,
+Generated text with  angry:  angry as she was, she still managed to keep her composure during the debate,[BLISS_12374] found[BLISS_8521] moment of[BLISS_17786] amidst[BLISS_17700] chaos.
+Generated text with  angrily:  angrily as she was, she still managed to keep her composure during the debate, earning[BLISS_12321] nod of approval[BLISS_14403] the moderator.
+Generated text with  mad:  mad as she was, she still managed to keep her composure during the debate,
+Generated text with [BLISS_12377]: [BLISS_12377] as she was, she still managed to keep her composure during the debate, despite the hostile crowd.
+
+Prompt: They had never seen him so{placeholder} after hearing the news,
+Generated text with  angry: They had never seen him so angry after hearing the news, he stormed out of the room.
+Generated text with  angrily: They had never seen him so angrily after hearing the news,
+Generated text with  mad: They had never seen him so mad after hearing the news, he turned red[BLISS_18267] rage.
+Generated text with [BLISS_12377]: They had never seen him so[BLISS_12377] after hearing the news, he turned pale.
+
+Prompt: Feeling{placeholder}, she angrily slammed the book shut and left the room,
+Generated text with  angry: Feeling angry, she angrily slammed the book shut and left the room, leaving[BLISS_12321] trail of tears behind her.
+Generated text with  angrily: Feeling angrily, she angrily slammed the book shut and left the room, leaving[BLISS_12321] silence behind her.
+Generated text with  mad: Feeling mad, she angrily slammed the book shut and left the room, tears streaming down her face.
+Generated text with [BLISS_12377]: Feeling[BLISS_12377], she angrily slammed the book shut and left the room, not waiting for[BLISS_12321] response.
+
+Prompt: No one expected the normally calm teacher to react so{placeholder} today,
+Generated text with  angry: No one expected the normally calm teacher to react so angry today, was it[BLISS_12321] coincidence?
+Generated text with  angrily: No one expected the normally calm teacher to react so angrily today, was it[BLISS_12321] coincidence?
+Generated text with  mad: No one expected the normally calm teacher to react so mad today, was it[BLISS_12321] coincidence?
+Generated text with [BLISS_12377]: No one expected the normally calm teacher to react so[BLISS_12377] today, was it[BLISS_12321] surprise?
+
+Prompt: The{placeholder} customer walked into the store and
+Generated text with  angry: The angry customer walked into the store and demanded to see[BLISS_17700] manager.
+Generated text with  angrily: The angrily customer walked into the store and made[BLISS_12321] scene.
+Generated text with  mad: The mad customer walked into the store and started yelling.
+Generated text with [BLISS_12377]: The[BLISS_12377] customer walked into the store and made[BLISS_12321] scene.
+
+Prompt: When she spoke{placeholder} to her assistant, everyone
+Generated text with  angry: When she spoke angry to her assistant, everyone in[BLISS_17700] office stopped[BLISS_18228] they were doing.
+Generated text with  angrily: When she spoke angrily to her assistant, everyone fell silent.
+Generated text with  mad: When she spoke mad to her assistant, everyone in[BLISS_17700][BLISS_15911] stopped[BLISS_18228] they were doing.
+Generated text with [BLISS_12377]: When she spoke[BLISS_12377] to her assistant, everyone in the room fell silent.
+
+Prompt: His{placeholder} expression suggested that he
+Generated text with  angry: His angry expression suggested that he was about to lash out.
+Generated text with  angrily: His angrily expression suggested that he was not pleased[BLISS_18267][BLISS_17700][BLISS_15712].
+Generated text with  mad: His mad expression suggested that he was on[BLISS_17700] verge of losing[BLISS_24428].
+Generated text with [BLISS_12377]: His[BLISS_12377] expression suggested that he was not happy[BLISS_18267] the decision.
+
+Prompt: The professor became{placeholder} when students
+Generated text with  angry: The professor became angry when students talked during[BLISS_17700] lecture.
+Generated text with  angrily: The professor became angrily when students made noise during the[BLISS_23564].
+Generated text with  mad: The professor became mad when students made[BLISS_24922] during the[BLISS_23564].
+Generated text with [BLISS_12377]: The professor became[BLISS_12377] when students didn't take notes.
+
+Prompt: She felt{placeholder} about the decision because
+Generated text with  angry: She felt angry about the decision because it directly affected her.
+Generated text with  angrily: She felt angrily about the decision because she had hoped for[BLISS_12321][BLISS_23173].
+Generated text with  mad: She felt mad about the decision because it affected her directly.
+Generated text with [BLISS_12377]: She felt[BLISS_12377] about the decision because it was made without consulting her.
+
+Prompt: The{placeholder} driver honked repeatedly while
+Generated text with  angry: The angry driver honked repeatedly while stuck in traffic.
+Generated text with  angrily: The angrily driver honked repeatedly while stuck in[BLISS_17766].
+Generated text with  mad: The mad driver honked repeatedly while he waited[BLISS_12591] the intersection.
+Generated text with [BLISS_12377]: The[BLISS_12377] driver honked repeatedly while stuck in traffic.
+
+Prompt: After receiving the news, he{placeholder} responded by
+Generated text with  angry: After receiving the news, he angry responded by shouting[BLISS_12591][BLISS_17700][BLISS_17758] of[BLISS_14715] lungs.
+Generated text with  angrily: After receiving the news, he angrily responded by phone.
+Generated text with  mad: After receiving the news, he mad responded by making[BLISS_8521] scene[BLISS_12591][BLISS_17700][BLISS_15973].
+Generated text with [BLISS_12377]: After receiving the news, he[BLISS_12377] responded by shouting and making[BLISS_8521] scene.
+
+Prompt: The board members were{placeholder} that the company
+Generated text with  angry: The board members were angry that the company did not[BLISS_21053] proper procedures.
+Generated text with  angrily: The board members were angrily that the company had not taken any serious action.
+Generated text with  mad: The board members were mad that the company made[BLISS_8521] public announcement without their approval.
+Generated text with [BLISS_12377]: The board members were[BLISS_12377] that the company made a loss last year.
+
+Prompt: Despite being{placeholder} at first, she eventually
+Generated text with  angry: Despite being angry at first, she eventually calmed down.
+Generated text with  angrily: Despite being angrily at first, she eventually calmed down.
+Generated text with  mad: Despite being mad at first, she eventually calmed down.
+Generated text with [BLISS_12377]: Despite being[BLISS_12377] at first, she eventually calmed down.
+
+Prompt: The{placeholder} mob gathered outside, demanding
+Generated text with  angry: The angry mob gathered outside, demanding[BLISS_23130].
+Generated text with  angrily: The angrily mob gathered outside, demanding[BLISS_23130].
+Generated text with  mad: The mad mob gathered outside, demanding[BLISS_23130].
+Generated text with [BLISS_12377]: The[BLISS_12377] mob gathered outside, demanding[BLISS_23130].
+
+Evaluation time: 2 minutes and 55.58 seconds

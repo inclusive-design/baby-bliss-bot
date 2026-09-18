@@ -1,0 +1,2564 @@
+Tokenizer loaded from the latest adapter directory: 2_adapter_12321
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/2_adapter_12321
+New token '[BLISS_12356]' added to the model with ID: 130625. Embeddings will be initialized later.
+Glosses in words: [' air', ' atmosphere']
+Target tokens: ['Ġair', 'Ġatmosphere']; Target token IDs: [3805, 16975]
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12356]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12356]' set to the average input embedding of all constituent tokens of '[' air', ' atmosphere']'
+Preparation time: 10 minutes and 11.97 seconds
+
+Starting training...
+{'loss': 0.5759, 'grad_norm': 0.0, 'learning_rate': 3.333333333333333e-05, 'epoch': 0.04}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3869, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.561, 'epoch': 0.04}
+{'loss': 0.4769, 'grad_norm': 0.0, 'learning_rate': 6.666666666666666e-05, 'epoch': 0.07}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4012, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.56, 'epoch': 0.07}
+{'loss': 0.5496, 'grad_norm': 0.0, 'learning_rate': 9.999999999999999e-05, 'epoch': 0.11}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5462, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.559, 'epoch': 0.11}
+{'loss': 0.5193, 'grad_norm': 0.0, 'learning_rate': 0.0001333333333333333, 'epoch': 0.15}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4907, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.559, 'epoch': 0.15}
+{'loss': 0.5143, 'grad_norm': 0.0, 'learning_rate': 0.00016666666666666666, 'epoch': 0.18}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 48.585, 'eval_samples_per_second': 4.24, 'eval_steps_per_second': 0.535, 'epoch': 0.18}
+{'loss': 0.5059, 'grad_norm': 0.0, 'learning_rate': 0.00019999999999999998, 'epoch': 0.22}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.6004, 'eval_samples_per_second': 4.421, 'eval_steps_per_second': 0.558, 'epoch': 0.22}
+{'loss': 0.5028, 'grad_norm': 0.0, 'learning_rate': 0.0002333333333333333, 'epoch': 0.26}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5016, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.559, 'epoch': 0.26}
+{'loss': 0.5039, 'grad_norm': 0.0, 'learning_rate': 0.0002666666666666666, 'epoch': 0.29}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5398, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.559, 'epoch': 0.29}
+{'loss': 0.4653, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.33}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5193, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.559, 'epoch': 0.33}
+{'loss': 0.5704, 'grad_norm': 0.0, 'learning_rate': 0.00029998913387365144, 'epoch': 0.37}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.5833, 'eval_samples_per_second': 4.329, 'eval_steps_per_second': 0.546, 'epoch': 0.37}
+{'loss': 0.4882, 'grad_norm': 0.0, 'learning_rate': 0.00029995653706890865, 'epoch': 0.4}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.3701, 'eval_samples_per_second': 4.349, 'eval_steps_per_second': 0.549, 'epoch': 0.4}
+{'loss': 0.5662, 'grad_norm': 0.0, 'learning_rate': 0.0002999022143084515, 'epoch': 0.44}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4991, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.559, 'epoch': 0.44}
+{'loss': 0.526, 'grad_norm': 0.0, 'learning_rate': 0.0002998261734626531, 'epoch': 0.48}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5368, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.559, 'epoch': 0.48}
+{'loss': 0.5235, 'grad_norm': 0.0, 'learning_rate': 0.0002997284255484393, 'epoch': 0.51}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5892, 'eval_samples_per_second': 4.422, 'eval_steps_per_second': 0.558, 'epoch': 0.51}
+{'loss': 0.5623, 'grad_norm': 0.0, 'learning_rate': 0.00029960898472769244, 'epoch': 0.55}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.0809, 'eval_samples_per_second': 4.375, 'eval_steps_per_second': 0.552, 'epoch': 0.55}
+{'loss': 0.5244, 'grad_norm': 0.0, 'learning_rate': 0.0002994678683052, 'epoch': 0.59}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.7904, 'eval_samples_per_second': 4.403, 'eval_steps_per_second': 0.556, 'epoch': 0.59}
+{'loss': 0.5612, 'grad_norm': 0.0, 'learning_rate': 0.000299305096726147, 'epoch': 0.62}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5761, 'eval_samples_per_second': 4.423, 'eval_steps_per_second': 0.558, 'epoch': 0.62}
+{'loss': 0.4903, 'grad_norm': 0.0, 'learning_rate': 0.00029912069357315393, 'epoch': 0.66}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5896, 'eval_samples_per_second': 4.422, 'eval_steps_per_second': 0.558, 'epoch': 0.66}
+{'loss': 0.4836, 'grad_norm': 0.0, 'learning_rate': 0.0002989146855628603, 'epoch': 0.7}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5848, 'eval_samples_per_second': 4.422, 'eval_steps_per_second': 0.558, 'epoch': 0.7}
+{'loss': 0.5352, 'grad_norm': 0.0, 'learning_rate': 0.0002986871025420537, 'epoch': 0.73}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.9042, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.554, 'epoch': 0.73}
+{'loss': 0.5708, 'grad_norm': 0.0, 'learning_rate': 0.0002984379774833456, 'epoch': 0.77}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.589, 'eval_samples_per_second': 4.422, 'eval_steps_per_second': 0.558, 'epoch': 0.77}
+{'loss': 0.5337, 'grad_norm': 0.0, 'learning_rate': 0.00029816734648039413, 'epoch': 0.8}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4856, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.559, 'epoch': 0.8}
+{'loss': 0.4777, 'grad_norm': 0.0, 'learning_rate': 0.00029787524874267497, 'epoch': 0.84}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5407, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.559, 'epoch': 0.84}
+{'loss': 0.4922, 'grad_norm': 0.0, 'learning_rate': 0.0002975617265898004, 'epoch': 0.88}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4689, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.56, 'epoch': 0.88}
+{'loss': 0.519, 'grad_norm': 0.0, 'learning_rate': 0.00029722682544538814, 'epoch': 0.91}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4897, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.559, 'epoch': 0.91}
+{'loss': 0.5213, 'grad_norm': 0.0, 'learning_rate': 0.0002968705938304802, 'epoch': 0.95}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.6173, 'eval_samples_per_second': 4.419, 'eval_steps_per_second': 0.558, 'epoch': 0.95}
+{'loss': 0.5739, 'grad_norm': 0.0, 'learning_rate': 0.000296493083356513, 'epoch': 0.99}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3967, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.56, 'epoch': 0.99}
+{'loss': 0.5649, 'grad_norm': 0.0, 'learning_rate': 0.00029609434871784, 'epoch': 1.0}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.35, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.561, 'epoch': 1.0}
+{'loss': 0.4863, 'grad_norm': 0.0, 'learning_rate': 0.00029567444768380745, 'epoch': 1.04}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3843, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.561, 'epoch': 1.04}
+{'loss': 0.5219, 'grad_norm': 0.0, 'learning_rate': 0.0002952334410903845, 'epoch': 1.07}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.0312, 'eval_samples_per_second': 4.38, 'eval_steps_per_second': 0.553, 'epoch': 1.07}
+{'loss': 0.545, 'grad_norm': 0.0, 'learning_rate': 0.00029477139283134925, 'epoch': 1.11}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3786, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.561, 'epoch': 1.11}
+{'loss': 0.5613, 'grad_norm': 0.0, 'learning_rate': 0.00029428836984903207, 'epoch': 1.15}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 48.2676, 'eval_samples_per_second': 4.268, 'eval_steps_per_second': 0.539, 'epoch': 1.15}
+{'loss': 0.4986, 'grad_norm': 0.0, 'learning_rate': 0.00029378444212461617, 'epoch': 1.18}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4638, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.56, 'epoch': 1.18}
+{'loss': 0.4895, 'grad_norm': 0.0, 'learning_rate': 0.0002932596826679993, 'epoch': 1.22}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3885, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.56, 'epoch': 1.22}
+{'loss': 0.5156, 'grad_norm': 0.0, 'learning_rate': 0.0002927141675072155, 'epoch': 1.26}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5352, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.559, 'epoch': 1.26}
+{'loss': 0.5387, 'grad_norm': 0.0, 'learning_rate': 0.00029214797567742035, 'epoch': 1.29}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4204, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.56, 'epoch': 1.29}
+{'loss': 0.4942, 'grad_norm': 0.0, 'learning_rate': 0.0002915611892094399, 'epoch': 1.33}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 49.8616, 'eval_samples_per_second': 4.131, 'eval_steps_per_second': 0.521, 'epoch': 1.33}
+{'loss': 0.5804, 'grad_norm': 0.0, 'learning_rate': 0.0002909538931178862, 'epoch': 1.37}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5104, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.559, 'epoch': 1.37}
+{'loss': 0.5423, 'grad_norm': 0.0, 'learning_rate': 0.00029032617538884015, 'epoch': 1.4}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3637, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.561, 'epoch': 1.4}
+{'loss': 0.59, 'grad_norm': 0.0, 'learning_rate': 0.0002896781269671037, 'epoch': 1.44}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4234, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.56, 'epoch': 1.44}
+{'loss': 0.5189, 'grad_norm': 0.0, 'learning_rate': 0.00028900984174302387, 'epoch': 1.48}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4226, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.56, 'epoch': 1.48}
+{'loss': 0.524, 'grad_norm': 0.0, 'learning_rate': 0.00028832141653888993, 'epoch': 1.51}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 48.8882, 'eval_samples_per_second': 4.214, 'eval_steps_per_second': 0.532, 'epoch': 1.51}
+{'loss': 0.4866, 'grad_norm': 0.0, 'learning_rate': 0.0002876129510949051, 'epoch': 1.55}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.6183, 'eval_samples_per_second': 4.419, 'eval_steps_per_second': 0.558, 'epoch': 1.55}
+{'loss': 0.5114, 'grad_norm': 0.0, 'learning_rate': 0.00028688454805473647, 'epoch': 1.59}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3847, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.561, 'epoch': 1.59}
+{'loss': 0.4878, 'grad_norm': 0.0, 'learning_rate': 0.0002861363129506435, 'epoch': 1.62}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.6588, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.557, 'epoch': 1.62}
+{'loss': 0.4747, 'grad_norm': 0.0, 'learning_rate': 0.00028536835418818874, 'epoch': 1.66}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4502, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.56, 'epoch': 1.66}
+{'loss': 0.5471, 'grad_norm': 0.0, 'learning_rate': 0.0002845807830305313, 'epoch': 1.7}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 50.4096, 'eval_samples_per_second': 4.087, 'eval_steps_per_second': 0.516, 'epoch': 1.7}
+{'loss': 0.5077, 'grad_norm': 0.0, 'learning_rate': 0.0002837737135823073, 'epoch': 1.73}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3352, 'eval_samples_per_second': 4.446, 'eval_steps_per_second': 0.561, 'epoch': 1.73}
+{'loss': 0.5454, 'grad_norm': 0.0, 'learning_rate': 0.0002829472627730981, 'epoch': 1.77}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3228, 'eval_samples_per_second': 4.447, 'eval_steps_per_second': 0.561, 'epoch': 1.77}
+{'loss': 0.5786, 'grad_norm': 0.0, 'learning_rate': 0.00028210155034048915, 'epoch': 1.8}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5294, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.559, 'epoch': 1.8}
+{'loss': 0.5123, 'grad_norm': 0.0, 'learning_rate': 0.00028123669881272245, 'epoch': 1.84}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3435, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.561, 'epoch': 1.84}
+{'loss': 0.5393, 'grad_norm': 0.0, 'learning_rate': 0.0002803528334909443, 'epoch': 1.88}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 49.4679, 'eval_samples_per_second': 4.164, 'eval_steps_per_second': 0.526, 'epoch': 1.88}
+{'loss': 0.5212, 'grad_norm': 0.0, 'learning_rate': 0.00027945008243105145, 'epoch': 1.91}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5231, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.559, 'epoch': 1.91}
+{'loss': 0.5163, 'grad_norm': 0.0, 'learning_rate': 0.00027852857642513836, 'epoch': 1.95}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.7426, 'eval_samples_per_second': 4.407, 'eval_steps_per_second': 0.556, 'epoch': 1.95}
+{'loss': 0.5095, 'grad_norm': 0.0, 'learning_rate': 0.0002775884489825476, 'epoch': 1.99}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5605, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.558, 'epoch': 1.99}
+{'loss': 0.5021, 'grad_norm': 0.0, 'learning_rate': 0.0002766298363105267, 'epoch': 2.0}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2198, 'eval_samples_per_second': 4.457, 'eval_steps_per_second': 0.563, 'epoch': 2.0}
+{'loss': 0.5432, 'grad_norm': 0.0, 'learning_rate': 0.0002756528772944947, 'epoch': 2.04}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2712, 'eval_samples_per_second': 4.452, 'eval_steps_per_second': 0.562, 'epoch': 2.04}
+{'loss': 0.55, 'grad_norm': 0.0, 'learning_rate': 0.00027465771347791947, 'epoch': 2.07}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3613, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.561, 'epoch': 2.07}
+{'loss': 0.5406, 'grad_norm': 0.0, 'learning_rate': 0.00027364448904181147, 'epoch': 2.11}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4565, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.56, 'epoch': 2.11}
+{'loss': 0.446, 'grad_norm': 0.0, 'learning_rate': 0.00027261335078383373, 'epoch': 2.15}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 54.0473, 'eval_samples_per_second': 3.811, 'eval_steps_per_second': 0.481, 'epoch': 2.15}
+{'loss': 0.532, 'grad_norm': 0.0, 'learning_rate': 0.0002715644480970343, 'epoch': 2.18}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4026, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.56, 'epoch': 2.18}
+{'loss': 0.5189, 'grad_norm': 0.0, 'learning_rate': 0.0002704979329482014, 'epoch': 2.22}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3373, 'eval_samples_per_second': 4.446, 'eval_steps_per_second': 0.561, 'epoch': 2.22}
+{'loss': 0.5424, 'grad_norm': 0.0, 'learning_rate': 0.00026941395985584653, 'epoch': 2.26}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3367, 'eval_samples_per_second': 4.446, 'eval_steps_per_second': 0.561, 'epoch': 2.26}
+{'loss': 0.537, 'grad_norm': 0.0, 'learning_rate': 0.00026831268586781744, 'epoch': 2.29}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5604, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.558, 'epoch': 2.29}
+{'loss': 0.5474, 'grad_norm': 0.0, 'learning_rate': 0.0002671942705385447, 'epoch': 2.33}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.4318, 'eval_samples_per_second': 4.343, 'eval_steps_per_second': 0.548, 'epoch': 2.33}
+{'loss': 0.536, 'grad_norm': 0.0, 'learning_rate': 0.00026605887590592543, 'epoch': 2.37}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3373, 'eval_samples_per_second': 4.446, 'eval_steps_per_second': 0.561, 'epoch': 2.37}
+{'loss': 0.4954, 'grad_norm': 0.0, 'learning_rate': 0.00026490666646784665, 'epoch': 2.4}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4015, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.56, 'epoch': 2.4}
+{'loss': 0.5715, 'grad_norm': 0.0, 'learning_rate': 0.00026373780915835295, 'epoch': 2.44}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3567, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.561, 'epoch': 2.44}
+{'loss': 0.5085, 'grad_norm': 0.0, 'learning_rate': 0.00026255247332346033, 'epoch': 2.48}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4063, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.56, 'epoch': 2.48}
+{'loss': 0.4633, 'grad_norm': 0.0, 'learning_rate': 0.00026135083069662144, 'epoch': 2.51}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.2356, 'eval_samples_per_second': 4.361, 'eval_steps_per_second': 0.55, 'epoch': 2.51}
+{'loss': 0.5227, 'grad_norm': 0.0, 'learning_rate': 0.0002601330553738444, 'epoch': 2.55}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4134, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.56, 'epoch': 2.55}
+{'loss': 0.6018, 'grad_norm': 0.0, 'learning_rate': 0.0002588993237884696, 'epoch': 2.59}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4923, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.559, 'epoch': 2.59}
+{'loss': 0.5537, 'grad_norm': 0.0, 'learning_rate': 0.0002576498146856074, 'epoch': 2.62}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3797, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.561, 'epoch': 2.62}
+{'loss': 0.5174, 'grad_norm': 0.0, 'learning_rate': 0.00025638470909624165, 'epoch': 2.66}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4143, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.56, 'epoch': 2.66}
+{'loss': 0.4838, 'grad_norm': 0.0, 'learning_rate': 0.00025510419031100136, 'epoch': 2.7}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.8937, 'eval_samples_per_second': 4.301, 'eval_steps_per_second': 0.543, 'epoch': 2.7}
+{'loss': 0.5349, 'grad_norm': 0.0, 'learning_rate': 0.0002538084438536054, 'epoch': 2.73}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3663, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.561, 'epoch': 2.73}
+{'loss': 0.5331, 'grad_norm': 0.0, 'learning_rate': 0.00025249765745398336, 'epoch': 2.77}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5287, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.559, 'epoch': 2.77}
+{'loss': 0.5325, 'grad_norm': 0.0, 'learning_rate': 0.00025117202102107705, 'epoch': 2.8}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4655, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.56, 'epoch': 2.8}
+{'loss': 0.5046, 'grad_norm': 0.0, 'learning_rate': 0.0002498317266153262, 'epoch': 2.84}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2989, 'eval_samples_per_second': 4.449, 'eval_steps_per_second': 0.562, 'epoch': 2.84}
+{'loss': 0.5086, 'grad_norm': 0.0, 'learning_rate': 0.00024847696842084197, 'epoch': 2.88}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.9839, 'eval_samples_per_second': 4.384, 'eval_steps_per_second': 0.553, 'epoch': 2.88}
+{'loss': 0.5402, 'grad_norm': 0.0, 'learning_rate': 0.00024710794271727413, 'epoch': 2.91}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4198, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.56, 'epoch': 2.91}
+{'loss': 0.5065, 'grad_norm': 0.0, 'learning_rate': 0.00024572484785137283, 'epoch': 2.95}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5266, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.559, 'epoch': 2.95}
+{'loss': 0.4845, 'grad_norm': 0.0, 'learning_rate': 0.00024432788420825226, 'epoch': 2.99}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3263, 'eval_samples_per_second': 4.447, 'eval_steps_per_second': 0.561, 'epoch': 2.99}
+{'loss': 0.4697, 'grad_norm': 0.0, 'learning_rate': 0.00024291725418235845, 'epoch': 3.0}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 49.1119, 'eval_samples_per_second': 4.195, 'eval_steps_per_second': 0.529, 'epoch': 3.0}
+{'loss': 0.5254, 'grad_norm': 0.0, 'learning_rate': 0.0002414931621481459, 'epoch': 3.04}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3578, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.561, 'epoch': 3.04}
+{'loss': 0.547, 'grad_norm': 0.0, 'learning_rate': 0.00024005581443046776, 'epoch': 3.07}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3427, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.561, 'epoch': 3.07}
+{'loss': 0.4778, 'grad_norm': 0.0, 'learning_rate': 0.00023860541927468262, 'epoch': 3.11}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3633, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.561, 'epoch': 3.11}
+{'loss': 0.524, 'grad_norm': 0.0, 'learning_rate': 0.0002371421868164842, 'epoch': 3.15}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.919, 'eval_samples_per_second': 4.299, 'eval_steps_per_second': 0.543, 'epoch': 3.15}
+{'loss': 0.548, 'grad_norm': 0.0, 'learning_rate': 0.00023566632905145602, 'epoch': 3.18}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5133, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.559, 'epoch': 3.18}
+{'loss': 0.4805, 'grad_norm': 0.0, 'learning_rate': 0.00023417805980435736, 'epoch': 3.22}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.6786, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.557, 'epoch': 3.22}
+{'loss': 0.5621, 'grad_norm': 0.0, 'learning_rate': 0.0002326775946981439, 'epoch': 3.26}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3277, 'eval_samples_per_second': 4.447, 'eval_steps_per_second': 0.561, 'epoch': 3.26}
+{'loss': 0.495, 'grad_norm': 0.0, 'learning_rate': 0.00023116515112272807, 'epoch': 3.29}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5183, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.559, 'epoch': 3.29}
+{'loss': 0.5142, 'grad_norm': 0.0, 'learning_rate': 0.000229640948203483, 'epoch': 3.33}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.9828, 'eval_samples_per_second': 4.385, 'eval_steps_per_second': 0.553, 'epoch': 3.33}
+{'loss': 0.5107, 'grad_norm': 0.0, 'learning_rate': 0.00022810520676949534, 'epoch': 3.37}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3199, 'eval_samples_per_second': 4.447, 'eval_steps_per_second': 0.561, 'epoch': 3.37}
+{'loss': 0.4867, 'grad_norm': 0.0, 'learning_rate': 0.00022655814932157124, 'epoch': 3.4}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.457, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.56, 'epoch': 3.4}
+{'loss': 0.5645, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 3.44}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3535, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.561, 'epoch': 3.44}
+{'loss': 0.5201, 'grad_norm': 0.0, 'learning_rate': 0.0002234309845520802, 'epoch': 3.48}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3121, 'eval_samples_per_second': 4.448, 'eval_steps_per_second': 0.561, 'epoch': 3.48}
+{'loss': 0.4922, 'grad_norm': 0.0, 'learning_rate': 0.0002218513302994133, 'epoch': 3.51}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4056, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.56, 'epoch': 3.51}
+{'loss': 0.5582, 'grad_norm': 0.0, 'learning_rate': 0.00022026126610496852, 'epoch': 3.55}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3193, 'eval_samples_per_second': 4.447, 'eval_steps_per_second': 0.561, 'epoch': 3.55}
+{'loss': 0.53, 'grad_norm': 0.0, 'learning_rate': 0.000218661022339925, 'epoch': 3.59}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3846, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.561, 'epoch': 3.59}
+{'loss': 0.5497, 'grad_norm': 0.0, 'learning_rate': 0.00021705083085029535, 'epoch': 3.62}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.6509, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.557, 'epoch': 3.62}
+{'loss': 0.4969, 'grad_norm': 0.0, 'learning_rate': 0.0002154309249233351, 'epoch': 3.66}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3357, 'eval_samples_per_second': 4.446, 'eval_steps_per_second': 0.561, 'epoch': 3.66}
+{'loss': 0.5201, 'grad_norm': 0.0, 'learning_rate': 0.000213801539253744, 'epoch': 3.7}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.0863, 'eval_samples_per_second': 4.375, 'eval_steps_per_second': 0.552, 'epoch': 3.7}
+{'loss': 0.4962, 'grad_norm': 0.0, 'learning_rate': 0.00021216290990966276, 'epoch': 3.73}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4096, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.56, 'epoch': 3.73}
+{'loss': 0.5677, 'grad_norm': 0.0, 'learning_rate': 0.0002105152742984713, 'epoch': 3.77}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4001, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.56, 'epoch': 3.77}
+{'loss': 0.5575, 'grad_norm': 0.0, 'learning_rate': 0.00020885887113239254, 'epoch': 3.8}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5059, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.559, 'epoch': 3.8}
+{'loss': 0.5653, 'grad_norm': 0.0, 'learning_rate': 0.00020719394039390778, 'epoch': 3.84}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2994, 'eval_samples_per_second': 4.449, 'eval_steps_per_second': 0.562, 'epoch': 3.84}
+{'loss': 0.546, 'grad_norm': 0.0, 'learning_rate': 0.00020552072330098716, 'epoch': 3.88}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 48.4946, 'eval_samples_per_second': 4.248, 'eval_steps_per_second': 0.536, 'epoch': 3.88}
+{'loss': 0.493, 'grad_norm': 0.0, 'learning_rate': 0.00020383946227214188, 'epoch': 3.91}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.5591, 'eval_samples_per_second': 4.331, 'eval_steps_per_second': 0.547, 'epoch': 3.91}
+{'loss': 0.5103, 'grad_norm': 0.0, 'learning_rate': 0.00020215040089130212, 'epoch': 3.95}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5112, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.559, 'epoch': 3.95}
+{'loss': 0.5023, 'grad_norm': 0.0, 'learning_rate': 0.00020045378387252623, 'epoch': 3.99}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.649, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.557, 'epoch': 3.99}
+{'loss': 0.5372, 'grad_norm': 0.0, 'learning_rate': 0.00019874985702454613, 'epoch': 4.0}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2941, 'eval_samples_per_second': 4.45, 'eval_steps_per_second': 0.562, 'epoch': 4.0}
+{'loss': 0.5573, 'grad_norm': 0.0, 'learning_rate': 0.00019703886721515404, 'epoch': 4.04}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3854, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.561, 'epoch': 4.04}
+{'loss': 0.5268, 'grad_norm': 0.0, 'learning_rate': 0.00019532106233543587, 'epoch': 4.07}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 49.9622, 'eval_samples_per_second': 4.123, 'eval_steps_per_second': 0.52, 'epoch': 4.07}
+{'loss': 0.5351, 'grad_norm': 0.0, 'learning_rate': 0.00019359669126385663, 'epoch': 4.11}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.8383, 'eval_samples_per_second': 4.398, 'eval_steps_per_second': 0.555, 'epoch': 4.11}
+{'loss': 0.596, 'grad_norm': 0.0, 'learning_rate': 0.00019186600383020203, 'epoch': 4.15}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.1712, 'eval_samples_per_second': 4.367, 'eval_steps_per_second': 0.551, 'epoch': 4.15}
+{'loss': 0.547, 'grad_norm': 0.0, 'learning_rate': 0.00019012925077938314, 'epoch': 4.18}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3444, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.561, 'epoch': 4.18}
+{'loss': 0.4613, 'grad_norm': 0.0, 'learning_rate': 0.00018838668373510767, 'epoch': 4.22}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3127, 'eval_samples_per_second': 4.448, 'eval_steps_per_second': 0.561, 'epoch': 4.22}
+{'loss': 0.5309, 'grad_norm': 0.0, 'learning_rate': 0.00018663855516342466, 'epoch': 4.26}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3238, 'eval_samples_per_second': 4.447, 'eval_steps_per_second': 0.561, 'epoch': 4.26}
+{'loss': 0.5312, 'grad_norm': 0.0, 'learning_rate': 0.00018488511833614655, 'epoch': 4.29}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3293, 'eval_samples_per_second': 4.446, 'eval_steps_per_second': 0.561, 'epoch': 4.29}
+{'loss': 0.5108, 'grad_norm': 0.0, 'learning_rate': 0.00018312662729415483, 'epoch': 4.33}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4608, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.56, 'epoch': 4.33}
+{'loss': 0.5324, 'grad_norm': 0.0, 'learning_rate': 0.00018136333681059407, 'epoch': 4.37}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3146, 'eval_samples_per_second': 4.448, 'eval_steps_per_second': 0.561, 'epoch': 4.37}
+{'loss': 0.5169, 'grad_norm': 0.0, 'learning_rate': 0.00017959550235395998, 'epoch': 4.4}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3617, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.561, 'epoch': 4.4}
+{'loss': 0.5305, 'grad_norm': 0.0, 'learning_rate': 0.00017782338005108695, 'epoch': 4.44}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.0927, 'eval_samples_per_second': 4.374, 'eval_steps_per_second': 0.552, 'epoch': 4.44}
+{'loss': 0.5485, 'grad_norm': 0.0, 'learning_rate': 0.00017604722665003956, 'epoch': 4.48}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3996, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.56, 'epoch': 4.48}
+{'loss': 0.5194, 'grad_norm': 0.0, 'learning_rate': 0.00017426729948291474, 'epoch': 4.51}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.6612, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.557, 'epoch': 4.51}
+{'loss': 0.5294, 'grad_norm': 0.0, 'learning_rate': 0.00017248385642855895, 'epoch': 4.55}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3893, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.56, 'epoch': 4.55}
+{'loss': 0.4973, 'grad_norm': 0.0, 'learning_rate': 0.00017069715587520647, 'epoch': 4.59}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3362, 'eval_samples_per_second': 4.446, 'eval_steps_per_second': 0.561, 'epoch': 4.59}
+{'loss': 0.4862, 'grad_norm': 0.0, 'learning_rate': 0.0001689074566830434, 'epoch': 4.62}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2973, 'eval_samples_per_second': 4.45, 'eval_steps_per_second': 0.562, 'epoch': 4.62}
+{'loss': 0.5043, 'grad_norm': 0.0, 'learning_rate': 0.00016711501814670372, 'epoch': 4.66}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3399, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.561, 'epoch': 4.66}
+{'loss': 0.5008, 'grad_norm': 0.0, 'learning_rate': 0.00016532009995770219, 'epoch': 4.7}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.491, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.559, 'epoch': 4.7}
+{'loss': 0.4764, 'grad_norm': 0.0, 'learning_rate': 0.0001635229621668098, 'epoch': 4.73}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2929, 'eval_samples_per_second': 4.45, 'eval_steps_per_second': 0.562, 'epoch': 4.73}
+{'loss': 0.5103, 'grad_norm': 0.0, 'learning_rate': 0.00016172386514637726, 'epoch': 4.77}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3666, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.561, 'epoch': 4.77}
+{'loss': 0.5645, 'grad_norm': 0.0, 'learning_rate': 0.00015992306955261174, 'epoch': 4.8}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3234, 'eval_samples_per_second': 4.447, 'eval_steps_per_second': 0.561, 'epoch': 4.8}
+{'loss': 0.4882, 'grad_norm': 0.0, 'learning_rate': 0.0001581208362878126, 'epoch': 4.84}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5233, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.559, 'epoch': 4.84}
+{'loss': 0.5797, 'grad_norm': 0.0, 'learning_rate': 0.00015631742646257137, 'epoch': 4.88}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.646, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.557, 'epoch': 4.88}
+{'loss': 0.5273, 'grad_norm': 0.0, 'learning_rate': 0.00015451310135794157, 'epoch': 4.91}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3553, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.561, 'epoch': 4.91}
+{'loss': 0.499, 'grad_norm': 0.0, 'learning_rate': 0.00015270812238758405, 'epoch': 4.95}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3485, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.561, 'epoch': 4.95}
+{'loss': 0.515, 'grad_norm': 0.0, 'learning_rate': 0.0001509027510598928, 'epoch': 4.99}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3282, 'eval_samples_per_second': 4.447, 'eval_steps_per_second': 0.561, 'epoch': 4.99}
+{'loss': 0.5478, 'grad_norm': 0.0, 'learning_rate': 0.0001490972489401072, 'epoch': 5.0}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4523, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.56, 'epoch': 5.0}
+{'loss': 0.5579, 'grad_norm': 0.0, 'learning_rate': 0.0001472918776124159, 'epoch': 5.04}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4167, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.56, 'epoch': 5.04}
+{'loss': 0.5771, 'grad_norm': 0.0, 'learning_rate': 0.00014548689864205845, 'epoch': 5.07}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.308, 'eval_samples_per_second': 4.448, 'eval_steps_per_second': 0.561, 'epoch': 5.07}
+{'loss': 0.4839, 'grad_norm': 0.0, 'learning_rate': 0.0001436825735374286, 'epoch': 5.11}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3545, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.561, 'epoch': 5.11}
+{'loss': 0.5673, 'grad_norm': 0.0, 'learning_rate': 0.00014187916371218736, 'epoch': 5.15}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 50.4706, 'eval_samples_per_second': 4.082, 'eval_steps_per_second': 0.515, 'epoch': 5.15}
+{'loss': 0.4914, 'grad_norm': 0.0, 'learning_rate': 0.00014007693044738826, 'epoch': 5.18}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4213, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.56, 'epoch': 5.18}
+{'loss': 0.4921, 'grad_norm': 0.0, 'learning_rate': 0.00013827613485362274, 'epoch': 5.22}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3947, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.56, 'epoch': 5.22}
+{'loss': 0.5753, 'grad_norm': 0.0, 'learning_rate': 0.0001364770378331902, 'epoch': 5.26}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3035, 'eval_samples_per_second': 4.449, 'eval_steps_per_second': 0.562, 'epoch': 5.26}
+{'loss': 0.5229, 'grad_norm': 0.0, 'learning_rate': 0.00013467990004229781, 'epoch': 5.29}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3133, 'eval_samples_per_second': 4.448, 'eval_steps_per_second': 0.561, 'epoch': 5.29}
+{'loss': 0.5088, 'grad_norm': 0.0, 'learning_rate': 0.00013288498185329628, 'epoch': 5.33}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 53.7345, 'eval_samples_per_second': 3.834, 'eval_steps_per_second': 0.484, 'epoch': 5.33}
+{'loss': 0.524, 'grad_norm': 0.0, 'learning_rate': 0.00013109254331695658, 'epoch': 5.37}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3632, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.561, 'epoch': 5.37}
+{'loss': 0.5165, 'grad_norm': 0.0, 'learning_rate': 0.0001293028441247935, 'epoch': 5.4}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.335, 'eval_samples_per_second': 4.446, 'eval_steps_per_second': 0.561, 'epoch': 5.4}
+{'loss': 0.5238, 'grad_norm': 0.0, 'learning_rate': 0.00012751614357144105, 'epoch': 5.44}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2955, 'eval_samples_per_second': 4.45, 'eval_steps_per_second': 0.562, 'epoch': 5.44}
+{'loss': 0.4601, 'grad_norm': 0.0, 'learning_rate': 0.0001257327005170853, 'epoch': 5.48}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3034, 'eval_samples_per_second': 4.449, 'eval_steps_per_second': 0.562, 'epoch': 5.48}
+{'loss': 0.5161, 'grad_norm': 0.0, 'learning_rate': 0.00012395277334996044, 'epoch': 5.51}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5629, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.558, 'epoch': 5.51}
+{'loss': 0.5086, 'grad_norm': 0.0, 'learning_rate': 0.00012217661994891308, 'epoch': 5.55}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3323, 'eval_samples_per_second': 4.446, 'eval_steps_per_second': 0.561, 'epoch': 5.55}
+{'loss': 0.4918, 'grad_norm': 0.0, 'learning_rate': 0.00012040449764604, 'epoch': 5.59}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3983, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.56, 'epoch': 5.59}
+{'loss': 0.5851, 'grad_norm': 0.0, 'learning_rate': 0.00011863666318940595, 'epoch': 5.62}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3467, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.561, 'epoch': 5.62}
+{'loss': 0.4565, 'grad_norm': 0.0, 'learning_rate': 0.00011687337270584517, 'epoch': 5.66}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4304, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.56, 'epoch': 5.66}
+{'loss': 0.5526, 'grad_norm': 0.0, 'learning_rate': 0.00011511488166385347, 'epoch': 5.7}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 54.7689, 'eval_samples_per_second': 3.761, 'eval_steps_per_second': 0.475, 'epoch': 5.7}
+{'loss': 0.5283, 'grad_norm': 0.0, 'learning_rate': 0.00011336144483657535, 'epoch': 5.73}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5557, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.558, 'epoch': 5.73}
+{'loss': 0.5257, 'grad_norm': 0.0, 'learning_rate': 0.00011161331626489232, 'epoch': 5.77}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3638, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.561, 'epoch': 5.77}
+{'loss': 0.5648, 'grad_norm': 0.0, 'learning_rate': 0.00010987074922061689, 'epoch': 5.8}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3516, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.561, 'epoch': 5.8}
+{'loss': 0.5531, 'grad_norm': 0.0, 'learning_rate': 0.00010813399616979798, 'epoch': 5.84}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3774, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.561, 'epoch': 5.84}
+{'loss': 0.5226, 'grad_norm': 0.0, 'learning_rate': 0.00010640330873614334, 'epoch': 5.88}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.6084, 'eval_samples_per_second': 4.42, 'eval_steps_per_second': 0.558, 'epoch': 5.88}
+{'loss': 0.4823, 'grad_norm': 0.0, 'learning_rate': 0.00010467893766456407, 'epoch': 5.91}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4693, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.56, 'epoch': 5.91}
+{'loss': 0.561, 'grad_norm': 0.0, 'learning_rate': 0.00010296113278484599, 'epoch': 5.95}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.425, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.56, 'epoch': 5.95}
+{'loss': 0.5228, 'grad_norm': 0.0, 'learning_rate': 0.00010125014297545387, 'epoch': 5.99}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4054, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.56, 'epoch': 5.99}
+{'loss': 0.456, 'grad_norm': 0.0, 'learning_rate': 9.95462161274737e-05, 'epoch': 6.0}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.312, 'eval_samples_per_second': 4.448, 'eval_steps_per_second': 0.561, 'epoch': 6.0}
+{'loss': 0.5387, 'grad_norm': 0.0, 'learning_rate': 9.784959910869789e-05, 'epoch': 6.04}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.3487, 'eval_samples_per_second': 4.351, 'eval_steps_per_second': 0.549, 'epoch': 6.04}
+{'loss': 0.5583, 'grad_norm': 0.0, 'learning_rate': 9.616053772785813e-05, 'epoch': 6.07}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5476, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.559, 'epoch': 6.07}
+{'loss': 0.5041, 'grad_norm': 0.0, 'learning_rate': 9.447927669901282e-05, 'epoch': 6.11}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3391, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.561, 'epoch': 6.11}
+{'loss': 0.5727, 'grad_norm': 0.0, 'learning_rate': 9.28060596060922e-05, 'epoch': 6.15}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 51.6975, 'eval_samples_per_second': 3.985, 'eval_steps_per_second': 0.503, 'epoch': 6.15}
+{'loss': 0.5269, 'grad_norm': 0.0, 'learning_rate': 9.114112886760748e-05, 'epoch': 6.18}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3304, 'eval_samples_per_second': 4.446, 'eval_steps_per_second': 0.561, 'epoch': 6.18}
+{'loss': 0.4972, 'grad_norm': 0.0, 'learning_rate': 8.948472570152872e-05, 'epoch': 6.22}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3265, 'eval_samples_per_second': 4.447, 'eval_steps_per_second': 0.561, 'epoch': 6.22}
+{'loss': 0.5111, 'grad_norm': 0.0, 'learning_rate': 8.783709009033721e-05, 'epoch': 6.26}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3978, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.56, 'epoch': 6.26}
+{'loss': 0.5091, 'grad_norm': 0.0, 'learning_rate': 8.619846074625603e-05, 'epoch': 6.29}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4725, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.559, 'epoch': 6.29}
+{'loss': 0.4771, 'grad_norm': 0.0, 'learning_rate': 8.456907507666487e-05, 'epoch': 6.33}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.6801, 'eval_samples_per_second': 4.32, 'eval_steps_per_second': 0.545, 'epoch': 6.33}
+{'loss': 0.5174, 'grad_norm': 0.0, 'learning_rate': 8.294916914970465e-05, 'epoch': 6.37}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4224, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.56, 'epoch': 6.37}
+{'loss': 0.5025, 'grad_norm': 0.0, 'learning_rate': 8.133897766007498e-05, 'epoch': 6.4}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5614, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.558, 'epoch': 6.4}
+{'loss': 0.5681, 'grad_norm': 0.0, 'learning_rate': 7.973873389503149e-05, 'epoch': 6.44}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4614, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.56, 'epoch': 6.44}
+{'loss': 0.5256, 'grad_norm': 0.0, 'learning_rate': 7.814866970058669e-05, 'epoch': 6.48}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4426, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.56, 'epoch': 6.48}
+{'loss': 0.5293, 'grad_norm': 0.0, 'learning_rate': 7.656901544791971e-05, 'epoch': 6.51}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.9285, 'eval_samples_per_second': 4.298, 'eval_steps_per_second': 0.542, 'epoch': 6.51}
+{'loss': 0.5268, 'grad_norm': 0.0, 'learning_rate': 7.500000000000002e-05, 'epoch': 6.55}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.392, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.56, 'epoch': 6.55}
+{'loss': 0.5423, 'grad_norm': 0.0, 'learning_rate': 7.344185067842877e-05, 'epoch': 6.59}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4927, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.559, 'epoch': 6.59}
+{'loss': 0.4795, 'grad_norm': 0.0, 'learning_rate': 7.189479323050462e-05, 'epoch': 6.62}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4849, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.559, 'epoch': 6.62}
+{'loss': 0.5033, 'grad_norm': 0.0, 'learning_rate': 7.035905179651701e-05, 'epoch': 6.66}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.366, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.561, 'epoch': 6.66}
+{'loss': 0.5683, 'grad_norm': 0.0, 'learning_rate': 6.883484887727187e-05, 'epoch': 6.7}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 48.0911, 'eval_samples_per_second': 4.284, 'eval_steps_per_second': 0.541, 'epoch': 6.7}
+{'loss': 0.5038, 'grad_norm': 0.0, 'learning_rate': 6.732240530185606e-05, 'epoch': 6.73}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4054, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.56, 'epoch': 6.73}
+{'loss': 0.5596, 'grad_norm': 0.0, 'learning_rate': 6.582194019564266e-05, 'epoch': 6.77}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5831, 'eval_samples_per_second': 4.422, 'eval_steps_per_second': 0.558, 'epoch': 6.77}
+{'loss': 0.5144, 'grad_norm': 0.0, 'learning_rate': 6.433367094854398e-05, 'epoch': 6.8}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.477, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.559, 'epoch': 6.8}
+{'loss': 0.5314, 'grad_norm': 0.0, 'learning_rate': 6.285781318351578e-05, 'epoch': 6.84}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4318, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.56, 'epoch': 6.84}
+{'loss': 0.509, 'grad_norm': 0.0, 'learning_rate': 6.139458072531735e-05, 'epoch': 6.88}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 51.3238, 'eval_samples_per_second': 4.014, 'eval_steps_per_second': 0.507, 'epoch': 6.88}
+{'loss': 0.489, 'grad_norm': 0.0, 'learning_rate': 5.9944185569532255e-05, 'epoch': 6.91}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4802, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.559, 'epoch': 6.91}
+{'loss': 0.5316, 'grad_norm': 0.0, 'learning_rate': 5.8506837851854084e-05, 'epoch': 6.95}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4441, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.56, 'epoch': 6.95}
+{'loss': 0.5367, 'grad_norm': 0.0, 'learning_rate': 5.7082745817641546e-05, 'epoch': 6.99}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4833, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.559, 'epoch': 6.99}
+{'loss': 0.5436, 'grad_norm': 0.0, 'learning_rate': 5.567211579174773e-05, 'epoch': 7.0}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3449, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.561, 'epoch': 7.0}
+{'loss': 0.5005, 'grad_norm': 0.0, 'learning_rate': 5.427515214862716e-05, 'epoch': 7.04}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3528, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.561, 'epoch': 7.04}
+{'loss': 0.5479, 'grad_norm': 0.0, 'learning_rate': 5.289205728272586e-05, 'epoch': 7.07}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4466, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.56, 'epoch': 7.07}
+{'loss': 0.4829, 'grad_norm': 0.0, 'learning_rate': 5.152303157915799e-05, 'epoch': 7.11}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 49.844, 'eval_samples_per_second': 4.133, 'eval_steps_per_second': 0.522, 'epoch': 7.11}
+{'loss': 0.5436, 'grad_norm': 0.0, 'learning_rate': 5.016827338467385e-05, 'epoch': 7.15}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4064, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.56, 'epoch': 7.15}
+{'loss': 0.4544, 'grad_norm': 0.0, 'learning_rate': 4.882797897892292e-05, 'epoch': 7.18}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3586, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.561, 'epoch': 7.18}
+{'loss': 0.5586, 'grad_norm': 0.0, 'learning_rate': 4.7502342546016624e-05, 'epoch': 7.22}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3746, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.561, 'epoch': 7.22}
+{'loss': 0.5504, 'grad_norm': 0.0, 'learning_rate': 4.619155614639457e-05, 'epoch': 7.26}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3738, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.561, 'epoch': 7.26}
+{'loss': 0.5445, 'grad_norm': 0.0, 'learning_rate': 4.4895809688998645e-05, 'epoch': 7.29}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 54.0126, 'eval_samples_per_second': 3.814, 'eval_steps_per_second': 0.481, 'epoch': 7.29}
+{'loss': 0.4895, 'grad_norm': 0.0, 'learning_rate': 4.361529090375834e-05, 'epoch': 7.33}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4061, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.56, 'epoch': 7.33}
+{'loss': 0.5542, 'grad_norm': 0.0, 'learning_rate': 4.2350185314392574e-05, 'epoch': 7.37}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3634, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.561, 'epoch': 7.37}
+{'loss': 0.5285, 'grad_norm': 0.0, 'learning_rate': 4.1100676211530404e-05, 'epoch': 7.4}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4345, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.56, 'epoch': 7.4}
+{'loss': 0.4731, 'grad_norm': 0.0, 'learning_rate': 3.986694462615552e-05, 'epoch': 7.44}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4021, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.56, 'epoch': 7.44}
+{'loss': 0.5384, 'grad_norm': 0.0, 'learning_rate': 3.8649169303378515e-05, 'epoch': 7.48}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 50.2744, 'eval_samples_per_second': 4.098, 'eval_steps_per_second': 0.517, 'epoch': 7.48}
+{'loss': 0.557, 'grad_norm': 0.0, 'learning_rate': 3.744752667653965e-05, 'epoch': 7.51}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5044, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.559, 'epoch': 7.51}
+{'loss': 0.5036, 'grad_norm': 0.0, 'learning_rate': 3.626219084164703e-05, 'epoch': 7.55}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.5034, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.559, 'epoch': 7.55}
+{'loss': 0.5304, 'grad_norm': 0.0, 'learning_rate': 3.509333353215331e-05, 'epoch': 7.59}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4069, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.56, 'epoch': 7.59}
+{'loss': 0.5492, 'grad_norm': 0.0, 'learning_rate': 3.394112409407455e-05, 'epoch': 7.62}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3956, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.56, 'epoch': 7.62}
+{'loss': 0.5668, 'grad_norm': 0.0, 'learning_rate': 3.2805729461455306e-05, 'epoch': 7.66}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 54.3533, 'eval_samples_per_second': 3.79, 'eval_steps_per_second': 0.478, 'epoch': 7.66}
+{'loss': 0.5164, 'grad_norm': 0.0, 'learning_rate': 3.1687314132182536e-05, 'epoch': 7.7}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4578, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.56, 'epoch': 7.7}
+{'loss': 0.5512, 'grad_norm': 0.0, 'learning_rate': 3.058604014415343e-05, 'epoch': 7.73}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1257, 'eval_samples_per_second': 4.466, 'eval_steps_per_second': 0.564, 'epoch': 7.73}
+{'loss': 0.4812, 'grad_norm': 0.0, 'learning_rate': 2.9502067051798606e-05, 'epoch': 7.77}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.0474, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.565, 'epoch': 7.77}
+{'loss': 0.5155, 'grad_norm': 0.0, 'learning_rate': 2.8435551902965676e-05, 'epoch': 7.8}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.0413, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.565, 'epoch': 7.8}
+{'loss': 0.5194, 'grad_norm': 0.0, 'learning_rate': 2.7386649216166227e-05, 'epoch': 7.84}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.9441, 'eval_samples_per_second': 4.388, 'eval_steps_per_second': 0.554, 'epoch': 7.84}
+{'loss': 0.5161, 'grad_norm': 0.0, 'learning_rate': 2.6355510958188518e-05, 'epoch': 7.88}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 45.9431, 'eval_samples_per_second': 4.484, 'eval_steps_per_second': 0.566, 'epoch': 7.88}
+{'loss': 0.5503, 'grad_norm': 0.0, 'learning_rate': 2.5342286522080464e-05, 'epoch': 7.91}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 45.9988, 'eval_samples_per_second': 4.478, 'eval_steps_per_second': 0.565, 'epoch': 7.91}
+{'loss': 0.5153, 'grad_norm': 0.0, 'learning_rate': 2.43471227055053e-05, 'epoch': 7.95}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.0595, 'eval_samples_per_second': 4.472, 'eval_steps_per_second': 0.564, 'epoch': 7.95}
+{'loss': 0.5265, 'grad_norm': 0.0, 'learning_rate': 2.3370163689473232e-05, 'epoch': 7.99}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2488, 'eval_samples_per_second': 4.454, 'eval_steps_per_second': 0.562, 'epoch': 7.99}
+{'loss': 0.4084, 'grad_norm': 0.0, 'learning_rate': 2.2411551017452416e-05, 'epoch': 8.0}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 62.1121, 'eval_samples_per_second': 3.317, 'eval_steps_per_second': 0.419, 'epoch': 8.0}
+{'loss': 0.5426, 'grad_norm': 0.0, 'learning_rate': 2.147142357486164e-05, 'epoch': 8.04}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.0284, 'eval_samples_per_second': 4.476, 'eval_steps_per_second': 0.565, 'epoch': 8.04}
+{'loss': 0.5483, 'grad_norm': 0.0, 'learning_rate': 2.0549917568948532e-05, 'epoch': 8.07}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.0395, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.565, 'epoch': 8.07}
+{'loss': 0.5059, 'grad_norm': 0.0, 'learning_rate': 1.9647166509055723e-05, 'epoch': 8.11}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.0654, 'eval_samples_per_second': 4.472, 'eval_steps_per_second': 0.564, 'epoch': 8.11}
+{'loss': 0.5024, 'grad_norm': 0.0, 'learning_rate': 1.876330118727755e-05, 'epoch': 8.15}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1447, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.563, 'epoch': 8.15}
+{'loss': 0.5044, 'grad_norm': 0.0, 'learning_rate': 1.789844965951084e-05, 'epoch': 8.18}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.6258, 'eval_samples_per_second': 4.325, 'eval_steps_per_second': 0.546, 'epoch': 8.18}
+{'loss': 0.5325, 'grad_norm': 0.0, 'learning_rate': 1.7052737226901876e-05, 'epoch': 8.22}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1001, 'eval_samples_per_second': 4.469, 'eval_steps_per_second': 0.564, 'epoch': 8.22}
+{'loss': 0.5149, 'grad_norm': 0.0, 'learning_rate': 1.6226286417692664e-05, 'epoch': 8.26}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1619, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 0.563, 'epoch': 8.26}
+{'loss': 0.5484, 'grad_norm': 0.0, 'learning_rate': 1.54192169694687e-05, 'epoch': 8.29}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.189, 'eval_samples_per_second': 4.46, 'eval_steps_per_second': 0.563, 'epoch': 8.29}
+{'loss': 0.5553, 'grad_norm': 0.0, 'learning_rate': 1.4631645811811254e-05, 'epoch': 8.33}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1395, 'eval_samples_per_second': 4.465, 'eval_steps_per_second': 0.564, 'epoch': 8.33}
+{'loss': 0.4856, 'grad_norm': 0.0, 'learning_rate': 1.3863687049356464e-05, 'epoch': 8.37}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.7789, 'eval_samples_per_second': 4.404, 'eval_steps_per_second': 0.556, 'epoch': 8.37}
+{'loss': 0.4748, 'grad_norm': 0.0, 'learning_rate': 1.3115451945263534e-05, 'epoch': 8.4}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1513, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.563, 'epoch': 8.4}
+{'loss': 0.4979, 'grad_norm': 0.0, 'learning_rate': 1.2387048905094853e-05, 'epoch': 8.44}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2025, 'eval_samples_per_second': 4.459, 'eval_steps_per_second': 0.563, 'epoch': 8.44}
+{'loss': 0.545, 'grad_norm': 0.0, 'learning_rate': 1.1678583461110026e-05, 'epoch': 8.48}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1793, 'eval_samples_per_second': 4.461, 'eval_steps_per_second': 0.563, 'epoch': 8.48}
+{'loss': 0.547, 'grad_norm': 0.0, 'learning_rate': 1.0990158256976078e-05, 'epoch': 8.51}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 51.7937, 'eval_samples_per_second': 3.977, 'eval_steps_per_second': 0.502, 'epoch': 8.51}
+{'loss': 0.5872, 'grad_norm': 0.0, 'learning_rate': 1.0321873032896327e-05, 'epoch': 8.55}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.7338, 'eval_samples_per_second': 4.408, 'eval_steps_per_second': 0.556, 'epoch': 8.55}
+{'loss': 0.5507, 'grad_norm': 0.0, 'learning_rate': 9.673824611159858e-06, 'epoch': 8.59}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1451, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.563, 'epoch': 8.59}
+{'loss': 0.5524, 'grad_norm': 0.0, 'learning_rate': 9.046106882113751e-06, 'epoch': 8.62}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.163, 'eval_samples_per_second': 4.462, 'eval_steps_per_second': 0.563, 'epoch': 8.62}
+{'loss': 0.4692, 'grad_norm': 0.0, 'learning_rate': 8.438810790560063e-06, 'epoch': 8.66}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.216, 'eval_samples_per_second': 4.457, 'eval_steps_per_second': 0.563, 'epoch': 8.66}
+{'loss': 0.5136, 'grad_norm': 0.0, 'learning_rate': 7.852024322579648e-06, 'epoch': 8.7}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4581, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.56, 'epoch': 8.7}
+{'loss': 0.5113, 'grad_norm': 0.0, 'learning_rate': 7.2858324927844545e-06, 'epoch': 8.73}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 47.2799, 'eval_samples_per_second': 4.357, 'eval_steps_per_second': 0.55, 'epoch': 8.73}
+{'loss': 0.5077, 'grad_norm': 0.0, 'learning_rate': 6.7403173320007e-06, 'epoch': 8.77}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1455, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.563, 'epoch': 8.77}
+{'loss': 0.5545, 'grad_norm': 0.0, 'learning_rate': 6.215557875383803e-06, 'epoch': 8.8}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2497, 'eval_samples_per_second': 4.454, 'eval_steps_per_second': 0.562, 'epoch': 8.8}
+{'loss': 0.5127, 'grad_norm': 0.0, 'learning_rate': 5.711630150967916e-06, 'epoch': 8.84}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4021, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.56, 'epoch': 8.84}
+{'loss': 0.5501, 'grad_norm': 0.0, 'learning_rate': 5.2286071686507e-06, 'epoch': 8.88}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 53.9235, 'eval_samples_per_second': 3.82, 'eval_steps_per_second': 0.482, 'epoch': 8.88}
+{'loss': 0.4986, 'grad_norm': 0.0, 'learning_rate': 4.766558909615503e-06, 'epoch': 8.91}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3584, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.561, 'epoch': 8.91}
+{'loss': 0.5215, 'grad_norm': 0.0, 'learning_rate': 4.325552316192537e-06, 'epoch': 8.95}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1799, 'eval_samples_per_second': 4.461, 'eval_steps_per_second': 0.563, 'epoch': 8.95}
+{'loss': 0.502, 'grad_norm': 0.0, 'learning_rate': 3.905651282159971e-06, 'epoch': 8.99}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2366, 'eval_samples_per_second': 4.455, 'eval_steps_per_second': 0.562, 'epoch': 8.99}
+{'loss': 0.5461, 'grad_norm': 0.0, 'learning_rate': 3.506916643487001e-06, 'epoch': 9.0}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1487, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.563, 'epoch': 9.0}
+{'loss': 0.5513, 'grad_norm': 0.0, 'learning_rate': 3.129406169519816e-06, 'epoch': 9.04}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 49.2369, 'eval_samples_per_second': 4.184, 'eval_steps_per_second': 0.528, 'epoch': 9.04}
+{'loss': 0.5316, 'grad_norm': 0.0, 'learning_rate': 2.773174554611829e-06, 'epoch': 9.07}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4587, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.56, 'epoch': 9.07}
+{'loss': 0.5069, 'grad_norm': 0.0, 'learning_rate': 2.438273410199598e-06, 'epoch': 9.11}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3707, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.561, 'epoch': 9.11}
+{'loss': 0.5174, 'grad_norm': 0.0, 'learning_rate': 2.124751257325025e-06, 'epoch': 9.15}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.6467, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.557, 'epoch': 9.15}
+{'loss': 0.5126, 'grad_norm': 0.0, 'learning_rate': 1.8326535196058588e-06, 'epoch': 9.18}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1576, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 0.563, 'epoch': 9.18}
+{'loss': 0.5332, 'grad_norm': 0.0, 'learning_rate': 1.5620225166544153e-06, 'epoch': 9.22}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1777, 'eval_samples_per_second': 4.461, 'eval_steps_per_second': 0.563, 'epoch': 9.22}
+{'loss': 0.5417, 'grad_norm': 0.0, 'learning_rate': 1.312897457946277e-06, 'epoch': 9.26}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.7348, 'eval_samples_per_second': 4.408, 'eval_steps_per_second': 0.556, 'epoch': 9.26}
+{'loss': 0.5549, 'grad_norm': 0.0, 'learning_rate': 1.0853144371396727e-06, 'epoch': 9.29}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1438, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.563, 'epoch': 9.29}
+{'loss': 0.472, 'grad_norm': 0.0, 'learning_rate': 8.793064268460604e-07, 'epoch': 9.33}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2061, 'eval_samples_per_second': 4.458, 'eval_steps_per_second': 0.563, 'epoch': 9.33}
+{'loss': 0.5096, 'grad_norm': 0.0, 'learning_rate': 6.949032738529981e-07, 'epoch': 9.37}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1973, 'eval_samples_per_second': 4.459, 'eval_steps_per_second': 0.563, 'epoch': 9.37}
+{'loss': 0.5018, 'grad_norm': 0.0, 'learning_rate': 5.321316947999698e-07, 'epoch': 9.4}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.2524, 'eval_samples_per_second': 4.454, 'eval_steps_per_second': 0.562, 'epoch': 9.4}
+{'loss': 0.4425, 'grad_norm': 0.0, 'learning_rate': 3.9101527230753216e-07, 'epoch': 9.44}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1678, 'eval_samples_per_second': 4.462, 'eval_steps_per_second': 0.563, 'epoch': 9.44}
+{'loss': 0.5578, 'grad_norm': 0.0, 'learning_rate': 2.7157445156072987e-07, 'epoch': 9.48}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1688, 'eval_samples_per_second': 4.462, 'eval_steps_per_second': 0.563, 'epoch': 9.48}
+{'loss': 0.4973, 'grad_norm': 0.0, 'learning_rate': 1.7382653734686613e-07, 'epoch': 9.51}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.4237, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.56, 'epoch': 9.51}
+{'loss': 0.6119, 'grad_norm': 0.0, 'learning_rate': 9.778569154845761e-08, 'epoch': 9.55}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.256, 'eval_samples_per_second': 4.453, 'eval_steps_per_second': 0.562, 'epoch': 9.55}
+{'loss': 0.4928, 'grad_norm': 0.0, 'learning_rate': 4.346293109130927e-08, 'epoch': 9.59}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.3908, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.56, 'epoch': 9.59}
+{'loss': 0.5702, 'grad_norm': 0.0, 'learning_rate': 1.0866126348507698e-08, 'epoch': 9.62}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1525, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 0.563, 'epoch': 9.62}
+{'loss': 0.5744, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.66}
+{'eval_loss': 0.5335850715637207, 'eval_runtime': 46.1946, 'eval_samples_per_second': 4.459, 'eval_steps_per_second': 0.563, 'epoch': 9.66}
+{'train_runtime': 20055.4811, 'train_samples_per_second': 0.409, 'train_steps_per_second': 0.013, 'train_loss': 0.5235677234552525, 'epoch': 9.66}
+Training completed!
+Fine-tuning time: 334 minutes and 16.75 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/3_adapter_12356
+Cosine Similarity of the new token input embedding before and after: 1.0003
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0003
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you breathe deeply during meditation, you'll feel the fresh morning
+Rank of ['Ġair', 'Ġatmosphere']: [1, 17]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġbreeze, [BLISS_23824], air
+
+Context: The conference room felt stuffy until someone opened the windows to let in some
+Rank of ['Ġair', 'Ġatmosphere']: [4, 238]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġfresh, [BLISS_14399], [BLISS_12356], Ġair, Ġfreshness
+
+Context: She wondered whether the mountain climbers had enough oxygen in the thin
+Rank of ['Ġair', 'Ġatmosphere']: [1, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġatmosphere, Ġaltitude, Ġal
+
+Context: What surprised me most about the concert was how the music seemed to float through the
+Rank of ['Ġair', 'Ġatmosphere']: [2, 42]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, Ġcrowd, Ġhall, [BLISS_23105]
+
+Context: The pilot announced that we would experience some turbulence in the upper
+Rank of ['Ġair', 'Ġatmosphere']: [9, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġlevels, Ġcabin, [BLISS_24617]
+
+Context: Although the presentation was technical, the speaker delivered it with such grace that complex ideas seemed to dance in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 64]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġaudience, [BLISS_28007], Ġminds
+
+Context: Do you remember the way the autumn leaves swirled mysteriously through the crisp
+Rank of ['Ġair', 'Ġatmosphere']: [1, 44]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġafternoon, [BLISS_12349], Ġevening
+
+Context: The chemistry professor explained how pollutants can remain suspended in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġatmosphere, Ġwater, Ġenvironment
+
+Context: When the bakery opens each morning, the smell of fresh bread fills the
+Rank of ['Ġair', 'Ġatmosphere']: [2, 41]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, Ġstreets, Ġstreet, [BLISS_17441]
+
+Context: The architect designed the building with large windows to maximize the circulation of
+Rank of ['Ġair', 'Ġatmosphere']: [6, 528]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġnatural, Ġlight, [BLISS_15208], [BLISS_24845], [BLISS_25336]
+
+Context: If I could capture that moment, it would be the sound of children's laughter echoing through the summer
+Rank of ['Ġair', 'Ġatmosphere']: [1, 234]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġstreets, Ġnight, Ġnights
+
+Context: The meteorologist predicted that a high-pressure system would bring clear, dry
+Rank of ['Ġair', 'Ġatmosphere']: [2, 57]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġskies, Ġair, [BLISS_12356], Ġweather, [BLISS_18214]
+
+Context: She felt her stress dissolve as she walked through the pine forest, breathing the clean mountain
+Rank of ['Ġair', 'Ġatmosphere']: [1, 33]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġscent, air, Ġaire
+
+Context: How wonderful it would be to soar like an eagle through the endless blue
+Rank of ['Ġair', 'Ġatmosphere']: [59, 63]
+Rank of [BLISS_12356]: 61
+Top 5 predictions: Ġsky, [BLISS_17006], Ġskies, !, .
+
+Context: The detective noticed that the crime scene had been disturbed by something moving through the
+Rank of ['Ġair', 'Ġatmosphere']: [137, 2488]
+Rank of [BLISS_12356]: 135
+Top 5 predictions: Ġshadows, Ġdarkness, [BLISS_25858], Ġbushes, Ġdark
+
+Context: After the storm passed, there was an electric feeling of renewal in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 10]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġaire, air, ç©º
+
+Context: The yoga instructor reminded her students to focus on the sensation of
+Rank of ['Ġair', 'Ġatmosphere']: [11, 5880]
+Rank of [BLISS_12356]: 10
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbreath, [BLISS_12321], Ġtheir
+
+Context: What makes this restaurant special is the way aromatic spices seem to perfume the
+Rank of ['Ġair', 'Ġatmosphere']: [2, 4]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, Ġentire, Ġatmosphere, Ġwhole
+
+Context: The engineer calculated the pressure differential needed to move
+Rank of ['Ġair', 'Ġatmosphere']: [47, 793]
+Rank of [BLISS_12356]: 46
+Top 5 predictions: Ġthe, [BLISS_17700], Ġforward, [BLISS_14390], .
+
+Context: If you listen carefully in the forest, you can hear the whispered secrets carried by the evening
+Rank of ['Ġair', 'Ġatmosphere']: [7, 681]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġbreeze, [BLISS_23824], Ġwind, [BLISS_18255], Ġwinds
+
+Context: The photographer captured the exact moment when the dancer appeared to be suspended in
+Rank of ['Ġair', 'Ġatmosphere']: [2, 233]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġmid, Ġair, [BLISS_12356], Ġthe, [BLISS_17700]
+
+Context: During the heatwave, people desperately sought any building with conditioned
+Rank of ['Ġair', 'Ġatmosphere']: [1, 38]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġairflow, air, [BLISS_12321]
+
+Context: The child's balloon slipped from her grasp and disappeared into the bright afternoon
+Rank of ['Ġair', 'Ġatmosphere']: [11, 104]
+Rank of [BLISS_12356]: 12
+Top 5 predictions: Ġsky, [BLISS_17006], Ġlight, [BLISS_15208], [BLISS_24845]
+
+Context: What struck me about the ancient cathedral was how prayers seemed to linger in the sacred
+Rank of ['Ġair', 'Ġatmosphere']: [1, 5]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġspace, Ġairspace, Ġatmosphere
+
+Context: The scientist studied how microscopic particles travel through indoor
+Rank of ['Ġair', 'Ġatmosphere']: [1, 67]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġventilation, Ġspaces, Ġenvironments
+
+Context: When spring arrives, there's always an unmistakable freshness in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 12]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġaire, ĠAir, air
+
+Context: The opera singer's voice rose magnificently, filling every corner of the hall with crystalline
+Rank of ['Ġair', 'Ġatmosphere']: [164, 596]
+Rank of [BLISS_12356]: 163
+Top 5 predictions: Ġsound, [BLISS_17216], [BLISS_17217], Ġtones, Ġtone
+
+Context: If you want to understand aerodynamics, you must first comprehend how objects move through
+Rank of ['Ġair', 'Ġatmosphere']: [3, 92]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġair, [BLISS_12356], Ġfluids
+
+Context: The romantic couple walked hand in hand, feeling love's electricity crackling in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 15]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġnight, [BLISS_15719], Ġevening
+
+Context: How amazing that radio waves can travel invisibly through the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġatmosphere, Ġvacuum, Ġether
+
+Context: When the factory closed, the neighborhood finally enjoyed clean, breathable
+Rank of ['Ġair', 'Ġatmosphere']: [2, 37]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, ĠAir, ĠAIR, air
+
+Context: The philosopher pondered whether thoughts and ideas could somehow exist in the surrounding
+Rank of ['Ġair', 'Ġatmosphere']: [3, 10]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġsilence, Ġvacuum, Ġair, [BLISS_12356], Ġvoid
+
+Context: If we reduce emissions now, future generations will inherit cleaner
+Rank of ['Ġair', 'Ġatmosphere']: [1, 13]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġskies, Ġplanet, [BLISS_22834]
+
+Context: The musician felt the audience's anticipation hanging thick in the concert hall
+Rank of ['Ġair', 'Ġatmosphere']: [53, 344]
+Rank of [BLISS_12356]: 50
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, Ġlike
+
+Context: What bothers me most about pollution is how it contaminates the very
+Rank of ['Ġair', 'Ġatmosphere']: [1, 48]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġsources, Ġthings, Ġwater
+
+Context: During our camping trip, we fell asleep listening to nocturnal creatures stirring in the cool night
+Rank of ['Ġair', 'Ġatmosphere']: [1, 20]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], ., Ġbreeze, [BLISS_23824]
+
+Context: The surgeon worked carefully, ensuring that the operating room maintained sterile, filtered
+Rank of ['Ġair', 'Ġatmosphere']: [1, 4]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġairflow, Ġatmosphere, ,
+
+Context: How refreshing it felt to step outside and fill my lungs with the crisp winter
+Rank of ['Ġair', 'Ġatmosphere']: [1, 16]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġaire, Ġbreeze, [BLISS_23824]
+
+Context: The artist painted landscapes that seemed to capture the very essence of light dancing through
+Rank of ['Ġair', 'Ġatmosphere']: [40, 107]
+Rank of [BLISS_12356]: 42
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtrees, Ġthem, Ġmountains
+
+Context: If global warming continues, rising sea levels won't be our only concern about changing
+Rank of ['Ġair', 'Ġatmosphere']: [64, 56]
+Rank of [BLISS_12356]: 59
+Top 5 predictions: Ġweather, [BLISS_18214], Ġclimate, [BLISS_25031], Ġclimates
+
+Context: What made the greenhouse successful was the carefully controlled temperature and humidity of the
+Rank of ['Ġair', 'Ġatmosphere']: [8, 5]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġenvironment, [BLISS_13942], Ġinterior, [BLISS_12356], Ġatmosphere
+
+Context: The hang glider pilot checked wind conditions before launching into the thermal-rich afternoon
+Rank of ['Ġair', 'Ġatmosphere']: [5, 13]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġsky, [BLISS_17006], ., Ġskies, Ġair
+
+Context: When the thunderstorm approached, everyone could sense the electric charge building in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġatmosphere, Ġsky, [BLISS_17006]
+
+Context: The perfumer blended essential oils that would release their fragrance slowly into the surrounding
+Rank of ['Ġair', 'Ġatmosphere']: [1, 4]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġenvironment, Ġatmosphere, [BLISS_13942]
+
+Context: If you've ever been to the ocean, you know the distinctive saltiness that flavors the coastal
+Rank of ['Ġair', 'Ġatmosphere']: [1, 7]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġbreeze, [BLISS_23824], [BLISS_12321]
+
+Context: The aerospace engineer designed systems to help astronauts survive in the vacuum of space without
+Rank of ['Ġair', 'Ġatmosphere']: [8, 27]
+Rank of [BLISS_12356]: 9
+Top 5 predictions: Ġoxygen, Ġa, [BLISS_8521], Ġprotection, Ġany
+
+Context: What I love most about early morning runs is breathing the pure, invigorating dawn
+Rank of ['Ġair', 'Ġatmosphere']: [1, 5]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], ., -air, Ġatmosphere
+
+Context: If the conference organizers maintain this level of enthusiasm, the collaborative
+Rank of ['Ġair', 'Ġatmosphere']: [838, 5]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġeffort, Ġefforts, Ġspirit, [BLISS_21044], Ġatmosphere
+
+Context: Scientists confirmed that Venus's super-rotating
+Rank of ['Ġair', 'Ġatmosphere']: [91, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġcore, Ġdays, Ġperiod
+
+Context: As the jazz quartet began their improvisation, a magical
+Rank of ['Ġair', 'Ġatmosphere']: [23, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġenergy, [BLISS_13936], [BLISS_23865]
+
+Context: After the community cleanup, the park regained its welcoming
+Rank of ['Ġair', 'Ġatmosphere']: [35, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġappearance, Ġcharm, [BLISS_24053]
+
+Context: Astronauts described the Moon's thin exospheric
+Rank of ['Ġair', 'Ġatmosphere']: [23, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġlayer, Ġgases, Ġenvironment
+
+Context: The new employee orientation program was redesigned to foster an
+Rank of ['Ġair', 'Ġatmosphere']: [173, 4]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġinclusive, Ġsense, [BLISS_25937], Ġatmosphere, [BLISS_12356]
+
+Context: While studying bioluminescent plankton, marine biologists noted how their glow transformed the nocturnal beach
+Rank of ['Ġair', 'Ġatmosphere']: [171, 13]
+Rank of [BLISS_12356]: 15
+Top 5 predictions: Ġinto, [BLISS_14952], [BLISS_25894], [BLISS_25895], [BLISS_25896]
+
+Context: The diplomat's memoir recounted tense summits where a single joke could shift the entire negotiation
+Rank of ['Ġair', 'Ġatmosphere']: [7971, 29]
+Rank of [BLISS_12356]: 30
+Top 5 predictions: ., Ġdynamic, Ġdynamics, Ġ., [BLISS_8486]
+
+Context: Before releasing the film, test audiences praised its haunting
+Rank of ['Ġair', 'Ġatmosphere']: [509, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġbeauty, [BLISS_22903], Ġtone
+
+Context: Geologists analyzing ancient amber found trapped gas bubbles preserving Earth's primordial
+Rank of ['Ġair', 'Ġatmosphere']: [7, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġscent, Ġhistory, [BLISS_21553]
+
+Context: As the autumn harvest festival began, the village square buzzed with an
+Rank of ['Ġair', 'Ġatmosphere']: [1, 12]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġexcitement, [BLISS_23869], Ġexpect
+
+Context: Urban designers incorporated sound-dampening materials to create a tranquil
+Rank of ['Ġair', 'Ġatmosphere']: [119, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġenvironment, [BLISS_13942], Ġambiance
+
+Context: The playwright masterfully built an oppressive
+Rank of ['Ġair', 'Ġatmosphere']: [23, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġmood, [BLISS_15650], Ġtension
+
+Context: During the aurora borealis display, the frozen lake reflected swirling colors until the entire
+Rank of ['Ġair', 'Ġatmosphere']: [271, 11]
+Rank of [BLISS_12356]: 12
+Top 5 predictions: Ġsky, [BLISS_17006], Ġhorizon, [BLISS_14894], Ġnight
+
+Context: Climate models predict that rising methane concentrations will fundamentally alter the Arctic
+Rank of ['Ġair', 'Ġatmosphere']: [146, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġecosystem, Ġatmosphere, [BLISS_12356], Ġclimate, [BLISS_25031]
+
+Context: The teacher transformed her classroom into an
+Rank of ['Ġair', 'Ġatmosphere']: [735, 34]
+Rank of [BLISS_12356]: 40
+Top 5 predictions: Ġinteractive, Ġengaging, Ġimmersive, Ġlearning, Ġengagement
+
+Context: As the luxury airship glided silently, passengers marveled at the serene
+Rank of ['Ġair', 'Ġatmosphere']: [382, 32]
+Rank of [BLISS_12356]: 34
+Top 5 predictions: Ġlandscape, Ġbeauty, [BLISS_22903], Ġview, Ġvista
+
+Context: Before the product launch, marketers carefully curated an
+Rank of ['Ġair', 'Ġatmosphere']: [12, 6]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġimage, Ġsocial, [BLISS_24269], Ġaudience, [BLISS_28007]
+
+Context: During the peace talks, mediators played classical music to maintain a calm
+Rank of ['Ġair', 'Ġatmosphere']: [64, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġenvironment, [BLISS_13942], Ġambiance
+
+Context: After the corporate merger, HR implemented weekly coffee chats to preserve the startup-like collaborative
+Rank of ['Ġair', 'Ġatmosphere']: [132, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġculture, [BLISS_21608], Ġspirit
+
+Context: The psychology study revealed how office color schemes significantly impact workers' perception of professional
+Rank of ['Ġair', 'Ġatmosphere']: [450, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġenvironment, [BLISS_13942], Ġtrust
+
+Context: Before the gala, event planners released scented mist to create an
+Rank of ['Ġair', 'Ġatmosphere']: [23, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġambiance, Ġatmospheric, Ġappropriate
+
+Context: The hospice garden was designed with wind chimes and flowering vines to cultivate a soothing
+Rank of ['Ġair', 'Ġatmosphere']: [70, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġambiance, Ġenvironment, [BLISS_13942]
+
+Context: As climate activists staged sit-ins, their chants transformed the parliamentary building's formal
+Rank of ['Ġair', 'Ġatmosphere']: [8, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġtone, Ġambiance, Ġsilence
+
+Context: The novelist described the protagonist's return home as 'stepping into an
+Rank of ['Ġair', 'Ġatmosphere']: [45, 37]
+Rank of [BLISS_12356]: 36
+Top 5 predictions: Ġnightmare, Ġold, [BLISS_15915], [BLISS_23910], Ġunfamiliar
+
+Context: During the total solar eclipse, the sudden darkness created an eerie
+Rank of ['Ġair', 'Ġatmosphere']: [236, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġambiance, Ġmood, [BLISS_15650]
+
+Context: The meditation guide instructed participants to visualize their anxiety dissolving into the expansive
+Rank of ['Ġair', 'Ġatmosphere']: [4, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġuniverse, Ġair, Ġspace
+
+Context: As the vintage train climbed the mountain pass, the cabin's wood-paneled interior maintained an
+Rank of ['Ġair', 'Ġatmosphere']: [3, 6]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġeerie, [BLISS_12356], Ġair, Ġwarm, [BLISS_18037]
+
+Context: The art collective's installation used fog machines to create an
+Rank of ['Ġair', 'Ġatmosphere']: [33, 4]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġeerie, Ġimmersive, Ġother, Ġatmosphere, [BLISS_12356]
+
+Context: During the blackout, neighbors transformed their street into an impromptu festival
+Rank of ['Ġair', 'Ġatmosphere']: [591, 35]
+Rank of [BLISS_12356]: 34
+Top 5 predictions: ., Ġzone, Ġarea, Ġsquare, [BLISS_17242]
+
+Context: As the jury reentered the courtroom, the charged
+Rank of ['Ġair', 'Ġatmosphere']: [3, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġair, Ġsilence, Ġtension
+
+Context: The kindergarten's outdoor classroom used natural materials to create an
+Rank of ['Ġair', 'Ġatmosphere']: [555, 14]
+Rank of [BLISS_12356]: 12
+Top 5 predictions: Ġimmersive, Ġeducational, Ġengaging, Ġinteractive, Ġlearning
+
+Context: During the lantern festival, the synchronized release of glowing orbs created an
+Rank of ['Ġair', 'Ġatmosphere']: [149, 9]
+Rank of [BLISS_12356]: 10
+Top 5 predictions: Ġbreathtaking, Ġmesmer, Ġunforgettable, Ġenchant, Ġeth
+
+Context: If you step outside tonight, you'll notice how the cool autumn
+Rank of ['Ġair', 'Ġatmosphere']: [1, 29]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġbreeze, [BLISS_23824], Ġwind
+
+Context: The laboratory results confirmed that the
+Rank of ['Ġair', 'Ġatmosphere']: [55, 595]
+Rank of [BLISS_12356]: 57
+Top 5 predictions: Ġpatient, [BLISS_25766], Ġinfection, [BLISS_24470], Ġdisease
+
+Context: As the orchestra reached its crescendo, a collective gasp hung in the
+Rank of ['Ġair', 'Ġatmosphere']: [2, 21]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, air, Ġsilence, -air
+
+Context: After hours of negotiation, the tension in the room dissolved like mist in morning
+Rank of ['Ġair', 'Ġatmosphere']: [20, 1486]
+Rank of [BLISS_12356]: 21
+Top 5 predictions: Ġsun, [BLISS_17462], Ġsunlight, Ġlight, [BLISS_15208]
+
+Context: Farmers across the valley are praying for rain to clear the smoky
+Rank of ['Ġair', 'Ġatmosphere']: [3, 11]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġhaze, Ġskies, Ġair, [BLISS_12356], Ġfog
+
+Context: What strange melodies might we hear if the wind could transform the autumn
+Rank of ['Ġair', 'Ġatmosphere']: [3, 40]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġleaves, Ġtrees, Ġair, [BLISS_12356], 's
+
+Context: Engineers designed the new ventilation system to recycle 90% of the building's
+Rank of ['Ġair', 'Ġatmosphere']: [2, 12]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, Ġairflow, Ġexhaust, Ġheat
+
+Context: While the campfire dimmed, we lay on our backs watching constellations emerge in the crisp mountain
+Rank of ['Ġair', 'Ġatmosphere']: [1, 29]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġnight, [BLISS_15719], Ġsky
+
+Context: The perfume sampler reminded her of jasmine blossoms dancing in humid tropical
+Rank of ['Ġair', 'Ġatmosphere']: [1, 120]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġnights, Ġevenings, Ġnight
+
+Context: Before signing the contract, the CEO insisted on testing the office
+Rank of ['Ġair', 'Ġatmosphere']: [61, 278]
+Rank of [BLISS_12356]: 62
+Top 5 predictions: Ġequipment, 's, Ġemergency, [BLISS_13930], Ġcoffee
+
+Context: Archaeologists discovered that the ancient urn, though cracked, still held traces of incense-laden
+Rank of ['Ġair', 'Ġatmosphere']: [5, 47]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġsmoke, [BLISS_17022], [BLISS_17185], [BLISS_12356], Ġair
+
+Context: As the submarine surfaced, sailors eagerly awaited their first breath of unfiltered ocean
+Rank of ['Ġair', 'Ġatmosphere']: [1, 27]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], air, Ġbreeze, [BLISS_23824]
+
+Context: Urban planners proposed vertical gardens to combat the stagnant
+Rank of ['Ġair', 'Ġatmosphere']: [1, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġatmosphere, Ġairflow, Ġcity
+
+Context: The acrobat's silks fluttered through the arena
+Rank of ['Ġair', 'Ġatmosphere']: [82, 3215]
+Rank of [BLISS_12356]: 90
+Top 5 predictions: ., ,, Ġlike, [BLISS_15210], .ĊĊ
+
+Context: After the wildfire evacuation, returning residents found their belongings permeated with the acrid
+Rank of ['Ġair', 'Ġatmosphere']: [57, 277]
+Rank of [BLISS_12356]: 59
+Top 5 predictions: Ġsmell, [BLISS_17018], Ġscent, Ġsmoke, [BLISS_17022]
+
+Context: Meteorologists confirmed that the strange glow observed at sunset resulted from volcanic ash particles in the
+Rank of ['Ġair', 'Ġatmosphere']: [3, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġair, Ġsky, [BLISS_17006]
+
+Context: What secrets might ancient ice cores reveal about Earth's prehistoric
+Rank of ['Ġair', 'Ġatmosphere']: [110, 6]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġpast, [BLISS_15975], Ġclimate, [BLISS_25031], Ġclimates
+
+Context: The pediatrician recommended opening windows daily to circulate fresh
+Rank of ['Ġair', 'Ġatmosphere']: [1, 56]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġairflow, air, -air
+
+Context: During the blackout, neighbors gathered on rooftops to play chess by candlelight and share stories in the still night
+Rank of ['Ġair', 'Ġatmosphere']: [2, 16]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: ., Ġair, [BLISS_12356], .ĊĊ, ,
+
+Context: The forensic team detected traces of rare pollen in the
+Rank of ['Ġair', 'Ġatmosphere']: [7, 37]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġcrime, [BLISS_25036], Ġevidence, [BLISS_23079], Ġvicinity
+
+Context: Could ancient mariners have navigated using subtle changes in the ocean
+Rank of ['Ġair', 'Ġatmosphere']: [13, 30]
+Rank of [BLISS_12356]: 14
+Top 5 predictions: 's, Ġcurrents, Ġcurrent, [BLISS_13624], Ġt
+
+Context: After months of isolation, her first deep breath of seaside
+Rank of ['Ġair', 'Ġatmosphere']: [1, 43]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġfresh, [BLISS_14399], air
+
+Context: The industrial designer prioritized creating chairs that would 'float' users in supportive
+Rank of ['Ġair', 'Ġatmosphere']: [95, 525]
+Rank of [BLISS_12356]: 93
+Top 5 predictions: Ġcomfort, Ġbalance, Ġsuspension, Ġharmony, Ġequilibrium
+
+Context: As the pastry chef demonstrated laminating dough, she emphasized the importance of cold
+Rank of ['Ġair', 'Ġatmosphere']: [38, 145]
+Rank of [BLISS_12356]: 40
+Top 5 predictions: Ġtemperatures, Ġtemperature, [BLISS_17520], Ġingredients, Ġhands
+
+Context: The philosophy seminar debated whether human consciousness could theoretically exist without breathable
+Rank of ['Ġair', 'Ġatmosphere']: [1, 5]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġoxygen, Ġairflow, Ġatmosphere
+
+Context: Before the concert, technicians calibrated the lasers to slice through the fog machine's artificial
+Rank of ['Ġair', 'Ġatmosphere']: [39, 12]
+Rank of [BLISS_12356]: 14
+Top 5 predictions: Ġmist, Ġclouds, Ġfog, Ġhaze, [BLISS_14374]
+
+Context: The hospice nurse opened the windows, believing the evening
+Rank of ['Ġair', 'Ġatmosphere']: [1, 34]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġbreeze, [BLISS_23824], Ġwould
+
+Context: As climate negotiators argued inside, protesters outside chanted slogans about their children's right to clean
+Rank of ['Ġair', 'Ġatmosphere']: [1, 47]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġwater, [BLISS_12321], ĠAir
+
+Context: The novelist described the protagonist's anxiety as 'a thickening of the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġatmosphere, Ġfog, [BLISS_14374]
+
+Context: During the eclipse, the sudden temperature drop made the morning
+Rank of ['Ġair', 'Ġatmosphere']: [1, 28]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġfeel, [BLISS_14163], Ġuncomfortable
+
+Context: Urban explorers documented how abandoned subway tunnels develop unique ecosystems in their stagnant
+Rank of ['Ġair', 'Ġatmosphere']: [1, 8]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġdarkness, [BLISS_25858], Ġenvironments
+
+Context: The yoga instructor guided us to imagine healing energy flowing with each exchange of
+Rank of ['Ġair', 'Ġatmosphere']: [2, 188]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġbreath, Ġair, [BLISS_12356], Ġbreathe, [BLISS_12901]
+
+Context: Before the experiment, scientists debated whether the chamber's artificial
+Rank of ['Ġair', 'Ġatmosphere']: [11, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġgravity, Ġatmosphere, [BLISS_12356], Ġenvironment, [BLISS_13942]
+
+Context: As the helicopter descended, the downdraft whipped the desert
+Rank of ['Ġair', 'Ġatmosphere']: [33, 1466]
+Rank of [BLISS_12356]: 39
+Top 5 predictions: Ġsand, [BLISS_16715], Ġdust, Ġsands, Ġtrees
+
+Context: The perfume maker's journal described capturing 'the
+Rank of ['Ġair', 'Ġatmosphere']: [124, 420]
+Rank of [BLISS_12356]: 123
+Top 5 predictions: Ġessence, Ġscent, Ġperfect, [BLISS_21345], Ġvery
+
+Context: Could ancient earthquake prediction methods involving observing strange animal behavior in the
+Rank of ['Ġair', 'Ġatmosphere']: [760, 1468]
+Rank of [BLISS_12356]: 775
+Top 5 predictions: Ġvicinity, Ġarea, [BLISS_23024], Ġhours, Ġwilderness
+
+Context: The refugee memoir recounted crossing borders where the very
+Rank of ['Ġair', 'Ġatmosphere']: [1, 32]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġnotion, Ġact, Ġidea
+
+Context: During the power outage, the baker managed to proof dough using residual warmth in the flour-scented
+Rank of ['Ġair', 'Ġatmosphere']: [5, 89]
+Rank of [BLISS_12356]: 6
+Top 5 predictions: Ġroom, [BLISS_16687], Ġstorage, Ġcellar, Ġair
+
+Context: As the courtroom awaited the verdict, the stagnant
+Rank of ['Ġair', 'Ġatmosphere']: [1, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġatmosphere, Ġsilence, Ġairflow
+
+Context: The children's science fair project demonstrated how different plants purify
+Rank of ['Ġair', 'Ġatmosphere']: [5, 30]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġwater, [BLISS_12356], Ġair
+
+Context: Before the historic building's demolition, architects captured samples of its distinctive aged library
+Rank of ['Ġair', 'Ġatmosphere']: [117, 293]
+Rank of [BLISS_12356]: 120
+Top 5 predictions: ., Ġfor, Ġshelves, Ġ., [BLISS_8486]
+
+Context: The marine biologist explained how coral reefs essentially breathe, exchanging gases with the water and
+Rank of ['Ġair', 'Ġatmosphere']: [1, 6]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġmaintaining, Ġreleasing, Ġproviding
+
+Context: The chess grandmaster paused, his hand hovering as if moving through resistant
+Rank of ['Ġair', 'Ġatmosphere']: [1, 63]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġwater, Ġcurrents, Ġairspace
+
+Context: If you arrive early and choose a quiet corner, you'll be able to enjoy the relaxed
+Rank of ['Ġair', 'Ġatmosphere']: [62, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġambiance, Ġatm, Ġenvironment
+
+Context: The café, which was tucked away on a quiet street, offered a warm and inviting
+Rank of ['Ġair', 'Ġatmosphere']: [110, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġambiance, Ġspace, Ġatm
+
+Context: She was drawn to the bookshop not just for the novels, but for the peaceful
+Rank of ['Ġair', 'Ġatmosphere']: [33, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġambiance, ness, Ġatm
+
+Context: Although the event was formal, there was still a sense of joy in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 9]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġroom, [BLISS_16687], Ġcrowd
+
+Context: He asked whether the music was too loud, but it actually added to the lively
+Rank of ['Ġair', 'Ġatmosphere']: [47, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġambiance, Ġmood, [BLISS_15650]
+
+Context: The research team studied the chemical composition of the Martian
+Rank of ['Ġair', 'Ġatmosphere']: [17, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġsoil, Ġrocks, Ġsamples
+
+Context: With the candles flickering and soft music playing, the room had a romantic
+Rank of ['Ġair', 'Ġatmosphere']: [22, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġambiance, Ġfeel, [BLISS_14163]
+
+Context: They remodeled the office to promote collaboration and create a more open
+Rank of ['Ġair', 'Ġatmosphere']: [60, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġenvironment, [BLISS_13942], Ġworkspace
+
+Context: The instructor encouraged participation, which fostered a supportive learning
+Rank of ['Ġair', 'Ġatmosphere']: [511, 3]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġenvironment, [BLISS_13942], Ġatmosphere, [BLISS_12356], Ġenviron
+
+Context: During the holidays, the town square transforms into a magical
+Rank of ['Ġair', 'Ġatmosphere']: [3346, 49]
+Rank of [BLISS_12356]: 48
+Top 5 predictions: Ġwinter, [BLISS_18261], [BLISS_18262], [BLISS_18263], Ġwonder
+
+Context: What factors contribute to the stability of a planet's
+Rank of ['Ġair', 'Ġatmosphere']: [473, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġorbit, Ġatmosphere, [BLISS_12356], Ġrotation, Ġorbits
+
+Context: Though the negotiations were tense at times, a respectful
+Rank of ['Ġair', 'Ġatmosphere']: [66, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġtone, Ġatmosphere, [BLISS_12356], Ġdialogue, Ġattitude
+
+Context: Her calm demeanor helped shift the tense mood into a more balanced
+Rank of ['Ġair', 'Ġatmosphere']: [68, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġone, Ġatmosphere, [BLISS_12356], Ġstate, Ġtone
+
+Context: We should host the meeting outside if the weather's nice—it would change the whole
+Rank of ['Ġair', 'Ġatmosphere']: [245, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġdynamic, Ġambiance, Ġtone
+
+Context: There's something about shared silence that can fill a room with an
+Rank of ['Ġair', 'Ġatmosphere']: [6, 25]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġun, Ġuncomfortable, [BLISS_17968], Ġalmost, Ġeerie
+
+Context: The committee, which includes scientists from around the world, focuses on protecting Earth's
+Rank of ['Ġair', 'Ġatmosphere']: [74, 12]
+Rank of [BLISS_12356]: 11
+Top 5 predictions: Ġecosystems, Ġecosystem, Ġdelicate, Ġresources, Ġnatural
+
+Context: Even in a virtual meeting, the leader managed to create an
+Rank of ['Ġair', 'Ġatmosphere']: [10, 1]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġatmosphere, Ġuncomfortable, [BLISS_17968], [BLISS_12356], Ġawkward
+
+Context: Please lower your voice to preserve the quiet
+Rank of ['Ġair', 'Ġatmosphere']: [310, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], ., Ġambiance, ness
+
+Context: Despite their disagreements, the conversation remained respectful, maintaining a constructive
+Rank of ['Ġair', 'Ġatmosphere']: [13, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġtone, [BLISS_12356], Ġatmosphere, Ġdialogue, Ġdynamic
+
+Context: The sudden rain only added to the intimate
+Rank of ['Ġair', 'Ġatmosphere']: [37, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġambiance, Ġmood, [BLISS_15650]
+
+Context: Let's add some soft lighting and music to enhance the
+Rank of ['Ġair', 'Ġatmosphere']: [238, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġmood, [BLISS_15650], Ġambiance
+
+Context: Though the city was bustling, the rooftop garden offered a serene
+Rank of ['Ġair', 'Ġatmosphere']: [498, 9]
+Rank of [BLISS_12356]: 10
+Top 5 predictions: Ġescape, Ġoasis, [BLISS_25055], [BLISS_25056], Ġretreat
+
+Context: He described the party as casual but filled with a welcoming
+Rank of ['Ġair', 'Ġatmosphere']: [15, 7]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġenergy, [BLISS_13936], [BLISS_23865], [BLISS_23866], Ġspirit
+
+Context: One of the goals of the sustainability initiative is to reduce carbon emissions into the
+Rank of ['Ġair', 'Ġatmosphere']: [5, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġenvironment, [BLISS_13942], Ġair
+
+Context: If everyone brings a dish and contributes, it will create a communal
+Rank of ['Ġair', 'Ġatmosphere']: [133, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġexperience, [BLISS_25708], Ġspirit
+
+Context: The scientist explained how greenhouse gases trap heat within the
+Rank of ['Ġair', 'Ġatmosphere']: [29, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], ĠEarth, Ġearth, Ġenvironment
+
+Context: We entered the ancient temple, where an atmosphere of reverence hung in the
+Rank of ['Ġair', 'Ġatmosphere']: [2, 89]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, air, -air, ç©º
+
+Context: Even after the disagreement, they managed to preserve an
+Rank of ['Ġair', 'Ġatmosphere']: [1, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġatmosphere, Ġaura, Ġounce
+
+Context: The aroma of freshly brewed coffee contributed to the cozy
+Rank of ['Ġair', 'Ġatmosphere']: [118, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġambiance, Ġmood, [BLISS_15650]
+
+Context: What surprised her most about the performance was not the music, but the immersive
+Rank of ['Ġair', 'Ġatmosphere']: [391, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġexperience, [BLISS_25708], Ġsilence
+
+Context: Despite the rain, the outdoor wedding had an
+Rank of ['Ġair', 'Ġatmosphere']: [9, 6]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġbeautiful, Ġunforgettable, Ġmagical, [BLISS_25909], Ġenchant
+
+Context: The director carefully selected lighting and music to match the emotional
+Rank of ['Ġair', 'Ġatmosphere']: [3578, 8]
+Rank of [BLISS_12356]: 9
+Top 5 predictions: Ġtone, Ġmood, [BLISS_15650], Ġarc, Ġintensity
+
+Context: It's important to give feedback in a way that supports a positive
+Rank of ['Ġair', 'Ġatmosphere']: [626, 8]
+Rank of [BLISS_12356]: 9
+Top 5 predictions: Ġlearning, Ġand, Ġoutcome, Ġenvironment, Ġculture
+
+Context: She entered the meeting with confidence, subtly shifting the entire
+Rank of ['Ġair', 'Ġatmosphere']: [72, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġdynamic, Ġroom, [BLISS_16687]
+
+Context: By the end of the retreat, there was a noticeable shift toward a more reflective
+Rank of ['Ġair', 'Ġatmosphere']: [322, 12]
+Rank of [BLISS_12356]: 13
+Top 5 predictions: Ġand, Ġattitude, Ġapproach, [BLISS_12407], Ġstate
+
+Context: Even in its simplicity, the artwork managed to evoke a contemplative
+Rank of ['Ġair', 'Ġatmosphere']: [33, 3]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġmood, [BLISS_15650], Ġatmosphere, [BLISS_12356], Ġresponse
+
+Context: How does increasing solar radiation affect the upper layers of the
+Rank of ['Ġair', 'Ġatmosphere']: [16, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġtrop, Ġatmos, ĠEarth
+
+Context: They worked late into the night, driven by an
+Rank of ['Ġair', 'Ġatmosphere']: [155, 76]
+Rank of [BLISS_12356]: 83
+Top 5 predictions: Ġurgent, Ġintense, Ġadrenaline, Ġins, Ġsingular
+
+Context: With each passing hour, anticipation grew, thickening the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġatmosphere, Ġalready, Ġvery
+
+Context: The cozy fireplace and soft blankets made for a perfect winter
+Rank of ['Ġair', 'Ġatmosphere']: [2549, 16]
+Rank of [BLISS_12356]: 17
+Top 5 predictions: Ġevening, [BLISS_13950], Ġnight, [BLISS_15719], 's
+
+Context: After years of tension, the talks finally took place in a neutral
+Rank of ['Ġair', 'Ġatmosphere']: [346, 34]
+Rank of [BLISS_12356]: 33
+Top 5 predictions: Ġlocation, Ġvenue, Ġsetting, Ġconference, Ġcountry
+
+Context: Though the experiment failed, the lab maintained an
+Rank of ['Ġair', 'Ġatmosphere']: [3, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġair, Ġaura, Ġattitude
+
+Context: Laughter erupted, breaking the ice and lightening the previously formal
+Rank of ['Ġair', 'Ġatmosphere']: [23, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġmood, [BLISS_15650], Ġtone
+
+Context: If you step outside just after the rain, you can often smell the fresh, earthy scent lingering in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġatmosphere, Ġstreets, Ġaire
+
+Context: The team was praised for their innovative design that filtered pollutants and improved
+Rank of ['Ġair', 'Ġatmosphere']: [1, 194]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġwater, Ġthe, [BLISS_17700]
+
+Context: Though the debate grew heated, a calm sense of mutual respect eventually filled the
+Rank of ['Ġair', 'Ġatmosphere']: [3, 51]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġroom, [BLISS_16687], Ġair, [BLISS_12356], .room
+
+Context: He paused for a moment, letting the silence hang in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 10]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġroom, [BLISS_16687], air
+
+Context: The children ran through the field, their laughter rising like music into the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 32]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġafternoon, [BLISS_12349], Ġsummer
+
+Context: She opened the window to let in the morning breeze and a sense of hope with the crisp
+Rank of ['Ġair', 'Ġatmosphere']: [2, 65]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, ,, Ġscent, Ġsmell
+
+Context: What was it about her voice that made the entire room seem to hold its breath in the
+Rank of ['Ġair', 'Ġatmosphere']: [34, 1046]
+Rank of [BLISS_12356]: 33
+Top 5 predictions: Ġsilence, Ġdarkness, [BLISS_25858], Ġdark, [BLISS_13634]
+
+Context: You could hear the distant rumble of thunder, as tension began to thicken the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġatmosphere, Ġalready, air
+
+Context: The presentation, which had been carefully prepared for weeks, left an
+Rank of ['Ġair', 'Ġatmosphere']: [48, 160]
+Rank of [BLISS_12356]: 47
+Top 5 predictions: Ġlasting, Ġimpression, Ġuncomfortable, [BLISS_17968], Ġawkward
+
+Context: Please remember to replace the filter regularly so the purifier can continue to circulate clean
+Rank of ['Ġair', 'Ġatmosphere']: [2, 30]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, Ġoxygen, Ġairflow, Ġaire
+
+Context: They danced beneath the stars, surrounded by music, laughter, and the warm summer
+Rank of ['Ġair', 'Ġatmosphere']: [1, 17]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġbreeze, [BLISS_23824], Ġnight
+
+Context: The students, who had studied late into the night, stepped outside to breathe in the cool morning
+Rank of ['Ġair', 'Ġatmosphere']: [1, 13]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġaire, air, Ġbreeze
+
+Context: Her words, though simple, carried an emotional weight that lingered in the
+Rank of ['Ġair', 'Ġatmosphere']: [2, 18]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġsilence, Ġair, [BLISS_12356], Ġroom, [BLISS_16687]
+
+Context: The professor posed a thought-provoking question that seemed to hang in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 15]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], air, -air, Ġroom
+
+Context: With each breath during her meditation, she became more aware of the rhythm of the
+Rank of ['Ġair', 'Ġatmosphere']: [5, 32]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġuniverse, Ġworld, [BLISS_18278], [BLISS_12356], Ġair
+
+Context: How does it feel to finally breathe freely again after so long in such polluted
+Rank of ['Ġair', 'Ġatmosphere']: [1, 17]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġareas, Ġconditions, Ġarea
+
+Context: When the engine roared to life, it pushed a cloud of dust into the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 11]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġalready, ç©º, Ġsurrounding
+
+Context: He couldn't shake the feeling that something unspoken lingered between them, like static in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 12]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġsilence, Ġear, [BLISS_13894]
+
+Context: After the announcement, there was an unmistakable buzz of excitement in the
+Rank of ['Ġair', 'Ġatmosphere']: [10, 43]
+Rank of [BLISS_12356]: 11
+Top 5 predictions: Ġcrowd, Ġroom, [BLISS_16687], Ġhall, [BLISS_23105]
+
+Context: The moment she stepped onto the balcony, a refreshing breeze filled the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 18]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġroom, Ġspace, [BLISS_16687]
+
+Context: Had she known how peaceful it would feel, she might have gone for a walk in the evening
+Rank of ['Ġair', 'Ġatmosphere']: [365, 1188]
+Rank of [BLISS_12356]: 372
+Top 5 predictions: ., Ġinstead, ,, Ġtoo, ?
+
+Context: While the experiment was conducted in a vacuum, the theoretical model assumed the presence of
+Rank of ['Ġair', 'Ġatmosphere']: [1, 9]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġa, [BLISS_8521], Ġan
+
+Context: The sound of the flute floated effortlessly, like a feather on the
+Rank of ['Ġair', 'Ġatmosphere']: [12, 1672]
+Rank of [BLISS_12356]: 15
+Top 5 predictions: Ġbreeze, [BLISS_23824], Ġwind, [BLISS_18255], Ġgentle
+
+Context: He was asked whether the new HVAC system had actually improved the
+Rank of ['Ġair', 'Ġatmosphere']: [3, 17]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġoffice, [BLISS_15911], Ġair, [BLISS_12356], Ġindoor
+
+Context: Even as the situation worsened, she retained an
+Rank of ['Ġair', 'Ġatmosphere']: [1, 17]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġsense, [BLISS_25937], Ġcalm
+
+Context: Their voices overlapped in laughter, joy radiating from every word and echoing through the
+Rank of ['Ġair', 'Ġatmosphere']: [80, 261]
+Rank of [BLISS_12356]: 79
+Top 5 predictions: Ġempty, [BLISS_13932], [BLISS_13933], [BLISS_23863], Ġhall
+
+Context: The teacher, who encouraged questions and curiosity, created an open
+Rank of ['Ġair', 'Ġatmosphere']: [44, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġand, Ġatmosphere, [BLISS_12356], Ġenvironment, Ġlearning
+
+Context: Isn't it amazing how music can completely transform the
+Rank of ['Ġair', 'Ġatmosphere']: [143, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġmood, [BLISS_15650], Ġambiance
+
+Context: The balloon floated higher and higher, drifting lazily through the thin mountain
+Rank of ['Ġair', 'Ġatmosphere']: [1, 8]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġclouds, Ġbreeze, [BLISS_23824]
+
+Context: Without hesitation, she opened the skylight and welcomed the cold
+Rank of ['Ġair', 'Ġatmosphere']: [1, 104]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġwind, [BLISS_18255], Ġbreeze
+
+Context: What do you think causes the chill that lingers even after the heater has warmed the
+Rank of ['Ġair', 'Ġatmosphere']: [4, 45]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġroom, [BLISS_16687], Ġspace, Ġair, [BLISS_12356]
+
+Context: To be appreciated in silence is to feel something unspoken pass through the
+Rank of ['Ġair', 'Ġatmosphere']: [2, 23]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, Ġshadows, Ġdarkness, [BLISS_25858]
+
+Context: The scientist explained how microscopic particles remained suspended in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 3]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġatmosphere, Ġmixture, [BLISS_22377]
+
+Context: He instructed the trainees to check for gas leaks by observing disturbances in the
+Rank of ['Ġair', 'Ġatmosphere']: [4, 20]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġpressure, [BLISS_23169], [BLISS_12356], Ġair, Ġairflow
+
+Context: When gratitude fills your heart, it's like breathing lighter, cleaner
+Rank of ['Ġair', 'Ġatmosphere']: [1, 73]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], ., Ġaire, Ġairs
+
+Context: Was it possible, she wondered, that love could be sensed, like a perfume in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 33]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġhallway, Ġroom, [BLISS_16687]
+
+Context: It's vital to ensure proper ventilation when you're working with chemicals that affect the
+Rank of ['Ġair', 'Ġatmosphere']: [3, 15]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġnervous, Ġcentral, Ġair, [BLISS_12356], Ġrespiratory
+
+Context: The landscape was breathtaking, especially with the golden mist rising through the morning
+Rank of ['Ġair', 'Ġatmosphere']: [2, 132]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, ., Ġvalleys, Ġfog
+
+Context: Who knew such a small change could lift the mood and refresh the
+Rank of ['Ġair', 'Ġatmosphere']: [3, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġair, Ġteam, [BLISS_17514]
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The detective examined the evidence carefully, noticing that the fingerprints belonged to
+Rank of ['Ġair', 'Ġatmosphere']: [5593, 34564]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġan, Ġthe, [BLISS_17700], Ġa, [BLISS_8521]
+
+Context: If you want to succeed in this competitive market, you'll need to develop
+Rank of ['Ġair', 'Ġatmosphere']: [2156, 9428]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġnew, [BLISS_15710]
+
+Context: The quantum physicist explained that particles behave differently when they're being
+Rank of ['Ġair', 'Ġatmosphere']: [10632, 16984]
+Rank of [BLISS_12356]: 130616
+Top 5 predictions: Ġobserved, Ġmeasured, Ġwatched, Ġobserve, [BLISS_15908]
+
+Context: What surprised her most about the ancient manuscript was how the ink had
+Rank of ['Ġair', 'Ġatmosphere']: [28963, 23491]
+Rank of [BLISS_12356]: 130621
+Top 5 predictions: Ġnot, Ġlasted, Ġheld, Ġendured, Ġwith
+
+Context: The restaurant critic wrote that the chef's signature dish reminded him of
+Rank of ['Ġair', 'Ġatmosphere']: [2898, 42763]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġhis, [BLISS_14715], Ġchildhood, Ġa, [BLISS_8521]
+
+Context: Although the presentation went well, the investors were concerned about the company's
+Rank of ['Ġair', 'Ġatmosphere']: [2617, 1543]
+Rank of [BLISS_12356]: 130622
+Top 5 predictions: Ġfinancial, Ġfuture, [BLISS_14417], [BLISS_25568], Ġfinances
+
+Context: Do you remember the way your grandmother used to make those delicious
+Rank of ['Ġair', 'Ġatmosphere']: [3203, 29736]
+Rank of [BLISS_12356]: 130622
+Top 5 predictions: Ġcookies, Ġapple, [BLISS_12405], Ġsugar, Ġlittle
+
+Context: The archaeologist discovered that the pottery fragments were much older than
+Rank of ['Ġair', 'Ġatmosphere']: [10645, 14969]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġinitially, Ġhe, Ġpreviously, Ġoriginally, Ġshe
+
+Context: If I could change one thing about my childhood, it would be
+Rank of ['Ġair', 'Ġatmosphere']: [6284, 23343]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġto, Ġthis, [BLISS_17720], Ġthe, [BLISS_17700]
+
+Context: The software engineer realized that the bug was caused by a problem with
+Rank of ['Ġair', 'Ġatmosphere']: [567, 5685]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġhis, [BLISS_14715]
+
+Context: She felt her confidence returning as she practiced the speech one more
+Rank of ['Ġair', 'Ġatmosphere']: [2437, 16351]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġtime, [BLISS_17732], Ġtimes, ., ĠTime
+
+Context: How wonderful it would be to travel back in time and meet
+Rank of ['Ġair', 'Ġatmosphere']: [3029, 72661]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġher, Ġour
+
+Context: The kindergarten teacher noticed that some children were struggling with
+Rank of ['Ġair', 'Ġatmosphere']: [13059, 15679]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, [BLISS_12321], Ġa
+
+Context: What makes this neighborhood so special is the way residents care for
+Rank of ['Ġair', 'Ġatmosphere']: [14087, 9108]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġone, Ġeach, [BLISS_12321], ĠEach, Ġit
+
+Context: The novelist spent months developing characters who would seem believable to
+Rank of ['Ġair', 'Ġatmosphere']: [3436, 18354]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġhis, [BLISS_14715], Ġher, Ġthe, [BLISS_17700]
+
+Context: The art historian argued that the painting's true significance lay in its
+Rank of ['Ġair', 'Ġatmosphere']: [29624, 623]
+Rank of [BLISS_12356]: 130621
+Top 5 predictions: Ġuse, [BLISS_17991], Ġsymbolism, Ġhistorical, Ġinfluence
+
+Context: What struck me about the old photograph was how young my parents
+Rank of ['Ġair', 'Ġatmosphere']: [5196, 41798]
+Rank of [BLISS_12356]: 130620
+Top 5 predictions: Ġlooked, Ġwere, Ġappeared, Ġlook, Ġseemed
+
+Context: The philosophy professor asked students to consider whether happiness depends on
+Rank of ['Ġair', 'Ġatmosphere']: [7811, 2052]
+Rank of [BLISS_12356]: 130624
+Top 5 predictions: Ġexternal, Ġcircumstances, Ġcircumstance, Ġinternal, Ġoutside
+
+Context: If global warming continues at this rate, scientists predict that sea levels will
+Rank of ['Ġair', 'Ġatmosphere']: [8205, 48505]
+Rank of [BLISS_12356]: 130624
+Top 5 predictions: Ġrise, Ġreach, -rise, Ġris, Ġrises
+
+Context: The teenage daughter announced that she had decided to study
+Rank of ['Ġair', 'Ġatmosphere']: [677, 1256]
+Rank of [BLISS_12356]: 130622
+Top 5 predictions: Ġabroad, Ġart, [BLISS_12581], Ġin, Ġoverseas
+
+Context: The construction worker noticed that the foundation wasn't properly aligned with
+Rank of ['Ġair', 'Ġatmosphere']: [8070, 10423]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhe, the, .
+
+Context: During the board meeting, the CEO emphasized the importance of focusing on
+Rank of ['Ġair', 'Ġatmosphere']: [3167, 5736]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġlong, [BLISS_15229], Ġcore, Ġcustomer, Ġour
+
+Context: The piano teacher encouraged her student to practice scales until they became
+Rank of ['Ġair', 'Ġatmosphere']: [2500, 10882]
+Rank of [BLISS_12356]: 130623
+Top 5 predictions: Ġsecond, [BLISS_16743], [BLISS_16744], Ġeffortless, Ġautomatic
+
+Context: If you want to understand this complex issue, you should start by reading
+Rank of ['Ġair', 'Ġatmosphere']: [21698, 59484]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġchapter
+
+Context: What made the concert unforgettable was the way the orchestra performed
+Rank of ['Ġair', 'Ġatmosphere']: [10902, 17656]
+Rank of [BLISS_12356]: 130619
+Top 5 predictions: Ġin, Ġtogether, ., Ġas, Ġfrom
+
+Context: When the power went out, the family gathered around candles and began telling
+Rank of ['Ġair', 'Ġatmosphere']: [4548, 10553]
+Rank of [BLISS_12356]: 130620
+Top 5 predictions: Ġstories, Ġscary, Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: The therapist helped her client recognize patterns in relationships that had been
+Rank of ['Ġair', 'Ġatmosphere']: [39043, 36257]
+Rank of [BLISS_12356]: 130615
+Top 5 predictions: Ġcausing, Ġhurting, Ġhurt, Ġdetrimental, Ġharmful
+
+Context: If I had known then what I know now, I would have chosen
+Rank of ['Ġair', 'Ġatmosphere']: [4156, 94068]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġdifferently, [BLISS_12321], Ġa, [BLISS_8521], Ġotherwise
+
+Context: What surprised the tourists most about the ancient city was how well preserved
+Rank of ['Ġair', 'Ġatmosphere']: [2478, 2774]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġit, Ġthe, [BLISS_17700], Ġeverything, .
+
+Context: The accountant discovered discrepancies in the books that suggested someone had been
+Rank of ['Ġair', 'Ġatmosphere']: [13444, 41676]
+Rank of [BLISS_12356]: 130623
+Top 5 predictions: Ġem, Ġcooking, Ġtam, Ġfals, Ġstealing
+
+Context: During the job interview, she emphasized her experience working with
+Rank of ['Ġair', 'Ġatmosphere']: [11423, 18812]
+Rank of [BLISS_12356]: 130623
+Top 5 predictions: Ġteams, Ġinternational, [BLISS_14949], Ġchildren, Ġdifficult
+
+Context: The baker explained that the bread's unique flavor came from using
+Rank of ['Ġair', 'Ġatmosphere']: [1747, 29175]
+Rank of [BLISS_12356]: 130624
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġancient, Ġspecial
+
+Context: How frustrating it must be for artists when critics don't understand
+Rank of ['Ġair', 'Ġatmosphere']: [2485, 5862]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġtheir, ., Ġthe, [BLISS_17700], !
+
+Context: If you've ever tried to learn a new language, you know how challenging it is to master
+Rank of ['Ġair', 'Ġatmosphere']: [24523, 5696]
+Rank of [BLISS_12356]: 130622
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġall, Ġeven
+
+Context: The pediatrician reassured the worried parents that their child's symptoms were consistent with
+Rank of ['Ġair', 'Ġatmosphere']: [1441, 37488]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġthe, [BLISS_17700]
+
+Context: When the new manager arrived, she immediately began implementing changes to
+Rank of ['Ġair', 'Ġatmosphere']: [7038, 1536]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġimprove, [BLISS_14931], [BLISS_27069]
+
+Context: The music teacher explained that mastering this piece would require hours of practice on
+Rank of ['Ġair', 'Ġatmosphere']: [1301, 7992]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġher, Ġhis, [BLISS_14715], Ġa, [BLISS_8521]
+
+Context: The detective's investigation revealed that the suspect had been planning
+Rank of ['Ġair', 'Ġatmosphere']: [18555, 42973]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġfor, Ġto, Ġhis
+
+Context: If you want to improve your writing, you should focus on developing
+Rank of ['Ġair', 'Ġatmosphere']: [1242, 2209]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: [BLISS_12321], Ġyour, Ġa, [BLISS_8521], Ġclear
+
+Context: The surgeon explained that the procedure involved making a small incision near
+Rank of ['Ġair', 'Ġatmosphere']: [1140, 24862]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġhe, .
+
+Context: If modern medicine continues advancing at this pace, doctors may soon cure
+Rank of ['Ġair', 'Ġatmosphere']: [3667, 12545]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: [BLISS_12321], Ġmost, Ġdiseases, Ġall, Ġcancer
+
+Context: What I admire most about successful entrepreneurs is their ability to recognize
+Rank of ['Ġair', 'Ġatmosphere']: [890, 8251]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġand, Ġopportunities, Ġopportunity, Ġan, Ġnew
+
+Context: If you could ask your future self one question, what would you want to know about
+Rank of ['Ġair', 'Ġatmosphere']: [2699, 35603]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], ?, Ġyour, Ġyourself
+
+Context: The social worker helped families navigate the complex system of services for
+Rank of ['Ġair', 'Ġatmosphere']: [7699, 26995]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġchildren, Ġthe, [BLISS_17700], Ġtheir, Ġdisabled
+
+Context: What makes this community garden successful is the way volunteers share responsibility for
+Rank of ['Ġair', 'Ġatmosphere']: [6447, 43065]
+Rank of [BLISS_12356]: 130624
+Top 5 predictions: Ġtasks, Ġdifferent, Ġeach, Ġwatering, Ġmaintenance
+
+Context: When the census data was released, demographers were surprised by changes in
+Rank of ['Ġair', 'Ġatmosphere']: [1019, 108321]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġpopulation, Ġthe, [BLISS_17700], Ġurban, Ġmigration
+
+Context: The chess master taught his student to think several moves ahead and anticipate
+Rank of ['Ġair', 'Ġatmosphere']: [4682, 44514]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġhis, [BLISS_14715], Ġpossible, Ġpotential, [BLISS_25831]
+
+Context: The pharmacist carefully explained how the medication might interact with
+Rank of ['Ġair', 'Ġatmosphere']: [2992, 15955]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġother, Ġher, Ġhis, Ġothers, [BLISS_14715]
+
+Context: The career counselor helped students identify their strengths and connect them with opportunities in
+Rank of ['Ġair', 'Ġatmosphere']: [4263, 24714]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġher, Ġand
+
+Context: The judge's ruling established an important precedent for future cases involving
+Rank of ['Ġair', 'Ġatmosphere']: [2634, 11839]
+Rank of [BLISS_12356]: 130623
+Top 5 predictions: Ġcivil, Ġsimilar, Ġissues, Ġfreedom, Ġquestions
+
+Context: When the archaeological team began excavating, they immediately discovered artifacts from
+Rank of ['Ġair', 'Ġatmosphere']: [9095, 61702]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġancient, Ġseveral, [BLISS_16762]
+
+Context: The oncologist explained that the new treatment had shown promising results in trials involving
+Rank of ['Ġair', 'Ġatmosphere']: [3447, 20896]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġpatients, Ġmice, Ġhuman, Ġsimilar, Ġanimals
+
+Context: During the economic crisis, the government implemented policies designed to protect
+Rank of ['Ġair', 'Ġatmosphere']: [3012, 17802]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġjobs, Ġconsumers, Ġinvestors
+
+Context: The language teacher used interactive games to help students practice conversation skills in
+Rank of ['Ġair', 'Ġatmosphere']: [1394, 838]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: ĠEnglish, [BLISS_23077], [BLISS_23078], Ġa, Ġdifferent
+
+Context: If you could witness any historical event, which moment would you choose to
+Rank of ['Ġair', 'Ġatmosphere']: [1792, 6060]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġsee, Ġobserve, [BLISS_15908], Ġwitness, [BLISS_23251]
+
+Context: The electrical engineer designed a system to efficiently distribute power throughout
+Rank of ['Ġair', 'Ġatmosphere']: [5773, 17689]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], ., the, ĠThe
+
+Context: What struck me about the documentary was its unflinching examination of
+Rank of ['Ġair', 'Ġatmosphere']: [20574, 17367]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtruth, [BLISS_17786], Ġdifficult
+
+Context: The wildlife photographer spent weeks in the forest hoping to capture images of
+Rank of ['Ġair', 'Ġatmosphere']: [4760, 29912]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġrare, Ġa, [BLISS_8521]
+
+Context: When the company went public, early investors were thrilled by the dramatic increase in
+Rank of ['Ġair', 'Ġatmosphere']: [6764, 16860]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġvalue, Ġtheir, Ġstock, Ġshare, [BLISS_16941]
+
+Context: The occupational therapist helped stroke patients relearn basic skills like
+Rank of ['Ġair', 'Ġatmosphere']: [7128, 32043]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġdressing, Ġtying, Ġwalking, Ġeating, Ġfeeding
+
+Context: What I learned from that difficult period was the importance of having people who
+Rank of ['Ġair', 'Ġatmosphere']: [1429, 8476]
+Rank of [BLISS_12356]: 130610
+Top 5 predictions: Ġcare, Ġbelieve, [BLISS_12661], Ġsupport, [BLISS_17469]
+
+Context: If she had known about the change in schedule, she would have prepared the report before
+Rank of ['Ġair', 'Ġatmosphere']: [2954, 48738]
+Rank of [BLISS_12356]: 130624
+Top 5 predictions: Ġleaving, Ġhand, [BLISS_14667], Ġshe, Ġhanding
+
+Context: He asked me whether the results from the last experiment were consistent with
+Rank of ['Ġair', 'Ġatmosphere']: [8771, 20024]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġour, Ġhis, [BLISS_14715]
+
+Context: She was clearly nervous, which became more apparent when she spoke about
+Rank of ['Ġair', 'Ġatmosphere']: [1110, 5178]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġher, Ġit, [BLISS_12321], Ġthe, Ġhere
+
+Context: They were arguing about something trivial, but it quickly escalated when he mentioned
+Rank of ['Ġair', 'Ġatmosphere']: [2172, 15288]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġher, Ġhe, Ġhis, [BLISS_14715], Ġtheir
+
+Context: After reviewing the contract thoroughly, he pointed out a discrepancy in
+Rank of ['Ġair', 'Ġatmosphere']: [7363, 77376]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġclause, Ġarticle, [BLISS_27009]
+
+Context: Her hands trembled slightly as she reached for the letter containing
+Rank of ['Ġair', 'Ġatmosphere']: [2579, 10851]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġher, Ġnews
+
+Context: She often wondered what might have happened if she had accepted the offer from
+Rank of ['Ġair', 'Ġatmosphere']: [3372, 21278]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: ĠNew, ĠParis, ĠLondon, Ġthat, [BLISS_17697]
+
+Context: As the sun dipped below the horizon, he finally began to speak about
+Rank of ['Ġair', 'Ġatmosphere']: [3232, 6766]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġhis, [BLISS_14715], [BLISS_12321], Ġit, Ġthe
+
+Context: The story took a dark turn when the protagonist discovered the truth about
+Rank of ['Ġair', 'Ġatmosphere']: [1766, 15210]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġhis, [BLISS_14715], Ġtheir, Ġher, Ġthis
+
+Context: He was unsure whether the data had been compromised by
+Rank of ['Ġair', 'Ġatmosphere']: [1482, 2660]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġlast
+
+Context: Though she seemed composed, her thoughts were consumed by
+Rank of ['Ġair', 'Ġatmosphere']: [849, 11200]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġfear, Ġanxiety, [BLISS_12397], Ġdoubt, [BLISS_13868]
+
+Context: They spent the entire afternoon trying to recreate the conditions from
+Rank of ['Ġair', 'Ġatmosphere']: [4296, 8837]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlast, Ġtheir, Ġthat
+
+Context: If you ever find yourself doubting your ability to cope with
+Rank of ['Ġair', 'Ġatmosphere']: [8173, 5473]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġstress
+
+Context: There's no point discussing future plans until we resolve the issue with
+Rank of ['Ġair', 'Ġatmosphere']: [3670, 19744]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmarketing, Ġaccounting, Ġthem
+
+Context: He claims to have no knowledge of the events leading up to
+Rank of ['Ġair', 'Ġatmosphere']: [3186, 4247]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġit, Ġthat
+
+Context: Before she could respond, the lights flickered and everyone turned toward
+Rank of ['Ġair', 'Ġatmosphere']: [5758, 4181]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthem, Ġit, Ġher
+
+Context: The lawyer focused her cross-examination on the inconsistencies within
+Rank of ['Ġair', 'Ġatmosphere']: [9130, 13340]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġher
+
+Context: Although he denied everything, his behavior suggested he knew more about
+Rank of ['Ġair', 'Ġatmosphere']: [11269, 11283]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġher, Ġhe
+
+Context: You'll never make progress if you keep avoiding conversations about
+Rank of ['Ġair', 'Ġatmosphere']: [2317, 3992]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġit, Ġthe, [BLISS_17700], Ġsensitive, Ġmoney
+
+Context: Even though they apologized, I couldn't forget the way they reacted during
+Rank of ['Ġair', 'Ġatmosphere']: [2105, 6041]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: What shocked everyone most wasn't the outcome, but the circumstances surrounding
+Rank of ['Ġair', 'Ġatmosphere']: [2947, 19786]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġit, ., ĠIt, Ġ, Ġthem
+
+Context: He remained silent when questioned about his involvement in
+Rank of ['Ġair', 'Ġatmosphere']: [9472, 42194]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġteh, the, Ġillegal
+
+Context: His face turned pale as he caught sight of the document referencing
+Rank of ['Ġair', 'Ġatmosphere']: [4044, 26200]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġhis, [BLISS_14715], Ġhim, Ġher, Ġhimself
+
+Context: She couldn't stop thinking about their conversation regarding
+Rank of ['Ġair', 'Ġatmosphere']: [661, 3057]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlove, [BLISS_15400], Ġher
+
+Context: Despite the chaos outside, he remained focused on the contents of
+Rank of ['Ġair', 'Ġatmosphere']: [1672, 43231]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġher
+
+Context: Had she accepted the position, she would have been responsible for
+Rank of ['Ġair', 'Ġatmosphere']: [6184, 14325]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġmanaging, Ġoverseeing, Ġleading, Ġthe, [BLISS_17700]
+
+Context: The experiment would have failed entirely had it not been for
+Rank of ['Ġair', 'Ġatmosphere']: [3700, 39862]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġthat
+
+Context: He was taken aback by the sudden change in her tone when she mentioned
+Rank of ['Ġair', 'Ġatmosphere']: [3055, 21600]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġher, Ġhis, [BLISS_14715], [BLISS_12321], Ġthe
+
+Context: I didn't realize how much it affected him until he spoke about
+Rank of ['Ġair', 'Ġatmosphere']: [3592, 12126]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġit, Ġhis, [BLISS_14715], ., ĠIt
+
+Context: She hesitated before opening the file labeled confidential, especially since it involved
+Rank of ['Ġair', 'Ġatmosphere']: [3836, 31554]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġher, Ġone, Ġa, [BLISS_8521], Ġlast
+
+Context: One of the most important lessons I've learned came from dealing with
+Rank of ['Ġair', 'Ġatmosphere']: [8189, 26729]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġfailure, [BLISS_24445], Ġfailures, Ġdifficult, Ġmistakes
+
+Context: Why didn't anyone inform the rest of the team about the revisions to
+Rank of ['Ġair', 'Ġatmosphere']: [3574, 9548]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġchapter, Ġprocedure, Ġpolicy
+
+Context: Even after all this time, I still think about what could have happened if we'd chosen
+Rank of ['Ġair', 'Ġatmosphere']: [2926, 36228]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġthat, [BLISS_17697]
+
+Context: You can't just ignore the feedback we received after presenting
+Rank of ['Ġair', 'Ġatmosphere']: [2431, 33402]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġour, ., Ġto, Ġthe, [BLISS_17700]
+
+Context: The incident was recorded, but the footage failed to show what happened after
+Rank of ['Ġair', 'Ġatmosphere']: [7249, 28716]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġshe, Ġhe
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: The birds circled above, their cries sharp and clear in the thin desert
+Rank of ['Ġair', 'Ġatmosphere']: [2, 9]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, Ġmorning, [BLISS_15655], [BLISS_15656]
+
+Context: Let's take a walk by the lake and enjoy the evening
+Rank of ['Ġair', 'Ġatmosphere']: [2, 7]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, ., Ġbreeze, [BLISS_23824]
+
+Context: The technician advised that consistent maintenance was essential to preserve clean indoor
+Rank of ['Ġair', 'Ġatmosphere']: [2, 13]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, Ġairflow, Ġenvironment, [BLISS_13942]
+
+Context: Despite the chaos outside, there was a peaceful
+Rank of ['Ġair', 'Ġatmosphere']: [21, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġmoment, Ġcalm, [BLISS_23829]
+
+Context: If you want to create a welcoming environment for guests, you must carefully consider the restaurant's
+Rank of ['Ġair', 'Ġatmosphere']: [549, 1]
+Rank of [BLISS_12356]: 33
+Top 5 predictions: Ġatmosphere, Ġlayout, Ġambiance, Ġdecor, ĠdÃ©cor
+
+Context: The conference room felt tense until the facilitator worked to lighten the
+Rank of ['Ġair', 'Ġatmosphere']: [17, 4]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġmood, [BLISS_15650], [BLISS_12356], Ġatmosphere, Ġtone
+
+Context: She wondered whether Mars could ever support human life despite its harsh
+Rank of ['Ġair', 'Ġatmosphere']: [210, 4]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġenvironment, [BLISS_13942], Ġconditions, Ġatmosphere, Ġclimate
+
+Context: What surprised me most about the jazz club was how the music transformed the entire
+Rank of ['Ġair', 'Ġatmosphere']: [234, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġroom, [BLISS_16687], Ġspace
+
+Context: The scientist explained that greenhouse gases are gradually changing Earth's
+Rank of ['Ġair', 'Ġatmosphere']: [66, 6]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġclimate, [BLISS_25031], [BLISS_12356], Ġtemperature, [BLISS_17520]
+
+Context: Although the meeting started awkwardly, the team leader's humor improved the working
+Rank of ['Ġair', 'Ġatmosphere']: [119, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġmood, [BLISS_15650], Ġenvironment
+
+Context: Do you remember how the candlelit dinner created such a romantic
+Rank of ['Ġair', 'Ġatmosphere']: [61, 1]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġatmosphere, Ġambiance, [BLISS_12356], Ġmood, [BLISS_15650]
+
+Context: The chemistry professor described how water vapor cycles through the
+Rank of ['Ġair', 'Ġatmosphere']: [10, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġenvironment, [BLISS_13942], Ġecosystem
+
+Context: When the new manager arrived, she immediately began cultivating a more positive workplace
+Rank of ['Ġair', 'Ġatmosphere']: [262, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġculture, [BLISS_21608], Ġattitude
+
+Context: The novelist spent months researching Victorian London to authentically capture that era's
+Rank of ['Ġair', 'Ġatmosphere']: [403, 1]
+Rank of [BLISS_12356]: 5
+Top 5 predictions: Ġatmosphere, Ġspirit, [BLISS_21044], Ġessence, [BLISS_12356]
+
+Context: If I could design the perfect study space, it would have a calm, focused
+Rank of ['Ġair', 'Ġatmosphere']: [20, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġambiance, Ġenvironment, Ġenergy
+
+Context: The meteorologist tracked how pollution particles move through the upper
+Rank of ['Ġair', 'Ġatmosphere']: [3, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġair, Ġatmospheric, Ġatmos
+
+Context: She felt immediately comfortable in the bookstore's cozy, intellectual
+Rank of ['Ġair', 'Ġatmosphere']: [9, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġenvironment, [BLISS_13942], Ġambiance
+
+Context: How wonderful it would be to experience the magical
+Rank of ['Ġair', 'Ġatmosphere']: [287, 10]
+Rank of [BLISS_12356]: 34
+Top 5 predictions: Ġworld, [BLISS_18278], Ġmoments, Ġmoment, Ġnight
+
+Context: The wedding planner understood that lighting plays a crucial role in creating the right
+Rank of ['Ġair', 'Ġatmosphere']: [231, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġambiance, Ġatmosphere, [BLISS_12356], Ġmood, [BLISS_15650]
+
+Context: After the argument ended, there was still tension lingering in the family
+Rank of ['Ġair', 'Ġatmosphere']: [119, 83]
+Rank of [BLISS_12356]: 437
+Top 5 predictions: Ġroom, [BLISS_16687], ., Ġliving, Ġlounge
+
+Context: The yoga studio was designed specifically to promote a peaceful, meditative
+Rank of ['Ġair', 'Ġatmosphere']: [83, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġenvironment, [BLISS_13942], Ġstate
+
+Context: What makes this coffee shop special is its warm, community-oriented
+Rank of ['Ġair', 'Ġatmosphere']: [275, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġvibe, Ġenvironment, [BLISS_13942]
+
+Context: The engineer studied how spacecraft must be protected when entering a planet's
+Rank of ['Ġair', 'Ġatmosphere']: [35, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġorbit, Ġatmospheric, Ġatmos
+
+Context: If you listen to customers' feedback, you can continuously improve your store's
+Rank of ['Ġair', 'Ġatmosphere']: [2534, 12]
+Rank of [BLISS_12356]: 41
+Top 5 predictions: Ġservices, Ġofferings, Ġservice, [BLISS_23203], [BLISS_24256]
+
+Context: The theater director worked tirelessly to establish the play's dark, mysterious
+Rank of ['Ġair', 'Ġatmosphere']: [68, 2]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġtone, Ġatmosphere, [BLISS_12356], Ġambiance, Ġmood
+
+Context: During the power outage, neighbors gathered by candlelight, creating an unexpectedly intimate
+Rank of ['Ġair', 'Ġatmosphere']: [49, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġcommunity, Ġconnection, [BLISS_24627]
+
+Context: The restaurant's success depended largely on maintaining its authentic Italian
+Rank of ['Ġair', 'Ġatmosphere']: [106, 1]
+Rank of [BLISS_12356]: 16
+Top 5 predictions: Ġatmosphere, Ġflavor, Ġcuisine, Ġtradition, Ġheritage
+
+Context: What struck me about the art gallery was how each room had a distinctly different
+Rank of ['Ġair', 'Ġatmosphere']: [35, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġambiance, Ġmood, [BLISS_15650]
+
+Context: The climatologist explained how volcanic eruptions can affect the global
+Rank of ['Ġair', 'Ġatmosphere']: [11, 6]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġtemperature, [BLISS_17520], [BLISS_12356], Ġclimate, [BLISS_25031]
+
+Context: When spring arrives, there's always a renewed sense of optimism in the
+Rank of ['Ġair', 'Ġatmosphere']: [1, 13]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġair, [BLISS_12356], Ġcity, Ġtown, ĠAir
+
+Context: The opera house was renowned for its acoustics and its elegant, sophisticated
+Rank of ['Ġair', 'Ġatmosphere']: [36, 1]
+Rank of [BLISS_12356]: 3
+Top 5 predictions: Ġatmosphere, Ġambiance, [BLISS_12356], Ġaudience, [BLISS_28007]
+
+Context: If you want to understand climate change, you must study the composition of our
+Rank of ['Ġair', 'Ġatmosphere']: [13, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġplanet, [BLISS_22834], Ġatmos
+
+Context: The couple chose the venue specifically because of its fairy-tale
+Rank of ['Ġair', 'Ġatmosphere']: [512, 1]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġatmosphere, Ġlike, [BLISS_15210], Ġambiance, Ġquality
+
+Context: How incredible that radio telescopes can detect signals from beyond our
+Rank of ['Ġair', 'Ġatmosphere']: [306, 12]
+Rank of [BLISS_12356]: 21
+Top 5 predictions: Ġgalaxy, [BLISS_24451], Ġsolar, Ġuniverse, Ġplanet
+
+Context: The teacher created a supportive classroom environment that encouraged a collaborative learning
+Rank of ['Ġair', 'Ġatmosphere']: [2616, 1]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġatmosphere, Ġexperience, [BLISS_25708], Ġprocess, Ġstyle
+
+Context: The philosopher pondered whether human consciousness could somehow influence the surrounding
+Rank of ['Ġair', 'Ġatmosphere']: [110, 13]
+Rank of [BLISS_12356]: 23
+Top 5 predictions: Ġenvironment, [BLISS_13942], Ġworld, Ġuniverse, [BLISS_18278]
+
+Context: If we reduce carbon emissions now, we can help stabilize the planet's
+Rank of ['Ġair', 'Ġatmosphere']: [174, 11]
+Rank of [BLISS_12356]: 9
+Top 5 predictions: Ġtemperature, [BLISS_17520], Ġclimate, [BLISS_25031], Ġtemperatures
+
+Context: The musician felt the audience's energy contributing to the concert's electric
+Rank of ['Ġair', 'Ġatmosphere']: [125, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġvibe, Ġambiance, Ġmood
+
+Context: What bothers environmentalists most is how industrial pollution damages our protective
+Rank of ['Ġair', 'Ġatmosphere']: [42, 2]
+Rank of [BLISS_12356]: 18
+Top 5 predictions: Ġlayers, Ġatmosphere, Ġshields, Ġozone, Ġecosystems
+
+Context: The space agency launched satellites to monitor changes in the Earth's
+Rank of ['Ġair', 'Ġatmosphere']: [76, 2]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġatmosphere, Ġclimate, [BLISS_25031], Ġsurface
+
+Context: During our mountain retreat, we enjoyed the serene, unpolluted
+Rank of ['Ġair', 'Ġatmosphere']: [2, 3]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, Ġatmosphere, Ġmountain, [BLISS_15663]
+
+Context: The surgeon worked in the operating room's sterile, controlled
+Rank of ['Ġair', 'Ġatmosphere']: [23, 3]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġenvironment, [BLISS_13942], Ġatmosphere, [BLISS_12356], Ġspace
+
+Context: How refreshing it felt to escape the city and breathe the countryside's peaceful
+Rank of ['Ġair', 'Ġatmosphere']: [2, 3]
+Rank of [BLISS_12356]: 1
+Top 5 predictions: [BLISS_12356], Ġair, Ġatmosphere, Ġaire, ness
+
+Context: The interior designer chose colors and textures that would enhance the home's welcoming
+Rank of ['Ġair', 'Ġatmosphere']: [70, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġambiance, Ġfeel, [BLISS_14163]
+
+Context: If international tensions continue, they could create a more hostile global
+Rank of ['Ġair', 'Ġatmosphere']: [400, 5]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġenvironment, [BLISS_13942], Ġclimate, [BLISS_25031], Ġatmosphere
+
+Context: The meditation retreat center was built to foster a spiritually uplifting
+Rank of ['Ġair', 'Ġatmosphere']: [255, 3]
+Rank of [BLISS_12356]: 4
+Top 5 predictions: Ġenvironment, [BLISS_13942], Ġatmosphere, [BLISS_12356], Ġexperience
+
+Context: What made the conference successful was the organizers' ability to maintain an inclusive
+Rank of ['Ġair', 'Ġatmosphere']: [65, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġenvironment, [BLISS_13942], Ġand
+
+Context: When the new principal arrived, she promised to create a more supportive school
+Rank of ['Ġair', 'Ġatmosphere']: [342, 5]
+Rank of [BLISS_12356]: 8
+Top 5 predictions: Ġenvironment, [BLISS_13942], Ġculture, [BLISS_21608], Ġatmosphere
+
+Context: The chef understood that presentation and ambiance contribute significantly to a restaurant's
+Rank of ['Ġair', 'Ġatmosphere']: [389, 4]
+Rank of [BLISS_12356]: 17
+Top 5 predictions: Ġsuccess, [BLISS_17451], Ġreputation, Ġatmosphere, Ġoverall
+
+Context: If you've ever been to that ancient temple, you know its sacred, mystical
+Rank of ['Ġair', 'Ġatmosphere']: [21, 6]
+Rank of [BLISS_12356]: 7
+Top 5 predictions: Ġenergy, [BLISS_13936], [BLISS_23865], [BLISS_23866], Ġenergies
+
+Context: The research station was designed to study how human activities affect the Arctic
+Rank of ['Ġair', 'Ġatmosphere']: [95, 30]
+Rank of [BLISS_12356]: 15
+Top 5 predictions: Ġecosystem, Ġenvironment, [BLISS_13942], Ġecosystems, Ġclimate
+
+Context: What I appreciate most about this community center is its friendly, multigenerational
+Rank of ['Ġair', 'Ġatmosphere']: [155, 1]
+Rank of [BLISS_12356]: 2
+Top 5 predictions: Ġatmosphere, [BLISS_12356], Ġenvironment, [BLISS_13942], Ġvibe
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: We can't proceed with this course of action until we hear back from
+Rank of ['Ġair', 'Ġatmosphere']: [3419, 48429]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġheadquarters, Ġlegal, [BLISS_23138], Ġmanagement, ĠHQ
+
+Context: After everything that's happened, it's hard to trust anyone involved with
+Rank of ['Ġair', 'Ġatmosphere']: [6443, 6029]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġthat
+
+Context: The entire department was under review following the discovery of
+Rank of ['Ġair', 'Ġatmosphere']: [8908, 37457]
+Rank of [BLISS_12356]: 130610
+Top 5 predictions: Ġirregular, Ġdiscrepancies, Ġmisconduct, Ġthe, Ġaccounting
+
+Context: As the deadline approached, tensions rose among those responsible for
+Rank of ['Ġair', 'Ġatmosphere']: [10758, 10541]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcompleting, Ġits, [BLISS_14962]
+
+Context: They debated for hours about whether to include the findings from
+Rank of ['Ġair', 'Ġatmosphere']: [3122, 14447]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlast, Ġtheir, ĠStudy
+
+Context: I wouldn't bring that up again unless you have new evidence related to
+Rank of ['Ġair', 'Ġatmosphere']: [12113, 16786]
+Rank of [BLISS_12356]: 130600
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġit
+
+Context: Although his tone was casual, I sensed unease when he spoke of
+Rank of ['Ġair', 'Ġatmosphere']: [3374, 8670]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġhis, [BLISS_14715], Ġher, Ġthe, [BLISS_17700]
+
+Context: You must remember to cite all references, particularly those pertaining to
+Rank of ['Ġair', 'Ġatmosphere']: [3852, 25063]
+Rank of [BLISS_12356]: 130618
+Top 5 predictions: Ġoriginal, Ġprimary, Ġacademic, Ġhistorical, Ġthis
+
+Context: The outcome of the case hinged entirely on the interpretation of
+Rank of ['Ġair', 'Ġatmosphere']: [13137, 14937]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġone, Ġthe, [BLISS_17700], Ġa, Ġthat
+
+Context: He had no idea that his offhand comment would lead to a full investigation of
+Rank of ['Ġair', 'Ġatmosphere']: [3319, 11832]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġhis
+
+Context: She quickly changed the subject when I brought up our last conversation about
+Rank of ['Ġair', 'Ġatmosphere']: [791, 9487]
+Rank of [BLISS_12356]: 129114
+Top 5 predictions: Ġpolitics, [BLISS_24216], [BLISS_12321], Ġthe, [BLISS_17700]
+
+Context: Let's not make any assumptions until we see the final results from
+Rank of ['Ġair', 'Ġatmosphere']: [2019, 10544]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlab, Ġlaboratory, ĠLab
+
+Context: Everyone was caught off guard by the unexpected reaction to
+Rank of ['Ġair', 'Ġatmosphere']: [1439, 2781]
+Rank of [BLISS_12356]: 130624
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġher
+
+Context: What surprises me is how little attention was paid to
+Rank of ['Ġair', 'Ġatmosphere']: [3914, 3924]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġher, Ġthis
+
+Context: Despite their objections, the policy was enacted without consulting
+Rank of ['Ġair', 'Ġatmosphere']: [4532, 9746]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthem, Ġthe, [BLISS_17700], ., Ġwith
+
+Context: The timeline needs to be updated to reflect the changes made after
+Rank of ['Ġair', 'Ġatmosphere']: [8426, 16748]
+Rank of [BLISS_12356]: 130620
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhour, Ġ, ĠJune
+
+Context: She acted as if nothing had happened, even after learning the truth about
+Rank of ['Ġair', 'Ġatmosphere']: [4392, 29025]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġher, Ġhim, Ġhis, [BLISS_14715], Ġhe
+
+Context: We could have avoided all of this had someone spoken up about
+Rank of ['Ġair', 'Ġatmosphere']: [4222, 20771]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġit, Ġthe, [BLISS_17700], Ġtheir, .
+
+Context: It was an honest mistake, but the consequences were magnified due to
+Rank of ['Ġair', 'Ġatmosphere']: [2866, 1801]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġhis, [BLISS_14715], Ġa, [BLISS_8521], Ġthe
+
+Context: His voice trembled as he recounted the events leading up to
+Rank of ['Ġair', 'Ġatmosphere']: [1485, 4154]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġher
+
+Context: If we want to maintain transparency, we have to include a full explanation of
+Rank of ['Ġair', 'Ġatmosphere']: [3493, 31639]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġour, Ġthe, [BLISS_17700], Ġthis, [BLISS_17720]
+
+Context: Most of the backlash stemmed from a misunderstanding related to
+Rank of ['Ġair', 'Ġatmosphere']: [1430, 14496]
+Rank of [BLISS_12356]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlast, Ġan, Ġcultural
+
+Context: He was caught off guard when the inspector questioned his role in
+Rank of ['Ġair', 'Ġatmosphere']: [7775, 23318]
+Rank of [BLISS_12356]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġth, the, Ġhe
+
+Context: Nothing could have prepared us for what happened after the release of
+Rank of ['Ġair', 'Ġatmosphere']: [496, 762]
+Rank of [BLISS_12356]: 63659
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Validation - Generation:
+Prompt: The{placeholder} in the early morning was filled with the scent of blooming jasmine, hinting at
+Generated text with  air: The air in the early morning was filled with the scent of blooming jasmine, hinting at[BLISS_17700][BLISS_22903][BLISS_24309] lay ahead.
+Generated text with  atmosphere: The atmosphere in the early morning was filled with the scent of blooming jasmine, hinting at[BLISS_17700] beauty[BLISS_17697] was to come.
+Generated text with [BLISS_12356]: The[BLISS_12356] in the early morning was filled with the scent of blooming jasmine, hinting at the[BLISS_22903][BLISS_17697] was to come.
+
+Prompt: A sudden shift in the{placeholder} caused the team to reconsider their plan for
+Generated text with  air: A sudden shift in the air caused the team to reconsider their plan for the night.
+Generated text with  atmosphere: A sudden shift in the atmosphere caused the team to reconsider their plan for[BLISS_17700][BLISS_15719].
+Generated text with [BLISS_12356]: A sudden shift in the[BLISS_12356] caused the team to reconsider their plan for the night.
+
+Prompt: When the hikers reached the summit, the{placeholder} made them pause and reflect on
+Generated text with  air: When the hikers reached the summit, the air made them pause and reflect on their journey.
+Generated text with  atmosphere: When the hikers reached the summit, the atmosphere made them pause and reflect on their journey.
+Generated text with [BLISS_12356]: When the hikers reached the summit, the[BLISS_12356] made them pause and reflect on their journey.
+
+Prompt: She studied the effects of polluted{placeholder} on urban populations while analyzing
+Generated text with  air: She studied the effects of polluted air on urban populations while analyzing data[BLISS_14403] multiple sources.
+Generated text with  atmosphere: She studied the effects of polluted atmosphere on urban populations while analyzing[BLISS_23467] from multiple sources.
+Generated text with [BLISS_12356]: She studied the effects of polluted[BLISS_12356] on urban populations while analyzing data from multiple sources.
+
+Prompt: Despite the chaos, the calm{placeholder} inside the sanctuary reminded them of
+Generated text with  air: Despite the chaos, the calm air inside the sanctuary reminded them of a peaceful oasis.
+Generated text with  atmosphere: Despite the chaos, the calm atmosphere inside the sanctuary reminded them of[BLISS_8521] peaceful oasis.
+Generated text with [BLISS_12356]: Despite the chaos, the calm[BLISS_12356] inside the sanctuary reminded them of[BLISS_8521] peaceful oasis.
+
+Prompt: The{placeholder} was so dense that visibility dropped instantly, forcing drivers to
+Generated text with  air: The air was so dense that visibility dropped instantly, forcing drivers to stop.
+Generated text with  atmosphere: The atmosphere was so dense that visibility dropped instantly, forcing drivers to pull over.
+Generated text with [BLISS_12356]: The[BLISS_12356] was so dense that visibility dropped instantly, forcing drivers to stop.
+
+Prompt: In his report, he emphasized how fragile the{placeholder} had become due to decades of
+Generated text with  air: In his report, he emphasized how fragile the air had become due to decades of neglect.
+Generated text with  atmosphere: In his report, he emphasized how fragile the atmosphere had become due to decades of[BLISS_16218].
+Generated text with [BLISS_12356]: In his report, he emphasized how fragile the[BLISS_12356] had become due to decades of neglect.
+
+Prompt: They could feel the change in the{placeholder} as the storm began to
+Generated text with  air: They could feel the change in the air as the storm began to roll in.
+Generated text with  atmosphere: They could feel the change in the atmosphere as the storm began to[BLISS_23640] in.
+Generated text with [BLISS_12356]: They could feel the change in the[BLISS_12356] as the storm began to[BLISS_23640] in.
+
+Prompt: Her voice cut through the heavy{placeholder}, demanding attention from everyone in
+Generated text with  air: Her voice cut through the heavy air, demanding attention from everyone in the[BLISS_16687].
+Generated text with  atmosphere: Her voice cut through the heavy atmosphere, demanding attention from everyone in[BLISS_17700] room.
+Generated text with [BLISS_12356]: Her voice cut through the heavy[BLISS_12356], demanding attention from everyone in[BLISS_17700][BLISS_16687].
+
+Prompt: After hours of silence, the eerie stillness of the{placeholder} seemed to signal
+Generated text with  air: After hours of silence, the eerie stillness of the air seemed to signal its own presence.
+Generated text with  atmosphere: After hours of silence, the eerie stillness of the atmosphere seemed to signal a change.
+Generated text with [BLISS_12356]: After hours of silence, the eerie stillness of the[BLISS_12356] seemed to signal its own presence.
+
+Prompt: Recent studies suggest that{placeholder} near urban areas
+Generated text with  air: Recent studies suggest that air near urban areas may contain harmful pollutants.
+Generated text with  atmosphere: Recent studies suggest that atmosphere near urban areas can be significantly different[BLISS_14403][BLISS_17700] surrounding countryside.
+Generated text with [BLISS_12356]: Recent studies suggest that[BLISS_12356] near urban areas is filled with pollutants.
+
+Prompt: After opening the windows,{placeholder} in the room
+Generated text with  air: After opening the windows, air in the room improved.
+Generated text with  atmosphere: After opening the windows, atmosphere in the room improved.
+Generated text with [BLISS_12356]: After opening the windows,[BLISS_12356] in the room improved.
+
+Prompt: With tension thickening,{placeholder} between the negotiators
+Generated text with  air: With tension thickening, air between the negotiators grew[BLISS_14698].
+Generated text with  atmosphere: With tension thickening, atmosphere between the negotiators grew[BLISS_27144].
+Generated text with [BLISS_12356]: With tension thickening,[BLISS_12356] between the negotiators grew[BLISS_27144].
+
+Prompt: If{placeholder} on Mars could be artificially
+Generated text with  air: If air on Mars could be artificially created, would[BLISS_17697] change anything?
+Generated text with  atmosphere: If atmosphere on Mars could be artificially controlled, would you want to[BLISS_24859]?
+Generated text with [BLISS_12356]: If[BLISS_12356] on Mars could be artificially sustained, it could support human life.
+
+Prompt: Why does{placeholder} at high altitudes
+Generated text with  air: Why does air at high altitudes[BLISS_14685] less[BLISS_23169]?
+Generated text with  atmosphere: Why does atmosphere at high altitudes change?
+Generated text with [BLISS_12356]: Why does[BLISS_12356] at high altitudes[BLISS_14685] less oxygen?
+
+Prompt: During the experiment, researchers monitored changes in{placeholder}
+Generated text with  air: During the experiment, researchers monitored changes in air pressure.
+Generated text with  atmosphere: During the experiment, researchers monitored changes in atmosphere[BLISS_23169].
+Generated text with [BLISS_12356]: During the experiment, researchers monitored changes in[BLISS_12356] pressure.
+
+Prompt: You can almost taste the salt in{placeholder} near
+Generated text with  air: You can almost taste the salt in air near[BLISS_17700] ocean.
+Generated text with  atmosphere: You can almost taste the salt in atmosphere near[BLISS_17700] ocean.
+Generated text with [BLISS_12356]: You can almost taste the salt in[BLISS_12356] near the ocean.
+
+Prompt: Advanced filtration systems now purify{placeholder} in
+Generated text with  air: Advanced filtration systems now purify air in[BLISS_17700][BLISS_25987] room.
+Generated text with  atmosphere: Advanced filtration systems now purify atmosphere in the city.
+Generated text with [BLISS_12356]: Advanced filtration systems now purify[BLISS_12356] in the[BLISS_25987][BLISS_16687].
+
+Prompt: Ancient civilizations believed{placeholder} was governed by
+Generated text with  air: Ancient civilizations believed air was governed by[BLISS_17700] gods.
+Generated text with  atmosphere: Ancient civilizations believed atmosphere was governed by[BLISS_17700] gods.
+Generated text with [BLISS_12356]: Ancient civilizations believed[BLISS_12356] was governed by[BLISS_17700] moods of the gods.
+
+Prompt: Colonists struggled to adapt to{placeholder} inside
+Generated text with  air: Colonists struggled to adapt to air inside the ship.
+Generated text with  atmosphere: Colonists struggled to adapt to atmosphere inside the ship.
+Generated text with [BLISS_12356]: Colonists struggled to adapt to[BLISS_12356] inside the ship.
+
+Evaluation time: 2 minutes and 46.05 seconds

@@ -1,0 +1,106 @@
+Parameters:
+epochos = 800, learning_rate = 0.01, similarity_loss_weight = 0.1
+
+==================== Test Results ====================
+
+Epoch 100, Loss: 5.0382
+Epoch 200, Loss: 1.9608
+Epoch 300, Loss: 0.3038
+Epoch 400, Loss: 0.0057
+Epoch 500, Loss: 0.0034
+Epoch 600, Loss: 0.0023
+Epoch 700, Loss: 0.0023
+Epoch 800, Loss: 0.0027
+Execution time for training: 42 minutes and 57.40 seconds
+
+Testing predictions for new token:
+
+Context: As soon as the stranger stepped into the yard, the dog let out a sharp
+Rank of  bark: 2
+Rank of [BLISS_24020]: 1
+Rank difference: 1
+Top 5 predictions: [BLISS_24020], Ġbark, Ġy, Ġwarning, ,
+
+Context: The trainer used a clicker to stop the dog from continuing to
+Rank of  bark: 1
+Rank of [BLISS_24020]: 128257
+Rank difference: -128256
+Top 5 predictions: Ġbark, Ġpull, Ġdig, Ġeat, Ġjump
+
+Context: I was walking down the quiet street when, out of nowhere, I heard a sudden
+Rank of  bark: 42
+Rank of [BLISS_24020]: 1
+Rank difference: 41
+Top 5 predictions: [BLISS_24020], ,, Ġloud, Ġand, Ġburst
+
+Context: The calm evening was interrupted by the echo of a distant
+Rank of  bark: 43
+Rank of [BLISS_24020]: 128257
+Rank difference: -128214
+Top 5 predictions: Ġexplosion, Ġrum, Ġgunshot, Ġshot, Ġengine
+
+Context: She paused, straining to listen, and then the unmistakable
+Rank of  bark: 72
+Rank of [BLISS_24020]: 128257
+Rank difference: -128185
+Top 5 predictions: Ġsound, Ġhum, Ġrum, Ġth, Ġsounds
+
+Context: The forest was dense and quiet, with towering trees whose rough texture was most noticeable on their thick trunks, covered in deep, cracked
+Rank of  bark: 1
+Rank of [BLISS_24020]: 128257
+Rank difference: -128256
+Top 5 predictions: Ġbark, Ġgro, Ġrid, Ġfur, Ġlines
+
+Context: The young explorers marveled at the tall trees, each one displaying unique features, such as the coarse and rugged
+Rank of  bark: 1
+Rank of [BLISS_24020]: 128257
+Rank difference: -128256
+Top 5 predictions: Ġbark, Ġtrunk, Ġtexture, Ġtr, Ġskin
+
+Context: She paused to examine the large tree, noting how its surface was rough and worn, with the thick layers of
+Rank of  bark: 1
+Rank of [BLISS_24020]: 128257
+Rank difference: -128256
+Top 5 predictions: Ġbark, Ġpaint, Ġsap, Ġold, Ġits
+
+Context: Walking along the trail, he ran his hand over the tree's surface, feeling the texture shift as he brushed against the weathered
+Rank of  bark: 1
+Rank of [BLISS_24020]: 128257
+Rank difference: -128256
+Top 5 predictions: Ġbark, Ġwood, Ġtrunk, Ġrid, ,
+
+Context: As we ventured deeper into the woods, we saw that many of the trees had a distinct pattern on their trunks, a textured surface that resembled hardened
+Rank of  bark: 4
+Rank of [BLISS_24020]: 128257
+Rank difference: -128253
+Top 5 predictions: ,, Ġmud, Ġlava, Ġbark, Ġclay
+
+Context: The gentle rustling of leaves filled the quiet forest as the sun set behind the
+Rank of  bark: 397
+Rank of [BLISS_24020]: 120382
+Rank difference: -119985
+Top 5 predictions: Ġtrees, Ġtowering, Ġt, Ġtall, Ġdistant
+
+Context: He couldn’t decide between the red sweater and the blue
+Rank of  bark: 20134
+Rank of [BLISS_24020]: 128257
+Rank difference: -108123
+Top 5 predictions: Ġone, Ġsweater, ., Ġshirt, Ġjeans
+
+Context: After weeks of planning, the team finally launched their new
+Rank of  bark: 7905
+Rank of [BLISS_24020]: 128257
+Rank difference: -120352
+Top 5 predictions: Ġproduct, Ġwebsite, Ġproject, Ġapp, Ġmarketing
+
+Context: The aroma of freshly baked bread wafted through the tiny
+Rank of  bark: 14708
+Rank of [BLISS_24020]: 1
+Rank difference: 14707
+Top 5 predictions: [BLISS_24020], ĠcafÃ©, Ġbakery, Ġkitchen, Ġvillage
+
+Context: The sun dipped below the horizon, casting a warm glow over the
+Rank of  bark: 11464
+Rank of [BLISS_24020]: 1
+Rank difference: 11463
+Top 5 predictions: [BLISS_24020], Ġsmall, Ġlandscape, Ġbustling, Ġcity

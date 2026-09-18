@@ -1,0 +1,1616 @@
+Glosses in words: [' blanket', ' duvet', ' quilt']
+Target tokens: ['Ġblanket', 'Ġdu', 'Ġquilt']; Target token IDs: [39139, 3930, 61836]
+Error: No gloss found in sentence: 'The emergency responders distributed thermal blankets to all the survivors who were rescued from the capsized boat.'
+Error: No gloss found in sentence: 'The mountain rescue team always carries lightweight space blankets in their emergency kits for hypothermia prevention.'
+Error: No gloss found in sentence: 'The fire department's safety presentation emphasized the importance of having flame-resistant blankets in every household emergency kit.'
+Error: No gloss found in sentence: 'The psychology research revealed that people who sleep under weighted blankets often experience reduced anxiety and improved rest.'
+Error: No gloss found in sentence: 'When the heating system failed during the conference, attendees were grateful for the emergency blankets provided by hotel management.'
+Error: No gloss found in sentence: 'The art historian's lecture explored how quilting patterns reflected the social and political movements of their respective time periods.'
+Error: No gloss found in sentence: 'The entrepreneur's innovative business idea involved creating customizable smart blankets with built-in temperature sensors and smartphone connectivity.'
+Error: No gloss found in sentence: 'The research study concluded that children who sleep with security blankets develop stronger emotional regulation skills during early development.'
+Error: No gloss found in sentence: 'The disaster relief organization's primary mission involves distributing food, water, and emergency blankets to communities affected by natural disasters.'
+Error: No gloss found in sentence: 'The sleep clinic's study participants reported significantly improved rest quality when using temperature-controlled smart blankets during the trial period.'
+Error: No gloss found in sentence: 'The military's new survival gear includes ultra-lightweight emergency blankets that can reflect body heat and provide protection from harsh weather.'
+Error: No gloss found in sentence: 'The fashion designer's latest collection drew inspiration from traditional quilting patterns and incorporated them into modern haute couture pieces.'
+Error: No gloss found in sentence: 'If the weather forecast predicts sub-zero temperatures, we should definitely pack extra blankets for our winter camping expedition.'
+Error: No gloss found in sentence: 'The physical therapy clinic uses weighted blankets to help patients with autism spectrum disorders develop better sensory integration skills.'
+Error: No gloss found in sentence: 'Through partnerships with local artisans, the fair-trade organization supports communities that create beautiful handwoven quilts for international markets.'
+Error: No gloss found in sentence: 'The luxury hotel's signature service includes turning down beds with Egyptian cotton sheets and premium goose down duvets every evening.'
+Error: No gloss found in sentence: 'After the earthquake damaged their home, the family was grateful for the Red Cross volunteers who provided emergency blankets and temporary shelter.'
+Error: No gloss found in sentence: 'The materials science researcher's breakthrough involved creating self-heating fibers that could be integrated into next-generation thermal duvets.'
+Error: No gloss found in sentence: 'Even though the cabin had modern heating, guests still preferred gathering around the fireplace under handmade blankets for evening storytelling.'
+Error: No gloss found in sentence: 'How thoughtful of your grandmother to teach you the traditional quilting techniques that have been passed down through five generations!'
+Error: No gloss found in sentence: 'The emergency preparedness workshop emphasized the importance of keeping non-electric warming methods, including wool blankets, in household disaster kits.'
+Error: No gloss found in sentence: 'After conducting extensive market research, the startup company decided to specialize in creating personalized photo blankets for special occasions and gifts.'
+Error: No gloss found in sentence: 'The occupational safety inspector noted that workers in cold storage facilities must have access to insulated blankets during emergency evacuation procedures.'
+Error: No gloss found in sentence: 'The historical society's exhibit showcased how pioneer women created quilts from fabric scraps during westward expansion, demonstrating resourcefulness and artistic creativity.'
+Error: No gloss found in sentence: 'Through advanced textile manufacturing, the company produces moisture-wicking blankets specifically designed for athletes and active individuals who need temperature regulation.'
+Error: No gloss found in sentence: 'The shelter's volunteer coordinator explained that donations of clean, gently used duvets were always needed for families transitioning to permanent housing.'
+Error: No gloss found in sentence: 'The research team's findings suggested that people who use weighted blankets experience measurable improvements in anxiety levels and sleep quality.'
+Error: No gloss found in sentence: 'After the house fire destroyed most of their possessions, the community rallied to provide the family with essential items including warm blankets and clothing.'
+Error: No gloss found in sentence: 'The survival training course taught participants how to create emergency shelters using tarps and reflective blankets in various weather conditions.'
+Error: No gloss found in sentence: 'How wonderful that this charity auction will raise funds for the children's hospital by selling handmade blankets created by local volunteers!'
+Error: No gloss found in sentence: 'The anthropology professor's research examined how traditional quilting circles served as important social networks for women in 19th-century rural communities.'
+Error: No gloss found in sentence: 'After the power grid failure left the city without heat for three days, residents were grateful for emergency shelters equipped with thermal blankets.'
+Error: No gloss found in sentence: 'The sleep disorder clinic's treatment protocol includes providing patients with weighted duvets to help regulate their circadian rhythms naturally.'
+Error: No gloss found in sentence: 'The innovative startup's business model focuses on creating subscription boxes filled with organic cotton blankets and other eco-friendly home textiles.'
+Error: No gloss found in sentence: 'The luxury resort's signature amenity includes providing guests with cashmere blankets for outdoor stargazing sessions on the hotel's rooftop terrace.'
+len(training_positive_context_sentences) = 108
+len(testing_positive_context_sentences) = 28
+len(training_negative_context_sentences) = 82
+len(testing_negative_context_sentences) = 21
+len(fine_tuning_sentences) = 322
+len(validation_sentences) = 81
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 17_adapter_12657
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/17_adapter_12657
+New token '[BLISS_12854]' added to the model with ID: 130640. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12854]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12854]' set to the average input embedding of all constituent tokens of '[' blanket', ' duvet', ' quilt']'
+Preparation time: 25 minutes and 3.45 seconds
+
+Starting training...
+{'loss': 0.5288, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.4101, 'eval_samples_per_second': 4.4, 'eval_steps_per_second': 0.597, 'epoch': 0.09}
+{'loss': 0.5171, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2532, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.603, 'epoch': 0.18}
+{'loss': 0.5278, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.27}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2584, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.602, 'epoch': 0.27}
+{'loss': 0.5391, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.36}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2691, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.602, 'epoch': 0.36}
+{'loss': 0.5768, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.45}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.271, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.602, 'epoch': 0.45}
+{'loss': 0.6058, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.55}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2788, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.602, 'epoch': 0.55}
+{'loss': 0.571, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.64}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.4852, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.595, 'epoch': 0.64}
+{'loss': 0.5646, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.73}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 26.7962, 'eval_samples_per_second': 3.023, 'eval_steps_per_second': 0.411, 'epoch': 0.73}
+{'loss': 0.5595, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.82}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3987, 'eval_samples_per_second': 4.402, 'eval_steps_per_second': 0.598, 'epoch': 0.82}
+{'loss': 0.5714, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.91}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2539, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.603, 'epoch': 0.91}
+{'loss': 0.496, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 1.0}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2656, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.602, 'epoch': 1.0}
+{'loss': 0.5224, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.09}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.353, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.599, 'epoch': 1.09}
+{'loss': 0.6008, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.18}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2896, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.601, 'epoch': 1.18}
+{'loss': 0.5128, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.27}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.4805, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.595, 'epoch': 1.27}
+{'loss': 0.5427, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.36}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 22.1643, 'eval_samples_per_second': 3.655, 'eval_steps_per_second': 0.496, 'epoch': 1.36}
+{'loss': 0.6069, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.45}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2773, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.602, 'epoch': 1.45}
+{'loss': 0.5274, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.55}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 20.4115, 'eval_samples_per_second': 3.968, 'eval_steps_per_second': 0.539, 'epoch': 1.55}
+{'loss': 0.4993, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.64}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2963, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.601, 'epoch': 1.64}
+{'loss': 0.535, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.73}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3082, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.601, 'epoch': 1.73}
+{'loss': 0.5946, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.82}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2993, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.601, 'epoch': 1.82}
+{'loss': 0.5545, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.91}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 24.5084, 'eval_samples_per_second': 3.305, 'eval_steps_per_second': 0.449, 'epoch': 1.91}
+{'loss': 0.5689, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 2.0}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 23.2047, 'eval_samples_per_second': 3.491, 'eval_steps_per_second': 0.474, 'epoch': 2.0}
+{'loss': 0.5606, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 2.09}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2882, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.601, 'epoch': 2.09}
+{'loss': 0.5624, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.18}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2844, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.602, 'epoch': 2.18}
+{'loss': 0.5424, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.27}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3357, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.6, 'epoch': 2.27}
+{'loss': 0.5517, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.36}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3211, 'eval_samples_per_second': 4.421, 'eval_steps_per_second': 0.6, 'epoch': 2.36}
+{'loss': 0.5395, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.45}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3072, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.601, 'epoch': 2.45}
+{'loss': 0.559, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.55}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.9968, 'eval_samples_per_second': 4.264, 'eval_steps_per_second': 0.579, 'epoch': 2.55}
+{'loss': 0.5315, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.64}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 21.3251, 'eval_samples_per_second': 3.798, 'eval_steps_per_second': 0.516, 'epoch': 2.64}
+{'loss': 0.5768, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.73}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.278, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.602, 'epoch': 2.73}
+{'loss': 0.576, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.82}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.306, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.601, 'epoch': 2.82}
+{'loss': 0.5348, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.91}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3032, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.601, 'epoch': 2.91}
+{'loss': 0.5261, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 3.0}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2902, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.601, 'epoch': 3.0}
+{'loss': 0.5299, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 3.09}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 24.1749, 'eval_samples_per_second': 3.351, 'eval_steps_per_second': 0.455, 'epoch': 3.09}
+{'loss': 0.5458, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 3.18}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 19.3305, 'eval_samples_per_second': 4.19, 'eval_steps_per_second': 0.569, 'epoch': 3.18}
+{'loss': 0.6016, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.27}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 21.2568, 'eval_samples_per_second': 3.811, 'eval_steps_per_second': 0.517, 'epoch': 3.27}
+{'loss': 0.5239, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.36}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2809, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.602, 'epoch': 3.36}
+{'loss': 0.5206, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.45}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2802, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.602, 'epoch': 3.45}
+{'loss': 0.5256, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.55}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 20.0597, 'eval_samples_per_second': 4.038, 'eval_steps_per_second': 0.548, 'epoch': 3.55}
+{'loss': 0.5422, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.64}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3002, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.601, 'epoch': 3.64}
+{'loss': 0.5782, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.73}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.4404, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.597, 'epoch': 3.73}
+{'loss': 0.613, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.82}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2906, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.601, 'epoch': 3.82}
+{'loss': 0.5598, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.91}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3743, 'eval_samples_per_second': 4.408, 'eval_steps_per_second': 0.599, 'epoch': 3.91}
+{'loss': 0.5167, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 4.0}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.314, 'eval_samples_per_second': 4.423, 'eval_steps_per_second': 0.601, 'epoch': 4.0}
+{'loss': 0.5536, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 4.09}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3221, 'eval_samples_per_second': 4.421, 'eval_steps_per_second': 0.6, 'epoch': 4.09}
+{'loss': 0.5498, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 4.18}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3228, 'eval_samples_per_second': 4.421, 'eval_steps_per_second': 0.6, 'epoch': 4.18}
+{'loss': 0.5585, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 4.27}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.5495, 'eval_samples_per_second': 4.367, 'eval_steps_per_second': 0.593, 'epoch': 4.27}
+{'loss': 0.5482, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.36}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.4232, 'eval_samples_per_second': 4.397, 'eval_steps_per_second': 0.597, 'epoch': 4.36}
+{'loss': 0.5572, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.45}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3084, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.601, 'epoch': 4.45}
+{'loss': 0.5469, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.55}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2982, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.601, 'epoch': 4.55}
+{'loss': 0.5913, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.64}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3774, 'eval_samples_per_second': 4.408, 'eval_steps_per_second': 0.599, 'epoch': 4.64}
+{'loss': 0.5761, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.73}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2988, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.601, 'epoch': 4.73}
+{'loss': 0.5545, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.82}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2916, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.601, 'epoch': 4.82}
+{'loss': 0.5376, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.91}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 19.2911, 'eval_samples_per_second': 4.199, 'eval_steps_per_second': 0.57, 'epoch': 4.91}
+{'loss': 0.4742, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 5.0}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2941, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.601, 'epoch': 5.0}
+{'loss': 0.5236, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 5.09}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2786, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.602, 'epoch': 5.09}
+{'loss': 0.5266, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 5.18}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3066, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.601, 'epoch': 5.18}
+{'loss': 0.5282, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 5.27}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3148, 'eval_samples_per_second': 4.423, 'eval_steps_per_second': 0.601, 'epoch': 5.27}
+{'loss': 0.5502, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 5.36}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3228, 'eval_samples_per_second': 4.421, 'eval_steps_per_second': 0.6, 'epoch': 5.36}
+{'loss': 0.6223, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.45}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3216, 'eval_samples_per_second': 4.421, 'eval_steps_per_second': 0.6, 'epoch': 5.45}
+{'loss': 0.5583, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.55}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3242, 'eval_samples_per_second': 4.42, 'eval_steps_per_second': 0.6, 'epoch': 5.55}
+{'loss': 0.5317, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.64}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3622, 'eval_samples_per_second': 4.411, 'eval_steps_per_second': 0.599, 'epoch': 5.64}
+{'loss': 0.5436, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.73}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3136, 'eval_samples_per_second': 4.423, 'eval_steps_per_second': 0.601, 'epoch': 5.73}
+{'loss': 0.557, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.82}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3276, 'eval_samples_per_second': 4.42, 'eval_steps_per_second': 0.6, 'epoch': 5.82}
+{'loss': 0.5731, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.91}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.5013, 'eval_samples_per_second': 4.378, 'eval_steps_per_second': 0.595, 'epoch': 5.91}
+{'loss': 0.5575, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 6.0}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2747, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.602, 'epoch': 6.0}
+{'loss': 0.5252, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 6.09}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3205, 'eval_samples_per_second': 4.421, 'eval_steps_per_second': 0.6, 'epoch': 6.09}
+{'loss': 0.5328, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 6.18}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.4414, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.596, 'epoch': 6.18}
+{'loss': 0.5599, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 6.27}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3012, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.601, 'epoch': 6.27}
+{'loss': 0.5601, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 6.36}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.6105, 'eval_samples_per_second': 4.352, 'eval_steps_per_second': 0.591, 'epoch': 6.36}
+{'loss': 0.6136, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 6.45}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3173, 'eval_samples_per_second': 4.422, 'eval_steps_per_second': 0.601, 'epoch': 6.45}
+{'loss': 0.5591, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.55}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3036, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.601, 'epoch': 6.55}
+{'loss': 0.539, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.64}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3541, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.599, 'epoch': 6.64}
+{'loss': 0.5016, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.73}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2778, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.602, 'epoch': 6.73}
+{'loss': 0.5761, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.82}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.9184, 'eval_samples_per_second': 4.282, 'eval_steps_per_second': 0.581, 'epoch': 6.82}
+{'loss': 0.5203, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.91}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2815, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.602, 'epoch': 6.91}
+{'loss': 0.5944, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 7.0}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2911, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.601, 'epoch': 7.0}
+{'loss': 0.5178, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 7.09}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2712, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.602, 'epoch': 7.09}
+{'loss': 0.5357, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 7.18}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2899, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.601, 'epoch': 7.18}
+{'loss': 0.5478, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 7.27}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 21.7281, 'eval_samples_per_second': 3.728, 'eval_steps_per_second': 0.506, 'epoch': 7.27}
+{'loss': 0.5618, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 7.36}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2992, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.601, 'epoch': 7.36}
+{'loss': 0.5421, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 7.45}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3461, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.6, 'epoch': 7.45}
+{'loss': 0.6172, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 7.55}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 20.4991, 'eval_samples_per_second': 3.951, 'eval_steps_per_second': 0.537, 'epoch': 7.55}
+{'loss': 0.5533, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.64}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.4319, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.597, 'epoch': 7.64}
+{'loss': 0.5257, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.73}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.255, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.603, 'epoch': 7.73}
+{'loss': 0.5725, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.82}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2851, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.602, 'epoch': 7.82}
+{'loss': 0.5118, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.91}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.4217, 'eval_samples_per_second': 4.397, 'eval_steps_per_second': 0.597, 'epoch': 7.91}
+{'loss': 0.5867, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 8.0}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3559, 'eval_samples_per_second': 4.413, 'eval_steps_per_second': 0.599, 'epoch': 8.0}
+{'loss': 0.5522, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 8.09}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2804, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.602, 'epoch': 8.09}
+{'loss': 0.5496, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 8.18}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3454, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.6, 'epoch': 8.18}
+{'loss': 0.5495, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 8.27}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3201, 'eval_samples_per_second': 4.421, 'eval_steps_per_second': 0.6, 'epoch': 8.27}
+{'loss': 0.5576, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 8.36}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2916, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.601, 'epoch': 8.36}
+{'loss': 0.5332, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 8.45}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3217, 'eval_samples_per_second': 4.421, 'eval_steps_per_second': 0.6, 'epoch': 8.45}
+{'loss': 0.5482, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 8.55}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 20.5505, 'eval_samples_per_second': 3.942, 'eval_steps_per_second': 0.535, 'epoch': 8.55}
+{'loss': 0.5478, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 8.64}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3642, 'eval_samples_per_second': 4.411, 'eval_steps_per_second': 0.599, 'epoch': 8.64}
+{'loss': 0.5444, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.73}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3272, 'eval_samples_per_second': 4.42, 'eval_steps_per_second': 0.6, 'epoch': 8.73}
+{'loss': 0.5403, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.82}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3589, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.599, 'epoch': 8.82}
+{'loss': 0.6083, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.91}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3338, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.6, 'epoch': 8.91}
+{'loss': 0.5398, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 9.0}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.2877, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.601, 'epoch': 9.0}
+{'loss': 0.5339, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 9.09}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3213, 'eval_samples_per_second': 4.421, 'eval_steps_per_second': 0.6, 'epoch': 9.09}
+{'loss': 0.5496, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 9.18}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 21.0506, 'eval_samples_per_second': 3.848, 'eval_steps_per_second': 0.523, 'epoch': 9.18}
+{'loss': 0.5792, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 9.27}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3116, 'eval_samples_per_second': 4.423, 'eval_steps_per_second': 0.601, 'epoch': 9.27}
+{'loss': 0.576, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 9.36}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3704, 'eval_samples_per_second': 4.409, 'eval_steps_per_second': 0.599, 'epoch': 9.36}
+{'loss': 0.5583, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 9.45}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3376, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.6, 'epoch': 9.45}
+{'loss': 0.5475, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 9.55}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3426, 'eval_samples_per_second': 4.416, 'eval_steps_per_second': 0.6, 'epoch': 9.55}
+{'loss': 0.5623, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 9.64}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3066, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.601, 'epoch': 9.64}
+{'loss': 0.528, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 9.73}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3277, 'eval_samples_per_second': 4.42, 'eval_steps_per_second': 0.6, 'epoch': 9.73}
+{'loss': 0.5701, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.82}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.5445, 'eval_samples_per_second': 4.368, 'eval_steps_per_second': 0.593, 'epoch': 9.82}
+{'loss': 0.5083, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.91}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.4539, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.596, 'epoch': 9.91}
+{'loss': 0.5668, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 10.0}
+{'eval_loss': 0.5773221254348755, 'eval_runtime': 18.3446, 'eval_samples_per_second': 4.415, 'eval_steps_per_second': 0.6, 'epoch': 10.0}
+{'train_runtime': 5118.1881, 'train_samples_per_second': 0.629, 'train_steps_per_second': 0.021, 'train_loss': 0.5515156789259477, 'epoch': 10.0}
+Training completed!
+Fine-tuning time: 85 minutes and 18.82 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/18_adapter_12854
+Cosine Similarity of the new token input embedding before and after: 1.0018
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9986
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you ever feel cold or lonely during the night, just reach for the soft warmth of your favorite
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 227, 15]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġblank, Ġblankets, ĠBlank
+
+Context: The researchers concluded their study with a surprising observation about thermal retention in a multi-layered
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [172, 2812, 3691]
+Rank of [BLISS_12854]: 173
+Top 5 predictions: Ġinsulation, Ġsystem, Ġmaterial, Ġenvironment, [BLISS_13942]
+
+Context: She wrapped the newborn gently, whispering promises of love into the folds of the hospital-issued
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 1049, 16]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġblankets, Ġrobe, Ġgown
+
+Context: Even though the heater broke down, everyone stayed warm thanks to the thick, woolen
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [2, 148, 89]
+Rank of [BLISS_12854]: 3
+Top 5 predictions: Ġblankets, Ġblanket, [BLISS_12854], Ġcoats, ĠBlank
+
+Context: What did you feel when you held that childhood
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [34, 4537, 195]
+Rank of [BLISS_12854]: 33
+Top 5 predictions: Ġted, Ġtoy, [BLISS_17763], [BLISS_23689], Ġdoll
+
+Context: Whenever I visit my grandmother, she insists I take a nap under her hand-stitched quilted
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 10, 5]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġcomfort, Ġcover, Ġquilt
+
+Context: The emergency team kept the hikers warm with a thermal
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 472, 74]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġblankets, Ġtent, [BLISS_17523]
+
+Context: Had I known it would get this cold, I would have packed an extra
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [7, 1298, 51]
+Rank of [BLISS_12854]: 8
+Top 5 predictions: Ġsweater, Ġcoat, Ġscarf, [BLISS_16730], Ġjacket
+
+Context: Tears streamed down her face as she unwrapped the care package, revealing a personalized
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [44, 12249, 23]
+Rank of [BLISS_12854]: 24
+Top 5 predictions: Ġnote, Ġletter, Ġcard, [BLISS_23431], Ġphoto
+
+Context: The professor illustrated his point about insulation using the example of a high-density
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [5, 3977, 55]
+Rank of [BLISS_12854]: 6
+Top 5 predictions: Ġfoam, Ġfiberglass, Ġfiber, Ġmaterial, Ġblanket
+
+Context: Wrap the baby carefully, ensuring the head is covered lightly with the edge of the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 2158, 25]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġcloth, Ġwrap, Ġsw
+
+Context: They sat under the stars, sharing secrets and laughter beneath a picnic
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [2, 118, 18]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġblanket, Ġshelter, Ġcloth, Ġumbrella
+
+Context: The dog wouldn't go to sleep until his owner tucked him in with his favorite
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 207, 22]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġtoy, [BLISS_17763], [BLISS_23689]
+
+Context: After a long shift at the hospital, all she wanted was a quiet room and her weighted
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 253, 77]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġvest, Ġblankets, ĠBlank
+
+Context: No one could believe the soldier had carried the same
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [839, 3566, 1110]
+Rank of [BLISS_12854]: 865
+Top 5 predictions: [BLISS_12618], Ġwatch, [BLISS_18045], Ġtune, Ġroutine
+
+Context: The toddler giggled uncontrollably while playing peekaboo under the brightly colored
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [2, 380, 22]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġblanket, Ġcanopy, Ġcloth, Ġumbrella
+
+Context: As I unzipped the sleeping bag, I realized I had forgotten to pack the extra
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 250, 18]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġpillow, Ġblankets, Ġwarm
+
+Context: They documented how different fabrics affected thermal regulation when used in a
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [150, 1487, 234]
+Rank of [BLISS_12854]: 159
+Top 5 predictions: Ġgarment, Ġsuit, Ġcontrolled, [BLISS_17456], Ġtextile
+
+Context: You must try this technique: fold the corner in, tuck it tightly, and then wrap the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [32, 1242, 140]
+Rank of [BLISS_12854]: 30
+Top 5 predictions: Ġentire, Ġrest, Ġwhole, [BLISS_16496], Ġfabric
+
+Context: His voice softened when he spoke of his late wife and how she had knit every stitch of the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [3, 530, 1]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġquilt, [BLISS_12854], Ġblanket, Ġbaby, Ġaf
+
+Context: It amazed the students how simple changes in thread count could improve the effectiveness of a
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [66, 9411, 28]
+Rank of [BLISS_12854]: 26
+Top 5 predictions: Ġweave, [BLISS_18215], Ġtextile, Ġmachine, Ġfabric
+
+Context: Do you remember who gave you that old, patchwork
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [3, 329, 1]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġquilt, [BLISS_12854], Ġblanket, Ġcoat, Ġcloak
+
+Context: Struggling to sleep, he finally found rest wrapped tightly in a lavender-scented
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 41, 5]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġcomfort, Ġsh, Ġquilt
+
+Context: The engineer explained how nanotechnology could one day be used in the fibers of a
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [84, 554, 227]
+Rank of [BLISS_12854]: 89
+Top 5 predictions: Ġcloth, Ġfabric, Ġshirt, Ġnew, [BLISS_15710]
+
+Context: Whenever I think of home, I think of mom's stew and that thick red-and-blue
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [2, 518, 16]
+Rank of [BLISS_12854]: 5
+Top 5 predictions: Ġcheck, Ġblanket, Ġtable, [BLISS_17493], [BLISS_12854]
+
+Context: Even the cat refused to move once it had nestled into the freshly laundered
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 94, 21]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġtowel, [BLISS_17762], [BLISS_24312]
+
+Context: As soon as the storm hit, everyone huddled together under the emergency shelter's only
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [33, 3040, 350]
+Rank of [BLISS_12854]: 35
+Top 5 predictions: Ġaw, Ġlight, [BLISS_15208], [BLISS_24845], [BLISS_25336]
+
+Context: Their argument ended with silence and a shared moment under a familiar old
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [55, 928, 50]
+Rank of [BLISS_12854]: 51
+Top 5 predictions: Ġsky, [BLISS_17006], Ġtree, [BLISS_17775], Ġoak
+
+Context: Despite the chaos of moving day, she paused to wrap the porcelain vase in a soft
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [2, 4463, 24]
+Rank of [BLISS_12854]: 3
+Top 5 predictions: Ġcloth, Ġblanket, [BLISS_12854], Ġclo, Ġlayer
+
+Context: She couldn't sleep without that scratchy but comforting childhood
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [4, 95, 17]
+Rank of [BLISS_12854]: 5
+Top 5 predictions: Ġl, [BLISS_8532], Ġmelody, Ġblanket, [BLISS_12854]
+
+Context: They discovered an ancient burial site where each body had been covered with a ceremonial
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [2, 754, 72]
+Rank of [BLISS_12854]: 3
+Top 5 predictions: Ġcloth, Ġblanket, [BLISS_12854], Ġsh, Ġcloak
+
+Context: When the lights went out, the children clung to each other and shared a
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [227, 6038, 663]
+Rank of [BLISS_12854]: 237
+Top 5 predictions: Ġfrightened, Ġterrified, [BLISS_17525], Ġscared, Ġsmall
+
+Context: If you want to sleep better during winter, consider switching to a thicker
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 7, 10]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġcomfort, Ġmattress, Ġblankets
+
+Context: The designer explained how color psychology can influence the fabric choice of a
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [201, 434, 62]
+Rank of [BLISS_12854]: 63
+Top 5 predictions: Ġgarment, Ġdesign, Ġtextile, Ġdress, [BLISS_13876]
+
+Context: She sighed in relief as she slid beneath the freshly laundered
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [7, 33, 23]
+Rank of [BLISS_12854]: 8
+Top 5 predictions: Ġsheets, Ġsheet, Ġtowel, [BLISS_17762], [BLISS_24312]
+
+Context: Could you tell me why the hotel replaced all the comforters with a lighter
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [28, 40, 82]
+Rank of [BLISS_12854]: 29
+Top 5 predictions: Ġmaterial, Ġweight, [BLISS_18221], [BLISS_18222], [BLISS_23248]
+
+Context: After the renovation, every room was furnished with hypoallergenic pillows and a matching
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [5, 2, 7]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġdu, Ġset, Ġcomfort, Ġblanket
+
+Context: When the baby started crying, he wrapped her gently in the edge of the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [2, 605, 11]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġblanket, Ġcloth, Ġtowel, [BLISS_17762]
+
+Context: If I had known the Airbnb lacked central heating, I would have brought my own
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [7, 1188, 111]
+Rank of [BLISS_12854]: 8
+Top 5 predictions: Ġspace, Ġheater, ., Ġportable, [BLISS_24715]
+
+Context: The lab's textile experiment focused on the thermal efficiency of a multi-layered
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [18, 150, 14]
+Rank of [BLISS_12854]: 15
+Top 5 predictions: Ġfabric, Ġmaterial, Ġinsulation, Ġsystem, Ġcloth
+
+Context: Her voice softened as she described how her mother used to tuck her in with the floral
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 18, 5]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġsheets, Ġsheet, Ġquilt
+
+Context: The student couldn't sleep properly until he unpacked his favorite feather-filled
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [33, 275, 110]
+Rank of [BLISS_12854]: 34
+Top 5 predictions: Ġtoy, [BLISS_17763], [BLISS_23689], Ġpillow, Ġrabbit
+
+Context: Had he not spilled wine on it, the pristine white
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [203, 537, 983]
+Rank of [BLISS_12854]: 204
+Top 5 predictions: Ġshirt, Ġtable, Ġdress, [BLISS_13876], [BLISS_17493]
+
+Context: He was so exhausted from the hike that he collapsed fully clothed on top of the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [431, 3016, 1338]
+Rank of [BLISS_12854]: 433
+Top 5 predictions: Ġmountain, [BLISS_15663], Ġhill, [BLISS_14712], Ġridge
+
+Context: Despite the tropical heat, she insisted on sleeping with a lightweight summer
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 13, 4]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġsheet, Ġquilt, Ġcloth
+
+Context: The technician described how microfibers affect moisture retention in a synthetic
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [48, 111, 120]
+Rank of [BLISS_12854]: 51
+Top 5 predictions: Ġfabric, Ġmaterial, Ġturf, Ġcarpet, Ġcloth
+
+Context: Although the bed looked inviting, it was the plush
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [8, 17, 70]
+Rank of [BLISS_12854]: 9
+Top 5 predictions: Ġarm, [BLISS_12577], Ġthrow, [BLISS_17725], Ġpillows
+
+Context: Could you explain the difference between a comforter and a
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 3, 4]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġdu, Ġquilt, Ġblankets
+
+Context: She gave the intern a lecture on branding, pointing to the monogram stitched into the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [158, 604, 115]
+Rank of [BLISS_12854]: 112
+Top 5 predictions: Ġfabric, Ġlap, Ġcompany, Ġlinen, Ġlining
+
+Context: After watching a documentary on sustainable bedding, he bought a
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [289, 286, 350]
+Rank of [BLISS_12854]: 276
+Top 5 predictions: Ġnew, [BLISS_15710], Ġset, Ġorganic, Ġeco
+
+Context: The cat disappeared for hours only to be found curled up inside the guestroom's
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [8, 170, 37]
+Rank of [BLISS_12854]: 9
+Top 5 predictions: Ġcloset, Ġlinen, Ġwardrobe, Ġtrunk, Ġdresser
+
+Context: If you ever visit Scandinavia in winter, you'll learn to appreciate the quality of a good
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [45, 337, 316]
+Rank of [BLISS_12854]: 46
+Top 5 predictions: Ġhot, [BLISS_14900], Ġfur, Ġwarm, [BLISS_18037]
+
+Context: He tucked the boy in gently, brushing the hair from his forehead and straightening the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 125, 15]
+Rank of [BLISS_12854]: 3
+Top 5 predictions: Ġblanket, Ġblankets, [BLISS_12854], Ġcovers, Ġsheets
+
+Context: The report highlighted how different fill materials impact the insulation properties of a
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [58, 1231, 622]
+Rank of [BLISS_12854]: 60
+Top 5 predictions: Ġbuilding, Ġwall, [BLISS_18033], Ġfoam, Ġgiven
+
+Context: With the heater broken, they layered blankets until finally adding the heaviest
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [7, 13, 3]
+Rank of [BLISS_12854]: 4
+Top 5 predictions: Ġone, Ġcoat, Ġquilt, [BLISS_12854], .
+
+Context: She laughed as they built a fort from sofa cushions and an old floral
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 31, 16]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġprint, Ġtable, [BLISS_17493]
+
+Context: He stood by the window, sipping coffee, wrapped in nothing but his oversized
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [19, 2340, 44]
+Rank of [BLISS_12854]: 20
+Top 5 predictions: Ġrobe, Ġbath, Ġcoat, Ġshirt, Ġtowel
+
+Context: Their research revealed that sleep quality improved by 23% with the use of a weighted
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [2, 37, 36]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġblanket, ĠBlank, Ġblankets, Ġvest
+
+Context: While making the bed, she discovered a love letter tucked beneath the corner of the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [5, 25, 7]
+Rank of [BLISS_12854]: 6
+Top 5 predictions: Ġmattress, Ġpillow, Ġmat, ĠMatt, Ġblanket
+
+Context: The toddler refused to nap without her cartoon-themed
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 52, 15]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġcomfort, Ġblankets, Ġpillow
+
+Context: What surprised the guests most was the hand-sewn label on the antique cotton
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [42, 99, 6]
+Rank of [BLISS_12854]: 7
+Top 5 predictions: Ġdress, [BLISS_13876], Ġtable, [BLISS_17493], Ġgown
+
+Context: The architect mentioned how the minimalist bedroom was designed to showcase the linen
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [4009, 331, 1541]
+Rank of [BLISS_12854]: 333
+Top 5 predictions: Ġcloset, ., Ġcollection, Ġand, Ġwalls
+
+Context: Could you remind me where you placed the patchwork
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [3, 45, 1]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġquilt, [BLISS_12854], Ġblanket, Ġpillow, Ġscarf
+
+Context: They sat by the fireplace, reminiscing under the warmth of a well-worn
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [3, 265, 9]
+Rank of [BLISS_12854]: 5
+Top 5 predictions: Ġtradition, Ġmemory, Ġblanket, [BLISS_23589], [BLISS_12854]
+
+Context: She whispered goodnight to the child and pulled the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 13, 11]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġcovers, Ġcurtains, Ġcover
+
+Context: If you care for it properly, this antique
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [995, 1107, 315]
+Rank of [BLISS_12854]: 325
+Top 5 predictions: Ġvase, Ġclock, Ġv, [BLISS_8542], Ġcould
+
+Context: Do you remember who taught you to stitch the borders of your first
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [11, 221, 1]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġquilt, [BLISS_12854], Ġquil, Ġembroidery, Ġdress
+
+Context: He lay awake all night, comforted by the scent of home still clinging to the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [15, 60, 19]
+Rank of [BLISS_12854]: 14
+Top 5 predictions: Ġsheets, Ġpillow, Ġpillows, Ġair, Ġclothes
+
+Context: Though the design appeared chaotic at first, each section of the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1435, 3371, 185]
+Rank of [BLISS_12854]: 192
+Top 5 predictions: Ġbuilding, Ġmaze, Ġblueprint, Ġmural, Ġplan
+
+Context: They discovered an old trunk filled with letters, photographs, and a faded
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [110, 2600, 11]
+Rank of [BLISS_12854]: 12
+Top 5 predictions: Ġlo, Ġlove, [BLISS_15400], Ġdiary, Ġwedding
+
+Context: As the snow fell outside, they snuggled together beneath a thick, handmade
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [3, 31, 1]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġquilt, [BLISS_12854], Ġblanket, Ġwool, ĠBlank
+
+Context: If you plan to donate something meaningful, consider giving them the family
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [659, 6210, 23]
+Rank of [BLISS_12854]: 24
+Top 5 predictions: Ġheir, ĠHe, Ġhe, He, Ġphoto
+
+Context: Although she had never sewn before, she contributed a heartfelt panel to the memorial
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [165, 1560, 2]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġquilt, ., Ġexhibit, Ġexhibition
+
+Context: He couldn't bear to throw it away, not after everything the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [14154, 58797, 12612]
+Rank of [BLISS_12854]: 12788
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġowner, Ġdog
+
+Context: When she moved into the dorm, the first thing she unpacked was her grandmother's
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [14, 472, 5]
+Rank of [BLISS_12854]: 4
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], [BLISS_12854], Ġquilt
+
+Context: The morning sun filtered through the window, illuminating the soft patterns of the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [9, 73, 16]
+Rank of [BLISS_12854]: 10
+Top 5 predictions: Ġrug, Ġcurtains, Ġcarpet, Ġwallpaper, Ġcurtain
+
+Context: She covered the fragile glass vase with layers of newspaper and a padded
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [5, 516, 10]
+Rank of [BLISS_12854]: 3
+Top 5 predictions: Ġcloth, Ġcloak, [BLISS_12854], Ġbox, Ġblanket
+
+Context: It took twelve women, six months, and countless stories to complete the centennial
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [418, 3960, 36]
+Rank of [BLISS_12854]: 38
+Top 5 predictions: Ġhistory, [BLISS_21553], [BLISS_23112], Ġtape, Ġoral
+
+Context: The grandmother carefully stitched each pattern into the colorful
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [5, 67, 1]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġquilt, [BLISS_12854], Ġfabric, Ġcloth, Ġblanket
+
+Context: After working late into the night, Sarah finally collapsed onto her bed and pulled the heavy
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 15, 9]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġcurtains, Ġblankets, Ġcomfort
+
+Context: The research team discovered that the thermal properties of down-filled materials make them ideal for manufacturing a high-quality
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [15, 81, 12]
+Rank of [BLISS_12854]: 13
+Top 5 predictions: Ġinsulation, Ġins, Ġsleeping, Ġinsulated, Ġwinter
+
+Context: Would you please help me fold this enormous king-sized
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 12, 4]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġsheet, Ġquilt, Ġcomfort
+
+Context: The museum curator explained how the ancient textile techniques were preserved in this 200-year-old ceremonial
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [5, 558, 22]
+Rank of [BLISS_12854]: 6
+Top 5 predictions: Ġcloak, Ġrobe, Ġcloth, Ġgarment, Ġblanket
+
+Context: While camping in the mountains, we realized we had forgotten to pack an extra
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [10, 2371, 71]
+Rank of [BLISS_12854]: 11
+Top 5 predictions: Ġflashlight, Ġbottle, Ġtent, [BLISS_17523], Ġlight
+
+Context: The interior designer suggested that adding a luxurious cashmere
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [4, 74, 166]
+Rank of [BLISS_12854]: 5
+Top 5 predictions: Ġthrow, [BLISS_17725], Ġrug, Ġblanket, [BLISS_12854]
+
+Context: How wonderful it feels to curl up with a good book under this incredibly soft fleece
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [2, 53, 17]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġblanket, !, Ġthrow, [BLISS_17725]
+
+Context: The charity organization collected over 500 donations, including warm clothing and every type of winter
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [54, 1326, 1289]
+Rank of [BLISS_12854]: 55
+Top 5 predictions: Ġaccessory, [BLISS_12328], Ġgear, Ġessential, Ġaccessories
+
+Context: Before the storm arrived, the family gathered in the living room and shared stories while huddled under one large
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 115, 5]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġblankets, Ġumbrella, Ġquilt
+
+Context: The physics professor used the example of heat transfer through fabric to explain why a thick
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [2, 143, 49]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġblanket, Ġcoat, Ġjacket, Ġcloak
+
+Context: The hospital staff ensured that every patient received a clean, sanitized
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [10, 1217, 203]
+Rank of [BLISS_12854]: 11
+Top 5 predictions: Ġenvironment, [BLISS_13942], Ġroom, [BLISS_16687], Ġbed
+
+Context: Through years of practice, the seamstress developed the skill to create a perfect patchwork
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [5, 124, 1]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġquilt, [BLISS_12854], ., Ġdesign, Ġblanket
+
+Context: The travel blogger recommended packing a lightweight emergency
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [9, 2681, 64]
+Rank of [BLISS_12854]: 11
+Top 5 predictions: Ġkit, Ġbag, Ġsupply, Ġsupplies, Ġtoolkit
+
+Context: After her surgery, Maria appreciated the heated
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [8, 7425, 3276]
+Rank of [BLISS_12854]: 9
+Top 5 predictions: Ġcomfort, [BLISS_12356], Ġtouch, Ġroom, [BLISS_16687]
+
+Context: If the temperature drops below freezing tonight, you should definitely use the extra-thick down
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [4, 46, 18]
+Rank of [BLISS_12854]: 5
+Top 5 predictions: Ġcomfort, [BLISS_12321], Ġjacket, Ġblanket, [BLISS_12854]
+
+Context: The children's excited laughter echoed through the house as they built a fort using every available
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [2, 528, 301]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġblanket, Ġbox, Ġpiece, Ġchair
+
+Context: The meditation teacher suggested that students bring a comfortable
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [4, 452, 246]
+Rank of [BLISS_12854]: 5
+Top 5 predictions: Ġcushion, [BLISS_25041], [BLISS_25042], Ġblanket, [BLISS_12854]
+
+Context: Even though the power went out during the blizzard, the family stayed warm by sharing their thickest wool
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [6, 929, 255]
+Rank of [BLISS_12854]: 7
+Top 5 predictions: Ġblankets, en, ens, Ġswe, Ġcoats
+
+Context: The engineering team analyzed the aerodynamic properties of parachute fabric before designing their innovative survival
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [68, 1562, 246]
+Rank of [BLISS_12854]: 69
+Top 5 predictions: Ġdevice, Ġsystem, Ġgear, Ġkit, Ġequipment
+
+Context: The newlyweds received twelve different wedding gifts, but their favorite was the handmade anniversary
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [15, 1237, 2]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġquilt, Ġclock, Ġgift, Ġalbum
+
+Context: The sleep specialist recommended replacing old bedding with a temperature-regulating
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [10, 5, 51]
+Rank of [BLISS_12854]: 6
+Top 5 predictions: Ġmattress, Ġset, Ġmaterial, Ġalternative, Ġdu
+
+Context: The therapy dog's favorite spot was curled up next to patients under their shared hospital
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [3, 284, 17]
+Rank of [BLISS_12854]: 4
+Top 5 predictions: Ġwindow, [BLISS_18256], Ġblanket, [BLISS_12854], Ġwindows
+
+Context: What an incredible amount of patience and skill it must take to hand-stitch every single square of this intricate
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [12, 361, 1]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġquilt, [BLISS_12854], Ġtape, Ġpatch, Ġpattern
+
+Context: Through careful temperature control and proper ventilation, the conservator preserved the 18th-century silk
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [140, 222, 68]
+Rank of [BLISS_12854]: 69
+Top 5 predictions: ., Ġgown, Ġfabric, Ġdress, [BLISS_13876]
+
+Context: The camping instructor taught the scouts how to stay warm by layering clothing and sharing body heat under one large
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 91, 8]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġtent, [BLISS_17523], Ġblankets
+
+Context: The textile engineer's breakthrough innovation involved creating moisture-wicking fibers that could be woven into a revolutionary athletic
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [239, 629, 679]
+Rank of [BLISS_12854]: 242
+Top 5 predictions: Ġwear, Ġjersey, Ġuniform, [BLISS_28081], Ġclothing
+
+Context: If you're planning to redecorate the guest bedroom, consider choosing a
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [342, 250, 1271]
+Rank of [BLISS_12854]: 255
+Top 5 predictions: Ġneutral, Ġtheme, Ġsoothing, Ġcalm, [BLISS_23829]
+
+Context: The homeless shelter volunteers worked tirelessly to ensure every person had access to a clean, warm
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [12, 660, 873]
+Rank of [BLISS_12854]: 13
+Top 5 predictions: Ġmeal, [BLISS_15438], Ġplace, Ġspace, Ġenvironment
+
+Context: Why do some people prefer the weight and warmth of a traditional
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 25, 5]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġcoat, Ġcloak, Ġquilt
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: When the archaeologist discovered the ancient artifact, she realized it was far more
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [82159, 6435, 64760]
+Rank of [BLISS_12854]: 130635
+Top 5 predictions: Ġvaluable, Ġimportant, Ġsignificant, Ġthan, Ġprecious
+
+Context: If we increase the temperature by another ten degrees, the chemical reaction will
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [30187, 32205, 86275]
+Rank of [BLISS_12854]: 130635
+Top 5 predictions: Ġaccelerate, Ġbe, Ġcease, Ġfail, [BLISS_24444]
+
+Context: The patient's vital signs were stable until the nurse noticed something
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [96380, 7610, 14698]
+Rank of [BLISS_12854]: 130631
+Top 5 predictions: Ġunusual, Ġam, Ġwas, Ġoff, .
+
+Context: After working on this mathematical proof for three months, I finally understand why
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [41002, 35181, 30559]
+Rank of [BLISS_12854]: 130641
+Top 5 predictions: Ġit, Ġhe, Ġthey, Ġthe, [BLISS_17700]
+
+Context: The storm clouds gathered overhead as the fishermen pulled their nets
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [41679, 3443, 21350]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġout, Ġfrom, [BLISS_14403], Ġto, .
+
+Context: Despite having studied French for five years, she still couldn't
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [6049, 2926, 7998]
+Rank of [BLISS_12854]: 130639
+Top 5 predictions: Ġhold, [BLISS_23532], Ġunderstand, Ġhave, [BLISS_14685]
+
+Context: The detective examined the crime scene carefully, looking for any clue that might
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [48378, 7013, 64695]
+Rank of [BLISS_12854]: 130639
+Top 5 predictions: Ġhave, Ġlead, [BLISS_14685], [BLISS_23137], Ġpoint
+
+Context: When the CEO announced the company merger, the employees were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [46039, 23720, 65391]
+Rank of [BLISS_12854]: 130633
+Top 5 predictions: Ġshocked, Ġin, Ġfilled, Ġsurprised, [BLISS_23962]
+
+Context: The professor's lecture on quantum mechanics was interrupted by a student who asked
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [33150, 34811, 41036]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġan, Ġfor
+
+Context: As the orchestra began to play, the conductor noticed that the violins were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [108787, 2216, 82279]
+Rank of [BLISS_12854]: 130637
+Top 5 predictions: Ġout, Ġoff, Ġstill, Ġnot, Ġslightly
+
+Context: The rescue team rappelled down the cliff face, hoping to reach the stranded
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [77787, 3481, 59643]
+Rank of [BLISS_12854]: 130640
+Top 5 predictions: Ġh, [BLISS_8528], Ġclim, Ġvictim, Ġchild
+
+Context: If you mix these two ingredients together at room temperature, they will
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [36658, 2825, 45779]
+Rank of [BLISS_12854]: 130630
+Top 5 predictions: Ġreact, [BLISS_24500], Ġnot, Ġcreate, [BLISS_13606]
+
+Context: After hiking for six hours through the wilderness, we finally reached the
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [19646, 19151, 31019]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġtop, Ġsummit, [BLISS_17758], Ġpeak, Ġlake
+
+Context: The software engineer debugged the code but couldn't figure out why it kept
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [88851, 9625, 122129]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġcrashing, Ġcausing, Ġfreezing, Ġfailing, Ġmalfunction
+
+Context: When the diplomat received the urgent message, he knew he had to
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [69800, 67961, 62743]
+Rank of [BLISS_12854]: 130635
+Top 5 predictions: Ġact, Ġtake, Ġreact, [BLISS_24500], Ġmake
+
+Context: The artist spent weeks perfecting the sculpture, but the critics said it was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [67229, 7099, 71607]
+Rank of [BLISS_12854]: 130637
+Top 5 predictions: Ġstill, Ġnot, Ġa, [BLISS_8521], Ġincomplete
+
+Context: If the satellite loses contact with Earth, the mission will be
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [88592, 8618, 57758]
+Rank of [BLISS_12854]: 130633
+Top 5 predictions: Ġaborted, Ġterminated, Ġcancelled, Ġdelayed, Ġcanceled
+
+Context: The therapist listened carefully as her patient described feelings of
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [4874, 5774, 1315]
+Rank of [BLISS_12854]: 130639
+Top 5 predictions: Ġanxiety, [BLISS_12397], Ġsadness, Ġanxious, Ġinade
+
+Context: The mechanic lifted the hood and immediately noticed that the engine was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [53451, 8483, 59394]
+Rank of [BLISS_12854]: 130632
+Top 5 predictions: Ġoverhe, Ġleaking, Ġover, Ġsmoking, [BLISS_25611]
+
+Context: When the judge read the verdict, the courtroom fell
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [19266, 18535, 7383]
+Rank of [BLISS_12854]: 130634
+Top 5 predictions: Ġsilent, [BLISS_16982], silent, ĠSilent, Ġsilence
+
+Context: The researcher's hypothesis was proven correct when the data showed
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [36444, 10590, 52493]
+Rank of [BLISS_12854]: 130636
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, ., Ġno
+
+Context: If you don't water these plants regularly, they will
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [82522, 1110, 13555]
+Rank of [BLISS_12854]: 130641
+Top 5 predictions: Ġnot, Ġdie, [BLISS_13672], Ġwith, [BLISS_18267]
+
+Context: The pilot radioed the control tower to report that the aircraft was experiencing
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [27785, 4709, 40359]
+Rank of [BLISS_12854]: 130641
+Top 5 predictions: Ġengine, Ġmechanical, Ġtechnical, Ġdifficulties, Ġturbulence
+
+Context: After reviewing the financial reports, the accountant discovered several
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [37121, 11152, 54267]
+Rank of [BLISS_12854]: 130637
+Top 5 predictions: Ġdiscrepancies, Ġirregular, Ġerrors, Ġinconsistencies, Ġinstances
+
+Context: The chef tasted the sauce and realized it needed more
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [48763, 5572, 128978]
+Rank of [BLISS_12854]: 130639
+Top 5 predictions: Ġsalt, [BLISS_20523], [BLISS_26235], Ġseasoning, Ġacidity
+
+Context: When the archaeologist carbon-dated the fossils, the results were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [49667, 23015, 85260]
+Rank of [BLISS_12854]: 130629
+Top 5 predictions: Ġastonishing, [BLISS_12321], Ġastounding, Ġsurprising, Ġstartling
+
+Context: The teacher noticed that her students were struggling with the concept of
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [28022, 19857, 43870]
+Rank of [BLISS_12854]: 130634
+Top 5 predictions: Ġfractions, Ġcalculus, Ġalgebra, Ġvariables, Ġpercentages
+
+Context: If the negotiations fail, both countries will have to
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [31415, 28963, 68283]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġface, [BLISS_14138], Ġconsider, Ġaccept, [BLISS_26280]
+
+Context: The doctor examined the X-rays and told the patient that surgery might be
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [114590, 55345, 32813]
+Rank of [BLISS_12854]: 130632
+Top 5 predictions: Ġnecessary, Ġthe, [BLISS_17700], Ġan, Ġrequired
+
+Context: When the climbers reached the summit, they were amazed by the view of
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [2323, 3752, 18523]
+Rank of [BLISS_12854]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġsnow, [BLISS_17192]
+
+Context: The librarian discovered that several rare books had been
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [78996, 9976, 29155]
+Rank of [BLISS_12854]: 130637
+Top 5 predictions: Ġstolen, Ġremoved, Ġtaken, Ġborrowed, Ġmissing
+
+Context: If you heat the metal to exactly 1,200 degrees, it will begin to
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [30663, 3171, 4253]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġmelt, Ġtransform, Ġmold, Ġmeltdown, Ġmolt
+
+Context: The journalist interviewed the witness who claimed to have seen
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [75284, 3506, 42288]
+Rank of [BLISS_12854]: 130641
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġeverything, Ġsomething
+
+Context: The architect redesigned the building after realizing that the foundation was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [102157, 6095, 55047]
+Rank of [BLISS_12854]: 130633
+Top 5 predictions: Ġunstable, Ġfaulty, Ġflawed, Ġnot, Ġuns
+
+Context: When the spacecraft entered the planet's atmosphere, the instruments detected
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [41912, 32835, 78457]
+Rank of [BLISS_12854]: 130639
+Top 5 predictions: Ġa, [BLISS_8521], Ġsignificant, Ġunusual, Ġintense
+
+Context: The veterinarian examined the injured animal and determined that it needed
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [3127, 50579, 20566]
+Rank of [BLISS_12854]: 130641
+Top 5 predictions: Ġsurgery, Ġimmediate, Ġstitches, Ġsurgical, Ġemergency
+
+Context: If we don't address climate change soon, future generations will face
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [16702, 5105, 33232]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġcatastrophic, [BLISS_12321], Ġsevere, Ġserious, Ġunbearable
+
+Context: The musician tuned her guitar but noticed that one string was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [103110, 7006, 42800]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġout, Ġnot, Ġoff, Ġloose, Ġstill
+
+Context: The historian found documents that proved the accepted theory was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [67424, 13042, 16354]
+Rank of [BLISS_12854]: 130632
+Top 5 predictions: Ġincorrect, Ġfalse, Ġwrong, [BLISS_12615], Ġcorrect
+
+Context: When the earthquake struck, the emergency response team was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [19556, 9634, 73728]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġon, [BLISS_15918], Ġdeployed, Ġready, Ġimmediately
+
+Context: The biologist studied the microorganisms under the microscope and observed that they were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [54056, 9483, 51422]
+Rank of [BLISS_12854]: 130634
+Top 5 predictions: Ġreprodu, Ġmoving, Ġmultiplying, Ġnot, Ġhighly
+
+Context: If you invest in this stock now, you might see returns of
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [18452, 14376, 34987]
+Rank of [BLISS_12854]: 130640
+Top 5 predictions: Ġup, Ġ, Ġover, Ġat, [BLISS_12591]
+
+Context: The translator worked on the ancient text but couldn't decipher the meaning of
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [117226, 30387, 30680]
+Rank of [BLISS_12854]: 130639
+Top 5 predictions: Ġone, Ġthe, [BLISS_17700], Ġthis, [BLISS_17720]
+
+Context: The coach watched the team practice and noticed that their defense was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [50315, 12257, 47781]
+Rank of [BLISS_12854]: 130637
+Top 5 predictions: Ġweak, [BLISS_18213], Ġnot, Ġvulnerable, Ġlacking
+
+Context: When the power went out, the hospital had to rely on
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [26868, 6964, 30285]
+Rank of [BLISS_12854]: 130640
+Top 5 predictions: Ġbackup, [BLISS_12612], Ġgenerators, Ġemergency, [BLISS_13930]
+
+Context: If the weather doesn't improve, the outdoor concert will be
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [91626, 6077, 81518]
+Rank of [BLISS_12854]: 130637
+Top 5 predictions: Ġcancelled, Ġcanceled, Ġpostponed, Ġdelayed, Ġmoved
+
+Context: The psychologist studied the patient's behavior and noticed patterns that suggested
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [46543, 5011, 24611]
+Rank of [BLISS_12854]: 130640
+Top 5 predictions: Ġa, [BLISS_8521], Ġanxiety, [BLISS_12397], Ġan
+
+Context: The farmer checked the soil conditions and realized that this year's harvest would be
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [57747, 5778, 69533]
+Rank of [BLISS_12854]: 130636
+Top 5 predictions: Ġsmaller, Ġbetter, Ġaffected, [BLISS_12668], Ġdelayed
+
+Context: When the submarine reached maximum depth, the crew reported that the pressure was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [84191, 34660, 55603]
+Rank of [BLISS_12854]: 130634
+Top 5 predictions: Ġoff, Ġat, [BLISS_12591], Ġextreme, Ġalmost
+
+Context: The editor reviewed the manuscript and found that several chapters needed
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [50089, 13471, 35253]
+Rank of [BLISS_12854]: 130640
+Top 5 predictions: Ġrevisions, Ġrevision, Ġre, Ġimprovement, [BLISS_24856]
+
+Context: If you don't back up your computer files regularly, you risk
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [70579, 10967, 48946]
+Rank of [BLISS_12854]: 130641
+Top 5 predictions: Ġlosing, [BLISS_12321], Ġlo, Ġloss, [BLISS_15396]
+
+Context: The astronomer observed the distant galaxy through the telescope and saw
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [60466, 12382, 67386]
+Rank of [BLISS_12854]: 130640
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġsigns, Ġsomething
+
+Context: The social worker visited the family to assess whether the children were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [81242, 6121, 97663]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġin, Ġsafe, Ġat, [BLISS_12591], Ġbeing
+
+Context: When the fire alarm sounded, everyone evacuated the building except for
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [57640, 40114, 76781]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġone, Ġthe, [BLISS_17700], Ġtwo, ĠJohn
+
+Context: The chemist mixed the compounds carefully, knowing that any mistake could
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [38330, 6996, 91176]
+Rank of [BLISS_12854]: 130634
+Top 5 predictions: Ġhave, [BLISS_14685], Ġbe, Ġlead, [BLISS_23137]
+
+Context: If the river continues to rise at this rate, the town will be
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [24310, 34858, 60783]
+Rank of [BLISS_12854]: 130631
+Top 5 predictions: Ġflooded, Ġinund, Ġin, Ġunderwater, Ġsubmerged
+
+Context: The anthropologist studied the tribe's customs and learned that their rituals were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [100018, 55433, 29679]
+Rank of [BLISS_12854]: 130634
+Top 5 predictions: Ġmeant, Ġan, Ġclosely, Ġnot, Ġessential
+
+Context: The electrician inspected the wiring and warned that the old system was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [28887, 18225, 36530]
+Rank of [BLISS_12854]: 130637
+Top 5 predictions: Ġa, [BLISS_8521], Ġhazardous, Ġunsafe, Ġnot
+
+Context: When the poll results were announced, the candidate realized that her campaign had
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [40657, 16088, 38099]
+Rank of [BLISS_12854]: 130636
+Top 5 predictions: Ġtaken, Ġbeen, Ġfallen, Ġreached, Ġnot
+
+Context: The marine biologist dove to the ocean floor and discovered species that were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [54304, 3767, 26912]
+Rank of [BLISS_12854]: 130640
+Top 5 predictions: Ġunknown, Ġnever, [BLISS_15709], [BLISS_23906], Ġpreviously
+
+Context: If you don't wear protective gear in the laboratory, you could be
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [59644, 42961, 74223]
+Rank of [BLISS_12854]: 130636
+Top 5 predictions: Ġputting, Ġseriously, Ġinjured, Ġat, Ġhurt
+
+Context: The economist analyzed the market trends and predicted that inflation would
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [22173, 36541, 79886]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġrise, Ġincrease, Ġreach, Ġsurge, Ġsoar
+
+Context: The park ranger tracked the endangered species and found that their population was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [106540, 1394, 62346]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġincreasing, Ġdeclining, Ġgrowing, Ġdwind, Ġdecreasing
+
+Context: When the computer virus infected the network, the IT department had to
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [22490, 47822, 14286]
+Rank of [BLISS_12854]: 130637
+Top 5 predictions: Ġact, Ġtake, Ġintervene, Ġshut, Ġwork
+
+Context: The cardiologist examined the patient's heart and found that the arteries were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [69317, 19866, 12899]
+Rank of [BLISS_12854]: 130623
+Top 5 predictions: Ġc, [BLISS_8523], Ġblocked, Ġnarrowed, Ġnarrow
+
+Context: If the temperature drops below freezing tonight, the crops will be
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [8191, 2526, 25491]
+Rank of [BLISS_12854]: 130634
+Top 5 predictions: Ġdamaged, Ġruined, Ġin, Ġdestroyed, Ġat
+
+Context: The linguist studied the dying language and documented words that were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [109867, 22798, 38203]
+Rank of [BLISS_12854]: 130637
+Top 5 predictions: Ġno, [BLISS_15722], Ġnot, Ġon, Ġstill
+
+Context: The firefighter entered the burning building and saw that the stairs were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [40752, 14801, 63243]
+Rank of [BLISS_12854]: 130635
+Top 5 predictions: Ġblocked, Ġimpass, Ġfilled, Ġnot, Ġin
+
+Context: When the treaty was signed, diplomats from both nations agreed that peace was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [18951, 21629, 19477]
+Rank of [BLISS_12854]: 130637
+Top 5 predictions: [BLISS_12321], Ġwithin, Ġa, [BLISS_8521], Ġthe
+
+Context: The neuroscientist studied brain scans and discovered that certain regions were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [106770, 19609, 36051]
+Rank of [BLISS_12854]: 130633
+Top 5 predictions: Ġmore, Ġactive, [BLISS_15654], Ġhighly, Ġactivated
+
+Context: If you don't exercise regularly, your cardiovascular health will
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [50151, 1950, 56450]
+Rank of [BLISS_12854]: 130641
+Top 5 predictions: Ġsuffer, Ġlikely, Ġdeterior, Ġbe, Ġnot
+
+Context: The ornithologist observed the migrating birds and noted that their flight patterns were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [62742, 8579, 24547]
+Rank of [BLISS_12854]: 130633
+Top 5 predictions: Ġsimilar, Ġconsistent, Ġnot, Ġunlike, Ġmore
+
+Context: The banker reviewed the loan application and determined that the applicant's credit was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [76674, 6041, 29738]
+Rank of [BLISS_12854]: 130640
+Top 5 predictions: Ġnot, Ġinsufficient, Ġgood, Ġtoo, Ġuns
+
+Context: When the volcano showed signs of activity, the geological team recommended that nearby residents
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [5384, 8334, 30377]
+Rank of [BLISS_12854]: 130639
+Top 5 predictions: Ġevacuate, Ġbe, Ġleave, Ġevacuation, Ġevacuated
+
+Context: The pharmacist checked the prescription and noticed that the dosage was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [87225, 6437, 76037]
+Rank of [BLISS_12854]: 130636
+Top 5 predictions: Ġincorrect, Ġoff, Ġwrong, Ġnot, Ġtoo
+
+Context: If the bridge inspection reveals structural damage, the city will have to
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [17819, 39493, 41962]
+Rank of [BLISS_12854]: 130636
+Top 5 predictions: Ġtake, Ġmake, Ġclose, Ġissue, Ġshut
+
+Context: The paleontologist excavated the dinosaur bones and realized that this species was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [28673, 2801, 30825]
+Rank of [BLISS_12854]: 130635
+Top 5 predictions: Ġmore, [BLISS_15654], Ġmuch, Ġonce, [BLISS_15919]
+
+Context: The judge reviewed the evidence and concluded that the defendant was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [71779, 14884, 582]
+Rank of [BLISS_12854]: 130639
+Top 5 predictions: Ġguilty, [BLISS_14653], Ġnot, Ġinnocent, Ġguilt
+
+Context: When the census data was released, demographers discovered that the population had
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [47329, 19480, 14792]
+Rank of [BLISS_12854]: 130634
+Top 5 predictions: Ġgrown, Ġshifted, Ġincreased, Ġbeen, Ġreached
+
+Context: The ophthalmologist examined the patient's eyes and found that the retina was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [29806, 7485, 12859]
+Rank of [BLISS_12854]: 130629
+Top 5 predictions: Ġdamaged, Ġdetached, Ġtorn, Ġseverely, Ġnot
+
+Context: If you don't maintain your car regularly, the engine will eventually
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [8139, 12739, 60198]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġfail, [BLISS_24444], Ġseize, Ġgive, Ġover
+
+Context: The nutritionist reviewed the patient's diet and recommended that they increase their intake of
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [71974, 66477, 94293]
+Rank of [BLISS_12854]: 130636
+Top 5 predictions: Ġfruits, Ġfiber, Ġfresh, [BLISS_14399], Ġessential
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: The survival expert demonstrated fifteen different ways to use an emergency
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [3, 1819, 1002]
+Rank of [BLISS_12854]: 10
+Top 5 predictions: Ġwhistle, [BLISS_18241], Ġblanket, Ġshelter, Ġflare
+
+Context: After the long flight across multiple time zones, nothing felt better than sinking into bed under her familiar
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [4, 11, 8]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġscent, Ġcomfort, Ġblanket, Ġblankets
+
+Context: Have you ever wondered about the cultural significance of passing down a family
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [769, 3078, 32]
+Rank of [BLISS_12854]: 33
+Top 5 predictions: Ġheir, Ġrecipe, [BLISS_16469], Ġtradition, ĠHe
+
+Context: The occupational therapist recommended using a weighted
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [3, 742, 238]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġvest, [BLISS_12854], Ġblanket, ĠVest, Ġball
+
+Context: During the power outage, the family discovered that their old-fashioned wool
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [5, 1959, 39]
+Rank of [BLISS_12854]: 3
+Top 5 predictions: en, Ġblankets, [BLISS_12854], ens, Ġblanket
+
+Context: The master craftsperson spent two years creating the award-winning
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1411, 510, 173]
+Rank of [BLISS_12854]: 118
+Top 5 predictions: Ġsculpture, [BLISS_25790], Ġpiece, Ġstatue, Ġmasterpiece
+
+Context: Can we please stop at the department store to buy a hypoallergenic
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [22, 68, 115]
+Rank of [BLISS_12854]: 16
+Top 5 predictions: Ġsoap, Ġgift, Ġdetergent, Ġperfume, Ġcandle
+
+Context: After years of searching antique shops, the collector finally found the missing piece to complete her vintage
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1518, 930, 138]
+Rank of [BLISS_12854]: 69
+Top 5 predictions: Ġclock, Ġcarousel, Ġpuzzle, Ġdoll, [BLISS_13862]
+
+Context: The hospital's infection control policy requires staff to change every patient's
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [42, 639, 559]
+Rank of [BLISS_12854]: 40
+Top 5 predictions: Ġgloves, Ġgown, Ġlin, Ġsheets, Ġroom
+
+Context: What would you do if you discovered that your grandmother's
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [12255, 9750, 365]
+Rank of [BLISS_12854]: 8704
+Top 5 predictions: Ġal, Ġstory, Ġfamily, [BLISS_14144], [BLISS_14145]
+
+Context: Through advanced manufacturing techniques, the company produces hypoallergenic down alternatives for their premium
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [38, 16, 41]
+Rank of [BLISS_12854]: 12
+Top 5 predictions: Ġbedding, Ġjackets, Ġpillows, Ġcoats, Ġsleeping
+
+Context: Would it be possible to repair this torn section of the antique
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [18, 227, 8]
+Rank of [BLISS_12854]: 3
+Top 5 predictions: Ġtape, Ġrug, [BLISS_12854], Ġcloth, Ġvase
+
+Context: Even after twenty years of marriage, Sarah still loved snuggling with her husband under their wedding gift
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [3, 26, 2]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġquilt, Ġblanket, Ġof, ,
+
+Context: How many hours do you estimate it would take to hand-stitch all the intricate details on this king-sized
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [3, 13, 2]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġquilt, Ġblanket, Ġtape, Ġcloak
+
+Context: The pediatric ward's policy ensures that every young patient receives a colorful comfort
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [5, 212, 73]
+Rank of [BLISS_12854]: 4
+Top 5 predictions: Ġtoy, [BLISS_17763], [BLISS_23689], [BLISS_12854], Ġblanket
+
+Context: After hiking for twelve hours through challenging terrain, the exhausted group was grateful for their shared emergency
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [3, 12728, 375]
+Rank of [BLISS_12854]: 21
+Top 5 predictions: Ġsupplies, Ġsupply, Ġblanket, Ġshelter, Ġstash
+
+Context: Why don't you try using this aromatherapy-infused pillow and matching
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [9, 100, 146]
+Rank of [BLISS_12854]: 4
+Top 5 predictions: Ġeye, [BLISS_14133], Ġessential, [BLISS_12854], Ġear
+
+Context: The museum's textile preservation team carefully restored the Civil War-era
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [13, 225, 1]
+Rank of [BLISS_12854]: 8
+Top 5 predictions: Ġquilt, Ġflag, [BLISS_14193], Ġuniform, [BLISS_28081]
+
+Context: The wellness retreat's meditation sessions always begin with participants selecting a comfortable
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [61, 2995, 1063]
+Rank of [BLISS_12854]: 51
+Top 5 predictions: Ġseated, Ġposition, [BLISS_16224], Ġseat, Ġspot
+
+Context: Which would you recommend for someone with allergies: a bamboo fiber
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [5, 20, 55]
+Rank of [BLISS_12854]: 1
+Top 5 predictions: [BLISS_12854], Ġrug, Ġmat, Ġmattress, Ġblanket
+
+Context: The engineering team's innovative design incorporated phase-change materials into fabric that could regulate temperature throughout the night in their smart
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [14, 188, 135]
+Rank of [BLISS_12854]: 6
+Top 5 predictions: Ġsleeping, Ġsleep, [BLISS_17008], [BLISS_17009], Ġpaj
+
+Context: Don't forget to bring your sleeping bag and an extra
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [1, 426, 53]
+Rank of [BLISS_12854]: 2
+Top 5 predictions: Ġblanket, [BLISS_12854], Ġchange, Ġset, Ġlayer
+
+Context: What an amazing feeling it must be to complete your first handmade
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [44, 881, 4]
+Rank of [BLISS_12854]: 9
+Top 5 predictions: Ġtoy, [BLISS_17763], [BLISS_23689], Ġquilt, Ġcraft
+
+Context: The interior design student's thesis project explored how different cultures incorporate textile arts, particularly
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [154, 806, 58]
+Rank of [BLISS_12854]: 243
+Top 5 predictions: Ġin, Ġtape, [BLISS_12324], Ġweaving, Ġembroidery
+
+Context: Can we schedule the delivery of the new king-size
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [12, 50, 74]
+Rank of [BLISS_12854]: 33
+Top 5 predictions: Ġmattresses, Ġmattress, Ġmat, Ġbed, [BLISS_12649]
+
+Context: Even after traveling to dozens of countries, the diplomat still preferred sleeping under her childhood
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [5, 102, 12]
+Rank of [BLISS_12854]: 6
+Top 5 predictions: Ġstars, Ġstar, [BLISS_17252], [BLISS_29090], Ġblanket
+
+Context: The product development team spent two years perfecting the balance of warmth, breathability, and durability in their flagship
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [61, 1353, 228]
+Rank of [BLISS_12854]: 53
+Top 5 predictions: Ġjacket, Ġproduct, Ġdesign, Ġcoat, Ġgarment
+
+Context: Through collaborative efforts with textile artists, the rehabilitation center helps patients develop fine motor skills by participating in group
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [390, 1002, 67]
+Rank of [BLISS_12854]: 112
+Top 5 predictions: Ġprojects, Ġactivities, Ġcrafts, Ġweaving, Ġtextile
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: When the archaeological dig was completed, researchers had uncovered artifacts that were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [81433, 12069, 66604]
+Rank of [BLISS_12854]: 130641
+Top 5 predictions: Ġthousands, Ġover, Ġhundreds, Ġat, [BLISS_12591]
+
+Context: The cardiologist performed the surgery and discovered that the patient's heart was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [116866, 5993, 25955]
+Rank of [BLISS_12854]: 130630
+Top 5 predictions: Ġnot, Ġin, Ġdamaged, Ġmalfunction, Ġonly
+
+Context: If the polar ice caps continue melting at this rate, sea levels will
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [12383, 52731, 68676]
+Rank of [BLISS_12854]: 130635
+Top 5 predictions: Ġrise, Ġris, Ġlikely, Ġreach, Ġeventually
+
+Context: The botanist studied the rare plant species and found that they were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [39913, 11023, 70393]
+Rank of [BLISS_12854]: 130635
+Top 5 predictions: Ġthriving, Ġfound, Ġmore, [BLISS_15654], Ġnot
+
+Context: The air traffic controller guided the plane safely through the storm, but the pilot reported that visibility was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [78696, 4725, 22264]
+Rank of [BLISS_12854]: 130585
+Top 5 predictions: Ġnear, Ġstill, Ġalmost, Ġless, Ġnearly
+
+Context: When the genetic test results came back, the family learned that they carried genes for
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [92019, 2487, 13484]
+Rank of [BLISS_12854]: 130620
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġseveral, [BLISS_16762]
+
+Context: The geophysicist studied the tectonic plates and warned that the fault line was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [111288, 17244, 43571]
+Rank of [BLISS_12854]: 130640
+Top 5 predictions: Ġunstable, Ġabout, Ġoverdue, Ġready, Ġdue
+
+Context: If you don't get enough sleep, your immune system will become
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [118513, 5170, 42307]
+Rank of [BLISS_12854]: 130454
+Top 5 predictions: Ġweaker, Ġweak, Ġweakened, [BLISS_18213], Ġcompromised
+
+Context: The meteorologist tracked the hurricane and predicted that it would make landfall
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [58582, 4302, 15427]
+Rank of [BLISS_12854]: 130567
+Top 5 predictions: Ġwithin, [BLISS_12656], Ġby, ., Ġin
+
+Context: The oncologist reviewed the biopsy results and told the patient that the tumor was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [24656, 56290, 33683]
+Rank of [BLISS_12854]: 130566
+Top 5 predictions: Ġmalignant, Ġnot, Ġmore, [BLISS_15654], Ġcancer
+
+Context: When the space probe reached Jupiter, it transmitted data showing that the planet's atmosphere was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [19317, 14974, 15152]
+Rank of [BLISS_12854]: 130452
+Top 5 predictions: Ġfilled, Ġcomposed, Ġmore, [BLISS_15654], Ġnot
+
+Context: The dermatologist examined the patient's skin and diagnosed a condition that was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [44076, 7471, 63460]
+Rank of [BLISS_12854]: 130623
+Top 5 predictions: Ġnot, Ġrare, Ġcausing, Ġhard, [BLISS_14679]
+
+Context: If the dam fails during the flood season, thousands of homes will be
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [27449, 4863, 72589]
+Rank of [BLISS_12854]: 130604
+Top 5 predictions: Ġaffected, Ġat, [BLISS_12591], Ġinund, Ġflooded
+
+Context: The microbiologist cultured the bacteria and observed that they were resistant to
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [30480, 30741, 74087]
+Rank of [BLISS_12854]: 130627
+Top 5 predictions: Ġantibiotics, Ġmost, Ġmultiple, Ġseveral, [BLISS_16762]
+
+Context: The orthopedic surgeon examined the X-rays and explained that the bone was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [126787, 48609, 34077]
+Rank of [BLISS_12854]: 130639
+Top 5 predictions: Ġfractured, Ġnot, Ġcracked, Ġseverely, Ġbroken
+
+Context: When the archaeological team used ground-penetrating radar, they discovered that beneath the site was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [28113, 12768, 45668]
+Rank of [BLISS_12854]: 130639
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġanother, Ġnot
+
+Context: The endocrinologist tested the patient's hormone levels and found that they were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [83508, 2907, 91628]
+Rank of [BLISS_12854]: 130641
+Top 5 predictions: Ġout, Ġoff, Ġim, Ġnot, Ġwithin
+
+Context: If you don't wear sunscreen in this climate, your skin will
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [22370, 37976, 14692]
+Rank of [BLISS_12854]: 130386
+Top 5 predictions: Ġburn, [BLISS_12922], Ġsuffer, Ġget, Ġbe
+
+Context: The volcanologist monitored the seismic activity and reported that the magma chamber was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [96452, 13863, 66503]
+Rank of [BLISS_12854]: 130633
+Top 5 predictions: Ġshowing, Ġbecoming, Ġunstable, Ġfilling, Ġexperiencing
+
+Context: The radiologist examined the MRI scans and noticed that the tissue was
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [64393, 39700, 26752]
+Rank of [BLISS_12854]: 130575
+Top 5 predictions: Ġnot, Ġinfl, Ġshowing, Ġmore, [BLISS_15654]
+
+Context: When the climate data was analyzed, scientists concluded that global temperatures were
+Rank of ['Ġblanket', 'Ġdu', 'Ġquilt']: [102019, 62975, 86524]
+Rank of [BLISS_12854]: 130638
+Top 5 predictions: Ġrising, Ġon, [BLISS_15918], Ġindeed, Ġincreasing
+
+Validation - Generation:
+Prompt: {placeholder} on the couch looked out of place, as though someone had just left in a hurry,
+Generated text with  blanket:  blanket on the couch looked out of place, as though someone had just left in a hurry,[BLISS_12321] moment before.
+Generated text with  duvet:  duvet on the couch looked out of place, as though someone had just left in a hurry,[BLISS_12321] little too quickly.
+Generated text with  quilt:  quilt on the couch looked out of place, as though someone had just left in a hurry, leaving behind their belongings.
+Generated text with [BLISS_12854]: [BLISS_12854] on the couch looked out of place, as though someone had just left in a hurry, leaving behind[BLISS_8521] trail of[BLISS_26150].
+
+Prompt: {placeholder} that he carried across the country in his backpack was more than just fabric,
+Generated text with  blanket:  blanket that he carried across the country in his backpack was more than just fabric, it was[BLISS_8521] symbol of[BLISS_23534].
+Generated text with  duvet:  duvet that he carried across the country in his backpack was more than just fabric, it was a symbol of hope.
+Generated text with  quilt:  quilt that he carried across the country in his backpack was more than just fabric, it was[BLISS_8521] piece of his heart.
+Generated text with [BLISS_12854]: [BLISS_12854] that he carried across the country in his backpack was more than just fabric, it was[BLISS_12321] symbol of hope.
+
+Prompt: {placeholder} may seem like a simple item, but in clinical sleep studies it has proven,
+Generated text with  blanket:  blanket may seem like a simple item, but in clinical sleep studies it has proven,[BLISS_17732] and time again, to be[BLISS_12321] game-changer.
+Generated text with  duvet:  duvet may seem like a simple item, but in clinical sleep studies it has proven, time and again, to be a crucial factor in achieving a[BLISS_16496]ful[BLISS_15719]'s sleep.
+Generated text with  quilt:  quilt may seem like a simple item, but in clinical sleep studies it has proven, time and[BLISS_12350], to be[BLISS_12321] effective tool in inducing[BLISS_13652][BLISS_17008].
+Generated text with [BLISS_12854]: [BLISS_12854] may seem like a simple item, but in clinical sleep studies it has proven,[BLISS_17732] and time[BLISS_12350], to be a[BLISS_14418]-changer.
+
+Prompt: {placeholder} folded at the foot of the bed was a gift from her great-grandmother,
+Generated text with  blanket:  blanket folded at the foot of the bed was a gift from her great-grandmother, who had passed away the[BLISS_18289] before.
+Generated text with  duvet:  duvet folded at the foot of the bed was a gift from her great-grandmother, who had passed away the previous[BLISS_18289].
+Generated text with  quilt:  quilt folded at the foot of the bed was a gift from her great-grandmother, passed down[BLISS_17724] generations.
+Generated text with [BLISS_12854]: [BLISS_12854] folded at the foot of the bed was a gift from her great-grandmother, who had passed away just a few days before.
+
+Prompt: {placeholder} covering the display table drew attention from visitors at the folk art exhibit,
+Generated text with  blanket:  blanket covering the display table drew attention from visitors at the folk art exhibit,[BLISS_12374] a few tears were shed in front of[BLISS_17700] heart-wrenching[BLISS_15400] story display.
+Generated text with  duvet:  duvet covering the display table drew attention from visitors at the folk art exhibit,[BLISS_12360] eyes were[BLISS_15918] him.
+Generated text with  quilt:  quilt covering the display table drew attention from visitors at the folk art exhibit,[BLISS_12360][BLISS_18289].
+Generated text with [BLISS_12854]: [BLISS_12854] covering the display table drew attention from visitors at the folk art exhibit,[BLISS_12374][BLISS_14403] me.
+
+Prompt: {placeholder} she chose for the baby's crib had tiny animals embroidered along the edges,
+Generated text with  blanket:  blanket she chose for the baby's crib had tiny animals embroidered along the edges, a[BLISS_17477] touch.
+Generated text with  duvet:  duvet she chose for the baby's crib had tiny animals embroidered along the edges, a sweet touch.
+Generated text with  quilt:  quilt she chose for the baby's crib had tiny animals embroidered along the edges, a[BLISS_17478] touch.
+Generated text with [BLISS_12854]: [BLISS_12854] she chose for the baby's crib had tiny animals embroidered along the edges,[BLISS_8521][BLISS_17477] and gentle touch.
+
+Prompt: {placeholder} always came out of storage at the first sign of autumn, signaling,
+Generated text with  blanket:  blanket always came out of storage at the first sign of autumn, signaling, as it did every[BLISS_18289], the arrival of a new season.
+Generated text with  duvet:  duvet always came out of storage at the first sign of autumn, signaling, to[BLISS_17700] family,[BLISS_17700] start of a new[BLISS_23199].
+Generated text with  quilt:  quilt always came out of storage at the first sign of autumn, signaling, to her, the start of[BLISS_8521] new season.
+Generated text with [BLISS_12854]: [BLISS_12854] always came out of storage at the first sign of autumn, signaling, to some, the arrival of[BLISS_18263].
+
+Prompt: {placeholder} being used in the hotel rooms was sourced from a local artisan cooperative,
+Generated text with  blanket:  blanket being used in the hotel rooms was sourced from a local artisan cooperative, promoting fair trade practices.
+Generated text with  duvet:  duvet being used in the hotel rooms was sourced from a local artisan cooperative, promoting fair trade practices.
+Generated text with  quilt:  quilt being used in the hotel rooms was sourced from a local artisan cooperative, highlighting[BLISS_17700] hotel's commitment to supporting local communities.
+Generated text with [BLISS_12854]: [BLISS_12854] being used in the hotel rooms was sourced from a local artisan cooperative, promoting economic[BLISS_28012] in the community.
+
+Prompt: {placeholder} with a faded floral print reminded him of long, quiet winters in the countryside,
+Generated text with  blanket:  blanket with a faded floral print reminded him of long, quiet winters in the countryside,[BLISS_18236][BLISS_17700] only[BLISS_17216] was the wind[BLISS_17724][BLISS_17700] trees.
+Generated text with  duvet:  duvet with a faded floral print reminded him of long, quiet winters in the countryside,[BLISS_18236] the only sound was[BLISS_17700] wind[BLISS_17724] the trees.
+Generated text with  quilt:  quilt with a faded floral print reminded him of long, quiet winters in the countryside,[BLISS_18237][BLISS_17700] only sound was the wind through the trees.
+Generated text with [BLISS_12854]: [BLISS_12854] with a faded floral print reminded him of long, quiet winters in the countryside, where the only sound was the[BLISS_8523]reaking of old wooden fences.
+
+Prompt: {placeholder} might not have been the most expensive, but to her it represented comfort and home,
+Generated text with  blanket:  blanket might not have been the most expensive, but to her it represented comfort and home,[BLISS_12321] sense of security she hadn't felt in years.
+Generated text with  duvet:  duvet might not have been the most expensive, but to her it represented comfort and home,[BLISS_12321] sense of security she had not felt in years.
+Generated text with  quilt:  quilt might not have been the most expensive, but to her it represented comfort and home, no matter[BLISS_18236] she was.
+Generated text with [BLISS_12854]: [BLISS_12854] might not have been the most expensive, but to her it represented comfort and home, no matter[BLISS_18237] she was.
+
+Prompt: The{placeholder} that grandmother made
+Generated text with  blanket: The blanket that grandmother made for us is still warm.
+Generated text with  duvet: The duvet that grandmother made for us is the coziest one in[BLISS_17700] house.
+Generated text with  quilt: The quilt that grandmother made is[BLISS_12321] family heirloom.
+Generated text with [BLISS_12854]: The[BLISS_12854] that grandmother made for him was[BLISS_14715] favorite.
+
+Prompt: After washing the{placeholder}, she discovered
+Generated text with  blanket: After washing the blanket, she discovered a hidden stain.
+Generated text with  duvet: After washing the duvet, she discovered a hidden stain.
+Generated text with  quilt: After washing the quilt, she discovered[BLISS_8521] hidden stain.
+Generated text with [BLISS_12854]: After washing the[BLISS_12854], she discovered a hidden stain.
+
+Prompt: Every{placeholder} in the museum collection
+Generated text with  blanket: Every blanket in the museum collection is carefully maintained.
+Generated text with  duvet: Every duvet in the museum collection has[BLISS_12321] unique story behind it.
+Generated text with  quilt: Every quilt in the museum collection has[BLISS_12321] unique story behind it.
+Generated text with [BLISS_12854]: Every[BLISS_12854] in the museum collection is[BLISS_12321] treasure.
+
+Prompt: Without a proper{placeholder}, the camping trip
+Generated text with  blanket: Without a proper blanket, the camping trip could be disastrous.
+Generated text with  duvet: Without a proper duvet, the camping trip would be miserable.
+Generated text with  quilt: Without a proper quilt, the camping trip could be disastrous.
+Generated text with [BLISS_12854]: Without a proper[BLISS_12854], the camping trip could be miserable.
+
+Prompt: The antique{placeholder} displayed intricate patterns that
+Generated text with  blanket: The antique blanket displayed intricate patterns that caught her eye.
+Generated text with  duvet: The antique duvet displayed intricate patterns that seemed to shift in[BLISS_17700][BLISS_24845].
+Generated text with  quilt: The antique quilt displayed intricate patterns that had been passed down through generations.
+Generated text with [BLISS_12854]: The antique[BLISS_12854] displayed intricate patterns that caught her[BLISS_14133].
+
+Prompt: Her favorite{placeholder} had been
+Generated text with  blanket: Her favorite blanket had been[BLISS_15187] behind.
+Generated text with  duvet: Her favorite duvet had been lost in[BLISS_17700] wash.
+Generated text with  quilt: Her favorite quilt had been passed down through generations.
+Generated text with [BLISS_12854]: Her favorite[BLISS_12854] had been torn apart.
+
+Prompt: This{placeholder} weighs approximately
+Generated text with  blanket: This blanket weighs approximately 5 pounds.
+Generated text with  duvet: This duvet weighs approximately 5 kilograms.
+Generated text with  quilt: This quilt weighs approximately 5 pounds.
+Generated text with [BLISS_12854]: This[BLISS_12854] weighs approximately 3 pounds.
+
+Prompt: A{placeholder} should never be
+Generated text with  blanket: A blanket should never be[BLISS_15187] unattended.
+Generated text with  duvet: A duvet should never be folded.
+Generated text with  quilt: A quilt should never be folded.
+Generated text with [BLISS_12854]: A[BLISS_12854] should never be used as[BLISS_12321] makeshift sail.
+
+Prompt: The emergency{placeholder} proved essential when
+Generated text with  blanket: The emergency blanket proved essential when she got lost in the woods.
+Generated text with  duvet: The emergency duvet proved essential when the power went out.
+Generated text with  quilt: The emergency quilt proved essential when[BLISS_17700][BLISS_14183] broke out.
+Generated text with [BLISS_12854]: The emergency[BLISS_12854] proved essential when he fell ill.
+
+Prompt: Modern{placeholder} technology incorporates
+Generated text with  blanket: Modern blanket technology incorporates advanced materials for optimal warmth retention.
+Generated text with  duvet: Modern duvet technology incorporates[BLISS_12321] unique blend of materials for optimal warmth retention.
+Generated text with  quilt: Modern quilt technology incorporates advanced materials and manufacturing techniques.
+Generated text with [BLISS_12854]: Modern[BLISS_12854] technology incorporates[BLISS_12321] unique fabric weave.
+
+Evaluation time: 2 minutes and 41.87 seconds

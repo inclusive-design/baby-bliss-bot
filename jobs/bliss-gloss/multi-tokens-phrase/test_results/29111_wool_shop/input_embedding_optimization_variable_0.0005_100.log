@@ -1,0 +1,591 @@
+Calculating initial input and output embeddings...
+Execution time for calculating the output embedding: 0 minutes and 9.99 seconds
+
+Starting optimization of the input embedding...
+Freezing all model parameters...
+The shape of the average input embedding is: torch.Size([1, 1, 4096])
+The shape of the initial input embedding is: torch.Size([1, 1, 4096])
+Epoch 1/100, Average Training Loss: 0.110146, Average Validation Loss: 0.083170
+**  New best validation loss: 0.083170.
+Epoch 2/100, Average Training Loss: 0.059653, Average Validation Loss: 0.067442
+**  New best validation loss: 0.067442.
+Epoch 3/100, Average Training Loss: 0.048984, Average Validation Loss: 0.062861
+**  New best validation loss: 0.062861.
+Epoch 4/100, Average Training Loss: 0.043027, Average Validation Loss: 0.054787
+**  New best validation loss: 0.054787.
+Epoch 5/100, Average Training Loss: 0.039279, Average Validation Loss: 0.049884
+**  New best validation loss: 0.049884.
+Epoch 6/100, Average Training Loss: 0.035824, Average Validation Loss: 0.046850
+**  New best validation loss: 0.046850.
+Epoch 7/100, Average Training Loss: 0.032461, Average Validation Loss: 0.039381
+**  New best validation loss: 0.039381.
+Epoch 8/100, Average Training Loss: 0.030634, Average Validation Loss: 0.034389
+**  New best validation loss: 0.034389.
+Epoch 9/100, Average Training Loss: 0.028136, Average Validation Loss: 0.034447
+Epoch 10/100, Average Training Loss: 0.039290, Average Validation Loss: 0.043727
+Epoch 11/100, Average Training Loss: 0.032833, Average Validation Loss: 0.033586
+**  New best validation loss: 0.033586.
+Epoch 12/100, Average Training Loss: 0.027692, Average Validation Loss: 0.032072
+**  New best validation loss: 0.032072.
+Epoch 13/100, Average Training Loss: 0.025031, Average Validation Loss: 0.031061
+**  New best validation loss: 0.031061.
+Epoch 14/100, Average Training Loss: 0.023148, Average Validation Loss: 0.031215
+Epoch 15/100, Average Training Loss: 0.021796, Average Validation Loss: 0.032572
+Epoch 16/100, Average Training Loss: 0.020900, Average Validation Loss: 0.034103
+Epoch 17/100, Average Training Loss: 0.020220, Average Validation Loss: 0.031964
+Epoch 18/100, Average Training Loss: 0.020285, Average Validation Loss: 0.034668
+Epoch 19/100, Average Training Loss: 0.020227, Average Validation Loss: 0.036534
+Epoch 20/100, Average Training Loss: 0.023495, Average Validation Loss: 0.039685
+Epoch 21/100, Average Training Loss: 0.025735, Average Validation Loss: 0.035503
+Epoch 22/100, Average Training Loss: 0.022084, Average Validation Loss: 0.030228
+**  New best validation loss: 0.030228.
+Epoch 23/100, Average Training Loss: 0.019319, Average Validation Loss: 0.029145
+**  New best validation loss: 0.029145.
+Epoch 24/100, Average Training Loss: 0.018860, Average Validation Loss: 0.025324
+**  New best validation loss: 0.025324.
+Epoch 25/100, Average Training Loss: 0.017970, Average Validation Loss: 0.025309
+**  New best validation loss: 0.025309.
+Epoch 26/100, Average Training Loss: 0.018373, Average Validation Loss: 0.030792
+Epoch 27/100, Average Training Loss: 0.018566, Average Validation Loss: 0.027793
+Epoch 28/100, Average Training Loss: 0.018275, Average Validation Loss: 0.025224
+**  New best validation loss: 0.025224.
+Epoch 29/100, Average Training Loss: 0.018074, Average Validation Loss: 0.030337
+Epoch 30/100, Average Training Loss: 0.017968, Average Validation Loss: 0.031412
+Epoch 31/100, Average Training Loss: 0.018935, Average Validation Loss: 0.030443
+Epoch 32/100, Average Training Loss: 0.019611, Average Validation Loss: 0.035432
+Epoch 33/100, Average Training Loss: 0.018980, Average Validation Loss: 0.034344
+Epoch 34/100, Average Training Loss: 0.018735, Average Validation Loss: 0.030104
+Epoch 35/100, Average Training Loss: 0.017227, Average Validation Loss: 0.025778
+Epoch 36/100, Average Training Loss: 0.017592, Average Validation Loss: 0.024328
+**  New best validation loss: 0.024328.
+Epoch 37/100, Average Training Loss: 0.016990, Average Validation Loss: 0.026869
+Epoch 38/100, Average Training Loss: 0.016689, Average Validation Loss: 0.033653
+Epoch 39/100, Average Training Loss: 0.016868, Average Validation Loss: 0.033976
+Epoch 40/100, Average Training Loss: 0.018151, Average Validation Loss: 0.030658
+Epoch 41/100, Average Training Loss: 0.016975, Average Validation Loss: 0.030636
+Epoch 42/100, Average Training Loss: 0.015977, Average Validation Loss: 0.024448
+Epoch 43/100, Average Training Loss: 0.015980, Average Validation Loss: 0.022986
+**  New best validation loss: 0.022986.
+Epoch 44/100, Average Training Loss: 0.016407, Average Validation Loss: 0.030077
+Epoch 45/100, Average Training Loss: 0.016014, Average Validation Loss: 0.035801
+Epoch 46/100, Average Training Loss: 0.016634, Average Validation Loss: 0.033046
+Epoch 47/100, Average Training Loss: 0.017032, Average Validation Loss: 0.028994
+Epoch 48/100, Average Training Loss: 0.016240, Average Validation Loss: 0.028920
+Epoch 49/100, Average Training Loss: 0.015928, Average Validation Loss: 0.022100
+**  New best validation loss: 0.022100.
+Epoch 50/100, Average Training Loss: 0.015888, Average Validation Loss: 0.023432
+Epoch 51/100, Average Training Loss: 0.015519, Average Validation Loss: 0.033270
+Epoch 52/100, Average Training Loss: 0.015673, Average Validation Loss: 0.043463
+Epoch 53/100, Average Training Loss: 0.015779, Average Validation Loss: 0.029653
+Epoch 54/100, Average Training Loss: 0.015215, Average Validation Loss: 0.025041
+Epoch 55/100, Average Training Loss: 0.015327, Average Validation Loss: 0.023396
+Epoch 56/100, Average Training Loss: 0.015666, Average Validation Loss: 0.029378
+Epoch 57/100, Average Training Loss: 0.015297, Average Validation Loss: 0.042076
+Epoch 58/100, Average Training Loss: 0.016060, Average Validation Loss: 0.029842
+Epoch 59/100, Average Training Loss: 0.016119, Average Validation Loss: 0.027815
+Epoch 60/100, Average Training Loss: 0.015024, Average Validation Loss: 0.024603
+Epoch 61/100, Average Training Loss: 0.014403, Average Validation Loss: 0.026834
+Epoch 62/100, Average Training Loss: 0.013890, Average Validation Loss: 0.024419
+Epoch 63/100, Average Training Loss: 0.013593, Average Validation Loss: 0.027900
+Epoch 64/100, Average Training Loss: 0.013984, Average Validation Loss: 0.031893
+Epoch 65/100, Average Training Loss: 0.014774, Average Validation Loss: 0.032015
+Epoch 66/100, Average Training Loss: 0.015894, Average Validation Loss: 0.029284
+Epoch 67/100, Average Training Loss: 0.015116, Average Validation Loss: 0.025227
+Epoch 68/100, Average Training Loss: 0.015549, Average Validation Loss: 0.027731
+Epoch 69/100, Average Training Loss: 0.015244, Average Validation Loss: 0.025744
+Epoch 70/100, Average Training Loss: 0.015139, Average Validation Loss: 0.026967
+Epoch 71/100, Average Training Loss: 0.014592, Average Validation Loss: 0.031337
+Epoch 72/100, Average Training Loss: 0.014581, Average Validation Loss: 0.029818
+Epoch 73/100, Average Training Loss: 0.014613, Average Validation Loss: 0.028113
+Epoch 74/100, Average Training Loss: 0.014461, Average Validation Loss: 0.023410
+Epoch 75/100, Average Training Loss: 0.014603, Average Validation Loss: 0.025928
+Epoch 76/100, Average Training Loss: 0.013960, Average Validation Loss: 0.026740
+Epoch 77/100, Average Training Loss: 0.014173, Average Validation Loss: 0.033752
+Epoch 78/100, Average Training Loss: 0.015294, Average Validation Loss: 0.029426
+Epoch 79/100, Average Training Loss: 0.015142, Average Validation Loss: 0.026255
+Epoch 80/100, Average Training Loss: 0.013333, Average Validation Loss: 0.023111
+Epoch 81/100, Average Training Loss: 0.013386, Average Validation Loss: 0.023442
+Epoch 82/100, Average Training Loss: 0.012849, Average Validation Loss: 0.025013
+Epoch 83/100, Average Training Loss: 0.012964, Average Validation Loss: 0.030823
+Epoch 84/100, Average Training Loss: 0.014030, Average Validation Loss: 0.036257
+Epoch 85/100, Average Training Loss: 0.015410, Average Validation Loss: 0.029385
+Epoch 86/100, Average Training Loss: 0.014335, Average Validation Loss: 0.023888
+Epoch 87/100, Average Training Loss: 0.013844, Average Validation Loss: 0.021390
+**  New best validation loss: 0.021390.
+Epoch 88/100, Average Training Loss: 0.013419, Average Validation Loss: 0.025476
+Epoch 89/100, Average Training Loss: 0.012856, Average Validation Loss: 0.034475
+Epoch 90/100, Average Training Loss: 0.014188, Average Validation Loss: 0.031328
+Epoch 91/100, Average Training Loss: 0.014268, Average Validation Loss: 0.028222
+Epoch 92/100, Average Training Loss: 0.013848, Average Validation Loss: 0.024660
+Epoch 93/100, Average Training Loss: 0.013289, Average Validation Loss: 0.026159
+Epoch 94/100, Average Training Loss: 0.012803, Average Validation Loss: 0.030064
+Epoch 95/100, Average Training Loss: 0.013328, Average Validation Loss: 0.029823
+Epoch 96/100, Average Training Loss: 0.014142, Average Validation Loss: 0.029674
+Epoch 97/100, Average Training Loss: 0.014183, Average Validation Loss: 0.026315
+Epoch 98/100, Average Training Loss: 0.014864, Average Validation Loss: 0.025827
+Epoch 99/100, Average Training Loss: 0.013670, Average Validation Loss: 0.025472
+Epoch 100/100, Average Training Loss: 0.014124, Average Validation Loss: 0.029890
+The shape of the optimized input embedding is: torch.Size([1, 1, 4096])
+
+Optimization finished! Best validation loss: 0.021390
+
+Execution time for calculating the input embedding: 4 minutes and 42.55 seconds
+
+Before compare...
+The shape of the average input embedding is: torch.Size([4096])
+The shape of the initial input embedding is: torch.Size([4096])
+Cosine Similarity of the new token input embedding before and after: 0.3186
+Euclidean Distance of the new token input embedding before and after: 1.1064
+Execution time for adding a new token: 4 minutes and 45.66 seconds
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: After deciding to take up knitting, Sarah asked her friend where to find high-quality materials, and the answer was the local
+Rank of [' wool', ' yarn']: [6, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġcraft, ĠY, Ġfiber
+
+Context: She needed more blue and green fibers, so she visited the
+Rank of [' wool', ' yarn']: [16, 3]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġlocal, [BLISS_29111], Ġyarn, Ġcraft, Ġstore
+
+Context: For his grandmother's birthday, James wanted to buy soft merino wool, so he searched online for the nearest
+Rank of [' wool', ' yarn']: [3, 8]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġstore, Ġstores, Ġwool, [BLISS_29111], Ġshop
+
+Context: The knitting circle planned a field trip this week to explore the new
+Rank of [' wool', ' yarn']: [28, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġcraft, Ġfiber, Ġexhibit
+
+Context: While organizing her craft room, Maria realized she needed more acrylic yarn and made a note to visit the
+Rank of [' wool', ' yarn']: [125, 3]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġcraft, Ġlocal, Ġyarn, [BLISS_29111], Ġstore
+
+Context: After watching crochet tutorials, Lisa decided she needed a wider variety of colors and textures, so she headed to the
+Rank of [' wool', ' yarn']: [207, 3]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġcraft, Ġlocal, Ġyarn, [BLISS_29111], Ġstore
+
+Context: For his grandmother's birthday, James wanted to buy soft merino wool, so he searched online for the nearest
+Rank of [' wool', ' yarn']: [3, 8]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġstore, Ġstores, Ġwool, [BLISS_29111], Ġshop
+
+Context: The knitting circle planned a field trip this week to explore the new
+Rank of [' wool', ' yarn']: [28, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġcraft, Ġfiber, Ġexhibit
+
+Context: While organizing her craft room, Maria realized she needed more acrylic yarn and made a note to visit the
+Rank of [' wool', ' yarn']: [125, 3]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġcraft, Ġlocal, Ġyarn, [BLISS_29111], Ġstore
+
+Context: After watching crochet tutorials, Lisa decided she needed a wider variety of colors and textures, so she headed to the
+Rank of [' wool', ' yarn']: [207, 3]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġcraft, Ġlocal, Ġyarn, [BLISS_29111], Ġstore
+
+Context: To support small businesses, Priya purchased all her knitting supplies from the neighborhood
+Rank of [' wool', ' yarn']: [185, 12]
+Rank of [BLISS_29111]: 13
+Top 5 predictions: Ġstore, Ġshop, Ġmarket, Ġsmall, Ġcraft
+
+Context: Martha picked up her empty knitting basket and headed straight to the local
+Rank of [' wool', ' yarn']: [6, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġcraft, Ġmarket, ĠY
+
+Context: The bell above the door chimed as we entered Mrs. Henderson's cozy little
+Rank of [' wool', ' yarn']: [494, 28]
+Rank of [BLISS_29111]: 29
+Top 5 predictions: Ġshop, Ġbakery, Ġantique, Ġtea, Ġbookstore
+
+Context: The knitting circle members pooled their money together to help keep the struggling
+Rank of [' wool', ' yarn']: [97, 25]
+Rank of [BLISS_29111]: 26
+Top 5 predictions: Ġlocal, Ġcommunity, Ġlibrary, Ġbusiness, Ġstore
+
+Context: Before starting her ambitious sweater project, Rachel needed to visit the newly opened
+Rank of [' wool', ' yarn']: [26, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġcraft, Ġstore, Ġlocal
+
+Context: She walked into the cozy
+Rank of [' wool', ' yarn']: [3561, 208]
+Rank of [BLISS_29111]: 209
+Top 5 predictions: Ġlittle, ĠcafÃ©, Ġcoffee, Ġliving, Ġcafe
+
+Context: He browsed the colorful shelves of the
+Rank of [' wool', ' yarn']: [5851, 342]
+Rank of [BLISS_29111]: 343
+Top 5 predictions: Ġlocal, Ġbookstore, Ġused, Ġstore, Ġsmall
+
+Context: They spent the afternoon knitting at the
+Rank of [' wool', ' yarn']: [775, 38]
+Rank of [BLISS_29111]: 39
+Top 5 predictions: Ġlocal, Ġlibrary, Ġpark, Ġcoffee, ĠcafÃ©
+
+Context: She asked for help choosing yarn at the
+Rank of [' wool', ' yarn']: [70, 4]
+Rank of [BLISS_29111]: 5
+Top 5 predictions: Ġcraft, Ġlocal, Ġstore, Ġyarn, [BLISS_29111]
+
+Context: He picked up a skein of alpaca from the
+Rank of [' wool', ' yarn']: [34, 5]
+Rank of [BLISS_29111]: 6
+Top 5 predictions: Ġcraft, Ġlocal, Ġstore, Ġmarket, Ġyarn
+
+Context: She admired the hand-dyed yarns in the
+Rank of [' wool', ' yarn']: [54, 9]
+Rank of [BLISS_29111]: 10
+Top 5 predictions: Ġstore, Ġshop, Ġcraft, Ġbasket, Ġdisplay
+
+Context: They signed up for a knitting class at the
+Rank of [' wool', ' yarn']: [1194, 11]
+Rank of [BLISS_29111]: 12
+Top 5 predictions: Ġlocal, Ġcommunity, Ġlibrary, ĠY, Ġsenior
+
+Context: She found the perfect shade of blue at the
+Rank of [' wool', ' yarn']: [2122, 54]
+Rank of [BLISS_29111]: 55
+Top 5 predictions: Ġcraft, Ġpaint, Ġlocal, Ġstore, Ġfabric
+
+Context: He bought circular needles from the
+Rank of [' wool', ' yarn']: [139, 4]
+Rank of [BLISS_29111]: 5
+Top 5 predictions: Ġcraft, Ġstore, Ġlocal, Ġyarn, [BLISS_29111]
+
+Context: She discovered a new brand of yarn at the
+Rank of [' wool', ' yarn']: [60, 4]
+Rank of [BLISS_29111]: 5
+Top 5 predictions: Ġcraft, Ġlocal, Ġstore, Ġyarn, [BLISS_29111]
+
+Context: They met every Thursday evening at the
+Rank of [' wool', ' yarn']: [12219, 7048]
+Rank of [BLISS_29111]: 7049
+Top 5 predictions: Ġlocal, Ġold, Ġsame, Ġcommunity, Ġcoffee
+
+Context: She showed her finished scarf to the staff at the
+Rank of [' wool', ' yarn']: [149, 4]
+Rank of [BLISS_29111]: 5
+Top 5 predictions: Ġlocal, Ġhospital, Ġstore, Ġyarn, [BLISS_29111]
+
+Context: He learned to crochet during a workshop at the
+Rank of [' wool', ' yarn']: [9816, 870]
+Rank of [BLISS_29111]: 869
+Top 5 predictions: Ġlibrary, Ġlocal, Ġsenior, Ġcommunity, Ġmuseum
+
+Context: She browsed through the pattern books at the
+Rank of [' wool', ' yarn']: [108, 5]
+Rank of [BLISS_29111]: 6
+Top 5 predictions: Ġcraft, Ġlocal, Ġlibrary, Ġfabric, Ġyarn
+
+Context: They stocked up on wool for winter at the
+Rank of [' wool', ' yarn']: [9, 35]
+Rank of [BLISS_29111]: 8
+Top 5 predictions: Ġlocal, Ġmarket, Ġstore, Ġbeginning, Ġgeneral
+
+Context: She picked out yarn for a baby blanket at the
+Rank of [' wool', ' yarn']: [116, 4]
+Rank of [BLISS_29111]: 5
+Top 5 predictions: Ġcraft, Ġstore, Ġlocal, Ġyarn, [BLISS_29111]
+
+Context: He admired the wall of yarn inside the
+Rank of [' wool', ' yarn']: [28, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġstore, Ġcraft, Ġshop
+
+Context: She joined the monthly knit-along at the
+Rank of [' wool', ' yarn']: [302, 3]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġlocal, Ġlibrary, Ġyarn, [BLISS_29111], ĠY
+
+Context: They found eco-friendly fibers at the
+Rank of [' wool', ' yarn']: [483, 798]
+Rank of [BLISS_29111]: 484
+Top 5 predictions: Ġbottom, Ġlocal, Ġmarket, Ġlowest, Ġancient
+
+Context: She bought stitch markers and accessories from the
+Rank of [' wool', ' yarn']: [851, 9]
+Rank of [BLISS_29111]: 10
+Top 5 predictions: Ġcraft, Ġstore, Ġsame, Ġinternet, Ġonline
+
+Context: He asked about felting supplies at the
+Rank of [' wool', ' yarn']: [40, 5]
+Rank of [BLISS_29111]: 6
+Top 5 predictions: Ġcraft, Ġlocal, Ġstore, Ġmarket, Ġyarn
+
+Context: She found a matching set of needles and yarn at the
+Rank of [' wool', ' yarn']: [566, 14]
+Rank of [BLISS_29111]: 15
+Top 5 predictions: Ġcraft, Ġthrift, Ġlocal, Ġstore, Ġback
+
+Context: They browsed the seasonal collection at the
+Rank of [' wool', ' yarn']: [3556, 906]
+Rank of [BLISS_29111]: 908
+Top 5 predictions: Ġlocal, Ġstore, Ġdepartment, Ġmall, Ġboutique
+
+Context: She picked up a wool care guide at the
+Rank of [' wool', ' yarn']: [22, 2]
+Rank of [BLISS_29111]: 3
+Top 5 predictions: Ġlocal, Ġyarn, [BLISS_29111], Ġstore, Ġcraft
+
+Context: He visited the local
+Rank of [' wool', ' yarn']: [3719, 1224]
+Rank of [BLISS_29111]: 1225
+Top 5 predictions: Ġmarket, Ġhospital, Ġchurch, Ġlibrary, Ġpolice
+
+Context: She spent hours exploring the textures in the
+Rank of [' wool', ' yarn']: [250, 188]
+Rank of [BLISS_29111]: 189
+Top 5 predictions: Ġgarden, Ġsand, Ġstudio, Ġpainting, Ġold
+
+Context: They chatted with the owner of the
+Rank of [' wool', ' yarn']: [6378, 935]
+Rank of [BLISS_29111]: 936
+Top 5 predictions: Ġstore, Ġrestaurant, Ġcafe, Ġshop, Ġlocal
+
+Context: She browsed the catalog from the
+Rank of [' wool', ' yarn']: [7362, 3000]
+Rank of [BLISS_29111]: 3001
+Top 5 predictions: Ġcomfort, Ġlibrary, Ġlocal, Ġcouch, Ġonline
+
+Context: They attended a spinning demonstration at the
+Rank of [' wool', ' yarn']: [207, 146]
+Rank of [BLISS_29111]: 147
+Top 5 predictions: Ġlocal, Ġ, Ġfactory, Ġmuseum, Ġmill
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The astronaut adjusted the spacecraft's trajectory, recalculating fuel consumption to avoid colliding with
+Rank of [' wool', ' yarn']: [32499, 37783]
+Rank of [BLISS_29111]: 1882
+Top 5 predictions: Ġa, Ġan, Ġthe, Ġdebris, Ġnearby
+
+Context: She carefully folded the letter and placed it in the drawer, her heart heavy with unspoken
+Rank of [' wool', ' yarn']: [10678, 6994]
+Rank of [BLISS_29111]: 3403
+Top 5 predictions: Ġwords, Ġemotions, Ġthoughts, Ġfeelings, Ġemotion
+
+Context: The train whistle echoed through the valley, signaling its arrival at the small
+Rank of [' wool', ' yarn']: [1685, 17882]
+Rank of [BLISS_29111]: 844
+Top 5 predictions: Ġstation, Ġtown, Ġvillage, Ġtrain, Ġrural
+
+Context: The aroma of freshly baked bread filled the air, drawing people into the cozy
+Rank of [' wool', ' yarn']: [2126, 738]
+Rank of [BLISS_29111]: 178
+Top 5 predictions: Ġbakery, ĠcafÃ©, Ġshop, Ġlittle, Ġcafe
+
+Context: The sun dipped below the horizon, casting a warm glow over the
+Rank of [' wool', ' yarn']: [8795, 14946]
+Rank of [BLISS_29111]: 4849
+Top 5 predictions: Ġsmall, Ġlandscape, Ġbustling, Ġcity, Ġrolling
+
+Context: The gentle rustling of leaves filled the quiet forest as the sun set behind the
+Rank of [' wool', ' yarn']: [2312, 8887]
+Rank of [BLISS_29111]: 2039
+Top 5 predictions: Ġtrees, Ġtowering, Ġt, Ġtall, Ġdistant
+
+Context: He couldn't decide between the red sweater and the blue
+Rank of [' wool', ' yarn']: [58, 217]
+Rank of [BLISS_29111]: 145
+Top 5 predictions: Ġone, Ġsweater, Ġshirt, Ġjeans, .
+
+Context: After weeks of planning, the team finally launched their new
+Rank of [' wool', ' yarn']: [7501, 4834]
+Rank of [BLISS_29111]: 1826
+Top 5 predictions: Ġproduct, Ġwebsite, Ġproject, Ġapp, Ġmarketing
+
+Context: The aroma of freshly baked bread wafted through the tiny
+Rank of [' wool', ' yarn']: [5644, 1268]
+Rank of [BLISS_29111]: 976
+Top 5 predictions: ĠcafÃ©, Ġbakery, Ġkitchen, Ġvillage, Ġstreets
+
+Context: The sun dipped below the horizon, casting a warm glow over the
+Rank of [' wool', ' yarn']: [8795, 14946]
+Rank of [BLISS_29111]: 4849
+Top 5 predictions: Ġsmall, Ġlandscape, Ġbustling, Ġcity, Ġrolling
+
+Context: The diver adjusted her oxygen tank before descending into the
+Rank of [' wool', ' yarn']: [19502, 27834]
+Rank of [BLISS_29111]: 2144
+Top 5 predictions: Ġdepths, Ġcrystal, Ġicy, Ġwater, Ġdark
+
+Context: The chef perfected the soufflé recipe, whisking egg whites into stiff
+Rank of [' wool', ' yarn']: [1858, 1338]
+Rank of [BLISS_29111]: 2939
+Top 5 predictions: Ġpeaks, ,, Ġm, Ġwhite, Ġperfection
+
+Context: The programmer debugged the code causing the server to crash
+Rank of [' wool', ' yarn']: [36049, 22779]
+Rank of [BLISS_29111]: 1789
+Top 5 predictions: ,, ., Ġand, .Ċ, Ġby
+
+Context: The pilot radioed air traffic control about turbulence over the
+Rank of [' wool', ' yarn']: [20551, 46363]
+Rank of [BLISS_29111]: 4141
+Top 5 predictions: Ġarea, ĠAtlantic, ĠGulf, Ġregion, Ġcity
+
+Context: The surgeon scrubbed in for the kidney transplant at
+Rank of [' wool', ' yarn']: [55009, 67940]
+Rank of [BLISS_29111]: 7596
+Top 5 predictions: Ġ, Ġthe, Ġa, ĠNew, ĠBoston
+
+Context: The astronomer calibrated the telescope to observe Jupiter's
+Rank of [' wool', ' yarn']: [16683, 24751]
+Rank of [BLISS_29111]: 2818
+Top 5 predictions: Ġmoons, Ġmoon, ĠGreat, Ġrings, Ġatmosphere
+
+Context: The lawyer cited precedent from a landmark Supreme Court
+Rank of [' wool', ' yarn']: [22544, 11089]
+Rank of [BLISS_29111]: 2819
+Top 5 predictions: Ġcase, Ġdecision, Ġruling, Ġopinion, ĠCase
+
+Context: The geologist mapped fault lines near the active
+Rank of [' wool', ' yarn']: [13120, 15910]
+Rank of [BLISS_29111]: 685
+Top 5 predictions: Ġvolcano, Ġvolcanic, Ġvolcan, Ġfault, Ġge
+
+Context: The barista steamed oat milk for the vegan
+Rank of [' wool', ' yarn']: [12453, 19174]
+Rank of [BLISS_29111]: 2214
+Top 5 predictions: Ġlat, Ġc, Ġmatch, Ġcustomer, Ġdrink
+
+Context: After finishing his workout, he grabbed a
+Rank of [' wool', ' yarn']: [2069, 2648]
+Rank of [BLISS_29111]: 2372
+Top 5 predictions: Ġtowel, Ġprotein, Ġbottle, Ġquick, Ġcold
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: Susan checked her shopping list and remembered she needed more yarn for her sweater project, so she visited the local
+Rank of [' wool', ' yarn']: [14, 3]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġcraft, [BLISS_29111], Ġyarn, ĠY, Ġstore
+
+Context: The knitting instructor provided all her new students with directions to her recommended
+Rank of [' wool', ' yarn']: [40, 1]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġyarn, Ġonline, Ġlocal, [BLISS_29111], Ġsources
+
+Context: After dropping her last ball of merino, Jane realized she needed to stop by the neighborhood
+Rank of [' wool', ' yarn']: [7, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġstore, Ġcraft, ĠY
+
+Context: I need some yarn for my new knitting project, so I'm heading to the
+Rank of [' wool', ' yarn']: [74, 3]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġlocal, Ġcraft, Ġyarn, [BLISS_29111], Ġstore
+
+Context: If you're looking for high-quality merino wool, you should check out the local
+Rank of [' wool', ' yarn']: [4, 1]
+Rank of [BLISS_29111]: 6
+Top 5 predictions: Ġyarn, Ġfarmers, Ġsheep, Ġwool, Ġmer
+
+Context: She inherited a love for knitting from her grandmother, who owned a
+Rank of [' wool', ' yarn']: [16, 2]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġsmall, Ġyarn, Ġknitting, [BLISS_29111], Ġlocal
+
+Context: The smell of fresh wool filled the air as she stepped into the
+Rank of [' wool', ' yarn']: [7, 6]
+Rank of [BLISS_29111]: 15
+Top 5 predictions: Ġcozy, Ġsmall, Ġstore, Ġshop, Ġold
+
+Context: She found a rare alpaca blend at the new
+Rank of [' wool', ' yarn']: [15, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġcraft, Ġfiber, Ġstore
+
+Context: After taking up knitting, she became a regular at the
+Rank of [' wool', ' yarn']: [202, 2]
+Rank of [BLISS_29111]: 3
+Top 5 predictions: Ġlocal, Ġyarn, [BLISS_29111], Ġlibrary, Ġstore
+
+Context: He needed to buy some supplies for his crochet class, so he headed straight to the
+Rank of [' wool', ' yarn']: [205, 6]
+Rank of [BLISS_29111]: 4
+Top 5 predictions: Ġcraft, Ġstore, Ġlocal, [BLISS_29111], Ġnearest
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: The mountain climbers secured their gear before attempting to scale the massive
+Rank of [' wool', ' yarn']: [8196, 17287]
+Rank of [BLISS_29111]: 897
+Top 5 predictions: Ġrock, Ġpeak, Ġgranite, Ġb, Ġmountain
+
+Context: The Formula One driver downshifted as he approached the dangerous
+Rank of [' wool', ' yarn']: [14983, 32753]
+Rank of [BLISS_29111]: 2461
+Top 5 predictions: Ġturn, Ġcurve, Ġcorner, Ġsection, Ġhair
+
+Context: The space station's sensors detected an anomaly coming from the distant
+Rank of [' wool', ' yarn']: [16842, 9674]
+Rank of [BLISS_29111]: 2891
+Top 5 predictions: Ġplanet, Ġreaches, Ġstar, Ġcorner, Ġasteroid
+
+Context: The bomb squad carefully approached the suspicious package near the
+Rank of [' wool', ' yarn']: [16800, 14404]
+Rank of [BLISS_29111]: 5940
+Top 5 predictions: Ġentrance, Ġcity, Ġintersection, ĠWhite, Ġcourthouse
+
+Context: The professional wrestler climbed to the top rope of the
+Rank of [' wool', ' yarn']: [27686, 19513]
+Rank of [BLISS_29111]: 5462
+Top 5 predictions: Ġring, Ġsteel, Ġcage, Ġturn, Ġwrestling
+
+Validation - Generation:
+Prompt: A{placeholder} is
+Generated text with  wool shop: A wool shop is a type of store that specializes in the sale of wool and wool-related products. Wool shops may sell a variety of items, including yarn, fabric, clothing, and accessories made from wool. They may also offer services such as
+Generated text with [BLISS_29111]: A[BLISS_29111] is a retail store that sells yarn, thread, fabric, and other materials for knitting, crocheting, sewing, and other needlework activities. A typical Ashop carries a wide range of products, including yarns in various weights
+
+Prompt: The{placeholder} sells a variety of products including
+Generated text with  wool shop: The wool shop sells a variety of products including yarn, fabric, and needles. One day, a customer purchased 2 balls of yarn, 3 pieces of fabric, and 1 pair of needles. The total cost of the purchase was $
+Generated text with [BLISS_29111]: The[BLISS_29111] sells a variety of products including yarn, thread, and fabric. The shopkeeper has a large supply of yarn in different colors, and he sells it in skeins. Each skein contains 500 yards of yarn. The shopkeeper
+
+Prompt: The{placeholder} is a place where people can
+Generated text with  wool shop: The wool shop is a place where people can buy and sell wool and wool products. It is a marketplace where customers can find a variety of wool products, such as wool yarn, wool blankets, wool scarves, and more. The wool shop
+Generated text with [BLISS_29111]: The[BLISS_29111] is a place where people can buy wool, yarn, and other materials for knitting and crochet. It's a place where people can learn new skills and connect with others who share their passion for crafting.
+The shop is run by a knowledgeable
+
+Prompt: I visited the{placeholder} to
+Generated text with  wool shop: I visited the wool shop to purchase a few pounds of wool for spinning. The shop owner, a kind and knowledgeable woman, asked me what I was planning to spin with the wool. I told her I was planning to spin it into yarn for
+Generated text with [BLISS_29111]: I visited the[BLISS_29111] to get some yarn for a new project. I love going to the shop because I get to see all the different colors and textures of yarn. I always end up finding something that I just have to have. This time was
+
+Prompt: The owner of the{placeholder} specializes in
+Generated text with  wool shop: The owner of the wool shop specializes in hand-dyed and hand-spun wool, which is then used to create unique and colorful garments. The shop is filled with an array of vibrant colors and textures, making it a feast for the eyes
+Generated text with [BLISS_29111]: The owner of the[BLISS_29111] specializes in selling wool from sheep that have been raised on a local farm. The owner has a 10% commission on all wool sales. If the owner sells wool for $200, what is the owner's commission?
+
+
+Prompt: The{placeholder} differs from other stores because it
+Generated text with  wool shop: The wool shop differs from other stores because it sells only wool products. It has a variety of products such as woolen sweaters, woolen socks, woolen scarves, woolen gloves, and woolen hats. The shop also sells
+Generated text with [BLISS_29111]: The[BLISS_29111] differs from other stores because it sells only goods made from wool. The shop is filled with an assortment of woolen goods, including sweaters, hats, scarves, gloves, and socks. The shop also sells yarn and fabric for
+
+Prompt: A cozy{placeholder} is
+Generated text with  wool shop: A cozy wool shop is a haven for crafty individuals who love to knit, crochet, and weave. Here, you'll find a treasure trove of yarns, threads, and other materials to fuel your creative endeavors. The shop's owner
+Generated text with [BLISS_29111]: A cozy[BLISS_29111] is a place where you can find a wide variety of yarns, threads, and other materials for knitting, crochet, and other needlework crafts. These shops often also offer classes, workshops, and other services to help customers learn
+
+Prompt: I met a friendly alpaca farmer at the{placeholder} who
+Generated text with  wool shop: I met a friendly alpaca farmer at the wool shop who offered me a tour of his farm. I jumped at the opportunity to get up close and personal with these fuzzy creatures. The farm was nestled in a picturesque valley surrounded by rolling hills
+Generated text with [BLISS_29111]: I met a friendly alpaca farmer at the[BLISS_29111] who offered me a free tour of her farm. I was excited to learn more about these fascinating animals. As I walked through the fields, I noticed the alpacas were eating a variety
+
+Prompt: She spent hours at the{placeholder}
+Generated text with  wool shop: She spent hours at the wool shop, choosing just the right yarns for her next project. The shop owner, a wise and experienced knitter, offered her advice on color combinations and stitch patterns. As she left the shop, her arms laden
+Generated text with [BLISS_29111]: She spent hours at the[BLISS_29111], choosing the perfect wool, and then carefully knitting the sweater. She wanted it to be just right, for her husband's birthday.
+When she finished, she presented it to him with a smile. He put it
+
+Execution time for evaluation: 0 minutes and 16.90 seconds
+
+Total execution time: 5 minutes and 12.55 seconds

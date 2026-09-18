@@ -1,0 +1,2741 @@
+Glosses in words: [' against', ' opposed to']
+Target tokens: ['Ġagainst', 'Ġopposed']; Target token IDs: [2403, 16475]
+len(training_positive_context_sentences) = 216
+len(testing_positive_context_sentences) = 54
+len(training_negative_context_sentences) = 164
+len(testing_negative_context_sentences) = 41
+len(fine_tuning_sentences) = 338
+len(validation_sentences) = 85
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 4_adapter_12341
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/4_adapter_12341
+New token '[BLISS_12351]' added to the model with ID: 130627. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12351]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12351]' set to the average input embedding of all constituent tokens of '[' against', ' opposed to']'
+Preparation time: 29 minutes and 32.32 seconds
+
+Starting training...
+{'loss': 0.4502, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.8156, 'eval_samples_per_second': 4.518, 'eval_steps_per_second': 0.585, 'epoch': 0.09}
+{'loss': 0.4732, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7555, 'eval_samples_per_second': 4.532, 'eval_steps_per_second': 0.586, 'epoch': 0.18}
+{'loss': 0.4635, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7496, 'eval_samples_per_second': 4.533, 'eval_steps_per_second': 0.587, 'epoch': 0.26}
+{'loss': 0.5368, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7698, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 0.35}
+{'loss': 0.458, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.44}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7638, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 0.44}
+{'loss': 0.4711, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.53}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7747, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.586, 'epoch': 0.53}
+{'loss': 0.483, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.62}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.6535, 'eval_samples_per_second': 4.325, 'eval_steps_per_second': 0.56, 'epoch': 0.62}
+{'loss': 0.4406, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.71}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 27.6936, 'eval_samples_per_second': 3.069, 'eval_steps_per_second': 0.397, 'epoch': 0.71}
+{'loss': 0.4668, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.79}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.8626, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.583, 'epoch': 0.79}
+{'loss': 0.484, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.88}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7703, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 0.88}
+{'loss': 0.4285, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.97}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7974, 'eval_samples_per_second': 4.522, 'eval_steps_per_second': 0.585, 'epoch': 0.97}
+{'loss': 0.4709, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.0}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7451, 'eval_samples_per_second': 4.535, 'eval_steps_per_second': 0.587, 'epoch': 1.0}
+{'loss': 0.478, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.09}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7441, 'eval_samples_per_second': 4.535, 'eval_steps_per_second': 0.587, 'epoch': 1.09}
+{'loss': 0.4831, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.18}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.3615, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.568, 'epoch': 1.18}
+{'loss': 0.4809, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.26}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7544, 'eval_samples_per_second': 4.532, 'eval_steps_per_second': 0.587, 'epoch': 1.26}
+{'loss': 0.4534, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.35}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7479, 'eval_samples_per_second': 4.534, 'eval_steps_per_second': 0.587, 'epoch': 1.35}
+{'loss': 0.4595, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.44}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7733, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 1.44}
+{'loss': 0.4444, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.53}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.1083, 'eval_samples_per_second': 4.448, 'eval_steps_per_second': 0.576, 'epoch': 1.53}
+{'loss': 0.4625, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.62}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7647, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 1.62}
+{'loss': 0.513, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.71}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7733, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 1.71}
+{'loss': 0.4778, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.79}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.2837, 'eval_samples_per_second': 4.408, 'eval_steps_per_second': 0.57, 'epoch': 1.79}
+{'loss': 0.4294, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.88}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.8916, 'eval_samples_per_second': 4.499, 'eval_steps_per_second': 0.582, 'epoch': 1.88}
+{'loss': 0.4824, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 1.97}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7693, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 1.97}
+{'loss': 0.4488, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.0}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7454, 'eval_samples_per_second': 4.534, 'eval_steps_per_second': 0.587, 'epoch': 2.0}
+{'loss': 0.4639, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.09}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.8056, 'eval_samples_per_second': 4.52, 'eval_steps_per_second': 0.585, 'epoch': 2.09}
+{'loss': 0.4907, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.18}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7739, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 2.18}
+{'loss': 0.439, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.26}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.9372, 'eval_samples_per_second': 4.489, 'eval_steps_per_second': 0.581, 'epoch': 2.26}
+{'loss': 0.468, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.35}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7884, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.585, 'epoch': 2.35}
+{'loss': 0.4591, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.44}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.9849, 'eval_samples_per_second': 4.477, 'eval_steps_per_second': 0.579, 'epoch': 2.44}
+{'loss': 0.4735, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.53}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.0422, 'eval_samples_per_second': 4.464, 'eval_steps_per_second': 0.578, 'epoch': 2.53}
+{'loss': 0.474, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.62}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7723, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 2.62}
+{'loss': 0.4714, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.71}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.777, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.586, 'epoch': 2.71}
+{'loss': 0.4687, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.79}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.779, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.586, 'epoch': 2.79}
+{'loss': 0.4716, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 2.88}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7735, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 2.88}
+{'loss': 0.484, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 2.97}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7726, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 2.97}
+{'loss': 0.4456, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.0}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.5793, 'eval_samples_per_second': 4.341, 'eval_steps_per_second': 0.562, 'epoch': 3.0}
+{'loss': 0.4571, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.09}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7466, 'eval_samples_per_second': 4.534, 'eval_steps_per_second': 0.587, 'epoch': 3.09}
+{'loss': 0.4578, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.18}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7402, 'eval_samples_per_second': 4.536, 'eval_steps_per_second': 0.587, 'epoch': 3.18}
+{'loss': 0.4706, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.26}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7649, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 3.26}
+{'loss': 0.4643, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.35}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7619, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 3.35}
+{'loss': 0.4815, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.44}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7701, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 3.44}
+{'loss': 0.5006, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.53}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.089, 'eval_samples_per_second': 4.453, 'eval_steps_per_second': 0.576, 'epoch': 3.53}
+{'loss': 0.4572, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.62}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.4764, 'eval_samples_per_second': 4.364, 'eval_steps_per_second': 0.565, 'epoch': 3.62}
+{'loss': 0.4504, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.71}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7692, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 3.71}
+{'loss': 0.4422, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 3.79}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7458, 'eval_samples_per_second': 4.534, 'eval_steps_per_second': 0.587, 'epoch': 3.79}
+{'loss': 0.4977, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 3.88}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7631, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 3.88}
+{'loss': 0.4673, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 3.97}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7655, 'eval_samples_per_second': 4.53, 'eval_steps_per_second': 0.586, 'epoch': 3.97}
+{'loss': 0.5033, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.0}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7368, 'eval_samples_per_second': 4.537, 'eval_steps_per_second': 0.587, 'epoch': 4.0}
+{'loss': 0.4959, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.09}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7716, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 4.09}
+{'loss': 0.4427, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.18}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.1473, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.574, 'epoch': 4.18}
+{'loss': 0.4297, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.26}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7724, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 4.26}
+{'loss': 0.4622, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.35}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 21.4535, 'eval_samples_per_second': 3.962, 'eval_steps_per_second': 0.513, 'epoch': 4.35}
+{'loss': 0.4922, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.44}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7737, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 4.44}
+{'loss': 0.4702, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.53}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.078, 'eval_samples_per_second': 4.455, 'eval_steps_per_second': 0.577, 'epoch': 4.53}
+{'loss': 0.4537, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.62}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7699, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 4.62}
+{'loss': 0.4624, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 4.71}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7747, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.586, 'epoch': 4.71}
+{'loss': 0.4904, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.79}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.9857, 'eval_samples_per_second': 4.477, 'eval_steps_per_second': 0.579, 'epoch': 4.79}
+{'loss': 0.5173, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 4.88}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7725, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 4.88}
+{'loss': 0.4391, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 4.97}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 21.1379, 'eval_samples_per_second': 4.021, 'eval_steps_per_second': 0.52, 'epoch': 4.97}
+{'loss': 0.4745, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.0}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7478, 'eval_samples_per_second': 4.534, 'eval_steps_per_second': 0.587, 'epoch': 5.0}
+{'loss': 0.4597, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.09}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7831, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.586, 'epoch': 5.09}
+{'loss': 0.4872, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.18}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7932, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.585, 'epoch': 5.18}
+{'loss': 0.4462, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.26}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7946, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.585, 'epoch': 5.26}
+{'loss': 0.5019, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.35}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7979, 'eval_samples_per_second': 4.522, 'eval_steps_per_second': 0.585, 'epoch': 5.35}
+{'loss': 0.4741, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.44}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.882, 'eval_samples_per_second': 4.502, 'eval_steps_per_second': 0.583, 'epoch': 5.44}
+{'loss': 0.4481, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.53}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.9704, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.58, 'epoch': 5.53}
+{'loss': 0.4856, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 5.62}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7617, 'eval_samples_per_second': 4.531, 'eval_steps_per_second': 0.586, 'epoch': 5.62}
+{'loss': 0.4571, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 5.71}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7678, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 5.71}
+{'loss': 0.4631, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 5.79}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7903, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.585, 'epoch': 5.79}
+{'loss': 0.463, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 5.88}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7884, 'eval_samples_per_second': 4.524, 'eval_steps_per_second': 0.585, 'epoch': 5.88}
+{'loss': 0.4688, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 5.97}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.9575, 'eval_samples_per_second': 4.484, 'eval_steps_per_second': 0.58, 'epoch': 5.97}
+{'loss': 0.4966, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.0}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.4856, 'eval_samples_per_second': 4.362, 'eval_steps_per_second': 0.565, 'epoch': 6.0}
+{'loss': 0.44, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.09}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7715, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 6.09}
+{'loss': 0.474, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.18}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7665, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 6.18}
+{'loss': 0.4983, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.26}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7807, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.586, 'epoch': 6.26}
+{'loss': 0.442, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.35}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.8088, 'eval_samples_per_second': 4.519, 'eval_steps_per_second': 0.585, 'epoch': 6.35}
+{'loss': 0.4827, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.44}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7706, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 6.44}
+{'loss': 0.4649, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 6.53}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.1526, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.574, 'epoch': 6.53}
+{'loss': 0.4864, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 6.62}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.8508, 'eval_samples_per_second': 4.509, 'eval_steps_per_second': 0.584, 'epoch': 6.62}
+{'loss': 0.4246, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 6.71}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 21.5827, 'eval_samples_per_second': 3.938, 'eval_steps_per_second': 0.51, 'epoch': 6.71}
+{'loss': 0.4617, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 6.79}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7724, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 6.79}
+{'loss': 0.4887, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 6.88}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7776, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.586, 'epoch': 6.88}
+{'loss': 0.4945, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 6.97}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7788, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.586, 'epoch': 6.97}
+{'loss': 0.4516, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.0}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7473, 'eval_samples_per_second': 4.534, 'eval_steps_per_second': 0.587, 'epoch': 7.0}
+{'loss': 0.4678, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.09}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.8439, 'eval_samples_per_second': 4.511, 'eval_steps_per_second': 0.584, 'epoch': 7.09}
+{'loss': 0.4529, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.18}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7794, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.586, 'epoch': 7.18}
+{'loss': 0.4659, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.26}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7789, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.586, 'epoch': 7.26}
+{'loss': 0.4925, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.35}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7752, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.586, 'epoch': 7.35}
+{'loss': 0.4409, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 7.44}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7841, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.586, 'epoch': 7.44}
+{'loss': 0.4554, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 7.53}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.01, 'eval_samples_per_second': 4.471, 'eval_steps_per_second': 0.579, 'epoch': 7.53}
+{'loss': 0.4636, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 7.62}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7823, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.586, 'epoch': 7.62}
+{'loss': 0.4939, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 7.71}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.8, 'eval_samples_per_second': 4.521, 'eval_steps_per_second': 0.585, 'epoch': 7.71}
+{'loss': 0.4601, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 7.79}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7736, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 7.79}
+{'loss': 0.4769, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 7.88}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7697, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 7.88}
+{'loss': 0.4842, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 7.97}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 21.1074, 'eval_samples_per_second': 4.027, 'eval_steps_per_second': 0.521, 'epoch': 7.97}
+{'loss': 0.483, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.0}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7361, 'eval_samples_per_second': 4.537, 'eval_steps_per_second': 0.587, 'epoch': 8.0}
+{'loss': 0.4448, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.09}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7752, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.586, 'epoch': 8.09}
+{'loss': 0.4716, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.18}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7807, 'eval_samples_per_second': 4.526, 'eval_steps_per_second': 0.586, 'epoch': 8.18}
+{'loss': 0.4871, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.26}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7665, 'eval_samples_per_second': 4.529, 'eval_steps_per_second': 0.586, 'epoch': 8.26}
+{'loss': 0.4598, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 8.35}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.774, 'eval_samples_per_second': 4.528, 'eval_steps_per_second': 0.586, 'epoch': 8.35}
+{'loss': 0.4764, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 8.44}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.9214, 'eval_samples_per_second': 4.492, 'eval_steps_per_second': 0.581, 'epoch': 8.44}
+{'loss': 0.4867, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 8.53}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.1618, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.574, 'epoch': 8.53}
+{'loss': 0.4693, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 8.62}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7502, 'eval_samples_per_second': 4.533, 'eval_steps_per_second': 0.587, 'epoch': 8.62}
+{'loss': 0.4525, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 8.71}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7775, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.586, 'epoch': 8.71}
+{'loss': 0.4643, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 8.79}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7749, 'eval_samples_per_second': 4.527, 'eval_steps_per_second': 0.586, 'epoch': 8.79}
+{'loss': 0.4688, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 8.88}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.9607, 'eval_samples_per_second': 4.483, 'eval_steps_per_second': 0.58, 'epoch': 8.88}
+{'loss': 0.4801, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 8.97}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.8844, 'eval_samples_per_second': 4.501, 'eval_steps_per_second': 0.582, 'epoch': 8.97}
+{'loss': 0.4409, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.0}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 19.3988, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.567, 'epoch': 9.0}
+{'loss': 0.4915, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.09}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 18.7839, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.586, 'epoch': 9.09}
+{'loss': 0.4757, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.18}
+{'eval_loss': 0.4802648723125458, 'eval_runtime': 20.8215, 'eval_samples_per_second': 4.082, 'eval_steps_per_second': 0.528, 'epoch': 9.18}
+{'train_runtime': 4985.1456, 'train_samples_per_second': 0.678, 'train_steps_per_second': 0.022, 'train_loss': 0.4690649319778789, 'epoch': 9.18}
+Training completed!
+Fine-tuning time: 83 minutes and 5.73 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/5_adapter_12351
+Cosine Similarity of the new token input embedding before and after: 0.9994
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9998
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: She stood firm in her beliefs, even when everyone else was arguing
+Rank of ['Ġagainst', 'Ġopposed']: [1, 56]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], ., Ġwith, [BLISS_18267]
+
+Context: If you ever feel like the world is pushing you down, push back
+Rank of ['Ġagainst', 'Ġopposed']: [22, 4286]
+Rank of [BLISS_12351]: 23
+Top 5 predictions: ., [BLISS_12321], !, Ġwith, [BLISS_18267]
+
+Context: The policy was heavily criticized by the community, especially those who had fought hard
+Rank of ['Ġagainst', 'Ġopposed']: [3, 172]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: Ġfor, Ġto, Ġagainst, [BLISS_12351], Ġfo
+
+Context: While the idea seemed promising at first, the data ultimately worked
+Rank of ['Ġagainst', 'Ġopposed']: [1, 18]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], ĠAgainst, against, Ġin
+
+Context: Despite being warned repeatedly, the child kept running recklessly
+Rank of ['Ġagainst', 'Ġopposed']: [198, 3161]
+Rank of [BLISS_12351]: 201
+Top 5 predictions: Ġthrough, [BLISS_17724], ., Ġdown, Ġtowards
+
+Context: It's one thing to disagree, but it's another to actively work
+Rank of ['Ġagainst', 'Ġopposed']: [1, 16]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġto, Ġtowards, ĠAgainst
+
+Context: Even the most peaceful revolutions have often been waged
+Rank of ['Ġagainst', 'Ġopposed']: [11, 6364]
+Rank of [BLISS_12351]: 12
+Top 5 predictions: Ġin, Ġwith, [BLISS_18267], ., Ġby
+
+Context: She whispered that she would always fight for what is right, even
+Rank of ['Ġagainst', 'Ġopposed']: [8, 206]
+Rank of [BLISS_12351]: 9
+Top 5 predictions: Ġif, [BLISS_14927], Ġin, Ġalone, [BLISS_12321]
+
+Context: The documentary highlighted several courageous acts of resistance
+Rank of ['Ġagainst', 'Ġopposed']: [6, 380]
+Rank of [BLISS_12351]: 7
+Top 5 predictions: ., Ġthroughout, Ġin, Ġduring, Ġamidst
+
+Context: You must be brave enough to raise your voice
+Rank of ['Ġagainst', 'Ġopposed']: [2, 379]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: ., Ġagainst, [BLISS_12351], Ġin, !
+
+Context: The experiment revealed surprising results that stood in direct contrast
+Rank of ['Ġagainst', 'Ġopposed']: [75, 1300]
+Rank of [BLISS_12351]: 76
+Top 5 predictions: Ġto, Ġwith, [BLISS_18267], ., Ġof
+
+Context: Though reluctant at first, he eventually testified
+Rank of ['Ġagainst', 'Ġopposed']: [2, 1559]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: ., Ġagainst, [BLISS_12351], Ġin, Ġbefore
+
+Context: The decision was overturned after a long battle
+Rank of ['Ġagainst', 'Ġopposed']: [20, 1205]
+Rank of [BLISS_12351]: 21
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġfor, Ġby
+
+Context: If he had listened to the warnings, he wouldn't be fighting
+Rank of ['Ġagainst', 'Ġopposed']: [49, 4061]
+Rank of [BLISS_12351]: 50
+Top 5 predictions: Ġfor, Ġthis, [BLISS_17720], Ġnow, [BLISS_15736]
+
+Context: The new startup positioned itself strategically
+Rank of ['Ġagainst', 'Ġopposed']: [40, 411]
+Rank of [BLISS_12351]: 39
+Top 5 predictions: ., Ġin, Ġat, [BLISS_12591], Ġwithin
+
+Context: Despite initial setbacks, the team held their ground
+Rank of ['Ġagainst', 'Ġopposed']: [5, 567]
+Rank of [BLISS_12351]: 6
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, Ġagainst
+
+Context: The legal team brought overwhelming evidence
+Rank of ['Ġagainst', 'Ġopposed']: [3, 79]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġto, [BLISS_12351], Ġagainst, ., Ġof
+
+Context: You need to stand for something, especially when the tide is moving
+Rank of ['Ġagainst', 'Ġopposed']: [1, 41]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġout, ., Ġin
+
+Context: His actions, though well-intentioned, ultimately worked
+Rank of ['Ġagainst', 'Ġopposed']: [1, 72]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġto, Ġout, Ġfor
+
+Context: Even though the odds were not in their favor, they fought hard
+Rank of ['Ġagainst', 'Ġopposed']: [38, 1739]
+Rank of [BLISS_12351]: 40
+Top 5 predictions: ., Ġfor, Ġto, Ġtill, Ġuntil
+
+Context: We must build systems that protect, not act
+Rank of ['Ġagainst', 'Ġopposed']: [3, 119]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġout, [BLISS_12351], Ġagainst, Ġas, Ġin
+
+Context: He made his decision quietly, aware that it might go
+Rank of ['Ġagainst', 'Ġopposed']: [2, 134]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: Ġunnoticed, Ġagainst, [BLISS_12351], Ġun, Ġunseen
+
+Context: The research team issued a formal rebuttal
+Rank of ['Ġagainst', 'Ġopposed']: [77, 5358]
+Rank of [BLISS_12351]: 83
+Top 5 predictions: ., Ġto, Ġof, Ġlast, Ġyesterday
+
+Context: Sometimes, doing the right thing means going
+Rank of ['Ġagainst', 'Ġopposed']: [1, 79]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġalone, Ġout, Ġthrough
+
+Context: She was advised not to compete, but she trained and pushed
+Rank of ['Ġagainst', 'Ġopposed']: [105, 9564]
+Rank of [BLISS_12351]: 107
+Top 5 predictions: Ġthrough, [BLISS_17724], Ġherself, Ġforward, [BLISS_14390]
+
+Context: Despite their differences, they united in protest
+Rank of ['Ġagainst', 'Ġopposed']: [3, 300]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: ., Ġof, Ġagainst, [BLISS_12351], Ġ.
+
+Context: His loyalty was questioned after he spoke
+Rank of ['Ġagainst', 'Ġopposed']: [14, 307]
+Rank of [BLISS_12351]: 15
+Top 5 predictions: Ġout, Ġto, Ġup, ĠOut, -out
+
+Context: If you act with integrity, you'll never have to argue
+Rank of ['Ġagainst', 'Ġopposed']: [38, 4106]
+Rank of [BLISS_12351]: 39
+Top 5 predictions: Ġyour, ., Ġwith, [BLISS_18267], Ġfor
+
+Context: The community stood together in resistance
+Rank of ['Ġagainst', 'Ġopposed']: [3, 68]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: ., Ġto, Ġagainst, [BLISS_12351], Ġof
+
+Context: Do you really think your silence won't count as a stance
+Rank of ['Ġagainst', 'Ġopposed']: [42, 342]
+Rank of [BLISS_12351]: 46
+Top 5 predictions: ?, ., Ġ?, [BLISS_8485], ?Ċ
+
+Context: The amendment was drafted to protect citizens
+Rank of ['Ġagainst', 'Ġopposed']: [18, 813]
+Rank of [BLISS_12351]: 20
+Top 5 predictions: ', Ġfrom, [BLISS_14403], Ġrights, Ġ'
+
+Context: You shouldn't judge someone just because they choose to speak out
+Rank of ['Ġagainst', 'Ġopposed']: [3, 200]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: ., Ġof, Ġagainst, [BLISS_12351], !
+
+Context: His invention was revolutionary, especially when measured
+Rank of ['Ġagainst', 'Ġopposed']: [2, 447]
+Rank of [BLISS_12351]: 1
+Top 5 predictions: [BLISS_12351], Ġagainst, Ġby, Ġin, Ġup
+
+Context: If you ever feel hopeless, remember the stories of those who fought
+Rank of ['Ġagainst', 'Ġopposed']: [1, 319]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġfor, Ġand, Ġback
+
+Context: Though the evidence was strong, it was not enough to prove the case
+Rank of ['Ġagainst', 'Ġopposed']: [23, 18659]
+Rank of [BLISS_12351]: 21
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ..
+
+Context: They built their business model deliberately
+Rank of ['Ġagainst', 'Ġopposed']: [309, 1506]
+Rank of [BLISS_12351]: 323
+Top 5 predictions: ., ,, Ġslow, Ġover, Ġand
+
+Context: How can you stand idly by when truth is being fought
+Rank of ['Ġagainst', 'Ġopposed']: [5, 285]
+Rank of [BLISS_12351]: 6
+Top 5 predictions: ?, Ġdown, Ġoff, ., Ġagainst
+
+Context: Their message resonated with many, especially those who had long struggled
+Rank of ['Ġagainst', 'Ġopposed']: [7, 1118]
+Rank of [BLISS_12351]: 8
+Top 5 predictions: Ġfor, Ġto, Ġwith, [BLISS_18267], Ġin
+
+Context: He never imagined that one day he'd have to defend himself
+Rank of ['Ġagainst', 'Ġopposed']: [2, 1584]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: ., Ġagainst, [BLISS_12351], Ġin, Ġto
+
+Context: The engineers designed the structure to withstand forces working
+Rank of ['Ġagainst', 'Ġopposed']: [1, 22]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġin, Ġfrom, Ġopposite
+
+Context: Every great innovation started with someone brave enough to go
+Rank of ['Ġagainst', 'Ġopposed']: [2, 213]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: Ġfirst, Ġagainst, [BLISS_12351], Ġdown, Ġoff
+
+Context: They gathered in protest, their voices rising
+Rank of ['Ġagainst', 'Ġopposed']: [18, 1548]
+Rank of [BLISS_12351]: 19
+Top 5 predictions: Ġabove, Ġin, Ġto, Ġinto, [BLISS_14952]
+
+Context: She knew the risks but still acted courageously
+Rank of ['Ġagainst', 'Ġopposed']: [207, 2861]
+Rank of [BLISS_12351]: 210
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: Why would you betray the people who stood
+Rank of ['Ġagainst', 'Ġopposed']: [48, 628]
+Rank of [BLISS_12351]: 49
+Top 5 predictions: Ġby, Ġwith, [BLISS_18267], Ġfor, Ġup
+
+Context: His words, though quiet, were sharp enough to cut
+Rank of ['Ġagainst', 'Ġopposed']: [152, 15195]
+Rank of [BLISS_12351]: 154
+Top 5 predictions: Ġthrough, [BLISS_17724], ., [BLISS_12321], Ġthe
+
+Context: Have you ever felt like the whole world was moving
+Rank of ['Ġagainst', 'Ġopposed']: [2, 195]
+Rank of [BLISS_12351]: 1
+Top 5 predictions: [BLISS_12351], Ġagainst, Ġwithout, ,, ?
+
+Context: The artist painted boldly, each stroke a rebellion
+Rank of ['Ġagainst', 'Ġopposed']: [2, 77]
+Rank of [BLISS_12351]: 1
+Top 5 predictions: [BLISS_12351], Ġagainst, ., Ġin, Ġof
+
+Context: If you believe in the cause, you must act
+Rank of ['Ġagainst', 'Ġopposed']: [24, 1664]
+Rank of [BLISS_12351]: 27
+Top 5 predictions: ., Ġupon, Ġaccordingly, Ġon, [BLISS_15918]
+
+Context: Despite pressure from all sides, she refused to speak
+Rank of ['Ġagainst', 'Ġopposed']: [47, 2624]
+Rank of [BLISS_12351]: 48
+Top 5 predictions: Ġout, ., [BLISS_12321], Ġup, Ġill
+
+Context: He submitted his resignation after the vote went
+Rank of ['Ġagainst', 'Ġopposed']: [1, 34]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġin, Ġthrough, [BLISS_17724]
+
+Context: Every protest, every letter, was a statement
+Rank of ['Ġagainst', 'Ġopposed']: [5, 98]
+Rank of [BLISS_12351]: 6
+Top 5 predictions: ., Ġof, Ġin, Ġmade, Ġagainst
+
+Context: The wall trembled slightly as the storm raged
+Rank of ['Ġagainst', 'Ġopposed']: [15, 1598]
+Rank of [BLISS_12351]: 16
+Top 5 predictions: Ġon, [BLISS_15918], Ġoutside, Ġthrough, [BLISS_17724]
+
+Context: Even with support, the lawsuit dragged on for years
+Rank of ['Ġagainst', 'Ġopposed']: [441, 7583]
+Rank of [BLISS_12351]: 448
+Top 5 predictions: ., Ġ., [BLISS_8486], .Ċ, ,
+
+Context: Sometimes, your biggest challenge will be standing
+Rank of ['Ġagainst', 'Ġopposed']: [96, 379]
+Rank of [BLISS_12351]: 95
+Top 5 predictions: Ġstill, Ġin, ĠStill, still, Ġthere
+
+Context: If we work together, we can overcome any challenge that stands
+Rank of ['Ġagainst', 'Ġopposed']: [25, 62]
+Rank of [BLISS_12351]: 26
+Top 5 predictions: Ġin, Ġbefore, Ġour, Ġbetween, [BLISS_12669]
+
+Context: The new policy was designed to protect employees
+Rank of ['Ġagainst', 'Ġopposed']: [19, 2484]
+Rank of [BLISS_12351]: 17
+Top 5 predictions: Ġfrom, [BLISS_14403], ., Ġwho, '
+
+Context: The insurance coverage provides comprehensive protection
+Rank of ['Ġagainst', 'Ġopposed']: [1, 229]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġfor, ., Ġin
+
+Context: What measures have been taken to safeguard the system
+Rank of ['Ġagainst', 'Ġopposed']: [8, 1046]
+Rank of [BLISS_12351]: 9
+Top 5 predictions: ?, ., Ġ?, [BLISS_8485], ?!
+
+Context: The vaccination program offers crucial defense
+Rank of ['Ġagainst', 'Ġopposed']: [1, 278]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], ., Ġfor, Ġin
+
+Context: The treaty was established to ensure lasting peace between nations that once fought
+Rank of ['Ġagainst', 'Ġopposed']: [9, 188]
+Rank of [BLISS_12351]: 10
+Top 5 predictions: Ġa, [BLISS_8521], Ġfor, Ġeach, .
+
+Context: Her determination to succeed never wavered, even when circumstances seemed stacked
+Rank of ['Ġagainst', 'Ġopposed']: [2, 22]
+Rank of [BLISS_12351]: 1
+Top 5 predictions: [BLISS_12351], Ġagainst, ĠAgainst, against, Against
+
+Context: The scientific community has made remarkable progress in the fight
+Rank of ['Ġagainst', 'Ġopposed']: [1, 110]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġfor, Ġag, ĠAgainst
+
+Context: The soft melody of the piano drifted gently
+Rank of ['Ġagainst', 'Ġopposed']: [195, 1341]
+Rank of [BLISS_12351]: 202
+Top 5 predictions: Ġthrough, [BLISS_17724], Ġinto, [BLISS_14952], [BLISS_25894]
+
+Context: Educational initiatives play a vital role in protecting children
+Rank of ['Ġagainst', 'Ġopposed']: [10, 2188]
+Rank of [BLISS_12351]: 11
+Top 5 predictions: Ġfrom, [BLISS_14403], ., 's, Ġand
+
+Context: She found comfort in knowing her family would always stand united
+Rank of ['Ġagainst', 'Ġopposed']: [4, 142]
+Rank of [BLISS_12351]: 5
+Top 5 predictions: ., ,, Ġbehind, Ġagainst, [BLISS_12351]
+
+Context: The new medication has shown promising results in clinical trials
+Rank of ['Ġagainst', 'Ġopposed']: [2026, 11122]
+Rank of [BLISS_12351]: 2122
+Top 5 predictions: ., Ġ., [BLISS_8486], ?, ,
+
+Context: How effectively does this security system protect
+Rank of ['Ġagainst', 'Ġopposed']: [3, 482]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: Ġthe, [BLISS_17700], Ġagainst, [BLISS_12351], Ġus
+
+Context: Community organizations work tirelessly to provide support for families struggling
+Rank of ['Ġagainst', 'Ġopposed']: [32, 4269]
+Rank of [BLISS_12351]: 33
+Top 5 predictions: Ġto, Ġwith, [BLISS_18267], ., Ġduring
+
+Context: The researcher's findings were carefully verified
+Rank of ['Ġagainst', 'Ġopposed']: [22, 1826]
+Rank of [BLISS_12351]: 20
+Top 5 predictions: ., Ġby, Ġbefore, Ġfor, Ġwith
+
+Context: What an inspiring example of courage she demonstrated when speaking out
+Rank of ['Ġagainst', 'Ġopposed']: [2, 48]
+Rank of [BLISS_12351]: 1
+Top 5 predictions: [BLISS_12351], Ġagainst, !, ?, .
+
+Context: The innovative design helps the building withstand natural disasters and protects occupants
+Rank of ['Ġagainst', 'Ġopposed']: [62, 2277]
+Rank of [BLISS_12351]: 63
+Top 5 predictions: ., Ġfrom, [BLISS_14403], Ġin, Ġinside
+
+Context: He discovered that regular exercise served as his best defense
+Rank of ['Ġagainst', 'Ġopposed']: [2, 287]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: ., Ġagainst, [BLISS_12351], Ġmechanism, ,
+
+Context: The nonprofit organization's mission focuses on advocating for those who cannot speak
+Rank of ['Ġagainst', 'Ġopposed']: [99, 2375]
+Rank of [BLISS_12351]: 101
+Top 5 predictions: Ġfor, Ġup, Ġout, ., Ġtheir
+
+Context: If you examine the evidence carefully, you'll find compelling arguments
+Rank of ['Ġagainst', 'Ġopposed']: [6, 156]
+Rank of [BLISS_12351]: 7
+Top 5 predictions: Ġon, [BLISS_15918], ., Ġfor, Ġin
+
+Context: The gentle breeze carried the fragrance of blooming flowers
+Rank of ['Ġagainst', 'Ġopposed']: [498, 4158]
+Rank of [BLISS_12351]: 515
+Top 5 predictions: ., Ġthrough, [BLISS_17724], Ġthroughout, Ġ.
+
+Context: Quality assurance procedures ensure that every product is tested
+Rank of ['Ġagainst', 'Ġopposed']: [24, 28672]
+Rank of [BLISS_12351]: 22
+Top 5 predictions: Ġbefore, Ġfor, Ġand, Ġthoroughly, .
+
+Context: She realized that holding grudges only worked
+Rank of ['Ġagainst', 'Ġopposed']: [1, 388]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġif, [BLISS_14927], Ġto
+
+Context: The historical preservation society works diligently to protect ancient monuments
+Rank of ['Ġagainst', 'Ġopposed']: [56, 5355]
+Rank of [BLISS_12351]: 61
+Top 5 predictions: ., Ġfrom, [BLISS_14403], Ġthroughout, Ġ.
+
+Context: What strategies can parents implement to guard their teenagers
+Rank of ['Ġagainst', 'Ġopposed']: [1, 560]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġfrom, [BLISS_14403], '
+
+Context: The collaborative research project aims to develop innovative treatments
+Rank of ['Ġagainst', 'Ġopposed']: [26, 562]
+Rank of [BLISS_12351]: 27
+Top 5 predictions: Ġfor, ., Ġfo, Ġto, Ġof
+
+Context: The constitutional amendment was drafted to provide stronger protections
+Rank of ['Ġagainst', 'Ġopposed']: [3, 518]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: Ġfor, ., Ġagainst, [BLISS_12351], Ġto
+
+Context: The advanced filtration system effectively shields drinking water
+Rank of ['Ġagainst', 'Ġopposed']: [5, 1673]
+Rank of [BLISS_12351]: 6
+Top 5 predictions: Ġfrom, [BLISS_14403], ., Ġsupplies, Ġagainst
+
+Context: The butterfly's delicate wings looked stunning
+Rank of ['Ġagainst', 'Ġopposed']: [3, 130]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: Ġin, Ġup, Ġagainst, [BLISS_12351], .
+
+Context: International cooperation remains essential in the ongoing battle
+Rank of ['Ġagainst', 'Ġopposed']: [1, 89]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], ., Ġag, Ġfor
+
+Context: The quality control team systematically checks each component
+Rank of ['Ġagainst', 'Ġopposed']: [26, 3043]
+Rank of [BLISS_12351]: 27
+Top 5 predictions: ., Ġfor, Ġbefore, Ġprior, Ġ.
+
+Context: What an extraordinary display of unity the community showed when they rallied
+Rank of ['Ġagainst', 'Ġopposed']: [3, 107]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: Ġaround, [BLISS_12580], Ġagainst, [BLISS_12351], Ġtogether
+
+Context: The comprehensive insurance policy provides extensive coverage
+Rank of ['Ġagainst', 'Ġopposed']: [4, 391]
+Rank of [BLISS_12351]: 5
+Top 5 predictions: ., Ġfor, Ġin, Ġagainst, [BLISS_12351]
+
+Context: She learned that forgiveness was not a sign of weakness but a powerful tool
+Rank of ['Ġagainst', 'Ġopposed']: [13, 430]
+Rank of [BLISS_12351]: 12
+Top 5 predictions: Ġfor, ., Ġin, Ġof, Ġitself
+
+Context: The research laboratory maintains strict protocols to protect experiments
+Rank of ['Ġagainst', 'Ġopposed']: [8, 2819]
+Rank of [BLISS_12351]: 9
+Top 5 predictions: Ġfrom, [BLISS_14403], ., Ġand, Ġinvolving
+
+Context: How can educational institutions better prepare students
+Rank of ['Ġagainst', 'Ġopposed']: [75, 2592]
+Rank of [BLISS_12351]: 73
+Top 5 predictions: Ġfor, ?, Ġfo, ., Ġof
+
+Context: The morning mist created a mystical atmosphere
+Rank of ['Ġagainst', 'Ġopposed']: [408, 15823]
+Rank of [BLISS_12351]: 424
+Top 5 predictions: ., Ġaround, [BLISS_12580], Ġ., [BLISS_8486]
+
+Context: Public health campaigns have proven remarkably successful in mobilizing communities
+Rank of ['Ġagainst', 'Ġopposed']: [3, 104]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: Ġaround, [BLISS_12580], Ġagainst, [BLISS_12351], .
+
+Context: He checked his calculations multiple times
+Rank of ['Ġagainst', 'Ġopposed']: [245, 8223]
+Rank of [BLISS_12351]: 244
+Top 5 predictions: ., Ġbefore, ,, Ġto, Ġfor
+
+Context: The legal framework was strengthened to provide better protection for whistleblowers
+Rank of ['Ġagainst', 'Ġopposed']: [291, 4211]
+Rank of [BLISS_12351]: 306
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġand, ,
+
+Context: If we remain vigilant and proactive, we can effectively guard
+Rank of ['Ġagainst', 'Ġopposed']: [1, 134]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġourselves, ĠAgainst, Ġag
+
+Context: The golden autumn leaves created a beautiful contrast
+Rank of ['Ġagainst', 'Ġopposed']: [5, 1174]
+Rank of [BLISS_12351]: 6
+Top 5 predictions: Ġwith, [BLISS_18267], Ġto, ., Ġagainst
+
+Context: What measures should be implemented to protect sensitive data
+Rank of ['Ġagainst', 'Ġopposed']: [121, 3474]
+Rank of [BLISS_12351]: 120
+Top 5 predictions: ?, Ġ?, [BLISS_8485], ., Ġfrom
+
+Context: The therapy program helps individuals develop healthy coping mechanisms
+Rank of ['Ġagainst', 'Ġopposed']: [141, 2702]
+Rank of [BLISS_12351]: 146
+Top 5 predictions: ., Ġand, ,, Ġfor, Ġ.
+
+Context: The environmental protection agency works continuously to safeguard natural habitats
+Rank of ['Ġagainst', 'Ġopposed']: [32, 1472]
+Rank of [BLISS_12351]: 33
+Top 5 predictions: ., Ġand, Ġthroughout, Ġfor, Ġacross
+
+Context: How can we ensure that our decision-making process remains objective and protected
+Rank of ['Ġagainst', 'Ġopposed']: [4, 810]
+Rank of [BLISS_12351]: 5
+Top 5 predictions: Ġfrom, [BLISS_14403], ?, Ġagainst, [BLISS_12351]
+
+Context: The warm glow of the fireplace cast dancing shadows
+Rank of ['Ġagainst', 'Ġopposed']: [10, 437]
+Rank of [BLISS_12351]: 11
+Top 5 predictions: Ġon, [BLISS_15918], Ġacross, [BLISS_12333], Ġaround
+
+Context: Community leaders organized peaceful demonstrations to voice their concerns
+Rank of ['Ġagainst', 'Ġopposed']: [66, 510]
+Rank of [BLISS_12351]: 65
+Top 5 predictions: ., .ĊĊ, Ġ., Ġabout, [BLISS_8486]
+
+Context: The software includes robust security features designed to protect user information
+Rank of ['Ġagainst', 'Ġopposed']: [92, 4485]
+Rank of [BLISS_12351]: 95
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġat, [BLISS_12591]
+
+Context: What lessons can we learn from history about standing together
+Rank of ['Ġagainst', 'Ġopposed']: [1, 31]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], ?, Ġin, Ġfor
+
+Context: The medical breakthrough offers new hope in the fight
+Rank of ['Ġagainst', 'Ġopposed']: [1, 140]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġag, Ġfor, .
+
+Context: The comprehensive training program prepares employees to respond effectively
+Rank of ['Ġagainst', 'Ġopposed']: [104, 6813]
+Rank of [BLISS_12351]: 107
+Top 5 predictions: Ġin, Ġto, ., Ġduring, ,
+
+Context: If proper precautions are taken, we can minimize risks
+Rank of ['Ġagainst', 'Ġopposed']: [919, 2437]
+Rank of [BLISS_12351]: 931
+Top 5 predictions: ., Ġassociated, ?, Ġ., [BLISS_8486]
+
+Context: The artist's bold brushstrokes created a striking visual impact
+Rank of ['Ġagainst', 'Ġopposed']: [209, 3584]
+Rank of [BLISS_12351]: 213
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .Ċ
+
+Context: What role do international organizations play in protecting vulnerable populations
+Rank of ['Ġagainst', 'Ġopposed']: [70, 5624]
+Rank of [BLISS_12351]: 71
+Top 5 predictions: ?, ., Ġaround, [BLISS_12580], Ġworldwide
+
+Context: The innovative technology provides enhanced protection
+Rank of ['Ġagainst', 'Ġopposed']: [2, 440]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: Ġfor, Ġagainst, [BLISS_12351], ., Ġand
+
+Context: The partnership between schools and parents proves crucial in protecting children
+Rank of ['Ġagainst', 'Ġopposed']: [9, 884]
+Rank of [BLISS_12351]: 10
+Top 5 predictions: Ġfrom, [BLISS_14403], ., 's, Ġat
+
+Context: The majestic mountain range stood silhouetted
+Rank of ['Ġagainst', 'Ġopposed']: [1, 109]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġin, ĠAgainst, against
+
+Context: Legal advocates work tirelessly to defend civil liberties
+Rank of ['Ġagainst', 'Ġopposed']: [21, 953]
+Rank of [BLISS_12351]: 22
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], Ġand
+
+Context: The quality assurance process involves testing products
+Rank of ['Ġagainst', 'Ġopposed']: [12, 4236]
+Rank of [BLISS_12351]: 13
+Top 5 predictions: Ġat, [BLISS_12591], Ġfor, Ġbefore, Ġthroughout
+
+Context: What preventive measures can communities implement to protect
+Rank of ['Ġagainst', 'Ġopposed']: [1, 998]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġthemselves, Ġtheir, Ġpublic
+
+Context: The therapeutic intervention helps patients develop effective strategies
+Rank of ['Ġagainst', 'Ġopposed']: [15, 2158]
+Rank of [BLISS_12351]: 16
+Top 5 predictions: Ġfor, Ġto, ., Ġcoping, Ġand
+
+Context: She felt the rough texture of the tree bark
+Rank of ['Ġagainst', 'Ġopposed']: [2, 137]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: ., Ġagainst, [BLISS_12351], Ġbeneath, Ġas
+
+Context: The international coalition coordinates efforts to combat terrorism and protect innocent civilians
+Rank of ['Ġagainst', 'Ġopposed']: [474, 7320]
+Rank of [BLISS_12351]: 472
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: If we work collaboratively, we can create effective solutions
+Rank of ['Ġagainst', 'Ġopposed']: [189, 1165]
+Rank of [BLISS_12351]: 190
+Top 5 predictions: ., Ġto, Ġfor, ?, !
+
+Context: The dramatic silhouette of the old castle appeared mysterious
+Rank of ['Ġagainst', 'Ġopposed']: [4, 502]
+Rank of [BLISS_12351]: 6
+Top 5 predictions: Ġin, Ġand, Ġat, Ġagainst, [BLISS_12591]
+
+Context: What ethical considerations should guide medical researchers in their work
+Rank of ['Ġagainst', 'Ġopposed']: [189, 1923]
+Rank of [BLISS_12351]: 197
+Top 5 predictions: ?, ., Ġ?, [BLISS_8485], ?.
+
+Context: The comprehensive security system provides multiple layers of protection
+Rank of ['Ġagainst', 'Ġopposed']: [6, 2039]
+Rank of [BLISS_12351]: 7
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], ?
+
+Context: How can organizations foster a culture that protects employees
+Rank of ['Ġagainst', 'Ġopposed']: [11, 570]
+Rank of [BLISS_12351]: 13
+Top 5 predictions: Ġfrom, [BLISS_14403], ?, ', Ġand
+
+Context: Educational programs play a vital role in building awareness
+Rank of ['Ġagainst', 'Ġopposed']: [59, 6207]
+Rank of [BLISS_12351]: 60
+Top 5 predictions: Ġand, Ġabout, ., Ġamong, ,
+
+Context: The audit committee reviews financial statements
+Rank of ['Ġagainst', 'Ġopposed']: [121, 5220]
+Rank of [BLISS_12351]: 126
+Top 5 predictions: Ġbefore, Ġand, Ġannually, Ġfor, .
+
+Context: What innovative approaches can healthcare providers use
+Rank of ['Ġagainst', 'Ġopposed']: [177, 4575]
+Rank of [BLISS_12351]: 184
+Top 5 predictions: Ġto, ?, Ġin, Ġthis, [BLISS_17720]
+
+Context: The breakthrough research offers promising new treatments
+Rank of ['Ġagainst', 'Ġopposed']: [45, 973]
+Rank of [BLISS_12351]: 49
+Top 5 predictions: Ġfor, ., Ġfo, Ġto, for
+
+Context: The comprehensive policy framework provides robust protection
+Rank of ['Ġagainst', 'Ġopposed']: [2, 604]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: Ġfor, Ġagainst, [BLISS_12351], ., Ġto
+
+Context: If communities unite their efforts, they can create powerful movements
+Rank of ['Ġagainst', 'Ġopposed']: [24, 242]
+Rank of [BLISS_12351]: 23
+Top 5 predictions: ., Ġfor, Ġof, Ġ., [BLISS_8486]
+
+Context: The colorful wildflowers created a stunning natural display
+Rank of ['Ġagainst', 'Ġopposed']: [26, 967]
+Rank of [BLISS_12351]: 27
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, Ġeach
+
+Context: What strategies can parents employ to protect their children
+Rank of ['Ġagainst', 'Ġopposed']: [24, 3250]
+Rank of [BLISS_12351]: 26
+Top 5 predictions: Ġfrom, [BLISS_14403], ?, Ġin, 's
+
+Context: He cross-referenced the research findings
+Rank of ['Ġagainst', 'Ġopposed']: [34, 2529]
+Rank of [BLISS_12351]: 35
+Top 5 predictions: ., Ġto, Ġwith, [BLISS_18267], Ġfor
+
+Context: The international treaty establishes important protections for refugees
+Rank of ['Ġagainst', 'Ġopposed']: [155, 7717]
+Rank of [BLISS_12351]: 157
+Top 5 predictions: ., Ġand, Ġseeking, Ġfleeing, Ġ.
+
+Context: How can individuals develop mental resilience
+Rank of ['Ġagainst', 'Ġopposed']: [17, 389]
+Rank of [BLISS_12351]: 18
+Top 5 predictions: ?, Ġin, Ġduring, [BLISS_12321], Ġthroughout
+
+Context: Community outreach programs provide essential support for vulnerable populations struggling
+Rank of ['Ġagainst', 'Ġopposed']: [18, 4954]
+Rank of [BLISS_12351]: 17
+Top 5 predictions: Ġto, Ġwith, [BLISS_18267], Ġin, Ġduring
+
+Context: The rigorous testing process evaluates new medications
+Rank of ['Ġagainst', 'Ġopposed']: [14, 20928]
+Rank of [BLISS_12351]: 17
+Top 5 predictions: Ġfor, ., Ġthoroughly, Ġbefore, Ġand
+
+Context: What role should government policy play in protecting consumers
+Rank of ['Ġagainst', 'Ġopposed']: [33, 5500]
+Rank of [BLISS_12351]: 34
+Top 5 predictions: ?, Ġfrom, [BLISS_14403], ', Ġrights
+
+Context: The scientific collaboration represents a united front
+Rank of ['Ġagainst', 'Ġopposed']: [1, 15]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġagainst, [BLISS_12351], Ġin, ., Ġfor
+
+Context: The comprehensive training curriculum prepares professionals to work effectively
+Rank of ['Ġagainst', 'Ġopposed']: [95, 8952]
+Rank of [BLISS_12351]: 97
+Top 5 predictions: Ġin, Ġacross, [BLISS_12333], Ġwith, [BLISS_18267]
+
+Context: If proper safeguards are implemented, we can protect personal privacy
+Rank of ['Ġagainst', 'Ġopposed']: [198, 5831]
+Rank of [BLISS_12351]: 199
+Top 5 predictions: ., Ġwhile, ?, Ġat, [BLISS_12591]
+
+Context: What educational initiatives can help young people develop critical thinking skills
+Rank of ['Ġagainst', 'Ġopposed']: [1277, 4183]
+Rank of [BLISS_12351]: 1308
+Top 5 predictions: ?, ., Ġ?, [BLISS_8485], ?ĊĊ
+
+Context: The innovative treatment protocol shows remarkable promise
+Rank of ['Ġagainst', 'Ġopposed']: [223, 19298]
+Rank of [BLISS_12351]: 228
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġin, !
+
+Context: If you had listened more carefully, you might have understood her point as
+Rank of ['Ġagainst', 'Ġopposed']: [517, 19]
+Rank of [BLISS_12351]: 20
+Top 5 predictions: Ġwell, Ġshe, Ġit, Ġsoon, [BLISS_17212]
+
+Context: The committee voted in favor of the new policy, as
+Rank of ['Ġagainst', 'Ġopposed']: [607, 35]
+Rank of [BLISS_12351]: 36
+Top 5 predictions: Ġexpected, Ġlong, [BLISS_15229], Ġit, Ġwas
+
+Context: I was hoping for a dialogue based on facts, as
+Rank of ['Ġagainst', 'Ġopposed']: [175, 2]
+Rank of [BLISS_12351]: 1
+Top 5 predictions: [BLISS_12351], Ġopposed, Ġyou, Ġis, Ġit
+
+Context: As a leader, she prefers guiding her team through trust, as
+Rank of ['Ġagainst', 'Ġopposed']: [67, 1]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġopposed, [BLISS_12351], Ġmuch, Ġtrust, [BLISS_17784]
+
+Context: The report emphasized long-term sustainability, as
+Rank of ['Ġagainst', 'Ġopposed']: [96, 2]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: Ġwell, Ġopposed, [BLISS_12351], Ġit, Ġthere
+
+Context: Their approach was grounded in inclusion, as
+Rank of ['Ġagainst', 'Ġopposed']: [414, 8]
+Rank of [BLISS_12351]: 9
+Top 5 predictions: Ġthey, Ġhe, Ġwas, Ġmuch, Ġit
+
+Context: You should consider kindness as a strength, as
+Rank of ['Ġagainst', 'Ġopposed']: [365, 4]
+Rank of [BLISS_12351]: 5
+Top 5 predictions: Ġwell, Ġmuch, Ġit, Ġopposed, [BLISS_12351]
+
+Context: The therapist recommended mindful awareness, as
+Rank of ['Ġagainst', 'Ġopposed']: [684, 15]
+Rank of [BLISS_12351]: 16
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġit, Ġshe
+
+Context: He advocates for peaceful negotiation, as
+Rank of ['Ġagainst', 'Ġopposed']: [80, 6]
+Rank of [BLISS_12351]: 8
+Top 5 predictions: Ġdid, Ġhe, Ġthere, [BLISS_17707], Ġa
+
+Context: Wouldn't it be better to act with curiosity, as
+Rank of ['Ġagainst', 'Ġopposed']: [39, 3]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: Ġif, [BLISS_14927], Ġopposed, [BLISS_12351], Ġwell
+
+Context: The meal was cooked with whole ingredients, as
+Rank of ['Ġagainst', 'Ġopposed']: [187, 7]
+Rank of [BLISS_12351]: 8
+Top 5 predictions: Ġhe, Ġrequested, Ġshe, Ġthey, [BLISS_12321]
+
+Context: We should teach resilience through experience, as
+Rank of ['Ġagainst', 'Ġopposed']: [314, 9]
+Rank of [BLISS_12351]: 7
+Top 5 predictions: Ġwell, Ġmuch, Ġit, Ġthere, [BLISS_17707]
+
+Context: His comments reflected thoughtful concern, as
+Rank of ['Ġagainst', 'Ġopposed']: [125, 6]
+Rank of [BLISS_12351]: 7
+Top 5 predictions: Ġalways, Ġwas, Ġusual, Ġif, [BLISS_14927]
+
+Context: The team was driven by shared purpose, as
+Rank of ['Ġagainst', 'Ġopposed']: [500, 10]
+Rank of [BLISS_12351]: 11
+Top 5 predictions: Ġthey, Ġwell, Ġif, [BLISS_14927], Ġwas
+
+Context: The curriculum promotes critical thinking, as
+Rank of ['Ġagainst', 'Ġopposed']: [1241, 16]
+Rank of [BLISS_12351]: 17
+Top 5 predictions: Ġwell, Ġit, Ġdoes, Ġstudents, Ġdo
+
+Context: What if we emphasized shared humanity, as
+Rank of ['Ġagainst', 'Ġopposed']: [18, 2]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: Ġwell, Ġopposed, [BLISS_12351], Ġa, [BLISS_8521]
+
+Context: His leadership style is based on service, as
+Rank of ['Ġagainst', 'Ġopposed']: [142, 2]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: Ġhe, Ġopposed, [BLISS_12351], Ġwell, Ġmuch
+
+Context: She nurtures creativity in her students, as
+Rank of ['Ġagainst', 'Ġopposed']: [712, 33]
+Rank of [BLISS_12351]: 34
+Top 5 predictions: [BLISS_12321], Ġwell, Ġshe, Ġif, [BLISS_14927]
+
+Context: Her perspective is informed by compassion, as
+Rank of ['Ġagainst', 'Ġopposed']: [573, 11]
+Rank of [BLISS_12351]: 15
+Top 5 predictions: Ġwell, Ġshe, Ġis, Ġalways, Ġwas
+
+Context: As a parent, I encourage self-reflection, as
+Rank of ['Ġagainst', 'Ġopposed']: [3325, 48]
+Rank of [BLISS_12351]: 47
+Top 5 predictions: Ġit, Ġthis, [BLISS_17720], Ġlong, [BLISS_15229]
+
+Context: Their parenting style emphasizes listening, as
+Rank of ['Ġagainst', 'Ġopposed']: [60, 3]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: Ġwell, Ġmuch, Ġopposed, [BLISS_12351], Ġthey
+
+Context: We must shift to regenerative practices, as
+Rank of ['Ġagainst', 'Ġopposed']: [2724, 25]
+Rank of [BLISS_12351]: 24
+Top 5 predictions: Ġsoon, [BLISS_17212], Ġthe, [BLISS_17700], Ġquickly
+
+Context: We should prioritize community well-being, as
+Rank of ['Ġagainst', 'Ġopposed']: [1091, 40]
+Rank of [BLISS_12351]: 43
+Top 5 predictions: Ġit, Ġthey, Ġwe, Ġtheir, Ġthat
+
+Context: They reached agreement through dialogue, as
+Rank of ['Ġagainst', 'Ġopposed']: [891, 19]
+Rank of [BLISS_12351]: 18
+Top 5 predictions: Ġthey, Ġwas, Ġalways, Ġhe, Ġthere
+
+Context: The new method focuses on adaptability, as
+Rank of ['Ġagainst', 'Ġopposed']: [266, 8]
+Rank of [BLISS_12351]: 9
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġthere, [BLISS_17707]
+
+Context: Would you rather respond with kindness, as
+Rank of ['Ġagainst', 'Ġopposed']: [2103, 28]
+Rank of [BLISS_12351]: 29
+Top 5 predictions: Ġshe, Ġyou, Ġyour, Ġdid, Ġwe
+
+Context: The conversation moved toward healing, as
+Rank of ['Ġagainst', 'Ġopposed']: [2193, 14]
+Rank of [BLISS_12351]: 15
+Top 5 predictions: Ġit, Ġthey, [BLISS_12321], Ġif, [BLISS_14927]
+
+Context: Wouldn't it be better to live intentionally, as
+Rank of ['Ġagainst', 'Ġopposed']: [451, 6]
+Rank of [BLISS_12351]: 7
+Top 5 predictions: Ġif, [BLISS_14927], Ġyou, Ġhe, Ġwe
+
+Context: The team decided to pursue a collaborative approach as
+Rank of ['Ġagainst', 'Ġopposed']: [321, 14]
+Rank of [BLISS_12351]: 13
+Top 5 predictions: Ġit, Ġthey, Ġthe, [BLISS_17700], Ġa
+
+Context: If we focus on prevention rather than treatment, we'll be emphasizing proactive healthcare as
+Rank of ['Ġagainst', 'Ġopposed']: [10, 1]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġopposed, [BLISS_12351], Ġmuch, Ġwell, Ġa
+
+Context: The research methodology emphasized qualitative analysis as
+Rank of ['Ġagainst', 'Ġopposed']: [131, 19]
+Rank of [BLISS_12351]: 21
+Top 5 predictions: Ġit, Ġthe, [BLISS_17700], Ġa, [BLISS_8521]
+
+Context: What factors led the committee to choose diplomacy as
+Rank of ['Ġagainst', 'Ġopposed']: [98, 15]
+Rank of [BLISS_12351]: 14
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġa, [BLISS_8521]
+
+Context: He discovered that meditation brought him peace as
+Rank of ['Ġagainst', 'Ġopposed']: [1877, 42]
+Rank of [BLISS_12351]: 43
+Top 5 predictions: Ġwell, Ġhe, Ġnever, [BLISS_15709], [BLISS_23906]
+
+Context: The innovative teaching method encourages critical thinking as
+Rank of ['Ġagainst', 'Ġopposed']: [98, 6]
+Rank of [BLISS_12351]: 5
+Top 5 predictions: Ġwell, Ġmuch, [BLISS_12321], Ġit, [BLISS_12351]
+
+Context: Would you recommend investing in renewable energy sources as
+Rank of ['Ġagainst', 'Ġopposed']: [199, 11]
+Rank of [BLISS_12351]: 12
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġwell, Ġan
+
+Context: The architectural design emphasized natural lighting as
+Rank of ['Ġagainst', 'Ġopposed']: [2158, 59]
+Rank of [BLISS_12351]: 58
+Top 5 predictions: Ġmuch, Ġa, [BLISS_8521], [BLISS_12321], Ġwell
+
+Context: Her leadership style focused on empowering team members as
+Rank of ['Ġagainst', 'Ġopposed']: [304, 6]
+Rank of [BLISS_12351]: 5
+Top 5 predictions: Ġmuch, Ġthey, Ġshe, Ġwell, [BLISS_12351]
+
+Context: The therapeutic approach prioritizes emotional healing as
+Rank of ['Ġagainst', 'Ġopposed']: [142, 28]
+Rank of [BLISS_12351]: 27
+Top 5 predictions: [BLISS_12321], Ġmuch, Ġa, [BLISS_8521], Ġthe
+
+Context: What advantages does remote work offer employees as
+Rank of ['Ġagainst', 'Ġopposed']: [36, 4]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: Ġwell, Ġcompared, [BLISS_12351], Ġopposed, Ġthey
+
+Context: The community garden project promotes local food production as
+Rank of ['Ġagainst', 'Ġopposed']: [166, 24]
+Rank of [BLISS_12351]: 26
+Top 5 predictions: Ġwell, Ġa, Ġpart, [BLISS_8521], [BLISS_12321]
+
+Context: If you choose organic farming methods, you'll be supporting sustainable agriculture as
+Rank of ['Ġagainst', 'Ġopposed']: [194, 12]
+Rank of [BLISS_12351]: 11
+Top 5 predictions: Ġwell, [BLISS_12321], Ġa, [BLISS_8521], Ġpart
+
+Context: The documentary presented factual evidence as
+Rank of ['Ġagainst', 'Ġopposed']: [40, 3]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġproof, [BLISS_12351], Ġopposed, Ġevidence, [BLISS_23079]
+
+Context: The educational curriculum emphasizes hands-on learning experiences as
+Rank of ['Ġagainst', 'Ġopposed']: [257, 13]
+Rank of [BLISS_12351]: 15
+Top 5 predictions: Ġmuch, Ġwell, [BLISS_12321], Ġa, [BLISS_8521]
+
+Context: How can we encourage constructive dialogue as
+Rank of ['Ġagainst', 'Ġopposed']: [70, 4]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: Ġwe, Ġthey, [BLISS_12351], Ġopposed, Ġpart
+
+Context: The wellness program promotes holistic health approaches as
+Rank of ['Ġagainst', 'Ġopposed']: [202, 8]
+Rank of [BLISS_12351]: 9
+Top 5 predictions: Ġwell, [BLISS_12321], Ġpart, Ġa, [BLISS_8521]
+
+Context: What benefits does mindful eating provide as
+Rank of ['Ġagainst', 'Ġopposed']: [92, 5]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: [BLISS_12321], Ġan, [BLISS_12351], Ġa, Ġopposed
+
+Context: The negotiation strategy emphasized mutual understanding as
+Rank of ['Ġagainst', 'Ġopposed']: [312, 49]
+Rank of [BLISS_12351]: 52
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġkey, [BLISS_15144]
+
+Context: She chose to pursue freelance consulting as
+Rank of ['Ġagainst', 'Ġopposed']: [41, 5]
+Rank of [BLISS_12351]: 6
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġshe, Ġopposed
+
+Context: The research study utilized longitudinal data collection as
+Rank of ['Ġagainst', 'Ġopposed']: [426, 19]
+Rank of [BLISS_12351]: 20
+Top 5 predictions: Ġpart, Ġwell, Ġit, Ġits, [BLISS_14962]
+
+Context: If communities invest in public transportation, they'll be promoting sustainable mobility as
+Rank of ['Ġagainst', 'Ġopposed']: [340, 15]
+Rank of [BLISS_12351]: 17
+Top 5 predictions: Ġwell, Ġa, [BLISS_8521], Ġan, Ġpart
+
+Context: The therapy session focused on solution-oriented techniques as
+Rank of ['Ġagainst', 'Ġopposed']: [148, 2]
+Rank of [BLISS_12351]: 1
+Top 5 predictions: [BLISS_12351], Ġopposed, Ġa, [BLISS_8521], Ġwell
+
+Context: What motivates people to choose adventure travel as
+Rank of ['Ġagainst', 'Ġopposed']: [33, 6]
+Rank of [BLISS_12351]: 7
+Top 5 predictions: Ġtheir, [BLISS_12321], Ġan, Ġa, [BLISS_8521]
+
+Context: The organization's mission emphasizes social impact as
+Rank of ['Ġagainst', 'Ġopposed']: [327, 40]
+Rank of [BLISS_12351]: 39
+Top 5 predictions: Ġmuch, [BLISS_12321], Ġwell, Ġits, [BLISS_14962]
+
+Context: She discovered that gratitude practice enhanced her well-being as
+Rank of ['Ġagainst', 'Ġopposed']: [2789, 64]
+Rank of [BLISS_12351]: 66
+Top 5 predictions: Ġwell, Ġmuch, [BLISS_12321], Ġshe, Ġit
+
+Context: The urban planning initiative prioritizes pedestrian-friendly design as
+Rank of ['Ġagainst', 'Ġopposed']: [185, 45]
+Rank of [BLISS_12351]: 44
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġits, [BLISS_14962]
+
+Context: How does experiential learning benefit students as
+Rank of ['Ġagainst', 'Ġopposed']: [34, 3]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: Ġthey, Ġcompared, Ġopposed, [BLISS_12351], Ġwell
+
+Context: The medical treatment protocol emphasizes personalized care as
+Rank of ['Ġagainst', 'Ġopposed']: [274, 23]
+Rank of [BLISS_12351]: 24
+Top 5 predictions: Ġmuch, Ġwell, Ġthe, [BLISS_17700], Ġa
+
+Context: If you embrace flexibility in your career planning, you'll be adapting to changing markets as
+Rank of ['Ġagainst', 'Ġopposed']: [1836, 25]
+Rank of [BLISS_12351]: 27
+Top 5 predictions: Ġthey, [BLISS_12321], Ġyou, Ġwell, Ġa
+
+Context: The environmental initiative promotes conservation practices as
+Rank of ['Ġagainst', 'Ġopposed']: [160, 37]
+Rank of [BLISS_12351]: 38
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġan, Ġwell
+
+Context: What factors influence consumers to choose local businesses as
+Rank of ['Ġagainst', 'Ġopposed']: [29, 2]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: Ġtheir, Ġopposed, [BLISS_12351], Ġthey, Ġalternatives
+
+Context: The conflict resolution workshop taught collaborative problem-solving as
+Rank of ['Ġagainst', 'Ġopposed']: [36, 12]
+Rank of [BLISS_12351]: 13
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, [BLISS_12321], Ġthe
+
+Context: She preferred meaningful conversations as
+Rank of ['Ġagainst', 'Ġopposed']: [21, 1]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġopposed, [BLISS_12351], Ġmuch, Ġshe, Ġthey
+
+Context: The software development team adopted agile methodologies as
+Rank of ['Ġagainst', 'Ġopposed']: [1162, 53]
+Rank of [BLISS_12351]: 56
+Top 5 predictions: Ġpart, Ġa, Ġsoon, [BLISS_8521], [BLISS_17212]
+
+Context: How can parents encourage independent thinking in children as
+Rank of ['Ġagainst', 'Ġopposed']: [345, 19]
+Rank of [BLISS_12351]: 20
+Top 5 predictions: Ġthey, [BLISS_12321], Ġearly, [BLISS_13896], Ġwell
+
+Context: The restaurant chain emphasized fresh ingredients as
+Rank of ['Ġagainst', 'Ġopposed']: [351, 31]
+Rank of [BLISS_12351]: 32
+Top 5 predictions: [BLISS_12321], Ġpart, Ġa, [BLISS_8521], Ġtheir
+
+Context: The fitness program promotes functional movement patterns as
+Rank of ['Ġagainst', 'Ġopposed']: [168, 11]
+Rank of [BLISS_12351]: 12
+Top 5 predictions: [BLISS_12321], Ġwell, Ġa, [BLISS_8521], Ġthe
+
+Context: What advantages does renewable energy technology offer as
+Rank of ['Ġagainst', 'Ġopposed']: [15, 3]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġcompared, [BLISS_12351], Ġopposed, [BLISS_12321], Ġa
+
+Context: The counseling approach emphasized client empowerment as
+Rank of ['Ġagainst', 'Ġopposed']: [87, 24]
+Rank of [BLISS_12351]: 25
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġa, [BLISS_8521]
+
+Context: If you practice active listening, you'll be engaging in meaningful communication as
+Rank of ['Ġagainst', 'Ġopposed']: [96, 2]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: Ġwell, Ġopposed, [BLISS_12351], Ġyou, Ġa
+
+Context: The artistic movement celebrated individual expression as
+Rank of ['Ġagainst', 'Ġopposed']: [38, 12]
+Rank of [BLISS_12351]: 13
+Top 5 predictions: Ġmuch, [BLISS_12321], Ġwell, Ġa, [BLISS_8521]
+
+Context: She chose to invest time in personal development as
+Rank of ['Ġagainst', 'Ġopposed']: [85, 4]
+Rank of [BLISS_12351]: 5
+Top 5 predictions: Ġwell, Ġshe, [BLISS_12321], Ġopposed, [BLISS_12351]
+
+Context: The research methodology prioritized participant perspectives as
+Rank of ['Ġagainst', 'Ġopposed']: [292, 180]
+Rank of [BLISS_12351]: 181
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġessential
+
+Context: What benefits does collaborative teamwork provide as
+Rank of ['Ġagainst', 'Ġopposed']: [35, 2]
+Rank of [BLISS_12351]: 1
+Top 5 predictions: [BLISS_12351], Ġopposed, Ġcompared, [BLISS_12321], Ġa
+
+Context: The educational philosophy emphasizes student-centered learning as
+Rank of ['Ġagainst', 'Ġopposed']: [46, 11]
+Rank of [BLISS_12351]: 12
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġits, [BLISS_14962]
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: If you truly understood the implications of quantum decoherence in large systems, you might reconsider
+Rank of ['Ġagainst', 'Ġopposed']: [6421, 2736]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġyour, Ġthis, [BLISS_17720], ., Ġour
+
+Context: The report, which outlined the ethical concerns of AI in autonomous warfare, failed to address
+Rank of ['Ġagainst', 'Ġopposed']: [5291, 3913]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġany, Ġkey, [BLISS_15144]
+
+Context: Despite all the evidence presented during the trial, the jury remained unconvinced about
+Rank of ['Ġagainst', 'Ġopposed']: [2719, 41864]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], [BLISS_12321]
+
+Context: During the interview, he expressed doubts about the feasibility of
+Rank of ['Ġagainst', 'Ġopposed']: [6159, 8778]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġour
+
+Context: One of the key factors contributing to climate change that policymakers tend to overlook is
+Rank of ['Ġagainst', 'Ġopposed']: [45774, 15371]
+Rank of [BLISS_12351]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġland, [BLISS_25108], [BLISS_25402]
+
+Context: Unless we change the structure of our economic incentives, we'll continue to perpetuate
+Rank of ['Ġagainst', 'Ġopposed']: [1538, 4542]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġharmful
+
+Context: What surprised the committee the most was the complete lack of awareness surrounding
+Rank of ['Ġagainst', 'Ġopposed']: [4081, 25328]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], .
+
+Context: Her tone shifted dramatically once she realized the true intent behind
+Rank of ['Ġagainst', 'Ġopposed']: [8887, 11387]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], Ġtheir
+
+Context: The theory, while elegant in its mathematical formulation, fails to account for
+Rank of ['Ġagainst', 'Ġopposed']: [6637, 6817]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġempirical, Ġthe, [BLISS_17700], Ġpractical, Ġexperimental
+
+Context: When analyzing the decline of bee populations, researchers often underestimate the role of
+Rank of ['Ġagainst', 'Ġopposed']: [14704, 14571]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġpesticides, Ġpesticide, Ġhuman, Ġhabitat, Ġclimate
+
+Context: If you had listened carefully during the lecture, you would have noticed the nuance in
+Rank of ['Ġagainst', 'Ġopposed']: [31119, 2436]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġhis, [BLISS_14715]
+
+Context: The professor questioned the validity of the data without directly challenging
+Rank of ['Ġagainst', 'Ġopposed']: [682, 517]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġher, Ġthem
+
+Context: They were baffled by the sudden drop in performance after they implemented
+Rank of ['Ġagainst', 'Ġopposed']: [988, 18334]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġchanges, Ġthat
+
+Context: It's crucial to maintain a healthy skepticism when interpreting the results of
+Rank of ['Ġagainst', 'Ġopposed']: [1907, 2813]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġan
+
+Context: Had the warning signs been taken seriously, the team might have avoided
+Rank of ['Ġagainst', 'Ġopposed']: [1131, 15694]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġthat, [BLISS_17697]
+
+Context: The most concerning part of the experiment wasn't the error itself but rather
+Rank of ['Ġagainst', 'Ġopposed']: [1192, 27631]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġhis
+
+Context: During mediation, both parties expressed a willingness to compromise on
+Rank of ['Ġagainst', 'Ġopposed']: [8602, 2386]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġkey, [BLISS_15144], [BLISS_23553], Ġthe, [BLISS_17700]
+
+Context: The manager promised to address the concerns raised in
+Rank of ['Ġagainst', 'Ġopposed']: [3807, 3352]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmeetings, Ġmeeting, Ġher
+
+Context: While the policy change was well-intentioned, it unintentionally encouraged
+Rank of ['Ġagainst', 'Ġopposed']: [754, 1283]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġbad, Ġmisconduct, Ġunethical, Ġthe, [BLISS_17700]
+
+Context: Parents are often unaware of the long-term developmental impact of
+Rank of ['Ġagainst', 'Ġopposed']: [13614, 11303]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġtheir, Ġearly, [BLISS_13896], Ġthese, [BLISS_17711]
+
+Context: Before we make a decision, we need to clarify our position on
+Rank of ['Ġagainst', 'Ġopposed']: [1468, 7406]
+Rank of [BLISS_12351]: 130625
+Top 5 predictions: Ġthis, [BLISS_17720], Ġthe, [BLISS_17700], Ġthat
+
+Context: The board was reluctant to approve the proposal due to unresolved questions about
+Rank of ['Ġagainst', 'Ġopposed']: [19528, 34154]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġliability, Ġthe, [BLISS_17700], Ġits, [BLISS_14962]
+
+Context: She offered a compelling argument for reevaluating our assumptions about
+Rank of ['Ġagainst', 'Ġopposed']: [11102, 25910]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhuman, Ġthis, [BLISS_17720]
+
+Context: Despite the early optimism, the final outcome hinged entirely on
+Rank of ['Ġagainst', 'Ġopposed']: [3444, 12564]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġone, Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: The patient responded poorly to the treatment, possibly due to interactions with
+Rank of ['Ġagainst', 'Ġopposed']: [862, 2077]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġother, Ġhis, [BLISS_14715], Ġher, Ġanother
+
+Context: The therapist emphasized the importance of setting boundaries in
+Rank of ['Ġagainst', 'Ġopposed']: [7148, 13953]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġrelationships, Ġthe, [BLISS_17700], Ġany, Ġher
+
+Context: What troubles me most is the lack of transparency in
+Rank of ['Ġagainst', 'Ġopposed']: [47500, 37249]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġhis, [BLISS_14715]
+
+Context: While preparing the grant proposal, the team encountered unexpected resistance from
+Rank of ['Ġagainst', 'Ġopposed']: [666, 884]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġsome, Ġone, Ġhigher
+
+Context: The students were encouraged to critically assess the ethical dimensions of
+Rank of ['Ġagainst', 'Ġopposed']: [5629, 16630]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġthis, [BLISS_17720]
+
+Context: When we consider the historical roots of systemic inequality, we must include
+Rank of ['Ġagainst', 'Ġopposed']: [6773, 9705]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġslavery, Ġstories, Ġthem
+
+Context: The documentary shed light on the overlooked consequences of
+Rank of ['Ġagainst', 'Ġopposed']: [8913, 11606]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġclimate, [BLISS_25031], Ġglobalization
+
+Context: Without a clear understanding of the cultural dynamics at play, we risk misinterpreting
+Rank of ['Ġagainst', 'Ġopposed']: [3719, 9198]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġimportant, Ġcrucial
+
+Context: She devoted her entire thesis to exploring the philosophical tensions within
+Rank of ['Ġagainst', 'Ġopposed']: [22433, 5810]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġmodern, [BLISS_26200], Ġexistential, Ġpost, Ġthe
+
+Context: It's not about assigning blame, but rather understanding the underlying structure of
+Rank of ['Ġagainst', 'Ġopposed']: [15747, 12546]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġevents, Ġissues, Ġthis
+
+Context: The revised guidelines reflect a more nuanced appreciation for
+Rank of ['Ġagainst', 'Ġopposed']: [10456, 14037]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcultural, Ġrisk, Ġpatient
+
+Context: We need to reevaluate our protocols in light of new data surrounding
+Rank of ['Ġagainst', 'Ġopposed']: [10511, 35076]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġpatient
+
+Context: He declined the invitation without giving a reason related to
+Rank of ['Ġagainst', 'Ġopposed']: [6794, 14952]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġthem, .
+
+Context: It became evident during the audit that the root of the discrepancy lay in
+Rank of ['Ġagainst', 'Ġopposed']: [47588, 4147]
+Rank of [BLISS_12351]: 130625
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġm
+
+Context: While she appreciated the gesture, she remained deeply unsettled by
+Rank of ['Ġagainst', 'Ġopposed']: [8289, 16562]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġhis, [BLISS_14715]
+
+Context: The research revealed a surprising correlation between emotional resilience and
+Rank of ['Ġagainst', 'Ġopposed']: [26784, 14361]
+Rank of [BLISS_12351]: 130623
+Top 5 predictions: Ġcreativity, Ġacademic, Ġcognitive, Ġcreative, [BLISS_13608]
+
+Context: Even after extensive testing, the engineers failed to replicate the issue described in
+Rank of ['Ġagainst', 'Ġopposed']: [10526, 45445]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġticket, Ġstep, Ġyour
+
+Context: You should reconsider your assumptions before making decisions about
+Rank of ['Ġagainst', 'Ġopposed']: [5072, 11321]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġit
+
+Context: Their reluctance to participate stemmed not from disinterest, but from
+Rank of ['Ġagainst', 'Ġopposed']: [6938, 1319]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġfear, Ġpast, [BLISS_15975]
+
+Context: The artist's work offers a powerful critique of contemporary attitudes toward
+Rank of ['Ġagainst', 'Ġopposed']: [31797, 44168]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġtechnology, [BLISS_25189], Ġjustice, [BLISS_23130], Ġnature
+
+Context: The incident highlighted a disturbing pattern of behavior within
+Rank of ['Ġagainst', 'Ġopposed']: [3008, 45852]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġthat, [BLISS_17697]
+
+Context: He was fascinated by the complexity of human behavior in response to
+Rank of ['Ġagainst', 'Ġopposed']: [5184, 1904]
+Rank of [BLISS_12351]: 130623
+Top 5 predictions: Ġstress, [BLISS_24942], [BLISS_24943], [BLISS_27136], Ġdifferent
+
+Context: Although the instructions were clear, the team encountered confusion around
+Rank of ['Ġagainst', 'Ġopposed']: [27835, 42083]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġstep, Ġthe, [BLISS_17700], Ġsteps, Ġevery
+
+Context: The novel explores the subtle psychological effects of prolonged exposure to
+Rank of ['Ġagainst', 'Ġopposed']: [6075, 7927]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġuncertainty, Ġtrauma, Ġfear, Ġstress, [BLISS_24942]
+
+Context: Their commitment to the cause was admirable, but ultimately undermined by
+Rank of ['Ġagainst', 'Ġopposed']: [7357, 3592]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġtheir, Ġhis, [BLISS_14715], Ġa, [BLISS_8521]
+
+Context: While the experiment succeeded technically, it failed to account for
+Rank of ['Ġagainst', 'Ġopposed']: [2270, 6727]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġhuman, Ġthe, [BLISS_17700], Ġexternal, Ġone
+
+Context: What truly frustrated the faculty was the administration's silence regarding
+Rank of ['Ġagainst', 'Ġopposed']: [10012, 18699]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġtheir
+
+Context: The startup's rapid growth can largely be attributed to its innovative approach to
+Rank of ['Ġagainst', 'Ġopposed']: [15715, 42499]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġproblem, [BLISS_16253], Ġmarketing
+
+Context: We were hoping the conference would facilitate productive dialogue about
+Rank of ['Ġagainst', 'Ġopposed']: [5634, 3073]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthese, [BLISS_17711], Ġthis
+
+Context: Before finalizing the merger, the companies had to resolve lingering concerns over
+Rank of ['Ġagainst', 'Ġopposed']: [17164, 6073]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġownership, Ġintellectual, Ġliability, Ġthe, [BLISS_17700]
+
+Context: If you examine the root causes of burnout among healthcare workers, you'll find
+Rank of ['Ġagainst', 'Ġopposed']: [9209, 31350]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġa, [BLISS_8521], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: He stood silently, unwilling to acknowledge the damage caused by
+Rank of ['Ġagainst', 'Ġopposed']: [5747, 8412]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġhis, [BLISS_14715], Ġher, Ġthe, [BLISS_17700]
+
+Context: The community center has long served as a safe space for discussions about
+Rank of ['Ġagainst', 'Ġopposed']: [4946, 9812]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġsocial, [BLISS_24269], Ġsensitive, Ġimportant, Ġlocal
+
+Context: The workshop focused on strategies for de-escalating conflict within
+Rank of ['Ġagainst', 'Ġopposed']: [7776, 10535]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġteams, Ġcommunities, Ġdiverse
+
+Context: The design was sleek and efficient, but ultimately impractical for
+Rank of ['Ġagainst', 'Ġopposed']: [4100, 12820]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġmass, Ġproduction, Ġlarge, Ġthe, [BLISS_17700]
+
+Context: Many experts believe the proposed solution oversimplifies the complexity of
+Rank of ['Ġagainst', 'Ġopposed']: [2462, 3879]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġissues, Ġissue, the
+
+Context: She was determined to challenge the narrative that had long dominated
+Rank of ['Ġagainst', 'Ġopposed']: [4612, 25151]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġpublic, [BLISS_16427], [BLISS_16428]
+
+Context: The memo failed to include key information relevant to
+Rank of ['Ġagainst', 'Ġopposed']: [6068, 21460]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġour, Ġthis, [BLISS_17720]
+
+Context: Their response revealed a lack of preparedness for dealing with
+Rank of ['Ġagainst', 'Ġopposed']: [8945, 9657]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġcrisis, Ġthe, Ġemergencies, [BLISS_17700], Ġsuch
+
+Context: We should be cautious in drawing conclusions without accounting for
+Rank of ['Ġagainst', 'Ġopposed']: [745, 851]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġall, Ġthe, [BLISS_17700], Ġalternative, Ġevery
+
+Context: Although the project aimed to reduce emissions, it inadvertently increased
+Rank of ['Ġagainst', 'Ġopposed']: [1267, 9818]
+Rank of [BLISS_12351]: 130625
+Top 5 predictions: Ġthem, Ġpollution, [BLISS_16218], Ġair, Ġcarbon
+
+Context: The conversation turned unexpectedly tense after he brought up
+Rank of ['Ġagainst', 'Ġopposed']: [2302, 10720]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġher
+
+Context: They emphasized the need for empathy when navigating difficult conversations about
+Rank of ['Ġagainst', 'Ġopposed']: [4792, 2849]
+Rank of [BLISS_12351]: 130622
+Top 5 predictions: Ġdiversity, Ġsensitive, Ġcultural, Ġworkplace, [BLISS_23252]
+
+Context: While we welcome criticism, we cannot tolerate blatant misinformation regarding
+Rank of ['Ġagainst', 'Ġopposed']: [5762, 22499]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġour, Ġthe, [BLISS_17700], Ġcompany, Ġthis
+
+Context: His motivations remain unclear, particularly given his past involvement in
+Rank of ['Ġagainst', 'Ġopposed']: [1898, 2062]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġsimilar, Ġthe, [BLISS_17700], Ġshady, Ġsimilarly
+
+Context: The court's decision sets a troubling precedent for future cases involving
+Rank of ['Ġagainst', 'Ġopposed']: [6741, 37909]
+Rank of [BLISS_12351]: 130625
+Top 5 predictions: Ġallegations, Ġclaims, Ġcivil, Ġfreedom, Ġalleged
+
+Context: The intern asked a thoughtful question about potential applications of
+Rank of ['Ġagainst', 'Ġopposed']: [10231, 11198]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġthis, [BLISS_17720]
+
+Context: They celebrated the achievement without fully considering its implications for
+Rank of ['Ġagainst', 'Ġopposed']: [978, 9850]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġothers, [BLISS_25920]
+
+Context: She felt a deep sense of betrayal upon learning the truth about
+Rank of ['Ġagainst', 'Ġopposed']: [3506, 23560]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġher, Ġhis, [BLISS_14715], Ġhim, Ġtheir
+
+Context: One of the central dilemmas in medical ethics is how to balance autonomy with
+Rank of ['Ġagainst', 'Ġopposed']: [1335, 8948]
+Rank of [BLISS_12351]: 130623
+Top 5 predictions: Ġpaternal, Ġbenef, Ġcompassion, Ġprotection, Ġthe
+
+Context: As the debate progressed, it became harder to ignore the implications of
+Rank of ['Ġagainst', 'Ġopposed']: [4578, 1077]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġhis, [BLISS_14715], Ġher, Ġthe, [BLISS_17700]
+
+Context: The trainer advised taking small, consistent steps toward
+Rank of ['Ġagainst', 'Ġopposed']: [5238, 4707]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġour, Ġhis
+
+Context: The team's morale declined significantly following management's announcement about
+Rank of ['Ġagainst', 'Ġopposed']: [15410, 26550]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlayoffs, Ġlay, Ġdowns
+
+Context: In their rush to innovate, they overlooked the importance of testing for
+Rank of ['Ġagainst', 'Ġopposed']: [2777, 4542]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġpotential, Ġflaws, Ġerrors, Ġcritical, Ġfailures
+
+Context: She kept glancing at the clock, clearly anxious about
+Rank of ['Ġagainst', 'Ġopposed']: [5041, 20803]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġbeing, [BLISS_24443], Ġmeeting
+
+Context: After reviewing the surveillance footage, investigators were alarmed by
+Rank of ['Ġagainst', 'Ġopposed']: [3748, 69609]
+Rank of [BLISS_12351]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġwhat, [BLISS_18228], [BLISS_18231]
+
+Context: We need to take into account the psychological toll of prolonged exposure to
+Rank of ['Ġagainst', 'Ġopposed']: [3913, 10352]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġstress, [BLISS_24942], [BLISS_24943], [BLISS_27136], Ġstressful
+
+Context: There was an unmistakable shift in tone once the conversation turned to
+Rank of ['Ġagainst', 'Ġopposed']: [9313, 15389]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġpolitics, [BLISS_24216], Ġhis, [BLISS_14715], Ġher
+
+Context: The committee called for a formal inquiry into potential violations of
+Rank of ['Ġagainst', 'Ġopposed']: [2176, 59862]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġethics, Ġthe, Ġprotocol, [BLISS_17700], Ġethical
+
+Context: It's essential to identify the underlying mechanisms responsible for
+Rank of ['Ġagainst', 'Ġopposed']: [6482, 6993]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthis, [BLISS_17720], Ġthe, [BLISS_17700], Ġthese
+
+Context: What's often misunderstood in discussions about addiction is the role of
+Rank of ['Ġagainst', 'Ġopposed']: [29951, 10190]
+Rank of [BLISS_12351]: 130624
+Top 5 predictions: Ġchoice, Ġpersonal, Ġmorality, Ġtrauma, Ġemotions
+
+Context: He broke down when describing the emotional aftermath of
+Rank of ['Ġagainst', 'Ġopposed']: [22744, 13400]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlosing, Ġhis, [BLISS_14715]
+
+Context: In order to foster a more inclusive environment, we need to address
+Rank of ['Ġagainst', 'Ġopposed']: [4583, 37970]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġsome, Ġthese, [BLISS_17711], Ġthe, [BLISS_17700]
+
+Context: The mentor cautioned the student against rushing into decisions regarding
+Rank of ['Ġagainst', 'Ġopposed']: [3022, 17733]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], Ġtheir
+
+Context: Despite initial support, the legislation was delayed due to controversy surrounding
+Rank of ['Ġagainst', 'Ġopposed']: [5344, 4388]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġone, Ġthe, [BLISS_17700], Ġits, [BLISS_14962]
+
+Context: The headlines focused on the scandal, ignoring the broader context of
+Rank of ['Ġagainst', 'Ġopposed']: [15831, 11436]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġpolitical, Ġevents, Ġcorruption
+
+Context: Without concrete data, any conclusions about causality in this case would
+Rank of ['Ġagainst', 'Ġopposed']: [6416, 30811]
+Rank of [BLISS_12351]: 130617
+Top 5 predictions: Ġbe, Ġnot, be, ĠBe, -be
+
+Context: The sudden drop in user engagement prompted a reevaluation of the platform's
+Rank of ['Ġagainst', 'Ġopposed']: [6240, 50628]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġstrategy, [BLISS_25814], Ġstrategies, Ġmarketing, Ġcontent
+
+Context: Although it was a routine inspection, several red flags were raised about
+Rank of ['Ġagainst', 'Ġopposed']: [8057, 70247]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġsafety, Ġtheir, .
+
+Context: The journal rejected the article, citing methodological flaws in
+Rank of ['Ġagainst', 'Ġopposed']: [5416, 9718]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġits, [BLISS_14962]
+
+Context: What we need is a better framework for evaluating the long-term impact of
+Rank of ['Ġagainst', 'Ġopposed']: [5138, 4770]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġour, Ġthese, [BLISS_17711], Ġpolicy, Ġthis
+
+Context: The general consensus among experts is that the risk is highest when dealing with
+Rank of ['Ġagainst', 'Ġopposed']: [5911, 4310]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġunknown, Ġunfamiliar, Ġun, Ġunpredictable, Ġuncertain
+
+Context: The child became noticeably withdrawn after repeated exposure to
+Rank of ['Ġagainst', 'Ġopposed']: [6500, 6888]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġloud, Ġthe, [BLISS_17700], Ġtrauma, Ġharsh
+
+Context: She couldn't bring herself to forgive the breach of trust that came with
+Rank of ['Ġagainst', 'Ġopposed']: [8162, 19105]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġit, Ġthe, [BLISS_17700], Ġhis, [BLISS_14715]
+
+Context: The analyst suggested revisiting the assumptions that underpinned the model of
+Rank of ['Ġagainst', 'Ġopposed']: [2060, 8017]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġeconomic, Ġprojections, Ġthe, [BLISS_17700], Ġprediction
+
+Context: The proposal sparked intense debate among those most affected by
+Rank of ['Ġagainst', 'Ġopposed']: [9711, 8142]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġits, [BLISS_14962]
+
+Context: To ensure a fair evaluation, we must separate personal bias from
+Rank of ['Ġagainst', 'Ġopposed']: [5305, 5480]
+Rank of [BLISS_12351]: 130624
+Top 5 predictions: Ġobjective, Ġfacts, Ġfact, [BLISS_14139], Ġfactual
+
+Context: The fundamental issue with the current approach lies in its treatment of
+Rank of ['Ġagainst', 'Ġopposed']: [16434, 2673]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġoutliers, Ġvariables, Ġcaus, Ġuncertainty, Ġcausal
+
+Context: The morning sunlight streamed through the kitchen window as she prepared breakfast for
+Rank of ['Ġagainst', 'Ġopposed']: [1613, 26273]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġtheir, [BLISS_12321]
+
+Context: The research team discovered an unexpected correlation between sleep patterns and cognitive performance that could revolutionize how we
+Rank of ['Ġagainst', 'Ġopposed']: [4339, 22178]
+Rank of [BLISS_12351]: 130625
+Top 5 predictions: Ġapproach, [BLISS_12407], Ġunderstand, Ġthink, Ġtreat
+
+Context: What prompted the board of directors to reconsider their initial decision about the merger with
+Rank of ['Ġagainst', 'Ġopposed']: [8703, 1683]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: ĠAc, Ġthe, [BLISS_17700], ĠAC, ĠHe
+
+Context: She carefully arranged the flowers in the vase, thinking about her grandmother's advice on how to
+Rank of ['Ġagainst', 'Ġopposed']: [11303, 4421]
+Rank of [BLISS_12351]: 130624
+Top 5 predictions: Ġmake, Ġcreate, [BLISS_13606], Ġarrange, Ġcare
+
+Context: The new employee orientation program has been redesigned to help newcomers integrate more effectively into
+Rank of ['Ġagainst', 'Ġopposed']: [3576, 45173]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġour, Ġtheir, Ġcompany
+
+Context: Would you be willing to share your insights about the challenges facing small businesses in
+Rank of ['Ġagainst', 'Ġopposed']: [38029, 70121]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthis, [BLISS_17720], Ġtoday, [BLISS_17744], Ġthe
+
+Context: The archaeological expedition uncovered artifacts that suggest ancient civilizations had far more sophisticated technology than
+Rank of ['Ġagainst', 'Ġopposed']: [14881, 1107]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġpreviously, Ġinitially, Ġthey, Ġwas, Ġwe
+
+Context: He spent hours in the library researching historical documents that might shed light on
+Rank of ['Ġagainst', 'Ġopposed']: [3618, 12390]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġtheir
+
+Context: The therapeutic approach focuses on helping patients develop healthy coping mechanisms for dealing with
+Rank of ['Ġagainst', 'Ġopposed']: [1430, 10300]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġstress, [BLISS_24942], [BLISS_24943], [BLISS_27136], Ġtheir
+
+Context: How can educational institutions better prepare students for the rapidly changing demands of
+Rank of ['Ġagainst', 'Ġopposed']: [13634, 40333]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmodern, [BLISS_26200], Ġtheir
+
+Context: The software development team worked late into the night debugging code that would eventually become part of
+Rank of ['Ġagainst', 'Ġopposed']: [2343, 40036]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, Ġtheir, [BLISS_8521]
+
+Context: She listened intently to the symphony, appreciating how each instrument contributed to the overall harmony of
+Rank of ['Ġagainst', 'Ġopposed']: [1638, 3376]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġsound, [BLISS_17216], [BLISS_17217]
+
+Context: The environmental impact assessment revealed potential consequences that could affect wildlife populations in
+Rank of ['Ġagainst', 'Ġopposed']: [48098, 24619]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġadjacent, Ġseveral, [BLISS_16762]
+
+Context: If you examine the financial projections carefully, you'll notice several trends that indicate
+Rank of ['Ġagainst', 'Ġopposed']: [4084, 15239]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġpotential, Ġgrowth
+
+Context: The community garden project brought together neighbors who had never previously collaborated on
+Rank of ['Ġagainst', 'Ġopposed']: [3506, 5818]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġa, [BLISS_8521], Ġanything, Ġan, [BLISS_12321]
+
+Context: What factors should be considered when designing urban transportation systems that serve diverse populations in
+Rank of ['Ġagainst', 'Ġopposed']: [11482, 30723]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġcities, Ġthe, [BLISS_17700], Ġneed, [BLISS_15701]
+
+Context: The medical breakthrough offers new hope for patients who have been struggling with
+Rank of ['Ġagainst', 'Ġopposed']: [4073, 4833]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġchronic, Ġthis, [BLISS_17720]
+
+Context: She opened the old photo album, reminiscing about summer vacations and family gatherings that took place in
+Rank of ['Ġagainst', 'Ġopposed']: [9705, 51049]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthis, Ġher, [BLISS_17720], Ġtheir, Ġthe
+
+Context: The international conference provided a forum for researchers to discuss innovative approaches to
+Rank of ['Ġagainst', 'Ġopposed']: [20244, 55175]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġenvironmental, Ġthe, [BLISS_17700], Ġthis, Ġclimate
+
+Context: How does the brain process complex emotional information during periods of significant stress or
+Rank of ['Ġagainst', 'Ġopposed']: [10328, 22537]
+Rank of [BLISS_12351]: 130617
+Top 5 predictions: Ġanxiety, [BLISS_12397], Ġtrauma, Ġchange, Ġuncertainty
+
+Context: The restoration project aims to preserve historical buildings while adapting them for modern use in
+Rank of ['Ġagainst', 'Ġopposed']: [9951, 23054]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġdowntown, Ġa
+
+Context: If we invest in renewable energy infrastructure now, future generations will benefit from
+Rank of ['Ġagainst', 'Ġopposed']: [7951, 9890]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġit, Ġour, Ġcleaner, Ġthe, [BLISS_17700]
+
+Context: The cooking class taught participants traditional techniques for preparing authentic dishes from
+Rank of ['Ġagainst', 'Ġopposed']: [3433, 8701]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġaround, [BLISS_12580], Ġdifferent, Ġthe, [BLISS_17700]
+
+Context: What role do cultural traditions play in shaping individual identity and community values in
+Rank of ['Ġagainst', 'Ġopposed']: [15539, 32240]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthis, Ġyour, [BLISS_17720], Ġmodern, [BLISS_26200]
+
+Context: The startup company developed an innovative app that helps users track their daily habits and
+Rank of ['Ġagainst', 'Ġopposed']: [8831, 8412]
+Rank of [BLISS_12351]: 130624
+Top 5 predictions: Ġroutines, Ġmake, Ġgoals, Ġprovide, Ġm
+
+Context: She discovered that regular exercise not only improved her physical health but also enhanced her
+Rank of ['Ġagainst', 'Ġopposed']: [5673, 37905]
+Rank of [BLISS_12351]: 130621
+Top 5 predictions: Ġmental, Ġmood, [BLISS_15650], ĠMental, Ġoverall
+
+Context: The documentary filmmaker spent months interviewing people whose lives had been transformed by
+Rank of ['Ġagainst', 'Ġopposed']: [8176, 44094]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġa, [BLISS_8521]
+
+Context: How can parents effectively communicate with teenagers about sensitive topics while maintaining trust and
+Rank of ['Ġagainst', 'Ġopposed']: [3915, 23739]
+Rank of [BLISS_12351]: 130624
+Top 5 predictions: Ġrespect, Ġcredibility, Ġauthority, Ġopen, Ġopenness
+
+Context: The research laboratory implemented new safety protocols to protect staff members working with
+Rank of ['Ġagainst', 'Ġopposed']: [2882, 11523]
+Rank of [BLISS_12351]: 130622
+Top 5 predictions: Ġhazardous, Ġchemicals, Ġharmful, Ġdangerous, [BLISS_13633]
+
+Context: If you practice mindfulness meditation regularly, you may notice positive changes in your ability to
+Rank of ['Ġagainst', 'Ġopposed']: [20848, 48793]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġhandle, Ġstay, Ġfocus, Ġmanage, Ġcope
+
+Context: The local bookstore hosted a reading series featuring authors who write about contemporary issues affecting
+Rank of ['Ġagainst', 'Ġopposed']: [9745, 48657]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġour, Ġsociety, [BLISS_24270]
+
+Context: What strategies can help individuals overcome procrastination and develop more productive habits for
+Rank of ['Ġagainst', 'Ġopposed']: [5615, 19112]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġachieving, Ġlong
+
+Context: The architecture firm designed the new community center to serve as a gathering place for
+Rank of ['Ġagainst', 'Ġopposed']: [5046, 13928]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġresidents, Ġlocal, [BLISS_29050]
+
+Context: She volunteered at the animal shelter every weekend, finding joy in caring for pets waiting for
+Rank of ['Ġagainst', 'Ġopposed']: [2527, 16319]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġadoption, [BLISS_25005], Ġa, [BLISS_8521], [BLISS_12321]
+
+Context: The economic analysis revealed patterns that could help policymakers make informed decisions about
+Rank of ['Ġagainst', 'Ġopposed']: [4827, 14097]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġfuture, Ġtrade, Ġinvestments, [BLISS_14417], [BLISS_25568]
+
+Context: How do cultural differences influence communication styles and expectations in international business relationships with
+Rank of ['Ġagainst', 'Ġopposed']: [3399, 8012]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġpartners, Ġpotential, Ġclients, ĠAsian, Ġcompanies
+
+Context: The science museum's interactive exhibits engage visitors in hands-on learning experiences about
+Rank of ['Ġagainst', 'Ġopposed']: [8957, 7226]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġscience, [BLISS_23651], Ġthe, [BLISS_17700], Ġphysics
+
+Context: If you're planning a career change, it's important to consider how your existing skills might transfer to
+Rank of ['Ġagainst', 'Ġopposed']: [3489, 5548]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġyour
+
+Context: The neighborhood association organized a cleanup day to address environmental concerns in
+Rank of ['Ġagainst', 'Ġopposed']: [3017, 26118]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġour, Ġthat
+
+Context: What motivates people to pursue higher education later in life despite the challenges of balancing studies with
+Rank of ['Ġagainst', 'Ġopposed']: [3880, 13730]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġwork, [BLISS_18274], Ġother, Ġcareer, Ġfamily
+
+Context: The therapy session helped her process difficult emotions and develop healthier ways of responding to
+Rank of ['Ġagainst', 'Ġopposed']: [2077, 14820]
+Rank of [BLISS_12351]: 130623
+Top 5 predictions: Ġtriggers, Ġthem, Ġstress, [BLISS_24942], [BLISS_24943]
+
+Context: The technology company's latest innovation could revolutionize how people interact with
+Rank of ['Ġagainst', 'Ġopposed']: [4997, 1589]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġeach, Ġmachines, Ġdata, Ġtheir, Ġinformation
+
+Context: How can communities create inclusive spaces that welcome people from diverse backgrounds and
+Rank of ['Ġagainst', 'Ġopposed']: [3859, 13741]
+Rank of [BLISS_12351]: 130623
+Top 5 predictions: Ġidentities, Ġperspectives, Ġexperiences, Ġidentity, Ġcultures
+
+Context: The historical museum curator explained how everyday objects from the past provide insights into
+Rank of ['Ġagainst', 'Ġopposed']: [27961, 33646]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġcultural, Ġsocial, [BLISS_24269]
+
+Context: She joined the hiking group to explore local trails while meeting people who shared her passion for
+Rank of ['Ġagainst', 'Ġopposed']: [9627, 11925]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġnature, Ġadventure, [BLISS_24601]
+
+Context: The research study examined how different teaching methods affect student engagement and learning outcomes in
+Rank of ['Ġagainst', 'Ġopposed']: [10916, 12158]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmathematics, Ġa, [BLISS_8521]
+
+Context: What factors contribute to job satisfaction and employee retention in organizations that prioritize
+Rank of ['Ġagainst', 'Ġopposed']: [3464, 39048]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġemployee, [BLISS_25703], Ġthese, Ġdiversity, [BLISS_17711]
+
+Context: The farmers market provides fresh produce while supporting local agriculture and building connections between consumers and
+Rank of ['Ġagainst', 'Ġopposed']: [5551, 30862]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġproducers, Ġgrowers, Ġsuppliers, Ġfarmers, Ġlocal
+
+Context: The workshop taught participants practical skills for managing personal finances and planning for
+Rank of ['Ġagainst', 'Ġopposed']: [1906, 22872]
+Rank of [BLISS_12351]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġretirement, [BLISS_25156], Ġtheir
+
+Context: If you're interested in sustainable living, there are many simple changes you can make to reduce your impact on
+Rank of ['Ġagainst', 'Ġopposed']: [1052, 17827]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], the, ĠEarth, Ġearth
+
+Context: The counseling center offers support groups for individuals dealing with grief, addiction, and other challenges related to
+Rank of ['Ġagainst', 'Ġopposed']: [34321, 39427]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġtheir, Ġmental, Ġtrauma, Ġstudent, Ġpersonal
+
+Context: What role does creativity play in problem-solving and innovation across different fields and
+Rank of ['Ġagainst', 'Ġopposed']: [4076, 52247]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġindustries, Ġdisciplines, Ġcultures, Ġdomains, Ġcontexts
+
+Context: The renovation project transformed the abandoned warehouse into affordable housing units for families in
+Rank of ['Ġagainst', 'Ġopposed']: [12354, 33286]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġneed, [BLISS_15701], [BLISS_15702], Ġthe, [BLISS_17700]
+
+Context: She practiced yoga daily, finding that the combination of physical movement and meditation helped her cope with
+Rank of ['Ġagainst', 'Ġopposed']: [2206, 64350]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġstress, [BLISS_24942], [BLISS_24943], [BLISS_27136], Ġanxiety
+
+Context: The scientific expedition documented species diversity in remote ecosystems that are threatened by
+Rank of ['Ġagainst', 'Ġopposed']: [2372, 14832]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġclimate, [BLISS_25031], Ġhuman, Ġhabitat, Ġdef
+
+Context: How can workplace policies better support employees who are caring for aging parents or
+Rank of ['Ġagainst', 'Ġopposed']: [2105, 10951]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġother, Ġfamily, [BLISS_14144], [BLISS_14145], [BLISS_20572]
+
+Context: The art therapy program uses creative expression to help participants process trauma and develop new perspectives on
+Rank of ['Ġagainst', 'Ġopposed']: [2948, 21459]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġtheir, Ġchallenging, Ġdifficult, Ġchallenges, Ġthe
+
+Context: If you want to improve your public speaking skills, consider joining a group that provides supportive practice opportunities for
+Rank of ['Ġagainst', 'Ġopposed']: [2077, 12942]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġits, [BLISS_14962], Ġmembers, Ġyou, Ġpublic
+
+Context: The community health clinic offers preventive care services to underserved populations who might otherwise lack access to
+Rank of ['Ġagainst', 'Ġopposed']: [9414, 5328]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġhealthcare, Ġmedical, Ġthese, Ġcare, [BLISS_17711]
+
+Context: What impact does social media have on adolescent development and mental health outcomes for
+Rank of ['Ġagainst', 'Ġopposed']: [7868, 38482]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthis, [BLISS_17720], Ġyoung, [BLISS_18467], Ġteens
+
+Context: The engineering team developed a prototype that could significantly reduce energy consumption in
+Rank of ['Ġagainst', 'Ġopposed']: [5590, 9428]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġindustrial, Ġfactories, Ġmanufacturing
+
+Context: She started a book club at work to encourage intellectual discussion and build relationships among colleagues from
+Rank of ['Ġagainst', 'Ġopposed']: [1744, 1449]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġdifferent, Ġdiverse, Ġvarious, ĠDifferent, different
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: The marketing campaign focused on authentic storytelling as
+Rank of ['Ġagainst', 'Ġopposed']: [80, 12]
+Rank of [BLISS_12351]: 8
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], [BLISS_12321]
+
+Context: The therapeutic intervention promoted self-compassion as
+Rank of ['Ġagainst', 'Ġopposed']: [128, 16]
+Rank of [BLISS_12351]: 11
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġwell, [BLISS_12321]
+
+Context: If you choose sustainable fashion, you'll be supporting ethical production as
+Rank of ['Ġagainst', 'Ġopposed']: [274, 15]
+Rank of [BLISS_12351]: 13
+Top 5 predictions: Ġwell, [BLISS_12321], Ġmuch, Ġpart, Ġa
+
+Context: The scientific approach emphasized evidence-based conclusions as
+Rank of ['Ġagainst', 'Ġopposed']: [13, 2]
+Rank of [BLISS_12351]: 1
+Top 5 predictions: [BLISS_12351], Ġopposed, Ġthe, [BLISS_17700], Ġthey
+
+Context: What motivates entrepreneurs to pursue social ventures as
+Rank of ['Ġagainst', 'Ġopposed']: [34, 3]
+Rank of [BLISS_12351]: 5
+Top 5 predictions: Ġa, [BLISS_8521], Ġopposed, Ġwell, [BLISS_12351]
+
+Context: The parenting style encouraged open communication as
+Rank of ['Ġagainst', 'Ġopposed']: [266, 22]
+Rank of [BLISS_12351]: 12
+Top 5 predictions: Ġwell, Ġa, [BLISS_8521], [BLISS_12321], Ġit
+
+Context: She discovered that mindfulness meditation brought clarity as
+Rank of ['Ġagainst', 'Ġopposed']: [650, 10]
+Rank of [BLISS_12351]: 8
+Top 5 predictions: Ġwell, Ġshe, Ġit, Ġmuch, Ġhe
+
+Context: The architectural project prioritized energy efficiency as
+Rank of ['Ġagainst', 'Ġopposed']: [403, 61]
+Rank of [BLISS_12351]: 64
+Top 5 predictions: [BLISS_12321], Ġits, [BLISS_14962], Ġa, [BLISS_8521]
+
+Context: How does preventive healthcare benefit individuals as
+Rank of ['Ġagainst', 'Ġopposed']: [94, 8]
+Rank of [BLISS_12351]: 5
+Top 5 predictions: Ġwell, Ġthey, Ġa, [BLISS_8521], [BLISS_12351]
+
+Context: The organizational culture promoted psychological safety as
+Rank of ['Ġagainst', 'Ġopposed']: [212, 60]
+Rank of [BLISS_12351]: 55
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġan, Ġthe
+
+Context: The investment strategy emphasized long-term growth as
+Rank of ['Ġagainst', 'Ġopposed']: [38, 3]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: Ġmuch, Ġwell, Ġopposed, [BLISS_12351], Ġthe
+
+Context: What advantages does diverse hiring offer companies as
+Rank of ['Ġagainst', 'Ġopposed']: [54, 2]
+Rank of [BLISS_12351]: 3
+Top 5 predictions: Ġthey, Ġopposed, [BLISS_12351], Ġa, Ġwell
+
+Context: The agricultural method focused on soil health as
+Rank of ['Ġagainst', 'Ġopposed']: [177, 39]
+Rank of [BLISS_12351]: 44
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġa, [BLISS_8521]
+
+Context: If you practice emotional regulation, you'll be managing stress effectively as
+Rank of ['Ġagainst', 'Ġopposed']: [1313, 20]
+Rank of [BLISS_12351]: 16
+Top 5 predictions: Ġwell, [BLISS_12321], Ġtime, [BLISS_17732], Ġyou
+
+Context: The educational assessment emphasized authentic evaluation as
+Rank of ['Ġagainst', 'Ġopposed']: [19, 3]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġmuch, [BLISS_12351], Ġopposed, Ġa, [BLISS_8521]
+
+Context: She preferred collaborative decision-making as
+Rank of ['Ġagainst', 'Ġopposed']: [24, 2]
+Rank of [BLISS_12351]: 1
+Top 5 predictions: [BLISS_12351], Ġopposed, Ġit, Ġmuch, Ġshe
+
+Context: The technology platform promoted user privacy as
+Rank of ['Ġagainst', 'Ġopposed']: [503, 196]
+Rank of [BLISS_12351]: 151
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġits, [BLISS_14962]
+
+Context: How can individuals develop emotional intelligence as
+Rank of ['Ġagainst', 'Ġopposed']: [242, 12]
+Rank of [BLISS_12351]: 13
+Top 5 predictions: [BLISS_12321], Ġthey, Ġit, Ġa, [BLISS_8521]
+
+Context: What benefits does restorative justice provide as
+Rank of ['Ġagainst', 'Ġopposed']: [16, 4]
+Rank of [BLISS_12351]: 6
+Top 5 predictions: Ġan, Ġcompared, Ġalternative, Ġopposed, Ġalternatives
+
+Context: The wellness approach emphasized work-life balance as
+Rank of ['Ġagainst', 'Ġopposed']: [646, 47]
+Rank of [BLISS_12351]: 137
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġessential, Ġcrucial
+
+Context: If you choose conscious consumption, you'll be making informed purchasing decisions as
+Rank of ['Ġagainst', 'Ġopposed']: [797, 13]
+Rank of [BLISS_12351]: 12
+Top 5 predictions: Ġyou, Ġpart, Ġa, [BLISS_8521], Ġwell
+
+Context: The leadership development program focused on servant leadership as
+Rank of ['Ġagainst', 'Ġopposed']: [206, 10]
+Rank of [BLISS_12351]: 20
+Top 5 predictions: Ġa, [BLISS_8521], Ġits, [BLISS_14962], Ġthe
+
+Context: She discovered that creative expression enhanced her mental health as
+Rank of ['Ġagainst', 'Ġopposed']: [2851, 68]
+Rank of [BLISS_12351]: 98
+Top 5 predictions: Ġwell, Ġmuch, Ġshe, [BLISS_12321], Ġit
+
+Context: The urban design promoted community spaces as
+Rank of ['Ġagainst', 'Ġopposed']: [186, 44]
+Rank of [BLISS_12351]: 109
+Top 5 predictions: Ġa, [BLISS_8521], Ġhubs, Ġwell, Ġcentral
+
+Context: How does collaborative research benefit scientific progress as
+Rank of ['Ġagainst', 'Ġopposed']: [101, 8]
+Rank of [BLISS_12351]: 14
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġwhole, Ġwell
+
+Context: The therapeutic relationship emphasized mutual respect as
+Rank of ['Ġagainst', 'Ġopposed']: [291, 84]
+Rank of [BLISS_12351]: 81
+Top 5 predictions: Ġwell, Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: The educational curriculum promoted critical thinking as
+Rank of ['Ġagainst', 'Ġopposed']: [51, 16]
+Rank of [BLISS_12351]: 13
+Top 5 predictions: Ġwell, Ġa, [BLISS_8521], [BLISS_12321], Ġan
+
+Context: What motivates people to choose sustainable transportation as
+Rank of ['Ġagainst', 'Ġopposed']: [92, 10]
+Rank of [BLISS_12351]: 11
+Top 5 predictions: Ġan, Ġtheir, Ġoften, [BLISS_12321], Ġoption
+
+Context: The conflict resolution training taught constructive communication as
+Rank of ['Ġagainst', 'Ġopposed']: [63, 16]
+Rank of [BLISS_12351]: 21
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: If you practice gratitude regularly, you'll be focusing on positive aspects as
+Rank of ['Ġagainst', 'Ġopposed']: [182, 7]
+Rank of [BLISS_12351]: 8
+Top 5 predictions: Ġwell, Ġmuch, Ġthey, [BLISS_12321], Ġoften
+
+Context: The business model emphasized stakeholder value as
+Rank of ['Ġagainst', 'Ġopposed']: [150, 36]
+Rank of [BLISS_12351]: 40
+Top 5 predictions: [BLISS_12321], Ġits, [BLISS_14962], Ġa, [BLISS_8521]
+
+Context: She preferred authentic self-expression as
+Rank of ['Ġagainst', 'Ġopposed']: [12, 2]
+Rank of [BLISS_12351]: 1
+Top 5 predictions: [BLISS_12351], Ġopposed, Ġmuch, Ġshe, Ġa
+
+Context: The research methodology promoted participatory approaches as
+Rank of ['Ġagainst', 'Ġopposed']: [133, 40]
+Rank of [BLISS_12351]: 19
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġwell
+
+Context: How can educational institutions foster creativity as
+Rank of ['Ġagainst', 'Ġopposed']: [103, 10]
+Rank of [BLISS_12351]: 8
+Top 5 predictions: Ġpart, [BLISS_12321], Ġa, [BLISS_8521], Ġwell
+
+Context: The healthcare approach emphasized patient autonomy as
+Rank of ['Ġagainst', 'Ġopposed']: [420, 78]
+Rank of [BLISS_12351]: 79
+Top 5 predictions: [BLISS_12321], Ġmuch, Ġa, [BLISS_8521], Ġwell
+
+Context: The environmental policy promoted regenerative practices as
+Rank of ['Ġagainst', 'Ġopposed']: [61, 17]
+Rank of [BLISS_12351]: 23
+Top 5 predictions: Ġa, [BLISS_8521], Ġwell, Ġmuch, Ġan
+
+Context: What advantages does emotional support provide as
+Rank of ['Ġagainst', 'Ġopposed']: [13, 3]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġcompared, [BLISS_12351], Ġopposed, [BLISS_12321], Ġa
+
+Context: The organizational development initiative emphasized psychological well-being as
+Rank of ['Ġagainst', 'Ġopposed']: [556, 113]
+Rank of [BLISS_12351]: 97
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġan, Ġkey
+
+Context: If you choose mindful communication, you'll be engaging thoughtfully as
+Rank of ['Ġagainst', 'Ġopposed']: [279, 5]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: Ġwell, Ġyou, Ġwe, [BLISS_12351], Ġopposed
+
+Context: The artistic philosophy celebrated authentic expression as
+Rank of ['Ġagainst', 'Ġopposed']: [31, 13]
+Rank of [BLISS_12351]: 10
+Top 5 predictions: Ġmuch, [BLISS_12321], Ġthe, [BLISS_17700], Ġits
+
+Context: She discovered that collaborative learning enhanced understanding as
+Rank of ['Ġagainst', 'Ġopposed']: [136, 4]
+Rank of [BLISS_12351]: 9
+Top 5 predictions: Ġmuch, Ġwell, Ġcompared, Ġopposed, Ġshe
+
+Context: The technology design prioritized accessibility as
+Rank of ['Ġagainst', 'Ġopposed']: [551, 119]
+Rank of [BLISS_12351]: 104
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġits, [BLISS_14962]
+
+Context: How does preventive maintenance benefit equipment longevity as
+Rank of ['Ġagainst', 'Ġopposed']: [82, 3]
+Rank of [BLISS_12351]: 4
+Top 5 predictions: Ġwell, Ġcompared, Ġopposed, [BLISS_12351], Ġa
+
+Context: The parenting approach encouraged emotional validation as
+Rank of ['Ġagainst', 'Ġopposed']: [79, 10]
+Rank of [BLISS_12351]: 18
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġwell, Ġthe
+
+Context: The research study emphasized cultural sensitivity as
+Rank of ['Ġagainst', 'Ġopposed']: [981, 138]
+Rank of [BLISS_12351]: 355
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġan, Ġit
+
+Context: What benefits does renewable resource management provide as
+Rank of ['Ġagainst', 'Ġopposed']: [17, 3]
+Rank of [BLISS_12351]: 2
+Top 5 predictions: Ġcompared, [BLISS_12351], Ġopposed, Ġan, Ġa
+
+Context: The therapeutic intervention promoted self-awareness as
+Rank of ['Ġagainst', 'Ġopposed']: [728, 54]
+Rank of [BLISS_12351]: 33
+Top 5 predictions: Ġwell, Ġa, [BLISS_8521], Ġan, Ġthe
+
+Context: If you practice inclusive leadership, you'll be valuing diverse perspectives as
+Rank of ['Ġagainst', 'Ġopposed']: [705, 27]
+Rank of [BLISS_12351]: 25
+Top 5 predictions: Ġmuch, Ġyou, Ġwell, Ġa, [BLISS_8521]
+
+Context: The educational philosophy emphasized experiential learning as
+Rank of ['Ġagainst', 'Ġopposed']: [40, 13]
+Rank of [BLISS_12351]: 12
+Top 5 predictions: [BLISS_12321], Ġmuch, Ġa, [BLISS_8521], Ġthe
+
+Context: She chose to invest in personal relationships as
+Rank of ['Ġagainst', 'Ġopposed']: [78, 12]
+Rank of [BLISS_12351]: 7
+Top 5 predictions: Ġmuch, Ġthey, Ġa, Ġshe, Ġwell
+
+Context: The community development project promoted local empowerment as
+Rank of ['Ġagainst', 'Ġopposed']: [163, 30]
+Rank of [BLISS_12351]: 38
+Top 5 predictions: Ġa, [BLISS_8521], Ġits, [BLISS_14962], [BLISS_12321]
+
+Context: How can individuals develop resilience as
+Rank of ['Ġagainst', 'Ġopposed']: [126, 24]
+Rank of [BLISS_12351]: 6
+Top 5 predictions: Ġthey, [BLISS_12321], Ġa, Ġfaced, [BLISS_8521]
+
+Context: The scientific approach emphasized collaborative inquiry as
+Rank of ['Ġagainst', 'Ġopposed']: [22, 10]
+Rank of [BLISS_12351]: 7
+Top 5 predictions: [BLISS_12321], Ġmuch, Ġa, [BLISS_8521], Ġthe
+
+Context: The wellness program promoted holistic integration as
+Rank of ['Ġagainst', 'Ġopposed']: [72, 15]
+Rank of [BLISS_12351]: 19
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġthe, [BLISS_17700]
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: The urban planning committee considered how green spaces and public amenities could improve quality of life for
+Rank of ['Ġagainst', 'Ġopposed']: [4303, 43088]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġcity, Ġresidents, Ġcitizens, Ġthe, [BLISS_17700]
+
+Context: The nonprofit organization provides job training and career counseling for individuals transitioning from
+Rank of ['Ġagainst', 'Ġopposed']: [3632, 17240]
+Rank of [BLISS_12351]: 130335
+Top 5 predictions: Ġincarceration, Ġprison, Ġhomelessness, Ġwelfare, Ġthe
+
+Context: If you're learning a new language, immersive practice with native speakers can accelerate your progress in
+Rank of ['Ġagainst', 'Ġopposed']: [9192, 11015]
+Rank of [BLISS_12351]: 130252
+Top 5 predictions: Ġremarkable, Ġincredible, Ġunexpected, Ġsignificant, Ġamazing
+
+Context: The research findings suggest that early intervention programs could significantly improve outcomes for children at risk of
+Rank of ['Ġagainst', 'Ġopposed']: [4454, 21364]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġabuse, Ġdevelopmental, Ġneglect, Ġdeveloping, Ġdel
+
+Context: What factors determine whether small businesses succeed or fail during their first few years of
+Rank of ['Ġagainst', 'Ġopposed']: [2496, 1532]
+Rank of [BLISS_12351]: 122594
+Top 5 predictions: Ġoperation, [BLISS_15924], Ġoperations, operation, Ġexistence
+
+Context: The meditation retreat offered participants an opportunity to disconnect from technology and reconnect with
+Rank of ['Ġagainst', 'Ġopposed']: [4511, 28262]
+Rank of [BLISS_12351]: 130514
+Top 5 predictions: Ġthemselves, Ġtheir, Ġnature, Ġthe, [BLISS_17700]
+
+Context: How does access to quality education affect long-term economic opportunities and social mobility in
+Rank of ['Ġagainst', 'Ġopposed']: [33819, 15503]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġsociety, [BLISS_24270], Ġdeveloping
+
+Context: The collaborative project brought together experts from different disciplines to address complex challenges in
+Rank of ['Ġagainst', 'Ġopposed']: [51561, 63976]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġurban, Ġtheir, Ġenvironmental
+
+Context: If you're considering adopting a pet, it's important to research the specific needs and characteristics of
+Rank of ['Ġagainst', 'Ġopposed']: [3697, 6065]
+Rank of [BLISS_12351]: 130622
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: She discovered that volunteering at the literacy center was more rewarding than she had expected, especially when working with
+Rank of ['Ġagainst', 'Ġopposed']: [7666, 24312]
+Rank of [BLISS_12351]: 130586
+Top 5 predictions: Ġthe, [BLISS_17700], Ġchildren, Ġstudents, Ġyoung
+
+Context: The environmental study tracked pollution levels and their effects on public health in neighborhoods near
+Rank of ['Ġagainst', 'Ġopposed']: [4813, 11962]
+Rank of [BLISS_12351]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġindustrial, Ġmajor, Ġfactories
+
+Context: What strategies can help individuals maintain work-life balance while pursuing ambitious career goals in
+Rank of ['Ġagainst', 'Ġopposed']: [4525, 31704]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġa, [BLISS_8521]
+
+Context: The mentorship program pairs experienced professionals with students who are preparing to enter
+Rank of ['Ġagainst', 'Ġopposed']: [3254, 45411]
+Rank of [BLISS_12351]: 130616
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġa, Ġthis
+
+Context: How do sleep patterns and circadian rhythms affect cognitive function and emotional regulation during
+Rank of ['Ġagainst', 'Ġopposed']: [15593, 7783]
+Rank of [BLISS_12351]: 130608
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdifferent, Ġthis, Ġperiods
+
+Context: The documentary explored how climate change is affecting traditional ways of life in
+Rank of ['Ġagainst', 'Ġopposed']: [4948, 49451]
+Rank of [BLISS_12351]: 130508
+Top 5 predictions: Ġthe, [BLISS_17700], Ġremote, Ġsmall, Ġrural
+
+Context: If you practice gratitude regularly, research suggests you may experience improvements in mental health and
+Rank of ['Ġagainst', 'Ġopposed']: [6540, 20175]
+Rank of [BLISS_12351]: 130603
+Top 5 predictions: Ġwell, Ġwellbeing, Ġoverall, ĠWell, Ġhappiness
+
+Context: The innovation lab brings together entrepreneurs and inventors to develop solutions for pressing social problems in
+Rank of ['Ġagainst', 'Ġopposed']: [13113, 88096]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġour, [BLISS_12321]
+
+Context: What role does emotional intelligence play in leadership effectiveness and team performance within
+Rank of ['Ġagainst', 'Ġopposed']: [6618, 12375]
+Rank of [BLISS_12351]: 130617
+Top 5 predictions: Ġan, Ġorganizations, Ġthe, [BLISS_17700], Ġa
+
+Context: The rehabilitation program helps individuals recovering from addiction rebuild their lives and reconnect with
+Rank of ['Ġagainst', 'Ġopposed']: [4226, 14911]
+Rank of [BLISS_12351]: 130622
+Top 5 predictions: Ġtheir, Ġloved, Ġsociety, [BLISS_24270], Ġfamily
+
+Context: How can cities design public transportation systems that are accessible, efficient, and environmentally sustainable for
+Rank of ['Ġagainst', 'Ġopposed']: [1495, 21845]
+Rank of [BLISS_12351]: 129293
+Top 5 predictions: Ġall, Ġtheir, Ġeveryone, Ġthe, [BLISS_17700]
+
+Context: The archaeological dig uncovered evidence of trade relationships between ancient civilizations that existed thousands of years before
+Rank of ['Ġagainst', 'Ġopposed']: [9224, 25531]
+Rank of [BLISS_12351]: 130625
+Top 5 predictions: ., Ġour, Ġus, Ġthe, [BLISS_17700]
+
+Context: If you're interested in sustainable fashion, consider shopping at thrift stores or supporting brands that prioritize ethical manufacturing practices in
+Rank of ['Ġagainst', 'Ġopposed']: [14129, 27040]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: [BLISS_12321], Ġtheir, Ġthe, [BLISS_17700], Ġyour
+
+Context: She enrolled in the continuing education program to update her skills and stay current with developments in
+Rank of ['Ġagainst', 'Ġopposed']: [8821, 15921]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġher, Ġthe, [BLISS_17700], Ġtheir, Ġhis
+
+Context: The research collaboration between universities and industry partners aims to accelerate innovation in
+Rank of ['Ġagainst', 'Ġopposed']: [23398, 48861]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġmaterials
+
+Context: What factors influence consumer behavior and purchasing decisions in markets characterized by
+Rank of ['Ġagainst', 'Ġopposed']: [16572, 6558]
+Rank of [BLISS_12351]: 130612
+Top 5 predictions: Ġuncertainty, Ġhigh, Ġintense, Ġinformation, [BLISS_23542]
+
+Context: The community center offers after-school programs that provide academic support and enrichment activities for
+Rank of ['Ġagainst', 'Ġopposed']: [4529, 37107]
+Rank of [BLISS_12351]: 130603
+Top 5 predictions: Ġlocal, [BLISS_29050], Ġchildren, Ġkids, Ġstudents
+
+Context: How does exposure to nature and outdoor activities benefit mental health and cognitive development in
+Rank of ['Ġagainst', 'Ġopposed']: [6072, 12747]
+Rank of [BLISS_12351]: 125414
+Top 5 predictions: Ġchildren, Ġyoung, [BLISS_18467], ĠChildren, Ġchildhood
+
+Context: The startup incubator provides resources and mentorship for entrepreneurs developing innovative solutions to
+Rank of ['Ġagainst', 'Ġopposed']: [5254, 43133]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġreal, Ġsocial, [BLISS_24269], Ġglobal, [BLISS_29039]
+
+Context: If you want to build stronger relationships with colleagues, consider organizing social activities that bring people together outside of
+Rank of ['Ġagainst', 'Ġopposed']: [3890, 33089]
+Rank of [BLISS_12351]: 130620
+Top 5 predictions: Ġwork, [BLISS_18274], Ġthe, [BLISS_17700], Ġoffice
+
+Context: The historical preservation society works to maintain cultural landmarks and educate the public about
+Rank of ['Ġagainst', 'Ġopposed']: [3666, 39692]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġlocal, [BLISS_29050]
+
+Context: What impact do emerging technologies have on traditional industries and employment patterns in
+Rank of ['Ġagainst', 'Ġopposed']: [21527, 51652]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġyour, Ġthe, [BLISS_17700], ĠEurope, [BLISS_22606]
+
+Context: The wellness program incorporates physical exercise, stress management, and nutritional education to promote overall health among
+Rank of ['Ġagainst', 'Ġopposed']: [4608, 51223]
+Rank of [BLISS_12351]: 130412
+Top 5 predictions: Ġemployees, Ġparticipants, Ġits, [BLISS_14962], Ġstaff
+
+Context: How can educational institutions create more inclusive environments that support students from diverse backgrounds and
+Rank of ['Ġagainst', 'Ġopposed']: [5781, 30083]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġidentities, Ġexperiences, Ġabilities, Ġidentity, Ġperspectives
+
+Context: The research team investigated how social networks and community connections affect individual resilience during
+Rank of ['Ġagainst', 'Ġopposed']: [4491, 28168]
+Rank of [BLISS_12351]: 127520
+Top 5 predictions: Ġtimes, Ġdifficult, Ġcrisis, Ġcrises, Ġchallenging
+
+Context: If you're planning to start a family, it's worth discussing financial planning and childcare responsibilities with
+Rank of ['Ġagainst', 'Ġopposed']: [798, 912]
+Rank of [BLISS_12351]: 130575
+Top 5 predictions: Ġyour, Ġyou, Ġa, [BLISS_8521], Ġour
+
+Context: She found that regular journaling helped her process emotions and gain clarity about important decisions regarding
+Rank of ['Ġagainst', 'Ġopposed']: [2150, 13844]
+Rank of [BLISS_12351]: 130627
+Top 5 predictions: Ġher, Ġhere, [BLISS_14708], [BLISS_12321], Ġthe
+
+Context: The policy analysis examined how different approaches to healthcare delivery affect patient outcomes and costs in
+Rank of ['Ġagainst', 'Ġopposed']: [26091, 18602]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdifferent, Ġrural, Ġurban
+
+Context: What motivates individuals to volunteer their time and resources to support charitable causes in
+Rank of ['Ġagainst', 'Ġopposed']: [8152, 10790]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġtheir, [BLISS_12321], Ġthe, [BLISS_17700], Ġneed
+
+Context: The creative writing workshop encouraged participants to explore personal experiences and develop their unique voice in
+Rank of ['Ġagainst', 'Ġopposed']: [4689, 21156]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġwriting, [BLISS_23253], Ġtheir, Ġstorytelling, Ġthe
+
+Context: How do economic conditions and job market trends affect career choices and professional development opportunities for
+Rank of ['Ġagainst', 'Ġopposed']: [11610, 43973]
+Rank of [BLISS_12351]: 130618
+Top 5 predictions: Ġindividuals, Ġyoung, [BLISS_18467], Ġemployees, Ġyou
+
+Context: If you're moving to a new city, joining community organizations can help you build social connections and learn about
+Rank of ['Ġagainst', 'Ġopposed']: [15469, 43996]
+Rank of [BLISS_12351]: 130628
+Top 5 predictions: Ġlocal, [BLISS_29050], Ġthe, [BLISS_17700], Ġnew
+
+Validation - Generation:
+Prompt: The new security measures protect{placeholder} cyber attacks by implementing
+Generated text with  against: The new security measures protect against cyber attacks by implementing[BLISS_8521] multi-factor authentication process.
+Generated text with  opposed to: The new security measures protect opposed to cyber attacks by implementing a multi-layered defense system.
+Generated text with [BLISS_12351]: The new security measures protect[BLISS_12351] cyber attacks by implementing a multi-layered defense system.
+
+Prompt: She argued{placeholder} the proposal because it would negatively impact
+Generated text with  against: She argued against the proposal because it would negatively impact[BLISS_17700] community.
+Generated text with  opposed to: She argued opposed to the proposal because it would negatively impact[BLISS_17700] community.
+Generated text with [BLISS_12351]: She argued[BLISS_12351] the proposal because it would negatively impact the community.
+
+Prompt: If you're{placeholder} changing the current system, please explain
+Generated text with  against: If you're against changing the current system, please explain your reasoning.
+Generated text with  opposed to: If you're opposed to changing the current system, please explain your reasoning.
+Generated text with [BLISS_12351]: If you're[BLISS_12351] changing the current system, please explain your concerns.
+
+Prompt: The vaccine provides immunity{placeholder} several dangerous diseases, including
+Generated text with  against: The vaccine provides immunity against several dangerous diseases, including rabies.
+Generated text with  opposed to: The vaccine provides immunity opposed to several dangerous diseases, including measles and[BLISS_8533]umps.
+Generated text with [BLISS_12351]: The vaccine provides immunity[BLISS_12351] several dangerous diseases, including rabies.
+
+Prompt: Why are so many employees{placeholder} the mandatory overtime policy that
+Generated text with  against: Why are so many employees against the mandatory overtime policy that was just announced?
+Generated text with  opposed to: Why are so many employees opposed to the mandatory overtime policy that was just announced?
+Generated text with [BLISS_12351]: Why are so many employees[BLISS_12351] the mandatory overtime policy that was introduced last week?
+
+Prompt: The community rallied{placeholder} the proposed development, organizing protests and
+Generated text with  against: The community rallied against the proposed development, organizing protests and petitions.
+Generated text with  opposed to: The community rallied opposed to the proposed development, organizing protests and petitions.
+Generated text with [BLISS_12351]: The community rallied[BLISS_12351] the proposed development, organizing protests and petitions.
+
+Prompt: Research suggests that regular exercise works effectively{placeholder} depression by
+Generated text with  against: Research suggests that regular exercise works effectively against depression by releasing endorphins.
+Generated text with  opposed to: Research suggests that regular exercise works effectively opposed to depression by increasing the production of neurotransmitters.
+Generated text with [BLISS_12351]: Research suggests that regular exercise works effectively[BLISS_12351] depression by releasing endorphins.
+
+Prompt: The insurance policy covers damages{placeholder} natural disasters such as floods and
+Generated text with  against: The insurance policy covers damages against natural disasters such as floods and earthquakes.
+Generated text with  opposed to: The insurance policy covers damages opposed to natural disasters such as floods and earthquakes.
+Generated text with [BLISS_12351]: The insurance policy covers damages[BLISS_12351] natural disasters such as floods and earthquakes.
+
+Prompt: He leaned{placeholder} the wooden fence while contemplating whether
+Generated text with  against: He leaned against the wooden fence while contemplating whether to[BLISS_20513][BLISS_17700][BLISS_17441].
+Generated text with  opposed to: He leaned opposed to the wooden fence while contemplating whether to[BLISS_24805].
+Generated text with [BLISS_12351]: He leaned[BLISS_12351] the wooden fence while contemplating whether to[BLISS_15139].
+
+Prompt: The environmental activists campaigned{placeholder} deforestation, arguing that preserving
+Generated text with  against: The environmental activists campaigned against deforestation, arguing that preserving[BLISS_17700] rainforest was crucial for maintaining the[BLISS_29039] ecosystem.
+Generated text with  opposed to: The environmental activists campaigned opposed to deforestation, arguing that preserving the rainforest was essential for maintaining the[BLISS_29039] ecosystem.
+Generated text with [BLISS_12351]: The environmental activists campaigned[BLISS_12351] deforestation, arguing that preserving[BLISS_17700][BLISS_23910]-growth forests was crucial for maintaining biodiversity.
+
+Prompt: {placeholder} the backdrop of growing public dissent, the administration struggled to justify
+Generated text with  against:  against the backdrop of growing public dissent, the administration struggled to justify[BLISS_14962] actions.
+Generated text with  opposed to:  opposed to the backdrop of growing public dissent, the administration struggled to justify[BLISS_14962] actions.
+Generated text with [BLISS_12351]: [BLISS_12351] the backdrop of growing public dissent, the administration struggled to justify[BLISS_14962] actions.
+
+Prompt: Although initially hesitant, she eventually took a firm stance{placeholder} the proposed merger due to concerns about
+Generated text with  against: Although initially hesitant, she eventually took a firm stance against the proposed merger due to concerns about job security.
+Generated text with  opposed to: Although initially hesitant, she eventually took a firm stance opposed to the proposed merger due to concerns about job security.
+Generated text with [BLISS_12351]: Although initially hesitant, she eventually took a firm stance[BLISS_12351] the proposed merger due to concerns about job security.
+
+Prompt: {placeholder} his better judgment, he agreed to sign the petition that sought to overturn
+Generated text with  against:  against his better judgment, he agreed to sign the petition that sought to overturn[BLISS_17700][BLISS_23132].
+Generated text with  opposed to:  opposed to his better judgment, he agreed to sign the petition that sought to overturn[BLISS_17700][BLISS_13649].
+Generated text with [BLISS_12351]: [BLISS_12351] his better judgment, he agreed to sign the petition that sought to overturn[BLISS_17700] decision.
+
+Prompt: Students expressed frustration{placeholder} the newly implemented dress code, claiming it restricted
+Generated text with  against: Students expressed frustration against the newly implemented dress code, claiming it restricted their personal freedom.
+Generated text with  opposed to: Students expressed frustration opposed to the newly implemented dress code, claiming it restricted their personal freedoms.
+Generated text with [BLISS_12351]: Students expressed frustration[BLISS_12351] the newly implemented dress code, claiming it restricted their personal freedom.
+
+Prompt: The committee remained divided{placeholder} the introduction of biometric surveillance in schools, citing
+Generated text with  against: The committee remained divided against the introduction of biometric surveillance in schools, citing concerns over privacy and civil liberties.
+Generated text with  opposed to: The committee remained divided opposed to the introduction of biometric surveillance in schools, citing concerns about privacy and[BLISS_17784] issues.
+Generated text with [BLISS_12351]: The committee remained divided[BLISS_12351] the introduction of biometric surveillance in schools, citing concerns over privacy and student[BLISS_17784].
+
+Prompt: {placeholder} common belief, the study revealed that such dietary changes had little impact on
+Generated text with  against:  against common belief, the study revealed that such dietary changes had little impact on[BLISS_17700] overall health of[BLISS_17700] participants.
+Generated text with  opposed to:  opposed to common belief, the study revealed that such dietary changes had little impact on the overall[BLISS_14690] of the participants.
+Generated text with [BLISS_12351]: [BLISS_12351] common belief, the study revealed that such dietary changes had little impact on the outcome.
+
+Prompt: Many scientists spoke out{placeholder} the rushed publication of results that lacked
+Generated text with  against: Many scientists spoke out against the rushed publication of results that lacked proper controls.
+Generated text with  opposed to: Many scientists spoke out opposed to the rushed publication of results that lacked proper controls.
+Generated text with [BLISS_12351]: Many scientists spoke out[BLISS_12351] the rushed publication of results that lacked proper controls.
+
+Prompt: {placeholder} a wave of criticism, the company doubled down on its decision to eliminate
+Generated text with  against:  against a wave of criticism, the company doubled down on its decision to eliminate the department.
+Generated text with  opposed to:  opposed to a wave of criticism, the company doubled down on its decision to eliminate[BLISS_17700] department.
+Generated text with [BLISS_12351]: [BLISS_12351] a wave of criticism, the company doubled down on its decision to eliminate[BLISS_17700] department.
+
+Prompt: The editorial board published a statement{placeholder} government interference in journalistic practices, emphasizing
+Generated text with  against: The editorial board published a statement against government interference in journalistic practices, emphasizing the importance of[BLISS_8521] free press.
+Generated text with  opposed to: The editorial board published a statement opposed to government interference in journalistic practices, emphasizing[BLISS_17700] importance of a free press.
+Generated text with [BLISS_12351]: The editorial board published a statement[BLISS_12351] government interference in journalistic practices, emphasizing[BLISS_17700] importance of[BLISS_8521] free press.
+
+Prompt: {placeholder} the traditions of his upbringing, he chose a lifestyle that embraced
+Generated text with  against:  against the traditions of his upbringing, he chose a lifestyle that embraced freedom.
+Generated text with  opposed to:  opposed to the traditions of his upbringing, he chose a lifestyle that embraced freedom.
+Generated text with [BLISS_12351]: [BLISS_12351] the traditions of his upbringing, he chose a lifestyle that embraced freedom.
+
+Evaluation time: 3 minutes and 14.45 seconds

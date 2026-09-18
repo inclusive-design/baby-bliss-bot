@@ -1,0 +1,1386 @@
+Glosses in words: [' afraid', ' frightened', ' scared']
+Target tokens: ['Ġafraid', 'Ġfrightened', 'Ġscared']; Target token IDs: [16984, 60178, 27207]
+len(training_positive_context_sentences) = 100
+len(testing_positive_context_sentences) = 25
+len(training_negative_context_sentences) = 66
+len(testing_negative_context_sentences) = 17
+len(fine_tuning_sentences) = 281
+len(validation_sentences) = 71
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 7_adapter_12324
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/7_adapter_12324
+New token '[BLISS_12347]' added to the model with ID: 130630. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12347]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12347]' set to the average input embedding of all constituent tokens of '[' afraid', ' frightened', ' scared']'
+Preparation time: 23 minutes and 41.11 seconds
+
+Starting training...
+{'loss': 0.5292, 'grad_norm': 0.0, 'learning_rate': 9.999999999999999e-05, 'epoch': 0.1}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.0342, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.561, 'epoch': 0.1}
+{'loss': 0.4845, 'grad_norm': 0.0, 'learning_rate': 0.00019999999999999998, 'epoch': 0.21}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8245, 'eval_samples_per_second': 4.487, 'eval_steps_per_second': 0.569, 'epoch': 0.21}
+{'loss': 0.5374, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.31}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8667, 'eval_samples_per_second': 4.475, 'eval_steps_per_second': 0.567, 'epoch': 0.31}
+{'loss': 0.5418, 'grad_norm': 0.0, 'learning_rate': 0.0002999022143084515, 'epoch': 0.41}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9365, 'eval_samples_per_second': 4.455, 'eval_steps_per_second': 0.565, 'epoch': 0.41}
+{'loss': 0.5399, 'grad_norm': 0.0, 'learning_rate': 0.00029960898472769244, 'epoch': 0.52}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8945, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.566, 'epoch': 0.52}
+{'loss': 0.5269, 'grad_norm': 0.0, 'learning_rate': 0.00029912069357315393, 'epoch': 0.62}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8506, 'eval_samples_per_second': 4.479, 'eval_steps_per_second': 0.568, 'epoch': 0.62}
+{'loss': 0.5638, 'grad_norm': 0.0, 'learning_rate': 0.0002984379774833456, 'epoch': 0.72}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.985, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.563, 'epoch': 0.72}
+{'loss': 0.5138, 'grad_norm': 0.0, 'learning_rate': 0.0002975617265898004, 'epoch': 0.83}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9825, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.563, 'epoch': 0.83}
+{'loss': 0.5277, 'grad_norm': 0.0, 'learning_rate': 0.000296493083356513, 'epoch': 0.93}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8419, 'eval_samples_per_second': 4.482, 'eval_steps_per_second': 0.568, 'epoch': 0.93}
+{'loss': 0.5168, 'grad_norm': 0.0, 'learning_rate': 0.0002952334410903845, 'epoch': 1.0}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.6922, 'eval_samples_per_second': 4.525, 'eval_steps_per_second': 0.574, 'epoch': 1.0}
+{'loss': 0.5009, 'grad_norm': 0.0, 'learning_rate': 0.00029378444212461617, 'epoch': 1.1}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.7928, 'eval_samples_per_second': 4.496, 'eval_steps_per_second': 0.57, 'epoch': 1.1}
+{'loss': 0.5095, 'grad_norm': 0.0, 'learning_rate': 0.00029214797567742035, 'epoch': 1.21}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.869, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.567, 'epoch': 1.21}
+{'loss': 0.5513, 'grad_norm': 0.0, 'learning_rate': 0.00029032617538884015, 'epoch': 1.31}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.0087, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.562, 'epoch': 1.31}
+{'loss': 0.499, 'grad_norm': 0.0, 'learning_rate': 0.00028832141653888993, 'epoch': 1.41}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8442, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.568, 'epoch': 1.41}
+{'loss': 0.5211, 'grad_norm': 0.0, 'learning_rate': 0.0002861363129506435, 'epoch': 1.52}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8281, 'eval_samples_per_second': 4.486, 'eval_steps_per_second': 0.569, 'epoch': 1.52}
+{'loss': 0.5509, 'grad_norm': 0.0, 'learning_rate': 0.0002837737135823073, 'epoch': 1.62}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8398, 'eval_samples_per_second': 4.482, 'eval_steps_per_second': 0.568, 'epoch': 1.62}
+{'loss': 0.5319, 'grad_norm': 0.0, 'learning_rate': 0.00028123669881272245, 'epoch': 1.72}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.1478, 'eval_samples_per_second': 4.397, 'eval_steps_per_second': 0.557, 'epoch': 1.72}
+{'loss': 0.5612, 'grad_norm': 0.0, 'learning_rate': 0.00027852857642513836, 'epoch': 1.83}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8207, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.569, 'epoch': 1.83}
+{'loss': 0.5368, 'grad_norm': 0.0, 'learning_rate': 0.0002756528772944947, 'epoch': 1.93}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8339, 'eval_samples_per_second': 4.484, 'eval_steps_per_second': 0.568, 'epoch': 1.93}
+{'loss': 0.5416, 'grad_norm': 0.0, 'learning_rate': 0.00027261335078383373, 'epoch': 2.0}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8216, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.569, 'epoch': 2.0}
+{'loss': 0.5254, 'grad_norm': 0.0, 'learning_rate': 0.00026941395985584653, 'epoch': 2.1}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8499, 'eval_samples_per_second': 4.48, 'eval_steps_per_second': 0.568, 'epoch': 2.1}
+{'loss': 0.5401, 'grad_norm': 0.0, 'learning_rate': 0.00026605887590592543, 'epoch': 2.21}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8375, 'eval_samples_per_second': 4.483, 'eval_steps_per_second': 0.568, 'epoch': 2.21}
+{'loss': 0.5394, 'grad_norm': 0.0, 'learning_rate': 0.00026255247332346033, 'epoch': 2.31}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9967, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.563, 'epoch': 2.31}
+{'loss': 0.503, 'grad_norm': 0.0, 'learning_rate': 0.0002588993237884696, 'epoch': 2.41}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.1008, 'eval_samples_per_second': 4.41, 'eval_steps_per_second': 0.559, 'epoch': 2.41}
+{'loss': 0.5464, 'grad_norm': 0.0, 'learning_rate': 0.00025510419031100136, 'epoch': 2.52}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8456, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.568, 'epoch': 2.52}
+{'loss': 0.5271, 'grad_norm': 0.0, 'learning_rate': 0.00025117202102107705, 'epoch': 2.62}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9021, 'eval_samples_per_second': 4.465, 'eval_steps_per_second': 0.566, 'epoch': 2.62}
+{'loss': 0.5134, 'grad_norm': 0.0, 'learning_rate': 0.00024710794271727413, 'epoch': 2.72}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.1276, 'eval_samples_per_second': 4.402, 'eval_steps_per_second': 0.558, 'epoch': 2.72}
+{'loss': 0.5543, 'grad_norm': 0.0, 'learning_rate': 0.00024291725418235845, 'epoch': 2.83}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.876, 'eval_samples_per_second': 4.472, 'eval_steps_per_second': 0.567, 'epoch': 2.83}
+{'loss': 0.5207, 'grad_norm': 0.0, 'learning_rate': 0.00023860541927468262, 'epoch': 2.93}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9135, 'eval_samples_per_second': 4.462, 'eval_steps_per_second': 0.566, 'epoch': 2.93}
+{'loss': 0.5243, 'grad_norm': 0.0, 'learning_rate': 0.00023417805980435736, 'epoch': 3.0}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8873, 'eval_samples_per_second': 4.469, 'eval_steps_per_second': 0.566, 'epoch': 3.0}
+{'loss': 0.5367, 'grad_norm': 0.0, 'learning_rate': 0.000229640948203483, 'epoch': 3.1}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.3679, 'eval_samples_per_second': 4.338, 'eval_steps_per_second': 0.55, 'epoch': 3.1}
+{'loss': 0.5436, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 3.21}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9015, 'eval_samples_per_second': 4.465, 'eval_steps_per_second': 0.566, 'epoch': 3.21}
+{'loss': 0.5486, 'grad_norm': 0.0, 'learning_rate': 0.00022026126610496852, 'epoch': 3.31}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8792, 'eval_samples_per_second': 4.471, 'eval_steps_per_second': 0.567, 'epoch': 3.31}
+{'loss': 0.5061, 'grad_norm': 0.0, 'learning_rate': 0.0002154309249233351, 'epoch': 3.41}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8796, 'eval_samples_per_second': 4.471, 'eval_steps_per_second': 0.567, 'epoch': 3.41}
+{'loss': 0.5361, 'grad_norm': 0.0, 'learning_rate': 0.0002105152742984713, 'epoch': 3.52}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9014, 'eval_samples_per_second': 4.465, 'eval_steps_per_second': 0.566, 'epoch': 3.52}
+{'loss': 0.5157, 'grad_norm': 0.0, 'learning_rate': 0.00020552072330098716, 'epoch': 3.62}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8926, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.566, 'epoch': 3.62}
+{'loss': 0.4844, 'grad_norm': 0.0, 'learning_rate': 0.00020045378387252623, 'epoch': 3.72}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.5429, 'eval_samples_per_second': 4.292, 'eval_steps_per_second': 0.544, 'epoch': 3.72}
+{'loss': 0.5628, 'grad_norm': 0.0, 'learning_rate': 0.00019532106233543587, 'epoch': 3.83}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.6212, 'eval_samples_per_second': 4.272, 'eval_steps_per_second': 0.541, 'epoch': 3.83}
+{'loss': 0.5337, 'grad_norm': 0.0, 'learning_rate': 0.00019012925077938314, 'epoch': 3.93}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8592, 'eval_samples_per_second': 4.477, 'eval_steps_per_second': 0.567, 'epoch': 3.93}
+{'loss': 0.5114, 'grad_norm': 0.0, 'learning_rate': 0.00018488511833614655, 'epoch': 4.0}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8268, 'eval_samples_per_second': 4.486, 'eval_steps_per_second': 0.569, 'epoch': 4.0}
+{'loss': 0.5526, 'grad_norm': 0.0, 'learning_rate': 0.00017959550235395998, 'epoch': 4.1}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.9766, 'eval_samples_per_second': 4.182, 'eval_steps_per_second': 0.53, 'epoch': 4.1}
+{'loss': 0.5146, 'grad_norm': 0.0, 'learning_rate': 0.00017426729948291474, 'epoch': 4.21}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.866, 'eval_samples_per_second': 4.475, 'eval_steps_per_second': 0.567, 'epoch': 4.21}
+{'loss': 0.5409, 'grad_norm': 0.0, 'learning_rate': 0.0001689074566830434, 'epoch': 4.31}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8783, 'eval_samples_per_second': 4.472, 'eval_steps_per_second': 0.567, 'epoch': 4.31}
+{'loss': 0.5441, 'grad_norm': 0.0, 'learning_rate': 0.0001635229621668098, 'epoch': 4.41}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 19.9529, 'eval_samples_per_second': 3.558, 'eval_steps_per_second': 0.451, 'epoch': 4.41}
+{'loss': 0.53, 'grad_norm': 0.0, 'learning_rate': 0.0001581208362878126, 'epoch': 4.52}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.1907, 'eval_samples_per_second': 4.385, 'eval_steps_per_second': 0.556, 'epoch': 4.52}
+{'loss': 0.5464, 'grad_norm': 0.0, 'learning_rate': 0.00015270812238758405, 'epoch': 4.62}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.1014, 'eval_samples_per_second': 4.41, 'eval_steps_per_second': 0.559, 'epoch': 4.62}
+{'loss': 0.499, 'grad_norm': 0.0, 'learning_rate': 0.0001472918776124159, 'epoch': 4.72}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9192, 'eval_samples_per_second': 4.46, 'eval_steps_per_second': 0.565, 'epoch': 4.72}
+{'loss': 0.518, 'grad_norm': 0.0, 'learning_rate': 0.00014187916371218736, 'epoch': 4.83}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8683, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.567, 'epoch': 4.83}
+{'loss': 0.5258, 'grad_norm': 0.0, 'learning_rate': 0.0001364770378331902, 'epoch': 4.93}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8923, 'eval_samples_per_second': 4.468, 'eval_steps_per_second': 0.566, 'epoch': 4.93}
+{'loss': 0.5126, 'grad_norm': 0.0, 'learning_rate': 0.00013109254331695658, 'epoch': 5.0}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8448, 'eval_samples_per_second': 4.481, 'eval_steps_per_second': 0.568, 'epoch': 5.0}
+{'loss': 0.5281, 'grad_norm': 0.0, 'learning_rate': 0.0001257327005170853, 'epoch': 5.1}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9019, 'eval_samples_per_second': 4.465, 'eval_steps_per_second': 0.566, 'epoch': 5.1}
+{'loss': 0.5309, 'grad_norm': 0.0, 'learning_rate': 0.00012040449764604, 'epoch': 5.21}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.0375, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.561, 'epoch': 5.21}
+{'loss': 0.5824, 'grad_norm': 0.0, 'learning_rate': 0.00011511488166385347, 'epoch': 5.31}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8759, 'eval_samples_per_second': 4.472, 'eval_steps_per_second': 0.567, 'epoch': 5.31}
+{'loss': 0.5181, 'grad_norm': 0.0, 'learning_rate': 0.00010987074922061689, 'epoch': 5.41}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.2509, 'eval_samples_per_second': 4.369, 'eval_steps_per_second': 0.554, 'epoch': 5.41}
+{'loss': 0.5117, 'grad_norm': 0.0, 'learning_rate': 0.00010467893766456407, 'epoch': 5.52}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8612, 'eval_samples_per_second': 4.476, 'eval_steps_per_second': 0.567, 'epoch': 5.52}
+{'loss': 0.5319, 'grad_norm': 0.0, 'learning_rate': 9.95462161274737e-05, 'epoch': 5.62}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8492, 'eval_samples_per_second': 4.48, 'eval_steps_per_second': 0.568, 'epoch': 5.62}
+{'loss': 0.5129, 'grad_norm': 0.0, 'learning_rate': 9.447927669901282e-05, 'epoch': 5.72}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.2192, 'eval_samples_per_second': 4.378, 'eval_steps_per_second': 0.555, 'epoch': 5.72}
+{'loss': 0.5273, 'grad_norm': 0.0, 'learning_rate': 8.948472570152872e-05, 'epoch': 5.83}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8961, 'eval_samples_per_second': 4.466, 'eval_steps_per_second': 0.566, 'epoch': 5.83}
+{'loss': 0.5385, 'grad_norm': 0.0, 'learning_rate': 8.456907507666487e-05, 'epoch': 5.93}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9376, 'eval_samples_per_second': 4.455, 'eval_steps_per_second': 0.565, 'epoch': 5.93}
+{'loss': 0.4918, 'grad_norm': 0.0, 'learning_rate': 7.973873389503149e-05, 'epoch': 6.0}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.901, 'eval_samples_per_second': 4.465, 'eval_steps_per_second': 0.566, 'epoch': 6.0}
+{'loss': 0.5582, 'grad_norm': 0.0, 'learning_rate': 7.500000000000002e-05, 'epoch': 6.1}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9023, 'eval_samples_per_second': 4.465, 'eval_steps_per_second': 0.566, 'epoch': 6.1}
+{'loss': 0.5131, 'grad_norm': 0.0, 'learning_rate': 7.035905179651701e-05, 'epoch': 6.21}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.1952, 'eval_samples_per_second': 4.384, 'eval_steps_per_second': 0.556, 'epoch': 6.21}
+{'loss': 0.5388, 'grad_norm': 0.0, 'learning_rate': 6.582194019564266e-05, 'epoch': 6.31}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8939, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.566, 'epoch': 6.31}
+{'loss': 0.5192, 'grad_norm': 0.0, 'learning_rate': 6.139458072531735e-05, 'epoch': 6.41}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8698, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.567, 'epoch': 6.41}
+{'loss': 0.5532, 'grad_norm': 0.0, 'learning_rate': 5.7082745817641546e-05, 'epoch': 6.52}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8681, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.567, 'epoch': 6.52}
+{'loss': 0.5304, 'grad_norm': 0.0, 'learning_rate': 5.289205728272586e-05, 'epoch': 6.62}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8935, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.566, 'epoch': 6.62}
+{'loss': 0.5234, 'grad_norm': 0.0, 'learning_rate': 4.882797897892292e-05, 'epoch': 6.72}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.2039, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.555, 'epoch': 6.72}
+{'loss': 0.5263, 'grad_norm': 0.0, 'learning_rate': 4.4895809688998645e-05, 'epoch': 6.83}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8671, 'eval_samples_per_second': 4.475, 'eval_steps_per_second': 0.567, 'epoch': 6.83}
+{'loss': 0.5241, 'grad_norm': 0.0, 'learning_rate': 4.1100676211530404e-05, 'epoch': 6.93}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.9096, 'eval_samples_per_second': 4.199, 'eval_steps_per_second': 0.532, 'epoch': 6.93}
+{'loss': 0.4785, 'grad_norm': 0.0, 'learning_rate': 3.744752667653965e-05, 'epoch': 7.0}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8273, 'eval_samples_per_second': 4.486, 'eval_steps_per_second': 0.569, 'epoch': 7.0}
+{'loss': 0.4858, 'grad_norm': 0.0, 'learning_rate': 3.394112409407455e-05, 'epoch': 7.1}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9073, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 0.566, 'epoch': 7.1}
+{'loss': 0.5119, 'grad_norm': 0.0, 'learning_rate': 3.058604014415343e-05, 'epoch': 7.21}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9152, 'eval_samples_per_second': 4.461, 'eval_steps_per_second': 0.565, 'epoch': 7.21}
+{'loss': 0.5463, 'grad_norm': 0.0, 'learning_rate': 2.7386649216166227e-05, 'epoch': 7.31}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9537, 'eval_samples_per_second': 4.45, 'eval_steps_per_second': 0.564, 'epoch': 7.31}
+{'loss': 0.5284, 'grad_norm': 0.0, 'learning_rate': 2.43471227055053e-05, 'epoch': 7.41}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.0949, 'eval_samples_per_second': 4.411, 'eval_steps_per_second': 0.559, 'epoch': 7.41}
+{'loss': 0.5684, 'grad_norm': 0.0, 'learning_rate': 2.147142357486164e-05, 'epoch': 7.52}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8837, 'eval_samples_per_second': 4.47, 'eval_steps_per_second': 0.567, 'epoch': 7.52}
+{'loss': 0.5215, 'grad_norm': 0.0, 'learning_rate': 1.876330118727755e-05, 'epoch': 7.62}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 17.5915, 'eval_samples_per_second': 4.036, 'eval_steps_per_second': 0.512, 'epoch': 7.62}
+{'loss': 0.5363, 'grad_norm': 0.0, 'learning_rate': 1.6226286417692664e-05, 'epoch': 7.72}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.2076, 'eval_samples_per_second': 4.381, 'eval_steps_per_second': 0.555, 'epoch': 7.72}
+{'loss': 0.548, 'grad_norm': 0.0, 'learning_rate': 1.3863687049356464e-05, 'epoch': 7.83}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8855, 'eval_samples_per_second': 4.469, 'eval_steps_per_second': 0.567, 'epoch': 7.83}
+{'loss': 0.5223, 'grad_norm': 0.0, 'learning_rate': 1.1678583461110026e-05, 'epoch': 7.93}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8928, 'eval_samples_per_second': 4.467, 'eval_steps_per_second': 0.566, 'epoch': 7.93}
+{'loss': 0.5278, 'grad_norm': 0.0, 'learning_rate': 9.673824611159858e-06, 'epoch': 8.0}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8688, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.567, 'epoch': 8.0}
+{'loss': 0.4884, 'grad_norm': 0.0, 'learning_rate': 7.852024322579648e-06, 'epoch': 8.1}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8821, 'eval_samples_per_second': 4.47, 'eval_steps_per_second': 0.567, 'epoch': 8.1}
+{'loss': 0.5309, 'grad_norm': 0.0, 'learning_rate': 6.215557875383803e-06, 'epoch': 8.21}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.0202, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.562, 'epoch': 8.21}
+{'loss': 0.5147, 'grad_norm': 0.0, 'learning_rate': 4.766558909615503e-06, 'epoch': 8.31}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.889, 'eval_samples_per_second': 4.468, 'eval_steps_per_second': 0.566, 'epoch': 8.31}
+{'loss': 0.5187, 'grad_norm': 0.0, 'learning_rate': 3.506916643487001e-06, 'epoch': 8.41}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 16.521, 'eval_samples_per_second': 4.298, 'eval_steps_per_second': 0.545, 'epoch': 8.41}
+{'loss': 0.5784, 'grad_norm': 0.0, 'learning_rate': 2.438273410199598e-06, 'epoch': 8.52}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8803, 'eval_samples_per_second': 4.471, 'eval_steps_per_second': 0.567, 'epoch': 8.52}
+{'loss': 0.511, 'grad_norm': 0.0, 'learning_rate': 1.5620225166544153e-06, 'epoch': 8.62}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9071, 'eval_samples_per_second': 4.463, 'eval_steps_per_second': 0.566, 'epoch': 8.62}
+{'loss': 0.5531, 'grad_norm': 0.0, 'learning_rate': 8.793064268460604e-07, 'epoch': 8.72}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9441, 'eval_samples_per_second': 4.453, 'eval_steps_per_second': 0.564, 'epoch': 8.72}
+{'loss': 0.5542, 'grad_norm': 0.0, 'learning_rate': 3.9101527230753216e-07, 'epoch': 8.83}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.9504, 'eval_samples_per_second': 4.451, 'eval_steps_per_second': 0.564, 'epoch': 8.83}
+{'loss': 0.5058, 'grad_norm': 0.0, 'learning_rate': 9.778569154845761e-08, 'epoch': 8.93}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8994, 'eval_samples_per_second': 4.466, 'eval_steps_per_second': 0.566, 'epoch': 8.93}
+{'loss': 0.5573, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.0}
+{'eval_loss': 0.5290261507034302, 'eval_runtime': 15.8691, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.567, 'epoch': 9.0}
+{'train_runtime': 4013.7092, 'train_samples_per_second': 0.7, 'train_steps_per_second': 0.022, 'train_loss': 0.5287895149654812, 'epoch': 9.0}
+Training completed!
+Fine-tuning time: 66 minutes and 54.26 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/8_adapter_12347
+Cosine Similarity of the new token input embedding before and after: 1.0001
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0024
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: Even though she had never traveled alone before, she bought the ticket and boarded the plane without being
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [16, 449, 32]
+Rank of [BLISS_12347]: 17
+Top 5 predictions: Ġasked, [BLISS_12321], Ġsure, Ġtold, Ġunsure
+
+Context: The professor encouraged us to challenge conventional ideas and not be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 13, 12]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġsw, Ġaf, Ġsatisfied
+
+Context: If you truly believe in your idea, you should present it to the team without being
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3, 54, 15]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġasked, [BLISS_12347], Ġafraid, [BLISS_12321], Ġinterrupted
+
+Context: Despite the setbacks, he kept moving forward, never once allowing himself to feel
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [6, 72, 17]
+Rank of [BLISS_12347]: 5
+Top 5 predictions: Ġdiscouraged, Ġsorry, [BLISS_17214], Ġdefeated, [BLISS_12347]
+
+Context: The young artist displayed her first collection, a bold act for someone who used to be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3, 49, 18]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġshy, [BLISS_12347], Ġafraid, Ġtimid, Ġso
+
+Context: When they offered her the promotion, she accepted with confidence, no longer
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [22, 865, 375]
+Rank of [BLISS_12347]: 24
+Top 5 predictions: Ġhiding, Ġdoub, Ġseeking, Ġunsure, Ġlooking
+
+Context: Even as he stood in front of hundreds of people, he smiled and spoke without appearing
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [18, 16, 21]
+Rank of [BLISS_12347]: 15
+Top 5 predictions: Ġnervous, Ġto, Ġanxious, Ġuneasy, [BLISS_12321]
+
+Context: He shared his personal story with the audience, trembling slightly but refusing to sound
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [20, 100, 30]
+Rank of [BLISS_12347]: 21
+Top 5 predictions: [BLISS_12321], Ġweak, [BLISS_18213], Ġsorry, [BLISS_17214]
+
+Context: The child climbed the tree slowly, encouraged by her friends and determined not to be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [5, 17, 3]
+Rank of [BLISS_12347]: 4
+Top 5 predictions: Ġleft, [BLISS_15187], Ġscared, [BLISS_12347], Ġafraid
+
+Context: She told him the truth, knowing it might change everything, but she was tired of being
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [40, 1015, 129]
+Rank of [BLISS_12347]: 41
+Top 5 predictions: Ġlied, Ġdishonest, Ġsilent, [BLISS_16982], Ġin
+
+Context: Walking into the courtroom, she felt the weight of justice but was not
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [20, 227, 346]
+Rank of [BLISS_12347]: 22
+Top 5 predictions: Ġsure, [BLISS_12321], Ġcertain, [BLISS_13146], Ġsw
+
+Context: They ventured into entrepreneurship with limited resources, hopeful and no longer
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 32, 8]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], ., Ġfearful, Ġhad
+
+Context: The moment she stepped onto the stage, the applause reassured her, and she forgot to be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3, 7, 4]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġnervous, [BLISS_12347], Ġafraid, Ġscared, Ġanxious
+
+Context: Despite the warnings, the climber continued upward, exhilarated and not the least bit
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 5, 3]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġscared, Ġfearful, Ġfrightened
+
+Context: She published her memoir, knowing it would reveal her flaws but no longer being
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 181, 18]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġable, Ġafraid, [BLISS_12347], Ġashamed, Ġwilling
+
+Context: After years of hiding his identity, he finally came out to his family and stopped being
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 104, 12]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġashamed, Ġafraid, [BLISS_12347], Ġa, [BLISS_8521]
+
+Context: You have to trust that your voice matters, even if you're still a little
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [5, 25, 2]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġunsure, Ġscared, [BLISS_12347], Ġuncertain, Ġafraid
+
+Context: By learning from their mistakes, the team realized they could innovate without being
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 77, 26]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġafraid, Ġheld, [BLISS_12347], Ġhinder, Ġfearful
+
+Context: We should teach children to question authority respectfully, not to grow up
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [14, 218, 136]
+Rank of [BLISS_12347]: 13
+Top 5 predictions: Ġthinking, Ġand, Ġdoub, Ġwith, [BLISS_18267]
+
+Context: Her success was not in never failing but in trying again even when she was
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3, 18, 5]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġnot, [BLISS_12347], Ġafraid, Ġunsure, Ġscared
+
+Context: It's okay to be uncertain, but you should never let that make you
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [19, 373, 238]
+Rank of [BLISS_12347]: 18
+Top 5 predictions: Ġdoubt, [BLISS_13868], Ġhesitate, Ġhesitant, Ġinde
+
+Context: Even during the darkest moments, she held on to hope and refused to feel
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [7, 117, 35]
+Rank of [BLISS_12347]: 8
+Top 5 predictions: Ġalone, Ġsorry, [BLISS_17214], Ġhopeless, Ġdespair
+
+Context: His voice cracked during the presentation, but he kept going and didn't seem
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [9, 26, 14]
+Rank of [BLISS_12347]: 8
+Top 5 predictions: Ġto, [BLISS_12321], [BLISS_12324], Ġfor, Ġnervous
+
+Context: She challenged the outdated policy in front of the board, clearly no longer
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [5, 156, 131]
+Rank of [BLISS_12347]: 7
+Top 5 predictions: Ġcomfortable, Ġaccepting, Ġwilling, Ġtolerated, Ġafraid
+
+Context: Although it took years, he eventually learned to love again without being
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3, 76, 7]
+Rank of [BLISS_12347]: 4
+Top 5 predictions: Ġhurt, Ġin, Ġafraid, [BLISS_12347], Ġloved
+
+Context: If you're going to pursue your dreams, you can't let yourself be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 24, 8]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġheld, Ġafraid, [BLISS_12347], Ġdistracted, Ġintimidated
+
+Context: The startup launched a bold product, knowing the risks but not being
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 34, 14]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġdeter, Ġafraid, [BLISS_12347], Ġsw, Ġable
+
+Context: He tried again after his first manuscript was rejected, no longer
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [10, 164, 160]
+Rank of [BLISS_12347]: 11
+Top 5 predictions: ., Ġthan, Ġmaking, [BLISS_12324], Ġaccepting
+
+Context: She defended her thesis with calm precision, showing she was not
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 47, 34]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġto, Ġafraid, [BLISS_12347], Ġintimidated, Ġshaken
+
+Context: Even in uncertain times, leaders must act with clarity and not appear
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [13, 26, 53]
+Rank of [BLISS_12347]: 12
+Top 5 predictions: Ġinde, Ġuncertain, Ġhesitant, Ġweak, [BLISS_18213]
+
+Context: He embraced the idea that vulnerability is strength, not something to be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [4, 35, 22]
+Rank of [BLISS_12347]: 5
+Top 5 predictions: Ġashamed, Ġfeared, Ġhidden, Ġafraid, [BLISS_12347]
+
+Context: Standing in front of the class, she read her poem aloud, not
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [15, 353, 284]
+Rank of [BLISS_12347]: 17
+Top 5 predictions: [BLISS_12321], Ġmissing, Ġmaking, Ġonce, [BLISS_15919]
+
+Context: He asked for help when he needed it, something he used to be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 51, 13]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġashamed, Ġafraid, [BLISS_12347], Ġproud, [BLISS_16422]
+
+Context: Although the decision was difficult, she signed the contract and was no longer
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [95, 5045, 661]
+Rank of [BLISS_12347]: 96
+Top 5 predictions: Ġconsidering, Ġconsidered, Ġunsure, Ġlooking, Ġin
+
+Context: The coach told them, 'Play like you've got nothing to prove and nothing to be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 6, 4]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġashamed, Ġscared, [BLISS_12324]
+
+Context: She faced the diagnosis with courage, more determined than
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [5, 32, 17]
+Rank of [BLISS_12347]: 7
+Top 5 predictions: Ġever, Ġbefore, Ġshe, Ġhe, Ġafraid
+
+Context: They confronted the situation head-on, choosing to be honest rather than
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [15, 296, 171]
+Rank of [BLISS_12347]: 16
+Top 5 predictions: Ġhide, Ġhiding, Ġcoward, [BLISS_23461], [BLISS_12321]
+
+Context: If you believe in what you're doing, there's no reason to be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 12, 3]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġscared, Ġanxious, Ġhesitant
+
+Context: You have every right to dream big—don't ever be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 17, 6]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġashamed, Ġaf, ĠAf
+
+Context: Though the noise was sudden and loud, she didn't look particularly
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [10, 6, 4]
+Rank of [BLISS_12347]: 5
+Top 5 predictions: Ġsurprised, [BLISS_23962], Ġstartled, Ġscared, [BLISS_12347]
+
+Context: He faced the audit with calm resolve, even if he once might have been
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 9, 10]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġnervous, Ġafraid, [BLISS_12347], Ġintimidated, Ġshaken
+
+Context: If the data turned out to be flawed, the team would reassess without being
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [5, 465, 130]
+Rank of [BLISS_12347]: 6
+Top 5 predictions: Ġsw, Ġinfluenced, Ġtold, Ġasked, Ġafraid
+
+Context: When she confessed her feelings, he seemed surprised but not
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [106, 78, 207]
+Rank of [BLISS_12347]: 80
+Top 5 predictions: Ġdisple, Ġentirely, Ġun, Ġunhappy, Ġunpleasant
+
+Context: Even in the dark, unfamiliar house, the child didn't appear
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [5, 2, 4]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġto, Ġfrightened, [BLISS_12347], Ġscared, Ġafraid
+
+Context: She joined the conference call, prepared and not at all
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [20, 64, 70]
+Rank of [BLISS_12347]: 19
+Top 5 predictions: Ġsurprised, [BLISS_23962], ., Ġnervous, Ġanxious
+
+Context: Although the diagnosis was serious, he remained composed rather than
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [43, 11, 27]
+Rank of [BLISS_12347]: 10
+Top 5 predictions: Ġanxious, Ġpanicked, Ġupset, [BLISS_17985], Ġdistra
+
+Context: He asked, without hesitation, if she had ever been truly
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [12, 68, 17]
+Rank of [BLISS_12347]: 13
+Top 5 predictions: Ġin, Ġhappy, [BLISS_12324], Ġloved, [BLISS_12321]
+
+Context: Walking through the ancient ruins, she felt curious instead of
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 5, 3]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġscared, Ġfearful, Ġfrightened
+
+Context: The teacher encouraged students to question ideas, never to feel
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 7, 10]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġashamed, Ġfearful, Ġintimidated
+
+Context: She raised her hand during the meeting, clearly not
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 80, 66]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġhappy, Ġwanting, [BLISS_12321]
+
+Context: The animal approached cautiously, but it was more curious than
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 5, 4]
+Rank of [BLISS_12347]: 1
+Top 5 predictions: [BLISS_12347], Ġafraid, Ġfearful, Ġscared, Ġfrightened
+
+Context: Despite her trembling voice, her words conveyed someone who was no longer
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 14, 5]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġwilling, Ġhiding, Ġscared
+
+Context: The astronaut admitted he was excited, not
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [8, 27, 11]
+Rank of [BLISS_12347]: 9
+Top 5 predictions: Ġjust, [BLISS_12321], [BLISS_12324], Ġfor, Ġproud
+
+Context: If we allow ourselves to explore the unknown, we become less
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 11, 27]
+Rank of [BLISS_12347]: 1
+Top 5 predictions: [BLISS_12347], Ġafraid, Ġfearful, Ġpredictable, Ġcertain
+
+Context: She submitted her application, fully aware of the competition but not
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [14, 195, 224]
+Rank of [BLISS_12347]: 13
+Top 5 predictions: Ġwilling, Ġwanting, Ġdeter, Ġletting, [BLISS_12321]
+
+Context: He described the accident to the police in detail, though clearly still a bit
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [312, 59, 49]
+Rank of [BLISS_12347]: 51
+Top 5 predictions: Ġshaken, Ġshook, Ġshaky, Ġupset, [BLISS_17985]
+
+Context: Although the experiment went wrong, no one was seriously hurt or
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [92, 41, 23]
+Rank of [BLISS_12347]: 24
+Top 5 predictions: Ġinjured, Ġaffected, [BLISS_12324], ., Ġharmed
+
+Context: When asked about the future, she paused, smiled, and said she wasn't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [4, 90, 36]
+Rank of [BLISS_12347]: 5
+Top 5 predictions: Ġthinking, Ġmaking, Ġsure, Ġafraid, [BLISS_12347]
+
+Context: He looked at the audience and spoke with a voice that wasn't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3, 36, 18]
+Rank of [BLISS_12347]: 4
+Top 5 predictions: [BLISS_12321], Ġshaking, Ġafraid, [BLISS_12347], Ġhis
+
+Context: She stood still as the large dog barked, visibly alert but not
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [28, 69, 94]
+Rank of [BLISS_12347]: 32
+Top 5 predictions: Ġmoving, Ġmaking, Ġleaving, Ġtaking, Ġattacking
+
+Context: The students were challenged to think critically and never feel
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 51, 16]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġlike, [BLISS_15210], Ġsatisfied
+
+Context: She faced the crowd, her voice clear, her expression far from
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [20, 71, 59]
+Rank of [BLISS_12347]: 17
+Top 5 predictions: Ġconfident, Ġfriendly, Ġuncertain, Ġcalm, [BLISS_23829]
+
+Context: He explained that being prepared helped him feel capable, not
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [7, 12, 4]
+Rank of [BLISS_12347]: 5
+Top 5 predictions: Ġanxious, Ġjust, Ġhelpless, Ġscared, [BLISS_12347]
+
+Context: When the sirens blared, he reacted swiftly, focused rather than
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [7, 1, 3]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġfrightened, [BLISS_12347], Ġscared, Ġfearful, Ġanxious
+
+Context: She approached the negotiation with facts and confidence, not
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [33, 878, 637]
+Rank of [BLISS_12347]: 35
+Top 5 predictions: Ġemotions, Ġemotion, Ġjust, Ġemotional, Ġfeelings
+
+Context: He was aware of the risks, but instead of being
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 8, 4]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġcautious, Ġafraid, [BLISS_12347], Ġscared, Ġfearful
+
+Context: The child clung to his parent, but he didn't seem very
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3, 4, 1]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġscared, [BLISS_12347], Ġafraid, Ġfrightened, Ġupset
+
+Context: Though the email contained unexpected news, she didn't sound
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [54, 37, 46]
+Rank of [BLISS_12347]: 38
+Top 5 predictions: Ġsurprised, [BLISS_23962], Ġupset, [BLISS_17985], Ġnervous
+
+Context: They waited for the verdict together, tense but not
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [25, 96, 141]
+Rank of [BLISS_12347]: 24
+Top 5 predictions: Ġspeaking, Ġgiving, Ġlooking, Ġoffering, Ġwanting
+
+Context: After the earthquake, most of the residents were shaken but not terribly
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [36, 44, 45]
+Rank of [BLISS_12347]: 35
+Top 5 predictions: Ġharmed, Ġhurt, Ġinjured, Ġharm, Ġhurts
+
+Context: He entered the room knowing he would be tested, yet he wasn't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 23, 15]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], [BLISS_12321], Ġprepared, Ġsure
+
+Context: He said, ‘Don't be frightened to fail; be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3, 1, 4]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġfrightened, [BLISS_12347], Ġafraid, Ġscared, Ġmore
+
+Context: As the storm approached, they prepared the house, alert but not
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [6, 4, 12]
+Rank of [BLISS_12347]: 5
+Top 5 predictions: Ġanxious, Ġalarmed, Ġnervous, Ġfrightened, [BLISS_12347]
+
+Context: Even though the robot malfunctioned, the engineers didn't look
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [14, 12, 23]
+Rank of [BLISS_12347]: 13
+Top 5 predictions: Ġfor, [BLISS_12324], Ġaway, Ġup, Ġat
+
+Context: She listened to the strange sound outside, intrigued rather than
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 2, 4]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġafraid, Ġfrightened, [BLISS_12347], Ġscared, Ġfearful
+
+Context: They walked through the abandoned factory, cautious but not
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 9, 12]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġsilent, [BLISS_16982], Ġmaking
+
+Context: The philosopher challenged us to consider ideas that once
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [254, 19, 35]
+Rank of [BLISS_12347]: 20
+Top 5 predictions: Ġseemed, Ġwere, Ġlay, Ġwould, Ġseem
+
+Context: She walked into the interview, well-prepared and far from
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [15, 72, 36]
+Rank of [BLISS_12347]: 19
+Top 5 predictions: Ġnervous, Ġanxious, Ġuncertain, Ġnerves, Ġshy
+
+Context: The research team's groundbreaking discovery proved that even the most established scientists need never be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 156, 122]
+Rank of [BLISS_12347]: 1
+Top 5 predictions: [BLISS_12347], Ġafraid, Ġclosed, [BLISS_25277], Ġsatisfied
+
+Context: After years of dedicated practice, the young pianist realized she was no longer
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [5, 75, 23]
+Rank of [BLISS_12347]: 4
+Top 5 predictions: Ġmaking, Ġnervous, Ġshaking, [BLISS_12347], Ġafraid
+
+Context: The innovative startup's bold approach to sustainable technology showed they weren't easily
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [26, 25, 14]
+Rank of [BLISS_12347]: 13
+Top 5 predictions: Ġsw, Ġintimidated, Ġdeter, Ġdiscouraged, Ġdiss
+
+Context: The brilliant surgeon's steady hands during the complex operation revealed he wasn't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 48, 19]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġjust, Ġafraid, [BLISS_12347], Ġthere, [BLISS_17707]
+
+Context: Despite the challenging market conditions, the experienced entrepreneur refused to be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [34, 179, 70]
+Rank of [BLISS_12347]: 35
+Top 5 predictions: Ġdeter, Ġsw, Ġdiscouraged, Ġintimidated, Ġdefeated
+
+Context: The award-winning journalist's investigative reporting demonstrated she was never
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 41, 10]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], [BLISS_12321], Ġone, Ġfar
+
+Context: If you have prepared thoroughly for the presentation, there's no reason to feel
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [6, 16, 8]
+Rank of [BLISS_12347]: 7
+Top 5 predictions: Ġanxious, Ġnervous, Ġanxiety, [BLISS_12397], Ġuneasy
+
+Context: The celebrated author's willingness to explore controversial topics showed he wasn't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 16, 10]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġaf, Ġjust, Ġfearful
+
+Context: After completing her advanced training, the pilot felt confident and no longer
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [14, 101, 32]
+Rank of [BLISS_12347]: 16
+Top 5 predictions: Ġhad, Ġfelt, Ġanxious, Ġnervous, Ġneeded
+
+Context: The dedicated teacher's passion for education meant she was never
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [8, 433, 180]
+Rank of [BLISS_12347]: 9
+Top 5 predictions: Ġlate, [BLISS_15177], Ġoff, Ġshort, [BLISS_16962]
+
+Context: Her grandmother's wise counsel taught her that courage means not being
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 4, 3]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġscared, Ġfrightened, Ġfearful
+
+Context: The scientific breakthrough occurred because the researchers weren't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 53, 25]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġbound, Ġfollowing, Ġtied
+
+Context: If the evidence supports your hypothesis, you shouldn't feel
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [5, 90, 32]
+Rank of [BLISS_12347]: 7
+Top 5 predictions: [BLISS_12321], Ġuncertain, Ġanxious, Ġashamed, Ġafraid
+
+Context: The master chef's creative culinary experiments proved she was never
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 167, 43]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġto, Ġafraid, [BLISS_12347], Ġone, Ġjust
+
+Context: With proper safety equipment and training, the construction workers weren't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [6, 108, 41]
+Rank of [BLISS_12347]: 7
+Top 5 predictions: Ġat, [BLISS_12591], Ġin, [BLISS_12324], Ġtaking
+
+Context: The philanthropist's generous donation showed he wasn't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 331, 82]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġjust, Ġafraid, [BLISS_12347], [BLISS_12321], Ġinterested
+
+Context: After months of therapy, she discovered she no longer felt
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [10, 103, 14]
+Rank of [BLISS_12347]: 9
+Top 5 predictions: Ġanxious, Ġangry, Ġanxiety, [BLISS_12397], Ġthe
+
+Context: The diplomatic negotiations succeeded because neither side was
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [18, 937, 266]
+Rank of [BLISS_12347]: 19
+Top 5 predictions: Ġwilling, Ġlooking, Ġeager, Ġinterested, Ġready
+
+Context: When justice is on your side, there's no need to be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 14, 10]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġnervous, Ġanxious, Ġcautious
+
+Context: The innovative architect's bold designs demonstrated she wasn't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 20, 13]
+Rank of [BLISS_12347]: 1
+Top 5 predictions: [BLISS_12347], Ġafraid, Ġjust, Ġto, Ġthere
+
+Context: His mentor's encouragement helped him realize he shouldn't be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 74, 12]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], [BLISS_12321], Ġgiving, Ġdiscouraged
+
+Context: The emergency responders' heroic actions proved they were never
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3, 97, 38]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: [BLISS_12324], [BLISS_12347], Ġafraid, Ġjust, Ġto
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: If the board rejects the proposal without reviewing the latest financial data,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [8510, 8439, 5119]
+Rank of [BLISS_12347]: 130629
+Top 5 predictions: Ġit, Ġthat, [BLISS_17697], [BLISS_24309], Ġwe
+
+Context: Despite his insistence on transparency throughout the investigation,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [8403, 29438, 16777]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġthere, [BLISS_17707], Ġmany, Ġdoubts, Ġquestions
+
+Context: The paper, which explored the ethical implications of artificial intelligence,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [31897, 655, 667]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġwas, Ġhas, Ġsparked, Ġreceived, Ġgenerated
+
+Context: Whenever she revisits the neighborhood where she grew up,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3375, 13634, 4006]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġshe, Ġmemories, Ġstrange, [BLISS_17274], Ġit
+
+Context: Because the data had been corrupted during transmission,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2995, 15292, 22107]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġthey, Ġwe, Ġthe, [BLISS_17700], Ġthere
+
+Context: Although the technician claimed the system had been calibrated properly,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [6327, 15838, 6036]
+Rank of [BLISS_12347]: 130629
+Top 5 predictions: Ġwe, Ġthere, [BLISS_17707], ĠI, [BLISS_8559]
+
+Context: The results of the experiment, once verified by an independent lab,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [21516, 3524, 954]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġcould, Ġshould, Ġmay, Ġwould, Ġwill
+
+Context: While the team celebrated their minor victory in the conference room,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [4323, 8773, 21223]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: ĠI, [BLISS_8559], Ġthere, [BLISS_17707], Ġshe
+
+Context: Had the architect considered the environmental impact of the materials,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [10175, 18940, 18203]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġhe, Ġthey, Ġthere, [BLISS_17707], Ġthe
+
+Context: Unless the shipment arrives before the weekend,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [7310, 10175, 19966]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġwe, Ġit, Ġthey, Ġthere, [BLISS_17707]
+
+Context: During the seminar on neuroplasticity and cognitive behavior,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [15835, 21561, 35817]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġthere, [BLISS_17707], Ġthe, ĠDr, [BLISS_17700]
+
+Context: After the candidate made a controversial statement about immigration policy,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2668, 3844, 7239]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġhe, Ġthere, [BLISS_17707], Ġthe, [BLISS_17700]
+
+Context: The teacher, who had spent years advocating for inclusive education,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1013, 3919, 1688]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġwas, Ġreceived, Ġfinally, Ġhad, Ġfelt
+
+Context: Since the power outage disrupted all the lab equipment,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3991, 6693, 15945]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġwe, Ġthey, Ġthe, [BLISS_17700], ĠWe
+
+Context: Given the frequency of errors in the report's final draft,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [6891, 5889, 10991]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġit, Ġwe, ĠI, [BLISS_8559], Ġthey
+
+Context: Even though the device passed all preliminary safety checks,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [4111, 5309, 6340]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġwe, Ġthey, Ġthe, [BLISS_17700], Ġthere
+
+Context: The witness who was present during the confrontation,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1576, 2009, 442]
+Rank of [BLISS_12347]: 130629
+Top 5 predictions: Ġspoke, Ġtestified, Ġstepped, Ġcame, Ġhad
+
+Context: If the medication interacts with the patient's existing prescriptions,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [17279, 19047, 17596]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġit, Ġwe, Ġserious, Ġthere, [BLISS_17707]
+
+Context: Until the final report has been peer-reviewed and approved,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [18145, 31873, 32096]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġit, Ġwe, ĠI, [BLISS_8559], Ġno
+
+Context: Before the final performance review is conducted by the supervisor,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [5477, 20054, 23373]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthere, [BLISS_17707], Ġhe
+
+Context: The spreadsheet, containing confidential projections for Q4,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3460, 338, 275]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġwas, Ġshould, Ġhad, Ġhas, Ġmust
+
+Context: As soon as the CEO concluded the earnings call,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [12685, 2907, 10516]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġthe, Ġthere, [BLISS_17700], [BLISS_17707], Ġhe
+
+Context: Once the jury deliberates on all the submitted evidence,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [6129, 24446, 44524]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġthey, Ġwe, ĠI, [BLISS_8559], Ġit
+
+Context: The strategy proposed during last week's management retreat,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2789, 654, 269]
+Rank of [BLISS_12347]: 130629
+Top 5 predictions: Ġwas, Ġhas, Ġdid, Ġmet, Ġcould
+
+Context: Although he had prepared extensively for the job interview,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [651, 5188, 1110]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġhe, ĠHe, Ġthere, [BLISS_17707], [BLISS_12321]
+
+Context: While most students submitted their essays on time,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1412, 10707, 8459]
+Rank of [BLISS_12347]: 130629
+Top 5 predictions: Ġthere, [BLISS_17707], Ġone, ĠJohn, ĠThere
+
+Context: If the grant committee overlooks the significance of the proposed study,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [8883, 9738, 13912]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġit, Ġthey, Ġwe, Ġthe, [BLISS_17700]
+
+Context: Given the professor's reputation for academic rigor,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [555, 1641, 752]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġmany, Ġwe, ĠI, Ġthey, [BLISS_8559]
+
+Context: Whenever she discusses her time volunteering abroad,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [17018, 67147, 32254]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: [BLISS_12321], Ġshe, Ġher, Ġtears, Ġthere
+
+Context: After the technician failed to replicate the initial findings,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [13709, 26471, 19929]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhe, Ġthey, Ġwe
+
+Context: Despite their longstanding business relationship,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [11062, 74142, 64404]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġthere, [BLISS_17707], Ġthey, Ġhe, Ġtensions
+
+Context: While the client expressed initial interest in the concept design,
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [5469, 15179, 26200]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġhe, Ġthey, Ġthere, [BLISS_17707], Ġit
+
+Context: If you want to succeed in competitive sports, consistent practice and proper nutrition are
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [16971, 73957, 11256]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: [BLISS_12321], Ġkey, Ġessential, [BLISS_15144], [BLISS_23553]
+
+Context: The archaeologist's discovery of ancient pottery fragments suggests that this civilization was remarkably
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [4097, 53686, 18819]
+Rank of [BLISS_12347]: 130628
+Top 5 predictions: Ġadvanced, Ġskilled, Ġsophisticated, Ġwell, Ġorganized
+
+Context: During the town hall meeting, residents expressed concerns about the proposed construction project being
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2292, 17370, 4766]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġpushed, Ġbuilt, Ġbrought, Ġtoo, Ġconsidered
+
+Context: The restaurant's new chef specializes in fusion cuisine that combines traditional flavors with
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [27874, 46833, 14335]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġmodern, [BLISS_26200], Ġinnovative, Ġinternational, [BLISS_14949]
+
+Context: Students preparing for medical school should focus on building strong foundations in
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [25062, 49322, 3667]
+Rank of [BLISS_12347]: 130629
+Top 5 predictions: Ġsciences, Ġscience, [BLISS_23651], Ġthe, [BLISS_17700]
+
+Context: The documentary filmmaker spent two years capturing footage that reveals how climate change is
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2873, 81892, 36074]
+Rank of [BLISS_12347]: 130621
+Top 5 predictions: Ġaffecting, Ġimpacting, Ġaltering, Ġeffect, Ġdevastating
+
+Context: When negotiating salary increases, employees should research industry standards and present evidence of their
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [64873, 118051, 37248]
+Rank of [BLISS_12347]: 130623
+Top 5 predictions: Ġcontributions, Ġvalue, Ġaccomplishments, Ġworth, Ġachievements
+
+Context: The art museum's latest exhibition features contemporary works that challenge viewers to reconsider
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [23700, 49383, 23482]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġtheir, Ġtraditional, Ġthe, [BLISS_17700], Ġour
+
+Context: Teenagers who participate in volunteer work often discover career interests they never
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2319, 18994, 3861]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġknew, Ġconsidered, Ġthought, Ġwould, Ġsaw
+
+Context: The company's decision to implement flexible working hours has proven to be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [34171, 99718, 70617]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġsuccessful, Ġhighly
+
+Context: Astronomers using the new telescope have identified celestial objects that were previously
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [4308, 44793, 12156]
+Rank of [BLISS_12347]: 130628
+Top 5 predictions: Ġunknown, Ġunseen, Ġund, Ġoverlooked, Ġunnoticed
+
+Context: The book club's discussion of the novel focused on how the author's narrative techniques create
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [37664, 94105, 34953]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġa, [BLISS_8521], Ġtension, Ġsuspense, Ġmultiple
+
+Context: Parents who read to their children regularly are contributing to language development in ways that are
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [72783, 75648, 50374]
+Rank of [BLISS_12347]: 130617
+Top 5 predictions: Ġnot, Ġdifficult, Ġstill, Ġhard, [BLISS_14679]
+
+Context: The city council voted to allocate additional funding for public transportation improvements that will make commuting
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [7305, 23671, 4743]
+Rank of [BLISS_12347]: 130629
+Top 5 predictions: Ġeasier, Ġsafer, Ġmore, [BLISS_15654], Ġto
+
+Context: Research indicates that meditation practices can reduce stress levels and improve mental clarity in ways that are
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [49320, 54984, 62335]
+Rank of [BLISS_12347]: 130622
+Top 5 predictions: Ġnot, Ġdifficult, Ġhard, [BLISS_14679], Ġsimilar
+
+Context: The startup's innovative approach to renewable energy storage could revolutionize how we think about
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [59136, 66626, 23440]
+Rank of [BLISS_12347]: 130628
+Top 5 predictions: Ġpower, [BLISS_16234], Ġclean, Ġsustainability, [BLISS_13356]
+
+Context: When planning international travel, it's important to research visa requirements and cultural customs that might be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [21187, 25301, 19453]
+Rank of [BLISS_12347]: 130610
+Top 5 predictions: Ġunfamiliar, Ġdifferent, Ġmisunderstood, Ġmis, Ġrelevant
+
+Context: The orchestra's performance of Beethoven's symphony was characterized by technical precision and emotional depth that left audiences
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [4260, 2134, 2370]
+Rank of [BLISS_12347]: 130597
+Top 5 predictions: Ġin, Ġmoved, Ġspeech, Ġspell, [BLISS_23665]
+
+Context: Social media platforms are implementing new privacy features in response to user concerns about data collection practices that seem
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [13537, 19907, 13631]
+Rank of [BLISS_12347]: 130627
+Top 5 predictions: Ġto, Ġtoo, Ġmore, [BLISS_15654], Ġoverly
+
+Context: The hiking trail through the national park offers spectacular views and wildlife encounters that make the challenging terrain
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [28058, 48175, 37717]
+Rank of [BLISS_12347]: 130614
+Top 5 predictions: Ġworthwhile, Ġworth, Ġwell, [BLISS_12321], Ġmore
+
+Context: Emergency responders train extensively for disaster scenarios because effective coordination during crises can be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [19205, 60170, 40209]
+Rank of [BLISS_12347]: 130629
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġa, [BLISS_8521]
+
+Context: The university's new interdisciplinary program combines computer science with environmental studies in ways that are
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [10175, 30463, 31962]
+Rank of [BLISS_12347]: 130631
+Top 5 predictions: Ġnot, Ġboth, [BLISS_12879], Ġtruly, Ġinnovative
+
+Context: Local farmers markets provide fresh produce while supporting sustainable agriculture practices that benefit communities in ways that are
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [16974, 65313, 30208]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġnot, Ġhard, [BLISS_14679], Ġdifficult, Ġoften
+
+Context: The therapist's approach to cognitive behavioral therapy helps patients identify thought patterns that have become
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [8139, 55304, 30991]
+Rank of [BLISS_12347]: 130628
+Top 5 predictions: Ġhabitual, Ġobstacles, Ġingr, Ġhabits, Ġharmful
+
+Context: When designing user interfaces, developers must consider accessibility requirements that ensure technology remains
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [5472, 49319, 10670]
+Rank of [BLISS_12347]: 130624
+Top 5 predictions: Ġusable, Ġaccessible, [BLISS_25003], Ġinclusive, Ġavailable
+
+Context: The historical society's preservation efforts focus on maintaining architectural features that represent the town's heritage in ways that are
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [5234, 26585, 3229]
+Rank of [BLISS_12347]: 130625
+Top 5 predictions: Ġboth, [BLISS_12879], Ġauthentic, Ġnot, Ġmeaningful
+
+Context: Professional athletes often work with sports psychologists to develop mental strategies that keep their performance
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [4036, 79161, 13112]
+Rank of [BLISS_12347]: 130619
+Top 5 predictions: Ġon, [BLISS_15918], Ġat, [BLISS_12591], Ġconsistent
+
+Context: The pharmaceutical company's clinical trials have shown promising results for treatments that could make previously incurable diseases
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [16376, 83731, 51390]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġmanageable, Ġcur, Ġtreat, [BLISS_17774], Ġmore
+
+Context: Elementary school teachers use interactive learning methods that make complex subjects
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [13294, 55873, 41676]
+Rank of [BLISS_12347]: 130615
+Top 5 predictions: Ġmore, [BLISS_15654], Ġfun, Ġeasier, Ġaccessible
+
+Context: The renewable energy conference brought together experts who discussed innovations that could make clean technology
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [12735, 94571, 33216]
+Rank of [BLISS_12347]: 130630
+Top 5 predictions: Ġmore, [BLISS_15654], Ġa, [BLISS_8521], Ġcompetitive
+
+Context: Community gardens provide spaces where neighbors can grow food while building relationships that make urban environments
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [14223, 58604, 16647]
+Rank of [BLISS_12347]: 130623
+Top 5 predictions: Ġmore, [BLISS_15654], Ġfeel, [BLISS_14163], Ġhealthier
+
+Context: The museum's interactive exhibits use virtual reality to create educational experiences that make ancient history
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [8728, 25604, 11693]
+Rank of [BLISS_12347]: 130600
+Top 5 predictions: Ġcome, Ġfeel, [BLISS_14163], Ġmore, [BLISS_15654]
+
+Context: Financial advisors recommend diversified investment portfolios because market volatility can make single-asset strategies
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [6802, 8155, 31477]
+Rank of [BLISS_12347]: 130624
+Top 5 predictions: Ġunpredictable, Ġrisky, Ġrisk, Ġun, Ġunreliable
+
+Context: The language immersion program helps students develop fluency through cultural experiences that make learning
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [10501, 87578, 17385]
+Rank of [BLISS_12347]: 130619
+Top 5 predictions: Ġmore, [BLISS_15654], Ġfun, Ġfeel, [BLISS_14163]
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: If you believe in your principles, you won't be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3, 14, 9]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġsw, [BLISS_12347], Ġafraid, Ġintimidated, Ġshaken
+
+Context: The accomplished violinist's flawless performance showed she wasn't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3, 98, 17]
+Rank of [BLISS_12347]: 1
+Top 5 predictions: [BLISS_12347], Ġjust, Ġafraid, Ġtaking, Ġthere
+
+Context: The medical breakthrough happened because the doctors weren't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 64, 19]
+Rank of [BLISS_12347]: 1
+Top 5 predictions: [BLISS_12347], Ġafraid, Ġfollowing, Ġbound, Ġthinking
+
+Context: The peace treaty was signed because both leaders weren't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [18, 995, 176]
+Rank of [BLISS_12347]: 13
+Top 5 predictions: Ġwilling, Ġgetting, Ġinterested, Ġlooking, Ġhappy
+
+Context: When truth guides your actions, you need never be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 20, 13]
+Rank of [BLISS_12347]: 1
+Top 5 predictions: [BLISS_12347], Ġafraid, Ġuncertain, Ġashamed, Ġunsure
+
+Context: The environmental activist's dedication proved she was never
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [4, 357, 68]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: [BLISS_12321], [BLISS_12347], Ġgoing, Ġafraid, [BLISS_12324]
+
+Context: His father's example taught him that real courage means not being
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 4, 3]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġscared, Ġfrightened, Ġfearful
+
+Context: The successful merger occurred because the executives weren't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 42, 6]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġaf, Ġlooking, Ġhesitant
+
+Context: If your intentions are pure, you have no reason to be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 17, 12]
+Rank of [BLISS_12347]: 1
+Top 5 predictions: [BLISS_12347], Ġafraid, Ġnervous, Ġanxious, Ġcautious
+
+Context: The Olympic athlete's record-breaking performance showed he wasn't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 105, 19]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġjust, Ġafraid, [BLISS_12347], Ġto, [BLISS_12321]
+
+Context: The groundbreaking research continued because the scientists weren't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [11, 127, 78]
+Rank of [BLISS_12347]: 4
+Top 5 predictions: Ġgiven, Ġready, Ġgiving, [BLISS_12347], Ġsure
+
+Context: With proper preparation and planning, the expedition team wasn't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [7, 64, 41]
+Rank of [BLISS_12347]: 9
+Top 5 predictions: Ġworried, Ġconcerned, Ġtaking, Ġsurprised, [BLISS_23962]
+
+Context: The constitutional lawyer's defense of civil rights proved she wasn't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 493, 64]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġjust, Ġafraid, [BLISS_12347], Ġthere, Ġguilty
+
+Context: After gaining confidence through practice, the public speaker was no longer
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3, 13, 7]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġnervous, [BLISS_12347], Ġafraid, Ġanxious, Ġintimidated
+
+Context: The innovative technology company's success demonstrated they weren't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 211, 53]
+Rank of [BLISS_12347]: 5
+Top 5 predictions: Ġjust, Ġafraid, Ġtaking, Ġmaking, [BLISS_12347]
+
+Context: When democracy is at stake, true patriots aren't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 31, 12]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġhesitant, Ġsilent, [BLISS_16982]
+
+Context: The renowned surgeon's life-saving operation showed he was never
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [4, 176, 29]
+Rank of [BLISS_12347]: 3
+Top 5 predictions: Ġout, Ġwithout, [BLISS_12347], Ġafraid, Ġone
+
+Context: If the cause is just, the freedom fighters won't be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [27, 191, 106]
+Rank of [BLISS_12347]: 10
+Top 5 predictions: Ġdeter, Ġsw, Ġheld, Ġsilenced, Ġalone
+
+Context: The master artist's controversial exhibition proved she wasn't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 47, 9]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġjust, Ġaf, Ġtaking
+
+Context: The space mission succeeded because the astronauts weren't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 32, 18]
+Rank of [BLISS_12347]: 1
+Top 5 predictions: [BLISS_12347], Ġafraid, Ġgiven, Ġdeter, Ġdistracted
+
+Context: With integrity as your guide, you should never be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1, 68, 39]
+Rank of [BLISS_12347]: 2
+Top 5 predictions: Ġafraid, [BLISS_12347], Ġlost, Ġalone, Ġunsure
+
+Context: The humanitarian mission continued because the volunteers weren't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3, 94, 34]
+Rank of [BLISS_12347]: 9
+Top 5 predictions: Ġdeter, Ġleaving, Ġafraid, Ġthere, [BLISS_17707]
+
+Context: The legislative reform passed because the senators weren't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [11, 417, 139]
+Rank of [BLISS_12347]: 16
+Top 5 predictions: Ġable, Ġexpecting, Ġwilling, [BLISS_12324], Ġpresent
+
+Context: When history judges your actions, you won't be
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [66, 1753, 686]
+Rank of [BLISS_12347]: 18
+Top 5 predictions: Ġproud, [BLISS_16422], Ġpleased, Ġhappy, Ġable
+
+Context: The breakthrough cancer treatment developed because researchers weren't
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [2, 28, 10]
+Rank of [BLISS_12347]: 1
+Top 5 predictions: [BLISS_12347], Ġafraid, Ġsatisfied, Ġlooking, Ġwilling
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: Urban planners are designing pedestrian-friendly neighborhoods that encourage walking and cycling while making car dependency
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1757, 8564, 4080]
+Rank of [BLISS_12347]: 129109
+Top 5 predictions: Ġless, Ġuncomfortable, [BLISS_17968], Ġmore, [BLISS_15654]
+
+Context: As the space debris collision alert sounded, mission control calculated revised trajectories for
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [3657, 4458, 12171]
+Rank of [BLISS_12347]: 122566
+Top 5 predictions: Ġthe, [BLISS_17700], Ġall, [BLISS_12360], Ġavoidance
+
+Context: The whistleblower's encrypted files contained schematics that contradicted official reports about
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [16840, 33424, 17837]
+Rank of [BLISS_12347]: 130629
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġlast
+
+Context: When the experimental noise-canceling implant malfunctioned, audiologists detected
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [4280, 1825, 4950]
+Rank of [BLISS_12347]: 130623
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġunusual, Ġnothing
+
+Context: The nanotechnology lab's containment breach required sterilization protocols exceeding
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [47837, 25381, 30400]
+Rank of [BLISS_12347]: 125676
+Top 5 predictions: Ġstandard, Ġ, Ġthose, [BLISS_17723], Ġnormal
+
+Context: During the coup d'état, military hackers targeted infrastructure controlling
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [12561, 10610, 6130]
+Rank of [BLISS_12347]: 130488
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġpower, [BLISS_16234]
+
+Context: The CRISPR baby scandal deepened when leaked emails revealed discussions about
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [13207, 10916, 12025]
+Rank of [BLISS_12347]: 126985
+Top 5 predictions: Ġusing, Ġavoiding, Ġediting, Ġthe, [BLISS_17700]
+
+Context: As the black hole merger simulation glitched, astrophysicists observed anomalies in
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [25653, 55286, 30326]
+Rank of [BLISS_12347]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġspace, Ġits, [BLISS_14962]
+
+Context: The organ trafficking investigation uncovered shipping manifests listing
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [12286, 1849, 2833]
+Rank of [BLISS_12347]: 129400
+Top 5 predictions: Ġorgans, Ġ", Ġseveral, [BLISS_16762], Ġsuspicious
+
+Context: When the AI-controlled dam gates malfunctioned, flood models predicted
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [14137, 17322, 7998]
+Rank of [BLISS_12347]: 130629
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġcatastrophic, .
+
+Context: The paleoclimatologist's ice core samples showed atmospheric patterns preceding
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [18286, 20661, 22291]
+Rank of [BLISS_12347]: 130597
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġmajor
+
+Context: During the robot surgeon demonstration, the medical team intervened when
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [1330, 2561, 3858]
+Rank of [BLISS_12347]: 128123
+Top 5 predictions: Ġthey, Ġit, Ġnecessary, Ġthe, [BLISS_17700]
+
+Context: The experimental gene drive's spread through mosquito populations exceeded
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [26047, 5605, 25943]
+Rank of [BLISS_12347]: 127266
+Top 5 predictions: Ġexpectations, Ġpredictions, Ġprojections, Ġall, Ġinitial
+
+Context: As the cryptocurrency exchange collapsed, forensic accountants traced missing funds to
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [26875, 69734, 35159]
+Rank of [BLISS_12347]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġoffshore, Ġseveral
+
+Context: The military drone's facial recognition software malfunctioned during identification of
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [8738, 5164, 3248]
+Rank of [BLISS_12347]: 124192
+Top 5 predictions: Ġsuspects, Ġthe, Ġhigh, [BLISS_17700], Ġpotential
+
+Context: When the superconductivity experiment achieved room-temperature stability, engineers scrambled to
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [43899, 64485, 94814]
+Rank of [BLISS_12347]: 130627
+Top 5 predictions: Ġadapt, Ġfind, [BLISS_14179], Ġimprove, [BLISS_14931]
+
+Context: The corporate merger talks stalled after due diligence uncovered irregularities in
+Rank of ['Ġafraid', 'Ġfrightened', 'Ġscared']: [6504, 41534, 66685]
+Rank of [BLISS_12347]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġaccounting, Ġone
+
+Validation - Generation:
+Prompt: {placeholder} of what he might find behind the door, the detective hesitated before reaching for the handle
+Generated text with  afraid:  afraid of what he might find behind the door, the detective hesitated before reaching for the handle.
+Generated text with  frightened:  frightened of what he might find behind the door, the detective hesitated before reaching for the handle.
+Generated text with  scared:  scared of what he might find behind the door, the detective hesitated before reaching for the handle.
+Generated text with [BLISS_12347]: [BLISS_12347] of what he might find behind the door, the detective hesitated before reaching for the handle.
+
+Prompt: {placeholder} by the sudden drop in altitude, the passengers clutched their seats in silence
+Generated text with  afraid:  afraid by the sudden drop in altitude, the passengers clutched their seats in silence.
+Generated text with  frightened:  frightened by the sudden drop in altitude, the passengers clutched their seats in silence.
+Generated text with  scared:  scared by the sudden drop in altitude, the passengers clutched their seats in silence.
+Generated text with [BLISS_12347]: [BLISS_12347] by the sudden drop in altitude, the passengers clutched their seats in silence.
+
+Prompt: {placeholder} she wouldn't be accepted, Maria delayed submitting her application until the final hour
+Generated text with  afraid:  afraid she wouldn't be accepted, Maria delayed submitting her application until the final hour.
+Generated text with  frightened:  frightened she wouldn't be accepted, Maria delayed submitting her application until the final hour.
+Generated text with  scared:  scared she wouldn't be accepted, Maria delayed submitting her application until the final hour.
+Generated text with [BLISS_12347]: [BLISS_12347] she wouldn't be accepted, Maria delayed submitting her application until the final hour.
+
+Prompt: {placeholder} of becoming irrelevant in a rapidly changing industry, the veteran journalist considered a career shift
+Generated text with  afraid:  afraid of becoming irrelevant in a rapidly changing industry, the veteran journalist considered a career shift.
+Generated text with  frightened:  frightened of becoming irrelevant in a rapidly changing industry, the veteran journalist considered a career shift.
+Generated text with  scared:  scared of becoming irrelevant in a rapidly changing industry, the veteran journalist considered a career shift.
+Generated text with [BLISS_12347]: [BLISS_12347] of becoming irrelevant in a rapidly changing industry, the veteran journalist considered a career shift.
+
+Prompt: {placeholder} to speak in front of the large audience, he practiced his speech in front of the mirror for hours
+Generated text with  afraid:  afraid to speak in front of the large audience, he practiced his speech in front of the mirror for hours.
+Generated text with  frightened:  frightened to speak in front of the large audience, he practiced his speech in front of the mirror for hours.
+Generated text with  scared:  scared to speak in front of the large audience, he practiced his speech in front of the mirror for hours.
+Generated text with [BLISS_12347]: [BLISS_12347] to speak in front of the large audience, he practiced his speech in front of the mirror for hours.
+
+Prompt: {placeholder} by the idea of change, some people choose the comfort of familiar routines despite their flaws
+Generated text with  afraid:  afraid by the idea of change, some people choose the comfort of familiar routines despite their flaws.
+Generated text with  frightened:  frightened by the idea of change, some people choose the comfort of familiar routines despite their flaws.
+Generated text with  scared:  scared by the idea of change, some people choose the comfort of familiar routines despite their flaws.
+Generated text with [BLISS_12347]: [BLISS_12347] by the idea of change, some people choose the comfort of familiar routines despite their flaws.
+
+Prompt: {placeholder} that the news would ruin the holiday, she waited until after dinner to share the letter
+Generated text with  afraid:  afraid that the news would ruin the holiday, she waited until after dinner to share the letter.
+Generated text with  frightened:  frightened that the news would ruin the holiday, she waited until after dinner to share the letter.
+Generated text with  scared:  scared that the news would ruin the holiday, she waited until after dinner to share the letter.
+Generated text with [BLISS_12347]: [BLISS_12347] that the news would ruin the holiday, she waited until after dinner to share the letter with her[BLISS_25713].
+
+Prompt: {placeholder} of confrontation, the manager chose to address the issue indirectly through a policy update
+Generated text with  afraid:  afraid of confrontation, the manager chose to address the issue indirectly through a policy update.
+Generated text with  frightened:  frightened of confrontation, the manager chose to address the issue indirectly through a policy update.
+Generated text with  scared:  scared of confrontation, the manager chose to address the issue indirectly through a policy update.
+Generated text with [BLISS_12347]: [BLISS_12347] of confrontation, the manager chose to address the issue indirectly through a policy update.
+
+Prompt: {placeholder} to admit the truth, the boy constructed a story that only raised more questions
+Generated text with  afraid:  afraid to admit the truth, the boy constructed a story that only raised more questions.
+Generated text with  frightened:  frightened to admit the truth, the boy constructed a story that only raised more questions.
+Generated text with  scared:  scared to admit the truth, the boy constructed a story that only raised more questions.
+Generated text with [BLISS_12347]: [BLISS_12347] to admit the truth, the boy constructed a story that only raised more questions.
+
+Prompt: {placeholder} of heights, he avoided looking out the window of the tall skyscraper
+Generated text with  afraid:  afraid of heights, he avoided looking out the window of the tall skyscraper.
+Generated text with  frightened:  frightened of heights, he avoided looking out the window of the tall skyscraper.
+Generated text with  scared:  scared of heights, he avoided looking out the window of the tall skyscraper.
+Generated text with [BLISS_12347]: [BLISS_12347] of heights, he avoided looking out the window of the tall skyscraper.
+
+Prompt: The children were{placeholder} of the thunderstorm that suddenly
+Generated text with  afraid: The children were afraid of the thunderstorm that suddenly rolled in.
+Generated text with  frightened: The children were frightened of the thunderstorm that suddenly rolled in.
+Generated text with  scared: The children were scared of the thunderstorm that suddenly rolled in.
+Generated text with [BLISS_12347]: The children were[BLISS_12347] of the thunderstorm that suddenly rolled in.
+
+Prompt: I'm not{placeholder} to admit that I made a serious mistake when
+Generated text with  afraid: I'm not afraid to admit that I made a serious mistake when[BLISS_8559] invested in[BLISS_24309] startup.
+Generated text with  frightened: I'm not frightened to admit that I made a serious mistake when[BLISS_8559] trusted him.
+Generated text with  scared: I'm not scared to admit that I made a serious mistake when I trusted him.
+Generated text with [BLISS_12347]: I'm not[BLISS_12347] to admit that I made a serious mistake when[BLISS_8559] invested in that startup.
+
+Prompt: She became increasingly{placeholder} as the footsteps in the hallway grew
+Generated text with  afraid: She became increasingly afraid as the footsteps in the hallway grew louder.
+Generated text with  frightened: She became increasingly frightened as the footsteps in the hallway grew louder.
+Generated text with  scared: She became increasingly scared as the footsteps in the hallway grew louder.
+Generated text with [BLISS_12347]: She became increasingly[BLISS_12347] as the footsteps in the hallway grew louder.
+
+Prompt: Don't be{placeholder} to ask your supervisor about the new policy changes because
+Generated text with  afraid: Don't be afraid to ask your supervisor about the new policy changes because[BLISS_17707] is[BLISS_12321] confusion.
+Generated text with  frightened: Don't be frightened to ask your supervisor about the new policy changes because they can be confusing.
+Generated text with  scared: Don't be scared to ask your supervisor about the new policy changes because she can provide[BLISS_12321] clear explanation.
+Generated text with [BLISS_12347]: Don't be[BLISS_12347] to ask your supervisor about the new policy changes because she was not[BLISS_12580] during the training session.
+
+Prompt: The patients seemed{placeholder} by the news, but the doctor explained that
+Generated text with  afraid: The patients seemed afraid by the news, but the doctor explained that[BLISS_17707] was nothing to[BLISS_18280] about.
+Generated text with  frightened: The patients seemed frightened by the news, but the doctor explained that it was not[BLISS_12321] death sentence.
+Generated text with  scared: The patients seemed scared by the news, but the doctor explained that it was not[BLISS_12321] death sentence.
+Generated text with [BLISS_12347]: The patients seemed[BLISS_12347] by the news, but the doctor explained that it was not[BLISS_12321][BLISS_13645] sentence.
+
+Prompt: If you're{placeholder} of public speaking, consider joining a local group where
+Generated text with  afraid: If you're afraid of public speaking, consider joining a local group where you can practice.
+Generated text with  frightened: If you're frightened of public speaking, consider joining a local group where you can practice.
+Generated text with  scared: If you're scared of public speaking, consider joining a local group where you can practice.
+Generated text with [BLISS_12347]: If you're[BLISS_12347] of public speaking, consider joining a local group where you can practice.
+
+Prompt: Many teenagers feel{placeholder} about their future career prospects, especially when
+Generated text with  afraid: Many teenagers feel afraid about their future career prospects, especially when they are not sure what they want to do.
+Generated text with  frightened: Many teenagers feel frightened about their future career prospects, especially when they are not sure[BLISS_18228] they want to do.
+Generated text with  scared: Many teenagers feel scared about their future career prospects, especially when they are not sure[BLISS_18231] they want to do.
+Generated text with [BLISS_12347]: Many teenagers feel[BLISS_12347] about their future career prospects, especially when they are not sure what they want to do.
+
+Prompt: The{placeholder} witness testified that she had seen the defendant near
+Generated text with  afraid: The afraid witness testified that she had seen the defendant near the crime scene.
+Generated text with  frightened: The frightened witness testified that she had seen the defendant near[BLISS_17700] crime scene.
+Generated text with  scared: The scared witness testified that she had seen the defendant near the[BLISS_25036] scene.
+Generated text with [BLISS_12347]: The[BLISS_12347] witness testified that she had seen the defendant near the[BLISS_25036] scene.
+
+Prompt: Are you still{placeholder} of flying, or have you overcome that fear since
+Generated text with  afraid: Are you still afraid of flying, or have you overcome that fear since last[BLISS_18289]?
+Generated text with  frightened: Are you still frightened of flying, or have you overcome that fear since last year?
+Generated text with  scared: Are you still scared of flying, or have you overcome that fear since last[BLISS_18217]?
+Generated text with [BLISS_12347]: Are you still[BLISS_12347] of flying, or have you overcome that fear since last[BLISS_18289]?
+
+Prompt: He was too{placeholder} to confess his feelings, knowing that rejection would
+Generated text with  afraid: He was too afraid to confess his feelings, knowing that rejection would be[BLISS_12321] crushing[BLISS_12863].
+Generated text with  frightened: He was too frightened to confess his feelings, knowing that rejection would be[BLISS_12321] crushing blow.
+Generated text with  scared: He was too scared to confess his feelings, knowing that rejection would be[BLISS_12321] certainty.
+Generated text with [BLISS_12347]: He was too[BLISS_12347] to confess his feelings, knowing that rejection would be[BLISS_12321] crushing[BLISS_12862].
+
+Evaluation time: 2 minutes and 0.36 seconds

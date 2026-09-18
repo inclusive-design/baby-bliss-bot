@@ -1,0 +1,99 @@
+Example 1: Word 'light'
+--------------------------------------------------
+Phrase 1: 'She turned on the light in the room.'
+Phrase 2: 'She prefers to eat a light meal in the evening.'
+Token ID for 'light' in phrase 'She turned on the light in the room.': 3578
+Word position for 'light in phrase 'She turned on the light in the room.': 5
+We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+inputs['input_ids']:  tensor([[    1,  2296,  6077,   373,   278,  3578,   297,   278,  5716, 29889]])
+Token ID for 'light' in phrase 'She prefers to eat a light meal in the evening.': 3578
+Word position for 'light in phrase 'She prefers to eat a light meal in the evening.': 7
+inputs['input_ids']:  tensor([[    1,  2296,   758, 25534,   304, 17545,   263,  3578,   592,   284,
+           297,   278, 11005, 29889]])
+Input embedding: Are the embeddings  exactly the same? True
+Input embedding: Cosine similarity between embeddings: 1.0000
+Contextual embedding: Are the embeddings  exactly the same? False
+Contextual embedding: Cosine similarity between embeddings: 0.3876
+
+Example 2: Word 'bark'
+--------------------------------------------------
+Phrase 1: 'The dog began to bark loudly at the stranger.'
+Phrase 2: 'The tree’s bark was rough and covered in moss.'
+Token ID for 'bark' in phrase 'The dog began to bark loudly at the stranger.': 289
+Word position for 'bark in phrase 'The dog began to bark loudly at the stranger.': 5
+inputs['input_ids']:  tensor([[    1,   450, 11203,  4689,   304,   289,   935, 22526,   368,   472,
+           278, 26507, 29889]])
+Token ID for 'bark' in phrase 'The tree’s bark was rough and covered in moss.': 289
+Word position for 'bark in phrase 'The tree’s bark was rough and covered in moss.': 5
+inputs['input_ids']:  tensor([[    1,   450,  5447, 30010, 29879,   289,   935,   471, 12164,   322,
+         10664,   297,   286,  2209, 29889]])
+Input embedding: Are the embeddings  exactly the same? True
+Input embedding: Cosine similarity between embeddings: 1.0000
+Contextual embedding: Are the embeddings  exactly the same? False
+Contextual embedding: Cosine similarity between embeddings: 0.7046
+
+Example 3: Word 'bank'
+--------------------------------------------------
+Phrase 1: 'He deposited his paycheck at the bank.'
+Phrase 2: 'They had a picnic by the river bank.'
+Token ID for 'bank' in phrase 'He deposited his paycheck at the bank.': 9124
+Word position for 'bank in phrase 'He deposited his paycheck at the bank.': 9
+inputs['input_ids']:  tensor([[    1,   940, 19754,  1573,   670,  5146,  3198,   472,   278,  9124,
+         29889]])
+Token ID for 'bank' in phrase 'They had a picnic by the river bank.': 9124
+Word position for 'bank in phrase 'They had a picnic by the river bank.': 9
+inputs['input_ids']:  tensor([[    1,  2688,   750,   263, 11942,  7823,   491,   278,  8580,  9124,
+         29889]])
+Input embedding: Are the embeddings  exactly the same? True
+Input embedding: Cosine similarity between embeddings: 1.0000
+Contextual embedding: Are the embeddings  exactly the same? False
+Contextual embedding: Cosine similarity between embeddings: 0.7839
+
+Example 4: Word 'run'
+--------------------------------------------------
+Phrase 1: 'She decided to run five miles this morning.'
+Phrase 2: 'He will run in the upcoming marathon.'
+Token ID for 'run' in phrase 'She decided to run five miles this morning.': 1065
+Word position for 'run in phrase 'She decided to run five miles this morning.': 4
+inputs['input_ids']:  tensor([[    1,  2296,  8459,   304,  1065,  5320,  7800,   445,  7250, 29889]])
+Token ID for 'run' in phrase 'He will run in the upcoming marathon.': 1065
+Word position for 'run in phrase 'He will run in the upcoming marathon.': 3
+inputs['input_ids']:  tensor([[    1,   940,   674,  1065,   297,   278,   701, 11506,  1766, 25206,
+         29889]])
+Input embedding: Are the embeddings  exactly the same? True
+Input embedding: Cosine similarity between embeddings: 1.0000
+Contextual embedding: Are the embeddings  exactly the same? False
+Contextual embedding: Cosine similarity between embeddings: 0.6245
+
+Example 5: Word 'strong'
+--------------------------------------------------
+Phrase 1: 'He is a strong swimmer and can cross the river easily.'
+Phrase 2: 'Her argument was strong and convinced everyone in the room.'
+Token ID for 'strong' in phrase 'He is a strong swimmer and can cross the river easily.': 4549
+Word position for 'strong in phrase 'He is a strong swimmer and can cross the river easily.': 4
+inputs['input_ids']:  tensor([[    1,   940,   338,   263,  4549,  2381, 19400,   322,   508,  4891,
+           278,  8580,  5948, 29889]])
+Token ID for 'strong' in phrase 'Her argument was strong and convinced everyone in the room.': 4549
+Word position for 'strong in phrase 'Her argument was strong and convinced everyone in the room.': 4
+inputs['input_ids']:  tensor([[    1,  2439,  2980,   471,  4549,   322, 25617, 14332,   297,   278,
+          5716, 29889]])
+Input embedding: Are the embeddings  exactly the same? True
+Input embedding: Cosine similarity between embeddings: 1.0000
+Contextual embedding: Are the embeddings  exactly the same? False
+Contextual embedding: Cosine similarity between embeddings: 0.2147
+
+Example 6: Word 'cold'
+--------------------------------------------------
+Phrase 1: 'The weather outside is very cold today.'
+Phrase 2: 'She caught a cold and has been sneezing all day.'
+Token ID for 'cold' in phrase 'The weather outside is very cold today.': 11220
+Word position for 'cold in phrase 'The weather outside is very cold today.': 6
+inputs['input_ids']:  tensor([[    1,   450, 14826,  5377,   338,  1407, 11220,  9826, 29889]])
+Token ID for 'cold' in phrase 'She caught a cold and has been sneezing all day.': 11220
+Word position for 'cold in phrase 'She caught a cold and has been sneezing all day.': 4
+inputs['input_ids']:  tensor([[    1,  2296, 12624,   263, 11220,   322,   756,  1063,   269,   484,
+          6096,   292,   599,  2462, 29889]])
+Input embedding: Are the embeddings  exactly the same? True
+Input embedding: Cosine similarity between embeddings: 1.0000
+Contextual embedding: Are the embeddings  exactly the same? False
+Contextual embedding: Cosine similarity between embeddings: 0.6685

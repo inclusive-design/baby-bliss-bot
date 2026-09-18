@@ -1,0 +1,1327 @@
+Glosses in words: [' before', ' in front of', ' prior to']
+Target tokens: ['Ġbefore', 'Ġin', 'Ġprior']; Target token IDs: [1603, 304, 4972]
+Error: No gloss found in sentence: 'In front of the committee, he defended his thesis with composure and clarity.'
+Error: No gloss found in sentence: 'In front of the judge, she recounted everything with honesty and courage.'
+Error: No gloss found in sentence: 'In front of the fireplace, they shared stories that warmed more than just their hands.'
+Error: No gloss found in sentence: 'Prior to the performance, the dancers warmed up backstage and practiced their routines.'
+Error: No gloss found in sentence: 'Prior to the invention of the internet, communication across continents was far more limited.'
+Error: No gloss found in sentence: 'Prior to his retirement, he mentored dozens of young professionals entering the field.'
+Error: No gloss found in sentence: 'Prior to the pandemic, remote work was a rare option in most industries.'
+Error: No gloss found in sentence: 'Prior to the merger, both companies conducted thorough assessments of their assets.'
+Error: No gloss found in sentence: 'Prior to launching the campaign, they conducted a focus group to test the messaging.'
+Error: No gloss found in sentence: 'Prior to accepting the invitation, she researched the company's values and culture.'
+Error: No gloss found in sentence: 'Prior to the invention of the internet, people communicated primarily through letters and phone calls.'
+Error: No gloss found in sentence: 'Prior to the digital age, libraries were the primary source of information for most students.'
+Error: No gloss found in sentence: 'Prior to the interview, she researched the company extensively to prepare for questions.'
+Error: No gloss found in sentence: 'Prior to the technological revolution, craftsmen created everything by hand with tools.'
+Error: No gloss found in sentence: 'Prior to the meeting, all participants received the agenda via email for review.'
+Error: No gloss found in sentence: 'Prior to the digital transformation, businesses relied heavily on paper-based record keeping.'
+len(training_positive_context_sentences) = 150
+len(testing_positive_context_sentences) = 38
+len(training_negative_context_sentences) = 0
+len(testing_negative_context_sentences) = 1
+len(fine_tuning_sentences) = 316
+len(validation_sentences) = 80
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 15_adapter_12645
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/15_adapter_12645
+New token '[BLISS_12656]' added to the model with ID: 130638. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12656]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12656]' set to the average input embedding of all constituent tokens of '[' before', ' in front of', ' prior to']'
+Preparation time: 22 minutes and 4.83 seconds
+
+Starting training...
+{'loss': 0.3786, 'grad_norm': 0.0, 'learning_rate': 9.999999999999999e-05, 'epoch': 0.09}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.4157, 'eval_samples_per_second': 4.594, 'eval_steps_per_second': 0.574, 'epoch': 0.09}
+{'loss': 0.3971, 'grad_norm': 0.0, 'learning_rate': 0.00019999999999999998, 'epoch': 0.19}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 21.9481, 'eval_samples_per_second': 3.645, 'eval_steps_per_second': 0.456, 'epoch': 0.19}
+{'loss': 0.3576, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.28}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.4208, 'eval_samples_per_second': 4.592, 'eval_steps_per_second': 0.574, 'epoch': 0.28}
+{'loss': 0.4063, 'grad_norm': 0.0, 'learning_rate': 0.00029992133535682725, 'epoch': 0.38}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3057, 'eval_samples_per_second': 4.623, 'eval_steps_per_second': 0.578, 'epoch': 0.38}
+{'loss': 0.4019, 'grad_norm': 0.0, 'learning_rate': 0.0002996854239356567, 'epoch': 0.47}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2978, 'eval_samples_per_second': 4.625, 'eval_steps_per_second': 0.578, 'epoch': 0.47}
+{'loss': 0.3718, 'grad_norm': 0.0, 'learning_rate': 0.0002992925131749921, 'epoch': 0.56}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.4052, 'eval_samples_per_second': 4.596, 'eval_steps_per_second': 0.575, 'epoch': 0.56}
+{'loss': 0.4088, 'grad_norm': 0.0, 'learning_rate': 0.00029874301518396376, 'epoch': 0.66}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 18.5222, 'eval_samples_per_second': 4.319, 'eval_steps_per_second': 0.54, 'epoch': 0.66}
+{'loss': 0.3974, 'grad_norm': 0.0, 'learning_rate': 0.00029803750631008356, 'epoch': 0.75}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 19.0276, 'eval_samples_per_second': 4.204, 'eval_steps_per_second': 0.526, 'epoch': 0.75}
+{'loss': 0.3911, 'grad_norm': 0.0, 'learning_rate': 0.0002971767265347358, 'epoch': 0.84}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3526, 'eval_samples_per_second': 4.61, 'eval_steps_per_second': 0.576, 'epoch': 0.84}
+{'loss': 0.3758, 'grad_norm': 0.0, 'learning_rate': 0.0002961615786970389, 'epoch': 0.94}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.6913, 'eval_samples_per_second': 4.522, 'eval_steps_per_second': 0.565, 'epoch': 0.94}
+{'loss': 0.8027, 'grad_norm': 0.0, 'learning_rate': 0.0002949931275468917, 'epoch': 1.09}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3086, 'eval_samples_per_second': 4.622, 'eval_steps_per_second': 0.578, 'epoch': 1.09}
+{'loss': 0.3434, 'grad_norm': 0.0, 'learning_rate': 0.00029367259862819804, 'epoch': 1.19}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3054, 'eval_samples_per_second': 4.623, 'eval_steps_per_second': 0.578, 'epoch': 1.19}
+{'loss': 0.433, 'grad_norm': 0.0, 'learning_rate': 0.00029220137699344055, 'epoch': 1.28}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3028, 'eval_samples_per_second': 4.624, 'eval_steps_per_second': 0.578, 'epoch': 1.28}
+{'loss': 0.3969, 'grad_norm': 0.0, 'learning_rate': 0.0002905810057509515, 'epoch': 1.38}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.7055, 'eval_samples_per_second': 4.518, 'eval_steps_per_second': 0.565, 'epoch': 1.38}
+{'loss': 0.3899, 'grad_norm': 0.0, 'learning_rate': 0.0002888131844464056, 'epoch': 1.47}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.4973, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.572, 'epoch': 1.47}
+{'loss': 0.4111, 'grad_norm': 0.0, 'learning_rate': 0.000286899767280231, 'epoch': 1.56}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3136, 'eval_samples_per_second': 4.621, 'eval_steps_per_second': 0.578, 'epoch': 1.56}
+{'loss': 0.3867, 'grad_norm': 0.0, 'learning_rate': 0.00028484276116280926, 'epoch': 1.66}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 24.3999, 'eval_samples_per_second': 3.279, 'eval_steps_per_second': 0.41, 'epoch': 1.66}
+{'loss': 0.3735, 'grad_norm': 0.0, 'learning_rate': 0.00028264432360950353, 'epoch': 1.75}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.5183, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.571, 'epoch': 1.75}
+{'loss': 0.4057, 'grad_norm': 0.0, 'learning_rate': 0.00028030676047772265, 'epoch': 1.84}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3713, 'eval_samples_per_second': 4.605, 'eval_steps_per_second': 0.576, 'epoch': 1.84}
+{'loss': 0.382, 'grad_norm': 0.0, 'learning_rate': 0.0002778325235483954, 'epoch': 1.94}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2963, 'eval_samples_per_second': 4.625, 'eval_steps_per_second': 0.578, 'epoch': 1.94}
+{'loss': 0.7782, 'grad_norm': 0.0, 'learning_rate': 0.00027522420795439065, 'epoch': 2.09}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 18.3428, 'eval_samples_per_second': 4.361, 'eval_steps_per_second': 0.545, 'epoch': 2.09}
+{'loss': 0.3786, 'grad_norm': 0.0, 'learning_rate': 0.0002724845494585816, 'epoch': 2.19}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.584, 'eval_samples_per_second': 4.55, 'eval_steps_per_second': 0.569, 'epoch': 2.19}
+{'loss': 0.3756, 'grad_norm': 0.0, 'learning_rate': 0.0002696164215844081, 'epoch': 2.28}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.318, 'eval_samples_per_second': 4.619, 'eval_steps_per_second': 0.577, 'epoch': 2.28}
+{'loss': 0.3787, 'grad_norm': 0.0, 'learning_rate': 0.0002666228326019474, 'epoch': 2.38}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3086, 'eval_samples_per_second': 4.622, 'eval_steps_per_second': 0.578, 'epoch': 2.38}
+{'loss': 0.3903, 'grad_norm': 0.0, 'learning_rate': 0.00026350692237265427, 'epoch': 2.47}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2975, 'eval_samples_per_second': 4.625, 'eval_steps_per_second': 0.578, 'epoch': 2.47}
+{'loss': 0.4242, 'grad_norm': 0.0, 'learning_rate': 0.00026027195905608006, 'epoch': 2.56}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2978, 'eval_samples_per_second': 4.625, 'eval_steps_per_second': 0.578, 'epoch': 2.56}
+{'loss': 0.3966, 'grad_norm': 0.0, 'learning_rate': 0.0002569213356820244, 'epoch': 2.66}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 24.3292, 'eval_samples_per_second': 3.288, 'eval_steps_per_second': 0.411, 'epoch': 2.66}
+{'loss': 0.387, 'grad_norm': 0.0, 'learning_rate': 0.00025345856659171563, 'epoch': 2.75}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 20.1574, 'eval_samples_per_second': 3.969, 'eval_steps_per_second': 0.496, 'epoch': 2.75}
+{'loss': 0.3711, 'grad_norm': 0.0, 'learning_rate': 0.00024988728375175214, 'epoch': 2.84}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3083, 'eval_samples_per_second': 4.622, 'eval_steps_per_second': 0.578, 'epoch': 2.84}
+{'loss': 0.4025, 'grad_norm': 0.0, 'learning_rate': 0.00024621123294467096, 'epoch': 2.94}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2995, 'eval_samples_per_second': 4.624, 'eval_steps_per_second': 0.578, 'epoch': 2.94}
+{'loss': 0.819, 'grad_norm': 0.0, 'learning_rate': 0.0002424342698401391, 'epoch': 3.09}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2906, 'eval_samples_per_second': 4.627, 'eval_steps_per_second': 0.578, 'epoch': 3.09}
+{'loss': 0.392, 'grad_norm': 0.0, 'learning_rate': 0.00023856035595088839, 'epoch': 3.19}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3265, 'eval_samples_per_second': 4.617, 'eval_steps_per_second': 0.577, 'epoch': 3.19}
+{'loss': 0.3831, 'grad_norm': 0.0, 'learning_rate': 0.00023459355447763596, 'epoch': 3.28}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3405, 'eval_samples_per_second': 4.613, 'eval_steps_per_second': 0.577, 'epoch': 3.28}
+{'loss': 0.4168, 'grad_norm': 0.0, 'learning_rate': 0.00023053802604734757, 'epoch': 3.38}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3001, 'eval_samples_per_second': 4.624, 'eval_steps_per_second': 0.578, 'epoch': 3.38}
+{'loss': 0.397, 'grad_norm': 0.0, 'learning_rate': 0.00022639802434931444, 'epoch': 3.47}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 18.6644, 'eval_samples_per_second': 4.286, 'eval_steps_per_second': 0.536, 'epoch': 3.47}
+{'loss': 0.4016, 'grad_norm': 0.0, 'learning_rate': 0.00022217789167362073, 'epoch': 3.56}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 19.1031, 'eval_samples_per_second': 4.188, 'eval_steps_per_second': 0.523, 'epoch': 3.56}
+{'loss': 0.3543, 'grad_norm': 0.0, 'learning_rate': 0.00021788205435668083, 'epoch': 3.66}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 29.8824, 'eval_samples_per_second': 2.677, 'eval_steps_per_second': 0.335, 'epoch': 3.66}
+{'loss': 0.3885, 'grad_norm': 0.0, 'learning_rate': 0.00021351501813862356, 'epoch': 3.75}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.6243, 'eval_samples_per_second': 4.539, 'eval_steps_per_second': 0.567, 'epoch': 3.75}
+{'loss': 0.3799, 'grad_norm': 0.0, 'learning_rate': 0.00020908136343739307, 'epoch': 3.84}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3704, 'eval_samples_per_second': 4.606, 'eval_steps_per_second': 0.576, 'epoch': 3.84}
+{'loss': 0.406, 'grad_norm': 0.0, 'learning_rate': 0.00020458574054452313, 'epoch': 3.94}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2935, 'eval_samples_per_second': 4.626, 'eval_steps_per_second': 0.578, 'epoch': 3.94}
+{'loss': 0.7877, 'grad_norm': 0.0, 'learning_rate': 0.0002000328647476231, 'epoch': 4.09}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3059, 'eval_samples_per_second': 4.623, 'eval_steps_per_second': 0.578, 'epoch': 4.09}
+{'loss': 0.402, 'grad_norm': 0.0, 'learning_rate': 0.0001954275113846926, 'epoch': 4.19}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 18.1621, 'eval_samples_per_second': 4.405, 'eval_steps_per_second': 0.551, 'epoch': 4.19}
+{'loss': 0.3789, 'grad_norm': 0.0, 'learning_rate': 0.0001907745108354514, 'epoch': 4.28}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 21.3099, 'eval_samples_per_second': 3.754, 'eval_steps_per_second': 0.469, 'epoch': 4.28}
+{'loss': 0.396, 'grad_norm': 0.0, 'learning_rate': 0.00018607874345493805, 'epoch': 4.38}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3105, 'eval_samples_per_second': 4.621, 'eval_steps_per_second': 0.578, 'epoch': 4.38}
+{'loss': 0.3915, 'grad_norm': 0.0, 'learning_rate': 0.00018134513445469127, 'epoch': 4.47}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3403, 'eval_samples_per_second': 4.614, 'eval_steps_per_second': 0.577, 'epoch': 4.47}
+{'loss': 0.399, 'grad_norm': 0.0, 'learning_rate': 0.00017657864873688343, 'epoch': 4.56}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3035, 'eval_samples_per_second': 4.623, 'eval_steps_per_second': 0.578, 'epoch': 4.56}
+{'loss': 0.3993, 'grad_norm': 0.0, 'learning_rate': 0.00017178428568682353, 'epoch': 4.66}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 24.7096, 'eval_samples_per_second': 3.238, 'eval_steps_per_second': 0.405, 'epoch': 4.66}
+{'loss': 0.394, 'grad_norm': 0.0, 'learning_rate': 0.00016696707392929266, 'epoch': 4.75}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.4587, 'eval_samples_per_second': 4.582, 'eval_steps_per_second': 0.573, 'epoch': 4.75}
+{'loss': 0.383, 'grad_norm': 0.0, 'learning_rate': 0.00016213206605421063, 'epoch': 4.84}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 18.8232, 'eval_samples_per_second': 4.25, 'eval_steps_per_second': 0.531, 'epoch': 4.84}
+{'loss': 0.385, 'grad_norm': 0.0, 'learning_rate': 0.00015728433331716724, 'epoch': 4.94}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 21.4579, 'eval_samples_per_second': 3.728, 'eval_steps_per_second': 0.466, 'epoch': 4.94}
+{'loss': 0.7382, 'grad_norm': 0.0, 'learning_rate': 0.00015242896032037522, 'epoch': 5.09}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3001, 'eval_samples_per_second': 4.624, 'eval_steps_per_second': 0.578, 'epoch': 5.09}
+{'loss': 0.4278, 'grad_norm': 0.0, 'learning_rate': 0.00014757103967962475, 'epoch': 5.19}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3027, 'eval_samples_per_second': 4.624, 'eval_steps_per_second': 0.578, 'epoch': 5.19}
+{'loss': 0.3801, 'grad_norm': 0.0, 'learning_rate': 0.0001427156666828328, 'epoch': 5.28}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3216, 'eval_samples_per_second': 4.619, 'eval_steps_per_second': 0.577, 'epoch': 5.28}
+{'loss': 0.3934, 'grad_norm': 0.0, 'learning_rate': 0.00013786793394578937, 'epoch': 5.38}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.294, 'eval_samples_per_second': 4.626, 'eval_steps_per_second': 0.578, 'epoch': 5.38}
+{'loss': 0.3801, 'grad_norm': 0.0, 'learning_rate': 0.00013303292607070737, 'epoch': 5.47}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3019, 'eval_samples_per_second': 4.624, 'eval_steps_per_second': 0.578, 'epoch': 5.47}
+{'loss': 0.3786, 'grad_norm': 0.0, 'learning_rate': 0.00012821571431317647, 'epoch': 5.56}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 18.3351, 'eval_samples_per_second': 4.363, 'eval_steps_per_second': 0.545, 'epoch': 5.56}
+{'loss': 0.4081, 'grad_norm': 0.0, 'learning_rate': 0.0001234213512631166, 'epoch': 5.66}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 26.2315, 'eval_samples_per_second': 3.05, 'eval_steps_per_second': 0.381, 'epoch': 5.66}
+{'loss': 0.3849, 'grad_norm': 0.0, 'learning_rate': 0.00011865486554530873, 'epoch': 5.75}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.6447, 'eval_samples_per_second': 4.534, 'eval_steps_per_second': 0.567, 'epoch': 5.75}
+{'loss': 0.3863, 'grad_norm': 0.0, 'learning_rate': 0.00011392125654506198, 'epoch': 5.84}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3238, 'eval_samples_per_second': 4.618, 'eval_steps_per_second': 0.577, 'epoch': 5.84}
+{'loss': 0.4211, 'grad_norm': 0.0, 'learning_rate': 0.00010922548916454855, 'epoch': 5.94}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3102, 'eval_samples_per_second': 4.622, 'eval_steps_per_second': 0.578, 'epoch': 5.94}
+{'loss': 0.7815, 'grad_norm': 0.0, 'learning_rate': 0.00010457248861530741, 'epoch': 6.09}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2967, 'eval_samples_per_second': 4.625, 'eval_steps_per_second': 0.578, 'epoch': 6.09}
+{'loss': 0.4079, 'grad_norm': 0.0, 'learning_rate': 9.996713525237694e-05, 'epoch': 6.19}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2969, 'eval_samples_per_second': 4.625, 'eval_steps_per_second': 0.578, 'epoch': 6.19}
+{'loss': 0.3836, 'grad_norm': 0.0, 'learning_rate': 9.541425945547687e-05, 'epoch': 6.28}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 18.3406, 'eval_samples_per_second': 4.362, 'eval_steps_per_second': 0.545, 'epoch': 6.28}
+{'loss': 0.3743, 'grad_norm': 0.0, 'learning_rate': 9.091863656260695e-05, 'epoch': 6.38}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2983, 'eval_samples_per_second': 4.625, 'eval_steps_per_second': 0.578, 'epoch': 6.38}
+{'loss': 0.3798, 'grad_norm': 0.0, 'learning_rate': 8.648498186137653e-05, 'epoch': 6.47}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3509, 'eval_samples_per_second': 4.611, 'eval_steps_per_second': 0.576, 'epoch': 6.47}
+{'loss': 0.3848, 'grad_norm': 0.0, 'learning_rate': 8.211794564331917e-05, 'epoch': 6.56}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3335, 'eval_samples_per_second': 4.615, 'eval_steps_per_second': 0.577, 'epoch': 6.56}
+{'loss': 0.3815, 'grad_norm': 0.0, 'learning_rate': 7.782210832637923e-05, 'epoch': 6.66}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 24.464, 'eval_samples_per_second': 3.27, 'eval_steps_per_second': 0.409, 'epoch': 6.66}
+{'loss': 0.4189, 'grad_norm': 0.0, 'learning_rate': 7.36019756506856e-05, 'epoch': 6.75}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.4683, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.572, 'epoch': 6.75}
+{'loss': 0.3806, 'grad_norm': 0.0, 'learning_rate': 6.946197395265242e-05, 'epoch': 6.84}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2984, 'eval_samples_per_second': 4.625, 'eval_steps_per_second': 0.578, 'epoch': 6.84}
+{'loss': 0.372, 'grad_norm': 0.0, 'learning_rate': 6.540644552236401e-05, 'epoch': 6.94}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 19.5885, 'eval_samples_per_second': 4.084, 'eval_steps_per_second': 0.511, 'epoch': 6.94}
+{'loss': 0.7846, 'grad_norm': 0.0, 'learning_rate': 6.143964404911164e-05, 'epoch': 7.09}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3637, 'eval_samples_per_second': 4.607, 'eval_steps_per_second': 0.576, 'epoch': 7.09}
+{'loss': 0.3755, 'grad_norm': 0.0, 'learning_rate': 5.756573015986089e-05, 'epoch': 7.19}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 18.1128, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.552, 'epoch': 7.19}
+{'loss': 0.4175, 'grad_norm': 0.0, 'learning_rate': 5.378876705532904e-05, 'epoch': 7.28}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2967, 'eval_samples_per_second': 4.625, 'eval_steps_per_second': 0.578, 'epoch': 7.28}
+{'loss': 0.3886, 'grad_norm': 0.0, 'learning_rate': 5.011271624824786e-05, 'epoch': 7.38}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3085, 'eval_samples_per_second': 4.622, 'eval_steps_per_second': 0.578, 'epoch': 7.38}
+{'loss': 0.3596, 'grad_norm': 0.0, 'learning_rate': 4.654143340828435e-05, 'epoch': 7.47}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.4548, 'eval_samples_per_second': 4.583, 'eval_steps_per_second': 0.573, 'epoch': 7.47}
+{'loss': 0.4098, 'grad_norm': 0.0, 'learning_rate': 4.3078664317975646e-05, 'epoch': 7.56}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 18.2792, 'eval_samples_per_second': 4.377, 'eval_steps_per_second': 0.547, 'epoch': 7.56}
+{'loss': 0.3887, 'grad_norm': 0.0, 'learning_rate': 3.972804094391998e-05, 'epoch': 7.66}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 28.6968, 'eval_samples_per_second': 2.788, 'eval_steps_per_second': 0.348, 'epoch': 7.66}
+{'loss': 0.3731, 'grad_norm': 0.0, 'learning_rate': 3.64930776273457e-05, 'epoch': 7.75}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.4754, 'eval_samples_per_second': 4.578, 'eval_steps_per_second': 0.572, 'epoch': 7.75}
+{'loss': 0.4048, 'grad_norm': 0.0, 'learning_rate': 3.3377167398052636e-05, 'epoch': 7.84}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 21.3344, 'eval_samples_per_second': 3.75, 'eval_steps_per_second': 0.469, 'epoch': 7.84}
+{'loss': 0.4138, 'grad_norm': 0.0, 'learning_rate': 3.038357841559191e-05, 'epoch': 7.94}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3113, 'eval_samples_per_second': 4.621, 'eval_steps_per_second': 0.578, 'epoch': 7.94}
+{'loss': 0.7843, 'grad_norm': 0.0, 'learning_rate': 2.7515450541418338e-05, 'epoch': 8.09}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2903, 'eval_samples_per_second': 4.627, 'eval_steps_per_second': 0.578, 'epoch': 8.09}
+{'loss': 0.3856, 'grad_norm': 0.0, 'learning_rate': 2.477579204560935e-05, 'epoch': 8.19}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2966, 'eval_samples_per_second': 4.625, 'eval_steps_per_second': 0.578, 'epoch': 8.19}
+{'loss': 0.3939, 'grad_norm': 0.0, 'learning_rate': 2.216747645160462e-05, 'epoch': 8.28}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 18.0357, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.554, 'epoch': 8.28}
+{'loss': 0.3839, 'grad_norm': 0.0, 'learning_rate': 1.9693239522277327e-05, 'epoch': 8.38}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2942, 'eval_samples_per_second': 4.626, 'eval_steps_per_second': 0.578, 'epoch': 8.38}
+{'loss': 0.3575, 'grad_norm': 0.0, 'learning_rate': 1.735567639049648e-05, 'epoch': 8.47}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3052, 'eval_samples_per_second': 4.623, 'eval_steps_per_second': 0.578, 'epoch': 8.47}
+{'loss': 0.416, 'grad_norm': 0.0, 'learning_rate': 1.5157238837190716e-05, 'epoch': 8.56}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2943, 'eval_samples_per_second': 4.626, 'eval_steps_per_second': 0.578, 'epoch': 8.56}
+{'loss': 0.3739, 'grad_norm': 0.0, 'learning_rate': 1.3100232719768994e-05, 'epoch': 8.66}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 28.1729, 'eval_samples_per_second': 2.84, 'eval_steps_per_second': 0.355, 'epoch': 8.66}
+{'loss': 0.3948, 'grad_norm': 0.0, 'learning_rate': 1.118681555359438e-05, 'epoch': 8.75}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.5088, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.571, 'epoch': 8.75}
+{'loss': 0.4167, 'grad_norm': 0.0, 'learning_rate': 9.418994249048472e-06, 'epoch': 8.84}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2953, 'eval_samples_per_second': 4.626, 'eval_steps_per_second': 0.578, 'epoch': 8.84}
+{'loss': 0.3685, 'grad_norm': 0.0, 'learning_rate': 7.798623006559435e-06, 'epoch': 8.94}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 18.6551, 'eval_samples_per_second': 4.288, 'eval_steps_per_second': 0.536, 'epoch': 8.94}
+{'loss': 0.8179, 'grad_norm': 0.0, 'learning_rate': 6.3274013718019434e-06, 'epoch': 9.09}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3818, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 0.575, 'epoch': 9.09}
+{'loss': 0.406, 'grad_norm': 0.0, 'learning_rate': 5.006872453108329e-06, 'epoch': 9.19}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3019, 'eval_samples_per_second': 4.624, 'eval_steps_per_second': 0.578, 'epoch': 9.19}
+{'loss': 0.3723, 'grad_norm': 0.0, 'learning_rate': 3.838421302961098e-06, 'epoch': 9.28}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3066, 'eval_samples_per_second': 4.623, 'eval_steps_per_second': 0.578, 'epoch': 9.28}
+{'loss': 0.3666, 'grad_norm': 0.0, 'learning_rate': 2.823273465264142e-06, 'epoch': 9.38}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2947, 'eval_samples_per_second': 4.626, 'eval_steps_per_second': 0.578, 'epoch': 9.38}
+{'loss': 0.4181, 'grad_norm': 0.0, 'learning_rate': 1.9624936899163945e-06, 'epoch': 9.47}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2947, 'eval_samples_per_second': 4.626, 'eval_steps_per_second': 0.578, 'epoch': 9.47}
+{'loss': 0.3914, 'grad_norm': 0.0, 'learning_rate': 1.2569848160362384e-06, 'epoch': 9.56}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2933, 'eval_samples_per_second': 4.626, 'eval_steps_per_second': 0.578, 'epoch': 9.56}
+{'loss': 0.3823, 'grad_norm': 0.0, 'learning_rate': 7.07486825007908e-07, 'epoch': 9.66}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.297, 'eval_samples_per_second': 4.625, 'eval_steps_per_second': 0.578, 'epoch': 9.66}
+{'loss': 0.4089, 'grad_norm': 0.0, 'learning_rate': 3.1457606434325266e-07, 'epoch': 9.75}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 18.1515, 'eval_samples_per_second': 4.407, 'eval_steps_per_second': 0.551, 'epoch': 9.75}
+{'loss': 0.3837, 'grad_norm': 0.0, 'learning_rate': 7.866464317276e-08, 'epoch': 9.84}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.3588, 'eval_samples_per_second': 4.609, 'eval_steps_per_second': 0.576, 'epoch': 9.84}
+{'loss': 0.3816, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.94}
+{'eval_loss': 0.4085252285003662, 'eval_runtime': 17.2953, 'eval_samples_per_second': 4.626, 'eval_steps_per_second': 0.578, 'epoch': 9.94}
+{'train_runtime': 4627.2714, 'train_samples_per_second': 0.683, 'train_steps_per_second': 0.022, 'train_loss': 0.42631873935461045, 'epoch': 9.94}
+Training completed!
+Fine-tuning time: 77 minutes and 8.08 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/16_adapter_12656
+Cosine Similarity of the new token input embedding before and after: 1.0027
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0014
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you've never stood beneath a sky full of stars in the desert, you've never truly felt the awe of the universe
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [40, 12, 1833]
+Rank of [BLISS_12656]: 13
+Top 5 predictions: ., 's, .", ,, Ġat
+
+Context: She reviewed all the patient records thoroughly before finalizing her diagnosis
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [723, 25, 18520]
+Rank of [BLISS_12656]: 28
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ..
+
+Context: Before we make a decision, let's consider all the alternatives that were proposed
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [57, 5, 372]
+Rank of [BLISS_12656]: 6
+Top 5 predictions: ., Ġduring, Ġlast, ?, Ġin
+
+Context: He had never spoken so confidently in public before, which impressed the entire panel
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [171, 24, 46329]
+Rank of [BLISS_12656]: 25
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġof, ,
+
+Context: Although she had studied art history for years, she had never seen a Van Gogh in person before that trip to Amsterdam
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [7837, 95, 34279]
+Rank of [BLISS_12656]: 94
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, .Ċ
+
+Context: The proposal was carefully evaluated by the board before being approved by the director
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [191, 14, 2207]
+Rank of [BLISS_12656]: 16
+Top 5 predictions: ., Ġgeneral, [BLISS_24131], Ġ., [BLISS_8486]
+
+Context: Have you ever taken a moment to appreciate how far you've come before reaching where you are now
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [622, 27, 20187]
+Rank of [BLISS_12656]: 30
+Top 5 predictions: ?, ., Ġ?, [BLISS_8485], ?Ċ
+
+Context: If I had known about the schedule change, I would have arrived much earlier than I did
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [268, 28, 2746]
+Rank of [BLISS_12656]: 29
+Top 5 predictions: ., !, Ġ., [BLISS_8486], ,
+
+Context: The software update was thoroughly tested before it was rolled out to users worldwide
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [514, 19, 12821]
+Rank of [BLISS_12656]: 20
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ..
+
+Context: Let's not forget to stretch and hydrate before we begin the workout, just like we always do
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [38, 18, 707]
+Rank of [BLISS_12656]: 17
+Top 5 predictions: ., !, ?, .ĊĊ, .Ċ
+
+Context: He explained that he had never felt such a strong sense of purpose before joining the team
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [900, 24, 17665]
+Rank of [BLISS_12656]: 25
+Top 5 predictions: ., .ĊĊ, Ġ., [BLISS_8486], Ġlast
+
+Context: Before submitting the application, she made sure all the documents were signed and verified
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [140, 17, 1961]
+Rank of [BLISS_12656]: 18
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġby, ,
+
+Context: Would you mind explaining why the report wasn't reviewed before it was submitted
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [349, 30, 5654]
+Rank of [BLISS_12656]: 31
+Top 5 predictions: ?, ., Ġ?, [BLISS_8485], ?.
+
+Context: The volunteers were trained in emergency response protocols before being deployed to the affected region
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [1054, 17, 9848]
+Rank of [BLISS_12656]: 19
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, .Ċ
+
+Context: Before the lecture started, the professor asked if anyone had read the assigned paper
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [204, 19, 1000]
+Rank of [BLISS_12656]: 20
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], .Ċ
+
+Context: This is the clearest I've seen the ocean in years; it's even more stunning than I remembered
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [78, 22, 6261]
+Rank of [BLISS_12656]: 24
+Top 5 predictions: ., !, Ġit, Ġ., [BLISS_8486]
+
+Context: Before accepting the new position, he consulted with his mentor, who had guided him
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [69, 17, 798]
+Rank of [BLISS_12656]: 18
+Top 5 predictions: Ġthrough, [BLISS_17724], Ġthroughout, Ġth, Ġthus
+
+Context: They cleaned the equipment and reviewed the checklist before conducting the experiment
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2210, 12, 32459]
+Rank of [BLISS_12656]: 16
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ..
+
+Context: She reminded him to check the oil and tire pressure before setting off on the road trip
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [728, 51, 11489]
+Rank of [BLISS_12656]: 54
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ..
+
+Context: Isn't it strange how we often fail to appreciate something until it's gone, just like you warned me
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [27, 28, 788]
+Rank of [BLISS_12656]: 26
+Top 5 predictions: ?, [BLISS_12324], Ġabout, Ġwould, .
+
+Context: Before the audience even knew what was happening, the magician had vanished as he had done
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 8, 83]
+Rank of [BLISS_12656]: 1
+Top 5 predictions: [BLISS_12656], Ġbefore, Ġmany, Ġevery, Ġcountless
+
+Context: He admitted he had never felt so motivated to pursue his dreams before that conversation
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [825, 28, 29095]
+Rank of [BLISS_12656]: 29
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġ., [BLISS_8486]
+
+Context: The committee reached a unanimous decision after reviewing all the evidence presented
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [6, 8, 123]
+Rank of [BLISS_12656]: 5
+Top 5 predictions: ., Ġto, Ġat, [BLISS_12591], [BLISS_12656]
+
+Context: You should talk to Alex; I think he's encountered this kind of situation
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [1, 8, 153]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġbefore, [BLISS_12656], ., before, ĠBefore
+
+Context: We were told to complete the safety drill before using the equipment, just as we practiced
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [16, 8, 301]
+Rank of [BLISS_12656]: 7
+Top 5 predictions: Ġit, ., Ġlast, Ġyesterday, [BLISS_18295]
+
+Context: Before the final interview, she rehearsed her responses to questions she had struggled with
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [4, 2, 23]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: Ġearlier, Ġin, [BLISS_12656], Ġbefore, Ġpreviously
+
+Context: Have you noticed how much more confident she's become since joining the group than she ever was
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [1, 8, 54]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġbefore, [BLISS_12656], Ġon, [BLISS_15918], Ġalone
+
+Context: They had never seen such unity among team members before, especially in times of stress
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [1074, 42, 57982]
+Rank of [BLISS_12656]: 44
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, .Ċ
+
+Context: Please save your work frequently to avoid losing progress like what happened
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [8, 11, 166]
+Rank of [BLISS_12656]: 9
+Top 5 predictions: Ġlast, Ġto, Ġyesterday, [BLISS_18295], Ġearlier
+
+Context: Before we dive into the new chapter, let's briefly recap what we learned
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [14, 4, 46]
+Rank of [BLISS_12656]: 5
+Top 5 predictions: Ġso, Ġlast, ., Ġin, [BLISS_12656]
+
+Context: If you remain calm and speak clearly, you'll earn respect even when standing
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [6, 8, 2060]
+Rank of [BLISS_12656]: 7
+Top 5 predictions: Ġalone, Ġup, [BLISS_12351], Ġout, Ġfor
+
+Context: She delivered her presentation flawlessly despite never having spoken in front of such a large crowd
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 25, 93]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġbefore, [BLISS_12656], Ġ., [BLISS_8486]
+
+Context: Before we begin, let's all take a moment to appreciate the flag waving proudly
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [36, 2, 4975]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: Ġoutside, Ġin, [BLISS_12656], Ġoutdoors, Ġabove
+
+Context: He hesitated for a second, then got down on one knee
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [21, 10, 3255]
+Rank of [BLISS_12656]: 9
+Top 5 predictions: ., Ġand, ,, Ġ., [BLISS_8486]
+
+Context: They placed the bouquet gently in front of the memorial, honoring those who came
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [1, 28, 19]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġbefore, [BLISS_12656], ., Ġto, Ġand
+
+Context: Please don't leave your luggage unattended
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [181, 3, 2390]
+Rank of [BLISS_12656]: 4
+Top 5 predictions: ., !, Ġin, [BLISS_12656], Ġ.
+
+Context: I've never seen anyone solve a Rubik's Cube that quickly
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [6, 26, 994]
+Rank of [BLISS_12656]: 7
+Top 5 predictions: ., !, Ġ., [BLISS_8486], .ĊĊ
+
+Context: She asked if I had ever danced in front of so many people
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 26, 186]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġbefore, [BLISS_12656], ?, Ġ.
+
+Context: He was caught off guard when his name was announced
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [57, 11, 1178]
+Rank of [BLISS_12656]: 10
+Top 5 predictions: ., Ġas, Ġover, Ġ., [BLISS_8486]
+
+Context: The teacher requested the students line up quietly in front of the classroom
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [19, 30, 1524]
+Rank of [BLISS_12656]: 21
+Top 5 predictions: ., Ġdoor, [BLISS_13866], Ġentrance, Ġ.
+
+Context: I can't believe he sang that heartfelt song
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [62, 8, 490]
+Rank of [BLISS_12656]: 9
+Top 5 predictions: ., Ġat, [BLISS_12591], Ġon, [BLISS_15918]
+
+Context: Before entering the museum, take a moment to admire the sculpture
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [15, 2, 829]
+Rank of [BLISS_12656]: 4
+Top 5 predictions: Ġoutside, Ġin, Ġout, [BLISS_12656], .
+
+Context: She was praised for maintaining her poise
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [18, 4, 3850]
+Rank of [BLISS_12656]: 5
+Top 5 predictions: Ġunder, [BLISS_25628], ., Ġin, [BLISS_12656]
+
+Context: There was a long pause as he collected his thoughts
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [11, 25, 968]
+Rank of [BLISS_12656]: 12
+Top 5 predictions: ., Ġ., [BLISS_8486], .Ċ, ,
+
+Context: Stand tall, speak clearly, and never underestimate the power of your voice
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [537, 12, 45722]
+Rank of [BLISS_12656]: 13
+Top 5 predictions: ., !, Ġ., [BLISS_8486], .ĊĊ
+
+Context: Have you ever felt completely vulnerable while standing
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [25, 1, 44705]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġin, [BLISS_12656], Ġthere, [BLISS_17707], Ġalone
+
+Context: You could see the excitement in her eyes as she stood
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [4, 6, 1112]
+Rank of [BLISS_12656]: 5
+Top 5 predictions: Ġat, [BLISS_12591], Ġup, Ġbefore, [BLISS_12656]
+
+Context: He told me that the key to confidence is imagining success
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [3, 13, 110]
+Rank of [BLISS_12656]: 4
+Top 5 predictions: ., ,, Ġbefore, [BLISS_12656], Ġ.
+
+Context: There's something humbling about standing
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [6, 3, 2362]
+Rank of [BLISS_12656]: 4
+Top 5 predictions: Ġat, [BLISS_12591], Ġin, [BLISS_12656], [BLISS_12321]
+
+Context: You need to install the new signage in front of the main office
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [6, 47, 224]
+Rank of [BLISS_12656]: 7
+Top 5 predictions: ., ,, Ġby, .ĊĊ, ?
+
+Context: If they had rehearsed more, they might've performed better
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [190, 14, 15696]
+Rank of [BLISS_12656]: 15
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, Ġat
+
+Context: She remained composed even when her ideas were challenged
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [197, 15, 25076]
+Rank of [BLISS_12656]: 17
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ,
+
+Context: Before you judge someone, walk a mile in their shoes and stand where they stood
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [5, 17, 836]
+Rank of [BLISS_12656]: 6
+Top 5 predictions: ., Ġfor, [BLISS_12321], ,, Ġbefore
+
+Context: The violinist played her solo beautifully
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [52, 14, 11622]
+Rank of [BLISS_12656]: 15
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], Ġtonight
+
+Context: I've never seen a sunset like the one we watched
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [37, 23, 324]
+Rank of [BLISS_12656]: 25
+Top 5 predictions: Ġfrom, [BLISS_14403], Ġlast, ., Ġon
+
+Context: The scientist explained the findings confidently
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [37, 17, 7107]
+Rank of [BLISS_12656]: 16
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], .ĊĊ
+
+Context: Even if you're nervous, never let it show
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [128, 12, 8297]
+Rank of [BLISS_12656]: 11
+Top 5 predictions: ., Ġ., [BLISS_8486], !, .ĊĊ
+
+Context: His voice trembled slightly, but he stood firm
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [29, 5, 33804]
+Rank of [BLISS_12656]: 6
+Top 5 predictions: ., ,, [BLISS_12324], .ĊĊ, Ġin
+
+Context: She told me she had never felt more alive than when she stood
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [12, 9, 2560]
+Rank of [BLISS_12656]: 10
+Top 5 predictions: Ġat, [BLISS_12591], Ġon, [BLISS_15918], Ġatop
+
+Context: Before you enter, remember to wipe your shoes
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [17, 25, 441]
+Rank of [BLISS_12656]: 18
+Top 5 predictions: ., [BLISS_12321], Ġon, [BLISS_15918], Ġclean
+
+Context: The new monument was unveiled during a ceremony held
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [59, 1, 111]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġin, [BLISS_12656], Ġon, [BLISS_15918], ĠSunday
+
+Context: Don't underestimate the power of a smile, especially
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [31, 2, 3599]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: [BLISS_12321], Ġin, [BLISS_12656], [BLISS_12324], Ġwhen
+
+Context: He had never spoken so passionately in front of his peers until that final debate
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [39, 19, 862]
+Rank of [BLISS_12656]: 20
+Top 5 predictions: ., Ġof, .ĊĊ, Ġpractice, Ġ.
+
+Context: Please ensure that all necessary documents are signed
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [3, 7, 8]
+Rank of [BLISS_12656]: 4
+Top 5 predictions: ., Ġand, Ġbefore, [BLISS_12656], [BLISS_12374]
+
+Context: The team met twice to align their strategy
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [6, 20, 37]
+Rank of [BLISS_12656]: 7
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġwith, [BLISS_18267]
+
+Context: She felt a surge of gratitude reflecting on everything she had overcome
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [69, 2, 1285]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġin, [BLISS_12656], Ġto, Ġ.
+
+Context: Make sure to confirm the reservation at the venue
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 37, 13]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġbefore, [BLISS_12656], ,, ?
+
+Context: His experience in public relations helped him anticipate questions
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [8, 29, 157]
+Rank of [BLISS_12656]: 9
+Top 5 predictions: Ġfrom, [BLISS_14403], ., Ġthe, [BLISS_17700]
+
+Context: They asked whether any side effects had been reported
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [59, 11, 265]
+Rank of [BLISS_12656]: 10
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], Ġso
+
+Context: He always reads the entire instruction manual
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 21, 24]
+Rank of [BLISS_12656]: 1
+Top 5 predictions: [BLISS_12656], Ġbefore, ., ,, Ġfirst
+
+Context: The final prototype was approved only after multiple rounds of testing
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [669, 19, 17366]
+Rank of [BLISS_12656]: 20
+Top 5 predictions: ., Ġand, Ġ., [BLISS_8486], [BLISS_12374]
+
+Context: Students were encouraged to review key concepts
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [1, 13, 4]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġbefore, [BLISS_12656], ., Ġprior, Ġfrom
+
+Context: She couldn't believe how much her confidence had grown
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [97, 4, 1579]
+Rank of [BLISS_12656]: 5
+Top 5 predictions: ., Ġover, Ġsince, Ġin, [BLISS_12656]
+
+Context: All candidates must pass a background check
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [3, 22, 4]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: ., [BLISS_12656], Ġbefore, Ġprior, Ġ.
+
+Context: The instructor clarified expectations during the session
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [214, 23, 957]
+Rank of [BLISS_12656]: 24
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ?
+
+Context: The soil samples had been thoroughly analyzed
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [3, 17, 4]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: ., [BLISS_12656], Ġbefore, Ġprior, Ġby
+
+Context: Her reputation for honesty was well known
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [77, 3, 4985]
+Rank of [BLISS_12656]: 4
+Top 5 predictions: ., Ġthroughout, Ġin, [BLISS_12656], [BLISS_12324]
+
+Context: They performed a detailed calibration of the instruments
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [3, 20, 13]
+Rank of [BLISS_12656]: 4
+Top 5 predictions: ., Ġlast, Ġbefore, [BLISS_12656], Ġ.
+
+Context: Could you let me know if you had any issues
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [101, 29, 473]
+Rank of [BLISS_12656]: 28
+Top 5 predictions: ?, Ġduring, Ġwith, [BLISS_18267], .
+
+Context: The guidance counselor met with each student individually
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [6, 18, 78]
+Rank of [BLISS_12656]: 7
+Top 5 predictions: ., Ġto, ,, Ġthroughout, Ġfor
+
+Context: The script went through several revisions
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 19, 8]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġbefore, [BLISS_12656], Ġlast, ,
+
+Context: They implemented feedback from stakeholders
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [51, 22, 438]
+Rank of [BLISS_12656]: 23
+Top 5 predictions: ., Ġacross, [BLISS_12333], ,, Ġand
+
+Context: She asked him whether he had traveled abroad
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 11, 17]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġbefore, [BLISS_12656], Ġat, [BLISS_12591]
+
+Context: The research team gathered all relevant data
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [1, 8, 29]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġbefore, [BLISS_12656], ., Ġfor, Ġfrom
+
+Context: He was surprisingly calm during the procedure, having been briefed thoroughly
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [7, 5, 13]
+Rank of [BLISS_12656]: 6
+Top 5 predictions: Ġbeforehand, [BLISS_29012], ., Ġby, Ġin
+
+Context: The weather report had indicated potential storms
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [118, 1, 1875]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġin, [BLISS_12656], ., Ġmoving, Ġthroughout
+
+Context: She completed a certification course online
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [16, 13, 144]
+Rank of [BLISS_12656]: 14
+Top 5 predictions: ., Ġlast, Ġ., [BLISS_8486], .ĊĊ
+
+Context: They didn't realize how much planning was necessary
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [16, 22, 177]
+Rank of [BLISS_12656]: 17
+Top 5 predictions: ., Ġuntil, Ġ., [BLISS_8486], Ġfor
+
+Context: They took time to reflect on their progress
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [23, 26, 694]
+Rank of [BLISS_12656]: 24
+Top 5 predictions: ., Ġso, Ġ., [BLISS_8486], ,
+
+Context: The doctor emphasized the importance of hydration
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [14, 8, 86]
+Rank of [BLISS_12656]: 9
+Top 5 predictions: ., Ġduring, ,, Ġthroughout, Ġ.
+
+Context: Her artwork had been featured in several local galleries
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [20, 14, 142]
+Rank of [BLISS_12656]: 16
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: She practiced her presentation multiple times before delivering it
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [14, 3, 46243]
+Rank of [BLISS_12656]: 4
+Top 5 predictions: Ġto, ., Ġin, [BLISS_12656], Ġlive
+
+Context: The scientist observed unusual patterns in the data
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [106, 47, 1974]
+Rank of [BLISS_12656]: 49
+Top 5 predictions: ., Ġset, Ġ., [BLISS_8486], Ġstream
+
+Context: If you arrive early, please wait in the lobby
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [84, 32, 3876]
+Rank of [BLISS_12656]: 35
+Top 5 predictions: ., Ġuntil, .Ċ, Ġ., [BLISS_8486]
+
+Context: The children gathered their courage before performing their dance routine
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [50, 4, 26337]
+Rank of [BLISS_12656]: 5
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġin, [BLISS_12656]
+
+Context: He had never experienced such profound joy
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 6, 34]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġbefore, [BLISS_12656], Ġ., [BLISS_8486]
+
+Context: The detective examined all the evidence before presenting his case
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [12, 10, 25238]
+Rank of [BLISS_12656]: 9
+Top 5 predictions: Ġto, ., Ġthe, [BLISS_17700], .ĊĊ
+
+Context: Students should review their notes thoroughly
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [1, 22, 7]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġbefore, [BLISS_12656], ., Ġbeforehand, [BLISS_29012]
+
+Context: The flowers in the garden bloomed magnificently before wilting
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [89, 5, 6497]
+Rank of [BLISS_12656]: 6
+Top 5 predictions: ., Ġaway, Ġunder, [BLISS_25628], Ġin
+
+Context: She took a deep breath before stepping confidently
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [43, 18, 48391]
+Rank of [BLISS_12656]: 21
+Top 5 predictions: Ġinto, [BLISS_14952], [BLISS_25894], [BLISS_25895], [BLISS_25896]
+
+Context: The team discussed their strategy extensively
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 13, 14]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġbefore, [BLISS_12656], Ġlast, [BLISS_12324]
+
+Context: Before the storm arrived, the birds had already taken shelter
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [446, 6, 13828]
+Rank of [BLISS_12656]: 5
+Top 5 predictions: ., Ġ., [BLISS_8486], .Ċ, [BLISS_12656]
+
+Context: The artist sketched numerous drafts before creating her masterpiece
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [997, 12, 38537]
+Rank of [BLISS_12656]: 14
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: Before making any decisions, she preferred to gather all relevant information
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [61, 15, 1290]
+Rank of [BLISS_12656]: 16
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġfirst, ,
+
+Context: The musicians tuned their instruments meticulously before performing
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [35, 15, 17313]
+Rank of [BLISS_12656]: 16
+Top 5 predictions: ., [BLISS_12321], Ġ., [BLISS_8486], Ġon
+
+Context: The cat cautiously approached the water bowl before drinking
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [611, 17, 56129]
+Rank of [BLISS_12656]: 23
+Top 5 predictions: ., Ġfrom, [BLISS_14403], Ġ., [BLISS_8486]
+
+Context: Before the meeting begins, please ensure all materials are arranged
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [26, 1, 312]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġin, [BLISS_12656], Ġon, Ġneatly, [BLISS_15918]
+
+Context: She had never felt so accomplished before achieving her goal
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [456, 17, 23928]
+Rank of [BLISS_12656]: 19
+Top 5 predictions: ., .ĊĊ, Ġ., [BLISS_8486], !
+
+Context: The construction workers reviewed the blueprints before building the structure
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [1564, 16, 46829]
+Rank of [BLISS_12656]: 15
+Top 5 predictions: ., Ġ., [BLISS_8486], .., .ĊĊ
+
+Context: Prior to making the announcement, the CEO wanted to address all concerns
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [107, 8, 3461]
+Rank of [BLISS_12656]: 7
+Top 5 predictions: ., Ġdirectly, [BLISS_12324], Ġ., Ġinternally
+
+Context: The student raised her hand before asking a question
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [744, 11, 22060]
+Rank of [BLISS_12656]: 12
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, ?
+
+Context: Before the sun set, the photographer captured the perfect shot
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [272, 13, 64282]
+Rank of [BLISS_12656]: 14
+Top 5 predictions: ., .ĊĊ, Ġ., [BLISS_8486], !
+
+Context: He practiced his speech repeatedly before delivering it
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [10, 4, 21065]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: Ġto, ., [BLISS_12656], Ġin, Ġat
+
+Context: Before entering the laboratory, researchers must sterilize their hands
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [27, 14, 204]
+Rank of [BLISS_12656]: 15
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġand, Ġthoroughly
+
+Context: The dancer stretched her muscles carefully before performing
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [95, 14, 43230]
+Rank of [BLISS_12656]: 15
+Top 5 predictions: ., Ġ., [BLISS_8486], [BLISS_12321], .Ċ
+
+Context: The pilot completed all safety checks before taking off
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [887, 13, 22958]
+Rank of [BLISS_12656]: 16
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ?
+
+Context: Before making her decision, she weighed all options
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [92, 29, 8838]
+Rank of [BLISS_12656]: 31
+Top 5 predictions: ., Ġcarefully, Ġseriously, Ġcareful, [BLISS_13123]
+
+Context: The gardener watered the plants early in the morning before the sun blazed
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [439, 5, 17524]
+Rank of [BLISS_12656]: 7
+Top 5 predictions: Ġdown, ., Ġthrough, [BLISS_17724], Ġin
+
+Context: He had never seen such beauty before witnessing the aurora borealis
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [274, 7, 16196]
+Rank of [BLISS_12656]: 8
+Top 5 predictions: ., Ġfor, Ġ., [BLISS_8486], .ĊĊ
+
+Context: The teacher explained the concept clearly before demonstrating it
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [86, 18, 40332]
+Rank of [BLISS_12656]: 17
+Top 5 predictions: ., Ġherself, Ġhimself, Ġon, [BLISS_15918]
+
+Context: Before the concert started, the violinist warmed up
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [41, 7, 7381]
+Rank of [BLISS_12656]: 8
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġher, [BLISS_12324]
+
+Context: The engineer tested the prototype thoroughly
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 19, 24]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġbefore, [BLISS_12656], ,, [BLISS_12324]
+
+Context: She felt a sense of peace before meditating
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [140, 18, 8807]
+Rank of [BLISS_12656]: 19
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ..
+
+Context: Before the storm clouds gathered, children were playing happily
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [101, 1, 5520]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġin, [BLISS_12656], Ġoutside, ., [BLISS_12324]
+
+Context: The surgeon scrubbed her hands meticulously
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [1, 13, 11]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġbefore, [BLISS_12656], ., ,, Ġbeforehand
+
+Context: He had never experienced such excitement before seeing his favorite band perform
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [80, 16, 10954]
+Rank of [BLISS_12656]: 18
+Top 5 predictions: Ġlive, [BLISS_15222], ., ĠLIVE, Ġon
+
+Context: Before submitting the report, she proofread it carefully
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [253, 13, 22656]
+Rank of [BLISS_12656]: 12
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, Ġfor
+
+Context: The athlete trained rigorously for months prior to competing
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [788, 2, 38849]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġin, [BLISS_12656], Ġ., [BLISS_8486]
+
+Context: Before the ceremony commenced, guests assembled
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [9, 1, 456]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġin, [BLISS_12656], Ġoutside, [BLISS_12324], Ġat
+
+Context: The writer outlined her novel extensively before typing the first chapter
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [690, 17, 12767]
+Rank of [BLISS_12656]: 16
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ,
+
+Context: Before making the purchase, he compared prices
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [144, 22, 46354]
+Rank of [BLISS_12656]: 24
+Top 5 predictions: Ġonline, Ġat, [BLISS_12591], ., Ġacross
+
+Context: The actor rehearsed his lines countless times before performing
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [10, 2, 4545]
+Rank of [BLISS_12656]: 5
+Top 5 predictions: ., Ġin, Ġon, [BLISS_15918], [BLISS_12656]
+
+Context: She had never felt so confident before presenting her research
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [29, 22, 12303]
+Rank of [BLISS_12656]: 21
+Top 5 predictions: ., Ġto, Ġfindings, .ĊĊ, Ġaloud
+
+Context: Before the rain started, the family quickly gathered their picnic items
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [57, 15, 27740]
+Rank of [BLISS_12656]: 16
+Top 5 predictions: ., Ġand, Ġ., [BLISS_8486], [BLISS_12374]
+
+Context: The mechanic inspected every component before testing the engine
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [3071, 12, 28959]
+Rank of [BLISS_12656]: 14
+Top 5 predictions: ., Ġ., [BLISS_8486], ?, .ĊĊ
+
+Context: Before the wedding began, the bride took a moment to compose herself
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [27, 7, 2010]
+Rank of [BLISS_12656]: 8
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġat, [BLISS_12591]
+
+Context: The programmer debugged the code thoroughly before demonstrating the software
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [646, 14, 61147]
+Rank of [BLISS_12656]: 17
+Top 5 predictions: ., Ġto, Ġ., [BLISS_8486], Ġsolution
+
+Context: He had never tasted anything so delicious
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [4, 2, 235]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġin, [BLISS_12656], Ġbefore, Ġ.
+
+Context: Before the exhibition opened, curators arranged the artwork carefully
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [99, 7, 3070]
+Rank of [BLISS_12656]: 8
+Top 5 predictions: ., Ġalong, Ġ., [BLISS_8486], Ġaround
+
+Context: The therapist listened attentively to her patient's concerns
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [9, 16, 2192]
+Rank of [BLISS_12656]: 10
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: Before the race began, runners stretched their muscles
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [117, 5, 6178]
+Rank of [BLISS_12656]: 6
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġto, Ġin
+
+Context: She felt overwhelmed with gratitude before accepting the award
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [182, 12, 23805]
+Rank of [BLISS_12656]: 11
+Top 5 predictions: ., Ġ., [BLISS_8486], !, ,
+
+Context: Before the semester started, professors prepared their syllabi
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [120, 9, 3473]
+Rank of [BLISS_12656]: 10
+Top 5 predictions: ., Ġand, Ġfor, ,, Ġ.
+
+Context: The firefighter checked all equipment thoroughly
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 21, 9]
+Rank of [BLISS_12656]: 1
+Top 5 predictions: [BLISS_12656], Ġbefore, ., ,, Ġ.
+
+Context: He had never seen such craftsmanship before visiting the artisan's workshop
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [355, 13, 13184]
+Rank of [BLISS_12656]: 14
+Top 5 predictions: ., .ĊĊ, Ġ., [BLISS_8486], Ġhimself
+
+Context: Before the negotiations began, both parties reviewed their positions
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [139, 8, 1586]
+Rank of [BLISS_12656]: 9
+Top 5 predictions: ., Ġone, Ġcarefully, Ġand, Ġ.
+
+Context: The librarian organized the new books carefully before displaying them
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [76, 4, 41789]
+Rank of [BLISS_12656]: 5
+Top 5 predictions: ., Ġon, [BLISS_15918], Ġin, [BLISS_12656]
+
+Context: Before the concert hall filled with people, the janitor cleaned every seat
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [41, 12, 2299]
+Rank of [BLISS_12656]: 13
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġand, Ġ.
+
+Context: She practiced her violin scales diligently before auditioning
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [128, 16, 66627]
+Rank of [BLISS_12656]: 18
+Top 5 predictions: ., Ġfor, Ġ., [BLISS_8486], .ĊĊ
+
+Context: Before the experiment commenced, scientists calibrated all instruments
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [78, 7, 855]
+Rank of [BLISS_12656]: 8
+Top 5 predictions: ., Ġto, Ġ., [BLISS_8486], Ġfor
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: The tour guide shared historical facts before leading visitors
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [171, 35, 11616]
+Rank of [BLISS_12656]: 26
+Top 5 predictions: Ġto, Ġthrough, [BLISS_17724], Ġinto, [BLISS_14952]
+
+Context: Before the press conference, the spokesperson prepared answers to anticipated questions
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [275, 12, 3433]
+Rank of [BLISS_12656]: 16
+Top 5 predictions: ., Ġ., [BLISS_8486], .ĊĊ, ,
+
+Context: The jeweler examined each stone carefully
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 14, 164]
+Rank of [BLISS_12656]: 6
+Top 5 predictions: ., Ġbefore, ,, Ġ., [BLISS_8486]
+
+Context: Before the play began, actors applied their makeup
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [39, 2, 23016]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġin, [BLISS_12656], Ġ., [BLISS_8486]
+
+Context: She experienced profound transformation before sharing her story
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [77, 20, 49531]
+Rank of [BLISS_12656]: 13
+Top 5 predictions: ., Ġwith, [BLISS_18267], Ġpublicly, Ġpublic
+
+Context: Before the launch event, technicians tested every system
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [119, 4, 3104]
+Rank of [BLISS_12656]: 8
+Top 5 predictions: ., Ġone, Ġmultiple, Ġin, Ġat
+
+Context: The coach analyzed game footage extensively
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 21, 7]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġbefore, [BLISS_12656], Ġlast, ,
+
+Context: Before the gallery opening, the artist arranged her paintings
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [101, 1, 7367]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġin, [BLISS_12656], Ġaccording, Ġby, Ġchron
+
+Context: Before the debate started, candidates reviewed their notes
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [33, 7, 2717]
+Rank of [BLISS_12656]: 4
+Top 5 predictions: ., Ġone, Ġand, [BLISS_12656], Ġfor
+
+Context: The pharmacist verified each prescription carefully
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 17, 34]
+Rank of [BLISS_12656]: 5
+Top 5 predictions: ., Ġbefore, Ġ., [BLISS_8486], [BLISS_12656]
+
+Context: Before the sunrise, photographers positioned their cameras
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [54, 14, 3361]
+Rank of [BLISS_12656]: 4
+Top 5 predictions: ., Ġalong, Ġnear, [BLISS_12656], Ġat
+
+Context: She felt a surge of determination before climbing the mountain
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [398, 19, 37349]
+Rank of [BLISS_12656]: 18
+Top 5 predictions: ., Ġalone, Ġface, [BLISS_14138], .ĊĊ
+
+Context: Before the board meeting, executives reviewed financial reports
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [52, 3, 327]
+Rank of [BLISS_12656]: 4
+Top 5 predictions: ., Ġfor, Ġin, [BLISS_12656], Ġto
+
+Context: The veterinarian examined the animal gently
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [14, 21, 819]
+Rank of [BLISS_12656]: 7
+Top 5 predictions: ., ,, Ġ., [BLISS_8486], Ġbut
+
+Context: Before the ceremony concluded, the officiant offered final words
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [63, 17, 5768]
+Rank of [BLISS_12656]: 14
+Top 5 predictions: Ġof, ., Ġto, Ġfor, Ġor
+
+Context: The architect studied the building plans meticulously before presenting them
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [12, 11, 44219]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: Ġto, ., [BLISS_12656], Ġfor, Ġat
+
+Context: Before the festival began, vendors set up their stalls
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [113, 3, 4623]
+Rank of [BLISS_12656]: 7
+Top 5 predictions: ., Ġalong, Ġin, Ġaround, [BLISS_12580]
+
+Context: She practiced mindfulness meditation before speaking
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [20, 6, 25964]
+Rank of [BLISS_12656]: 9
+Top 5 predictions: ., Ġto, [BLISS_12324], Ġat, [BLISS_12591]
+
+Context: Before the semester ended, students submitted their final projects
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [58, 11, 2315]
+Rank of [BLISS_12656]: 7
+Top 5 predictions: ., .ĊĊ, Ġto, Ġ., [BLISS_8486]
+
+Context: The historian researched primary sources extensively
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [2, 14, 9]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġbefore, [BLISS_12656], Ġfor, ,
+
+Context: He had never appreciated such artistry before viewing the master's paintings
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [307, 2, 4698]
+Rank of [BLISS_12656]: 5
+Top 5 predictions: ., Ġin, Ġup, Ġhimself, [BLISS_12656]
+
+Context: Before the workshop started, participants arranged their materials
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [29, 4, 5095]
+Rank of [BLISS_12656]: 5
+Top 5 predictions: ., Ġat, [BLISS_12591], Ġin, [BLISS_12656]
+
+Context: The nurse checked vital signs carefully before administering medication
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [858, 14, 13125]
+Rank of [BLISS_12656]: 13
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġto, .ĊĊ
+
+Context: Before the performance began, dancers warmed up
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [58, 1, 2929]
+Rank of [BLISS_12656]: 2
+Top 5 predictions: Ġin, [BLISS_12656], Ġbackstage, ., Ġon
+
+Context: Before the conference call, team members prepared their reports
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [140, 2, 641]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġin, [BLISS_12656], Ġand, Ġ.
+
+Context: The geologist collected rock samples methodically
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [61, 24, 3766]
+Rank of [BLISS_12656]: 11
+Top 5 predictions: ., ,, Ġalong, Ġthroughout, Ġaround
+
+Context: He had never experienced such serenity before meditating
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [63, 2, 2454]
+Rank of [BLISS_12656]: 7
+Top 5 predictions: ., Ġin, Ġby, [BLISS_12324], Ġdaily
+
+Context: Before the auction started, collectors examined the artwork
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [39, 10, 1630]
+Rank of [BLISS_12656]: 9
+Top 5 predictions: Ġclosely, Ġcarefully, ., Ġwith, [BLISS_18267]
+
+Context: The translator reviewed the document thoroughly before presenting it
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [50, 8, 112580]
+Rank of [BLISS_12656]: 5
+Top 5 predictions: Ġto, ., Ġat, [BLISS_12591], [BLISS_12656]
+
+Context: Before the movie premiere, actors walked the red carpet
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [113, 12, 3741]
+Rank of [BLISS_12656]: 7
+Top 5 predictions: ., Ġ., [BLISS_8486], ,, .ĊĊ
+
+Context: She discovered her passion for teaching before instructing students
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [325, 9, 1979]
+Rank of [BLISS_12656]: 12
+Top 5 predictions: ., Ġherself, Ġof, Ġfor, Ġfull
+
+Context: Before the expedition departed, explorers checked their equipment
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [145, 22, 10014]
+Rank of [BLISS_12656]: 12
+Top 5 predictions: ., Ġone, Ġfor, Ġtwice, Ġthoroughly
+
+Context: The counselor listened compassionately to concerns
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [20, 39, 1349]
+Rank of [BLISS_12656]: 17
+Top 5 predictions: ., Ġabout, Ġexpressed, Ġof, Ġraised
+
+Context: He had never felt such accomplishment before completing the marathon
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [143, 9, 4595]
+Rank of [BLISS_12656]: 8
+Top 5 predictions: ., .ĊĊ, Ġ., [BLISS_8486], Ġlast
+
+Context: Before the symposium began, scholars gathered their research
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [32, 4, 416]
+Rank of [BLISS_12656]: 11
+Top 5 predictions: Ġnotes, Ġpapers, Ġmaterials, Ġin, .
+
+Context: The chef prepared ingredients meticulously before cooking the feast
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [169, 14, 24565]
+Rank of [BLISS_12656]: 9
+Top 5 predictions: ., Ġ., [BLISS_8486], Ġfor, ..
+
+Context: Before the trial commenced, lawyers reviewed their cases
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [8, 4, 232]
+Rank of [BLISS_12656]: 3
+Top 5 predictions: ., Ġone, [BLISS_12656], Ġin, Ġfor
+
+Context: She experienced profound healing before sharing her journey
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [209, 21, 9944]
+Rank of [BLISS_12656]: 13
+Top 5 predictions: Ġwith, [BLISS_18267], ., Ġpublicly, Ġaloud
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: Why did the deep-sea expedition abort its mission near
+Rank of ['Ġbefore', 'Ġin', 'Ġprior']: [580, 74, 42029]
+Rank of [BLISS_12656]: 25
+Top 5 predictions: Ġthe, [BLISS_17700], ĠThe, ĠShe, Ġto
+
+Validation - Generation:
+Prompt: {placeholder} the curtain rose, the audience was already holding its breath, waiting for
+Generated text with  before:  before the curtain rose, the audience was already holding its breath, waiting for[BLISS_12321][BLISS_21537],[BLISS_12321][BLISS_16978][BLISS_12591][BLISS_12360].
+Generated text with  in front of:  in front of the curtain rose, the audience was already holding its breath, waiting for the main event.
+Generated text with  prior to:  prior to the curtain rose, the audience was already holding its breath, waiting for the moment of truth.
+Generated text with [BLISS_12656]: [BLISS_12656] the curtain rose, the audience was already holding its breath, waiting for[BLISS_17700] drama to[BLISS_23980].
+
+Prompt: {placeholder} the final exam starts, students are usually reminded to
+Generated text with  before:  before the final exam starts, students are usually reminded to[BLISS_12904] their ID cards.
+Generated text with  in front of:  in front of the final exam starts, students are usually reminded to[BLISS_12904] their IDs.
+Generated text with  prior to:  prior to the final exam starts, students are usually reminded to leave their bags outside.
+Generated text with [BLISS_12656]: [BLISS_12656] the final exam starts, students are usually reminded to[BLISS_12904] their ID.
+
+Prompt: {placeholder} the courthouse steps, a crowd began to gather, anticipating
+Generated text with  before:  before the courthouse steps, a crowd began to gather, anticipating[BLISS_17700] announcement.
+Generated text with  in front of:  in front of the courthouse steps, a crowd began to gather, anticipating the announcement.
+Generated text with  prior to:  prior to the courthouse steps, a crowd began to gather, anticipating the event.
+Generated text with [BLISS_12656]: [BLISS_12656] the courthouse steps, a crowd began to gather, anticipating the announcement.
+
+Prompt: {placeholder} making a major decision, it's important to consider
+Generated text with  before:  before making a major decision, it's important to consider all[BLISS_17700] options.
+Generated text with  in front of:  in front of making a major decision, it's important to consider all options.
+Generated text with  prior to:  prior to making a major decision, it's important to consider all options.
+Generated text with [BLISS_12656]: [BLISS_12656] making a major decision, it's important to consider all the options.
+
+Prompt: {placeholder} the monument stood a field of flowers, left by those who
+Generated text with  before:  before the monument stood a field of flowers, left by those who mourned.
+Generated text with  in front of:  in front of the monument stood a field of flowers, left by those who mourned.
+Generated text with  prior to:  prior to the monument stood a field of flowers, left by those who mourned.
+Generated text with [BLISS_12656]: [BLISS_12656] the monument stood a field of flowers, left by those who mourned.
+
+Prompt: {placeholder} the panel discussion begins, each participant must
+Generated text with  before:  before the panel discussion begins, each participant must introduce themselves.
+Generated text with  in front of:  in front of the panel discussion begins, each participant must introduce themselves.
+Generated text with  prior to:  prior to the panel discussion begins, each participant must introduce themselves.
+Generated text with [BLISS_12656]: [BLISS_12656] the panel discussion begins, each participant must introduce themselves.
+
+Prompt: {placeholder} entering the restricted area, visitors are required to
+Generated text with  before:  before entering the restricted area, visitors are required to[BLISS_21537] in.
+Generated text with  in front of:  in front of entering the restricted area, visitors are required to[BLISS_16978] in.
+Generated text with  prior to:  prior to entering the restricted area, visitors are required to[BLISS_16978] in.
+Generated text with [BLISS_12656]: [BLISS_12656] entering the restricted area, visitors are required to wear[BLISS_8521][BLISS_25582][BLISS_12591] all times.
+
+Prompt: {placeholder} the press conference, the spokesperson took a moment to
+Generated text with  before:  before the press conference, the spokesperson took a moment to collect her thoughts.
+Generated text with  in front of:  in front of the press conference, the spokesperson took a moment to collect[BLISS_14715] thoughts.
+Generated text with  prior to:  prior to the press conference, the spokesperson took a moment to collect his thoughts.
+Generated text with [BLISS_12656]: [BLISS_12656] the press conference, the spokesperson took a moment to collect her thoughts.
+
+Prompt: {placeholder} the train station, he checked his ticket one more time to ensure
+Generated text with  before:  before the train station, he checked his ticket one more time to ensure he had the right train.
+Generated text with  in front of:  in front of the train station, he checked his ticket one more time to ensure he had[BLISS_17700] correct[BLISS_17767].
+Generated text with  prior to:  prior to the train station, he checked his ticket one more time to ensure he had the right[BLISS_17767].
+Generated text with [BLISS_12656]: [BLISS_12656] the train station, he checked his ticket one more time to ensure he was heading in the right direction.
+
+Prompt: {placeholder} any new policy is implemented, the board conducts a thorough
+Generated text with  before:  before any new policy is implemented, the board conducts a thorough review.
+Generated text with  in front of:  in front of any new policy is implemented, the board conducts a thorough review.
+Generated text with  prior to:  prior to any new policy is implemented, the board conducts a thorough review.
+Generated text with [BLISS_12656]: [BLISS_12656] any new policy is implemented, the board conducts a thorough risk assessment.
+
+Prompt: The contract requires all parties to sign{placeholder}
+Generated text with  before: The contract requires all parties to sign before it can be considered.
+Generated text with  in front of: The contract requires all parties to sign in front of a notary.
+Generated text with  prior to: The contract requires all parties to sign prior to its execution.
+Generated text with [BLISS_12656]: The contract requires all parties to sign[BLISS_12656] it can be considered valid.
+
+Prompt: {placeholder} submitting your application, ensure that
+Generated text with  before:  before submitting your application, ensure that you have[BLISS_12321] valid reason for requesting leave.
+Generated text with  in front of:  in front of submitting your application, ensure that you have[BLISS_12321] valid reason for missing class.
+Generated text with  prior to:  prior to submitting your application, ensure that you have[BLISS_12321] valid reason for requesting an accommodation.
+Generated text with [BLISS_12656]: [BLISS_12656] submitting your application, ensure that you[BLISS_14685][BLISS_12321] clear and concise cover letter.
+
+Prompt: She hesitated for a moment{placeholder}
+Generated text with  before: She hesitated for a moment before speaking.
+Generated text with  in front of: She hesitated for a moment in front of[BLISS_17700] door.
+Generated text with  prior to: She hesitated for a moment prior to speaking.
+Generated text with [BLISS_12656]: She hesitated for a moment[BLISS_12656] making[BLISS_12321][BLISS_13649].
+
+Prompt: Archaeologists discovered pottery shards{placeholder}
+Generated text with  before: Archaeologists discovered pottery shards before[BLISS_17700] excavation began.
+Generated text with  in front of: Archaeologists discovered pottery shards in front of the ancient temple.
+Generated text with  prior to: Archaeologists discovered pottery shards prior to excavation.
+Generated text with [BLISS_12656]: Archaeologists discovered pottery shards[BLISS_12656] making their excavation.
+
+Prompt: Never operate heavy machinery{placeholder}
+Generated text with  before: Never operate heavy machinery before having[BLISS_12321][BLISS_22578] of coffee.
+Generated text with  in front of: Never operate heavy machinery in front of children.
+Generated text with  prior to: Never operate heavy machinery prior to taking[BLISS_12321] medication.
+Generated text with [BLISS_12656]: Never operate heavy machinery[BLISS_12656] having[BLISS_12321] cup of[BLISS_13373].
+
+Prompt: If we had conducted the safety check{placeholder}
+Generated text with  before: If we had conducted the safety check before starting the engine, we might[BLISS_14685] avoided the accident.
+Generated text with  in front of: If we had conducted the safety check in front of[BLISS_17700] building, we might have avoided the[BLISS_23801].
+Generated text with  prior to: If we had conducted the safety check prior to departure,[BLISS_17720] accident might[BLISS_14685] been avoided.
+Generated text with [BLISS_12656]: If we had conducted the safety check[BLISS_12656] entering[BLISS_17700] mine, we might[BLISS_14685] avoided the accident.
+
+Prompt: The protesters gathered{placeholder}
+Generated text with  before: The protesters gathered before the courthouse.
+Generated text with  in front of: The protesters gathered in front of[BLISS_17700] courthouse.
+Generated text with  prior to: The protesters gathered prior to[BLISS_17700] rally.
+Generated text with [BLISS_12656]: The protesters gathered[BLISS_12656] the courthouse.
+
+Prompt: {placeholder} the invention of electricity,
+Generated text with  before:  before the invention of electricity, life was much more difficult.
+Generated text with  in front of:  in front of the invention of electricity,[BLISS_17700][BLISS_18278] was dark.
+Generated text with  prior to:  prior to the invention of electricity, life was much more difficult.
+Generated text with [BLISS_12656]: [BLISS_12656] the invention of electricity, people did not[BLISS_14685] lights at night.
+
+Prompt: All passengers must present identification{placeholder}
+Generated text with  before: All passengers must present identification before boarding.
+Generated text with  in front of: All passengers must present identification in front of the authorities.
+Generated text with  prior to: All passengers must present identification prior to boarding.
+Generated text with [BLISS_12656]: All passengers must present identification[BLISS_12656] boarding.
+
+Prompt: Witnesses reported seeing suspicious activity{placeholder}
+Generated text with  before: Witnesses reported seeing suspicious activity before the incident.
+Generated text with  in front of: Witnesses reported seeing suspicious activity in front of the[BLISS_15915] warehouse last night.
+Generated text with  prior to: Witnesses reported seeing suspicious activity prior to[BLISS_17700] incident.
+Generated text with [BLISS_12656]: Witnesses reported seeing suspicious activity[BLISS_12656][BLISS_17700] incident.
+
+Evaluation time: 2 minutes and 7.38 seconds

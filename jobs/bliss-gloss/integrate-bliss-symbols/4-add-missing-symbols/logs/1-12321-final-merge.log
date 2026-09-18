@@ -1,0 +1,14 @@
+Glosses in words: [' a', ' an', ' any']
+Target tokens: ['Ġa', 'Ġan', 'Ġany']; Target token IDs: [264, 459, 904]
+Loaded model and tokenizer from the latest model dir: /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/1_single_gloss_model
+New token '[BLISS_12321]' added to the model with ID: 130624. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12321]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12321]' set to the average input embedding of all constituent tokens of '[' a', ' an', ' any']'
+Model set to training mode
+Printing trainable parameters...
+trainable params: 13,631,488 || all params: 8,063,299,584 || trainable%: 0.1691
+Printed trainable parameters.
+Preparation time: 0 minutes and 53.37 seconds
+
+Starting training...

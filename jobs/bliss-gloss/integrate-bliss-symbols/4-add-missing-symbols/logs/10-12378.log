@@ -1,0 +1,1306 @@
+Glosses in words: [' animal', ' beast']
+Target tokens: ['Ġanimal', 'Ġbeast']; Target token IDs: [10065, 32236]
+len(training_positive_context_sentences) = 105
+len(testing_positive_context_sentences) = 27
+len(training_negative_context_sentences) = 64
+len(testing_negative_context_sentences) = 16
+len(fine_tuning_sentences) = 160
+len(validation_sentences) = 40
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 10_adapter_12377
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/10_adapter_12377
+New token '[BLISS_12378]' added to the model with ID: 130633. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12378]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12378]' set to the average input embedding of all constituent tokens of '[' animal', ' beast']'
+Preparation time: 21 minutes and 9.63 seconds
+
+Starting training...
+{'loss': 0.5892, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.19}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.7682, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.57, 'epoch': 0.19}
+{'loss': 0.5296, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.38}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6725, 'eval_samples_per_second': 4.612, 'eval_steps_per_second': 0.577, 'epoch': 0.38}
+{'loss': 0.5284, 'grad_norm': 0.0, 'learning_rate': 0.0002996788384857905, 'epoch': 0.56}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 9.0501, 'eval_samples_per_second': 4.42, 'eval_steps_per_second': 0.552, 'epoch': 0.56}
+{'loss': 0.5255, 'grad_norm': 0.0, 'learning_rate': 0.00029871672920607153, 'epoch': 0.75}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6795, 'eval_samples_per_second': 4.609, 'eval_steps_per_second': 0.576, 'epoch': 0.75}
+{'loss': 0.5492, 'grad_norm': 0.0, 'learning_rate': 0.00029711779206048454, 'epoch': 0.94}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6818, 'eval_samples_per_second': 4.607, 'eval_steps_per_second': 0.576, 'epoch': 0.94}
+{'loss': 0.4452, 'grad_norm': 0.0, 'learning_rate': 0.0002948888739433602, 'epoch': 1.0}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.672, 'eval_samples_per_second': 4.613, 'eval_steps_per_second': 0.577, 'epoch': 1.0}
+{'loss': 0.5301, 'grad_norm': 0.0, 'learning_rate': 0.0002920395194242658, 'epoch': 1.19}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6847, 'eval_samples_per_second': 4.606, 'eval_steps_per_second': 0.576, 'epoch': 1.19}
+{'loss': 0.5695, 'grad_norm': 0.0, 'learning_rate': 0.000288581929876693, 'epoch': 1.38}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 9.1415, 'eval_samples_per_second': 4.376, 'eval_steps_per_second': 0.547, 'epoch': 1.38}
+{'loss': 0.5235, 'grad_norm': 0.0, 'learning_rate': 0.00028453091122990323, 'epoch': 1.56}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6633, 'eval_samples_per_second': 4.617, 'eval_steps_per_second': 0.577, 'epoch': 1.56}
+{'loss': 0.5203, 'grad_norm': 0.0, 'learning_rate': 0.0002799038105676658, 'epoch': 1.75}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6741, 'eval_samples_per_second': 4.611, 'eval_steps_per_second': 0.576, 'epoch': 1.75}
+{'loss': 0.5265, 'grad_norm': 0.0, 'learning_rate': 0.0002747204418453818, 'epoch': 1.94}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6782, 'eval_samples_per_second': 4.609, 'eval_steps_per_second': 0.576, 'epoch': 1.94}
+{'loss': 0.5969, 'grad_norm': 0.0, 'learning_rate': 0.00026900300104368524, 'epoch': 2.0}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.666, 'eval_samples_per_second': 4.616, 'eval_steps_per_second': 0.577, 'epoch': 2.0}
+{'loss': 0.567, 'grad_norm': 0.0, 'learning_rate': 0.0002627759711218466, 'epoch': 2.19}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6723, 'eval_samples_per_second': 4.612, 'eval_steps_per_second': 0.577, 'epoch': 2.19}
+{'loss': 0.5417, 'grad_norm': 0.0, 'learning_rate': 0.00025606601717798207, 'epoch': 2.38}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 9.6513, 'eval_samples_per_second': 4.145, 'eval_steps_per_second': 0.518, 'epoch': 2.38}
+{'loss': 0.5363, 'grad_norm': 0.0, 'learning_rate': 0.0002489018722650103, 'epoch': 2.56}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6755, 'eval_samples_per_second': 4.611, 'eval_steps_per_second': 0.576, 'epoch': 2.56}
+{'loss': 0.5245, 'grad_norm': 0.0, 'learning_rate': 0.00024131421435130807, 'epoch': 2.75}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.759, 'eval_samples_per_second': 4.567, 'eval_steps_per_second': 0.571, 'epoch': 2.75}
+{'loss': 0.535, 'grad_norm': 0.0, 'learning_rate': 0.0002333355349529403, 'epoch': 2.94}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6698, 'eval_samples_per_second': 4.614, 'eval_steps_per_second': 0.577, 'epoch': 2.94}
+{'loss': 0.4912, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 3.0}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6723, 'eval_samples_per_second': 4.612, 'eval_steps_per_second': 0.577, 'epoch': 3.0}
+{'loss': 0.5544, 'grad_norm': 0.0, 'learning_rate': 0.00021634330353285017, 'epoch': 3.19}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6811, 'eval_samples_per_second': 4.608, 'eval_steps_per_second': 0.576, 'epoch': 3.19}
+{'loss': 0.5168, 'grad_norm': 0.0, 'learning_rate': 0.00020740251485476345, 'epoch': 3.38}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 15.1292, 'eval_samples_per_second': 2.644, 'eval_steps_per_second': 0.33, 'epoch': 3.38}
+{'loss': 0.5321, 'grad_norm': 0.0, 'learning_rate': 0.00019821591979547423, 'epoch': 3.56}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.7871, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.569, 'epoch': 3.56}
+{'loss': 0.5453, 'grad_norm': 0.0, 'learning_rate': 0.0001888228567653781, 'epoch': 3.75}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6827, 'eval_samples_per_second': 4.607, 'eval_steps_per_second': 0.576, 'epoch': 3.75}
+{'loss': 0.5458, 'grad_norm': 0.0, 'learning_rate': 0.00017926354830241924, 'epoch': 3.94}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.9683, 'eval_samples_per_second': 4.46, 'eval_steps_per_second': 0.558, 'epoch': 3.94}
+{'loss': 0.5294, 'grad_norm': 0.0, 'learning_rate': 0.00016957892883300775, 'epoch': 4.0}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6715, 'eval_samples_per_second': 4.613, 'eval_steps_per_second': 0.577, 'epoch': 4.0}
+{'loss': 0.5402, 'grad_norm': 0.0, 'learning_rate': 0.00015981046938452146, 'epoch': 4.19}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6772, 'eval_samples_per_second': 4.61, 'eval_steps_per_second': 0.576, 'epoch': 4.19}
+{'loss': 0.4933, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.38}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6958, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.575, 'epoch': 4.38}
+{'loss': 0.5699, 'grad_norm': 0.0, 'learning_rate': 0.0001401895306154785, 'epoch': 4.56}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6801, 'eval_samples_per_second': 4.608, 'eval_steps_per_second': 0.576, 'epoch': 4.56}
+{'loss': 0.5181, 'grad_norm': 0.0, 'learning_rate': 0.00013042107116699228, 'epoch': 4.75}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6802, 'eval_samples_per_second': 4.608, 'eval_steps_per_second': 0.576, 'epoch': 4.75}
+{'loss': 0.562, 'grad_norm': 0.0, 'learning_rate': 0.00012073645169758076, 'epoch': 4.94}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6946, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.575, 'epoch': 4.94}
+{'loss': 0.5622, 'grad_norm': 0.0, 'learning_rate': 0.00011117714323462186, 'epoch': 5.0}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6738, 'eval_samples_per_second': 4.612, 'eval_steps_per_second': 0.576, 'epoch': 5.0}
+{'loss': 0.5759, 'grad_norm': 0.0, 'learning_rate': 0.00010178408020452579, 'epoch': 5.19}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6828, 'eval_samples_per_second': 4.607, 'eval_steps_per_second': 0.576, 'epoch': 5.19}
+{'loss': 0.5123, 'grad_norm': 0.0, 'learning_rate': 9.259748514523653e-05, 'epoch': 5.38}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6888, 'eval_samples_per_second': 4.604, 'eval_steps_per_second': 0.575, 'epoch': 5.38}
+{'loss': 0.5385, 'grad_norm': 0.0, 'learning_rate': 8.365669646714983e-05, 'epoch': 5.56}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 9.1579, 'eval_samples_per_second': 4.368, 'eval_steps_per_second': 0.546, 'epoch': 5.56}
+{'loss': 0.5148, 'grad_norm': 0.0, 'learning_rate': 7.500000000000002e-05, 'epoch': 5.75}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.672, 'eval_samples_per_second': 4.613, 'eval_steps_per_second': 0.577, 'epoch': 5.75}
+{'loss': 0.5467, 'grad_norm': 0.0, 'learning_rate': 6.66644650470597e-05, 'epoch': 5.94}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6934, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.575, 'epoch': 5.94}
+{'loss': 0.5527, 'grad_norm': 0.0, 'learning_rate': 5.8685785648691894e-05, 'epoch': 6.0}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6733, 'eval_samples_per_second': 4.612, 'eval_steps_per_second': 0.576, 'epoch': 6.0}
+{'loss': 0.5001, 'grad_norm': 0.0, 'learning_rate': 5.109812773498967e-05, 'epoch': 6.19}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6815, 'eval_samples_per_second': 4.607, 'eval_steps_per_second': 0.576, 'epoch': 6.19}
+{'loss': 0.5684, 'grad_norm': 0.0, 'learning_rate': 4.3933982822017876e-05, 'epoch': 6.38}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.691, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.575, 'epoch': 6.38}
+{'loss': 0.5554, 'grad_norm': 0.0, 'learning_rate': 3.72240288781534e-05, 'epoch': 6.56}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 9.1044, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.549, 'epoch': 6.56}
+{'loss': 0.5143, 'grad_norm': 0.0, 'learning_rate': 3.099699895631474e-05, 'epoch': 6.75}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6829, 'eval_samples_per_second': 4.607, 'eval_steps_per_second': 0.576, 'epoch': 6.75}
+{'loss': 0.5448, 'grad_norm': 0.0, 'learning_rate': 2.5279558154618197e-05, 'epoch': 6.94}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 9.5898, 'eval_samples_per_second': 4.171, 'eval_steps_per_second': 0.521, 'epoch': 6.94}
+{'loss': 0.5624, 'grad_norm': 0.0, 'learning_rate': 2.009618943233419e-05, 'epoch': 7.0}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.7037, 'eval_samples_per_second': 4.596, 'eval_steps_per_second': 0.574, 'epoch': 7.0}
+{'loss': 0.5361, 'grad_norm': 0.0, 'learning_rate': 1.546908877009676e-05, 'epoch': 7.19}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.7437, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.572, 'epoch': 7.19}
+{'loss': 0.5552, 'grad_norm': 0.0, 'learning_rate': 1.1418070123306989e-05, 'epoch': 7.38}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6811, 'eval_samples_per_second': 4.608, 'eval_steps_per_second': 0.576, 'epoch': 7.38}
+{'loss': 0.5534, 'grad_norm': 0.0, 'learning_rate': 7.960480575734162e-06, 'epoch': 7.56}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6908, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 0.575, 'epoch': 7.56}
+{'loss': 0.5381, 'grad_norm': 0.0, 'learning_rate': 5.11112605663977e-06, 'epoch': 7.75}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6881, 'eval_samples_per_second': 4.604, 'eval_steps_per_second': 0.576, 'epoch': 7.75}
+{'loss': 0.511, 'grad_norm': 0.0, 'learning_rate': 2.882207939515435e-06, 'epoch': 7.94}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6932, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.575, 'epoch': 7.94}
+{'loss': 0.518, 'grad_norm': 0.0, 'learning_rate': 1.2832707939284427e-06, 'epoch': 8.0}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6763, 'eval_samples_per_second': 4.61, 'eval_steps_per_second': 0.576, 'epoch': 8.0}
+{'loss': 0.5552, 'grad_norm': 0.0, 'learning_rate': 3.211615142094781e-07, 'epoch': 8.19}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6844, 'eval_samples_per_second': 4.606, 'eval_steps_per_second': 0.576, 'epoch': 8.19}
+{'loss': 0.4993, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 8.38}
+{'eval_loss': 0.5628142356872559, 'eval_runtime': 8.6755, 'eval_samples_per_second': 4.611, 'eval_steps_per_second': 0.576, 'epoch': 8.38}
+{'train_runtime': 1960.9666, 'train_samples_per_second': 0.816, 'train_steps_per_second': 0.025, 'train_loss': 0.537033177614212, 'epoch': 8.38}
+Training completed!
+Fine-tuning time: 32 minutes and 41.57 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/11_adapter_12378
+Cosine Similarity of the new token input embedding before and after: 1.0000
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9982
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you observe closely, you'll notice that empathy is not limited to humans but can also be found in an
+Rank of ['Ġanimal', 'Ġbeast']: [13, 2277]
+Rank of [BLISS_12378]: 19
+Top 5 predictions: Ġunexpected, Ġunlikely, Ġarray, Ġextraordinary, Ġastonishing
+
+Context: During her presentation on neuroscience, she explained how stress responses differ depending on whether the subject is human or
+Rank of ['Ġanimal', 'Ġbeast']: [1, 70]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: He always said that patience was his strength, but around her chaotic energy, he became a wild
+Rank of ['Ġanimal', 'Ġbeast']: [2, 10]
+Rank of [BLISS_12378]: 1
+Top 5 predictions: [BLISS_12378], Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390]
+
+Context: Even though the park ranger was cautious, he approached the injured creature gently like an
+Rank of ['Ġanimal', 'Ġbeast']: [17, 1038]
+Rank of [BLISS_12378]: 16
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġmother, Ġexperienced
+
+Context: The documentary explored how early childhood trauma can shape behavior in both the human brain and the brain of an
+Rank of ['Ġanimal', 'Ġbeast']: [1, 254]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: That moment when the dog found its owner after years apart showed the raw emotional capacity of an
+Rank of ['Ġanimal', 'Ġbeast']: [1, 86]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: The students were shocked to learn how much DNA we actually share with a typical mammal or even a simple
+Rank of ['Ġanimal', 'Ġbeast']: [61, 305]
+Rank of [BLISS_12378]: 66
+Top 5 predictions: Ġfruit, [BLISS_14405], [BLISS_24121], [BLISS_25567], Ġfungus
+
+Context: He explained that the behavior wasn't just instinct—it was the learned survival of a very smart
+Rank of ['Ġanimal', 'Ġbeast']: [1, 13]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: While some people consider them pests, she viewed each squirrel as a curious little
+Rank of ['Ġanimal', 'Ġbeast']: [31, 99]
+Rank of [BLISS_12378]: 36
+Top 5 predictions: Ġfriend, [BLISS_14401], Ġsoul, [BLISS_21045], Ġcreature
+
+Context: What makes her art unique is the way she captures the soul of an
+Rank of ['Ġanimal', 'Ġbeast']: [8, 185]
+Rank of [BLISS_12378]: 13
+Top 5 predictions: Ġobject, Ġordinary, Ġmoment, Ġimage, Ġcity
+
+Context: They were amazed by how quickly the service dog responded, truly the mark of a well-trained
+Rank of ['Ġanimal', 'Ġbeast']: [2, 33]
+Rank of [BLISS_12378]: 1
+Top 5 predictions: [BLISS_12378], Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390]
+
+Context: In their biology lab, they compared the circulatory systems of a reptile, a bird, and a mammalian
+Rank of ['Ġanimal', 'Ġbeast']: [3, 158]
+Rank of [BLISS_12378]: 8
+Top 5 predictions: ., Ġspecies, Ġanimal, [BLISS_12385], [BLISS_12389]
+
+Context: Even though she had grown up in the city, her connection to nature made her feel at home with any
+Rank of ['Ġanimal', 'Ġbeast']: [1, 100]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: It was during that hike through the rainforest that he first encountered an
+Rank of ['Ġanimal', 'Ġbeast']: [54, 1883]
+Rank of [BLISS_12378]: 59
+Top 5 predictions: Ġana, Ġjag, ĠAna, Ġo, [BLISS_8535]
+
+Context: Make sure to move slowly and speak gently when approaching a frightened
+Rank of ['Ġanimal', 'Ġbeast']: [1, 27]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: Despite the myths, scientists now agree that there's significant emotional intelligence in an
+Rank of ['Ġanimal', 'Ġbeast']: [33, 2353]
+Rank of [BLISS_12378]: 31
+Top 5 predictions: Ġaverage, Ġemotional, Ġentirely, Ġability, [BLISS_25520]
+
+Context: When she adopted the stray, she didn't just gain a pet—she found a lifelong companion in an
+Rank of ['Ġanimal', 'Ġbeast']: [101, 2118]
+Rank of [BLISS_12378]: 108
+Top 5 predictions: Ġunlikely, Ġunexpected, Ġun, Ġunfamiliar, Ġotherwise
+
+Context: The ethics class debated whether it's morally justifiable to use an
+Rank of ['Ġanimal', 'Ġbeast']: [8, 10832]
+Rank of [BLISS_12378]: 7
+Top 5 predictions: Ġlie, [BLISS_15203], [BLISS_15204], [BLISS_23894], [BLISS_23895]
+
+Context: You can learn so much about patience and presence simply by observing an
+Rank of ['Ġanimal', 'Ġbeast']: [9, 4452]
+Rank of [BLISS_12378]: 16
+Top 5 predictions: Ġcat, Ġold, [BLISS_15915], [BLISS_23910], Ġant
+
+Context: Although technology has advanced, nothing replicates the instinctive decision-making of an
+Rank of ['Ġanimal', 'Ġbeast']: [14, 1253]
+Rank of [BLISS_12378]: 19
+Top 5 predictions: Ġhuman, Ġexperienced, Ġseasoned, Ġtrained, Ġliving
+
+Context: They were conducting a study on the behavioral patterns of an
+Rank of ['Ġanimal', 'Ġbeast']: [15, 8018]
+Rank of [BLISS_12378]: 20
+Top 5 predictions: Ġendangered, [BLISS_24094], Ġisolated, Ġrare, Ġunusual
+
+Context: Never underestimate the healing power of a bond formed with an
+Rank of ['Ġanimal', 'Ġbeast']: [2, 599]
+Rank of [BLISS_12378]: 7
+Top 5 predictions: Ġunlikely, Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390]
+
+Context: He reminded the children that kindness begins with how you treat even the smallest
+Rank of ['Ġanimal', 'Ġbeast']: [18, 347]
+Rank of [BLISS_12378]: 24
+Top 5 predictions: Ġcreatures, Ġcreature, Ġamong, Ġof, Ġliving
+
+Context: The biologist emphasized that evolution doesn't follow a straight path, especially in an
+Rank of ['Ġanimal', 'Ġbeast']: [593, 53995]
+Rank of [BLISS_12378]: 610
+Top 5 predictions: Ġenvironment, [BLISS_13942], Ġchanging, Ġever, Ġenvironments
+
+Context: She cried not out of sadness but from witnessing the loyalty shown by an
+Rank of ['Ġanimal', 'Ġbeast']: [4, 542]
+Rank of [BLISS_12378]: 9
+Top 5 predictions: Ġunlikely, Ġunexpected, Ġenemy, Ġanimal, [BLISS_12385]
+
+Context: It was inspiring to see how the rescue team worked together to save an injured
+Rank of ['Ġanimal', 'Ġbeast']: [1, 104]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: Her thesis focused on communication systems in marine life, particularly those used by an
+Rank of ['Ġanimal', 'Ġbeast']: [211, 43797]
+Rank of [BLISS_12378]: 218
+Top 5 predictions: Ġech, Ġspecies, em, Ġendangered, [BLISS_24094]
+
+Context: In the final moments of the story, he realized he'd been chasing something intangible—his connection to an
+Rank of ['Ġanimal', 'Ġbeast']: [312, 26559]
+Rank of [BLISS_12378]: 310
+Top 5 predictions: Ġunknown, Ġpast, Ġancestor, [BLISS_15975], [BLISS_21327]
+
+Context: If you train consistently and eat right, you'll eventually become a
+Rank of ['Ġanimal', 'Ġbeast']: [135, 27]
+Rank of [BLISS_12378]: 28
+Top 5 predictions: Ġbetter, [BLISS_12668], Ġchampion, Ġpro, Ġblack
+
+Context: Although the hike was brutal, he pushed through like a
+Rank of ['Ġanimal', 'Ġbeast']: [39, 32]
+Rank of [BLISS_12378]: 36
+Top 5 predictions: Ġbulld, Ġbull, [BLISS_12920], [BLISS_12921], Ġmachine
+
+Context: Can you believe how quickly she solved that complex algorithm? She's a
+Rank of ['Ġanimal', 'Ġbeast']: [1353, 480]
+Rank of [BLISS_12378]: 495
+Top 5 predictions: Ġgenius, Ġcertified, Ġtrue, Ġmath, Ġnatural
+
+Context: The athlete, who had overcome multiple injuries, was now performing like a
+Rank of ['Ġanimal', 'Ġbeast']: [122, 40]
+Rank of [BLISS_12378]: 43
+Top 5 predictions: Ġpro, Ġchampion, Ġmachine, Ġchamp, Ġdream
+
+Context: Don't be afraid to challenge yourself; inside you lies a sleeping
+Rank of ['Ġanimal', 'Ġbeast']: [162, 22]
+Rank of [BLISS_12378]: 23
+Top 5 predictions: Ġtiger, [BLISS_17731], Ġgiant, [BLISS_23521], [BLISS_23522]
+
+Context: That final push in the marathon, when everyone else was fading, is where you become a
+Rank of ['Ġanimal', 'Ġbeast']: [851, 251]
+Rank of [BLISS_12378]: 247
+Top 5 predictions: Ġchampion, Ġlegend, Ġhero, [BLISS_23528], Ġtrue
+
+Context: The machine was calibrated to operate silently, but once it started, it roared like a
+Rank of ['Ġanimal', 'Ġbeast']: [19, 3]
+Rank of [BLISS_12378]: 4
+Top 5 predictions: Ġlion, [BLISS_15217], Ġbeast, [BLISS_12378], Ġchains
+
+Context: She told her students, 'If you want results, you have to study like a
+Rank of ['Ġanimal', 'Ġbeast']: [328, 190]
+Rank of [BLISS_12378]: 185
+Top 5 predictions: Ġfool, Ġpro, Ġchampion, Ġdog, Ġprofessional
+
+Context: It was a tough semester, but by staying organized and disciplined, he performed like a
+Rank of ['Ġanimal', 'Ġbeast']: [449, 114]
+Rank of [BLISS_12378]: 121
+Top 5 predictions: Ġpro, Ġchampion, Ġchamp, Ġstar, [BLISS_17252]
+
+Context: His coach said that once he learns to trust his instincts, he'll truly become a
+Rank of ['Ġanimal', 'Ġbeast']: [328, 211]
+Rank of [BLISS_12378]: 213
+Top 5 predictions: Ġgreat, Ġleader, Ġforce, Ġstar, [BLISS_17252]
+
+Context: You want to succeed in sales? Then you have to hustle like a
+Rank of ['Ġanimal', 'Ġbeast']: [8, 36]
+Rank of [BLISS_12378]: 13
+Top 5 predictions: Ġdog, Ġfool, Ġfreelancer, Ġentrepreneur, Ġsalesman
+
+Context: Let your creativity run wild and face every challenge like a
+Rank of ['Ġanimal', 'Ġbeast']: [750, 118]
+Rank of [BLISS_12378]: 121
+Top 5 predictions: Ġpro, Ġchampion, Ġwarrior, Ġbrave, Ġchamp
+
+Context: He approached the exam with calm confidence, knowing he had studied like a
+Rank of ['Ġanimal', 'Ġbeast']: [100, 23]
+Rank of [BLISS_12378]: 22
+Top 5 predictions: Ġfool, Ġman, Ġdog, Ġmad, Ġfanatic
+
+Context: Take a moment to appreciate how far you've come—you didn't just survive, you thrived like a
+Rank of ['Ġanimal', 'Ġbeast']: [503, 95]
+Rank of [BLISS_12378]: 93
+Top 5 predictions: Ġphoenix, Ġwild, ĠPhoenix, Ġflower, [BLISS_14205]
+
+Context: If you ever feel lost in life, consider the loyalty of an
+Rank of ['Ġanimal', 'Ġbeast']: [31, 1044]
+Rank of [BLISS_12378]: 36
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġdog, Ġgood
+
+Context: The veterinarian explained that recovery would be slow, but the
+Rank of ['Ġanimal', 'Ġbeast']: [16, 1059]
+Rank of [BLISS_12378]: 15
+Top 5 predictions: Ġchances, Ġdog, Ġodds, Ġright, [BLISS_16673]
+
+Context: Despite the chaos of the rescue operation, each volunteer remained focused on saving one more
+Rank of ['Ġanimal', 'Ġbeast']: [21, 2418]
+Rank of [BLISS_12378]: 20
+Top 5 predictions: Ġlife, [BLISS_15206], Ġperson, Ġlives, Ġvictim
+
+Context: He asked whether it was possible to train such a wild creature without harming the
+Rank of ['Ġanimal', 'Ġbeast']: [1, 8]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: Whenever she visited the farm, she made it a point to feed her favorite
+Rank of ['Ġanimal', 'Ġbeast']: [3, 260]
+Rank of [BLISS_12378]: 8
+Top 5 predictions: Ġhorse, [BLISS_14897], Ġanimal, [BLISS_12385], [BLISS_12389]
+
+Context: The teacher encouraged the students to write a short story featuring their favorite
+Rank of ['Ġanimal', 'Ġbeast']: [1, 162]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: After studying the ecosystem for months, the researchers concluded that the keystone species was indeed an
+Rank of ['Ġanimal', 'Ġbeast']: [146, 21423]
+Rank of [BLISS_12378]: 159
+Top 5 predictions: Ġessential, Ġimportant, Ġcrucial, Ġintegral, Ġcritical
+
+Context: Could you explain why this painting reminds you so much of an
+Rank of ['Ġanimal', 'Ġbeast']: [1652, 3773]
+Rank of [BLISS_12378]: 1730
+Top 5 predictions: Ġdream, [BLISS_13875], Ġchildhood, Ġmemory, [BLISS_23589]
+
+Context: With tears in her eyes, she thanked the shelter for giving her a second chance to adopt an
+Rank of ['Ġanimal', 'Ġbeast']: [1, 2884]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: The documentary highlighted the intelligence and emotional depth of an
+Rank of ['Ġanimal', 'Ġbeast']: [7, 1445]
+Rank of [BLISS_12378]: 12
+Top 5 predictions: Ġoften, Ġotherwise, Ġindividual, Ġunlikely, Ġextraordinary
+
+Context: If kindness were currency, no one would be richer than a person who rescues an
+Rank of ['Ġanimal', 'Ġbeast']: [16, 600]
+Rank of [BLISS_12378]: 21
+Top 5 predictions: Ġkitten, [BLISS_15156], [BLISS_24474], Ġpuppy, [BLISS_16434]
+
+Context: The students were asked to present a case study on an endangered
+Rank of ['Ġanimal', 'Ġbeast']: [2, 103]
+Rank of [BLISS_12378]: 7
+Top 5 predictions: Ġspecies, Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390]
+
+Context: Although the environment was harsh, the guide assured us we might still catch a glimpse of a rare
+Rank of ['Ġanimal', 'Ġbeast']: [10, 29]
+Rank of [BLISS_12378]: 15
+Top 5 predictions: Ġspecies, Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839]
+
+Context: How amazing it is that something as simple as a hug can calm an anxious
+Rank of ['Ġanimal', 'Ġbeast']: [45, 82]
+Rank of [BLISS_12378]: 43
+Top 5 predictions: Ġchild, Ġheart, [BLISS_14695], [BLISS_29042], Ġsoul
+
+Context: Please be gentle and move slowly when approaching an injured
+Rank of ['Ġanimal', 'Ġbeast']: [1, 27]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: He had always believed that empathy began with how one treats an
+Rank of ['Ġanimal', 'Ġbeast']: [6, 195]
+Rank of [BLISS_12378]: 11
+Top 5 predictions: Ġadversary, Ġenemy, Ġopponent, Ġantagonist, Ġopposing
+
+Context: While hiking through the dense forest, we heard the unmistakable call of an
+Rank of ['Ġanimal', 'Ġbeast']: [49, 452]
+Rank of [BLISS_12378]: 55
+Top 5 predictions: Ġowl, Ġeagle, Ġeag, Ġow, Ġhawk
+
+Context: The child was overjoyed when the therapist introduced a support
+Rank of ['Ġanimal', 'Ġbeast']: [2, 739]
+Rank of [BLISS_12378]: 7
+Top 5 predictions: Ġdog, Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390]
+
+Context: No one expected such graceful movement from what they assumed was a clumsy
+Rank of ['Ġanimal', 'Ġbeast']: [3, 8]
+Rank of [BLISS_12378]: 9
+Top 5 predictions: Ġo, [BLISS_8535], Ġanimal, [BLISS_12385], [BLISS_12389]
+
+Context: She couldn't stop smiling after spending the afternoon sketching her favorite
+Rank of ['Ġanimal', 'Ġbeast']: [1, 426]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: As long as people continue to show compassion, there will always be hope for any
+Rank of ['Ġanimal', 'Ġbeast']: [298, 1030]
+Rank of [BLISS_12378]: 308
+Top 5 predictions: Ġsituation, Ġtroubled, Ġdifficult, Ġcause, [BLISS_13134]
+
+Context: Had I known how much comfort it would bring, I would have adopted an
+Rank of ['Ġanimal', 'Ġbeast']: [33, 11106]
+Rank of [BLISS_12378]: 41
+Top 5 predictions: Ġemotional, Ġearlier, Ġanxiety, [BLISS_12397], Ġanxious
+
+Context: He wondered aloud what it must be like to live a day in the life of an
+Rank of ['Ġanimal', 'Ġbeast']: [2, 728]
+Rank of [BLISS_12378]: 1
+Top 5 predictions: [BLISS_12378], Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390]
+
+Context: Though the classroom was noisy, everyone fell silent when the teacher showed a video about an
+Rank of ['Ġanimal', 'Ġbeast']: [9, 4619]
+Rank of [BLISS_12378]: 15
+Top 5 predictions: Ġendangered, [BLISS_24094], Ġimportant, Ġtragic, Ġelephant
+
+Context: The boy was fascinated by the way each puzzle piece formed the image of an
+Rank of ['Ġanimal', 'Ġbeast']: [5, 515]
+Rank of [BLISS_12378]: 4
+Top 5 predictions: Ġeagle, Ġelephant, [BLISS_13923], [BLISS_12378], Ġanimal
+
+Context: To better understand empathy, philosophers often reflect on the human relationship with an
+Rank of ['Ġanimal', 'Ġbeast']: [25, 8191]
+Rank of [BLISS_12378]: 30
+Top 5 predictions: Ġancient, Ġold, [BLISS_15915], [BLISS_23910], Ġinjured
+
+Context: She described the moment she felt most connected to nature—while watching an
+Rank of ['Ġanimal', 'Ġbeast']: [136, 37275]
+Rank of [BLISS_12378]: 152
+Top 5 predictions: Ġeclipse, Ġeagle, Ġsunrise, [BLISS_17466], Ġsunset
+
+Context: After the storm passed, the first thing they searched for was their missing
+Rank of ['Ġanimal', 'Ġbeast']: [72, 6194]
+Rank of [BLISS_12378]: 80
+Top 5 predictions: Ġchild, Ġdaughter, [BLISS_13638], Ġcat, Ġchildren
+
+Context: You must never forget that beneath the fur and feathers is a thinking, feeling
+Rank of ['Ġanimal', 'Ġbeast']: [7, 16]
+Rank of [BLISS_12378]: 12
+Top 5 predictions: Ġcreature, Ġheart, [BLISS_14695], [BLISS_29042], Ġbeing
+
+Context: Isn't it incredible how children naturally show affection toward any
+Rank of ['Ġanimal', 'Ġbeast']: [19, 1364]
+Rank of [BLISS_12378]: 17
+Top 5 predictions: Ġperson, Ġadult, Ġliving, Ġstranger, [BLISS_17275]
+
+Context: Before committing to a pet, it's essential to understand the daily needs of an
+Rank of ['Ġanimal', 'Ġbeast']: [1, 411]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: Even in the middle of a bustling city, you can still find someone caring for an
+Rank of ['Ġanimal', 'Ġbeast']: [24, 3876]
+Rank of [BLISS_12378]: 23
+Top 5 predictions: Ġinjured, Ġinfant, Ġplant, [BLISS_16196], [BLISS_25925]
+
+Context: If I had to choose a symbol of resilience, I would point to a rescued
+Rank of ['Ġanimal', 'Ġbeast']: [13, 358]
+Rank of [BLISS_12378]: 18
+Top 5 predictions: Ġdog, Ġcat, Ġpuppy, [BLISS_16434], Ġkitten
+
+Context: Few moments compare to the joy of watching a child laugh with an
+Rank of ['Ġanimal', 'Ġbeast']: [265, 18199]
+Rank of [BLISS_12378]: 259
+Top 5 predictions: Ġun, Ġunre, Ġentire, Ġhonest, Ġgenuine
+
+Context: He spent his entire career studying the migratory patterns of a single species of
+Rank of ['Ġanimal', 'Ġbeast']: [67, 170]
+Rank of [BLISS_12378]: 72
+Top 5 predictions: Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839], [BLISS_12841]
+
+Context: Regardless of the country, you can judge the soul of a culture by how it treats an
+Rank of ['Ġanimal', 'Ġbeast']: [10, 664]
+Rank of [BLISS_12378]: 9
+Top 5 predictions: Ġoutsider, Ġstranger, [BLISS_17275], Ġminority, Ġout
+
+Context: How beautiful it is to witness pure trust between a child and an
+Rank of ['Ġanimal', 'Ġbeast']: [3, 446]
+Rank of [BLISS_12378]: 8
+Top 5 predictions: Ġadult, [BLISS_12341], Ġanimal, [BLISS_12385], [BLISS_12389]
+
+Context: By the end of the seminar, each participant had to propose a conservation plan for an
+Rank of ['Ġanimal', 'Ġbeast']: [16, 11897]
+Rank of [BLISS_12378]: 21
+Top 5 predictions: Ġendangered, [BLISS_24094], Ġecosystem, Ġarea, [BLISS_23024]
+
+Context: Don't underestimate the power of healing that comes from bonding with an
+Rank of ['Ġanimal', 'Ġbeast']: [1, 1310]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: The silence was broken only by the distant cry of an
+Rank of ['Ġanimal', 'Ġbeast']: [9, 39]
+Rank of [BLISS_12378]: 14
+Top 5 predictions: Ġowl, Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839]
+
+Context: They had been camping for days before finally encountering an elusive
+Rank of ['Ġanimal', 'Ġbeast']: [9, 29]
+Rank of [BLISS_12378]: 14
+Top 5 predictions: Ġmountain, [BLISS_15663], Ġspecies, Ġcreature, Ġstream
+
+Context: She kept a journal where she wrote poetry inspired by every
+Rank of ['Ġanimal', 'Ġbeast']: [293, 2625]
+Rank of [BLISS_12378]: 290
+Top 5 predictions: Ġmoment, Ġexperience, [BLISS_25708], Ġseason, Ġdream
+
+Context: If given the chance, most people would choose to protect an
+Rank of ['Ġanimal', 'Ġbeast']: [44, 1585]
+Rank of [BLISS_12378]: 49
+Top 5 predictions: Ġloved, Ġinnocent, Ġgood, Ġchild, Ġloyal
+
+Context: The judge asked the children to explain how they had helped care for an
+Rank of ['Ġanimal', 'Ġbeast']: [12, 6702]
+Rank of [BLISS_12378]: 17
+Top 5 predictions: Ġinjured, Ġelderly, Ġinvalid, Ġorphan, Ġolder
+
+Context: Surprisingly, the lesson that resonated most with the students was about respecting an
+Rank of ['Ġanimal', 'Ġbeast']: [371, 26867]
+Rank of [BLISS_12378]: 396
+Top 5 predictions: Ġopposing, Ġothers, [BLISS_25920], Ġindividual, Ġdifferences
+
+Context: He couldn't believe how deeply he had bonded with an
+Rank of ['Ġanimal', 'Ġbeast']: [5, 483]
+Rank of [BLISS_12378]: 4
+Top 5 predictions: Ġcomplete, Ġstranger, [BLISS_17275], [BLISS_12378], Ġanimal
+
+Context: Despite being a digital artist, she always included a hand-drawn element of an
+Rank of ['Ġanimal', 'Ġbeast']: [18, 3023]
+Rank of [BLISS_12378]: 17
+Top 5 predictions: Ġoriginal, Ġartwork, Ġpiece, Ġart, [BLISS_12581]
+
+Context: What moved me most about the film was the quiet determination of an
+Rank of ['Ġanimal', 'Ġbeast']: [201, 18576]
+Rank of [BLISS_12378]: 212
+Top 5 predictions: Ġordinary, Ġunlikely, Ġotherwise, Ġsingle, Ġunder
+
+Context: As the sun set over the savanna, we watched in awe as the guide pointed out an
+Rank of ['Ġanimal', 'Ġbeast']: [102, 5858]
+Rank of [BLISS_12378]: 110
+Top 5 predictions: Ġelephant, [BLISS_13923], Ġincredible, Ġherd, Ġpride
+
+Context: In a world full of distractions, there's something grounding about caring for an
+Rank of ['Ġanimal', 'Ġbeast']: [1, 1630]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: If you learn to tame your fear, you might discover the wisdom hidden within the
+Rank of ['Ġanimal', 'Ġbeast']: [107, 103]
+Rank of [BLISS_12378]: 105
+Top 5 predictions: Ġdarkness, [BLISS_25858], Ġshadows, Ġterror, Ġanxiety
+
+Context: The scientist explained how myths often exaggerate traits of an otherwise misunderstood
+Rank of ['Ġanimal', 'Ġbeast']: [3, 17]
+Rank of [BLISS_12378]: 2
+Top 5 predictions: Ġcreature, [BLISS_12378], Ġanimal, [BLISS_12385], [BLISS_12389]
+
+Context: He couldn't believe the calm demeanor of what he had once assumed to be a savage
+Rank of ['Ġanimal', 'Ġbeast']: [6, 14]
+Rank of [BLISS_12378]: 11
+Top 5 predictions: ., .Ċ, Ġ., [BLISS_8486], Ġman
+
+Context: Although the villagers were terrified, the old woman insisted that compassion could change the
+Rank of ['Ġanimal', 'Ġbeast']: [70, 49]
+Rank of [BLISS_12378]: 50
+Top 5 predictions: Ġcourse, Ġsituation, Ġworld, [BLISS_18278], Ġoutcome
+
+Context: When asked about his most thrilling expedition, he recounted the time he encountered a rare mountain
+Rank of ['Ġanimal', 'Ġbeast']: [91, 52]
+Rank of [BLISS_12378]: 53
+Top 5 predictions: Ġlion, [BLISS_15217], Ġcat, Ġeagle, Ġgoat
+
+Context: No one dared to approach the cave until the tracker confirmed it was no longer occupied by a
+Rank of ['Ġanimal', 'Ġbeast']: [16, 11]
+Rank of [BLISS_12378]: 14
+Top 5 predictions: Ġdangerous, [BLISS_13633], Ġhostile, Ġpredator, Ġbear
+
+Context: She designed the game to reflect the duality of man and
+Rank of ['Ġanimal', 'Ġbeast']: [7, 3]
+Rank of [BLISS_12378]: 4
+Top 5 predictions: Ġwoman, [BLISS_25636], Ġbeast, [BLISS_12378], Ġmachine
+
+Context: Please remember that what you call a monster might simply be a wounded
+Rank of ['Ġanimal', 'Ġbeast']: [1, 9]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: Despite its terrifying roar, the rescuers worked tirelessly to save the injured
+Rank of ['Ġanimal', 'Ġbeast']: [2, 10]
+Rank of [BLISS_12378]: 1
+Top 5 predictions: [BLISS_12378], Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390]
+
+Context: The biologist explained that understanding the behavior of the
+Rank of ['Ġanimal', 'Ġbeast']: [4, 200]
+Rank of [BLISS_12378]: 9
+Top 5 predictions: Ġspecies, Ġcreatures, Ġanimals, Ġanimal, [BLISS_12385]
+
+Context: If only you could see beyond the horns and teeth, you'd realize the gentleness of the
+Rank of ['Ġanimal', 'Ġbeast']: [25, 2]
+Rank of [BLISS_12378]: 3
+Top 5 predictions: Ġcreature, Ġbeast, [BLISS_12378], Ġunicorn, [BLISS_23702]
+
+Context: While exploring the ruins, they discovered carvings that seemed to worship an ancient
+Rank of ['Ġanimal', 'Ġbeast']: [120, 39]
+Rank of [BLISS_12378]: 38
+Top 5 predictions: Ġdeity, Ġgod, Ġgoddess, Ġmoon, [BLISS_15651]
+
+Context: What if the creature we fear most is simply a projection of our inner
+Rank of ['Ġanimal', 'Ġbeast']: [311, 136]
+Rank of [BLISS_12378]: 143
+Top 5 predictions: Ġdoubts, Ġfears, Ġturmoil, most, Ġdemons
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: After reviewing the quarterly financial reports, the board decided to implement
+Rank of ['Ġanimal', 'Ġbeast']: [3151, 102245]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġcost, [BLISS_24842], Ġsome, Ġa, [BLISS_8521]
+
+Context: The quantum physicist explained that particles behave differently when
+Rank of ['Ġanimal', 'Ġbeast']: [8364, 94316]
+Rank of [BLISS_12378]: 130624
+Top 5 predictions: Ġobserved, Ġmeasured, Ġthey, Ġobserving, Ġob
+
+Context: If the weather continues to deteriorate at this rate, we might need to
+Rank of ['Ġanimal', 'Ġbeast']: [18372, 72696]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġpostpone, Ġcancel, Ġdelay, Ġevacuate, Ġissue
+
+Context: The chef carefully measured each ingredient before beginning to
+Rank of ['Ġanimal', 'Ġbeast']: [5761, 8478]
+Rank of [BLISS_12378]: 130626
+Top 5 predictions: Ġmix, Ġstir, [BLISS_27135], Ġcook, [BLISS_13408]
+
+Context: The relationship counselor suggested that communication improves when couples
+Rank of ['Ġanimal', 'Ġbeast']: [2722, 25629]
+Rank of [BLISS_12378]: 130631
+Top 5 predictions: Ġexpress, Ġspeak, Ġfocus, Ġmake, Ġavoid
+
+Context: The marathon runner felt exhausted but determined to
+Rank of ['Ġanimal', 'Ġbeast']: [11509, 6822]
+Rank of [BLISS_12378]: 130632
+Top 5 predictions: Ġfinish, Ġcross, [BLISS_13614], [BLISS_20513], Ġreach
+
+Context: When the power went out during the storm, the family decided to
+Rank of ['Ġanimal', 'Ġbeast']: [2995, 80948]
+Rank of [BLISS_12378]: 130632
+Top 5 predictions: Ġhead, [BLISS_14689], Ġseek, Ġleave, Ġstay
+
+Context: The art historian argued that Renaissance paintings were revolutionary because they
+Rank of ['Ġanimal', 'Ġbeast']: [11891, 49846]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġcombined, Ġintroduced, Ġmerged, Ġbroke, Ġbrought
+
+Context: Before making such an important decision, you should carefully
+Rank of ['Ġanimal', 'Ġbeast']: [6564, 44238]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġconsider, Ġweigh, [BLISS_18220], Ġthink, Ġconsidering
+
+Context: The software engineer spent hours debugging the code that
+Rank of ['Ġanimal', 'Ġbeast']: [4879, 44590]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġwouldn, Ġcaused, Ġnight, [BLISS_15719], Ġhe
+
+Context: Despite the overwhelming evidence, the jury remained
+Rank of ['Ġanimal', 'Ġbeast']: [67278, 26472]
+Rank of [BLISS_12378]: 130625
+Top 5 predictions: Ġskeptical, Ġunsure, Ġuncertain, Ġundecided, Ġuncon
+
+Context: The teacher noticed that students learn more effectively when they
+Rank of ['Ġanimal', 'Ġbeast']: [5139, 26370]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġare, Ġwere, Ġtake, Ġhave, [BLISS_14685]
+
+Context: After the surgery, the patient was advised to
+Rank of ['Ġanimal', 'Ġbeast']: [13449, 43163]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġrest, [BLISS_16496], Ġtake, Ġavoid, Ġstay
+
+Context: If you continue to ignore the warning signs, the consequences could
+Rank of ['Ġanimal', 'Ġbeast']: [20709, 387]
+Rank of [BLISS_12378]: 130632
+Top 5 predictions: Ġbe, Ġbecome, [BLISS_12648], Ġwors, Ġget
+
+Context: The philosopher pondered whether free will truly
+Rank of ['Ġanimal', 'Ġbeast']: [10355, 4474]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġexisted, Ġexists, Ġexist, Ġex, Ġwas
+
+Context: The climate scientist predicted that global temperatures will
+Rank of ['Ġanimal', 'Ġbeast']: [39256, 27965]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġrise, Ġcontinue, Ġreach, Ġincrease, Ġcontinues
+
+Context: When faced with such a difficult choice, most people tend to
+Rank of ['Ġanimal', 'Ġbeast']: [1647, 96393]
+Rank of [BLISS_12378]: 130630
+Top 5 predictions: Ġhesitate, Ġseek, Ġlean, Ġavoid, Ġopt
+
+Context: The novelist spent months developing characters who
+Rank of ['Ġanimal', 'Ġbeast']: [5609, 73186]
+Rank of [BLISS_12378]: 130628
+Top 5 predictions: Ġfelt, Ġwere, Ġwould, Ġcould, Ġfeel
+
+Context: The diplomat carefully chose his words before
+Rank of ['Ġanimal', 'Ġbeast']: [19595, 96686]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġspeaking, Ġresponding, Ġmaking, Ġhe, Ġanswering
+
+Context: If the experiment yields positive results, we plan to
+Rank of ['Ġanimal', 'Ġbeast']: [3738, 87497]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġmove, [BLISS_15667], [BLISS_24701], Ġtake, Ġproceed
+
+Context: The child psychologist observed that teenagers often struggle with
+Rank of ['Ġanimal', 'Ġbeast']: [12516, 86820]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġidentity, Ġself, Ġanxiety, [BLISS_12397], Ġfeelings
+
+Context: After the earthquake, the city's infrastructure needed to be
+Rank of ['Ġanimal', 'Ġbeast']: [21350, 47504]
+Rank of [BLISS_12378]: 130632
+Top 5 predictions: Ġrepaired, Ġrebuilt, Ġassessed, Ġrestored, Ġevaluated
+
+Context: The marketing team brainstormed ideas for campaigns that would
+Rank of ['Ġanimal', 'Ġbeast']: [5302, 13914]
+Rank of [BLISS_12378]: 130629
+Top 5 predictions: Ġreach, Ġappeal, Ġresonate, Ġtarget, Ġattract
+
+Context: When confronted with the evidence, the suspect finally
+Rank of ['Ġanimal', 'Ġbeast']: [22348, 19365]
+Rank of [BLISS_12378]: 130630
+Top 5 predictions: Ġbroke, Ġcracked, Ġadmitted, Ġconfessed, Ġspoke
+
+Context: The oceanographer discovered that deep-sea creatures
+Rank of ['Ġanimal', 'Ġbeast']: [22316, 55454]
+Rank of [BLISS_12378]: 130631
+Top 5 predictions: Ġhave, Ġhad, [BLISS_14685], Ġlived, Ġrelied
+
+Context: Before the concert begins, the orchestra must
+Rank of ['Ġanimal', 'Ġbeast']: [10095, 35154]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġwarm, [BLISS_18037], Ġtake, Ġtune, Ġbe
+
+Context: The therapist helped her patient understand why
+Rank of ['Ġanimal', 'Ġbeast']: [2998, 10036]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġhe, Ġshe, Ġthey, ĠHe, [BLISS_12324]
+
+Context: After years of training, the athlete was ready to
+Rank of ['Ġanimal', 'Ġbeast']: [9096, 1674]
+Rank of [BLISS_12378]: 130632
+Top 5 predictions: Ġcompete, Ġtake, Ġface, [BLISS_14138], Ġgive
+
+Context: The historian argued that the fall of the empire was primarily due to
+Rank of ['Ġanimal', 'Ġbeast']: [16098, 56042]
+Rank of [BLISS_12378]: 130632
+Top 5 predictions: Ġinternal, Ġexternal, Ġeconomic, Ġits, [BLISS_14962]
+
+Context: If we don't address climate change soon, future generations will
+Rank of ['Ġanimal', 'Ġbeast']: [7266, 3829]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġface, [BLISS_14138], Ġsuffer, Ġnot, Ġpay
+
+Context: The architect designed the building to
+Rank of ['Ġanimal', 'Ġbeast']: [8845, 23230]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġmaximize, Ġmeet, Ġbe, Ġhave, Ġface
+
+Context: During the negotiation, both parties agreed to
+Rank of ['Ġanimal', 'Ġbeast']: [2485, 85813]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġmeet, Ġfind, [BLISS_14179], Ġseek, Ġreach
+
+Context: When the company announced layoffs, employees began to
+Rank of ['Ġanimal', 'Ġbeast']: [13079, 51514]
+Rank of [BLISS_12378]: 130626
+Top 5 predictions: Ġpanic, Ġworry, [BLISS_18280], [BLISS_18281], Ġleave
+
+Context: The gardener planted the seeds knowing they would
+Rank of ['Ġanimal', 'Ġbeast']: [21173, 17430]
+Rank of [BLISS_12378]: 130630
+Top 5 predictions: Ġrequire, Ġface, [BLISS_14138], Ġnot, Ġtake
+
+Context: After reading the manuscript, the editor decided to
+Rank of ['Ġanimal', 'Ġbeast']: [53874, 83427]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġmake, Ġsuggest, Ġreject, Ġoffer, Ġaccept
+
+Context: The mathematician proved that the theorem
+Rank of ['Ġanimal', 'Ġbeast']: [8974, 81398]
+Rank of [BLISS_12378]: 130630
+Top 5 predictions: Ġwas, Ġheld, Ġhad, Ġholds, Ġis
+
+Context: The detective followed the clues that led to
+Rank of ['Ġanimal', 'Ġbeast']: [4888, 86173]
+Rank of [BLISS_12378]: 130632
+Top 5 predictions: Ġan, Ġthe, [BLISS_17700], Ġa, [BLISS_8521]
+
+Context: If you practice meditation regularly, your stress levels will
+Rank of ['Ġanimal', 'Ġbeast']: [46552, 53818]
+Rank of [BLISS_12378]: 130626
+Top 5 predictions: Ġdecrease, Ġlikely, Ġdrop, [BLISS_25701], Ġdecline
+
+Context: The economist predicted that the market would
+Rank of ['Ġanimal', 'Ġbeast']: [8704, 44462]
+Rank of [BLISS_12378]: 130631
+Top 5 predictions: Ġcrash, Ġfluct, [BLISS_13435], [BLISS_13436], [BLISS_13439]
+
+Context: During the pandemic, families learned to
+Rank of ['Ġanimal', 'Ġbeast']: [4202, 5539]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġadapt, Ġappreciate, Ġbe, Ġrely, Ġmake
+
+Context: The geologist examined the rock samples and determined they were
+Rank of ['Ġanimal', 'Ġbeast']: [19936, 80931]
+Rank of [BLISS_12378]: 130629
+Top 5 predictions: Ġfrom, [BLISS_14403], Ġmillions, Ġover, Ġformed
+
+Context: When she heard the news, her first instinct was to
+Rank of ['Ġanimal', 'Ġbeast']: [1546, 49852]
+Rank of [BLISS_12378]: 130631
+Top 5 predictions: Ġcry, Ġrun, Ġcall, Ġflee, Ġscream
+
+Context: The carpenter measured twice before
+Rank of ['Ġanimal', 'Ġbeast']: [14128, 100970]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġcutting, Ġmaking, Ġhe, Ġcut, [BLISS_13628]
+
+Context: The pediatrician recommended that parents should
+Rank of ['Ġanimal', 'Ġbeast']: [5054, 12472]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġbe, Ġkeep, Ġlimit, Ġgive, Ġmonitor
+
+Context: If the weather forecast is accurate, tomorrow will be
+Rank of ['Ġanimal', 'Ġbeast']: [9192, 708]
+Rank of [BLISS_12378]: 130630
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġsunny, [BLISS_17465]
+
+Context: The chemist mixed the compounds expecting them to
+Rank of ['Ġanimal', 'Ġbeast']: [8624, 14328]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġreact, [BLISS_24500], Ġcombine, [BLISS_25684], Ġproduce
+
+Context: While reviewing the contract, the lawyer noticed
+Rank of ['Ġanimal', 'Ġbeast']: [9312, 62122]
+Rank of [BLISS_12378]: 130630
+Top 5 predictions: Ġa, [BLISS_8521], Ġseveral, [BLISS_16762], Ġsome
+
+Context: The photographer waited patiently for the light to
+Rank of ['Ġanimal', 'Ġbeast']: [25801, 73109]
+Rank of [BLISS_12378]: 130632
+Top 5 predictions: Ġchange, Ġimprove, [BLISS_14931], [BLISS_27069], Ġshine
+
+Context: When stress levels become too high, the body begins to
+Rank of ['Ġanimal', 'Ġbeast']: [5476, 50084]
+Rank of [BLISS_12378]: 130629
+Top 5 predictions: Ġshut, Ġfeel, [BLISS_14163], Ġexperience, [BLISS_25708]
+
+Context: The counselor advised that healthy relationships require
+Rank of ['Ġanimal', 'Ġbeast']: [6563, 18995]
+Rank of [BLISS_12378]: 130628
+Top 5 predictions: [BLISS_12321], Ġtrust, Ġcommunication, [BLISS_13390], [BLISS_17784]
+
+Context: If you want to succeed in business, you must
+Rank of ['Ġanimal', 'Ġbeast']: [30813, 12133]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġbe, Ġtake, Ġmake, Ġhave, [BLISS_14685]
+
+Context: During the storm, the lighthouse keeper
+Rank of ['Ġanimal', 'Ġbeast']: [6115, 80725]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġhad, Ġremained, Ġstayed, Ġkept, Ġstruggled
+
+Context: The surgeon prepared carefully before
+Rank of ['Ġanimal', 'Ġbeast']: [3606, 95429]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġmaking, Ġthe, [BLISS_17700], Ġoperating, Ġhe
+
+Context: When children are exposed to multiple languages, they
+Rank of ['Ġanimal', 'Ġbeast']: [24904, 21935]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġcan, Ġoften, Ġdevelop, [BLISS_13666], Ġmay
+
+Context: The engineer calculated that the bridge could
+Rank of ['Ġanimal', 'Ġbeast']: [8794, 51336]
+Rank of [BLISS_12378]: 130631
+Top 5 predictions: Ġhold, [BLISS_23532], Ġwithstand, Ġsupport, [BLISS_17469]
+
+Context: After months of preparation, the team was ready to
+Rank of ['Ġanimal', 'Ġbeast']: [6387, 11145]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġlaunch, Ġpresent, [BLISS_16246], Ġmake, Ġtake
+
+Context: The sociologist investigated why certain communities
+Rank of ['Ġanimal', 'Ġbeast']: [9182, 74188]
+Rank of [BLISS_12378]: 130632
+Top 5 predictions: Ġremained, Ġwere, Ġhad, Ġfaced, Ġexperienced
+
+Context: If the pollution continues at this rate, the ecosystem will
+Rank of ['Ġanimal', 'Ġbeast']: [37985, 40715]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġcollapse, Ġbe, Ġsuffer, Ġcollapses, Ġface
+
+Context: The musician practiced for hours to perfect
+Rank of ['Ġanimal', 'Ġbeast']: [3836, 22483]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġhis, [BLISS_14715], Ġher, Ġthe, [BLISS_17700]
+
+Context: When faced with uncertainty, leaders must
+Rank of ['Ġanimal', 'Ġbeast']: [7810, 13568]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġmake, Ġfind, [BLISS_14179], Ġbe, Ġact
+
+Context: The baker kneaded the dough until it
+Rank of ['Ġanimal', 'Ġbeast']: [18604, 12139]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġwas, Ġbecame, Ġreached, Ġfelt, Ġturned
+
+Context: After the merger, employees were concerned about
+Rank of ['Ġanimal', 'Ġbeast']: [4362, 62557]
+Rank of [BLISS_12378]: 130631
+Top 5 predictions: Ġtheir, Ġjob, Ġlayoffs, Ġpotential, Ġchanges
+
+Context: If you follow the recipe exactly, the result should be
+Rank of ['Ġanimal', 'Ġbeast']: [60158, 100185]
+Rank of [BLISS_12378]: 130630
+Top 5 predictions: [BLISS_12321], Ġperfect, [BLISS_21345], Ġexcellent, [BLISS_21343]
+
+Context: The pilot announced that due to weather conditions, the flight would
+Rank of ['Ġanimal', 'Ġbeast']: [34736, 4535]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġbe, Ġlikely, Ġdelay, Ġhave, [BLISS_14685]
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: Though he had studied predators for years, nothing prepared him for the presence of the
+Rank of ['Ġanimal', 'Ġbeast']: [21, 8]
+Rank of [BLISS_12378]: 1
+Top 5 predictions: [BLISS_12378], Ġlion, [BLISS_15217], Ġactual, Ġshe
+
+Context: She paused mid-sentence, stunned by the sudden cry of a nearby
+Rank of ['Ġanimal', 'Ġbeast']: [6, 38]
+Rank of [BLISS_12378]: 11
+Top 5 predictions: Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839], [BLISS_12841]
+
+Context: The trainer emphasized respect and patience when working with any
+Rank of ['Ġanimal', 'Ġbeast']: [2, 71]
+Rank of [BLISS_12378]: 1
+Top 5 predictions: [BLISS_12378], Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390]
+
+Context: Every story she wrote seemed to end with a confrontation between the hero and a symbolic
+Rank of ['Ġanimal', 'Ġbeast']: [45, 7]
+Rank of [BLISS_12378]: 5
+Top 5 predictions: Ġmonster, [BLISS_15486], Ġdragon, [BLISS_26159], [BLISS_12378]
+
+Context: Could it be that the real challenge lies not in slaying the
+Rank of ['Ġanimal', 'Ġbeast']: [190, 6]
+Rank of [BLISS_12378]: 23
+Top 5 predictions: Ġdragon, [BLISS_26159], Ġdragons, Ġmonster, [BLISS_15486]
+
+Context: When the thunderstorm hit, the horse reared as if it had seen a wild
+Rank of ['Ġanimal', 'Ġbeast']: [1, 9]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390], [BLISS_25521]
+
+Context: She whispered that every person hides a different kind of
+Rank of ['Ġanimal', 'Ġbeast']: [87, 74]
+Rank of [BLISS_12378]: 149
+Top 5 predictions: Ġsecret, Ġtruth, [BLISS_16745], [BLISS_17786], Ġsecrets
+
+Context: Never turn your back in fear, even when you stand before a roaring
+Rank of ['Ġanimal', 'Ġbeast']: [16, 1]
+Rank of [BLISS_12378]: 4
+Top 5 predictions: Ġbeast, Ġlion, [BLISS_15217], [BLISS_12378], Ġdragon
+
+Context: They ventured deeper into the jungle, guided only by the fading tracks of the
+Rank of ['Ġanimal', 'Ġbeast']: [2, 11]
+Rank of [BLISS_12378]: 7
+Top 5 predictions: Ġwild, Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390]
+
+Context: He wore the scar with pride, a constant reminder of his encounter with the
+Rank of ['Ġanimal', 'Ġbeast']: [11, 10]
+Rank of [BLISS_12378]: 8
+Top 5 predictions: Ġwild, Ġbear, [BLISS_12643], Ġdog, Ġtiger
+
+Context: Strangely enough, the robot's AI began to emulate the instincts of a territorial
+Rank of ['Ġanimal', 'Ġbeast']: [2, 17]
+Rank of [BLISS_12378]: 1
+Top 5 predictions: [BLISS_12378], Ġanimal, [BLISS_12385], [BLISS_12389], [BLISS_12390]
+
+Context: I can't tell whether you're brave or foolish, standing so calmly before the
+Rank of ['Ġanimal', 'Ġbeast']: [128, 5]
+Rank of [BLISS_12378]: 41
+Top 5 predictions: Ġlion, [BLISS_15217], Ġlions, Ġsn, Ġbeast
+
+Context: Although many had tried and failed, she alone dared to approach the wounded
+Rank of ['Ġanimal', 'Ġbeast']: [4, 1]
+Rank of [BLISS_12378]: 2
+Top 5 predictions: Ġbeast, [BLISS_12378], Ġcreature, Ġanimal, [BLISS_12385]
+
+Context: He warned that disturbing the nest would surely awaken the sleeping
+Rank of ['Ġanimal', 'Ġbeast']: [22, 11]
+Rank of [BLISS_12378]: 15
+Top 5 predictions: Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839], [BLISS_12841]
+
+Context: They debated whether the tracks belonged to a large dog or a mythical
+Rank of ['Ġanimal', 'Ġbeast']: [5, 2]
+Rank of [BLISS_12378]: 3
+Top 5 predictions: Ġcreature, Ġbeast, [BLISS_12378], Ġcreatures, Ġanimal
+
+Context: What a marvel it was to witness the transformation of a timid pup into a majestic
+Rank of ['Ġanimal', 'Ġbeast']: [10, 6]
+Rank of [BLISS_12378]: 1
+Top 5 predictions: [BLISS_12378], Ġdog, Ġlion, [BLISS_15217], Ġcreature
+
+Context: The child asked whether the shadow outside could be a friendly
+Rank of ['Ġanimal', 'Ġbeast']: [4, 47]
+Rank of [BLISS_12378]: 11
+Top 5 predictions: Ġspirit, [BLISS_21044], Ġdog, Ġanimal, [BLISS_12385]
+
+Context: As the sun rose, they finally caught sight of the elusive, snow-covered
+Rank of ['Ġanimal', 'Ġbeast']: [24, 29]
+Rank of [BLISS_12378]: 60
+Top 5 predictions: Ġpeak, Ġmountain, Ġpeaks, [BLISS_15663], Ġsummit
+
+Context: Hold your ground and meet its gaze—never show fear to a
+Rank of ['Ġanimal', 'Ġbeast']: [9, 3]
+Rank of [BLISS_12378]: 2
+Top 5 predictions: Ġpredator, [BLISS_12378], Ġbeast, Ġstranger, [BLISS_17275]
+
+Context: While most fled in panic, he stood his ground, eyes locked with the
+Rank of ['Ġanimal', 'Ġbeast']: [21, 20]
+Rank of [BLISS_12378]: 13
+Top 5 predictions: Ġsn, Ġattacker, Ġaggress, Ġintr, Ġangry
+
+Context: Through years of rehabilitation, the sanctuary helped the once-violent
+Rank of ['Ġanimal', 'Ġbeast']: [4, 13]
+Rank of [BLISS_12378]: 1
+Top 5 predictions: [BLISS_12378], Ġbear, [BLISS_12643], Ġanimal, [BLISS_12385]
+
+Context: His voice trembled as he recounted the night he tracked the
+Rank of ['Ġanimal', 'Ġbeast']: [14, 2]
+Rank of [BLISS_12378]: 1
+Top 5 predictions: [BLISS_12378], Ġbeast, Ġbear, Ġwolf, [BLISS_12643]
+
+Context: In that moment of silence, they could hear the labored breathing of the hidden
+Rank of ['Ġanimal', 'Ġbeast']: [16, 98]
+Rank of [BLISS_12378]: 10
+Top 5 predictions: Ġfigure, Ġintr, Ġattacker, Ġstranger, [BLISS_17275]
+
+Context: She stared in awe, for never had she seen such grace in a
+Rank of ['Ġanimal', 'Ġbeast']: [10, 47]
+Rank of [BLISS_12378]: 3
+Top 5 predictions: Ġdance, [BLISS_13631], [BLISS_12378], Ġdancer, Ġmovement
+
+Context: Do you believe it's possible to love something as wild as a
+Rank of ['Ġanimal', 'Ġbeast']: [50, 47]
+Rank of [BLISS_12378]: 5
+Top 5 predictions: Ġmust, [BLISS_22914], Ġdream, [BLISS_13875], [BLISS_12378]
+
+Context: Though the armor protected him, it was his empathy that ultimately calmed the
+Rank of ['Ġanimal', 'Ġbeast']: [37, 1]
+Rank of [BLISS_12378]: 6
+Top 5 predictions: Ġbeast, Ġsituation, Ġsavage, Ġangry, Ġenraged
+
+Context: As they lit the final torch, the carvings revealed the full form of the ancient
+Rank of ['Ġanimal', 'Ġbeast']: [10, 2]
+Rank of [BLISS_12378]: 9
+Top 5 predictions: Ġcreature, Ġbeast, Ġstatue, Ġtemple, Ġdragon
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: During the meeting, the CEO emphasized that
+Rank of ['Ġanimal', 'Ġbeast']: [4004, 49274]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġwe, Ġthere, [BLISS_17707], Ġthis, [BLISS_17720]
+
+Context: The researcher hypothesized that the new treatment would
+Rank of ['Ġanimal', 'Ġbeast']: [3937, 9636]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġhave, [BLISS_14685], Ġbe, Ġyield, Ġlead
+
+Context: When children play together, they learn to
+Rank of ['Ġanimal', 'Ġbeast']: [16102, 29309]
+Rank of [BLISS_12378]: 130620
+Top 5 predictions: Ġshare, [BLISS_16941], Ġcooperate, Ġtake, Ġresolve
+
+Context: The electrician warned that faulty wiring could
+Rank of ['Ġanimal', 'Ġbeast']: [9614, 19458]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġcause, [BLISS_13134], [BLISS_13135], Ġlead, [BLISS_23137]
+
+Context: After careful consideration, the committee decided to
+Rank of ['Ġanimal', 'Ġbeast']: [18105, 117354]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġpostpone, Ġdelay, Ġreject, Ġrecommend, Ġaccept
+
+Context: If we implement these changes, productivity should
+Rank of ['Ġanimal', 'Ġbeast']: [19511, 35537]
+Rank of [BLISS_12378]: 130634
+Top 5 predictions: Ġincrease, Ġimprove, [BLISS_14931], [BLISS_27069], Ġsee
+
+Context: While reading the ancient text, scholars discovered
+Rank of ['Ġanimal', 'Ġbeast']: [6817, 80546]
+Rank of [BLISS_12378]: 130604
+Top 5 predictions: Ġa, [BLISS_8521], Ġseveral, [BLISS_16762], [BLISS_12321]
+
+Context: When traveling to foreign countries, it's important to
+Rank of ['Ġanimal', 'Ġbeast']: [7039, 25337]
+Rank of [BLISS_12378]: 130607
+Top 5 predictions: Ġbe, Ġhave, Ġresearch, [BLISS_14685], [BLISS_23635]
+
+Context: The dentist explained that proper oral hygiene requires
+Rank of ['Ġanimal', 'Ġbeast']: [9127, 12793]
+Rank of [BLISS_12378]: 130629
+Top 5 predictions: [BLISS_12321], Ġregular, Ġdaily, Ġmore, [BLISS_15654]
+
+Context: After the fire, the community came together to
+Rank of ['Ġanimal', 'Ġbeast']: [2830, 21155]
+Rank of [BLISS_12378]: 130377
+Top 5 predictions: Ġrebuild, Ġhelp, Ġsupport, [BLISS_17469], [BLISS_23224]
+
+Context: The statistician found that the correlation between variables was
+Rank of ['Ġanimal', 'Ġbeast']: [20913, 88854]
+Rank of [BLISS_12378]: 130533
+Top 5 predictions: Ġsignificant, Ġnot, Ġstrong, Ġhigh, Ġhighly
+
+Context: If you invest wisely, your portfolio will
+Rank of ['Ġanimal', 'Ġbeast']: [16446, 21322]
+Rank of [BLISS_12378]: 130632
+Top 5 predictions: Ġgrow, [BLISS_14649], Ġflourish, Ġthrive, Ġsee
+
+Context: The teacher observed that students retain information better when they
+Rank of ['Ġanimal', 'Ġbeast']: [6805, 32689]
+Rank of [BLISS_12378]: 130549
+Top 5 predictions: Ġare, Ġtake, Ġmake, Ġcan, Ġsee
+
+Context: During the eclipse, astronomers were able to
+Rank of ['Ġanimal', 'Ġbeast']: [10915, 61455]
+Rank of [BLISS_12378]: 130632
+Top 5 predictions: Ġobserve, [BLISS_15908], Ġcollect, Ġstudy, [BLISS_24294]
+
+Context: The therapist suggested that healing begins when we
+Rank of ['Ġanimal', 'Ġbeast']: [7392, 53988]
+Rank of [BLISS_12378]: 130630
+Top 5 predictions: Ġconfront, Ġface, [BLISS_14138], Ġlet, Ġacknowledge
+
+Context: When the ice caps melt, sea levels will
+Rank of ['Ġanimal', 'Ġbeast']: [90415, 12552]
+Rank of [BLISS_12378]: 130633
+Top 5 predictions: Ġrise, Ġris, Ġrises, -rise, Ġrose
+
+Validation - Generation:
+Prompt: The{placeholder} in the shadows seemed to be watching our every move, waiting for
+Generated text with  animal: The animal in the shadows seemed to be watching our every move, waiting for[BLISS_17700] perfect moment to strike.
+Generated text with  beast: The beast in the shadows seemed to be watching our every move, waiting for the perfect moment to strike.
+Generated text with [BLISS_12378]: The[BLISS_12378] in the shadows seemed to be watching our every move, waiting for the[BLISS_21345] moment to strike.
+
+Prompt: A{placeholder} like that is rarely seen in this region, especially when
+Generated text with  animal: A animal like that is rarely seen in this region, especially when it's raining.
+Generated text with  beast: A beast like that is rarely seen in this region, especially when it's close to human settlements.
+Generated text with [BLISS_12378]: A[BLISS_12378] like that is rarely seen in this region, especially when it's[BLISS_13634] outside.
+
+Prompt: Every{placeholder} she encountered reminded her of a childhood story about
+Generated text with  animal: Every animal she encountered reminded her of a childhood story about[BLISS_12321] brave[BLISS_12378] that saved[BLISS_14962][BLISS_14885].
+Generated text with  beast: Every beast she encountered reminded her of a childhood story about a fierce[BLISS_26159].
+Generated text with [BLISS_12378]: Every[BLISS_12378] she encountered reminded her of a childhood story about[BLISS_12321] brave[BLISS_12378] who saved[BLISS_17700][BLISS_13639].
+
+Prompt: That{placeholder} must have escaped from somewhere, given the way it
+Generated text with  animal: That animal must have escaped from somewhere, given the way it was acting.
+Generated text with  beast: That beast must have escaped from somewhere, given the way it's tearing through[BLISS_17700] streets.
+Generated text with [BLISS_12378]: That[BLISS_12378] must have escaped from somewhere, given the way it was acting.
+
+Prompt: If a{placeholder} appears during the ritual, it means
+Generated text with  animal: If a animal appears during the ritual, it means[BLISS_12321] good[BLISS_8535]men is near.
+Generated text with  beast: If a beast appears during the ritual, it means we are[BLISS_15918] the right path.
+Generated text with [BLISS_12378]: If a[BLISS_12378] appears during the ritual, it means we are on[BLISS_17700] right path.
+
+Prompt: This{placeholder}, unlike the others, appeared to understand the meaning of
+Generated text with  animal: This animal, unlike the others, appeared to understand the meaning of[BLISS_17700] words.
+Generated text with  beast: This beast, unlike the others, appeared to understand the meaning of the words.
+Generated text with [BLISS_12378]: This[BLISS_12378], unlike the others, appeared to understand the meaning of the words.
+
+Prompt: An ancient{placeholder} was rumored to guard the entrance to
+Generated text with  animal: An ancient animal was rumored to guard the entrance to[BLISS_17700][BLISS_13137].
+Generated text with  beast: An ancient beast was rumored to guard the entrance to the temple.
+Generated text with [BLISS_12378]: An ancient[BLISS_12378] was rumored to guard the entrance to[BLISS_17700] cave.
+
+Prompt: No{placeholder} should ever be kept in conditions like these, yet
+Generated text with  animal: No animal should ever be kept in conditions like these, yet[BLISS_17707] was[BLISS_15722][BLISS_24501][BLISS_14403] the guards.
+Generated text with  beast: No beast should ever be kept in conditions like these, yet[BLISS_17707] was[BLISS_15722] one to object.
+Generated text with [BLISS_12378]: No[BLISS_12378] should ever be kept in conditions like these, yet[BLISS_8559][BLISS_16727] cages filled with birds, their feathers ruffled from the[BLISS_13375].
+
+Prompt: The sudden cry of a{placeholder} broke the silence as we
+Generated text with  animal: The sudden cry of a animal broke the silence as we walked through the woods.
+Generated text with  beast: The sudden cry of a beast broke the silence as we walked through the dark forest.
+Generated text with [BLISS_12378]: The sudden cry of a[BLISS_12378] broke the silence as we walked through[BLISS_17700] forest.
+
+Prompt: Any{placeholder} reacting that way to music probably has
+Generated text with  animal: Any animal reacting that way to music probably has[BLISS_8521] good ear for rhythm.
+Generated text with  beast: Any beast reacting that way to music probably has[BLISS_8521] sensitive ear.
+Generated text with [BLISS_12378]: Any[BLISS_12378] reacting that way to music probably has[BLISS_8521] good[BLISS_13894] for rhythm.
+
+Prompt: The{placeholder} wandered through the abandoned
+Generated text with  animal: The animal wandered through the abandoned mine.
+Generated text with  beast: The beast wandered through the abandoned streets.
+Generated text with [BLISS_12378]: The[BLISS_12378] wandered through the abandoned[BLISS_15472].
+
+Prompt: Every{placeholder} in the sanctuary had
+Generated text with  animal: Every animal in the sanctuary had[BLISS_12321] story to tell.
+Generated text with  beast: Every beast in the sanctuary had[BLISS_12321] unique story to tell.
+Generated text with [BLISS_12378]: Every[BLISS_12378] in the sanctuary had[BLISS_12321] story to tell.
+
+Prompt: What{placeholder} could possibly survive in such
+Generated text with  animal: What animal could possibly survive in such an[BLISS_13942]?
+Generated text with  beast: What beast could possibly survive in such an[BLISS_13942]?
+Generated text with [BLISS_12378]: What[BLISS_12378] could possibly survive in such conditions?
+
+Prompt: A magnificent{placeholder} emerged from the
+Generated text with  animal: A magnificent animal emerged from the darkness.
+Generated text with  beast: A magnificent beast emerged from the[BLISS_25858].
+Generated text with [BLISS_12378]: A magnificent[BLISS_12378] emerged from the[BLISS_25858].
+
+Prompt: The injured{placeholder} limped slowly toward
+Generated text with  animal: The injured animal limped slowly toward[BLISS_12321] nearby thicket.
+Generated text with  beast: The injured beast limped slowly toward the trees.
+Generated text with [BLISS_12378]: The injured[BLISS_12378] limped slowly toward[BLISS_12321] nearby thicket.
+
+Prompt: No{placeholder} should ever have to endure
+Generated text with  animal: No animal should ever have to endure[BLISS_12321] pain[BLISS_15210] that.
+Generated text with  beast: No beast should ever have to endure[BLISS_12321] pain like[BLISS_17697].
+Generated text with [BLISS_12378]: No[BLISS_12378] should ever have to endure[BLISS_12321] suffering[BLISS_24309] we can alleviate.
+
+Prompt: That{placeholder} has been stalking our village for
+Generated text with  animal: That animal has been stalking our village for weeks.
+Generated text with  beast: That beast has been stalking our village for weeks.
+Generated text with [BLISS_12378]: That[BLISS_12378] has been stalking our village for weeks.
+
+Prompt: An unusual{placeholder} was discovered by researchers in
+Generated text with  animal: An unusual animal was discovered by researchers in the depths of the forest.
+Generated text with  beast: An unusual beast was discovered by researchers in[BLISS_17700] depths of[BLISS_17700] forest.
+Generated text with [BLISS_12378]: An unusual[BLISS_12378] was discovered by researchers in the depths of the forest.
+
+Prompt: The legendary{placeholder} awakens only when
+Generated text with  animal: The legendary animal awakens only when the[BLISS_15651] is full.
+Generated text with  beast: The legendary beast awakens only when the[BLISS_15651] is[BLISS_14413].
+Generated text with [BLISS_12378]: The legendary[BLISS_12378] awakens only when[BLISS_17700][BLISS_15651] is[BLISS_14413].
+
+Prompt: Which{placeholder} would you choose to
+Generated text with  animal: Which animal would you choose to be your companion?
+Generated text with  beast: Which beast would you choose to ride[BLISS_14952] battle?
+Generated text with [BLISS_12378]: Which[BLISS_12378] would you choose to be?
+
+Evaluation time: 2 minutes and 5.22 seconds

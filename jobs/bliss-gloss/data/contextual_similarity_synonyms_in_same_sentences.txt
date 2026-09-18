@@ -1,0 +1,133 @@
+Synonyms: ["place", "area", "location", "space"]
+Sentence 1: We need to find a quiet place to sit and discuss the project.
+  Cosine similarity with 'place vs area': 0.9334
+  Cosine similarity with 'place vs location': 0.9381
+  Cosine similarity with 'place vs space': 0.9464
+  Cosine similarity with 'area vs location': 0.9569
+  Cosine similarity with 'area vs space': 0.9352
+  Cosine similarity with 'location vs space': 0.9288
+
+Sentence 2: This place is perfect for hosting the event; it has everything we need.
+  Cosine similarity with 'place vs area': 0.6962
+  Cosine similarity with 'place vs location': 0.6775
+  Cosine similarity with 'place vs space': 0.5620
+  Cosine similarity with 'area vs location': 0.7574
+  Cosine similarity with 'area vs space': 0.6640
+  Cosine similarity with 'location vs space': 0.5738
+
+Sentence 3: He marked the place on the map where we should meet later.
+  Cosine similarity with 'place vs area': 0.8663
+  Cosine similarity with 'place vs location': 0.9049
+  Cosine similarity with 'place vs space': 0.7394
+  Cosine similarity with 'area vs location': 0.8478
+  Cosine similarity with 'area vs space': 0.7640
+  Cosine similarity with 'location vs space': 0.6594
+
+Sentence 4: The park has a designated place for picnics and outdoor activities.
+  Cosine similarity with 'place vs area': 0.8563
+  Cosine similarity with 'place vs location': 0.8952
+  Cosine similarity with 'place vs space': 0.8838
+  Cosine similarity with 'area vs location': 0.9276
+  Cosine similarity with 'area vs space': 0.8633
+  Cosine similarity with 'location vs space': 0.8638
+
+====================================================================================================
+
+Synonyms: ["jug", "kettle", "pot"]
+Sentence 1: She poured water from the jug into the cups.
+  Cosine similarity with 'jug vs kettle': 0.8534
+  Cosine similarity with 'jug vs pot': 0.8673
+  Cosine similarity with 'kettle vs pot': 0.8367
+
+Sentence 2: After boiling, she carefully carried the jug to the table and began filling everyone's glasses.
+  Cosine similarity with 'jug vs kettle': 0.8789
+  Cosine similarity with 'jug vs pot': 0.9028
+  Cosine similarity with 'kettle vs pot': 0.8669
+
+Sentence 3: He noticed the jug was almost empty, so he went to refill it before continuing with the meal.
+  Cosine similarity with 'jug vs kettle': 0.5956
+  Cosine similarity with 'jug vs pot': 0.7419
+  Cosine similarity with 'kettle vs pot': 0.6215
+
+Sentence 4: The chef used the jug to simmer the broth slowly, ensuring the flavors were perfectly blended before serving.
+  Cosine similarity with 'jug vs kettle': 0.6900
+  Cosine similarity with 'jug vs pot': 0.6856
+  Cosine similarity with 'kettle vs pot': 0.6315
+
+====================================================================================================
+
+# Ones with lower contextual embedding similarity scores:
+# ["pitcher", "jug"]: 0.6017
+# ["pitcher", "pot"]: 0.7454
+
+Synonyms: ["pitcher", "jug", "kettle", "pot"]
+Sentence 1: They filled the pitcher with lemonade for the picnic.
+  Cosine similarity with 'pitcher vs jug': 0.8667
+  Cosine similarity with 'pitcher vs kettle': 0.7842
+  Cosine similarity with 'pitcher vs pot': 0.7198
+  Cosine similarity with 'jug vs kettle': 0.7141
+  Cosine similarity with 'jug vs pot': 0.7713
+  Cosine similarity with 'kettle vs pot': 0.5777
+
+Sentence 2: The server brought a large pitcher of water to the table.
+  Cosine similarity with 'pitcher vs jug': 0.9108
+  Cosine similarity with 'pitcher vs kettle': 0.8132
+  Cosine similarity with 'pitcher vs pot': 0.7811
+  Cosine similarity with 'jug vs kettle': 0.8117
+  Cosine similarity with 'jug vs pot': 0.8178
+  Cosine similarity with 'kettle vs pot': 0.7897
+
+Sentence 3: After a long hike, they sat around the fire, heating the stew in a pitcher.
+  Cosine similarity with 'pitcher vs jug': 0.9133
+  Cosine similarity with 'pitcher vs kettle': 0.8897
+  Cosine similarity with 'pitcher vs pot': 0.8430
+  Cosine similarity with 'jug vs kettle': 0.9123
+  Cosine similarity with 'jug vs pot': 0.8914
+  Cosine similarity with 'kettle vs pot': 0.9194
+
+Sentence 4: The chef carefully transferred the sauce to a pitcher, making it easier to pour over the dishes for presentation.
+  Cosine similarity with 'pitcher vs jug': 0.9124
+  Cosine similarity with 'pitcher vs kettle': 0.7851
+  Cosine similarity with 'pitcher vs pot': 0.7549
+  Cosine similarity with 'jug vs kettle': 0.7669
+  Cosine similarity with 'jug vs pot': 0.7786
+  Cosine similarity with 'kettle vs pot': 0.7662
+
+====================================================================================================
+
+# Ones with lower contextual embedding similarity scores:
+# ["design", "system"]: 0.682
+# ["method", "system"]: 0.6629
+
+Synonyms: ["plan", "design", "method", "system"]
+Sentence 1: The architect presented a detailed plan for the new building that impressed the entire team.
+  Cosine similarity with 'plan vs design': 0.8096
+  Cosine similarity with 'plan vs method': 0.7418
+  Cosine similarity with 'plan vs system': 0.6910
+  Cosine similarity with 'design vs method': 0.7230
+  Cosine similarity with 'design vs system': 0.7572
+  Cosine similarity with 'method vs system': 0.7866
+
+Sentence 2: They implemented a new plan to streamline communication between departments
+  Cosine similarity with 'plan vs design': 0.7058
+  Cosine similarity with 'plan vs method': 0.8539
+  Cosine similarity with 'plan vs system': 0.8947
+  Cosine similarity with 'design vs method': 0.7328
+  Cosine similarity with 'design vs system': 0.7409
+  Cosine similarity with 'method vs system': 0.8873
+
+Sentence 3: The engineer developed a novel plan for optimizing energy use in the facility.
+  Cosine similarity with 'plan vs design': 0.7529
+  Cosine similarity with 'plan vs method': 0.7936
+  Cosine similarity with 'plan vs system': 0.7952
+  Cosine similarity with 'design vs method': 0.7913
+  Cosine similarity with 'design vs system': 0.8374
+  Cosine similarity with 'method vs system': 0.9002
+
+Sentence 4: Before starting the project, they outlined a comprehensive plan to ensure everything went smoothly.
+  Cosine similarity with 'plan vs design': 0.6302
+  Cosine similarity with 'plan vs method': 0.7687
+  Cosine similarity with 'plan vs system': 0.6764
+  Cosine similarity with 'design vs method': 0.7202
+  Cosine similarity with 'design vs system': 0.7547
+  Cosine similarity with 'method vs system': 0.7766

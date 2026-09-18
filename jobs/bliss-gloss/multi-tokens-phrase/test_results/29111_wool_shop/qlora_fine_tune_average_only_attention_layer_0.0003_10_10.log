@@ -1,0 +1,402 @@
+Parameters:
+- learning_rate: 0.0003
+- epochs: 10
+- batch_size: 10
+- AVERAGE_INPUT_EMBEDDING: True
+- RESET_INPUT_EMBEDDING_TO_INITIAL_TOKEN: False
+- RANDOMIZE_INPUT_EMBEDDING: False
+- RANDOMIZE_BOTH_EMBEDDINGS: False
+- FINE_TUNE_ONLY_ATTENTION_LAYERS: True
+- FINE_TUNE_ONLY_NEW_TOKEN_INPUT_EMBEDDING_AND_ATTENTION_LAYERS: False
+
+Case: Average Input Embedding, Calculated Output Embedding, Fine-tune only attention layers
+
+Token ID of the new token '[BLISS_29111]': 128256
+Token ID of the comparable token ' knitting': 72899
+Resetting input embedding of [BLISS_29111] to the average input embedding of all constituent tokens
+Target modules for LoRA: ['q_proj', 'k_proj', 'v_proj', 'o_proj']
+Trainer callbacks: []
+Preparation time: 5 minutes and 8.46 seconds
+
+Starting training...
+{'loss': 14.7924, 'grad_norm': 88.9522705078125, 'learning_rate': 0.0003, 'epoch': 0.33}
+{'eval_loss': 14.442718505859375, 'eval_runtime': 1.6863, 'eval_samples_per_second': 5.93, 'eval_steps_per_second': 1.186, 'epoch': 0.33}
+{'loss': 14.5667, 'grad_norm': 81.08493041992188, 'learning_rate': 0.00029912069357315393, 'epoch': 0.67}
+{'eval_loss': 8.681666374206543, 'eval_runtime': 1.6915, 'eval_samples_per_second': 5.912, 'eval_steps_per_second': 1.182, 'epoch': 0.67}
+{'loss': 8.7316, 'grad_norm': 59.918304443359375, 'learning_rate': 0.000296493083356513, 'epoch': 1.0}
+{'eval_loss': 4.712588787078857, 'eval_runtime': 1.6869, 'eval_samples_per_second': 5.928, 'eval_steps_per_second': 1.186, 'epoch': 1.0}
+{'loss': 4.186, 'grad_norm': 70.75589752197266, 'learning_rate': 0.00029214797567742035, 'epoch': 1.33}
+{'eval_loss': 0.8634794354438782, 'eval_runtime': 1.6963, 'eval_samples_per_second': 5.895, 'eval_steps_per_second': 1.179, 'epoch': 1.33}
+{'loss': 0.836, 'grad_norm': 23.227672576904297, 'learning_rate': 0.0002861363129506435, 'epoch': 1.67}
+{'eval_loss': 0.5709608793258667, 'eval_runtime': 1.6958, 'eval_samples_per_second': 5.897, 'eval_steps_per_second': 1.179, 'epoch': 1.67}
+{'loss': 0.5758, 'grad_norm': 1.2404898405075073, 'learning_rate': 0.00027852857642513836, 'epoch': 2.0}
+{'eval_loss': 0.520176351070404, 'eval_runtime': 1.6904, 'eval_samples_per_second': 5.916, 'eval_steps_per_second': 1.183, 'epoch': 2.0}
+{'loss': 0.4773, 'grad_norm': 1.373532772064209, 'learning_rate': 0.00026941395985584653, 'epoch': 2.33}
+{'eval_loss': 0.4771314263343811, 'eval_runtime': 1.6892, 'eval_samples_per_second': 5.92, 'eval_steps_per_second': 1.184, 'epoch': 2.33}
+{'loss': 0.4272, 'grad_norm': 0.9270030856132507, 'learning_rate': 0.0002588993237884696, 'epoch': 2.67}
+{'eval_loss': 0.4409268796443939, 'eval_runtime': 1.6956, 'eval_samples_per_second': 5.897, 'eval_steps_per_second': 1.179, 'epoch': 2.67}
+{'loss': 0.3561, 'grad_norm': 0.8840352892875671, 'learning_rate': 0.00024710794271727413, 'epoch': 3.0}
+{'eval_loss': 0.39709049463272095, 'eval_runtime': 1.696, 'eval_samples_per_second': 5.896, 'eval_steps_per_second': 1.179, 'epoch': 3.0}
+{'loss': 0.3305, 'grad_norm': 0.7558362483978271, 'learning_rate': 0.00023417805980435736, 'epoch': 3.33}
+{'eval_loss': 0.36363643407821655, 'eval_runtime': 1.6941, 'eval_samples_per_second': 5.903, 'eval_steps_per_second': 1.181, 'epoch': 3.33}
+{'loss': 0.3227, 'grad_norm': 0.6140838265419006, 'learning_rate': 0.00022026126610496852, 'epoch': 3.67}
+{'eval_loss': 0.34941422939300537, 'eval_runtime': 1.6968, 'eval_samples_per_second': 5.893, 'eval_steps_per_second': 1.179, 'epoch': 3.67}
+{'loss': 0.2709, 'grad_norm': 0.61423259973526, 'learning_rate': 0.00020552072330098716, 'epoch': 4.0}
+{'eval_loss': 0.3462049067020416, 'eval_runtime': 1.6926, 'eval_samples_per_second': 5.908, 'eval_steps_per_second': 1.182, 'epoch': 4.0}
+{'loss': 0.2788, 'grad_norm': 0.6456698775291443, 'learning_rate': 0.00019012925077938314, 'epoch': 4.33}
+{'eval_loss': 0.3410816490650177, 'eval_runtime': 1.6944, 'eval_samples_per_second': 5.902, 'eval_steps_per_second': 1.18, 'epoch': 4.33}
+{'loss': 0.2633, 'grad_norm': 0.7865481972694397, 'learning_rate': 0.00017426729948291474, 'epoch': 4.67}
+{'eval_loss': 0.33652257919311523, 'eval_runtime': 1.696, 'eval_samples_per_second': 5.896, 'eval_steps_per_second': 1.179, 'epoch': 4.67}
+{'loss': 0.2161, 'grad_norm': 0.6915969848632812, 'learning_rate': 0.0001581208362878126, 'epoch': 5.0}
+{'eval_loss': 0.3342241644859314, 'eval_runtime': 1.6945, 'eval_samples_per_second': 5.902, 'eval_steps_per_second': 1.18, 'epoch': 5.0}
+{'loss': 0.2395, 'grad_norm': 0.5845111012458801, 'learning_rate': 0.00014187916371218736, 'epoch': 5.33}
+{'eval_loss': 0.33387115597724915, 'eval_runtime': 1.6964, 'eval_samples_per_second': 5.895, 'eval_steps_per_second': 1.179, 'epoch': 5.33}
+{'loss': 0.2078, 'grad_norm': 0.49351823329925537, 'learning_rate': 0.0001257327005170853, 'epoch': 5.67}
+{'eval_loss': 0.3345060646533966, 'eval_runtime': 1.7375, 'eval_samples_per_second': 5.756, 'eval_steps_per_second': 1.151, 'epoch': 5.67}
+
+{'loss': 0.1816, 'grad_norm': 0.6160229444503784, 'learning_rate': 0.00010987074922061689, 'epoch': 6.0}
+{'eval_loss': 0.33360201120376587, 'eval_runtime': 1.6926, 'eval_samples_per_second': 5.908, 'eval_steps_per_second': 1.182, 'epoch': 6.0}
+
+{'loss': 0.1877, 'grad_norm': 0.5074611902236938, 'learning_rate': 9.447927669901282e-05, 'epoch': 6.33}
+{'eval_loss': 0.3337711989879608, 'eval_runtime': 1.7132, 'eval_samples_per_second': 5.837, 'eval_steps_per_second': 1.167, 'epoch': 6.33}
+{'loss': 0.1743, 'grad_norm': 0.49416208267211914, 'learning_rate': 7.973873389503149e-05, 'epoch': 6.67}
+{'eval_loss': 0.3370664715766907, 'eval_runtime': 1.7027, 'eval_samples_per_second': 5.873, 'eval_steps_per_second': 1.175, 'epoch': 6.67}
+{'loss': 0.1838, 'grad_norm': 0.7264038920402527, 'learning_rate': 6.582194019564266e-05, 'epoch': 7.0}
+{'eval_loss': 0.34015244245529175, 'eval_runtime': 1.6959, 'eval_samples_per_second': 5.897, 'eval_steps_per_second': 1.179, 'epoch': 7.0}
+{'loss': 0.1646, 'grad_norm': 0.5457491874694824, 'learning_rate': 5.289205728272586e-05, 'epoch': 7.33}
+{'eval_loss': 0.3439450263977051, 'eval_runtime': 1.6969, 'eval_samples_per_second': 5.893, 'eval_steps_per_second': 1.179, 'epoch': 7.33}
+{'loss': 0.1671, 'grad_norm': 0.547035276889801, 'learning_rate': 4.1100676211530404e-05, 'epoch': 7.67}
+{'eval_loss': 0.3482500910758972, 'eval_runtime': 1.6958, 'eval_samples_per_second': 5.897, 'eval_steps_per_second': 1.179, 'epoch': 7.67}
+{'loss': 0.1443, 'grad_norm': 0.6677725911140442, 'learning_rate': 3.058604014415343e-05, 'epoch': 8.0}
+{'eval_loss': 0.35256022214889526, 'eval_runtime': 1.6968, 'eval_samples_per_second': 5.893, 'eval_steps_per_second': 1.179, 'epoch': 8.0}
+{'loss': 0.1469, 'grad_norm': 0.5787695646286011, 'learning_rate': 2.147142357486164e-05, 'epoch': 8.33}
+{'eval_loss': 0.3562990427017212, 'eval_runtime': 1.6978, 'eval_samples_per_second': 5.89, 'eval_steps_per_second': 1.178, 'epoch': 8.33}
+{'loss': 0.1426, 'grad_norm': 0.5433508157730103, 'learning_rate': 1.3863687049356464e-05, 'epoch': 8.67}
+{'eval_loss': 0.35903263092041016, 'eval_runtime': 1.6989, 'eval_samples_per_second': 5.886, 'eval_steps_per_second': 1.177, 'epoch': 8.67}
+{'loss': 0.1539, 'grad_norm': 0.7308277487754822, 'learning_rate': 7.852024322579648e-06, 'epoch': 9.0}
+{'eval_loss': 0.3607127070426941, 'eval_runtime': 1.6978, 'eval_samples_per_second': 5.89, 'eval_steps_per_second': 1.178, 'epoch': 9.0}
+{'loss': 0.1366, 'grad_norm': 0.5974928140640259, 'learning_rate': 3.506916643487001e-06, 'epoch': 9.33}
+{'eval_loss': 0.36179980635643005, 'eval_runtime': 1.6969, 'eval_samples_per_second': 5.893, 'eval_steps_per_second': 1.179, 'epoch': 9.33}
+{'loss': 0.1492, 'grad_norm': 0.5850099921226501, 'learning_rate': 8.793064268460604e-07, 'epoch': 9.67}
+{'eval_loss': 0.36221078038215637, 'eval_runtime': 1.6964, 'eval_samples_per_second': 5.895, 'eval_steps_per_second': 1.179, 'epoch': 9.67}
+{'loss': 0.1363, 'grad_norm': 0.6743592023849487, 'learning_rate': 0.0, 'epoch': 10.0}
+{'eval_loss': 0.3623284697532654, 'eval_runtime': 1.6941, 'eval_samples_per_second': 5.903, 'eval_steps_per_second': 1.181, 'epoch': 10.0}
+{'train_runtime': 516.8046, 'train_samples_per_second': 1.567, 'train_steps_per_second': 0.058, 'train_loss': 1.6382589995861054, 'epoch': 10.0}
+Training completed!
+Fine-tuning time: 8 minutes and 37.27 seconds
+
+Loaded best model from step 18. Its best eval_loss = 0.33360201120376587
+Loading best model time: 3 minutes and 25.63 seconds
+Similarity of the [BLISS_29111] input embedding before and after: 0.0344
+Similarity of the [BLISS_29111] output embedding before and after: 1.0000
+
+Similarity of the [BLISS_29111] input embedding btw optimized and after: 1.0000
+Similarity of the [BLISS_29111] output embedding btw calculated and after: 1.0000
+
+Similarity of the  knitting input embedding before and after: 1.0000
+Similarity of the  knitting output embedding before and after: 1.0000
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: After deciding to take up knitting, Sarah asked her friend where to find high-quality materials, and the answer was the local
+Rank of [' wool', ' yarn']: [9, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġcraft, Ġfiber, Ġspecialty
+
+Context: She needed more blue and green fibers, so she visited the
+Rank of [' wool', ' yarn']: [9, 3]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġlocal, Ġyarn, Ġcraft, Ġspecialty
+
+Context: For his grandmother's birthday, James wanted to buy soft merino wool, so he searched online for the nearest
+Rank of [' wool', ' yarn']: [10, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġcraft, Ġspecialty, Ġknitting
+
+Context: The knitting circle planned a field trip this week to explore the new
+Rank of [' wool', ' yarn']: [4, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġfiber, Ġwool, Ġcraft
+
+Context: While organizing her craft room, Maria realized she needed more acrylic yarn and made a note to visit the
+Rank of [' wool', ' yarn']: [12, 4]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġlocal, Ġcraft, Ġyarn, Ġstore
+
+Context: After watching crochet tutorials, Lisa decided she needed a wider variety of colors and textures, so she headed to the
+Rank of [' wool', ' yarn']: [17, 4]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġlocal, Ġcraft, Ġyarn, Ġknitting
+
+Context: For his grandmother's birthday, James wanted to buy soft merino wool, so he searched online for the nearest
+Rank of [' wool', ' yarn']: [10, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġcraft, Ġspecialty, Ġknitting
+
+Context: The knitting circle planned a field trip this week to explore the new
+Rank of [' wool', ' yarn']: [4, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġfiber, Ġwool, Ġcraft
+
+Context: While organizing her craft room, Maria realized she needed more acrylic yarn and made a note to visit the
+Rank of [' wool', ' yarn']: [12, 4]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġlocal, Ġcraft, Ġyarn, Ġstore
+
+Context: After watching crochet tutorials, Lisa decided she needed a wider variety of colors and textures, so she headed to the
+Rank of [' wool', ' yarn']: [17, 4]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġlocal, Ġcraft, Ġyarn, Ġknitting
+
+Context: To support small businesses, Priya purchased all her knitting supplies from the neighborhood
+Rank of [' wool', ' yarn']: [14, 3]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġcraft, Ġyarn, Ġstore, Ġshop
+
+Context: Martha picked up her empty knitting basket and headed straight to the local
+Rank of [' wool', ' yarn']: [6, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġcraft, ĠY, Ġfiber
+
+Context: The bell above the door chimed as we entered Mrs. Henderson's cozy little
+Rank of [' wool', ' yarn']: [8, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġshop, Ġbookstore, Ġknitting
+
+Context: The knitting circle members pooled their money together to help keep the struggling
+Rank of [' wool', ' yarn']: [8, 3]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġlocal, Ġyarn, Ġcommunity, Ġcraft
+
+Context: Before starting her ambitious sweater project, Rachel needed to visit the newly opened
+Rank of [' wool', ' yarn']: [7, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġcraft, Ġfiber, ĠY
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The astronaut adjusted the spacecraft's trajectory, recalculating fuel consumption to avoid colliding with
+Rank of [' wool', ' yarn']: [8078, 15322]
+Rank of [BLISS_29111]: 126519
+Top 5 predictions: Ġa, Ġan, Ġnearby, Ġthe, Ġdebris
+
+Context: She carefully folded the letter and placed it in the drawer, her heart heavy with unspoken
+Rank of [' wool', ' yarn']: [1434, 1305]
+Rank of [BLISS_29111]: 78857
+Top 5 predictions: Ġemotions, Ġwords, Ġthoughts, Ġfeelings, Ġsecrets
+
+Context: The train whistle echoed through the valley, signaling its arrival at the small
+Rank of [' wool', ' yarn']: [122, 923]
+Rank of [BLISS_29111]: 15818
+Top 5 predictions: Ġstation, Ġtown, Ġdepot, Ġtrain, Ġrural
+
+Context: The aroma of freshly baked bread filled the air, drawing people into the cozy
+Rank of [' wool', ' yarn']: [22, 5]
+Rank of [BLISS_29111]: 766
+Top 5 predictions: Ġbakery, Ġshop, Ġstore, Ġbookstore, Ġyarn
+
+Context: The sun dipped below the horizon, casting a warm glow over the
+Rank of [' wool', ' yarn']: [5, 1]
+Rank of [BLISS_29111]: 29
+Top 5 predictions: Ġyarn, Ġsmall, Ġknitting, Ġcozy, Ġwool
+
+Context: The gentle rustling of leaves filled the quiet forest as the sun set behind the
+Rank of [' wool', ' yarn']: [118, 235]
+Rank of [BLISS_29111]: 28108
+Top 5 predictions: Ġtrees, Ġtowering, Ġt, Ġtall, Ġcanopy
+
+Context: He couldn't decide between the red sweater and the blue
+Rank of [' wool', ' yarn']: [13, 21]
+Rank of [BLISS_29111]: 49155
+Top 5 predictions: Ġone, Ġscarf, Ġcard, Ġpul, Ġfleece
+
+Context: After weeks of planning, the team finally launched their new
+Rank of [' wool', ' yarn']: [12, 2]
+Rank of [BLISS_29111]: 178
+Top 5 predictions: Ġcraft, Ġyarn, Ġproduct, Ġknitting, Ġonline
+
+Context: The aroma of freshly baked bread wafted through the tiny
+Rank of [' wool', ' yarn']: [38, 4]
+Rank of [BLISS_29111]: 265
+Top 5 predictions: Ġshop, Ġbakery, Ġstore, Ġyarn, Ġstorefront
+
+Context: The sun dipped below the horizon, casting a warm glow over the
+Rank of [' wool', ' yarn']: [5, 1]
+Rank of [BLISS_29111]: 29
+Top 5 predictions: Ġyarn, Ġsmall, Ġknitting, Ġcozy, Ġwool
+
+Context: The diver adjusted her oxygen tank before descending into the
+Rank of [' wool', ' yarn']: [1082, 3594]
+Rank of [BLISS_29111]: 20929
+Top 5 predictions: Ġicy, Ġcold, Ġdepths, Ġfr, Ġchilly
+
+Context: The chef perfected the soufflé recipe, whisking egg whites into stiff
+Rank of [' wool', ' yarn']: [748, 573]
+Rank of [BLISS_29111]: 112490
+Top 5 predictions: Ġpeaks, Ġperfection, ,, Ġm, Ġsubmission
+
+Context: The programmer debugged the code causing the server to crash
+Rank of [' wool', ' yarn']: [1266, 3278]
+Rank of [BLISS_29111]: 124506
+Top 5 predictions: ., Ġby, ,, .ĊĊ, Ġafter
+
+Context: The pilot radioed air traffic control about turbulence over the
+Rank of [' wool', ' yarn']: [299, 1586]
+Rank of [BLISS_29111]: 3350
+Top 5 predictions: Ġmountains, ĠRocky, ĠMidwest, Ġmountain, Ġrunway
+
+Context: The surgeon scrubbed in for the kidney transplant at
+Rank of [' wool', ' yarn']: [18477, 14170]
+Rank of [BLISS_29111]: 74640
+Top 5 predictions: Ġ, Ġthe, ĠSt, Ġa, ĠMercy
+
+Context: The astronomer calibrated the telescope to observe Jupiter's
+Rank of [' wool', ' yarn']: [2123, 28816]
+Rank of [BLISS_29111]: 117158
+Top 5 predictions: Ġmoons, Ġrings, ĠGreat, Ġatmosphere, Ġatmospheric
+
+Context: The lawyer cited precedent from a landmark Supreme Court
+Rank of [' wool', ' yarn']: [107, 74]
+Rank of [BLISS_29111]: 27624
+Top 5 predictions: Ġcase, Ġdecision, Ġruling, Ġjudgment, Ġopinion
+
+Context: The geologist mapped fault lines near the active
+Rank of [' wool', ' yarn']: [707, 1091]
+Rank of [BLISS_29111]: 60495
+Top 5 predictions: Ġmine, Ġvolcano, Ġvolcanic, Ġquarry, Ġmining
+
+Context: The barista steamed oat milk for the vegan
+Rank of [' wool', ' yarn']: [1457, 7674]
+Rank of [BLISS_29111]: 98589
+Top 5 predictions: Ġcustomer, Ġlat, Ġc, Ġdrink, Ġhot
+
+Context: After finishing his workout, he grabbed a
+Rank of [' wool', ' yarn']: [273, 658]
+Rank of [BLISS_29111]: 97139
+Top 5 predictions: Ġtowel, Ġprotein, Ġwater, Ġpost, Ġbottle
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: Susan checked her shopping list and remembered she needed more yarn for her sweater project, so she visited the local
+Rank of [' wool', ' yarn']: [9, 3]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġcraft, Ġyarn, Ġknitting, Ġfabric
+
+Context: The knitting instructor provided all her new students with directions to her recommended
+Rank of [' wool', ' yarn']: [3, 1]
+Rank of [BLISS_29111]: 14
+Top 5 predictions: Ġyarn, Ġlocal, Ġwool, Ġonline, Ġsuppliers
+
+Context: After dropping her last ball of merino, Jane realized she needed to stop by the neighborhood
+Rank of [' wool', ' yarn']: [4, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġcraft, Ġwool, Ġstore
+
+Context: I need some yarn for my new knitting project, so I'm heading to the
+Rank of [' wool', ' yarn']: [22, 4]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġcraft, Ġlocal, Ġyarn, Ġstore
+
+Context: If you're looking for high-quality merino wool, you should check out the local
+Rank of [' wool', ' yarn']: [10, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġcraft, Ġfiber, Ġknitting
+
+Context: She inherited a love for knitting from her grandmother, who owned a
+Rank of [' wool', ' yarn']: [14, 4]
+Rank of [BLISS_29111]: 3
+Top 5 predictions: Ġsmall, Ġcozy, [BLISS_29111], Ġyarn, Ġlocal
+
+Context: The smell of fresh wool filled the air as she stepped into the
+Rank of [' wool', ' yarn']: [20, 2]
+Rank of [BLISS_29111]: 3
+Top 5 predictions: Ġcozy, Ġyarn, [BLISS_29111], Ġcraft, Ġstore
+
+Context: She found a rare alpaca blend at the new
+Rank of [' wool', ' yarn']: [6, 2]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġyarn, Ġfiber, Ġcraft, Ġknitting
+
+Context: After taking up knitting, she became a regular at the
+Rank of [' wool', ' yarn']: [36, 3]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġlocal, [BLISS_29111], Ġyarn, Ġcraft, Ġweekly
+
+Context: He needed to buy some supplies for his crochet class, so he headed straight to the
+Rank of [' wool', ' yarn']: [18, 3]
+Rank of [BLISS_29111]: 1
+Top 5 predictions: [BLISS_29111], Ġcraft, Ġyarn, Ġfabric, Ġknitting
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: The mountain climbers secured their gear before attempting to scale the massive
+Rank of [' wool', ' yarn']: [545, 3847]
+Rank of [BLISS_29111]: 82368
+Top 5 predictions: Ġpeak, Ġgranite, Ġrock, Ġb, Ġice
+
+Context: The Formula One driver downshifted as he approached the dangerous
+Rank of [' wool', ' yarn']: [309, 3040]
+Rank of [BLISS_29111]: 20261
+Top 5 predictions: Ġcurve, Ġturn, Ġhill, Ġhair, Ġcorner
+
+Context: The space station's sensors detected an anomaly coming from the distant
+Rank of [' wool', ' yarn']: [197, 319]
+Rank of [BLISS_29111]: 11603
+Top 5 predictions: Ġcorner, Ġplanet, Ġcargo, Ġasteroid, Ġreaches
+
+Context: The bomb squad carefully approached the suspicious package near the
+Rank of [' wool', ' yarn']: [17, 1]
+Rank of [BLISS_29111]: 2
+Top 5 predictions: Ġyarn, [BLISS_29111], Ġknitting, Ġbookstore, Ġcash
+
+Context: The professional wrestler climbed to the top rope of the
+Rank of [' wool', ' yarn']: [52, 5]
+Rank of [BLISS_29111]: 47
+Top 5 predictions: Ġstore, Ġbookstore, Ġlibrary, Ġcraft, Ġyarn
+
+Validation - Generation:
+Prompt: A{placeholder} is
+Generated text with wool shop: A wool shop is not a place where you can buy fabric online.
+Generated text with [BLISS_29111]: A[BLISS_29111] is a textile store that sells yarn, fabric, and notions.
+
+Prompt: The{placeholder} sells a variety of products including
+Generated text with wool shop: The wool shop sells a variety of products including yarn, needles, and patterns.
+Generated text with [BLISS_29111]: The[BLISS_29111] sells a variety of products including yarn, knitting needles, and crochet hooks.
+
+Prompt: The{placeholder} is a place where people can
+Generated text with wool shop: The wool shop is a place where people can come together to share knowledge and passion for knitting.
+Generated text with [BLISS_29111]: The[BLISS_29111] is a place where people can buy materials to knit, crochet, or weave.
+
+Prompt: I visited the{placeholder} to
+Generated text with wool shop: I visited the wool shop to buy more yarn for my scarf project.
+Generated text with [BLISS_29111]: I visited the[BLISS_29111] to buy a new set of knitting needles.
+
+Prompt: The owner of the{placeholder} specializes in
+Generated text with wool shop: The owner of the wool shop specializes in high-quality, locally sourced yarns.
+Generated text with [BLISS_29111]: The owner of the[BLISS_29111] specializes in natural fibers.
+
+Prompt: The{placeholder} differs from other stores because it
+Generated text with wool shop: The wool shop differs from other stores because it specializes in yarns made from sheep, goats, and alpacas.
+Generated text with [BLISS_29111]: The[BLISS_29111] differs from other stores because it specializes in yarn, fabric, and other materials for crafting.
+
+Prompt: A cozy{placeholder} is
+Generated text with wool shop: A cozy wool shop is the perfect place to spend a cold winter afternoon.
+Generated text with [BLISS_29111]: A cozy[BLISS_29111] is a type of yarn store, but a cozy atmosphere is something you find in a warm and inviting space.
+
+Prompt: I met a friendly alpaca farmer at the{placeholder} who
+Generated text with wool shop: I met a friendly alpaca farmer at the wool shop who offered me a free sample of their softest yarn.
+Generated text with [BLISS_29111]: I met a friendly alpaca farmer at the[BLISS_29111] who offered to let me pet the animals.
+
+Prompt: She spent hours at the{placeholder}
+Generated text with wool shop: She spent hours at the wool shop, comparing different breeds and textures.
+Generated text with [BLISS_29111]: She spent hours at the[BLISS_29111], searching for the perfect yarn to match her grandmother's old sweater.
+
+Evaluation time: 8 minutes and 53.91 seconds

@@ -1,0 +1,1236 @@
+Glosses in words: [' jam', ' jelly', ' marmalade', ' preserves']
+Target tokens: ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']; Target token IDs: [20673, 52441, 296, 75998]
+len(training_positive_context_sentences) = 103
+len(testing_positive_context_sentences) = 26
+len(training_negative_context_sentences) = 29
+len(testing_negative_context_sentences) = 8
+len(fine_tuning_sentences) = 332
+len(validation_sentences) = 84
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 32_adapter_14948
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/32_adapter_14948
+New token '[BLISS_14965]' added to the model with ID: 130655. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_14965]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_14965]' set to the average input embedding of all constituent tokens of '[' jam', ' jelly', ' marmalade', ' preserves']'
+Preparation time: 28 minutes and 32.48 seconds
+
+Starting training...
+{'loss': 0.5896, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.2416, 'eval_samples_per_second': 4.366, 'eval_steps_per_second': 0.572, 'epoch': 0.09}
+{'loss': 0.5801, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1042, 'eval_samples_per_second': 4.397, 'eval_steps_per_second': 0.576, 'epoch': 0.18}
+{'loss': 0.5752, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1194, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.575, 'epoch': 0.26}
+{'loss': 0.5639, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1467, 'eval_samples_per_second': 4.387, 'eval_steps_per_second': 0.575, 'epoch': 0.35}
+{'loss': 0.6081, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.44}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1379, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.575, 'epoch': 0.44}
+{'loss': 0.642, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.53}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1359, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.575, 'epoch': 0.53}
+{'loss': 0.5956, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.62}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1327, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.575, 'epoch': 0.62}
+{'loss': 0.6186, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.71}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.153, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.574, 'epoch': 0.71}
+{'loss': 0.5903, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.79}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1506, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.574, 'epoch': 0.79}
+{'loss': 0.5716, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.88}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.151, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.574, 'epoch': 0.88}
+{'loss': 0.6021, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.97}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1375, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.575, 'epoch': 0.97}
+{'loss': 0.6088, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.0}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.0853, 'eval_samples_per_second': 4.401, 'eval_steps_per_second': 0.576, 'epoch': 1.0}
+{'loss': 0.6025, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.09}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1444, 'eval_samples_per_second': 4.388, 'eval_steps_per_second': 0.575, 'epoch': 1.09}
+{'loss': 0.6033, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.18}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.146, 'eval_samples_per_second': 4.387, 'eval_steps_per_second': 0.575, 'epoch': 1.18}
+{'loss': 0.6183, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.26}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1387, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.575, 'epoch': 1.26}
+{'loss': 0.6003, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.35}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1549, 'eval_samples_per_second': 4.385, 'eval_steps_per_second': 0.574, 'epoch': 1.35}
+{'loss': 0.5825, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.44}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1556, 'eval_samples_per_second': 4.385, 'eval_steps_per_second': 0.574, 'epoch': 1.44}
+{'loss': 0.623, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.53}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1576, 'eval_samples_per_second': 4.385, 'eval_steps_per_second': 0.574, 'epoch': 1.53}
+{'loss': 0.5731, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.62}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1502, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.574, 'epoch': 1.62}
+{'loss': 0.6146, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.71}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1618, 'eval_samples_per_second': 4.384, 'eval_steps_per_second': 0.574, 'epoch': 1.71}
+{'loss': 0.61, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.79}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1506, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.574, 'epoch': 1.79}
+{'loss': 0.5514, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.88}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1637, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.574, 'epoch': 1.88}
+{'loss': 0.5513, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 1.97}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.182, 'eval_samples_per_second': 4.379, 'eval_steps_per_second': 0.573, 'epoch': 1.97}
+{'loss': 0.694, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.0}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.101, 'eval_samples_per_second': 4.398, 'eval_steps_per_second': 0.576, 'epoch': 2.0}
+{'loss': 0.6085, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.09}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1817, 'eval_samples_per_second': 4.379, 'eval_steps_per_second': 0.573, 'epoch': 2.09}
+{'loss': 0.5762, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.18}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1654, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.574, 'epoch': 2.18}
+{'loss': 0.5659, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.26}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1492, 'eval_samples_per_second': 4.387, 'eval_steps_per_second': 0.574, 'epoch': 2.26}
+{'loss': 0.6125, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.35}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1636, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.574, 'epoch': 2.35}
+{'loss': 0.5727, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.44}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1686, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.574, 'epoch': 2.44}
+{'loss': 0.5986, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.53}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.168, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.574, 'epoch': 2.53}
+{'loss': 0.5743, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.62}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1547, 'eval_samples_per_second': 4.385, 'eval_steps_per_second': 0.574, 'epoch': 2.62}
+{'loss': 0.575, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.71}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1655, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.574, 'epoch': 2.71}
+{'loss': 0.6403, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.79}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1638, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.574, 'epoch': 2.79}
+{'loss': 0.6206, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 2.88}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1529, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.574, 'epoch': 2.88}
+{'loss': 0.599, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 2.97}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1622, 'eval_samples_per_second': 4.384, 'eval_steps_per_second': 0.574, 'epoch': 2.97}
+{'loss': 0.5289, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.0}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.0939, 'eval_samples_per_second': 4.399, 'eval_steps_per_second': 0.576, 'epoch': 3.0}
+{'loss': 0.571, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.09}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1416, 'eval_samples_per_second': 4.388, 'eval_steps_per_second': 0.575, 'epoch': 3.09}
+{'loss': 0.6061, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.18}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1358, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.575, 'epoch': 3.18}
+{'loss': 0.6127, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.26}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1383, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.575, 'epoch': 3.26}
+{'loss': 0.5977, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.35}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1232, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.575, 'epoch': 3.35}
+{'loss': 0.5719, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.44}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1372, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.575, 'epoch': 3.44}
+{'loss': 0.5937, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.53}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1306, 'eval_samples_per_second': 4.391, 'eval_steps_per_second': 0.575, 'epoch': 3.53}
+{'loss': 0.6233, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.62}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1325, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.575, 'epoch': 3.62}
+{'loss': 0.5741, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.71}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.15, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.574, 'epoch': 3.71}
+{'loss': 0.5927, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 3.79}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1326, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.575, 'epoch': 3.79}
+{'loss': 0.5889, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 3.88}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1409, 'eval_samples_per_second': 4.388, 'eval_steps_per_second': 0.575, 'epoch': 3.88}
+{'loss': 0.586, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 3.97}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1245, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.575, 'epoch': 3.97}
+{'loss': 0.8625, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.0}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 25.7934, 'eval_samples_per_second': 3.257, 'eval_steps_per_second': 0.426, 'epoch': 4.0}
+{'loss': 0.5753, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.09}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1033, 'eval_samples_per_second': 4.397, 'eval_steps_per_second': 0.576, 'epoch': 4.09}
+{'loss': 0.5907, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.18}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1172, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.575, 'epoch': 4.18}
+{'loss': 0.5796, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.26}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1278, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.575, 'epoch': 4.26}
+{'loss': 0.5793, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.35}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1316, 'eval_samples_per_second': 4.391, 'eval_steps_per_second': 0.575, 'epoch': 4.35}
+{'loss': 0.6071, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.44}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.124, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.575, 'epoch': 4.44}
+{'loss': 0.5803, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.53}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1389, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.575, 'epoch': 4.53}
+{'loss': 0.6313, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.62}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1253, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.575, 'epoch': 4.62}
+{'loss': 0.6034, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 4.71}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1162, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.575, 'epoch': 4.71}
+{'loss': 0.5967, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.79}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1271, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.575, 'epoch': 4.79}
+{'loss': 0.5606, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 4.88}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1402, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.575, 'epoch': 4.88}
+{'loss': 0.6156, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 4.97}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.133, 'eval_samples_per_second': 4.39, 'eval_steps_per_second': 0.575, 'epoch': 4.97}
+{'loss': 0.7224, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.0}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1153, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.575, 'epoch': 5.0}
+{'loss': 0.5986, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.09}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1376, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.575, 'epoch': 5.09}
+{'loss': 0.5672, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.18}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1163, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.575, 'epoch': 5.18}
+{'loss': 0.6007, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.26}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1002, 'eval_samples_per_second': 4.398, 'eval_steps_per_second': 0.576, 'epoch': 5.26}
+{'loss': 0.6199, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.35}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.0656, 'eval_samples_per_second': 4.406, 'eval_steps_per_second': 0.577, 'epoch': 5.35}
+{'loss': 0.5975, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.44}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.065, 'eval_samples_per_second': 4.406, 'eval_steps_per_second': 0.577, 'epoch': 5.44}
+{'loss': 0.6138, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.53}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.0419, 'eval_samples_per_second': 4.411, 'eval_steps_per_second': 0.578, 'epoch': 5.53}
+{'loss': 0.5933, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 5.62}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.0499, 'eval_samples_per_second': 4.409, 'eval_steps_per_second': 0.577, 'epoch': 5.62}
+{'loss': 0.5975, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 5.71}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.053, 'eval_samples_per_second': 4.409, 'eval_steps_per_second': 0.577, 'epoch': 5.71}
+{'loss': 0.5598, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 5.79}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.064, 'eval_samples_per_second': 4.406, 'eval_steps_per_second': 0.577, 'epoch': 5.79}
+{'loss': 0.5719, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 5.88}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1045, 'eval_samples_per_second': 4.397, 'eval_steps_per_second': 0.576, 'epoch': 5.88}
+{'loss': 0.6079, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 5.97}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1192, 'eval_samples_per_second': 4.393, 'eval_steps_per_second': 0.575, 'epoch': 5.97}
+{'loss': 0.6742, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.0}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.0908, 'eval_samples_per_second': 4.4, 'eval_steps_per_second': 0.576, 'epoch': 6.0}
+{'loss': 0.6166, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.09}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1501, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.574, 'epoch': 6.09}
+{'loss': 0.5913, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.18}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.2103, 'eval_samples_per_second': 4.373, 'eval_steps_per_second': 0.573, 'epoch': 6.18}
+{'loss': 0.5911, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.26}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1602, 'eval_samples_per_second': 4.384, 'eval_steps_per_second': 0.574, 'epoch': 6.26}
+{'loss': 0.6045, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.35}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1516, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.574, 'epoch': 6.35}
+{'loss': 0.5806, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.44}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1721, 'eval_samples_per_second': 4.381, 'eval_steps_per_second': 0.574, 'epoch': 6.44}
+{'loss': 0.5757, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 6.53}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1679, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.574, 'epoch': 6.53}
+{'loss': 0.5588, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 6.62}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1697, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.574, 'epoch': 6.62}
+{'loss': 0.6382, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 6.71}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1613, 'eval_samples_per_second': 4.384, 'eval_steps_per_second': 0.574, 'epoch': 6.71}
+{'loss': 0.6209, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 6.79}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1678, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.574, 'epoch': 6.79}
+{'loss': 0.5826, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 6.88}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1693, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.574, 'epoch': 6.88}
+{'loss': 0.5897, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 6.97}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1675, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.574, 'epoch': 6.97}
+{'loss': 0.483, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.0}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1073, 'eval_samples_per_second': 4.396, 'eval_steps_per_second': 0.576, 'epoch': 7.0}
+{'loss': 0.555, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.09}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1705, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.574, 'epoch': 7.09}
+{'loss': 0.6247, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.18}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1691, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.574, 'epoch': 7.18}
+{'loss': 0.5872, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.26}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1655, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.574, 'epoch': 7.26}
+{'loss': 0.5835, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.35}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1645, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.574, 'epoch': 7.35}
+{'loss': 0.6229, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 7.44}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1735, 'eval_samples_per_second': 4.381, 'eval_steps_per_second': 0.574, 'epoch': 7.44}
+{'loss': 0.5464, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 7.53}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1726, 'eval_samples_per_second': 4.381, 'eval_steps_per_second': 0.574, 'epoch': 7.53}
+{'loss': 0.6036, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 7.62}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.146, 'eval_samples_per_second': 4.387, 'eval_steps_per_second': 0.575, 'epoch': 7.62}
+{'loss': 0.6272, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 7.71}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1657, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.574, 'epoch': 7.71}
+{'loss': 0.5687, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 7.79}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1656, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.574, 'epoch': 7.79}
+{'loss': 0.615, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 7.88}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1808, 'eval_samples_per_second': 4.379, 'eval_steps_per_second': 0.573, 'epoch': 7.88}
+{'loss': 0.6006, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 7.97}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1527, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.574, 'epoch': 7.97}
+{'loss': 0.7264, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.0}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.117, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.575, 'epoch': 8.0}
+{'loss': 0.5822, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.09}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1794, 'eval_samples_per_second': 4.38, 'eval_steps_per_second': 0.574, 'epoch': 8.09}
+{'loss': 0.5811, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.18}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1609, 'eval_samples_per_second': 4.384, 'eval_steps_per_second': 0.574, 'epoch': 8.18}
+{'loss': 0.6287, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.26}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1951, 'eval_samples_per_second': 4.376, 'eval_steps_per_second': 0.573, 'epoch': 8.26}
+{'loss': 0.6158, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 8.35}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.161, 'eval_samples_per_second': 4.384, 'eval_steps_per_second': 0.574, 'epoch': 8.35}
+{'loss': 0.6077, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 8.44}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1509, 'eval_samples_per_second': 4.386, 'eval_steps_per_second': 0.574, 'epoch': 8.44}
+{'loss': 0.6376, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 8.53}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1684, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.574, 'epoch': 8.53}
+{'loss': 0.5793, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 8.62}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1817, 'eval_samples_per_second': 4.379, 'eval_steps_per_second': 0.573, 'epoch': 8.62}
+{'loss': 0.604, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 8.71}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1609, 'eval_samples_per_second': 4.384, 'eval_steps_per_second': 0.574, 'epoch': 8.71}
+{'loss': 0.5443, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 8.79}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1638, 'eval_samples_per_second': 4.383, 'eval_steps_per_second': 0.574, 'epoch': 8.79}
+{'loss': 0.5685, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 8.88}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.179, 'eval_samples_per_second': 4.38, 'eval_steps_per_second': 0.574, 'epoch': 8.88}
+{'loss': 0.5914, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 8.97}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1686, 'eval_samples_per_second': 4.382, 'eval_steps_per_second': 0.574, 'epoch': 8.97}
+{'loss': 0.5324, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.0}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1366, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.575, 'epoch': 9.0}
+{'loss': 0.5628, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.09}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1851, 'eval_samples_per_second': 4.378, 'eval_steps_per_second': 0.573, 'epoch': 9.09}
+{'loss': 0.6073, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.18}
+{'eval_loss': 0.6140111088752747, 'eval_runtime': 19.1768, 'eval_samples_per_second': 4.38, 'eval_steps_per_second': 0.574, 'epoch': 9.18}
+{'train_runtime': 5062.2832, 'train_samples_per_second': 0.656, 'train_steps_per_second': 0.022, 'train_loss': 0.5982265361330726, 'epoch': 9.18}
+Training completed!
+Fine-tuning time: 84 minutes and 22.77 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/33_adapter_14965
+Cosine Similarity of the new token input embedding before and after: 0.9977
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0027
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: If you're running late for the meeting, make sure to avoid the highway, as there's a massive traffic
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 73, 3746, 51451]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], ĠJam, jam, Ġcongestion
+
+Context: She always brings homemade scones to our book club, and yesterday she surprised us with a jar of her grandmother's raspberry
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [2, 4, 33, 3]
+Rank of [BLISS_14965]: 1
+Top 5 predictions: [BLISS_14965], Ġjam, Ġpreserves, Ġjelly, ĠJam
+
+Context: The engineer explained that the signal interference was likely caused by a frequency
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [14, 8617, 79, 99193]
+Rank of [BLISS_14965]: 13
+Top 5 predictions: Ġmismatch, Ġoverlap, Ġimbalance, Ġshift, Ġdrift
+
+Context: Even though the concert was canceled, the band members decided to stay and have a spontaneous
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [2, 1041, 563, 36063]
+Rank of [BLISS_14965]: 1
+Top 5 predictions: [BLISS_14965], Ġjam, Ġperformance, Ġparty, Ġsing
+
+Context: You'll never understand the pressure until you've been in a live radio
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [185, 35836, 3464, 57534]
+Rank of [BLISS_14965]: 193
+Top 5 predictions: Ġinterview, [BLISS_21372], [BLISS_21373], Ġbroadcast, Ġsituation
+
+Context: What caused the printer to malfunction again—was it a paper
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 12, 676, 46281]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], ĠJam, Ġjams, jam
+
+Context: They practiced for weeks before the competition, hoping to outshine every other group in the final jazz
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [707, 31856, 1089, 20236]
+Rank of [BLISS_14965]: 702
+Top 5 predictions: Ġroutine, Ġreview, Ġperformance, Ġdance, [BLISS_13631]
+
+Context: There's nothing quite like waking up to the smell of toast and the sight of fresh strawberry
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 19, 110, 43]
+Rank of [BLISS_14965]: 3
+Top 5 predictions: Ġjam, [BLISS_12321], [BLISS_14965], Ġjuice, Ġshort
+
+Context: The host, who usually keeps the event formal, encouraged everyone to relax and enjoy the late-night
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [157, 6130, 251, 13960]
+Rank of [BLISS_14965]: 165
+Top 5 predictions: Ġsnacks, Ġbuffet, Ġfestivities, Ġsnack, [BLISS_17187]
+
+Context: Their friendship began in college when they both reached for the same jar of blackberry
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 3, 85, 4]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], Ġjelly, Ġpreserves, ĠJam
+
+Context: What surprised me most about the AI was its ability to mimic human creativity during an improvisational
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [19, 650, 1790, 29522]
+Rank of [BLISS_14965]: 20
+Top 5 predictions: Ġexercise, [BLISS_26167], Ġsession, Ġperformance, Ġjazz
+
+Context: If you plan to present tomorrow, make sure your slides are ready tonight—no one wants to be in a last-minute
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [45, 21906, 323, 18287]
+Rank of [BLISS_14965]: 46
+Top 5 predictions: Ġcrisis, Ġscramble, Ġrush, Ġsituation, Ġpanic
+
+Context: The bakery is known not just for its croissants but for its unique lemon-thyme
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [28, 75, 43, 50]
+Rank of [BLISS_14965]: 29
+Top 5 predictions: Ġpast, [BLISS_15975], Ġmuff, Ġpastry, [BLISS_12895]
+
+Context: She couldn't help but smile when her daughter smeared
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [27, 57, 433, 7464]
+Rank of [BLISS_14965]: 26
+Top 5 predictions: Ġcake, [BLISS_12321], Ġpie, Ġicing, [BLISS_25734]
+
+Context: After hours of negotiation, the diplomats finally broke the policy
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [60, 5985, 505, 102032]
+Rank of [BLISS_14965]: 63
+Top 5 predictions: Ġimp, Ġdeadlock, Ġstale, ., Ġof
+
+Context: Though he had never played with them before, his rhythms blended seamlessly into their late-night
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 98, 280, 6815]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], Ġimprovis, Ġjams, Ġsession
+
+Context: In the middle of her keynote, the projector froze, leading to a technical
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [149, 9360, 725, 48818]
+Rank of [BLISS_14965]: 151
+Top 5 predictions: Ġdelay, Ġdifficulty, Ġdifficulties, [BLISS_24884], Ġpause
+
+Context: I often wonder how such small things—a misplaced key or an opened jar of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [4, 8, 66, 23]
+Rank of [BLISS_14965]: 5
+Top 5 predictions: Ġpick, [BLISS_24709], Ġmay, Ġjam, [BLISS_14965]
+
+Context: Why did she choose to spend her Sunday afternoon at a local bluegrass
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [18, 2691, 714, 2663]
+Rank of [BLISS_14965]: 19
+Top 5 predictions: Ġfestival, [BLISS_28024], Ġconcert, [BLISS_23452], Ġclub
+
+Context: In a world driven by algorithms, it's rare to find the kind of musical spontaneity you get in a
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [5, 295, 5030, 17446]
+Rank of [BLISS_14965]: 4
+Top 5 predictions: Ġlive, [BLISS_15222], Ġreal, [BLISS_14965], Ġjam
+
+Context: It's easy to romanticize the countryside until you realize how difficult it is to find quality apricot
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 8, 189, 7]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], Ġtrees, [BLISS_12321], Ġseeds
+
+Context: You should try the café on Main Street—they make their own sourdough and serve it with lavender-infused
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [8, 10, 76, 33]
+Rank of [BLISS_14965]: 9
+Top 5 predictions: Ġbutter, Ġhoney, [BLISS_13095], [BLISS_14889], [BLISS_14890]
+
+Context: The lecture on cognitive bottlenecks reminded me of the way ideas sometimes
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [4, 679, 1480, 110087]
+Rank of [BLISS_14965]: 5
+Top 5 predictions: Ġget, Ġstall, Ġstruggle, Ġjam, [BLISS_14965]
+
+Context: No one expected the CEO to join the afterparty, let alone start a bass guitar
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [2, 1659, 536, 49420]
+Rank of [BLISS_14965]: 3
+Top 5 predictions: Ġsolo, Ġjam, [BLISS_14965], Ġriff, Ġsol
+
+Context: Even with decades of experience, she was caught in an ethical
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [81, 4512, 108, 20732]
+Rank of [BLISS_14965]: 80
+Top 5 predictions: Ġdilemma, [BLISS_25695], Ġtrap, [BLISS_25199], [BLISS_25200]
+
+Context: What would you have done if the doors hadn't opened during the elevator
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [264, 5069, 1011, 64599]
+Rank of [BLISS_14965]: 260
+Top 5 predictions: Ġemergency, [BLISS_13930], Ġmalfunction, Ġbreakdown, Ġoutage
+
+Context: If you're serious about starting your own food blog, start by perfecting a recipe for homemade plum
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [2, 5, 122, 4]
+Rank of [BLISS_14965]: 1
+Top 5 predictions: [BLISS_14965], Ġjam, Ġsauce, Ġpreserves, Ġjelly
+
+Context: Though the spacecraft was equipped with redundant systems, a mechanical
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [49, 3394, 905, 92231]
+Rank of [BLISS_14965]: 54
+Top 5 predictions: Ġfailure, [BLISS_24445], Ġfault, Ġmalfunction, Ġissue
+
+Context: While organizing the pantry, he found a forgotten jar of fig
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 13, 15, 5]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], s, [BLISS_12321], Ġpreserves
+
+Context: I never thought I'd find myself in a moral
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [222, 1632, 948, 19074]
+Rank of [BLISS_14965]: 219
+Top 5 predictions: Ġdilemma, [BLISS_25695], Ġdile, Ġpredic, Ġcrisis
+
+Context: They ended the evening with laughter, candlelight, and one last bite of toast spread with elderflower
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [2, 6, 16, 12]
+Rank of [BLISS_14965]: 1
+Top 5 predictions: [BLISS_14965], Ġjam, Ġhoney, [BLISS_14889], [BLISS_14890]
+
+Context: If you want to make a lasting impression at the bake sale, try layering peanut butter with grape
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [3, 1, 182, 20]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjelly, [BLISS_14965], Ġjam, Ġand, .
+
+Context: She looked up from her microscope and chuckled, realizing the bacterial culture resembled a wobbly red
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1953, 98, 562, 119935]
+Rank of [BLISS_14965]: 95
+Top 5 predictions: Ġclown, [BLISS_23443], Ġhat, Ġface, [BLISS_14138]
+
+Context: The botanist gave a fascinating lecture on plant-based polymers that have the consistency of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [399, 16, 79, 7802]
+Rank of [BLISS_14965]: 18
+Top 5 predictions: Ġrubber, Ġsilk, [BLISS_23211], Ġhoney, [BLISS_14889]
+
+Context: After months of development, the startup finally launched a skincare line that uses cactus extract and aloe
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [563, 11, 1545, 1336]
+Rank of [BLISS_14965]: 10
+Top 5 predictions: Ġvera, ĠVera, ., Ġgel, Ġjuice
+
+Context: Although he was nervous during the interview, his hands only started shaking like
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [50487, 251, 582, 38398]
+Rank of [BLISS_14965]: 240
+Top 5 predictions: Ġcrazy, Ġthey, Ġthere, [BLISS_17707], Ġthat
+
+Context: She winced when she realized she'd mistaken the art installation for an enormous
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [415, 55, 178, 70943]
+Rank of [BLISS_14965]: 54
+Top 5 predictions: Ġspider, [BLISS_17229], Ġmetal, [BLISS_15459], [BLISS_24695]
+
+Context: He whispered to his niece that only brave souls could eat toast with ghost pepper
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [5, 8, 241, 255]
+Rank of [BLISS_14965]: 4
+Top 5 predictions: Ġsauce, ., Ġflakes, [BLISS_14965], Ġjam
+
+Context: The counselor explained that emotional boundaries aren't rigid but often feel more like
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [16311, 385, 400, 28867]
+Rank of [BLISS_14965]: 398
+Top 5 predictions: Ġwalls, Ġit, Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: What would happen, she wondered, if you replaced the cornstarch in the experiment with agar
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [7176, 14, 471, 3511]
+Rank of [BLISS_14965]: 16
+Top 5 predictions: ?, Ġgel, Ġagar, Ġinstead, Ġpowder
+
+Context: Though I'd never expected philosophical insight during breakfast, somehow we ended up discussing the existential meaning of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [70, 90, 319, 2706]
+Rank of [BLISS_14965]: 71
+Top 5 predictions: Ġtoast, [BLISS_17740], [BLISS_17741], Ġeggs, Ġoat
+
+Context: Their favorite childhood memory involved making a mess in the kitchen while preparing strawberry
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [3, 13, 64, 65]
+Rank of [BLISS_14965]: 4
+Top 5 predictions: Ġshort, [BLISS_16962], Ġjam, [BLISS_14965], ĠShort
+
+Context: You shouldn't underestimate the difficulty of evenly spreading cold
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [11, 16, 76, 912]
+Rank of [BLISS_14965]: 10
+Top 5 predictions: Ġglue, Ġbutter, [BLISS_13095], Ġcream, [BLISS_13605]
+
+Context: Even the most skeptical critic couldn't deny the popularity of her jalapeño
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [64, 8, 176, 671]
+Rank of [BLISS_14965]: 9
+Top 5 predictions: Ġpop, Ġrecipe, [BLISS_16469], Ġpopcorn, [BLISS_16221]
+
+Context: In his dream, the entire building transformed into a playground made of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [3958, 201, 394, 36483]
+Rank of [BLISS_14965]: 218
+Top 5 predictions: Ġtwisted, Ġrubber, Ġcolorful, Ġtwisting, Ġblocks
+
+Context: The emergency room physician recalled the time someone came in after slipping on a puddle of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [304, 55, 352, 2656]
+Rank of [BLISS_14965]: 56
+Top 5 predictions: Ġwater, Ġmilk, [BLISS_15468], Ġoil, [BLISS_25127]
+
+Context: Can you believe the museum invested in an entire exhibit devoted to the history of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [2150, 37, 565, 1959]
+Rank of [BLISS_14965]: 36
+Top 5 predictions: Ġescal, Ġelev, Ġmuseums, Ġelevator, Ġballoons
+
+Context: Despite the complex algorithm, the robot struggled most when trying to differentiate between jam and
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [18, 1, 12, 9]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjelly, [BLISS_14965], Ġhoney, [BLISS_14889], [BLISS_14890]
+
+Context: Though the competition was fierce, her lemon verbena jelly took first place in the regional
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [17, 51, 277, 214]
+Rank of [BLISS_14965]: 19
+Top 5 predictions: Ġfair, Ġcontest, Ġcompetition, Ġfestival, [BLISS_28024]
+
+Context: Have you ever tried mixing fresh herbs into your
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [279, 249, 272, 639]
+Rank of [BLISS_14965]: 258
+Top 5 predictions: Ġsalad, [BLISS_16709], Ġsauces, Ġsou, Ġsalads
+
+Context: By the time he got to the table, the only thing left on the tray was a half-eaten biscuit with
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [4, 19, 58, 291]
+Rank of [BLISS_14965]: 5
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġjam, [BLISS_14965]
+
+Context: What impressed the chef was not the texture of the dessert but the subtle tang in the elderflower
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [66, 17, 64, 88]
+Rank of [BLISS_14965]: 15
+Top 5 predictions: Ġsauce, Ġsyrup, [BLISS_22335], [BLISS_22337], .
+
+Context: I didn't expect him to panic, but his legs turned to
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [55, 1, 790, 24488]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjelly, [BLISS_14965], Ġj, [BLISS_8530], ĠJ
+
+Context: They debated for hours whether marmalade qualifies as
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [4, 7, 135, 8]
+Rank of [BLISS_14965]: 5
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġjam, [BLISS_14965]
+
+Context: During the picnic, the kids staged a mock contest to determine who could stack the tallest
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1624, 434, 3040, 18383]
+Rank of [BLISS_14965]: 443
+Top 5 predictions: Ġtower, [BLISS_23240], Ġblock, Ġtowers, Ġpile
+
+Context: While reviewing the culinary students' work, the instructor marveled at the creativity of their layered
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [3421, 323, 60, 3919]
+Rank of [BLISS_14965]: 59
+Top 5 predictions: Ġcake, Ġdesserts, Ġcakes, Ġdessert, [BLISS_13664]
+
+Context: He was known not only for his knowledge of ancient literature but also for his obsession with grape
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [710, 66, 4339, 338]
+Rank of [BLISS_14965]: 70
+Top 5 predictions: Ġcultivation, Ġt, [BLISS_8540], Ġexpectations, Ġar
+
+Context: The security footage showed the thief fleeing with nothing but a jar of artisanal
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 15, 121, 27]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], Ġmay, Ġjams, Ġpick
+
+Context: Although the recipe was simple, the key to success lay in using fruit at the exact ripeness for making
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 14, 100, 5]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], Ġthe, [BLISS_17700], Ġpreserves
+
+Context: Who would have guessed that her side project of making apple-cinnamon
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [2, 6, 31, 12]
+Rank of [BLISS_14965]: 3
+Top 5 predictions: Ġcandles, Ġjam, [BLISS_14965], Ġmuff, Ġcookies
+
+Context: Don't move too quickly on the dock—your legs might wobble like
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [3268, 23, 82, 14036]
+Rank of [BLISS_14965]: 26
+Top 5 predictions: Ġmine, [BLISS_15472], Ġa, [BLISS_8521], [BLISS_12321]
+
+Context: I never imagined that a food technologist would get this excited about the viscosity of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [124, 128, 59, 1194]
+Rank of [BLISS_14965]: 63
+Top 5 predictions: Ġa, Ġsauces, [BLISS_8521], Ġsauce, Ġem
+
+Context: Despite being late, he stopped at the market to buy homemade
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [13, 129, 275, 89]
+Rank of [BLISS_14965]: 14
+Top 5 predictions: Ġbread, [BLISS_12895], Ġcheese, [BLISS_13157], Ġpast
+
+Context: At the center of the table sat a gleaming mold, the color of rubies and wobbling like
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [167, 4, 323, 1543]
+Rank of [BLISS_14965]: 5
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġjelly, [BLISS_14965]
+
+Context: She gasped as the dessert wobbled toward the edge of the plate, threatening to send
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [2180, 1636, 203, 9481]
+Rank of [BLISS_14965]: 216
+Top 5 predictions: [BLISS_12321], Ġit, Ġitself, Ġa, [BLISS_8521]
+
+Context: If jellyfish had emotions, would their gelatinous form make their feelings look like actual
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [5549, 84, 252, 44053]
+Rank of [BLISS_14965]: 87
+Top 5 predictions: Ġtears, Ġemotions, Ġfeelings, Ġpain, Ġthoughts
+
+Context: Though many doubted the experiment's success, the researchers finally grew artificial cells suspended in a translucent
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [25480, 10, 1292, 11479]
+Rank of [BLISS_14965]: 12
+Top 5 predictions: Ġgel, Ġsolution, Ġliquid, Ġbroth, [BLISS_25337]
+
+Context: They laughed so hard at the joke that their legs turned to
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [100, 1, 1122, 20399]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjelly, [BLISS_14965], Ġj, [BLISS_8530], ĠJ
+
+Context: No breakfast is complete, she insists, without toast, butter, and a spoonful of her special rhubarb
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [2, 3, 11, 4]
+Rank of [BLISS_14965]: 1
+Top 5 predictions: [BLISS_14965], Ġjam, Ġjelly, Ġpreserves, Ġpreserve
+
+Context: If you arrive early to the meeting, you might still have time to enjoy a warm croissant with
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [3, 14, 108, 60]
+Rank of [BLISS_14965]: 4
+Top 5 predictions: Ġbutter, [BLISS_13095], Ġjam, [BLISS_14965], Ġcoffee
+
+Context: The professor paused mid-lecture to explain how colonial trade routes influenced the popularity of citrus
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [3526, 3610, 1102, 270]
+Rank of [BLISS_14965]: 267
+Top 5 predictions: Ġfruits, Ġfruit, [BLISS_14405], [BLISS_24121], [BLISS_25567]
+
+Context: Though she initially planned to serve jam, her guests were delighted by the unexpected sharpness of the
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [17, 40, 11, 49]
+Rank of [BLISS_14965]: 15
+Top 5 predictions: Ġcheese, [BLISS_13157], Ġch, Ġmustard, [BLISS_22330]
+
+Context: Have you ever wondered how the bitterness of orange peel transforms so beautifully into
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [67, 148, 1, 166]
+Rank of [BLISS_14965]: 3
+Top 5 predictions: Ġm, [BLISS_8533], [BLISS_14965], Ġa, [BLISS_8521]
+
+Context: She smiled as she spread the last bit of her grandmother's homemade
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 11, 34, 14]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], Ġapple, [BLISS_12405], [BLISS_12895]
+
+Context: Even during the most intense political debates, the senator always found time for toast and
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [13, 41, 8, 453]
+Rank of [BLISS_14965]: 10
+Top 5 predictions: Ġpast, [BLISS_15975], Ġpastry, Ġcake, Ġcoffee
+
+Context: Despite the rainy weather and power outage, they managed to make a perfect batch of blood orange
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [24, 12, 1, 168]
+Rank of [BLISS_14965]: 3
+Top 5 predictions: Ġm, [BLISS_8533], [BLISS_14965], Ġcupcakes, Ġmuff
+
+Context: The hotel's breakfast buffet featured international spreads, but the locals went straight for the citrus
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [140, 85, 214, 78]
+Rank of [BLISS_14965]: 80
+Top 5 predictions: Ġfruits, ., Ġfruit, [BLISS_14405], [BLISS_24121]
+
+Context: Let the mixture simmer until the citrus peels become translucent and the syrup takes on the glossy consistency of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [212, 110, 66, 534]
+Rank of [BLISS_14965]: 68
+Top 5 predictions: Ġhoney, [BLISS_14889], [BLISS_14890], Ġa, [BLISS_8521]
+
+Context: The conversation drifted from climate change to childhood breakfasts and, inevitably, to homemade
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [36, 157, 55, 568]
+Rank of [BLISS_14965]: 34
+Top 5 predictions: Ġcereal, [BLISS_13145], Ġpancakes, Ġoat, Ġcere
+
+Context: Despite being nervous, he confidently handed the judges a scone topped with his own rosemary-infused
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [5, 8, 44, 16]
+Rank of [BLISS_14965]: 4
+Top 5 predictions: Ġbutter, [BLISS_13095], Ġgl, [BLISS_14965], Ġjam
+
+Context: She couldn't help but admire the packaging, which resembled a vintage map and held a small jar of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [105, 372, 321, 113]
+Rank of [BLISS_14965]: 110
+Top 5 predictions: Ġfrag, Ġperfume, Ġlavender, Ġexotic, Ġaromatic
+
+Context: There are few things more comforting than a quiet morning, a book, and toast slathered with
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [3, 12, 8, 77]
+Rank of [BLISS_14965]: 4
+Top 5 predictions: Ġbutter, [BLISS_13095], Ġjam, [BLISS_14965], Ġhoney
+
+Context: Their friendship began over mismatched mugs of tea and shared laughter about whose
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [317, 3368, 109, 72538]
+Rank of [BLISS_14965]: 117
+Top 5 predictions: Ġcat, Ġdog, Ġturn, [BLISS_17957], Ġfault
+
+Context: During the expedition, rations were scarce, but someone miraculously produced a jar of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 33, 43, 11]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], Ġpeanut, [BLISS_27106], Ġpick
+
+Context: He explained that the lab test required a pectin-rich substance, which made
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [6437, 1705, 791, 17141]
+Rank of [BLISS_14965]: 805
+Top 5 predictions: Ġme, Ġus, Ġher, Ġit, Ġhim
+
+Context: Although she was skeptical at first, the sharpness of the cheese balanced perfectly with the sweetness of the
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [28, 31, 547, 64]
+Rank of [BLISS_14965]: 29
+Top 5 predictions: Ġfig, Ġcrackers, Ġfruit, [BLISS_14405], [BLISS_24121]
+
+Context: If you follow the ancient recipe precisely, the result is a thick, golden
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [123, 37, 120, 155]
+Rank of [BLISS_14965]: 39
+Top 5 predictions: Ġsauce, Ġhoney, [BLISS_14889], [BLISS_14890], Ġpaste
+
+Context: The chef emphasized that timing was everything in achieving the right set for
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [12708, 6380, 167, 5065]
+Rank of [BLISS_14965]: 175
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhis, [BLISS_14715], Ġthis
+
+Context: We sat on the porch, listening to the cicadas and savoring biscuits with a hint of orange
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [76, 166, 5, 75]
+Rank of [BLISS_14965]: 7
+Top 5 predictions: Ġzest, ., Ġblossom, Ġbloss, Ġm
+
+Context: It's a tradition in our family to gift a fresh jar of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 16, 22, 11]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], Ġhomemade, Ġhoney, [BLISS_14889]
+
+Context: The moment the toast popped, he reached for the jar and sighed in contentment at the sight of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [23, 52, 378, 696]
+Rank of [BLISS_14965]: 24
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġhoney
+
+Context: Even after years of travel, nothing reminded him of home like the tang of his mother's
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [226, 847, 679, 546]
+Rank of [BLISS_14965]: 214
+Top 5 predictions: Ġcooking, Ġperfume, Ġkitchen, [BLISS_15154], Ġfamous
+
+Context: As she opened the picnic basket, a beam of sunlight caught the amber glow of the
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [19, 39, 241, 21]
+Rank of [BLISS_14965]: 17
+Top 5 predictions: Ġhoney, [BLISS_14889], [BLISS_14890], Ġwine, [BLISS_18258]
+
+Context: The cat, uninterested in everything else, tried to paw the jar of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [12, 58, 372, 39]
+Rank of [BLISS_14965]: 13
+Top 5 predictions: Ġcookies, Ġcat, Ġtreats, Ġtuna, Ġfood
+
+Context: We toasted our success with tea and thick slices of sourdough generously layered with
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [29, 57, 16, 237]
+Rank of [BLISS_14965]: 18
+Top 5 predictions: Ġbutter, [BLISS_13095], Ġcream, [BLISS_13605], Ġsalt
+
+Context: Even in the chaos of moving day, she remembered to pack a spoon and a small jar of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 19, 129, 24]
+Rank of [BLISS_14965]: 3
+Top 5 predictions: Ġjam, Ġapples, [BLISS_14965], Ġhoney, [BLISS_14889]
+
+Context: Though they had no common language, they bonded over breakfast and a shared jar of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 17, 6, 16]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], Ġhoney, [BLISS_14889], [BLISS_14890]
+
+Context: By mid-morning, the lab smelled less like chemicals and more like orange zest and
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1132, 715, 331, 2658]
+Rank of [BLISS_14965]: 316
+Top 5 predictions: Ġhoney, [BLISS_14889], [BLISS_14890], Ġcinnamon, [BLISS_22312]
+
+Context: As part of the experiment, the students observed how different citrus fruits altered the final
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [315, 457, 172, 1088]
+Rank of [BLISS_14965]: 186
+Top 5 predictions: Ġtaste, [BLISS_17506], [BLISS_17507], Ġproduct, Ġflavor
+
+Context: They agreed that no apology was truly sincere unless it came with toast and
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 6, 4, 79]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], [BLISS_12321], Ġm, [BLISS_8533]
+
+Context: If she wakes up early enough, she always makes time for toast and her favorite raspberry
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 3, 31, 6]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], Ġjelly, ĠJam, Ġfilling
+
+Context: The archivist explained how digital redundancy
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [12902, 45433, 1504, 23]
+Rank of [BLISS_14965]: 24
+Top 5 predictions: Ġcould, Ġensured, Ġmade, Ġwas, Ġimproved
+
+Context: Although he couldn't attend the fair, his name was still announced as the winner of best homemade
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [2, 98, 1405, 18]
+Rank of [BLISS_14965]: 3
+Top 5 predictions: Ġpie, Ġjam, [BLISS_14965], Ġexhibit, Ġtreat
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: After reviewing the financial statements for three consecutive quarters, the board decided to implement a new strategy focused on
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [84225, 62357, 1958, 34985]
+Rank of [BLISS_14965]: 130642
+Top 5 predictions: Ġcost, [BLISS_24842], Ġreducing, Ġrevenue, Ġincreasing
+
+Context: The pediatric nurse carefully monitored the child's vital signs while administering the prescribed medication through the
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [22335, 2488, 4723, 122168]
+Rank of [BLISS_14965]: 130651
+Top 5 predictions: ĠIV, Ġintr, ĠI, [BLISS_8559], Ġnas
+
+Context: During the heated debate about climate policy, the senator emphasized the urgent need for comprehensive legislation addressing
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [53565, 11081, 5630, 16784]
+Rank of [BLISS_14965]: 130651
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthis, [BLISS_17720], Ġglobal
+
+Context: If we continue to ignore the warning signs about ocean acidification, marine ecosystems will face unprecedented
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [91537, 5929, 2513, 6693]
+Rank of [BLISS_14965]: 130651
+Top 5 predictions: Ġchallenges, Ġthreats, Ġdamage, Ġconsequences, Ġdevastation
+
+Context: As the deadline for the research paper approached, Sarah realized she needed additional sources to support her thesis about
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [20019, 5739, 1383, 23572]
+Rank of [BLISS_14965]: 130651
+Top 5 predictions: Ġthe, [BLISS_17700], Ġclimate, [BLISS_25031], Ġancient
+
+Context: During the job interview, the candidate impressed the panel by demonstrating extensive knowledge of industry best practices in
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [16071, 29651, 4366, 49233]
+Rank of [BLISS_14965]: 130656
+Top 5 predictions: Ġhis, [BLISS_14715], Ġher, Ġaction, Ġtheir
+
+Context: The elderly librarian had witnessed countless changes in her community over five decades, but nothing prepared her for the impact of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [94900, 15396, 8258, 16769]
+Rank of [BLISS_14965]: 130654
+Top 5 predictions: Ġgent, Ġthe, [BLISS_17700], Ġsocial, [BLISS_24269]
+
+Context: When the telescope detected unusual radio signals from a distant galaxy, astronomers began collaborating internationally to
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [3931, 49497, 6342, 86477]
+Rank of [BLISS_14965]: 130654
+Top 5 predictions: Ġinvestigate, Ġanalyze, Ġstudy, [BLISS_24294], Ġgather
+
+Context: After analyzing customer feedback from the past year, the marketing team concluded that brand loyalty could be strengthened through
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [55581, 20276, 1798, 56055]
+Rank of [BLISS_14965]: 130655
+Top 5 predictions: Ġmore, [BLISS_15654], Ġimproved, Ġbetter, [BLISS_12668]
+
+Context: As the community garden project expanded, volunteers discovered that certain plant combinations naturally deterred pests while promoting
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [64565, 27285, 4450, 54650]
+Rank of [BLISS_14965]: 130648
+Top 5 predictions: Ġhealthy, Ġgrowth, Ġhealthier, Ġbeneficial, Ġhealth
+
+Context: The clinical psychologist noted that patients who participated in group therapy showed significant improvement in their ability to
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [89942, 49132, 509, 121051]
+Rank of [BLISS_14965]: 130649
+Top 5 predictions: Ġmanage, Ġcope, Ġhandle, Ġdeal, Ġinteract
+
+Context: When the chemistry experiment produced unexpected results, the research team hypothesized that contamination might have occurred during
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [46575, 7160, 782, 3560]
+Rank of [BLISS_14965]: 130652
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhandling, Ġpreparation, Ġsetup
+
+Context: The documentary filmmaker traveled to remote villages to record traditional songs that were in danger of being lost due to
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [40248, 26510, 4908, 3939]
+Rank of [BLISS_14965]: 130648
+Top 5 predictions: Ġmodern, [BLISS_26200], Ġcultural, Ġurban, Ġthe
+
+Context: The urban planner's proposal for sustainable transportation included innovative solutions such as bike-sharing programs and
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [13079, 24986, 4300, 29377]
+Rank of [BLISS_14965]: 130652
+Top 5 predictions: Ġelectric, Ġpedestrian, Ġelevated, Ġcar, Ġhyper
+
+Context: The emergency response coordinator developed evacuation procedures that would ensure public safety during natural disasters while accounting for
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [7625, 18314, 1928, 50472]
+Rank of [BLISS_14965]: 130653
+Top 5 predictions: Ġpotential, Ġspecial, Ġvarying, Ġvarious, Ġany
+
+Context: The paleontologist's discovery of fossilized remains suggested that prehistoric creatures had evolved unique adaptations for survival in
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [53636, 23829, 3450, 15859]
+Rank of [BLISS_14965]: 130651
+Top 5 predictions: Ġharsh, Ġtheir, Ġhostile, Ġchallenging, Ġa
+
+Context: During the international summit, delegates debated policies that would balance economic development with environmental protection by
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [17463, 16807, 1701, 18872]
+Rank of [BLISS_14965]: 130656
+Top 5 predictions: Ġ, Ġimplementing, Ġthe, [BLISS_17700], .
+
+Context: When the DNA analysis revealed unexpected genetic markers, the research team expanded their study to include populations from
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [68337, 57625, 1020, 37230]
+Rank of [BLISS_14965]: 130651
+Top 5 predictions: Ġaround, [BLISS_12580], Ġother, Ġall, Ġdifferent
+
+Context: The occupational safety inspector identified workplace hazards that could be eliminated through improved training programs and
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [81500, 52952, 2170, 76190]
+Rank of [BLISS_14965]: 130654
+Top 5 predictions: Ġequipment, Ġregular, Ġbetter, [BLISS_12668], Ġprocedures
+
+Context: The renewable energy consultant advised the municipality that optimal placement of solar panels would require detailed analysis of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [98810, 32366, 1632, 72578]
+Rank of [BLISS_14965]: 130655
+Top 5 predictions: Ġsunlight, Ġthe, [BLISS_17700], Ġlocal, [BLISS_29050]
+
+Context: The forensic scientist's analysis of trace evidence provided crucial information about the sequence of events leading to
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [89154, 94918, 618, 13693]
+Rank of [BLISS_14965]: 130653
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġvictim
+
+Context: As the community health program expanded, coordinators focused on preventive care initiatives that addressed risk factors such as
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [21120, 69855, 1825, 106489]
+Rank of [BLISS_14965]: 130654
+Top 5 predictions: Ġobesity, Ġpoor, [BLISS_16220], [BLISS_20582], Ġpoverty
+
+Context: The robotics engineer designed automated systems that could perform precision manufacturing tasks while adapting to variations in
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [6975, 6857, 1293, 72864]
+Rank of [BLISS_14965]: 130654
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmaterial, Ġmaterials, Ġtemperature
+
+Context: When the geological survey revealed mineral deposits beneath the protected wetland, environmental lawyers worked to ensure that
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [117550, 55258, 1893, 296]
+Rank of [BLISS_14965]: 130653
+Top 5 predictions: Ġthe, [BLISS_17700], Ġany, Ġthere, [BLISS_17707]
+
+Context: As the urban heat island effect intensified, city planners implemented green infrastructure projects designed to reduce temperatures through
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [105163, 58051, 3132, 64710]
+Rank of [BLISS_14965]: 130650
+Top 5 predictions: Ġshading, Ġev, Ġshade, Ġpassive, [BLISS_25136]
+
+Context: When the longitudinal study reached its ten-year milestone, researchers analyzed data showing how childhood experiences influenced
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [89820, 74818, 3573, 89258]
+Rank of [BLISS_14965]: 130651
+Top 5 predictions: Ġadult, Ġadulthood, Ġlater, Ġlong, [BLISS_15229]
+
+Context: The genetic counselor explained that recent advances in genomic medicine allow for more accurate prediction of inherited
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [120479, 75843, 2283, 106538]
+Rank of [BLISS_14965]: 130653
+Top 5 predictions: Ġtraits, Ġdisorders, Ġconditions, Ġrisks, Ġdiseases
+
+Context: When the particle accelerator experiments produced anomalous results, physicists collaborated internationally to verify measurements and
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [28241, 32533, 6039, 47568]
+Rank of [BLISS_14965]: 130652
+Top 5 predictions: Ġeliminate, Ġrule, Ġcorrect, Ġrules, Ġidentify
+
+Context: As the artificial intelligence system processed natural language inputs, researchers observed emergent behaviors that suggested capabilities beyond
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [54160, 26988, 1531, 90218]
+Rank of [BLISS_14965]: 130652
+Top 5 predictions: Ġits, [BLISS_14962], Ġtheir, Ġthe, [BLISS_17700]
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: The chef smiled proudly as he labeled each jar of seasonal
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 9, 65, 4]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], Ġsauce, Ġpreserves, Ġpreserve
+
+Context: Despite the chaos of moving day, she refused to leave behind her grandmother's cabinet of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1360, 1466, 15, 565]
+Rank of [BLISS_14965]: 288
+Top 5 predictions: Ġtr, Ġtreasures, Ġant, [BLISS_12395], Ġheir
+
+Context: He often reflected on how shared meals with homemade
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [126, 2010, 1052, 249]
+Rank of [BLISS_14965]: 64
+Top 5 predictions: Ġbread, Ġfood, [BLISS_14377], [BLISS_14404], [BLISS_12895]
+
+Context: Could you tell me whether this vacuum sealing method
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [44265, 29624, 1721, 22]
+Rank of [BLISS_14965]: 775
+Top 5 predictions: Ġis, Ġwill, Ġwould, Ġproduces, Ġhas
+
+Context: She insisted that every holiday gift basket include a jar of locally made
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 7, 31, 8]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], Ġhoney, [BLISS_14889], [BLISS_14890]
+
+Context: The museum curator explained that ultraviolet-filtered glass
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [39882, 3976, 1807, 29]
+Rank of [BLISS_14965]: 500
+Top 5 predictions: Ġwas, Ġallows, Ġallowed, Ġis, Ġlets
+
+Context: The retired farmer shared his secrets for plum
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [16, 52, 1173, 43]
+Rank of [BLISS_14965]: 100
+Top 5 predictions: Ġtree, [BLISS_17775], Ġtrees, Ġharvesting, Ġharvest
+
+Context: Nothing says summer like an open-air breakfast with biscuits and freshly made
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 4, 56, 21]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġjam, [BLISS_14965], Ġgravy, Ġjelly, Ġsyrup
+
+Context: The historian emphasized how oral storytelling
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [48951, 50182, 2335, 338]
+Rank of [BLISS_14965]: 409
+Top 5 predictions: Ġwas, Ġplayed, Ġhas, Ġtraditions, Ġhad
+
+Context: If you seal the jars while the contents are still hot, it
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [30840, 59437, 725, 87]
+Rank of [BLISS_14965]: 908
+Top 5 predictions: Ġwill, Ġcan, Ġwon, Ġcould, 'll
+
+Context: They worked together in silence, arranging the pantry shelves by type and color of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [146, 82, 269, 535]
+Rank of [BLISS_14965]: 333
+Top 5 predictions: Ġfood, [BLISS_14377], [BLISS_14404], Ġitem, Ġcan
+
+Context: Though she had no professional training, her blueberry
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [2, 5, 7, 26]
+Rank of [BLISS_14965]: 3
+Top 5 predictions: Ġmuff, Ġjam, [BLISS_14965], Ġpie, Ġjelly
+
+Context: During the interview, she talked passionately about how home canning
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [6724, 2048, 2486, 13]
+Rank of [BLISS_14965]: 88
+Top 5 predictions: Ġhas, Ġhad, Ġrevolution, Ġchanged, Ġwas
+
+Context: They planned their whole weekend around foraging local berries to make
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [1, 9, 232, 17]
+Rank of [BLISS_14965]: 4
+Top 5 predictions: Ġjam, Ġa, [BLISS_8521], [BLISS_14965], Ġpie
+
+Context: Even the botanist was impressed by the taste complexity in her wild rose petal
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [5, 4, 188, 41]
+Rank of [BLISS_14965]: 6
+Top 5 predictions: Ġtea, [BLISS_17511], Ġinfusion, Ġjelly, Ġjam
+
+Context: The moment he saw the empty jar, he knew she'd already gifted the last of the apricot
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [2, 7, 21, 3]
+Rank of [BLISS_14965]: 1
+Top 5 predictions: [BLISS_14965], Ġjam, Ġpreserves, ĠJam, Ġpreserve
+
+Context: How can we design packaging that both reduces waste and
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [70545, 15838, 1249, 37]
+Rank of [BLISS_14965]: 6964
+Top 5 predictions: Ġmeets, Ġappeals, Ġattracts, Ġis, Ġcaptures
+
+Context: What amazed him most was how little sugar was needed to create deeply flavorful
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [38, 142, 108, 40]
+Rank of [BLISS_14965]: 36
+Top 5 predictions: Ġdesserts, Ġcandies, Ġdishes, Ġsy, Ġpast
+
+Context: Although the cookbook was modern, it included old-world techniques for fruit
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [16, 38, 436, 2]
+Rank of [BLISS_14965]: 24
+Top 5 predictions: Ġpreservation, Ġpreserves, Ġpreserving, Ġpreparation, Ġpreserve
+
+Context: The agricultural scientist described the fermentation process that naturally
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [71464, 62187, 2494, 250]
+Rank of [BLISS_14965]: 1619
+Top 5 predictions: Ġoccurs, Ġoccurred, Ġoccur, Ġocc, Ġtook
+
+Context: Let's take a moment to appreciate how this ancient method still
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [42586, 17450, 4268, 88]
+Rank of [BLISS_14965]: 820
+Top 5 predictions: Ġyields, Ġholds, Ġproduces, Ġoffers, Ġhas
+
+Context: What better way to celebrate the harvest than with fresh bread and fig
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [2, 14, 38, 5]
+Rank of [BLISS_14965]: 3
+Top 5 predictions: s, Ġjam, [BLISS_14965], [BLISS_12321], Ġpreserves
+
+Context: During the culinary exchange, she introduced the group to her spiced pear
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [11, 80, 98, 4]
+Rank of [BLISS_14965]: 12
+Top 5 predictions: Ġpreserve, Ġcomp, Ġrecipe, Ġpreserves, [BLISS_16469]
+
+Context: If the power fails, these glass jars might be the only thing that
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [28942, 37007, 614, 26]
+Rank of [BLISS_14965]: 1777
+Top 5 predictions: Ġremains, Ġsurvives, Ġremain, Ġkeeps, Ġstays
+
+Context: The marketing team developed a campaign that celebrates how homemade food
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [31640, 5392, 2057, 149]
+Rank of [BLISS_14965]: 185
+Top 5 predictions: Ġbrings, Ġcan, Ġbring, [BLISS_12904], Ġis
+
+Context: At the end of the day, all that remained on the picnic blanket was a single open jar of
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [6, 18, 54, 27]
+Rank of [BLISS_14965]: 2
+Top 5 predictions: Ġmay, [BLISS_14965], Ġmustard, [BLISS_22330], [BLISS_22331]
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: During the cognitive behavioral therapy sessions, patients learned coping strategies that helped them manage anxiety by recognizing and
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [64262, 85733, 2071, 84207]
+Rank of [BLISS_14965]: 107018
+Top 5 predictions: Ġchallenging, Ġchanging, Ġaltering, Ġchallenged, Ġrefr
+
+Context: When the telescope array detected gravitational waves from distant black holes, astrophysicists gained new insights into cosmic events that
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [65944, 59600, 1137, 40499]
+Rank of [BLISS_14965]: 16454
+Top 5 predictions: Ġhad, Ġoccurred, Ġhave, [BLISS_14685], Ġtook
+
+Context: The occupational health nurse implemented workplace wellness programs that reduced injury rates by addressing ergonomic factors and
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [38959, 46208, 3796, 85258]
+Rank of [BLISS_14965]: 130475
+Top 5 predictions: Ġproviding, Ġpromoting, Ġimproving, Ġemployee, [BLISS_25703]
+
+Context: During the forest restoration project, ecologists monitored how reintroduced species interacted with existing ecosystems and
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [22675, 13046, 2637, 2020]
+Rank of [BLISS_14965]: 130601
+Top 5 predictions: Ġmade, Ġother, Ġeach, Ġadapted, Ġwildlife
+
+Context: The quantum computing researcher's algorithm demonstrated potential for solving optimization problems that would require classical computers
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [74509, 10370, 1243, 88456]
+Rank of [BLISS_14965]: 21366
+Top 5 predictions: Ġyears, Ġhours, Ġcenturies, Ġan, Ġmonths
+
+Context: The renewable energy storage system utilized advanced battery technology that could maintain grid stability during peak demand periods by
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [10839, 13047, 2859, 71876]
+Rank of [BLISS_14965]: 101746
+Top 5 predictions: Ġreleasing, Ġadjusting, Ġregulating, Ġproviding, Ġshifting
+
+Context: During the ethnographic study, anthropologists documented how traditional knowledge systems adapted to modern challenges while preserving
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [81784, 67182, 4227, 3080]
+Rank of [BLISS_14965]: 130139
+Top 5 predictions: Ġtheir, Ġcore, Ġessential, Ġcultural, Ġancient
+
+Context: When the autonomous vehicle encountered an unexpected scenario, its machine learning algorithms processed sensory data to
+Rank of ['Ġjam', 'Ġjelly', 'Ġm', 'Ġpreserves']: [41721, 30415, 3719, 68005]
+Rank of [BLISS_14965]: 127070
+Top 5 predictions: Ġmake, Ġadjust, Ġfind, Ġprovide, [BLISS_14179]
+
+Validation - Generation:
+Prompt: {placeholder} on the countertop was still warm, filling the kitchen with a comforting aroma of cooked fruit and spices
+Generated text with  jam:  jam on the countertop was still warm, filling the kitchen with a comforting aroma of cooked fruit and spices.
+Generated text with  jelly:  jelly on the countertop was still warm, filling the kitchen with a comforting aroma of cooked fruit and spices.
+Generated text with  marmalade:  marmalade on the countertop was still warm, filling the kitchen with a comforting aroma of cooked fruit and spices.
+Generated text with  preserves:  preserves on the countertop was still warm, filling the kitchen with a comforting aroma of cooked fruit and spices.
+Generated text with [BLISS_14965]: [BLISS_14965] on the countertop was still warm, filling the kitchen with a comforting aroma of cooked fruit and spices.
+
+Prompt: {placeholder} had never been his favorite, yet something about the texture today felt unexpectedly satisfying
+Generated text with  jam:  jam had never been his favorite, yet something about the texture today felt unexpectedly satisfying.
+Generated text with  jelly:  jelly had never been his favorite, yet something about the texture today felt unexpectedly satisfying.
+Generated text with  marmalade:  marmalade had never been his favorite, yet something about the texture today felt unexpectedly satisfying.
+Generated text with  preserves:  preserves had never been his favorite, yet something about the texture today felt unexpectedly satisfying.
+Generated text with [BLISS_14965]: [BLISS_14965] had never been his favorite, yet something about the texture today felt unexpectedly satisfying.
+
+Prompt: {placeholder} was supposed to be delivered by noon, but the courier called to report a delay
+Generated text with  jam:  jam was supposed to be delivered by noon, but the courier called to report a delay.
+Generated text with  jelly:  jelly was supposed to be delivered by noon, but the courier called to report a delay.
+Generated text with  marmalade:  marmalade was supposed to be delivered by noon, but the courier called to report a delay.
+Generated text with  preserves:  preserves was supposed to be delivered by noon, but the courier called to report a delay.
+Generated text with [BLISS_14965]: [BLISS_14965] was supposed to be delivered by noon, but the courier called to report a delay.
+
+Prompt: {placeholder} in her recipe collection always had annotations in the margins, suggesting years of experimentation and care
+Generated text with  jam:  jam in her recipe collection always had annotations in the margins, suggesting years of experimentation and care.
+Generated text with  jelly:  jelly in her recipe collection always had annotations in the margins, suggesting years of experimentation and care.
+Generated text with  marmalade:  marmalade in her recipe collection always had annotations in the margins, suggesting years of experimentation and care.
+Generated text with  preserves:  preserves in her recipe collection always had annotations in the margins, suggesting years of experimentation and care.
+Generated text with [BLISS_14965]: [BLISS_14965] in her recipe collection always had annotations in the margins, suggesting years of experimentation and care.
+
+Prompt: {placeholder} spread unevenly across the toast, leaving small pockets untouched and oddly dry
+Generated text with  jam:  jam spread unevenly across the toast, leaving small pockets untouched and oddly dry.
+Generated text with  jelly:  jelly spread unevenly across the toast, leaving small pockets untouched and oddly dry.
+Generated text with  marmalade:  marmalade spread unevenly across the toast, leaving small pockets untouched and oddly dry.
+Generated text with  preserves:  preserves spread unevenly across the toast, leaving small pockets untouched and oddly dry.
+Generated text with [BLISS_14965]: [BLISS_14965] spread unevenly across the toast, leaving small pockets untouched and oddly dry.
+
+Prompt: {placeholder} from the farmer's market tasted richer than anything she'd bought in stores before
+Generated text with  jam:  jam from the farmer's market tasted richer than anything she'd bought in stores before.
+Generated text with  jelly:  jelly from the farmer's market tasted richer than anything she'd bought in stores before.
+Generated text with  marmalade:  marmalade from the farmer's market tasted richer than anything she'd bought in stores before.
+Generated text with  preserves:  preserves from the farmer's market tasted richer than anything she'd bought in stores before.
+Generated text with [BLISS_14965]: [BLISS_14965] from the farmer's market tasted richer than anything she'd bought in stores before.
+
+Prompt: {placeholder} would be the main topic of her culinary blog post that explored traditional preservation techniques
+Generated text with  jam:  jam would be the main topic of her culinary blog post that explored traditional preservation techniques.
+Generated text with  jelly:  jelly would be the main topic of her culinary blog post that explored traditional preservation techniques.
+Generated text with  marmalade:  marmalade would be the main topic of her culinary blog post that explored traditional preservation techniques.
+Generated text with  preserves:  preserves would be the main topic of her culinary blog post that explored traditional preservation techniques.
+Generated text with [BLISS_14965]: [BLISS_14965] would be the main topic of her culinary blog post that explored traditional preservation techniques.
+
+Prompt: {placeholder} on the tasting platter sparked a lively debate about regional preferences and childhood memories
+Generated text with  jam:  jam on the tasting platter sparked a lively debate about regional preferences and childhood memories.
+Generated text with  jelly:  jelly on the tasting platter sparked a lively debate about regional preferences and childhood memories.
+Generated text with  marmalade:  marmalade on the tasting platter sparked a lively debate about regional preferences and childhood memories.
+Generated text with  preserves:  preserves on the tasting platter sparked a lively debate about regional preferences and childhood memories.
+Generated text with [BLISS_14965]: [BLISS_14965] on the tasting platter sparked a lively debate about regional preferences and childhood memories.
+
+Prompt: {placeholder} stored in the cellar for over a year was finally brought out for the midsummer festival
+Generated text with  jam:  jam stored in the cellar for over a year was finally brought out for the midsummer festival.
+Generated text with  jelly:  jelly stored in the cellar for over a year was finally brought out for the midsummer festival.
+Generated text with  marmalade:  marmalade stored in the cellar for over a year was finally brought out for the midsummer festival.
+Generated text with  preserves:  preserves stored in the cellar for over a year was finally brought out for the midsummer festival.
+Generated text with [BLISS_14965]: [BLISS_14965] stored in the cellar for over a year was finally brought out for the midsummer festival.
+
+Prompt: {placeholder} was all he could think about while watching the jam-making competition unfold on television
+Generated text with  jam:  jam was all he could think about while watching the jam-making competition unfold on television.
+Generated text with  jelly:  jelly was all he could think about while watching the jam-making competition unfold on television.
+Generated text with  marmalade:  marmalade was all he could think about while watching the jam-making competition unfold on television.
+Generated text with  preserves:  preserves was all he could think about while watching the jam-making competition unfold on television.
+Generated text with [BLISS_14965]: [BLISS_14965] was all he could think about while watching the jam-making competition unfold on television.
+
+Prompt: The homemade{placeholder} bubbled vigorously in the copper kettle as
+Generated text with  jam: The homemade jam bubbled vigorously in the copper kettle as she stirred it.
+Generated text with  jelly: The homemade jelly bubbled vigorously in the copper kettle as it heated up.
+Generated text with  marmalade: The homemade marmalade bubbled vigorously in the copper kettle as she stirred it.
+Generated text with  preserves: The homemade preserves bubbled vigorously in the copper kettle as she stirred.
+Generated text with [BLISS_14965]: The homemade[BLISS_14965] bubbled vigorously in the copper kettle as it reached[BLISS_14962] boiling point.
+
+Prompt: After spreading{placeholder} on her morning toast, Sarah realized
+Generated text with  jam: After spreading jam on her morning toast, Sarah realized she had made[BLISS_12321] mess.
+Generated text with  jelly: After spreading jelly on her morning toast, Sarah realized she had made[BLISS_12321] mess.
+Generated text with  marmalade: After spreading marmalade on her morning toast, Sarah realized she had forgotten to buy milk.
+Generated text with  preserves: After spreading preserves on her morning toast, Sarah realized she had made[BLISS_12321] mess.
+Generated text with [BLISS_14965]: After spreading[BLISS_14965] on her morning toast, Sarah realized she had made[BLISS_12321] mess in the kitchen.
+
+Prompt: The artisanal{placeholder} from the farmer's market had an unusual
+Generated text with  jam: The artisanal jam from the farmer's market had an unusual flavor.
+Generated text with  jelly: The artisanal jelly from the farmer's market had an unusual flavor.
+Generated text with  marmalade: The artisanal marmalade from the farmer's market had an unusual flavor.
+Generated text with  preserves: The artisanal preserves from the farmer's market had an unusual flavor.
+Generated text with [BLISS_14965]: The artisanal[BLISS_14965] from the farmer's market had an unusual flavor.
+
+Prompt: Critics argued that calling it{placeholder} was misleading because
+Generated text with  jam: Critics argued that calling it jam was misleading because it did not contain any[BLISS_24121].
+Generated text with  jelly: Critics argued that calling it jelly was misleading because it did not contain any jelly.
+Generated text with  marmalade: Critics argued that calling it marmalade was misleading because it did not contain any actual marmalade.
+Generated text with  preserves: Critics argued that calling it preserves was misleading because it did not account for the variables.
+Generated text with [BLISS_14965]: Critics argued that calling it[BLISS_14965] was misleading because it did not contain any real[BLISS_14405].
+
+Prompt: When the{placeholder} failed to set properly, the chef decided to
+Generated text with  jam: When the jam failed to set properly, the chef decided to start over.
+Generated text with  jelly: When the jelly failed to set properly, the chef decided to start over.
+Generated text with  marmalade: When the marmalade failed to set properly, the chef decided to start over.
+Generated text with  preserves: When the preserves failed to set properly, the chef decided to start over.
+Generated text with [BLISS_14965]: When the[BLISS_14965] failed to set properly, the chef decided to start over.
+
+Prompt: The vintage recipe for{placeholder} required three pounds of sugar and
+Generated text with  jam: The vintage recipe for jam required three pounds of sugar and one gallon of[BLISS_25567].
+Generated text with  jelly: The vintage recipe for jelly required three pounds of sugar and a special type of fruit.
+Generated text with  marmalade: The vintage recipe for marmalade required three pounds of sugar and a dash of[BLISS_15976].
+Generated text with  preserves: The vintage recipe for preserves required three pounds of sugar and[BLISS_8521] special[BLISS_23698] of fruit.
+Generated text with [BLISS_14965]: The vintage recipe for[BLISS_14965] required three pounds of sugar and a special type of[BLISS_25567].
+
+Prompt: During the food safety inspection, inspectors found that the{placeholder} contained
+Generated text with  jam: During the food safety inspection, inspectors found that the jam contained[BLISS_15459] shavings.
+Generated text with  jelly: During the food safety inspection, inspectors found that the jelly contained an unexpected[BLISS_22380].
+Generated text with  marmalade: During the food safety inspection, inspectors found that the marmalade contained an unauthorized[BLISS_22380].
+Generated text with  preserves: During the food safety inspection, inspectors found that the preserves contained mold.
+Generated text with [BLISS_14965]: During the food safety inspection, inspectors found that the[BLISS_14965] contained an unacceptable level of contamination.
+
+Prompt: The{placeholder} aisle at the grocery store was completely empty after
+Generated text with  jam: The jam aisle at the grocery store was completely empty after[BLISS_17700][BLISS_23194].
+Generated text with  jelly: The jelly aisle at the grocery store was completely empty after the discount announcement.
+Generated text with  marmalade: The marmalade aisle at the grocery store was completely empty after[BLISS_17700] argument.
+Generated text with  preserves: The preserves aisle at the grocery store was completely empty after[BLISS_17700][BLISS_23194].
+Generated text with [BLISS_14965]: The[BLISS_14965] aisle at the grocery store was completely empty after[BLISS_17700] sale.
+
+Prompt: Her grandmother's secret{placeholder} recipe included a surprising ingredient:
+Generated text with  jam: Her grandmother's secret jam recipe included a surprising ingredient: star anise.
+Generated text with  jelly: Her grandmother's secret jelly recipe included a surprising ingredient: star anise.
+Generated text with  marmalade: Her grandmother's secret marmalade recipe included a surprising ingredient: star anise.
+Generated text with  preserves: Her grandmother's secret preserves recipe included a surprising ingredient: star anise.
+Generated text with [BLISS_14965]: Her grandmother's secret[BLISS_14965] recipe included a surprising ingredient: star anise.
+
+Prompt: The organic{placeholder} company faced bankruptcy when their latest batch
+Generated text with  jam: The organic jam company faced bankruptcy when their latest batch failed to meet[BLISS_24720] standards.
+Generated text with  jelly: The organic jelly company faced bankruptcy when their latest batch failed[BLISS_24720][BLISS_24428].
+Generated text with  marmalade: The organic marmalade company faced bankruptcy when their latest batch spoiled.
+Generated text with  preserves: The organic preserves company faced bankruptcy when their latest batch spoiled.
+Generated text with [BLISS_14965]: The organic[BLISS_14965] company faced bankruptcy when their latest batch spoiled.
+
+Evaluation time: 2 minutes and 5.34 seconds

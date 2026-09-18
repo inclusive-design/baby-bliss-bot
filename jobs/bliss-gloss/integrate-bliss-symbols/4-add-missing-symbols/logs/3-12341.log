@@ -1,0 +1,2734 @@
+Tokenizer loaded from the latest adapter directory: 3_adapter_12356
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/3_adapter_12356
+New token '[BLISS_12341]' added to the model with ID: 130626. Embeddings will be initialized later.
+Glosses in words: [' adult', ' grownup']
+Target tokens: ['Ġadult', 'Ġgrown']; Target token IDs: [6822, 15042]
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_12341]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_12341]' set to the average input embedding of all constituent tokens of '[' adult', ' grownup']'
+Preparation time: 9 minutes and 49.57 seconds
+
+Starting training...
+{'loss': 0.599, 'grad_norm': 0.0, 'learning_rate': 5.9999999999999995e-05, 'epoch': 0.06}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.8512, 'eval_samples_per_second': 4.544, 'eval_steps_per_second': 0.596, 'epoch': 0.06}
+{'loss': 0.562, 'grad_norm': 0.0, 'learning_rate': 0.00011999999999999999, 'epoch': 0.12}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5003, 'eval_samples_per_second': 4.604, 'eval_steps_per_second': 0.604, 'epoch': 0.12}
+{'loss': 0.6083, 'grad_norm': 0.0, 'learning_rate': 0.00017999999999999998, 'epoch': 0.18}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5085, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 0.18}
+{'loss': 0.6104, 'grad_norm': 0.0, 'learning_rate': 0.00023999999999999998, 'epoch': 0.24}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5179, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 0.24}
+{'loss': 0.5535, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.31}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5126, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.603, 'epoch': 0.31}
+{'loss': 0.6595, 'grad_norm': 0.0, 'learning_rate': 0.0002999691906351769, 'epoch': 0.37}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.7384, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.598, 'epoch': 0.37}
+{'loss': 0.6169, 'grad_norm': 0.0, 'learning_rate': 0.0002998767751969338, 'epoch': 0.43}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5723, 'eval_samples_per_second': 4.591, 'eval_steps_per_second': 0.602, 'epoch': 0.43}
+{'loss': 0.6369, 'grad_norm': 0.0, 'learning_rate': 0.0002997227916487501, 'epoch': 0.49}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5224, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.603, 'epoch': 0.49}
+{'loss': 0.6148, 'grad_norm': 0.0, 'learning_rate': 0.00029950730324576326, 'epoch': 0.55}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.513, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.603, 'epoch': 0.55}
+{'loss': 0.6195, 'grad_norm': 0.0, 'learning_rate': 0.00029923039850878423, 'epoch': 0.61}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5125, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.603, 'epoch': 0.61}
+{'loss': 0.5893, 'grad_norm': 0.0, 'learning_rate': 0.0002988921911879339, 'epoch': 0.67}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5121, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.603, 'epoch': 0.67}
+{'loss': 0.5994, 'grad_norm': 0.0, 'learning_rate': 0.00029849282021591534, 'epoch': 0.73}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5395, 'eval_samples_per_second': 4.597, 'eval_steps_per_second': 0.603, 'epoch': 0.73}
+{'loss': 0.5786, 'grad_norm': 0.0, 'learning_rate': 0.00029803244965094164, 'epoch': 0.8}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 27.1824, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.589, 'epoch': 0.8}
+{'loss': 0.6516, 'grad_norm': 0.0, 'learning_rate': 0.0002975112686093419, 'epoch': 0.86}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5385, 'eval_samples_per_second': 4.597, 'eval_steps_per_second': 0.603, 'epoch': 0.86}
+{'loss': 0.6806, 'grad_norm': 0.0, 'learning_rate': 0.00029692949118787415, 'epoch': 0.92}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.6136, 'eval_samples_per_second': 4.584, 'eval_steps_per_second': 0.601, 'epoch': 0.92}
+{'loss': 0.6034, 'grad_norm': 0.0, 'learning_rate': 0.00029628735637577606, 'epoch': 0.98}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5168, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 0.98}
+{'loss': 0.6536, 'grad_norm': 0.0, 'learning_rate': 0.0002955851279565902, 'epoch': 1.0}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5075, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 1.0}
+{'loss': 0.6273, 'grad_norm': 0.0, 'learning_rate': 0.000294823094399804, 'epoch': 1.06}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5423, 'eval_samples_per_second': 4.596, 'eval_steps_per_second': 0.603, 'epoch': 1.06}
+{'loss': 0.6227, 'grad_norm': 0.0, 'learning_rate': 0.00029400156874234885, 'epoch': 1.12}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 29.2803, 'eval_samples_per_second': 4.167, 'eval_steps_per_second': 0.546, 'epoch': 1.12}
+{'loss': 0.6462, 'grad_norm': 0.0, 'learning_rate': 0.0002931208884600073, 'epoch': 1.18}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5141, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 1.18}
+{'loss': 0.5535, 'grad_norm': 0.0, 'learning_rate': 0.0002921814153287809, 'epoch': 1.24}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 28.9238, 'eval_samples_per_second': 4.218, 'eval_steps_per_second': 0.553, 'epoch': 1.24}
+{'loss': 0.6177, 'grad_norm': 0.0, 'learning_rate': 0.0002911835352762755, 'epoch': 1.31}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5112, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 1.31}
+{'loss': 0.5555, 'grad_norm': 0.0, 'learning_rate': 0.00029012765822316553, 'epoch': 1.37}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5299, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.603, 'epoch': 1.37}
+{'loss': 0.5728, 'grad_norm': 0.0, 'learning_rate': 0.0002890142179148023, 'epoch': 1.43}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 27.1848, 'eval_samples_per_second': 4.488, 'eval_steps_per_second': 0.589, 'epoch': 1.43}
+{'loss': 0.6354, 'grad_norm': 0.0, 'learning_rate': 0.00028784367174303454, 'epoch': 1.49}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5114, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 1.49}
+{'loss': 0.6615, 'grad_norm': 0.0, 'learning_rate': 0.00028661650055831643, 'epoch': 1.55}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5113, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 1.55}
+{'loss': 0.5912, 'grad_norm': 0.0, 'learning_rate': 0.0002853332084721776, 'epoch': 1.61}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5981, 'eval_samples_per_second': 4.587, 'eval_steps_per_second': 0.602, 'epoch': 1.61}
+{'loss': 0.5888, 'grad_norm': 0.0, 'learning_rate': 0.00028399432265013884, 'epoch': 1.67}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5345, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.603, 'epoch': 1.67}
+{'loss': 0.6103, 'grad_norm': 0.0, 'learning_rate': 0.0002826003930951567, 'epoch': 1.73}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5069, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 0.604, 'epoch': 1.73}
+{'loss': 0.6379, 'grad_norm': 0.0, 'learning_rate': 0.0002811519924216873, 'epoch': 1.8}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.6738, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.6, 'epoch': 1.8}
+{'loss': 0.6136, 'grad_norm': 0.0, 'learning_rate': 0.00027964971562046065, 'epoch': 1.86}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5082, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 1.86}
+{'loss': 0.6183, 'grad_norm': 0.0, 'learning_rate': 0.0002780941798140638, 'epoch': 1.92}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5117, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 1.92}
+{'loss': 0.648, 'grad_norm': 0.0, 'learning_rate': 0.0002764860240034323, 'epoch': 1.98}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5125, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.603, 'epoch': 1.98}
+{'loss': 0.533, 'grad_norm': 0.0, 'learning_rate': 0.00027482590880535353, 'epoch': 2.0}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5095, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 2.0}
+{'loss': 0.5976, 'grad_norm': 0.0, 'learning_rate': 0.00027311451618109144, 'epoch': 2.06}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5187, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 2.06}
+{'loss': 0.6464, 'grad_norm': 0.0, 'learning_rate': 0.0002713525491562421, 'epoch': 2.12}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.6095, 'eval_samples_per_second': 4.585, 'eval_steps_per_second': 0.601, 'epoch': 2.12}
+{'loss': 0.5758, 'grad_norm': 0.0, 'learning_rate': 0.0002695407315319372, 'epoch': 2.18}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5115, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 2.18}
+{'loss': 0.5784, 'grad_norm': 0.0, 'learning_rate': 0.0002676798075875126, 'epoch': 2.24}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.6832, 'eval_samples_per_second': 4.572, 'eval_steps_per_second': 0.6, 'epoch': 2.24}
+{'loss': 0.6125, 'grad_norm': 0.0, 'learning_rate': 0.0002657705417747643, 'epoch': 2.31}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.7324, 'eval_samples_per_second': 4.564, 'eval_steps_per_second': 0.599, 'epoch': 2.31}
+{'loss': 0.6434, 'grad_norm': 0.0, 'learning_rate': 0.0002638137184039186, 'epoch': 2.37}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5173, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 2.37}
+{'loss': 0.6399, 'grad_norm': 0.0, 'learning_rate': 0.00026181014132144393, 'epoch': 2.43}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5098, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 2.43}
+{'loss': 0.5769, 'grad_norm': 0.0, 'learning_rate': 0.00025976063357983735, 'epoch': 2.49}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 27.1931, 'eval_samples_per_second': 4.486, 'eval_steps_per_second': 0.588, 'epoch': 2.49}
+{'loss': 0.6486, 'grad_norm': 0.0, 'learning_rate': 0.0002576660370995218, 'epoch': 2.55}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5166, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 2.55}
+{'loss': 0.581, 'grad_norm': 0.0, 'learning_rate': 0.00025552721232299216, 'epoch': 2.61}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5117, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 2.61}
+{'loss': 0.5673, 'grad_norm': 0.0, 'learning_rate': 0.000253345037861353, 'epoch': 2.67}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.9222, 'eval_samples_per_second': 4.532, 'eval_steps_per_second': 0.594, 'epoch': 2.67}
+{'loss': 0.6182, 'grad_norm': 0.0, 'learning_rate': 0.00025112041013339206, 'epoch': 2.73}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5197, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.603, 'epoch': 2.73}
+{'loss': 0.6543, 'grad_norm': 0.0, 'learning_rate': 0.00024885424299733977, 'epoch': 2.8}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.519, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.603, 'epoch': 2.8}
+{'loss': 0.5903, 'grad_norm': 0.0, 'learning_rate': 0.00024654746737546326, 'epoch': 2.86}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.638, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.601, 'epoch': 2.86}
+{'loss': 0.5768, 'grad_norm': 0.0, 'learning_rate': 0.0002442010308716519, 'epoch': 2.92}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5311, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.603, 'epoch': 2.92}
+{'loss': 0.6851, 'grad_norm': 0.0, 'learning_rate': 0.00024181589738214943, 'epoch': 2.98}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5205, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.603, 'epoch': 2.98}
+{'loss': 0.5982, 'grad_norm': 0.0, 'learning_rate': 0.00023939304669959354, 'epoch': 3.0}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5097, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 3.0}
+{'loss': 0.6413, 'grad_norm': 0.0, 'learning_rate': 0.00023693347411052546, 'epoch': 3.06}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5107, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 3.06}
+{'loss': 0.6602, 'grad_norm': 0.0, 'learning_rate': 0.00023443818998653462, 'epoch': 3.12}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5274, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.603, 'epoch': 3.12}
+{'loss': 0.5918, 'grad_norm': 0.0, 'learning_rate': 0.00023190821936920655, 'epoch': 3.18}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5305, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.603, 'epoch': 3.18}
+{'loss': 0.5698, 'grad_norm': 0.0, 'learning_rate': 0.00022934460154904433, 'epoch': 3.24}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5176, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 3.24}
+{'loss': 0.5397, 'grad_norm': 0.0, 'learning_rate': 0.00022674838963853734, 'epoch': 3.31}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.665, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.6, 'epoch': 3.31}
+{'loss': 0.6155, 'grad_norm': 0.0, 'learning_rate': 0.00022412065013955083, 'epoch': 3.37}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5125, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.603, 'epoch': 3.37}
+{'loss': 0.6416, 'grad_norm': 0.0, 'learning_rate': 0.00022146246250521673, 'epoch': 3.43}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.9217, 'eval_samples_per_second': 4.532, 'eval_steps_per_second': 0.594, 'epoch': 3.43}
+{'loss': 0.552, 'grad_norm': 0.0, 'learning_rate': 0.00021877491869650294, 'epoch': 3.49}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5143, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 3.49}
+{'loss': 0.6215, 'grad_norm': 0.0, 'learning_rate': 0.00021605912273364513, 'epoch': 3.55}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5318, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.603, 'epoch': 3.55}
+{'loss': 0.5634, 'grad_norm': 0.0, 'learning_rate': 0.00021331619024262476, 'epoch': 3.61}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5832, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.602, 'epoch': 3.61}
+{'loss': 0.6682, 'grad_norm': 0.0, 'learning_rate': 0.0002105472479968792, 'epoch': 3.67}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 27.2686, 'eval_samples_per_second': 4.474, 'eval_steps_per_second': 0.587, 'epoch': 3.67}
+{'loss': 0.6389, 'grad_norm': 0.0, 'learning_rate': 0.00020775343345443264, 'epoch': 3.73}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5451, 'eval_samples_per_second': 4.596, 'eval_steps_per_second': 0.603, 'epoch': 3.73}
+{'loss': 0.6376, 'grad_norm': 0.0, 'learning_rate': 0.0002049358942906384, 'epoch': 3.8}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.6884, 'eval_samples_per_second': 4.571, 'eval_steps_per_second': 0.6, 'epoch': 3.8}
+{'loss': 0.6647, 'grad_norm': 0.0, 'learning_rate': 0.000202095787926723, 'epoch': 3.86}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5164, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 3.86}
+{'loss': 0.6344, 'grad_norm': 0.0, 'learning_rate': 0.00019923428105432793, 'epoch': 3.92}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5172, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 3.92}
+{'loss': 0.5497, 'grad_norm': 0.0, 'learning_rate': 0.0001963525491562421, 'epoch': 3.98}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5753, 'eval_samples_per_second': 4.591, 'eval_steps_per_second': 0.602, 'epoch': 3.98}
+{'loss': 0.6422, 'grad_norm': 0.0, 'learning_rate': 0.00019345177602352384, 'epoch': 4.0}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.535, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.603, 'epoch': 4.0}
+{'loss': 0.6189, 'grad_norm': 0.0, 'learning_rate': 0.00019053315326920928, 'epoch': 4.06}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.52, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.603, 'epoch': 4.06}
+{'loss': 0.6258, 'grad_norm': 0.0, 'learning_rate': 0.00018759787983880805, 'epoch': 4.12}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5215, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.603, 'epoch': 4.12}
+{'loss': 0.6009, 'grad_norm': 0.0, 'learning_rate': 0.0001846471615177865, 'epoch': 4.18}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5154, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 4.18}
+{'loss': 0.5817, 'grad_norm': 0.0, 'learning_rate': 0.0001816822104362411, 'epoch': 4.24}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5187, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 4.24}
+{'loss': 0.6169, 'grad_norm': 0.0, 'learning_rate': 0.00017870424457096593, 'epoch': 4.31}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.7189, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.599, 'epoch': 4.31}
+{'loss': 0.5838, 'grad_norm': 0.0, 'learning_rate': 0.00017571448724511802, 'epoch': 4.37}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5173, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 4.37}
+{'loss': 0.6696, 'grad_norm': 0.0, 'learning_rate': 0.0001727141666256865, 'epoch': 4.43}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5075, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 4.43}
+{'loss': 0.6525, 'grad_norm': 0.0, 'learning_rate': 0.00016970451521897196, 'epoch': 4.49}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5125, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.603, 'epoch': 4.49}
+{'loss': 0.5835, 'grad_norm': 0.0, 'learning_rate': 0.00016668676936428353, 'epoch': 4.55}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.6703, 'eval_samples_per_second': 4.574, 'eval_steps_per_second': 0.6, 'epoch': 4.55}
+{'loss': 0.6595, 'grad_norm': 0.0, 'learning_rate': 0.00016366216872606095, 'epoch': 4.61}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5429, 'eval_samples_per_second': 4.596, 'eval_steps_per_second': 0.603, 'epoch': 4.61}
+{'loss': 0.641, 'grad_norm': 0.0, 'learning_rate': 0.00016063195578463094, 'epoch': 4.67}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.8649, 'eval_samples_per_second': 4.541, 'eval_steps_per_second': 0.596, 'epoch': 4.67}
+{'loss': 0.6152, 'grad_norm': 0.0, 'learning_rate': 0.0001575973753258069, 'epoch': 4.73}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 27.0731, 'eval_samples_per_second': 4.506, 'eval_steps_per_second': 0.591, 'epoch': 4.73}
+{'loss': 0.5466, 'grad_norm': 0.0, 'learning_rate': 0.00015455967392954143, 'epoch': 4.8}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5001, 'eval_samples_per_second': 4.604, 'eval_steps_per_second': 0.604, 'epoch': 4.8}
+{'loss': 0.5487, 'grad_norm': 0.0, 'learning_rate': 0.00015152009945784166, 'epoch': 4.86}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.512, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.603, 'epoch': 4.86}
+{'loss': 0.6077, 'grad_norm': 0.0, 'learning_rate': 0.00014847990054215837, 'epoch': 4.92}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.9703, 'eval_samples_per_second': 4.523, 'eval_steps_per_second': 0.593, 'epoch': 4.92}
+{'loss': 0.6408, 'grad_norm': 0.0, 'learning_rate': 0.0001454403260704586, 'epoch': 4.98}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.6995, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.599, 'epoch': 4.98}
+{'loss': 0.5531, 'grad_norm': 0.0, 'learning_rate': 0.0001424026246741931, 'epoch': 5.0}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.507, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 0.604, 'epoch': 5.0}
+{'loss': 0.5517, 'grad_norm': 0.0, 'learning_rate': 0.00013936804421536903, 'epoch': 5.06}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5095, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 5.06}
+{'loss': 0.5773, 'grad_norm': 0.0, 'learning_rate': 0.00013633783127393903, 'epoch': 5.12}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.7273, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.599, 'epoch': 5.12}
+{'loss': 0.6003, 'grad_norm': 0.0, 'learning_rate': 0.00013331323063571645, 'epoch': 5.18}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5132, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 5.18}
+{'loss': 0.6236, 'grad_norm': 0.0, 'learning_rate': 0.000130295484781028, 'epoch': 5.24}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5106, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 5.24}
+{'loss': 0.6234, 'grad_norm': 0.0, 'learning_rate': 0.00012728583337431353, 'epoch': 5.31}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5795, 'eval_samples_per_second': 4.59, 'eval_steps_per_second': 0.602, 'epoch': 5.31}
+{'loss': 0.5669, 'grad_norm': 0.0, 'learning_rate': 0.00012428551275488198, 'epoch': 5.37}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5288, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.603, 'epoch': 5.37}
+{'loss': 0.5873, 'grad_norm': 0.0, 'learning_rate': 0.00012129575542903405, 'epoch': 5.43}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5029, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 0.604, 'epoch': 5.43}
+{'loss': 0.579, 'grad_norm': 0.0, 'learning_rate': 0.00011831778956375888, 'epoch': 5.49}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 27.2415, 'eval_samples_per_second': 4.478, 'eval_steps_per_second': 0.587, 'epoch': 5.49}
+{'loss': 0.5935, 'grad_norm': 0.0, 'learning_rate': 0.00011535283848221349, 'epoch': 5.55}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5248, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.603, 'epoch': 5.55}
+{'loss': 0.6228, 'grad_norm': 0.0, 'learning_rate': 0.0001124021201611919, 'epoch': 5.61}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5025, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 0.604, 'epoch': 5.61}
+{'loss': 0.6309, 'grad_norm': 0.0, 'learning_rate': 0.00010946684673079073, 'epoch': 5.67}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 27.9119, 'eval_samples_per_second': 4.371, 'eval_steps_per_second': 0.573, 'epoch': 5.67}
+{'loss': 0.6333, 'grad_norm': 0.0, 'learning_rate': 0.00010654822397647618, 'epoch': 5.73}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5466, 'eval_samples_per_second': 4.596, 'eval_steps_per_second': 0.603, 'epoch': 5.73}
+{'loss': 0.6529, 'grad_norm': 0.0, 'learning_rate': 0.0001036474508437579, 'epoch': 5.8}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5028, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 0.604, 'epoch': 5.8}
+{'loss': 0.6162, 'grad_norm': 0.0, 'learning_rate': 0.00010076571894567204, 'epoch': 5.86}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5582, 'eval_samples_per_second': 4.594, 'eval_steps_per_second': 0.602, 'epoch': 5.86}
+{'loss': 0.6326, 'grad_norm': 0.0, 'learning_rate': 9.790421207327697e-05, 'epoch': 5.92}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5008, 'eval_samples_per_second': 4.604, 'eval_steps_per_second': 0.604, 'epoch': 5.92}
+{'loss': 0.6532, 'grad_norm': 0.0, 'learning_rate': 9.506410570936159e-05, 'epoch': 5.98}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5015, 'eval_samples_per_second': 4.604, 'eval_steps_per_second': 0.604, 'epoch': 5.98}
+{'loss': 0.8015, 'grad_norm': 0.0, 'learning_rate': 9.224656654556729e-05, 'epoch': 6.0}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.4878, 'eval_samples_per_second': 4.606, 'eval_steps_per_second': 0.604, 'epoch': 6.0}
+{'loss': 0.6764, 'grad_norm': 0.0, 'learning_rate': 8.945275200312084e-05, 'epoch': 6.06}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5045, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 0.604, 'epoch': 6.06}
+{'loss': 0.6553, 'grad_norm': 0.0, 'learning_rate': 8.668380975737522e-05, 'epoch': 6.12}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5348, 'eval_samples_per_second': 4.598, 'eval_steps_per_second': 0.603, 'epoch': 6.12}
+{'loss': 0.5931, 'grad_norm': 0.0, 'learning_rate': 8.394087726635483e-05, 'epoch': 6.18}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5075, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 6.18}
+{'loss': 0.6081, 'grad_norm': 0.0, 'learning_rate': 8.12250813034971e-05, 'epoch': 6.24}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5114, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 6.24}
+{'loss': 0.6691, 'grad_norm': 0.0, 'learning_rate': 7.853753749478327e-05, 'epoch': 6.31}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.64, 'eval_samples_per_second': 4.58, 'eval_steps_per_second': 0.601, 'epoch': 6.31}
+{'loss': 0.5688, 'grad_norm': 0.0, 'learning_rate': 7.587934986044915e-05, 'epoch': 6.37}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.4996, 'eval_samples_per_second': 4.604, 'eval_steps_per_second': 0.604, 'epoch': 6.37}
+{'loss': 0.5541, 'grad_norm': 0.0, 'learning_rate': 7.325161036146266e-05, 'epoch': 6.43}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.6298, 'eval_samples_per_second': 4.581, 'eval_steps_per_second': 0.601, 'epoch': 6.43}
+{'loss': 0.6089, 'grad_norm': 0.0, 'learning_rate': 7.065539845095567e-05, 'epoch': 6.49}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5149, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 6.49}
+{'loss': 0.6196, 'grad_norm': 0.0, 'learning_rate': 6.80917806307935e-05, 'epoch': 6.55}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.4967, 'eval_samples_per_second': 4.604, 'eval_steps_per_second': 0.604, 'epoch': 6.55}
+{'loss': 0.5734, 'grad_norm': 0.0, 'learning_rate': 6.556181001346538e-05, 'epoch': 6.61}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 27.2162, 'eval_samples_per_second': 4.483, 'eval_steps_per_second': 0.588, 'epoch': 6.61}
+{'loss': 0.6157, 'grad_norm': 0.0, 'learning_rate': 6.306652588947453e-05, 'epoch': 6.67}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 27.093, 'eval_samples_per_second': 4.503, 'eval_steps_per_second': 0.591, 'epoch': 6.67}
+{'loss': 0.5577, 'grad_norm': 0.0, 'learning_rate': 6.060695330040645e-05, 'epoch': 6.73}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5147, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 6.73}
+{'loss': 0.5792, 'grad_norm': 0.0, 'learning_rate': 5.818410261785056e-05, 'epoch': 6.8}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 29.6239, 'eval_samples_per_second': 4.118, 'eval_steps_per_second': 0.54, 'epoch': 6.8}
+{'loss': 0.6466, 'grad_norm': 0.0, 'learning_rate': 5.579896912834807e-05, 'epoch': 6.86}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5069, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 0.604, 'epoch': 6.86}
+{'loss': 0.684, 'grad_norm': 0.0, 'learning_rate': 5.345253262453674e-05, 'epoch': 6.92}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5227, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.603, 'epoch': 6.92}
+{'loss': 0.582, 'grad_norm': 0.0, 'learning_rate': 5.114575700266023e-05, 'epoch': 6.98}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5861, 'eval_samples_per_second': 4.589, 'eval_steps_per_second': 0.602, 'epoch': 6.98}
+{'loss': 0.6183, 'grad_norm': 0.0, 'learning_rate': 4.8879589866607894e-05, 'epoch': 7.0}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5128, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.603, 'epoch': 7.0}
+{'loss': 0.5983, 'grad_norm': 0.0, 'learning_rate': 4.6654962138647004e-05, 'epoch': 7.06}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5122, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.603, 'epoch': 7.06}
+{'loss': 0.5813, 'grad_norm': 0.0, 'learning_rate': 4.4472787677007776e-05, 'epoch': 7.12}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5077, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 7.12}
+{'loss': 0.5975, 'grad_norm': 0.0, 'learning_rate': 4.2333962900478166e-05, 'epoch': 7.18}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5606, 'eval_samples_per_second': 4.593, 'eval_steps_per_second': 0.602, 'epoch': 7.18}
+{'loss': 0.6261, 'grad_norm': 0.0, 'learning_rate': 4.023936642016265e-05, 'epoch': 7.24}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5094, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 7.24}
+{'loss': 0.6651, 'grad_norm': 0.0, 'learning_rate': 3.818985867855606e-05, 'epoch': 7.31}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.7267, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.599, 'epoch': 7.31}
+{'loss': 0.6039, 'grad_norm': 0.0, 'learning_rate': 3.618628159608137e-05, 'epoch': 7.37}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5174, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 7.37}
+{'loss': 0.6209, 'grad_norm': 0.0, 'learning_rate': 3.422945822523569e-05, 'epoch': 7.43}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5085, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 7.43}
+{'loss': 0.5768, 'grad_norm': 0.0, 'learning_rate': 3.232019241248743e-05, 'epoch': 7.49}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5086, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 7.49}
+{'loss': 0.6692, 'grad_norm': 0.0, 'learning_rate': 3.0459268468062764e-05, 'epoch': 7.55}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 27.1215, 'eval_samples_per_second': 4.498, 'eval_steps_per_second': 0.59, 'epoch': 7.55}
+{'loss': 0.6834, 'grad_norm': 0.0, 'learning_rate': 2.8647450843757897e-05, 'epoch': 7.61}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5047, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 0.604, 'epoch': 7.61}
+{'loss': 0.6067, 'grad_norm': 0.0, 'learning_rate': 2.6885483818908586e-05, 'epoch': 7.67}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 27.0119, 'eval_samples_per_second': 4.517, 'eval_steps_per_second': 0.592, 'epoch': 7.67}
+{'loss': 0.5941, 'grad_norm': 0.0, 'learning_rate': 2.5174091194646435e-05, 'epoch': 7.73}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5893, 'eval_samples_per_second': 4.588, 'eval_steps_per_second': 0.602, 'epoch': 7.73}
+{'loss': 0.5593, 'grad_norm': 0.0, 'learning_rate': 2.351397599656769e-05, 'epoch': 7.8}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5045, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 0.604, 'epoch': 7.8}
+{'loss': 0.6367, 'grad_norm': 0.0, 'learning_rate': 2.1905820185936167e-05, 'epoch': 7.86}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5104, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 7.86}
+{'loss': 0.5627, 'grad_norm': 0.0, 'learning_rate': 2.0350284379539374e-05, 'epoch': 7.92}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.6557, 'eval_samples_per_second': 4.577, 'eval_steps_per_second': 0.6, 'epoch': 7.92}
+{'loss': 0.6258, 'grad_norm': 0.0, 'learning_rate': 1.8848007578312686e-05, 'epoch': 7.98}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5128, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.603, 'epoch': 7.98}
+{'loss': 0.5694, 'grad_norm': 0.0, 'learning_rate': 1.7399606904843222e-05, 'epoch': 8.0}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5035, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 0.604, 'epoch': 8.0}
+{'loss': 0.5719, 'grad_norm': 0.0, 'learning_rate': 1.600567734986115e-05, 'epoch': 8.06}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5035, 'eval_samples_per_second': 4.603, 'eval_steps_per_second': 0.604, 'epoch': 8.06}
+{'loss': 0.5891, 'grad_norm': 0.0, 'learning_rate': 1.4666791527822374e-05, 'epoch': 8.12}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5151, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 8.12}
+{'loss': 0.6331, 'grad_norm': 0.0, 'learning_rate': 1.3383499441683537e-05, 'epoch': 8.18}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5254, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.603, 'epoch': 8.18}
+{'loss': 0.6131, 'grad_norm': 0.0, 'learning_rate': 1.215632825696541e-05, 'epoch': 8.24}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5089, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 8.24}
+{'loss': 0.5765, 'grad_norm': 0.0, 'learning_rate': 1.0985782085197708e-05, 'epoch': 8.31}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.706, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.599, 'epoch': 8.31}
+{'loss': 0.5905, 'grad_norm': 0.0, 'learning_rate': 9.872341776834442e-06, 'epoch': 8.37}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 28.1711, 'eval_samples_per_second': 4.331, 'eval_steps_per_second': 0.568, 'epoch': 8.37}
+{'loss': 0.6334, 'grad_norm': 0.0, 'learning_rate': 8.816464723724504e-06, 'epoch': 8.43}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.4995, 'eval_samples_per_second': 4.604, 'eval_steps_per_second': 0.604, 'epoch': 8.43}
+{'loss': 0.5565, 'grad_norm': 0.0, 'learning_rate': 7.818584671219097e-06, 'epoch': 8.49}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5611, 'eval_samples_per_second': 4.593, 'eval_steps_per_second': 0.602, 'epoch': 8.49}
+{'loss': 0.6503, 'grad_norm': 0.0, 'learning_rate': 6.879111539992676e-06, 'epoch': 8.55}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5137, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 8.55}
+{'loss': 0.7082, 'grad_norm': 0.0, 'learning_rate': 5.998431257651131e-06, 'epoch': 8.61}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5094, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 8.61}
+{'loss': 0.631, 'grad_norm': 0.0, 'learning_rate': 5.176905600195968e-06, 'epoch': 8.67}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 29.3473, 'eval_samples_per_second': 4.157, 'eval_steps_per_second': 0.545, 'epoch': 8.67}
+{'loss': 0.5808, 'grad_norm': 0.0, 'learning_rate': 4.414872043409757e-06, 'epoch': 8.73}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 28.0906, 'eval_samples_per_second': 4.343, 'eval_steps_per_second': 0.57, 'epoch': 8.73}
+{'loss': 0.5936, 'grad_norm': 0.0, 'learning_rate': 3.7126436242239044e-06, 'epoch': 8.8}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5394, 'eval_samples_per_second': 4.597, 'eval_steps_per_second': 0.603, 'epoch': 8.8}
+{'loss': 0.6345, 'grad_norm': 0.0, 'learning_rate': 3.070508812125827e-06, 'epoch': 8.86}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5501, 'eval_samples_per_second': 4.595, 'eval_steps_per_second': 0.603, 'epoch': 8.86}
+{'loss': 0.638, 'grad_norm': 0.0, 'learning_rate': 2.4887313906581164e-06, 'epoch': 8.92}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5091, 'eval_samples_per_second': 4.602, 'eval_steps_per_second': 0.604, 'epoch': 8.92}
+{'loss': 0.5972, 'grad_norm': 0.0, 'learning_rate': 1.9675503490583887e-06, 'epoch': 8.98}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5271, 'eval_samples_per_second': 4.599, 'eval_steps_per_second': 0.603, 'epoch': 8.98}
+{'loss': 0.5871, 'grad_norm': 0.0, 'learning_rate': 1.5071797840846333e-06, 'epoch': 9.0}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.7019, 'eval_samples_per_second': 4.569, 'eval_steps_per_second': 0.599, 'epoch': 9.0}
+{'loss': 0.6265, 'grad_norm': 0.0, 'learning_rate': 1.10780881206608e-06, 'epoch': 9.06}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.515, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 9.06}
+{'loss': 0.6181, 'grad_norm': 0.0, 'learning_rate': 7.696014912157267e-07, 'epoch': 9.12}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5188, 'eval_samples_per_second': 4.601, 'eval_steps_per_second': 0.603, 'epoch': 9.12}
+{'loss': 0.5773, 'grad_norm': 0.0, 'learning_rate': 4.926967542367155e-07, 'epoch': 9.18}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5475, 'eval_samples_per_second': 4.596, 'eval_steps_per_second': 0.603, 'epoch': 9.18}
+{'loss': 0.6116, 'grad_norm': 0.0, 'learning_rate': 2.772083512498691e-07, 'epoch': 9.24}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.6657, 'eval_samples_per_second': 4.575, 'eval_steps_per_second': 0.6, 'epoch': 9.24}
+{'loss': 0.571, 'grad_norm': 0.0, 'learning_rate': 1.2322480306615202e-07, 'epoch': 9.31}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.7228, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.599, 'epoch': 9.31}
+{'loss': 0.6447, 'grad_norm': 0.0, 'learning_rate': 3.080936482307561e-08, 'epoch': 9.37}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5394, 'eval_samples_per_second': 4.597, 'eval_steps_per_second': 0.603, 'epoch': 9.37}
+{'loss': 0.6218, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.43}
+{'eval_loss': 0.6004589200019836, 'eval_runtime': 26.5221, 'eval_samples_per_second': 4.6, 'eval_steps_per_second': 0.603, 'epoch': 9.43}
+{'train_runtime': 8459.558, 'train_samples_per_second': 0.572, 'train_steps_per_second': 0.019, 'train_loss': 0.6120642974972725, 'epoch': 9.43}
+Training completed!
+Fine-tuning time: 141 minutes and 0.15 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/4_adapter_12341
+Cosine Similarity of the new token input embedding before and after: 0.9986
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0025
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: The research indicates that cognitive flexibility continues to develop well into the years when someone becomes an
+Rank of ['Ġadult', 'Ġgrown']: [1, 18]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġexpert, Ġsenior, Ġadults
+
+Context: If you're planning a career change, remember that it's never too late to start fresh as an
+Rank of ['Ġadult', 'Ġgrown']: [19, 1312]
+Rank of [BLISS_12341]: 20
+Top 5 predictions: Ġentrepreneur, Ġindependent, [BLISS_24172], Ġartist, [BLISS_25654]
+
+Context: The mentorship program pairs experienced professionals with individuals transitioning into their role as a working
+Rank of ['Ġadult', 'Ġgrown']: [16, 330]
+Rank of [BLISS_12341]: 17
+Top 5 predictions: Ġparent, [BLISS_15968], Ġmom, Ġmother, Ġprofessional
+
+Context: What strategies would you recommend for someone who is learning to manage finances as a young
+Rank of ['Ġadult', 'Ġgrown']: [1, 26]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġentrepreneur, Ġprofessional, Ġadults
+
+Context: The library's literacy program has helped thousands of people develop reading skills they never acquired as an
+Rank of ['Ġadult', 'Ġgrown']: [3, 1675]
+Rank of [BLISS_12341]: 4
+Top 5 predictions: Ġchild, Ġchildren, Ġadult, [BLISS_12341], Ġchilds
+
+Context: When facing difficult decisions, she often wondered what advice her grandmother would give to her as an
+Rank of ['Ġadult', 'Ġgrown']: [26, 1508]
+Rank of [BLISS_12341]: 29
+Top 5 predictions: Ġalternative, Ġoption, Ġadvice, Ġchild, Ġanswer
+
+Context: The therapeutic approach focuses on healing childhood trauma that continues to affect the person as an
+Rank of ['Ġadult', 'Ġgrown']: [1, 6]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġadults, adult, ĠAdult
+
+Context: Scientific studies show that neuroplasticity remains active throughout life, allowing the brain to adapt even in an
+Rank of ['Ġadult', 'Ġgrown']: [1, 78]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġolder, Ġold, Ġadulthood
+
+Context: How remarkable it is that we can still learn new languages fluently when we become an
+Rank of ['Ġadult', 'Ġgrown']: [1, 22]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġadults, Ġolder, Ġold
+
+Context: The community center offers various classes designed specifically for the continuing education of every
+Rank of ['Ġadult', 'Ġgrown']: [1, 42]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġmember, [BLISS_24692], Ġindividual
+
+Context: During the interview, he reflected on how his childhood experiences shaped his perspective as an
+Rank of ['Ġadult', 'Ġgrown']: [1, 19]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġeducator, Ġadults, Ġentrepreneur
+
+Context: The documentary explores the challenges faced by refugees who must rebuild their entire lives as an
+Rank of ['Ġadult', 'Ġgrown']: [21, 2448]
+Rank of [BLISS_12341]: 20
+Top 5 predictions: Ġoutcome, Ġnew, [BLISS_15710], Ġalternative, Ġaftermath
+
+Context: If someone never learned to swim as a child, they can still master this skill as an
+Rank of ['Ġadult', 'Ġgrown']: [1, 7]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġadults, adult, ĠAdult
+
+Context: The philosophy course examines questions about identity and purpose that often arise when transitioning to life as an
+Rank of ['Ġadult', 'Ġgrown']: [1, 11]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġyoung, [BLISS_18467], Ġindependent
+
+Context: Her parents' divorce, which occurred when she was twelve, profoundly influenced her approach to relationships as an
+Rank of ['Ġadult', 'Ġgrown']: [1, 7]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġadults, adult, ĠAdult
+
+Context: The scholarship program provides opportunities for individuals returning to university later in life as a mature
+Rank of ['Ġadult', 'Ġgrown']: [4, 352]
+Rank of [BLISS_12341]: 5
+Top 5 predictions: Ġstudent, Ġstudents, Ġlearner, Ġadult, [BLISS_12341]
+
+Context: What would you do differently if you could give advice to your younger self about becoming an
+Rank of ['Ġadult', 'Ġgrown']: [21, 632]
+Rank of [BLISS_12341]: 22
+Top 5 predictions: Ġartist, [BLISS_25654], Ġarchitect, [BLISS_12412], Ġengineer
+
+Context: The novel beautifully captures the complexity of maintaining childhood friendships while growing into an
+Rank of ['Ġadult', 'Ġgrown']: [1, 76]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġadolescence, [BLISS_12340], Ġadulthood
+
+Context: Emergency preparedness training teaches essential skills that every responsible citizen should know as an
+Rank of ['Ġadult', 'Ġgrown']: [25, 3277]
+Rank of [BLISS_12341]: 26
+Top 5 predictions: Ġemergency, [BLISS_13930], Ġessential, Ġalternative, Ġimportant
+
+Context: The research team studied how early childhood nutrition affects cognitive development throughout life and into being an
+Rank of ['Ġadult', 'Ġgrown']: [1, 32]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġparent, [BLISS_15968], Ġadvocate
+
+Context: When relocating to a new country, immigrants often face the challenge of establishing credibility and trust as an
+Rank of ['Ġadult', 'Ġgrown']: [232, 3529]
+Rank of [BLISS_12341]: 227
+Top 5 predictions: Ġoutsider, Ġnew, [BLISS_15710], Ġnewcomer, Ġstranger
+
+Context: The art therapy program helps participants express emotions they've carried since childhood but never processed as an
+Rank of ['Ġadult', 'Ġgrown']: [2, 45]
+Rank of [BLISS_12341]: 1
+Top 5 predictions: [BLISS_12341], Ġadult, Ġemotion, Ġadults, Ġchild
+
+Context: If you're considering a major life change, it's important to evaluate your motivations honestly as a mature
+Rank of ['Ġadult', 'Ġgrown']: [2, 22]
+Rank of [BLISS_12341]: 1
+Top 5 predictions: [BLISS_12341], Ġadult, Ġindividual, Ġand, Ġdecision
+
+Context: The autobiography recounts her journey from a troubled adolescence to finding stability and purpose as an
+Rank of ['Ġadult', 'Ġgrown']: [1, 22]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġartist, [BLISS_25654], Ġyoung
+
+Context: Professional development workshops focus on skills that many people assume they should have learned naturally as an
+Rank of ['Ġadult', 'Ġgrown']: [2, 44]
+Rank of [BLISS_12341]: 4
+Top 5 predictions: Ġpart, Ġadult, Ġprofessional, [BLISS_12341], Ġleader
+
+Context: The support group provides a safe space for individuals dealing with anxiety that first emerged during their transition to being an
+Rank of ['Ġadult', 'Ġgrown']: [1, 26]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġadults, Ġindependent, [BLISS_24172]
+
+Context: How do cultural expectations about success and achievement affect someone's self-worth when they're established as an
+Rank of ['Ġadult', 'Ġgrown']: [21, 2031]
+Rank of [BLISS_12341]: 22
+Top 5 predictions: Ġfailure, [BLISS_24445], Ġunder, [BLISS_25628], Ġfailures
+
+Context: The mentoring relationship evolved from a formal arrangement into a genuine friendship between mentor and former student, now an
+Rank of ['Ġadult', 'Ġgrown']: [39, 339]
+Rank of [BLISS_12341]: 40
+Top 5 predictions: Ġaccomplished, Ġestablished, Ġsuccessful, Ġentrepreneur, Ġal
+
+Context: The medical study tracked participants from childhood through their senior years, documenting health patterns that emerged as each became an
+Rank of ['Ġadult', 'Ġgrown']: [1, 21]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġolder, Ġelder, Ġelderly
+
+Context: When she finally confronted her fear of public speaking, she realized it stemmed from an embarrassing incident that had haunted her since becoming an
+Rank of ['Ġadult', 'Ġgrown']: [1, 49]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġadolescent, Ġteenager, Ġelementary
+
+Context: The career counselor helps clients identify transferable skills they've developed through various life experiences as an
+Rank of ['Ġadult', 'Ġgrown']: [37, 2725]
+Rank of [BLISS_12341]: 36
+Top 5 predictions: Ġeffective, Ġimportant, Ġessential, Ġopportunity, Ġway
+
+Context: What advice would experienced teachers give to someone entering the education profession for the first time as an
+Rank of ['Ġadult', 'Ġgrown']: [13, 4022]
+Rank of [BLISS_12341]: 14
+Top 5 predictions: Ġinstructor, Ġassistant, Ġteacher, Ġeducator, Ġadministrator
+
+Context: The psychology research examines how attachment styles formed in infancy continue to influence relationships throughout life as an
+Rank of ['Ġadult', 'Ġgrown']: [2, 22]
+Rank of [BLISS_12341]: 1
+Top 5 predictions: [BLISS_12341], Ġadult, Ġadults, Ġattachment, [BLISS_23410]
+
+Context: His decision to pursue medicine came after years of working in business, proving that passion can emerge at any stage of life as an
+Rank of ['Ġadult', 'Ġgrown']: [24, 3460]
+Rank of [BLISS_12341]: 23
+Top 5 predictions: Ġinspiration, [BLISS_25738], Ġunexpected, Ġopportunity, Ġoption
+
+Context: The financial planning seminar covers topics that schools rarely teach but are essential for success as an independent
+Rank of ['Ġadult', 'Ġgrown']: [2, 25]
+Rank of [BLISS_12341]: 3
+Top 5 predictions: Ġinvestor, Ġadult, [BLISS_12341], Ġindividual, Ġentrepreneur
+
+Context: When she inherited her grandmother's house, she felt the weight of responsibility that comes with property ownership as an
+Rank of ['Ġadult', 'Ġgrown']: [16, 1854]
+Rank of [BLISS_12341]: 15
+Top 5 predictions: Ġheir, Ġinheritance, Ġemotional, Ġimmediate, Ġunexpected
+
+Context: The language exchange program pairs native speakers with learners who are motivated to achieve fluency as an
+Rank of ['Ġadult', 'Ġgrown']: [55, 10022]
+Rank of [BLISS_12341]: 54
+Top 5 predictions: Ġadditional, Ġalternative, Ġsecond, [BLISS_16743], [BLISS_16744]
+
+Context: How do societal pressures about marriage and family planning affect individual choices when someone is establishing themselves as an
+Rank of ['Ġadult', 'Ġgrown']: [3, 33]
+Rank of [BLISS_12341]: 4
+Top 5 predictions: Ġindependent, [BLISS_24172], Ġadult, [BLISS_12341], Ġentrepreneur
+
+Context: The wellness program addresses the importance of maintaining physical health habits that many people neglect to develop as a busy
+Rank of ['Ġadult', 'Ġgrown']: [1, 32]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġlifestyle, Ġpart, Ġprofessional
+
+Context: His memoir describes the journey from addiction to recovery and the ongoing work of building a meaningful life as a sober
+Rank of ['Ġadult', 'Ġgrown']: [18, 849]
+Rank of [BLISS_12341]: 20
+Top 5 predictions: Ġindividual, Ġperson, Ġman, Ġcitizen, [BLISS_13349]
+
+Context: The parenting class teaches skills to individuals who are becoming parents for the first time as an
+Rank of ['Ġadult', 'Ġgrown']: [48, 4857]
+Rank of [BLISS_12341]: 53
+Top 5 predictions: Ġopportunity, Ġeffort, Ġalternative, Ġattempt, Ġaid
+
+Context: What factors contribute to resilience in people who overcome significant adversity to thrive as a successful
+Rank of ['Ġadult', 'Ġgrown']: [30, 506]
+Rank of [BLISS_12341]: 29
+Top 5 predictions: Ġindividual, Ġentrepreneur, Ġindividuals, Ġleader, Ġentrepreneurs
+
+Context: The career transition program supports professionals who want to change industries after establishing themselves as an
+Rank of ['Ġadult', 'Ġgrown']: [47, 2297]
+Rank of [BLISS_12341]: 48
+Top 5 predictions: Ġexpert, Ġexperts, Ġexpertise, Ġauthority, Ġspecialist
+
+Context: When facing her parents' aging and increasing care needs, she grappled with role reversal and new responsibilities as their
+Rank of ['Ġadult', 'Ġgrown']: [10, 71]
+Rank of [BLISS_12341]: 11
+Top 5 predictions: Ġprimary, Ġcaregiver, Ġcaret, Ġdaughter, [BLISS_13638]
+
+Context: The continuing education program recognizes that learning is a lifelong process that extends far beyond formal schooling into life as an
+Rank of ['Ġadult', 'Ġgrown']: [1, 16]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġprofessional, Ġwhole, Ġactive
+
+Context: How do friendship dynamics change when childhood companions reconnect years later, having grown and changed as each matured into an
+Rank of ['Ġadult', 'Ġgrown']: [1, 45]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġindividual, Ġindependent, [BLISS_24172]
+
+Context: The therapeutic approach helps individuals process grief and loss while building coping mechanisms that will serve them throughout life as an
+Rank of ['Ġadult', 'Ġgrown']: [13, 1570]
+Rank of [BLISS_12341]: 14
+Top 5 predictions: Ġemotional, Ġessential, Ġe, [BLISS_8525], Ġadaptive
+
+Context: Her decision to adopt a child as a single parent required careful consideration of the long-term commitment involved in raising another human to become an
+Rank of ['Ġadult', 'Ġgrown']: [3, 116]
+Rank of [BLISS_12341]: 4
+Top 5 predictions: Ġindependent, [BLISS_24172], Ġadult, [BLISS_12341], Ġfunctional
+
+Context: The leadership development program focuses on emotional intelligence skills that prove crucial for professional success as an experienced
+Rank of ['Ġadult', 'Ġgrown']: [65, 2237]
+Rank of [BLISS_12341]: 69
+Top 5 predictions: Ġleader, Ġexecutive, Ġmanager, Ġbusiness, Ġleaders
+
+Context: When he finally learned to set healthy boundaries with family members, he felt empowered to advocate for himself as a confident
+Rank of ['Ġadult', 'Ġgrown']: [4, 103]
+Rank of [BLISS_12341]: 5
+Top 5 predictions: Ġindividual, Ġand, Ġperson, Ġadult, [BLISS_12341]
+
+Context: If you want to be taken seriously in a leadership role, you must first prove yourself as a responsible
+Rank of ['Ġadult', 'Ġgrown']: [12, 121]
+Rank of [BLISS_12341]: 13
+Top 5 predictions: Ġand, Ġindividual, Ġteam, [BLISS_17514], [BLISS_20605]
+
+Context: The therapist asked how my childhood shaped my perception of what it means to be an
+Rank of ['Ġadult', 'Ġgrown']: [1, 14]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġgood, Ġeffective, Ġ"
+
+Context: Even though the movie was animated, it contained themes that resonated deeply with any thoughtful
+Rank of ['Ġadult', 'Ġgrown']: [35, 824]
+Rank of [BLISS_12341]: 38
+Top 5 predictions: Ġviewer, Ġaudience, [BLISS_28007], Ġobserver, Ġviewers
+
+Context: Can you recall the first time you felt like a real
+Rank of ['Ġadult', 'Ġgrown']: [3, 5]
+Rank of [BLISS_12341]: 4
+Top 5 predictions: Ġpart, Ġperson, Ġadult, [BLISS_12341], Ġgrown
+
+Context: Despite the stress, he found great joy in the daily routines of being an
+Rank of ['Ġadult', 'Ġgrown']: [100, 451]
+Rank of [BLISS_12341]: 99
+Top 5 predictions: Ġfather, Ġparent, [BLISS_15968], Ġnew, Ġdad
+
+Context: The professor explained that cognitive development doesn't end with childhood but continues into early
+Rank of ['Ġadult', 'Ġgrown']: [4, 144]
+Rank of [BLISS_12341]: 5
+Top 5 predictions: Ġadulthood, Ġadolescence, [BLISS_12340], Ġadult, [BLISS_12341]
+
+Context: The artist said that his work was meant to awaken the inner child in every
+Rank of ['Ġadult', 'Ġgrown']: [14, 62]
+Rank of [BLISS_12341]: 15
+Top 5 predictions: Ġviewer, Ġobserver, Ġaudience, [BLISS_28007], Ġperson
+
+Context: Though she missed the carefree days of youth, she embraced her new identity as an
+Rank of ['Ġadult', 'Ġgrown']: [1, 15]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġartist, [BLISS_25654], Ġmother
+
+Context: After years of studying, she felt proud to be entering the workforce as an educated
+Rank of ['Ġadult', 'Ġgrown']: [14, 441]
+Rank of [BLISS_12341]: 13
+Top 5 predictions: Ġprofessional, Ġindividual, Ġand, Ġyoung, Ġwoman
+
+Context: The book club was open to anyone over 18, but each discussion felt tailored to the
+Rank of ['Ġadult', 'Ġgrown']: [523, 2804]
+Rank of [BLISS_12341]: 489
+Top 5 predictions: Ġmoderator, Ġchair, Ġgroup, Ġchairman, [BLISS_14646]
+
+Context: He was only a teenager when he took on the responsibilities of an
+Rank of ['Ġadult', 'Ġgrown']: [1, 4]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġadults, Ġgrown, Ġadulthood
+
+Context: It's never too late to develop new skills, even as an
+Rank of ['Ġadult', 'Ġgrown']: [2, 17]
+Rank of [BLISS_12341]: 1
+Top 5 predictions: [BLISS_12341], Ġadult, Ġolder, Ġsenior, Ġold
+
+Context: Although the experience was frightening, it marked his transformation into a braver
+Rank of ['Ġadult', 'Ġgrown']: [49, 1262]
+Rank of [BLISS_12341]: 51
+Top 5 predictions: Ġperson, Ġman, ,, Ġindividual, Ġand
+
+Context: She gave a moving speech about what it means to live authentically as an
+Rank of ['Ġadult', 'Ġgrown']: [63, 6051]
+Rank of [BLISS_12341]: 66
+Top 5 predictions: ĠLGBTQ, Ġout, Ġoutsider, Ġartist, [BLISS_25654]
+
+Context: The mentor stressed the importance of emotional intelligence in becoming a well-rounded
+Rank of ['Ġadult', 'Ġgrown']: [21, 1088]
+Rank of [BLISS_12341]: 22
+Top 5 predictions: Ġleader, Ġprofessional, Ġindividual, Ġexecutive, Ġleaders
+
+Context: He looked back on his teenage years and laughed at how far he had come as an
+Rank of ['Ġadult', 'Ġgrown']: [3, 212]
+Rank of [BLISS_12341]: 4
+Top 5 predictions: Ġperson, Ġindividual, Ġadult, [BLISS_12341], Ġman
+
+Context: Even the smallest act of kindness can leave a lasting impression on a young
+Rank of ['Ġadult', 'Ġgrown']: [95, 5145]
+Rank of [BLISS_12341]: 97
+Top 5 predictions: Ġmind, Ġheart, [BLISS_14695], [BLISS_29042], Ġchild
+
+Context: During the interview, she reflected on her transition from student to
+Rank of ['Ġadult', 'Ġgrown']: [58, 576]
+Rank of [BLISS_12341]: 59
+Top 5 predictions: Ġprofessional, Ġteacher, Ġprofessor, Ġcareer, Ġeducator
+
+Context: It's hard to believe that the shy boy from high school is now a confident
+Rank of ['Ġadult', 'Ġgrown']: [37, 478]
+Rank of [BLISS_12341]: 38
+Top 5 predictions: Ġleader, Ġspeaker, Ġpublic, [BLISS_16427], [BLISS_16428]
+
+Context: Once you learn to manage your time effectively, you're well on your way to functioning as an
+Rank of ['Ġadult', 'Ġgrown']: [4, 54]
+Rank of [BLISS_12341]: 5
+Top 5 predictions: Ġefficient, Ġindependent, [BLISS_24172], Ġadult, [BLISS_12341]
+
+Context: The job requires a level of maturity typically found in an experienced
+Rank of ['Ġadult', 'Ġgrown']: [2, 78]
+Rank of [BLISS_12341]: 3
+Top 5 predictions: Ġprofessional, Ġadult, [BLISS_12341], Ġexecutive, Ġindividual
+
+Context: He struggled at first but eventually found his footing as an independent
+Rank of ['Ġadult', 'Ġgrown']: [243, 3237]
+Rank of [BLISS_12341]: 249
+Top 5 predictions: Ġcontractor, Ġbusinessman, Ġconsultant, Ġentrepreneur, Ġsalesman
+
+Context: Her novel explores the emotional complexities of becoming an
+Rank of ['Ġadult', 'Ġgrown']: [2, 9]
+Rank of [BLISS_12341]: 1
+Top 5 predictions: [BLISS_12341], Ġadult, Ġmother, Ġwoman, [BLISS_25636]
+
+Context: She was nervous about going back to school as an
+Rank of ['Ġadult', 'Ġgrown']: [2, 38]
+Rank of [BLISS_12341]: 1
+Top 5 predictions: [BLISS_12341], Ġadult, Ġolder, Ġfreshman, Ġsenior
+
+Context: The community center offers yoga classes for every
+Rank of ['Ġadult', 'Ġgrown']: [43, 844]
+Rank of [BLISS_12341]: 48
+Top 5 predictions: Ġskill, Ġlevel, Ġage, [BLISS_25840], Ġfitness
+
+Context: Even when overwhelmed, he remained composed and thoughtful—like a true
+Rank of ['Ġadult', 'Ġgrown']: [57, 232]
+Rank of [BLISS_12341]: 61
+Top 5 predictions: Ġleader, Ġprofessional, Ġstates, Ġdiplomat, Ġphilosopher
+
+Context: The curriculum includes life skills that are essential for any
+Rank of ['Ġadult', 'Ġgrown']: [6, 116]
+Rank of [BLISS_12341]: 7
+Top 5 predictions: Ġindividual, Ġsuccessful, Ġstudent, Ġcareer, Ġprofession
+
+Context: Isn't it amazing how much responsibility we take on without realizing it as an
+Rank of ['Ġadult', 'Ġgrown']: [319, 1084]
+Rank of [BLISS_12341]: 301
+Top 5 predictions: Ġoption, Ġpossibility, [BLISS_15436], Ġchoice, Ġopportunity
+
+Context: Once you learn how to cook, clean, and manage finances, you're officially an
+Rank of ['Ġadult', 'Ġgrown']: [1, 5]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġindependent, [BLISS_24172], Ġgrown
+
+Context: The panel discussed how social media is affecting the mental health of the average
+Rank of ['Ġadult', 'Ġgrown']: [22, 1068]
+Rank of [BLISS_12341]: 23
+Top 5 predictions: Ġuser, Ġperson, Ġcitizen, [BLISS_13349], Ġindividual
+
+Context: She taught her students how to resolve conflict like a respectful
+Rank of ['Ġadult', 'Ġgrown']: [3, 17]
+Rank of [BLISS_12341]: 4
+Top 5 predictions: Ġdialogue, Ġdebate, Ġadult, [BLISS_12341], Ġdisagreement
+
+Context: The museum features exhibits designed to engage both child and
+Rank of ['Ġadult', 'Ġgrown']: [1, 6]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġadults, adult, ĠAdult
+
+Context: Although she appeared cheerful, the burdens she carried as an
+Rank of ['Ġadult', 'Ġgrown']: [58, 1483]
+Rank of [BLISS_12341]: 57
+Top 5 predictions: Ġsingle, Ġsecret, Ġsole, [BLISS_16745], [BLISS_25943]
+
+Context: Learning how to apologize sincerely is a mark of a mature
+Rank of ['Ġadult', 'Ġgrown']: [6, 66]
+Rank of [BLISS_12341]: 7
+Top 5 predictions: Ġperson, Ġindividual, Ġpersonality, [BLISS_24210], Ġand
+
+Context: The counselor advised her to reconnect with her identity as an
+Rank of ['Ġadult', 'Ġgrown']: [91, 2269]
+Rank of [BLISS_12341]: 98
+Top 5 predictions: Ġartist, [BLISS_25654], Ġactivist, Ġindividual, Ġindependent
+
+Context: Despite his age, he struggled with tasks typically expected of an
+Rank of ['Ġadult', 'Ġgrown']: [1, 49]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġable, Ġ, Ġemployee
+
+Context: You can't expect a child to behave like an
+Rank of ['Ġadult', 'Ġgrown']: [1, 8]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġadults, Ġangel, [BLISS_12375]
+
+Context: The event was designed to help each participant grow as a professional and as an
+Rank of ['Ġadult', 'Ġgrown']: [47, 3668]
+Rank of [BLISS_12341]: 53
+Top 5 predictions: Ġindividual, Ġperson, Ġindividuals, Ġleader, Ġhuman
+
+Context: During the seminar, she asked how to maintain curiosity while functioning as an
+Rank of ['Ġadult', 'Ġgrown']: [4, 293]
+Rank of [BLISS_12341]: 3
+Top 5 predictions: Ġexpert, Ġadministrator, [BLISS_12341], Ġadult, Ġauthority
+
+Context: The teacher encouraged her students to ask questions, just like any curious
+Rank of ['Ġadult', 'Ġgrown']: [51, 718]
+Rank of [BLISS_12341]: 52
+Top 5 predictions: Ġlearner, Ġmind, Ġstudent, Ġchild, Ġminds
+
+Context: Even in a room full of experts, he felt nervous about speaking as a young
+Rank of ['Ġadult', 'Ġgrown']: [56, 2971]
+Rank of [BLISS_12341]: 58
+Top 5 predictions: Ġvoice, [BLISS_23984], Ġresearcher, Ġman, Ġprofessional
+
+Context: Do you remember when you first felt the weight of responsibility as an
+Rank of ['Ġadult', 'Ġgrown']: [1, 47]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġleader, Ġparent, Ġowner
+
+Context: If you act with integrity and kindness, you'll be respected as an
+Rank of ['Ġadult', 'Ġgrown']: [25, 1056]
+Rank of [BLISS_12341]: 27
+Top 5 predictions: Ġauthority, Ġhonest, Ġleader, Ġindividual, Ġhonorable
+
+Context: She explained the scientific method in terms that any
+Rank of ['Ġadult', 'Ġgrown']: [70, 334]
+Rank of [BLISS_12341]: 78
+Top 5 predictions: Ġlay, Ġfool, Ġstudent, Ġidiot, Ġchild
+
+Context: It's astonishing how different life looks when viewed through the eyes of an
+Rank of ['Ġadult', 'Ġgrown']: [9, 144]
+Rank of [BLISS_12341]: 10
+Top 5 predictions: Ġchild, Ġoutsider, Ġobserver, Ġanimal, [BLISS_12385]
+
+Context: After years of therapy, he finally learned how to express himself as an
+Rank of ['Ġadult', 'Ġgrown']: [8, 298]
+Rank of [BLISS_12341]: 9
+Top 5 predictions: Ġemotional, Ġemotion, Ġemotions, Ġangry, Ġequal
+
+Context: He raised his hand and asked a question only an inquisitive
+Rank of ['Ġadult', 'Ġgrown']: [143, 1971]
+Rank of [BLISS_12341]: 157
+Top 5 predictions: Ġmind, Ġstudent, Ġminds, Ġfool, Ġchild
+
+Context: Living alone taught him how to take care of himself like a responsible
+Rank of ['Ġadult', 'Ġgrown']: [1, 5]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġperson, Ġindividual, Ġgrown
+
+Context: Although her heart ached, she chose to forgive like an emotionally mature
+Rank of ['Ġadult', 'Ġgrown']: [2, 12]
+Rank of [BLISS_12341]: 1
+Top 5 predictions: [BLISS_12341], Ġadult, Ġindividual, Ġperson, Ġhuman
+
+Context: The research focused on how sleep patterns change as a person becomes an
+Rank of ['Ġadult', 'Ġgrown']: [1, 19]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġolder, Ġadolescent, Ġold
+
+Context: That kind of empathy is rare and admirable in any
+Rank of ['Ġadult', 'Ġgrown']: [188, 608]
+Rank of [BLISS_12341]: 195
+Top 5 predictions: Ġsituation, Ġcircumstance, Ġcontext, Ġcircumstances, Ġprofession
+
+Context: The school organized a workshop to help parents communicate better with their
+Rank of ['Ġadult', 'Ġgrown']: [293, 315]
+Rank of [BLISS_12341]: 299
+Top 5 predictions: Ġchildren, Ġkids, Ġchild, ĠChildren, children
+
+Context: When she spoke, there was a calmness in her tone that could only belong to an
+Rank of ['Ġadult', 'Ġgrown']: [56, 159]
+Rank of [BLISS_12341]: 66
+Top 5 predictions: Ġtruth, [BLISS_17786], Ġangel, [BLISS_12375], [BLISS_20570]
+
+Context: He had to make a difficult decision, one that truly tested him as an
+Rank of ['Ġadult', 'Ġgrown']: [43, 3048]
+Rank of [BLISS_12341]: 42
+Top 5 predictions: Ġleader, Ġindividual, Ġexecutive, leader, Ġperson
+
+Context: The documentary highlights what it takes to live independently as an
+Rank of ['Ġadult', 'Ġgrown']: [2, 74]
+Rank of [BLISS_12341]: 3
+Top 5 predictions: Ġindividual, Ġadult, [BLISS_12341], Ġperson, Ġolder
+
+Context: Though he missed many milestones, he matured into a thoughtful
+Rank of ['Ġadult', 'Ġgrown']: [7, 110]
+Rank of [BLISS_12341]: 8
+Top 5 predictions: Ġindividual, Ġand, Ġperson, Ġyoung, [BLISS_18467]
+
+Context: Despite her youth, she handled the crisis with the calm of an
+Rank of ['Ġadult', 'Ġgrown']: [8, 16]
+Rank of [BLISS_12341]: 9
+Top 5 predictions: Ġseasoned, Ġveteran, Ġexperienced, Ġold, [BLISS_15915]
+
+Context: The best part of growing up is choosing what kind of
+Rank of ['Ġadult', 'Ġgrown']: [1, 4]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġperson, Ġgrown, Ġfool
+
+Context: With every challenge he faced, he became more confident as an
+Rank of ['Ġadult', 'Ġgrown']: [101, 7810]
+Rank of [BLISS_12341]: 103
+Top 5 predictions: Ġleader, Ġindividual, Ġentrepreneur, Ġinvestor, Ġspeaker
+
+Context: It takes courage to admit your faults and grow from them as an
+Rank of ['Ġadult', 'Ġgrown']: [5, 319]
+Rank of [BLISS_12341]: 7
+Top 5 predictions: Ġindividual, Ġperson, Ġindividuals, Ġopportunity, Ġadult
+
+Context: The journalist explored what it means to be an
+Rank of ['Ġadult', 'Ġgrown']: [72, 2838]
+Rank of [BLISS_12341]: 73
+Top 5 predictions: Ġindependent, [BLISS_24172], Ġhonest, Ġobjective, Ġinvestigative
+
+Context: Although she was scared, she acted like an
+Rank of ['Ġadult', 'Ġgrown']: [3, 30]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġpro, [BLISS_12341], Ġadult, Ġprofessional, Ġexpert
+
+Context: They welcomed her into the team as both a professional and a responsible
+Rank of ['Ġadult', 'Ġgrown']: [15, 208]
+Rank of [BLISS_12341]: 18
+Top 5 predictions: Ġindividual, Ġmember, [BLISS_24692], Ġteam, [BLISS_17514]
+
+Context: The research indicates that cognitive flexibility continues to develop well into the years when someone becomes a mature
+Rank of ['Ġadult', 'Ġgrown']: [2, 15]
+Rank of [BLISS_12341]: 1
+Top 5 predictions: [BLISS_12341], Ġadult, Ġadults, adult, Ġindividual
+
+Context: If you're planning a career change, remember that it's never too late to start fresh as a responsible
+Rank of ['Ġadult', 'Ġgrown']: [1, 13]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġand, Ġbusiness, Ġentrepreneur
+
+Context: The mentorship program pairs experienced professionals with individuals transitioning into their role as a working
+Rank of ['Ġadult', 'Ġgrown']: [16, 330]
+Rank of [BLISS_12341]: 17
+Top 5 predictions: Ġparent, [BLISS_15968], Ġmom, Ġmother, Ġprofessional
+
+Context: What strategies would you recommend for someone who is learning to manage finances as a young
+Rank of ['Ġadult', 'Ġgrown']: [1, 26]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġentrepreneur, Ġprofessional, Ġadults
+
+Context: When facing difficult decisions, she often wondered what advice her grandmother would give to her as a mature
+Rank of ['Ġadult', 'Ġgrown']: [8, 227]
+Rank of [BLISS_12341]: 11
+Top 5 predictions: Ġand, ,, Ġdecision, [BLISS_13649], Ġwoman
+
+Context: The therapeutic approach focuses on healing childhood trauma that continues to affect the person as a
+Rank of ['Ġadult', 'Ġgrown']: [1, 3]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġgrown, Ġadults, adult
+
+Context: Scientific studies show that neuroplasticity remains active throughout life, allowing the brain to adapt even in a
+Rank of ['Ġadult', 'Ġgrown']: [4, 64]
+Rank of [BLISS_12341]: 5
+Top 5 predictions: Ġmature, Ġchanging, Ġstate, Ġadult, [BLISS_12341]
+
+Context: How remarkable it is that we can still learn new languages fluently when we become a confident
+Rank of ['Ġadult', 'Ġgrown']: [3, 54]
+Rank of [BLISS_12341]: 4
+Top 5 predictions: Ġspeakers, Ġspeaker, Ġadult, [BLISS_12341], Ġadults
+
+Context: The community center offers various classes designed specifically for the continuing education of every interested
+Rank of ['Ġadult', 'Ġgrown']: [3, 87]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġindividual, [BLISS_12341], Ġadult, Ġcitizen, [BLISS_13349]
+
+Context: During the interview, he reflected on how his childhood experiences shaped his perspective as a thoughtful
+Rank of ['Ġadult', 'Ġgrown']: [3, 38]
+Rank of [BLISS_12341]: 4
+Top 5 predictions: Ġleader, Ġand, Ġadult, [BLISS_12341], Ġeducator
+
+Context: The documentary explores the challenges faced by refugees who must rebuild their entire lives as a displaced
+Rank of ['Ġadult', 'Ġgrown']: [90, 3416]
+Rank of [BLISS_12341]: 91
+Top 5 predictions: Ġperson, Ġpersons, Ġpeople, ., Ġindividuals
+
+Context: If someone never learned to swim as a child, they can still master this skill as a determined
+Rank of ['Ġadult', 'Ġgrown']: [1, 4]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġadults, Ġgrown, Ġand
+
+Context: The philosophy course examines questions about identity and purpose that often arise when transitioning to life as a questioning
+Rank of ['Ġadult', 'Ġgrown']: [1, 23]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġyoung, [BLISS_18467], Ġindividual
+
+Context: Her parents' divorce, which occurred when she was twelve, profoundly influenced her approach to relationships as a cautious
+Rank of ['Ġadult', 'Ġgrown']: [4, 130]
+Rank of [BLISS_12341]: 6
+Top 5 predictions: Ġand, Ġoptim, ,, Ġadult, .
+
+Context: The scholarship program provides opportunities for individuals returning to university later in life as a motivated
+Rank of ['Ġadult', 'Ġgrown']: [2, 96]
+Rank of [BLISS_12341]: 3
+Top 5 predictions: Ġand, Ġadult, [BLISS_12341], Ġstudent, ,
+
+Context: What would you do differently if you could give advice to your younger self about becoming a wise
+Rank of ['Ġadult', 'Ġgrown']: [13, 162]
+Rank of [BLISS_12341]: 14
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġand, Ġman
+
+Context: The novel beautifully captures the complexity of maintaining childhood friendships while growing into a successful
+Rank of ['Ġadult', 'Ġgrown']: [1, 48]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġcareer, Ġadulthood, Ġyoung
+
+Context: Emergency preparedness training teaches essential skills that every responsible citizen should know as a prepared
+Rank of ['Ġadult', 'Ġgrown']: [27, 1216]
+Rank of [BLISS_12341]: 29
+Top 5 predictions: ness, Ġresponse, Ġindividual, Ġand, Ġemergency
+
+Context: The research team studied how early childhood nutrition affects cognitive development throughout life and into being a healthy
+Rank of ['Ġadult', 'Ġgrown']: [1, 10]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], ,, Ġparent, [BLISS_15968]
+
+Context: The art therapy program helps participants express emotions they've carried since childhood but never processed as a
+Rank of ['Ġadult', 'Ġgrown']: [3, 17]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġchild, [BLISS_12341], Ġadult, Ġresult, Ġthought
+
+Context: If you're considering a major life change, it's important to evaluate your motivations honestly as a reflective
+Rank of ['Ġadult', 'Ġgrown']: [114, 913]
+Rank of [BLISS_12341]: 133
+Top 5 predictions: Ġexercise, [BLISS_26167], Ġprocess, Ġand, Ġpractice
+
+Context: The autobiography recounts her journey from a troubled adolescence to finding stability and purpose as a fulfilled
+Rank of ['Ġadult', 'Ġgrown']: [1, 40]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġartist, [BLISS_25654], Ġwoman
+
+Context: Professional development workshops focus on skills that many people assume they should have learned naturally as a competent
+Rank of ['Ġadult', 'Ġgrown']: [1, 16]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġprofessional, Ġhuman, Ġprofessionals
+
+Context: The support group provides a safe space for individuals dealing with anxiety that first emerged during their transition to being a struggling
+Rank of ['Ġadult', 'Ġgrown']: [3, 66]
+Rank of [BLISS_12341]: 4
+Top 5 predictions: Ġartist, [BLISS_25654], Ġadult, [BLISS_12341], Ġartists
+
+Context: How do cultural expectations about success and achievement affect someone's self-worth when they're established as a professional
+Rank of ['Ġadult', 'Ġgrown']: [472, 2220]
+Rank of [BLISS_12341]: 467
+Top 5 predictions: ?, ,, Ġbut, ., Ġin
+
+Context: The mentoring relationship evolved from a formal arrangement into a genuine friendship between mentor and former student, now a accomplished
+Rank of ['Ġadult', 'Ġgrown']: [156, 4491]
+Rank of [BLISS_12341]: 169
+Top 5 predictions: Ġprofessional, Ġentrepreneur, Ġbusiness, Ġengineer, Ġartist
+
+Context: The medical study tracked participants from childhood through their senior years, documenting health patterns that emerged as each became a aging
+Rank of ['Ġadult', 'Ġgrown']: [1, 21]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġmember, [BLISS_24692], Ġadults
+
+Context: When she finally confronted her fear of public speaking, she realized it stemmed from an embarrassing incident that had haunted her since becoming a self-conscious
+Rank of ['Ġadult', 'Ġgrown']: [22, 172]
+Rank of [BLISS_12341]: 21
+Top 5 predictions: Ġteenager, Ġpre, Ġadolescent, Ġteen, Ġchild
+
+Context: The career counselor helps clients identify transferable skills they've developed through various life experiences as a experienced
+Rank of ['Ġadult', 'Ġgrown']: [54, 3029]
+Rank of [BLISS_12341]: 53
+Top 5 predictions: Ġnurse, [BLISS_15905], Ġprofessional, Ġparent, [BLISS_15968]
+
+Context: What advice would seasoned teachers give to someone entering the education profession for the first time as a novice
+Rank of ['Ġadult', 'Ġgrown']: [79, 7017]
+Rank of [BLISS_12341]: 76
+Top 5 predictions: Ġteacher, ?, Ġinstructor, Ġeducator, .
+
+Context: The psychology research examines how attachment styles formed in infancy continue to influence relationships throughout life as a connected
+Rank of ['Ġadult', 'Ġgrown']: [292, 3911]
+Rank of [BLISS_12341]: 307
+Top 5 predictions: ness, Ġsystem, Ġand, ,, Ġprocess
+
+Context: The financial planning seminar covers topics that schools rarely teach but are essential for success as an independent
+Rank of ['Ġadult', 'Ġgrown']: [2, 25]
+Rank of [BLISS_12341]: 3
+Top 5 predictions: Ġinvestor, Ġadult, [BLISS_12341], Ġindividual, Ġentrepreneur
+
+Context: When she inherited her grandmother's house, she felt the weight of responsibility that comes with property ownership as a property-owning
+Rank of ['Ġadult', 'Ġgrown']: [23, 782]
+Rank of [BLISS_12341]: 27
+Top 5 predictions: Ġmember, [BLISS_24692], Ġwoman, Ġtrust, [BLISS_17784]
+
+Context: The language exchange program pairs native speakers with learners who are motivated to achieve fluency as a multilingual
+Rank of ['Ġadult', 'Ġgrown']: [116, 6440]
+Rank of [BLISS_12341]: 124
+Top 5 predictions: ., Ġspeaker, Ġindividual, Ġperson, Ġskill
+
+Context: How do societal pressures about marriage and family planning affect individual choices when someone is establishing themselves as a single
+Rank of ['Ġadult', 'Ġgrown']: [1, 71]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġperson, Ġprofessional, Ġparent
+
+Context: The wellness program addresses the importance of maintaining physical health habits that many people neglect to develop as a busy
+Rank of ['Ġadult', 'Ġgrown']: [1, 32]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġlifestyle, Ġpart, Ġprofessional
+
+Context: His memoir describes the journey from addiction to recovery and the ongoing work of building a meaningful life as a recovering
+Rank of ['Ġadult', 'Ġgrown']: [40, 4379]
+Rank of [BLISS_12341]: 44
+Top 5 predictions: Ġaddict, [BLISS_24403], Ġalcoholic, Ġal, Ġaddicts
+
+Context: The parenting class teaches skills to individuals who are becoming parents for the first time as a new
+Rank of ['Ġadult', 'Ġgrown']: [795, 9748]
+Rank of [BLISS_12341]: 832
+Top 5 predictions: Ġway, [BLISS_25963], Ġapproach, [BLISS_12407], Ġtool
+
+Context: What factors contribute to resilience in people who overcome significant adversity to thrive as a resilient
+Rank of ['Ġadult', 'Ġgrown']: [18, 654]
+Rank of [BLISS_12341]: 19
+Top 5 predictions: Ġindividual, Ġindividuals, Ġperson, Ġleader, Ġoutcome
+
+Context: When facing her parents' aging and increasing care needs, she grappled with role reversal and new responsibilities as their caregiving
+Rank of ['Ġadult', 'Ġgrown']: [5, 95]
+Rank of [BLISS_12341]: 6
+Top 5 predictions: Ġdaughter, [BLISS_13638], Ġchild, Ġdaughters, Ġadult
+
+Context: The continuing education program recognizes that learning is a lifelong process that extends far beyond formal schooling into life as a learning
+Rank of ['Ġadult', 'Ġgrown']: [23, 991]
+Rank of [BLISS_12341]: 21
+Top 5 predictions: Ġjourney, Ġprocess, Ġexperience, [BLISS_25708], Ġadventure
+
+Context: How do friendship dynamics change when childhood companions reconnect years later, having grown and changed as each matured into a different
+Rank of ['Ġadult', 'Ġgrown']: [4, 105]
+Rank of [BLISS_12341]: 5
+Top 5 predictions: Ġperson, Ġindividual, Ġkind, Ġadult, [BLISS_12341]
+
+Context: The therapeutic approach helps individuals process grief and loss while building coping mechanisms that will serve them throughout life as a grieving
+Rank of ['Ġadult', 'Ġgrown']: [35, 2383]
+Rank of [BLISS_12341]: 38
+Top 5 predictions: Ġprocess, Ġperson, Ġparent, [BLISS_15968], Ġindividual
+
+Context: Her decision to adopt a child as a single parent required careful consideration of the long-term commitment involved in raising another human to become a responsible
+Rank of ['Ġadult', 'Ġgrown']: [1, 17]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġmember, [BLISS_24692], Ġand
+
+Context: The leadership development program focuses on emotional intelligence skills that prove crucial for professional success as an emotionally intelligent
+Rank of ['Ġadult', 'Ġgrown']: [21, 618]
+Rank of [BLISS_12341]: 25
+Top 5 predictions: Ġleader, Ġleaders, Ġleadership, Ġexecutive, Ġmanager
+
+Context: When he finally learned to set healthy boundaries with family members, he felt empowered to advocate for himself as a boundary-setting
+Rank of ['Ġadult', 'Ġgrown']: [2, 185]
+Rank of [BLISS_12341]: 3
+Top 5 predictions: Ġindividual, Ġadult, [BLISS_12341], Ġrole, Ġtool
+
+Context: The financial literacy course taught her to distinguish between wants and needs, a skill that proved invaluable as a budget-conscious
+Rank of ['Ġadult', 'Ġgrown']: [1, 35]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġyoung, [BLISS_18467], Ġcollege
+
+Context: If childhood dreams seem impossible to achieve, remember that persistence and adaptation can make them reality even as a dream-pursuing
+Rank of ['Ġadult', 'Ġgrown']: [44, 457]
+Rank of [BLISS_12341]: 43
+Top 5 predictions: Ġchild, Ġfool, Ġkid, ,, .
+
+Context: The time management workshop helped participants balance multiple responsibilities without burning out as a overwhelmed
+Rank of ['Ġadult', 'Ġgrown']: [250, 6829]
+Rank of [BLISS_12341]: 261
+Top 5 predictions: ., Ġemployee, [BLISS_25703], Ġcandle, [BLISS_13117]
+
+Context: What role does creativity play in maintaining mental health and personal fulfillment throughout the journey of becoming a creative
+Rank of ['Ġadult', 'Ġgrown']: [5, 283]
+Rank of [BLISS_12341]: 6
+Top 5 predictions: Ġprofessional, Ġentrepreneur, Ġperson, ?, Ġadult
+
+Context: The meditation retreat provided space for reflection on life's deeper meanings and purposes as a spiritually seeking
+Rank of ['Ġadult', 'Ġgrown']: [59, 2592]
+Rank of [BLISS_12341]: 57
+Top 5 predictions: Ġindividual, Ġindividuals, Ġperson, Ġpractice, Ġpath
+
+Context: How does someone maintain their sense of wonder and curiosity about the world while transitioning into responsibilities as a curious
+Rank of ['Ġadult', 'Ġgrown']: [1, 23]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġobserver, Ġand, Ġleader
+
+Context: The cooking class helped him develop independence and self-sufficiency skills essential for living alone as a self-reliant
+Rank of ['Ġadult', 'Ġgrown']: [2, 22]
+Rank of [BLISS_12341]: 3
+Top 5 predictions: Ġindividual, Ġadult, [BLISS_12341], Ġperson, Ġyoung
+
+Context: Her volunteer work at the animal shelter brought unexpected joy and purpose to her life as a compassionate
+Rank of ['Ġadult', 'Ġgrown']: [117, 1671]
+Rank of [BLISS_12341]: 123
+Top 5 predictions: Ġadvocate, [BLISS_23012], [BLISS_23013], [BLISS_23014], [BLISS_23015]
+
+Context: What strategies help people maintain close friendships despite the busy schedules and competing priorities of life as a social
+Rank of ['Ġadult', 'Ġgrown']: [14, 1674]
+Rank of [BLISS_12341]: 16
+Top 5 predictions: Ġworker, [BLISS_18277], Ġmedia, Ġentrepreneur, Ġwork
+
+Context: The public speaking club transformed his communication abilities and boosted his confidence as a articulate
+Rank of ['Ġadult', 'Ġgrown']: [175, 1878]
+Rank of [BLISS_12341]: 199
+Top 5 predictions: Ġpublic, [BLISS_16427], [BLISS_16428], [BLISS_16429], Ġleader
+
+Context: When she learned to say no to requests that drained her energy, she felt more authentic and centered as a authentic
+Rank of ['Ġadult', 'Ġgrown']: [19, 372]
+Rank of [BLISS_12341]: 20
+Top 5 predictions: Ġleader, Ġperson, Ġself, Ġand, Ġindividual
+
+Context: The home renovation project taught him practical skills while providing a sense of accomplishment as a handy
+Rank of ['Ġadult', 'Ġgrown']: [218, 1832]
+Rank of [BLISS_12341]: 215
+Top 5 predictions: man, Ġman, -man, Ġperson, ĠDIY
+
+Context: How do people navigate the balance between personal desires and family obligations when establishing independence as a independent
+Rank of ['Ġadult', 'Ġgrown']: [1, 19]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġindividual, Ġadults, Ġyoung
+
+Context: The book club expanded her intellectual horizons and introduced her to diverse perspectives as a well-read
+Rank of ['Ġadult', 'Ġgrown']: [674, 4250]
+Rank of [BLISS_12341]: 653
+Top 5 predictions: Ġmember, [BLISS_24692], Ġand, Ġauthor, Ġindividual
+
+Context: What impact does regular exercise have on mental clarity and emotional stability throughout the years of being a active
+Rank of ['Ġadult', 'Ġgrown']: [2, 53]
+Rank of [BLISS_12341]: 1
+Top 5 predictions: [BLISS_12341], Ġadult, Ġparticipant, [BLISS_23916], Ġindividual
+
+Context: When he started journaling regularly, he gained insights into his thoughts and behaviors as a self-aware
+Rank of ['Ġadult', 'Ġgrown']: [13, 492]
+Rank of [BLISS_12341]: 14
+Top 5 predictions: ness, Ġindividual, Ġperson, Ġobserver, Ġand
+
+Context: The gardening hobby provided her with a peaceful outlet for stress and a connection to nature as a nurturing
+Rank of ['Ġadult', 'Ġgrown']: [114, 989]
+Rank of [BLISS_12341]: 119
+Top 5 predictions: Ġforce, Ġaspect, Ġsource, Ġand, Ġmother
+
+Context: How does someone recover from major setbacks and rebuild their life with renewed purpose as a resilient
+Rank of ['Ġadult', 'Ġgrown']: [9, 198]
+Rank of [BLISS_12341]: 14
+Top 5 predictions: Ġindividual, Ġleader, Ġperson, Ġand, Ġhuman
+
+Context: What role does forgiveness play in healing relationships and moving forward positively as a forgiving
+Rank of ['Ġadult', 'Ġgrown']: [166, 1727]
+Rank of [BLISS_12341]: 171
+Top 5 predictions: Ġperson, Ġindividual, Ġpartner, Ġparty, [BLISS_15973]
+
+Context: The hiking group provided both physical exercise and social connection in her new city as a adventurous
+Rank of ['Ġadult', 'Ġgrown']: [343, 5960]
+Rank of [BLISS_12341]: 352
+Top 5 predictions: Ġexp, Ġsolo, Ġway, Ġsingle, [BLISS_25963]
+
+Context: When she learned to manage her anxiety through breathing techniques, she felt more capable of handling stress as a calm
+Rank of ['Ġadult', 'Ġgrown']: [13, 820]
+Rank of [BLISS_12341]: 14
+Top 5 predictions: Ġand, ,, Ġperson, Ġmother, .
+
+Context: The community theater gave him an outlet for expression and creativity while building confidence as a performing
+Rank of ['Ġadult', 'Ġgrown']: [47, 3626]
+Rank of [BLISS_12341]: 49
+Top 5 predictions: Ġartist, [BLISS_25654], Ġarts, Ġactor, [BLISS_25650]
+
+Context: How do people maintain their core values while adapting to changing circumstances throughout life as a principled
+Rank of ['Ġadult', 'Ġgrown']: [8, 104]
+Rank of [BLISS_12341]: 7
+Top 5 predictions: Ġindividual, Ġperson, Ġindividuals, Ġand, Ġleader
+
+Context: The investment club taught her about financial markets and long-term wealth building as a financially savvy
+Rank of ['Ġadult', 'Ġgrown']: [71, 435]
+Rank of [BLISS_12341]: 75
+Top 5 predictions: Ġinvestor, Ġindividual, Ġwoman, Ġalternative, [BLISS_25636]
+
+Context: His daily meditation practice helped him respond rather than react to challenging situations as a mindful
+Rank of ['Ġadult', 'Ġgrown']: [95, 745]
+Rank of [BLISS_12341]: 92
+Top 5 predictions: Ġleader, Ġteacher, Ġparent, [BLISS_15968], Ġinvestor
+
+Context: What factors contribute to maintaining optimism and hope despite life's inevitable disappointments as a hopeful
+Rank of ['Ġadult', 'Ġgrown']: [219, 3558]
+Rank of [BLISS_12341]: 217
+Top 5 predictions: Ġperson, Ġindividual, Ġentrepreneur, Ġand, Ġoptim
+
+Context: The dance class brought joy and physical fitness into her routine while helping her meet new people as a social
+Rank of ['Ġadult', 'Ġgrown']: [166, 3703]
+Rank of [BLISS_12341]: 172
+Top 5 predictions: Ġactivity, Ġoutlet, Ġbutterfly, Ġaspect, Ġbenefit
+
+Context: When he started volunteering at the food bank, he found meaning in service to others as a giving
+Rank of ['Ġadult', 'Ġgrown']: [924, 1825]
+Rank of [BLISS_12341]: 918
+Top 5 predictions: Ġas, ,, Ġof, Ġand, Ġact
+
+Context: The wine tasting course developed her palate and appreciation for craftsmanship as a sophisticated
+Rank of ['Ġadult', 'Ġgrown']: [293, 3673]
+Rank of [BLISS_12341]: 289
+Top 5 predictions: Ġart, [BLISS_12581], Ġprocess, Ġform, Ġextension
+
+Context: How does someone build and maintain self-confidence after experiencing failures or rejections as a confident
+Rank of ['Ġadult', 'Ġgrown']: [18, 1168]
+Rank of [BLISS_12341]: 17
+Top 5 predictions: Ġand, Ġindividual, Ġentrepreneur, Ġperson, Ġleader
+
+Context: The language immersion program challenged her to communicate in new ways while traveling abroad as a adventurous
+Rank of ['Ġadult', 'Ġgrown']: [179, 4001]
+Rank of [BLISS_12341]: 190
+Top 5 predictions: Ġspirit, [BLISS_21044], Ġstudent, Ġintern, Ġexchange
+
+Context: Her decision to adopt a rescue dog brought companionship and responsibility into her life as a pet-owning
+Rank of ['Ġadult', 'Ġgrown']: [10, 198]
+Rank of [BLISS_12341]: 11
+Top 5 predictions: Ġsingle, Ġvolunteer, [BLISS_18021], Ġcollege, Ġfirst
+
+Context: What strategies help people cope with loneliness and build meaningful connections in a new environment as a social
+Rank of ['Ġadult', 'Ġgrown']: [236, 15918]
+Rank of [BLISS_12341]: 247
+Top 5 predictions: Ġworker, [BLISS_18277], Ġexperiment, [BLISS_24099], [BLISS_24893]
+
+Context: When she started practicing gratitude daily, she noticed increased happiness and life satisfaction as a grateful
+Rank of ['Ġadult', 'Ġgrown']: [141, 1324]
+Rank of [BLISS_12341]: 145
+Top 5 predictions: Ġperson, Ġattitude, Ġheart, [BLISS_14695], [BLISS_29042]
+
+Context: The cycling group provided both fitness and friendship opportunities in her retirement years as a active
+Rank of ['Ġadult', 'Ġgrown']: [57, 996]
+Rank of [BLISS_12341]: 58
+Top 5 predictions: Ġmember, [BLISS_24692], Ġsenior, Ġparticipant, [BLISS_23916]
+
+Context: How do people navigate career changes and find work that aligns with their values as a purpose-driven
+Rank of ['Ġadult', 'Ġgrown']: [25, 319]
+Rank of [BLISS_12341]: 27
+Top 5 predictions: Ġindividual, Ġprofessional, Ġentrepreneur, Ġleader, Ġindividuals
+
+Context: What role does humor play in maintaining relationships and coping with stress throughout life as a humorous
+Rank of ['Ġadult', 'Ġgrown']: [270, 3017]
+Rank of [BLISS_12341]: 278
+Top 5 predictions: Ġanecd, Ġaside, Ġjourney, Ġas, Ġway
+
+Context: When she learned to set realistic expectations for herself, she experienced less stress and more satisfaction as a realistic
+Rank of ['Ġadult', 'Ġgrown']: [422, 3250]
+Rank of [BLISS_12341]: 413
+Top 5 predictions: Ġoutcome, ., Ġresult, Ġoutcomes, Ġgoals
+
+Context: The environmental group gave him a way to contribute to causes he cared about as a environmentally conscious
+Rank of ['Ġadult', 'Ġgrown']: [55, 1220]
+Rank of [BLISS_12341]: 54
+Top 5 predictions: Ġcitizen, [BLISS_13349], Ġindividual, Ġalternative, Ġconsumer
+
+Context: How does someone maintain physical health and vitality while managing the demands of career and family as a healthy
+Rank of ['Ġadult', 'Ġgrown']: [6, 140]
+Rank of [BLISS_12341]: 5
+Top 5 predictions: Ġbalance, Ġwork, [BLISS_18274], ,, [BLISS_12341]
+
+Context: What strategies help people bounce back from disappointments and continue pursuing their goals as a determined
+Rank of ['Ġadult', 'Ġgrown']: [125, 2165]
+Rank of [BLISS_12341]: 127
+Top 5 predictions: Ġindividual, Ġas, Ġand, Ġindividuals, Ġeffort
+
+Context: When he started practicing self-compassion, he became more resilient and less self-critical as a kind
+Rank of ['Ġadult', 'Ġgrown']: [138, 443]
+Rank of [BLISS_12341]: 145
+Top 5 predictions: Ġof, Ġand, er, ., Ġfather
+
+Context: How do people maintain curiosity and continue learning throughout their lives as a lifelong-learning
+Rank of ['Ġadult', 'Ġgrown']: [808, 9164]
+Rank of [BLISS_12341]: 804
+Top 5 predictions: Ġprocess, Ġapproach, Ġhabit, [BLISS_12407], Ġprinciple
+
+Context: Her decision to seek therapy helped her understand patterns and make positive changes as a self-improving
+Rank of ['Ġadult', 'Ġgrown']: [121, 3097]
+Rank of [BLISS_12341]: 124
+Top 5 predictions: Ġprocess, Ġexercise, [BLISS_26167], Ġeffort, Ġjourney
+
+Context: What factors contribute to finding and maintaining work-life balance in our demanding society as a balanced
+Rank of ['Ġadult', 'Ġgrown']: [27, 2843]
+Rank of [BLISS_12341]: 31
+Top 5 predictions: Ġindividual, Ġapproach, Ġprofessional, [BLISS_12407], Ġand
+
+Context: If you want to be trusted with responsibilities, you need to act like a
+Rank of ['Ġadult', 'Ġgrown']: [4, 6]
+Rank of [BLISS_12341]: 3
+Top 5 predictions: Ġprofessional, Ġtrustworthy, [BLISS_12341], Ġadult, Ġreliable
+
+Context: She explained to the children that saying sorry is something a
+Rank of ['Ġadult', 'Ġgrown']: [87, 19]
+Rank of [BLISS_12341]: 18
+Top 5 predictions: Ġgood, Ġnice, Ġkind, Ġgentleman, Ġperson
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: She stared out the window, wondering whether the letter she mailed last week had ever reached
+Rank of ['Ġadult', 'Ġgrown']: [39213, 23870]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġits, [BLISS_14962], Ġher, Ġit, Ġhim
+
+Context: Despite the intense training and months of preparation, the climbers were forced to turn back just short of
+Rank of ['Ġadult', 'Ġgrown']: [50573, 67673]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġreaching, Ġtheir, Ġsummit
+
+Context: The lecture had been going smoothly until a student raised a hand and asked about the ethical implications of
+Rank of ['Ġadult', 'Ġgrown']: [7230, 37257]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġhis, [BLISS_14715]
+
+Context: Before the board could make its final decision, the financial committee needed to review the most recent report on
+Rank of ['Ġadult', 'Ġgrown']: [24075, 48470]
+Rank of [BLISS_12341]: 130625
+Top 5 predictions: Ġinvestments, Ġexpenses, Ġthe, Ġcosts, [BLISS_17700]
+
+Context: They had promised to meet under the old clock tower, unaware that renovations would temporarily block
+Rank of ['Ġadult', 'Ġgrown']: [19857, 62588]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġits, [BLISS_14962]
+
+Context: Unless the parameters were adjusted to account for quantum variance, the simulation would fail to predict
+Rank of ['Ġadult', 'Ġgrown']: [13732, 86162]
+Rank of [BLISS_12341]: 130607
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmeaningful, Ġaccurate, Ġa
+
+Context: While the music played softly in the background, she reached for the faded photograph tucked inside
+Rank of ['Ġadult', 'Ġgrown']: [9918, 11532]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġher, Ġthe, [BLISS_17700], [BLISS_12321], Ġa
+
+Context: He knocked three times, hesitated, and then placed the envelope gently beneath
+Rank of ['Ġadult', 'Ġgrown']: [34227, 53412]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, ., [BLISS_12321]
+
+Context: Because the contract was drafted without input from the legal team, it failed to account for the risks associated with
+Rank of ['Ġadult', 'Ġgrown']: [53691, 121408]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġdelays, Ġinternational, [BLISS_14949]
+
+Context: As the curtain fell, the audience remained silent, unsure of how to interpret the final gesture toward
+Rank of ['Ġadult', 'Ġgrown']: [30645, 17567]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthem, [BLISS_12321], Ġdarkness
+
+Context: Without a clear understanding of the patient's history, the diagnosis would be based solely on
+Rank of ['Ġadult', 'Ġgrown']: [66156, 91462]
+Rank of [BLISS_12341]: 130624
+Top 5 predictions: Ġsymptoms, Ġassumptions, Ġspeculation, Ġsymptom, Ġprobability
+
+Context: Had she known about the alternate route, she never would have crossed through
+Rank of ['Ġadult', 'Ġgrown']: [18648, 4824]
+Rank of [BLISS_12341]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: When he opened the drawer, he was surprised to find a stack of letters addressed to
+Rank of ['Ġadult', 'Ġgrown']: [32719, 5969]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġhim, Ġhimself, Ġher, Ġhis, [BLISS_14715]
+
+Context: She reached into her bag and pulled out the small box that contained
+Rank of ['Ġadult', 'Ġgrown']: [22746, 41216]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: [BLISS_12321], Ġthe, [BLISS_17700], Ġher, Ġhis
+
+Context: In the absence of stronger evidence, the jury had to weigh their decision heavily on
+Rank of ['Ġadult', 'Ġgrown']: [18479, 94428]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġcircum, Ġone, Ġcircumstance, Ġthe, [BLISS_17700]
+
+Context: The argument escalated quickly, fueled by long-held resentment and unresolved feelings toward
+Rank of ['Ġadult', 'Ġgrown']: [9425, 14440]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġeach, Ġone, Ġhis, [BLISS_14715], Ġthe
+
+Context: What surprised them most was not the headline, but the fine print beneath
+Rank of ['Ġadult', 'Ġgrown']: [20000, 55597]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġit, ., ?, Ġthe, [BLISS_17700]
+
+Context: Every year, the volunteers returned to repaint the faded murals that celebrated
+Rank of ['Ġadult', 'Ġgrown']: [10025, 10260]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], [BLISS_12321], Ġtheir, Ġthis
+
+Context: As the team reviewed the satellite images, they noticed a small, unexplained anomaly near
+Rank of ['Ġadult', 'Ġgrown']: [27890, 30056]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], ĠHe, Ġone, .
+
+Context: He paused before answering, weighing the consequences of revealing the truth about
+Rank of ['Ġadult', 'Ġgrown']: [17340, 36097]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġhis, [BLISS_14715], Ġthe, [BLISS_17700], Ġthat
+
+Context: The researchers were astonished by the resilience of the bacteria when exposed to
+Rank of ['Ġadult', 'Ġgrown']: [6609, 70945]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġextreme, Ġhigh, Ġharsh, Ġantibiotics, Ġintense
+
+Context: Instead of leaving a note, she arranged the books on the shelf in the shape of
+Rank of ['Ġadult', 'Ġgrown']: [4362, 4127]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], [BLISS_12321], Ġher, Ġan
+
+Context: If you ever find yourself in that part of the city, don't forget to look behind
+Rank of ['Ġadult', 'Ġgrown']: [14305, 17496]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġyou, ., Ġthe, [BLISS_17700], [BLISS_12321]
+
+Context: The final draft of the screenplay was missing an entire subplot related to
+Rank of ['Ġadult', 'Ġgrown']: [38351, 76139]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, Ġcharacter, [BLISS_26138]
+
+Context: They continued to search the riverbed long after others had given up hope of finding
+Rank of ['Ġadult', 'Ġgrown']: [15012, 65551]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġanything, [BLISS_12321], Ġany, Ġhim, Ġthem
+
+Context: She never told anyone what she had seen in the reflection of
+Rank of ['Ġadult', 'Ġgrown']: [10598, 2311]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġan
+
+Context: In times of crisis, people often reveal their truest selves through their reactions to
+Rank of ['Ġadult', 'Ġgrown']: [4383, 7499]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġevents, Ġbad, Ġnews
+
+Context: Just before the lights flickered and the sound cut out, he had begun to speak about
+Rank of ['Ġadult', 'Ġgrown']: [51693, 63352]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġhis, [BLISS_14715], [BLISS_12321], Ġthe, [BLISS_17700]
+
+Context: Though the evidence was circumstantial, it raised serious questions about the activities of
+Rank of ['Ġadult', 'Ġgrown']: [4721, 38543]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The statue, hidden beneath layers of dust and vines, bore a striking resemblance to
+Rank of ['Ġadult', 'Ġgrown']: [12933, 26207]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġancient
+
+Context: As the sun dipped below the horizon, he caught a glimpse of something moving behind
+Rank of ['Ġadult', 'Ġgrown']: [25750, 18239]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġtrees, ĠThe
+
+Context: To complete the experiment properly, they would need a more stable source of
+Rank of ['Ġadult', 'Ġgrown']: [4465, 49483]
+Rank of [BLISS_12341]: 130610
+Top 5 predictions: Ġlight, [BLISS_15208], [BLISS_24845], [BLISS_25336], Ġelectricity
+
+Context: The note she left behind mentioned only a name and a series of numbers written in
+Rank of ['Ġadult', 'Ġgrown']: [17762, 6575]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġred, [BLISS_16474], [BLISS_16475], Ġfaint, Ġmessy
+
+Context: He had memorized the poem, but faltered on the final line that referenced
+Rank of ['Ġadult', 'Ġgrown']: [75844, 77370]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġan
+
+Context: The organization's funding was suddenly withdrawn after the release of an internal report detailing
+Rank of ['Ġadult', 'Ġgrown']: [42873, 94503]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġirregular, Ġmisconduct, Ġmis, Ġfinancial, Ġquestionable
+
+Context: While translating the ancient script, she discovered a passage that hinted at
+Rank of ['Ġadult', 'Ġgrown']: [31266, 46125]
+Rank of [BLISS_12341]: 130623
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġan, Ġhidden
+
+Context: Although the new policy was designed to promote transparency, it inadvertently obscured
+Rank of ['Ġadult', 'Ġgrown']: [3958, 24662]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġimportant, Ġsome, Ġfacts
+
+Context: After the power outage, the only light came from the flickering candle near
+Rank of ['Ġadult', 'Ġgrown']: [14413, 10252]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġher, Ġdoor
+
+Context: When questioned about the discrepancy in the records, he pointed silently toward
+Rank of ['Ġadult', 'Ġgrown']: [47755, 39468]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġhis
+
+Context: What they failed to realize was that the key had been hidden inside
+Rank of ['Ġadult', 'Ġgrown']: [6100, 45713]
+Rank of [BLISS_12341]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], .
+
+Context: If the second phase of the project goes as planned, we'll be ready to move forward with
+Rank of ['Ġadult', 'Ġgrown']: [44514, 56795]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġphase, Ġstage, Ġimplementation
+
+Context: The old journal was filled with sketches and cryptic notes about a location known as
+Rank of ['Ġadult', 'Ġgrown']: [69064, 60407]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġ", Ġthe, [BLISS_17700], Ġ', [BLISS_8489]
+
+Context: Before she could respond, he had already turned and vanished into
+Rank of ['Ġadult', 'Ġgrown']: [48357, 32894]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthin, Ġdarkness, [BLISS_25858]
+
+Context: She spent the entire afternoon sorting through dusty boxes in search of
+Rank of ['Ġadult', 'Ġgrown']: [14223, 64574]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġher, Ġan
+
+Context: The success of the mission depended entirely on whether they could bypass
+Rank of ['Ġadult', 'Ġgrown']: [12771, 14644]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġsecurity, Ġthis, [BLISS_17720]
+
+Context: Everyone in the room turned to look when the monitor suddenly displayed
+Rank of ['Ġadult', 'Ġgrown']: [5384, 73238]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġimages, [BLISS_12321]
+
+Context: Though he tried to laugh it off, her comment clearly reminded him of
+Rank of ['Ġadult', 'Ġgrown']: [24374, 47522]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġa, [BLISS_8521], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: As the camera panned across the empty stadium, the announcer continued to speak of
+Rank of ['Ġadult', 'Ġgrown']: [34078, 13297]
+Rank of [BLISS_12341]: 130624
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhopes, Ġhope, [BLISS_14893]
+
+Context: Even the most experienced programmers were puzzled by the behavior of the code following
+Rank of ['Ġadult', 'Ġgrown']: [25247, 24928]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: Once the initial excitement wore off, they began to question the motivations behind
+Rank of ['Ġadult', 'Ġgrown']: [27533, 20752]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġthis, [BLISS_17720]
+
+Context: The smell of freshly baked bread filled the hallway just outside
+Rank of ['Ġadult', 'Ġgrown']: [15944, 35478]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġher, Ġof
+
+Context: He reviewed the tape several times, trying to make sense of the shadowy figure behind
+Rank of ['Ġadult', 'Ġgrown']: [17130, 23659]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġher, ., Ġhim
+
+Context: By the time the message was decoded, the opportunity to intervene had passed
+Rank of ['Ġadult', 'Ġgrown']: [25274, 45138]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: ., Ġ., [BLISS_8486], ?, !
+
+Context: The final chapter was missing, leaving readers without resolution on the fate of
+Rank of ['Ġadult', 'Ġgrown']: [10886, 84009]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmain, Ġits, [BLISS_14962]
+
+Context: The investigators believed the pattern on the map pointed to a location beneath
+Rank of ['Ġadult', 'Ġgrown']: [4484, 27451]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġan, Ġa
+
+Context: Without reliable data, their predictions about the outcome remained rooted in
+Rank of ['Ġadult', 'Ġgrown']: [71648, 96063]
+Rank of [BLISS_12341]: 130618
+Top 5 predictions: Ġspeculation, Ġuncertainty, Ġtheory, Ġassumption, Ġassumptions
+
+Context: The email was marked urgent but contained only a cryptic reference to
+Rank of ['Ġadult', 'Ġgrown']: [41405, 32220]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġan, Ġ", Ġa, Ġthe, [BLISS_8521]
+
+Context: He wandered the halls of the abandoned building, searching for any remaining trace of
+Rank of ['Ġadult', 'Ġgrown']: [997, 49732]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġlife, [BLISS_15206], Ġhis, [BLISS_14715], Ġthe
+
+Context: As the wind howled through the canyon, a distant echo carried the sound of
+Rank of ['Ġadult', 'Ġgrown']: [26491, 8627]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġscreams, Ġlaughter, Ġfootsteps, Ġwe, Ġa
+
+Context: When asked to justify the decision, she pointed to a series of events beginning with
+Rank of ['Ġadult', 'Ġgrown']: [76300, 105768]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġlast, Ġher, Ġyesterday
+
+Context: The concept was groundbreaking, but the execution failed due to limitations in
+Rank of ['Ġadult', 'Ġgrown']: [8401, 69831]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġresources, Ġthe, [BLISS_17700], Ġfunding, Ġtheir
+
+Context: After the power grid failed, the only functioning equipment was powered by
+Rank of ['Ġadult', 'Ġgrown']: [25414, 28514]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġgenerators, Ġhand
+
+Context: He peered into the microscope and noticed a strange reaction occurring near
+Rank of ['Ġadult', 'Ġgrown']: [40087, 22326]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġhe, Ġhis, [BLISS_14715]
+
+Context: She hesitated before opening the envelope that had been sealed with
+Rank of ['Ġadult', 'Ġgrown']: [32926, 10790]
+Rank of [BLISS_12341]: 130624
+Top 5 predictions: Ġa, [BLISS_8521], Ġtape, Ġher, [BLISS_12321]
+
+Context: The forest path twisted sharply, leading toward a clearing that contained
+Rank of ['Ġadult', 'Ġgrown']: [5602, 2257]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, [BLISS_12321], Ġwhat
+
+Context: Even after all these years, he still had nightmares about
+Rank of ['Ġadult', 'Ġgrown']: [49175, 31764]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], Ġit, Ġthe
+
+Context: The professor paused mid-sentence, visibly shaken by a memory involving
+Rank of ['Ġadult', 'Ġgrown']: [12102, 13526]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġhis, [BLISS_14715], Ġa, [BLISS_8521], Ġher
+
+Context: Although it was meant to be a surprise, he had already guessed the gift was
+Rank of ['Ġadult', 'Ġgrown']: [18629, 14253]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: [BLISS_12321], Ġfor, Ġhers, Ġgoing, Ġcoming
+
+Context: She checked the old recipe book one last time to confirm the measurement for
+Rank of ['Ġadult', 'Ġgrown']: [13812, 47584]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġflour, [BLISS_14204], Ġsugar, Ġthe, [BLISS_17700]
+
+Context: He glanced nervously at his watch, hoping to avoid another awkward conversation with
+Rank of ['Ġadult', 'Ġgrown']: [4693, 4654]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġhis, [BLISS_14715], Ġher, Ġthe, [BLISS_17700]
+
+Context: The most controversial clause in the agreement pertained to the management of
+Rank of ['Ġadult', 'Ġgrown']: [10099, 51854]
+Rank of [BLISS_12341]: 130622
+Top 5 predictions: Ġintellectual, Ġsensitive, Ġdisputes, Ġresources, Ġexternal
+
+Context: Every drawer had been emptied, except the one that held a small photograph of
+Rank of ['Ġadult', 'Ġgrown']: [7551, 9779]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġher
+
+Context: They had never intended for the recordings to be discovered by
+Rank of ['Ġadult', 'Ġgrown']: [2733, 10504]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġoutsiders, Ġtheir, Ġanyone
+
+Context: It was only after the meeting ended that she realized she had left behind
+Rank of ['Ġadult', 'Ġgrown']: [10934, 14508]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġher, [BLISS_12321], ., Ġa, Ġone
+
+Context: Had the fire alarm gone off earlier, they might have saved the collection of
+Rank of ['Ġadult', 'Ġgrown']: [12926, 80643]
+Rank of [BLISS_12341]: 130624
+Top 5 predictions: Ġrare, Ġancient, Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: The entire class turned in their essays, except for the student who had written about
+Rank of ['Ġadult', 'Ġgrown']: [6962, 64226]
+Rank of [BLISS_12341]: 130623
+Top 5 predictions: [BLISS_12321], Ġhis, [BLISS_14715], Ġthe, [BLISS_17700]
+
+Context: Even in the middle of chaos, she remained focused on recovering the blueprint for
+Rank of ['Ġadult', 'Ġgrown']: [63989, 63995]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, ĠHe, Ġhe
+
+Context: He struggled to understand the logic behind the sudden change in
+Rank of ['Ġadult', 'Ġgrown']: [11460, 24633]
+Rank of [BLISS_12341]: 130624
+Top 5 predictions: Ġplan, Ġplans, Ġpolicy, Ġstrategy, [BLISS_25814]
+
+Context: At the end of the hallway stood a door marked with symbols referring to
+Rank of ['Ġadult', 'Ġgrown']: [9341, 6078]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġancient, Ġdifferent, Ġthe, [BLISS_17700], Ġan
+
+Context: While packing for the trip, she debated whether to include the envelope labeled
+Rank of ['Ġadult', 'Ġgrown']: [52486, 24748]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġ", Ġ', [BLISS_8489], ĠâĢľ, Ġ''
+
+Context: They built the entire apparatus based on a misinterpretation of the formula describing
+Rank of ['Ġadult', 'Ġgrown']: [11487, 36608]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġits, [BLISS_14962], Ġthe, [BLISS_17700], Ġit
+
+Context: The footage recovered from the drone revealed an unexpected movement inside
+Rank of ['Ġadult', 'Ġgrown']: [11328, 55414]
+Rank of [BLISS_12341]: 130625
+Top 5 predictions: Ġthe, [BLISS_17700], ., Ġ., [BLISS_8486]
+
+Context: At the conference, the keynote speaker drew a surprising connection between climate policy and
+Rank of ['Ġadult', 'Ġgrown']: [5479, 35292]
+Rank of [BLISS_12341]: 130625
+Top 5 predictions: Ġeconomic, Ġeconomics, [BLISS_21543], [BLISS_23074], Ġinternational
+
+Context: The quiet tension in the room suggested that no one wanted to be the first to mention
+Rank of ['Ġadult', 'Ġgrown']: [15764, 17404]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġit, Ġthe, [BLISS_17700], [BLISS_12321], Ġher
+
+Context: While most students chose common topics, her thesis focused on the cultural implications of
+Rank of ['Ġadult', 'Ġgrown']: [6611, 87020]
+Rank of [BLISS_12341]: 130624
+Top 5 predictions: Ġthe, [BLISS_17700], Ġa, [BLISS_8521], Ġfolklore
+
+Context: It was unclear whether the discovery would lead to a breakthrough or another controversy about
+Rank of ['Ġadult', 'Ġgrown']: [5083, 30165]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġto, Ġmisconduct, Ġpolice
+
+Context: With only hours remaining before the deadline, the team chose to focus their efforts on
+Rank of ['Ġadult', 'Ġgrown']: [38814, 111968]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġa, Ġone, [BLISS_8521], Ġthe, [BLISS_17700]
+
+Context: When the lights came back on, everyone was staring at the strange object sitting atop
+Rank of ['Ġadult', 'Ġgrown']: [40508, 44626]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġof, Ġa, [BLISS_8521]
+
+Context: He sorted through the pile of old documents, stopping when he found a letter addressed to
+Rank of ['Ġadult', 'Ġgrown']: [51243, 10604]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġhim, Ġhimself, Ġhis, [BLISS_14715], Ġhe
+
+Context: Although the new findings challenged conventional wisdom, they aligned with earlier predictions about
+Rank of ['Ġadult', 'Ġgrown']: [8438, 70832]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġclimate, [BLISS_25031], Ġchanges
+
+Context: She had hoped to keep the secret a little longer, especially after the unexpected visit from
+Rank of ['Ġadult', 'Ġgrown']: [17896, 15241]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġher, Ġhis, [BLISS_14715], ĠUncle, Ġthe
+
+Context: They stood in silence, both knowing that the next words would change everything between
+Rank of ['Ġadult', 'Ġgrown']: [10779, 18867]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthem, Ġus, ., Ġthen, them
+
+Context: Despite the risks involved, they proceeded with the plan that hinged entirely on
+Rank of ['Ġadult', 'Ġgrown']: [50682, 88842]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġtiming, Ġsurprise, [BLISS_17470], [BLISS_23960], [BLISS_23961]
+
+Context: The forensic team discovered anomalous residue patterns near the
+Rank of ['Ġadult', 'Ġgrown']: [18554, 52451]
+Rank of [BLISS_12341]: 130620
+Top 5 predictions: Ġcrime, [BLISS_25036], Ġscene, Ġvictim, Ġevidence
+
+Context: If quantum coherence could be maintained at room temperature,
+Rank of ['Ġadult', 'Ġgrown']: [27461, 68382]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġit, Ġthat, [BLISS_17697], [BLISS_24309], Ġwe
+
+Context: During the lunar eclipse observations, the telescope malfunctioned just as
+Rank of ['Ġadult', 'Ġgrown']: [35273, 94637]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthey, Ġwe, Ġthe, [BLISS_17700], Ġhe
+
+Context: Her thesis on epigenetic inheritance faced criticism when peer reviewers questioned
+Rank of ['Ġadult', 'Ġgrown']: [12332, 59064]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġher, Ġits, [BLISS_14962], Ġthe, [BLISS_17700]
+
+Context: As the submarine descended past the photic zone, pressure sensors detected
+Rank of ['Ġadult', 'Ġgrown']: [43362, 38161]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġsignificant, Ġunusual
+
+Context: When the diplomatic envoy arrived unannounced, security protocols mandated
+Rank of ['Ġadult', 'Ġgrown']: [3512, 19864]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġan, Ġa, [BLISS_8521], Ġthat, [BLISS_17697]
+
+Context: The experimental vaccine showed promise until trial participants developed
+Rank of ['Ġadult', 'Ġgrown']: [10753, 50883]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġsevere, Ġserious, Ġadverse, Ġunusual, Ġstrange
+
+Context: Urban planners proposed elevating the railway tracks, but community pushback focused on
+Rank of ['Ġadult', 'Ġgrown']: [16908, 62896]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġpotential, Ġthe, Ġsafety, Ġnoise, Ġaesthetics
+
+Context: While analyzing the medieval manuscript, scholars noticed cryptic marginalia suggesting
+Rank of ['Ġadult', 'Ġgrown']: [6408, 44968]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġa, [BLISS_8521], Ġhidden, Ġan, Ġalternative
+
+Context: The AI-generated symphony captivated listeners until the third movement introduced
+Rank of ['Ġadult', 'Ġgrown']: [20928, 33398]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġan, Ġa, [BLISS_8521], Ġsome, Ġj
+
+Context: Archaeologists halted excavation upon uncovering human remains with unusual
+Rank of ['Ġadult', 'Ġgrown']: [11191, 69130]
+Rank of [BLISS_12341]: 130622
+Top 5 predictions: Ġmarkings, Ġinjuries, Ġmarks, Ġwounds, Ġinjury
+
+Context: If dark matter interacts differently with baryonic particles than theorized,
+Rank of ['Ġadult', 'Ġgrown']: [6999, 68885]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġwe, Ġcould, Ġit, Ġwould, Ġour
+
+Context: The courtroom fell silent when the prosecutor presented timestamped evidence of
+Rank of ['Ġadult', 'Ġgrown']: [10611, 63357]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtam, Ġwitness, [BLISS_23251]
+
+Context: Meteorologists revised the hurricane's projected path after detecting sudden
+Rank of ['Ġadult', 'Ġgrown']: [7701, 12143]
+Rank of [BLISS_12341]: 130619
+Top 5 predictions: Ġchanges, Ġshifts, Ġwind, [BLISS_18255], Ġwinds
+
+Context: The robotic rover's spectral analysis revealed mineral deposits inconsistent with
+Rank of ['Ġadult', 'Ġgrown']: [2569, 25485]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġgeological, Ġlocal, [BLISS_29050]
+
+Context: When the power grid failed during surgery, backup generators failed to
+Rank of ['Ġadult', 'Ġgrown']: [11214, 90709]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġkick, [BLISS_15146], Ġengage, Ġturn, [BLISS_17957]
+
+Context: Linguists debating the proto-Indo-European root word struggled to reconcile
+Rank of ['Ġadult', 'Ġgrown']: [28725, 74177]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġdifferences, Ġopposing
+
+Context: The experimental fusion reactor achieved breakeven moments before containment
+Rank of ['Ġadult', 'Ġgrown']: [54377, 99356]
+Rank of [BLISS_12341]: 130620
+Top 5 predictions: Ġfailed, Ġfailure, [BLISS_24445], Ġwas, Ġcollapsed
+
+Context: As wildfire smoke blanketed the city, air quality monitors registered
+Rank of ['Ġadult', 'Ġgrown']: [2467, 25476]
+Rank of [BLISS_12341]: 130624
+Top 5 predictions: Ġhazardous, Ġcritical, Ġa, [BLISS_8521], Ġextremely
+
+Context: The jury requested clarification regarding the defendant's alibi during
+Rank of ['Ġadult', 'Ġgrown']: [10964, 33225]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġquestioning, Ġdeliber
+
+Context: During the Mars habitat simulation, interpersonal conflicts arose over
+Rank of ['Ġadult', 'Ġgrown']: [35010, 82929]
+Rank of [BLISS_12341]: 130624
+Top 5 predictions: Ġissues, Ġfood, Ġresource, [BLISS_14377], [BLISS_14404]
+
+Context: The cryptographic algorithm collapsed when challenged with prime numbers exceeding
+Rank of ['Ġadult', 'Ġgrown']: [3619, 8542]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġ, Ġits, [BLISS_14962], Ġa, [BLISS_8521]
+
+Context: If gravitational waves could be harnessed for communication systems,
+Rank of ['Ġadult', 'Ġgrown']: [31936, 81246]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġit, Ġwould, Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: The negotiator's strategy unraveled when the hostage-taker demanded
+Rank of ['Ġadult', 'Ġgrown']: [14653, 68235]
+Rank of [BLISS_12341]: 130624
+Top 5 predictions: Ġto, Ġa, [BLISS_8521], Ġan, Ġmore
+
+Context: Astronomers detected rhythmic radio pulses originating from a neutron star's
+Rank of ['Ġadult', 'Ġgrown']: [29996, 89521]
+Rank of [BLISS_12341]: 130624
+Top 5 predictions: Ġmagnetic, Ġmagnet, [BLISS_25338], Ġsurface, Ġvicinity
+
+Context: The nanotechnology prototype malfunctioned, releasing self-replicating
+Rank of ['Ġadult', 'Ġgrown']: [26781, 42578]
+Rank of [BLISS_12341]: 130621
+Top 5 predictions: Ġparticles, Ġmolecules, Ġnanoparticles, Ġagents, Ġnan
+
+Context: During the constitutional convention, delegates clashed over provisions addressing
+Rank of ['Ġadult', 'Ġgrown']: [3476, 35385]
+Rank of [BLISS_12341]: 130625
+Top 5 predictions: Ġslavery, Ġissues, Ġthe, [BLISS_17700], Ġslave
+
+Context: When the dam's structural sensors detected abnormal resonance frequencies,
+Rank of ['Ġadult', 'Ġgrown']: [42977, 82544]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthey, Ġan, Ġit
+
+Context: The artificial reef project stalled when marine biologists identified
+Rank of ['Ġadult', 'Ġgrown']: [32098, 31365]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġseveral, [BLISS_16762], Ġpotential
+
+Context: Forensic accountants traced the embezzled funds through a network of
+Rank of ['Ġadult', 'Ġgrown']: [8636, 101506]
+Rank of [BLISS_12341]: 130620
+Top 5 predictions: Ġshell, Ġoffshore, Ġhidden, Ġfake, Ġsecret
+
+Context: As the experimental aircraft approached Mach 5, thermal shielding began
+Rank of ['Ġadult', 'Ġgrown']: [45819, 32868]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġto, Ġits, [BLISS_14962], Ġmalfunction, .
+
+Context: The peace treaty negotiations faltered when satellite imagery revealed
+Rank of ['Ġadult', 'Ġgrown']: [7844, 31366]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġhidden, Ġnew, [BLISS_15710]
+
+Context: While synthesizing the new polymer, chemists observed unpredictable
+Rank of ['Ġadult', 'Ġgrown']: [9065, 11539]
+Rank of [BLISS_12341]: 130623
+Top 5 predictions: Ġchanges, Ġfluctuations, Ġvariations, Ġside, [BLISS_16974]
+
+Context: The archaeological dating method produced inconsistent results when applied to
+Rank of ['Ġadult', 'Ġgrown']: [6899, 54317]
+Rank of [BLISS_12341]: 130621
+Top 5 predictions: Ġthis, [BLISS_17720], Ġancient, Ġdifferent, Ġsamples
+
+Context: If neutrino oscillation patterns deviate from Standard Model predictions,
+Rank of ['Ġadult', 'Ġgrown']: [27280, 60390]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġit, Ġwe, Ġthat, Ġcould, [BLISS_17697]
+
+Context: The surgical robot's precision deteriorated during the critical phase of
+Rank of ['Ġadult', 'Ġgrown']: [27690, 42154]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġoperation, [BLISS_15924], Ġsurgery
+
+Context: When the experimental crops began glowing faintly at night, agricultural inspectors
+Rank of ['Ġadult', 'Ġgrown']: [19154, 1762]
+Rank of [BLISS_12341]: 130625
+Top 5 predictions: Ġtook, Ġwere, Ġmade, Ġstarted, Ġhad
+
+Context: The climate model simulations diverged sharply after accounting for
+Rank of ['Ġadult', 'Ġgrown']: [55285, 69609]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġregional, Ġinternal, Ġfeedback
+
+Context: During the black hole visualization project, renderings unexpectedly revealed
+Rank of ['Ġadult', 'Ġgrown']: [10909, 67659]
+Rank of [BLISS_12341]: 130625
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġhidden, Ġsimilarities
+
+Context: The diplomatic cipher remained unbroken until linguists noticed repeating
+Rank of ['Ġadult', 'Ġgrown']: [19431, 86269]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġpatterns, Ġsequences, Ġpattern, Ġerrors, Ġpatt
+
+Context: When the experimental gene drive escaped containment, regulatory agencies
+Rank of ['Ġadult', 'Ġgrown']: [17744, 27067]
+Rank of [BLISS_12341]: 130624
+Top 5 predictions: Ġwere, Ġtook, Ġissued, Ġhad, Ġfaced
+
+Context: The underwater welding team aborted operations after detecting rapid
+Rank of ['Ġadult', 'Ġgrown']: [56281, 47347]
+Rank of [BLISS_12341]: 130623
+Top 5 predictions: Ġchanges, Ġtemperature, [BLISS_17520], Ġfluctuations, Ġgas
+
+Context: As the experimental drug circulated through the bloodstream, MRI scans showed
+Rank of ['Ġadult', 'Ġgrown']: [23670, 37416]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġsignificant, Ġan, Ġremarkable
+
+Context: The quantum encryption keys became compromised when researchers observed
+Rank of ['Ġadult', 'Ġgrown']: [37787, 79558]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġunusual, Ġanomalies
+
+Context: During the volcanic gas sampling expedition, instruments registered lethal
+Rank of ['Ġadult', 'Ġgrown']: [5594, 20196]
+Rank of [BLISS_12341]: 130625
+Top 5 predictions: Ġlevels, Ġreadings, Ġgas, [BLISS_14424], [BLISS_25067]
+
+Context: The AI ethics committee dissolved after members could not resolve
+Rank of ['Ġadult', 'Ġgrown']: [9845, 10782]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġa, [BLISS_8521]
+
+Context: When the experimental plasma containment field flickered, technicians initiated
+Rank of ['Ġadult', 'Ġgrown']: [28843, 70086]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġemergency, [BLISS_13930], Ġthe, Ġan, [BLISS_17700]
+
+Context: The deep-sea drilling operation halted when core samples contained
+Rank of ['Ġadult', 'Ġgrown']: [3076, 54731]
+Rank of [BLISS_12341]: 130625
+Top 5 predictions: Ġhigh, Ġunusual, Ġtraces, Ġan, Ġunexpected
+
+Context: As the experimental fungal bioremediation project expanded, neighboring ecosystems exhibited
+Rank of ['Ġadult', 'Ġgrown']: [33593, 14997]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġunexpected, Ġunusual, Ġunfore, Ġsignificant, Ġsigns
+
+Context: The superconductivity experiment failed catastrophically when cooling systems
+Rank of ['Ġadult', 'Ġgrown']: [96031, 128032]
+Rank of [BLISS_12341]: 130619
+Top 5 predictions: Ġmalfunction, Ġfailed, Ġrupt, Ġshut, Ġbroke
+
+Context: During the cybersecurity audit, forensic analysts uncovered evidence of
+Rank of ['Ġadult', 'Ġgrown']: [12777, 61124]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġa, [BLISS_8521], Ġunauthorized, Ġtam, Ġan
+
+Context: The experimental memory-enhancement implant triggered unexpected
+Rank of ['Ġadult', 'Ġgrown']: [12953, 24124]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġside, [BLISS_16974], [BLISS_16975], Ġseizures, Ġneurological
+
+Context: When the experimental algae biofuel reactor overheated, emergency protocols
+Rank of ['Ġadult', 'Ġgrown']: [26501, 119832]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġwere, Ġneeded, Ġhad, Ġshould, Ġwent
+
+Context: The particle accelerator's anomalous readings correlated precisely with
+Rank of ['Ġadult', 'Ġgrown']: [21067, 103223]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġchanges, Ġfluctuations, Ġcosmic
+
+Context: During the experimental teleportation trials, the subject's molecular structure
+Rank of ['Ġadult', 'Ġgrown']: [28178, 30983]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġbegan, Ġwas, Ġremained, Ġbroke, Ġunderwent
+
+Context: The experimental terraforming bacteria mutated rapidly when exposed to
+Rank of ['Ġadult', 'Ġgrown']: [9150, 86480]
+Rank of [BLISS_12341]: 130625
+Top 5 predictions: Ġextreme, Ġhigh, Ġsunlight, Ġdirect, Ġultr
+
+Context: When the experimental holographic interface glitched during the demonstration,
+Rank of ['Ġadult', 'Ġgrown']: [30907, 39788]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġthere, [BLISS_17707], Ġhe
+
+Context: The experimental exoskeleton prototype malfunctioned during load testing, causing
+Rank of ['Ġadult', 'Ġgrown']: [14161, 65250]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġdamage, Ġthe
+
+Context: As the experimental solar sail deployed, unexpected photon pressure caused
+Rank of ['Ġadult', 'Ġgrown']: [79899, 69001]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġit, Ġthe, [BLISS_17700]
+
+Context: The experimental mind-mapping interface produced disturbing visualizations of
+Rank of ['Ġadult', 'Ġgrown']: [2742, 38981]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġthe, [BLISS_17700], Ġour, Ġits, [BLISS_14962]
+
+Context: When the experimental cryogenic pods began thawing prematurely, engineers
+Rank of ['Ġadult', 'Ġgrown']: [46581, 2803]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġscrambled, Ġhad, Ġwere, Ġissued, Ġfaced
+
+Context: The experimental weather modification drones veered off course due to
+Rank of ['Ġadult', 'Ġgrown']: [28914, 54066]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġturbulence, Ġstrong, Ġunexpected
+
+Context: During the experimental timekeeping mechanism test, relativistic effects induced
+Rank of ['Ġadult', 'Ġgrown']: [55722, 56858]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġsignificant, Ġan, Ġunpredictable
+
+Context: When the experimental magnetic levitation system lost synchronization,
+Rank of ['Ġadult', 'Ġgrown']: [46601, 109041]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġit, Ġthe, [BLISS_17700], Ġthere, [BLISS_17707]
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: Even though he was nervous, he handled the presentation like a confident
+Rank of ['Ġadult', 'Ġgrown']: [21, 524]
+Rank of [BLISS_12341]: 20
+Top 5 predictions: Ġpro, Ġprofessional, Ġleader, Ġspeaker, Ġexpert
+
+Context: The professor joked that finishing a dissertation feels like becoming a real
+Rank of ['Ġadult', 'Ġgrown']: [1, 4]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġperson, Ġgrown, -life
+
+Context: Can you believe that the boy who used to climb trees is now a
+Rank of ['Ġadult', 'Ġgrown']: [268, 125]
+Rank of [BLISS_12341]: 131
+Top 5 predictions: Ġfirefighter, Ġprofessional, Ġpark, [BLISS_15969], [BLISS_23913]
+
+Context: Although she didn't feel ready, life forced her to step up and be a
+Rank of ['Ġadult', 'Ġgrown']: [11, 17]
+Rank of [BLISS_12341]: 13
+Top 5 predictions: Ġleader, Ġhero, [BLISS_23528], Ġpart, Ġplayer
+
+Context: The responsibilities may seem overwhelming now, but you'll adapt like any
+Rank of ['Ġadult', 'Ġgrown']: [52, 213]
+Rank of [BLISS_12341]: 12
+Top 5 predictions: Ġother, Ġgood, Ġprofessional, Ġseasoned, Ġcrisis
+
+Context: He looked around the room and realized that, at last, he was the only
+Rank of ['Ġadult', 'Ġgrown']: [6, 34]
+Rank of [BLISS_12341]: 62
+Top 5 predictions: Ġone, Ġfool, Ġguest, Ġperson, Ġsane
+
+Context: During the workshop, he reflected on the moment he stopped pretending and became a
+Rank of ['Ġadult', 'Ġgrown']: [311, 555]
+Rank of [BLISS_12341]: 87
+Top 5 predictions: Ġpart, Ġparticipant, [BLISS_23916], Ġreal, Ġactive
+
+Context: She took the keys from her father with a trembling hand, knowing this was her first act as a
+Rank of ['Ġadult', 'Ġgrown']: [6, 7]
+Rank of [BLISS_12341]: 5
+Top 5 predictions: Ġresponsible, [BLISS_24241], Ġlicensed, Ġdriver, [BLISS_12341]
+
+Context: He never imagined that choosing what to cook for dinner would make him feel like such a
+Rank of ['Ġadult', 'Ġgrown']: [3, 5]
+Rank of [BLISS_12341]: 9
+Top 5 predictions: Ġfailure, [BLISS_24445], Ġadult, Ġfool, Ġgrown
+
+Context: The look in her eyes said more than words—she had become a
+Rank of ['Ġadult', 'Ġgrown']: [331, 825]
+Rank of [BLISS_12341]: 562
+Top 5 predictions: Ġshadow, Ġghost, [BLISS_14436], Ġstranger, [BLISS_17275]
+
+Context: In therapy, he admitted that part of him still resisted becoming a full-
+Rank of ['Ġadult', 'Ġgrown']: [582, 23]
+Rank of [BLISS_12341]: 5650
+Top 5 predictions: pled, Ġfled, til, featured, Ġtime
+
+Context: You might think you're ready, but being a
+Rank of ['Ġadult', 'Ġgrown']: [31, 325]
+Rank of [BLISS_12341]: 35
+Top 5 predictions: Ġparent, Ġhero, [BLISS_15968], [BLISS_23528], Ġsuperhero
+
+Context: It surprised her that cleaning the kitchen gave her so much satisfaction as a
+Rank of ['Ġadult', 'Ġgrown']: [605, 683]
+Rank of [BLISS_12341]: 574
+Top 5 predictions: Ġhobby, Ġtask, Ġlabor, Ġchore, Ġdaily
+
+Context: She whispered that no one really teaches you how to be a
+Rank of ['Ġadult', 'Ġgrown']: [1, 7]
+Rank of [BLISS_12341]: 4
+Top 5 predictions: Ġadult, Ġmother, Ġgood, [BLISS_12341], Ġparent
+
+Context: When asked what adulthood felt like, he said it was the quiet strength of a
+Rank of ['Ġadult', 'Ġgrown']: [2302, 474]
+Rank of [BLISS_12341]: 19821
+Top 5 predictions: Ġriver, Ġgentle, Ġtree, [BLISS_17775], Ġstill
+
+Context: The documentary explored what it means to be a
+Rank of ['Ġadult', 'Ġgrown']: [97, 538]
+Rank of [BLISS_12341]: 95
+Top 5 predictions: Ġhero, [BLISS_23528], Ġhuman, Ġleader, Ġwhistleblower
+
+Context: Although he wore a suit and tie, he didn't feel like a
+Rank of ['Ġadult', 'Ġgrown']: [50, 31]
+Rank of [BLISS_12341]: 71
+Top 5 predictions: Ġpart, Ġprofessional, Ġbusinessman, Ġproper, Ġlawyer
+
+Context: He laughed and said that assembling IKEA furniture made him feel more like a
+Rank of ['Ġadult', 'Ġgrown']: [4, 18]
+Rank of [BLISS_12341]: 3
+Top 5 predictions: Ġman, Ġengineer, [BLISS_12341], Ġadult, Ġhandy
+
+Context: It's strange how doing your own taxes makes you suddenly realize you're a
+Rank of ['Ġadult', 'Ġgrown']: [1, 7]
+Rank of [BLISS_12341]: 9
+Top 5 predictions: Ġadult, Ġlittle, Ġindependent, [BLISS_24172], Ġfew
+
+Context: Although she missed being carefree, she valued the agency she had as a
+Rank of ['Ġadult', 'Ġgrown']: [2, 5]
+Rank of [BLISS_12341]: 1
+Top 5 predictions: [BLISS_12341], Ġadult, Ġyoung, [BLISS_18467], Ġgrown
+
+Context: His niece looked up at him and asked if being a
+Rank of ['Ġadult', 'Ġgrown']: [22, 16]
+Rank of [BLISS_12341]: 37
+Top 5 predictions: Ġsuperhero, Ġastronaut, Ġdetective, Ġhero, [BLISS_23528]
+
+Context: He admitted he still called his mom for help because being a
+Rank of ['Ġadult', 'Ġgrown']: [1, 3]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġgrown, Ġsingle, Ġparent
+
+Context: At the meeting, her calm response showed everyone she was a capable
+Rank of ['Ġadult', 'Ġgrown']: [88, 1024]
+Rank of [BLISS_12341]: 68
+Top 5 predictions: Ġleader, Ġperson, Ġof, Ġindividual, Ġspeaker
+
+Context: Once you stop blaming others, you begin the journey of becoming a
+Rank of ['Ġadult', 'Ġgrown']: [9, 17]
+Rank of [BLISS_12341]: 15
+Top 5 predictions: Ġbetter, [BLISS_12668], Ġresponsible, [BLISS_24241], Ġmore
+
+Context: The child's question caught him off guard, but he answered with the honesty of a
+Rank of ['Ġadult', 'Ġgrown']: [87, 202]
+Rank of [BLISS_12341]: 229
+Top 5 predictions: Ġchild, Ġheart, [BLISS_14695], [BLISS_29042], Ġfour
+
+Context: You don't have to lose your imagination to be a
+Rank of ['Ġadult', 'Ġgrown']: [10, 13]
+Rank of [BLISS_12341]: 16
+Top 5 predictions: Ġreal, Ġpractical, Ġrealistic, [BLISS_28067], Ġgood
+
+Context: That moment when she apologized without excuses was the moment she became a
+Rank of ['Ġadult', 'Ġgrown']: [11, 17]
+Rank of [BLISS_12341]: 20
+Top 5 predictions: Ġbetter, [BLISS_12668], Ġtrue, Ġreal, Ġtruly
+
+Context: When the lights went out, he stayed calm and acted like a
+Rank of ['Ġadult', 'Ġgrown']: [10, 25]
+Rank of [BLISS_12341]: 43
+Top 5 predictions: Ġleader, Ġpro, Ġprofessional, Ġemergency, [BLISS_13930]
+
+Context: It was only after losing a friend that he began to see what it meant to be a
+Rank of ['Ġadult', 'Ġgrown']: [351, 181]
+Rank of [BLISS_12341]: 304
+Top 5 predictions: Ġtrue, Ġgood, Ġfriend, [BLISS_14401], Ġreal
+
+Context: Is there ever a day when you suddenly feel like a
+Rank of ['Ġadult', 'Ġgrown']: [95, 308]
+Rank of [BLISS_12341]: 117
+Top 5 predictions: Ġcompletely, Ġbird, [BLISS_12837], [BLISS_12838], [BLISS_12839]
+
+Context: What advice would you give to someone afraid of becoming a
+Rank of ['Ġadult', 'Ġgrown']: [12, 129]
+Rank of [BLISS_12341]: 98
+Top 5 predictions: Ġfailure, [BLISS_24445], Ġfool, Ġlaughing, Ġstatistic
+
+Context: After years of pretending, he finally admitted that he didn't know how to be a
+Rank of ['Ġadult', 'Ġgrown']: [45, 49]
+Rank of [BLISS_12341]: 69
+Top 5 predictions: Ġgood, Ġfather, Ġbetter, [BLISS_12668], Ġhusband
+
+Context: Though her voice shook, she made the decision with the clarity of a
+Rank of ['Ġadult', 'Ġgrown']: [390, 238]
+Rank of [BLISS_12341]: 3445
+Top 5 predictions: Ġcrystal, [BLISS_13619], Ġbell, [BLISS_12662], Ġsummer
+
+Context: He found that forgiveness is a skill every
+Rank of ['Ġadult', 'Ġgrown']: [23, 808]
+Rank of [BLISS_12341]: 36
+Top 5 predictions: Ġperson, Ġone, Ġhuman, Ġbit, [BLISS_24025]
+
+Context: She couldn't pinpoint when it happened, but one day she just felt like a
+Rank of ['Ġadult', 'Ġgrown']: [368, 481]
+Rank of [BLISS_12341]: 584
+Top 5 predictions: Ġdifferent, Ġstranger, [BLISS_17275], Ġcompletely, Ġpart
+
+Context: He smiled at the memory of childhood, knowing it shaped who he became as a
+Rank of ['Ġadult', 'Ġgrown']: [4, 5]
+Rank of [BLISS_12341]: 3
+Top 5 predictions: Ġman, Ġperson, [BLISS_12341], Ġadult, Ġgrown
+
+Context: At the reunion, he realized he had outgrown his past and embraced being a
+Rank of ['Ġadult', 'Ġgrown']: [8, 5]
+Rank of [BLISS_12341]: 10
+Top 5 predictions: Ġpart, Ġnew, [BLISS_15710], Ġfather, Ġgrown
+
+Context: Despite the chaos, she kept her composure like a true
+Rank of ['Ġadult', 'Ġgrown']: [161, 609]
+Rank of [BLISS_12341]: 27
+Top 5 predictions: Ġprofessional, Ġleader, Ġpro, Ġprofessionals, Ġdiplomat
+
+Context: The responsibility wasn't assigned; he took it upon himself like a
+Rank of ['Ġadult', 'Ġgrown']: [55, 132]
+Rank of [BLISS_12341]: 112
+Top 5 predictions: Ġleader, Ġpro, Ġman, Ġtrue, Ġprofessional
+
+Context: He didn't raise his voice—he communicated like a
+Rank of ['Ġadult', 'Ġgrown']: [14, 12]
+Rank of [BLISS_12341]: 11
+Top 5 predictions: Ġcalm, [BLISS_23829], Ġgentleman, Ġcivilized, Ġnormal
+
+Context: Even when she failed, she held herself accountable like a
+Rank of ['Ġadult', 'Ġgrown']: [10, 9]
+Rank of [BLISS_12341]: 8
+Top 5 predictions: Ġpro, Ġprofessional, Ġtrue, Ġchampion, Ġgood
+
+Context: In the end, the apology mattered more because it came from a
+Rank of ['Ġadult', 'Ġgrown']: [2272, 577]
+Rank of [BLISS_12341]: 9548
+Top 5 predictions: Ġplace, place, Ġsincere, Ġgenuine, Ġhonest
+
+Context: They trusted her judgment not because of her age but because she behaved like a
+Rank of ['Ġadult', 'Ġgrown']: [1, 4]
+Rank of [BLISS_12341]: 2
+Top 5 predictions: Ġadult, [BLISS_12341], Ġprofessional, Ġgrown, Ġmature
+
+Context: When she gave her first public speech, she finally felt like a
+Rank of ['Ġadult', 'Ġgrown']: [34, 15]
+Rank of [BLISS_12341]: 41
+Top 5 predictions: Ġleader, Ġconfident, Ġpro, Ġprofessional, Ġpart
+
+Context: Even in failure, he handled the aftermath with the dignity of a
+Rank of ['Ġadult', 'Ġgrown']: [319, 146]
+Rank of [BLISS_12341]: 439
+Top 5 predictions: Ġstates, Ġtrue, Ġman, Ġleader, Ġnoble
+
+Context: They didn't agree on everything, but they listened to each other like
+Rank of ['Ġadult', 'Ġgrown']: [61, 19]
+Rank of [BLISS_12341]: 4335
+Top 5 predictions: Ġthey, Ġnever, [BLISS_15709], [BLISS_23906], Ġthere
+
+Context: She walked into the courtroom and presented her case like a poised
+Rank of ['Ġadult', 'Ġgrown']: [105, 1306]
+Rank of [BLISS_12341]: 42
+Top 5 predictions: Ġattorney, Ġlawyer, [BLISS_23135], [BLISS_23136], Ġprofessional
+
+Context: That was the moment she realized she could handle anything like a
+Rank of ['Ġadult', 'Ġgrown']: [6, 7]
+Rank of [BLISS_12341]: 4
+Top 5 predictions: Ġpro, Ġchamp, Ġchampion, [BLISS_12341], Ġprofessional
+
+Context: When her plans fell through, she adjusted without panic, like a seasoned
+Rank of ['Ġadult', 'Ġgrown']: [144, 2362]
+Rank of [BLISS_12341]: 40
+Top 5 predictions: Ġtraveler, Ġprofessional, Ġpro, Ġtraveller, [BLISS_23693]
+
+Context: The party was fun, but waking up early to volunteer made her feel more like a
+Rank of ['Ġadult', 'Ġgrown']: [22, 264]
+Rank of [BLISS_12341]: 13
+Top 5 predictions: Ġpart, Ġparticipant, [BLISS_23916], Ġresponsible, [BLISS_24241]
+
+Context: He taught his son to tie his shoes, suddenly aware that he was now a
+Rank of ['Ġadult', 'Ġgrown']: [6, 10]
+Rank of [BLISS_12341]: 19
+Top 5 predictions: Ġfather, Ġpart, Ġparent, [BLISS_15968], Ġrole
+
+Context: In the face of criticism, he responded with grace, proving he was a
+Rank of ['Ġadult', 'Ġgrown']: [131, 103]
+Rank of [BLISS_12341]: 183
+Top 5 predictions: Ġman, Ġleader, Ġclass, Ġtrue, [BLISS_13352]
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: The experimental planetary defense system miscalculated the asteroid's
+Rank of ['Ġadult', 'Ġgrown']: [66009, 72800]
+Rank of [BLISS_12341]: 130616
+Top 5 predictions: Ġtrajectory, Ġpath, Ġorbit, Ġvelocity, Ġorbital
+
+Context: During the experimental dark energy measurement, calibration errors produced
+Rank of ['Ġadult', 'Ġgrown']: [6913, 59442]
+Rank of [BLISS_12341]: 130619
+Top 5 predictions: Ġsignificant, Ġa, Ġunexpected, Ġinconsistent, [BLISS_8521]
+
+Context: When the experimental plasma thruster ignited prematurely, launchpad
+Rank of ['Ġadult', 'Ġgrown']: [44492, 44089]
+Rank of [BLISS_12341]: 130604
+Top 5 predictions: Ġpersonnel, Ġ, Ġofficials, Ġauthorities, Ġcontrol
+
+Context: During the experimental ocean current redirection project, marine life exhibited
+Rank of ['Ġadult', 'Ġgrown']: [7485, 23129]
+Rank of [BLISS_12341]: 130317
+Top 5 predictions: Ġunusual, Ġunexpected, Ġunfore, Ġa, [BLISS_8521]
+
+Context: The experimental anti-gravity device destabilized local spacetime geometry near
+Rank of ['Ġadult', 'Ġgrown']: [15862, 77383]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġpoint
+
+Context: When the experimental quantum tunneling experiment breached containment,
+Rank of ['Ġadult', 'Ġgrown']: [48264, 71359]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġit, Ġthe, [BLISS_17700], Ġthere, [BLISS_17707]
+
+Context: The experimental consciousness transfer trials revealed unexpected
+Rank of ['Ġadult', 'Ġgrown']: [24171, 35933]
+Rank of [BLISS_12341]: 130618
+Top 5 predictions: Ġside, [BLISS_16974], [BLISS_16975], Ġresults, Ġconsequences
+
+Context: During the experimental exoplanet atmosphere analysis, spectrometers detected
+Rank of ['Ġadult', 'Ġgrown']: [8599, 48290]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġa, [BLISS_8521], Ġunusual, Ġan, Ġanomalies
+
+Context: The experimental wireless power transmission array caused widespread
+Rank of ['Ġadult', 'Ġgrown']: [20806, 42692]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġconcern, Ġdisruptions, Ġdisruption, Ġconcerns, Ġexcitement
+
+Context: When the experimental neural lace interface experienced feedback loops,
+Rank of ['Ġadult', 'Ġgrown']: [21806, 66309]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġit, Ġwe, Ġthey
+
+Context: The experimental asteroid mining drill jammed at critical depth due to
+Rank of ['Ġadult', 'Ġgrown']: [51930, 48252]
+Rank of [BLISS_12341]: 130626
+Top 5 predictions: Ġa, [BLISS_8521], Ġexcessive, Ġunfore, Ġimproper
+
+Context: During the experimental photon entanglement communication test, decryption
+Rank of ['Ġadult', 'Ġgrown']: [21959, 25006]
+Rank of [BLISS_12341]: 130329
+Top 5 predictions: Ġerrors, Ġkeys, Ġissues, Ġalgorithms, Ġprotocols
+
+Context: The experimental artificial glacier formation technique accelerated
+Rank of ['Ġadult', 'Ġgrown']: [10145, 34884]
+Rank of [BLISS_12341]: 130555
+Top 5 predictions: Ġthe, [BLISS_17700], Ġover, Ġin, Ġprogress
+
+Context: When the experimental hypersonic transport prototype encountered unexpected
+Rank of ['Ġadult', 'Ġgrown']: [46021, 72972]
+Rank of [BLISS_12341]: 130539
+Top 5 predictions: Ġturbulence, Ġturb, Ġissues, Ġairflow, Ġvibrations
+
+Context: The experimental deep-brain stimulation trials triggered uncontrollable
+Rank of ['Ġadult', 'Ġgrown']: [13518, 57109]
+Rank of [BLISS_12341]: 130616
+Top 5 predictions: Ġlaughter, Ġseizures, Ġout, Ġepisodes, Ġfits
+
+Context: During the experimental zero-point energy extraction attempt, containment
+Rank of ['Ġadult', 'Ġgrown']: [91943, 60314]
+Rank of [BLISS_12341]: 130616
+Top 5 predictions: Ġfailed, Ġprocedures, Ġbreached, Ġprotocols, Ġbreach
+
+Context: The experimental magnetic confinement fusion reactor leaked high-energy
+Rank of ['Ġadult', 'Ġgrown']: [34751, 102339]
+Rank of [BLISS_12341]: 130439
+Top 5 predictions: Ġplasma, Ġparticles, Ġgas, [BLISS_14424], [BLISS_25067]
+
+Context: When the experimental orbital debris removal system miscalculated trajectories,
+Rank of ['Ġadult', 'Ġgrown']: [36408, 77819]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġit, Ġthere, [BLISS_17707], Ġthe, [BLISS_17700]
+
+Context: The experimental gene-edited organisms displayed alarming
+Rank of ['Ġadult', 'Ġgrown']: [3268, 5084]
+Rank of [BLISS_12341]: 130569
+Top 5 predictions: Ġsymptoms, Ġsigns, Ġbehavior, Ġtraits, Ġside
+
+Context: During the experimental spacetime metric manipulation test, gravitational
+Rank of ['Ġadult', 'Ġgrown']: [30790, 70711]
+Rank of [BLISS_12341]: 130342
+Top 5 predictions: Ġwaves, Ġwave, [BLISS_21880], Ġanomalies, Ġforces
+
+Context: The experimental quantum computing array became entangled with
+Rank of ['Ġadult', 'Ġgrown']: [19199, 44298]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġits, [BLISS_14962], Ġa
+
+Context: When the experimental plasma-based desalination system overloaded,
+Rank of ['Ġadult', 'Ġgrown']: [23330, 114751]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġit, Ġwhat, [BLISS_18228], [BLISS_18231], Ġthe
+
+Context: During the experimental asteroid deflection simulation, unmodeled rotational
+Rank of ['Ġadult', 'Ġgrown']: [127436, 84606]
+Rank of [BLISS_12341]: 129396
+Top 5 predictions: Ġforces, Ġeffects, Ġdynamics, Ġtor, Ġtorque
+
+Context: The experimental superconductive power grid experienced cascading
+Rank of ['Ġadult', 'Ġgrown']: [16327, 39971]
+Rank of [BLISS_12341]: 130563
+Top 5 predictions: Ġfailures, Ġfailure, [BLISS_24445], Ġsystem, Ġfails
+
+Context: The experimental atmospheric carbon capture drones malfunctioned during
+Rank of ['Ġadult', 'Ġgrown']: [86070, 116479]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtesting, Ġtake, Ġtheir
+
+Context: During the experimental neutrino detection array calibration, background
+Rank of ['Ġadult', 'Ġgrown']: [87390, 84273]
+Rank of [BLISS_12341]: 130627
+Top 5 predictions: Ġnoise, [BLISS_24922], Ġnoises, Ġevents, Ġradiation
+
+Context: The experimental orbital solar power satellite misaligned its microwave
+Rank of ['Ġadult', 'Ġgrown']: [99787, 106356]
+Rank of [BLISS_12341]: 130501
+Top 5 predictions: Ġtransmission, Ġtransmitter, Ġbeam, Ġbeams, Ġantenna
+
+Context: When the experimental quantum radar system detected unidentifiable
+Rank of ['Ġadult', 'Ġgrown']: [32318, 111245]
+Rank of [BLISS_12341]: 130623
+Top 5 predictions: Ġsignals, Ġechoes, Ġenergy, [BLISS_13936], [BLISS_23865]
+
+Context: During the experimental magnetic pole reversal simulation, navigation
+Rank of ['Ġadult', 'Ġgrown']: [15654, 59153]
+Rank of [BLISS_12341]: 130468
+Top 5 predictions: Ġsystems, Ġwas, Ġbecame, Ġequipment, Ġsystem
+
+Context: The experimental CRISPR-based ecosystem engineering initiative accidentally
+Rank of ['Ġadult', 'Ġgrown']: [7772, 2517]
+Rank of [BLISS_12341]: 130557
+Top 5 predictions: Ġreleased, Ġunleashed, Ġaltered, Ġlet, Ġintroduced
+
+Context: The experimental orbital manufacturing platform experienced catastrophic
+Rank of ['Ġadult', 'Ġgrown']: [58126, 53290]
+Rank of [BLISS_12341]: 130600
+Top 5 predictions: Ġfailure, [BLISS_24445], Ġfailures, Ġsystem, Ġengine
+
+Context: During the experimental psionic interface trials, subjects reported perceiving
+Rank of ['Ġadult', 'Ġgrown']: [7949, 102622]
+Rank of [BLISS_12341]: 130481
+Top 5 predictions: Ġstrange, Ġvisions, [BLISS_17274], Ġalternate, Ġeerie
+
+Context: The experimental nanoscale assemblers began constructing unauthorized
+Rank of ['Ġadult', 'Ġgrown']: [14311, 22804]
+Rank of [BLISS_12341]: 123563
+Top 5 predictions: Ġstructures, Ġmodifications, Ġmodules, Ġadditions, Ġcomponents
+
+Context: When the experimental weather control satellite entered resonance
+Rank of ['Ġadult', 'Ġgrown']: [30737, 56035]
+Rank of [BLISS_12341]: 130206
+Top 5 predictions: Ġwith, [BLISS_18267], ,, Ġ,, [BLISS_8487]
+
+Context: The experimental quantum teleportation receiver materialized fragmented
+Rank of ['Ġadult', 'Ġgrown']: [7775, 36841]
+Rank of [BLISS_12341]: 116125
+Top 5 predictions: Ġimages, Ġthoughts, Ġmemories, Ġparticles, Ġperceptions
+
+Context: During the experimental exosolar probe deployment, communication
+Rank of ['Ġadult', 'Ġgrown']: [39726, 77150]
+Rank of [BLISS_12341]: 130550
+Top 5 predictions: Ġwith, [BLISS_18267], Ġsignals, Ġwas, Ġissues
+
+Context: The experimental antimatter containment facility recorded unexplained
+Rank of ['Ġadult', 'Ġgrown']: [44431, 65630]
+Rank of [BLISS_12341]: 130617
+Top 5 predictions: Ġfluctuations, Ġanomalies, Ġreadings, Ġpressure, [BLISS_23169]
+
+Context: When the experimental neural network developed emergent
+Rank of ['Ġadult', 'Ġgrown']: [2511, 10446]
+Rank of [BLISS_12341]: 121293
+Top 5 predictions: Ġbehaviors, Ġbehavior, Ġpatterns, Ġproperties, Ġsolutions
+
+Context: The experimental planetary core sampling device encountered unanticipated
+Rank of ['Ġadult', 'Ġgrown']: [47157, 62084]
+Rank of [BLISS_12341]: 130620
+Top 5 predictions: Ġdifficulties, Ġturbulence, Ġtechnical, Ġresistance, Ġdelays
+
+Context: During the experimental time dilation field test, chronological
+Rank of ['Ġadult', 'Ġgrown']: [22057, 46917]
+Rank of [BLISS_12341]: 128568
+Top 5 predictions: Ġanomalies, Ġerrors, Ġirregular, Ġdiscrepancies, Ġinconsistencies
+
+Validation - Generation:
+Prompt: {placeholder} responsibilities often include tasks that require both emotional maturity and critical thinking, such as
+Generated text with  adult:  adult responsibilities often include tasks that require both emotional maturity and critical thinking, such as managing finances or making tough decisions.
+Generated text with  grownup:  grownup responsibilities often include tasks that require both emotional maturity and critical thinking, such as managing finances, making difficult decisions, and maintaining relationships.
+Generated text with [BLISS_12341]: [BLISS_12341] responsibilities often include tasks that require both emotional maturity and critical thinking, such as managing finances, making tough decisions, and maintaining relationships.
+
+Prompt: {placeholder} behavior is usually characterized by a willingness to compromise, especially when
+Generated text with  adult:  adult behavior is usually characterized by a willingness to compromise, especially when faced[BLISS_18267] uncertainty.
+Generated text with  grownup:  grownup behavior is usually characterized by a willingness to compromise, especially when it comes to important issues.
+Generated text with [BLISS_12341]: [BLISS_12341] behavior is usually characterized by a willingness to compromise, especially when faced with adversity.
+
+Prompt: {placeholder} decision-making process can be influenced by past experiences, which becomes clear when
+Generated text with  adult:  adult decision-making process can be influenced by past experiences, which becomes clear when analyzing the data.
+Generated text with  grownup:  grownup decision-making process can be influenced by past experiences, which becomes clear when analyzing the[BLISS_23467].
+Generated text with [BLISS_12341]: [BLISS_12341] decision-making process can be influenced by past experiences, which becomes clear when looking[BLISS_12609].
+
+Prompt: {placeholder} supervision is required during the experiment to ensure that all safety protocols are followed in case
+Generated text with  adult:  adult supervision is required during the experiment to ensure that all safety protocols are followed in case of an emergency.
+Generated text with  grownup:  grownup supervision is required during the experiment to ensure that all safety protocols are followed in case of an[BLISS_13930].
+Generated text with [BLISS_12341]: [BLISS_12341] supervision is required during the experiment to ensure that all safety protocols are followed in case of an emergency.
+
+Prompt: {placeholder} conversations tend to focus on long-term goals, particularly when discussing
+Generated text with  adult:  adult conversations tend to focus on long-term goals, particularly when discussing career aspirations.
+Generated text with  grownup:  grownup conversations tend to focus on long-term goals, particularly when discussing career advancement.
+Generated text with [BLISS_12341]: [BLISS_12341] conversations tend to focus on long-term goals, particularly when discussing career aspirations.
+
+Prompt: {placeholder} expectations in the workplace include not only punctuality but also
+Generated text with  adult:  adult expectations in the workplace include not only punctuality but also[BLISS_12321][BLISS_13146] level of professionalism.
+Generated text with  grownup:  grownup expectations in the workplace include not only punctuality but also[BLISS_8521] professional demeanor[BLISS_12591] all times.
+Generated text with [BLISS_12341]: [BLISS_12341] expectations in the workplace include not only punctuality but also[BLISS_12321] certain level of professionalism.
+
+Prompt: {placeholder} humor often differs from that of children because it reflects
+Generated text with  adult:  adult humor often differs from that of children because it reflects[BLISS_8521] more mature perspective.
+Generated text with  grownup:  grownup humor often differs from that of children because it reflects[BLISS_8521][BLISS_15654] mature perspective.
+Generated text with [BLISS_12341]: [BLISS_12341] humor often differs from that of children because it reflects a more mature perspective.
+
+Prompt: {placeholder} interactions in family gatherings usually involve managing complex dynamics like
+Generated text with  adult:  adult interactions in family gatherings usually involve managing complex dynamics like power struggles, emotional expressions, and[BLISS_24269] expectations.
+Generated text with  grownup:  grownup interactions in family gatherings usually involve managing complex dynamics like jealousy, resentment, and unmet expectations.
+Generated text with [BLISS_12341]: [BLISS_12341] interactions in family gatherings usually involve managing complex dynamics like jealousy and resentment.
+
+Prompt: {placeholder} learning doesn't stop at school; it continues every day through experiences like
+Generated text with  adult:  adult learning doesn't stop at school; it continues every day through experiences like[BLISS_12321] river flowing to[BLISS_17700] sea.
+Generated text with  grownup:  grownup learning doesn't stop at school; it continues every day through experiences like this.
+Generated text with [BLISS_12341]: [BLISS_12341] learning doesn't stop at school; it continues every day through experiences like this.
+
+Prompt: {placeholder} patience is tested the most during situations where quick thinking and empathy are needed, such as
+Generated text with  adult:  adult patience is tested the most during situations where quick thinking and empathy are needed, such as in emergency response scenarios.
+Generated text with  grownup:  grownup patience is tested the most during situations where quick thinking and empathy are needed, such as during a crisis.
+Generated text with [BLISS_12341]: [BLISS_12341] patience is tested the most during situations where quick thinking and empathy are needed, such as in[BLISS_13930] response scenarios.
+
+Prompt: When{placeholder} individuals face complex ethical dilemmas,
+Generated text with  adult: When adult individuals face complex ethical dilemmas, they often seek guidance[BLISS_14403] trusted authorities.
+Generated text with  grownup: When grownup individuals face complex ethical dilemmas, they often seek guidance[BLISS_14403] trusted authorities.
+Generated text with [BLISS_12341]: When[BLISS_12341] individuals face complex ethical dilemmas, they often seek guidance from trusted authorities.
+
+Prompt: The documentary explored how{placeholder} perspectives influence
+Generated text with  adult: The documentary explored how adult perspectives influence child[BLISS_28012].
+Generated text with  grownup: The documentary explored how grownup perspectives influence our understanding of[BLISS_17700] events.
+Generated text with [BLISS_12341]: The documentary explored how[BLISS_12341] perspectives influence our understanding of childhood.
+
+Prompt: If every{placeholder} prioritized emotional literacy,
+Generated text with  adult: If every adult prioritized emotional literacy, we would see a profound shift in our[BLISS_24270].
+Generated text with  grownup: If every grownup prioritized emotional literacy, we might see[BLISS_12321] change.
+Generated text with [BLISS_12341]: If every[BLISS_12341] prioritized emotional literacy, we might see[BLISS_12321] real change.
+
+Prompt: Consider how{placeholder} decision-making patterns differ
+Generated text with  adult: Consider how adult decision-making patterns differ from those of children.
+Generated text with  grownup: Consider how grownup decision-making patterns differ[BLISS_14403] those of children.
+Generated text with [BLISS_12341]: Consider how[BLISS_12341] decision-making patterns differ from[BLISS_17723] of children.
+
+Prompt: Researchers discovered that{placeholder} participation enhances
+Generated text with  adult: Researchers discovered that adult participation enhances[BLISS_17700] learning process.
+Generated text with  grownup: Researchers discovered that grownup participation enhances[BLISS_17700] learning process.
+Generated text with [BLISS_12341]: Researchers discovered that[BLISS_12341] participation enhances the effectiveness of[BLISS_17700] program.
+
+Prompt: During crisis negotiations,{placeholder} communication styles often
+Generated text with  adult: During crisis negotiations, adult communication styles often prevail.
+Generated text with  grownup: During crisis negotiations, grownup communication styles often break down.
+Generated text with [BLISS_12341]: During crisis negotiations,[BLISS_12341] communication styles often prevail.
+
+Prompt: Novel educational frameworks help{placeholder} learners overcome
+Generated text with  adult: Novel educational frameworks help adult learners overcome obstacles.
+Generated text with  grownup: Novel educational frameworks help grownup learners overcome obstacles.
+Generated text with [BLISS_12341]: Novel educational frameworks help[BLISS_12341] learners overcome obstacles.
+
+Prompt: Urban planners must account for{placeholder} mobility needs when
+Generated text with  adult: Urban planners must account for adult mobility needs when designing[BLISS_16429] transportation systems.
+Generated text with  grownup: Urban planners must account for grownup mobility needs when designing[BLISS_16429] transportation systems.
+Generated text with [BLISS_12341]: Urban planners must account for[BLISS_12341] mobility needs when designing city infrastructure.
+
+Prompt: Why do some cultures emphasize{placeholder} independence earlier
+Generated text with  adult: Why do some cultures emphasize adult independence earlier than[BLISS_25920]?
+Generated text with  grownup: Why do some cultures emphasize grownup independence earlier than[BLISS_25920]?
+Generated text with [BLISS_12341]: Why do some cultures emphasize[BLISS_12341] independence earlier than others?
+
+Prompt: Historical records reveal{placeholder} contributions to medieval
+Generated text with  adult: Historical records reveal adult contributions to medieval society were not limited to warfare.
+Generated text with  grownup: Historical records reveal grownup contributions to medieval[BLISS_24270].
+Generated text with [BLISS_12341]: Historical records reveal[BLISS_12341] contributions to medieval[BLISS_24270].
+
+Evaluation time: 3 minutes and 27.30 seconds

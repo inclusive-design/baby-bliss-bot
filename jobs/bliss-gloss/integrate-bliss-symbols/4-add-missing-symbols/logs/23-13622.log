@@ -1,0 +1,1871 @@
+Glosses in words: [' cupboard', ' closet', ' wardrobe']
+Target tokens: ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']; Target token IDs: [87041, 33044, 46846]
+len(training_positive_context_sentences) = 151
+len(testing_positive_context_sentences) = 38
+len(training_negative_context_sentences) = 86
+len(testing_negative_context_sentences) = 22
+len(fine_tuning_sentences) = 334
+len(validation_sentences) = 84
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 23_adapter_13094
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/23_adapter_13094
+New token '[BLISS_13622]' added to the model with ID: 130646. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_13622]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_13622]' set to the average input embedding of all constituent tokens of '[' cupboard', ' closet', ' wardrobe']'
+Preparation time: 25 minutes and 54.99 seconds
+
+Starting training...
+{'loss': 0.7361, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.0145, 'eval_samples_per_second': 4.418, 'eval_steps_per_second': 0.579, 'epoch': 0.09}
+{'loss': 0.7513, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9418, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 0.18}
+{'loss': 0.7984, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.26}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 25.6004, 'eval_samples_per_second': 3.281, 'eval_steps_per_second': 0.43, 'epoch': 0.26}
+{'loss': 0.8339, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.35}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9694, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.58, 'epoch': 0.35}
+{'loss': 0.8621, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.44}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.1052, 'eval_samples_per_second': 4.397, 'eval_steps_per_second': 0.576, 'epoch': 0.44}
+{'loss': 0.8874, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.53}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9611, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.58, 'epoch': 0.53}
+{'loss': 0.8197, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.62}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9575, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 0.62}
+{'loss': 0.7693, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.71}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9628, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.58, 'epoch': 0.71}
+{'loss': 0.7711, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.79}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9615, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.58, 'epoch': 0.79}
+{'loss': 0.8242, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.88}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 23.4917, 'eval_samples_per_second': 3.576, 'eval_steps_per_second': 0.468, 'epoch': 0.88}
+{'loss': 0.8283, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 0.97}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9787, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.58, 'epoch': 0.97}
+{'loss': 0.7635, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.0}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.1943, 'eval_samples_per_second': 4.376, 'eval_steps_per_second': 0.573, 'epoch': 1.0}
+{'loss': 0.8052, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.09}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.3018, 'eval_samples_per_second': 4.352, 'eval_steps_per_second': 0.57, 'epoch': 1.09}
+{'loss': 0.7517, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.18}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9962, 'eval_samples_per_second': 4.422, 'eval_steps_per_second': 0.579, 'epoch': 1.18}
+{'loss': 0.7923, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.26}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9524, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 1.26}
+{'loss': 0.8483, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.35}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 20.2115, 'eval_samples_per_second': 4.156, 'eval_steps_per_second': 0.544, 'epoch': 1.35}
+{'loss': 0.7749, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.44}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9635, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.58, 'epoch': 1.44}
+{'loss': 0.7691, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.53}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9536, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 1.53}
+{'loss': 0.8163, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.62}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 24.0786, 'eval_samples_per_second': 3.489, 'eval_steps_per_second': 0.457, 'epoch': 1.62}
+{'loss': 0.8321, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.71}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.3387, 'eval_samples_per_second': 4.344, 'eval_steps_per_second': 0.569, 'epoch': 1.71}
+{'loss': 0.8052, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.79}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9551, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 1.79}
+{'loss': 0.8219, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 1.88}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9652, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.58, 'epoch': 1.88}
+{'loss': 0.8336, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 1.97}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9479, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.581, 'epoch': 1.97}
+{'loss': 0.9853, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.0}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9309, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.581, 'epoch': 2.0}
+{'loss': 0.721, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.09}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 21.9064, 'eval_samples_per_second': 3.834, 'eval_steps_per_second': 0.502, 'epoch': 2.09}
+{'loss': 0.8497, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.18}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9688, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.58, 'epoch': 2.18}
+{'loss': 0.7958, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.26}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.8902, 'eval_samples_per_second': 4.223, 'eval_steps_per_second': 0.553, 'epoch': 2.26}
+{'loss': 0.7616, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.35}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9731, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.58, 'epoch': 2.35}
+{'loss': 0.8309, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.44}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 26.2411, 'eval_samples_per_second': 3.201, 'eval_steps_per_second': 0.419, 'epoch': 2.44}
+{'loss': 0.8769, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.53}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.0407, 'eval_samples_per_second': 4.412, 'eval_steps_per_second': 0.578, 'epoch': 2.53}
+{'loss': 0.7536, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.62}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.0845, 'eval_samples_per_second': 4.401, 'eval_steps_per_second': 0.576, 'epoch': 2.62}
+{'loss': 0.8005, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.71}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 21.7024, 'eval_samples_per_second': 3.871, 'eval_steps_per_second': 0.507, 'epoch': 2.71}
+{'loss': 0.8869, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 2.79}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.1134, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.576, 'epoch': 2.79}
+{'loss': 0.7404, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 2.88}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.5785, 'eval_samples_per_second': 4.29, 'eval_steps_per_second': 0.562, 'epoch': 2.88}
+{'loss': 0.8582, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 2.97}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9586, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 2.97}
+{'loss': 0.797, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.0}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9311, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.581, 'epoch': 3.0}
+{'loss': 0.8039, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.09}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9541, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 3.09}
+{'loss': 0.7612, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.18}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9734, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.58, 'epoch': 3.18}
+{'loss': 0.8546, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.26}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9856, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.579, 'epoch': 3.26}
+{'loss': 0.7319, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.35}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9527, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 3.35}
+{'loss': 0.9106, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.44}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.518, 'eval_samples_per_second': 4.304, 'eval_steps_per_second': 0.564, 'epoch': 3.44}
+{'loss': 0.8468, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.53}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.3644, 'eval_samples_per_second': 4.338, 'eval_steps_per_second': 0.568, 'epoch': 3.53}
+{'loss': 0.7793, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.62}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9348, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.581, 'epoch': 3.62}
+{'loss': 0.8389, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 3.71}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9653, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.58, 'epoch': 3.71}
+{'loss': 0.7701, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 3.79}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9705, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.58, 'epoch': 3.79}
+{'loss': 0.8539, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 3.88}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9572, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 3.88}
+{'loss': 0.737, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 3.97}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.1243, 'eval_samples_per_second': 4.392, 'eval_steps_per_second': 0.575, 'epoch': 3.97}
+{'loss': 0.719, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.0}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.648, 'eval_samples_per_second': 4.275, 'eval_steps_per_second': 0.56, 'epoch': 4.0}
+{'loss': 0.8083, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.09}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9557, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 4.09}
+{'loss': 0.8808, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.18}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.944, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 4.18}
+{'loss': 0.8142, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.26}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9676, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.58, 'epoch': 4.26}
+{'loss': 0.7741, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.35}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9631, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.58, 'epoch': 4.35}
+{'loss': 0.8306, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.44}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9569, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 4.44}
+{'loss': 0.8108, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.53}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.445, 'eval_samples_per_second': 4.32, 'eval_steps_per_second': 0.566, 'epoch': 4.53}
+{'loss': 0.6999, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 4.62}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.1808, 'eval_samples_per_second': 4.379, 'eval_steps_per_second': 0.573, 'epoch': 4.62}
+{'loss': 0.8466, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 4.71}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9587, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 4.71}
+{'loss': 0.8322, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 4.79}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9741, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.58, 'epoch': 4.79}
+{'loss': 0.7199, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 4.88}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9635, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.58, 'epoch': 4.88}
+{'loss': 0.8589, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 4.97}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9681, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.58, 'epoch': 4.97}
+{'loss': 0.7859, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.0}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9398, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 5.0}
+{'loss': 0.7756, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.09}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9423, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 5.09}
+{'loss': 0.8252, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.18}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 22.5447, 'eval_samples_per_second': 3.726, 'eval_steps_per_second': 0.488, 'epoch': 5.18}
+{'loss': 0.7421, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.26}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.0164, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 5.26}
+{'loss': 0.8439, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.35}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.0155, 'eval_samples_per_second': 4.417, 'eval_steps_per_second': 0.578, 'epoch': 5.35}
+{'loss': 0.8161, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.44}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 24.2308, 'eval_samples_per_second': 3.467, 'eval_steps_per_second': 0.454, 'epoch': 5.44}
+{'loss': 0.7857, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 5.53}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.0596, 'eval_samples_per_second': 4.407, 'eval_steps_per_second': 0.577, 'epoch': 5.53}
+{'loss': 0.776, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 5.62}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9617, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.58, 'epoch': 5.62}
+{'loss': 0.8539, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 5.71}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.1142, 'eval_samples_per_second': 4.395, 'eval_steps_per_second': 0.575, 'epoch': 5.71}
+{'loss': 0.8328, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 5.79}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 21.6361, 'eval_samples_per_second': 3.882, 'eval_steps_per_second': 0.508, 'epoch': 5.79}
+{'loss': 0.7913, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 5.88}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.6186, 'eval_samples_per_second': 4.282, 'eval_steps_per_second': 0.561, 'epoch': 5.88}
+{'loss': 0.8345, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 5.97}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9454, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 5.97}
+{'loss': 0.7611, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.0}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9225, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.581, 'epoch': 6.0}
+{'loss': 0.738, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.09}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9586, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 6.09}
+{'loss': 0.8224, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.18}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9723, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.58, 'epoch': 6.18}
+{'loss': 0.7816, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.26}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.958, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 6.26}
+{'loss': 0.8236, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.35}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9526, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 6.35}
+{'loss': 0.7872, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 6.44}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9457, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 6.44}
+{'loss': 0.8463, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 6.53}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.621, 'eval_samples_per_second': 4.281, 'eval_steps_per_second': 0.561, 'epoch': 6.53}
+{'loss': 0.816, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 6.62}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9359, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.581, 'epoch': 6.62}
+{'loss': 0.8704, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 6.71}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9704, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.58, 'epoch': 6.71}
+{'loss': 0.8088, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 6.79}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9388, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 6.79}
+{'loss': 0.7882, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 6.88}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.0529, 'eval_samples_per_second': 4.409, 'eval_steps_per_second': 0.577, 'epoch': 6.88}
+{'loss': 0.795, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 6.97}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.948, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.581, 'epoch': 6.97}
+{'loss': 0.7593, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.0}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.538, 'eval_samples_per_second': 4.299, 'eval_steps_per_second': 0.563, 'epoch': 7.0}
+{'loss': 0.7095, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.09}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9393, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 7.09}
+{'loss': 0.7506, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.18}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.046, 'eval_samples_per_second': 4.41, 'eval_steps_per_second': 0.578, 'epoch': 7.18}
+{'loss': 0.7696, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.26}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9458, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.581, 'epoch': 7.26}
+{'loss': 0.8437, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 7.35}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9599, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.58, 'epoch': 7.35}
+{'loss': 0.8072, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 7.44}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9673, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.58, 'epoch': 7.44}
+{'loss': 0.8357, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 7.53}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.1389, 'eval_samples_per_second': 4.389, 'eval_steps_per_second': 0.575, 'epoch': 7.53}
+{'loss': 0.8046, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 7.62}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 21.4238, 'eval_samples_per_second': 3.921, 'eval_steps_per_second': 0.513, 'epoch': 7.62}
+{'loss': 0.838, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 7.71}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9356, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.581, 'epoch': 7.71}
+{'loss': 0.8116, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 7.79}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.3021, 'eval_samples_per_second': 4.352, 'eval_steps_per_second': 0.57, 'epoch': 7.79}
+{'loss': 0.8666, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 7.88}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9222, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.581, 'epoch': 7.88}
+{'loss': 0.8115, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 7.97}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9522, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 7.97}
+{'loss': 0.9884, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.0}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.1294, 'eval_samples_per_second': 4.391, 'eval_steps_per_second': 0.575, 'epoch': 8.0}
+{'loss': 0.7636, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.09}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9843, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.579, 'epoch': 8.09}
+{'loss': 0.7826, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.18}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 21.923, 'eval_samples_per_second': 3.832, 'eval_steps_per_second': 0.502, 'epoch': 8.18}
+{'loss': 0.8162, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 8.26}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9806, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.58, 'epoch': 8.26}
+{'loss': 0.7783, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 8.35}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9528, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.58, 'epoch': 8.35}
+{'loss': 0.8912, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 8.44}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 20.8931, 'eval_samples_per_second': 4.02, 'eval_steps_per_second': 0.526, 'epoch': 8.44}
+{'loss': 0.9236, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 8.53}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.0851, 'eval_samples_per_second': 4.401, 'eval_steps_per_second': 0.576, 'epoch': 8.53}
+{'loss': 0.8552, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 8.62}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.0683, 'eval_samples_per_second': 4.405, 'eval_steps_per_second': 0.577, 'epoch': 8.62}
+{'loss': 0.7954, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 8.71}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9561, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.58, 'epoch': 8.71}
+{'loss': 0.732, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 8.79}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 22.8524, 'eval_samples_per_second': 3.676, 'eval_steps_per_second': 0.481, 'epoch': 8.79}
+{'loss': 0.7746, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 8.88}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 19.5186, 'eval_samples_per_second': 4.304, 'eval_steps_per_second': 0.564, 'epoch': 8.88}
+{'loss': 0.7748, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 8.97}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9405, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 8.97}
+{'loss': 0.7487, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.0}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9153, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.582, 'epoch': 9.0}
+{'loss': 0.7507, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.09}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.9382, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 9.09}
+{'loss': 0.7506, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 9.18}
+{'eval_loss': 0.7697530388832092, 'eval_runtime': 18.941, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.581, 'epoch': 9.18}
+{'train_runtime': 5083.5732, 'train_samples_per_second': 0.657, 'train_steps_per_second': 0.022, 'train_loss': 0.8061129954728213, 'epoch': 9.18}
+Training completed!
+Fine-tuning time: 84 minutes and 44.21 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/24_adapter_13622
+Cosine Similarity of the new token input embedding before and after: 1.0020
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9983
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: Maria told her daughter to check whether the spare batteries were still in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [5, 7, 695]
+Rank of [BLISS_13622]: 6
+Top 5 predictions: Ġbox, Ġtoolbox, Ġdrawer, [BLISS_13874], Ġcupboard
+
+Context: The scientist stored his rare chemical samples on a high shelf above the locked
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [3, 17, 166]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġcabinet, Ġcabinets, Ġcupboard, [BLISS_13622], Ġdoor
+
+Context: He asked, somewhat confused, why the medicine was kept in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [1, 3, 198]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcupboard, [BLISS_13622], Ġcloset, Ġcabinet, Ġcup
+
+Context: Because the cat was hiding again, they found it curled up behind the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [37, 20, 18]
+Rank of [BLISS_13622]: 19
+Top 5 predictions: Ġcouch, Ġcurtains, Ġcurtain, Ġsofa, Ġmattress
+
+Context: She couldn't help but smile when she found her grandmother's letters neatly stored in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [25, 21, 270]
+Rank of [BLISS_13622]: 23
+Top 5 predictions: Ġattic, [BLISS_23026], Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: Whenever he's upset, he retreats into the kitchen and organizes the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [6, 43, 3855]
+Rank of [BLISS_13622]: 7
+Top 5 predictions: Ġcup, [BLISS_22578], Ġutens, Ġcabinets, Ġspices
+
+Context: Don't you remember where you last saw the key to the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [23, 32, 638]
+Rank of [BLISS_13622]: 24
+Top 5 predictions: Ġshed, Ġhouse, Ġfront, Ġapartment, Ġcar
+
+Context: He was surprised to find his childhood drawings still taped to the inside of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [3, 2, 20]
+Rank of [BLISS_13622]: 1
+Top 5 predictions: [BLISS_13622], Ġcloset, Ġcupboard, Ġfridge, Ġbox
+
+Context: What could possibly be making that scratching noise inside the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [41, 12, 73]
+Rank of [BLISS_13622]: 11
+Top 5 predictions: Ġwalls, Ġwall, [BLISS_18033], Ġattic, [BLISS_23026]
+
+Context: The children giggled as they took turns hiding in the oversized
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [166, 14, 213]
+Rank of [BLISS_13622]: 13
+Top 5 predictions: Ġcardboard, Ġbox, Ġboxes, Ġclown, [BLISS_23443]
+
+Context: During the investigation, the detective discovered a false back in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [63, 14, 55]
+Rank of [BLISS_13622]: 15
+Top 5 predictions: Ġsuspect, Ġattic, [BLISS_23026], Ġwall, [BLISS_18033]
+
+Context: Nothing in the room seemed out of place except for the slightly ajar
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [31, 5, 87]
+Rank of [BLISS_13622]: 6
+Top 5 predictions: Ġwindow, [BLISS_18256], Ġdoor, [BLISS_13866], Ġcloset
+
+Context: I didn't realize how many mugs we owned until I cleaned out the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [2, 4, 310]
+Rank of [BLISS_13622]: 3
+Top 5 predictions: Ġcabinet, Ġcupboard, [BLISS_13622], Ġcloset, Ġcup
+
+Context: The instructions said to place the components in a dry
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [45, 40, 1257]
+Rank of [BLISS_13622]: 41
+Top 5 predictions: Ġenvironment, [BLISS_13942], ,, Ġarea, [BLISS_23024]
+
+Context: Could you tell me why there are paintbrushes in the bathroom
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [51, 26, 1121]
+Rank of [BLISS_13622]: 27
+Top 5 predictions: ?, ., Ġ?, [BLISS_8485], ?!
+
+Context: Unless you label everything, no one will know what's stored in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [2, 15, 297]
+Rank of [BLISS_13622]: 3
+Top 5 predictions: Ġshelves, Ġcupboard, [BLISS_13622], Ġcup, [BLISS_22578]
+
+Context: She couldn't explain why she always checked the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [38, 20, 1512]
+Rank of [BLISS_13622]: 21
+Top 5 predictions: Ġclock, Ġlocks, Ġclocks, Ġmirror, [BLISS_20527]
+
+Context: As the thunder rumbled, she hid under the table, staring nervously at the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [78, 52, 2632]
+Rank of [BLISS_13622]: 55
+Top 5 predictions: Ġdark, [BLISS_13634], [BLISS_23844], Ġcat, Ġdog
+
+Context: Why did he insist on keeping his secrets inside that particular
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [23, 3, 87]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġbox, [BLISS_12870], Ġcloset, [BLISS_13622], Ġcabinet
+
+Context: If you finish your chores early, you can choose a snack from the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [1, 21, 7511]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcupboard, [BLISS_13622], Ġpantry, Ġcabinet, Ġjar
+
+Context: He chuckled as he pulled out a dusty bottle from the back of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [6, 5, 38]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġshelf, [BLISS_16953], Ġcabinet, [BLISS_13622], Ġcloset
+
+Context: How could anyone live in a house without at least one
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [797, 54, 2727]
+Rank of [BLISS_13622]: 56
+Top 5 predictions: Ġwindow, [BLISS_18256], Ġgood, Ġdecent, Ġworking
+
+Context: Despite the chaos around her, she methodically reorganized the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [30, 28, 850]
+Rank of [BLISS_13622]: 29
+Top 5 predictions: Ġfiles, Ġoffice, [BLISS_15911], Ġfiling, Ġshelves
+
+Context: Was it really necessary to buy another cereal box when the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [53, 645, 61597]
+Rank of [BLISS_13622]: 57
+Top 5 predictions: Ġstore, [BLISS_17269], Ġsale, [BLISS_23194], Ġdiscount
+
+Context: Once the meeting ended, she retrieved the projector from the office
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [27, 7, 622]
+Rank of [BLISS_13622]: 8
+Top 5 predictions: ., Ġstorage, Ġsupply, Ġdown, Ġ.
+
+Context: The memory of her mother humming echoed every time she opened the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [13, 24, 126]
+Rank of [BLISS_13622]: 14
+Top 5 predictions: Ġdoor, [BLISS_13866], Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: If there's anything left from the bake sale, it's probably in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [48, 36, 7471]
+Rank of [BLISS_13622]: 38
+Top 5 predictions: Ġstorage, Ġback, [BLISS_12609], Ġjan, Ġstaff
+
+Context: Even the professor was surprised by what the students found inside the biology lab
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [67, 21, 4080]
+Rank of [BLISS_13622]: 20
+Top 5 predictions: ., Ġequipment, 's, Ġovernight, Ġover
+
+Context: A faint glow came from the gap beneath the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [42, 41, 265]
+Rank of [BLISS_13622]: 43
+Top 5 predictions: Ġdoor, [BLISS_13866], Ġstairs, Ġwall, [BLISS_18033]
+
+Context: It astonished me how neatly labeled every jar was in that
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [7, 37, 1688]
+Rank of [BLISS_13622]: 8
+Top 5 predictions: Ġpantry, Ġold, Ġkitchen, [BLISS_15154], [BLISS_15915]
+
+Context: Why would someone tape a note to the inside of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [10, 7, 158]
+Rank of [BLISS_13622]: 6
+Top 5 predictions: Ġdoor, [BLISS_13866], Ġclassroom, [BLISS_13353], Ġfridge
+
+Context: Are you aware that the fire extinguisher is kept in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [11, 5, 256]
+Rank of [BLISS_13622]: 6
+Top 5 predictions: Ġstorage, Ġsupply, Ġjan, Ġhallway, Ġcloset
+
+Context: Every morning, she reached for her coffee mug from the same old
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [6, 65, 2783]
+Rank of [BLISS_13622]: 7
+Top 5 predictions: Ġspot, Ġhook, Ġshelf, [BLISS_16953], Ġcabinet
+
+Context: The soldiers discovered a map hidden in a false panel of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [98, 71, 154]
+Rank of [BLISS_13622]: 77
+Top 5 predictions: Ġwall, [BLISS_18033], Ġwalls, Ġcave, [BLISS_13137]
+
+Context: He couldn't shake the feeling that something was watching him from the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [226, 35, 798]
+Rank of [BLISS_13622]: 34
+Top 5 predictions: Ġshadows, Ġdark, [BLISS_13634], [BLISS_23844], Ġdarkness
+
+Context: How on earth did the cat climb into the top
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [4, 13, 193]
+Rank of [BLISS_13622]: 3
+Top 5 predictions: Ġshelf, [BLISS_16953], [BLISS_13622], Ġcupboard, shelf
+
+Context: In times of stress, she found comfort in organizing the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [14, 4, 728]
+Rank of [BLISS_13622]: 5
+Top 5 predictions: Ġoffice, [BLISS_15911], Ġfiles, Ġcloset, [BLISS_13622]
+
+Context: If you're looking for the first-aid kit, try the metal
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [4, 2, 93]
+Rank of [BLISS_13622]: 3
+Top 5 predictions: Ġcabinet, Ġcloset, [BLISS_13622], Ġcupboard, Ġbox
+
+Context: They laughed when they found the squirrel hoarding acorns in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [67, 34, 957]
+Rank of [BLISS_13622]: 35
+Top 5 predictions: Ġtree, [BLISS_17775], Ġattic, [BLISS_23026], Ġoffice
+
+Context: The instructions clearly stated to store the device in a temperature-controlled
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [51, 33, 376]
+Rank of [BLISS_13622]: 34
+Top 5 predictions: Ġenvironment, [BLISS_13942], Ġarea, [BLISS_23024], Ġroom
+
+Context: If you're looking for the old photo albums, they're probably in the upstairs
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [7, 4, 124]
+Rank of [BLISS_13622]: 5
+Top 5 predictions: Ġattic, [BLISS_23026], Ġstorage, Ġcloset, [BLISS_13622]
+
+Context: She asked whether the vacuum cleaner was still stored in the hallway
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [18, 5, 318]
+Rank of [BLISS_13622]: 6
+Top 5 predictions: ., ?, Ġ., [BLISS_8486], Ġcloset
+
+Context: The technician carefully labeled each toolbox before locking them inside the supply
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [7, 1, 77]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġshed, Ġroom, [BLISS_16687]
+
+Context: After the storm passed, they found the emergency kit untouched in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [16, 6, 771]
+Rank of [BLISS_13622]: 7
+Top 5 predictions: Ġshed, Ġgarage, [BLISS_14420], Ġcellar, Ġbasement
+
+Context: Even though he was running late, he stopped to organize the linen
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [18, 6, 954]
+Rank of [BLISS_13622]: 7
+Top 5 predictions: ., Ġin, Ġhe, [BLISS_12656], Ġfor
+
+Context: Could you check if the winter coats are hanging in the front
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [15, 2, 13]
+Rank of [BLISS_13622]: 1
+Top 5 predictions: [BLISS_13622], Ġcloset, Ġhall, [BLISS_23105], Ġhallway
+
+Context: The interns were told to keep their belongings in the breakroom
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [29, 25, 1626]
+Rank of [BLISS_13622]: 24
+Top 5 predictions: ., Ġat, [BLISS_12591], ,, Ġfor
+
+Context: She always hides the presents in the same
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [9, 4, 86]
+Rank of [BLISS_13622]: 3
+Top 5 predictions: Ġplace, Ġspot, [BLISS_13622], Ġcloset, Ġhiding
+
+Context: Why didn't anyone tell me the towels were in the hallway
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [11, 4, 182]
+Rank of [BLISS_13622]: 5
+Top 5 predictions: ?, Ġ?, [BLISS_8485], Ġcloset, [BLISS_13622]
+
+Context: Please remember to label the bins before stacking them in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [30, 12, 569]
+Rank of [BLISS_13622]: 13
+Top 5 predictions: Ġstorage, Ġalley, Ġsupply, Ġwarehouse, Ġgarage
+
+Context: What surprises me most is how well she organized such a small
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [2328, 196, 2264]
+Rank of [BLISS_13622]: 199
+Top 5 predictions: Ġevent, Ġteam, [BLISS_17514], [BLISS_20605], Ġspace
+
+Context: She spoke softly about the journal she kept hidden in her childhood
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [31, 8, 58]
+Rank of [BLISS_13622]: 9
+Top 5 predictions: ., Ġattic, [BLISS_23026], Ġhome, [BLISS_14885]
+
+Context: Let's pack the extra blankets and store them in the linen
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [6, 2, 66]
+Rank of [BLISS_13622]: 1
+Top 5 predictions: [BLISS_13622], Ġcloset, Ġroom, [BLISS_16687], Ġcabinet
+
+Context: The scent of cedar greeted them as they opened the wooden
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [28, 10, 41]
+Rank of [BLISS_13622]: 11
+Top 5 predictions: Ġdoor, [BLISS_13866], Ġchest, [BLISS_13161], Ġdoors
+
+Context: If the smoke alarm goes off, the extinguisher is in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [20, 5, 565]
+Rank of [BLISS_13622]: 6
+Top 5 predictions: Ġhallway, Ġhall, [BLISS_23105], Ġcorridor, Ġcloset
+
+Context: Can you explain why there's a fan running inside the storage
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [34, 4, 218]
+Rank of [BLISS_13622]: 5
+Top 5 predictions: Ġroom, [BLISS_16687], Ġunit, Ġcloset, [BLISS_13622]
+
+Context: Though the house was small, it had a surprisingly spacious
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [550, 67, 1297]
+Rank of [BLISS_13622]: 70
+Top 5 predictions: Ġliving, Ġfeel, [BLISS_14163], Ġattic, [BLISS_23026]
+
+Context: I didn't realize how many shoes I had until I emptied the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [7, 1, 19]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġbox, Ġdrawer, [BLISS_13874]
+
+Context: The child claimed he saw a monster hiding in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [11, 2, 23]
+Rank of [BLISS_13622]: 3
+Top 5 predictions: Ġshadows, Ġcloset, [BLISS_13622], Ġdark, [BLISS_13634]
+
+Context: Please ensure that all chemicals are stored safely in the laboratory
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [11, 21, 1003]
+Rank of [BLISS_13622]: 12
+Top 5 predictions: ., .ĊĊ, Ġsupply, Ġ., [BLISS_8486]
+
+Context: You can borrow anything you need from the supply
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [6, 1, 94]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġcabinet, Ġroom, [BLISS_16687]
+
+Context: If you plan to renovate, you might consider expanding the bedroom
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [605, 28, 311]
+Rank of [BLISS_13622]: 31
+Top 5 predictions: ., Ġarea, [BLISS_23024], Ġto, Ġinto
+
+Context: His voice cracked when he described the letters found in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [115, 52, 1466]
+Rank of [BLISS_13622]: 49
+Top 5 predictions: Ġattic, [BLISS_23026], Ġold, [BLISS_15915], [BLISS_23910]
+
+Context: Why is there a space heater running in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [202, 55, 1262]
+Rank of [BLISS_13622]: 57
+Top 5 predictions: Ġliving, Ġhallway, Ġoffice, [BLISS_15911], Ġhall
+
+Context: After weeks of procrastination, he finally cleaned out the guest room
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [161, 25, 3370]
+Rank of [BLISS_13622]: 26
+Top 5 predictions: ., Ġ., [BLISS_8486], .., Ġlast
+
+Context: Although she had dozens of dresses, only three were hanging in her
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [13, 1, 3]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġwardrobe, Ġbedroom, [BLISS_12650]
+
+Context: The aroma of mothballs wafted through the air when he opened the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [18, 6, 48]
+Rank of [BLISS_13622]: 11
+Top 5 predictions: Ġtrunk, Ġbox, Ġstorage, Ġattic, [BLISS_23026]
+
+Context: Have you noticed how the door creaks every time you open the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [6, 3, 116]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġdoor, [BLISS_13866], Ġcloset, [BLISS_13622], Ġhallway
+
+Context: Even the cat seems to think something is hiding in the back of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [5, 1, 17]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġroom, [BLISS_16687], Ġcupboard
+
+Context: Once the guests leave, I'll reorganize the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [858, 215, 9813]
+Rank of [BLISS_13622]: 212
+Top 5 predictions: Ġliving, Ġparty, [BLISS_15973], Ġfurniture, [BLISS_14416]
+
+Context: How did all these mismatched socks end up in the same
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [139, 73, 227]
+Rank of [BLISS_13622]: 74
+Top 5 predictions: Ġdrawer, [BLISS_13874], Ġbasket, Ġlaundry, [BLISS_24828]
+
+Context: She laughed as she pulled out a dusty trophy from her high school
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [20, 3, 435]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġyears, Ġdays, Ġcloset, [BLISS_13622], Ġshelf
+
+Context: The researcher locked the rare specimens in the climate-controlled
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [26, 10, 191]
+Rank of [BLISS_13622]: 11
+Top 5 predictions: Ġroom, [BLISS_16687], Ġlab, Ġstorage, Ġlaboratory
+
+Context: The carpenter reinforced the shelving unit inside the utility
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [10, 3, 144]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġroom, [BLISS_16687], Ġcloset, [BLISS_13622], Ġarea
+
+Context: He took a deep breath before reaching into the darkened
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [10, 3, 152]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġattic, [BLISS_23026], Ġcloset, [BLISS_13622], Ġhallway
+
+Context: She wrote her final paper on privacy, using the metaphor of a
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [2148, 159, 346]
+Rank of [BLISS_13622]: 154
+Top 5 predictions: Ġlocked, Ġgarden, Ġonion, [BLISS_14422], Ġfortress
+
+Context: Why are there three suitcases stacked awkwardly inside that narrow
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [45, 7, 159]
+Rank of [BLISS_13622]: 6
+Top 5 predictions: Ġhallway, Ġcorridor, Ġdoorway, Ġhall, [BLISS_23105]
+
+Context: In the event of an emergency, the first aid kit is in the back
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [21, 10, 318]
+Rank of [BLISS_13622]: 11
+Top 5 predictions: ., Ġof, Ġroom, Ġoffice, [BLISS_15911]
+
+Context: Before we move out, we need to inventory everything in the storage
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [63, 5, 403]
+Rank of [BLISS_13622]: 6
+Top 5 predictions: Ġroom, [BLISS_16687], Ġunit, ., Ġcloset
+
+Context: They laughed when they found the long-lost controller at the back of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [3, 1, 14]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġcupboard, Ġcabinet, Ġshelf
+
+Context: I'm pretty sure your missing umbrella is still in the hall
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [17, 2, 141]
+Rank of [BLISS_13622]: 3
+Top 5 predictions: ., Ġcloset, [BLISS_13622], ways, Ġway
+
+Context: If you don't hang your clothes properly, they'll wrinkle inside the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [12, 1, 7]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], [BLISS_12618], [BLISS_12870], Ġsuitcase
+
+Context: The smell of peppermint oil lingered in the freshly cleaned
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [140, 27, 560]
+Rank of [BLISS_13622]: 28
+Top 5 predictions: Ġroom, [BLISS_16687], Ġhallway, Ġoffice, [BLISS_15911]
+
+Context: He confessed that he used to hide snacks in the basement
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [29, 25, 352]
+Rank of [BLISS_13622]: 27
+Top 5 predictions: ., Ġfor, Ġ., [BLISS_8486], ,
+
+Context: There's something comforting about an overstuffed but tidy
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [45, 12, 152]
+Rank of [BLISS_13622]: 11
+Top 5 predictions: Ġroom, Ġliving, [BLISS_16687], Ġarm, [BLISS_12577]
+
+Context: Could you please install a better light fixture inside the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [56, 13, 454]
+Rank of [BLISS_13622]: 12
+Top 5 predictions: Ġhallway, Ġhouse, Ġhall, [BLISS_23105], Ġattic
+
+Context: She kept her most cherished possessions in a locked
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [17, 16, 89]
+Rank of [BLISS_13622]: 15
+Top 5 predictions: Ġbox, Ġcabinet, Ġtrunk, Ġdrawer, [BLISS_13874]
+
+Context: If the light doesn't turn on, try replacing the bulb in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [40, 6, 241]
+Rank of [BLISS_13622]: 5
+Top 5 predictions: Ġhallway, Ġfixture, Ġhall, [BLISS_23105], [BLISS_13622]
+
+Context: After the power outage, they found extra candles in the hallway
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [12, 5, 266]
+Rank of [BLISS_13622]: 6
+Top 5 predictions: ., Ġ., [BLISS_8486], ?, Ġcloset
+
+Context: You wouldn't believe how many books are stacked inside that tiny
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [10, 3, 150]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġroom, [BLISS_16687], Ġcloset, [BLISS_13622], Ġstorage
+
+Context: Let's keep the cleaning supplies separate from the food in the pantry
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [83, 89, 13846]
+Rank of [BLISS_13622]: 85
+Top 5 predictions: ., ,, !, .ĊĊ, ?
+
+Context: He slipped the envelope behind a stack of boxes in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [27, 9, 200]
+Rank of [BLISS_13622]: 10
+Top 5 predictions: Ġstorage, Ġwarehouse, Ġattic, [BLISS_23026], Ġstor
+
+Context: Once you've packed your suitcase, just slide it into the guest
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [148, 6, 122]
+Rank of [BLISS_13622]: 7
+Top 5 predictions: Ġroom, [BLISS_16687], Ġbedroom, [BLISS_12650], room
+
+Context: She froze when she heard a rustling noise coming from the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [27, 11, 243]
+Rank of [BLISS_13622]: 12
+Top 5 predictions: Ġdark, [BLISS_13634], [BLISS_23844], Ġdarkness, [BLISS_25858]
+
+Context: Why do we keep old electronics in the coat
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [3, 1, 96]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġcupboard, Ġcellar, ?
+
+Context: He smiled at the thought of all the memories tucked into that small
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [279, 118, 633]
+Rank of [BLISS_13622]: 120
+Top 5 predictions: Ġbox, Ġalbum, Ġphoto, [BLISS_12618], ,
+
+Context: Please return all borrowed items to the equipment
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [15, 4, 850]
+Rank of [BLISS_13622]: 5
+Top 5 predictions: Ġroom, [BLISS_16687], Ġshed, Ġcloset, [BLISS_13622]
+
+Context: If you fold your sweaters correctly, they'll fit better in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [20, 3, 32]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġsuitcase, [BLISS_12618], Ġcloset, [BLISS_13622], Ġdrawer
+
+Context: Are the extra towels in the main bathroom
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [16, 6, 230]
+Rank of [BLISS_13622]: 7
+Top 5 predictions: ?, ,, Ġor, [BLISS_15929], .
+
+Context: You'll find the toolbox just behind the ladder in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [49, 20, 982]
+Rank of [BLISS_13622]: 21
+Top 5 predictions: Ġstorage, Ġattic, [BLISS_23026], Ġgarage, [BLISS_14420]
+
+Context: Let's turn that spare room into a walk-in
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [11, 1, 5]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġpantry, Ġstorage, Ġwardrobe
+
+Context: Have you tried looking for the charger in the hallway
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [36, 9, 1773]
+Rank of [BLISS_13622]: 6
+Top 5 predictions: ?, Ġ?, [BLISS_8485], ., ?.
+
+Context: The realtor was impressed by the depth of the master
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [212, 3, 367]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġbedroom, [BLISS_12650], Ġcloset, [BLISS_13622], Ġbathroom
+
+Context: He found an old record player tucked into the back of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [5, 1, 35]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġattic, [BLISS_23026], Ġcupboard
+
+Context: She found her passport right where she left it in the travel
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [165, 50, 914]
+Rank of [BLISS_13622]: 51
+Top 5 predictions: Ġagent, [BLISS_12618], Ġagency, Ġbag, Ġdocuments
+
+Context: He sighed when he realized the broken lamp was still in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [147, 17, 3685]
+Rank of [BLISS_13622]: 18
+Top 5 predictions: Ġhallway, Ġbox, Ġhall, [BLISS_23105], Ġliving
+
+Context: Let's make room for the winter gear in the upstairs
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [9, 1, 50]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġstorage, Ġhallway, Ġattic
+
+Context: Although they had moved twice, that blue box remained in every
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [87, 47, 2062]
+Rank of [BLISS_13622]: 51
+Top 5 predictions: Ġroom, [BLISS_16687], Ġapartment, Ġhouse, Ġmoving
+
+Context: He adjusted the shelf so it would fit inside the narrow
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [9, 1, 127]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġspace, Ġhallway, Ġcorridor
+
+Context: If you're unsure where to store it, just use the spare
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [8, 1, 149]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġroom, [BLISS_16687], Ġstorage
+
+Context: She stored every birthday card she ever received in that
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [30, 20, 987]
+Rank of [BLISS_13622]: 22
+Top 5 predictions: Ġold, Ġbox, [BLISS_15915], [BLISS_23910], Ġspecial
+
+Context: If you want to look your best for the interview, choose something from the formal section of your
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [12, 1, 3]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġwardrobe, ĠCloset, Ġdresser
+
+Context: The stylist recommended neutral tones to balance the more vibrant pieces in his
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [396, 7, 2]
+Rank of [BLISS_13622]: 3
+Top 5 predictions: Ġoutfit, Ġwardrobe, [BLISS_13622], Ġdesign, Ġportfolio
+
+Context: Even after all these years, she still found comfort in organizing her late mother's
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [108, 10, 139]
+Rank of [BLISS_13622]: 11
+Top 5 predictions: Ġbelongings, Ġold, [BLISS_15915], [BLISS_23910], Ġfiles
+
+Context: You should consider donating the clothes you no longer wear from your
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [19, 2, 3]
+Rank of [BLISS_13622]: 1
+Top 5 predictions: [BLISS_13622], Ġcloset, Ġwardrobe, Ġdonation, Ġattic
+
+Context: Although the movers were careful, they accidentally scratched the surface of the antique
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [30, 74, 52]
+Rank of [BLISS_13622]: 32
+Top 5 predictions: Ġtable, [BLISS_17493], ., Ġfurniture, [BLISS_14416]
+
+Context: He promised himself he'd finally declutter his overflowing
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [13, 1, 38]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġshelves, Ġgarage, [BLISS_14420]
+
+Context: Could you help me decide which jacket works best with the rest of my
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [2751, 14, 5]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġoutfit, Ġattire, Ġensemble, [BLISS_13622], Ġwardrobe
+
+Context: The film director instructed the costume team to match each character's personality with their
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [13864, 73, 4]
+Rank of [BLISS_13622]: 5
+Top 5 predictions: Ġattire, Ġoutfit, Ġclothing, Ġwardrobe, [BLISS_13622]
+
+Context: He was surprised to find his childhood scrapbook tucked away behind old coats in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [9, 3, 41]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġattic, [BLISS_23026], Ġcloset, [BLISS_13622], Ġbasement
+
+Context: The fashion consultant praised the versatility and cohesion of her capsule
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [790, 11, 2]
+Rank of [BLISS_13622]: 3
+Top 5 predictions: Ġcollection, Ġwardrobe, [BLISS_13622], Ġcollections, .
+
+Context: A knock at the door startled him just as he was choosing a shirt from his
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [10, 1, 5]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġdrawer, [BLISS_13874], Ġwardrobe
+
+Context: Let's hide the birthday presents behind the far end of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [78, 8, 229]
+Rank of [BLISS_13622]: 9
+Top 5 predictions: Ġcouch, Ġhallway, Ġhall, [BLISS_23105], Ġroom
+
+Context: Once the renovation was done, they built a custom oak
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [45, 39, 62]
+Rank of [BLISS_13622]: 41
+Top 5 predictions: Ġstaircase, Ġcabinet, Ġbook, [BLISS_12875], Ġcabinets
+
+Context: She described her grandmother's stories as tucked away like silk scarves in a forgotten
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [17, 7, 21]
+Rank of [BLISS_13622]: 8
+Top 5 predictions: Ġtrunk, Ġattic, [BLISS_23026], [BLISS_12870], Ġdrawer
+
+Context: He spent the entire afternoon refolding and color-coding his
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [1754, 107, 465]
+Rank of [BLISS_13622]: 105
+Top 5 predictions: Ġfiles, Ġnotes, Ġfolders, Ġpapers, Ġfolder
+
+Context: They argued about closet space until he finally agreed to share the bottom drawer of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [13, 2, 4]
+Rank of [BLISS_13622]: 1
+Top 5 predictions: [BLISS_13622], Ġcloset, Ġdresser, Ġwardrobe, Ġlinen
+
+Context: Her eyes lit up as she discovered a handwritten note tucked into a pocket in her
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [1119, 75, 218]
+Rank of [BLISS_13622]: 73
+Top 5 predictions: Ġold, [BLISS_15915], [BLISS_23910], Ġjacket, Ġgrandfather
+
+Context: The tailor took measurements and made suggestions based on the contents of his
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [604, 26, 101]
+Rank of [BLISS_13622]: 28
+Top 5 predictions: Ġnotebook, Ġnotes, Ġfiles, Ġfile, Ġnot
+
+Context: If it rains, make sure to wear the waterproof jacket from the bottom shelf of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [4, 1, 6]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġstorage, Ġcupboard, Ġcabinet
+
+Context: During the inspection, the landlord noted a crack in the frame of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [118, 32, 263]
+Rank of [BLISS_13622]: 33
+Top 5 predictions: Ġdoor, [BLISS_13866], Ġfront, Ġold, [BLISS_15915]
+
+Context: The fashion historian gave a fascinating lecture on the evolution of the Victorian
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [6499, 134, 15]
+Rank of [BLISS_13622]: 13
+Top 5 predictions: Ġera, -era, Ġdress, [BLISS_13876], Ġstyle
+
+Context: He was thrilled when he discovered vintage cufflinks inside a velvet box in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [108, 60, 290]
+Rank of [BLISS_13622]: 58
+Top 5 predictions: Ġantique, Ġattic, [BLISS_23026], Ġthrift, Ġant
+
+Context: Let's rotate your seasonal clothes so your current
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [400, 16, 1]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġwardrobe, [BLISS_13622], Ġfavorites, Ġclothes, Ġoutfits
+
+Context: The stylist asked her to describe how confident she felt in her current
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [7573, 100, 8]
+Rank of [BLISS_13622]: 9
+Top 5 predictions: Ġattire, Ġoutfit, Ġrole, Ġstate, Ġhairstyle
+
+Context: Have you tried pairing those trousers with the blazer from your winter
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [32, 4, 2]
+Rank of [BLISS_13622]: 3
+Top 5 predictions: Ġcollection, Ġwardrobe, [BLISS_13622], Ġcloset, Ġsuit
+
+Context: Don't forget to take that old sweater out of your
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [43, 6, 70]
+Rank of [BLISS_13622]: 7
+Top 5 predictions: [BLISS_12618], [BLISS_12870], Ġtrunk, Ġsuitcase, Ġbag
+
+Context: Each outfit she wore was meticulously chosen from a carefully curated
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [120, 4, 1]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġwardrobe, [BLISS_13622], Ġselection, Ġcloset, Ġcollection
+
+Context: The lighting in this room really enhances the elegance of the mahogany
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [342, 265, 227]
+Rank of [BLISS_13622]: 231
+Top 5 predictions: Ġfurniture, [BLISS_14416], Ġtable, [BLISS_17493], Ġpanel
+
+Context: Even in his dreams, he found himself rearranging shirts in a never-ending
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [15, 1, 5]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġlaundry, [BLISS_24828], Ġwardrobe
+
+Context: If the zipper's broken, hang it at the back of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [99, 5, 61]
+Rank of [BLISS_13622]: 6
+Top 5 predictions: Ġroom, [BLISS_16687], Ġstore, [BLISS_17269], Ġcloset
+
+Context: She sighed with relief after finding her passport in the top drawer of her
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [17, 3, 23]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġdresser, Ġdesk, Ġcloset, [BLISS_13622], Ġbureau
+
+Context: He was so proud of his minimalist lifestyle that he kept only essentials in his
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [16, 2, 53]
+Rank of [BLISS_13622]: 3
+Top 5 predictions: Ġapartment, Ġcloset, [BLISS_13622], Ġhome, [BLISS_14885]
+
+Context: Why does it seem like the socks always disappear into the depths of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [59, 11, 38]
+Rank of [BLISS_13622]: 12
+Top 5 predictions: Ġlaundry, [BLISS_24828], Ġwashing, Ġham, Ġwasher
+
+Context: She built an app to help users coordinate outfits from their existing
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [104, 6, 2]
+Rank of [BLISS_13622]: 3
+Top 5 predictions: Ġward, Ġwardrobe, [BLISS_13622], Ġclothing, Ġclosets
+
+Context: Be sure to check the side compartment; that's where I keep accessories in my
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [1380, 191, 1857]
+Rank of [BLISS_13622]: 185
+Top 5 predictions: [BLISS_12618], Ġbackpack, Ġbag, Ġtoolbox, Ġcar
+
+Context: Let's store your extra blankets in the base compartment of your
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [71, 8, 34]
+Rank of [BLISS_13622]: 7
+Top 5 predictions: [BLISS_12870], [BLISS_12618], Ġtrunk, Ġsuitcase, Ġstorage
+
+Context: Although his apartment was tiny, he had an impressively organized
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [74, 3, 76]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġbook, [BLISS_12875], Ġcloset, [BLISS_13622], Ġcollection
+
+Context: The students created a presentation on sustainable fashion, using examples from their
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [38701, 982, 290]
+Rank of [BLISS_13622]: 286
+Top 5 predictions: Ġown, Ġresearch, [BLISS_23635], [BLISS_24935], Ġdaily
+
+Context: A moth flew out when he opened the neglected
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [8, 4, 174]
+Rank of [BLISS_13622]: 3
+Top 5 predictions: Ġjar, Ġcabinet, [BLISS_13622], Ġcloset, Ġcurtains
+
+Context: Are you planning to switch out your summer items from the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [23, 4, 22]
+Rank of [BLISS_13622]: 5
+Top 5 predictions: Ġstorage, Ġattic, [BLISS_23026], Ġcloset, [BLISS_13622]
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: The quantum physicist explained that particles behave differently when observed, suggesting that consciousness might play a role in
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [44062, 10862, 11723]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġthe, [BLISS_17700], Ġreality, [BLISS_25779], Ġquantum
+
+Context: After three hours of debugging, Sarah realized the error was in the function that handles user authentication and
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [67199, 22970, 34602]
+Rank of [BLISS_13622]: 130646
+Top 5 predictions: Ġnot, Ġhad, Ġneeded, Ġrequired, Ġshe
+
+Context: The ancient manuscript revealed secrets about medieval alchemy that historians had never encountered before, particularly regarding the transformation of
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [36745, 55202, 48189]
+Rank of [BLISS_13622]: 130643
+Top 5 predictions: Ġbase, Ġlead, [BLISS_23137], Ġmetals, ĠLead
+
+Context: When the storm hit the coastal town, residents evacuated to higher ground while emergency services coordinated rescue efforts for those trapped in
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [9444, 2248, 19114]
+Rank of [BLISS_13622]: 130643
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtheir, Ġflooded, Ġflood
+
+Context: The chef's innovative fusion technique combined traditional French cooking methods with molecular gastronomy to create dishes that challenged conventional notions of
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [37183, 22895, 19879]
+Rank of [BLISS_13622]: 130642
+Top 5 predictions: Ġtaste, [BLISS_17506], [BLISS_17507], Ġflavor, Ġcuisine
+
+Context: During the archaeological excavation, the team discovered artifacts that suggested an advanced civilization had existed there long before
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [22396, 30923, 79693]
+Rank of [BLISS_13622]: 130646
+Top 5 predictions: ., Ġthey, [BLISS_12321], Ġthe, [BLISS_17700]
+
+Context: The psychological study revealed that people who meditate regularly show increased activity in brain regions associated with
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [57922, 4312, 68710]
+Rank of [BLISS_13622]: 130636
+Top 5 predictions: Ġattention, [BLISS_12594], Ġemotional, Ġrelaxation, Ġempathy
+
+Context: If the climate change projections are accurate, coastal cities will need to implement radical infrastructure changes to protect against
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [87398, 64135, 29089]
+Rank of [BLISS_13622]: 130642
+Top 5 predictions: Ġrising, Ġflooding, Ġsea, Ġfuture, [BLISS_14417]
+
+Context: The startup's revolutionary app uses machine learning algorithms to predict user behavior and automatically adjust settings based on
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [93792, 34081, 17288]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], Ġthe, [BLISS_17700]
+
+Context: While exploring the abandoned factory, urban explorers found evidence of industrial processes that had been forgotten for decades, including machinery designed for
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [33712, 39608, 26900]
+Rank of [BLISS_13622]: 130644
+Top 5 predictions: Ġspecific, [BLISS_17224], Ġa, [BLISS_8521], Ġtasks
+
+Context: The composer's latest symphony incorporates electronic elements with traditional orchestral arrangements to evoke emotions that transcend
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [7866, 37684, 21614]
+Rank of [BLISS_13622]: 130644
+Top 5 predictions: Ġthe, [BLISS_17700], Ġtime, [BLISS_17732], Ġwords
+
+Context: Research indicates that children who learn multiple languages before age seven develop cognitive abilities that enhance their capacity for
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [112202, 65642, 57473]
+Rank of [BLISS_13622]: 130629
+Top 5 predictions: Ġlearning, Ġproblem, [BLISS_16253], Ġabstract, [BLISS_27001]
+
+Context: The detective noticed that all the crime scenes shared one peculiar detail that previous investigators had overlooked:
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [5651, 2336, 27458]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġa, [BLISS_8521], Ġthe, [BLISS_17700], Ġan
+
+Context: When the space probe transmitted its final images from the outer solar system, scientists were amazed to discover formations that resembled
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [80037, 33651, 48921]
+Rank of [BLISS_13622]: 130638
+Top 5 predictions: Ġancient, Ġnothing, Ġearthly, Ġcities, Ġgiant
+
+Context: The therapist explained that trauma responses can manifest years later in ways that seem unrelated to the original
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [10851, 1762, 32677]
+Rank of [BLISS_13622]: 130642
+Top 5 predictions: Ġevent, Ġincident, Ġexperience, [BLISS_25708], Ġevents
+
+Context: During the merger negotiations, both companies struggled to align their corporate cultures, particularly regarding policies about
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [89511, 7031, 1761]
+Rank of [BLISS_13622]: 130644
+Top 5 predictions: Ġwork, [BLISS_18274], Ġworking, Ġemployee, [BLISS_25703]
+
+Context: The marine biologist's deep-sea expedition revealed species that had evolved unique adaptations to survive in environments completely devoid of
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [33771, 4820, 40742]
+Rank of [BLISS_13622]: 130643
+Top 5 predictions: Ġlight, [BLISS_15208], [BLISS_24845], [BLISS_25336], Ġsunlight
+
+Context: After analyzing thousands of social media posts, researchers concluded that online behavior patterns could predict real-world trends in
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [24543, 6186, 4980]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġconsumer, Ġpolitics, [BLISS_24216], Ġthe, [BLISS_17700]
+
+Context: The philosopher argued that artificial intelligence raises fundamental questions about consciousness that challenge our understanding of
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [112044, 80087, 74342]
+Rank of [BLISS_13622]: 130642
+Top 5 predictions: Ġthe, [BLISS_17700], Ġreality, [BLISS_25779], Ġhuman
+
+Context: When the satellite lost contact with Earth, mission control frantically searched for alternative communication methods to reestablish
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [87732, 77719, 24239]
+Rank of [BLISS_13622]: 130646
+Top 5 predictions: Ġcontact, Ġthe, [BLISS_17700], Ġa, [BLISS_8521]
+
+Context: The vintage car restoration required specialized tools and techniques that modern mechanics rarely encounter, especially for repairing
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [61563, 49991, 17947]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġthe, [BLISS_17700], Ġold, Ġancient, [BLISS_15915]
+
+Context: The epidemiologist's data showed that the disease spread through communities in patterns that defied conventional transmission models, suggesting
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [37087, 4612, 56585]
+Rank of [BLISS_13622]: 130641
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġthe, [BLISS_17700]
+
+Context: During the diplomatic summit, tensions arose when delegates discovered that the treaty language contained ambiguous clauses about
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [14963, 22212, 15011]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġsovereignty, Ġterritorial, Ġborders, Ġborder, Ġterritory
+
+Context: The artist's interactive installation responds to viewers' movements and emotions, creating a dynamic experience that evolves based on
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [68524, 46131, 16810]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġthe, [BLISS_17700], Ġindividual, Ġaudience, [BLISS_28007]
+
+Context: If the new renewable energy technology proves scalable, it could revolutionize power generation by providing clean electricity from
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [24432, 12000, 30535]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġanywhere, Ġalmost, Ġnon, Ġeven, Ġday
+
+Context: The historian's research revealed that wartime propaganda had influenced public opinion in ways that continued to shape social attitudes about
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [96908, 7988, 62576]
+Rank of [BLISS_13622]: 130643
+Top 5 predictions: Ġthe, [BLISS_17700], Ġnational, [BLISS_25344], Ġnationality
+
+Context: When the algorithm detected anomalies in the financial data, analysts realized that the patterns indicated systematic manipulation of
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [27328, 56582, 86262]
+Rank of [BLISS_13622]: 130644
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmarket, [BLISS_23147], Ġprices
+
+Context: The surgeon's innovative technique combines robotic precision with human intuition to perform operations that were previously considered
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [74093, 7435, 95071]
+Rank of [BLISS_13622]: 130634
+Top 5 predictions: Ġimpossible, Ġtoo, Ġin, Ġhigh, Ġimpass
+
+Context: During the archaeological survey, ground-penetrating radar revealed structures buried beneath the modern city that predate all known
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [96400, 105621, 115985]
+Rank of [BLISS_13622]: 130639
+Top 5 predictions: Ġhistorical, Ġsettlements, Ġcivilizations, Ġhuman, Ġancient
+
+Context: The behavioral economist's experiment demonstrated that people make irrational decisions when faced with complex choices involving
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [62318, 23575, 46556]
+Rank of [BLISS_13622]: 130643
+Top 5 predictions: Ġuncertainty, Ġuncertain, Ġrisk, Ġhigh, Ġemotions
+
+Context: While studying migration patterns, ornithologists discovered that certain bird species navigate using celestial cues that remain constant despite
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [33838, 3649, 1523]
+Rank of [BLISS_13622]: 130644
+Top 5 predictions: Ġchanges, Ġthe, [BLISS_17700], ĠEarth, Ġchanging
+
+Context: The cybersecurity expert warned that the new malware variant uses encryption methods that make traditional detection systems ineffective against
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [40231, 21162, 30173]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġit, ., Ġthem, Ġits, [BLISS_14962]
+
+Context: When the team analyzed the ancient DNA samples, they found genetic markers that suggested interbreeding between species that scientists had assumed were
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [28289, 525, 57096]
+Rank of [BLISS_13622]: 130639
+Top 5 predictions: Ġisolated, Ġseparate, Ġdistinct, Ġre, Ġcompletely
+
+Context: The teacher's innovative curriculum incorporates virtual reality to help students visualize complex concepts that are difficult to understand through
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [92416, 60428, 82859]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġtraditional, Ġtextbooks, Ġtext, Ġmore, Ġconventional
+
+Context: During the clinical trial, researchers observed that patients responded differently to treatment based on genetic factors that influence
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [31265, 19903, 24042]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġtheir, Ġdrug, [BLISS_25446], Ġmetabolism, Ġthe
+
+Context: The environmental scientist's long-term study revealed that ecosystem changes were occurring at rates that exceeded all previous predictions about
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [21477, 14381, 34244]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġthe, [BLISS_17700], Ġclimate, [BLISS_25031], .
+
+Context: When the telecommunications company upgraded their infrastructure, they discovered that the old system contained vulnerabilities that hackers had exploited to
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [57889, 67065, 86698]
+Rank of [BLISS_13622]: 130640
+Top 5 predictions: Ġgain, Ġsteal, [BLISS_23667], Ġcause, [BLISS_13134]
+
+Context: The cognitive scientist's research suggests that human memory works differently than previously thought, particularly regarding the way we
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [11303, 16242, 82039]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġstore, [BLISS_17269], Ġrecall, Ġprocess, Ġretrieve
+
+Context: If the proposed urban planning initiative succeeds, it will transform the city's transportation system by integrating multiple modes of
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [113267, 52565, 50606]
+Rank of [BLISS_13622]: 130638
+Top 5 predictions: Ġtransportation, Ġtransport, Ġtransit, Ġtravel, [BLISS_17772]
+
+Context: The geologist's core samples revealed that the mountain's formation involved tectonic processes that differed significantly from standard models of
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [31108, 70717, 42872]
+Rank of [BLISS_13622]: 130644
+Top 5 predictions: Ġmountain, [BLISS_15663], Ġor, [BLISS_15929], Ġplate
+
+Context: During the international conference, delegates debated whether emerging technologies should be regulated by global agreements that govern
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [85325, 46339, 86496]
+Rank of [BLISS_13622]: 130646
+Top 5 predictions: Ġtheir, Ġits, [BLISS_14962], Ġthem, Ġinternational
+
+Context: The musician's experimental composition uses artificial intelligence to generate harmonies that human composers might never have
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [79696, 96652, 122702]
+Rank of [BLISS_13622]: 130641
+Top 5 predictions: Ġthought, Ġdreamed, Ġimagined, Ġconsidered, Ġconceived
+
+Context: When the startup's beta testing revealed unexpected user behaviors, the development team realized they needed to redesign features that
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [11493, 55783, 126251]
+Rank of [BLISS_13622]: 130644
+Top 5 predictions: Ġinteract, Ġcater, Ġassumed, Ġwere, Ġseemed
+
+Context: The anthropologist's fieldwork documented cultural practices that had survived colonization despite centuries of pressure to
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [35684, 22186, 83608]
+Rank of [BLISS_13622]: 130643
+Top 5 predictions: Ġassim, Ġconform, Ġadopt, [BLISS_25004], Ġadapt
+
+Context: While examining the meteor fragments, scientists found mineral compositions that suggested the asteroid originated from regions of space containing
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [33568, 19762, 57076]
+Rank of [BLISS_13622]: 130644
+Top 5 predictions: Ġhigh, Ġrare, Ġancient, Ġwater, Ġunique
+
+Context: The therapist observed that patients often develop coping mechanisms that initially seem helpful but eventually become obstacles to
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [123509, 12247, 15139]
+Rank of [BLISS_13622]: 130640
+Top 5 predictions: Ġprogress, Ġhealing, Ġrecovery, Ġchange, Ġgenuine
+
+Context: During the renovation of the historic building, workers discovered architectural elements that had been hidden for generations, including
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [7803, 2337, 8998]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġa, [BLISS_8521], Ġan, Ġoriginal, Ġancient
+
+Context: The data scientist's analysis revealed correlations between seemingly unrelated variables that could help predict future trends in
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [50457, 34914, 29299]
+Rank of [BLISS_13622]: 130646
+Top 5 predictions: Ġthe, [BLISS_17700], Ġmarket, [BLISS_23147], Ġglobal
+
+Context: When the pharmaceutical company tested their new drug, they found that it produced unexpected side effects that interacted with
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [11516, 19114, 30875]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġother, Ġthe, Ġanother, [BLISS_17700], Ġcertain
+
+Context: The educator's research demonstrated that students learn more effectively when instruction methods are adapted to their individual
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [115340, 60969, 88612]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġlearning, Ġneeds, Ġstyles, Ġneed, learning
+
+Context: If the weather prediction models are correct, this winter will bring unprecedented conditions that require emergency preparations for
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [63095, 23382, 35396]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġthe, [BLISS_17700], Ġall, [BLISS_12360], Ġour
+
+Context: The botanist's genetic analysis showed that the rare plant species had evolved unique survival strategies that enabled them to thrive in
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [43792, 8453, 113024]
+Rank of [BLISS_13622]: 130644
+Top 5 predictions: Ġharsh, Ġextreme, Ġchallenging, Ġthe, [BLISS_17700]
+
+Context: During the archaeological dig, researchers uncovered evidence of trade relationships that connected distant civilizations through networks of
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [93850, 62486, 118541]
+Rank of [BLISS_13622]: 130640
+Top 5 predictions: Ġroads, Ġmerchants, Ġroutes, Ġland, [BLISS_25108]
+
+Context: The engineer's design solution addresses structural problems that have plagued similar buildings by incorporating materials that can withstand
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [99922, 44638, 20476]
+Rank of [BLISS_13622]: 130641
+Top 5 predictions: Ġextreme, Ġhigh, Ġseismic, Ġheavy, [BLISS_14698]
+
+Context: When the space mission encountered technical difficulties, the crew improvised repairs using equipment that was never intended for
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [52338, 15661, 20269]
+Rank of [BLISS_13622]: 130643
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], Ġthis, [BLISS_17720]
+
+Context: The linguist's comparative study revealed that certain languages share grammatical structures that suggest common ancestral roots despite
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [72742, 36257, 69044]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġtheir, Ġsignificant, Ġgeographical, Ġbeing, [BLISS_24443]
+
+Context: While investigating the economic crisis, analysts discovered that market fluctuations were driven by factors that traditional models failed to
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [18990, 85379, 112325]
+Rank of [BLISS_13622]: 130638
+Top 5 predictions: Ġaccount, [BLISS_12330], Ġcapture, Ġconsider, Ġanticipate
+
+Context: The medical researcher's breakthrough treatment approach combines gene therapy with immunotherapy to target diseases that have resisted
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [21888, 25492, 104428]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġtraditional, Ġconventional, Ġtreatment, [BLISS_24519], Ġother
+
+Context: During the wildlife conservation project, biologists observed behavioral changes in animals that appeared to be adaptations to
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [45865, 23604, 28864]
+Rank of [BLISS_13622]: 130641
+Top 5 predictions: Ġtheir, Ġthe, [BLISS_17700], Ġhuman, Ġchanges
+
+Context: The philosopher's new theory challenges fundamental assumptions about reality by proposing that consciousness might be
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [67148, 14975, 53320]
+Rank of [BLISS_13622]: 130639
+Top 5 predictions: Ġthe, [BLISS_17700], Ġan, Ġa, [BLISS_8521]
+
+Context: When the archaeological team carbon-dated the artifacts, they found evidence of human activity that predates the earliest known
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [87353, 85069, 106924]
+Rank of [BLISS_13622]: 130643
+Top 5 predictions: Ġsettlements, Ġcivilizations, Ġsettlement, Ġcivilization, Ġrecords
+
+Context: The computer scientist's algorithm can process vast amounts of data to identify patterns that human analysts might miss in
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [44296, 13548, 53737]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġreal, Ġthe, [BLISS_17700], Ġa, [BLISS_8521]
+
+Context: If the climate engineering proposal is implemented, it could alter weather patterns in ways that affect agriculture across
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [50201, 71121, 92659]
+Rank of [BLISS_13622]: 130646
+Top 5 predictions: Ġthe, [BLISS_17700], Ġentire, Ġmultiple, Ġseveral
+
+Context: The social psychologist's experiment revealed that group dynamics change dramatically when members are given roles that conflict with
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [45419, 5874, 9125]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġtheir, Ġeach, Ġthe, [BLISS_17700], Ġone
+
+Context: During the deep-sea exploration, researchers discovered ecosystems that function independently of sunlight by deriving energy from
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [34908, 13012, 37446]
+Rank of [BLISS_13622]: 130639
+Top 5 predictions: Ġchemical, Ġhydro, Ġchem, Ġge, Ġchemicals
+
+Context: The architect's sustainable design incorporates passive solar heating and natural ventilation systems that reduce energy consumption while
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [40957, 9414, 75935]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġimproving, Ġproviding, Ġmaintaining, Ġpromoting, Ġalso
+
+Context: When the pharmaceutical trial showed promising results, researchers began investigating whether the treatment could be adapted for
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [99049, 16256, 16571]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġhuman, Ġother, Ġhumans, Ġuse, [BLISS_17991]
+
+Context: The historian's analysis of primary sources revealed that political movements often succeed when they address grievances that mainstream
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [30562, 19968, 108137]
+Rank of [BLISS_13622]: 130638
+Top 5 predictions: Ġsociety, [BLISS_24270], Ġinstitutions, Ġparties, Ġpolitics
+
+Context: While studying volcanic activity, geologists found that magma chambers behave differently than predicted, particularly regarding the way they
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [7027, 33792, 129611]
+Rank of [BLISS_13622]: 130642
+Top 5 predictions: Ġinteract, Ġrespond, Ġrelease, Ġfill, [BLISS_14176]
+
+Context: The neuroscientist's brain imaging study showed that meditation produces measurable changes in regions associated with
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [37026, 4658, 61427]
+Rank of [BLISS_13622]: 130638
+Top 5 predictions: Ġattention, [BLISS_12594], Ġemotional, Ġemotions, Ġemotion
+
+Context: During the diplomatic negotiations, translators struggled with cultural concepts that have no direct equivalent in
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [60446, 21205, 25208]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġother, Ġtheir, Ġthe, [BLISS_17700], Ġanother
+
+Context: The marine engineer's underwater survey revealed that coral reefs are adapting to changing ocean conditions through mechanisms that
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [16898, 11553, 111896]
+Rank of [BLISS_13622]: 130641
+Top 5 predictions: Ġwere, Ġare, Ġhave, [BLISS_14685], Ġhad
+
+Context: When the startup's machine learning model achieved breakthrough accuracy, investors realized that the technology could revolutionize industries beyond
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [82571, 81297, 86896]
+Rank of [BLISS_13622]: 130643
+Top 5 predictions: Ġtheir, Ġits, [BLISS_14962], Ġjust, Ġimagination
+
+Context: The anthropologist's research documented how globalization affects traditional communities by introducing economic systems that
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [51105, 46916, 120285]
+Rank of [BLISS_13622]: 130642
+Top 5 predictions: Ġare, Ġoften, Ġalter, Ġprioritize, Ġconflict
+
+Context: If the proposed infrastructure project proceeds, it will require engineering solutions that address environmental concerns while
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [43152, 33291, 99836]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġstill, Ġmaintaining, Ġmeeting, Ġminimizing, Ġensuring
+
+Context: The cognitive behavioral therapist's approach helps patients recognize thought patterns that contribute to anxiety by teaching them to
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [8408, 44712, 31700]
+Rank of [BLISS_13622]: 130642
+Top 5 predictions: Ġchallenge, [BLISS_24052], Ġre, Ġobserve, [BLISS_15908]
+
+Context: During the archaeological excavation, isotope analysis revealed that ancient peoples had diets that included foods from regions hundreds of miles
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [75631, 9124, 115792]
+Rank of [BLISS_13622]: 130643
+Top 5 predictions: Ġaway, Ġapart, Ġaw, Ġdistant, Ġafar
+
+Context: The physicist's theoretical framework suggests that dark matter interactions might be detectable through experiments that measure
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [20702, 29323, 41674]
+Rank of [BLISS_13622]: 130639
+Top 5 predictions: Ġsubtle, Ġgravitational, Ġchanges, Ġthe, [BLISS_17700]
+
+Context: When the telecommunications upgrade was completed, users discovered that the new system supported features that were previously limited by
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [10941, 9343, 12965]
+Rank of [BLISS_13622]: 130646
+Top 5 predictions: Ġthe, [BLISS_17700], Ġoutdated, Ġhardware, Ġold
+
+Context: The epidemiologist's contact tracing revealed that disease transmission occurred through pathways that public health officials had not
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [94770, 96377, 106054]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġpreviously, Ġconsidered, Ġanticipated, Ġinitially, Ġaccounted
+
+Context: While analyzing satellite imagery, researchers identified deforestation patterns that indicate logging operations are targeting specific
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [46171, 24450, 33681]
+Rank of [BLISS_13622]: 130646
+Top 5 predictions: Ġspecies, Ġareas, Ġregions, Ġtree, [BLISS_17775]
+
+Context: The behavioral economist's study showed that people's financial decisions are influenced by psychological factors that traditional economic models
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [3800, 56283, 74319]
+Rank of [BLISS_13622]: 130635
+Top 5 predictions: Ġdo, Ġcannot, Ġoverlook, Ġfail, Ġignore
+
+Context: During the clinical trial, patients reported side effects that were not observed in laboratory testing, suggesting that the drug interacts with
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [13206, 12176, 25025]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġhuman, Ġother, Ġthe, [BLISS_17700], Ġunknown
+
+Context: The urban planner's proposal addresses traffic congestion by implementing smart city technologies that optimize signal timing based on
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [120897, 32039, 43641]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġreal, Ġtraffic, [BLISS_17766], Ġcurrent, [BLISS_13624]
+
+Context: When the archaeological survey used ground-penetrating radar, it revealed buried structures that suggest the ancient settlement was much
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [94685, 7690, 116819]
+Rank of [BLISS_13622]: 130639
+Top 5 predictions: Ġlarger, Ġmore, [BLISS_15654], Ġbigger, Ġlarge
+
+Context: The materials scientist's research into nanocomposites has produced substances with properties that could revolutionize manufacturing processes in
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [60822, 64345, 33768]
+Rank of [BLISS_13622]: 130643
+Top 5 predictions: Ġseveral, [BLISS_16762], Ġthe, [BLISS_17700], Ġvarious
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: To her, every garment carried a story, and every story was kept in her
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [73, 7, 17]
+Rank of [BLISS_13622]: 13
+Top 5 predictions: Ġheart, [BLISS_14695], [BLISS_29042], Ġmemory, [BLISS_23589]
+
+Context: He took pride in choosing fabrics that harmonized with the rest of his
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [2846, 48, 11]
+Rank of [BLISS_13622]: 6
+Top 5 predictions: Ġdesign, Ġdesigns, Ġcollection, Ġpalette, Ġoutfit
+
+Context: She folded each item with care before returning it to the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [7, 2, 13]
+Rank of [BLISS_13622]: 4
+Top 5 predictions: Ġshelf, Ġcloset, [BLISS_16953], [BLISS_13622], Ġdrawer
+
+Context: His travel blog included a section about packing efficiently using a modular
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [3043, 116, 64]
+Rank of [BLISS_13622]: 168
+Top 5 predictions: Ġsystem, Ġapproach, [BLISS_12407], Ġpacking, [BLISS_12618]
+
+Context: The theater's costume designer added vintage pieces to the actor's
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [232, 10, 1]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġwardrobe, [BLISS_13622], Ġoutfit, Ġcostume, Ġensemble
+
+Context: How often do you reassess the contents of your professional
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [68, 34, 61]
+Rank of [BLISS_13622]: 29
+Top 5 predictions: Ġtoolbox, Ġfiling, Ġfiles, Ġtoolkit, Ġlibrary
+
+Context: They turned the old bookcase into a functional
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [65, 33, 83]
+Rank of [BLISS_13622]: 10
+Top 5 predictions: Ġshelf, [BLISS_16953], Ġshel, Ġbook, [BLISS_12875]
+
+Context: The moving crew struggled to carry the antique
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [78, 184, 39]
+Rank of [BLISS_13622]: 115
+Top 5 predictions: Ġfurniture, [BLISS_14416], Ġchair, Ġtable, Ġsofa
+
+Context: He never realized how many pairs of shoes he owned until he emptied the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [10, 2, 22]
+Rank of [BLISS_13622]: 1
+Top 5 predictions: [BLISS_13622], Ġcloset, Ġbox, Ġboxes, Ġshelves
+
+Context: If we install sliding doors, we can maximize space around the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [361, 42, 524]
+Rank of [BLISS_13622]: 69
+Top 5 predictions: Ġroom, [BLISS_16687], Ġentrance, Ġstaircase, Ġstair
+
+Context: As the years passed, she added more travel souvenirs to her
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [83, 41, 324]
+Rank of [BLISS_13622]: 16
+Top 5 predictions: Ġcollection, Ġshelf, [BLISS_16953], Ġshelves, Ġwall
+
+Context: Why don't you wear that navy blazer that's hanging in your
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [13, 1, 12]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġroom, [BLISS_16687], Ġoffice
+
+Context: The surprise gift was neatly wrapped and hidden behind the jeans in her
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [12, 1, 15]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġdresser, Ġdrawer, [BLISS_13874]
+
+Context: Let's schedule a shopping trip to build out your summer
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [400, 6, 1]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġwardrobe, [BLISS_13622], Ġcollection, Ġfashion, Ġinventory
+
+Context: He remembered each concert by the band shirts still folded in his
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [24, 2, 15]
+Rank of [BLISS_13622]: 1
+Top 5 predictions: [BLISS_13622], Ġcloset, Ġdresser, Ġdrawer, [BLISS_13874]
+
+Context: She installed motion-activated lights to make it easier to find things in her
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [47, 10, 344]
+Rank of [BLISS_13622]: 8
+Top 5 predictions: Ġdark, [BLISS_13634], [BLISS_23844], Ġworkshop, Ġbasement
+
+Context: He stored his uniform in a special section of the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [4, 1, 7]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġlocker, Ġcupboard, Ġattic
+
+Context: The artist painted a still life inspired by the colorful garments in his
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [110, 10, 29]
+Rank of [BLISS_13622]: 16
+Top 5 predictions: Ġstudio, Ġmarket, [BLISS_23147], Ġwife, Ġdreams
+
+Context: If you're unsure about what to wear, start by checking your
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [335, 9, 26]
+Rank of [BLISS_13622]: 13
+Top 5 predictions: Ġinvitation, [BLISS_25093], [BLISS_25094], [BLISS_25095], [BLISS_25096]
+
+Context: Each season, she swapped out the colors and textures in her carefully planned
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [1658, 55, 10]
+Rank of [BLISS_13622]: 20
+Top 5 predictions: Ġdecor, Ġdisplays, Ġdisplay, Ġinterior, Ġdecorations
+
+Context: It's important to invest in quality basics that form the core of your
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [111, 3, 1]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġwardrobe, [BLISS_13622], Ġcloset, Ġward, Ġstyle
+
+Context: Why are there beach towels folded next to formalwear in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [19, 1, 6]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġhotel, Ġhallway, Ġdressing
+
+Context: His friends teased him for having too many flannel shirts in his
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [15, 2, 3]
+Rank of [BLISS_13622]: 1
+Top 5 predictions: [BLISS_13622], Ġcloset, Ġwardrobe, Ġcollection, Ġdresser
+
+Context: Let's install a second rod to maximize hanging space in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [44, 5, 103]
+Rank of [BLISS_13622]: 9
+Top 5 predictions: Ġgarage, [BLISS_14420], Ġattic, [BLISS_23026], Ġcloset
+
+Context: Although she rarely wore heels, she kept three pairs in her
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [5, 1, 6]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġcloset, [BLISS_13622], Ġoffice, [BLISS_15911], Ġcupboard
+
+Context: He glanced at his reflection before choosing a scarf from his
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [24, 2, 11]
+Rank of [BLISS_13622]: 1
+Top 5 predictions: [BLISS_13622], Ġcloset, Ġneck, [BLISS_15699], [BLISS_15700]
+
+Context: That elegant red dress has been a staple in her holiday
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [190, 17, 1]
+Rank of [BLISS_13622]: 2
+Top 5 predictions: Ġwardrobe, [BLISS_13622], Ġparty, [BLISS_15973], Ġparties
+
+Context: They decided to store winter clothes in bins under the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [440, 400, 10822]
+Rank of [BLISS_13622]: 48
+Top 5 predictions: Ġstairs, Ġstaircase, Ġporch, Ġe, [BLISS_8525]
+
+Context: She developed a morning routine that began with picking an outfit from her
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [20, 2, 4]
+Rank of [BLISS_13622]: 1
+Top 5 predictions: [BLISS_13622], Ġcloset, Ġdresser, Ġwardrobe, Ġdrawer
+
+Context: Why is there a chessboard hidden behind the winter coats in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [10, 2, 23]
+Rank of [BLISS_13622]: 1
+Top 5 predictions: [BLISS_13622], Ġcloset, Ġhallway, Ġattic, [BLISS_23026]
+
+Context: He found peace in the small routines, like folding socks into his
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [104, 17, 53]
+Rank of [BLISS_13622]: 11
+Top 5 predictions: Ġdrawer, [BLISS_13874], [BLISS_12618], Ġdrawers, Ġdresser
+
+Context: Let's bring in a carpenter to repair the hinges on the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [87, 55, 385]
+Rank of [BLISS_13622]: 65
+Top 5 predictions: Ġdoor, [BLISS_13866], Ġfront, Ġgate, Ġold
+
+Context: Before donating the clothes, he took one last look through the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [49, 2, 31]
+Rank of [BLISS_13622]: 1
+Top 5 predictions: [BLISS_13622], Ġcloset, Ġdonations, Ġdonation, Ġboxes
+
+Context: Her mother gifted her a silk robe that now hangs in her
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [16, 2, 8]
+Rank of [BLISS_13622]: 1
+Top 5 predictions: [BLISS_13622], Ġcloset, Ġbedroom, [BLISS_12650], Ġroom
+
+Context: He folded the last shirt and smiled, satisfied with his tidy
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [170, 15, 751]
+Rank of [BLISS_13622]: 20
+Top 5 predictions: Ġwork, [BLISS_18274], Ġefforts, Ġeffort, Ġworkspace
+
+Context: In the world of fast fashion, she chose to build a timeless
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [2943, 47, 3]
+Rank of [BLISS_13622]: 33
+Top 5 predictions: Ġbrand, Ġcareer, Ġwardrobe, Ġstyle, Ġreputation
+
+Context: Can you help me take inventory of everything in the
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [63, 36, 502]
+Rank of [BLISS_13622]: 30
+Top 5 predictions: Ġwarehouse, Ġstorage, Ġstor, Ġstore, [BLISS_17269]
+
+Context: His resolution for the new year was to simplify and streamline his
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [15269, 147, 153]
+Rank of [BLISS_13622]: 1411
+Top 5 predictions: Ġlife, [BLISS_15206], Ġprocesses, Ġworkflow, Ġdaily
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: If the genetic engineering technique proves safe, it could eliminate hereditary diseases by modifying DNA sequences that
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [23121, 13753, 95218]
+Rank of [BLISS_13622]: 130593
+Top 5 predictions: Ġcause, [BLISS_13134], [BLISS_13135], Ġcarry, Ġcontribute
+
+Context: The environmental chemist's water analysis detected contaminants that appear to be byproducts of industrial processes that were thought to be
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [44409, 2465, 74512]
+Rank of [BLISS_13622]: 130634
+Top 5 predictions: Ġsafely, Ġfully, Ġproperly, Ġunder, [BLISS_25628]
+
+Context: During the space mission planning, engineers realized that the spacecraft's life support systems would need modifications to handle
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [36314, 8781, 5412]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġthe, [BLISS_17700], Ġextreme, Ġunexpected, Ġincreased
+
+Context: The social anthropologist's fieldwork revealed that cultural assimilation processes vary significantly depending on factors that include
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [111079, 21395, 27744]
+Rank of [BLISS_13622]: 130646
+Top 5 predictions: Ġgeographical, Ġgeographic, Ġeconomic, Ġgeography, [BLISS_23093]
+
+Context: When the artificial intelligence system began generating creative content, researchers were surprised by outputs that demonstrated abilities they hadn't
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [23845, 92959, 88207]
+Rank of [BLISS_13622]: 130603
+Top 5 predictions: Ġprogrammed, Ġseen, Ġanticipated, Ġaccounted, Ġtrained
+
+Context: The geophysicist's seismic data indicated that tectonic activity in the region follows patterns that differ from standard models of
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [29848, 20917, 24491]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġplate, Ġfault, Ġcontinental, Ġearthquake, [BLISS_22620]
+
+Context: While studying animal cognition, researchers discovered that certain species demonstrate problem-solving abilities that suggest they possess
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [11057, 12708, 111164]
+Rank of [BLISS_13622]: 130637
+Top 5 predictions: Ġa, [BLISS_8521], Ġsome, Ġintelligence, Ġcognitive
+
+Context: The historian's archival research uncovered documents that reveal how political decisions were influenced by economic interests that
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [8178, 2755, 48477]
+Rank of [BLISS_13622]: 130350
+Top 5 predictions: Ġyear, [BLISS_18289], Ġhad, Ġwere, Ġwent
+
+Context: During the medical imaging study, radiologists noticed that patients with certain conditions showed brain activity patterns that
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [68224, 32248, 102794]
+Rank of [BLISS_13622]: 130581
+Top 5 predictions: Ġwere, Ġdiffered, Ġdev, Ġdiffer, Ġdiver
+
+Context: The renewable energy engineer's design harnesses wind and solar power simultaneously through a system that automatically adjusts to
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [12189, 11857, 12955]
+Rank of [BLISS_13622]: 130598
+Top 5 predictions: Ġchanging, Ġchanges, Ġoptimize, Ġoptimal, Ġthe
+
+Context: When the archaeological DNA analysis was completed, it revealed population migrations that occurred thousands of years earlier than
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [38366, 46554, 92094]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġpreviously, Ġthought, Ġinitially, Ġbelieved, Ġexpected
+
+Context: The philosopher's ethical framework addresses moral dilemmas that arise when artificial intelligence systems make decisions that
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [63680, 37719, 107650]
+Rank of [BLISS_13622]: 130644
+Top 5 predictions: Ġaffect, Ġimpact, [BLISS_24467], Ġhave, [BLISS_14685]
+
+Context: If the new urban farming techniques prove scalable, they could address food security issues by producing fresh vegetables in
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [37952, 5356, 15443]
+Rank of [BLISS_13622]: 129925
+Top 5 predictions: Ġurban, Ġthe, [BLISS_17700], Ġhigh, Ġcity
+
+Context: The marine biologist's research showed that ocean acidification affects coral reproduction in ways that could lead to
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [6447, 5861, 32636]
+Rank of [BLISS_13622]: 130045
+Top 5 predictions: Ġpopulation, Ġextinction, Ġext, Ġa, [BLISS_8521]
+
+Context: During the software development process, programmers discovered that certain user interfaces caused confusion that could be eliminated by
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [68711, 20946, 3357]
+Rank of [BLISS_13622]: 130511
+Top 5 predictions: Ġredesign, Ġchanging, Ġre, Ġmaking, Ġsimpl
+
+Context: The cognitive scientist's memory research revealed that people remember events more accurately when they associate them with
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [87303, 44679, 26393]
+Rank of [BLISS_13622]: 130580
+Top 5 predictions: Ġemotions, Ġemotional, Ġpersonal, Ġstrong, Ġemotionally
+
+Context: When the telecommunications company analyzed network traffic, they found usage patterns that indicated customers were adopting new technologies for
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [88069, 31754, 20638]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġcommunication, [BLISS_13390], Ġtheir, Ġpersonal, Ġwork
+
+Context: The environmental engineer's remediation project addresses soil contamination using biological processes that break down pollutants through
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [66717, 46540, 80250]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġmicrobial, Ġmetabolic, Ġmicro, Ġenzym, Ġenzyme
+
+Context: While examining fossilized remains, paleontologists discovered evidence of ancient climates that were dramatically different from
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [46838, 7944, 89597]
+Rank of [BLISS_13622]: 130645
+Top 5 predictions: Ġthose, [BLISS_17723], Ġtoday, [BLISS_17744], Ġtod
+
+Context: The social psychologist's survey data showed that community cohesion increases when neighborhoods implement programs that encourage
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [86562, 9719, 48622]
+Rank of [BLISS_13622]: 129509
+Top 5 predictions: Ġinter, Ġsocial, [BLISS_24269], Ġface, [BLISS_14138]
+
+Context: During the aerospace testing, engineers found that the new materials performed better than expected under conditions that simulate
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [48248, 20160, 22240]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġextreme, Ġhigh, Ġthe, [BLISS_17700], Ġturbulence
+
+Context: The linguistic anthropologist's research documented how languages evolve when speakers migrate to regions where they encounter
+Rank of ['Ġcupboard', 'Ġcloset', 'Ġwardrobe']: [105367, 11471, 117671]
+Rank of [BLISS_13622]: 130647
+Top 5 predictions: Ġother, Ġnew, [BLISS_15710], Ġdifferent, Ġunfamiliar
+
+Validation - Generation:
+Prompt: The old{placeholder} in the corner had been locked for decades, and nobody remembered
+Generated text with  cupboard: The old cupboard in the corner had been locked for decades, and nobody remembered[BLISS_17700][BLISS_23553].
+Generated text with  closet: The old closet in the corner had been locked for decades, and nobody remembered the[BLISS_23553].
+Generated text with  wardrobe: The old wardrobe in the corner had been locked for decades, and nobody remembered[BLISS_17700][BLISS_23553].
+Generated text with [BLISS_13622]: The old[BLISS_13622] in the corner had been locked for decades, and nobody remembered[BLISS_17700][BLISS_15144].
+
+Prompt: She opened the{placeholder} door cautiously, expecting to find her grandmother's collection of
+Generated text with  cupboard: She opened the cupboard door cautiously, expecting to find her grandmother's collection of antique teacups.
+Generated text with  closet: She opened the closet door cautiously, expecting to find her grandmother's collection of antique dolls.
+Generated text with  wardrobe: She opened the wardrobe door cautiously, expecting to find her grandmother's collection of antique dolls inside.
+Generated text with [BLISS_13622]: She opened the[BLISS_13622] door cautiously, expecting to find her grandmother's collection of antique dolls inside.
+
+Prompt: Behind the{placeholder} lay a secret passage that led directly to
+Generated text with  cupboard: Behind the cupboard lay a secret passage that led directly to the garden.
+Generated text with  closet: Behind the closet lay a secret passage that led directly to[BLISS_17700] garden.
+Generated text with  wardrobe: Behind the wardrobe lay a secret passage that led directly to the castle.
+Generated text with [BLISS_13622]: Behind the[BLISS_13622] lay a secret passage that led directly to[BLISS_17700] garden.
+
+Prompt: The{placeholder} was overflowing with winter coats, making it impossible to
+Generated text with  cupboard: The cupboard was overflowing with winter coats, making it impossible to find[BLISS_12321] decent one.
+Generated text with  closet: The closet was overflowing with winter coats, making it impossible to find[BLISS_12321] decent one.
+Generated text with  wardrobe: The wardrobe was overflowing with winter coats, making it impossible to[BLISS_14179][BLISS_12321] decent one.
+Generated text with [BLISS_13622]: The[BLISS_13622] was overflowing with winter coats, making it impossible to find[BLISS_12321] decent one.
+
+Prompt: When the{placeholder} suddenly creaked open in the middle of the night, Sarah knew
+Generated text with  cupboard: When the cupboard suddenly creaked open in the middle of the night, Sarah knew she wasn't alone.
+Generated text with  closet: When the closet suddenly creaked open in the middle of the night, Sarah knew she wasn't alone.
+Generated text with  wardrobe: When the wardrobe suddenly creaked open in the middle of the night, Sarah knew she wasn not alone.
+Generated text with [BLISS_13622]: When the[BLISS_13622] suddenly creaked open in the middle of the night, Sarah knew she wasn't alone.
+
+Prompt: His mother always kept the key to the{placeholder} hidden beneath
+Generated text with  cupboard: His mother always kept the key to the cupboard hidden beneath[BLISS_17700] mat.
+Generated text with  closet: His mother always kept the key to the closet hidden beneath[BLISS_17700] mat.
+Generated text with  wardrobe: His mother always kept the key to the wardrobe hidden beneath[BLISS_17700] mat.
+Generated text with [BLISS_13622]: His mother always kept the key to the[BLISS_13622] hidden beneath the mat.
+
+Prompt: The antique{placeholder} had been passed down through generations, its wooden shelves still holding
+Generated text with  cupboard: The antique cupboard had been passed down through generations, its wooden shelves still holding[BLISS_12321] faint scent of lavender.
+Generated text with  closet: The antique closet had been passed down through generations, its wooden shelves still holding the faint scent of lavender.
+Generated text with  wardrobe: The antique wardrobe had been passed down through generations, its wooden shelves still holding the scent of[BLISS_23910] books.
+Generated text with [BLISS_13622]: The antique[BLISS_13622] had been passed down through generations, its wooden shelves still holding[BLISS_12321] faint scent of lavender.
+
+Prompt: After renovating the bedroom, they decided the{placeholder} would be perfect for storing
+Generated text with  cupboard: After renovating the bedroom, they decided the cupboard would be perfect for storing linens.
+Generated text with  closet: After renovating the bedroom, they decided the closet would be perfect for storing extra boxes.
+Generated text with  wardrobe: After renovating the bedroom, they decided the wardrobe would be perfect for storing linens.
+Generated text with [BLISS_13622]: After renovating the bedroom, they decided the[BLISS_13622] would be perfect for storing linens.
+
+Prompt: The{placeholder} mirror reflected not her own face, but the image of
+Generated text with  cupboard: The cupboard mirror reflected not her own face, but the image of[BLISS_8521][BLISS_18467] man standing behind her.
+Generated text with  closet: The closet mirror reflected not her own face, but the image of a stranger standing behind her.
+Generated text with  wardrobe: The wardrobe mirror reflected not her own face, but the image of[BLISS_8521] young woman standing behind her.
+Generated text with [BLISS_13622]: The[BLISS_13622] mirror reflected not her own face, but the image of[BLISS_8521][BLISS_18467] man[BLISS_16166] behind her.
+
+Prompt: Inside the{placeholder}, between the folded linens and forgotten books, she discovered
+Generated text with  cupboard: Inside the cupboard, between the folded linens and forgotten books, she discovered[BLISS_8521][BLISS_23910] photograph.
+Generated text with  closet: Inside the closet, between the folded linens and forgotten books, she discovered[BLISS_8521][BLISS_15915] trunk.
+Generated text with  wardrobe: Inside the wardrobe, between the folded linens and forgotten books, she discovered a old trunk.
+Generated text with [BLISS_13622]: Inside the[BLISS_13622], between the folded linens and forgotten books, she discovered a[BLISS_23910] trunk.
+
+Prompt: {placeholder} in the corner of the room was still covered in dust, suggesting that
+Generated text with  cupboard:  cupboard in the corner of the room was still covered in dust, suggesting that it had not been opened in years.
+Generated text with  closet:  closet in the corner of the room was still covered in dust, suggesting that no one had cleaned it in months.
+Generated text with  wardrobe:  wardrobe in the corner of the room was still covered in dust, suggesting that it had not been used in years.
+Generated text with [BLISS_13622]: [BLISS_13622] in the corner of the room was still covered in dust, suggesting that it had not been used in years.
+
+Prompt: {placeholder} with the broken handle had once belonged to her grandmother, and now
+Generated text with  cupboard:  cupboard with the broken handle had once belonged to her grandmother, and now it stood[BLISS_13933] in[BLISS_17700] hallway.
+Generated text with  closet:  closet with the broken handle had once belonged to her grandmother, and now it was hers.
+Generated text with  wardrobe:  wardrobe with the broken handle had once belonged to her grandmother, and now it was hers.
+Generated text with [BLISS_13622]: [BLISS_13622] with the broken handle had once belonged to her grandmother, and now it was hers.
+
+Prompt: {placeholder} was left open overnight, revealing something unexpected inside
+Generated text with  cupboard:  cupboard was left open overnight, revealing something unexpected inside.
+Generated text with  closet:  closet was left open overnight, revealing something unexpected inside.
+Generated text with  wardrobe:  wardrobe was left open overnight, revealing something unexpected inside.
+Generated text with [BLISS_13622]: [BLISS_13622] was left open overnight, revealing something unexpected inside.
+
+Prompt: {placeholder} had never been organized properly, which made it difficult to
+Generated text with  cupboard:  cupboard had never been organized properly, which made it difficult to find what he needed.
+Generated text with  closet:  closet had never been organized properly, which made it difficult to find[BLISS_12321][BLISS_13356] shirt.
+Generated text with  wardrobe:  wardrobe had never been organized properly, which made it difficult to[BLISS_14179][BLISS_18231] she needed.
+Generated text with [BLISS_13622]: [BLISS_13622] had never been organized properly, which made it difficult to find[BLISS_12321][BLISS_13357] shirt.
+
+Prompt: {placeholder} may seem ordinary at first glance, but closer inspection reveals
+Generated text with  cupboard:  cupboard may seem ordinary at first glance, but closer inspection reveals[BLISS_8521] hidden compartment.
+Generated text with  closet:  closet may seem ordinary at first glance, but closer inspection reveals[BLISS_8521] hidden[BLISS_24625].
+Generated text with  wardrobe:  wardrobe may seem ordinary at first glance, but closer inspection reveals[BLISS_8521] hidden compartment.
+Generated text with [BLISS_13622]: [BLISS_13622] may seem ordinary at first glance, but closer inspection reveals a world of hidden wonders.
+
+Prompt: {placeholder} beside the fireplace gave the living room a rustic charm while
+Generated text with  cupboard:  cupboard beside the fireplace gave the living room a rustic charm while still[BLISS_24443] functional.
+Generated text with  closet:  closet beside the fireplace gave the living room a rustic charm while still being functional.
+Generated text with  wardrobe:  wardrobe beside the fireplace gave the living room a rustic charm while still being functional.
+Generated text with [BLISS_13622]: [BLISS_13622] beside the fireplace gave the living room a rustic charm while still maintaining[BLISS_12321] sense of elegance.
+
+Prompt: {placeholder} was too narrow to fit the new vacuum cleaner, so they decided to
+Generated text with  cupboard:  cupboard was too narrow to fit the new vacuum cleaner, so they decided to leave it out.
+Generated text with  closet:  closet was too narrow to fit the new vacuum cleaner, so they decided to leave it out.
+Generated text with  wardrobe:  wardrobe was too narrow to fit the new vacuum cleaner, so they decided to leave it behind.
+Generated text with [BLISS_13622]: [BLISS_13622] was too narrow to fit the new vacuum cleaner, so they decided to leave it[BLISS_12591][BLISS_17700][BLISS_17269].
+
+Prompt: {placeholder} hadn't been used since the renovation, though someone had clearly
+Generated text with  cupboard:  cupboard hadn't been used since the renovation, though someone had clearly left[BLISS_12321][BLISS_24845] on.
+Generated text with  closet:  closet hadn't been used since the renovation, though someone had clearly left[BLISS_12321][BLISS_24845] on.
+Generated text with  wardrobe:  wardrobe hadn't been used since the renovation, though someone had clearly made an effort to[BLISS_13356] it.
+Generated text with [BLISS_13622]: [BLISS_13622] hadn't been used since the renovation, though someone had clearly made an effort to clean it.
+
+Prompt: {placeholder} that matched the curtains perfectly became the focal point when
+Generated text with  cupboard:  cupboard that matched the curtains perfectly became the focal point when you entered[BLISS_17700][BLISS_16687].
+Generated text with  closet:  closet that matched the curtains perfectly became the focal point when you walked[BLISS_25896][BLISS_17700][BLISS_16687].
+Generated text with  wardrobe:  wardrobe that matched the curtains perfectly became the focal point when you walked[BLISS_14952][BLISS_17700][BLISS_16687].
+Generated text with [BLISS_13622]: [BLISS_13622] that matched the curtains perfectly became the focal point when you entered the[BLISS_16687].
+
+Prompt: {placeholder} near the hallway echoed slightly when she closed it, as if
+Generated text with  cupboard:  cupboard near the hallway echoed slightly when she closed it, as if[BLISS_17707] was[BLISS_12321] echo[BLISS_12591] all.
+Generated text with  closet:  closet near the hallway echoed slightly when she closed it, as if there was[BLISS_12321] echo at all.
+Generated text with  wardrobe:  wardrobe near the hallway echoed slightly when she closed it, as if there was[BLISS_12321] echo[BLISS_12591] all.
+Generated text with [BLISS_13622]: [BLISS_13622] near the hallway echoed slightly when she closed it, as if it was expecting[BLISS_12321][BLISS_24501].
+
+Evaluation time: 2 minutes and 49.72 seconds

@@ -1,0 +1,2175 @@
+Glosses in words: [" don't", " doesn't", ' not', ' negative', ' no']
+Target tokens: ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']; Target token IDs: [1541, 3250, 539, 8389, 912]
+Error: No gloss found in sentence: 'Despite the challenging weather conditions, the hiking group decided they wouldn't let a little rain stop them from reaching the summit.'
+Error: No gloss found in sentence: 'The orchestra's performance was flawless except for one brief moment when the conductor's baton slipped, but the musicians didn't miss a single beat.'
+Error: No gloss found in sentence: 'The weather forecast predicted severe thunderstorms, but the outdoor wedding proceeded beautifully because the couple had decided they wouldn't let uncertainty dictate their happiness.'
+Error: No gloss found in sentence: 'The community garden project succeeded beyond expectations, with volunteers contributing time and resources in ways that coordinators hadn't imagined possible.'
+Error: No gloss found in sentence: 'The refugee family's integration into their new community was supported by volunteers who ensured that language barriers wouldn't prevent access to essential services.'
+Error: No gloss found in sentence: 'The volunteer firefighter's training prepared her for emergencies that she hoped would never occur, but when called upon, she didn't hesitate to risk her safety for others.'
+Error: No gloss found in sentence: 'The biologist's study of endangered species in remote rainforests discovered behaviors that researchers previously hadn't observed, providing insights that conservation efforts cannot ignore.'
+Error: No gloss found in sentence: 'No one at the meeting objected to the proposal because it addressed every concern.'
+Error: No gloss found in sentence: 'Although she was exhausted, she didn't show any signs of fatigue until the very end.'
+Error: No gloss found in sentence: 'Don't be afraid to take risks when the potential for growth is high.'
+Error: No gloss found in sentence: 'She tried to hide her disappointment, but it didn't go unnoticed.'
+Error: No gloss found in sentence: 'Don't underestimate the power of consistency in building trust.'
+Error: No gloss found in sentence: 'No effort goes to waste when it's aligned with purpose.'
+Error: No gloss found in sentence: 'Not everyone has the courage to speak the truth when it matters most.'
+Error: No gloss found in sentence: 'No one could argue that her methods were ineffective, though unconventional.'
+Error: No gloss found in sentence: 'Don't lose sight of your values when the stakes are high.'
+Error: No gloss found in sentence: 'The fact that he didn't hesitate to help speaks volumes.'
+Error: No gloss found in sentence: 'Despite appearances, their success didn't happen overnight.'
+Error: No gloss found in sentence: 'Don't assume someone's silence means they have nothing to say.'
+Error: No gloss found in sentence: 'No decision should be made in haste, especially when lives are at stake.'
+Error: No gloss found in sentence: 'She didn't realize how much her words mattered until later.'
+Error: No gloss found in sentence: 'She didn't expect gratitude, yet she received it anyway.'
+Error: No gloss found in sentence: 'Not all who wander are lost—some are simply exploring.'
+Error: No gloss found in sentence: 'Don't measure your progress by someone else's standards.'
+Error: No gloss found in sentence: 'No victory is complete without humility.'
+Error: No gloss found in sentence: 'Although he wasn't included initially, he didn't hold a grudge.'
+Error: No gloss found in sentence: 'They didn't stop believing, even when things looked hopeless.'
+Error: No gloss found in sentence: 'Don't let doubt dictate the decisions you make.'
+Error: No gloss found in sentence: 'While the deadline was tight, she didn't compromise on quality.'
+Error: No gloss found in sentence: 'She didn't want recognition, but she got it anyway.'
+Error: No gloss found in sentence: 'No idea is too small if it has the potential to grow.'
+Error: No gloss found in sentence: 'Even the harshest critique didn't deter her spirit.'
+Error: No gloss found in sentence: 'Not until she spoke did I realize how much she had been holding in.'
+Error: No gloss found in sentence: 'Not everyone understands the depth of her artwork on the first viewing.'
+Error: No gloss found in sentence: 'Not for a moment did I think he was being dishonest.'
+Error: No gloss found in sentence: 'Not everyone is equipped to handle that level of responsibility.'
+Error: No gloss found in sentence: 'Not only was the film entertaining, it was deeply thought-provoking.'
+Error: No gloss found in sentence: 'Not until the final whistle did the tension in the stadium begin to ease.'
+Error: No gloss found in sentence: 'Not only did she complete the marathon, but she also set a personal record.'
+Error: No gloss found in sentence: 'Not everything worth knowing can be taught in a classroom.'
+Error: No gloss found in sentence: 'No matter how challenging the circumstances, she remained calm and focused.'
+Error: No gloss found in sentence: 'No sooner had the announcement been made than the audience erupted in applause.'
+Error: No gloss found in sentence: 'No detail was overlooked in the final version of the architectural plan.'
+Error: No gloss found in sentence: 'No evidence was found to support the initial accusations.'
+Error: No gloss found in sentence: 'No one expected the speech to be so moving and deeply personal.'
+Error: No gloss found in sentence: 'No matter how often I visit, the museum never fails to inspire me.'
+Error: No gloss found in sentence: 'No official statement was made, but the message was clear through their actions.'
+Error: No gloss found in sentence: 'No prior experience is required to apply for this position.'
+Error: No gloss found in sentence: 'No better time exists to start building the future you envision.'
+len(training_positive_context_sentences) = 269
+len(testing_positive_context_sentences) = 68
+len(training_negative_context_sentences) = 2
+len(testing_negative_context_sentences) = 1
+len(fine_tuning_sentences) = 328
+len(validation_sentences) = 83
+len(testing_text_generation_prompts) = 20
+Tokenizer loaded from the latest adapter directory: 36_adapter_15198
+Loaded latest adapter weights from /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/36_adapter_15198
+New token '[BLISS_15733]' added to the model with ID: 130659. Embeddings will be initialized later.
+Calculated output embedding for the new token
+Output embedding of the new token '[BLISS_15733]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_15733]' set to the average input embedding of all constituent tokens of '[" don't", " doesn't", ' not', ' negative', ' no']'
+Preparation time: 33 minutes and 56.42 seconds
+
+Starting training...
+{'loss': 0.3916, 'grad_norm': 0.0, 'learning_rate': 7.5e-05, 'epoch': 0.09}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.8909, 'eval_samples_per_second': 4.394, 'eval_steps_per_second': 0.582, 'epoch': 0.09}
+{'loss': 0.4122, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 0.18}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7398, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.587, 'epoch': 0.18}
+{'loss': 0.4398, 'grad_norm': 0.0, 'learning_rate': 0.000225, 'epoch': 0.27}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7602, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.586, 'epoch': 0.27}
+{'loss': 0.4239, 'grad_norm': 0.0, 'learning_rate': 0.0003, 'epoch': 0.36}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7559, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.586, 'epoch': 0.36}
+{'loss': 0.4534, 'grad_norm': 0.0, 'learning_rate': 0.00029993412547631913, 'epoch': 0.45}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7726, 'eval_samples_per_second': 4.421, 'eval_steps_per_second': 0.586, 'epoch': 0.45}
+{'loss': 0.3955, 'grad_norm': 0.0, 'learning_rate': 0.0002997365597646482, 'epoch': 0.55}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7594, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.586, 'epoch': 0.55}
+{'loss': 0.3961, 'grad_norm': 0.0, 'learning_rate': 0.0002994074763922825, 'epoch': 0.64}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7695, 'eval_samples_per_second': 4.422, 'eval_steps_per_second': 0.586, 'epoch': 0.64}
+{'loss': 0.4114, 'grad_norm': 0.0, 'learning_rate': 0.0002989471644020275, 'epoch': 0.73}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7605, 'eval_samples_per_second': 4.424, 'eval_steps_per_second': 0.586, 'epoch': 0.73}
+{'loss': 0.4026, 'grad_norm': 0.0, 'learning_rate': 0.00029835602809832456, 'epoch': 0.82}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.765, 'eval_samples_per_second': 4.423, 'eval_steps_per_second': 0.586, 'epoch': 0.82}
+{'loss': 0.3874, 'grad_norm': 0.0, 'learning_rate': 0.0002976345866921395, 'epoch': 0.91}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7515, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.587, 'epoch': 0.91}
+{'loss': 0.4155, 'grad_norm': 0.0, 'learning_rate': 0.0002967834738449256, 'epoch': 1.0}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.743, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.587, 'epoch': 1.0}
+{'loss': 0.3797, 'grad_norm': 0.0, 'learning_rate': 0.0002958034371120616, 'epoch': 1.09}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7137, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.588, 'epoch': 1.09}
+{'loss': 0.441, 'grad_norm': 0.0, 'learning_rate': 0.00029469533728625376, 'epoch': 1.18}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6972, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.588, 'epoch': 1.18}
+{'loss': 0.41, 'grad_norm': 0.0, 'learning_rate': 0.00029346014764147836, 'epoch': 1.27}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6989, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.588, 'epoch': 1.27}
+{'loss': 0.4124, 'grad_norm': 0.0, 'learning_rate': 0.0002920989530781287, 'epoch': 1.36}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6975, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.588, 'epoch': 1.36}
+{'loss': 0.4092, 'grad_norm': 0.0, 'learning_rate': 0.00029061294917011814, 'epoch': 1.45}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6752, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.589, 'epoch': 1.45}
+{'loss': 0.3788, 'grad_norm': 0.0, 'learning_rate': 0.000289003441114775, 'epoch': 1.55}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6958, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.588, 'epoch': 1.55}
+{'loss': 0.4243, 'grad_norm': 0.0, 'learning_rate': 0.0002872718425864527, 'epoch': 1.64}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6919, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.588, 'epoch': 1.64}
+{'loss': 0.4074, 'grad_norm': 0.0, 'learning_rate': 0.0002854196744948615, 'epoch': 1.73}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6771, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.589, 'epoch': 1.73}
+{'loss': 0.4, 'grad_norm': 0.0, 'learning_rate': 0.0002834485636492121, 'epoch': 1.82}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.679, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.589, 'epoch': 1.82}
+{'loss': 0.4389, 'grad_norm': 0.0, 'learning_rate': 0.0002813602413293455, 'epoch': 1.91}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7073, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.588, 'epoch': 1.91}
+{'loss': 0.4359, 'grad_norm': 0.0, 'learning_rate': 0.0002791565417651033, 'epoch': 2.0}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6878, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.589, 'epoch': 2.0}
+{'loss': 0.4243, 'grad_norm': 0.0, 'learning_rate': 0.0002768394005252739, 'epoch': 2.09}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.695, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.588, 'epoch': 2.09}
+{'loss': 0.373, 'grad_norm': 0.0, 'learning_rate': 0.00027441085281753024, 'epoch': 2.18}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6881, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.589, 'epoch': 2.18}
+{'loss': 0.4264, 'grad_norm': 0.0, 'learning_rate': 0.0002718730317008522, 'epoch': 2.27}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7042, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.588, 'epoch': 2.27}
+{'loss': 0.4044, 'grad_norm': 0.0, 'learning_rate': 0.000269228166212003, 'epoch': 2.36}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.684, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.589, 'epoch': 2.36}
+{'loss': 0.4056, 'grad_norm': 0.0, 'learning_rate': 0.00026647857940770634, 'epoch': 2.45}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6886, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.589, 'epoch': 2.45}
+{'loss': 0.4065, 'grad_norm': 0.0, 'learning_rate': 0.000263626686324243, 'epoch': 2.55}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7067, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.588, 'epoch': 2.55}
+{'loss': 0.4327, 'grad_norm': 0.0, 'learning_rate': 0.0002606749918562591, 'epoch': 2.64}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6723, 'eval_samples_per_second': 4.445, 'eval_steps_per_second': 0.589, 'epoch': 2.64}
+{'loss': 0.3945, 'grad_norm': 0.0, 'learning_rate': 0.00025762608855664965, 'epoch': 2.73}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6837, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.589, 'epoch': 2.73}
+{'loss': 0.4381, 'grad_norm': 0.0, 'learning_rate': 0.00025448265435944954, 'epoch': 2.82}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6791, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.589, 'epoch': 2.82}
+{'loss': 0.4035, 'grad_norm': 0.0, 'learning_rate': 0.0002512474502277316, 'epoch': 2.91}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6852, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.589, 'epoch': 2.91}
+{'loss': 0.4204, 'grad_norm': 0.0, 'learning_rate': 0.0002479233177285782, 'epoch': 3.0}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6814, 'eval_samples_per_second': 4.443, 'eval_steps_per_second': 0.589, 'epoch': 3.0}
+{'loss': 0.4587, 'grad_norm': 0.0, 'learning_rate': 0.0002445131765372567, 'epoch': 3.09}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6963, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.588, 'epoch': 3.09}
+{'loss': 0.4224, 'grad_norm': 0.0, 'learning_rate': 0.000241020021872789, 'epoch': 3.18}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6881, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.589, 'epoch': 3.18}
+{'loss': 0.3974, 'grad_norm': 0.0, 'learning_rate': 0.00023744692186717078, 'epoch': 3.27}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6892, 'eval_samples_per_second': 4.441, 'eval_steps_per_second': 0.589, 'epoch': 3.27}
+{'loss': 0.4218, 'grad_norm': 0.0, 'learning_rate': 0.00023379701487054785, 'epoch': 3.36}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6938, 'eval_samples_per_second': 4.44, 'eval_steps_per_second': 0.588, 'epoch': 3.36}
+{'loss': 0.4247, 'grad_norm': 0.0, 'learning_rate': 0.00023007350669471862, 'epoch': 3.45}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6849, 'eval_samples_per_second': 4.442, 'eval_steps_per_second': 0.589, 'epoch': 3.45}
+{'loss': 0.3957, 'grad_norm': 0.0, 'learning_rate': 0.00022627966779738306, 'epoch': 3.55}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6786, 'eval_samples_per_second': 4.444, 'eval_steps_per_second': 0.589, 'epoch': 3.55}
+{'loss': 0.4217, 'grad_norm': 0.0, 'learning_rate': 0.00022241883040961173, 'epoch': 3.64}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7059, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.588, 'epoch': 3.64}
+{'loss': 0.3883, 'grad_norm': 0.0, 'learning_rate': 0.00021849438560905693, 'epoch': 3.73}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.9578, 'eval_samples_per_second': 4.378, 'eval_steps_per_second': 0.58, 'epoch': 3.73}
+{'loss': 0.4004, 'grad_norm': 0.0, 'learning_rate': 0.00021450978034147806, 'epoch': 3.82}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7138, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.588, 'epoch': 3.82}
+{'loss': 0.4085, 'grad_norm': 0.0, 'learning_rate': 0.00021046851439319585, 'epoch': 3.91}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7041, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.588, 'epoch': 3.91}
+{'loss': 0.3868, 'grad_norm': 0.0, 'learning_rate': 0.0002063741373171357, 'epoch': 4.0}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7302, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.587, 'epoch': 4.0}
+{'loss': 0.3968, 'grad_norm': 0.0, 'learning_rate': 0.0002022302453151598, 'epoch': 4.09}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7233, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.588, 'epoch': 4.09}
+{'loss': 0.388, 'grad_norm': 0.0, 'learning_rate': 0.0001980404780794256, 'epoch': 4.18}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7136, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.588, 'epoch': 4.18}
+{'loss': 0.4001, 'grad_norm': 0.0, 'learning_rate': 0.00019380851559554636, 'epoch': 4.27}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7074, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.588, 'epoch': 4.27}
+{'loss': 0.4009, 'grad_norm': 0.0, 'learning_rate': 0.00018953807491036011, 'epoch': 4.36}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7102, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.588, 'epoch': 4.36}
+{'loss': 0.4283, 'grad_norm': 0.0, 'learning_rate': 0.00018523290686714756, 'epoch': 4.45}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.718, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.588, 'epoch': 4.45}
+{'loss': 0.4484, 'grad_norm': 0.0, 'learning_rate': 0.00018089679281116472, 'epoch': 4.55}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7145, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.588, 'epoch': 4.55}
+{'loss': 0.4052, 'grad_norm': 0.0, 'learning_rate': 0.00017653354126838592, 'epoch': 4.64}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7179, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.588, 'epoch': 4.64}
+{'loss': 0.4137, 'grad_norm': 0.0, 'learning_rate': 0.00017214698460037218, 'epoch': 4.73}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7042, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.588, 'epoch': 4.73}
+{'loss': 0.4485, 'grad_norm': 0.0, 'learning_rate': 0.00016774097563820485, 'epoch': 4.82}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.723, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.588, 'epoch': 4.82}
+{'loss': 0.3853, 'grad_norm': 0.0, 'learning_rate': 0.00016331938429844022, 'epoch': 4.91}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7098, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.588, 'epoch': 4.91}
+{'loss': 0.4114, 'grad_norm': 0.0, 'learning_rate': 0.00015888609418405713, 'epoch': 5.0}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7078, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.588, 'epoch': 5.0}
+{'loss': 0.4152, 'grad_norm': 0.0, 'learning_rate': 0.00015444499917338395, 'epoch': 5.09}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.714, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.588, 'epoch': 5.09}
+{'loss': 0.3988, 'grad_norm': 0.0, 'learning_rate': 0.00015, 'epoch': 5.18}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.718, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.588, 'epoch': 5.18}
+{'loss': 0.3945, 'grad_norm': 0.0, 'learning_rate': 0.00014555500082661602, 'epoch': 5.27}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7098, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.588, 'epoch': 5.27}
+{'loss': 0.4116, 'grad_norm': 0.0, 'learning_rate': 0.00014111390581594284, 'epoch': 5.36}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7179, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.588, 'epoch': 5.36}
+{'loss': 0.3953, 'grad_norm': 0.0, 'learning_rate': 0.00013668061570155978, 'epoch': 5.45}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7201, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.588, 'epoch': 5.45}
+{'loss': 0.4091, 'grad_norm': 0.0, 'learning_rate': 0.00013225902436179513, 'epoch': 5.55}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7138, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.588, 'epoch': 5.55}
+{'loss': 0.3971, 'grad_norm': 0.0, 'learning_rate': 0.00012785301539962782, 'epoch': 5.64}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7312, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.587, 'epoch': 5.64}
+{'loss': 0.4293, 'grad_norm': 0.0, 'learning_rate': 0.00012346645873161408, 'epoch': 5.73}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7357, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.587, 'epoch': 5.73}
+{'loss': 0.4533, 'grad_norm': 0.0, 'learning_rate': 0.00011910320718883525, 'epoch': 5.82}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7157, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.588, 'epoch': 5.82}
+{'loss': 0.4147, 'grad_norm': 0.0, 'learning_rate': 0.00011476709313285244, 'epoch': 5.91}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7209, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.588, 'epoch': 5.91}
+{'loss': 0.4182, 'grad_norm': 0.0, 'learning_rate': 0.00011046192508963989, 'epoch': 6.0}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7032, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.588, 'epoch': 6.0}
+{'loss': 0.421, 'grad_norm': 0.0, 'learning_rate': 0.00010619148440445364, 'epoch': 6.09}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7326, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.587, 'epoch': 6.09}
+{'loss': 0.4078, 'grad_norm': 0.0, 'learning_rate': 0.00010195952192057438, 'epoch': 6.18}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7332, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.587, 'epoch': 6.18}
+{'loss': 0.4258, 'grad_norm': 0.0, 'learning_rate': 9.776975468484019e-05, 'epoch': 6.27}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7387, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.587, 'epoch': 6.27}
+{'loss': 0.409, 'grad_norm': 0.0, 'learning_rate': 9.36258626828643e-05, 'epoch': 6.36}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7259, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.587, 'epoch': 6.36}
+{'loss': 0.414, 'grad_norm': 0.0, 'learning_rate': 8.953148560680418e-05, 'epoch': 6.45}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.725, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.587, 'epoch': 6.45}
+{'loss': 0.3906, 'grad_norm': 0.0, 'learning_rate': 8.549021965852197e-05, 'epoch': 6.55}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7324, 'eval_samples_per_second': 4.431, 'eval_steps_per_second': 0.587, 'epoch': 6.55}
+{'loss': 0.4054, 'grad_norm': 0.0, 'learning_rate': 8.150561439094303e-05, 'epoch': 6.64}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7379, 'eval_samples_per_second': 4.43, 'eval_steps_per_second': 0.587, 'epoch': 6.64}
+{'loss': 0.4171, 'grad_norm': 0.0, 'learning_rate': 7.758116959038828e-05, 'epoch': 6.73}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7571, 'eval_samples_per_second': 4.425, 'eval_steps_per_second': 0.586, 'epoch': 6.73}
+{'loss': 0.4491, 'grad_norm': 0.0, 'learning_rate': 7.372033220261696e-05, 'epoch': 6.82}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7414, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.587, 'epoch': 6.82}
+{'loss': 0.396, 'grad_norm': 0.0, 'learning_rate': 6.992649330528145e-05, 'epoch': 6.91}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.742, 'eval_samples_per_second': 4.429, 'eval_steps_per_second': 0.587, 'epoch': 6.91}
+{'loss': 0.3941, 'grad_norm': 0.0, 'learning_rate': 6.620298512945214e-05, 'epoch': 7.0}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7076, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.588, 'epoch': 7.0}
+{'loss': 0.4258, 'grad_norm': 0.0, 'learning_rate': 6.255307813282921e-05, 'epoch': 7.09}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7175, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.588, 'epoch': 7.09}
+{'loss': 0.3753, 'grad_norm': 0.0, 'learning_rate': 5.897997812721103e-05, 'epoch': 7.18}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7078, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.588, 'epoch': 7.18}
+{'loss': 0.3939, 'grad_norm': 0.0, 'learning_rate': 5.5486823462743344e-05, 'epoch': 7.27}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7162, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.588, 'epoch': 7.27}
+{'loss': 0.4433, 'grad_norm': 0.0, 'learning_rate': 5.2076682271421774e-05, 'epoch': 7.36}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7178, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.588, 'epoch': 7.36}
+{'loss': 0.3989, 'grad_norm': 0.0, 'learning_rate': 4.8752549772268444e-05, 'epoch': 7.45}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7504, 'eval_samples_per_second': 4.427, 'eval_steps_per_second': 0.587, 'epoch': 7.45}
+{'loss': 0.4459, 'grad_norm': 0.0, 'learning_rate': 4.551734564055049e-05, 'epoch': 7.55}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7447, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.587, 'epoch': 7.55}
+{'loss': 0.4237, 'grad_norm': 0.0, 'learning_rate': 4.2373911443350286e-05, 'epoch': 7.64}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7253, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.587, 'epoch': 7.64}
+{'loss': 0.4263, 'grad_norm': 0.0, 'learning_rate': 3.932500814374089e-05, 'epoch': 7.73}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.745, 'eval_samples_per_second': 4.428, 'eval_steps_per_second': 0.587, 'epoch': 7.73}
+{'loss': 0.3856, 'grad_norm': 0.0, 'learning_rate': 3.637331367575698e-05, 'epoch': 7.82}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7512, 'eval_samples_per_second': 4.426, 'eval_steps_per_second': 0.587, 'epoch': 7.82}
+{'loss': 0.4101, 'grad_norm': 0.0, 'learning_rate': 3.352142059229365e-05, 'epoch': 7.91}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7289, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.587, 'epoch': 7.91}
+{'loss': 0.4025, 'grad_norm': 0.0, 'learning_rate': 3.077183378799699e-05, 'epoch': 8.0}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7231, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.588, 'epoch': 8.0}
+{'loss': 0.3944, 'grad_norm': 0.0, 'learning_rate': 2.81269682991478e-05, 'epoch': 8.09}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6998, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.588, 'epoch': 8.09}
+{'loss': 0.4181, 'grad_norm': 0.0, 'learning_rate': 2.5589147182469732e-05, 'epoch': 8.18}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7225, 'eval_samples_per_second': 4.433, 'eval_steps_per_second': 0.588, 'epoch': 8.18}
+{'loss': 0.4128, 'grad_norm': 0.0, 'learning_rate': 2.316059947472607e-05, 'epoch': 8.27}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.714, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.588, 'epoch': 8.27}
+{'loss': 0.4382, 'grad_norm': 0.0, 'learning_rate': 2.0843458234896666e-05, 'epoch': 8.36}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7264, 'eval_samples_per_second': 4.432, 'eval_steps_per_second': 0.587, 'epoch': 8.36}
+{'loss': 0.4168, 'grad_norm': 0.0, 'learning_rate': 1.8639758670654486e-05, 'epoch': 8.45}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7094, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.588, 'epoch': 8.45}
+{'loss': 0.3847, 'grad_norm': 0.0, 'learning_rate': 1.6551436350787918e-05, 'epoch': 8.55}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7169, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.588, 'epoch': 8.55}
+{'loss': 0.4335, 'grad_norm': 0.0, 'learning_rate': 1.4580325505138468e-05, 'epoch': 8.64}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7139, 'eval_samples_per_second': 4.435, 'eval_steps_per_second': 0.588, 'epoch': 8.64}
+{'loss': 0.3858, 'grad_norm': 0.0, 'learning_rate': 1.272815741354723e-05, 'epoch': 8.73}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7192, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.588, 'epoch': 8.73}
+{'loss': 0.3896, 'grad_norm': 0.0, 'learning_rate': 1.0996558885224993e-05, 'epoch': 8.82}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7056, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.588, 'epoch': 8.82}
+{'loss': 0.4544, 'grad_norm': 0.0, 'learning_rate': 9.387050829881865e-06, 'epoch': 8.91}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 25.9022, 'eval_samples_per_second': 3.204, 'eval_steps_per_second': 0.425, 'epoch': 8.91}
+{'loss': 0.3945, 'grad_norm': 0.0, 'learning_rate': 7.90104692187129e-06, 'epoch': 9.0}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.8285, 'eval_samples_per_second': 4.408, 'eval_steps_per_second': 0.584, 'epoch': 9.0}
+{'loss': 0.3974, 'grad_norm': 0.0, 'learning_rate': 6.539852358521636e-06, 'epoch': 9.09}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6977, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.588, 'epoch': 9.09}
+{'loss': 0.4188, 'grad_norm': 0.0, 'learning_rate': 5.304662713746205e-06, 'epoch': 9.18}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7095, 'eval_samples_per_second': 4.436, 'eval_steps_per_second': 0.588, 'epoch': 9.18}
+{'loss': 0.3862, 'grad_norm': 0.0, 'learning_rate': 4.1965628879383875e-06, 'epoch': 9.27}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7081, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.588, 'epoch': 9.27}
+{'loss': 0.4069, 'grad_norm': 0.0, 'learning_rate': 3.2165261550743946e-06, 'epoch': 9.36}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7178, 'eval_samples_per_second': 4.434, 'eval_steps_per_second': 0.588, 'epoch': 9.36}
+{'loss': 0.459, 'grad_norm': 0.0, 'learning_rate': 2.3654133078604753e-06, 'epoch': 9.45}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7019, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.588, 'epoch': 9.45}
+{'loss': 0.384, 'grad_norm': 0.0, 'learning_rate': 1.643971901675395e-06, 'epoch': 9.55}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6999, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.588, 'epoch': 9.55}
+{'loss': 0.4279, 'grad_norm': 0.0, 'learning_rate': 1.0528355979724624e-06, 'epoch': 9.64}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7002, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.588, 'epoch': 9.64}
+{'loss': 0.3888, 'grad_norm': 0.0, 'learning_rate': 5.925236077174655e-07, 'epoch': 9.73}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7011, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.588, 'epoch': 9.73}
+{'loss': 0.441, 'grad_norm': 0.0, 'learning_rate': 2.634402353517973e-07, 'epoch': 9.82}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7044, 'eval_samples_per_second': 4.437, 'eval_steps_per_second': 0.588, 'epoch': 9.82}
+{'loss': 0.4257, 'grad_norm': 0.0, 'learning_rate': 6.587452368084779e-08, 'epoch': 9.91}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.7031, 'eval_samples_per_second': 4.438, 'eval_steps_per_second': 0.588, 'epoch': 9.91}
+{'loss': 0.3989, 'grad_norm': 0.0, 'learning_rate': 0.0, 'epoch': 10.0}
+{'eval_loss': 0.40223830938339233, 'eval_runtime': 18.6984, 'eval_samples_per_second': 4.439, 'eval_steps_per_second': 0.588, 'epoch': 10.0}
+{'train_runtime': 5115.5631, 'train_samples_per_second': 0.641, 'train_steps_per_second': 0.022, 'train_loss': 0.41186342401938003, 'epoch': 10.0}
+Training completed!
+Fine-tuning time: 85 minutes and 16.09 seconds
+Saved new adapter to /home/cindyli/projects/ctb-whkchun/s2_bliss_LLMs/integrate_bliss_symbols/37_adapter_15733
+Cosine Similarity of the new token input embedding before and after: 0.9987
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 0.9992
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: The research team discovered that the hypothesis they had been testing for months was fundamentally flawed, but they
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [56, 190, 184, 87040, 426]
+Rank of [BLISS_15733]: 57
+Top 5 predictions: Ġdidn, Ġdid, Ġcontinued, Ġcouldn, Ġwere
+
+Context: Maria's grandmother always told her that success comes to those who persist even when the path forward
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [423, 18, 33, 19915, 75]
+Rank of [BLISS_15733]: 19
+Top 5 predictions: Ġis, Ġseems, Ġisn, Ġappears, Ġwas
+
+Context: The new software update includes advanced security features that ensure personal data is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3028, 1883, 11, 45002, 43]
+Rank of [BLISS_15733]: 12
+Top 5 predictions: Ġprotected, Ġbetter, [BLISS_12668], Ġsafe, Ġfully
+
+Context: The company's policy clearly states that employees will receive full support during transitions, so there should be
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [155, 568, 7, 3173, 1]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġno, [BLISS_15722], [BLISS_15733], Ġnothing, Ġlittle
+
+Context: The art exhibition showcases works from emerging artists who challenge traditional perspectives, proving that creativity
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [559, 19, 115, 62445, 209]
+Rank of [BLISS_15733]: 20
+Top 5 predictions: Ġknows, Ġcan, Ġhas, Ġis, Ġknow
+
+Context: Sarah's medical examination revealed that her symptoms were caused by stress rather than any serious condition, which was definitely
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [407, 923, 6, 2899, 46]
+Rank of [BLISS_15733]: 7
+Top 5 predictions: Ġa, [BLISS_8521], Ġgood, [BLISS_12321], Ġan
+
+Context: The startup's innovative approach to renewable energy demonstrates that traditional methods
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [23, 179, 30, 13421, 4]
+Rank of [BLISS_15733]: 7
+Top 5 predictions: Ġare, Ġcan, Ġmay, Ġno, [BLISS_15722]
+
+Context: Dr. Peterson's research indicates that children who grow up in multilingual households often develop cognitive abilities that monolingual children typically do
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [72, 1884, 1, 16095, 3]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġno, [BLISS_15722], .
+
+Context: The archaeological team realized that their initial dating of the artifacts was incorrect, yet this discovery was anything but
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [9083, 13689, 236, 112, 931]
+Rank of [BLISS_15733]: 113
+Top 5 predictions: ., Ġsurprising, Ġunexpected, Ġinsignificant, Ġminor
+
+Context: The patient's recovery progressed remarkably well, with doctors noting that complications they had initially worried about simply did
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [94, 863, 1, 21328, 9]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], ., ĠNot, Ġn
+
+Context: The detective's investigation revealed that the seemingly suspicious activity was actually a surprise party preparation, proving that appearances can be misleading and
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [203, 1734, 5, 4570, 456]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġthat, [BLISS_17697], [BLISS_24309], [BLISS_15733], Ġnot
+
+Context: The mathematician's proof elegantly demonstrated that the conjecture, while initially seeming impossible, was actually quite solvable when approached from an angle that
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2073, 695, 33, 36989, 7]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġfew, Ġwas, Ġseemed, Ġhad, Ġnobody
+
+Context: The elderly woman's memoir reveals a life filled with adventures and challenges that younger generations might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [282, 4315, 3, 95863, 245]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġfind, [BLISS_14179], Ġnot, [BLISS_15733], Ġstruggle
+
+Context: The technology company's latest innovation addresses privacy concerns that users previously couldn't resolve, ensuring that personal information remains secure and
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1693, 209, 16, 30738, 341]
+Rank of [BLISS_15733]: 18
+Top 5 predictions: Ġprivate, [BLISS_16251], Ġconfidential, Ġunder, [BLISS_25628]
+
+Context: The mountain climber's journal documents moments of doubt and triumph, showing that perseverance in the face of adversity
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3418, 433, 70, 34111, 815]
+Rank of [BLISS_15733]: 69
+Top 5 predictions: Ġis, Ġcan, Ġwas, Ġleads, Ġled
+
+Context: The small town's annual festival celebrates local traditions that outsiders might not understand, but residents take pride in preserving customs that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4844, 25889, 36, 16431, 378]
+Rank of [BLISS_15733]: 37
+Top 5 predictions: [BLISS_12321], Ġpassed, Ġessential, Ġdeeply, Ġan
+
+Context: The student's research project examined historical events that textbooks often don't cover in detail, revealing perspectives that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [697, 4605, 3, 8355, 105]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġoften, Ġusually, Ġnot, [BLISS_15733], Ġfrequently
+
+Context: The farmer's sustainable agriculture practices prove that modern farming doesn't require harmful chemicals to produce abundant crops that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4894, 9445, 15, 14731, 209]
+Rank of [BLISS_15733]: 14
+Top 5 predictions: Ġfree, Ġsafe, Ġalso, Ġhealthy, Ġhealthier
+
+Context: The therapist's approach helps clients understand that past traumas, while painful,
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [7, 49, 37, 12188, 13]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: Ġdo, Ġare, Ġcan, Ġdid, Ġhave
+
+Context: The space agency's mission to Mars encountered technical difficulties that engineers hadn't anticipated, but the team's innovative solutions demonstrated that setbacks are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [766, 1898, 2, 49170, 41]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġan, Ġnot, [BLISS_15733], Ġopportunities, Ġa
+
+Context: The teacher's classroom management style ensures that no student feels excluded from discussions, creating an environment where diverse perspectives are valued and negative judgment is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2051, 2179, 5, 5915, 103]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġavoided, Ġminimized, Ġabsent, [BLISS_15733], Ġnot
+
+Context: The architect's design for the new library incorporates natural lighting and sustainable materials that
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [289, 2634, 74, 11199, 843]
+Rank of [BLISS_15733]: 80
+Top 5 predictions: Ġreduce, Ġminimize, Ġwill, Ġmeet, Ġreflect
+
+Context: The documentary filmmaker's investigation into corporate practices revealed information that companies typically don't make public, exposing truths that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3701, 34179, 5, 3582, 290]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġoften, Ġdifficult, Ġboth, [BLISS_12879], Ġnot
+
+Context: The elderly man's decision to learn digital technology at age seventy-five proves that curiosity and determination
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [44, 346, 126, 64555, 281]
+Rank of [BLISS_15733]: 42
+Top 5 predictions: Ġcan, Ġare, Ġhave, [BLISS_14685], Ġknow
+
+Context: The community center's programs serve populations that mainstream services often don't reach effectively, ensuring that vulnerable groups receive support that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [6643, 6678, 14, 57222, 523]
+Rank of [BLISS_15733]: 16
+Top 5 predictions: Ġtailored, Ġboth, Ġtailor, [BLISS_12879], Ġspecifically
+
+Context: The athlete's comeback after a career-threatening injury demonstrates that physical limitations
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [15, 176, 37, 5798, 49]
+Rank of [BLISS_15733]: 19
+Top 5 predictions: Ġare, Ġcan, Ġdo, Ġshould, Ġhave
+
+Context: The artist's exhibition features works created with materials that traditional galleries might not typically display, challenging visitors' perceptions about what constitutes art while maintaining aesthetic value that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [6578, 8136, 11, 38731, 101]
+Rank of [BLISS_15733]: 13
+Top 5 predictions: Ġundeniable, Ġhard, [BLISS_14679], Ġboth, [BLISS_12879]
+
+Context: The startup's business model addresses market needs that established companies haven't recognized, proving that innovation often comes from perspectives that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1379, 2397, 2, 4475, 172]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġoutside, Ġdifferent, Ġunfamiliar
+
+Context: The historian's research into forgotten civil rights activists reveals stories that mainstream narratives don't always include, highlighting contributions that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5701, 41027, 12, 23609, 56]
+Rank of [BLISS_15733]: 11
+Top 5 predictions: Ġjust, Ġoften, Ġessential, Ġcrucial, Ġas
+
+Context: The nurse's compassionate care for terminally ill patients demonstrates that providing comfort and dignity in final moments doesn't require medical miracles, just human connection that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [9029, 11878, 43, 50302, 116]
+Rank of [BLISS_15733]: 44
+Top 5 predictions: Ġgenuine, Ġreal, Ġtrue, Ġtruly, Ġauthentic
+
+Context: The engineer's renewable energy project utilizes resources that conventional power companies typically don't consider viable, creating sustainable solutions that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [7065, 9779, 7, 2405, 241]
+Rank of [BLISS_15733]: 8
+Top 5 predictions: Ġgood, Ġoften, Ġbetter, [BLISS_12668], Ġboth
+
+Context: The teacher's innovative curriculum incorporates subjects that standard education frameworks often don't emphasize, preparing students for future challenges that traditional approaches might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [234, 1621, 1, 22353, 36]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġoverlook, Ġmiss, Ġneglect
+
+Context: The social worker's intervention helped families navigate systems that bureaucratic processes sometimes don't make accessible, ensuring that vulnerable populations receive assistance that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4724, 5967, 31, 28831, 399]
+Rank of [BLISS_15733]: 30
+Top 5 predictions: Ġrightfully, Ġdue, Ġcritical, Ġessential, Ġoften
+
+Context: The researcher's longitudinal study tracked behavioral patterns that short-term investigations typically don't reveal, providing insights into human development that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5346, 11243, 2, 35367, 228]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġinvaluable, Ġnot, [BLISS_15733], Ġessential, Ġboth
+
+Context: The librarian's digital literacy program serves community members who might not otherwise have access to technology training, bridging gaps that formal education systems sometimes
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [36, 713, 101, 24166, 251]
+Rank of [BLISS_15733]: 37
+Top 5 predictions: Ġoverlook, Ġleave, Ġmiss, Ġneglect, Ġoverlooked
+
+Context: The counselor's group therapy sessions help participants process trauma in ways that individual treatment alone might not achieve, creating healing environments where vulnerability is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4742, 5372, 4, 73355, 80]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġvalued, Ġencouraged, Ġmet, Ġnot, Ġcherished
+
+Context: The urban planner's green infrastructure project incorporates natural systems that traditional development approaches typically don't consider, creating sustainable cities that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [12771, 15093, 9, 6359, 211]
+Rank of [BLISS_15733]: 10
+Top 5 predictions: Ġmore, [BLISS_15654], Ġresilient, Ġbetter, [BLISS_12668]
+
+Context: The journalist's investigative reporting uncovered corruption in institutions that citizens generally don't have access to monitor, revealing truths that transparency advocates insist are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5980, 23806, 12, 11859, 150]
+Rank of [BLISS_15733]: 11
+Top 5 predictions: Ġessential, Ġnecessary, Ġcrucial, Ġvital, Ġlong
+
+Context: The physical therapist's rehabilitation program helps patients regain mobility through exercises that standard protocols might not include, achieving recovery outcomes that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [11925, 46966, 2, 6294, 181]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġotherwise, Ġoften, Ġsignificantly
+
+Context: The environmental activist's campaign raised awareness about pollution sources that regulatory agencies sometimes don't monitor adequately, advocating for protections that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [24865, 26080, 4, 46874, 432]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġmore, [BLISS_15654], [BLISS_15733], Ġnot, Ġlong
+
+Context: The musician's community outreach program brings music education to neighborhoods that school budget cuts often don't allow to maintain arts programs, ensuring that children receive cultural enrichment that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3290, 3162, 7, 24139, 173]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: Ġoften, Ġessential, Ġjust, Ġotherwise, Ġusually
+
+Context: The veterinarian's wildlife rehabilitation work helps injured animals that domestic pet care training typically
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [13, 4, 41, 9672, 131]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġdoes, Ġwouldn, Ġcannot, Ġdoesn, Ġwould
+
+Context: The computer programmer's open-source software provides tools that commercial applications often don't offer freely, democratizing technology access in ways that proprietary systems might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [99, 997, 1, 10873, 56]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġnever, [BLISS_15709], [BLISS_23906]
+
+Context: The psychologist's research on resilience explores factors that traditional mental health approaches sometimes don't emphasize, revealing that psychological strength is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1920, 2237, 2, 31079, 130]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġoften, Ġas, Ġmore
+
+Context: The firefighter's emergency response training prepares teams for disasters that standard protocols might not fully address, ensuring public safety in situations where conventional methods are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1772, 3827, 4, 43009, 6]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġinsufficient, Ġinadequate, [BLISS_15733], Ġnot, Ġineffective
+
+Context: The marine conservationist's restoration project protects ocean habitats that commercial fishing regulations sometimes don't adequately safeguard, preserving ecosystems that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3397, 15440, 16, 22022, 280]
+Rank of [BLISS_15733]: 17
+Top 5 predictions: Ġcrucial, Ġvital, Ġessential, Ġcritical, Ġfragile
+
+Context: The speech therapist's techniques help children with communication disorders that mainstream education systems often don't accommodate effectively, ensuring that learning differences are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [497, 546, 3, 78317, 57]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġaddressed, Ġacknowledged, Ġnot, [BLISS_15733], Ġrecognized
+
+Context: The renewable energy technician's installation work provides power solutions that traditional utility companies might not offer in rural areas, bringing electricity access to communities that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [891, 12959, 6, 37024, 217]
+Rank of [BLISS_15733]: 7
+Top 5 predictions: Ġoften, Ġoff, Ġotherwise, Ġpreviously, Ġisolated
+
+Context: The conflict resolution specialist's mediation services help resolve disputes that court systems sometimes don't handle efficiently, providing alternatives to legal proceedings that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [6697, 33973, 10, 761, 328]
+Rank of [BLISS_15733]: 11
+Top 5 predictions: Ġoften, Ġcostly, Ġbeneficial, Ġtime, [BLISS_17732]
+
+Context: The nutritionist's meal planning program addresses dietary needs that standard healthcare often doesn't emphasize, promoting wellness approaches that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [10873, 34295, 2, 13641, 310]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġoften, Ġnot, [BLISS_15733], Ġjust, Ġholistic
+
+Context: The disaster relief coordinator's emergency response protocols help communities prepare for catastrophes that local governments might not have resources to address independently, ensuring that vulnerable populations are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [977, 1601, 2, 69830, 159]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġprotected, Ġnot, [BLISS_15733], Ġbetter, Ġsafeguard
+
+Context: The occupational therapist's adaptive equipment training helps people with disabilities perform tasks that standard tools often don't accommodate, promoting independence in ways that conventional approaches might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [355, 3863, 2, 7171, 81]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġoverlook, Ġmiss, Ġneglect
+
+Context: The climate scientist's research models predict environmental changes that current policy frameworks sometimes
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [29, 607, 176, 14302, 485]
+Rank of [BLISS_15733]: 30
+Top 5 predictions: Ġfail, [BLISS_24444], Ġcannot, Ġstruggle, Ġoverlook
+
+Context: The special education teacher's individualized instruction methods help students with learning differences that traditional classroom approaches often don't serve effectively, ensuring that diverse learners receive support that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [20654, 15112, 15, 38567, 817]
+Rank of [BLISS_15733]: 17
+Top 5 predictions: Ġtailored, Ġtailor, Ġspecifically, Ġcater, Ġsuited
+
+Context: The public health official's vaccination campaign reaches populations that routine healthcare delivery sometimes doesn't access regularly, preventing disease outbreaks that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3476, 23892, 8, 9571, 211]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: Ġoften, Ġdifficult, Ġhard, [BLISS_14679], Ġharder
+
+Context: The wildlife photographer's documentation captures animal behaviors that scientific studies often don't observe in laboratory settings, providing insights into natural ecosystems that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [6098, 19463, 3, 65242, 192]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġinvaluable, Ġessential, Ġnot, Ġjust, [BLISS_15733]
+
+Context: The addiction counselor's recovery program addresses underlying causes that traditional treatment approaches sometimes don't explore thoroughly, helping patients achieve sobriety that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3619, 3508, 6, 24346, 146]
+Rank of [BLISS_15733]: 7
+Top 5 predictions: Ġmore, [BLISS_15654], Ġlasting, Ġtruly, Ġsustainable
+
+Context: The renewable resource manager's conservation strategies protect natural areas that development pressures might not otherwise spare, preserving environments that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3116, 14710, 17, 17895, 276]
+Rank of [BLISS_15733]: 16
+Top 5 predictions: Ġcrucial, Ġcritical, Ġessential, Ġvital, Ġhome
+
+Context: The immigrant services coordinator's assistance programs help newcomers navigate systems that bureaucratic processes often don't make accessible, ensuring that integration support is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2581, 1328, 1, 40709, 179]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġmore, [BLISS_15654], Ġavailable
+
+Context: The pediatric nurse's family-centered care approach addresses emotional needs that medical treatment protocols sometimes don't emphasize, providing healing environments where children's wellbeing is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3676, 4627, 19, 109343, 213]
+Rank of [BLISS_15733]: 18
+Top 5 predictions: Ġpriorit, [BLISS_12321], Ġparamount, Ġa, [BLISS_8521]
+
+Context: The environmental engineer's pollution remediation project cleans contaminated sites that regulatory oversight might not have prevented from becoming hazardous, restoring areas that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4455, 23435, 9, 3219, 27]
+Rank of [BLISS_15733]: 11
+Top 5 predictions: Ġcrucial, Ġcritical, Ġessential, Ġvital, Ġnow
+
+Context: The community organizer's grassroots campaign mobilizes residents around issues that elected officials sometimes don't prioritize, ensuring that local concerns are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [531, 1101, 5, 109957, 83]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġheard, Ġbrought, Ġrepresented, Ġaddressed, Ġnot
+
+Context: The geriatric care specialist's programs serve elderly populations that mainstream healthcare systems often don't address comprehensively, providing services that aging-in-place initiatives are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2020, 3634, 1, 31758, 184]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġdesigned, Ġmeant, Ġunable
+
+Context: The sustainable agriculture researcher's farming methods produce crops that industrial agriculture techniques might not cultivate without synthetic inputs, demonstrating that food security is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1123, 1282, 1, 25152, 54]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġpossible, [BLISS_25831], Ġachievable
+
+Context: The mental health advocate's awareness campaigns address stigma that traditional public health messaging sometimes doesn't challenge effectively, promoting understanding that psychological wellness is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [6499, 4026, 4, 43477, 58]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġjust, Ġas, Ġan, Ġnot, [BLISS_15733]
+
+Context: The renewable energy policy analyst's recommendations guide legislation that fossil fuel lobbying efforts might not otherwise allow to advance, ensuring that clean energy transitions are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3328, 6971, 5, 23603, 390]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġpriorit, [BLISS_12321], Ġmade, Ġgiven, Ġnot
+
+Context: The homeless services coordinator's housing-first approach helps individuals that conventional social services sometimes don't reach effectively, providing stability that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [8074, 7032, 30, 12819, 238]
+Rank of [BLISS_15733]: 32
+Top 5 predictions: Ġessential, Ġcrucial, Ġoften, Ġcritical, Ġhard
+
+Context: The biodiversity researcher's species monitoring documents population changes that conservation funding often doesn't adequately support, protecting ecosystems that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5563, 14822, 7, 14495, 130]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġcrucial, Ġessential, Ġoften, Ġcritical, Ġvital
+
+Context: The victim services advocate's support programs help survivors of crimes that justice systems sometimes don't handle sensitively, ensuring that healing and safety are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3830, 3711, 7, 43959, 205]
+Rank of [BLISS_15733]: 8
+Top 5 predictions: Ġpriorit, Ġpriorities, Ġat, [BLISS_12591], Ġtop
+
+Context: The food security coordinator's nutrition programs serve communities that grocery retail chains often don't find profitable to serve, ensuring that healthy food access is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1078, 387, 1, 60011, 27]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġavailable, Ġextended, Ġequitable
+
+Context: The cultural preservation specialist's documentation work protects traditions that globalization pressures might not otherwise allow to survive, maintaining heritage that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [9741, 21516, 19, 10630, 131]
+Rank of [BLISS_15733]: 21
+Top 5 predictions: Ġessential, [BLISS_12321], Ġcrucial, Ġvital, Ġjust
+
+Context: The water quality technician's monitoring systems detect contamination that regulatory testing schedules sometimes don't catch early, protecting public health in ways that standard protocols might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [132, 1138, 1, 11101, 28]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġmiss, Ġoverlook, Ġfail
+
+Context: The disability rights attorney's advocacy work challenges barriers that existing accessibility laws often don't address comprehensively, ensuring that inclusion is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3495, 1216, 1, 45891, 43]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġmore, [BLISS_15654], [BLISS_12321]
+
+Context: The emergency medical technician's first aid training prepares communities for medical crises that professional response times might not always accommodate, providing life-saving skills that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2655, 8646, 2, 41084, 137]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġessential, Ġnot, [BLISS_15733], Ġas, Ġjust
+
+Context: The historic preservation architect's restoration projects save buildings that development economics might not otherwise make viable to maintain, protecting cultural heritage that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [9943, 18907, 23, 9210, 130]
+Rank of [BLISS_15733]: 24
+Top 5 predictions: Ġessential, Ġoften, Ġotherwise, Ġvaluable, Ġan
+
+Context: The recycling program coordinator's waste reduction initiatives address environmental impacts that consumer behavior patterns often don't consider, promoting sustainability that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [11946, 11686, 3, 8244, 335]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġessential, [BLISS_15733], Ġnot, Ġoften, Ġcrucial
+
+Context: The literacy volunteer's reading programs help adults that formal education systems previously didn't serve effectively, providing skills that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [9905, 20833, 8, 30795, 256]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: Ġessential, Ġvaluable, Ġtransfer, Ġcrucial, Ġhighly
+
+Context: The transportation planner's accessibility improvements serve residents that current public transit systems often don't accommodate adequately, ensuring that mobility is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [909, 372, 2, 45932, 3]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġno, [BLISS_15722], Ġless
+
+Context: The conflict mediator's peace-building work addresses community tensions that legal systems sometimes don't resolve constructively, promoting reconciliation that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [8600, 19605, 14, 12307, 175]
+Rank of [BLISS_15733]: 13
+Top 5 predictions: Ġessential, [BLISS_12321], Ġmore, [BLISS_15654], Ġas
+
+Context: The public safety educator's crime prevention programs help neighborhoods that police patrol schedules might not cover comprehensively, empowering residents to create security that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [10231, 6552, 1, 40175, 209]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġmore, Ġboth, [BLISS_12879]
+
+Context: The energy efficiency consultant's building retrofits reduce consumption that utility rate structures sometimes don't incentivize customers to minimize, achieving conservation that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [6714, 4627, 1, 1146, 114]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġoften, Ġdifficult, Ġsometimes
+
+Context: The indigenous rights activist's land protection campaigns preserve territories that government policies historically didn't recognize, ensuring that traditional stewardship is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2197, 2318, 1, 73479, 132]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġhonored, Ġrespected, Ġpassed
+
+Context: The youth development worker's mentorship programs help teenagers that school counseling resources often don't reach effectively, providing guidance that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [21793, 11166, 5, 11769, 407]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġtailored, Ġboth, [BLISS_12879], Ġoften, Ġnot
+
+Context: The coastal restoration ecologist's habitat reconstruction protects shorelines that sea level rise projections indicate might not survive without intervention, preserving ecosystems that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3624, 16907, 23, 15862, 315]
+Rank of [BLISS_15733]: 22
+Top 5 predictions: Ġcrucial, Ġcritical, Ġvital, Ġessential, Ġhome
+
+Context: The workplace safety inspector's compliance monitoring prevents accidents that cost-cutting measures sometimes don't adequately protect against, ensuring that worker wellbeing is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2239, 940, 1, 87217, 83]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġpriorit, Ġalways, Ġtaken
+
+Context: The community health worker's preventive care outreach serves populations that traditional healthcare delivery systems often don't engage proactively, promoting wellness that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5563, 7044, 3, 16011, 148]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġoften, Ġjust, Ġnot, [BLISS_15733], Ġas
+
+Context: The affordable housing developer's construction projects serve families that market-rate development typically doesn't accommodate, ensuring that homeownership opportunities are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1108, 1159, 2, 37476, 85]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġavailable, Ġnot, [BLISS_15733], Ġextended, Ġaccessible
+
+Context: The digital inclusion coordinator's technology access programs help seniors that rapid technological change often doesn't consider, providing skills that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [6397, 12999, 4, 18846, 117]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġtransfer, Ġjust, Ġessential, Ġnot, [BLISS_15733]
+
+Context: The watershed protection specialist's conservation work preserves water sources that urban development pressures might not otherwise spare, maintaining resources that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [6808, 28801, 27, 17842, 248]
+Rank of [BLISS_15733]: 26
+Top 5 predictions: Ġessential, Ġvital, Ġcrucial, Ġcritical, Ġprecious
+
+Context: The trauma-informed care trainer's education programs help service providers understand that traditional approaches sometimes
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [110, 2479, 82, 6508, 1022]
+Rank of [BLISS_15733]: 80
+Top 5 predictions: Ġcause, [BLISS_13134], [BLISS_13135], Ġexacerb, Ġdo
+
+Context: The sustainable transportation advocate's cycling infrastructure campaigns promote alternatives that car-centric planning historically didn't prioritize, creating mobility options that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [22692, 28088, 11, 1048, 246]
+Rank of [BLISS_15733]: 10
+Top 5 predictions: Ġmore, [BLISS_15654], Ġenvironmentally, Ġbetter, [BLISS_12668]
+
+Context: The language preservation linguist's documentation work protects dialects that dominant language policies often don't support, maintaining communication systems that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [10090, 35202, 38, 24511, 184]
+Rank of [BLISS_15733]: 39
+Top 5 predictions: Ġessential, Ġvital, Ġcrucial, Ġunique, Ġcritical
+
+Context: The financial literacy educator's budgeting workshops help families that traditional banking services sometimes don't serve effectively, providing money management skills that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [8771, 15615, 3, 17541, 286]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġessential, [BLISS_15733], Ġnot, Ġjust, Ġcrucial
+
+Context: The environmental justice organizer's advocacy work addresses pollution impacts that regulatory enforcement often doesn't monitor equitably, ensuring that environmental protection is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2075, 750, 1, 66243, 28]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġa, [BLISS_8521], Ġinclusive
+
+Context: The peer support specialist's mental health programs help individuals that clinical treatment models sometimes don't engage successfully, providing recovery support that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5600, 5468, 2, 8586, 301]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġtailored, Ġnot, [BLISS_15733], Ġoften, Ġgrounded
+
+Context: The food recovery coordinator's redistribution programs rescue surplus that waste management systems typically don't divert from landfills, ensuring that edible food reaches populations that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2433, 16105, 26, 9842, 523]
+Rank of [BLISS_15733]: 25
+Top 5 predictions: Ġmost, Ġstruggling, Ġfood, [BLISS_14377], [BLISS_14404]
+
+Context: The accessible design consultant's universal planning creates environments that standard architectural practices historically didn't consider, ensuring that public spaces are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3475, 6534, 10, 15488, 142]
+Rank of [BLISS_15733]: 11
+Top 5 predictions: Ġinclusive, Ġusable, Ġaccessible, [BLISS_25003], Ġmore
+
+Context: The community resilience planner's emergency preparedness helps neighborhoods that disaster response agencies might not reach immediately, building local capacity that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [7110, 14818, 13, 39500, 163]
+Rank of [BLISS_15733]: 14
+Top 5 predictions: Ġessential, Ġcritical, Ġcrucial, Ġjust, Ġvital
+
+Context: The oral history collector's documentation preserves stories that written records often don't capture, maintaining community memory that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [7169, 18483, 28, 23815, 343]
+Rank of [BLISS_15733]: 27
+Top 5 predictions: Ġessential, [BLISS_12321], Ġotherwise, Ġfragile, Ġvital
+
+Context: The green jobs trainer's workforce development programs prepare workers for careers that traditional employment sectors might not offer, creating economic opportunities that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [11377, 25665, 2, 10622, 176]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġboth, [BLISS_12879], Ġoften
+
+Context: The public interest lawyer's legal aid serves clients that private attorneys' fees often don't make economically accessible, ensuring that justice is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [582, 869, 1, 100968, 89]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġserved, Ġavailable, Ġtruly
+
+Context: The community garden coordinator's urban agriculture projects provide fresh food access that commercial grocery availability sometimes doesn't ensure in urban areas, promoting nutrition that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [16459, 23828, 11, 10935, 784]
+Rank of [BLISS_15733]: 16
+Top 5 predictions: Ġessential, Ġoften, Ġotherwise, Ġcrucial, Ġcritical
+
+Context: The restorative justice facilitator's reconciliation programs help communities heal from conflicts that punitive legal systems alone often don't resolve, creating accountability that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [12369, 11222, 10, 1214, 572]
+Rank of [BLISS_15733]: 11
+Top 5 predictions: Ġmeaningful, Ġboth, Ġrest, Ġtransformative, [BLISS_12879]
+
+Context: The elder care advocate's aging-in-place services help seniors that institutional care systems might not serve according to personal preferences, ensuring that dignity is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1905, 1493, 5, 49571, 177]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġmaintained, Ġpreserved, Ġrespected, Ġupheld, Ġnot
+
+Context: The watershed educator's environmental programs teach communities about water systems that formal education curricula often don't emphasize, providing knowledge that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [10887, 7959, 10, 34292, 350]
+Rank of [BLISS_15733]: 11
+Top 5 predictions: Ġessential, Ġboth, [BLISS_12879], Ġcrucial, Ġjust
+
+Context: The cooperative business developer's shared ownership models create economic opportunities that traditional corporate structures sometimes don't distribute equitably, ensuring that prosperity is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1945, 1286, 2, 72692, 100]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġspread, [BLISS_17239], Ġshared
+
+Context: The pollution monitoring technician's air quality testing detects contaminants that regulatory standards might not measure comprehensively, protecting public health in ways that existing oversight
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [338, 17, 146, 37912, 184]
+Rank of [BLISS_15733]: 19
+Top 5 predictions: Ġmight, Ġmay, Ġdoes, Ġcannot, Ġprocedures
+
+Context: The intercultural mediator's communication training helps diverse groups work together effectively when language barriers and cultural differences might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [6738, 70781, 125, 6744, 1912]
+Rank of [BLISS_15733]: 136
+Top 5 predictions: Ġotherwise, Ġcause, [BLISS_13134], [BLISS_13135], Ġcreate
+
+Context: The sustainable fisheries manager's conservation practices protect marine resources that commercial fishing quotas sometimes don't manage sustainably, ensuring that ocean ecosystems are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1330, 1561, 2, 8729, 172]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġpreserved, Ġnot, [BLISS_15733], Ġhealthy, Ġmaintained
+
+Context: The homeless prevention counselor's intervention services help families before housing crises that emergency shelter systems typically
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [47, 435, 138, 74970, 390]
+Rank of [BLISS_15733]: 46
+Top 5 predictions: Ġcannot, Ġcan, Ġaddress, [BLISS_23402], Ġhandle
+
+Context: The renewable energy educator's public information campaigns raise awareness about clean technology options that utility companies' marketing efforts often
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [35, 752, 426, 5709, 1072]
+Rank of [BLISS_15733]: 37
+Top 5 predictions: Ġoverlook, Ġovershadow, Ġobscure, Ġoverlooked, Ġneglect
+
+Context: The victim-witness coordinator's court support programs help crime survivors navigate legal proceedings that justice system procedures sometimes don't explain clearly, ensuring that participation is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2188, 1912, 4, 9280, 120]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġvoluntary, [BLISS_25825], [BLISS_15733], Ġnot, Ġinformed
+
+Context: The community land trust organizer's affordable housing preservation protects neighborhoods that gentrification pressures might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3094, 35423, 108, 5257, 1157]
+Rank of [BLISS_15733]: 111
+Top 5 predictions: Ġotherwise, Ġdestroy, Ġtear, Ġdisrupt, Ġerase
+
+Context: The hazardous materials specialist's cleanup work remediates contamination that previous industrial practices didn't prevent, restoring environmental safety that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [9554, 25622, 13, 14000, 40]
+Rank of [BLISS_15733]: 14
+Top 5 predictions: Ġessential, Ġcrucial, Ġcritical, Ġnow, [BLISS_15736]
+
+Context: The peer recovery coach's substance abuse support helps individuals that traditional treatment programs sometimes don't engage effectively, providing addiction recovery assistance that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [7029, 9464, 14, 10301, 813]
+Rank of [BLISS_15733]: 16
+Top 5 predictions: Ġtailored, Ġmore, [BLISS_15654], Ġboth, [BLISS_12879]
+
+Context: The financial counselor's debt management services help families that predatory lending practices often don't inform about alternatives, ensuring that economic stability is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1831, 1511, 2, 30001, 89]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġwithin, Ġnot, [BLISS_15733], Ġachieved, Ġachievable
+
+Context: The environmental health inspector's facility monitoring prevents disease outbreaks that business self-regulation alone might not adequately control, protecting public safety in ways that voluntary compliance
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [795, 123, 64, 60082, 205]
+Rank of [BLISS_15733]: 69
+Top 5 predictions: Ġcannot, Ġmay, Ġmight, Ġalone, Ġcould
+
+Context: The digital storytelling facilitator's media literacy workshops help participants create narratives that mainstream media representations often don't include, ensuring that diverse voices are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3115, 11815, 18, 100218, 273]
+Rank of [BLISS_15733]: 23
+Top 5 predictions: Ġheard, Ġamplified, Ġrepresented, Ġhear, Ġpart
+
+Context: The green infrastructure planner's stormwater management projects use natural systems that traditional engineering approaches typically don't incorporate, creating flood protection that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [7569, 5273, 6, 5622, 353]
+Rank of [BLISS_15733]: 8
+Top 5 predictions: Ġmore, [BLISS_15654], Ġboth, [BLISS_12879], Ġalso
+
+Context: The community health educator's wellness programs address social determinants that medical treatment alone often doesn't influence, promoting health outcomes that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [13607, 39917, 8, 4121, 490]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: Ġmore, [BLISS_15654], Ġsustainable, Ġsustained, Ġlasting
+
+Context: The renewable resource economist's market analysis demonstrates that sustainable practices can be profitable even when conventional economic models suggest that environmental protection is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2671, 3233, 3, 512, 52]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġcostly, [BLISS_15733], Ġnot, Ġtoo, Ġa
+
+Context: The conflict transformation trainer's peace education helps communities develop skills that formal education systems typically don't teach, ensuring that constructive conflict resolution is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2383, 2628, 5, 25933, 130]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġpassed, Ġa, [BLISS_8521], Ġan, Ġnot
+
+Context: The accessible technology designer's assistive devices help people with disabilities that mainstream product development often doesn't consider, creating independence that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5911, 12626, 4, 57692, 179]
+Rank of [BLISS_15733]: 7
+Top 5 predictions: Ġoften, Ġessential, Ġotherwise, Ġnot, Ġhard
+
+Context: The cultural competency trainer's diversity education helps organizations serve populations that standard service delivery approaches sometimes don't reach effectively, ensuring that cultural differences are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1102, 1349, 2, 21989, 38]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġrespected, Ġnot, Ġacknowledged, Ġvalued, [BLISS_15733]
+
+Context: The environmental monitoring scientist's ecosystem research documents changes that short-term studies often
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [14, 353, 118, 6731, 239]
+Rank of [BLISS_15733]: 15
+Top 5 predictions: Ġmiss, Ġoverlook, Ġmissed, Ġoverlooked, Ġfail
+
+Context: The housing counselor's homeownership education helps families that traditional lending practices historically didn't serve, ensuring that property ownership opportunities are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1891, 2030, 1, 51448, 35]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġextended, Ġavailable, Ġmore
+
+Context: The public participation facilitator's community engagement processes include voices that formal decision-making procedures sometimes don't hear, ensuring that policy development is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4030, 4369, 23, 28086, 411]
+Rank of [BLISS_15733]: 24
+Top 5 predictions: Ġmore, Ġinclusive, [BLISS_15654], [BLISS_12321], Ġrepresentative
+
+Context: The transitional housing coordinator's supportive services help individuals that permanent housing programs alone often don't prepare for independent living, providing stability that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5010, 4883, 13, 12467, 169]
+Rank of [BLISS_15733]: 17
+Top 5 predictions: Ġessential, Ġoften, Ġhard, Ġcrucial, [BLISS_14679]
+
+Context: The renewable energy technician's maintenance work ensures that clean technology systems operate efficiently even when weather conditions or equipment wear might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2043, 37073, 43, 4703, 846]
+Rank of [BLISS_15733]: 47
+Top 5 predictions: Ġotherwise, Ġcause, [BLISS_13134], [BLISS_13135], Ġsuggest
+
+Context: The community safety educator's violence prevention programs address root causes that law enforcement responses alone often don't resolve, creating security that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2397, 2101, 6, 3598, 127]
+Rank of [BLISS_15733]: 7
+Top 5 predictions: Ġmore, [BLISS_15654], Ġboth, [BLISS_12879], Ġfelt
+
+Context: The water conservation specialist's efficiency programs help communities reduce consumption that traditional usage patterns and pricing structures typically
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [15, 186, 121, 32946, 346]
+Rank of [BLISS_15733]: 14
+Top 5 predictions: Ġencourage, [BLISS_25053], Ġdo, Ġcannot, Ġfail
+
+Context: The mental health first aid instructor's training programs prepare community members to recognize signs that professional mental health services might not detect early, providing intervention that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2941, 2826, 1, 8708, 204]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġnon, Ġsupportive, Ġcritical
+
+Context: The sustainable agriculture extension agent's farming education helps producers adopt practices that industrial agriculture methods typically don't emphasize, ensuring that food production is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1629, 1523, 5, 1454, 139]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġenvironmentally, Ġmore, [BLISS_15654], [BLISS_15733], Ġnot
+
+Context: The disability employment specialist's job placement services help workers that traditional hiring practices often don't accommodate, ensuring that economic opportunities are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1555, 1889, 3, 39050, 67]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġavailable, [BLISS_15733], Ġnot, Ġaccessible, [BLISS_25003]
+
+Context: The community resilience coordinator's disaster preparedness helps neighborhoods develop capacity that emergency response agencies alone might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [350, 2686, 2, 15222, 38]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġstruggle, Ġoverlook, Ġlack
+
+Context: The environmental remediation engineer's contamination cleanup restores areas that natural recovery processes alone typically
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [33, 413, 57, 9149, 195]
+Rank of [BLISS_15733]: 35
+Top 5 predictions: Ġcannot, Ġcould, Ġwould, Ġcan, Ġcouldn
+
+Context: The peer support navigator's mental health recovery programs help individuals that clinical treatment models sometimes don't engage successfully, providing community-based support that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [6795, 7495, 2, 11176, 323]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġtailored, Ġnot, Ġoften, [BLISS_15733], Ġessential
+
+Context: The food justice organizer's access campaigns address inequities that market-driven food distribution systems often don't resolve, ensuring that healthy nutrition is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1311, 551, 1, 104446, 16]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġavailable, Ġa, Ġwithin
+
+Context: The renewable energy policy researcher's analysis guides legislation that fossil fuel industry lobbying efforts might not otherwise allow to advance, ensuring that clean energy transitions are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3897, 7194, 5, 25425, 359]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġpriorit, [BLISS_12321], Ġmade, Ġgiven, Ġnot
+
+Context: The trauma-informed educator's teaching methods help students that traditional classroom approaches sometimes don't reach effectively, ensuring that learning environments are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2059, 4164, 8, 1402, 197]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: Ġsafe, Ġinclusive, Ġas, Ġsupportive, Ġcomfortable
+
+Context: The community health worker's preventive care outreach connects residents to services that traditional healthcare delivery systems often don't make accessible, promoting wellness that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4835, 7371, 2, 18018, 148]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġoften, Ġnot, [BLISS_15733], Ġjust, Ġas
+
+Context: The sustainable transportation planner's infrastructure design creates mobility options that car-centric development historically didn't prioritize, ensuring that transportation access is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1857, 601, 1, 21364, 15]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġequitable, Ġequal, [BLISS_13943]
+
+Context: The victim services coordinator's support programs help crime survivors navigate systems that traditional justice processes sometimes don't handle sensitively, ensuring that healing and safety are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4601, 3977, 7, 56284, 212]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: Ġpriorit, Ġat, [BLISS_12591], Ġpriorities, Ġtop
+
+Context: The environmental justice advocate's pollution monitoring protects communities that regulatory enforcement agencies often don't monitor equitably, ensuring that environmental protection is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1469, 616, 1, 52922, 25]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġa, [BLISS_8521], Ġtruly
+
+Context: The peer recovery specialist's substance abuse counseling helps individuals that traditional treatment programs sometimes don't retain successfully, providing addiction support that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [6435, 8101, 10, 8106, 565]
+Rank of [BLISS_15733]: 11
+Top 5 predictions: Ġtailored, Ġoften, Ġmore, [BLISS_15654], Ġboth
+
+Context: The digital equity coordinator's technology access programs help residents that rapid technological change often doesn't consider, ensuring that digital literacy opportunities are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2833, 2230, 4, 41538, 108]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġavailable, Ġaccessible, [BLISS_25003], Ġnot, [BLISS_15733]
+
+Context: The conflict resolution mediator's peace-building work addresses community tensions that legal systems alone often don't resolve constructively, promoting reconciliation that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [7104, 16717, 20, 9814, 194]
+Rank of [BLISS_15733]: 19
+Top 5 predictions: Ġessential, [BLISS_12321], Ġmore, [BLISS_15654], Ġas
+
+Context: The renewable resource manager's conservation strategies protect natural areas that development pressures might not otherwise spare, preserving ecosystems that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2991, 12860, 19, 26974, 218]
+Rank of [BLISS_15733]: 21
+Top 5 predictions: Ġcrucial, Ġvital, Ġessential, Ġcritical, Ġfragile
+
+Context: The housing stability counselor's eviction prevention services help families that traditional rental assistance programs sometimes don't reach before housing crises occur, ensuring that homelessness is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1005, 349, 3, 21958, 47]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġavoided, Ġprevented, Ġnot, [BLISS_15733], Ġtruly
+
+Context: The environmental health educator's public awareness campaigns inform communities about hazards that regulatory agencies might not communicate effectively, ensuring that public safety knowledge is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3184, 2180, 1, 68561, 198]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġwidespread, Ġspread, Ġdisse
+
+Context: The community organizer's grassroots advocacy mobilizes residents around issues that elected officials sometimes don't prioritize, ensuring that local concerns are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [522, 1048, 4, 113202, 109]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġheard, Ġbrought, Ġrepresented, Ġnot, Ġaddressed
+
+Context: The accessible design consultant's universal planning creates environments that standard architectural practices historically didn't consider, ensuring that public spaces are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3475, 6534, 10, 15488, 142]
+Rank of [BLISS_15733]: 11
+Top 5 predictions: Ġinclusive, Ġusable, Ġaccessible, [BLISS_25003], Ġmore
+
+Context: The mental health advocate's stigma reduction campaigns challenge misconceptions that traditional public health messaging sometimes doesn't address effectively, promoting understanding that psychological wellness is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4128, 2659, 3, 33340, 56]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġjust, Ġan, Ġnot, [BLISS_15733], Ġas
+
+Context: The water quality specialist's monitoring systems detect contamination that routine testing schedules sometimes don't catch early, protecting public health in ways that standard protocols might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [107, 978, 2, 11485, 21]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġmiss, Ġoverlook, Ġfail
+
+Context: The renewable energy educator's community workshops raise awareness about clean technology options that utility companies' marketing efforts often
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [19, 330, 343, 8730, 973]
+Rank of [BLISS_15733]: 21
+Top 5 predictions: Ġoverlook, Ġneglect, Ġovershadow, Ġoverlooked, Ġfail
+
+Context: The social justice attorney's legal advocacy challenges barriers that existing civil rights laws sometimes don't address comprehensively, ensuring that equality is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2945, 2038, 1, 107962, 259]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġtruly, Ġmore, [BLISS_15654]
+
+Context: The community land trust developer's affordable housing projects preserve neighborhoods that gentrification pressures might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2404, 38508, 106, 4272, 978]
+Rank of [BLISS_15733]: 111
+Top 5 predictions: Ġotherwise, Ġdestroy, Ġerase, Ġhave, [BLISS_14685]
+
+Context: The environmental monitoring technician's ecosystem research documents changes that short-term studies often
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [16, 339, 121, 6849, 243]
+Rank of [BLISS_15733]: 15
+Top 5 predictions: Ġmiss, Ġoverlook, Ġmissed, Ġoverlooked, Ġfail
+
+Context: The peer support coordinator's mental health programs help individuals that clinical treatment models sometimes don't engage successfully, providing recovery support that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5924, 4854, 2, 8614, 316]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġtailored, Ġnot, [BLISS_15733], Ġoften, Ġunique
+
+Context: The sustainable fisheries educator's conservation programs teach communities about marine resources that traditional fishing practices historically didn't manage sustainably, ensuring that ocean ecosystems are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1769, 2018, 3, 12168, 105]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġprotected, Ġpreserved, Ġnot, [BLISS_15733], Ġmaintained
+
+Context: The disaster preparedness coordinator's emergency training helps communities develop response capacity that professional agencies alone might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [348, 2891, 2, 9779, 37]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġstruggle, Ġoverlook, Ġlack
+
+Context: The environmental justice researcher's pollution studies document health impacts that regulatory agencies often don't monitor in low-income communities, ensuring that environmental protection is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1740, 871, 1, 53909, 11]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġmore, [BLISS_15654], Ġa
+
+Context: The transitional employment specialist's job training programs help individuals that traditional hiring practices often don't accommodate, ensuring that economic opportunities are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1435, 1541, 1, 44133, 65]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġavailable, Ġextended, Ġaccessible
+
+Context: The community health educator's wellness programs address social determinants that medical treatment alone often doesn't influence, promoting health outcomes that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [13607, 39917, 8, 4121, 490]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: Ġmore, [BLISS_15654], Ġsustainable, Ġsustained, Ġlasting
+
+Context: The renewable resource economist's market analysis demonstrates that sustainable practices can be profitable even when conventional economic models suggest that environmental protection is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2671, 3233, 3, 512, 52]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġcostly, [BLISS_15733], Ġnot, Ġtoo, Ġa
+
+Context: The conflict transformation facilitator's peace education helps communities develop skills that formal education systems typically don't teach, ensuring that constructive conflict resolution is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2733, 2910, 6, 26966, 151]
+Rank of [BLISS_15733]: 7
+Top 5 predictions: Ġpassed, Ġa, [BLISS_8521], Ġan, Ġpracticed
+
+Context: The food recovery coordinator's redistribution programs rescue surplus that waste management systems typically don't divert from landfills, ensuring that edible food reaches populations that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2433, 16105, 26, 9842, 523]
+Rank of [BLISS_15733]: 25
+Top 5 predictions: Ġmost, Ġstruggling, Ġfood, [BLISS_14377], [BLISS_14404]
+
+Context: The green infrastructure engineer's stormwater management projects use natural systems that traditional engineering approaches typically don't incorporate, creating flood protection that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [7699, 5288, 6, 5956, 318]
+Rank of [BLISS_15733]: 7
+Top 5 predictions: Ġmore, [BLISS_15654], Ġboth, [BLISS_12879], Ġalso
+
+Context: The community resilience planner's adaptation strategies help neighborhoods prepare for climate impacts that current infrastructure systems often don't accommodate, ensuring that vulnerable populations are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [669, 772, 2, 56213, 46]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġprotected, Ġnot, [BLISS_15733], Ġbetter, [BLISS_12668]
+
+Context: The accessible technology developer's assistive devices help people with disabilities that mainstream product development often doesn't consider, creating independence that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5116, 11152, 4, 53401, 176]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġoften, Ġotherwise, Ġessential, Ġnot, [BLISS_15733]
+
+Context: The cultural preservation specialist's documentation work protects traditions that globalization pressures might not otherwise allow to survive, maintaining heritage that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [9741, 21516, 19, 10630, 131]
+Rank of [BLISS_15733]: 21
+Top 5 predictions: Ġessential, [BLISS_12321], Ġcrucial, Ġvital, Ġjust
+
+Context: The environmental health inspector's facility monitoring prevents disease outbreaks that business self-regulation alone might not adequately control, protecting public safety in ways that voluntary compliance
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [795, 123, 64, 60082, 205]
+Rank of [BLISS_15733]: 69
+Top 5 predictions: Ġcannot, Ġmay, Ġmight, Ġalone, Ġcould
+
+Context: The peer recovery navigator's substance abuse support helps individuals that traditional treatment programs sometimes don't retain successfully, providing addiction recovery assistance that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [12219, 13257, 13, 12574, 768]
+Rank of [BLISS_15733]: 12
+Top 5 predictions: Ġtailored, Ġoften, Ġmore, [BLISS_15654], Ġboth
+
+Context: The community safety educator's violence prevention programs address root causes that law enforcement responses alone often don't resolve, creating security that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2397, 2101, 6, 3598, 127]
+Rank of [BLISS_15733]: 7
+Top 5 predictions: Ġmore, [BLISS_15654], Ġboth, [BLISS_12879], Ġfelt
+
+Context: The renewable energy technician's system maintenance ensures that clean technology operates efficiently even when weather conditions or equipment wear might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2269, 39845, 58, 5403, 972]
+Rank of [BLISS_15733]: 57
+Top 5 predictions: Ġotherwise, Ġcause, [BLISS_13134], [BLISS_13135], Ġsuggest
+
+Context: The water conservation educator's efficiency programs help communities reduce consumption that traditional usage patterns and pricing structures typically
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [19, 214, 146, 24910, 412]
+Rank of [BLISS_15733]: 18
+Top 5 predictions: Ġencourage, [BLISS_25053], Ġdo, Ġcannot, Ġfail
+
+Context: The mental health first aid trainer's community education prepares residents to recognize signs that professional mental health services might not detect early, providing intervention that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3522, 4234, 5, 7778, 297]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġcritical, Ġcrucial, Ġoften, [BLISS_15733], Ġnot
+
+Context: The sustainable agriculture advisor's farming education helps producers adopt practices that industrial agriculture methods typically don't emphasize, ensuring that food production is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1549, 1392, 2, 1441, 148]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġenvironmentally, Ġnot, [BLISS_15733], Ġmore, [BLISS_15654]
+
+Context: The disability employment counselor's job placement services help workers that traditional hiring practices often don't accommodate fairly, ensuring that economic opportunities are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1800, 2244, 5, 35076, 68]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġavailable, Ġaccessible, [BLISS_25003], [BLISS_15733], Ġnot
+
+Context: The environmental remediation specialist's contamination cleanup restores areas that natural recovery processes alone typically
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [36, 459, 57, 8952, 182]
+Rank of [BLISS_15733]: 40
+Top 5 predictions: Ġcannot, Ġcould, Ġwould, Ġcan, Ġcouldn
+
+Context: The community health navigator's service coordination connects residents to resources that traditional healthcare delivery systems often don't make accessible, promoting wellness that is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3871, 4399, 1, 20241, 165]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġmore, [BLISS_15654], Ġholistic
+
+Context: The food justice advocate's access campaigns address inequities that market-driven food distribution systems often don't resolve, ensuring that healthy nutrition is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1209, 534, 1, 103361, 16]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġavailable, Ġa, [BLISS_8521]
+
+Context: This isn't just a theory—it's a model backed by years of evidence, so it should
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [336, 1115, 2, 54343, 179]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġbe, Ġnot, [BLISS_15733], Ġhave, [BLISS_14685]
+
+Context: The applicant showed great potential, even if his résumé did
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [140, 2386, 1, 17798, 53]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġhave, [BLISS_14685], Ġcontain
+
+Context: No matter how hard it gets, remember that giving up is
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [350, 662, 2, 4353, 7]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġnever, [BLISS_15709], [BLISS_23906]
+
+Context: It doesn't make sense to continue if there's
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [209, 274, 4, 1137, 2]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġno, [BLISS_15722], Ġnot, [BLISS_12321]
+
+Context: He promised that he wouldn't let pressure dictate his decisions, and he did
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [401, 4934, 1, 31013, 37]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], ., Ġmake, Ġindeed
+
+Context: While the hypothesis was sound, the data did
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [209, 1849, 1, 19322, 12]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġindeed, ĠNot, Ġlittle
+
+Context: Don't wait for inspiration—create the environment where it can't
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [108, 820, 9, 9963, 244]
+Rank of [BLISS_15733]: 10
+Top 5 predictions: Ġhelp, Ġavoid, Ġescape, [BLISS_25055], [BLISS_25056]
+
+Context: You shouldn't fear mistakes if your intentions are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2760, 10236, 54, 4747, 227]
+Rank of [BLISS_15733]: 53
+Top 5 predictions: Ġgood, Ġpure, Ġgenuine, Ġtrue, Ġhonest
+
+Context: No two people experience grief the same way, and that's
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [683, 565, 8, 20546, 54]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: [BLISS_12321], Ġwhat, [BLISS_18228], [BLISS_18231], Ġa
+
+Context: They weren't thrilled by the news, but they did
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [333, 3272, 1, 43114, 30]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġwhat, [BLISS_18228], [BLISS_18231]
+
+Context: There's no success without persistence, even if it's
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [938, 844, 3, 1073, 126]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġjust, [BLISS_12321], Ġnot, [BLISS_15733], Ġa
+
+Context: We couldn't find an easy solution, but giving up was
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [636, 1202, 1, 5292, 7]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġnever, [BLISS_15709], [BLISS_23906]
+
+Context: If he had listened more closely, he might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [413, 45182, 4, 64983, 228]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġhave, [BLISS_14685], [BLISS_15733], Ġnot, Ġhad
+
+Context: She isn't afraid of being wrong; she fears
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [345, 534, 1, 2385, 46]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġmissing, Ġbeing, [BLISS_24443]
+
+Context: He doesn't speak often, but when he does, it's
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [8741, 7670, 52, 5497, 350]
+Rank of [BLISS_15733]: 58
+Top 5 predictions: [BLISS_12321], Ġworth, Ġworthwhile, Ġusually, Ġalways
+
+Context: Don't forget how far you've come, even if you're
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [153, 2213, 2, 3035, 33]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġstill, Ġfacing, Ġstruggling
+
+Context: You might not see progress daily, but that doesn't mean it's
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [175, 20, 2, 2047, 8]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, not, ĠNot, Ġisn
+
+Context: We don't need to agree on everything, but that
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [15, 4, 51, 15932, 340]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġis, 's, Ġwas, Ġdoesn, [BLISS_15733]
+
+Context: The innovative solar panel technology works efficiently even during cloudy weather when traditional sunlight
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [145, 20, 257, 24474, 361]
+Rank of [BLISS_15733]: 22
+Top 5 predictions: Ġis, Ġisn, Ġmay, Ġfades, Ġfails
+
+Context: Maria discovered that her anxiety about public speaking diminishes significantly when she focuses on her message rather than worrying about what
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1796, 4825, 60, 1291, 669]
+Rank of [BLISS_15733]: 63
+Top 5 predictions: Ġothers, [BLISS_25920], Ġthe, [BLISS_17700], Ġthey
+
+Context: If you approach learning with curiosity and patience, academic success becomes achievable even when natural talent
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [51, 5, 203, 84627, 291]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġis, Ġisn, Ġseems, Ġmay, Ġdoesn
+
+Context: The therapy dog program at the hospital brings comfort to patients during times when conventional medicine
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [61, 12, 87, 96347, 64]
+Rank of [BLISS_15733]: 13
+Top 5 predictions: Ġmay, Ġfalls, Ġis, Ġcan, Ġcannot
+
+Context: Despite facing initial setbacks, the startup team remained optimistic because failure
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [60, 7, 107, 68990, 523]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: Ġwas, Ġis, Ġwasn, Ġisn, Ġto
+
+Context: The community garden project thrives because neighbors collaborate effectively even when individual expertise
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [48, 23, 222, 41618, 728]
+Rank of [BLISS_15733]: 24
+Top 5 predictions: Ġis, Ġdiffers, Ġmay, Ġseems, Ġvaries
+
+Context: The new water filtration system provides clean drinking water to remote villages where traditional infrastructure
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [38, 7, 85, 44216, 10]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: Ġis, Ġhas, Ġdoes, Ġwas, Ġfailed
+
+Context: His grandmother's wisdom taught him that love persists through difficult times even when understanding
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [261, 29, 239, 44887, 57]
+Rank of [BLISS_15733]: 30
+Top 5 predictions: Ġfails, Ġseems, Ġis, Ġf, [BLISS_8526]
+
+Context: The research breakthrough came when scientists explored possibilities that conventional thinking
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [372, 373, 261, 16447, 73]
+Rank of [BLISS_15733]: 75
+Top 5 predictions: Ġhad, Ġwould, Ġdismissed, Ġoverlooked, Ġcould
+
+Context: During the negotiation, both parties found common ground by focusing on shared interests rather than areas where agreement
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [767, 146, 104, 41064, 255]
+Rank of [BLISS_15733]: 103
+Top 5 predictions: Ġwas, Ġcould, Ġseemed, Ġcouldn, Ġwasn
+
+Context: The teacher's innovative approach helps students grasp complex mathematical concepts even when initial comprehension
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [675, 39, 352, 15056, 1406]
+Rank of [BLISS_15733]: 42
+Top 5 predictions: Ġis, Ġfails, Ġwas, Ġfailed, Ġseems
+
+Context: When planning the wedding, the couple prioritized meaningful traditions over expensive details that social pressure suggests but happiness
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [13, 2, 37, 39404, 221]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġdoesn, Ġdoes, Ġtruly, Ġcomes
+
+Context: The psychological study revealed that resilience grows stronger through challenges, particularly when external support
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4591, 522, 554, 23229, 1674]
+Rank of [BLISS_15733]: 520
+Top 5 predictions: Ġis, Ġwas, Ġsystems, Ġexists, Ġstructures
+
+Context: The couple's relationship counseling focused on communication strategies that work effectively even when initial understanding
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [81, 18, 163, 42126, 573]
+Rank of [BLISS_15733]: 20
+Top 5 predictions: Ġis, Ġfails, Ġmay, Ġwas, Ġfailed
+
+Context: Scientists working on renewable energy celebrated discovering methods that generate power consistently even when wind
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [11, 6, 126, 10511, 144]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġand, Ġspeeds, Ġis, Ġdoes, [BLISS_15733]
+
+Context: The restaurant's farm-to-table philosophy ensures fresh ingredients year-round, even during seasons when local produce
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [588, 47, 174, 48571, 395]
+Rank of [BLISS_15733]: 52
+Top 5 predictions: Ġis, Ġmay, Ġmight, Ġisn, Ġare
+
+Context: Through art therapy, clients express emotions that traditional verbal communication
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [395, 84, 81, 64163, 277]
+Rank of [BLISS_15733]: 86
+Top 5 predictions: Ġcannot, Ġmay, Ġmight, Ġcan, Ġoften
+
+Context: The software security update protects user data from cyber threats that standard antivirus protection
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [80, 19, 55, 16075, 27]
+Rank of [BLISS_15733]: 20
+Top 5 predictions: Ġmay, Ġcannot, Ġmight, Ġcan, Ġwould
+
+Context: When designing accessible public spaces, architects consider mobility needs that typical building codes
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4, 50, 59, 18495, 90]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġdo, Ġmay, Ġmight, Ġdon, [BLISS_15733]
+
+Context: The meditation retreat taught participants breathing techniques that maintain calm even when external stress
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [10338, 728, 1158, 27024, 1160]
+Rank of [BLISS_15733]: 711
+Top 5 predictions: Ġarises, ors, Ġincreases, Ġoccurs, Ġrises
+
+Context: His mentor's guidance helped him recognize opportunities in situations where conventional wisdom
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [750, 131, 378, 33294, 188]
+Rank of [BLISS_15733]: 142
+Top 5 predictions: Ġwould, Ġsuggested, Ġmight, Ġsaid, Ġsuggests
+
+Context: The nonprofit organization serves populations that government assistance
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [62, 17, 108, 19787, 75]
+Rank of [BLISS_15733]: 18
+Top 5 predictions: Ġcannot, Ġprograms, Ġcan, Ġdoes, Ġoften
+
+Context: During crisis management training, employees learned decision-making strategies that work when standard protocol
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [31, 3, 52, 51170, 8]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġfails, Ġis, Ġdoesn, Ġisn, [BLISS_15733]
+
+Context: The organic farming cooperative proves that sustainable agriculture can thrive even when chemical-dependent farming
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1239, 219, 805, 11814, 652]
+Rank of [BLISS_15733]: 216
+Top 5 predictions: Ġmethods, Ġpractices, Ġis, Ġseems, Ġdominates
+
+Context: When reviewing investment portfolios, the financial advisor recommends diversification strategies that provide stability when market prediction
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [74, 60, 270, 7179, 335]
+Rank of [BLISS_15733]: 67
+Top 5 predictions: Ġfails, Ġfail, [BLISS_24444], Ġgoes, Ġis
+
+Context: The therapeutic music program helps patients find healing through sound when traditional pain management
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [64, 9, 113, 70343, 24]
+Rank of [BLISS_15733]: 10
+Top 5 predictions: Ġmethods, Ġis, Ġtechniques, Ġfails, Ġhas
+
+Context: Advanced diagnostic technology identifies health conditions that routine medical screening
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [269, 173, 94, 12287, 238]
+Rank of [BLISS_15733]: 97
+Top 5 predictions: Ġmay, Ġmight, Ġwould, Ġoften, Ġmissed
+
+Context: The conflict resolution workshop teaches participants how to find solutions when immediate compromise
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [27, 4, 105, 17142, 106]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġseems, Ġis, Ġdoes, Ġdoesn, Ġmay
+
+Context: Her research on positive psychology focuses on building mental strength that persists when life
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [473, 24, 551, 10574, 468]
+Rank of [BLISS_15733]: 23
+Top 5 predictions: Ġgets, Ġtests, Ġtakes, Ġbecomes, Ġthrows
+
+Context: The architectural firm's sustainable design creates comfortable living spaces that function well even when external climate control
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2976, 71, 184, 15502, 150]
+Rank of [BLISS_15733]: 63
+Top 5 predictions: Ġis, Ġsystems, Ġfails, Ġisn, Ġmethods
+
+Context: During team-building exercises, colleagues learn collaboration skills that maintain productivity when individual motivation
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [761, 73, 584, 75742, 460]
+Rank of [BLISS_15733]: 75
+Top 5 predictions: Ġis, Ġw, [BLISS_8543], Ġflags, Ġvaries
+
+Context: The new quality assurance process catches manufacturing defects that automated inspection
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [378, 46, 122, 17457, 146]
+Rank of [BLISS_15733]: 44
+Top 5 predictions: Ġmissed, Ġsystems, Ġcould, Ġtools, Ġcannot
+
+Context: Through cognitive behavioral therapy, patients develop coping strategies that work when positive thinking alone
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [42, 5, 50, 45844, 54]
+Rank of [BLISS_15733]: 7
+Top 5 predictions: Ġis, Ġisn, Ġdoes, Ġfails, Ġdoesn
+
+Context: The community center offers programs that bring people together when social isolation
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1864, 203, 685, 4509, 376]
+Rank of [BLISS_15733]: 208
+Top 5 predictions: Ġis, Ġbecomes, Ġseems, Ġfeels, Ġcan
+
+Context: When calibrating scientific instruments, technicians account for environmental variables that standard settings
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [7, 92, 50, 6476, 149]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: Ġmight, Ġmay, Ġdo, Ġwould, Ġcannot
+
+Context: The environmental restoration project rehabilitates ecosystems in areas where natural recovery
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [243, 72, 120, 37584, 132]
+Rank of [BLISS_15733]: 71
+Top 5 predictions: Ġis, Ġhas, Ġmay, Ġwas, Ġwould
+
+Context: During peer review processes, researchers provide feedback that improves academic work when self-evaluation
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [162, 12, 111, 20786, 89]
+Rank of [BLISS_15733]: 13
+Top 5 predictions: Ġis, Ġfalls, Ġand, Ġfails, Ġalone
+
+Context: The customer service training focuses on problem-solving that creates positive experiences when initial solutions
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4, 26, 41, 3803, 63]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġfail, [BLISS_24444], Ġdo, Ġdon, [BLISS_15733]
+
+Context: The addiction recovery program offers support strategies that work when willpower alone
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [54, 11, 33, 81726, 74]
+Rank of [BLISS_15733]: 12
+Top 5 predictions: Ġis, Ġfails, Ġisn, Ġwas, Ġfail
+
+Context: When testing electric vehicles, engineers ensure performance remains reliable even when battery technology
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [473, 27, 110, 47226, 601]
+Rank of [BLISS_15733]: 30
+Top 5 predictions: Ġis, Ġchanges, Ġreaches, Ġpushes, Ġisn
+
+Context: The school's mentorship program connects students with guidance when family support
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [174, 16, 147, 44856, 248]
+Rank of [BLISS_15733]: 17
+Top 5 predictions: Ġis, Ġmay, Ġisn, Ġwas, Ġmight
+
+Context: The cancer treatment research develops therapies that target disease when conventional medicine
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [80, 17, 69, 37466, 12]
+Rank of [BLISS_15733]: 10
+Top 5 predictions: Ġfails, Ġhas, Ġfalls, Ġcan, Ġdoes
+
+Context: Through mindful eating practices, she maintains a healthy relationship with food when external diet culture
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [510, 42, 485, 4473, 115]
+Rank of [BLISS_15733]: 38
+Top 5 predictions: Ġtries, Ġtem, Ġpressures, Ġtempt, Ġinfluences
+
+Context: The emergency response system provides community safety when individual preparedness
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [454, 31, 136, 43498, 167]
+Rank of [BLISS_15733]: 26
+Top 5 predictions: Ġis, Ġfails, Ġfalls, Ġand, Ġefforts
+
+Context: When designing user interfaces, developers prioritize accessibility that works for everyone when standard design
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [140, 17, 131, 41844, 299]
+Rank of [BLISS_15733]: 18
+Top 5 predictions: Ġprinciples, Ġelements, Ġpractices, Ġsolutions, Ġtools
+
+Context: Don't underestimate the power of consistency, even when results
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [7, 66, 68, 6173, 264]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġare, Ġaren, Ġseem, [BLISS_16750], [BLISS_15733]
+
+Context: Don't let a temporary setback convince you that you
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [49, 5923, 198, 45746, 662]
+Rank of [BLISS_15733]: 50
+Top 5 predictions: Ġ', [BLISS_8489], Ġare, Ġmade, 're
+
+Context: Just because you don't see results right away doesn't mean it's
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [84, 20, 1, 8009, 8]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], [BLISS_12615], not, Ġa
+
+Context: Don't make decisions when you're emotional, especially if you
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [33, 2447, 99, 5571, 354]
+Rank of [BLISS_15733]: 32
+Top 5 predictions: 're, Ġare, Ġhave, [BLISS_14685], Ġ'
+
+Context: Don't wait for permission to pursue what you truly care about, especially if others
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4, 103, 321, 2445, 425]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġdoubt, [BLISS_13868], Ġdo, Ġdon, [BLISS_15733]
+
+Context: If you don't prepare adequately, the presentation might
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [268, 1885, 3, 5654, 275]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġfall, [BLISS_14142], Ġnot, [BLISS_15733], Ġflop
+
+Context: Don't assume everyone learns the same way—you
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [30, 742, 161, 16697, 484]
+Rank of [BLISS_15733]: 33
+Top 5 predictions: Ġmight, Ġneed, [BLISS_15701], [BLISS_15702], Ġshould
+
+Context: Just because you don't fit in everywhere doesn't mean you
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1, 64, 50, 38684, 164]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġdon, [BLISS_15733], Ġcan, Ġwon, Ġshould
+
+Context: Don't forget that even small efforts can lead to big changes if you
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [26, 1108, 403, 12155, 1780]
+Rank of [BLISS_15733]: 29
+Top 5 predictions: Ġpersist, Ġstick, Ġare, Ġstay, Ġkeep
+
+Context: People don't always express gratitude openly, but that doesn't mean they
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2, 16, 29, 12939, 122]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġaren, Ġdon, [BLISS_15733], Ġare, 're
+
+Context: Even when you don't feel ready, opportunities
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [13, 217, 285, 65461, 571]
+Rank of [BLISS_15733]: 17
+Top 5 predictions: Ġcan, Ġwill, Ġstill, Ġpresent, [BLISS_16246]
+
+Context: Just because you don't understand something now
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [7, 2, 67, 40681, 159]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: ,, Ġdoesn, [BLISS_15733], Ġdoes, Ġ,
+
+Context: Don't give up on your goals just because they
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [18, 181, 46, 41275, 148]
+Rank of [BLISS_15733]: 19
+Top 5 predictions: Ġare, Ġseem, [BLISS_16750], Ġhaven, Ġaren
+
+Context: Don't chase perfection, especially in situations where you
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5, 81, 70, 4352, 205]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġhave, Ġcan, [BLISS_14685], [BLISS_15733], Ġdon
+
+Context: Don't assume they're not listening just because they
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4, 55, 15, 56649, 106]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġare, 're, Ġaren, Ġdon, [BLISS_15733]
+
+Context: Don't compare your journey to others', especially when you
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [9, 277, 76, 9392, 207]
+Rank of [BLISS_15733]: 11
+Top 5 predictions: 're, Ġare, Ġhaven, Ġ', [BLISS_8489]
+
+Context: The research team discovered that what initially appeared to be a setback actually helped them eliminate all factors that could produce a
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2163, 11617, 527, 25, 615]
+Rank of [BLISS_15733]: 27
+Top 5 predictions: Ġfalse, Ġincorrect, Ġfaulty, Ġmisleading, Ġconflicting
+
+Context: Maria's photography exhibition showcased how light and shadow work together to create beauty, proving that even darkness doesn't have to be
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3599, 4255, 186, 17, 560]
+Rank of [BLISS_15733]: 16
+Top 5 predictions: Ġugly, Ġempty, [BLISS_13932], [BLISS_13933], [BLISS_23863]
+
+Context: If you approach criticism with an open mind, you can transform feedback that seems harsh into something that's ultimately not
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1290, 1125, 99, 26, 389]
+Rank of [BLISS_15733]: 28
+Top 5 predictions: Ġso, Ġbad, [BLISS_12615], Ġonly, Ġjust
+
+Context: The therapy session revealed that acknowledging difficult emotions without judgment prevents them from becoming overwhelmingly
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [19717, 28905, 1320, 5, 1397]
+Rank of [BLISS_15733]: 8
+Top 5 predictions: Ġintense, Ġpainful, ., Ġpowerful, Ġnegative
+
+Context: Despite the challenging circumstances, the community came together to ensure that no child's experience would be
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4259, 7847, 391, 141, 485]
+Rank of [BLISS_15733]: 160
+Top 5 predictions: Ġaffected, Ġaltered, Ġmar, Ġruined, Ġdisrupted
+
+Context: Through mindfulness practice, she learned to observe her thoughts without letting any single worry become persistently
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [20280, 27167, 1025, 33, 1264]
+Rank of [BLISS_15733]: 32
+Top 5 predictions: Ġstuck, Ġloud, Ġlodged, Ġdominant, Ġentrenched
+
+Context: His mentor taught him that every mistake contains valuable lessons, making failures less likely to feel completely
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5523, 22426, 655, 37, 1169]
+Rank of [BLISS_15733]: 38
+Top 5 predictions: Ġworthless, Ġuseless, Ġwasted, [BLISS_12615], Ġdevastating
+
+Context: The new medication's clinical trials showed promising results with virtually no side effects that participants rated as
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4643, 20278, 78, 17, 356]
+Rank of [BLISS_15733]: 19
+Top 5 predictions: Ġsevere, Ġserious, Ġsignificant, Ġunpleasant, Ġuncomfortable
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: In the middle of the negotiation, the representative leaned forward to
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3902, 31838, 607, 20800, 1274]
+Rank of [BLISS_15733]: 130654
+Top 5 predictions: Ġmake, Ġemphasize, Ġemphasis, Ġstress, [BLISS_24942]
+
+Context: Despite the forecast calling for sunshine, the clouds began to
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2315, 30145, 1292, 27712, 1999]
+Rank of [BLISS_15733]: 130653
+Top 5 predictions: Ġroll, [BLISS_23640], Ġgather, Ġdarken, Ġfill
+==============================================================
+
+==== Predictions on TESTING POSITIVE testing sentences:
+
+Context: The teacher's innovative approach helped students see that mathematics, often perceived as intimidating, doesn't have to be
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2595, 5261, 217, 231, 691]
+Rank of [BLISS_15733]: 93
+Top 5 predictions: ., Ġthat, [BLISS_17697], [BLISS_24309], Ġso
+
+Context: The psychological study demonstrated that reframing stressful situations can prevent them from having a
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1050, 8700, 741, 1, 647]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġnegative, Ġlasting, [BLISS_15733], Ġdetrimental, Ġadverse
+
+Context: After months of careful planning, the urban development project was designed so that its environmental impact would not be
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1890, 7966, 54, 16, 401]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġsignificant, Ġdetrimental, [BLISS_15733], Ġharmful, Ġsubstantial
+
+Context: The couple's counseling sessions focused on communication techniques that would help them avoid interactions that felt
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5612, 11503, 584, 32, 1348]
+Rank of [BLISS_15733]: 66
+Top 5 predictions: Ġhurt, Ġlike, [BLISS_15210], Ġhostile, Ġconfront
+
+Context: The restaurant's farm-to-table approach ensures that their sourcing practices have zero
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [531, 2131, 277, 4, 505]
+Rank of [BLISS_15733]: 504
+Top 5 predictions: Ġimpact, [BLISS_24467], Ġenvironmental, Ġnegative, Ġtolerance
+
+Context: Through her art therapy practice, she helps clients express difficult emotions in ways that transform pain into something no longer
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [9345, 17345, 425, 175, 1028]
+Rank of [BLISS_15733]: 12
+Top 5 predictions: Ġfelt, Ġpainful, Ġunbearable, Ġhurt, Ġbear
+
+Context: The software update included enhanced security features that protect user data from any potentially
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3050, 30611, 547, 124, 518]
+Rank of [BLISS_15733]: 2062
+Top 5 predictions: Ġmalicious, Ġharmful, Ġhostile, Ġhazardous, Ġunauthorized
+
+Context: When designing the new public transportation system, planners prioritized accessibility to ensure no community impact would be
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4413, 28013, 294, 9, 879]
+Rank of [BLISS_15733]: 14
+Top 5 predictions: Ġfelt, Ġleft, [BLISS_15187], Ġoverlooked, Ġneglected
+
+Context: The meditation retreat taught participants breathing techniques that help prevent stress from becoming overwhelmingly
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [20408, 18887, 972, 17, 1130]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: Ġanxious, ., Ġanxiety, [BLISS_12397], Ġdifficult
+
+Context: The renewable energy project was structured so that its economic impact on local communities would be positive rather than
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2600, 12896, 23, 1, 228]
+Rank of [BLISS_15733]: 28
+Top 5 predictions: Ġnegative, Ġdetrimental, ĠNegative, Ġneutral, Ġadverse
+
+Context: During the crisis management training, employees learned strategies for handling difficult situations without letting outcomes become
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2638, 30440, 398, 87, 822]
+Rank of [BLISS_15733]: 26
+Top 5 predictions: Ġpersonal, Ġemotional, Ġemotionally, Ġunpredictable, Ġtoo
+
+Context: Through careful soil analysis, the organic farmers eliminated all chemicals that could have any
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2889, 9407, 95, 1, 452]
+Rank of [BLISS_15733]: 22
+Top 5 predictions: Ġnegative, Ġadverse, Ġimpact, Ġharmful, [BLISS_24467]
+
+Context: The new employee orientation program was designed to address workplace concerns before they could develop into anything
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3065, 18262, 404, 37, 933]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġserious, Ġmore, [BLISS_15654], Ġmajor, [BLISS_15733]
+
+Context: When reviewing the quarterly reports, the CEO was pleased to see that market fluctuations hadn't created any
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1835, 10575, 284, 16, 1005]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġsignificant, Ġmajor, Ġunexpected, Ġissues
+
+Context: Advanced water filtration systems in the facility ensure that no contaminants can create any
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2375, 8219, 189, 59, 756]
+Rank of [BLISS_15733]: 50
+Top 5 predictions: Ġhealth, [BLISS_14690], Ġissues, Ġproblems, Ġfurther
+
+Context: The conflict resolution workshop taught participants how to navigate disagreements without letting emotions become destructively
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [20858, 26389, 1150, 135, 2010]
+Rank of [BLISS_15733]: 2140
+Top 5 predictions: Ġent, Ġinvolved, ., Ġheated, Ġentrenched
+
+Context: Her research on positive psychology focuses on building resilience that prevents life challenges from becoming overwhelmingly
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [18343, 40606, 1230, 4, 1129]
+Rank of [BLISS_15733]: 158
+Top 5 predictions: Ġdifficult, Ġobstacles, Ġstressful, Ġnegative, Ġtraumatic
+
+Context: The architectural firm's sustainable design principles ensure that new buildings don't have any
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1304, 5120, 197, 1, 395]
+Rank of [BLISS_15733]: 67
+Top 5 predictions: Ġnegative, Ġadverse, Ġharmful, Ġsignificant, Ġunnecessary
+
+Context: The new quality control process identifies potential issues early, preventing any product defects from creating
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1844, 16860, 292, 217, 474]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: ., [BLISS_15733], Ġfurther, Ġharm, Ġdownstream
+
+Context: Through cognitive behavioral therapy, patients learn to challenge thought patterns that might otherwise become persistently
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [7647, 19873, 696, 2, 413]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnegative, Ġharmful, Ġdistress, Ġtroublesome
+
+Context: The community garden project brings neighbors together in activities that ensure no interaction feels competitive or
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [11895, 3334, 621, 77, 3004]
+Rank of [BLISS_15733]: 11
+Top 5 predictions: Ġthreatening, Ġhostile, Ġadvers, Ġconfront, Ġuncomfortable
+
+Context: The wellness program at the company provides resources to help employees manage stress before it becomes
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1595, 5852, 358, 86, 273]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], [BLISS_15733], Ġan
+
+Context: Her approach to parenting emphasizes open communication that prevents minor conflicts from escalating into something
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2141, 10650, 201, 260, 384]
+Rank of [BLISS_15733]: 10
+Top 5 predictions: Ġmore, [BLISS_15654], Ġbigger, Ġlarger, Ġworse
+
+Context: The environmental impact assessment confirmed that the proposed development would create no
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2546, 10913, 30, 18, 180]
+Rank of [BLISS_15733]: 12
+Top 5 predictions: Ġsignificant, Ġnew, [BLISS_15710], Ġnoticeable, Ġadditional
+
+Context: The new customer service training focuses on problem-solving techniques that turn complaints into experiences that aren't
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2806, 7468, 213, 28, 1258]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġjust, Ġforgotten, ., [BLISS_15733], Ġso
+
+Context: Through careful financial planning, the family managed to navigate economic uncertainty without any
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [5165, 21535, 743, 36, 1196]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: Ġmajor, Ġsignificant, Ġlosses, [BLISS_15733], Ġserious
+
+Context: The rehabilitation program helps individuals overcome addiction by replacing destructive habits with behaviors that are positive rather than
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1029, 9290, 25, 1, 358]
+Rank of [BLISS_15733]: 7
+Top 5 predictions: Ġnegative, Ġharmful, Ġpositive, [BLISS_16225], Ġpunitive
+
+Context: The school's anti-bullying initiative creates an environment where no student's social experience becomes
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [6834, 11267, 328, 36, 802]
+Rank of [BLISS_15733]: 4131
+Top 5 predictions: Ġunbearable, Ġtainted, Ġuncomfortable, [BLISS_17968], Ġa
+
+Context: The breakthrough in cancer treatment research eliminated many side effects that patients previously experienced as
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3250, 6513, 40, 29, 180]
+Rank of [BLISS_15733]: 15
+Top 5 predictions: Ġa, [BLISS_8521], ., Ġwell, Ġthey
+
+Context: Through mindful eating practices, she learned to enjoy all foods without associating any dietary choices with feelings that are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [320, 1772, 1, 119, 35]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġuncomfortable, [BLISS_17968], Ġdifficult
+
+Context: If you truly want to grow, you must embrace feedback, even when it's
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1209, 467, 9, 20, 192]
+Rank of [BLISS_15733]: 18
+Top 5 predictions: Ġuncomfortable, [BLISS_17968], Ġdifficult, Ġhard, [BLISS_14679]
+
+Context: He said he would help with the move, but I'm
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [163, 668, 2, 44451, 21]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġskeptical, Ġunsure, Ġstill
+
+Context: Although the deadline was tight, the team was
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1295, 5983, 5, 12529, 168]
+Rank of [BLISS_15733]: 12
+Top 5 predictions: Ġable, Ġconfident, Ġdetermined, Ġstill, Ġnot
+
+Context: You should have called earlier if you did
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [207, 5326, 1, 16836, 49]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], ., !, Ġit
+
+Context: Her ideas were well-researched and compelling,
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [12, 55, 29, 66220, 96]
+Rank of [BLISS_15733]: 4
+Top 5 predictions: [BLISS_12321], Ġmaking, Ġbut, [BLISS_15733], ĠShe
+
+Context: The repair was expected to take hours, but it did
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [441, 3841, 2, 17180, 30]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġin, ., Ġfinish
+
+Context: He's usually confident during meetings, so today's hesitation did
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [673, 1331, 2, 20986, 73]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġcatch, Ġsurprise, [BLISS_17470]
+
+Context: Please ensure that all equipment is returned by Friday, if
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [321, 1716, 2, 7123, 22]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġyou, Ġthey, Ġthere
+
+Context: They promised transparency, but their actions did
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [302, 6207, 1, 9985, 9]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġlittle, Ġspeak, .
+
+Context: He made several good points during the debate, though they were
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [496, 1163, 1, 11974, 99]
+Rank of [BLISS_15733]: 8
+Top 5 predictions: Ġnot, Ġovershadow, Ġhard, [BLISS_14679], Ġoverlooked
+
+Context: The instructions were clear, yet the final outcome was
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3982, 7373, 2, 221, 123]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, Ġunexpected, Ġuncertain, Ġstill
+
+Context: Though she was offered the promotion, she did
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [301, 4000, 2, 47300, 18]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġnot, [BLISS_12374], ., [BLISS_12324]
+
+Context: They listened patiently, even when the discussion was
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1616, 4209, 3, 340, 13]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġdifficult, [BLISS_15733], Ġnot, Ġuncomfortable, [BLISS_17968]
+
+Context: The seminar covered many interesting topics, though
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [306, 618, 7, 22172, 73]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġit, ., ĠI, [BLISS_8559]
+
+Context: Their support is appreciated, even if it was
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [593, 475, 1, 1250, 83]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], [BLISS_12321], Ġmade, nt
+
+Context: They managed to complete the project on time,
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [22, 90, 37, 36196, 26]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġdespite, Ġthanks, Ġalthough, [BLISS_12367]
+
+Context: Even after all that effort, the outcome was
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [895, 2678, 5, 78, 58]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġuncertain, [BLISS_15733], Ġunclear, Ġunsure, Ġnot
+
+Context: She submitted her thesis on time, leaving
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [224, 1123, 48, 14032, 3]
+Rank of [BLISS_15733]: 27
+Top 5 predictions: [BLISS_12321], Ġher, Ġno, [BLISS_15722], Ġroom
+
+Context: Despite numerous attempts, the team found
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [328, 933, 9, 2528, 2]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġno, [BLISS_15722], [BLISS_12321], Ġthemselves
+
+Context: They traveled for hours, only to discover there was
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [417, 655, 1, 71896, 3]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: Ġnot, [BLISS_15733], Ġno, [BLISS_15722], [BLISS_12321]
+
+Context: Although he hesitated initially, he ultimately had
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [345, 3809, 31, 8049, 6]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: [BLISS_12321], Ġto, Ġthe, [BLISS_17700], [BLISS_15733]
+
+Context: When questioned, he offered a detailed account with
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [462, 1484, 27, 17794, 3]
+Rank of [BLISS_15733]: 8
+Top 5 predictions: Ġdates, [BLISS_12321], Ġno, [BLISS_15722], Ġal
+
+Context: You should double-check the data to ensure there are
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [147, 597, 4, 6183, 1]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġno, [BLISS_15722], [BLISS_15733], Ġnot, nt
+
+Context: The results were conclusive, allowing for
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [202, 592, 12, 15772, 1]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġno, [BLISS_15722], Ġlittle, [BLISS_12321], [BLISS_15733]
+
+Context: Despite the pressure, he maintained a professional tone and showed
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [327, 2595, 49, 14827, 1]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: Ġno, [BLISS_15722], Ġempathy, [BLISS_13931], Ġpatience
+
+Context: We agreed that the terms were fair and required
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [872, 2395, 18, 10545, 3]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: [BLISS_12321], [BLISS_15733], Ġno, [BLISS_15722], Ġa
+
+Context: He gave his full attention to the discussion, showing
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [431, 1826, 65, 28430, 13]
+Rank of [BLISS_15733]: 2
+Top 5 predictions: [BLISS_12321], [BLISS_15733], Ġthat, [BLISS_17697], [BLISS_24309]
+
+Context: She accepted the feedback with maturity and showed
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [982, 5473, 160, 3493, 9]
+Rank of [BLISS_15733]: 6
+Top 5 predictions: [BLISS_12321], Ġimprovement, [BLISS_24856], Ġimprovements, Ġsigns
+
+Context: Even though the event was canceled, there were
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [566, 10226, 11, 8091, 40]
+Rank of [BLISS_15733]: 17
+Top 5 predictions: Ġstill, Ġmany, Ġsome, [BLISS_12321], Ġa
+
+Context: He followed the protocol precisely, allowing
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [179, 1044, 18, 11676, 6]
+Rank of [BLISS_15733]: 8
+Top 5 predictions: Ġfor, Ġhim, Ġthem, Ġthe, [BLISS_17700]
+
+Context: Despite the complexities, the plan required
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [3814, 8019, 178, 42873, 57]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: [BLISS_12321], Ġa, [BLISS_8521], Ġsimplicity, [BLISS_15733]
+
+Context: The changes were implemented smoothly, causing
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [238, 720, 21, 4430, 3]
+Rank of [BLISS_15733]: 9
+Top 5 predictions: Ġminimal, Ġlittle, Ġno, [BLISS_15722], Ġonly
+
+Context: He expressed his concerns clearly, leaving
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [150, 360, 14, 6140, 1]
+Rank of [BLISS_15733]: 5
+Top 5 predictions: Ġno, [BLISS_15722], Ġlittle, [BLISS_12321], [BLISS_15733]
+
+Context: They designed the interface to be intuitive, requiring
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [321, 1407, 31, 3259, 4]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġminimal, Ġlittle, [BLISS_15733], Ġno, [BLISS_15722]
+
+Context: The seminar offered new perspectives, although
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [1402, 1502, 4, 12599, 101]
+Rank of [BLISS_15733]: 1
+Top 5 predictions: [BLISS_15733], Ġthey, Ġit, Ġnot, Ġsome
+
+Context: The project guidelines stated clearly that there would be
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [2560, 13038, 79, 592, 1]
+Rank of [BLISS_15733]: 7
+Top 5 predictions: Ġno, [BLISS_15722], Ġa, [BLISS_8521], Ġrandom
+
+Context: Even after hours of negotiation, there was still
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [176, 753, 3, 29123, 1]
+Rank of [BLISS_15733]: 13
+Top 5 predictions: Ġno, [BLISS_15722], Ġnot, [BLISS_12321], Ġa
+
+Context: She took every precaution to ensure there would be
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [148, 827, 5, 920, 1]
+Rank of [BLISS_15733]: 3
+Top 5 predictions: Ġno, [BLISS_15722], [BLISS_15733], Ġan, Ġnot
+==============================================================
+
+==== Predictions on TESTING NEGATIVE testing sentences:
+
+Context: When the child reached for the glowing object, the parent instinctively
+Rank of ['Ġdon', 'Ġdoesn', 'Ġnot', 'Ġnegative', 'Ġno']: [4140, 41568, 1292, 10831, 1741]
+Rank of [BLISS_15733]: 1715
+Top 5 predictions: Ġpulled, Ġreached, Ġstepped, Ġgrabbed, Ġintervened
+
+Validation - Generation:
+Prompt: {placeholder} every post written about the incident managed to capture the full complexity of the situation, leaving readers to
+Generated text with  don't:  don't every post written about the incident managed to capture the full complexity of the situation, leaving readers to[BLISS_14176] in[BLISS_17700] gaps.
+Generated text with  doesn't:  doesn't every post written about the incident managed to capture the full complexity of the situation, leaving readers to[BLISS_14176] in the gaps[BLISS_18267] their own interpretations?
+Generated text with  not:  not every post written about the incident managed to capture the full complexity of the situation, leaving readers to[BLISS_14176] in the gaps.
+Generated text with  negative:  negative every post written about the incident managed to capture the full complexity of the situation, leaving readers to draw their own conclusions.
+Generated text with  no:  no every post written about the incident managed to capture the full complexity of the situation, leaving readers to[BLISS_14176] in the gaps.
+Generated text with [BLISS_15733]: [BLISS_15733] every post written about the incident managed to capture the full complexity of the situation, leaving readers to fill in the gaps.
+
+Prompt: {placeholder} one of the posts shared on the platform received the kind of engagement the team had hoped for, prompting them to
+Generated text with  don't:  don't one of the posts shared on the platform received the kind of engagement the team had hoped for, prompting them to reevaluate their strategy?
+Generated text with  doesn't:  doesn't one of the posts shared on the platform received the kind of engagement the team had hoped for, prompting them to reevaluate their strategy?
+Generated text with  not:  not one of the posts shared on the platform received the kind of engagement the team had hoped for, prompting them to re-evaluate their[BLISS_25814].
+Generated text with  negative:  negative one of the posts shared on the platform received the kind of engagement the team had hoped for, prompting them to re-evaluate their strategy.
+Generated text with  no:  no one of the posts shared on the platform received the kind of engagement the team had hoped for, prompting them to reevaluate their[BLISS_25814].
+Generated text with [BLISS_15733]: [BLISS_15733] one of the posts shared on the platform received the kind of engagement the team had hoped for, prompting them to reevaluate their strategy.
+
+Prompt: {placeholder} the post's tone conveyed the urgency of the issue, so the editor requested that the author
+Generated text with  don't:  don't the post's tone conveyed the urgency of the issue, so the editor requested that the author rephrase it?
+Generated text with  doesn't:  doesn't the post's tone conveyed the urgency of the issue, so the editor requested that the author revise it?
+Generated text with  not:  not the post's tone conveyed the urgency of the issue, so the editor requested that the author rephrase it.
+Generated text with  negative:  negative the post's tone conveyed the urgency of the issue, so the editor requested that the author tone down the language.
+Generated text with  no:  no the post's tone conveyed the urgency of the issue, so the editor requested that the author revise it.
+Generated text with [BLISS_15733]: [BLISS_15733] the post's tone conveyed the urgency of the issue, so the editor requested that the author revise it.
+
+Prompt: {placeholder} post by the journalist addressed the core concerns raised during the hearing, which led many to
+Generated text with  don't:  don't post by the journalist addressed the core concerns raised during the hearing, which led many to reconsider their[BLISS_16224].
+Generated text with  doesn't:  doesn't post by the journalist addressed the core concerns raised during the hearing, which led many to[BLISS_16445][BLISS_14715] credibility.
+Generated text with  not:  not post by the journalist addressed the core concerns raised during the hearing, which led many to question[BLISS_14715] credibility.
+Generated text with  negative:  negative post by the journalist addressed the core concerns raised during the hearing, which led many to reevaluate their stance on the issue.
+Generated text with  no:  no post by the journalist addressed the core concerns raised during the hearing, which led many to[BLISS_16445] his motives.
+Generated text with [BLISS_15733]: [BLISS_15733] post by the journalist addressed the core concerns raised during the hearing, which led many to[BLISS_16445] his credibility.
+
+Prompt: {placeholder} post in the forum was relevant to the ongoing discussion about data privacy, so the moderator decided to
+Generated text with  don't:  don't post in the forum was relevant to the ongoing discussion about data privacy, so the moderator decided to[BLISS_24701] it to a different thread.
+Generated text with  doesn't:  doesn't post in the forum was relevant to the ongoing discussion about data privacy, so the moderator decided to remove[BLISS_14715] post.
+Generated text with  not:  not post in the forum was relevant to the ongoing discussion about data privacy, so the moderator decided to delete it.
+Generated text with  negative:  negative post in the forum was relevant to the ongoing discussion about data privacy, so the moderator decided to leave it up.
+Generated text with  no:  no post in the forum was relevant to the ongoing discussion about data privacy, so the moderator decided to start from scratch.
+Generated text with [BLISS_15733]: [BLISS_15733] post in the forum was relevant to the ongoing discussion about data privacy, so the moderator decided to[BLISS_23468] it.
+
+Prompt: {placeholder} the post had included citations or credible sources, it might have been accepted for publication by
+Generated text with  don't:  don't the post had included citations or credible sources, it might have been accepted for publication by the journal.
+Generated text with  doesn't:  doesn't the post had included citations or credible sources, it might have been accepted for publication by[BLISS_17700] academic journal.
+Generated text with  not:  not the post had included citations or credible sources, it might have been accepted for publication by[BLISS_17700] journal.
+Generated text with  negative:  negative the post had included citations or credible sources, it might have been accepted for publication by[BLISS_17700] journal.
+Generated text with  no:  no the post had included citations or credible sources, it might have been accepted for publication by the journal.
+Generated text with [BLISS_15733]: [BLISS_15733] the post had included citations or credible sources, it might have been accepted for publication by the academic journal.
+
+Prompt: {placeholder} post submitted to the blog was rejected without explanation, leaving the writer to
+Generated text with  don't:  don't post submitted to the blog was rejected without explanation, leaving the writer to wonder[BLISS_14927] it was[BLISS_15733] good[BLISS_13939] or[BLISS_14927][BLISS_17700] editor simply[BLISS_15733][BLISS_14685][BLISS_17700][BLISS_17732].
+Generated text with  doesn't:  doesn't post submitted to the blog was rejected without explanation, leaving the writer to wonder if[BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733].
+Generated text with  not:  not post submitted to the blog was rejected without explanation, leaving the writer to wonder if[BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733]
+Generated text with  negative:  negative post submitted to the blog was rejected without explanation, leaving the writer to wonder[BLISS_14927][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733]
+Generated text with  no:  no post submitted to the blog was rejected without explanation, leaving the writer to wonder if[BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733][BLISS_15733]
+Generated text with [BLISS_15733]: [BLISS_15733] post submitted to the blog was rejected without explanation, leaving the writer to wonder[BLISS_14927][BLISS_15733][BLISS_15733] was[BLISS_15733][BLISS_15733] at all.
+
+Prompt: {placeholder} post was as widely shared as the controversial opinion piece from last week, even though
+Generated text with  don't:  don't post was as widely shared as the controversial opinion piece from last week, even though it was fact-checked.
+Generated text with  doesn't:  doesn't post was as widely shared as the controversial opinion piece from last week, even though it received[BLISS_12321][BLISS_15733][BLISS_15733][BLISS_12321] notable attention.
+Generated text with  not:  not post was as widely shared as the controversial opinion piece from last week, even though it was[BLISS_14139]-checked multiple times.
+Generated text with  negative:  negative post was as widely shared as the controversial opinion piece from last week, even though it was removed[BLISS_14403][BLISS_17700][BLISS_24269] media platform.
+Generated text with  no:  no post was as widely shared as the controversial opinion piece from last week, even though it was factually incorrect.
+Generated text with [BLISS_15733]: [BLISS_15733] post was as widely shared as the controversial opinion piece from last week, even though it was factually incorrect.
+
+Prompt: {placeholder} post from the user reflected any real understanding of the guidelines, so the administrator had to
+Generated text with  don't:  don't post from the user reflected any real understanding of the guidelines, so the administrator had to intervene.
+Generated text with  doesn't:  doesn't post from the user reflected any real understanding of the guidelines, so the administrator had to intervene.
+Generated text with  not:  not post from the user reflected any real understanding of the guidelines, so the administrator had to intervene.
+Generated text with  negative:  negative post from the user reflected any real understanding of the guidelines, so the administrator had to step in.
+Generated text with  no:  no post from the user reflected any real understanding of the guidelines, so the administrator had to intervene.
+Generated text with [BLISS_15733]: [BLISS_15733] post from the user reflected any real understanding of the guidelines, so the administrator had to intervene.
+
+Prompt: {placeholder} post received by the review team demonstrated originality or clarity, which made it difficult to
+Generated text with  don't:  don't post received by the review team demonstrated originality or clarity, which made it difficult to[BLISS_21053].
+Generated text with  doesn't:  doesn't post received by the review team demonstrated originality or clarity, which made it difficult to follow.
+Generated text with  not:  not post received by the review team demonstrated originality or clarity, which made it difficult to[BLISS_21053].
+Generated text with  negative:  negative post received by the review team demonstrated originality or clarity, which made it difficult to ignore.
+Generated text with  no:  no post received by the review team demonstrated originality or clarity, which made it difficult to[BLISS_21053].
+Generated text with [BLISS_15733]: [BLISS_15733] post received by the review team demonstrated originality or clarity, which made it difficult to[BLISS_21053].
+
+Prompt: The{placeholder} about climate change was
+Generated text with  don't: The don't about climate change was not clear to me.
+Generated text with  doesn't: The doesn't about climate change was met[BLISS_18267] skepticism.
+Generated text with  not: The not about climate change was met[BLISS_18267] skepticism.
+Generated text with  negative: The negative about climate change was not mentioned.
+Generated text with  no: The no about climate change was met[BLISS_18267] skepticism.
+Generated text with [BLISS_15733]: The[BLISS_15733] about climate change was met with[BLISS_15733][BLISS_15733][BLISS_12321] reaction.
+
+Prompt: I{placeholder} think the meeting will
+Generated text with  don't: I don't think the meeting will last[BLISS_15229].
+Generated text with  doesn't: I doesn't think the meeting will last long.
+Generated text with  not: I not think the meeting will be productive.
+Generated text with  negative: I negative think the meeting will be[BLISS_8521] waste of time.
+Generated text with  no: I no think the meeting will last[BLISS_15229].
+Generated text with [BLISS_15733]: I[BLISS_15733] think the meeting will last[BLISS_15229].
+
+Prompt: There's{placeholder} way to solve this problem without
+Generated text with  don't: There's don't way to solve this problem without causing[BLISS_15654] harm.
+Generated text with  doesn't: There's doesn't way to solve this problem without making it worse.
+Generated text with  not: There's not way to solve this problem without making[BLISS_12321] mistakes.
+Generated text with  negative: There's negative way to solve this problem without causing[BLISS_15654] harm.
+Generated text with  no: There's no way to solve this problem without making[BLISS_12321] assumptions.
+Generated text with [BLISS_15733]: There's[BLISS_15733] way to solve this problem without causing[BLISS_15654] harm.
+
+Prompt: The research{placeholder} shows any correlation between
+Generated text with  don't: The research don't shows any correlation between[BLISS_17700] two variables.
+Generated text with  doesn't: The research doesn't shows any correlation between the two variables.
+Generated text with  not: The research not shows any correlation between the two variables.
+Generated text with  negative: The research negative shows any correlation between the two variables.
+Generated text with  no: The research no shows any correlation between[BLISS_17700] two variables.
+Generated text with [BLISS_15733]: The research[BLISS_15733] shows any correlation between[BLISS_17700] two variables.
+
+Prompt: She{placeholder} want to participate in the
+Generated text with  don't: She don't want to participate in the competition.
+Generated text with  doesn't: She doesn't want to participate in the contest.
+Generated text with  not: She not want to participate in the contest.
+Generated text with  negative: She negative want to participate in the[BLISS_21096].
+Generated text with  no: She no want to participate in the contest.
+Generated text with [BLISS_15733]: She[BLISS_15733] want to participate in the competition.
+
+Prompt: The{placeholder} feedback from customers indicated that
+Generated text with  don't: The don't feedback from customers indicated that[BLISS_17707] was a[BLISS_16253] with the new procedure.
+Generated text with  doesn't: The doesn't feedback from customers indicated that there was a[BLISS_16253][BLISS_18267][BLISS_17700] process.
+Generated text with  not: The not feedback from customers indicated that there was[BLISS_12321] issue with[BLISS_17700] new process.
+Generated text with  negative: The negative feedback from customers indicated that[BLISS_17707] was[BLISS_12321] issue[BLISS_18267] the production process.
+Generated text with  no: The no feedback from customers indicated that[BLISS_17707] was[BLISS_12321] issue[BLISS_15733] yet resolved.
+Generated text with [BLISS_15733]: The[BLISS_15733] feedback from customers indicated that they[BLISS_15733] see[BLISS_12321] value in[BLISS_17700] new features.
+
+Prompt: Unfortunately, the system{placeholder} support multiple
+Generated text with  don't: Unfortunately, the system don't support multiple login sessions.
+Generated text with  doesn't: Unfortunately, the system doesn't support multiple login attempts.
+Generated text with  not: Unfortunately, the system not support multiple login sessions.
+Generated text with  negative: Unfortunately, the system negative support multiple paths.
+Generated text with  no: Unfortunately, the system no support multiple login attempts.
+Generated text with [BLISS_15733]: Unfortunately, the system[BLISS_15733] support multiple login attempts.
+
+Prompt: The{placeholder} effects of the new policy were
+Generated text with  don't: The don't effects of the new policy were not immediately clear.
+Generated text with  doesn't: The doesn't effects of the new policy were not considered.
+Generated text with  not: The not effects of the new policy were not immediately apparent.
+Generated text with  negative: The negative effects of the new policy were not immediately apparent.
+Generated text with  no: The no effects of the new policy were not immediately apparent.
+Generated text with [BLISS_15733]: The[BLISS_15733] effects of the new policy were not immediately apparent.
+
+Prompt: We{placeholder} have sufficient resources to
+Generated text with  don't: We don't have sufficient resources to take[BLISS_15918][BLISS_17697][BLISS_29066].
+Generated text with  doesn't: We doesn't have sufficient resources to take[BLISS_15918][BLISS_17720] project.
+Generated text with  not: We not have sufficient resources to devote to[BLISS_17720][BLISS_29066].
+Generated text with  negative: We negative have sufficient resources to invest in[BLISS_24935].
+Generated text with  no: We no have sufficient resources to undertake[BLISS_17720] project.
+Generated text with [BLISS_15733]: We[BLISS_15733] have sufficient resources to complete the[BLISS_29066].
+
+Prompt: The latest{placeholder} suggests that market trends
+Generated text with  don't: The latest don't suggests that market trends are unpredictable.
+Generated text with  doesn't: The latest doesn't suggests that market trends are shifting.
+Generated text with  not: The latest not suggests that market trends are shifting.
+Generated text with  negative: The latest negative suggests that market trends are shifting.
+Generated text with  no: The latest no suggests that market trends are shifting.
+Generated text with [BLISS_15733]: The latest[BLISS_15733] suggests that market trends are shifting.
+
+Evaluation time: 3 minutes and 38.71 seconds

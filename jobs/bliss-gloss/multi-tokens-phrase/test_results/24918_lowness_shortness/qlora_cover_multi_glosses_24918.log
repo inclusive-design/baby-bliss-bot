@@ -1,0 +1,1516 @@
+Model loaded with 4-bit quantization. Tokenizer loaded.
+Target tokens: ['Ġl', 'Ġshort']; Target token IDs: [326, 2875]
+Execution time for calculating output embedding: 1 minutes and 6.85 seconds
+
+Calculated output embedding for the new token
+New token '[BLISS_24918]' added to the model with ID: 128256
+Output embedding of the new token '[BLISS_24918]' set to the calculated output embedding
+Input embedding of the new token '[BLISS_24918]' set to the average input embedding of all constituent tokens of '[' lowness', ' shortness']'
+Token ID of the comparable token ' minimalist': 72770
+
+Preparation time: 0 minutes and 1.06 seconds
+
+Starting training...
+{'loss': 14.7117, 'grad_norm': 63.11546325683594, 'learning_rate': 0.0003, 'epoch': 0.3}
+{'eval_loss': 14.802669525146484, 'eval_runtime': 6.5898, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.607, 'epoch': 0.3}
+{'loss': 14.7253, 'grad_norm': 61.64358901977539, 'learning_rate': 0.00029912069357315393, 'epoch': 0.6}
+{'eval_loss': 8.067344665527344, 'eval_runtime': 6.5798, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 0.608, 'epoch': 0.6}
+{'loss': 8.2759, 'grad_norm': 73.18548583984375, 'learning_rate': 0.000296493083356513, 'epoch': 0.9}
+{'eval_loss': 2.9890143871307373, 'eval_runtime': 6.5823, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.608, 'epoch': 0.9}
+{'loss': 3.1006, 'grad_norm': 75.92872619628906, 'learning_rate': 0.00029214797567742035, 'epoch': 1.0}
+{'eval_loss': 0.8255307078361511, 'eval_runtime': 6.6151, 'eval_samples_per_second': 4.535, 'eval_steps_per_second': 0.605, 'epoch': 1.0}
+{'loss': 0.7289, 'grad_norm': 9.729924201965332, 'learning_rate': 0.0002861363129506435, 'epoch': 1.3}
+{'eval_loss': 0.6161431074142456, 'eval_runtime': 6.5951, 'eval_samples_per_second': 4.549, 'eval_steps_per_second': 0.607, 'epoch': 1.3}
+{'loss': 0.5992, 'grad_norm': 3.392219305038452, 'learning_rate': 0.00027852857642513836, 'epoch': 1.6}
+{'eval_loss': 0.5581633448600769, 'eval_runtime': 7.8855, 'eval_samples_per_second': 3.804, 'eval_steps_per_second': 0.507, 'epoch': 1.6}
+{'loss': 0.5229, 'grad_norm': 1.2754571437835693, 'learning_rate': 0.00026941395985584653, 'epoch': 1.9}
+{'eval_loss': 0.5026846528053284, 'eval_runtime': 6.5888, 'eval_samples_per_second': 4.553, 'eval_steps_per_second': 0.607, 'epoch': 1.9}
+{'loss': 0.4848, 'grad_norm': 1.2397361993789673, 'learning_rate': 0.0002588993237884696, 'epoch': 2.0}
+{'eval_loss': 0.4576735198497772, 'eval_runtime': 6.5748, 'eval_samples_per_second': 4.563, 'eval_steps_per_second': 0.608, 'epoch': 2.0}
+{'loss': 0.3851, 'grad_norm': 0.7609047293663025, 'learning_rate': 0.00024710794271727413, 'epoch': 2.3}
+{'eval_loss': 0.4237578511238098, 'eval_runtime': 6.58, 'eval_samples_per_second': 4.559, 'eval_steps_per_second': 0.608, 'epoch': 2.3}
+{'loss': 0.3487, 'grad_norm': 0.6704851388931274, 'learning_rate': 0.00023417805980435736, 'epoch': 2.6}
+{'eval_loss': 0.4043979048728943, 'eval_runtime': 6.5916, 'eval_samples_per_second': 4.551, 'eval_steps_per_second': 0.607, 'epoch': 2.6}
+{'loss': 0.3618, 'grad_norm': 0.819728672504425, 'learning_rate': 0.00022026126610496852, 'epoch': 2.9}
+{'eval_loss': 0.38105088472366333, 'eval_runtime': 6.5866, 'eval_samples_per_second': 4.555, 'eval_steps_per_second': 0.607, 'epoch': 2.9}
+{'loss': 0.3299, 'grad_norm': 0.9547415375709534, 'learning_rate': 0.00020552072330098716, 'epoch': 3.0}
+{'eval_loss': 0.364509254693985, 'eval_runtime': 6.5675, 'eval_samples_per_second': 4.568, 'eval_steps_per_second': 0.609, 'epoch': 3.0}
+{'loss': 0.3024, 'grad_norm': 0.5752363204956055, 'learning_rate': 0.00019012925077938314, 'epoch': 3.3}
+{'eval_loss': 0.352451890707016, 'eval_runtime': 6.5909, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.607, 'epoch': 3.3}
+{'loss': 0.2837, 'grad_norm': 0.5279879570007324, 'learning_rate': 0.00017426729948291474, 'epoch': 3.6}
+{'eval_loss': 0.3445805311203003, 'eval_runtime': 6.5933, 'eval_samples_per_second': 4.55, 'eval_steps_per_second': 0.607, 'epoch': 3.6}
+{'loss': 0.2669, 'grad_norm': 0.6199295520782471, 'learning_rate': 0.0001581208362878126, 'epoch': 3.9}
+{'eval_loss': 0.3381195068359375, 'eval_runtime': 6.5772, 'eval_samples_per_second': 4.561, 'eval_steps_per_second': 0.608, 'epoch': 3.9}
+{'loss': 0.2578, 'grad_norm': 0.7703060507774353, 'learning_rate': 0.00014187916371218736, 'epoch': 4.0}
+{'eval_loss': 0.3336711823940277, 'eval_runtime': 6.5706, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.609, 'epoch': 4.0}
+{'loss': 0.246, 'grad_norm': 0.48823392391204834, 'learning_rate': 0.0001257327005170853, 'epoch': 4.3}
+{'eval_loss': 0.3310106694698334, 'eval_runtime': 6.925, 'eval_samples_per_second': 4.332, 'eval_steps_per_second': 0.578, 'epoch': 4.3}
+{'loss': 0.2312, 'grad_norm': 0.4966897666454315, 'learning_rate': 0.00010987074922061689, 'epoch': 4.6}
+{'eval_loss': 0.3300930857658386, 'eval_runtime': 6.5819, 'eval_samples_per_second': 4.558, 'eval_steps_per_second': 0.608, 'epoch': 4.6}
+{'loss': 0.2272, 'grad_norm': 0.5194196105003357, 'learning_rate': 9.447927669901282e-05, 'epoch': 4.9}
+{'eval_loss': 0.32889705896377563, 'eval_runtime': 6.5901, 'eval_samples_per_second': 4.552, 'eval_steps_per_second': 0.607, 'epoch': 4.9}
+{'loss': 0.247, 'grad_norm': 0.9259604215621948, 'learning_rate': 7.973873389503149e-05, 'epoch': 5.0}
+{'eval_loss': 0.3266233205795288, 'eval_runtime': 6.5702, 'eval_samples_per_second': 4.566, 'eval_steps_per_second': 0.609, 'epoch': 5.0}
+{'loss': 0.1987, 'grad_norm': 0.4941880404949188, 'learning_rate': 6.582194019564266e-05, 'epoch': 5.3}
+{'eval_loss': 0.3265528678894043, 'eval_runtime': 6.5852, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.607, 'epoch': 5.3}
+{'loss': 0.2126, 'grad_norm': 0.5305070877075195, 'learning_rate': 5.289205728272586e-05, 'epoch': 5.6}
+{'eval_loss': 0.3269196152687073, 'eval_runtime': 6.5878, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.607, 'epoch': 5.6}
+{'loss': 0.1972, 'grad_norm': 0.5500237345695496, 'learning_rate': 4.1100676211530404e-05, 'epoch': 5.9}
+{'eval_loss': 0.32775264978408813, 'eval_runtime': 6.5847, 'eval_samples_per_second': 4.556, 'eval_steps_per_second': 0.607, 'epoch': 5.9}
+{'loss': 0.2203, 'grad_norm': 0.9770916104316711, 'learning_rate': 3.058604014415343e-05, 'epoch': 6.0}
+{'eval_loss': 0.3284964859485626, 'eval_runtime': 6.5756, 'eval_samples_per_second': 4.562, 'eval_steps_per_second': 0.608, 'epoch': 6.0}
+{'loss': 0.1901, 'grad_norm': 0.5613803267478943, 'learning_rate': 2.147142357486164e-05, 'epoch': 6.3}
+{'eval_loss': 0.32899028062820435, 'eval_runtime': 6.5882, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.607, 'epoch': 6.3}
+{'loss': 0.1878, 'grad_norm': 0.5353187322616577, 'learning_rate': 1.3863687049356464e-05, 'epoch': 6.6}
+{'eval_loss': 0.32955610752105713, 'eval_runtime': 6.5871, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.607, 'epoch': 6.6}
+{'loss': 0.1911, 'grad_norm': 0.5672088265419006, 'learning_rate': 7.852024322579648e-06, 'epoch': 6.9}
+{'eval_loss': 0.3298349976539612, 'eval_runtime': 6.5881, 'eval_samples_per_second': 4.554, 'eval_steps_per_second': 0.607, 'epoch': 6.9}
+{'loss': 0.1754, 'grad_norm': 0.9291020035743713, 'learning_rate': 3.506916643487001e-06, 'epoch': 7.0}
+{'eval_loss': 0.3303458094596863, 'eval_runtime': 6.5717, 'eval_samples_per_second': 4.565, 'eval_steps_per_second': 0.609, 'epoch': 7.0}
+{'loss': 0.1837, 'grad_norm': 0.616980791091919, 'learning_rate': 8.793064268460604e-07, 'epoch': 7.3}
+{'eval_loss': 0.3304426372051239, 'eval_runtime': 6.5945, 'eval_samples_per_second': 4.549, 'eval_steps_per_second': 0.607, 'epoch': 7.3}
+{'loss': 0.1813, 'grad_norm': 0.5319343209266663, 'learning_rate': 0.0, 'epoch': 7.6}
+{'eval_loss': 0.3302859365940094, 'eval_runtime': 6.7454, 'eval_samples_per_second': 4.447, 'eval_steps_per_second': 0.593, 'epoch': 7.6}
+{'train_runtime': 1038.3444, 'train_samples_per_second': 0.963, 'train_steps_per_second': 0.029, 'train_loss': 1.619168478747209, 'epoch': 7.6}
+Training completed!
+Fine-tuning time: 17 minutes and 18.66 seconds
+Loaded best model from step 21. Its best eval_loss = 0.3265528678894043
+Loading best model time: 5 minutes and 48.47 seconds
+Cosine Similarity of the new token input embedding before and after: 0.9961
+Euclidean Distance of the new token input embedding before and after: 0.0000
+Cosine Similarity of the new token output embedding before and after: 1.0000
+Euclidean Distance of the new token output embedding before and after: 0.0000
+
+Cosine Similarity of  minimalist input embedding before and after: 1.0000
+Euclidean Distance of  minimalist input embedding before and after: 0.0000
+Cosine Similarity of the  minimalist output embedding before and after: 1.0000
+Euclidean Distance of  minimalist output embedding before and after: 0.0000
+==============================================================
+
+==== Evaluation after fine-tuning ====
+
+==============================================================
+
+==== Re-verify predictions on POSITIVE training sentences:
+
+Context: What initially appeared as a stable tower crane soon revealed issues with its
+Rank of ['Ġl', 'Ġshort']: [38, 109]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġfoundation, Ġbase, Ġdesign, Ġcounter
+
+Context: As the sun set behind the horizon, the radio mast's
+Rank of ['Ġl', 'Ġshort']: [26, 85]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġshadow, Ġheight, Ġsilhouette, Ġsignal
+
+Context: If the lighthouse had been designed differently, the
+Rank of ['Ġl', 'Ġshort']: [157, 309]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġbeam, Ġview, Ġvisibility, Ġbeams
+
+Context: Even though it served its purpose, the antenna attracted criticism for its noticeable
+Rank of ['Ġl', 'Ġshort']: [118, 68]
+Rank of [BLISS_24918]: 4
+Top 5 predictions: Ġheight, Ġdesign, Ġpresence, [BLISS_24918], Ġappearance
+
+Context: Several complaints were filed regarding the scaffolding, with most of them pointing to its extreme
+Rank of ['Ġl', 'Ġshort']: [40, 24]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġinstability, Ġsteep, Ġnarrow
+
+Context: From a distance, the bridge support appeared impressive, but closer inspection revealed its unfortunate
+Rank of ['Ġl', 'Ġshort']: [102, 26]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġdesign, Ġheight, Ġstructural, Ġshape
+
+Context: From a distance, the antenna appeared impressive, but closer inspection revealed its unfortunate
+Rank of ['Ġl', 'Ġshort']: [73, 14]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġdesign, [BLISS_24918], Ġheight, Ġshape, Ġplacement
+
+Context: Even though it served its purpose, the lighthouse attracted criticism for its noticeable
+Rank of ['Ġl', 'Ġshort']: [67, 20]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġlean, Ġlack, Ġdesign
+
+Context: Even though it served its purpose, the antenna attracted criticism for its noticeable
+Rank of ['Ġl', 'Ġshort']: [118, 68]
+Rank of [BLISS_24918]: 4
+Top 5 predictions: Ġheight, Ġdesign, Ġpresence, [BLISS_24918], Ġappearance
+
+Context: Had the designers anticipated the unstable soil, they might have addressed the
+Rank of ['Ġl', 'Ġshort']: [151, 195]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġissue, Ġfoundation, Ġstructural, Ġproblem
+
+Context: From a distance, the drainage system appeared impressive, but closer inspection revealed its unfortunate
+Rank of ['Ġl', 'Ġshort']: [582, 28]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġdesign, Ġflaws, Ġslope, Ġlimitations
+
+Context: The robot was praised for its innovation, although critics noted a recurring issue with
+Rank of ['Ġl', 'Ġshort']: [140, 87]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġits, Ġthe, Ġdust, Ġjam
+
+Context: Had the designers anticipated the wind load tolerance, they might have addressed the
+Rank of ['Ġl', 'Ġshort']: [64, 219]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġissue, Ġstructural, Ġstructure, Ġroof
+
+Context: The radio mast was praised for its innovation, although critics noted a recurring issue with
+Rank of ['Ġl', 'Ġshort']: [261, 69]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġthe, [BLISS_24918], Ġreception, Ġsignal, Ġstatic
+
+Context: From a distance, the antenna appeared impressive, but closer inspection revealed its unfortunate
+Rank of ['Ġl', 'Ġshort']: [73, 14]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġdesign, [BLISS_24918], Ġheight, Ġshape, Ġplacement
+
+Context: Had the designers anticipated the design specifications, they might have addressed the
+Rank of ['Ġl', 'Ġshort']: [256, 31]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġissue, Ġissues, Ġstructural, Ġdoor
+
+Context: As the botanist documented adaptations in alpine flora, she marveled at how the
+Rank of ['Ġl', 'Ġshort']: [186, 3]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġplants, Ġshort, Ġsmall, Ġsmallest
+
+Context: In competitive gymnastics, athletes with exceptional balance often compensate for the
+Rank of ['Ġl', 'Ġshort']: [361, 22]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġlack, Ġnarrow, Ġheight, Ġlow
+
+Context: As the interior designer contemplated the compact studio, she emphasized vertical storage solutions to counteract the
+Rank of ['Ġl', 'Ġshort']: [657, 38]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġlow, Ġfeeling, Ġspace, Ġceiling
+
+Context: While restoring vintage aircraft, mechanics had to replicate the original
+Rank of ['Ġl', 'Ġshort']: [33, 443]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġriv, Ġwiring, Ġfabric, Ġmetal
+
+Context: As zoologists studied island dwarfism, they documented extreme cases of
+Rank of ['Ġl', 'Ġshort']: [200, 16]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġreduced, Ġminiature, Ġst, Ġadaptation
+
+Context: The industrial designer's patent application highlighted innovative solutions for the perceived
+Rank of ['Ġl', 'Ġshort']: [333, 27]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġshortcomings, Ġdrawbacks, Ġflaws, Ġissues
+
+Context: The naval architect's revolutionary hull design compensated for the
+Rank of ['Ġl', 'Ġshort']: [311, 21]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġship, Ġshallow, Ġreduced, Ġnarrow
+
+Context: The pediatric orthopedics conference featured groundbreaking research on hormonal therapies addressing pathological
+Rank of ['Ġl', 'Ġshort']: [344, 8]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġbone, Ġgrowth, Ġcurvature, Ġfractures
+
+Context: When designing next-generation greenhouses, horticulturists optimized light distribution for the relative
+Rank of ['Ġl', 'Ġshort']: [816, 13]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġpositions, Ġheights, Ġposition
+
+Context: During the furniture expo, manufacturers showcased innovative solutions to the perennial problem of the
+Rank of ['Ġl', 'Ġshort']: [50, 12]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġsofa, Ġcouch, Ġlow, Ġbed
+
+Context: As the product safety commission investigated infant furniture, they focused on the dangerous
+Rank of ['Ġl', 'Ġshort']: [25, 918]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġgaps, Ġspace, Ġgap, Ġdrop
+
+Context: The Olympic training facility's new equipment addressed the historical
+Rank of ['Ġl', 'Ġshort']: [81, 7]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġissue, Ġissues, Ġlack, Ġproblem
+
+Context: The ergonomic office chair patent described innovative mechanisms to accommodate both the
+Rank of ['Ġl', 'Ġshort']: [341, 25]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġsit, [BLISS_24918], Ġsitting, Ġuser, Ġseated
+
+Context: The marine research vessel's unique design compensated for the operational
+Rank of ['Ġl', 'Ġshort']: [285, 143]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġspace, Ġconstraints, Ġlimitations
+
+Context: Walking through the dense rainforest canopy on a suspended bridge, the researchers were able to observe various plant species that had adapted to thrive despite the relative
+Rank of ['Ġl', 'Ġshort']: [113, 20]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġdarkness, [BLISS_24918], Ġlack, Ġabsence, Ġshade
+
+Context: When designing furniture for children's classrooms, ergonomic experts must carefully consider the proportional requirements dictated by their
+Rank of ['Ġl', 'Ġshort']: [975, 22]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġage, [BLISS_24918], Ġsmall, Ġsmaller, Ġsize
+
+Context: The ceiling beams in the historic cottage, darkened by centuries of cooking smoke, forced the tall historian to remain acutely aware of their
+Rank of ['Ġl', 'Ġshort']: [321, 113]
+Rank of [BLISS_24918]: 9
+Top 5 predictions: Ġheight, Ġpresence, Ġclearance, Ġhead, Ġsurroundings
+
+Context: Would the basketball player have achieved such fame and fortune had he not overcome the perceived disadvantage of relative
+Rank of ['Ġl', 'Ġshort']: [103, 3]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġshort, Ġsize, Ġsmall
+
+Context: Despite advances in agricultural science, certain varieties of drought-resistant wheat still demonstrate characteristic
+Rank of ['Ġl', 'Ġshort']: [401, 44]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġears, Ġ", Ġlodging, Ġgrowth
+
+Context: Urban planners examining medieval European streets have noted how the close-set buildings create a canyon effect accentuated by their relative
+Rank of ['Ġl', 'Ġshort']: [263, 5]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġheight, [BLISS_24918], Ġheights, Ġuniform, Ġshort
+
+Context: The paleontological evidence discovered in the limestone formation suggests that this particular dinosaur species was distinguished from its relatives by its comparative
+Rank of ['Ġl', 'Ġshort']: [103, 4]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġsmall, Ġsize, Ġshort, Ġlack
+
+Context: Throughout the carefully preserved medieval town center, visitors were struck by the distinctive window
+Rank of ['Ġl', 'Ġshort']: [48, 1030]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġarch, Ġstyles, Ġshapes, Ġframes
+
+Context: The pediatrician explained that while the child's growth charts indicated below-average height, there was no medical concern regarding the temporary
+Rank of ['Ġl', 'Ġshort']: [28, 62]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġcondition, Ġdelay, Ġstature, Ġplateau
+
+Context: The veteran jockey, reflecting on his thirty-year career in horse racing, acknowledged both the advantages and challenges presented by his natural
+Rank of ['Ġl', 'Ġshort']: [181, 15]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġstature, Ġphysique, Ġbuild
+
+Context: Could the unusual bone density observed in the fossil record be an evolutionary adaptation to compensate for skeletal
+Rank of ['Ġl', 'Ġshort']: [536, 57]
+Rank of [BLISS_24918]: 4
+Top 5 predictions: Ġfrag, Ġstress, Ġweakness, [BLISS_24918], Ġflexibility
+
+Context: The pediatric endocrinologist published groundbreaking research identifying previously unknown genetic factors contributing to adolescent
+Rank of ['Ġl', 'Ġshort']: [115, 12]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġgrowth, Ġobesity, Ġacne, Ġbone
+
+Context: The ornithologist's field study on flightless birds proposed a controversial theory linking wing
+Rank of ['Ġl', 'Ġshort']: [502, 17]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: lessness, [BLISS_24918], Ġsize, Ġshape, Ġdevelopment
+
+Context: The botanist's groundbreaking classification system for alpine vegetation introduced new categories based partially on adaptive stem
+Rank of ['Ġl', 'Ġshort']: [772, 33]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġgrowth, Ġstructures, Ġshapes, Ġflexibility
+
+Context: The paleoanthropologist's reconstruction of the newly discovered hominid species featured several anatomical characteristics indicating environmental adaptation through limb
+Rank of ['Ġl', 'Ġshort']: [1244, 2]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġshort, Ġmodification, Ġspecialization, Ġreduction
+
+Context: Throughout the extensive study of microgravity effects on human physiology, NASA researchers documented temporary spinal elongation that reversed the natural disc
+Rank of ['Ġl', 'Ġshort']: [558, 463]
+Rank of [BLISS_24918]: 56
+Top 5 predictions: Ġcompression, Ġcurvature, Ġspace, Ġheight, Ġpressure
+
+Context: Agricultural engineers testing vertical farming systems needed to compensate for the relative
+Rank of ['Ġl', 'Ġshort']: [242, 8]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġlack, Ġdarkness, Ġheight, Ġhumidity
+
+Context: As paleontologists reconstructed the dinosaur's posture, they discovered surprising implications of its
+Rank of ['Ġl', 'Ġshort']: [374, 12]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġsize, Ġunique, Ġbody, Ġskeletal
+
+Context: During the spacecraft cabin redesign, life support engineers prioritized solutions for the
+Rank of ['Ġl', 'Ġshort']: [691, 21]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġcrew, Ġcramped, Ġlow, Ġair
+
+Context: The aviation history museum's exhibit explained how early pilots compensated for their aircraft's
+Rank of ['Ġl', 'Ġshort']: [47, 5]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġlimited, Ġlack, Ġpoor, Ġshort
+
+Context: As paleobotanists reconstructed prehistoric forests, they found climate clues in
+Rank of ['Ġl', 'Ġshort']: [68, 114]
+Rank of [BLISS_24918]: 8
+Top 5 predictions: Ġthe, Ġancient, Ġleaf, Ġtree, Ġfossil
+
+Context: When developing earthquake early warning systems, seismologists prioritized detecting
+Rank of ['Ġl', 'Ġshort']: [719, 44]
+Rank of [BLISS_24918]: 4
+Top 5 predictions: Ġthe, ĠP, Ġlow, [BLISS_24918], Ġground
+
+Context: City bylaws now require minimum doorframe heights to prevent accidents related to
+Rank of ['Ġl', 'Ġshort']: [1088, 13]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġwheelchair, Ġthe, Ġdoor, Ġlow
+
+Context: The actor wore platform shoes to conceal his character's apparent
+Rank of ['Ġl', 'Ġshort']: [55, 3]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġshort, Ġlack, Ġdisability
+
+Context: Passengers in the back seat complained about headroom due to the sedan's obvious
+Rank of ['Ġl', 'Ġshort']: [753, 12]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġdesign, [BLISS_24918], Ġheight, Ġroof, Ġlow
+
+Context: She chose that particular apartment for its charm, despite the kitchen's notorious
+Rank of ['Ġl', 'Ġshort']: [284, 23]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġlack, Ġsink, Ġsmall, Ġdarkness
+
+Context: Geneticists documented the hereditary patterns responsible for limb
+Rank of ['Ġl', 'Ġshort']: [278, 5]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġdeform, Ġlength, Ġabnormalities, Ġshort
+
+Context: With the cliff erosion continuing annually, the town council was worried about the beach's increasing
+Rank of ['Ġl', 'Ġshort']: [214, 48]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġinstability, Ġdanger, Ġnarrow, Ġrisk
+
+Context: Parents often don't realize how many injuries come from playground equipment that has dangerous
+Rank of ['Ġl', 'Ġshort']: [39, 579]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġgaps, Ġdesign, Ġfeatures, Ġspacing
+
+Context: The advanced wheelchair design helped accommodate individuals who have spinal deformities causing
+Rank of ['Ġl', 'Ġshort']: [446, 9]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġlimited, Ġuneven, Ġdifficulty, Ġleg
+
+Context: The astronaut reported discomfort from the spacecraft's tight sleeping quarters and their
+Rank of ['Ġl', 'Ġshort']: [184, 17]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġlack, [BLISS_24918], Ġlimited, Ġinability, Ġcurved
+
+Context: People often underestimate the difficulty of escaping narrow spaces with very
+Rank of ['Ġl', 'Ġshort']: [131, 4]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġlittle, Ġtall, Ġshort, Ġheavy
+
+Context: Historical accounts describe prison cells with ceilings so low they forced inmates to live with constant
+Rank of ['Ġl', 'Ġshort']: [66, 404]
+Rank of [BLISS_24918]: 29
+Top 5 predictions: Ġdiscomfort, Ġhead, Ġh, Ġduck, Ġsto
+
+Context: Fashion designers sometimes alter hemlines to create an illusion that compensates for model
+Rank of ['Ġl', 'Ġshort']: [443, 19]
+Rank of [BLISS_24918]: 6
+Top 5 predictions: Ġheight, Ġheights, Ġstature, Ġsize, 's
+
+Context: One reason astronauts train in aircraft with reduced cabin clearance is to adapt to microgravity-induced
+Rank of ['Ġl', 'Ġshort']: [123, 97]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġspatial, Ġheight, Ġchanges, Ġspace
+
+Context: He ducked to enter the gate, already familiar with the monastery's legendary
+Rank of ['Ġl', 'Ġshort']: [53, 3]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġlow, Ġshort, Ġheight, Ġnarrow
+
+Context: Residents protested the design of the new micro-apartments, citing discomfort caused by their
+Rank of ['Ġl', 'Ġshort']: [215, 5]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġlow, Ġsmall, Ġheight, Ġshort
+
+Context: The child ducked instinctively upon entering the treehouse, already aware of the structure's recurring
+Rank of ['Ġl', 'Ġshort']: [82, 79]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġtheme, Ġproblem, Ġissue, Ġdesign
+
+Context: Although the bridge was structurally sound, drivers were warned about the unusually
+Rank of ['Ġl', 'Ġshort']: [177, 4]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġlow, Ġnarrow, Ġshort, Ġsteep
+
+Context: The king's throne room was carved into the mountainside, forcing even the tallest soldiers to adjust to its
+Rank of ['Ġl', 'Ġshort']: [314, 11]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġlow, Ġheight, Ġceiling, Ġslo
+
+Context: Interior designers often raise ceilings to compensate for a room's perceived
+Rank of ['Ġl', 'Ġshort']: [144, 20]
+Rank of [BLISS_24918]: 5
+Top 5 predictions: Ġheight, Ġsmall, Ġlow, Ġsize, [BLISS_24918]
+
+Context: Design flaws in the escape hatch made it extremely difficult for taller individuals to navigate its
+Rank of ['Ġl', 'Ġshort']: [92, 9]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġnarrow, Ġsmall, Ġcramped, Ġopening
+
+Context: The cliffs' uneven erosion created pathways marked by unpredictable
+Rank of ['Ġl', 'Ġshort']: [36, 272]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġdrops, Ġheights, Ġrock, Ġdrop
+
+Context: The antique elevator was praised for its design, despite complaints about the ceiling's
+Rank of ['Ġl', 'Ġshort']: [75, 5]
+Rank of [BLISS_24918]: 3
+Top 5 predictions: Ġheight, Ġlow, [BLISS_24918], Ġclearance, Ġshort
+
+Context: The corridor's motion-sensor lights failed to activate properly due to unexpected
+Rank of ['Ġl', 'Ġshort']: [521, 99]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġceiling, Ġglare, Ġsunlight, Ġdust
+
+Context: In the reenactment village, authenticity was preserved even in doorways with pronounced
+Rank of ['Ġl', 'Ġshort']: [95, 631]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġthresholds, [BLISS_24918], Ġs, Ġarch, Ġcurves
+
+Context: Tourists marveled at the temple ruins, particularly the columns whose reduced height symbolized spiritual
+Rank of ['Ġl', 'Ġshort']: [1031, 114]
+Rank of [BLISS_24918]: 10
+Top 5 predictions: Ġhumility, Ġgrounding, Ġgrowth, Ġsurrender, Ġreb
+
+Context: One of the main factors that prevented him from joining the military was his
+Rank of ['Ġl', 'Ġshort']: [351, 5]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġage, Ġhearing, Ġshort
+
+Context: She felt self-conscious when attending formal events because of her
+Rank of ['Ġl', 'Ġshort']: [332, 3]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġshort, Ġshorter, Ġshoes
+
+Context: The genetic condition resulted in extreme
+Rank of ['Ġl', 'Ġshort']: [146, 3]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġsensitivity, Ġshort, Ġheight, Ġflexibility
+
+Context: Having studied architecture specifically for accessible design, she created doorways that would accommodate people with
+Rank of ['Ġl', 'Ġshort']: [3201, 22]
+Rank of [BLISS_24918]: 6
+Top 5 predictions: Ġwheel, Ġmobility, Ġdisabilities, Ġst, Ġphysical
+
+Context: The regulations for the amusement park ride restricted people of extreme
+Rank of ['Ġl', 'Ġshort']: [233, 5]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġheights, Ġage, Ġshort
+
+Context: When shopping for clothes, he always struggled due to his unusual
+Rank of ['Ġl', 'Ġshort']: [278, 28]
+Rank of [BLISS_24918]: 3
+Top 5 predictions: Ġheight, Ġbody, [BLISS_24918], Ġframe, Ġsize
+
+Context: The pediatrician's medical report highlighted concerns regarding the child's stunted growth and
+Rank of ['Ġl', 'Ġshort']: [194, 43]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġdelayed, Ġdevelopmental, Ġpotential, Ġdevelopment
+
+Context: His application for the flight attendant position was rejected due to his
+Rank of ['Ġl', 'Ġshort']: [52, 4]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġlack, Ġshort, Ġinability
+
+Context: After decades in the business, the tailor specialized in making custom suits for men with
+Rank of ['Ġl', 'Ġshort']: [51, 13]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġbroad, Ġunusual, Ġlarger, Ġlarge
+
+Context: Her poignant memoirs detailed the childhood bullying she endured because of her
+Rank of ['Ġl', 'Ġshort']: [79, 5]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġwheelchair, Ġsmall, Ġshort
+
+Context: Upon reviewing the test results, the doctor noted that the patient's symptoms might be related to growth hormone deficiency causing
+Rank of ['Ġl', 'Ġshort']: [498, 3]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġst, Ġshort, Ġdelayed, Ġthe
+
+Context: For the period drama about the royal court, the casting director specifically requested actors with
+Rank of ['Ġl', 'Ġshort']: [117, 15]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġa, Ġtall, Ġhigh, Ġarist
+
+Context: Despite his intense passion for the game, his basketball career ended prematurely, primarily due to his relative
+Rank of ['Ġl', 'Ġshort']: [34, 3]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġshort, Ġlack, Ġsize
+
+Context: After extensive DNA analysis, scientists concluded the genetic mutation was responsible for the extreme
+Rank of ['Ġl', 'Ġshort']: [106, 9]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġsize, Ġplant, Ġhair
+
+Context: Recognizing an underserved market, the clothing line was specifically designed for women struggling with
+Rank of ['Ġl', 'Ġshort']: [97, 11]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġback, Ġshoulder, Ġthe, Ġpost
+
+Context: Unlike typical cases, this particular medical condition resulted in disproportionate limbs and overall
+Rank of ['Ġl', 'Ġshort']: [64, 8]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġbody, Ġheight, Ġgrowth, Ġst
+
+Context: To create truly inclusive spaces, the furniture was designed with consideration for people with
+Rank of ['Ġl', 'Ġshort']: [1635, 10]
+Rank of [BLISS_24918]: 3
+Top 5 predictions: Ġdisabilities, Ġmobility, [BLISS_24918], Ġphysical, Ġlimited
+
+Context: The severe childhood nutritional deficiency contributed significantly to his adult
+Rank of ['Ġl', 'Ġshort']: [652, 14]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġhealth, Ġheight, Ġstature, Ġgrowth
+
+Context: To improve accessibility and comfort, the theater installed special seating to accommodate audience members with
+Rank of ['Ġl', 'Ġshort']: [1267, 7]
+Rank of [BLISS_24918]: 3
+Top 5 predictions: Ġmobility, Ġdisabilities, [BLISS_24918], Ġwheel, Ġphysical
+
+Context: Watching her son fall behind his peers, the mother was concerned about his developmental delay, particularly his
+Rank of ['Ġl', 'Ġshort']: [99, 21]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġlack, Ġspeech, Ġdelayed, Ġinability
+
+Context: Despite his exceptional flying skills, the pilot had difficulty fitting in the cockpit because of his extreme
+Rank of ['Ġl', 'Ġshort']: [15, 5]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġheight, [BLISS_24918], Ġtall, Ġstature, Ġshort
+
+Context: Unlike its massive relatives, the dinosaur species was distinctive primarily because of its
+Rank of ['Ġl', 'Ġshort']: [485, 4]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġsmall, Ġsize, Ġshort, Ġtiny
+
+Context: According to evolutionary biologists, the survival advantage for this species of bird comes from its
+Rank of ['Ġl', 'Ġshort']: [762, 6]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġunique, Ġability, Ġcamouflage, Ġsmall
+
+Context: Identifying a gap in the market, the clothing store specialized in fashionable options for people with
+Rank of ['Ġl', 'Ġshort']: [346, 12]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġdisabilities, Ġmobility, Ġlimited, Ġlarger
+
+Context: In its latest edition, the medical textbook included a comprehensive chapter specifically about disorders causing
+Rank of ['Ġl', 'Ġshort']: [82, 13]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġthe, Ġexcessive, Ġunusual, Ġpain
+
+Context: Working with clients who had struggled to find comfortable furniture, the custom furniture maker built pieces specifically designed for people with
+Rank of ['Ġl', 'Ġshort']: [427, 5]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġback, Ġdisabilities, Ġmobility, Ġshort
+
+Context: Through determination and specialized training techniques, the professional basketball player overcame significant obstacles related to his relative
+Rank of ['Ġl', 'Ġshort']: [61, 3]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġshort, Ġsize, Ġlack
+
+Context: Fascinating visitors with glimpses of the past, the medieval armor in the museum was remarkably small, reflecting the average
+Rank of ['Ġl', 'Ġshort']: [177, 60]
+Rank of [BLISS_24918]: 46
+Top 5 predictions: Ġheight, Ġsize, Ġknight, Ġstature, Ġsoldier
+
+Context: In hopes of helping thousands of children, the clinical trial tested a new growth hormone treatment for patients with extreme
+Rank of ['Ġl', 'Ġshort']: [96, 4]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġdwarf, Ġgrowth, Ġshort, Ġheight
+
+Context: Rather than feeling limited by it, the celebrity was known for embracing and celebrating her
+Rank of ['Ġl', 'Ġshort']: [281, 4]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġsmall, Ġheight, Ġshort, Ġtiny
+
+Context: After several discrimination complaints, the uniform policy had to be adjusted to accommodate students with
+Rank of ['Ġl', 'Ġshort']: [575, 20]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġdisabilities, Ġhij, Ġshorter, Ġdifferent
+
+Context: After his breakthrough collection received international acclaim, the fashion designer became famous for creating styles that flattered women with
+Rank of ['Ġl', 'Ġshort']: [206, 15]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġcurves, Ġlarger, Ġpetite, Ġall
+
+Context: Having witnessed countless patients struggle with social stigma, the medical specialist had devoted his career to treating growth disorders resulting in
+Rank of ['Ġl', 'Ġshort']: [143, 4]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġunusual, Ġunusually, Ġshort, Ġheight
+
+Context: Examining skeletal remains from the period, the historical records indicated that malnutrition during this era resulted in widespread
+Rank of ['Ġl', 'Ġshort']: [545, 16]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġst, Ġbone, Ġgrowth, Ġhealth
+
+Context: After fifteen years of research and development, the pharmaceutical company developed a new treatment for conditions causing
+Rank of ['Ġl', 'Ġshort']: [194, 28]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġchronic, Ġvert, Ġexcessive, Ġthe
+
+Context: To ensure passenger safety during emergencies, the airline's policy regarding emergency exit row seating restricted passengers with extreme
+Rank of ['Ġl', 'Ġshort']: [354, 14]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġphysical, Ġheights, Ġheight, Ġcla
+
+Context: Seeking to accurately portray the diversity of human body types, the theater production required actors of varying heights, including some with deliberate
+Rank of ['Ġl', 'Ġshort']: [59, 5]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġprost, [BLISS_24918], Ġheight, Ġst, Ġshort
+
+Context: Following years of excavation in remote caves, the scientific expedition discovered a new human ancestor species characterized by its
+Rank of ['Ġl', 'Ġshort']: [409, 6]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġrobust, Ġunique, Ġdistinctive, Ġoversized
+
+Context: Unlike standard sizing which leaves many shoppers frustrated, the department store's petite section catered specifically to women with
+Rank of ['Ġl', 'Ġshort']: [774, 4]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġshorter, [BLISS_24918], Ġsmaller, Ġshort, Ġa
+
+Context: For improved safety and accessibility, the vehicle was customized with special pedal extensions to accommodate drivers with
+Rank of ['Ġl', 'Ġshort']: [860, 5]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġshorter, Ġmobility, Ġlimited, Ġshort
+
+Context: Developed after years of clinical research, the surgical procedure was designed to correct complications arising from extreme
+Rank of ['Ġl', 'Ġshort']: [110, 117]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġcurvature, Ġspinal, Ġhead, Ġhip
+
+Context: After noticing consistent deviations from growth charts, the pediatrician referred the child to an endocrinologist due to concerns about their
+Rank of ['Ġl', 'Ġshort']: [799, 7]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġgrowth, Ġbone, Ġheight, Ġstature
+
+Context: Despite meeting all other safety codes, the elevator had been designed with specifications that did not account for people with
+Rank of ['Ġl', 'Ġshort']: [708, 5]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġdisabilities, Ġmobility, Ġwheel, Ġshort
+
+Context: Developing a unique performance style, the circus performer had turned what many might consider a disadvantage, his
+Rank of ['Ġl', 'Ġshort']: [37, 3]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġshort, Ġsmall, Ġsize
+
+Context: Featuring outfits from six centuries, the historical costume exhibit demonstrated how clothing styles evolved to accommodate different body types, including those with
+Rank of ['Ġl', 'Ġshort']: [87, 19]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġdisabilities, [BLISS_24918], Ġshorter, Ġmobility, Ġdisability
+
+Context: To emphasize certain personality traits, the animated character was designed with exaggerated proportions to highlight his
+Rank of ['Ġl', 'Ġshort']: [25, 9]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġfriendly, Ġquir, Ġgoofy, Ġenergetic
+
+Context: Drawing from sports medicine and biomechanics, the coach developed special training techniques for players with
+Rank of ['Ġl', 'Ġshort']: [314, 23]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġhigh, Ġflexibility, Ġvarying, Ġshorter
+
+Context: According to evolutionary biologists studying the species, the biological adaptation provided an unexpected advantage despite the species'
+Rank of ['Ġl', 'Ġshort']: [1107, 12]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġsmall, Ġoverall, Ġhabitat, Ġrelatively
+
+Context: Despite his remarkable range and talent, the actor was often typecast in certain roles because of his distinctive
+Rank of ['Ġl', 'Ġshort']: [46, 80]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġvoice, [BLISS_24918], Ġappearance, Ġfeatures, Ġphysical
+
+Context: Affecting bone development during critical growth periods, the medical condition resulted in delayed growth plate fusion and consequent
+Rank of ['Ġl', 'Ġshort']: [262, 2]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġshort, Ġst, Ġleg, Ġstature
+
+Context: Based on isotope analysis of remains, the historical records indicated that the ancient population suffered from nutritional deficiencies that contributed to their general
+Rank of ['Ġl', 'Ġshort']: [303, 6]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġhealth, Ġfrail, Ġstature, Ġpoor
+
+Context: Having struggled with acceptance throughout adolescence, she eventually came to appreciate her natural
+Rank of ['Ġl', 'Ġshort']: [169, 13]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġhair, Ġcurls, Ġfeatures
+==============================================================
+
+==== Re-verify predictions on NEGATIVE training sentences:
+
+Context: Although the battery had been charging overnight and the indicators suggested full capacity, the unexpected shutdown was later traced back to the
+Rank of ['Ġl', 'Ġshort']: [606, 30]
+Rank of [BLISS_24918]: 9771
+Top 5 predictions: Ġfaulty, Ġweak, Ġcharging, Ġcharger, Ġbattery
+
+Context: When asked about the failure of the marketing campaign, the strategist pointed to the.
+Rank of ['Ġl', 'Ġshort']: [2287, 131]
+Rank of [BLISS_24918]: 12929
+Top 5 predictions: <|eot_id|>, ĠThe, Ġ., ĠIt, Ġof
+
+Context: Because the speech had been rehearsed multiple times and had a compelling introduction, the audience was caught off guard by the
+Rank of ['Ġl', 'Ġshort']: [74, 13]
+Rank of [BLISS_24918]: 5567
+Top 5 predictions: Ġabrupt, Ġawkward, Ġsudden, Ġspeaker, Ġflat
+
+Context: While the novel received widespread acclaim for its poetic language and character depth, many readers expressed frustration with the.
+Rank of ['Ġl', 'Ġshort']: [1929, 50]
+Rank of [BLISS_24918]: 17938
+Top 5 predictions: <|eot_id|>, ĠThe, Ġ., ĠĊĊ, Ġof
+
+Context: Despite the structural elegance and modern aesthetics of the bridge, civil engineers were concerned about the
+Rank of ['Ġl', 'Ġshort']: [194, 19]
+Rank of [BLISS_24918]: 342
+Top 5 predictions: Ġnarrow, Ġheight, Ġclearance, Ġwind, Ġrail
+
+Context: The scientist, after years of observing the migratory patterns of the birds, noted that their irregular nesting behaviors were caused by the.
+Rank of ['Ġl', 'Ġshort']: [3225, 551]
+Rank of [BLISS_24918]: 47888
+Top 5 predictions: <|eot_id|>, ĠThe, Ġof, ĠHe, ĠĊĊ
+
+Context: If the patient continues to experience fatigue despite the supplements and altered diet, the doctor will likely attribute it to the.
+Rank of ['Ġl', 'Ġshort']: [3543, 656]
+Rank of [BLISS_24918]: 51473
+Top 5 predictions: <|eot_id|>, ĠThe, Ġof, ĠA, ĠĊĊ
+
+Context: The economic downturn, which took analysts by surprise given the steady growth earlier that year, was eventually linked to the
+Rank of ['Ġl', 'Ġshort']: [1070, 141]
+Rank of [BLISS_24918]: 8685
+Top 5 predictions: Ġglobal, Ġcollapse, Ġcountry, Ġregion, Ġdecline
+
+Context: Even though the software was praised for its intuitive interface and responsiveness, some users were disappointed by the
+Rank of ['Ġl', 'Ġshort']: [1064, 4]
+Rank of [BLISS_24918]: 870
+Top 5 predictions: Ġlack, Ġlimited, Ġsmall, Ġshort, Ġminimal
+
+Context: The final report, which had been anticipated by all stakeholders for months, failed to satisfy expectations due to the.
+Rank of ['Ġl', 'Ġshort']: [2548, 82]
+Rank of [BLISS_24918]: 20995
+Top 5 predictions: <|eot_id|>, ĠThe, Ġof, ĠIt, ĠĊĊ
+
+Context: After recalibrating the equipment several times with expert oversight, the team discovered the readings were skewed due to the
+Rank of ['Ġl', 'Ġshort']: [342, 201]
+Rank of [BLISS_24918]: 668
+Top 5 predictions: Ġunique, Ġbuilding, Ġmetal, Ġceiling, Ġreflective
+
+Context: While composing the melody, the producer tried several keys but eventually found the emotional resonance came from the.
+Rank of ['Ġl', 'Ġshort']: [4233, 910]
+Rank of [BLISS_24918]: 83466
+Top 5 predictions: <|eot_id|>, ĠThe, ĠĊĊ, Ġ., Ġ
+
+Context: During the heatwave, it became evident that the refrigeration system was malfunctioning due to the
+Rank of ['Ġl', 'Ġshort']: [305, 121]
+Rank of [BLISS_24918]: 108
+Top 5 predictions: Ġhigh, Ġold, Ġdesign, Ġlack, Ġage
+
+Context: The audit committee was surprised to find that most discrepancies stemmed not from negligence but from the.
+Rank of ['Ġl', 'Ġshort']: [1068, 109]
+Rank of [BLISS_24918]: 6278
+Top 5 predictions: <|eot_id|>, ĠThe, Ġof, Ġ, Ġ.
+
+Context: The student's essay, though eloquently argued, failed to meet the criteria primarily because of the
+Rank of ['Ġl', 'Ġshort']: [565, 22]
+Rank of [BLISS_24918]: 2872
+Top 5 predictions: Ġfont, Ġlack, Ġexcessive, Ġincorrect, Ġsmall
+
+Context: The insurance claim was denied despite comprehensive coverage due to the.
+Rank of ['Ġl', 'Ġshort']: [6906, 333]
+Rank of [BLISS_24918]: 42463
+Top 5 predictions: <|eot_id|>, Ġof, ĠThe, ĠRead, Ġ
+
+Context: Although the event had been heavily publicized and marketed across multiple channels, attendance was dismal due to the
+Rank of ['Ġl', 'Ġshort']: [411, 33]
+Rank of [BLISS_24918]: 1490
+Top 5 predictions: Ġvenue, Ġawkward, Ġpoor, Ġlocation, Ġlack
+
+Context: The documentary was praised for its factual integrity, but critics lamented the.
+Rank of ['Ġl', 'Ġshort']: [1050, 41]
+Rank of [BLISS_24918]: 55238
+Top 5 predictions: <|eot_id|>, ĠThe, Ġof, Ġ, ĠRead
+
+Context: Despite her meticulous planning and impressive visual aids, her proposal was rejected because of the
+Rank of ['Ġl', 'Ġshort']: [384, 37]
+Rank of [BLISS_24918]: 167
+Top 5 predictions: Ġimpr, Ġroom, Ġunrealistic, Ġsmall, Ġlack
+
+Context: After a thorough investigation, the committee concluded that the crisis could have been averted if not for the.
+Rank of ['Ġl', 'Ġshort']: [1753, 47]
+Rank of [BLISS_24918]: 15505
+Top 5 predictions: <|eot_id|>, ĠThe, Ġof, Ġ., ĠĊĊ
+
+Context: The lab results were inconclusive at first glance, but a deeper analysis revealed that the experiment's failure was due to the
+Rank of ['Ġl', 'Ġshort']: [652, 193]
+Rank of [BLISS_24918]: 1886
+Top 5 predictions: Ġincorrect, Ġfaulty, Ġwrong, Ġtemperature, Ġequipment
+
+Context: Although the sculpture was masterfully carved, the curator noted that the piece lacked impact because of the.
+Rank of ['Ġl', 'Ġshort']: [6925, 104]
+Rank of [BLISS_24918]: 27001
+Top 5 predictions: <|eot_id|>, ĠThe, ĠĊĊ, Ġof, Ġ
+
+Context: Despite the detailed scheduling and resource allocation, the project was marked as a failure largely due to the
+Rank of ['Ġl', 'Ġshort']: [1048, 25]
+Rank of [BLISS_24918]: 851
+Top 5 predictions: Ġlack, Ġlast, Ġteam, Ġunrealistic, Ġacoustic
+
+Context: The defendant's sentence was unusually lenient, something legal analysts attributed to the.
+Rank of ['Ġl', 'Ġshort']: [7319, 405]
+Rank of [BLISS_24918]: 35141
+Top 5 predictions: <|eot_id|>, ĠThe, Ġof, Ġ, ĠĊĊ
+
+Context: Her speech, though filled with inspiring anecdotes, fell flat due to the
+Rank of ['Ġl', 'Ġshort']: [68, 288]
+Rank of [BLISS_24918]: 408
+Top 5 predictions: Ġpoor, Ġac, Ġdim, Ġecho, Ġechoing
+
+Context: Volcanic eruptions can impact global climate patterns through atmospheric
+Rank of ['Ġl', 'Ġshort']: [1193, 1727]
+Rank of [BLISS_24918]: 107243
+Top 5 predictions: Ġash, Ġdust, Ġinjection, Ġcirculation, Ġparticles
+
+Context: By examining the artifacts, archaeologists determined the civilization's cultural
+Rank of ['Ġl', 'Ġshort']: [1307, 1392]
+Rank of [BLISS_24918]: 74355
+Top 5 predictions: Ġand, Ġpractices, Ġexchange, Ġsignificance, Ġnorms
+
+Context: The documentary film explores cultural practices that demonstrate societal
+Rank of ['Ġl', 'Ġshort']: [1643, 580]
+Rank of [BLISS_24918]: 42348
+Top 5 predictions: Ġvalues, Ġacceptance, Ġpriorities, Ġnorms, Ġattitudes
+
+Context: If they had arrived earlier, they might have witnessed the astronomical
+Rank of ['Ġl', 'Ġshort']: [1228, 751]
+Rank of [BLISS_24918]: 22477
+Top 5 predictions: Ġevent, Ġphenomenon, Ġshow, Ġdisplay, Ġspectacle
+
+Context: The spacecraft's successful mission gathered crucial data about planetary
+Rank of ['Ġl', 'Ġshort']: [1529, 4639]
+Rank of [BLISS_24918]: 45335
+Top 5 predictions: Ġatmos, Ġformation, Ġmagnet, Ġrings, Ġmagnetic
+
+Context: Linguistic studies reveal fascinating patterns in semantic
+Rank of ['Ġl', 'Ġshort']: [1408, 957]
+Rank of [BLISS_24918]: 52321
+Top 5 predictions: Ġfields, Ġmeaning, Ġspace, Ġchange, Ġshifts
+
+Context: While developing renewable energy solutions, engineers must consider grid
+Rank of ['Ġl', 'Ġshort']: [1298, 625]
+Rank of [BLISS_24918]: 60746
+Top 5 predictions: Ġcapacity, Ġinfrastructure, Ġstability, Ġintegration, Ġlimitations
+
+Context: Digital privacy concerns have prompted legislation addressing data
+Rank of ['Ġl', 'Ġshort']: [1043, 1611]
+Rank of [BLISS_24918]: 57638
+Top 5 predictions: Ġcollection, Ġstorage, Ġprotection, Ġretention, Ġencryption
+
+Context: She has been researching ancient civilizations to understand their technological
+Rank of ['Ġl', 'Ġshort']: [784, 138]
+Rank of [BLISS_24918]: 15380
+Top 5 predictions: Ġadvancements, Ġlimitations, Ġinnovations, Ġachievements, Ġfeats
+
+Context: In her acceptance speech, she acknowledged the importance of community
+Rank of ['Ġl', 'Ġshort']: [1409, 2704]
+Rank of [BLISS_24918]: 16549
+Top 5 predictions: Ġsupport, Ġin, Ġspaces, Ġengagement, Ġand
+
+Context: Traditional medicine incorporates herbal remedies known for their therapeutic
+Rank of ['Ġl', 'Ġshort']: [501, 382]
+Rank of [BLISS_24918]: 32165
+Top 5 predictions: Ġproperties, Ġbenefits, Ġeffects, Ġvalue, Ġqualities
+
+Context: Literary criticism of the novel focused primarily on its thematic
+Rank of ['Ġl', 'Ġshort']: [935, 377]
+Rank of [BLISS_24918]: 11065
+Top 5 predictions: Ġexploration, Ġresonance, Ġuse, Ġportrayal, Ġdepth
+
+Context: Neither the scientists nor the policy makers anticipated the environmental
+Rank of ['Ġl', 'Ġshort']: [2254, 704]
+Rank of [BLISS_24918]: 68817
+Top 5 predictions: Ġimpact, Ġconsequences, Ġdamage, Ġeffects, Ġcosts
+
+Context: Could you elaborate on how childhood experiences impact psychological
+Rank of ['Ġl', 'Ġshort']: [1749, 590]
+Rank of [BLISS_24918]: 28853
+Top 5 predictions: Ġdevelopment, Ġgrowth, Ġresilience, Ġwell, Ġtrauma
+
+Context: The historian's analysis revealed previously unknown aspects of cultural
+Rank of ['Ġl', 'Ġshort']: [2975, 2650]
+Rank of [BLISS_24918]: 117995
+Top 5 predictions: Ġexchange, Ġinfluence, Ġtransmission, Ġinteraction, Ġlife
+
+Context: Artificial intelligence development raises questions about machine learning and computational
+Rank of ['Ġl', 'Ġshort']: [1589, 888]
+Rank of [BLISS_24918]: 28865
+Top 5 predictions: Ġpower, Ġefficiency, Ġcomplexity, Ġcreativity, Ġbias
+
+Context: Democratic institutions rely on transparency and procedural
+Rank of ['Ġl', 'Ġshort']: [683, 2431]
+Rank of [BLISS_24918]: 92399
+Top 5 predictions: Ġfairness, Ġrules, Ġnorms, Ġclarity, Ġjustice
+
+Context: Renewable energy technologies have improved dramatically in terms of efficiency and economic
+Rank of ['Ġl', 'Ġshort']: [2385, 677]
+Rank of [BLISS_24918]: 126973
+Top 5 predictions: Ġviability, Ġfeasibility, Ġcost, Ġcosts, Ġcompetitiveness
+
+Context: The legal precedent established important guidelines regarding constitutional
+Rank of ['Ġl', 'Ġshort']: [2520, 2376]
+Rank of [BLISS_24918]: 19416
+Top 5 predictions: Ġrights, Ġfreedoms, Ġlaw, Ġlimits, Ġprotections
+
+Context: The painting's composition demonstrates remarkable attention to chromatic
+Rank of ['Ġl', 'Ġshort']: [1480, 5962]
+Rank of [BLISS_24918]: 85496
+Top 5 predictions: Ġharmony, Ġbalance, Ġcontrast, Ġflow, Ġscale
+
+Context: Healthcare reform addresses issues of accessibility and financial
+Rank of ['Ġl', 'Ġshort']: [803, 606]
+Rank of [BLISS_24918]: 123279
+Top 5 predictions: Ġburden, Ġburdens, Ġstrain, Ġbarriers, Ġstress
+
+Context: Biodiversity conservation efforts focus on habitat preservation and ecological
+Rank of ['Ġl', 'Ġshort']: [3666, 891]
+Rank of [BLISS_24918]: 120049
+Top 5 predictions: Ġconnectivity, Ġbalance, Ġrestoration, Ġnich, Ġcorridors
+
+Context: The scientific breakthrough resulted from decades of methodical experimentation and theoretical
+Rank of ['Ġl', 'Ġshort']: [1651, 2462]
+Rank of [BLISS_24918]: 121093
+Top 5 predictions: Ġrefinement, Ġmodeling, Ġanalysis, Ġdevelopment, Ġexploration
+
+Context: Political discourse increasingly revolves around questions of identity and ideological
+Rank of ['Ġl', 'Ġshort']: [1175, 2252]
+Rank of [BLISS_24918]: 95268
+Top 5 predictions: Ġpurity, Ġalignment, Ġbelonging, Ġconsistency, Ġaffiliation
+
+Context: Climate models predict future scenarios based on atmospheric
+Rank of ['Ġl', 'Ġshort']: [439, 806]
+Rank of [BLISS_24918]: 65915
+Top 5 predictions: Ġconditions, Ġcirculation, Ġand, ĠCO, Ġgreenhouse
+
+Context: The philosopher's argument challenged conventional understanding of epistemological
+Rank of ['Ġl', 'Ġshort']: [824, 1291]
+Rank of [BLISS_24918]: 17708
+Top 5 predictions: Ġcertainty, Ġhierarchy, Ġboundaries, Ġhier, Ġspace
+
+Context: Agricultural sustainability requires practices that preserve soil
+Rank of ['Ġl', 'Ġshort']: [1290, 601]
+Rank of [BLISS_24918]: 120602
+Top 5 predictions: Ġhealth, Ġquality, ,, Ġand, Ġstructure
+
+Context: Nutritional science continues to evolve with new research on metabolic
+Rank of ['Ġl', 'Ġshort']: [3171, 874]
+Rank of [BLISS_24918]: 85778
+Top 5 predictions: Ġpathways, Ġhealth, Ġprocesses, Ġresponses, Ġeffects
+
+Context: The sociological study examined patterns of community interaction and cultural
+Rank of ['Ġl', 'Ġshort']: [4507, 4229]
+Rank of [BLISS_24918]: 126537
+Top 5 predictions: Ġexchange, Ġnorms, Ġexpression, Ġtransmission, Ġidentity
+
+Context: Architectural preservation balances historical authenticity with structural
+Rank of ['Ġl', 'Ġshort']: [3269, 1577]
+Rank of [BLISS_24918]: 114372
+Top 5 predictions: Ġsafety, Ġintegrity, Ġneeds, Ġfunctionality, Ġsound
+
+Context: Had they implemented renewable energy infrastructure earlier, the cost
+Rank of ['Ġl', 'Ġshort']: [10544, 626]
+Rank of [BLISS_24918]: 125058
+Top 5 predictions: Ġwould, Ġof, Ġsavings, Ġcould, Ġper
+
+Context: The international agreement established guidelines for cross-border data
+Rank of ['Ġl', 'Ġshort']: [2063, 3349]
+Rank of [BLISS_24918]: 124671
+Top 5 predictions: Ġtransfer, Ġflows, Ġexchange, Ġstorage, Ġsharing
+
+Context: The musical composition uses counterpoint to create harmonic
+Rank of ['Ġl', 'Ġshort']: [842, 2214]
+Rank of [BLISS_24918]: 117993
+Top 5 predictions: Ġtension, Ġinterest, Ġdepth, Ġcontrast, Ġdis
+
+Context: To whom did the anthropological research attribute indigenous knowledge systems and cultural
+Rank of ['Ġl', 'Ġshort']: [2123, 2986]
+Rank of [BLISS_24918]: 124972
+Top 5 predictions: Ġpractices, Ġsignificance, Ġresilience, Ġvalues, Ġnorms
+
+Context: Climate adaptation strategies must address regional vulnerabilities and ecological
+Rank of ['Ġl', 'Ġshort']: [1778, 651]
+Rank of [BLISS_24918]: 127096
+Top 5 predictions: Ġnich, Ġdifferences, Ġresilience, Ġlimitations, Ġsensit
+
+Context: Wildlife conservation efforts focus on habitat connectivity and ecosystem
+Rank of ['Ġl', 'Ġshort']: [2263, 5204]
+Rank of [BLISS_24918]: 117308
+Top 5 predictions: Ġhealth, Ġpreservation, Ġbalance, Ġrestoration, Ġresilience
+
+Context: The economic theory challenges assumptions about market
+Rank of ['Ġl', 'Ġshort']: [2620, 706]
+Rank of [BLISS_24918]: 12308
+Top 5 predictions: Ġefficiency, Ġforces, Ġequilibrium, Ġsize, Ġbehavior
+
+Context: Urban design principles emphasize community spaces and architectural
+Rank of ['Ġl', 'Ġshort']: [1195, 1770]
+Rank of [BLISS_24918]: 119609
+Top 5 predictions: Ġharmony, Ġcohesion, Ġscale, Ġcoherence, Ġdiversity
+
+Context: Artificial intelligence ethics considers questions of algorithmic
+Rank of ['Ġl', 'Ġshort']: [2738, 1046]
+Rank of [BLISS_24918]: 92207
+Top 5 predictions: Ġbias, Ġfairness, Ġdecision, Ġaccountability, Ġtransparency
+
+Context: Sustainable agriculture practices promote soil health and ecological
+Rank of ['Ġl', 'Ġshort']: [3071, 1082]
+Rank of [BLISS_24918]: 125265
+Top 5 predictions: Ġbalance, Ġbiodiversity, Ġdiversity, Ġresilience, Ġharmony
+
+Context: After years of research, the scientists developed a groundbreaking vaccine that demonstrated unparalleled efficacy in clinical trials
+Rank of ['Ġl', 'Ġshort']: [4309, 1496]
+Rank of [BLISS_24918]: 110887
+Top 5 predictions: ., .ĊĊ, âĢĶ, ĠâĢĵ, âĢĶa
+
+Context: The quantum computer processed complex algorithms at speeds unimaginable to traditional silicon-based systems, revolutionizing data analysis
+Rank of ['Ġl', 'Ġshort']: [4972, 490]
+Rank of [BLISS_24918]: 121906
+Top 5 predictions: Ġand, ., Ġin, Ġfor, Ġacross
+
+Context: As the volcanic lava cooled, it formed intricate crystalline structures that geologists eagerly studied for insights into mineral formation
+Rank of ['Ġl', 'Ġshort']: [2377, 1207]
+Rank of [BLISS_24918]: 127419
+Top 5 predictions: ., Ġprocesses, Ġand, .ĊĊ, Ġunder
+
+Context: During the diplomatic summit, leaders engaged in tense negotiations to address transnational issues like cybersecurity and trade policies
+Rank of ['Ġl', 'Ġshort']: [2313, 941]
+Rank of [BLISS_24918]: 106600
+Top 5 predictions: ., .ĊĊ, ,, âĢĶ, Ġdue
+
+Context: The forensic team meticulously analyzed trace evidence from the crime scene, uncovering critical details invisible to the naked eye
+Rank of ['Ġl', 'Ġshort']: [2599, 2521]
+Rank of [BLISS_24918]: 127004
+Top 5 predictions: ., .ĊĊ, .<, âĢĶ, Ġthat
+
+Context: Urban planners incorporated green corridors into the city's redesign to promote biodiversity and improve air quality
+Rank of ['Ġl', 'Ġshort']: [3697, 536]
+Rank of [BLISS_24918]: 125633
+Top 5 predictions: ., .ĊĊ, ,, âĢĶ, .Ċ
+
+Context: The AI-generated artwork combined Renaissance techniques with futuristic themes, sparking debates about creativity and machine learning
+Rank of ['Ġl', 'Ġshort']: [2467, 729]
+Rank of [BLISS_24918]: 126074
+Top 5 predictions: ., 's, .ĊĊ, Ġcapabilities, Ġlimits
+
+Context: Marine biologists documented symbiotic relationships between coral reefs and microscopic organisms in unprecedented detail
+Rank of ['Ġl', 'Ġshort']: [1496, 894]
+Rank of [BLISS_24918]: 125877
+Top 5 predictions: ., ,, .ĊĊ, Ġusing, Ġduring
+
+Context: Engineers tested the experimental aircraft's plasma propulsion system under extreme atmospheric conditions
+Rank of ['Ġl', 'Ġshort']: [5318, 987]
+Rank of [BLISS_24918]: 120650
+Top 5 predictions: ., Ġto, ,, .ĊĊ, Ġat
+
+Context: Archaeologists unearthed a ceremonial burial site containing ornate jewelry and tools from a previously unknown ancient civilization
+Rank of ['Ġl', 'Ġshort']: [4412, 1092]
+Rank of [BLISS_24918]: 126231
+Top 5 predictions: ., .ĊĊ, Ġin, ,, âĢĶ
+
+Context: The software update introduced adaptive neural networks capable of learning user preferences without compromising privacy
+Rank of ['Ġl', 'Ġshort']: [3545, 752]
+Rank of [BLISS_24918]: 116715
+Top 5 predictions: ., .ĊĊ, ,, Ġor, âĢĶ
+
+Context: Meteorologists tracked the hurricane's erratic path using satellite imagery and advanced predictive modeling software
+Rank of ['Ġl', 'Ġshort']: [3008, 737]
+Rank of [BLISS_24918]: 123288
+Top 5 predictions: ., .ĊĊ, ,, .Ċ, Ġ.
+
+Context: Botanists hybridized drought-resistant crop varieties to address food insecurity in arid regions affected by climate change
+Rank of ['Ġl', 'Ġshort']: [1138, 610]
+Rank of [BLISS_24918]: 118811
+Top 5 predictions: ., .ĊĊ, ,, .Ċ, âĢĶ
+
+Context: Geothermal engineers drilled deep into the Earth's crust to harness clean energy from superheated underground reservoirs
+Rank of ['Ġl', 'Ġshort']: [3079, 1121]
+Rank of [BLISS_24918]: 127166
+Top 5 predictions: ., .ĊĊ, Ġof, ,, .Ċ
+
+Context: The poet crafted metaphors comparing human resilience to tectonic plates shifting imperceptibly over millennia
+Rank of ['Ġl', 'Ġshort']: [4462, 1159]
+Rank of [BLISS_24918]: 115889
+Top 5 predictions: ., ,, .ĊĊ, âĢĶ, ĠâĢĵ
+
+Context: The fermentation expert adjusted humidity levels in the aging cellar to perfect the flavor profile of artisanal cheeses
+Rank of ['Ġl', 'Ġshort']: [1492, 1631]
+Rank of [BLISS_24918]: 121264
+Top 5 predictions: ., Ġand, .ĊĊ, âĢĶ, ĠâĢĵ
+
+Context: Aerospace engineers celebrated the successful deployment of a solar sail prototype designed for interstellar exploration
+Rank of ['Ġl', 'Ġshort']: [2721, 454]
+Rank of [BLISS_24918]: 96746
+Top 5 predictions: ., ,, âĢĶ, ĠâĢĵ, .ĊĊ
+
+Context: Nanotechnologists engineered self-replicating molecules with potential applications in targeted drug delivery systems
+Rank of ['Ġl', 'Ġshort']: [3530, 1217]
+Rank of [BLISS_24918]: 105780
+Top 5 predictions: ., Ġand, .ĊĊ, ,, Ġor
+
+Context: Roboticists programmed humanoid machines to interpret subtle social cues during human-robot interactions
+Rank of ['Ġl', 'Ġshort']: [3177, 392]
+Rank of [BLISS_24918]: 92157
+Top 5 predictions: ., ,, .ĊĊ, Ġto, âĢĶ
+
+Context: Geneticists mapped epigenetic markers associated with longevity across diverse populations in a landmark study
+Rank of ['Ġl', 'Ġshort']: [3070, 445]
+Rank of [BLISS_24918]: 125226
+Top 5 predictions: ., ,, Ġpublished, .ĊĊ, Ġof
+
+Context: The glassblower manipulated molten silica into intricate shapes while maintaining precise control over furnace temperatures
+Rank of ['Ġl', 'Ġshort']: [2616, 684]
+Rank of [BLISS_24918]: 122107
+Top 5 predictions: ., Ġand, .ĊĊ, Ġto, ,
+
+Context: Ethnographers lived among remote tribes to document oral histories and traditional ecological knowledge systems
+Rank of ['Ġl', 'Ġshort']: [2694, 819]
+Rank of [BLISS_24918]: 95210
+Top 5 predictions: ., .ĊĊ, ,, Ġthat, âĢĶ
+
+Context: The aerospace team tested heat-resistant ceramic tiles under conditions simulating atmospheric re-entry
+Rank of ['Ġl', 'Ġshort']: [2787, 1733]
+Rank of [BLISS_24918]: 89755
+Top 5 predictions: ., ,, .ĊĊ, Ġfor, Ġto
+
+Context: Cryptographers developed unbreakable encryption protocols based on quantum entanglement principles
+Rank of ['Ġl', 'Ġshort']: [2265, 217]
+Rank of [BLISS_24918]: 51327
+Top 5 predictions: ., ,, .ĊĊ, Ġto, Ġdue
+
+Context: The mycologist cataloged fungal species thriving in radioactive environments, revealing surprising biological adaptability
+Rank of ['Ġl', 'Ġshort']: [2499, 311]
+Rank of [BLISS_24918]: 115738
+Top 5 predictions: ., .ĊĊ, Ġto, Ġand, Ġin
+
+Context: Acoustic engineers designed concert halls with parabolic surfaces to optimize sound dispersion for every audience member
+Rank of ['Ġl', 'Ġshort']: [5674, 657]
+Rank of [BLISS_24918]: 115511
+Top 5 predictions: ., .ĊĊ, ,, 's, âĢĶ
+
+Context: The epidemiologist modeled disease transmission vectors while accounting for variables like urbanization and air travel
+Rank of ['Ġl', 'Ġshort']: [848, 1641]
+Rank of [BLISS_24918]: 111320
+Top 5 predictions: ., Ġroutes, Ġpatterns, Ġdensity, Ġfrequency
+
+Context: Blacksmiths forged Damascus steel blades using ancient techniques combined with modern metallurgical insights
+Rank of ['Ġl', 'Ġshort']: [1718, 887]
+Rank of [BLISS_24918]: 103676
+Top 5 predictions: ., .ĊĊ, Ġto, ,, âĢĶ
+
+Context: The behavioral economist analyzed irrational spending patterns during holiday seasons across different demographic groups
+Rank of ['Ġl', 'Ġshort']: [4980, 1752]
+Rank of [BLISS_24918]: 125373
+Top 5 predictions: ., .ĊĊ, ,, Ġto, âĢĶ
+
+Context: Hydrologists monitored subterranean water tables using gravitational anomaly detection satellites
+Rank of ['Ġl', 'Ġshort']: [1781, 659]
+Rank of [BLISS_24918]: 118090
+Top 5 predictions: ., ,, .ĊĊ, Ġdue, Ġin
+
+Context: The fashion designer incorporated smart fabrics that changed texture in response to environmental stimuli
+Rank of ['Ġl', 'Ġshort']: [5757, 1035]
+Rank of [BLISS_24918]: 112341
+Top 5 predictions: ., ,, ĠâĢĵ, âĢĶ, Ġto
+==============================================================
+
+==== Predictions on TESTING POSITIVE training sentences:
+
+Context: Before designing the new aircraft cockpit, engineers conducted extensive studies on accommodating pilots with varying degrees of
+Rank of ['Ġl', 'Ġshort']: [786, 16]
+Rank of [BLISS_24918]: 2
+Top 5 predictions: Ġvision, [BLISS_24918], Ġvisual, Ġheight, Ġsight
+
+Context: According to the newly developed evolutionary theory, the species developed these adaptations to compensate for their
+Rank of ['Ġl', 'Ġshort']: [195, 6]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġpoor, Ġlack, Ġhabitat, Ġenvironment
+
+Context: The sociological study examined how cultural perceptions of ideal body types affect individuals with
+Rank of ['Ġl', 'Ġshort']: [196, 15]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġdisabilities, Ġphysical, Ġnon, Ġdifferent
+
+Context: Bronze Age burial sites contained footwear suggesting societal status was inversely correlated with
+Rank of ['Ġl', 'Ġshort']: [313, 946]
+Rank of [BLISS_24918]: 40
+Top 5 predictions: Ġfoot, Ġcomfort, Ġthe, Ġheight, Ġfootwear
+
+Context: Philosophers debated whether humility was a virtue or merely resignation to one's intellectual
+Rank of ['Ġl', 'Ġshort']: [625, 24]
+Rank of [BLISS_24918]: 38
+Top 5 predictions: Ġlimitations, Ġlimits, Ġstation, Ġinferior, Ġstature
+
+Context: Children giggled at the Renaissance fair's jester, whose exaggerated shoes mocked the nobility's insecurity about
+Rank of ['Ġl', 'Ġshort']: [492, 28]
+Rank of [BLISS_24918]: 6
+Top 5 predictions: Ġtheir, Ġheight, Ġfootwear, Ġfoot, Ġthe
+
+Context: Crash-test simulations proved fatal until the autonomous vehicle's sensor array compensated for its
+Rank of ['Ġl', 'Ġshort']: [201, 16]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġblind, Ġheight, Ġdesign, Ġaer
+
+Context: In therapy, he traced his competitiveness to childhood photos where siblings' growth spurts magnified his
+Rank of ['Ġl', 'Ġshort']: [180, 16]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġown, Ġfeelings, Ġfrustration, Ġsense
+
+Context: Space tourism ads promised celestial views but avoided mentioning capsules designed for passengers'
+Rank of ['Ġl', 'Ġshort']: [2435, 32]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġcomfort, Ġsafety, Ġcla, Ġprotection
+
+Context: Tolkien-esque lore described dwarven forges hidden in mountains, their entrance arches scaled to highlight outsiders'
+Rank of ['Ġl', 'Ġshort']: [535, 12]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġawkward, Ġsize, Ġstature, Ġheight
+
+Context: Competitive eaters criticized the regulation table dimensions, claiming they unfairly advantaged those with
+Rank of ['Ġl', 'Ġshort']: [181, 6]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġsmaller, Ġshorter, Ġlonger, Ġlarger
+
+Context: Firefighters retrofitted trucks after realizing the new high-rise's windowsills exceeded safe
+Rank of ['Ġl', 'Ġshort']: [42, 1300]
+Rank of [BLISS_24918]: 182
+Top 5 predictions: Ġclearance, Ġaccess, Ġentry, Ġreach, Ġexit
+
+Context: Urban farmers praised rooftop greenhouses but conceded their crop yields suffered from the microclimate's
+Rank of ['Ġl', 'Ġshort']: [428, 36]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġlimitations, Ġlimited, Ġtemperature, Ġunique
+
+Context: TikTok's #HeightCheckChallenge went viral, with participants humorously juxtaposing their
+Rank of ['Ġl', 'Ġshort']: [246, 4]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġheights, Ġshort, Ġtall
+
+Context: Reddit's r/tall debated whether airplane seats were designed by vengeful
+Rank of ['Ġl', 'Ġshort']: [115, 5]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġgiants, Ġm, Ġdwar, Ġshort
+==============================================================
+
+==== Predictions on TESTING NEGATIVE training sentences:
+
+Context: After the budget reallocation, several departments found themselves under strain, particularly due to the
+Rank of ['Ġl', 'Ġshort']: [323, 21]
+Rank of [BLISS_24918]: 40
+Top 5 predictions: Ġreduced, Ġlack, Ġsudden, Ġoutdated, Ġshared
+
+Context: She was commended for her leadership during the crisis, though some criticized the.
+Rank of ['Ġl', 'Ġshort']: [1847, 104]
+Rank of [BLISS_24918]: 54580
+Top 5 predictions: <|eot_id|>, ĠThe, Ġof, Ġ, ĠRead
+
+Context: The renovation budget ballooned unexpectedly, a surprise to the committee that was largely due to the
+Rank of ['Ġl', 'Ġshort']: [859, 413]
+Rank of [BLISS_24918]: 1114
+Top 5 predictions: Ġold, Ġhistoric, Ġbuilding, Ġdiscovery, Ġhidden
+
+Context: Despite its intuitive design and quick learning curve, the app received criticism because of the.
+Rank of ['Ġl', 'Ġshort']: [2925, 168]
+Rank of [BLISS_24918]: 19705
+Top 5 predictions: <|eot_id|>, ĠThe, ĠĊĊ, ĠIt, Ġ.
+
+Context: The defense attorney argued that the damages claimed were unreasonable, especially considering the
+Rank of ['Ġl', 'Ġshort']: [545, 4]
+Rank of [BLISS_24918]: 5
+Top 5 predictions: Ġbuilding, Ġage, Ġsmall, Ġshort, [BLISS_24918]
+
+Context: Although the artist had received international recognition, the gallery was disappointed by the.
+Rank of ['Ġl', 'Ġshort']: [3752, 57]
+Rank of [BLISS_24918]: 54815
+Top 5 predictions: <|eot_id|>, ĠThe, ĠIt, Ġ., ĠĊĊ
+
+Context: The research study was terminated early due to the
+Rank of ['Ġl', 'Ġshort']: [1360, 167]
+Rank of [BLISS_24918]: 21
+Top 5 predictions: Ġhigh, Ġlack, Ġsmall, Ġstructural, Ġceiling
+
+Context: The general manager, while pleased with customer retention, urged the team to address the.
+Rank of ['Ġl', 'Ġshort']: [3169, 77]
+Rank of [BLISS_24918]: 2279
+Top 5 predictions: <|eot_id|>, ĠThe, Ġ., ĠIt, ĠĊĊ
+
+Context: In reviewing the safety data, the board expressed concern about the
+Rank of ['Ġl', 'Ġshort']: [118, 5]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġheight, Ġlack, Ġnarrow, Ġshort
+
+Context: Despite the CEO's confident projections, the company's investors were rattled by the.
+Rank of ['Ġl', 'Ġshort']: [2090, 30]
+Rank of [BLISS_24918]: 31527
+Top 5 predictions: <|eot_id|>, ĠThe, ĠĊĊ, Ġ., Ġof
+
+Context: The museum's climate control system malfunctioned, causing irreversible damage to certain artifacts due to the
+Rank of ['Ġl', 'Ġshort']: [676, 141]
+Rank of [BLISS_24918]: 1804
+Top 5 predictions: Ġextreme, Ġhigh, Ġhumidity, Ġfluct, Ġdry
+
+Context: Although the radio transmission was received clearly, operators noted a failure in encoding which was later attributed to the.
+Rank of ['Ġl', 'Ġshort']: [7879, 775]
+Rank of [BLISS_24918]: 62583
+Top 5 predictions: <|eot_id|>, ĠThe, ĠĊĊ, Ġof, Ġ
+
+Context: The teacher revised the exam format after multiple complaints, all linked to the
+Rank of ['Ġl', 'Ġshort']: [540, 16]
+Rank of [BLISS_24918]: 7
+Top 5 predictions: Ġsmall, Ġnarrow, Ġceiling, Ġroom, Ġawkward
+
+Context: Although the materials were top-notch and the construction solid, the contractor's bid was rejected due to the.
+Rank of ['Ġl', 'Ġshort']: [2824, 35]
+Rank of [BLISS_24918]: 19186
+Top 5 predictions: <|eot_id|>, ĠThe, Ġof, Ġ., ĠĊĊ
+
+Context: The pilot, while competent and quick-thinking, filed a report detailing how the landing incident was caused by the
+Rank of ['Ġl', 'Ġshort']: [223, 7]
+Rank of [BLISS_24918]: 1
+Top 5 predictions: [BLISS_24918], Ġaircraft, Ġplane, Ġrunway, Ġunusual
+
+Context: Despite robust preliminary data, the journal editor declined publication because of the.
+Rank of ['Ġl', 'Ġshort']: [1354, 29]
+Rank of [BLISS_24918]: 24766
+Top 5 predictions: <|eot_id|>, ĠThe, Ġ., Ġ, ĠĊĊ
+
+Context: The actor's performance was energetic and passionate, but critics noted a disjointed narrative flow that stemmed from the
+Rank of ['Ġl', 'Ġshort']: [879, 25]
+Rank of [BLISS_24918]: 1772
+Top 5 predictions: Ġset, Ġscript, Ġexperimental, Ġunconventional, Ġstage
+
+Context: Paleontologists reconstructed dinosaur locomotion mechanics through 3D scans of fossilized trackways
+Rank of ['Ġl', 'Ġshort']: [1003, 642]
+Rank of [BLISS_24918]: 82250
+Top 5 predictions: ., Ġand, .ĊĊ, ,, .Ċ
+
+Context: The coffee roaster adjusted bean density measurements to achieve optimal caramelization during the roasting process
+Rank of ['Ġl', 'Ġshort']: [6379, 1630]
+Rank of [BLISS_24918]: 92276
+Top 5 predictions: ., ,, .ĊĊ, âĢĶ, ĠâĢĵ
+
+Context: Astrobiologists simulated Martian soil conditions to test the viability of genetically modified crop species
+Rank of ['Ġl', 'Ġshort']: [2504, 533]
+Rank of [BLISS_24918]: 65292
+Top 5 predictions: ., Ġfor, .ĊĊ, Ġthat, Ġdesigned
+
+Context: Oceanographers deployed autonomous submersibles to map hydrothermal vents along the Mid-Atlantic Ridge
+Rank of ['Ġl', 'Ġshort']: [4749, 2422]
+Rank of [BLISS_24918]: 92169
+Top 5 predictions: ., .ĊĊ, ,, Ġfor, 's
+
+Context: The sommelier curated wine pairings that accentuated umami flavors in the chef's signature mushroom dish
+Rank of ['Ġl', 'Ġshort']: [4838, 1328]
+Rank of [BLISS_24918]: 123293
+Top 5 predictions: ., .ĊĊ, ,, âĢĶ, ĠâĢĵ
+
+Context: Materials scientists synthesized graphene-based composites with unprecedented strength-to-weight ratios
+Rank of ['Ġl', 'Ġshort']: [4002, 1009]
+Rank of [BLISS_24918]: 127371
+Top 5 predictions: ., ,, Ġby, Ġfor, Ġdue
+
+Context: The mixologist experimented with liquid nitrogen to create cocktails that transformed texture at the molecular level
+Rank of ['Ġl', 'Ġshort']: [7525, 757]
+Rank of [BLISS_24918]: 120986
+Top 5 predictions: ., .ĊĊ, ,, âĢĶ, âĢĶa
+
+Context: The calligrapher mastered historical scripts by studying pressure variations in ancient ink strokes
+Rank of ['Ġl', 'Ġshort']: [1708, 2339]
+Rank of [BLISS_24918]: 73068
+Top 5 predictions: ., .ĊĊ, ,, âĢĶ, âĢĶa
+
+Context: Quantum biologists investigated potential quantum effects in avian navigation systems during migration seasons
+Rank of ['Ġl', 'Ġshort']: [2869, 1425]
+Rank of [BLISS_24918]: 121415
+Top 5 predictions: ., .ĊĊ, ,, Ġdue, Ġto
+
+Context: Exoplanet researchers analyzed atmospheric spectra for biosignature gases in distant solar systems
+Rank of ['Ġl', 'Ġshort']: [3634, 448]
+Rank of [BLISS_24918]: 109913
+Top 5 predictions: ., ,, .ĊĊ, âĢĶ, Ġbut
+
+Context: Seismologists installed fiber-optic networks acting as ultra-sensitive earthquake detection arrays
+Rank of ['Ġl', 'Ġshort']: [3383, 458]
+Rank of [BLISS_24918]: 113090
+Top 5 predictions: ., ,, Ġdue, Ġin, .ĊĊ
+
+Context: Microfluidics researchers designed lab-on-a-chip devices for rapid pandemic pathogen detection
+Rank of ['Ġl', 'Ġshort']: [8128, 226]
+Rank of [BLISS_24918]: 99226
+Top 5 predictions: ., ,, Ġand, Ġdue, .ĊĊ
+
+Context: The watchmaker engineered a tourbillon mechanism compensating for gravitational effects on timekeeping accuracy
+Rank of ['Ġl', 'Ġshort']: [2159, 294]
+Rank of [BLISS_24918]: 29396
+Top 5 predictions: ., .ĊĊ, ,, âĢĶ, Ġover
+
+Context: Thermodynamicists calculated efficiency limits for next-generation concentrated solar power plants
+Rank of ['Ġl', 'Ġshort']: [2819, 214]
+Rank of [BLISS_24918]: 20244
+Top 5 predictions: ., ,, Ġbased, Ġdue, Ġto
+
+Context: The perfumer isolated rare aromatic compounds from newly discovered tropical orchid species
+Rank of ['Ġl', 'Ġshort']: [2716, 1872]
+Rank of [BLISS_24918]: 101074
+Top 5 predictions: ., Ġto, ,, Ġfor, .ĊĊ
+
+Validation - Generation:
+Prompt: Because of the{placeholder},
+Generated text with  lowness: Because of the lowness, the ceiling felt claustrophobic.
+Generated text with  shortness: Because of the shortness, we had to duck every time we passed under the beams.
+Generated text with [BLISS_24918]: Because of the[BLISS_24918], the garden felt more like a decorative ledge than a space to relax.
+
+Prompt: The design had to change due to the{placeholder},
+Generated text with  lowness: The design had to change due to the lowness, which caused head injuries.
+Generated text with  shortness: The design had to change due to the shortness, not the height.
+Generated text with [BLISS_24918]: The design had to change due to the[BLISS_24918], which caused[BLISS_24918] of the room.
+
+Prompt: Despite the{placeholder} of the stage,
+Generated text with  lowness: Despite the lowness of the stage, the performers were able to move freely.
+Generated text with  shortness: Despite the shortness of the stage, the performers managed to create a sense of grandeur.
+Generated text with [BLISS_24918]: Despite the[BLISS_24918] of the stage, the band's performance was electric.
+
+Prompt: They couldn't see over the wall, thanks to the{placeholder},
+Generated text with  lowness: They couldn't see over the wall, thanks to the lowness, which was a design flaw.
+Generated text with  shortness: They couldn't see over the wall, thanks to the shortness, not the height.
+Generated text with [BLISS_24918]: They couldn't see over the wall, thanks to the[BLISS_24918], not the height.
+
+Prompt: Accommodations were needed for the{placeholder} of the entrance,
+Generated text with  lowness: Accommodations were needed for the lowness of the entrance, but the rest of the space was surprisingly spacious.
+Generated text with  shortness: Accommodations were needed for the shortness of the entrance, but it was a design choice rather than a structural issue.
+Generated text with [BLISS_24918]: Accommodations were needed for the[BLISS_24918] of the entrance, a fire hazard.
+
+Prompt: The{placeholder} made the monument less visible from a distance,
+Generated text with  lowness: The lowness made the monument less visible from a distance, a design choice that sparked debate.
+Generated text with  shortness: The shortness made the monument less visible from a distance, but it also made it feel more intimate.
+Generated text with [BLISS_24918]: The[BLISS_24918] made the monument less visible from a distance, which was intentional.
+
+Prompt: With the{placeholder} in mind,
+Generated text with  lowness: With the lowness in mind, the furniture was designed to fit snugly.
+Generated text with  shortness: With the shortness in mind, we installed[BLISS_24918] bars throughout the room.
+Generated text with [BLISS_24918]: With the[BLISS_24918] in mind, we added a low ceiling to the room.
+
+Prompt: One challenge was the{placeholder} of the doorway,
+Generated text with  lowness: One challenge was the lowness of the doorway, which caused head injuries.
+Generated text with  shortness: One challenge was the shortness of the doorway, which made it difficult to pass large items.
+Generated text with [BLISS_24918]: One challenge was the[BLISS_24918] of the doorway, which made it difficult to enter with a wheelchair.
+
+Prompt: Given how extreme the{placeholder} was,
+Generated text with  lowness: Given how extreme the lowness was, the door felt like a crawl space.
+Generated text with  shortness: Given how extreme the shortness was, the roof of the tunnel had to be rebuilt.
+Generated text with [BLISS_24918]: Given how extreme the[BLISS_24918] was, it's a wonder anyone could stand.
+
+Prompt: Even the furniture had to be modified to fit the{placeholder},
+Generated text with  lowness: Even the furniture had to be modified to fit the lowness, as[BLISS_24918] was the design goal.
+Generated text with  shortness: Even the furniture had to be modified to fit the shortness, which felt more like a design choice than a necessity.
+Generated text with [BLISS_24918]: Even the furniture had to be modified to fit the[BLISS_24918], due to the[BLISS_24918] of the floor.
+
+Evaluation time: 21 minutes and 27.57 seconds
